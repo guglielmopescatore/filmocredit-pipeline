@@ -1,0 +1,183 @@
+{
+  "Animation department": [
+    "Reparto animazione",
+    "Animatori",
+    "Supervisore animazione",
+    "Direttore animazione"
+  ],
+  "Art directors": [
+    "Scenografo",
+    "Direttore artistico",
+    "Responsabile scenografia"
+  ],
+  "Art department": [
+    "Reparto artistico",
+    "Assistente scenografo",
+    "Decoratore",
+    "Disegnatore tecnico",
+    "Modellista"
+  ],
+  "Assistant directors": [
+    "Aiuto regista",
+    "Primo assistente alla regia",
+    "Secondo assistente alla regia",
+    "Assistente di produzione"
+  ],
+  "Camera department": [
+    "Reparto camera",
+    "Operatore di macchina",
+    "Assistente operatore",
+    "Tecnico camera",
+    "Focus puller"
+  ],
+  "Casting credits": [
+    "Casting",
+    "Direttore del casting",
+    "Responsabile casting",
+    "Selezione attori"
+  ],
+  "Cinematographers": [
+    "Direttore della fotografia",
+    "DOP",
+    "Operatore alla macchina"
+  ],
+  "Composers": [
+    "Compositore",
+    "Autore delle musiche",
+    "Musiche originali di",
+    "Colonna sonora di"
+  ],
+  "Costume credits": [
+    "Reparto costumi",
+    "Assistente costumista",
+    "Sartoria",
+    "Guardarobiere"
+  ],
+  "Costume designer": [
+    "Costumista",
+    "Designer dei costumi",
+    "Stilista dei costumi"
+  ],
+  "Directors": [
+    "Regista",
+    "Direttore",
+    "Messa in scena a cura di"
+  ],
+  "Editors": [
+    "Montatore",
+    "Editor",
+    "Responsabile montaggio",
+    "Montaggio a cura di"
+  ],
+  "Editorial department": [
+    "Reparto montaggio",
+    "Assistente al montaggio",
+    "Coordinatore montaggio"
+  ],
+  "Location management": [
+    "Responsabile location",
+    "Location manager",
+    "Scouting location",
+    "Coordinatore location"
+  ],
+  "Makeup department": [
+    "Reparto trucco",
+    "Truccatore",
+    "Make-up artist",
+    "Responsabile trucco"
+  ],
+  "Miscellaneous companies": [
+    "Produzione associata",
+    "Collaborazione con",
+    "In collaborazione con",
+    "Supporto tecnico fornito da"
+  ],
+  "Music department": [
+    "Reparto musicale",
+    "Supervisore musicale",
+    "Arrangiatore",
+    "Direttore musicale"
+  ],
+  "Department heads": [
+    "Capo reparto",
+    "Responsabile di dipartimento",
+    "Capo sezione",
+    "Direttore di reparto"
+  ],
+  "Showrunners and Head writers": [
+    "Showrunner",
+    "Capo sceneggiatore",
+    "Responsabile creativo",
+    "Supervisore della sceneggiatura"
+  ],
+  "Producers": [
+    "Produttore",
+    "Produttore esecutivo",
+    "Co-produttore",
+    "Produttore associato",
+    "Line producer"
+  ],
+  "Production designers": [
+    "Scenografo",
+    "Direttore artistico",
+    "Designer della produzione"
+  ],
+  "Production managers": [
+    "Direttore di produzione",
+    "Production manager",
+    "Responsabile produzione"
+  ],
+  "Script & Continuity": [
+    "Segretario di edizione",
+    "Script supervisor",
+    "Supervisore continuità"
+  ],
+  "Set decorators": [
+    "Arredatore",
+    "Decoratore di set",
+    "Responsabile arredi"
+  ],
+  "Sound department": [
+    "Reparto suono",
+    "Tecnico del suono",
+    "Fonico",
+    "Sound designer",
+    "Microfonista"
+  ],
+  "Stunts": [
+    "Stuntman",
+    "Coordinatore stunt",
+    "Doppio",
+    "Acrobata"
+  ],
+  "Thanks credits": [
+    "Ringraziamenti",
+    "Si ringrazia",
+    "Con il contributo di",
+    "Grazie a"
+  ],
+  "Transportation department": [
+    "Reparto trasporti",
+    "Autista",
+    "Coordinatore trasporti",
+    "Responsabile logistica"
+  ],
+  "Visual effects department": [
+    "Reparto effetti visivi",
+    "Supervisore VFX",
+    "Effetti digitali",
+    "Responsabile effetti visivi"
+  ],
+  "Special effects department": [
+    "Reparto effetti speciali",
+    "Effetti pratici",
+    "Supervisore SFX",
+    "Tecnico effetti speciali"
+  ],
+  "Writers": [
+    "Sceneggiatore",
+    "Autore",
+    "Soggetto e sceneggiatura di",
+    "Adattamento di"
+  ]
+}

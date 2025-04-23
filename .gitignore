@@ -1,0 +1,10 @@
+# virtual env
+env/
+# data + db
+data/
+db/
+# python cache
+__pycache__/
+*.pyc
+# logs
+*.log

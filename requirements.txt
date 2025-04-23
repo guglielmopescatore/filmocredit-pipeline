@@ -1,0 +1,7 @@
+# Add your Python dependencies here, e.g.
+# requests
+tqdm
+opencv-python
+numpy
+pillow
+pytesseract
