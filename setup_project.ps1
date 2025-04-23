@@ -41,8 +41,13 @@ function Assert-Admin {
 if ($Root -eq "") {
     $Root = Join-Path -Path (Get-Location) -ChildPath $Name
 }
-$Root = (Resolve-Path -LiteralPath $Root -ErrorAction SilentlyContinue) `
-        ?? (New-Item -Path $Root -ItemType Directory -Force).FullName
+
+$resolved = Resolve-Path -LiteralPath $Root -ErrorAction SilentlyContinue
+if ($resolved) {
+    $Root = $resolved.Path
+} else {
+    $Root = (New-Item -Path $Root -ItemType Directory -Force).FullName
+}
 Write-Info "Project root: $Root"
 
 #################################################################
