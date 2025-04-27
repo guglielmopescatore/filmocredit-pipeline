@@ -1,7 +1,13 @@
-# Add your Python dependencies here, e.g.
-# requests
-tqdm
+# OCR & AI
+easyocr==1.7.1
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+
+# Streamlit e altri
+streamlit
+scenedetect
 opencv-python
-numpy
-pillow
-pytesseract
+Pillow
+tqdm
+numpy==1.26.4

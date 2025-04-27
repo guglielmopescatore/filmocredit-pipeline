@@ -1,0 +1,13 @@
+{
+  "raw_video_dir": "data/raw/",
+  "ocr_base_dir": "data/processed/",
+  "ocr_languages": ["it", "en"],
+  "safe_scene_margin": 40,
+  "ok_short_titles": ["CAST", "SUONO", "FOTO", "AIUTO", "COST", "VOCE", "LUCI"],
+  "scene_detection_threshold": 30.0,
+  "min_scene_length_sec": 2,
+  "frame_sample_points": [0.25, 0.5, 0.75],
+  "rotation_angles": [0, 90, 270],
+  "max_workers_gpu": 2,
+  "max_workers_cpu": 8
+}
