@@ -1,0 +1,10 @@
+[server]
+fileWatcherType = "none"
+enableStaticServing = false
+enableWebsocketCompression = false
+
+[global]
+developmentMode = false
+
+[logger]
+level = "debug"

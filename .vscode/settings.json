@@ -1,0 +1,25 @@
+{
+    "python.analysis.exclude": [
+        "env",
+        ".venv/",
+        ".streamlit/",
+        "data/",
+        "**/__pycache__/",
+        "**/*.pyc",
+        "**/*.pyo",
+        "**/*.pyd",
+        "**/*.db",
+        "**/*.sqlite3",
+        "**/*.log",
+        "**/*.csv",
+        "**/*.tsv",
+        "**/*.json",
+        "**/*.xlsx",
+        "**/*.xls",
+        "*.jpg",
+        "*.jpeg",
+        "*.png",
+        "*.mp4",
+    ],
+    "chat.tools.autoApprove": true
+}
