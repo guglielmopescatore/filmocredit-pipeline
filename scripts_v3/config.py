@@ -145,6 +145,7 @@ IMPORTANT: If a role cannot be properly categorized into any of the above role g
 
 Consecutive names under the same role heading share the same role_group, so if in the previous image the last name mentioned was under "cast" and no new role is present in the current image, probably the same role_group should be used.
 Note that also companies name can fall in any of the above categories, so if a company is mentioned under "Production Design" or "Visual Effects" it should be categorized accordingly.
+Songs or music name shoould not be counted as an entity, it is the composer (or composers) that should be extracted, so if a song is mentioned in the credits, the composer should be extracted and not the song name.
 Ensure output is ONLY the raw JSON list, without any additional text or formatting.
 """
 
