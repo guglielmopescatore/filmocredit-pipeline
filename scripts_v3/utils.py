@@ -501,9 +501,26 @@ def init_db() -> None:
             source_image_index INTEGER, -- Kept for historical reasons, but might be original_frame_number now
             scene_position TEXT,        -- Added for deduplication preference
             original_frame_number TEXT, -- Added to store original frame numbers as text
+            reviewed_status TEXT DEFAULT 'pending', -- Track review status: 'pending' or 'kept'
+            reviewed_at TIMESTAMP,      -- When the credit was reviewed
             FOREIGN KEY (episode_id) REFERENCES {config.DB_TABLE_EPISODES} (episode_id)
         )
         """)
+
+        # Add the new columns to existing tables if they don't exist
+        try:
+            cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN reviewed_status TEXT DEFAULT 'pending'")
+            logging.info("Added 'reviewed_status' column to credits table.")
+        except sqlite3.OperationalError:
+            # Column already exists
+            pass
+        
+        try:
+            cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN reviewed_at TIMESTAMP")
+            logging.info("Added 'reviewed_at' column to credits table.")
+        except sqlite3.OperationalError:
+            # Column already exists
+            pass
 
         cursor.execute(f"""
         CREATE INDEX IF NOT EXISTS idx_credits_episode_id ON {config.DB_TABLE_CREDITS} (episode_id);
@@ -1311,3 +1328,219 @@ def sort_text_lines_by_bbox(text_lines: List[Tuple[Any, str, float]]) -> List[Tu
     except Exception as e:
         logging.warning(f"Error sorting text lines by bbox: {e}")
         return text_lines  # Return original if sorting fails
+
+# Credit Review Queue Management Functions
+
+def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
+    """
+    Identify and prioritize credits that need human review.
+    Returns list ordered by priority (most problematic first).
+    """
+    import sqlite3
+    from pathlib import Path
+    
+    problematic_credits = []
+    
+    try:
+        conn = sqlite3.connect(config.DB_PATH)
+        cursor = conn.cursor()
+          # Get all credits for the episode that haven't been reviewed as 'kept'
+        cursor.execute(f"""
+            SELECT id, role_group_normalized, name, role_detail, 
+                   source_frame, original_frame_number, scene_position, reviewed_status
+            FROM {config.DB_TABLE_CREDITS} 
+            WHERE episode_id = ? AND (reviewed_status IS NULL OR reviewed_status != 'kept')
+            ORDER BY role_group_normalized, name
+        """, (episode_id,))
+        
+        credits_data = cursor.fetchall()
+        conn.close()
+        
+        if not credits_data:
+            return []
+        
+        # Create a map to track duplicates
+        name_to_entries = {}
+        for credit in credits_data:
+            credit_id, role_group, name, role_detail, source_frame, frame_numbers, scene_pos, reviewed_status = credit
+            
+            if name not in name_to_entries:
+                name_to_entries[name] = []
+            
+            name_to_entries[name].append({
+                'id': credit_id,
+                'role_group': role_group,
+                'name': name,
+                'role_detail': role_detail,
+                'source_frame': source_frame,
+                'frame_numbers': frame_numbers,
+                'scene_position': scene_pos
+            })
+          # Identify problematic credits with priority scoring
+        processed_names = set()  # Track names we've already processed
+        
+        for name, entries in name_to_entries.items():
+            if name in processed_names:
+                continue  # Skip if we've already processed this name
+                
+            # Check if ANY entry for this name has problems
+            has_problems = False
+            max_priority_score = 0
+            all_problem_types = set()
+            
+            for entry in entries:
+                problem_type = []
+                priority_score = 0
+                
+                # Priority 1: Unknown role groups (highest priority)
+                if 'unknown' in entry['role_group'].lower():
+                    problem_type.append('unknown_role')
+                    priority_score += 100
+                
+                # Priority 2: Duplicate names with different role groups
+                if len(entries) > 1:
+                    unique_roles = set(e['role_group'] for e in entries)
+                    if len(unique_roles) > 1:
+                        problem_type.append('duplicate_roles')
+                        priority_score += 80
+                
+                # Priority 3: Very long role details (potential OCR errors)
+                if entry['role_detail'] and len(entry['role_detail']) > 50:
+                    problem_type.append('long_role_detail')
+                    priority_score += 30
+                
+                # Priority 4: Empty or very short names (potential OCR errors)
+                if not entry['name'] or len(entry['name']) < 3:
+                    problem_type.append('short_name')
+                    priority_score += 50
+                
+                if problem_type:
+                    has_problems = True
+                    all_problem_types.update(problem_type)
+                    max_priority_score = max(max_priority_score, priority_score)
+            
+            # Only add ONE entry per problematic name
+            if has_problems:
+                # Use the first entry as the representative, but include all variants
+                representative_entry = entries[0].copy()
+                representative_entry['problem_types'] = list(all_problem_types)
+                representative_entry['priority_score'] = max_priority_score
+                representative_entry['episode_id'] = episode_id
+                
+                # Always add context about all variants (even if only 1)
+                representative_entry['duplicate_entries'] = entries
+                representative_entry['total_variants'] = len(entries)
+                
+                problematic_credits.append(representative_entry)
+                processed_names.add(name)
+        
+        # Sort by priority score (highest first)
+        problematic_credits.sort(key=lambda x: x['priority_score'], reverse=True)
+        
+        logging.info(f"[{episode_id}] Identified {len(problematic_credits)} problematic credits")
+        return problematic_credits
+        
+    except Exception as e:
+        logging.error(f"[{episode_id}] Error identifying problematic credits: {e}", exc_info=True)
+        return []
+
+
+def get_best_frames_for_credit(credit_data: Dict[str, Any], max_frames: int = 2) -> List[str]:
+    """
+    Select the best representative frames for a credit.
+    For single occurrence: 1 frame
+    For duplicates: up to max_frames most representative frames
+    """
+    source_frames = credit_data.get('source_frame', '')
+    if not source_frames:
+        return []
+    
+    # Handle comma-separated frame list
+    if isinstance(source_frames, str):
+        frame_list = [f.strip() for f in source_frames.split(',') if f.strip()]
+    else:
+        frame_list = [source_frames] if source_frames else []
+    
+    if len(frame_list) <= max_frames:
+        return frame_list
+    
+    # For multiple frames, prioritize based on:
+    # 1. Frames from "second_half" scenes (better credit visibility)
+    # 2. Frames with longer filenames (usually more descriptive)
+    # 3. Frames from later scenes (credits typically get clearer towards end)
+    
+    frame_scores = []
+    for frame in frame_list:
+        score = 0
+        
+        # Prefer frames from second_half scenes
+        if 'second_half' in credit_data.get('scene_position', ''):
+            score += 10
+            
+        # Prefer frames with more descriptive names (longer)
+        score += len(frame)
+        
+        # Prefer frames with higher scene numbers
+        scene_match = re.search(r'scene_(\d+)', frame)
+        if scene_match:
+            score += int(scene_match.group(1)) * 0.1
+            
+        frame_scores.append((frame, score))
+    
+    # Sort by score and return top frames
+    frame_scores.sort(key=lambda x: x[1], reverse=True)
+    return [frame for frame, _ in frame_scores[:max_frames]]
+
+
+def find_frame_path(episode_id: str, frame_filename: str) -> Optional[Path]:
+    """
+    Find the actual path to a frame file by searching in episode directories.
+    """
+    episode_dir = config.EPISODES_BASE_DIR / episode_id
+    
+    # Search in common frame directories
+    search_dirs = [
+        episode_dir / "analysis" / "frames",
+        episode_dir / "analysis" / "step1_representative_frames",
+        episode_dir / "analysis" / "skipped_frames"
+    ]
+    
+    for search_dir in search_dirs:
+        if search_dir.exists():
+            frame_path = search_dir / frame_filename
+            if frame_path.exists():
+                return frame_path
+    
+    return None
+
+
+def format_problem_description(problem_types: List[str]) -> str:
+    """
+    Convert problem type codes to user-friendly descriptions.
+    """
+    descriptions = {
+        'unknown_role': '⚠️ Unknown role group',
+        'duplicate_roles': '🔄 Multiple role groups for same name',
+        'long_role_detail': '📝 Very long role detail (potential OCR error)',
+        'short_name': '❓ Very short or empty name'
+    }
+    
+    return ' • '.join(descriptions.get(prob, prob) for prob in problem_types)
+
+# Add keyboard navigation help text
+def show_keyboard_help():
+    """Display keyboard shortcuts help"""
+    with st.expander("⌨️ Keyboard Shortcuts", expanded=False):
+        st.markdown("""
+        **Focus Mode Navigation:**
+        - `→` or `Next` button: Move to next credit
+        - `←` or `Previous` button: Move to previous credit
+        - Use action buttons for decisions
+        
+        **Quick Actions:**
+        - **Keep**: Mark credit as correct
+        - **Edit**: Modify credit details
+        - **Delete**: Remove credit from database
+        - **Skip**: Skip for later review
+        - **Merge**: Combine duplicate entries (if applicable)
+        """)
