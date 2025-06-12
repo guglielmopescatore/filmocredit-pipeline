@@ -1395,24 +1395,12 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
                 # Priority 1: Unknown role groups (highest priority)
                 if 'unknown' in entry['role_group'].lower():
                     problem_type.append('unknown_role')
-                    priority_score += 100
-                
-                # Priority 2: Duplicate names with different role groups
+                    priority_score += 100                # Priority 2: Duplicate names with different role groups
                 if len(entries) > 1:
                     unique_roles = set(e['role_group'] for e in entries)
                     if len(unique_roles) > 1:
                         problem_type.append('duplicate_roles')
                         priority_score += 80
-                
-                # Priority 3: Very long role details (potential OCR errors)
-                if entry['role_detail'] and len(entry['role_detail']) > 50:
-                    problem_type.append('long_role_detail')
-                    priority_score += 30
-                
-                # Priority 4: Empty or very short names (potential OCR errors)
-                if not entry['name'] or len(entry['name']) < 3:
-                    problem_type.append('short_name')
-                    priority_score += 50
                 
                 if problem_type:
                     has_problems = True
