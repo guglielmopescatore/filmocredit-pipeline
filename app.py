@@ -7,6 +7,8 @@ from typing import Optional, Any
 import logging
 from PIL import Image
 import streamlit as st
+st.set_page_config(layout="wide")
+
 from scenedetect import open_video
 
 # Assuming scripts_v3 is in a location accessible by Python's path
@@ -79,6 +81,42 @@ openai_logger.setLevel(logging.INFO)
 utils.init_db()
 
 st.title("🎬 Film Credit Extraction Pipeline v3")
+
+# Custom CSS to make the main content area wider
+st.markdown("""
+<style>
+    .main .block-container {
+        max-width: 100% !important;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    /* Make sidebar narrower */
+    [data-testid="stSidebar"] {
+        width: 200px !important;
+    }
+    
+    /* Adjust main content margin to match narrower sidebar */
+    .css-1y4p8pa, [data-testid="stSidebar"] + div {
+        margin-left: 220px !important;
+    }
+    
+    /* Make tabs wider */
+    .stTabs [data-baseweb="tab-list"] {
+        width: 100% !important;
+    }
+    
+    /* Make columns wider */
+    .stHorizontalBlock {
+        width: 100% !important;
+    }
+    
+    /* Make dataframes wider */
+    .stDataFrame {
+        width: 100% !important;
+    }
+</style>
+""", unsafe_allow_html=True)
 
 st.sidebar.header("Configuration")
 
@@ -626,11 +664,64 @@ with tab2:
         if not available_episodes:
             st.info("No episodes with credits found in the database. Please run the pipeline first to generate credits.")
         else:
-            selected_episode = st.selectbox(
-                "Select an episode to review:",
-                options=available_episodes,
-                key="episode_selector_review"
-            )
+            # Add checkbox to filter episodes that need reviewing
+            col1, col2 = st.columns([3, 1])
+            
+            with col1:
+                # Determine which episodes to show based on filter
+                show_only_needing_review = st.checkbox(
+                    "Show only episodes that need reviewing", 
+                    value=False, 
+                    key="filter_episodes_needing_review",
+                    help="Filter to show only episodes with problematic credits that need human review"
+                )
+                
+                if show_only_needing_review:
+                    # Filter episodes to show only those with problematic credits
+                    episodes_with_problems = []
+                    for episode in available_episodes:
+                        problematic_count = len(utils.identify_problematic_credits(episode))
+                        if problematic_count > 0:
+                            episodes_with_problems.append(f"{episode} ({problematic_count} issues)")
+                    
+                    if not episodes_with_problems:
+                        st.info("🎉 No episodes need reviewing! All credits have been processed.")
+                        display_episodes = []
+                        episode_options = []
+                    else:
+                        display_episodes = episodes_with_problems
+                        episode_options = [ep.split(' (')[0] for ep in episodes_with_problems]  # Extract episode name
+                else:
+                    # Show all episodes with issue counts
+                    episodes_with_counts = []
+                    episode_options = []
+                    for episode in available_episodes:
+                        problematic_count = len(utils.identify_problematic_credits(episode))
+                        if problematic_count > 0:
+                            episodes_with_counts.append(f"{episode} ({problematic_count} issues)")
+                        else:
+                            episodes_with_counts.append(f"{episode} (✅ complete)")
+                        episode_options.append(episode)
+                    display_episodes = episodes_with_counts
+
+            with col2:
+                if st.button("🔄 Refresh Episodes"):
+                    st.rerun()
+            
+            if display_episodes:
+                selected_display = st.selectbox(
+                    "Select an episode to review:",
+                    options=display_episodes,
+                    key="episode_selector_review"
+                )
+                
+                # Extract the actual episode name from the display string
+                if show_only_needing_review:
+                    selected_episode = selected_display.split(' (')[0] if selected_display else None
+                else:
+                    selected_episode = episode_options[display_episodes.index(selected_display)] if selected_display else None
+            else:
+                selected_episode = None
 
             if selected_episode:
                 queue_key = f"credit_queue_{selected_episode}"
@@ -661,6 +752,9 @@ with tab2:
                     if st.button("🔄 Refresh Queue"):
                         st.session_state[queue_key] = utils.identify_problematic_credits(selected_episode)
                         st.session_state[index_key] = 0
+                        # Reset the original total when queue is refreshed
+                        if f"{queue_key}_original" in st.session_state:
+                            del st.session_state[f"{queue_key}_original"]
                         st.rerun()
 
                 with col3:
@@ -680,6 +774,9 @@ with tab2:
                             # Refresh the queue
                             st.session_state[queue_key] = utils.identify_problematic_credits(selected_episode)
                             st.session_state[index_key] = 0
+                            # Reset the original total when queue is refreshed
+                            if f"{queue_key}_original" in st.session_state:
+                                del st.session_state[f"{queue_key}_original"]
                             st.success(f"Reset review status for {affected_rows} credits. Queue refreshed.")
                             st.rerun()
                             
@@ -691,14 +788,14 @@ with tab2:
 
                 if review_mode.startswith("🎯 Focus Mode") and problematic_queue:
                     total_problematic = len(problematic_queue)
-                    original_total = len(st.session_state.get(f"{queue_key}_original", problematic_queue))
-
+                    
                     if f"{queue_key}_original" not in st.session_state:
                         st.session_state[f"{queue_key}_original"] = problematic_queue.copy()
-                        original_total = len(problematic_queue)
-
-                    resolved_count = original_total - total_problematic
+                    
+                    original_total = len(st.session_state[f"{queue_key}_original"])
+                    resolved_count = max(0, original_total - total_problematic)  # Ensure non-negative
                     progress = resolved_count / original_total if original_total > 0 else 1.0
+                    progress = max(0.0, min(1.0, progress))  # Clamp between 0.0 and 1.0
                     st.progress(progress, text=f"Progress: {resolved_count}/{original_total} resolved • {total_problematic} remaining")
 
                     if current_index >= total_problematic and total_problematic > 0:
@@ -806,241 +903,159 @@ with tab2:
                                             st.error(f"Frame not found: {frame_filename}")
                             else:
                                 st.warning("No source frames available for this credit")
-
-                        st.markdown("### ⚡ Actions")
                         
-                        if is_duplicate:
-                            # Auto-open the variants modal - no buttons needed
-                            st.markdown("---")
-                            st.markdown("### ✏️ Edit/Delete Variants")
-                            st.info("Edit each variant individually or delete unwanted ones. Click 'Save All Changes' when done.")
+                        
+                        # Auto-open the variants modal - no buttons needed
+                        st.markdown("---")
+                        st.markdown("### ✏️ Edit/Delete Variants")
+                        st.info("Edit each variant individually or delete unwanted ones. Click 'Save All Changes' when done.")
+                        
+                        with st.form(f"form_edit_variants_{current_credit['id']}"):
                             
-                            with st.form(f"form_edit_variants_{current_credit['id']}"):
+                            # Collect form inputs for all variants
+                            form_data = []
+                            for i, entry in enumerate(duplicate_entries):
+                                st.markdown(f"#### Variant {i+1}")
+                                col1, col2, col3, col4 = st.columns([3, 3, 3, 1])
                                 
-                                # Collect form inputs for all variants
-                                form_data = []
-                                for i, entry in enumerate(duplicate_entries):
-                                    st.markdown(f"#### Variant {i+1}")
-                                    col1, col2, col3, col4 = st.columns([3, 3, 3, 1])
-                                    
-                                    with col1:
-                                        name = st.text_input(f"Name", value=entry['name'], key=f"variant_name_{i}")
-                                    
-                                    with col2:
-                                        # Get available roles
-                                        conn = sqlite3.connect(config.DB_PATH)
-                                        cursor = conn.cursor()
-                                        cursor.execute(f"SELECT DISTINCT role_group_normalized FROM {config.DB_TABLE_CREDITS} ORDER BY role_group_normalized")
-                                        all_roles = [row[0] for row in cursor.fetchall()]
-                                        conn.close()
-                                        
-                                        current_role_index = all_roles.index(entry['role_group']) if entry['role_group'] in all_roles else 0
-                                        role_group = st.selectbox(f"Role Group", options=all_roles, index=current_role_index, key=f"variant_role_{i}")
-                                    
-                                    with col3:
-                                        role_detail = st.text_input(f"Role Detail", value=entry.get('role_detail', ''), key=f"variant_detail_{i}")
-                                    
-                                    with col4:
-                                        delete_variant = st.checkbox("🗑️", key=f"variant_delete_{i}", help="Check to delete this variant")
-                                    
-                                    # Store form data for processing on submit
-                                    form_data.append({
-                                        'id': entry['id'],
-                                        'name': name,
-                                        'role_group': role_group,
-                                        'role_detail': role_detail,
-                                        'delete': delete_variant
-                                    })
-                                    
-                                    # Show source frames for this variant
-                                    source_frames = entry.get('source_frame', '')
-                                    if source_frames:
-                                        frame_list = [f.strip() for f in source_frames.split(',') if f.strip()]
-                                        st.caption(f"**Source Frames ({len(frame_list)}):** {', '.join(frame_list[:3])}")
-                                        if len(frame_list) > 3:
-                                            st.caption(f"... and {len(frame_list) - 3} more")
-                                    else:
-                                        st.caption("**Source Frames:** None")
-                                
-                                col1, col2 = st.columns(2)
                                 with col1:
-                                    if st.form_submit_button("💾 Save All Changes", type="primary"):
-                                        try:
-                                            # Build the actual lists based on current form values
-                                            variants_to_delete = []
-                                            edited_variants = []
-                                            
-                                            for variant_data in form_data:
-                                                if variant_data['delete']:
-                                                    variants_to_delete.append(variant_data['id'])
-                                                else:
-                                                    edited_variants.append({
-                                                        'id': variant_data['id'],
-                                                        'name': variant_data['name'],
-                                                        'role_group': variant_data['role_group'],
-                                                        'role_detail': variant_data['role_detail']
-                                                    })
-                                            
-                                            conn = sqlite3.connect(config.DB_PATH)
-                                            cursor = conn.cursor()
-                                            
-                                            # Delete marked variants first
-                                            for variant_id in variants_to_delete:
-                                                cursor.execute(f"DELETE FROM {config.DB_TABLE_CREDITS} WHERE id = ?", (variant_id,))
-                                              # Update remaining variants
-                                            for variant in edited_variants:
-                                                cursor.execute(f"""
-                                                    UPDATE {config.DB_TABLE_CREDITS}
-                                                    SET name = ?, role_group_normalized = ?, role_detail = ?, 
-                                                        reviewed_status = 'kept', reviewed_at = CURRENT_TIMESTAMP
-                                                    WHERE id = ?
-                                                """, (variant['name'], variant['role_group'], variant['role_detail'], variant['id']))
-                                            
-                                            conn.commit()
-                                            conn.close()
-                                              # Check if any variants remain
-                                            if not edited_variants:
-                                                # All variants were deleted
-                                                success_msg = f"🗑️ All variants deleted successfully!"
-                                                decision_type = 'delete_all'
-                                            else:
-                                                # Some variants remain
-                                                success_msg = f"💾 Changes saved! {len(edited_variants)} variant(s) kept, {len(variants_to_delete)} deleted."
-                                                decision_type = 'variants_edited'# Remove from queue and update navigation (for all cases)                                            # Get fresh references directly from session state
-                                            problematic_queue = st.session_state[queue_key]
-                                            current_index = st.session_state[index_key]
-                                              # Get the current credit from the fresh queue/index
-                                            if current_index < len(problematic_queue):
-                                                current_credit_fresh = problematic_queue[current_index]
-                                                logging.info(f"[Variants Save] Processing credit: {current_credit_fresh['name']} (ID: {current_credit_fresh['id']}) at index {current_index}")
-                                                
-                                                # Log all duplicate entries in this group
-                                                duplicate_entries_fresh = current_credit_fresh.get('duplicate_entries', [])
-                                                logging.info(f"[Variants Save] This credit group has {len(duplicate_entries_fresh)} variants:")
-                                                for i, entry in enumerate(duplicate_entries_fresh):
-                                                    logging.info(f"[Variants Save]   Variant {i+1}: {entry['name']} (ID: {entry['id']}) - Role: {entry['role_group']}")
-                                                
-                                                # Log what we're planning to do
-                                                logging.info(f"[Variants Save] Planning to delete {len(variants_to_delete)} variants, keep {len(edited_variants)} variants")
-                                                logging.info(f"[Variants Save] Delete IDs: {variants_to_delete}")
-                                                logging.info(f"[Variants Save] Keep IDs: {[v['id'] for v in edited_variants]}")
-                                                
-                                                # Record the decision using the fresh credit ID
-                                                st.session_state[decisions_key][current_credit_fresh['id']] = decision_type
-                                                
-                                                # Remove the current problematic credit group from queue
-                                                problematic_queue.pop(current_index)
-                                                st.session_state[queue_key] = problematic_queue
-                                                logging.info(f"[Variants Save] Removed credit from queue. New queue length: {len(problematic_queue)}")
-                                                
-                                                # Update index to automatically show next credit
-                                                if len(problematic_queue) == 0:
-                                                    # No more credits to review
-                                                    st.session_state[index_key] = 0
-                                                    logging.info(f"[Variants Save] No more credits - set index to 0")
-                                                elif current_index >= len(problematic_queue):
-                                                    # We were at the last credit, go to the new last credit
-                                                    new_index = len(problematic_queue) - 1
-                                                    st.session_state[index_key] = new_index
-                                                    logging.info(f"[Variants Save] Was at last credit - set index to {new_index}")
-                                                else:
-                                                    logging.info(f"[Variants Save] Staying at index {current_index} - next credit will appear here")
-                                                # If current_index < len(problematic_queue), stay at current_index
-                                                # because the next credit automatically moves into this position
-                                            else:
-                                                logging.error(f"[Variants Save] Current index {current_index} is out of bounds for queue length {len(problematic_queue)}")
-                                            
-                                            st.success(success_msg)
-                                            
-                                            # Force session state sync and rerun
-                                            logging.info(f"[Variants Save] Completed processing. Queue now has {len(st.session_state[queue_key])} credits, index is {st.session_state[index_key]}")
-                                            st.rerun()
-                                            
-                                        except Exception as e:
-                                            st.error(f"Error saving changes: {e}")
+                                    name = st.text_input(f"Name", value=entry['name'], key=f"variant_name_{i}")
                                 
                                 with col2:
-                                    if st.form_submit_button("⏭️ Skip All Variants"):
-                                        st.session_state[decisions_key][current_credit['id']] = 'skip'
-                                        if current_index < len(problematic_queue) - 1:
-                                            st.session_state[index_key] += 1
-                                        else:
-                                            st.session_state[index_key] = 0
-                                        st.info("⏭️ Skipped - moved to next credit")
-                                        st.rerun()
-
-                        else:
-                            col1, col2, col3, col4 = st.columns(4)
-
+                                    # Get available roles
+                                    conn = sqlite3.connect(config.DB_PATH)
+                                    cursor = conn.cursor()
+                                    cursor.execute(f"SELECT DISTINCT role_group_normalized FROM {config.DB_TABLE_CREDITS} ORDER BY role_group_normalized")
+                                    all_roles = [row[0] for row in cursor.fetchall()]
+                                    conn.close()
+                                    
+                                    current_role_index = all_roles.index(entry['role_group']) if entry['role_group'] in all_roles else 0
+                                    role_group = st.selectbox(f"Role Group", options=all_roles, index=current_role_index, key=f"variant_role_{i}")
+                                
+                                with col3:
+                                    role_detail = st.text_input(f"Role Detail", value=entry.get('role_detail', ''), key=f"variant_detail_{i}")
+                                
+                                with col4:
+                                    delete_variant = st.checkbox("🗑️", key=f"variant_delete_{i}", help="Check to delete this variant")
+                                
+                                # Store form data for processing on submit
+                                form_data.append({
+                                    'id': entry['id'],
+                                    'name': name,
+                                    'role_group': role_group,
+                                    'role_detail': role_detail,
+                                    'delete': delete_variant
+                                })
+                                
+                                # Show source frames for this variant
+                                source_frames = entry.get('source_frame', '')
+                                if source_frames:
+                                    frame_list = [f.strip() for f in source_frames.split(',') if f.strip()]
+                                    st.caption(f"**Source Frames ({len(frame_list)}):** {', '.join(frame_list[:3])}")
+                                    if len(frame_list) > 3:
+                                        st.caption(f"... and {len(frame_list) - 3} more")
+                                else:
+                                    st.caption("**Source Frames:** None")
+                            
+                            col1, col2 = st.columns(2)
                             with col1:
-                                if st.button("✅ Keep", type="primary", key="action_keep"):
+                                if st.form_submit_button("💾 Save All Changes", type="primary"):
                                     try:
-                                        # Mark credit as reviewed in database
+                                        # Build the actual lists based on current form values
+                                        variants_to_delete = []
+                                        edited_variants = []
+                                        
+                                        for variant_data in form_data:
+                                            if variant_data['delete']:
+                                                variants_to_delete.append(variant_data['id'])
+                                            else:
+                                                edited_variants.append({
+                                                    'id': variant_data['id'],
+                                                    'name': variant_data['name'],
+                                                    'role_group': variant_data['role_group'],
+                                                    'role_detail': variant_data['role_detail']
+                                                })
+                                        
                                         conn = sqlite3.connect(config.DB_PATH)
                                         cursor = conn.cursor()
-                                        cursor.execute(f"""
-                                            UPDATE {config.DB_TABLE_CREDITS}
-                                            SET reviewed_status = 'kept', reviewed_at = CURRENT_TIMESTAMP
-                                            WHERE id = ?
-                                        """, (current_credit['id'],))
+                                        
+                                        # Delete marked variants first
+                                        for variant_id in variants_to_delete:
+                                            cursor.execute(f"DELETE FROM {config.DB_TABLE_CREDITS} WHERE id = ?", (variant_id,))
+                                            # Update remaining variants
+                                        for variant in edited_variants:
+                                            cursor.execute(f"""
+                                                UPDATE {config.DB_TABLE_CREDITS}
+                                                SET name = ?, role_group_normalized = ?, role_detail = ?, 
+                                                    reviewed_status = 'kept', reviewed_at = CURRENT_TIMESTAMP
+                                                WHERE id = ?
+                                            """, (variant['name'], variant['role_group'], variant['role_detail'], variant['id']))
+                                        
                                         conn.commit()
                                         conn.close()
+                                            # Check if any variants remain
+                                        if not edited_variants:
+                                            # All variants were deleted
+                                            success_msg = f"🗑️ All variants deleted successfully!"
+                                            decision_type = 'delete_all'
+                                        else:
+                                            # Some variants remain
+                                            success_msg = f"💾 Changes saved! {len(edited_variants)} variant(s) kept, {len(variants_to_delete)} deleted."
+                                            decision_type = 'variants_edited'# Remove from queue and update navigation (for all cases)                                            # Get fresh references directly from session state
+                                        problematic_queue = st.session_state[queue_key]
+                                        current_index = st.session_state[index_key]
+                                            # Get the current credit from the fresh queue/index
+                                        if current_index < len(problematic_queue):
+                                            current_credit_fresh = problematic_queue[current_index]
+                                            logging.info(f"[Variants Save] Processing credit: {current_credit_fresh['name']} (ID: {current_credit_fresh['id']}) at index {current_index}")
+                                            
+                                            # Log all duplicate entries in this group
+                                            duplicate_entries_fresh = current_credit_fresh.get('duplicate_entries', [])
+                                            logging.info(f"[Variants Save] This credit group has {len(duplicate_entries_fresh)} variants:")
+                                            for i, entry in enumerate(duplicate_entries_fresh):
+                                                logging.info(f"[Variants Save]   Variant {i+1}: {entry['name']} (ID: {entry['id']}) - Role: {entry['role_group']}")
+                                            
+                                            # Log what we're planning to do
+                                            logging.info(f"[Variants Save] Planning to delete {len(variants_to_delete)} variants, keep {len(edited_variants)} variants")
+                                            logging.info(f"[Variants Save] Delete IDs: {variants_to_delete}")
+                                            logging.info(f"[Variants Save] Keep IDs: {[v['id'] for v in edited_variants]}")
+                                            
+                                            # Record the decision using the fresh credit ID
+                                            st.session_state[decisions_key][current_credit_fresh['id']] = decision_type
+                                            
+                                            # Remove the current problematic credit group from queue
+                                            problematic_queue.pop(current_index)
+                                            st.session_state[queue_key] = problematic_queue
+                                            logging.info(f"[Variants Save] Removed credit from queue. New queue length: {len(problematic_queue)}")
+                                            
+                                            # Update index to automatically show next credit
+                                            if len(problematic_queue) == 0:
+                                                # No more credits to review
+                                                st.session_state[index_key] = 0
+                                                logging.info(f"[Variants Save] No more credits - set index to 0")
+                                            elif current_index >= len(problematic_queue):
+                                                # We were at the last credit, go to the new last credit
+                                                new_index = len(problematic_queue) - 1
+                                                st.session_state[index_key] = new_index
+                                                logging.info(f"[Variants Save] Was at last credit - set index to {new_index}")
+                                            else:
+                                                logging.info(f"[Variants Save] Staying at index {current_index} - next credit will appear here")
+                                            # If current_index < len(problematic_queue), stay at current_index
+                                            # because the next credit automatically moves into this position
+                                        else:
+                                            logging.error(f"[Variants Save] Current index {current_index} is out of bounds for queue length {len(problematic_queue)}")
                                         
-                                        st.session_state[decisions_key][current_credit['id']] = 'keep'
-                                        problematic_queue.pop(current_index)
-                                        st.session_state[queue_key] = problematic_queue
-
-                                        # Update index to automatically show next credit
-                                        if len(problematic_queue) == 0:
-                                            # No more credits to review
-                                            st.session_state[index_key] = 0
-                                        elif current_index >= len(problematic_queue):
-                                            # We were at the last credit, go to the new last credit
-                                            st.session_state[index_key] = len(problematic_queue) - 1
-                                        # If current_index < len(problematic_queue), stay at current_index
-                                        # because the next credit automatically moves into this position
-
-                                        st.success("✅ Kept credit - marked as reviewed and removed from queue")
+                                        st.success(success_msg)
+                                        
+                                        # Force session state sync and rerun
+                                        logging.info(f"[Variants Save] Completed processing. Queue now has {len(st.session_state[queue_key])} credits, index is {st.session_state[index_key]}")
                                         st.rerun()
                                         
                                     except Exception as e:
-                                        st.error(f"Error marking credit as kept: {e}")
-
+                                        st.error(f"Error saving changes: {e}")
+                            
                             with col2:
-                                if st.button("✏️ Edit", key="action_edit"):
-                                    st.session_state[f"editing_{current_credit['id']}"] = True
-                                    st.rerun()
-
-                            with col3:
-                                if st.button("🗑️ Delete", key="action_delete"):
-                                    st.session_state[decisions_key][current_credit['id']] = 'delete'
-                                    try:
-                                        conn = sqlite3.connect(config.DB_PATH)
-                                        cursor = conn.cursor()
-                                        cursor.execute(f"DELETE FROM {config.DB_TABLE_CREDITS} WHERE id = ?", (current_credit['id'],))
-                                        conn.commit()
-                                        conn.close()
-
-                                        problematic_queue.pop(current_index)
-                                        st.session_state[queue_key] = problematic_queue
-
-                                        # Update index to automatically show next credit
-                                        if len(problematic_queue) == 0:
-                                            # No more credits to review
-                                            st.session_state[index_key] = 0
-                                        elif current_index >= len(problematic_queue):
-                                            # We were at the last credit, go to the new last credit
-                                            st.session_state[index_key] = len(problematic_queue) - 1
-                                        # If current_index < len(problematic_queue), stay at current_index
-                                        # because the next credit automatically moves into this position
-
-                                        st.success("🗑️ Deleted credit - removed from review queue")
-                                        st.rerun()
-                                    except Exception as e:
-                                        st.error(f"Error deleting credit: {e}")
-
-                            with col4:
-                                if st.button("⏭️ Skip", key="action_skip"):
+                                if st.form_submit_button("⏭️ Skip All Variants"):
                                     st.session_state[decisions_key][current_credit['id']] = 'skip'
                                     if current_index < len(problematic_queue) - 1:
                                         st.session_state[index_key] += 1
@@ -1048,107 +1063,7 @@ with tab2:
                                         st.session_state[index_key] = 0
                                     st.info("⏭️ Skipped - moved to next credit")
                                     st.rerun()
-
-                        st.markdown("---")
-                        nav_col1, nav_col2, nav_col3 = st.columns([1, 2, 1])
-                        current_queue_length = len(problematic_queue)
-
-                        with nav_col1:
-                            if st.button("⬅️ Previous", disabled=current_index == 0 or current_queue_length == 0):
-                                st.session_state[index_key] = max(0, current_index - 1)
-                                st.rerun()
-
-                        with nav_col2:
-                            if current_queue_length > 0:
-                                jump_to = st.selectbox(
-                                    "Jump to credit:",
-                                    options=range(current_queue_length),
-                                    index=min(current_index, current_queue_length - 1),
-                                    format_func=lambda x: f"{x+1}. {problematic_queue[x]['name']} ({utils.format_problem_description(problematic_queue[x]['problem_types'])})",
-                                    key="jump_selector"
-                                )
-                                if jump_to != current_index:
-                                    st.session_state[index_key] = jump_to
-                                    st.rerun()
-                            else:
-                                st.info("No more credits to review")
-
-                        with nav_col3:
-                            if st.button("➡️ Next", disabled=current_index >= current_queue_length - 1 or current_queue_length == 0):
-                                st.session_state[index_key] = min(current_queue_length - 1, current_index + 1)
-                                st.rerun()
-
-                        if st.session_state.get(f"editing_{current_credit['id']}", False):
-                            st.markdown("---")
-                            st.markdown("### ✏️ Edit Credit")
-
-                            with st.form(f"edit_form_{current_credit['id']}"):
-                                col1, col2 = st.columns(2)
-                                with col1:
-                                    new_name = st.text_input("Name", value=current_credit['name'])
-                                    new_role_detail = st.text_input("Role Detail", value=current_credit.get('role_detail', ''))
-
-                                with col2:
-                                    conn = sqlite3.connect(config.DB_PATH)
-                                    cursor = conn.cursor()
-                                    cursor.execute(f"SELECT DISTINCT role_group_normalized FROM {config.DB_TABLE_CREDITS} ORDER BY role_group_normalized")
-                                    all_roles = [row[0] for row in cursor.fetchall()]
-                                    conn.close()
-
-                                    current_role_index = all_roles.index(current_credit['role_group']) if current_credit['role_group'] in all_roles else 0
-                                    new_role_group = st.selectbox("Role Group", options=all_roles, index=current_role_index)
-
-                                col1, col2 = st.columns(2)
-
-                                with col1:
-                                    if st.form_submit_button("💾 Save Changes", type="primary"):
-                                        try:
-                                            conn = sqlite3.connect(config.DB_PATH)
-                                            cursor = conn.cursor()
-                                            cursor.execute(f"""
-                                                UPDATE {config.DB_TABLE_CREDITS}
-                                                SET name = ?, role_group_normalized = ?, role_detail = ?, 
-                                                    reviewed_status = 'kept', reviewed_at = CURRENT_TIMESTAMP
-                                                WHERE id = ?
-                                            """, (new_name, new_role_group, new_role_detail, current_credit['id']))
-                                            conn.commit()
-                                            conn.close()
-
-                                            st.session_state[decisions_key][current_credit['id']] = 'kept'
-                                            del st.session_state[f"editing_{current_credit['id']}"]
-                                            
-                                            problematic_queue = st.session_state[queue_key]
-                                            
-                                            # Find the index of the item we just edited to remove it
-                                            original_index_to_remove = -1
-                                            for i, credit in enumerate(problematic_queue):
-                                                if credit['id'] == current_credit['id']:
-                                                    original_index_to_remove = i
-                                                    break
-                                            
-                                            if original_index_to_remove != -1:
-                                                problematic_queue.pop(original_index_to_remove)
-                                            
-                                            st.session_state[queue_key] = problematic_queue
-
-                                            # Update index to automatically show next credit
-                                            if len(problematic_queue) == 0:
-                                                st.session_state[index_key] = 0
-                                            elif original_index_to_remove >= len(problematic_queue):
-                                                st.session_state[index_key] = len(problematic_queue) - 1
-                                            else:
-                                                st.session_state[index_key] = original_index_to_remove
-
-                                            st.success("💾 Changes saved and removed from review queue!")
-                                            st.rerun()
-                                        except Exception as e:
-                                            st.error(f"Error saving changes: {e}")
-
-                                with col2:
-                                    if st.form_submit_button("❌ Cancel"):
-                                        del st.session_state[f"editing_{current_credit['id']}"]
-                                        st.rerun()
-
+                                    
                     else:
                         st.success("🎉 All problematic credits have been reviewed!")
                         decisions = st.session_state[decisions_key]
@@ -1198,8 +1113,8 @@ with tab2:
                     conn = sqlite3.connect(config.DB_PATH)
                     cursor = conn.cursor()
                     cursor.execute(f"""
-                        SELECT role_group_normalized, name, role_detail,
-                               source_frame, original_frame_number, scene_position
+                        SELECT id, role_group_normalized, name, role_detail,
+                            source_frame, original_frame_number, scene_position
                         FROM {config.DB_TABLE_CREDITS}
                         WHERE episode_id = ?
                         ORDER BY role_group_normalized, name
@@ -1213,16 +1128,16 @@ with tab2:
                         import pandas as pd
                         processed_data = []
                         for row in credits_data:
-                            role_group, name, role_detail, source_frame, frame_numbers, scene_pos = row
-                            source_frames_display = source_frame if source_frame else "N/A"
-                            frame_numbers_display = frame_numbers if frame_numbers else "N/A"
+                            credit_id, role_group, name, role_detail, source_frame, frame_numbers, scene_pos = row
                             processed_data.append([
-                                role_group, name, role_detail,
-                                source_frames_display, frame_numbers_display, scene_pos
+                                credit_id, role_group, name, role_detail,
+                                source_frame or "N/A",
+                                frame_numbers or "N/A",
+                                scene_pos
                             ])
 
                         df = pd.DataFrame(processed_data, columns=[
-                            'Role Group', 'Name', 'Role Detail',
+                            'ID', 'Role Group', 'Name', 'Role Detail',
                             'Source Frames', 'Frame Numbers', 'Scene Position'
                         ])
 
@@ -1246,7 +1161,17 @@ with tab2:
                                     mime="text/csv"
                                 )
 
+                        problematic_credits = utils.identify_problematic_credits(selected_episode)
+                        problematic_ids = {c['id'] for c in problematic_credits}
+                        problematic_count = len(problematic_ids)
+                        if problematic_count > 0:
+                            st.warning(f"⚠️ {problematic_count} credits need attention")
+
                         search_filter = st.text_input("🔍 Search credits:", placeholder="Enter name or role to filter...")
+
+                        def highlight_problematic(row):
+                            return ['background-color: #b59736'] * len(row) if row['ID'] in problematic_ids else [''] * len(row)
+
                         if search_filter:
                             filtered_df = df[
                                 df['Name'].str.contains(search_filter, case=False, na=False) |
@@ -1254,21 +1179,11 @@ with tab2:
                                 df['Role Detail'].str.contains(search_filter, case=False, na=False)
                             ]
                             st.write(f"Showing {len(filtered_df)} of {len(df)} credits matching '{search_filter}'")
-                            st.dataframe(filtered_df, use_container_width=True)
+                            styled = filtered_df.style.apply(highlight_problematic, axis=1).hide(subset=['ID'], axis='columns')
+                            st.dataframe(styled, use_container_width=True, hide_index=True)
                         else:
-                            st.dataframe(df, use_container_width=True)
-
-                        st.markdown("### 🚀 Quick Actions")
-                        col1, col2 = st.columns(2)
-                        with col1:
-                            if st.button("🎯 Switch to Focus Mode"):
-                                pass
-                        with col2:
-                            problematic_count = len(utils.identify_problematic_credits(selected_episode))
-                            if problematic_count > 0:
-                                st.warning(f"⚠️ {problematic_count} credits need attention")
-                            else:
-                                st.success("✅ All credits look good!")
+                            styled = df.style.apply(highlight_problematic, axis=1).hide(subset=['ID'], axis='columns')
+                            st.dataframe(styled, use_container_width=True, hide_index=True)
 
     except Exception as e:
         st.error(f"Error loading credits data: {e}")
