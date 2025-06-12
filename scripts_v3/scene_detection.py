@@ -143,16 +143,54 @@ def _filter_scenes_by_count(scenes: List[Tuple[FrameTimecode, FrameTimecode, int
     
     return filtered_scenes
 
+def _filter_scenes_by_time(scenes: List[Tuple[FrameTimecode, FrameTimecode, int]], 
+                          start_minutes: float, end_minutes: float, video) -> List[Tuple[FrameTimecode, FrameTimecode, int]]:
+    """
+    Filter scenes to keep only those within the first start_minutes and last end_minutes of the video.
+    Returns tuples of (start_tc, end_tc, original_scene_index).
+    """
+    if not scenes:
+        return []
+    
+    # Get video duration
+    video_duration_seconds = video.duration.get_seconds()
+    start_seconds = start_minutes * 60
+    end_seconds = end_minutes * 60
+    
+    # Calculate time boundaries
+    start_boundary_seconds = min(start_seconds, video_duration_seconds)
+    end_boundary_seconds = max(0, video_duration_seconds - end_seconds)
+    
+    filtered_scenes = []
+    
+    for start_tc, end_tc, original_idx in scenes:
+        scene_start_seconds = start_tc.get_seconds()
+        scene_end_seconds = end_tc.get_seconds()
+        
+        # Include scene if it overlaps with start segment or end segment
+        in_start_segment = scene_start_seconds < start_boundary_seconds
+        in_end_segment = scene_end_seconds > end_boundary_seconds
+        
+        if in_start_segment or in_end_segment:
+            filtered_scenes.append((start_tc, end_tc, original_idx))
+    
+    return filtered_scenes
+
 def identify_candidate_scenes(
     video_path: Path,
     episode_id: str,
     ocr_reader: Any,
     ocr_engine_type: str,
     user_stopwords: List[str],
-    scene_counts: Optional[Tuple[int, int]] = None
+    scene_counts: Optional[Tuple[int, int]] = None,
+    time_segments: Optional[Tuple[float, float]] = None
 ) -> Tuple[List[dict], SceneDetectionStatus, Optional[str]]:
-    """    Identifies candidate scenes in a video based on scene counts (first N, last N) or default percentages.
-    scene_counts: Optional tuple of (start_scenes_count, end_scenes_count). If None, defaults are used.
+    """
+    Identifies candidate scenes in a video based on scene counts (first N, last N) or time segments (first X minutes, last Y minutes).
+    
+    Args:
+        scene_counts: Optional tuple of (start_scenes_count, end_scenes_count). If None, defaults are used.
+        time_segments: Optional tuple of (start_minutes, end_minutes). Takes precedence over scene_counts if provided.
     """
     episode_dir = config.EPISODES_BASE_DIR / episode_id
     analysis_dir = episode_dir / 'analysis'
@@ -224,16 +262,21 @@ def identify_candidate_scenes(
             }
             with open(scenes_cache_file, 'w', encoding='utf-8') as f:
                 json.dump(cache_data, f, indent=2, ensure_ascii=False)
-            log.info(f"Detected and cached {len(scenes_in_video)} scenes.")
-
-        # Create tuples with original scene indices
+            log.info(f"Detected and cached {len(scenes_in_video)} scenes.")        # Create tuples with original scene indices
         scenes_with_indices = [(start_tc, end_tc, idx) for idx, (start_tc, end_tc) in enumerate(scenes_in_video)]
         
-        if scene_counts:
+        if time_segments:
+            # Time-based filtering (takes precedence)
+            start_minutes, end_minutes = time_segments
+            filtered_scenes = _filter_scenes_by_time(scenes_with_indices, start_minutes, end_minutes, video)
+            log.info(f"Filtered to {len(filtered_scenes)} scenes (first {start_minutes} min + last {end_minutes} min).")
+        elif scene_counts:
+            # Scene count-based filtering
             start_count, end_count = scene_counts
             filtered_scenes = _filter_scenes_by_count(scenes_with_indices, start_count, end_count)
             log.info(f"Filtered to {len(filtered_scenes)} scenes (first {start_count} + last {end_count}).")
         else:
+            # No filtering - use all scenes
             filtered_scenes = scenes_with_indices
 
         # Populate all_detected_shots_data
