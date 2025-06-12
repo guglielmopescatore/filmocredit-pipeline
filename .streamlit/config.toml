@@ -3,6 +3,7 @@ fileWatcherType = "none"
 enableStaticServing = false
 enableWebsocketCompression = false
 
+
 [global]
 developmentMode = false
 

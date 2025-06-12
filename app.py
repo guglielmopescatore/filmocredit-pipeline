@@ -9,6 +9,8 @@ from PIL import Image
 import streamlit as st
 st.set_page_config(layout="wide")
 
+from st_aggrid import AgGrid, GridOptionsBuilder, JsCode
+
 from scenedetect import open_video
 
 # Assuming scripts_v3 is in a location accessible by Python's path
@@ -127,14 +129,10 @@ st.session_state['ocr_language'] = st.sidebar.selectbox(
     key='ocr_language_select_key_v3'
 )
 
-st.session_state['ocr_engine_type'] = st.sidebar.selectbox(
-    "OCR Engine",
-    options=config.SUPPORTED_OCR_ENGINES,
-    index=config.SUPPORTED_OCR_ENGINES.index(st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)),
-    key='ocr_engine_type_select_key_v3'
-)
+# Set OCR engine to PaddleOCR (no user selection needed)
+st.session_state['ocr_engine_type'] = 'paddleocr'
 
-st.sidebar.header("OCR Stopwords to Ignore")
+st.sidebar.header("Insert here words that appears as channel logo or watermark in the video")
 if 'user_stopwords' not in st.session_state:
     st.session_state.user_stopwords = utils.load_user_stopwords()
 
@@ -163,6 +161,87 @@ except FileNotFoundError:
     st.warning(f"Video directory {config.RAW_VIDEO_DIR} not found. Please create it and add videos.")
 
 st.sidebar.header("Video Segments for Scene Detection")
+
+st.sidebar.subheader("Scene Detection Margins")
+
+# Initialize session state for scene detection method
+if 'scene_detection_method' not in st.session_state:
+    st.session_state['scene_detection_method'] = 'scene_count'
+
+# Choose detection method
+scene_detection_method = st.sidebar.radio(
+    "Selection method:",
+    options=['time_based', 'scene_count'],
+    format_func=lambda x: '📋 By scene count' if x == 'scene_count' else '⏱️ By time duration',
+    key="scene_detection_method_selector",
+    help="Choose how to select which parts of the video to analyze"
+)
+st.session_state['scene_detection_method'] = scene_detection_method
+
+if scene_detection_method == 'scene_count':
+    # Scene count based selection (original method)
+    st.sidebar.caption(f"Specify how many scenes at the start and end of the video to consider for OCR (default: {config.DEFAULT_START_SCENES_COUNT} each).")
+    
+    if 'scene_start_count' not in st.session_state:
+        st.session_state['scene_start_count'] = config.DEFAULT_START_SCENES_COUNT
+    if 'scene_end_count' not in st.session_state:
+        st.session_state['scene_end_count'] = config.DEFAULT_END_SCENES_COUNT
+
+    scene_start_count = st.sidebar.number_input(
+        "Number of scenes at start:",
+        min_value=1,
+        max_value=200,
+        value=st.session_state['scene_start_count'],
+        step=1,
+        key="scene_start_count_input"
+    )
+    scene_end_count = st.sidebar.number_input(
+        "Number of scenes at end:",
+        min_value=1,
+        max_value=200,
+        value=st.session_state['scene_end_count'],
+        step=1,
+        key="scene_end_count_input"
+    )
+    st.session_state['scene_start_count'] = scene_start_count
+    st.session_state['scene_end_count'] = scene_end_count
+
+else:
+    # Time-based selection
+    st.sidebar.caption("Specify how many minutes at the start and end of the video to consider for OCR.")
+    
+    if 'scene_start_minutes' not in st.session_state:
+        st.session_state['scene_start_minutes'] = 3.0  # Default 3 minutes
+    if 'scene_end_minutes' not in st.session_state:
+        st.session_state['scene_end_minutes'] = 5.0   # Default 5 minutes
+
+    scene_start_minutes = st.sidebar.number_input(
+        "Minutes at start:",
+        min_value=0.5,
+        max_value=60.0,
+        value=st.session_state['scene_start_minutes'],
+        step=0.5,
+        format="%.1f",
+        key="scene_start_minutes_input",
+        help="How many minutes from the beginning to analyze"
+    )
+    scene_end_minutes = st.sidebar.number_input(
+        "Minutes at end:",
+        min_value=0.5,
+        max_value=60.0,
+        value=st.session_state['scene_end_minutes'],
+        step=0.5,
+        format="%.1f",
+        key="scene_end_minutes_input",
+        help="How many minutes from the end to analyze"
+    )
+    st.session_state['scene_start_minutes'] = scene_start_minutes
+    st.session_state['scene_end_minutes'] = scene_end_minutes
+
+# Store the current method for use in processing
+st.session_state['current_detection_method'] = scene_detection_method
+
+
 st.sidebar.subheader("Preview Video")
 if 'selected_video_for_preview' not in st.session_state:
     st.session_state.selected_video_for_preview = None
@@ -203,31 +282,6 @@ elif show_video_preview and not st.session_state.selected_video_for_preview:
 elif not show_video_preview:
     st.sidebar.info("💡 Check 'Enable Video Preview' above to load and display the selected video.")
 
-st.sidebar.subheader("Scene Detection Margins")
-st.sidebar.caption(f"Specify how many scenes at the start and end of the video to consider for OCR (default: {config.DEFAULT_START_SCENES_COUNT} each). The middle scenes will be ignored.")
-if 'scene_start_count' not in st.session_state:
-    st.session_state['scene_start_count'] = config.DEFAULT_START_SCENES_COUNT
-if 'scene_end_count' not in st.session_state:
-    st.session_state['scene_end_count'] = config.DEFAULT_END_SCENES_COUNT
-
-scene_start_count = st.sidebar.number_input(
-    "Number of scenes at start:",
-    min_value=1,
-    max_value=200,
-    value=st.session_state['scene_start_count'],
-    step=1,
-    key="scene_start_count_input"
-)
-scene_end_count = st.sidebar.number_input(
-    "Number of scenes at end:",
-    min_value=1,
-    max_value=200,
-    value=st.session_state['scene_end_count'],
-    step=1,
-    key="scene_end_count_input"
-)
-st.session_state['scene_start_count'] = scene_start_count
-st.session_state['scene_end_count'] = scene_end_count
 
 st.subheader("Step 1 Configuration")
 st.info("🤖 **Automatic Scene Detection**: The pipeline will use AI to identify potential credit scenes based on the margins you set in the sidebar.")
@@ -239,11 +293,29 @@ tab1, tab2, tab3 = st.tabs(["⚙️ Setup & Run Pipeline", "✏️ Review & Edit
 
 with tab1:
     st.header("1. Select Videos for Processing")
-    selected_videos_str_paths = []
+    
     if not video_files_paths:
         st.warning(f"No video files found in {config.RAW_VIDEO_DIR}. Please add videos with extensions: {', '.join(allowed_extensions)}")
+        selected_videos_str_paths = []
     else:
+        # Add Select All / Deselect All buttons
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            if st.button("✅ Select All", key="select_all_videos"):
+                for video_file_path_obj in video_files_paths:
+                    st.session_state[f"vid_select_{video_file_path_obj.name}_v3"] = True
+                st.rerun()
+        
+        with col2:
+            if st.button("❌ Deselect All", key="deselect_all_videos"):
+                for video_file_path_obj in video_files_paths:
+                    st.session_state[f"vid_select_{video_file_path_obj.name}_v3"] = False
+                st.rerun()
+        
         st.write("Select videos from `data/raw` to include in the batch:")
+        
+        # Video selection checkboxes
+        selected_videos_str_paths = []
         for video_file_path_obj in video_files_paths:
             if st.checkbox(video_file_path_obj.name, key=f"vid_select_{video_file_path_obj.name}_v3"):
                 selected_videos_str_paths.append(str(video_file_path_obj))
@@ -271,14 +343,31 @@ with tab1:
     if 'user_selected_scenes_for_step2' not in st.session_state:
         st.session_state.user_selected_scenes_for_step2 = {}
 
-    if selected_videos_str_paths:
+    # Initialize step 2 running state
+    if 'step2_running' not in st.session_state:
+        st.session_state.step2_running = False
+
+    # Show scene review based on selected videos from Step 1 (but hide when Step 2 is running)
+    if selected_videos_str_paths and not st.session_state.step2_running:
         st.subheader("2a. Review Candidate Scenes for Step 2")
         any_review_ui_shown_for_an_episode = False
 
-        for video_path_str_review in selected_videos_str_paths:
-            episode_id_review = Path(video_path_str_review).stem
-            scene_analysis_file_review = config.EPISODES_BASE_DIR / episode_id_review / "analysis" / "initial_scene_analysis.json"
-            step1_frames_base_dir_review = config.EPISODES_BASE_DIR / episode_id_review / "analysis" / "step1_representative_frames"
+        # Check which of the selected videos have completed Step 1
+        episodes_with_step1_complete = []
+        for video_path_str in selected_videos_str_paths:
+            episode_id = Path(video_path_str).stem
+            scene_analysis_file = config.EPISODES_BASE_DIR / episode_id / "analysis" / "initial_scene_analysis.json"
+            if scene_analysis_file.exists():
+                episodes_with_step1_complete.append(episode_id)
+
+        if not episodes_with_step1_complete:
+            st.info("⏳ Selected videos haven't completed Step 1 yet. Run Step 1 first to review candidate scenes.")
+        else:
+            st.info(f"📋 Found {len(episodes_with_step1_complete)} of {len(selected_videos_str_paths)} selected episode(s) with completed Step 1. Review and select scenes for Step 2 below.")
+            
+            for episode_id_review in episodes_with_step1_complete:
+                scene_analysis_file_review = config.EPISODES_BASE_DIR / episode_id_review / "analysis" / "initial_scene_analysis.json"
+                step1_frames_base_dir_review = config.EPISODES_BASE_DIR / episode_id_review / "analysis" / "step1_representative_frames"
 
             if scene_analysis_file_review.exists():
                 try:
@@ -290,7 +379,6 @@ with tab1:
                     if not candidate_scenes_from_step1:
                         st.info(f"No candidate scenes found by Step 1 for {episode_id_review} to review.")
                         st.session_state.user_selected_scenes_for_step2[episode_id_review] = []
-                        continue
 
                     any_review_ui_shown_for_an_episode = True
                     with st.expander(f"Review scenes for {episode_id_review} (Found {len(candidate_scenes_from_step1)} candidates)", expanded=True):
@@ -377,8 +465,10 @@ with tab1:
         if any_review_ui_shown_for_an_episode:
             st.markdown("---")
             st.success("Scene selections updated. Ready for Step 2 if desired.")
-        elif selected_videos_str_paths:
-            st.info("Run Step 1 for selected videos to generate scenes for review.")
+    elif not st.session_state.step2_running:  # Only show this message when Step 2 is not running
+        if not selected_videos_str_paths:
+            st.info("📝 Select videos in Step 1 above to review their candidate scenes for Step 2.")
+        # If videos are selected but Step 2 is running, don't show the scene review section
 
 
 if 'user_selected_scenes_for_step2' not in st.session_state:
@@ -408,14 +498,34 @@ if run_step1_button:
                     st.write(f"Processing Step 1 for {episode_id_proc}...")
                     with st.spinner(f"Identifying scenes for {episode_id_proc}..."):
                         try:
-                            scenes, status, error_msg = scene_detection.identify_candidate_scenes(
-                                video_path_obj,
-                                episode_id_proc,
-                                ocr_reader,
-                                current_ocr_engine,
-                                user_stopwords,
-                                scene_counts=(scene_start_count, scene_end_count)
-                            )
+                            # Determine scene selection parameters based on method
+                            if st.session_state.get('current_detection_method') == 'time_based':
+                                # Convert time to scene counts (approximate)
+                                scene_start_minutes = st.session_state.get('scene_start_minutes', 3.0)
+                                scene_end_minutes = st.session_state.get('scene_end_minutes', 5.0)
+                                
+                                # Use time-based selection
+                                scenes, status, error_msg = scene_detection.identify_candidate_scenes(
+                                    video_path_obj,
+                                    episode_id_proc,
+                                    ocr_reader,
+                                    current_ocr_engine,
+                                    user_stopwords,
+                                    time_segments=(scene_start_minutes, scene_end_minutes)
+                                )
+                            else:
+                                # Use scene count-based selection (default)
+                                scene_start_count = st.session_state.get('scene_start_count', config.DEFAULT_START_SCENES_COUNT)
+                                scene_end_count = st.session_state.get('scene_end_count', config.DEFAULT_END_SCENES_COUNT)
+                                
+                                scenes, status, error_msg = scene_detection.identify_candidate_scenes(
+                                    video_path_obj,
+                                    episode_id_proc,
+                                    ocr_reader,
+                                    current_ocr_engine,
+                                    user_stopwords,
+                                    scene_counts=(scene_start_count, scene_end_count)
+                                )
                             st.session_state.episode_status[episode_id_proc]['step1_status'] = status
                             if error_msg:
                                 st.session_state.episode_status[episode_id_proc]['step1_error'] = error_msg
@@ -431,8 +541,12 @@ if run_step1_button:
             st.success("Step 1 processing finished for selected videos. Review candidate scenes in '2a. Review Candidate Scenes' section if available.")
 
 if run_step2_button:
+    # Set the step2_running flag immediately to hide scene review
+    st.session_state.step2_running = True
+    
     if not selected_videos_str_paths:
         st.warning("Please select at least one video for Step 2.")
+        st.session_state.step2_running = False  # Reset flag if no videos selected
     else:
         st.subheader("Running Step 2: Analyze Candidate Scene Frames")
         ocr_reader = get_cached_ocr_reader()
@@ -584,6 +698,9 @@ if run_step2_button:
                             st.session_state.episode_status[episode_id_proc]['step2_error'] = str(e)
                             st.error(f"Exception in Step 2 ({episode_id_proc}): {e}")
                             logging.error(f"Exception during Step 2 for {episode_id_proc}: {e}", exc_info=True)
+        
+        # Reset the step2_running flag when Step 2 completes
+        st.session_state.step2_running = False
         st.info("Step 2 processing finished for selected videos.")
 
 if run_step3_button:
@@ -740,7 +857,7 @@ with tab2:
                 problematic_queue = st.session_state[queue_key]
                 current_index = st.session_state[index_key]
 
-                col1, col2, col3, col4 = st.columns([3, 1, 1, 1])
+                col1, col2, col3 = st.columns([3, 1, 1])
                 with col1:
                     review_mode = st.selectbox(
                         "Review Mode:",
@@ -782,9 +899,6 @@ with tab2:
                             
                         except Exception as e:
                             st.error(f"Error resetting review status: {e}")
-
-                with col4:
-                    utils.show_keyboard_help()
 
                 if review_mode.startswith("🎯 Focus Mode") and problematic_queue:
                     total_problematic = len(problematic_queue)
