@@ -1,5 +1,5 @@
-import os
 from pathlib import Path
+
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -24,12 +24,12 @@ OCR_USER_STOPWORDS_PATH: Path = PROJECT_ROOT / 'user_ocr_stopwords.txt'
 DEFAULT_OCR_USER_STOPWORDS: list[str] = ["RAI", "BBC", "HBO"]
 
 DEFAULT_OCR_ENGINE = "paddleocr"
-SUPPORTED_OCR_ENGINES = ["paddleocr"] # , "easyocr"]
+SUPPORTED_OCR_ENGINES = ["paddleocr"]  # , "easyocr"]
 
 EASYOCR_LANG_MAP = {
     'it': ['it'],
     'en': ['en'],
-    'ch': ['ch_sim', 'en'], 
+    'ch': ['ch_sim', 'en'],
 }
 
 PADDLEOCR_LANG_MAP = {
@@ -38,36 +38,36 @@ PADDLEOCR_LANG_MAP = {
     'ch': 'ch',
 }
 
-CONTENT_SCENE_DETECTOR_THRESHOLD = 10.0 
-THRESH_SCENE_DETECTOR_THRESHOLD = 5 
+CONTENT_SCENE_DETECTOR_THRESHOLD = 10.0
+THRESH_SCENE_DETECTOR_THRESHOLD = 5
 SCENE_MIN_LENGTH_FRAMES = 10
 
 INITIAL_OCR_LANGUAGES: list[str] = ['it', 'en']
 INITIAL_FRAME_SAMPLE_POINTS: list[float] = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-MIN_OCR_CONFIDENCE = 0.75 
-MIN_OCR_TEXT_LENGTH = 4   
+MIN_OCR_CONFIDENCE = 0.75
+MIN_OCR_TEXT_LENGTH = 4
 
 # Frame analysis parameters
-SCROLL_FRAME_HEIGHT_RATIO = 0.9 
-MIN_ABS_SCROLL_FLOW_THRESHOLD = 0.5 
+SCROLL_FRAME_HEIGHT_RATIO = 0.9
+MIN_ABS_SCROLL_FLOW_THRESHOLD = 0.5
 OPTICAL_FLOW_PARAMS = dict(pyr_scale=0.5, levels=3, winsize=15, iterations=3, poly_n=5, poly_sigma=1.2, flags=0)
-HASH_SIZE = 16 
+HASH_SIZE = 16
 HASH_DIFFERENCE_THRESHOLD = 0
-FADE_FRAME_THRESHOLD = 20.0      
-FADE_FRAME_CONTRAST_THRESHOLD = 10.0 
-HASH_SAMPLE_INTERVAL_SECONDS = 0.5 
+FADE_FRAME_THRESHOLD = 20.0
+FADE_FRAME_CONTRAST_THRESHOLD = 10.0
+HASH_SAMPLE_INTERVAL_SECONDS = 0.5
 
 FUZZY_TEXT_SIMILARITY_THRESHOLD = 60
 # Dynamic threshold scaling for long texts
-FUZZY_THRESHOLD_BASE = 60           # Base threshold for short texts
-FUZZY_THRESHOLD_SCALE_START = 200   # Text length where scaling starts
-FUZZY_THRESHOLD_SCALE_RATE = 0.02   # Increase per character after scale start (doubled)
-FUZZY_THRESHOLD_MAX = 85            # Maximum threshold cap
+FUZZY_THRESHOLD_BASE = 60  # Base threshold for short texts
+FUZZY_THRESHOLD_SCALE_START = 200  # Text length where scaling starts
+FUZZY_THRESHOLD_SCALE_RATE = 0.02  # Increase per character after scale start (doubled)
+FUZZY_THRESHOLD_MAX = 85  # Maximum threshold cap
 OCR_TIMEOUT_SECONDS = 3
 
 # Scene-based processing configuration - analyze first N and last N scenes
 DEFAULT_START_SCENES_COUNT = 100  # Analyze first 100 scenes (opening credits)
-DEFAULT_END_SCENES_COUNT = 100    # Analyze last 100 scenes (closing credits)
+DEFAULT_END_SCENES_COUNT = 100  # Analyze last 100 scenes (closing credits)
 
 DEFAULT_VLM_MAX_NEW_TOKENS = 8192
 
@@ -149,18 +149,22 @@ Songs or music name shoould not be counted as an entity, it is the composer (or 
 Ensure output is ONLY the raw JSON list, without any additional text or formatting.
 """
 
+
 def is_cuda_available() -> bool:
     """Check if CUDA is available, with lazy import to avoid DLL conflicts."""
     try:
         import torch
+
         return torch.cuda.is_available()
     except Exception:
         return False
+
 
 DB_TABLE_EPISODES = "episodes"
 DB_TABLE_CREDITS = "credits"
 
 from dataclasses import dataclass, field
+
 
 @dataclass(frozen=True)
 class PathConfig:
@@ -174,6 +178,7 @@ class PathConfig:
     LOG_FILE_PATH: Path = LOG_FILE_PATH
     OCR_USER_STOPWORDS_PATH: Path = OCR_USER_STOPWORDS_PATH
 
+
 @dataclass(frozen=True)
 class OCRConfig:
     DEFAULT_ENGINE: str = DEFAULT_OCR_ENGINE
@@ -183,6 +188,7 @@ class OCRConfig:
     MIN_TEXT_LENGTH: int = MIN_OCR_TEXT_LENGTH
     TIMEOUT_SECONDS: int = OCR_TIMEOUT_SECONDS
 
+
 @dataclass(frozen=True)
 class SceneDetectionConfig:
     CONTENT_THRESHOLD: float = CONTENT_SCENE_DETECTOR_THRESHOLD
@@ -190,19 +196,24 @@ class SceneDetectionConfig:
     MIN_LENGTH_FRAMES: int = SCENE_MIN_LENGTH_FRAMES
     INITIAL_FRAME_SAMPLE_POINTS: list[float] = field(default_factory=lambda: INITIAL_FRAME_SAMPLE_POINTS.copy())
 
+
 @dataclass(frozen=True)
 class VLMConfig:
     """Configuration for Vision-Language Model (VLM) processing."""
+
     BASE_PROMPT_TEMPLATE: str = BASE_PROMPT_TEMPLATE
     DEFAULT_MAX_NEW_TOKENS: int = DEFAULT_VLM_MAX_NEW_TOKENS
+
 
 @dataclass(frozen=True)
 class AzureConfig:
     """Environment variable keys for Azure OpenAI settings."""
+
     API_KEY_ENV: str = 'AZURE_OPENAI_KEY'
     API_VERSION_ENV: str = 'AZURE_OPENAI_API_VERSION'
     ENDPOINT_ENV: str = 'AZURE_OPENAI_ENDPOINT'
     DEPLOYMENT_NAME_ENV: str = 'AZURE_OPENAI_DEPLOYMENT_NAME'
+
 
 # Ensure critical directories exist
 for _dir in [DATA_DIR, RAW_VIDEO_DIR, EPISODES_BASE_DIR, DB_DIR]:
@@ -215,7 +226,7 @@ CONTRAST_CALCULATION_METHOD: str = "stddev"  # "stddev" or "laplacian"
 # Valid role groups for validation
 VALID_ROLE_GROUPS = {
     "Directors",
-    "Writers", 
+    "Writers",
     "Cast",
     "Producers",
     "Composers",
@@ -241,21 +252,22 @@ VALID_ROLE_GROUPS = {
     "Costume and Wardrobe Department",
     "Editorial Department",
     "Location Management",
-    "Script and Continuity Department",    
+    "Script and Continuity Department",
     "Transportation Department",
     "Additional Crew",
     "Thanks",
     "Miscellaneous Companies",
-    "Unknown"
+    "Unknown",
 }
 
 # Role groups as a sorted list for UI components (selectboxes, etc.)
 ROLE_GROUPS = sorted(list(VALID_ROLE_GROUPS))
 
+
 def validate_role_group(role_group: str) -> tuple[bool, str]:
     """
     Validate if a role group is in the predefined list.
-    
+
     Args:
         role_group: The role group to validate
           Returns:
@@ -266,27 +278,32 @@ def validate_role_group(role_group: str) -> tuple[bool, str]:
     if role_group in VALID_ROLE_GROUPS:
         return True, f"Valid role group: {role_group}"
     else:
-        return False, f"FLAGGED FOR REVIEW: '{role_group}' is not in the predefined role groups list. Please verify and categorize manually."
+        return (
+            False,
+            f"FLAGGED FOR REVIEW: '{role_group}' is not in the predefined role groups list. Please verify and categorize manually.",
+        )
+
 
 def is_valid_role_group(role_group: str) -> bool:
     """
     Simple boolean check if a role group is valid.
-    
+
     Args:
         role_group: The role group to validate
-        
+
     Returns:
         bool: True if role group is valid, False otherwise
     """
     return role_group in VALID_ROLE_GROUPS
 
+
 def get_flagged_role_groups(credits_data: list[dict]) -> list[dict]:
     """
     Scan a list of credits and return those with invalid role groups.
-    
+
     Args:
         credits_data: List of credit dictionaries with 'role_group' field
-        
+
     Returns:
         List of credits that have invalid role groups and need manual review
     """
@@ -298,5 +315,5 @@ def get_flagged_role_groups(credits_data: list[dict]) -> list[dict]:
             flagged_credit = credit.copy()
             flagged_credit['validation_message'] = message
             flagged_credits.append(flagged_credit)
-    
+
     return flagged_credits

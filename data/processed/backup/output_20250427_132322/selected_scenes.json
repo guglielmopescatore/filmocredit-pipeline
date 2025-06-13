@@ -1,0 +1,101 @@
+[
+  {
+    "scene_idx": 0,
+    "frame_variant": 50,
+    "timestamp_sec": 15.14,
+    "scene_start_sec": 0.0,
+    "scene_end_sec": 30.28,
+    "ocr_text": "1\nCOFFEE TIME FILM",
+    "frame_path": "data/processed/output/frames/frame_0_50.jpg"
+  },
+  {
+    "scene_idx": 3,
+    "frame_variant": 25,
+    "timestamp_sec": 65.82000000000001,
+    "scene_start_sec": 43.6,
+    "scene_end_sec": 88.04,
+    "ocr_text": "1\nILCALABRONE CREMONA\n1",
+    "frame_path": "data/processed/output/frames/frame_3_25.jpg"
+  },
+  {
+    "scene_idx": 6,
+    "frame_variant": 50,
+    "timestamp_sec": 184.12,
+    "scene_start_sec": 180.28,
+    "scene_end_sec": 187.96,
+    "ocr_text": "BELLE\n8\n2",
+    "frame_path": "data/processed/output/frames/frame_6_50.jpg"
+  },
+  {
+    "scene_idx": 7,
+    "frame_variant": 50,
+    "timestamp_sec": 192.18,
+    "scene_start_sec": 187.96,
+    "scene_end_sec": 196.4,
+    "ocr_text": "luigi navarra",
+    "frame_path": "data/processed/output/frames/frame_7_50.jpg"
+  },
+  {
+    "scene_idx": 9,
+    "frame_variant": 25,
+    "timestamp_sec": 207.14,
+    "scene_start_sec": 203.68,
+    "scene_end_sec": 210.6,
+    "ocr_text": "caterina Grama \n1",
+    "frame_path": "data/processed/output/frames/frame_9_25.jpg"
+  },
+  {
+    "scene_idx": 10,
+    "frame_variant": 25,
+    "timestamp_sec": 214.06,
+    "scene_start_sec": 210.6,
+    "scene_end_sec": 217.52,
+    "ocr_text": "MARCO BELTA\n2\nfrancesco:\nFrancesco",
+    "frame_path": "data/processed/output/frames/frame_10_25.jpg"
+  },
+  {
+    "scene_idx": 11,
+    "frame_variant": 50,
+    "timestamp_sec": 219.98000000000002,
+    "scene_start_sec": 217.52,
+    "scene_end_sec": 222.44,
+    "ocr_text": "E(ONLA PARTECIPMTIONE DI\n1",
+    "frame_path": "data/processed/output/frames/frame_11_50.jpg"
+  },
+  {
+    "scene_idx": 13,
+    "frame_variant": 25,
+    "timestamp_sec": 235.16,
+    "scene_start_sec": 232.68,
+    "scene_end_sec": 237.64,
+    "ocr_text": "5\nKRISTIAN GIANFREDA \n48",
+    "frame_path": "data/processed/output/frames/frame_13_25.jpg"
+  },
+  {
+    "scene_idx": 432,
+    "frame_variant": 75,
+    "timestamp_sec": 4646.22,
+    "scene_start_sec": 4639.8,
+    "scene_end_sec": 4652.64,
+    "ocr_text": "Direzione\nMiBAC\nGenerale\nCINEMA",
+    "frame_path": "data/processed/output/frames/frame_432_75.jpg"
+  },
+  {
+    "scene_idx": 433,
+    "frame_variant": 25,
+    "timestamp_sec": 4683.02,
+    "scene_start_sec": 4652.64,
+    "scene_end_sec": 4713.4,
+    "ocr_text": "1\nMARCO BRAMBINI\nFILIPPO BRAMBILLA\n1\nSUSANNA CIUCCI\n1\nMATTEO LOLLETTI\n1",
+    "frame_path": "data/processed/output/frames/frame_433_25.jpg"
+  },
+  {
+    "scene_idx": 434,
+    "frame_variant": 75,
+    "timestamp_sec": 4768.9,
+    "scene_start_sec": 4713.4,
+    "scene_end_sec": 4824.4,
+    "ocr_text": "Noleggio fuagoni\n1\n1\nsociaie\n|\n1\n1\n1\n|\n1\nottiche\n1\n|\n1\nregista\n|\n|\n1\nDanicle Morelli\nsindaco\nHicesindaco Hcnela Benuccioui\n|\n1\n1\n5\n1\nPolirin Municipale\nMengh\n;\n|\n1",
+    "frame_path": "data/processed/output/frames/frame_434_75.jpg"
+  }
+]

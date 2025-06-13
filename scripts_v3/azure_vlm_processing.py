@@ -1,28 +1,28 @@
-import logging
-import json
-import os
 import base64
-from mimetypes import guess_type
-from pathlib import Path
-from tqdm import tqdm
-from datetime import datetime
+import json
+import logging
+import os
 import time
 from dataclasses import dataclass
-from typing import List, Dict, Any, Optional, Tuple
+from mimetypes import guess_type
+from pathlib import Path
+from typing import Any, Dict, List, Optional, Tuple
+
+from tqdm import tqdm
 
 try:
-    from openai import AzureOpenAI, APIStatusError, APIConnectionError, RateLimitError
+    from openai import APIConnectionError, APIStatusError, AzureOpenAI, RateLimitError
 except ImportError:
     AzureOpenAI = None
     APIStatusError = APIConnectionError = RateLimitError = None
     logging.warning("Azure OpenAI library not found. Azure VLM processing will not be available.")
 
-from scripts_v3 import config
-from scripts_v3 import utils
+from scripts_v3 import config, utils
 
 # Exponential backoff settings for Azure API retries
 MAX_API_RETRIES = 3
 BACKOFF_FACTOR = 2.0
+
 
 @dataclass
 class ChatCompletionRequest:
@@ -31,17 +31,17 @@ class ChatCompletionRequest:
     max_tokens: int
     temperature: float
 
+
 @dataclass
 class ChatCompletionResponse:
     content: str
 
+
 def local_image_to_data_url(image_path: Path) -> Optional[str]:
     """Encodes a local image file into a base64 data URL."""
     try:
-
         mime_type, _ = guess_type(image_path)
         if mime_type is None:
-
             mime_type = "image/jpeg"
             logging.warning(f"Could not guess MIME type for {image_path}, defaulting to {mime_type}")
 
@@ -53,10 +53,9 @@ def local_image_to_data_url(image_path: Path) -> Optional[str]:
         logging.error(f"Error encoding image {image_path} to data URL: {e}")
         return None
 
+
 def run_azure_vlm_ocr_on_frames(
-    episode_id: str,
-    role_map: Dict[str, str],
-    max_new_tokens: int
+    episode_id: str, role_map: Dict[str, str], max_new_tokens: int
 ) -> Tuple[int, str, Optional[str]]:
     """
     Runs Azure VLM OCR on selected frames for an episode, one frame at a time,
@@ -82,7 +81,7 @@ def run_azure_vlm_ocr_on_frames(
     episode_dir = config.EPISODES_BASE_DIR / episode_id
     ocr_dir = episode_dir / 'ocr'
     frames_dir = episode_dir / 'analysis' / 'frames'
-    output_json_path = ocr_dir / f"{episode_id}_credits_azure_vlm.json"  
+    output_json_path = ocr_dir / f"{episode_id}_credits_azure_vlm.json"
 
     try:
         ocr_dir.mkdir(parents=True, exist_ok=True)
@@ -100,14 +99,16 @@ def run_azure_vlm_ocr_on_frames(
         logging.info(f"[{episode_id}] Scanning for frames in {frames_dir}...")
         found_frame_files = sorted(list(frames_dir.glob('*.jpg')))
         for image_path in found_frame_files:
-            frame_info = {"path": image_path, "filename": image_path.name} 
+            frame_info = {"path": image_path, "filename": image_path.name}
 
             try:
                 timecode_str = image_path.stem.split('_')[-1]
                 if timecode_str.count('-') == 3:
-                     frame_info["timecode"] = timecode_str.replace('-', ':', 2).replace('-', ',', 1)
-                else: frame_info["timecode"] = "N/A"
-            except Exception: frame_info["timecode"] = "N/A"
+                    frame_info["timecode"] = timecode_str.replace('-', ':', 2).replace('-', ',', 1)
+                else:
+                    frame_info["timecode"] = "N/A"
+            except Exception:
+                frame_info["timecode"] = "N/A"
             all_frames_info.append(frame_info)
 
     if not all_frames_info:
@@ -126,9 +127,8 @@ def run_azure_vlm_ocr_on_frames(
     if output_json_path.exists():
         try:
             with open(output_json_path, 'r', encoding='utf-8') as f:
-                existing_credits = json.load(f) 
+                existing_credits = json.load(f)
                 for credit in existing_credits:
-
                     frames = credit.get('source_frame', [])
                     if isinstance(frames, list):
                         processed_frames_set.update(frames)
@@ -136,7 +136,9 @@ def run_azure_vlm_ocr_on_frames(
                         processed_frames_set.add(frames)
         except Exception as e:
             logging.warning(f"[{episode_id}] Could not load processed frames from {output_json_path}: {e}")
-    logging.info(f"[{episode_id}] Found {len(processed_frames_set)} already processed unique frame filenames in {output_json_path.name}.")
+    logging.info(
+        f"[{episode_id}] Found {len(processed_frames_set)} already processed unique frame filenames in {output_json_path.name}."
+    )
 
     # Initialize Azure client with credentials from config.Env
     try:
@@ -154,7 +156,7 @@ def run_azure_vlm_ocr_on_frames(
 
     newly_added_credits_count = 0
     prompt_template = config.BASE_PROMPT_TEMPLATE
-    previous_llm_output_json_str = "[]" 
+    previous_llm_output_json_str = "[]"
 
     manifest_path = episode_dir / "analysis" / "analysis_manifest.json"
     manifest_data = {}
@@ -174,12 +176,12 @@ def run_azure_vlm_ocr_on_frames(
     for scene_key, scene_result in scenes_data.items():
         output_files = scene_result.get("output_files", [])
 
-        scene_position = scene_result.get("position", "unknown") 
+        scene_position = scene_result.get("position", "unknown")
 
-        for frame_info_manifest in output_files: 
+        for frame_info_manifest in output_files:
             relative_path_str = frame_info_manifest.get("path")
 
-            frame_num = frame_info_manifest.get("frame_num") 
+            frame_num = frame_info_manifest.get("frame_num")
 
             if not relative_path_str:
                 logging.warning(f"[{episode_id}] Frame info missing path: {frame_info_manifest}. Skipping.")
@@ -193,15 +195,19 @@ def run_azure_vlm_ocr_on_frames(
             frame_filename = full_image_path.name
 
             if frame_filename in processed_frames_set:
-                logging.info(f"[{episode_id}] Frame already processed based on existing output, skipping: {frame_filename}")
-                continue 
+                logging.info(
+                    f"[{episode_id}] Frame already processed based on existing output, skipping: {frame_filename}"
+                )
+                continue
 
-            frames_to_process.append({
-                "path": full_image_path,
-                "filename": frame_filename,
-                "frame_num": frame_num,
-                "scene_position": scene_position 
-            })
+            frames_to_process.append(
+                {
+                    "path": full_image_path,
+                    "filename": frame_filename,
+                    "frame_num": frame_num,
+                    "scene_position": scene_position,
+                }
+            )
 
     logging.info(f"[{episode_id}] Total frames to process from manifest: {len(frames_to_process)}.")
 
@@ -209,17 +215,19 @@ def run_azure_vlm_ocr_on_frames(
         msg = f"No new frames to process for episode {episode_id} after checking manifest and existing output."
         logging.warning(f"[{episode_id}] {msg}")
 
-        if not output_json_path.exists() or not processed_frames_set: 
+        if not output_json_path.exists() or not processed_frames_set:
             return 0, "skipped_no_frames_to_process", msg
         else:
-            logging.info(f"[{episode_id}] No new frames found in manifest to process, and existing output file present. Assuming completed.")
+            logging.info(
+                f"[{episode_id}] No new frames found in manifest to process, and existing output file present. Assuming completed."
+            )
             return 0, "completed_no_new_frames", None
 
     logging.info(f"[{episode_id}] Found {len(frames_to_process)} new frames to process from manifest.")
 
     try:
-        all_parsed_credits = [] 
-        name_to_role_groups = {} 
+        all_parsed_credits = []
+        name_to_role_groups = {}
 
         if output_json_path.exists():
             try:
@@ -227,7 +235,9 @@ def run_azure_vlm_ocr_on_frames(
                     all_parsed_credits.extend(json.load(f_existing))
                 logging.info(f"[{episode_id}] Loaded {len(all_parsed_credits)} existing credits to append to.")
             except Exception as e:
-                logging.warning(f"[{episode_id}] Could not load existing credits from {output_json_path} for appending: {e}")
+                logging.warning(
+                    f"[{episode_id}] Could not load existing credits from {output_json_path} for appending: {e}"
+                )
 
         for frame_idx, frame_data in enumerate(tqdm(frames_to_process, desc=f"Processing frames for {episode_id}")):
             frame_path = frame_data["path"]
@@ -238,15 +248,18 @@ def run_azure_vlm_ocr_on_frames(
                 continue
 
             try:
-                prompt_text = prompt_template.format(
-                    previous_credits_json=previous_llm_output_json_str
-                )
+                prompt_text = prompt_template.format(previous_credits_json=previous_llm_output_json_str)
                 logging.debug(f"[{episode_id}] Using prompt for frame {frame_idx}: {frame_data['filename']}...")
 
-                messages = [{"role": "user", "content": [
-                    {"type": "image_url", "image_url": {"url": data_url}},
-                    {"type": "text", "text": prompt_text}
-                ]}]
+                messages = [
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "image_url", "image_url": {"url": data_url}},
+                            {"type": "text", "text": prompt_text},
+                        ],
+                    }
+                ]
 
                 logging.debug(f"[{episode_id}] Sending request for frame {frame_idx}: {frame_data['filename']}")
 
@@ -255,78 +268,100 @@ def run_azure_vlm_ocr_on_frames(
                 for attempt in range(1, MAX_API_RETRIES + 1):
                     try:
                         response = client.chat.completions.create(
-                            model=deployment_name,
-                            messages=messages,
-                            max_tokens=max_new_tokens,
-                            temperature=0.0
+                            model=deployment_name, messages=messages, max_tokens=max_new_tokens, temperature=0.0
                         )
                         break
                     except (APIConnectionError, APIStatusError) as api_err:
-                        logging.warning(f"[{episode_id}] Azure API error (attempt {attempt}/{MAX_API_RETRIES}): {api_err}")
+                        logging.warning(
+                            f"[{episode_id}] Azure API error (attempt {attempt}/{MAX_API_RETRIES}): {api_err}"
+                        )
                         if attempt == MAX_API_RETRIES:
                             raise
-                        sleep_time = BACKOFF_FACTOR ** attempt
+                        sleep_time = BACKOFF_FACTOR**attempt
                         time.sleep(sleep_time)
                     except RateLimitError as rl_err:
-                        logging.warning(f"[{episode_id}] Azure rate limit (attempt {attempt}/{MAX_API_RETRIES}): {rl_err}")
+                        logging.warning(
+                            f"[{episode_id}] Azure rate limit (attempt {attempt}/{MAX_API_RETRIES}): {rl_err}"
+                        )
                         if attempt == MAX_API_RETRIES:
                             raise
-                        sleep_time = BACKOFF_FACTOR ** attempt
+                        sleep_time = BACKOFF_FACTOR**attempt
                         time.sleep(sleep_time)
                 if response is None:
                     raise RuntimeError("Azure VLM retry failed, no response received.")
 
                 generated_text = response.choices[0].message.content.strip()
-                logging.debug(f"[{episode_id}] VLM Raw Output for frame {frame_idx} ({frame_data['filename']}): {generated_text}")
+                logging.debug(
+                    f"[{episode_id}] VLM Raw Output for frame {frame_idx} ({frame_data['filename']}): {generated_text}"
+                )
 
                 cleaned_json_str = utils.clean_vlm_output(generated_text)
 
-                current_frame_parsed_credits = utils.parse_vlm_json(cleaned_json_str, frame_data['filename'], name_key="name")
+                current_frame_parsed_credits = utils.parse_vlm_json(
+                    cleaned_json_str, frame_data['filename'], name_key="name"
+                )
 
                 if current_frame_parsed_credits:
                     for credit_entry in current_frame_parsed_credits:
-
                         raw_role_value = credit_entry.get("role_group")
                         raw_role = raw_role_value.lower() if isinstance(raw_role_value, str) else ""
-                        normalized_role = role_map.get(raw_role, raw_role_value if raw_role_value is not None else "Unknown")
+                        normalized_role = role_map.get(
+                            raw_role, raw_role_value if raw_role_value is not None else "Unknown"
+                        )
                         credit_entry["role_group_normalized"] = normalized_role
 
-                        credit_entry['source_frame'] = [frame_data["filename"]] 
-                        credit_entry['original_frame_number'] = [frame_data["frame_num"]] 
+                        credit_entry['source_frame'] = [frame_data["filename"]]
+                        credit_entry['original_frame_number'] = [frame_data["frame_num"]]
 
                         credit_entry['scene_position'] = frame_data.get("scene_position", "unknown")
 
                         credit_entry.pop("source_image_index", None)
 
-                        logging.debug(f"[{episode_id}] Parsed credit entry for {frame_data['filename']}: {credit_entry}")
-                        all_parsed_credits.append(credit_entry) 
+                        logging.debug(
+                            f"[{episode_id}] Parsed credit entry for {frame_data['filename']}: {credit_entry}"
+                        )
+                        all_parsed_credits.append(credit_entry)
 
                 previous_llm_output_json_str = cleaned_json_str
-                logging.debug(f"[{episode_id}] Context for next frame (from {frame_data['filename']}): {previous_llm_output_json_str[:200]}...")
+                logging.debug(
+                    f"[{episode_id}] Context for next frame (from {frame_data['filename']}): {previous_llm_output_json_str[:200]}..."
+                )
 
             except APIStatusError as e:
-                logging.error(f"[{episode_id}] Azure API error on frame {frame_idx} ({frame_data['filename']}): {e.status_code} - {e.response}", exc_info=True)
+                logging.error(
+                    f"[{episode_id}] Azure API error on frame {frame_idx} ({frame_data['filename']}): {e.status_code} - {e.response}",
+                    exc_info=True,
+                )
             except APIConnectionError as e:
-                logging.error(f"[{episode_id}] Azure connection error on frame {frame_idx} ({frame_data['filename']}): {e}", exc_info=True)
+                logging.error(
+                    f"[{episode_id}] Azure connection error on frame {frame_idx} ({frame_data['filename']}): {e}",
+                    exc_info=True,
+                )
 
             except RateLimitError as e:
-                logging.error(f"[{episode_id}] Azure rate limit exceeded on frame {frame_idx} ({frame_data['filename']}): {e}. Waiting and retrying might be needed.", exc_info=True)
+                logging.error(
+                    f"[{episode_id}] Azure rate limit exceeded on frame {frame_idx} ({frame_data['filename']}): {e}. Waiting and retrying might be needed.",
+                    exc_info=True,
+                )
 
             except Exception as frame_err:
-                logging.error(f"[{episode_id}] Error processing frame {frame_idx} ({frame_data['filename']}): {frame_err}", exc_info=True)
+                logging.error(
+                    f"[{episode_id}] Error processing frame {frame_idx} ({frame_data['filename']}): {frame_err}",
+                    exc_info=True,
+                )
 
-        dedup_credits_map = {} 
+        dedup_credits_map = {}
 
         for credit in all_parsed_credits:
             name = (credit.get("name") or "").strip()
             role_group = credit.get("role_group_normalized") or credit.get("role_group")
             if name and role_group:
-                 name_to_role_groups.setdefault(name, set()).add(role_group)
+                name_to_role_groups.setdefault(name, set()).add(role_group)
 
         for credit in all_parsed_credits:
             role_group = credit.get("role_group_normalized") or credit.get("role_group")
             name = (credit.get("name") or "").strip()
-            key = (role_group, name) 
+            key = (role_group, name)
 
             current_source_frames = credit.get("source_frame", [])
             if not isinstance(current_source_frames, list):
@@ -337,7 +372,6 @@ def run_azure_vlm_ocr_on_frames(
                 current_frame_numbers = [current_frame_numbers] if current_frame_numbers is not None else []
 
             if key in dedup_credits_map:
-
                 existing_entry = dedup_credits_map[key]
                 for f in current_source_frames:
                     if f not in existing_entry["source_frame"]:
@@ -364,16 +398,18 @@ def run_azure_vlm_ocr_on_frames(
         try:
             with open(output_json_path, 'w', encoding='utf-8') as f_out:
                 json.dump(final_dedup_credits_list, f_out, ensure_ascii=False, indent=2)
-            newly_added_credits_count = len(final_dedup_credits_list) 
-            logging.info(f"[{episode_id}] Saved/Updated {output_json_path.name} with {newly_added_credits_count} total deduplicated credit entries.")
+            newly_added_credits_count = len(final_dedup_credits_list)
+            logging.info(
+                f"[{episode_id}] Saved/Updated {output_json_path.name} with {newly_added_credits_count} total deduplicated credit entries."
+            )
         except Exception as write_err:
             logging.error(f"[{episode_id}] Failed to write dedup credits JSON: {write_err}", exc_info=True)
-            return 0, "error_writing_json", str(write_err) 
+            return 0, "error_writing_json", str(write_err)
 
     except Exception as e:
         msg = f"Unexpected error during Azure VLM processing loop: {e}"
         logging.error(f"[{episode_id}] {msg}", exc_info=True)
-        return 0, "error_vlm_loop", msg 
+        return 0, "error_vlm_loop", msg
 
     logging.info(f"[{episode_id}] Finished Azure VLM processing. Total credits in file: {newly_added_credits_count}.")
     return newly_added_credits_count, "completed", None
