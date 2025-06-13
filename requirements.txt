@@ -17,5 +17,3 @@ scenedetect[opencv]
 thefuzz
 python-Levenshtein # Recommended for thefuzz performance
 tokenizers==0.21.1
-
-streamlit-aggrid

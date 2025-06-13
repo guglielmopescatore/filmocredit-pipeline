@@ -3,13 +3,11 @@ import sys
 import sqlite3
 import json
 from pathlib import Path
-from typing import Optional, Any
+from typing import Optional, Any, List, Dict
 import logging
 from PIL import Image
 import streamlit as st
 st.set_page_config(layout="wide")
-
-from st_aggrid import AgGrid, GridOptionsBuilder, JsCode
 
 from scenedetect import open_video
 
@@ -82,6 +80,7 @@ openai_logger.setLevel(logging.INFO)
 
 utils.init_db()
 
+
 st.title("🎬 Film Credit Extraction Pipeline v3")
 
 # Custom CSS to make the main content area wider
@@ -148,7 +147,7 @@ if st.sidebar.button("Save Stopwords", key="save_stopwords_button_key_v3"):
     utils.save_user_stopwords(updated_stopwords)
     st.session_state.user_stopwords = updated_stopwords
     st.sidebar.success("Stopwords saved!")
-
+    
 config.RAW_VIDEO_DIR.mkdir(parents=True, exist_ok=True)
 allowed_extensions = (".mp4", ".mkv", ".avi", ".mov")
 try:
@@ -474,6 +473,54 @@ with tab1:
 if 'user_selected_scenes_for_step2' not in st.session_state:
     st.session_state.user_selected_scenes_for_step2 = {}
 
+def invalidate_episode_cache(episode_id: str):
+    """Invalidate cached episode statistics when credits are modified."""
+    cache_key = f"problem_count_{episode_id}"
+    if cache_key in st.session_state:
+        del st.session_state[cache_key]
+    logging.info(f"Invalidated cache for episode: {episode_id}")
+
+def identify_problematic_credits_fast(episode_id: str, force_refresh: bool = False) -> List[Dict[str, Any]]:
+    """
+    Fast version of identify_problematic_credits with caching.
+    
+    Args:
+        episode_id: Episode to analyze
+        force_refresh: If True, bypass cache and recalculate
+        
+    Returns:
+        List of problematic credits
+    """
+    import hashlib
+    import time
+    
+    # Cache key based on episode and last modification time
+    cache_key = f"problematic_credits_{episode_id}"
+    cache_time_key = f"{cache_key}_time"
+    
+    if not force_refresh:
+        # Check if we have cached results that are still fresh (within 30 seconds)
+        if cache_key in st.session_state and cache_time_key in st.session_state:
+            cache_age = time.time() - st.session_state[cache_time_key]
+            if cache_age < 30:  # Cache valid for 30 seconds
+                logging.debug(f"[{episode_id}] Using cached problematic credits (age: {cache_age:.1f}s)")
+                return st.session_state[cache_key]
+    
+    # Calculate problematic credits
+    logging.info(f"[{episode_id}] Calculating problematic credits...")
+    start_time = time.time()
+    
+    problematic_credits = utils.identify_problematic_credits(episode_id)
+    
+    calculation_time = time.time() - start_time
+    logging.info(f"[{episode_id}] Calculated {len(problematic_credits)} problematic credits in {calculation_time:.2f}s")
+    
+    # Cache the results
+    st.session_state[cache_key] = problematic_credits
+    st.session_state[cache_time_key] = time.time()
+    
+    return problematic_credits
+
 if run_step1_button:
     if not selected_videos_str_paths:
         st.warning("Please select at least one video for Step 1.")
@@ -768,6 +815,78 @@ if run_step3_button:
 if run_all_steps_button:
     st.warning("RUN ALL STEPS functionality needs to be implemented by calling Step 1, 2, and 3 in sequence for each selected video, with appropriate checks for success before proceeding to the next step. This is a complex workflow to manage in Streamlit's execution model and is left as a manual process for now (run steps individually).")
 
+# Credits Database Management
+st.sidebar.header("🗄️ Credits Database")
+try:
+    import sqlite3
+    conn = sqlite3.connect(config.DB_PATH)
+    cursor = conn.cursor()
+    
+    # Get database stats
+    cursor.execute("SELECT COUNT(*) FROM episodes")
+    episode_count = cursor.fetchone()[0]
+    
+    cursor.execute("SELECT COUNT(*) FROM credits")
+    credit_count = cursor.fetchone()[0]
+    
+    conn.close()
+    
+    st.sidebar.info(f"Episodes: {episode_count}")
+    st.sidebar.info(f"Credits: {credit_count:,}")
+    
+    # Dangerous operations
+    with st.sidebar.expander("⚠️ Danger Zone", expanded=False):
+        st.warning("These actions cannot be undone!")
+        
+        if st.button("🗑️ Clear All Credits", help="Remove all credits but keep episodes"):
+            if st.session_state.get('confirm_clear_credits', False):
+                try:
+                    conn = sqlite3.connect(config.DB_PATH)
+                    cursor = conn.cursor()
+                    cursor.execute("DELETE FROM credits")
+                    deleted_count = cursor.rowcount
+                    conn.commit()
+                    conn.close()
+                    st.success(f"Deleted {deleted_count:,} credits")
+                    st.session_state['confirm_clear_credits'] = False
+                    # Clear any cached queues
+                    for key in list(st.session_state.keys()):
+                        if 'problematic_queue' in key:
+                            del st.session_state[key]
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"Error clearing credits: {e}")
+            else:
+                st.session_state['confirm_clear_credits'] = True
+                st.error("Click again to confirm deletion of ALL credits")
+        
+        if st.button("💥 Clear All Data", help="Remove episodes AND credits"):
+            if st.session_state.get('confirm_clear_all', False):
+                try:
+                    conn = sqlite3.connect(config.DB_PATH)
+                    cursor = conn.cursor()
+                    cursor.execute("DELETE FROM credits")
+                    credits_deleted = cursor.rowcount
+                    cursor.execute("DELETE FROM episodes")
+                    episodes_deleted = cursor.rowcount
+                    conn.commit()
+                    conn.close()
+                    st.success(f"Deleted {episodes_deleted} episodes and {credits_deleted:,} credits")
+                    st.session_state['confirm_clear_all'] = False
+                    # Clear any cached queues
+                    for key in list(st.session_state.keys()):
+                        if 'problematic_queue' in key or 'selected_episode' in key:
+                            del st.session_state[key]
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"Error clearing database: {e}")
+            else:
+                st.session_state['confirm_clear_all'] = True
+                st.error("Click again to confirm deletion of ALL data")
+
+except Exception as e:
+    st.sidebar.error(f"Database error: {e}")
+
 with tab2:
     st.header("✏️ Review & Edit Credits")
 
@@ -789,15 +908,19 @@ with tab2:
                 show_only_needing_review = st.checkbox(
                     "Show only episodes that need reviewing", 
                     value=False, 
-                    key="filter_episodes_needing_review",
-                    help="Filter to show only episodes with problematic credits that need human review"
+                    key="filter_episodes_needing_review",                    help="Filter to show only episodes with problematic credits that need human review"
                 )
                 
                 if show_only_needing_review:
                     # Filter episodes to show only those with problematic credits
                     episodes_with_problems = []
                     for episode in available_episodes:
-                        problematic_count = len(utils.identify_problematic_credits(episode))
+                        # Use cached count if available, otherwise calculate it
+                        cache_key = f"problem_count_{episode}"
+                        if cache_key not in st.session_state:
+                            st.session_state[cache_key] = len(identify_problematic_credits_fast(episode))
+                        problematic_count = st.session_state[cache_key]
+                        
                         if problematic_count > 0:
                             episodes_with_problems.append(f"{episode} ({problematic_count} issues)")
                     
@@ -813,7 +936,11 @@ with tab2:
                     episodes_with_counts = []
                     episode_options = []
                     for episode in available_episodes:
-                        problematic_count = len(utils.identify_problematic_credits(episode))
+                        # Use cached count if available, otherwise calculate it
+                        cache_key = f"problem_count_{episode}"
+                        if cache_key not in st.session_state:
+                            st.session_state[cache_key] = len(identify_problematic_credits_fast(episode))
+                        problematic_count = st.session_state[cache_key]
                         if problematic_count > 0:
                             episodes_with_counts.append(f"{episode} ({problematic_count} issues)")
                         else:
@@ -826,17 +953,49 @@ with tab2:
                     st.rerun()
             
             if display_episodes:
+                # Initialize selected episode in session state if not set
+                if 'selected_episode_for_review' not in st.session_state:
+                    # Store the actual episode name, not the display string
+                    st.session_state.selected_episode_for_review = episode_options[0] if episode_options else None
+                    logging.info(f"[Episode Selection] Initialized to: {st.session_state.selected_episode_for_review}")
+                
+                # Find the index of the currently selected episode
+                try:
+                    # Look for the episode in episode_options (actual names), then get its index
+                    if st.session_state.selected_episode_for_review in episode_options:
+                        current_index = episode_options.index(st.session_state.selected_episode_for_review)
+                        logging.info(f"[Episode Selection] Found episode '{st.session_state.selected_episode_for_review}' at index {current_index}")
+                    else:
+                        current_index = 0
+                        # Update session state to match the current first option
+                        old_selection = st.session_state.selected_episode_for_review
+                        st.session_state.selected_episode_for_review = episode_options[0] if episode_options else None
+                        logging.info(f"[Episode Selection] Episode '{old_selection}' not found, reset to: {st.session_state.selected_episode_for_review}")
+                except (ValueError, TypeError, IndexError):
+                    current_index = 0
+                    old_selection = st.session_state.selected_episode_for_review
+                    st.session_state.selected_episode_for_review = episode_options[0] if episode_options else None
+                    logging.info(f"[Episode Selection] Exception occurred, reset from '{old_selection}' to: {st.session_state.selected_episode_for_review}")
+                
                 selected_display = st.selectbox(
                     "Select an episode to review:",
                     options=display_episodes,
+                    index=current_index,
                     key="episode_selector_review"
                 )
                 
-                # Extract the actual episode name from the display string
+                # Update session state when selection changes - store the actual episode name
                 if show_only_needing_review:
-                    selected_episode = selected_display.split(' (')[0] if selected_display else None
+                    selected_episode_name = selected_display.split(' (')[0] if selected_display else None
                 else:
-                    selected_episode = episode_options[display_episodes.index(selected_display)] if selected_display else None
+                    selected_episode_name = episode_options[display_episodes.index(selected_display)] if selected_display else None
+                
+                if selected_episode_name != st.session_state.selected_episode_for_review:
+                    logging.info(f"[Episode Selection] User changed selection from '{st.session_state.selected_episode_for_review}' to '{selected_episode_name}'")
+                    st.session_state.selected_episode_for_review = selected_episode_name
+                
+                # Extract the actual episode name from the display string
+                selected_episode = selected_episode_name
             else:
                 selected_episode = None
 
@@ -846,7 +1005,7 @@ with tab2:
                 decisions_key = f"credit_decisions_{selected_episode}"
 
                 if queue_key not in st.session_state:
-                    initial_queue = utils.identify_problematic_credits(selected_episode)
+                    initial_queue = identify_problematic_credits_fast(selected_episode)
                     st.session_state[queue_key] = initial_queue
                     st.session_state[index_key] = 0
                     st.session_state[decisions_key] = {}
@@ -859,41 +1018,48 @@ with tab2:
 
                 col1, col2, col3 = st.columns([3, 1, 1])
                 with col1:
-                    review_mode = st.selectbox(
-                        "Review Mode:",
+                    review_mode = st.selectbox(                        "Review Mode:",
                         options=["🎯 Focus Mode (One at a time)", "📋 Overview Mode (All credits)"],
                         key="review_mode_selector"
                     )
 
                 with col2:
                     if st.button("🔄 Refresh Queue"):
-                        st.session_state[queue_key] = utils.identify_problematic_credits(selected_episode)
-                        st.session_state[index_key] = 0
-                        # Reset the original total when queue is refreshed
-                        if f"{queue_key}_original" in st.session_state:
-                            del st.session_state[f"{queue_key}_original"]
-                        st.rerun()
-
-                with col3:
-                    if st.button("🔓 Reset Reviews", help="Reset all 'kept' status for this episode"):
-                        try:
-                            conn = sqlite3.connect(config.DB_PATH)
-                            cursor = conn.cursor()
-                            cursor.execute(f"""
-                                UPDATE {config.DB_TABLE_CREDITS}
-                                SET reviewed_status = 'pending', reviewed_at = NULL
-                                WHERE episode_id = ? AND reviewed_status = 'kept'
-                            """, (selected_episode,))
-                            affected_rows = cursor.rowcount
-                            conn.commit()
-                            conn.close()
-                            
-                            # Refresh the queue
+                        with st.spinner("Refreshing problematic credits queue..."):
                             st.session_state[queue_key] = utils.identify_problematic_credits(selected_episode)
                             st.session_state[index_key] = 0
                             # Reset the original total when queue is refreshed
                             if f"{queue_key}_original" in st.session_state:
                                 del st.session_state[f"{queue_key}_original"]
+                        st.success(f"Queue refreshed with {len(st.session_state[queue_key])} problematic credits")
+                        st.rerun()
+
+                with col3:
+                    if st.button("🔓 Reset Reviews", help="Reset all 'kept' status for this episode"):
+                        try:
+                            with st.spinner("Resetting all reviews for this episode..."):
+                                conn = sqlite3.connect(config.DB_PATH)
+                                cursor = conn.cursor()
+                                cursor.execute(f"""
+                                    UPDATE {config.DB_TABLE_CREDITS}
+                                    SET reviewed_status = 'pending', reviewed_at = NULL
+                                    WHERE episode_id = ? AND reviewed_status = 'kept'
+                                """, (selected_episode,))
+                                affected_rows = cursor.rowcount
+                                conn.commit()
+                                conn.close()
+                                
+                                # Refresh the queue only if we actually reset some reviews
+                                if affected_rows > 0:
+                                    st.session_state[queue_key] = utils.identify_problematic_credits(selected_episode)
+                                    st.session_state[index_key] = 0
+                                    # Reset the original total when queue is refreshed
+                                    if f"{queue_key}_original" in st.session_state:
+                                        del st.session_state[f"{queue_key}_original"]
+                                    st.success(f"Reset {affected_rows} reviews and refreshed queue with {len(st.session_state[queue_key])} problematic credits")
+                                else:
+                                    st.info("No reviews to reset for this episode")
+                                st.rerun()
                             st.success(f"Reset review status for {affected_rows} credits. Queue refreshed.")
                             st.rerun()
                             
@@ -1001,7 +1167,59 @@ with tab2:
                                 st.write(f"**Role Group:** {current_credit['role_group']}")
                                 st.write(f"**Role Detail:** {current_credit.get('role_detail', 'N/A')}")
                             with col2:
-                                st.write(f"**Scene Position:** {current_credit.get('scene_position', 'unknown')}")
+                                st.write(f"**Scene Position:** {current_credit.get('scene_position', 'unknown')}")                            # Display IMDB validation information based on present_in_imdb column
+                            if 'present_in_imdb' in current_credit:
+                                present_in_imdb = current_credit['present_in_imdb']
+                                st.markdown("### 🎬 IMDB Validation")
+                                
+                                col1, col2, col3 = st.columns(3)
+                                with col1:
+                                    if present_in_imdb is True:
+                                        st.markdown("**Status:** :green[✅ Found in IMDB]")
+                                    elif present_in_imdb is False:
+                                        st.markdown("**Status:** :red[❌ Not found in IMDB]")
+                                    else:  # None
+                                        st.markdown("**Status:** :orange[⏳ Not yet validated]")
+                                
+                                with col2:
+                                    if present_in_imdb is not None:
+                                        st.write("**Method:** Exact permutation match")
+                                    else:
+                                        st.write("**Method:** Pending validation")
+                                
+                                with col3:
+                                    if present_in_imdb is False:
+                                        st.write("**Action:** Review required")
+                                    elif present_in_imdb is None:
+                                        if st.button(f"🔍 Validate Now", key=f"validate_{current_credit['id']}"):
+                                            # Trigger validation for this specific credit
+                                            try:
+                                                from scripts_v3.imdb_name_validation import IMDBNameValidator
+                                                validator = IMDBNameValidator()
+                                                result = validator.validate_name(current_credit['name'], current_credit['role_group'])
+                                                
+                                                # Update database
+                                                import sqlite3
+                                                conn = sqlite3.connect(config.DB_PATH)
+                                                cursor = conn.cursor()
+                                                cursor.execute(f"""
+                                                    UPDATE {config.DB_TABLE_CREDITS} 
+                                                    SET present_in_imdb = ? 
+                                                    WHERE id = ?
+                                                """, (result['is_valid'], current_credit['id']))
+                                                conn.commit()
+                                                conn.close()
+                                                
+                                                st.success(f"Validation complete: {'Found' if result['is_valid'] else 'Not found'}")
+                                                st.rerun()
+                                            except Exception as e:
+                                                st.error(f"Validation failed: {e}")
+                                
+                                # Show validation tip
+                                if present_in_imdb is False:
+                                    st.info("💡 This name was not found in the IMDB database. This could indicate an OCR error or a lesser-known person not in IMDB.")
+                                elif present_in_imdb is None:
+                                    st.info("💡 Click 'Validate Now' to check if this name exists in the IMDB database.")
 
                             st.markdown("### 🖼️ Source Frame(s)")
                             best_frames = utils.get_best_frames_for_credit(current_credit, max_frames=2)
@@ -1102,23 +1320,26 @@ with tab2:
                                                 UPDATE {config.DB_TABLE_CREDITS}
                                                 SET name = ?, role_group_normalized = ?, role_detail = ?, 
                                                     reviewed_status = 'kept', reviewed_at = CURRENT_TIMESTAMP
-                                                WHERE id = ?
-                                            """, (variant['name'], variant['role_group'], variant['role_detail'], variant['id']))
+                                                WHERE id = ?                                            """, (variant['name'], variant['role_group'], variant['role_detail'], variant['id']))
                                         
                                         conn.commit()
                                         conn.close()
-                                            # Check if any variants remain
+                                        
+                                        # Check if any variants remain
                                         if not edited_variants:
-                                            # All variants were deleted
-                                            success_msg = f"🗑️ All variants deleted successfully!"
+                                            # All variants were deleted                                            success_msg = f"🗑️ All variants deleted successfully!"
                                             decision_type = 'delete_all'
                                         else:
                                             # Some variants remain
                                             success_msg = f"💾 Changes saved! {len(edited_variants)} variant(s) kept, {len(variants_to_delete)} deleted."
-                                            decision_type = 'variants_edited'# Remove from queue and update navigation (for all cases)                                            # Get fresh references directly from session state
+                                            decision_type = 'variants_edited'
+                                        
+                                        # Remove from queue and update navigation (for all cases)
+                                        # Get fresh references directly from session state
                                         problematic_queue = st.session_state[queue_key]
                                         current_index = st.session_state[index_key]
-                                            # Get the current credit from the fresh queue/index
+                                        
+                                        # Get the current credit from the fresh queue/index
                                         if current_index < len(problematic_queue):
                                             current_credit_fresh = problematic_queue[current_index]
                                             logging.info(f"[Variants Save] Processing credit: {current_credit_fresh['name']} (ID: {current_credit_fresh['id']}) at index {current_index}")
@@ -1155,9 +1376,11 @@ with tab2:
                                             else:
                                                 logging.info(f"[Variants Save] Staying at index {current_index} - next credit will appear here")
                                             # If current_index < len(problematic_queue), stay at current_index
-                                            # because the next credit automatically moves into this position
-                                        else:
+                                            # because the next credit automatically moves into this position                                        else:
                                             logging.error(f"[Variants Save] Current index {current_index} is out of bounds for queue length {len(problematic_queue)}")
+                                          # Invalidate cache for this episode since credits were modified
+                                        episode_name = queue_key.replace("credit_queue_", "")
+                                        invalidate_episode_cache(episode_name)
                                         
                                         st.success(success_msg)
                                         
@@ -1214,7 +1437,7 @@ with tab2:
                             st.rerun()
 
                 elif review_mode.startswith("🎯 Focus Mode"):
-                    st.success("🎉 No problematic credits found! All credits appear to be correctly processed.")
+                    st.success("🎉 No problematic credits found!")
                     conn = sqlite3.connect(config.DB_PATH)
                     cursor = conn.cursor()
                     cursor.execute(f"SELECT COUNT(*) FROM {config.DB_TABLE_CREDITS} WHERE episode_id = ?", (selected_episode,))

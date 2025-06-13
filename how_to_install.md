@@ -17,3 +17,7 @@ IF YOU HAVE CPU ONLY:
 pip install paddleocr==3.0.0
 
 pip install -r requirements.txt
+
+
+
+DOWNLOAD, EXTRACT AND PUT IN SCRIPTS_V3 the file `name.basics.tsv.gz` from https://datasets.imdbws.com/

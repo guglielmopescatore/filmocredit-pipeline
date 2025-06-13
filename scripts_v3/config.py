@@ -14,6 +14,8 @@ RAW_VIDEO_DIR: Path = DATA_DIR / 'raw'
 EPISODES_BASE_DIR: Path = DATA_DIR / 'episodes'
 DB_DIR: Path = PROJECT_ROOT / 'db'
 DB_PATH: Path = DB_DIR / 'tvcredits_v3.db'
+IMDB_DB_PATH: Path = DB_DIR / 'imdb_names.db'
+IMDB_TSV_PATH: Path = PROJECT_ROOT / 'scripts_v3' / 'name.basics.tsv'
 ROLE_MAP_PATH: Path = PROJECT_ROOT / 'scripts_v3' / 'mapping_ruoli.json'
 
 LOG_FILE_PATH = PROJECT_ROOT / 'filmocredit_pipeline.log'
@@ -25,12 +27,6 @@ DEFAULT_OCR_USER_STOPWORDS: list[str] = ["RAI", "BBC", "HBO"]
 
 DEFAULT_OCR_ENGINE = "paddleocr"
 SUPPORTED_OCR_ENGINES = ["paddleocr"] # , "easyocr"]
-
-EASYOCR_LANG_MAP = {
-    'it': ['it'],
-    'en': ['en'],
-    'ch': ['ch_sim', 'en'], 
-}
 
 PADDLEOCR_LANG_MAP = {
     'it': 'it',
@@ -87,26 +83,28 @@ Instructions:
 
 Output:
     Return a raw JSON list, where each object represents a newly identified credit:
-    {{ "role_detail": "Specific Role/Title/Character/text that appears with the name or null", "name": "Name As Written", "role_group": "CATEGORY" }}
+    {{ "role_detail": "Specific Role/Title/Character/text that appears with the name or null", "name": "Name As Written", "role_group": "CATEGORY", "is_person": true/false }}
 
 Example Output Format:
 [
-{{"role_detail": "Director", "name": "Jane Director", "role_group": "Directors"}},
-{{"role_detail": "The Hero", "name": "John Actor", "role_group": "Cast"}},
-{{"role_detail": "Villain", "name": "Actor One", "role_group": "Cast"}},
-{{"role_detail": "e con", "name": "Jane Doe", "role_group": "Cast"}},
-{{"role_detail": "Aiuti segreteria di produzione", "name": "Fabio Lucilli", "role_group": "Production Management"}},
-{{"role_detail": "Musiche originali", "name": "Composer Name", "role_group": "Composers"}},
-{{"role_detail": "Production Designer", "name": "Designer Name", "role_group": "Production Design"}},
-{{"role_detail": "Ringraziamenti speciali", "name": "Special Thanks Org", "role_group": "Thanks"}},
-{{"role_detail": "Da cosa è accompagnato il testo", "name": "Just A Name", "role_group": "Unknown"}},
-{{"role_detail": "Direttore di seconda unità", "name": "Assistant Name", "role_group": "Second Unit Directors or Assistant Directors"}}
+{{"role_detail": "Director", "name": "Jane Director", "role_group": "Directors", "is_person": true}},
+{{"role_detail": "The Hero", "name": "John Actor", "role_group": "Cast", "is_person": true}},
+{{"role_detail": "Villain", "name": "Actor One", "role_group": "Cast", "is_person": true}},
+{{"role_detail": "e con", "name": "Jane Doe", "role_group": "Cast", "is_person": true}},
+{{"role_detail": "Aiuti segreteria di produzione", "name": "Fabio Lucilli", "role_group": "Production Management", "is_person": true}},
+{{"role_detail": "Musiche originali", "name": "Composer Name", "role_group": "Composers", "is_person": true}},
+{{"role_detail": "Production Designer", "name": "Designer Name", "role_group": "Production Design", "is_person": true}},
+{{"role_detail": "Ringraziamenti speciali", "name": "Warner Bros. Pictures", "role_group": "Thanks", "is_person": false}},
+{{"role_detail": "Catering", "name": "ABC Catering Services", "role_group": "Miscellaneous Companies", "is_person": false}},
+{{"role_detail": "Da cosa è accompagnato il testo", "name": "Just A Name", "role_group": "Unknown", "is_person": true}},
+{{"role_detail": "Direttore di seconda unità", "name": "Assistant Name", "role_group": "Second Unit Directors or Assistant Directors", "is_person": true}}
 ]
 
 Field Definitions:
 
     role_detail: The precise textual role, character, or qualifier (e.g., "Sound Mixer", "Anna Rossi", "featuring", "e con", "e di", "presenta"). If a name appears under a category heading without an individual specific detail, set to null.
-    name: The exact person or company name.    role_group: Choose only from the following predefined categories. Assign carefully based on the visible role detail or category heading in the credits:
+    name: The exact person or company name.
+    is_person: Set to true if the name refers to an individual person, false if it refers to a company, organization, or corporate entity.role_group: Choose only from the following predefined categories. Assign carefully based on the visible role detail or category heading in the credits:
         - **Directors**: regista, regia, directed by, co-director.
         - **Writers**: sceneggiatura, scritto da, written by, story by.
         - **Cast**: attori, interpreti, character names, "con", "e con", "e di", or names without technical roles.
@@ -115,7 +113,6 @@ Field Definitions:
         - **Music Department**: All other music-related functions (e.g., "Orchestrazione", "Coordinamento musicale", "Music Supervisor", "Score Mixer", "Arrangiamenti").
         - **Cinematographers**: direttore della fotografia, director of photography, camera director.
         - **Editors**: Only main editors.
-        - **Casting Credits**: casting director, selezione del cast.
         - **Production Design**: scenografia, production designer, designed by.
         - **Art Directors**: art director, direzione artistica.
         - **Set Decorators**: arredo di scena, set decoration.
@@ -130,7 +127,7 @@ Field Definitions:
         - **Stunts**: stunt, controfigure, stunt coordinator.
         - **Camera and Electrical Department**: operatore camera, focus puller, gaffer, elettricisti.
         - **Animation Department**: animazione, character animation, layout artist.
-        - **Casting Credits**: assistenti al casting, casting assistant.
+        - **Casting Credits**: assistenti al casting, casting assistant, casting director, selezione del cast.
         - **Costume and Wardrobe Department**: guardaroba, assistente costumi, dresser.
         - **Editorial Department**: assistenti al montaggio, editorial assistant. The editorial department includes all film/video editing functions other than the main editor.
         - **Location Management**: location manager, location scout, gestione location.

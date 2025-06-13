@@ -503,10 +503,12 @@ def init_db() -> None:
             original_frame_number TEXT, -- Added to store original frame numbers as text
             reviewed_status TEXT DEFAULT 'pending', -- Track review status: 'pending' or 'kept'
             reviewed_at TIMESTAMP,      -- When the credit was reviewed
+            present_in_imdb BOOLEAN,    -- NULL: not checked, TRUE: found in IMDB, FALSE: not found in IMDB
+            is_person BOOLEAN,          -- TRUE: person name, FALSE: company/organization name
             FOREIGN KEY (episode_id) REFERENCES {config.DB_TABLE_EPISODES} (episode_id)
         )
         """)
-
+        
         # Add the new columns to existing tables if they don't exist
         try:
             cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN reviewed_status TEXT DEFAULT 'pending'")
@@ -518,6 +520,20 @@ def init_db() -> None:
         try:
             cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN reviewed_at TIMESTAMP")
             logging.info("Added 'reviewed_at' column to credits table.")
+        except sqlite3.OperationalError:
+            # Column already exists
+            pass
+        
+        try:
+            cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN present_in_imdb BOOLEAN")
+            logging.info("Added 'present_in_imdb' column to credits table.")
+        except sqlite3.OperationalError:
+            # Column already exists
+            pass
+
+        try:
+            cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN is_person BOOLEAN")
+            logging.info("Added 'is_person' column to credits table.")
         except sqlite3.OperationalError:
             # Column already exists
             pass
@@ -669,7 +685,7 @@ def save_credits(episode_id: str, credits_data: list[dict]) -> None:
             else:
                 original_frame_number_db = str(original_frame_number) if original_frame_number is not None else None
 
-            scene_pos = credit.get('scene_position', None) 
+            scene_pos = credit.get('scene_position', None)
 
             insert_data.append((
                 episode_id,
@@ -679,13 +695,14 @@ def save_credits(episode_id: str, credits_data: list[dict]) -> None:
                 credit.get('role_detail'),
                 credit.get('role_group_normalized'),
                 original_frame_number_db, 
-                scene_pos 
+                scene_pos,
+                credit.get('is_person')  # Add the is_person field
             ))
 
         cursor.executemany(f"""
         INSERT INTO {config.DB_TABLE_CREDITS}
-        (episode_id, source_frame, role_group, name, role_detail, role_group_normalized, original_frame_number, scene_position)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        (episode_id, source_frame, role_group, name, role_detail, role_group_normalized, original_frame_number, scene_position, is_person)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, insert_data)
 
         conn.commit()
@@ -1338,6 +1355,7 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
     """
     import sqlite3
     from pathlib import Path
+    from scripts_v3.imdb_name_validation import IMDBNameValidator
     
     problematic_credits = []
     
@@ -1347,7 +1365,71 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
           # Get all credits for the episode that haven't been reviewed as 'kept'
         cursor.execute(f"""
             SELECT id, role_group_normalized, name, role_detail, 
-                   source_frame, original_frame_number, scene_position, reviewed_status
+                   source_frame, original_frame_number, scene_position, reviewed_status, present_in_imdb, is_person
+            FROM {config.DB_TABLE_CREDITS} 
+            WHERE episode_id = ? AND (reviewed_status IS NULL OR reviewed_status != 'kept')
+            ORDER BY role_group_normalized, name
+        """, (episode_id,))
+        
+        credits_data = cursor.fetchall()
+        
+        if not credits_data:
+            conn.close()
+            return []
+        
+        # Initialize IMDB validator only if needed
+        imdb_validator = None
+        names_to_validate = []        # Collect names that need IMDB validation (present_in_imdb is NULL)
+        # Skip company names as they won't be in IMDB names database
+        for credit in credits_data:
+            credit_id, role_group, name, role_detail, source_frame, frame_numbers, scene_pos, reviewed_status, present_in_imdb, is_person = credit
+            
+            if present_in_imdb is None:
+                # Use is_person field if available, otherwise fall back to role group detection
+                if is_person is False or (is_person is None and is_company_role_group(role_group)):
+                    # Mark company names as valid automatically (they shouldn't be checked against IMDB)
+                    cursor.execute(f"""
+                        UPDATE {config.DB_TABLE_CREDITS} 
+                        SET present_in_imdb = ? 
+                        WHERE id = ?
+                    """, (True, credit_id))
+                    detection_method = "is_person=False" if is_person is False else f"role: {role_group}"
+                    logging.info(f"[{episode_id}] Automatically marked company name as valid: '{name}' ({detection_method})")
+                else:
+                    names_to_validate.append((credit_id, name, role_group, is_person))        # Validate names that haven't been checked yet
+        if names_to_validate:
+            imdb_validator = IMDBNameValidator()
+            logging.info(f"[{episode_id}] Found {len(names_to_validate)} names to validate: {[name for _, name, _, _ in names_to_validate]}")
+            
+            for credit_id, name, role_group, is_person in names_to_validate:
+                try:
+                    logging.debug(f"[{episode_id}] Validating credit_id={credit_id}, name='{name}', role='{role_group}', is_person={is_person}")
+                    validation_result = imdb_validator.validate_name(name, role_group, is_person)
+                    is_valid = validation_result['is_valid']
+                    
+                    # Update the database with the validation result
+                    cursor.execute(f"""
+                        UPDATE {config.DB_TABLE_CREDITS} 
+                        SET present_in_imdb = ? 
+                        WHERE id = ?
+                    """, (is_valid, credit_id))
+                    
+                    logging.info(f"[{episode_id}] Updated database: name='{name}' -> present_in_imdb={is_valid}")
+                    
+                except Exception as e:
+                    logging.warning(f"[{episode_id}] IMDB validation failed for name '{name}': {e}")
+                    # If validation fails, mark as NULL (will be retried later)
+                    cursor.execute(f"""
+                        UPDATE {config.DB_TABLE_CREDITS} 
+                        SET present_in_imdb = NULL 
+                        WHERE id = ?
+                    """, (credit_id,))
+            
+            conn.commit()
+          # Now get the updated data with IMDB validation results
+        cursor.execute(f"""
+            SELECT id, role_group_normalized, name, role_detail, 
+                   source_frame, original_frame_number, scene_position, reviewed_status, present_in_imdb, is_person
             FROM {config.DB_TABLE_CREDITS} 
             WHERE episode_id = ? AND (reviewed_status IS NULL OR reviewed_status != 'kept')
             ORDER BY role_group_normalized, name
@@ -1355,14 +1437,10 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
         
         credits_data = cursor.fetchall()
         conn.close()
-        
-        if not credits_data:
-            return []
-        
-        # Create a map to track duplicates
+          # Create a map to track duplicates
         name_to_entries = {}
         for credit in credits_data:
-            credit_id, role_group, name, role_detail, source_frame, frame_numbers, scene_pos, reviewed_status = credit
+            credit_id, role_group, name, role_detail, source_frame, frame_numbers, scene_pos, reviewed_status, present_in_imdb, is_person = credit
             
             if name not in name_to_entries:
                 name_to_entries[name] = []
@@ -1374,9 +1452,12 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
                 'role_detail': role_detail,
                 'source_frame': source_frame,
                 'frame_numbers': frame_numbers,
-                'scene_position': scene_pos
+                'scene_position': scene_pos,
+                'present_in_imdb': present_in_imdb,
+                'is_person': is_person
             })
-          # Identify problematic credits with priority scoring
+        
+        # Identify problematic credits with priority scoring
         processed_names = set()  # Track names we've already processed
         
         for name, entries in name_to_entries.items():
@@ -1387,6 +1468,20 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
             has_problems = False
             max_priority_score = 0
             all_problem_types = set()
+              # Check IMDB validation status
+            present_in_imdb = entries[0]['present_in_imdb']  # All entries for same name should have same IMDB status
+            logging.debug(f"[{episode_id}] Processing name '{name}': present_in_imdb={present_in_imdb}")
+            
+            if present_in_imdb is False:  # Explicitly not found in IMDB
+                all_problem_types.add('invalid_imdb_name')
+                max_priority_score = max(max_priority_score, 90)  # High priority for invalid names
+                has_problems = True
+                logging.debug(f"[{episode_id}] Added 'invalid_imdb_name' for '{name}'")
+            elif present_in_imdb is None:  # Not yet validated (validation failed)
+                all_problem_types.add('imdb_validation_failed')
+                max_priority_score = max(max_priority_score, 85)  # High priority for validation failures
+                has_problems = True
+                logging.debug(f"[{episode_id}] Added 'imdb_validation_failed' for '{name}'")
             
             for entry in entries:
                 problem_type = []
@@ -1395,19 +1490,25 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
                 # Priority 1: Unknown role groups (highest priority)
                 if 'unknown' in entry['role_group'].lower():
                     problem_type.append('unknown_role')
-                    priority_score += 100                # Priority 2: Duplicate names with different role groups
+                    priority_score += 100
+                  # Priority 2: Duplicate names with different role groups
                 if len(entries) > 1:
                     unique_roles = set(e['role_group'] for e in entries)
                     if len(unique_roles) > 1:
                         problem_type.append('duplicate_roles')
                         priority_score += 80
                 
+                # Priority 3: Concatenated or malformed names (too many words)
+                name_words = [w for w in entry['name'].split() if w and len(w) > 1]
+                if len(name_words) > 6:
+                    problem_type.append('concatenated_names')
+                    priority_score += 75  # High priority for likely OCR errors
+                
                 if problem_type:
                     has_problems = True
                     all_problem_types.update(problem_type)
                     max_priority_score = max(max_priority_score, priority_score)
-            
-            # Only add ONE entry per problematic name
+              # Only add ONE entry per problematic name
             if has_problems:
                 # Use the first entry as the representative, but include all variants
                 representative_entry = entries[0].copy()
@@ -1415,23 +1516,130 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
                 representative_entry['priority_score'] = max_priority_score
                 representative_entry['episode_id'] = episode_id
                 
+                logging.debug(f"[{episode_id}] Final problem_types for '{name}': {list(all_problem_types)}")
+                
                 # Always add context about all variants (even if only 1)
                 representative_entry['duplicate_entries'] = entries
                 representative_entry['total_variants'] = len(entries)
                 
                 problematic_credits.append(representative_entry)
                 processed_names.add(name)
-        
-        # Sort by priority score (highest first)
+          # Sort by priority score (highest first)
         problematic_credits.sort(key=lambda x: x['priority_score'], reverse=True)
         
-        logging.info(f"[{episode_id}] Identified {len(problematic_credits)} problematic credits")
+        # Log summary of problematic credits by type
+        problem_type_counts = {}
+        for credit in problematic_credits:
+            for problem_type in credit['problem_types']:
+                problem_type_counts[problem_type] = problem_type_counts.get(problem_type, 0) + 1
+        
+        logging.info(f"[{episode_id}] Identified {len(problematic_credits)} problematic credits by type: {problem_type_counts}")
         return problematic_credits
         
     except Exception as e:
         logging.error(f"[{episode_id}] Error identifying problematic credits: {e}", exc_info=True)
         return []
 
+def batch_validate_imdb_names(episode_id: str, force_revalidate: bool = False) -> Dict[str, int]:
+    """
+    Batch validate all names in an episode against IMDB database.
+    
+    Args:
+        episode_id: Episode to validate
+        force_revalidate: If True, re-validate even names that were already checked
+        
+    Returns:
+        Dictionary with validation statistics
+    """
+    import sqlite3
+    from scripts_v3.imdb_name_validation import IMDBNameValidator
+    
+    try:
+        conn = sqlite3.connect(config.DB_PATH)
+        cursor = conn.cursor()
+        
+        # Get names that need validation
+        if force_revalidate:
+            cursor.execute(f"""
+                SELECT DISTINCT id, name, role_group_normalized
+                FROM {config.DB_TABLE_CREDITS} 
+                WHERE episode_id = ?
+                ORDER BY name
+            """, (episode_id,))
+        else:
+            cursor.execute(f"""
+                SELECT DISTINCT id, name, role_group_normalized
+                FROM {config.DB_TABLE_CREDITS} 
+                WHERE episode_id = ? AND present_in_imdb IS NULL
+                ORDER BY name
+            """, (episode_id,))
+        
+        names_to_validate = cursor.fetchall()
+          # Filter out company names and mark them as valid automatically
+        filtered_names = []
+        for credit_id, name, role_group in names_to_validate:
+            if is_company_role_group(role_group):
+                # Mark company names as valid automatically
+                cursor.execute(f"""
+                    UPDATE {config.DB_TABLE_CREDITS} 
+                    SET present_in_imdb = ? 
+                    WHERE id = ?
+                """, (True, credit_id))
+                logging.info(f"[{episode_id}] Automatically marked company name as valid: '{name}' (role: {role_group})")
+            else:
+                filtered_names.append((credit_id, name, role_group))
+        
+        names_to_validate = filtered_names
+        
+        if not names_to_validate:
+            conn.commit()  # Commit any company name updates
+            conn.close()
+            return {'total': 0, 'valid': 0, 'invalid': 0, 'failed': 0}
+        
+        validator = IMDBNameValidator()
+        stats = {'total': len(names_to_validate), 'valid': 0, 'invalid': 0, 'failed': 0}
+        
+        logging.info(f"Starting IMDB validation for {len(names_to_validate)} names in episode {episode_id}")
+        
+        for i, (credit_id, name, role_group) in enumerate(names_to_validate, 1):
+            try:
+                logging.info(f"[{i}/{len(names_to_validate)}] Validating '{name}' (role: {role_group})")
+                validation_result = validator.validate_name(name, role_group)
+                is_valid = validation_result['is_valid']
+                
+                # Update the database with the validation result
+                cursor.execute(f"""
+                    UPDATE {config.DB_TABLE_CREDITS} 
+                    SET present_in_imdb = ? 
+                    WHERE id = ?
+                """, (is_valid, credit_id))
+                
+                if is_valid:
+                    stats['valid'] += 1
+                    logging.info(f"[{i}/{len(names_to_validate)}] ✅ '{name}' -> VALID")
+                else:
+                    stats['invalid'] += 1
+                    logging.info(f"[{i}/{len(names_to_validate)}] ❌ '{name}' -> INVALID")
+                    
+            except Exception as e:
+                logging.warning(f"[{i}/{len(names_to_validate)}] 💥 IMDB validation failed for name '{name}': {e}")
+                stats['failed'] += 1
+                # Mark as NULL so it can be retried later
+                cursor.execute(f"""
+                    UPDATE {config.DB_TABLE_CREDITS} 
+                    SET present_in_imdb = NULL 
+                    WHERE id = ?
+                """, (credit_id,))
+        
+        conn.commit()
+        conn.close()
+        
+        logging.info(f"IMDB validation completed for episode {episode_id}: {stats}")
+        return stats
+        
+    except Exception as e:
+        logging.error(f"Error during batch IMDB validation for episode {episode_id}: {e}", exc_info=True)
+        return {'total': 0, 'valid': 0, 'invalid': 0, 'failed': 0, 'error': str(e)}
 
 def get_best_frames_for_credit(credit_data: Dict[str, Any], max_frames: int = 2) -> List[str]:
     """
@@ -1510,7 +1718,10 @@ def format_problem_description(problem_types: List[str]) -> str:
         'unknown_role': '⚠️ Unknown role group',
         'duplicate_roles': '🔄 Multiple role groups for same name',
         'long_role_detail': '📝 Very long role detail (potential OCR error)',
-        'short_name': '❓ Very short or empty name'
+        'short_name': '❓ Very short or empty name',
+        'invalid_imdb_name': '🚫 Not present in IMDB',
+        'uncertain_imdb_name': '❓ Uncertain IMDB match (low confidence)',        'imdb_validation_failed': '⏳ IMDB validation pending',
+        'concatenated_names': '🔗 Multiple names concatenated together'
     }
     
     return ' • '.join(descriptions.get(prob, prob) for prob in problem_types)
@@ -1532,3 +1743,42 @@ def show_keyboard_help():
         - **Skip**: Skip for later review
         - **Merge**: Combine duplicate entries (if applicable)
         """)
+
+def is_company_role_group(role_group: str) -> bool:
+    """
+    Check if a role group represents a company rather than a person.
+    
+    Args:
+        role_group: The role group to check
+        
+    Returns:
+        True if the role group represents a company
+    """
+    if not role_group:
+        return False
+    
+    company_role_indicators = [
+        'miscellaneous company',
+        'miscellaneous companies',  # Handle plural form
+        'company',
+        'companies',
+        'production company',
+        'production companies',
+        'distribution company',
+        'distribution companies',
+        'studio',
+        'studios',
+        'corporation',
+        'corporations',
+        'enterprises',
+        'productions',
+        'films',
+        'pictures'
+    ]
+    
+    role_lower = role_group.lower()
+    for indicator in company_role_indicators:
+        if indicator in role_lower:
+            return True
+    
+    return False
