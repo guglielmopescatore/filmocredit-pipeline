@@ -39,3 +39,7 @@ htmlcov/
 # Environment
 .env
 .env.local
+db/imdb.sqlite
+db/name.basics.tsv.gz
+db/imdb.sqlite
+db/name.basics.tsv.gz
