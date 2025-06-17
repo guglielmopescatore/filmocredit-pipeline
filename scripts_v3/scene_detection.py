@@ -22,7 +22,7 @@ from scenedetect import FrameTimecode
 from scenedetect.detectors import ContentDetector, ThresholdDetector
 from tqdm import tqdm
 
-from . import config, utils
+from . import config, utils, constants
 
 
 class SceneDetectionStatus(Enum):
@@ -36,93 +36,6 @@ class SceneDetectionStatus(Enum):
 
 MAX_OCR_ATTEMPTS = 3
 
-
-'''def _get_segments_to_process(
-    total_frames: int, fps: float, custom_time_segments: Optional[List[Tuple[str, str]]]
-) -> List[Tuple[int, int, str]]:
-    """
-    Compute valid frame ranges and tags from custom_time_segments or defaults.
-    """
-    segments: List[Tuple[int, int, str]] = []
-    if custom_time_segments:
-        for i, (start_tc, end_tc) in enumerate(custom_time_segments):
-            sf = max(0, min(total_frames, FrameTimecode(start_tc, fps).get_frames()))
-            ef = max(0, min(total_frames, FrameTimecode(end_tc, fps).get_frames()))
-            if sf < ef:
-                segments.append((sf, ef, f"custom_segment_{i+1}"))
-            else:
-                logging.warning(f"Invalid custom segment {i+1}: start>=end.")
-    else:
-        start_pct = config.DEFAULT_VIDEO_PROCESSING_START_PERCENT
-        end_pct = config.DEFAULT_VIDEO_PROCESSING_END_PERCENT
-        sf = int(total_frames * start_pct / 100.0)
-        ef = int(total_frames * (100.0 - end_pct) / 100.0)
-        if sf < ef:
-            segments.append((sf, ef, "default_segment"))
-        else:
-            logging.warning("Invalid default segment: start>=end.")
-    return segments
-
-
-def _deduplicate_scenes(
-    raw_scenes: List[Tuple[FrameTimecode, FrameTimecode, str]]
-) -> List[Tuple[FrameTimecode, FrameTimecode, str]]:
-    """
-    Remove duplicate scene boundaries from raw list.
-    """
-    unique: List[Tuple[FrameTimecode, FrameTimecode, str]] = []
-    seen: Set[Tuple[int, int]] = set()
-    for st, en, tag in sorted(raw_scenes, key=lambda x: x[0].get_frames()):
-        key = (st.get_frames(), en.get_frames())
-        if key not in seen:
-            unique.append((st, en, tag))
-            seen.add(key)
-    return unique
-
-
-def _get_segments_to_process(
-    total_frames: int, fps: float, custom_time_segments: Optional[List[Tuple[str, str]]]
-) -> List[Tuple[int, int, str]]:
-    """
-    Compute frame ranges and tags from custom_time_segments or defaults.
-    """
-    segments: List[Tuple[int, int, str]] = []
-    if custom_time_segments:
-        for i, (start_tc, end_tc) in enumerate(custom_time_segments):
-            start_frame = max(0, min(total_frames, FrameTimecode(start_tc, fps).get_frames()))
-            end_frame = max(0, min(total_frames, FrameTimecode(end_tc, fps).get_frames()))
-            if start_frame < end_frame:
-                segments.append((start_frame, end_frame, f"custom_segment_{i+1}"))
-            else:
-                logging.warning(f"Invalid custom segment {i+1}: start>=end.")
-    else:
-        start_pct = config.DEFAULT_VIDEO_PROCESSING_START_PERCENT
-        end_pct = config.DEFAULT_VIDEO_PROCESSING_END_PERCENT
-        start_frame = int(total_frames * start_pct / 100.0)
-        end_frame = int(total_frames * (100.0 - end_pct) / 100.0)
-        if start_frame < end_frame:
-            segments.append((start_frame, end_frame, "default_segment"))
-        else:
-            logging.warning("Invalid default segment: start>=end.")
-    return segments
-
-
-def _deduplicate_scenes(
-    raw_scenes: List[Tuple[FrameTimecode, FrameTimecode, str]]
-) -> List[Tuple[FrameTimecode, FrameTimecode, str]]:
-    """
-    Remove duplicate scene boundaries from raw list.
-    """
-    unique: List[Tuple[FrameTimecode, FrameTimecode, str]] = []
-    seen: Set[Tuple[int, int]] = set()
-    for start_tc, end_tc, tag in sorted(raw_scenes, key=lambda x: x[0].get_frames()):
-        key = (start_tc.get_frames(), end_tc.get_frames())
-        if key not in seen:
-            unique.append((start_tc, end_tc, tag))
-            seen.add(key)
-    return unique
-
-'''
 
 def _filter_scenes_by_count(
     scenes: List[Tuple[FrameTimecode, FrameTimecode, int]], start_count: int, end_count: int
@@ -319,7 +232,7 @@ def identify_candidate_scenes(
             valid_scenes_for_ocr_with_tags = []
             if all_detected_shots_data:  # Check if there are any shots to process
                 for shot_data in all_detected_shots_data:
-                    if shot_data["duration_frames"] >= config.SCENE_MIN_LENGTH_FRAMES:
+                    if shot_data["duration_frames"] >= constants.SCENE_MIN_LENGTH_FRAMES:
                         start_tc = FrameTimecode(shot_data["start_timecode"], fps)
                         end_tc = FrameTimecode(shot_data["end_timecode"], fps)
                         # shot_data["position_tag"] is the temporal one ("first_half"/"second_half")
@@ -334,7 +247,7 @@ def identify_candidate_scenes(
                         )
 
             log.info(
-                f"Found {len(valid_scenes_for_ocr_with_tags)} scenes after min length filter ({config.SCENE_MIN_LENGTH_FRAMES} frames). Processing these for OCR."
+                f"Found {len(valid_scenes_for_ocr_with_tags)} scenes after min length filter ({constants.SCENE_MIN_LENGTH_FRAMES} frames). Processing these for OCR."
             )
 
             if not valid_scenes_for_ocr_with_tags:
@@ -374,10 +287,10 @@ def identify_candidate_scenes(
                         "ocr_errors_in_scene": [],
                     }
                     # --- Start of OCR sampling logic for the current scene ---
-                    num_sample_points = len(config.INITIAL_FRAME_SAMPLE_POINTS)
+                    num_sample_points = len(constants.INITIAL_FRAME_SAMPLE_POINTS)
                     scene_duration_frames = current_scene_data["duration_frames"]
 
-                    for sample_idx, sample_point_ratio in enumerate(config.INITIAL_FRAME_SAMPLE_POINTS):
+                    for sample_idx, sample_point_ratio in enumerate(constants.INITIAL_FRAME_SAMPLE_POINTS):
                         target_frame_num = start_time.get_frames() + int(scene_duration_frames * sample_point_ratio)
                         if not (start_time.get_frames() <= target_frame_num < end_time.get_frames()):
                             log.debug(f"Sample frame {target_frame_num} out of bounds for scene {scene_idx}. Skipping.")
@@ -457,10 +370,10 @@ def identify_candidate_scenes(
                                 )
 
                                 logging.debug(
-                                    f"[{episode_id}] Scene {scene_idx} SampleFrame {target_frame_num}: OCR_Raw={repr(text)}, CleanedForNorm={repr(cleaned_text_for_norm)}, Normalized={repr(normalized_text_for_check)}, LenNormalized={len(normalized_text_for_check)}, MinLength={config.MIN_OCR_TEXT_LENGTH}, PassesCheck={(len(normalized_text_for_check) >= config.MIN_OCR_TEXT_LENGTH)})"
+                                    f"[{episode_id}] Scene {scene_idx} SampleFrame {target_frame_num}: OCR_Raw={repr(text)}, CleanedForNorm={repr(cleaned_text_for_norm)}, Normalized={repr(normalized_text_for_check)}, LenNormalized={len(normalized_text_for_check)}, MinLength={constants.MIN_OCR_TEXT_LENGTH}, PassesCheck={(len(normalized_text_for_check) >= constants.MIN_OCR_TEXT_LENGTH)})"
                                 )
 
-                                if len(normalized_text_for_check) >= config.MIN_OCR_TEXT_LENGTH:
+                                if len(normalized_text_for_check) >= constants.MIN_OCR_TEXT_LENGTH:
                                     current_scene_data["has_potential_text"] = True
                                     # Append the cleaned text if it passes checks, not the raw 'text'.
                                     # This ensures that what's stored as a sample is actually valid text.
