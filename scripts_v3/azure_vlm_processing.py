@@ -55,7 +55,7 @@ def local_image_to_data_url(image_path: Path) -> Optional[str]:
 
 
 def run_azure_vlm_ocr_on_frames(
-    episode_id: str, role_map: Dict[str, str], max_new_tokens: int
+    episode_id: str, max_new_tokens: int
 ) -> Tuple[int, str, Optional[str]]:
     """
     Runs Azure VLM OCR on selected frames for an episode, one frame at a time,
@@ -63,7 +63,6 @@ def run_azure_vlm_ocr_on_frames(
 
     Args:
         episode_id: The ID of the episode.
-        role_map: The loaded role mapping dictionary.
         max_new_tokens: The maximum number of new tokens for generation.
 
     Returns:
@@ -304,11 +303,9 @@ def run_azure_vlm_ocr_on_frames(
                 if current_frame_parsed_credits:
                     for credit_entry in current_frame_parsed_credits:
                         raw_role_value = credit_entry.get("role_group")
-                        raw_role = raw_role_value.lower() if isinstance(raw_role_value, str) else ""
-                        normalized_role = role_map.get(
-                            raw_role, raw_role_value if raw_role_value is not None else "Unknown"
-                        )
-                        credit_entry["role_group_normalized"] = normalized_role
+                        # Role groups are now validated directly in config.py
+                        # No need for external mapping file
+                        credit_entry["role_group_normalized"] = raw_role_value if raw_role_value is not None else "Unknown"
 
                         credit_entry['source_frame'] = [frame_data["filename"]]
                         credit_entry['original_frame_number'] = [frame_data["frame_num"]]

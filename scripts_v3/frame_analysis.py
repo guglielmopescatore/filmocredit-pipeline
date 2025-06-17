@@ -11,7 +11,7 @@ from scenedetect.video_stream import VideoStream
 from thefuzz import fuzz
 from tqdm import tqdm
 
-from . import config, utils
+from . import config, utils, constants
 from .utils import calculate_dynamic_fuzzy_threshold
 
 
@@ -21,7 +21,7 @@ def _compute_image_hash(img: Any) -> Optional[imagehash.ImageHash]:
     """
     try:
         pil_img = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB))
-        return imagehash.average_hash(pil_img, hash_size=config.HASH_SIZE)
+        return imagehash.average_hash(pil_img, hash_size=constants.HASH_SIZE)
     except Exception as e:
         logging.warning(f"Failed to compute image hash: {e}")
         return None
@@ -159,22 +159,22 @@ def _process_and_save_frame(
         )
 
     # Check for sufficient text length
-    has_sufficient_text = len(norm_text) >= config.MIN_OCR_TEXT_LENGTH
+    has_sufficient_text = len(norm_text) >= constants.MIN_OCR_TEXT_LENGTH
 
     # For static mode: hash difference check (after OCR but before text comparison)
     if processing_mode == "static" and current_hash is not None and prev_hash is not None:
         hash_diff = utils.calculate_hash_difference(current_hash, prev_hash)
         logging.info(
-            f"[{episode_id}] Frame {frame_num} (static) HASH DIFF: {hash_diff} (threshold: {config.HASH_DIFFERENCE_THRESHOLD})"
+            f"[{episode_id}] Frame {frame_num} (static) HASH DIFF: {hash_diff} (threshold: {constants.HASH_DIFFERENCE_THRESHOLD})"
         )
 
-        if hash_diff < config.HASH_DIFFERENCE_THRESHOLD:
+        if hash_diff < constants.HASH_DIFFERENCE_THRESHOLD:
             # Insufficient visual difference - preserve previous state (do NOT update with current frame's OCR)
             skip_reason = f"similar_hash_{hash_diff}"
             skip_path = skipped_frames_dir / f"{prefix}static_skipped_{skip_reason}_num{frame_num:05d}.jpg"
             cv2.imwrite(str(skip_path), img)
             logging.info(
-                f"[{episode_id}] Frame {frame_num} (static) SKIPPED: similar hash {hash_diff} < {config.HASH_DIFFERENCE_THRESHOLD} - preserving previous state"
+                f"[{episode_id}] Frame {frame_num} (static) SKIPPED: similar hash {hash_diff} < {constants.HASH_DIFFERENCE_THRESHOLD} - preserving previous state"
             )
             return None, prev_text, prev_hash, prev_bbox
         elif not has_sufficient_text:
@@ -194,7 +194,7 @@ def _process_and_save_frame(
         skip_path = skipped_frames_dir / f"{prefix}{mode_tag}skipped_{skip_reason}_num{frame_num:05d}.jpg"
         cv2.imwrite(str(skip_path), img)
         logging.warning(
-            f"[{episode_id}] Frame {frame_num} ({processing_mode}) SKIPPED: insufficient text length {len(norm_text)} < {config.MIN_OCR_TEXT_LENGTH} - preserving previous state"
+            f"[{episode_id}] Frame {frame_num} ({processing_mode}) SKIPPED: insufficient text length {len(norm_text)} < {constants.MIN_OCR_TEXT_LENGTH} - preserving previous state"
         )
         return None, prev_text, prev_hash, prev_bbox
 
@@ -538,7 +538,7 @@ def analyze_candidate_scene_frames(
                 analysis_info["status"] = "error"
                 return analysis_info, last_saved_text_output, last_saved_hash_output, last_saved_bbox_output
 
-            if abs(median_v_flow) > config.MIN_ABS_SCROLL_FLOW_THRESHOLD:
+            if abs(median_v_flow) > constants.MIN_ABS_SCROLL_FLOW_THRESHOLD:
                 apply_dynamic_scroll_logic = True
             else:
                 pass
@@ -556,10 +556,10 @@ def analyze_candidate_scene_frames(
         if apply_dynamic_scroll_logic:
             analysis_info["type"] = "dynamic_scroll"
             scroll_pixels_per_frame = abs(median_v_flow)
-            pixels_to_scroll_before_save = frame_height * config.SCROLL_FRAME_HEIGHT_RATIO
+            pixels_to_scroll_before_save = frame_height * constants.SCROLL_FRAME_HEIGHT_RATIO
             frames_per_save = max(1, int(round(pixels_to_scroll_before_save / scroll_pixels_per_frame)))
             analysis_info["save_interval_frames"] = int(frames_per_save)
-            analysis_info["target_scroll_ratio"] = float(config.SCROLL_FRAME_HEIGHT_RATIO)
+            analysis_info["target_scroll_ratio"] = float(constants.SCROLL_FRAME_HEIGHT_RATIO)
 
             # Iterate over frames at computed interval with progress bar
             for i in tqdm(
@@ -619,8 +619,8 @@ def analyze_candidate_scene_frames(
 
             scene_duration_seconds = num_frames / fps if fps > 0 else 0
 
-            if scene_duration_seconds > config.HASH_SAMPLE_INTERVAL_SECONDS and num_frames > 1 and fps > 0:
-                frame_step = max(1, int(round(fps * config.HASH_SAMPLE_INTERVAL_SECONDS)))
+            if scene_duration_seconds > constants.HASH_SAMPLE_INTERVAL_SECONDS and num_frames > 1 and fps > 0:
+                frame_step = max(1, int(round(fps * constants.HASH_SAMPLE_INTERVAL_SECONDS)))
                 sampled_indices_rel = [0] + list(range(frame_step, num_frames, frame_step))
                 if num_frames > 0 and (num_frames - 1) not in sampled_indices_rel:
                     sampled_indices_rel.append(num_frames - 1)

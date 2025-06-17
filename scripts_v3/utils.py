@@ -16,7 +16,7 @@ import streamlit as st
 from PIL import Image
 from thefuzz import fuzz
 
-from scripts_v3 import config
+from . import config, constants
 
 # Import IMDB validation for name checking
 try:
@@ -374,9 +374,9 @@ def is_fade_frame(frame):
         mean_brightness = mean_brightness[0][0]
         std_dev_contrast = std_dev_contrast[0][0]
 
-        is_low_brightness = mean_brightness < config.FADE_FRAME_THRESHOLD
-        is_high_brightness = mean_brightness > (255 - config.FADE_FRAME_THRESHOLD)
-        is_low_contrast = std_dev_contrast < config.FADE_FRAME_CONTRAST_THRESHOLD
+        is_low_brightness = mean_brightness < constants.FADE_FRAME_THRESHOLD
+        is_high_brightness = mean_brightness > (255 - constants.FADE_FRAME_THRESHOLD)
+        is_low_contrast = std_dev_contrast < constants.FADE_FRAME_CONTRAST_THRESHOLD
 
         if (is_low_brightness or is_high_brightness) and is_low_contrast:
             return True
@@ -399,7 +399,7 @@ def calculate_vertical_flow(prev_gray, current_gray):
             logging.error(f"Resize failed: {resize_e}")
             return 0.0
     try:
-        flow = cv2.calcOpticalFlowFarneback(prev_gray, current_gray, None, **config.OPTICAL_FLOW_PARAMS)
+        flow = cv2.calcOpticalFlowFarneback(prev_gray, current_gray, None, **constants.OPTICAL_FLOW_PARAMS)
         if flow is None:
             return 0.0
         v_flow = flow[:, :, 1]
@@ -420,7 +420,7 @@ def calculate_hash_difference(hash1: Optional[imagehash.ImageHash], hash2: Optio
     if hash1 is None or hash2 is None:
         if hash1 is None and hash2 is None:
             return 0
-        return config.HASH_SIZE * config.HASH_SIZE
+        return constants.HASH_SIZE * constants.HASH_SIZE
     return hash1 - hash2
 
 
@@ -440,30 +440,6 @@ def get_paddleocr_reader(lang: str = 'it'):
     )
     logging.info(f"PaddleOCR reader initialized for '{actual_lang_code}'")
     return ocr_reader
-
-
-def get_easyocr_reader(lang: str = 'it', use_gpu: bool = True):
-    """Initializes and returns an EasyOCR reader instance for the specified language(s)."""
-    # Lazy import to avoid DLL conflicts when OCR engine is not selected
-    import easyocr
-
-    lang_codes_list = config.EASYOCR_LANG_MAP.get(lang, ['en'])
-    if not isinstance(lang_codes_list, list):
-        lang_codes_list = [lang_codes_list]
-
-    try:
-        device_type = "GPU" if use_gpu else "CPU"
-        logging.info(f"Attempting EasyOCR init for lang(s)='{lang_codes_list}' on {device_type}...")
-
-        ocr_reader = easyocr.Reader(lang_codes_list, gpu=use_gpu, verbose=False)
-        logging.info(f"EasyOCR reader initialized for '{lang_codes_list}' ({device_type})")
-        return ocr_reader
-    except Exception as e:
-        logging.error(
-            f"EasyOCR initialization failed for lang(s)='{lang_codes_list}' ({device_type}): {e}", exc_info=True
-        )
-        return None
-
 
 def load_user_stopwords() -> list[str]:
     """Loads user-defined stopwords from the path specified in config.
@@ -1084,7 +1060,7 @@ def run_ocr(
 
                             # logging.debug(f"{log_tag} Text {i+1}: '{txt}', confidence: {conf}")
 
-                            if conf < config.MIN_OCR_CONFIDENCE:
+                            if conf < constants.MIN_OCR_CONFIDENCE:
                                 # logging.debug(f"{log_tag} Skipping text {i+1} due to low confidence: {conf} < {config.MIN_OCR_CONFIDENCE}")
                                 bbox_ocr = None
                                 continue
@@ -1145,7 +1121,7 @@ def run_ocr(
                     raw = ocr_reader.readtext(img_rot)
                     logging.debug(f"{log_tag} EasyOCR raw results rot{angle}: {raw}")
                     for bbox, txt, conf in raw:
-                        if conf >= config.MIN_OCR_CONFIDENCE:
+                        if conf >= constants.MIN_OCR_CONFIDENCE:
                             # bbox is list of points [[x,y],...]
                             formatted = [[int(pt[0]), int(pt[1])] for pt in bbox]
                             text_lines.append((formatted, txt, float(conf)))
@@ -1160,7 +1136,7 @@ def run_ocr(
         if not text_lines:
             final_error_message = f"No text found ({proc['label']})"
             logging.info(
-                f"{image_context_identifier} OCR tried {proc['label']} processing but found no text (confidence threshold: {config.MIN_OCR_CONFIDENCE})"
+                f"{image_context_identifier} OCR tried {proc['label']} processing but found no text (confidence threshold: {constants.MIN_OCR_CONFIDENCE})"
             )
             continue
 
@@ -1753,6 +1729,7 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
                 problem_types.append("concatenated_names")            # Check if name is NOT found in IMDB database (using pre-computed result from Step 4)
             # Only check for persons, not companies
             if name and name.strip() and is_person not in [False, 0]:
+               
                 if is_present_in_imdb == False:  # Use == instead of is for SQLite integer comparison
                     logging.debug(f"[IMDB Check] Name '{name}' NOT FOUND in IMDB database (pre-computed)")
                     problem_types.append("imdb_name_not_found")
@@ -1866,29 +1843,43 @@ def find_frame_path(episode_id: str, frame_filename: str) -> Optional[Path]:
         return None
 
 
+import unicodedata
+
 def normalize_name(name):
     """
     Normalize names by:
     - Converting to lowercase.
-    - Removing punctuation (dots, dashes, commas, etc).
-    - Removing extra spaces (optional).
+    - Removing titles.
+    - Removing punctuation.
+    - Removing accents.
+    - Removing extra spaces.
     """
+    if not isinstance(name, str):
+        name = str(name)
+
     # Convert to lowercase
-    name = str(name).lower()
-        #remove all the titles (very extended list) such a Dr. Dott. Avv., Mr, Sig. etc etc
+    name = name.lower()
+    
+    # Remove titles
     name = re.sub(
         r"\b("
-        r"Dr\.|Dott\.|Dott\.ssa|Prof\.|Prof\.ssa|Ing\.|Arch\.|Avv\.|Sig\.|Sig\.ra|Sig\.na|"
-        r"Mr\.|Mrs\.|Ms\.|Mx\.|Fr\.|Rev\.|Hon\.|Sen\.|Rep\.|Gov\.|Pres\.|VP\.|"
-        r"Capt\.|Cmdr\.|Lt\.|Col\.|Maj\.|Gen\.|Adm\.|"
-        r"Msgr\.|Sr\.|Sra\.|Srta\.|Srs\.|"
-        r"Mlle\.|Mme\.|Mons\.|Pr\.|Amb\.|PM\.|"
-        r"Ph\.?D|M\.?D|Esq\.|Emo\.|Eccmo\.|P\.I|Geom\."
+        r"dr\.|dott\.|dott\.ssa|prof\.|prof\.ssa|ing\.|arch\.|avv\.|sig\.|sig\.ra|sig\.na|"
+        r"mr\.|mrs\.|ms\.|mx\.|fr\.|rev\.|hon\.|sen\.|rep\.|gov\.|pres\.|vp\.|"
+        r"capt\.|cmdr\.|lt\.|col\.|maj\.|gen\.|adm\.|"
+        r"msgr\.|sr\.|sra\.|srta\.|srs\.|"
+        r"mlle\.|mme\.|mons\.|pr\.|amb\.|pm\.|"
+        r"ph\.?d|m\.?d|esq\.|emo\.|eccmo\.|p\.i|geom\."
         r")\s+",
         "", 
         name,
         flags=re.IGNORECASE
     )
+
+    # Normalize unicode to decompose accented characters
+    name = unicodedata.normalize('NFD', name)
+    # Remove diacritical marks (accents)
+    name = ''.join(char for char in name if unicodedata.category(char) != 'Mn')
+    
     # Remove punctuation but preserve spaces
     name = re.sub(r"[.\-_,']", "", name)
     
@@ -1896,6 +1887,7 @@ def normalize_name(name):
     name = re.sub(r"\s+", " ", name).strip()
     
     return name
+
 # ===========================
 # End of Utils Module
 # ===========================

@@ -71,8 +71,7 @@ utils.setup_logging()
 try:
     if not config.RAW_VIDEO_DIR.exists():
         raise ConfigError(f"Raw video directory not found: {config.RAW_VIDEO_DIR}")
-    if not config.ROLE_MAP_PATH.exists():
-        raise ConfigError(f"Role map file not found: {config.ROLE_MAP_PATH}")
+    # Role groups are now defined directly in config.py, no external file needed
 except ConfigError as cfg_err:
     st.error(f"Configuration error: {cfg_err}")
     st.stop()
@@ -563,7 +562,8 @@ if st.session_state.current_tab == 0:
             st.markdown("---")
             st.success("Scene selections updated. Ready for Step 2 if desired.")
     elif not st.session_state.step2_running:  # Only show this message when Step 2 is not running
-        if not selected_videos_str_paths:            st.info("📝 Select videos in Step 1 above to review their candidate scenes for Step 2.")
+        if not selected_videos_str_paths:            
+            st.info("📝 Select videos in Step 1 above to review their candidate scenes for Step 2.")
         # If videos are selected but Step 2 is running, don't show the scene review section
 
     # Initialize user selected scenes for step 2
@@ -648,11 +648,11 @@ if st.session_state.current_tab == 0:
 
     if run_step2_button:
         # Set the step2_running flag immediately to hide scene review
-        st.session_state.step2_running = True
-
+        st.session_state.step2_running = True        
         if not selected_videos_str_paths:
             st.warning("Please select at least one video for Step 2.")
-            st.session_state.step2_running = False  # Reset flag if no videos selected        else:
+            st.session_state.step2_running = False  # Reset flag if no videos selected
+        else:
             st.subheader("Running Step 2: Analyze Candidate Scene Frames")
             ocr_reader = get_cached_ocr_reader()
             current_ocr_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
@@ -876,18 +876,20 @@ if st.session_state.current_tab == 0:
                     st.session_state.episode_status[episode_id_proc] = {}
 
                 frames_dir_for_vlm = config.EPISODES_BASE_DIR / episode_id_proc / "analysis" / "frames"
+                
                 if not frames_dir_for_vlm.is_dir() or not any(frames_dir_for_vlm.iterdir()):
                     st.warning(
                         f"No frames found from Step 2 for {episode_id_proc} in {frames_dir_for_vlm}. VLM step might have no input."
                     )
-
+                
                 with st.expander(f"Step 3: {episode_id_proc}", expanded=True):
                     st.write(f"Processing Step 3 for {episode_id_proc}...")
+                    
                     with st.spinner(f"Running Azure VLM for {episode_id_proc}..."):
                         try:
-                            role_map_data = utils.load_role_map(config.ROLE_MAP_PATH)
+                            # Role groups are now defined directly in config.py
                             count, status, err_msg = azure_vlm_processing.run_azure_vlm_ocr_on_frames(
-                                episode_id_proc, role_map_data, constants.DEFAULT_VLM_MAX_NEW_TOKENS
+                                episode_id_proc, constants.DEFAULT_VLM_MAX_NEW_TOKENS
                             )
 
                             if status == "completed" and not err_msg:

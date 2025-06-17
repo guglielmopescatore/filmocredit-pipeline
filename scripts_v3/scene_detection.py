@@ -37,7 +37,7 @@ class SceneDetectionStatus(Enum):
 MAX_OCR_ATTEMPTS = 3
 
 
-def _get_segments_to_process(
+'''def _get_segments_to_process(
     total_frames: int, fps: float, custom_time_segments: Optional[List[Tuple[str, str]]]
 ) -> List[Tuple[int, int, str]]:
     """
@@ -122,6 +122,7 @@ def _deduplicate_scenes(
             seen.add(key)
     return unique
 
+'''
 
 def _filter_scenes_by_count(
     scenes: List[Tuple[FrameTimecode, FrameTimecode, int]], start_count: int, end_count: int

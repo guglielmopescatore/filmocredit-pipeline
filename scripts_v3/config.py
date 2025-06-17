@@ -1,12 +1,18 @@
 from pathlib import Path
 from typing_extensions import Final
-
+from . import constants
 from dotenv import load_dotenv
 
 load_dotenv()
 
 try:
-    PROJECT_ROOT: Path = Path(__file__).resolve().parent.parent
+    import sys
+    if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):
+        # Running as PyInstaller executable - everything goes in _MEIPASS (_internal)
+        PROJECT_ROOT: Path = Path(sys._MEIPASS)
+    else:
+        # Running as normal Python script
+        PROJECT_ROOT: Path = Path(__file__).resolve().parent.parent
 except NameError:
     PROJECT_ROOT = Path('.').resolve()
 
@@ -15,11 +21,9 @@ RAW_VIDEO_DIR: Path = DATA_DIR / 'raw'
 EPISODES_BASE_DIR: Path = DATA_DIR / 'episodes'
 DB_DIR: Path = PROJECT_ROOT / 'db'
 DB_PATH: Path = DB_DIR / 'tvcredits_v3.db'
-ROLE_MAP_PATH: Path = PROJECT_ROOT / 'scripts_v3' / 'mapping_ruoli.json'
 
-# IMDB Database Configuration
+# IMDB Database Configuration - always in the same place as other files
 IMDB_PARQUET_PATH: Path = PROJECT_ROOT / 'db' / 'normalized_names.parquet'
-# Legacy TSV path for backward compatibility
 IMDB_TSV_PATH: Path = PROJECT_ROOT / 'db' / 'name.basics.tsv'
 
 
@@ -29,7 +33,7 @@ DB_TABLE_EPISODES: Final[str] = "episodes"
 
 LOG_FILE_PATH = PROJECT_ROOT / 'filmocredit_pipeline.log'
 
-# Path for user-defined OCR stopwords
+# Path for user-defined OCR stopwords - always in the same place as other files
 OCR_USER_STOPWORDS_PATH: Path = PROJECT_ROOT / 'user_ocr_stopwords.txt'
 DEFAULT_OCR_USER_STOPWORDS: list[str] = ["RAI", "BBC", "HBO"]
 DEFAULT_OCR_ENGINE: Final[str] = "paddleocr"
@@ -156,7 +160,6 @@ class PathConfig:
     EPISODES_BASE_DIR: Path = EPISODES_BASE_DIR
     DB_DIR: Path = DB_DIR
     DB_PATH: Path = DB_PATH
-    ROLE_MAP_PATH: Path = ROLE_MAP_PATH
     LOG_FILE_PATH: Path = LOG_FILE_PATH
     IMDB_PARQUET_PATH: Path = IMDB_PARQUET_PATH
     IMDB_TSV_PATH: Path = IMDB_TSV_PATH
@@ -175,10 +178,20 @@ class VLMConfig:
 
     BASE_PROMPT_TEMPLATE: str = BASE_PROMPT_TEMPLATE
 
+'''CONTENT_SCENE_DETECTOR_THRESHOLD = 10.0 
+THRESH_SCENE_DETECTOR_THRESHOLD = 5 
+SCENE_MIN_LENGTH_FRAMES = 10
+INITIAL_FRAME_SAMPLE_POINTS: list[float] = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+MIN_OCR_CONFIDENCE = 0.75
+MIN_OCR_TEXT_LENGTH = 4
+'''
 
 @dataclass(frozen=True)
 class SceneDetectionConfig:
-    pass
+    CONTENT_THRESHOLD: float = constants.CONTENT_SCENE_DETECTOR_THRESHOLD
+    THRESHOLD: float = constants.THRESH_SCENE_DETECTOR_THRESHOLD
+    MIN_LENGTH_FRAMES: int = constants.SCENE_MIN_LENGTH_FRAMES
+    INITIAL_FRAME_SAMPLE_POINTS: list[float] = field(default_factory=lambda: constants.INITIAL_FRAME_SAMPLE_POINTS.copy())
 
 
 @dataclass(frozen=True)
@@ -191,9 +204,12 @@ class AzureConfig:
     DEPLOYMENT_NAME_ENV: str = 'AZURE_OPENAI_DEPLOYMENT_NAME'
 
 
-# Ensure critical directories exist
-for _dir in [DATA_DIR, RAW_VIDEO_DIR, EPISODES_BASE_DIR, DB_DIR]:
-    _dir.mkdir(parents=True, exist_ok=True)
+# Ensure critical directories exist (only in development mode)
+# In executable mode, directories are pre-created in the bundle
+if not (getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS')):
+    # Only create directories when running as development script
+    for _dir in [DATA_DIR, RAW_VIDEO_DIR, EPISODES_BASE_DIR, DB_DIR]:
+        _dir.mkdir(parents=True, exist_ok=True)
 
 # Valid role groups for validation
 VALID_ROLE_GROUPS = {
