@@ -18,9 +18,9 @@ DB_PATH: Path = DB_DIR / 'tvcredits_v3.db'
 ROLE_MAP_PATH: Path = PROJECT_ROOT / 'scripts_v3' / 'mapping_ruoli.json'
 
 # IMDB Database Configuration
-IMDB_PARQUET_PATH: Path = PROJECT_ROOT / 'scripts_v3' / 'normalized_names.parquet'
+IMDB_PARQUET_PATH: Path = PROJECT_ROOT / 'db' / 'normalized_names.parquet'
 # Legacy TSV path for backward compatibility
-IMDB_TSV_PATH: Path = PROJECT_ROOT / 'scripts_v3' / 'name.basics.tsv'
+IMDB_TSV_PATH: Path = PROJECT_ROOT / 'db' / 'name.basics.tsv'
 
 
 # Database

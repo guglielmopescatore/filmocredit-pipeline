@@ -17,3 +17,7 @@ IF YOU HAVE CPU ONLY:
 pip install paddleocr==3.0.0
 
 pip install -r requirements.txt
+
+
+
+DOWNLOAD from https://datasets.imdbws.com/ the dataset called: name.basics.tsv.gz, extract it and put it in the db folder of the filmocredit project.
