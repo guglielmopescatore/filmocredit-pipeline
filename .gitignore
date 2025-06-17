@@ -43,3 +43,6 @@ db/imdb.sqlite
 db/name.basics.tsv.gz
 db/imdb.sqlite
 db/name.basics.tsv.gz
+*.tsv
+*.parquet
+

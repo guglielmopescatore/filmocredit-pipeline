@@ -14,7 +14,7 @@ from scenedetect import open_video
 # Assuming scripts_v3 is in a location accessible by Python's path
 # This can be achieved by running the app from the project's root directory
 # or by installing the project package (e.g., using 'pip install -e .')
-from scripts_v3 import azure_vlm_processing, config, frame_analysis, scene_detection, utils
+from scripts_v3 import azure_vlm_processing, config, constants, frame_analysis, scene_detection, utils
 from scripts_v3.exceptions import ConfigError
 
 
@@ -47,10 +47,6 @@ def get_cached_ocr_reader():
             if selected_engine == "paddleocr":
                 paddle_lang_code = config.PADDLEOCR_LANG_MAP.get(selected_lang, selected_lang)
                 st.session_state[reader_key] = utils.get_paddleocr_reader(lang=paddle_lang_code)
-            elif selected_engine == "easyocr":
-                use_gpu = config.is_cuda_available()
-                easyocr_lang_codes = config.EASYOCR_LANG_MAP.get(selected_lang, [selected_lang])
-                st.session_state[reader_key] = utils.get_easyocr_reader(lang=easyocr_lang_codes[0], use_gpu=use_gpu)
             else:
                 st.session_state[reader_key] = None
                 logging.error(f"Unsupported OCR engine: {selected_engine}")
@@ -191,9 +187,9 @@ if scene_detection_method == 'scene_count':
     )
 
     if 'scene_start_count' not in st.session_state:
-        st.session_state['scene_start_count'] = config.DEFAULT_START_SCENES_COUNT
+        st.session_state['scene_start_count'] = constants.DEFAULT_START_SCENES_COUNT
     if 'scene_end_count' not in st.session_state:
-        st.session_state['scene_end_count'] = config.DEFAULT_END_SCENES_COUNT
+        st.session_state['scene_end_count'] = constants.DEFAULT_END_SCENES_COUNT
 
     scene_start_count = st.sidebar.number_input(
         "Number of scenes at start:",
@@ -296,9 +292,63 @@ st.info(
 if 'log_content' not in st.session_state:
     st.session_state.log_content = ""
 
-tab1, tab2, tab3 = st.tabs(["⚙️ Setup & Run Pipeline", "✏️ Review & Edit Credits", "📊 Logs"])
+# Add tab state management
+if 'current_tab' not in st.session_state:
+    st.session_state.current_tab = 0
 
-with tab1:
+# Add persistent episode tracking (separate from preserve flags)
+if 'last_selected_episode' not in st.session_state:
+    st.session_state.last_selected_episode = None
+
+# Add session state flags for preserving tab and episode state
+if 'preserve_review_tab' not in st.session_state:
+    st.session_state.preserve_review_tab = False
+
+if 'preserve_episode' not in st.session_state:
+    st.session_state.preserve_episode = None
+
+# Show a note if we're preserving the review tab and auto-navigate
+if st.session_state.preserve_review_tab:
+    episode_info = ""
+    if st.session_state.preserve_episode:
+        episode_info = f" for **{st.session_state.preserve_episode}**"
+    st.success(f"� **Staying in Review tab**{episode_info} - Your work continues below!")
+    # Set current tab to review tab (index 1) when preserving
+    st.session_state.current_tab = 1
+    # Don't clear preserve flags immediately - let the review tab handle it
+else:
+    # Normal tab behavior - default to first tab if not preserving
+    if 'current_tab' not in st.session_state:
+        st.session_state.current_tab = 0
+
+# Create navigation buttons that look like tabs
+col_tab1, col_tab2, col_tab3 = st.columns(3)
+
+with col_tab1:
+    if st.button("⚙️ Setup & Run Pipeline", key="tab_button_1", 
+                 type="primary" if st.session_state.current_tab == 0 else "secondary"):
+        st.session_state.current_tab = 0
+        st.session_state.preserve_review_tab = False  # Clear preservation when manually switching
+        st.rerun()
+
+with col_tab2:
+    if st.button("✏️ Review & Edit Credits", key="tab_button_2", 
+                 type="primary" if st.session_state.current_tab == 1 else "secondary"):
+        st.session_state.current_tab = 1
+        st.session_state.preserve_review_tab = False  # Clear preservation when manually switching
+        st.rerun()
+
+with col_tab3:
+    if st.button("📊 Logs", key="tab_button_3", 
+                 type="primary" if st.session_state.current_tab == 2 else "secondary"):
+        st.session_state.current_tab = 2
+        st.session_state.preserve_review_tab = False  # Clear preservation when manually switching
+        st.rerun()
+
+st.markdown("---")  # Visual separator
+
+# Render content based on current tab
+if st.session_state.current_tab == 0:
     st.header("1. Select Videos for Processing")
 
     if not video_files_paths:
@@ -339,7 +389,7 @@ with tab1:
     if 'episode_status' not in st.session_state:
         st.session_state.episode_status = {}
 
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3, col4, col5 = st.columns(5)
     with col1:
         run_step1_button = st.button("STEP 1: Identify Candidate Scenes", key="run_step1_btn_v3")
     with col2:
@@ -347,6 +397,8 @@ with tab1:
     with col3:
         run_step3_button = st.button("STEP 3: Azure VLM OCR", key="run_step3_btn_v3")
     with col4:
+        run_step4_button = st.button("STEP 4: IMDB Validation", key="run_step4_btn_v3")
+    with col5:
         run_all_steps_button = st.button("RUN ALL STEPS", key="run_all_steps_btn_v3")
 
     if 'user_selected_scenes_for_step2' not in st.session_state:
@@ -511,22 +563,20 @@ with tab1:
             st.markdown("---")
             st.success("Scene selections updated. Ready for Step 2 if desired.")
     elif not st.session_state.step2_running:  # Only show this message when Step 2 is not running
-        if not selected_videos_str_paths:
-            st.info("📝 Select videos in Step 1 above to review their candidate scenes for Step 2.")
+        if not selected_videos_str_paths:            st.info("📝 Select videos in Step 1 above to review their candidate scenes for Step 2.")
         # If videos are selected but Step 2 is running, don't show the scene review section
 
-
-if 'user_selected_scenes_for_step2' not in st.session_state:
-    st.session_state.user_selected_scenes_for_step2 = {}
-
-if run_step1_button:
-    if not selected_videos_str_paths:
-        st.warning("Please select at least one video for Step 1.")
-    else:
-        st.subheader("Running Step 1: Automatic Scene Detection")
-        ocr_reader = get_cached_ocr_reader()
-        current_ocr_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
-        user_stopwords = st.session_state.get('user_stopwords', [])
+    # Initialize user selected scenes for step 2
+    if 'user_selected_scenes_for_step2' not in st.session_state:
+        st.session_state.user_selected_scenes_for_step2 = {}    # Button handling for Setup tab
+    if run_step1_button:
+        if not selected_videos_str_paths:
+            st.warning("Please select at least one video for Step 1.")
+        else:
+            st.subheader("Running Step 1: Automatic Scene Detection")
+            ocr_reader = get_cached_ocr_reader()
+            current_ocr_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
+            user_stopwords = st.session_state.get('user_stopwords', [])
 
         if ocr_reader is None:
             st.error(f"Cannot run Step 1: {current_ocr_engine.upper()} reader failed to initialize. Check logs.")
@@ -561,10 +611,10 @@ if run_step1_button:
                             else:
                                 # Use scene count-based selection (default)
                                 scene_start_count = st.session_state.get(
-                                    'scene_start_count', config.DEFAULT_START_SCENES_COUNT
+                                    'scene_start_count', constants.DEFAULT_START_SCENES_COUNT
                                 )
                                 scene_end_count = st.session_state.get(
-                                    'scene_end_count', config.DEFAULT_END_SCENES_COUNT
+                                    'scene_end_count', constants.DEFAULT_END_SCENES_COUNT
                                 )
 
                                 scenes, status, error_msg = scene_detection.identify_candidate_scenes(
@@ -591,22 +641,22 @@ if run_step1_button:
                             st.session_state.episode_status[episode_id_proc]['step1_error'] = str(e)
                             st.error(f"Exception in Step 1 ({episode_id_proc}): {e}")
                             logging.error(f"Exception during Step 1 for {episode_id_proc}: {e}", exc_info=True)
+            
             st.success(
                 "Step 1 processing finished for selected videos. Review candidate scenes in '2a. Review Candidate Scenes' section if available."
             )
 
-if run_step2_button:
-    # Set the step2_running flag immediately to hide scene review
-    st.session_state.step2_running = True
+    if run_step2_button:
+        # Set the step2_running flag immediately to hide scene review
+        st.session_state.step2_running = True
 
-    if not selected_videos_str_paths:
-        st.warning("Please select at least one video for Step 2.")
-        st.session_state.step2_running = False  # Reset flag if no videos selected
-    else:
-        st.subheader("Running Step 2: Analyze Candidate Scene Frames")
-        ocr_reader = get_cached_ocr_reader()
-        current_ocr_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
-        user_stopwords = st.session_state.get('user_stopwords', [])
+        if not selected_videos_str_paths:
+            st.warning("Please select at least one video for Step 2.")
+            st.session_state.step2_running = False  # Reset flag if no videos selected        else:
+            st.subheader("Running Step 2: Analyze Candidate Scene Frames")
+            ocr_reader = get_cached_ocr_reader()
+            current_ocr_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
+            user_stopwords = st.session_state.get('user_stopwords', [])
 
         if ocr_reader is None:
             st.error(f"Cannot run Step 2: {current_ocr_engine.upper()} reader failed to initialize. Check logs.")
@@ -813,82 +863,224 @@ if run_step2_button:
         st.session_state.step2_running = False
         st.info("Step 2 processing finished for selected videos.")
 
-if run_step3_button:
-    if not selected_videos_str_paths:
-        st.warning("Please select at least one video for Step 3.")
-    else:
-        st.subheader("Running Step 3: Azure VLM OCR")
-        for video_path_str_proc in selected_videos_str_paths:
-            video_path_obj = Path(video_path_str_proc)
-            episode_id_proc = video_path_obj.stem
+    if run_step3_button:
+        if not selected_videos_str_paths:
+            st.warning("Please select at least one video for Step 3.")
+        else:
+            st.subheader("Running Step 3: Azure VLM OCR")
+            for video_path_str_proc in selected_videos_str_paths:
+                video_path_obj = Path(video_path_str_proc)
+                episode_id_proc = video_path_obj.stem
 
-            if episode_id_proc not in st.session_state.episode_status:
-                st.session_state.episode_status[episode_id_proc] = {}
+                if episode_id_proc not in st.session_state.episode_status:
+                    st.session_state.episode_status[episode_id_proc] = {}
 
-            frames_dir_for_vlm = config.EPISODES_BASE_DIR / episode_id_proc / "analysis" / "frames"
-            if not frames_dir_for_vlm.is_dir() or not any(frames_dir_for_vlm.iterdir()):
-                st.warning(
-                    f"No frames found from Step 2 for {episode_id_proc} in {frames_dir_for_vlm}. VLM step might have no input."
-                )
+                frames_dir_for_vlm = config.EPISODES_BASE_DIR / episode_id_proc / "analysis" / "frames"
+                if not frames_dir_for_vlm.is_dir() or not any(frames_dir_for_vlm.iterdir()):
+                    st.warning(
+                        f"No frames found from Step 2 for {episode_id_proc} in {frames_dir_for_vlm}. VLM step might have no input."
+                    )
 
-            with st.expander(f"Step 3: {episode_id_proc}", expanded=True):
-                st.write(f"Processing Step 3 for {episode_id_proc}...")
-                with st.spinner(f"Running Azure VLM for {episode_id_proc}..."):
-                    try:
-                        role_map_data = utils.load_role_map(config.ROLE_MAP_PATH)
-                        count, status, err_msg = azure_vlm_processing.run_azure_vlm_ocr_on_frames(
-                            episode_id_proc, role_map_data, config.DEFAULT_VLM_MAX_NEW_TOKENS
-                        )
+                with st.expander(f"Step 3: {episode_id_proc}", expanded=True):
+                    st.write(f"Processing Step 3 for {episode_id_proc}...")
+                    with st.spinner(f"Running Azure VLM for {episode_id_proc}..."):
+                        try:
+                            role_map_data = utils.load_role_map(config.ROLE_MAP_PATH)
+                            count, status, err_msg = azure_vlm_processing.run_azure_vlm_ocr_on_frames(
+                                episode_id_proc, role_map_data, constants.DEFAULT_VLM_MAX_NEW_TOKENS
+                            )
 
-                        if status == "completed" and not err_msg:
-                            try:
-                                ocr_dir = config.EPISODES_BASE_DIR / episode_id_proc / "ocr"
-                                vlm_json_path = ocr_dir / f"{episode_id_proc}_credits_azure_vlm.json"
+                            if status == "completed" and not err_msg:
+                                try:
+                                    ocr_dir = config.EPISODES_BASE_DIR / episode_id_proc / "ocr"
+                                    vlm_json_path = ocr_dir / f"{episode_id_proc}_credits_azure_vlm.json"
 
-                                if vlm_json_path.exists():
-                                    vlm_credits = utils.load_vlm_results_from_jsonl(vlm_json_path)
-                                    if vlm_credits:
-                                        success, db_msg = utils.save_credits(episode_id_proc, vlm_credits)
-                                        if success:
-                                            logging.info(
-                                                f"[{episode_id_proc}] Successfully saved {len(vlm_credits)} credits to database."
-                                            )
+                                    if vlm_json_path.exists():
+                                        vlm_credits = utils.load_vlm_results_from_jsonl(vlm_json_path)
+                                        if vlm_credits:
+                                            success, db_msg = utils.save_credits(episode_id_proc, vlm_credits)
+                                            if success:
+                                                logging.info(
+                                                    f"[{episode_id_proc}] Successfully saved {len(vlm_credits)} credits to database."
+                                                )
+                                            else:
+                                                logging.error(
+                                                    f"[{episode_id_proc}] Failed to save credits to database: {db_msg}"
+                                                )
+                                                st.warning(f"VLM completed but database save failed: {db_msg}")
                                         else:
-                                            logging.error(
-                                                f"[{episode_id_proc}] Failed to save credits to database: {db_msg}"
-                                            )
-                                            st.warning(f"VLM completed but database save failed: {db_msg}")
+                                            logging.warning(f"[{episode_id_proc}] No credits found in VLM results file.")
                                     else:
-                                        logging.warning(f"[{episode_id_proc}] No credits found in VLM results file.")
+                                        logging.warning(f"[{episode_id_proc}] VLM results file not found: {vlm_json_path}")
+                                except Exception as db_save_err:
+                                    logging.error(
+                                        f"[{episode_id_proc}] Error saving VLM results to database: {db_save_err}",
+                                        exc_info=True,
+                                    )
+                                    st.warning(f"VLM completed but database save failed: {db_save_err}")
+
+                            st.session_state.episode_status[episode_id_proc]['step3_status'] = status
+                            if err_msg:
+                                st.session_state.episode_status[episode_id_proc]['step3_error'] = err_msg
+                                st.error(f"Error in Step 3 ({episode_id_proc}): {err_msg}")
+                            else:
+                                st.success(f"Step 3 ({episode_id_proc}) -> Status: {status}. New credits: {count}.")
+                        except Exception as e:
+                            st.session_state.episode_status[episode_id_proc]['step3_status'] = "error"
+                            st.session_state.episode_status[episode_id_proc]['step3_error'] = str(e)
+                            st.error(f"Exception in Step 3 ({episode_id_proc}): {e}")
+                            logging.error(f"Exception during Step 3 for {episode_id_proc}: {e}", exc_info=True)
+            
+            st.info("Step 3 processing finished for selected videos.")
+
+    if run_step4_button:
+        if not selected_videos_str_paths:
+            st.warning("Please select at least one video for Step 4.")
+        else:
+            st.subheader("Running Step 4: IMDB Validation")
+            
+            # Import the batch validator
+            from scripts_v3.imdb_batch_validation import IMDBBatchValidator
+            
+            for video_path_str_proc in selected_videos_str_paths:
+                video_path_obj = Path(video_path_str_proc)
+                episode_id_proc = video_path_obj.stem
+                if episode_id_proc not in st.session_state.episode_status:
+                    st.session_state.episode_status[episode_id_proc] = {}
+                
+                try:
+                    with st.expander(f"Step 4 IMDB Validation: {episode_id_proc}", expanded=True):
+                        st.write(f"🔍 Validating credits against IMDB database for episode: {episode_id_proc}")
+                        
+                        # Create batch validator
+                        batch_validator = IMDBBatchValidator()
+                        
+                        # Get credits to process for this episode
+                        credits = batch_validator.get_unprocessed_credits(episode_id=episode_id_proc)
+                        
+                        if not credits:
+                            st.success(f"✅ No credits need IMDB validation for {episode_id_proc}")
+                            st.session_state.episode_status[episode_id_proc]['step4_complete'] = True
+                            continue
+                        
+                        st.write(f"📊 Found {len(credits)} credits to validate for {episode_id_proc}")
+                        
+                        # Process credits with progress bar
+                        progress_bar = st.progress(0)
+                        status_text = st.empty()
+                        
+                        total_credits = len(credits)
+                        processed = 0
+                        
+                        for i, credit in enumerate(credits):
+                            credit_id = credit['id']
+                            name = credit.get('name', '')
+                            is_person = credit.get('is_person')
+                            
+                            # Update progress
+                            progress = (i + 1) / total_credits
+                            progress_bar.progress(progress)
+                            status_text.text(f"Processing {i+1}/{total_credits}: {name}")
+                            
+                            # Skip companies
+                            if is_person is False or is_person == 0:
+                                batch_validator.update_imdb_status(credit_id, True)
+                                batch_validator.stats['companies_skipped'] += 1
+                            else:
+                                # Validate person names
+                                is_found = batch_validator.validate_credit(credit)
+                                batch_validator.update_imdb_status(credit_id, is_found)
+                                
+                                if is_found:
+                                    batch_validator.stats['found_in_imdb'] += 1
                                 else:
-                                    logging.warning(f"[{episode_id_proc}] VLM results file not found: {vlm_json_path}")
-                            except Exception as db_save_err:
-                                logging.error(
-                                    f"[{episode_id_proc}] Error saving VLM results to database: {db_save_err}",
-                                    exc_info=True,
-                                )
-                                st.warning(f"VLM completed but database save failed: {db_save_err}")
+                                    batch_validator.stats['not_found_in_imdb'] += 1
+                                
+                                batch_validator.stats['persons_processed'] += 1
+                            
+                            processed += 1
+                        
+                        # Show final results
+                        progress_bar.progress(1.0)
+                        status_text.text("IMDB validation complete!")
+                        
+                        stats = batch_validator.stats
+                        col1, col2, col3 = st.columns(3)
+                        with col1:
+                            st.metric("✅ Found in IMDB", stats['found_in_imdb'])
+                        with col2:
+                            st.metric("❌ Not Found", stats['not_found_in_imdb'])
+                        with col3:
+                            st.metric("🏢 Companies", stats['companies_skipped'])
+                        
+                        if stats['persons_processed'] > 0:
+                            match_rate = (stats['found_in_imdb'] / stats['persons_processed']) * 100
+                            st.info(f"📈 IMDB match rate for persons: {match_rate:.1f}%")
+                        
+                        st.session_state.episode_status[episode_id_proc]['step4_complete'] = True
+                        st.success(f"✅ Step 4 completed successfully for {episode_id_proc}")
+                        
+                except Exception as e:
+                    st.session_state.episode_status[episode_id_proc]['step4_error'] = str(e)
+                    st.error(f"Exception in Step 4 ({episode_id_proc}): {e}")
+                    logging.error(f"Exception during Step 4 for {episode_id_proc}: {e}", exc_info=True)
+            
+            st.info("Step 4 IMDB validation finished for selected videos.")
 
-                        st.session_state.episode_status[episode_id_proc]['step3_status'] = status
-                        if err_msg:
-                            st.session_state.episode_status[episode_id_proc]['step3_error'] = err_msg
-                            st.error(f"Error in Step 3 ({episode_id_proc}): {err_msg}")
-                        else:
-                            st.success(f"Step 3 ({episode_id_proc}) -> Status: {status}. New credits: {count}.")
-                    except Exception as e:
-                        st.session_state.episode_status[episode_id_proc]['step3_status'] = "error"
-                        st.session_state.episode_status[episode_id_proc]['step3_error'] = str(e)
-                        st.error(f"Exception in Step 3 ({episode_id_proc}): {e}")
-                        logging.error(f"Exception during Step 3 for {episode_id_proc}: {e}", exc_info=True)
-        st.info("Step 3 processing finished for selected videos.")
+    if run_all_steps_button:
+        st.warning(
+            "RUN ALL STEPS functionality needs to be implemented by calling Step 1, 2, and 3 in sequence for each selected video, with appropriate checks for success before proceeding to the next step. This is a complex workflow to manage in Streamlit's execution model and is left as a manual process for now (run steps individually)."
+        )
 
-if run_all_steps_button:
-    st.warning(
-        "RUN ALL STEPS functionality needs to be implemented by calling Step 1, 2, and 3 in sequence for each selected video, with appropriate checks for success before proceeding to the next step. This is a complex workflow to manage in Streamlit's execution model and is left as a manual process for now (run steps individually)."
-    )
-
-with tab2:
+elif st.session_state.current_tab == 1:    
     st.header("✏️ Review & Edit Credits")
+    
+    # Helper function to preserve review tab state
+    def preserve_review_state(episode=None):
+        """Set flags to preserve the review tab and current episode after rerun"""
+        st.session_state.preserve_review_tab = True
+        if episode:
+            st.session_state.preserve_episode = episode
+        else:
+            # Clear episode preservation if not specified
+            st.session_state.preserve_episode = None
+      # Note: IMDB database initialization has been moved to Step 4 (IMDB Batch Validation)
+    # The review tab now uses pre-computed IMDB validation results from Step 4
+    # No need to initialize IMDB database here anymore
+    
+    # Initialize IMDB database for name validation on first access to Review tab
+    # DISABLED: Now using pre-computed results from Step 4
+    # if not st.session_state.get("imdb_initialized", False):
+    #     try:
+    #         from scripts_v3.imdb_name_validation import initialize_imdb_database
+    #         
+    #         # Check for Parquet file first, then TSV
+    #         if config.IMDB_PARQUET_PATH.exists():
+    #             with st.spinner("Initializing IMDB database for name validation (Parquet format)..."):
+    #                 if initialize_imdb_database():
+    #                     st.session_state["imdb_initialized"] = True
+    #                     logging.info("IMDB database initialized successfully from Parquet")
+    #                     st.success("✅ IMDB database loaded for enhanced name validation")
+    #                 else:
+    #                     st.warning("IMDB database initialization failed - name validation will be limited")
+    #         elif config.IMDB_TSV_PATH.exists():
+    #             with st.spinner("Initializing IMDB database for name validation (TSV format)..."):
+    #                 if initialize_imdb_database():
+    #                     st.session_state["imdb_initialized"] = True
+    #                     logging.info("IMDB database initialized successfully from TSV")
+    #                     st.success("✅ IMDB database loaded for enhanced name validation")
+    #                 else:
+    #                     st.warning("IMDB database initialization failed - name validation will be limited")
+    #         else:
+    #             logging.info(f"Neither IMDB Parquet ({config.IMDB_PARQUET_PATH}) nor TSV ({config.IMDB_TSV_PATH}) file found")
+    #             st.info("💡 **Optional**: For enhanced name validation, place `name.basics.parquet` or `name.basics.tsv` in `scripts_v3/` directory")
+    #     except Exception as e:
+    #         logging.error(f"Error initializing IMDB database: {e}")
+    #         st.warning("IMDB database initialization failed - name validation will be limited")
+    
+    # Clear preserve flags when user enters review tab
+    if st.session_state.get('preserve_review_tab'):
+        st.session_state.preserve_review_tab = False
 
     try:
         conn = sqlite3.connect(config.DB_PATH)
@@ -914,11 +1106,10 @@ with tab2:
                     help="Filter to show only episodes with problematic credits that need human review",
                 )
 
-                if show_only_needing_review:
-                    # Filter episodes to show only those with problematic credits
+                if show_only_needing_review:                    # Filter episodes to show only those with problematic credits
                     episodes_with_problems = []
                     for episode in available_episodes:
-                        problematic_count = len(utils.identify_problematic_credits(episode))
+                        problematic_count = utils.identify_problematic_credits_fast(episode)
                         if problematic_count > 0:
                             episodes_with_problems.append(f"{episode} ({problematic_count} issues)")
 
@@ -929,12 +1120,11 @@ with tab2:
                     else:
                         display_episodes = episodes_with_problems
                         episode_options = [ep.split(' (')[0] for ep in episodes_with_problems]  # Extract episode name
-                else:
-                    # Show all episodes with issue counts
+                else:                    # Show all episodes with issue counts
                     episodes_with_counts = []
                     episode_options = []
                     for episode in available_episodes:
-                        problematic_count = len(utils.identify_problematic_credits(episode))
+                        problematic_count = utils.identify_problematic_credits_fast(episode)
                         if problematic_count > 0:
                             episodes_with_counts.append(f"{episode} ({problematic_count} issues)")
                         else:
@@ -944,20 +1134,58 @@ with tab2:
 
             with col2:
                 if st.button("🔄 Refresh Episodes"):
+                    # Set flag to preserve review tab when refreshing episodes
+                    st.session_state.preserve_review_tab = True
                     st.rerun()
 
             if display_episodes:
-                selected_display = st.selectbox(
-                    "Select an episode to review:", options=display_episodes, key="episode_selector_review"
-                )
+                # Determine default episode selection with robust logic
+                default_index = 0
+                selected_episode_name = None
+                
+                # Priority 1: Use preserved episode if available
+                preserved_episode = st.session_state.get('preserve_episode')
+                if preserved_episode and preserved_episode in episode_options:
+                    try:
+                        default_index = episode_options.index(preserved_episode)
+                        selected_episode_name = preserved_episode
+                        st.success(f"🎯 **Continuing work on**: {preserved_episode}")
+                        # Clear the preserve flag after successful use
+                        st.session_state.preserve_episode = None
+                    except (ValueError, IndexError):
+                        st.warning(f"Preserved episode '{preserved_episode}' no longer available")
+                        st.session_state.preserve_episode = None
+                
+                # Priority 2: Use last selected episode if no preserved episode
+                if not selected_episode_name:
+                    last_episode = st.session_state.get('last_selected_episode')
+                    if last_episode and last_episode in episode_options:
+                        try:
+                            default_index = episode_options.index(last_episode)
+                            selected_episode_name = last_episode
+                        except (ValueError, IndexError):
+                            default_index = 0
+                
+                # Priority 3: Default to first episode
+                if not selected_episode_name and episode_options:
+                    selected_episode_name = episode_options[0]
 
-                # Extract the actual episode name from the display string
+                selected_display = st.selectbox(
+                    "Select an episode to review:", 
+                    options=display_episodes, 
+                    index=default_index,
+                    key="episode_selector_review"
+                )                # Extract the actual episode name from the display string
                 if show_only_needing_review:
                     selected_episode = selected_display.split(' (')[0] if selected_display else None
                 else:
                     selected_episode = (
                         episode_options[display_episodes.index(selected_display)] if selected_display else None
                     )
+                
+                # Always update last selected episode for persistence
+                if selected_episode:
+                    st.session_state.last_selected_episode = selected_episode
             else:
                 selected_episode = None
 
@@ -997,6 +1225,11 @@ with tab2:
                         # Reset the original total when queue is refreshed
                         if f"{queue_key}_original" in st.session_state:
                             del st.session_state[f"{queue_key}_original"]
+                          # Set flags to preserve review tab and episode state
+                        st.session_state.preserve_review_tab = True
+                        st.session_state.preserve_episode = selected_episode
+                        
+                        st.success("Queue refreshed!")
                         st.rerun()
 
                 with col3:
@@ -1014,15 +1247,18 @@ with tab2:
                             )
                             affected_rows = cursor.rowcount
                             conn.commit()
-                            conn.close()
-
-                            # Refresh the queue
+                            conn.close()                            # Refresh the queue
                             st.session_state[queue_key] = utils.identify_problematic_credits(selected_episode)
                             st.session_state[index_key] = 0
                             # Reset the original total when queue is refreshed
                             if f"{queue_key}_original" in st.session_state:
                                 del st.session_state[f"{queue_key}_original"]
+                            
                             st.success(f"Reset review status for {affected_rows} credits. Queue refreshed.")
+                            
+                            # Set flags to preserve review tab and episode state
+                            st.session_state.preserve_review_tab = True
+                            st.session_state.preserve_episode = selected_episode
                             st.rerun()
 
                         except Exception as e:
@@ -1162,21 +1398,95 @@ with tab2:
                                         else:
                                             st.error(f"Frame not found: {frame_filename}")
                             else:
-                                st.warning("No source frames available for this credit")
-
-                        # Auto-open the variants modal - no buttons needed
+                                st.warning("No source frames available for this credit")                        # Auto-open the variants modal - no buttons needed
                         st.markdown("---")
                         st.markdown("### ✏️ Edit/Delete Variants")
-                        st.info(
-                            "Edit each variant individually or delete unwanted ones. Click 'Save All Changes' when done."
-                        )
+                        
+                        # Initialize state for new entries if not exists
+                        new_entries_key = f"new_entries_{current_credit['id']}"
+                        if new_entries_key not in st.session_state:
+                            st.session_state[new_entries_key] = []
+                        
+                        # Show helpful info about what can be done
+                        new_entries_count = len(st.session_state[new_entries_key])
+                        if new_entries_count > 0:
+                            st.info(
+                                f"Edit each variant individually, delete unwanted ones, or add new entries. You have {new_entries_count} new entry(ies) ready to be added. Click 'Save All Changes' when done."
+                            )
+                        else:
+                            st.info(
+                                "Edit each variant individually, delete unwanted ones, or add new entries. Click 'Save All Changes' when done."
+                            )                        # Collect available frames from existing entries for new entry creation
+                        available_frames = []
+                        for entry in duplicate_entries:
+                            source_frames = entry.get('source_frame', '')
+                            if source_frames:
+                                frame_list = [f.strip() for f in source_frames.split(',') if f.strip()]
+                                available_frames.extend(frame_list)
+                        
+                        # Remove duplicates and sort
+                        available_frames = sorted(list(set(available_frames)))                        # Frame selection for new entries (if there are available frames)
+                        selected_frame = None
+                        if available_frames:
+                            st.markdown("**Frame Selection for New Entries:**")
+                            if len(available_frames) == 1:
+                                selected_frame = available_frames[0]
+                                st.info(f"New entries will use frame: **{selected_frame}**")
+                            else:
+                                frame_selection_key = f"frame_selection_{current_credit['id']}"
+                                selected_frame = st.selectbox(
+                                    "Choose frame for new entries:",
+                                    options=available_frames,
+                                    key=frame_selection_key,
+                                    help="Select which frame new entries should be associated with"
+                                )
+
+                        # Add button to create new entries (outside the form to allow state changes)
+                        col_add, col_space = st.columns([2, 6])
+                        with col_add:
+                            button_type = "primary" if len(st.session_state[new_entries_key]) == 0 else "secondary"
+                            button_text = "➕ Add New Entry" if len(st.session_state[new_entries_key]) == 0 else f"➕ Add Another ({len(st.session_state[new_entries_key])} pending)"
+                            if st.button(button_text, key=f"add_entry_{current_credit['id']}", type=button_type):
+                                # Add a new empty entry
+                                new_entry = {
+                                    'id': f"new_{len(st.session_state[new_entries_key])}_{current_credit['id']}",
+                                    'name': current_credit['name'],  # Default to the main credit name
+                                    'role_group': duplicate_entries[0]['role_group'] if duplicate_entries else '',
+                                    'role_detail': '',
+                                    'episode_id': current_credit['episode_id'],
+                                    'is_person': True,  # Default to person
+                                    'is_new': True,
+                                    'source_frame': selected_frame or 'manual_entry'  # Use selected frame or default
+                                }
+                                st.session_state[new_entries_key].append(new_entry)
+                                st.rerun()
 
                         with st.form(f"form_edit_variants_{current_credit['id']}"):
-                            # Collect form inputs for all variants
+                            # Collect form inputs for all variants (existing + new)
                             form_data = []
-                            for i, entry in enumerate(duplicate_entries):
-                                st.markdown(f"#### Variant {i+1}")
-                                col1, col2, col3, col4 = st.columns([3, 3, 3, 1])
+                            
+                            # Combine existing entries with new entries
+                            all_entries = duplicate_entries + st.session_state[new_entries_key]
+                            
+                            for i, entry in enumerate(all_entries):
+                                is_new = entry.get('is_new', False)
+                                entry_type = "New Entry" if is_new else f"Variant {i+1 - len(st.session_state[new_entries_key])}"
+                                if is_new:
+                                    # For new entries, show them after existing variants
+                                    existing_count = len(duplicate_entries)
+                                    new_index = i - existing_count + 1
+                                    entry_type = f"New Entry #{new_index}"
+                                else:
+                                    entry_type = f"Variant {i+1}"
+                                    
+                                # Add visual distinction for new entries
+                                if is_new:
+                                    st.markdown(f"#### 🆕 {entry_type}")
+                                    st.markdown("*This is a new entry that will be added to the database*")
+                                else:
+                                    st.markdown(f"#### {entry_type}")
+                                    
+                                col1, col2, col3, col4, col5 = st.columns([2.5, 2.5, 2.5, 1.5, 1])
 
                                 with col1:
                                     name = st.text_input(f"Name", value=entry['name'], key=f"variant_name_{i}")
@@ -1207,30 +1517,58 @@ with tab2:
                                     )
 
                                 with col4:
-                                    delete_variant = st.checkbox(
-                                        "🗑️", key=f"variant_delete_{i}", help="Check to delete this variant"
+                                    # Company/Person selector
+                                    is_person_current = entry.get('is_person', True)  # Default to person
+                                    entity_type = st.selectbox(
+                                        "Type",
+                                        options=["Person", "Company"],
+                                        index=0 if is_person_current else 1,
+                                        key=f"variant_type_{i}",
+                                        help="Select whether this is a person or company"
                                     )
+                                    is_person = (entity_type == "Person")
 
-                                # Store form data for processing on submit
+                                with col5:
+                                    if is_new:
+                                        # For new entries, show a remove checkbox
+                                        delete_variant = st.checkbox(
+                                            "❌", 
+                                            key=f"remove_new_{i}", 
+                                            help="Check to remove this new entry (won't be saved)"
+                                        )
+                                    else:                                        # For existing entries, show delete checkbox
+                                        delete_variant = st.checkbox(
+                                            "🗑️", key=f"variant_delete_{i}", help="Check to delete this variant"
+                                        )                                # Store form data for processing on submit
                                 form_data.append(
                                     {
                                         'id': entry['id'],
                                         'name': name,
                                         'role_group': role_group,
                                         'role_detail': role_detail,
+                                        'is_person': is_person,
                                         'delete': delete_variant,
+                                        'is_new': is_new,
+                                        'episode_id': entry.get('episode_id', current_credit['episode_id']),
+                                        'source_frame': entry.get('source_frame', 'manual_entry')
                                     }
-                                )
-
-                                # Show source frames for this variant
-                                source_frames = entry.get('source_frame', '')
-                                if source_frames:
-                                    frame_list = [f.strip() for f in source_frames.split(',') if f.strip()]
-                                    st.caption(f"**Source Frames ({len(frame_list)}):** {', '.join(frame_list[:3])}")
-                                    if len(frame_list) > 3:
-                                        st.caption(f"... and {len(frame_list) - 3} more")
+                                )                                # Show source frames for this variant
+                                if not is_new:
+                                    source_frames = entry.get('source_frame', '')
+                                    if source_frames:
+                                        frame_list = [f.strip() for f in source_frames.split(',') if f.strip()]
+                                        st.caption(f"**Source Frames ({len(frame_list)}):** {', '.join(frame_list[:3])}")
+                                        if len(frame_list) > 3:
+                                            st.caption(f"... and {len(frame_list) - 3} more")
+                                    else:
+                                        st.caption("**Source Frames:** None")
                                 else:
-                                    st.caption("**Source Frames:** None")
+                                    # For new entries, show the selected source frame
+                                    new_source_frame = entry.get('source_frame', 'manual_entry')
+                                    if new_source_frame and new_source_frame != 'manual_entry':
+                                        st.caption(f"**Source Frame:** {new_source_frame}")
+                                    else:
+                                        st.caption("**Source Frame:** Will be set when saved")
 
                             col1, col2 = st.columns(2)
                             with col1:
@@ -1239,34 +1577,74 @@ with tab2:
                                         # Build the actual lists based on current form values
                                         variants_to_delete = []
                                         edited_variants = []
+                                        new_variants = []
+                                        removed_new_entries = 0
 
                                         for variant_data in form_data:
                                             if variant_data['delete']:
-                                                variants_to_delete.append(variant_data['id'])
+                                                # Only add to delete list if it's not a new entry
+                                                if not variant_data.get('is_new', False):
+                                                    variants_to_delete.append(variant_data['id'])
+                                                else:
+                                                    # Count removed new entries
+                                                    removed_new_entries += 1
                                             else:
-                                                edited_variants.append(
-                                                    {
-                                                        'id': variant_data['id'],
-                                                        'name': variant_data['name'],
-                                                        'role_group': variant_data['role_group'],
-                                                        'role_detail': variant_data['role_detail'],
-                                                    }
-                                                )
+                                                if variant_data.get('is_new', False):
+                                                    # This is a new entry to be inserted
+                                                    new_variants.append(
+                                                        {
+                                                            'name': variant_data['name'],
+                                                            'role_group': variant_data['role_group'],
+                                                            'role_detail': variant_data['role_detail'],
+                                                            'episode_id': variant_data['episode_id'],
+                                                            'is_person': variant_data['is_person'],
+                                                            'source_frame': variant_data['source_frame']
+                                                        }
+                                                    )
+                                                else:
+                                                    # This is an existing entry to be updated
+                                                    edited_variants.append(
+                                                        {
+                                                            'id': variant_data['id'],
+                                                            'name': variant_data['name'],
+                                                            'role_group': variant_data['role_group'],
+                                                            'role_detail': variant_data['role_detail'],
+                                                            'is_person': variant_data['is_person']
+                                                        }
+                                                    )
 
                                         conn = sqlite3.connect(config.DB_PATH)
                                         cursor = conn.cursor()
 
-                                        # Delete marked variants first
+                                        # Delete marked variants first (only existing ones)
                                         for variant_id in variants_to_delete:
                                             cursor.execute(
-                                                f"DELETE FROM {config.DB_TABLE_CREDITS} WHERE id = ?", (variant_id,)
+                                                f"DELETE FROM {config.DB_TABLE_CREDITS} WHERE id = ?", (variant_id,)                                            )
+                                            
+                                        # Insert new variants
+                                        for new_variant in new_variants:
+                                            cursor.execute(
+                                                f"""
+                                                INSERT INTO {config.DB_TABLE_CREDITS} 
+                                                (episode_id, name, role_group_normalized, role_detail, scene_position, source_frame, reviewed_status, reviewed_at, is_person)
+                                                VALUES (?, ?, ?, ?, 'manual_entry', ?, 'kept', CURRENT_TIMESTAMP, ?)
+                                            """,
+                                                (
+                                                    new_variant['episode_id'],
+                                                    new_variant['name'],
+                                                    new_variant['role_group'],
+                                                    new_variant['role_detail'],
+                                                    new_variant['source_frame'],
+                                                    new_variant['is_person']
+                                                ),
                                             )
-                                            # Update remaining variants
+                                            
+                                        # Update remaining existing variants
                                         for variant in edited_variants:
                                             cursor.execute(
                                                 f"""
                                                 UPDATE {config.DB_TABLE_CREDITS}
-                                                SET name = ?, role_group_normalized = ?, role_detail = ?, 
+                                                SET name = ?, role_group_normalized = ?, role_detail = ?, is_person = ?,
                                                     reviewed_status = 'kept', reviewed_at = CURRENT_TIMESTAMP
                                                 WHERE id = ?
                                             """,
@@ -1274,21 +1652,46 @@ with tab2:
                                                     variant['name'],
                                                     variant['role_group'],
                                                     variant['role_detail'],
+                                                    variant['is_person'],
                                                     variant['id'],
                                                 ),
                                             )
 
                                         conn.commit()
                                         conn.close()
+                                        
+                                        # Update session state: remove processed new entries
+                                        # Keep only new entries that weren't processed (neither saved nor removed)
+                                        remaining_new_entries = []
+                                        for i, entry in enumerate(st.session_state[new_entries_key]):
+                                            # Find the corresponding form data
+                                            form_entry_index = len(duplicate_entries) + i
+                                            if form_entry_index < len(form_data):
+                                                form_entry = form_data[form_entry_index]
+                                                # If it wasn't marked for deletion, keep it for further editing
+                                                if not form_entry['delete']:
+                                                    remaining_new_entries.append(entry)
+                                        st.session_state[new_entries_key] = remaining_new_entries
+                                        
                                         # Check if any variants remain
-                                        if not edited_variants:
+                                        total_remaining = len(edited_variants) + len(new_variants)
+                                        if total_remaining == 0:
                                             # All variants were deleted
                                             success_msg = f"🗑️ All variants deleted successfully!"
                                             decision_type = 'delete_all'
                                         else:
                                             # Some variants remain
-                                            success_msg = f"💾 Changes saved! {len(edited_variants)} variant(s) kept, {len(variants_to_delete)} deleted."
-                                            decision_type = 'variants_edited'  # Remove from queue and update navigation (for all cases)                                            # Get fresh references directly from session state
+                                            updates_msg = f"{len(edited_variants)} updated" if edited_variants else ""
+                                            adds_msg = f"{len(new_variants)} added" if new_variants else ""
+                                            deletes_msg = f"{len(variants_to_delete)} deleted" if variants_to_delete else ""
+                                            removes_msg = f"{removed_new_entries} new entries removed" if removed_new_entries else ""
+                                            
+                                            actions = [msg for msg in [updates_msg, adds_msg, deletes_msg, removes_msg] if msg]
+                                            success_msg = f"💾 Changes saved! {', '.join(actions)}."
+                                            decision_type = 'variants_edited'
+                                            
+                                        # Remove from queue and update navigation (for all cases)
+                                        # Get fresh references directly from session state
                                         problematic_queue = st.session_state[queue_key]
                                         current_index = st.session_state[index_key]
                                         # Get the current credit from the fresh queue/index
@@ -1339,8 +1742,7 @@ with tab2:
                                                 logging.info(
                                                     f"[Variants Save] Was at last credit - set index to {new_index}"
                                                 )
-                                            else:
-                                                logging.info(
+                                            else:                                                logging.info(
                                                     f"[Variants Save] Staying at index {current_index} - next credit will appear here"
                                                 )
                                             # If current_index < len(problematic_queue), stay at current_index
@@ -1352,10 +1754,28 @@ with tab2:
 
                                         st.success(success_msg)
 
-                                        # Force session state sync and rerun
+                                        # Set flags to preserve review tab and episode state
+                                        st.session_state.preserve_review_tab = True
+                                        
+                                        # Only preserve episode if there are still credits to review
+                                        if len(st.session_state[queue_key]) > 0:
+                                            st.session_state.preserve_episode = selected_episode
+                                            logging.info(f"[Variants Save] Preserving episode {selected_episode} - {len(st.session_state[queue_key])} credits remaining")
+                                        else:
+                                            st.session_state.preserve_episode = None
+                                            logging.info(f"[Variants Save] All credits completed for {selected_episode} - not preserving episode")
+                                        
+                                        # Log completion
                                         logging.info(
                                             f"[Variants Save] Completed processing. Queue now has {len(st.session_state[queue_key])} credits, index is {st.session_state[index_key]}"
                                         )
+                                          # Always rerun to show next credit or completion
+                                        if len(st.session_state[queue_key]) == 0:
+                                            st.info("🎉 All credits reviewed!")
+                                        else:
+                                            st.info("✅ Moving to next credit...")
+                                        
+                                        # Force rerun to show updated state and navigate to review tab
                                         st.rerun()
 
                                     except Exception as e:
@@ -1368,7 +1788,13 @@ with tab2:
                                         st.session_state[index_key] += 1
                                     else:
                                         st.session_state[index_key] = 0
-                                    st.info("⏭️ Skipped - moved to next credit")
+                                      # Set flags to preserve review tab and episode state
+                                    st.session_state.preserve_review_tab = True
+                                    
+                                    # Always preserve episode when skipping (there are still credits)
+                                    st.session_state.preserve_episode = selected_episode
+                                    
+                                    st.success("⏭️ Skipped - moved to next credit")
                                     st.rerun()
 
                     else:
@@ -1526,7 +1952,7 @@ with tab2:
         st.error(f"Error loading credits data: {e}")
         logging.error(f"Error in credit review interface: {e}", exc_info=True)
 
-with tab3:
+elif st.session_state.current_tab == 2:
     st.header("Pipeline Logs")
     st.text_area(
         "Live Logs:", value=st.session_state.get('log_content', ''), height=600, key="log_display_text_area_v3"

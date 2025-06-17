@@ -5,6 +5,8 @@ openai # >>> Add Azure OpenAI library <<<
 python-dotenv # >>> Add dotenv <<<
 imagehash
 
+# Data processing
+pandas
 
 # Streamlit e altri
 streamlit

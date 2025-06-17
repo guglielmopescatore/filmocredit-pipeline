@@ -10,7 +10,6 @@ MIN_OCR_CONFIDENCE: Final[float] = 0.75
 MIN_OCR_TEXT_LENGTH: Final[int] = 4
 MAX_OCR_ATTEMPTS: Final[int] = 3
 OCR_TIMEOUT_SECONDS: Final[int] = 3
-DEFAULT_OCR_ENGINE: Final[str] = "paddleocr"
 
 # Frame Processing
 HASH_SIZE: Final[int] = 16
@@ -37,10 +36,6 @@ SCENE_MIN_LENGTH_FRAMES: Final[int] = 10
 DEFAULT_START_SCENES_COUNT: Final[int] = 100
 DEFAULT_END_SCENES_COUNT: Final[int] = 100
 INITIAL_FRAME_SAMPLE_POINTS: Final[List[float]] = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-
-# Database
-DB_TABLE_CREDITS: Final[str] = "credits"
-DB_TABLE_EPISODES: Final[str] = "episodes"
 
 # Azure VLM
 DEFAULT_VLM_MAX_NEW_TOKENS: Final[int] = 8192

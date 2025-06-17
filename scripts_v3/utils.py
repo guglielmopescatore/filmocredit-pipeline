@@ -2,6 +2,7 @@ import json
 import json as _json
 import logging  # Ensure logging is imported
 import re
+import sqlite3
 import sys  # for console logging handler
 import time
 from logging.handlers import RotatingFileHandler
@@ -16,6 +17,32 @@ from PIL import Image
 from thefuzz import fuzz
 
 from scripts_v3 import config
+
+# Import IMDB validation for name checking
+try:
+    from scripts_v3.imdb_name_validation import IMDBNameValidator
+    IMDB_VALIDATION_AVAILABLE = True
+    # Create a module-level validator instance for efficiency
+    _imdb_validator = None
+    
+    def get_imdb_validator():
+        """Get or create IMDB validator instance"""
+        global _imdb_validator
+        logging.debug(f"[IMDB Validator] get_imdb_validator called, current instance: {_imdb_validator}")
+        if _imdb_validator is None:
+            logging.info(f"[IMDB Validator] Creating new IMDBNameValidator instance")
+            _imdb_validator = IMDBNameValidator()
+            logging.info(f"[IMDB Validator] Created new instance: {_imdb_validator}")
+        else:
+            logging.debug(f"[IMDB Validator] Returning existing instance")
+        return _imdb_validator
+        
+except ImportError:
+    IMDB_VALIDATION_AVAILABLE = False
+    logging.warning("IMDB name validation not available")
+    
+    def get_imdb_validator():
+        return None
 
 
 # La vostra classe personalizzata per il formato JSON
@@ -515,21 +542,20 @@ def init_db() -> None:
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             episode_id TEXT NOT NULL,
             source_frame TEXT NOT NULL,
-            role_group TEXT,
-            name TEXT,
+            role_group TEXT,            name TEXT,
             role_detail TEXT,
             role_group_normalized TEXT,
             source_image_index INTEGER, -- Kept for historical reasons, but might be original_frame_number now
             scene_position TEXT,        -- Added for deduplication preference
-            original_frame_number TEXT, -- Added to store original frame numbers as text
-            reviewed_status TEXT DEFAULT 'pending', -- Track review status: 'pending' or 'kept'
+            original_frame_number TEXT, -- Added to store original frame numbers as text            reviewed_status TEXT DEFAULT 'pending', -- Track review status: 'pending' or 'kept'
             reviewed_at TIMESTAMP,      -- When the credit was reviewed
+            is_person BOOLEAN,          -- Whether the name refers to a person (true) or company (false)
+            normalized_name TEXT,       -- Normalized name for IMDB validation
+            is_present_in_imdb BOOLEAN, -- Whether the name was found in IMDB database
             FOREIGN KEY (episode_id) REFERENCES {config.DB_TABLE_EPISODES} (episode_id)
         )
-        """
-        )
-
-        # Add the new columns to existing tables if they don't exist
+        """        )
+          # Add the new columns to existing tables if they don't exist
         try:
             cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN reviewed_status TEXT DEFAULT 'pending'")
             logging.info("Added 'reviewed_status' column to credits table.")
@@ -540,6 +566,27 @@ def init_db() -> None:
         try:
             cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN reviewed_at TIMESTAMP")
             logging.info("Added 'reviewed_at' column to credits table.")
+        except sqlite3.OperationalError:
+            # Column already exists
+            pass
+
+        try:
+            cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN is_person BOOLEAN")
+            logging.info("Added 'is_person' column to credits table.")
+        except sqlite3.OperationalError:
+            # Column already exists
+            pass
+
+        try:
+            cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN normalized_name TEXT")
+            logging.info("Added 'normalized_name' column to credits table.")
+        except sqlite3.OperationalError:
+            # Column already exists
+            pass
+
+        try:
+            cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN is_present_in_imdb BOOLEAN")
+            logging.info("Added 'is_present_in_imdb' column to credits table.")
         except sqlite3.OperationalError:
             # Column already exists
             pass
@@ -691,33 +738,52 @@ def save_credits(episode_id: str, credits_data: list[dict]) -> None:
                 original_frame_number_db = ",".join(str(x) for x in original_frame_number if x is not None)
             else:
                 original_frame_number_db = str(original_frame_number) if original_frame_number is not None else None
-
+            
             scene_pos = credit.get('scene_position', None)
+              # Handle is_person field - infer from role group if not provided
+            is_person = credit.get('is_person')
+            if is_person is None:
+                # Fallback: detect based on role group or name patterns
+                if is_company_role_group(credit.get('role_group')):
+                    is_person = False
+                elif detect_company_name_patterns(credit.get('name', '')):
+                    is_person = False
+                else:
+                    is_person = True  # Default to person
+
+            # Calculate normalized name for IMDB validation and operations
+            name = credit.get('name', '')
+            normalized_name = normalize_name(name) if name else None
 
             insert_data.append(
                 (
                     episode_id,
                     source_frame_db,
                     credit.get('role_group'),
-                    credit.get('name'),
-                    credit.get('role_detail'),
-                    credit.get('role_group_normalized'),
+                    name,
+                    credit.get('role_detail'),                    credit.get('role_group_normalized'),
                     original_frame_number_db,
                     scene_pos,
+                    is_person,
+                    normalized_name,
                 )
             )
 
         cursor.executemany(
             f"""
         INSERT INTO {config.DB_TABLE_CREDITS}
-        (episode_id, source_frame, role_group, name, role_detail, role_group_normalized, original_frame_number, scene_position)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        (episode_id, source_frame, role_group, name, role_detail, role_group_normalized, original_frame_number, scene_position, is_person, normalized_name)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
             insert_data,
         )
 
         conn.commit()
         logging.info(f"[{episode_id}] Successfully saved {len(insert_data)} credits to DB.")
+        
+        # Invalidate cache after successful save
+        invalidate_credits_cache(episode_id)
+        
         return True, f"Saved {len(insert_data)} credits."
 
     except sqlite3.Error as e:
@@ -1395,214 +1461,441 @@ def sort_text_lines_by_bbox(text_lines: List[Tuple[Any, str, float]]) -> List[Tu
         return text_lines  # Return original if sorting fails
 
 
-# Credit Review Queue Management Functions
+def format_problem_description(problem_types: List[str]) -> str:
+    """
+    Format problem types into a human-readable description.
+    
+    Args:
+        problem_types: List of problem type strings
+        
+    Returns:
+        Formatted description string
+    """
+    if not problem_types:
+        return "No specific issues identified"
+      # Map problem types to user-friendly descriptions
+    problem_descriptions = {
+        "empty_name": "❌ Empty or missing name",
+        "unknown_role_group": "❓ Unknown or missing role group", 
+        "missing_normalized_role": "⚠️ Missing normalized role group",
+        "missing_is_person_flag": "🤖 Missing person/company classification",
+        "concatenated_names": "🔗 Multiple names concatenated together",
+        "imdb_name_not_found": "� Name not found in IMDB database",
+        "invalid_imdb_name": "📋 Not found in IMDB database",
+        "concatenated_names_detected": "🔗 Appears to be multiple names joined",
+        "invalid_name_after_cleaning": "🧹 Name becomes invalid after cleaning",
+        "no_valid_words": "📝 No valid words found in name",
+        "too_short": "📏 Name too short to validate"
+    }
+    
+    descriptions = []
+    for problem_type in problem_types:
+        description = problem_descriptions.get(problem_type, f"⚠️ {problem_type.replace('_', ' ').title()}")
+        descriptions.append(description)
+    
+    if len(descriptions) == 1:
+        return descriptions[0]
+    elif len(descriptions) == 2:
+        return f"{descriptions[0]} and {descriptions[1]}"
+    else:
+        return f"{', '.join(descriptions[:-1])}, and {descriptions[-1]}"
+
+
+# ===========================
+# Company Detection Functions
+# ===========================
+
+def is_company_role_group(role_group: Optional[str]) -> bool:
+    """
+    Check if a role group indicates a company rather than a person.
+    
+    Args:
+        role_group: The role group to check
+        
+    Returns:
+        True if the role group indicates a company
+    """
+    if not role_group:
+        return False
+    
+    company_role_groups = {
+        'Production Companies',
+        'Distributors', 
+        'Sales Representatives / ISA',
+        'Special Effects Companies',
+        'Miscellaneous Companies',
+        'Miscellaneous Company',  # Handle singular form
+    }
+    
+    # Check exact matches and variations
+    role_group_normalized = role_group.strip()
+    if role_group_normalized in company_role_groups:
+        return True
+    
+    # Handle common variations
+    company_keywords = [
+        'companies', 'company', 'distributors', 'distributor', 
+        'production', 'miscellaneous', 'effects'
+    ]
+    
+    role_lower = role_group_normalized.lower()
+    return any(keyword in role_lower for keyword in company_keywords)
+
+
+def detect_company_name_patterns(name: str) -> bool:
+    """
+    Detect if a name looks like a company based on common patterns.
+    
+    Args:
+        name: The name to analyze
+        
+    Returns:
+        True if the name appears to be a company
+    """
+    if not name:
+        return False
+    
+    name_lower = name.lower().strip()
+    
+    # Common company suffixes and patterns
+    company_patterns = [
+        r'\b(inc\.?|corp\.?|ltd\.?|llc|limited|corporation|incorporated)\b',
+        r'\b(pictures|entertainment|studios?|films?|productions?)\b',
+        r'\b(services?|group|media|television|tv|networks?)\b',
+        r'\b(catering|rental|equipment|facilities)\b',
+        r'\b(bros\.?|brothers|sisters|associates)\b',
+    ]
+    
+    for pattern in company_patterns:
+        if re.search(pattern, name_lower):
+            return True
+    
+    return False
+
+
+# ===========================
+# Performance Caching Functions  
+# ===========================
+
+def get_cached_problematic_credits_count(episode_id: str) -> Optional[int]:
+    """
+    Get cached count of problematic credits for an episode.
+    
+    Args:
+        episode_id: Episode to check
+        
+    Returns:
+        Cached count or None if not cached/expired
+    """
+    cache_key = f"problem_count_{episode_id}"
+    cache_time_key = f"problem_count_time_{episode_id}"
+    
+    if cache_key in st.session_state and cache_time_key in st.session_state:
+        cache_time = st.session_state[cache_time_key]
+        # Check if cache is still valid (30 seconds)
+        if time.time() - cache_time < 30:
+            return st.session_state[cache_key]
+    
+    return None
+
+
+def cache_problematic_credits_count(episode_id: str, count: int) -> None:
+    """
+    Cache the count of problematic credits for an episode.
+    
+    Args:
+        episode_id: Episode ID
+        count: Number of problematic credits
+    """
+    cache_key = f"problem_count_{episode_id}"
+    cache_time_key = f"problem_count_time_{episode_id}"
+    
+    st.session_state[cache_key] = count
+    st.session_state[cache_time_key] = time.time()
+
+
+def invalidate_credits_cache(episode_id: str) -> None:
+    """
+    Invalidate cached data for an episode when credits are saved.
+    
+    Args:
+        episode_id: Episode ID to invalidate cache for
+    """
+    cache_keys_to_remove = [
+        f"problem_count_{episode_id}",
+        f"problem_count_time_{episode_id}",
+        f"episode_stats_{episode_id}",
+        f"episode_stats_time_{episode_id}"
+    ]
+    
+    for key in cache_keys_to_remove:
+        if key in st.session_state:
+            del st.session_state[key]
+    
+    logging.info(f"Invalidated cache for episode {episode_id}")
+
+
+def identify_problematic_credits_fast(episode_id: str) -> int:
+    """
+    Fast version of problematic credits identification with caching.
+    
+    Args:
+        episode_id: Episode to analyze
+        
+    Returns:
+        Number of problematic credits
+    """
+    # Check cache first
+    cached_count = get_cached_problematic_credits_count(episode_id)
+    if cached_count is not None:
+        logging.debug(f"Using cached problematic credits count for {episode_id}: {cached_count}")
+        return cached_count
+    
+    try:
+        conn = sqlite3.connect(config.DB_PATH)
+        cursor = conn.cursor()
+        
+        # Quick count query for performance
+        cursor.execute(f"""
+            SELECT COUNT(*) 
+            FROM {config.DB_TABLE_CREDITS} 
+            WHERE episode_id = ? 
+            AND (reviewed_status IS NULL OR reviewed_status != 'kept')
+            AND (
+                role_group = 'Unknown' 
+                OR role_group_normalized IS NULL 
+                OR name IS NULL 
+                OR name = ''
+                OR (is_person IS NULL AND role_group NOT LIKE '%Compan%')
+            )
+        """, (episode_id,))
+        
+        count = cursor.fetchone()[0]
+        conn.close()
+        
+        # Cache the result
+        cache_problematic_credits_count(episode_id, count)
+        
+        logging.info(f"Identified {count} problematic credits for episode {episode_id}")
+        return count
+        
+    except Exception as e:
+        logging.error(f"Error identifying problematic credits for {episode_id}: {e}", exc_info=True)
+        return 0
 
 
 def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
     """
-    Identify and prioritize credits that need human review.
-    Returns list ordered by priority (most problematic first).
+    Identify problematic credits for an episode that need manual review.
+    Returns the actual credit objects (not just count).
+    
+    Args:
+        episode_id: Episode to analyze
+          Returns:
+        List of problematic credit dictionaries
     """
-    import sqlite3
-
-    problematic_credits = []
-
     try:
+        logging.info(f"[Problematic Credits] Starting identification for episode: {episode_id}")
         conn = sqlite3.connect(config.DB_PATH)
         cursor = conn.cursor()
-        # Get all credits for the episode that haven't been reviewed as 'kept'
-        cursor.execute(
-            f"""
-            SELECT id, role_group_normalized, name, role_detail, 
-                   source_frame, original_frame_number, scene_position, reviewed_status
+        
+        # Get credits that need review
+        cursor.execute(f"""
+            SELECT id, episode_id, source_frame, role_group, name, role_detail, 
+                   role_group_normalized, original_frame_number, scene_position, 
+                   reviewed_status, is_person, normalized_name, is_present_in_imdb
             FROM {config.DB_TABLE_CREDITS} 
-            WHERE episode_id = ? AND (reviewed_status IS NULL OR reviewed_status != 'kept')
+            WHERE episode_id = ? 
+            AND (reviewed_status IS NULL OR reviewed_status != 'kept')
             ORDER BY role_group_normalized, name
-        """,
-            (episode_id,),
-        )
-
+        """, (episode_id,))
+        
         credits_data = cursor.fetchall()
         conn.close()
-
+        
+        logging.info(f"[Problematic Credits] Found {len(credits_data)} credits that need review for episode: {episode_id}")
         if not credits_data:
+            logging.info(f"[Problematic Credits] No credits to review for episode: {episode_id}")
             return []
-
-        # Create a map to track duplicates
-        name_to_entries = {}
-        for credit in credits_data:
-            credit_id, role_group, name, role_detail, source_frame, frame_numbers, scene_pos, reviewed_status = credit
-
-            if name not in name_to_entries:
-                name_to_entries[name] = []
-
-            name_to_entries[name].append(
-                {
+        
+        problematic_credits = []
+        
+        logging.info(f"[Problematic Credits] Processing {len(credits_data)} individual credits...")
+        for i, credit in enumerate(credits_data):
+            (credit_id, ep_id, source_frame, role_group, name, role_detail, 
+             role_group_normalized, original_frame_number, scene_position, 
+             reviewed_status, is_person, normalized_name, is_present_in_imdb) = credit
+            
+            logging.debug(f"[Problematic Credits] Processing credit {i+1}/{len(credits_data)}: ID={credit_id}, name='{name}', role='{role_group}', is_person={is_person}")
+            
+            # Skip company role groups from problematic credits identification
+            if is_company_role_group(role_group):
+                logging.debug(f"[Problematic Credits] Skipping company role group: '{role_group}' for name: '{name}'")
+                continue
+            
+            problem_types = []
+            
+            # Check for various problematic conditions
+            if not name or name.strip() == "":
+                problem_types.append("empty_name")
+            
+            if not role_group or role_group == "Unknown":
+                problem_types.append("unknown_role_group")
+            
+            if not role_group_normalized:
+                problem_types.append("missing_normalized_role")
+            # Check for potential company validation issues
+            if is_person is None and not is_company_role_group(role_group):
+                problem_types.append("missing_is_person_flag")
+                
+            # Check for potentially problematic names (very long names)
+            if name and len(name.strip().split()) > 6:
+                problem_types.append("concatenated_names")            # Check if name is NOT found in IMDB database (using pre-computed result from Step 4)
+            # Only check for persons, not companies
+            if name and name.strip() and is_person not in [False, 0]:
+                if is_present_in_imdb == False:  # Use == instead of is for SQLite integer comparison
+                    logging.debug(f"[IMDB Check] Name '{name}' NOT FOUND in IMDB database (pre-computed)")
+                    problem_types.append("imdb_name_not_found")
+                elif is_present_in_imdb == True:  # Use == instead of is for SQLite integer comparison
+                    logging.debug(f"[IMDB Check] Name '{name}' is VALID in IMDB database (pre-computed)")
+                elif is_present_in_imdb is None:
+                    logging.warning(f"[IMDB Check] Name '{name}' not yet processed by Step 4 IMDB validation")
+                    # Optionally add a flag to indicate this needs Step 4 processing
+                    problem_types.append("imdb_not_processed")
+            
+            # If any problems found, add to problematic list
+            if problem_types:
+                problematic_credit = {
                     'id': credit_id,
+                    'episode_id': ep_id,
+                    'source_frame': source_frame,
                     'role_group': role_group,
                     'name': name,
                     'role_detail': role_detail,
-                    'source_frame': source_frame,
-                    'frame_numbers': frame_numbers,
-                    'scene_position': scene_pos,
+                    'role_group_normalized': role_group_normalized,
+                    'original_frame_number': original_frame_number,
+                    'scene_position': scene_position,
+                    'reviewed_status': reviewed_status,
+                    'is_person': is_person,
+                    'normalized_name': normalized_name,
+                    'problem_types': problem_types,                    'priority_score': len(problem_types) * 10  # Higher score for more problems
                 }
-            )
-        # Identify problematic credits with priority scoring
-        processed_names = set()  # Track names we've already processed
-
-        for name, entries in name_to_entries.items():
-            if name in processed_names:
-                continue  # Skip if we've already processed this name
-
-            # Check if ANY entry for this name has problems
-            has_problems = False
-            max_priority_score = 0
-            all_problem_types = set()
-
-            for entry in entries:
-                problem_type = []
-                priority_score = 0
-
-                # Priority 1: Unknown role groups (highest priority)
-                if 'unknown' in entry['role_group'].lower():
-                    problem_type.append('unknown_role')
-                    priority_score += 100  # Priority 2: Duplicate names with different role groups
-                if len(entries) > 1:
-                    unique_roles = set(e['role_group'] for e in entries)
-                    if len(unique_roles) > 1:
-                        problem_type.append('duplicate_roles')
-                        priority_score += 80
-
-                if problem_type:
-                    has_problems = True
-                    all_problem_types.update(problem_type)
-                    max_priority_score = max(max_priority_score, priority_score)
-
-            # Only add ONE entry per problematic name
-            if has_problems:
-                # Use the first entry as the representative, but include all variants
-                representative_entry = entries[0].copy()
-                representative_entry['problem_types'] = list(all_problem_types)
-                representative_entry['priority_score'] = max_priority_score
-                representative_entry['episode_id'] = episode_id
-
-                # Always add context about all variants (even if only 1)
-                representative_entry['duplicate_entries'] = entries
-                representative_entry['total_variants'] = len(entries)
-
-                problematic_credits.append(representative_entry)
-                processed_names.add(name)
-
-        # Sort by priority score (highest first)
+                problematic_credits.append(problematic_credit)
+        
+        # Sort by priority score (most problematic first)
         problematic_credits.sort(key=lambda x: x['priority_score'], reverse=True)
-
-        logging.info(f"[{episode_id}] Identified {len(problematic_credits)} problematic credits")
+        
+        logging.info(f"[Problematic Credits] FINAL RESULTS for episode {episode_id}:")
+        logging.info(f"[Problematic Credits] Total processed: {len(credits_data)} credits")
+        logging.info(f"[Problematic Credits] Found problematic: {len(problematic_credits)} credits")
+        
+        # Log summary of problem types
+        problem_type_counts = {}
+        for pc in problematic_credits:
+            for pt in pc['problem_types']:
+                problem_type_counts[pt] = problem_type_counts.get(pt, 0) + 1
+        
+        logging.info(f"[Problematic Credits] Problem type summary: {problem_type_counts}")
+        
         return problematic_credits
-
+        
     except Exception as e:
-        logging.error(f"[{episode_id}] Error identifying problematic credits: {e}", exc_info=True)
+        logging.error(f"Error identifying problematic credits for {episode_id}: {e}", exc_info=True)
         return []
 
 
-def get_best_frames_for_credit(credit_data: Dict[str, Any], max_frames: int = 2) -> List[str]:
+def get_best_frames_for_credit(credit: Dict[str, Any], max_frames: int = 2) -> List[str]:
     """
-    Select the best representative frames for a credit.
-    For single occurrence: 1 frame
-    For duplicates: up to max_frames most representative frames
+    Get the best frame filenames for displaying a credit.
+    
+    Args:
+        credit: Credit dictionary containing frame information
+        max_frames: Maximum number of frames to return
+        
+    Returns:
+        List of frame filenames
     """
-    source_frames = credit_data.get('source_frame', '')
-    if not source_frames:
+    try:
+        source_frames = credit.get('source_frame', [])
+        if isinstance(source_frames, str):
+            source_frames = source_frames.split(',')
+        elif not isinstance(source_frames, list):
+            source_frames = [str(source_frames)] if source_frames else []
+        
+        # Clean and limit the frames
+        frames = [frame.strip() for frame in source_frames if frame and frame.strip()]
+        return frames[:max_frames]
+        
+    except Exception as e:
+        logging.error(f"Error getting best frames for credit: {e}")
         return []
-
-    # Handle comma-separated frame list
-    if isinstance(source_frames, str):
-        frame_list = [f.strip() for f in source_frames.split(',') if f.strip()]
-    else:
-        frame_list = [source_frames] if source_frames else []
-
-    if len(frame_list) <= max_frames:
-        return frame_list
-
-    # For multiple frames, prioritize based on:
-    # 1. Frames from "second_half" scenes (better credit visibility)
-    # 2. Frames with longer filenames (usually more descriptive)
-    # 3. Frames from later scenes (credits typically get clearer towards end)
-
-    frame_scores = []
-    for frame in frame_list:
-        score = 0
-
-        # Prefer frames from second_half scenes
-        if 'second_half' in credit_data.get('scene_position', ''):
-            score += 10
-
-        # Prefer frames with more descriptive names (longer)
-        score += len(frame)
-
-        # Prefer frames with higher scene numbers
-        scene_match = re.search(r'scene_(\d+)', frame)
-        if scene_match:
-            score += int(scene_match.group(1)) * 0.1
-
-        frame_scores.append((frame, score))
-
-    # Sort by score and return top frames
-    frame_scores.sort(key=lambda x: x[1], reverse=True)
-    return [frame for frame, _ in frame_scores[:max_frames]]
 
 
 def find_frame_path(episode_id: str, frame_filename: str) -> Optional[Path]:
     """
-    Find the actual path to a frame file by searching in episode directories.
-    """
-    episode_dir = config.EPISODES_BASE_DIR / episode_id
-
-    # Search in common frame directories
-    search_dirs = [
-        episode_dir / "analysis" / "frames",
-        episode_dir / "analysis" / "step1_representative_frames",
-        episode_dir / "analysis" / "skipped_frames",
-    ]
-
-    for search_dir in search_dirs:
-        if search_dir.exists():
-            frame_path = search_dir / frame_filename
-            if frame_path.exists():
-                return frame_path
-
-    return None
-
-
-def format_problem_description(problem_types: List[str]) -> str:
-    """
-    Convert problem type codes to user-friendly descriptions.
-    """
-    descriptions = {
-        'unknown_role': '⚠️ Unknown role group',
-        'duplicate_roles': '🔄 Multiple role groups for same name',
-        'long_role_detail': '📝 Very long role detail (potential OCR error)',
-        'short_name': '❓ Very short or empty name',
-    }
-
-    return ' • '.join(descriptions.get(prob, prob) for prob in problem_types)
-
-
-# Add keyboard navigation help text
-def show_keyboard_help():
-    """Display keyboard shortcuts help"""
-    with st.expander("⌨️ Keyboard Shortcuts", expanded=False):
-        st.markdown(
-            """
-        **Focus Mode Navigation:**
-        - `→` or `Next` button: Move to next credit
-        - `←` or `Previous` button: Move to previous credit
-        - Use action buttons for decisions
+    Find the full path to a frame file for an episode.
+    
+    Args:
+        episode_id: Episode identifier
+        frame_filename: Name of the frame file
         
-        **Quick Actions:**
-        - **Keep**: Mark credit as correct
-        - **Edit**: Modify credit details
-        - **Delete**: Remove credit from database
-        - **Skip**: Skip for later review
-        - **Merge**: Combine duplicate entries (if applicable)
-        """
-        )
+    Returns:
+        Path to the frame file or None if not found
+    """
+    try:
+        # Common frame directories to search
+        episode_dir = config.EPISODES_BASE_DIR / episode_id
+        frame_dirs = [
+            episode_dir / "analysis" / "frames",
+            episode_dir / "analysis" / "step1_representative_frames", 
+            episode_dir / "analysis" / "skipped_frames",
+            episode_dir / "frames",  # Fallback
+        ]
+        
+        for frame_dir in frame_dirs:
+            if frame_dir.exists():
+                frame_path = frame_dir / frame_filename
+                if frame_path.exists():
+                    return frame_path
+        
+        logging.warning(f"Frame file not found: {frame_filename} for episode {episode_id}")
+        return None
+        
+    except Exception as e:
+        logging.error(f"Error finding frame path for {frame_filename}: {e}")
+        return None
+
+
+def normalize_name(name):
+    """
+    Normalize names by:
+    - Converting to lowercase.
+    - Removing punctuation (dots, dashes, commas, etc).
+    - Removing extra spaces (optional).
+    """
+    # Convert to lowercase
+    name = str(name).lower()
+        #remove all the titles (very extended list) such a Dr. Dott. Avv., Mr, Sig. etc etc
+    name = re.sub(
+        r"\b("
+        r"Dr\.|Dott\.|Dott\.ssa|Prof\.|Prof\.ssa|Ing\.|Arch\.|Avv\.|Sig\.|Sig\.ra|Sig\.na|"
+        r"Mr\.|Mrs\.|Ms\.|Mx\.|Fr\.|Rev\.|Hon\.|Sen\.|Rep\.|Gov\.|Pres\.|VP\.|"
+        r"Capt\.|Cmdr\.|Lt\.|Col\.|Maj\.|Gen\.|Adm\.|"
+        r"Msgr\.|Sr\.|Sra\.|Srta\.|Srs\.|"
+        r"Mlle\.|Mme\.|Mons\.|Pr\.|Amb\.|PM\.|"
+        r"Ph\.?D|M\.?D|Esq\.|Emo\.|Eccmo\.|P\.I|Geom\."
+        r")\s+",
+        "", 
+        name,
+        flags=re.IGNORECASE
+    )
+    # Remove punctuation but preserve spaces
+    name = re.sub(r"[.\-_,']", "", name)
+    
+    # Remove any extra whitespace and normalize to single spaces
+    name = re.sub(r"\s+", " ", name).strip()
+    
+    return name
+# ===========================
+# End of Utils Module
+# ===========================
