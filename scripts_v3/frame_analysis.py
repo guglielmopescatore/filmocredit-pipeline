@@ -196,75 +196,98 @@ def _process_and_save_frame(
         logging.warning(
             f"[{episode_id}] Frame {frame_num} ({processing_mode}) SKIPPED: insufficient text length {len(norm_text)} < {constants.MIN_OCR_TEXT_LENGTH} - preserving previous state"
         )
-        return None, prev_text, prev_hash, prev_bbox
-
-    # Compare current frame text with the last saved text in the episode (if any)
+        return None, prev_text, prev_hash, prev_bbox    # Compare current frame text with the last saved text in the episode (if any)
     text_similarity = 0
     save_frame = True
 
-    if episode_saved_texts_cache:  # Compare with the most recently saved text (last item in cache)
-        last_saved_text = episode_saved_texts_cache[-1]
-        text_similarity = fuzz.token_sort_ratio(norm_text, last_saved_text)
-
-        # Calculate dynamic threshold based on average text length
-        avg_text_length = (len(norm_text) + len(last_saved_text)) // 2
-        dynamic_threshold = calculate_dynamic_fuzzy_threshold(avg_text_length)
-
-        logging.info(f"[{episode_id}] Frame {frame_num} ({processing_mode}) EPISODE-LEVEL SIMILARITY:")
-        logging.info(f"  - Current: '{norm_text}' (length: {len(norm_text)})")
-        logging.info(f"  - Last saved: '{last_saved_text}' (length: {len(last_saved_text)})")
-        logging.info(f"  - Similarity: {text_similarity}% (dynamic threshold: {dynamic_threshold}%)")
-
-        # Decide whether to save or skip based on similarity to last saved frame
-        if text_similarity > dynamic_threshold:
-            # Texts are similar - decide based on length (keep the longer one)
-            current_length = len(norm_text)
-            last_saved_length = len(last_saved_text)
-
-            if current_length > last_saved_length:
-                # Current text is longer - save current and remove the shorter one from cache
-                save_frame = True
-
-                # Remove the last saved text from cache since we're replacing it with longer text
-                episode_saved_texts_cache.pop()
-
-                # Also remove the corresponding file if file cache exists
-                if episode_saved_files_cache and len(episode_saved_files_cache) > 0:
-                    removed_file_path = episode_saved_files_cache.pop()
-                    try:
-                        # Move the old file to skipped directory instead of deleting
-                        removed_file = Path(removed_file_path)
-                        if removed_file.exists():
-                            replacement_name = f"replaced_shorter_{removed_file.name}"
-                            replacement_path = skipped_frames_dir / replacement_name
-                            skipped_frames_dir.mkdir(parents=True, exist_ok=True)
-                            removed_file.rename(replacement_path)
-                            logging.info(f"[{episode_id}] Moved replaced shorter frame to: {replacement_path.name}")
-                    except Exception as e:
-                        logging.warning(f"[{episode_id}] Could not move replaced file {removed_file_path}: {e}")
-
-                logging.info(
-                    f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SAVE - replacing shorter text ({last_saved_length} chars) with longer text ({current_length} chars)"
-                )
-                logging.info(
-                    f"[{episode_id}] Removed shorter text from episode cache. Cache size: {len(episode_saved_texts_cache)}"
-                )
-            else:
-                # Last saved text is longer or equal - skip current
+    # For dynamic scroll processing, use different similarity logic
+    if processing_mode == "dynamic":
+        # In scroll mode, we want to capture frames even if text is similar but positioned differently
+        # Only skip if the text is EXACTLY the same (95% similarity) 
+        if episode_saved_texts_cache:
+            last_saved_text = episode_saved_texts_cache[-1]
+            text_similarity = fuzz.token_sort_ratio(norm_text, last_saved_text)
+            
+            logging.info(f"[{episode_id}] Frame {frame_num} ({processing_mode}) SCROLL MODE SIMILARITY:")
+            logging.info(f"  - Current: '{norm_text}' (length: {len(norm_text)})")
+            logging.info(f"  - Last saved: '{last_saved_text}' (length: {len(last_saved_text)})")
+            logging.info(f"  - Similarity: {text_similarity}%")
+            
+            # In scroll mode, only skip if texts are identical (prevent exact duplicates)
+            if text_similarity == constants.FUZZY_TEXT_SIMILARITY_SCROLLING_THRESHOLD:  # Very high threshold for scroll mode
                 save_frame = False
-                skip_reason = f"similar_to_last_saved_shorter_{text_similarity}"
+                skip_reason = f"identical_text_scroll_{text_similarity}"
+                logging.info(f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SKIP - identical text in scroll mode")
+            else:
+                logging.info(f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SAVE - different enough for scroll mode")
+        else:
+            logging.info(f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SAVE - first frame in scroll mode")
+            
+    else:
+        # Static/single frame processing - use original similarity logic
+        if episode_saved_texts_cache:  # Compare with the most recently saved text (last item in cache)
+            last_saved_text = episode_saved_texts_cache[-1]
+            text_similarity = fuzz.token_sort_ratio(norm_text, last_saved_text)
+
+            # Calculate dynamic threshold based on average text length
+            avg_text_length = (len(norm_text) + len(last_saved_text)) // 2
+            dynamic_threshold = calculate_dynamic_fuzzy_threshold(avg_text_length)
+
+            logging.info(f"[{episode_id}] Frame {frame_num} ({processing_mode}) EPISODE-LEVEL SIMILARITY:")
+            logging.info(f"  - Current: '{norm_text}' (length: {len(norm_text)})")
+            logging.info(f"  - Last saved: '{last_saved_text}' (length: {len(last_saved_text)})")
+            logging.info(f"  - Similarity: {text_similarity}% (dynamic threshold: {dynamic_threshold}%)")
+
+            # Decide whether to save or skip based on similarity to last saved frame
+            if text_similarity > dynamic_threshold:
+                # Texts are similar - decide based on length (keep the longer one)
+                current_length = len(norm_text)
+                last_saved_length = len(last_saved_text)
+
+                if current_length > last_saved_length:
+                    # Current text is longer - save current and remove the shorter one from cache
+                    save_frame = True
+
+                    # Remove the last saved text from cache since we're replacing it with longer text
+                    episode_saved_texts_cache.pop()
+
+                    # Also remove the corresponding file if file cache exists
+                    if episode_saved_files_cache and len(episode_saved_files_cache) > 0:
+                        removed_file_path = episode_saved_files_cache.pop()
+                        try:
+                            # Move the old file to skipped directory instead of deleting
+                            removed_file = Path(removed_file_path)
+                            if removed_file.exists():
+                                replacement_name = f"replaced_shorter_{removed_file.name}"
+                                replacement_path = skipped_frames_dir / replacement_name
+                                skipped_frames_dir.mkdir(parents=True, exist_ok=True)
+                                removed_file.rename(replacement_path)
+                                logging.info(f"[{episode_id}] Moved replaced shorter frame to: {replacement_path.name}")
+                        except Exception as e:
+                            logging.warning(f"[{episode_id}] Could not move replaced file {removed_file_path}: {e}")
+
+                    logging.info(
+                        f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SAVE - replacing shorter text ({last_saved_length} chars) with longer text ({current_length} chars)"
+                    )
+                    logging.info(
+                        f"[{episode_id}] Removed shorter text from episode cache. Cache size: {len(episode_saved_texts_cache)}"
+                    )
+                else:
+                    # Last saved text is longer or equal - skip current
+                    save_frame = False
+                    skip_reason = f"similar_to_last_saved_shorter_{text_similarity}"
+                    logging.info(
+                        f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SKIP - current text ({current_length} chars) is shorter than or equal to last saved ({last_saved_length} chars)"
+                    )
+            else:
                 logging.info(
-                    f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SKIP - current text ({current_length} chars) is shorter than or equal to last saved ({last_saved_length} chars)"
+                    f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SAVE - sufficiently different from last saved frame"
                 )
         else:
             logging.info(
-                f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SAVE - sufficiently different from last saved frame"
+                f"[{episode_id}] Frame {frame_num} ({processing_mode}) EPISODE-LEVEL SIMILARITY: No previous saved text - similarity: {text_similarity}% (first frame)"
             )
-    else:
-        logging.info(
-            f"[{episode_id}] Frame {frame_num} ({processing_mode}) EPISODE-LEVEL SIMILARITY: No previous saved text - similarity: {text_similarity}% (first frame)"
-        )
-        logging.info(f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SAVE - first frame in episode")
+            logging.info(f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SAVE - first frame in episode")
 
     # Skip frame if save_frame is False
     if not save_frame:
@@ -523,7 +546,8 @@ def analyze_candidate_scene_frames(
         apply_dynamic_scroll_logic = False
         median_v_flow = 0.0
 
-        if scene_info.get('position', 'unknown') == "second_half":
+        # Apply scroll detection logic for both first_half and second_half positions
+        if scene_info.get('position', 'unknown') in ["first_half", "second_half"]:
             # Vectorized optical flow computation: precompute grayscale frames
             try:
                 gray_frames = [cv2.cvtColor(fd["img"], cv2.COLOR_BGR2GRAY) for fd in frames_data]
@@ -542,9 +566,6 @@ def analyze_candidate_scene_frames(
                 apply_dynamic_scroll_logic = True
             else:
                 pass
-        elif scene_info.get('position', 'unknown') == "first_half":
-            analysis_info["type"] = "static_first_half"
-
         else:
             logging.warning(
                 f"[{episode_id}] Scene {scene_index} has unknown position '{scene_info.get('position', 'unknown')}'. Defaulting to static/slow logic."

@@ -198,74 +198,83 @@ if 'scene_detection_method' not in st.session_state:
 # Choose detection method
 scene_detection_method = st.sidebar.radio(
     "Selection method:",
-    options=['time_based', 'scene_count'],
-    format_func=lambda x: '📋 By scene count' if x == 'scene_count' else '⏱️ By time duration',
+    options=['time_based', 'scene_count', 'whole_episode'],
+    format_func=lambda x: {
+        'scene_count': '📋 By scene count',
+        'time_based': '⏱️ By time duration', 
+        'whole_episode': '🎬 Run on the whole episode'
+    }[x],
     key="scene_detection_method_selector",
     help="Choose how to select which parts of the video to analyze",
 )
 st.session_state['scene_detection_method'] = scene_detection_method
 
-if scene_detection_method == 'scene_count':
-    # Scene count based selection (original method)
-    st.sidebar.caption(
-        f"Specify how many scenes at the start and end of the video to consider for OCR (default: {constants.DEFAULT_START_SCENES_COUNT} each)."
-    )
+# Show start/end controls only when NOT running on whole episode
+if scene_detection_method != 'whole_episode':
+    if scene_detection_method == 'scene_count':
+        # Scene count based selection (original method)
+        st.sidebar.caption(
+            f"Specify how many scenes at the start and end of the video to consider for OCR (default: {constants.DEFAULT_START_SCENES_COUNT} each)."
+        )
 
-    if 'scene_start_count' not in st.session_state:
-        st.session_state['scene_start_count'] = constants.DEFAULT_START_SCENES_COUNT
-    if 'scene_end_count' not in st.session_state:
-        st.session_state['scene_end_count'] = constants.DEFAULT_END_SCENES_COUNT
+        if 'scene_start_count' not in st.session_state:
+            st.session_state['scene_start_count'] = constants.DEFAULT_START_SCENES_COUNT
+        if 'scene_end_count' not in st.session_state:
+            st.session_state['scene_end_count'] = constants.DEFAULT_END_SCENES_COUNT
 
-    scene_start_count = st.sidebar.number_input(
-        "Number of scenes at start:",
-        min_value=1,
-        max_value=200,
-        value=st.session_state['scene_start_count'],
-        step=1,
-        key="scene_start_count_input",
-    )
-    scene_end_count = st.sidebar.number_input(
-        "Number of scenes at end:",
-        min_value=1,
-        max_value=200,
-        value=st.session_state['scene_end_count'],
-        step=1,
-        key="scene_end_count_input",
-    )
-    st.session_state['scene_start_count'] = scene_start_count
-    st.session_state['scene_end_count'] = scene_end_count
+        scene_start_count = st.sidebar.number_input(
+            "Number of scenes at start:",
+            min_value=0,
+            max_value=9999,
+            value=st.session_state['scene_start_count'],
+            step=1,
+            key="scene_start_count_input",
+        )
+        scene_end_count = st.sidebar.number_input(
+            "Number of scenes at end:",
+            min_value=0,
+            max_value=9999,
+            value=st.session_state['scene_end_count'],
+            step=1,
+            key="scene_end_count_input",
+        )
+        st.session_state['scene_start_count'] = scene_start_count
+        st.session_state['scene_end_count'] = scene_end_count
 
+    else:
+        # Time-based selection
+        st.sidebar.caption("Specify how many minutes at the start and end of the video to consider for OCR.")
+
+        if 'scene_start_minutes' not in st.session_state:
+            st.session_state['scene_start_minutes'] = 7.0  # Default 3 minutes
+        if 'scene_end_minutes' not in st.session_state:
+            st.session_state['scene_end_minutes'] = 7.0  # Default 5 minutes
+
+        scene_start_minutes = st.sidebar.number_input(
+            "Minutes at start:",
+            min_value=0.0,
+            max_value=9999.0,
+            value=st.session_state['scene_start_minutes'],
+            step=0.5,
+            format="%.1f",
+            key="scene_start_minutes_input",
+            help="How many minutes from the beginning to analyze",
+        )
+        scene_end_minutes = st.sidebar.number_input(
+            "Minutes at end:",
+            min_value=0.0,
+            max_value=9999.0,
+            value=st.session_state['scene_end_minutes'],
+            step=0.5,
+            format="%.1f",
+            key="scene_end_minutes_input",
+            help="How many minutes from the end to analyze",
+        )
+        st.session_state['scene_start_minutes'] = scene_start_minutes
+        st.session_state['scene_end_minutes'] = scene_end_minutes
 else:
-    # Time-based selection
-    st.sidebar.caption("Specify how many minutes at the start and end of the video to consider for OCR.")
-
-    if 'scene_start_minutes' not in st.session_state:
-        st.session_state['scene_start_minutes'] = 3.0  # Default 3 minutes
-    if 'scene_end_minutes' not in st.session_state:
-        st.session_state['scene_end_minutes'] = 5.0  # Default 5 minutes
-
-    scene_start_minutes = st.sidebar.number_input(
-        "Minutes at start:",
-        min_value=0.5,
-        max_value=60.0,
-        value=st.session_state['scene_start_minutes'],
-        step=0.5,
-        format="%.1f",
-        key="scene_start_minutes_input",
-        help="How many minutes from the beginning to analyze",
-    )
-    scene_end_minutes = st.sidebar.number_input(
-        "Minutes at end:",
-        min_value=0.5,
-        max_value=60.0,
-        value=st.session_state['scene_end_minutes'],
-        step=0.5,
-        format="%.1f",
-        key="scene_end_minutes_input",
-        help="How many minutes from the end to analyze",
-    )
-    st.session_state['scene_start_minutes'] = scene_start_minutes
-    st.session_state['scene_end_minutes'] = scene_end_minutes
+    # When running on whole episode, show a message
+    st.sidebar.info("🎬 Analyzing the entire episode - no time/scene limits will be applied")
 
 # Store the current method for use in processing
 st.session_state['current_detection_method'] = scene_detection_method
@@ -624,7 +633,17 @@ if st.session_state.current_tab == 0:
                         with st.spinner(f"Identifying scenes for {episode_id_proc}..."):
                             try:
                                 # Determine scene selection parameters based on method
-                                if st.session_state.get('current_detection_method') == 'time_based':
+                                if st.session_state.get('current_detection_method') == 'whole_episode':
+                                    # Run on whole episode
+                                    scenes, status, error_msg = scene_detection.identify_candidate_scenes(
+                                        video_path_obj,
+                                        episode_id_proc,
+                                        ocr_reader,
+                                        current_ocr_engine,
+                                        user_stopwords,
+                                        whole_episode=True,
+                                    )
+                                elif st.session_state.get('current_detection_method') == 'time_based':
                                     # Convert time to scene counts (approximate)
                                     scene_start_minutes = st.session_state.get('scene_start_minutes', 3.0)
                                     scene_end_minutes = st.session_state.get('scene_end_minutes', 5.0)

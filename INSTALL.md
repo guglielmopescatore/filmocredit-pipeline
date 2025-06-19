@@ -1,6 +1,4 @@
-# FilmoCredit - Universal Installation Guide
-
-FilmoCredit now supports **cross-platform installation** with smart installers that automatically detect your system and install the appropriate dependencies.
+# FilmoCredit - Installation Guide
 
 ## 🚀 Quick Install
 
@@ -20,115 +18,85 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
    - Linux/macOS: `chmod +x install.sh && ./install.sh`
    - Windows: `powershell -ExecutionPolicy Bypass -File install.ps1`
 
+## 📁 Installation Location
+
+FilmoCredit installs in the same directory where you run the installer:
+
+```
+📁 Your-Folder/                    
+├── 📄 install.ps1 (or install.sh) # The installer script
+├── 📄 run-filmocredit.bat/.sh     # Runner (created automatically)
+└── 📁 FilmoCredit/                # Installation directory (created automatically)
+    ├── 📁 .venv/                  # Virtual environment
+    ├── 📄 app.py                  # FilmoCredit application
+    └── 📄 FilmoCredit.bat         # Launcher
+```
+
 ## 🎯 What the Installer Does
 
 ### Automatic Detection
-- ✅ **Platform**: Windows, Linux, macOS
-- ✅ **Architecture**: x64, ARM64
-- ✅ **Python Version**: Requires Python 3.9+
-- ✅ **GPU Support**: Automatically detects NVIDIA GPU
-- ✅ **Dependencies**: Installs system libraries as needed
+- Platform: Windows, Linux, macOS
+- Python Version: Requires Python 3.9+
+- GPU Support: Automatically detects NVIDIA GPU and CUDA
+- Dependencies: Installs PyTorch, PaddleOCR, and other requirements
 
-### Smart Installation
-- 🎮 **GPU Version**: If NVIDIA GPU + CUDA 12.6 detected → CUDA-enabled PyTorch + PaddlePaddle
-- 🖥️ **CPU Version**: No GPU/CUDA detected → CPU-only PyTorch + PaddlePaddle
-- 📦 **Self-Contained**: Creates isolated virtual environment
-- 🔧 **Launchers**: Creates platform-appropriate shortcuts
+### Installation Types
+- **GPU Version**: If NVIDIA GPU + CUDA 12.6 detected
+- **CPU Version**: If no GPU/CUDA detected
+- **Self-Contained**: Creates isolated virtual environment
 
-### GPU Prerequisites ⚠️
-**BEFORE running the installer for GPU support:**
+## ⚙️ Setup Requirements
+
+### GPU Prerequisites (Optional)
+For GPU acceleration, install **before** running the installer:
 1. **NVIDIA GPU** with 4GB+ VRAM
 2. **Latest NVIDIA drivers** 
-3. **CUDA 12.6** installed from [NVIDIA website](https://developer.nvidia.com/cuda-12-6-0-download-archive)
+3. **CUDA 12.6** from [NVIDIA website](https://developer.nvidia.com/cuda-12-6-0-download-archive)
 
-The installer will automatically detect and verify these requirements.
+### Required Data Files
 
-## 📁 Installation Locations
+#### 1. Video Files
+Place your video files in: **`FilmoCredit/data/raw/`**
 
-**FilmoCredit installs in the same directory where you run the installer:**
+Supported formats: `.mp4`, `.mkv`, `.avi`, `.mov`
+
+#### 2. IMDB Database (Required)
+1. **Download**: `name.basics.tsv.gz` from https://datasets.imdbws.com/
+2. **Extract**: The `.gz` file to get `name.basics.tsv`
+3. **Place**: The extracted `name.basics.tsv` file in **`FilmoCredit/db/`**
 
 ```
-📁 Your-Folder/                    # Where you put install.ps1 or install.sh
-├── 📄 install.ps1 (or install.sh) # The installer script
-├── 📄 run-filmocredit.bat/.sh     # Convenient runner (created automatically)
-└── 📁 FilmoCredit/                # Installation directory (created automatically)
-    ├── 📁 .venv/                  # Virtual environment
-    ├── 📄 main.py                 # FilmoCredit application
-    ├── 📄 FilmoCredit.bat         # Windows launcher
-    └── 📄 filmocredit             # Linux/macOS launcher
+📁 FilmoCredit/
+├── 📁 data/raw/              # ← Put your video files here
+│   ├── episode1.mp4
+│   └── episode2.mkv
+└── � db/                    # ← Put IMDB database here
+    └── name.basics.tsv       # ← Required IMDB file
 ```
-
-This **portable approach** means you can:
-- ✅ Install anywhere you want
-- ✅ Move the entire folder to another computer
-- ✅ Have multiple installations
-- ✅ Easy cleanup (just delete the folder)
 
 ## 🚀 Running FilmoCredit
 
 ### Windows
-- **⭐ Desktop Shortcut**: Double-click the FilmoCredit shortcut (created automatically)
-- **🎯 Runner Script**: Double-click `run-filmocredit.bat` next to the installer
-- **📁 Direct**: Go to `FilmoCredit/` folder and run `FilmoCredit.bat`
+- **Desktop Shortcut**: Double-click the FilmoCredit shortcut
+- **Runner Script**: Double-click `run-filmocredit.bat`
+- **Direct**: Run `FilmoCredit.bat` in the FilmoCredit folder
 
 ### Linux / macOS
-- **🎯 Runner Script**: `./run-filmocredit.sh` next to the installer
-- **📁 Direct**: `cd FilmoCredit && ./filmocredit`
+- **Runner Script**: `./run-filmocredit.sh`
+- **Direct**: `cd FilmoCredit && ./filmocredit`
 
-### What Happens When You Run FilmoCredit
-
-All the launchers do the same thing automatically:
-1. **Activate the virtual environment** (with all the Python dependencies)
-2. **Start the Streamlit web interface** 
-3. **Open your browser** to the FilmoCredit interface
-4. **You're ready to analyze your videos!** 🎬
-
-**Example of what you'll see:**
-```
-🎬 Starting FilmoCredit...
-✅ Virtual environment activated
-✅ Starting web interface...
-📱 Opening browser...
-
-  You can now view your Streamlit app in your browser.
-
-  Local URL: http://localhost:8501
-  Network URL: http://192.168.1.100:8501
-
-  Welcome to FilmoCredit! 🎬
-  Upload your video file to start analyzing credits...
-```
-
-**The web interface will automatically open in your default browser!**
-
-### First Time Setup
-After installation, the first run might take a few extra minutes to:
-- Download AI models (PaddleOCR, etc.)
-- Set up the database
-- Initialize the analysis pipeline
-
-**Subsequent runs will be much faster!** ⚡
+The application will:
+1. Activate the virtual environment
+2. Start the Streamlit web interface
+3. Open your browser to http://localhost:8501
 
 ## 🔄 Updates
 
-Simply run the installer again! It will:
-- Detect existing installation
-- Update to latest version
-- Preserve your settings and data
+Run the installer again to update to the latest version.
 
 ## 🛠️ Advanced Options
 
-### Custom Installation Path
-```bash
-# The installer always creates a "FilmoCredit" folder where you run it
-# To install elsewhere, just move the installer file:
-
-# Example: Install on Desktop
-cp install.sh ~/Desktop/ && cd ~/Desktop/ && ./install.sh
-
-# Example: Install on USB drive  
-cp install.ps1 E:\ && cd E:\ && ./install.ps1
-```
+## 🛠️ Advanced Options
 
 ### Force Reinstall
 ```bash
@@ -139,7 +107,7 @@ cp install.ps1 E:\ && cd E:\ && ./install.ps1
 ./install.ps1 -Force
 ```
 
-### CPU-Only Install (Force)
+### CPU-Only Install
 ```bash
 # Linux/macOS
 GPU_AVAILABLE=false ./install.sh
@@ -152,29 +120,18 @@ GPU_AVAILABLE=false ./install.sh
 
 ### Python Not Found
 Install Python 3.9+ from [python.org](https://python.org/downloads/)
-
-**Windows**: Make sure to check "Add Python to PATH"
+On Windows, check "Add Python to PATH" during installation.
 
 ### Permission Errors (Linux/macOS)
 ```bash
-# Make installer executable
 chmod +x install.sh
-
-# Install system dependencies manually if needed
-sudo apt install python3 python3-pip python3-venv  # Ubuntu/Debian
-brew install python3                                # macOS
+# If needed: sudo apt install python3 python3-pip python3-venv
 ```
 
 ### GPU Not Detected
 1. Install NVIDIA drivers
 2. Install CUDA 12.6
-3. Run `nvidia-smi` to verify
-
-### Firewall/Network Issues
-If automatic download fails:
-1. Download repository manually
-2. Extract to installation directory
-3. Run installer from that directory
+3. Verify with `nvidia-smi`
 
 ## 📋 System Requirements
 
@@ -182,7 +139,7 @@ If automatic download fails:
 - **OS**: Windows 10, macOS 10.15, Linux (Ubuntu 18.04+)
 - **RAM**: 4GB (8GB recommended)
 - **Storage**: 2GB free space
-- **Python**: 3.9 or higher
+- **Python**: 3.9+
 
 ### GPU Acceleration (Optional)
 - **GPU**: NVIDIA GPU with 4GB+ VRAM
@@ -191,7 +148,7 @@ If automatic download fails:
 
 ## 🆘 Support
 
-If you encounter issues:
+For issues:
 1. Check the [Issues](https://github.com/guglielmopescatore/filmocredit-pipeline/issues) page
 2. Run installer with verbose output: `bash -x install.sh`
 3. Include system info and error messages when reporting bugs

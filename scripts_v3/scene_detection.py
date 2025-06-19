@@ -108,13 +108,20 @@ def identify_candidate_scenes(
     user_stopwords: List[str],
     scene_counts: Optional[Tuple[int, int]] = None,
     time_segments: Optional[Tuple[float, float]] = None,
+    whole_episode: bool = False,
 ) -> Tuple[List[dict], SceneDetectionStatus, Optional[str]]:
     """
-    Identifies candidate scenes in a video based on scene counts (first N, last N) or time segments (first X minutes, last Y minutes).
+    Identifies candidate scenes in a video based on scene counts (first N, last N), time segments (first X minutes, last Y minutes), or the whole episode.
 
     Args:
+        video_path: Path to the video file
+        episode_id: Unique identifier for the episode
+        ocr_reader: OCR reader instance
+        ocr_engine_type: Type of OCR engine being used
+        user_stopwords: List of words to filter out from OCR results
         scene_counts: Optional tuple of (start_scenes_count, end_scenes_count). If None, defaults are used.
         time_segments: Optional tuple of (start_minutes, end_minutes). Takes precedence over scene_counts if provided.
+        whole_episode: If True, analyzes the entire episode without any filtering. Takes precedence over other parameters.
     """
     episode_dir = config.EPISODES_BASE_DIR / episode_id
     analysis_dir = episode_dir / 'analysis'
@@ -156,16 +163,21 @@ def identify_candidate_scenes(
                     else:
                         log.info("Cached scenes are outdated (different video specs), will regenerate.")
             except Exception as e:
-                log.warning(f"Failed to load cached scenes: {e}, will regenerate.")
-
-        # If no valid cached scenes, detect them
+                log.warning(f"Failed to load cached scenes: {e}, will regenerate.")        # If no valid cached scenes, detect them
         if scenes_in_video is None:
             log.info("Detecting scenes using PySceneDetect...")
             scene_manager = SceneManager()
-            scene_manager.add_detector(ContentDetector(threshold=config.SceneDetectionConfig.CONTENT_THRESHOLD))
-            scene_manager.add_detector(
-                ThresholdDetector(threshold=config.SceneDetectionConfig.THRESHOLD, fade_bias=0.5)
-            )
+            
+            # Use more conservative thresholds for credits detection
+            # Higher threshold = less sensitive = fewer cuts in scrolling credits
+            content_threshold = config.SceneDetectionConfig.CONTENT_DETECTOR_THRESHOLD
+            threshold_threshold = config.SceneDetectionConfig.THRESHOLD_DETECTOR_THRESHOLD
+            
+            log.info(f"Using ContentDetector threshold: {content_threshold}")
+            log.info(f"Using ThresholdDetector threshold: {threshold_threshold}")
+            
+            scene_manager.add_detector(ContentDetector(threshold=content_threshold))
+            scene_manager.add_detector(ThresholdDetector(threshold=threshold_threshold, fade_bias=1))
             video.seek(FrameTimecode(0, fps))
             scene_manager.detect_scenes(video=video, end_time=FrameTimecode(total_frames, fps), show_progress=True)
             scenes_in_video = scene_manager.get_scene_list()
@@ -187,11 +199,15 @@ def identify_candidate_scenes(
             }
             with open(scenes_cache_file, 'w', encoding='utf-8') as f:
                 json.dump(cache_data, f, indent=2, ensure_ascii=False)
-            log.info(f"Detected and cached {len(scenes_in_video)} scenes.")  # Create tuples with original scene indices
+            log.info(f"Detected and cached {len(scenes_in_video)} scenes.")        # Create tuples with original scene indices
         scenes_with_indices = [(start_tc, end_tc, idx) for idx, (start_tc, end_tc) in enumerate(scenes_in_video)]
 
-        if time_segments:
-            # Time-based filtering (takes precedence)
+        if whole_episode:
+            # Whole episode analysis - use all scenes without filtering
+            filtered_scenes = scenes_with_indices
+            log.info(f"Analyzing whole episode with {len(filtered_scenes)} scenes (no filtering applied).")
+        elif time_segments:
+            # Time-based filtering (takes precedence over scene_counts)
             start_minutes, end_minutes = time_segments
             filtered_scenes = _filter_scenes_by_time(scenes_with_indices, start_minutes, end_minutes, video)
             log.info(f"Filtered to {len(filtered_scenes)} scenes (first {start_minutes} min + last {end_minutes} min).")

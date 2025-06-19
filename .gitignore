@@ -49,3 +49,4 @@ db/name.basics.tsv.gz
 build/
 dist/
 .venv*
+*.log*
