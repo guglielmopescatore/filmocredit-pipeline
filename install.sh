@@ -295,24 +295,33 @@ setup_environment() {
     if [ "$GPU_AVAILABLE" = true ]; then
         log_info "${EMOJI_GPU} Installing GPU dependencies..."
         
-        # Step 1: PyTorch with CUDA
-        log_info "📦 Installing PyTorch with CUDA..."
+        # PyTorch with CUDA
         $PIP_CMD install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
         
-        # Step 2: PaddlePaddle GPU (use nightly for CUDA 12.6)
-        log_info "📦 Installing PaddlePaddle GPU..."
-        $PIP_CMD install --pre paddlepaddle-gpu -i https://www.paddlepaddle.org.cn/packages/nightly/cu126/
+        # PaddlePaddle GPU
+        $PIP_CMD install paddlepaddle-gpu==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu126/
         
-        # Step 3: Remaining GPU dependencies (PaddleOCR + base requirements)
-        log_info "📦 Installing remaining GPU dependencies..."
-        $PIP_CMD install -r requirements-gpu.txt
+        # PaddleOCR
+        $PIP_CMD install paddleocr==3.0.0
         
         VARIANT="gpu"
     else
-        log_info "${EMOJI_CPU} Installing CPU dependencies from requirements-cpu.txt..."
-        $PIP_CMD install -r requirements-cpu.txt
+        log_info "${EMOJI_CPU} Installing CPU dependencies..."
+        
+        # PyTorch CPU
+        $PIP_CMD install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+        
+        # PaddlePaddle CPU
+        $PIP_CMD install paddlepaddle==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
+        
+        # PaddleOCR
+        $PIP_CMD install paddleocr==3.0.0
+        
         VARIANT="cpu"
     fi
+    
+    # Install base requirements
+    $PIP_CMD install -r requirements-base.txt
     
     log_success "Environment setup complete!"
 }

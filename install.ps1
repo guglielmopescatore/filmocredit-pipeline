@@ -219,15 +219,14 @@ function Set-Environment {
         # PaddlePaddle GPU
         & $pipCmd install paddlepaddle-gpu==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu126/
         
-        $variant = "GPU"
-    } else {
+        $variant = "GPU"    } else {
         Write-Info "🖥️ Installing CPU dependencies..."
         
         # PyTorch CPU
         & $pipCmd install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
         
         # PaddlePaddle CPU
-        & $pipCmd install paddlepaddle==3.0.0
+        & $pipCmd install paddlepaddle==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
         
         $variant = "CPU"
     }

@@ -30,11 +30,10 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercon
 - ✅ **Dependencies**: Installs system libraries as needed
 
 ### Smart Installation
-- 🎮 **GPU Version**: If NVIDIA GPU + CUDA 12.6 detected → Installs from `requirements-gpu.txt`
-- 🖥️ **CPU Version**: No GPU/CUDA detected → Installs from `requirements-cpu.txt`
+- 🎮 **GPU Version**: If NVIDIA GPU + CUDA 12.6 detected → CUDA-enabled PyTorch + PaddlePaddle
+- 🖥️ **CPU Version**: No GPU/CUDA detected → CPU-only PyTorch + PaddlePaddle
 - 📦 **Self-Contained**: Creates isolated virtual environment
 - 🔧 **Launchers**: Creates platform-appropriate shortcuts
-- 🔧 **Dependency Management**: Uses your project's requirements files for consistency
 
 ### GPU Prerequisites ⚠️
 **BEFORE running the installer for GPU support:**
@@ -170,12 +169,6 @@ brew install python3                                # macOS
 1. Install NVIDIA drivers
 2. Install CUDA 12.6
 3. Run `nvidia-smi` to verify
-
-### PaddlePaddle GPU Installation Issues
-If you see `ERROR: No matching distribution found for paddlepaddle-gpu`:
-- The installer automatically uses the nightly repository for latest CUDA support
-- This is normal and handled automatically by the installer
-- The installation will continue with working dependencies
 
 ### Firewall/Network Issues
 If automatic download fails:

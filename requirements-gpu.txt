@@ -1,9 +1,0 @@
-# GPU-specific requirements (CUDA 12.6)
-# Note: PyTorch and PaddlePaddle are installed separately by the installer
-# due to conflicting index URLs. This file contains only the remaining GPU dependencies.
-
-# OCR libraries
-paddleocr==3.0.0
-
-# Base requirements (Streamlit, OpenCV, etc.)
--r requirements-base.txt
