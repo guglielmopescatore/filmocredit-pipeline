@@ -441,6 +441,38 @@ def get_paddleocr_reader(lang: str = 'it'):
     logging.info(f"PaddleOCR reader initialized for '{actual_lang_code}'")
     return ocr_reader
 
+
+def paddleocr_predict_with_retry(ocr_reader, img, max_retries=2):
+    """
+    Run PaddleOCR prediction with automatic retry on model caching issues.
+    
+    Args:
+        ocr_reader: The PaddleOCR reader instance
+        img: Image array to process
+        max_retries: Maximum number of retries (default: 2)
+        
+    Returns:
+        tuple: (success, results_or_error)
+    """
+    for attempt in range(max_retries + 1):
+        try:
+            results = ocr_reader.predict(img)
+            return True, results
+        except RuntimeError as e:
+            if "Unknown exception" in str(e) and attempt < max_retries:
+                logging.warning(f"PaddleOCR model caching issue detected (attempt {attempt + 1}), will retry...")
+                # Force garbage collection to help clear any cached states
+                import gc
+                gc.collect()
+                continue
+            else:
+                return False, f"PaddleOCR RuntimeError: {e}"
+        except Exception as e:
+            return False, f"PaddleOCR Exception: {e}"
+    
+    return False, "PaddleOCR failed after all retries"
+
+
 def load_user_stopwords() -> list[str]:
     """Loads user-defined stopwords from the path specified in config.
     If the file doesn't exist, it creates it with default values.
@@ -1014,7 +1046,14 @@ def run_ocr(
         try:
             if ocr_engine_type == "paddleocr":
                 logging.info(f"{log_tag} Starting PaddleOCR prediction...")
-                raw_results = ocr_reader.predict(img_to_ocr)
+                success, result = paddleocr_predict_with_retry(ocr_reader, img_to_ocr)
+                
+                if not success:
+                    final_error_message = f"PaddleOCR failed: {result}"
+                    logging.error(f"{log_tag} {final_error_message}")
+                    continue
+                    
+                raw_results = result
                 logging.info(f"{log_tag} PaddleOCR returned {len(raw_results) if raw_results else 0} results")
 
                 text_lines = []

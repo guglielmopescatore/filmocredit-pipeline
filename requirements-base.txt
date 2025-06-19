@@ -1,0 +1,15 @@
+# Base requirements for all builds (installed LAST)
+streamlit
+opencv-python
+Pillow
+tqdm
+numpy
+pandas
+python-dotenv
+imagehash
+thefuzz
+python-Levenshtein
+tokenizers==0.21.1
+scenedetect[opencv]
+transformers
+openai

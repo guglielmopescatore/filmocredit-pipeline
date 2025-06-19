@@ -66,6 +66,25 @@ def get_cached_ocr_reader():
     return st.session_state.get(reader_key)
 
 
+def force_refresh_ocr_reader():
+    """Force refresh the OCR reader to fix model caching issues."""
+    selected_lang = st.session_state.get('ocr_language', 'it')
+    selected_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
+    reader_key = f"ocr_reader_{selected_engine}_{selected_lang}"
+    
+    # Clear the cached reader
+    if reader_key in st.session_state:
+        logging.info(f"Clearing cached OCR reader for {selected_engine} ({selected_lang})")
+        st.session_state[reader_key] = None
+    
+    # Clear tracking keys
+    st.session_state.pop("current_ocr_reader_engine_type", None)
+    st.session_state.pop("current_ocr_reader_lang", None)
+    
+    # Force recreation
+    return get_cached_ocr_reader()
+
+
 utils.setup_logging()
 
 try:
@@ -134,6 +153,13 @@ st.session_state['ocr_language'] = st.sidebar.selectbox(
 # Set OCR engine to PaddleOCR (no user selection needed)
 st.session_state['ocr_engine_type'] = 'paddleocr'
 
+# Add OCR refresh button for troubleshooting
+if st.sidebar.button("🔄 Refresh OCR Reader", 
+                    key="refresh_ocr_button", 
+                    help="Click this if you encounter OCR errors or want to refresh the model"):
+    force_refresh_ocr_reader()
+    st.sidebar.success("OCR reader refreshed!")
+
 st.sidebar.header("Insert here words that appears as channel logo or watermark in the video")
 if 'user_stopwords' not in st.session_state:
     st.session_state.user_stopwords = utils.load_user_stopwords()
@@ -182,7 +208,7 @@ st.session_state['scene_detection_method'] = scene_detection_method
 if scene_detection_method == 'scene_count':
     # Scene count based selection (original method)
     st.sidebar.caption(
-        f"Specify how many scenes at the start and end of the video to consider for OCR (default: {config.DEFAULT_START_SCENES_COUNT} each)."
+        f"Specify how many scenes at the start and end of the video to consider for OCR (default: {constants.DEFAULT_START_SCENES_COUNT} each)."
     )
 
     if 'scene_start_count' not in st.session_state:
@@ -553,8 +579,7 @@ if st.session_state.current_tab == 0:
                     logging.error(
                         f"Error during scene review display for {episode_id_review}: {e_review}", exc_info=True
                     )
-            else:
-                st.warning(
+            else:                st.warning(
                     f"Step 1 output file not found for {episode_id_review}. Run Step 1 to generate candidate scenes for review."
                 )
 
@@ -568,83 +593,88 @@ if st.session_state.current_tab == 0:
 
     # Initialize user selected scenes for step 2
     if 'user_selected_scenes_for_step2' not in st.session_state:
-        st.session_state.user_selected_scenes_for_step2 = {}    # Button handling for Setup tab
+        st.session_state.user_selected_scenes_for_step2 = {}
+
+    # Button handling for Setup tab
     if run_step1_button:
         if not selected_videos_str_paths:
             st.warning("Please select at least one video for Step 1.")
         else:
             st.subheader("Running Step 1: Automatic Scene Detection")
-            ocr_reader = get_cached_ocr_reader()
+            
+            # Force refresh OCR reader to ensure clean state
+            st.info("🔄 Initializing fresh OCR reader...")
+            ocr_reader = force_refresh_ocr_reader()
             current_ocr_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
             user_stopwords = st.session_state.get('user_stopwords', [])
 
-        if ocr_reader is None:
-            st.error(f"Cannot run Step 1: {current_ocr_engine.upper()} reader failed to initialize. Check logs.")
-            logging.error(f"OCR Reader ({current_ocr_engine}) is None. Aborting Step 1.")
-        else:
-            for video_path_str_proc in selected_videos_str_paths:
-                video_path_obj = Path(video_path_str_proc)
-                episode_id_proc = video_path_obj.stem
-                if episode_id_proc not in st.session_state.episode_status:
-                    st.session_state.episode_status[episode_id_proc] = {}
+            if ocr_reader is None:
+                st.error(f"Cannot run Step 1: {current_ocr_engine.upper()} reader failed to initialize. Check logs.")
+                logging.error(f"OCR Reader ({current_ocr_engine}) is None. Aborting Step 1.")
+            else:
+                for video_path_str_proc in selected_videos_str_paths:
+                    video_path_obj = Path(video_path_str_proc)
+                    episode_id_proc = video_path_obj.stem
+                    if episode_id_proc not in st.session_state.episode_status:
+                        st.session_state.episode_status[episode_id_proc] = {}
 
-                st.session_state.episode_status[episode_id_proc]['step1_status'] = "running"
-                with st.expander(f"Step 1: {episode_id_proc}", expanded=True):
-                    st.write(f"Processing Step 1 for {episode_id_proc}...")
-                    with st.spinner(f"Identifying scenes for {episode_id_proc}..."):
-                        try:
-                            # Determine scene selection parameters based on method
-                            if st.session_state.get('current_detection_method') == 'time_based':
-                                # Convert time to scene counts (approximate)
-                                scene_start_minutes = st.session_state.get('scene_start_minutes', 3.0)
-                                scene_end_minutes = st.session_state.get('scene_end_minutes', 5.0)
+                    st.session_state.episode_status[episode_id_proc]['step1_status'] = "running"
+                    with st.expander(f"Step 1: {episode_id_proc}", expanded=True):
+                        st.write(f"Processing Step 1 for {episode_id_proc}...")
+                        with st.spinner(f"Identifying scenes for {episode_id_proc}..."):
+                            try:
+                                # Determine scene selection parameters based on method
+                                if st.session_state.get('current_detection_method') == 'time_based':
+                                    # Convert time to scene counts (approximate)
+                                    scene_start_minutes = st.session_state.get('scene_start_minutes', 3.0)
+                                    scene_end_minutes = st.session_state.get('scene_end_minutes', 5.0)
 
-                                # Use time-based selection
-                                scenes, status, error_msg = scene_detection.identify_candidate_scenes(
-                                    video_path_obj,
-                                    episode_id_proc,
-                                    ocr_reader,
-                                    current_ocr_engine,
-                                    user_stopwords,
-                                    time_segments=(scene_start_minutes, scene_end_minutes),
-                                )
-                            else:
-                                # Use scene count-based selection (default)
-                                scene_start_count = st.session_state.get(
-                                    'scene_start_count', constants.DEFAULT_START_SCENES_COUNT
-                                )
-                                scene_end_count = st.session_state.get(
-                                    'scene_end_count', constants.DEFAULT_END_SCENES_COUNT
-                                )
+                                    # Use time-based selection
+                                    scenes, status, error_msg = scene_detection.identify_candidate_scenes(
+                                        video_path_obj,
+                                        episode_id_proc,
+                                        ocr_reader,
+                                        current_ocr_engine,
+                                        user_stopwords,
+                                        time_segments=(scene_start_minutes, scene_end_minutes),
+                                    )
+                                else:
+                                    # Use scene count-based selection (default)
+                                    scene_start_count = st.session_state.get(
+                                        'scene_start_count', constants.DEFAULT_START_SCENES_COUNT
+                                    )
+                                    scene_end_count = st.session_state.get(
+                                        'scene_end_count', constants.DEFAULT_END_SCENES_COUNT
+                                    )
 
-                                scenes, status, error_msg = scene_detection.identify_candidate_scenes(
-                                    video_path_obj,
-                                    episode_id_proc,
-                                    ocr_reader,
-                                    current_ocr_engine,
-                                    user_stopwords,
-                                    scene_counts=(scene_start_count, scene_end_count),
+                                    scenes, status, error_msg = scene_detection.identify_candidate_scenes(
+                                        video_path_obj,
+                                        episode_id_proc,
+                                        ocr_reader,
+                                        current_ocr_engine,
+                                        user_stopwords,
+                                        scene_counts=(scene_start_count, scene_end_count),
+                                    )
+                                st.session_state.episode_status[episode_id_proc]['step1_status'] = status
+                                if error_msg:
+                                    st.session_state.episode_status[episode_id_proc]['step1_error'] = error_msg
+                                    st.error(f"Error in Step 1 ({episode_id_proc}): {error_msg}")
+                                else:
+                                    st.success(
+                                        f"Step 1 ({episode_id_proc}) -> Status: {status}. Found {len(scenes)} candidate scenes."
+                                    )
+                                logging.info(
+                                    f"[{episode_id_proc}] Step 1 status: {status}. Scenes: {len(scenes)}. Error: {error_msg}"
                                 )
-                            st.session_state.episode_status[episode_id_proc]['step1_status'] = status
-                            if error_msg:
-                                st.session_state.episode_status[episode_id_proc]['step1_error'] = error_msg
-                                st.error(f"Error in Step 1 ({episode_id_proc}): {error_msg}")
-                            else:
-                                st.success(
-                                    f"Step 1 ({episode_id_proc}) -> Status: {status}. Found {len(scenes)} candidate scenes."
-                                )
-                            logging.info(
-                                f"[{episode_id_proc}] Step 1 status: {status}. Scenes: {len(scenes)}. Error: {error_msg}"
-                            )
-                        except Exception as e:
-                            st.session_state.episode_status[episode_id_proc]['step1_status'] = "error"
-                            st.session_state.episode_status[episode_id_proc]['step1_error'] = str(e)
-                            st.error(f"Exception in Step 1 ({episode_id_proc}): {e}")
-                            logging.error(f"Exception during Step 1 for {episode_id_proc}: {e}", exc_info=True)
-            
-            st.success(
-                "Step 1 processing finished for selected videos. Review candidate scenes in '2a. Review Candidate Scenes' section if available."
-            )
+                            except Exception as e:
+                                st.session_state.episode_status[episode_id_proc]['step1_status'] = "error"
+                                st.session_state.episode_status[episode_id_proc]['step1_error'] = str(e)
+                                st.error(f"Exception in Step 1 ({episode_id_proc}): {e}")
+                                logging.error(f"Exception during Step 1 for {episode_id_proc}: {e}", exc_info=True)
+                
+                st.success(
+                    "Step 1 processing finished for selected videos. Review candidate scenes in '2a. Review Candidate Scenes' section if available."
+                )
 
     if run_step2_button:
         # Set the step2_running flag immediately to hide scene review
@@ -654,7 +684,10 @@ if st.session_state.current_tab == 0:
             st.session_state.step2_running = False  # Reset flag if no videos selected
         else:
             st.subheader("Running Step 2: Analyze Candidate Scene Frames")
-            ocr_reader = get_cached_ocr_reader()
+            
+            # Force refresh OCR reader to prevent model caching issues
+            st.info("🔄 Refreshing OCR reader to prevent model caching issues...")
+            ocr_reader = force_refresh_ocr_reader()
             current_ocr_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
             user_stopwords = st.session_state.get('user_stopwords', [])
 
@@ -1046,39 +1079,6 @@ elif st.session_state.current_tab == 1:
         else:
             # Clear episode preservation if not specified
             st.session_state.preserve_episode = None
-      # Note: IMDB database initialization has been moved to Step 4 (IMDB Batch Validation)
-    # The review tab now uses pre-computed IMDB validation results from Step 4
-    # No need to initialize IMDB database here anymore
-    
-    # Initialize IMDB database for name validation on first access to Review tab
-    # DISABLED: Now using pre-computed results from Step 4
-    # if not st.session_state.get("imdb_initialized", False):
-    #     try:
-    #         from scripts_v3.imdb_name_validation import initialize_imdb_database
-    #         
-    #         # Check for Parquet file first, then TSV
-    #         if config.IMDB_PARQUET_PATH.exists():
-    #             with st.spinner("Initializing IMDB database for name validation (Parquet format)..."):
-    #                 if initialize_imdb_database():
-    #                     st.session_state["imdb_initialized"] = True
-    #                     logging.info("IMDB database initialized successfully from Parquet")
-    #                     st.success("✅ IMDB database loaded for enhanced name validation")
-    #                 else:
-    #                     st.warning("IMDB database initialization failed - name validation will be limited")
-    #         elif config.IMDB_TSV_PATH.exists():
-    #             with st.spinner("Initializing IMDB database for name validation (TSV format)..."):
-    #                 if initialize_imdb_database():
-    #                     st.session_state["imdb_initialized"] = True
-    #                     logging.info("IMDB database initialized successfully from TSV")
-    #                     st.success("✅ IMDB database loaded for enhanced name validation")
-    #                 else:
-    #                     st.warning("IMDB database initialization failed - name validation will be limited")
-    #         else:
-    #             logging.info(f"Neither IMDB Parquet ({config.IMDB_PARQUET_PATH}) nor TSV ({config.IMDB_TSV_PATH}) file found")
-    #             st.info("💡 **Optional**: For enhanced name validation, place `name.basics.parquet` or `name.basics.tsv` in `scripts_v3/` directory")
-    #     except Exception as e:
-    #         logging.error(f"Error initializing IMDB database: {e}")
-    #         st.warning("IMDB database initialization failed - name validation will be limited")
     
     # Clear preserve flags when user enters review tab
     if st.session_state.get('preserve_review_tab'):
