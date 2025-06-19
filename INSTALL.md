@@ -58,21 +58,45 @@ For GPU acceleration, install **before** running the installer:
 #### 1. Video Files
 Place your video files in: **`FilmoCredit/data/raw/`**
 
+You will already find a sample video named TEST.mp4 in the `data/raw` folder to let you test the software.
+
 Supported formats: `.mp4`, `.mkv`, `.avi`, `.mov`
 
 #### 2. IMDB Database (Required)
 1. **Download**: `name.basics.tsv.gz` from https://datasets.imdbws.com/
-2. **Extract**: The `.gz` file to get `name.basics.tsv`
+2. **Extract the file**: Open and extract the content from the archive: you will get a file named `name.basics.tsv`
 3. **Place**: The extracted `name.basics.tsv` file in **`FilmoCredit/db/`**
+
+#### 3. Azure AI Configuration (Required)
+The system currently works only with Azure AI models. Create a `.env` file in the **`FilmoCredit/`** root folder with your Azure credentials:
 
 ```
 📁 FilmoCredit/
-├── 📁 data/raw/              # ← Put your video files here
+├── 📄 .env                       # ← Azure AI configuration file
+├── 📁 data/raw/                  # ← Video files
+└── 📁 db/                        # ← IMDB database
+    └── name.basics.tsv
+```
+
+The `.env` file should contain:
+```env
+AZURE_OPENAI_KEY=your_azure_openai_key
+AZURE_OPENAI_ENDPOINT=your_azure_endpoint
+AZURE_OPENAI_API_VERSION=2023-12-01-preview
+AZURE_OPENAI_DEPLOYMENT_NAME=your_deployment_name
+```
+
+```
+📁 FilmoCredit/
+├── � .env                       # ← Azure AI configuration file
+├── �📁 data/raw/                  # ← Put your video files here
 │   ├── episode1.mp4
 │   └── episode2.mkv
 └── � db/                    # ← Put IMDB database here
     └── name.basics.tsv       # ← Required IMDB file
 ```
+
+
 
 ## 🚀 Running FilmoCredit
 
@@ -93,8 +117,6 @@ The application will:
 ## 🔄 Updates
 
 Run the installer again to update to the latest version.
-
-## 🛠️ Advanced Options
 
 ## 🛠️ Advanced Options
 
@@ -119,7 +141,7 @@ GPU_AVAILABLE=false ./install.sh
 ## 🐛 Troubleshooting
 
 ### Python Not Found
-Install Python 3.9+ from [python.org](https://python.org/downloads/)
+Install Python 3.11 from [python.org](https://python.org/downloads/)
 On Windows, check "Add Python to PATH" during installation.
 
 ### Permission Errors (Linux/macOS)
@@ -139,7 +161,7 @@ chmod +x install.sh
 - **OS**: Windows 10, macOS 10.15, Linux (Ubuntu 18.04+)
 - **RAM**: 4GB (8GB recommended)
 - **Storage**: 2GB free space
-- **Python**: 3.9+
+- **Python**: 3.11+
 
 ### GPU Acceleration (Optional)
 - **GPU**: NVIDIA GPU with 4GB+ VRAM

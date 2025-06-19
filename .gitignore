@@ -50,3 +50,9 @@ build/
 dist/
 .venv*
 *.log*
+
+
+
+
+
+!TEST.mp4
