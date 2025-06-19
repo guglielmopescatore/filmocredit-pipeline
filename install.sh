@@ -201,45 +201,17 @@ check_python() {
 
 # Install system dependencies
 install_system_deps() {
-    log_info "Installing system dependencies..."
-    
+    log_warning "Skipping system dependencies installation..."
+    log_info "Note: If you encounter issues with OpenCV or PaddleOCR, you may need to install:"
     case $PLATFORM in
         linux)
-            if command -v apt-get >/dev/null 2>&1; then
-                sudo apt-get update -q
-                sudo apt-get install -y \
-                    libgl1-mesa-glx \
-                    libglib2.0-0 \
-                    libsm6 \
-                    libxext6 \
-                    libfontconfig1 \
-                    libxrender1 \
-                    libgomp1 \
-                    wget \
-                    curl
-            elif command -v yum >/dev/null 2>&1; then
-                sudo yum install -y \
-                    mesa-libGL \
-                    glib2 \
-                    libSM \
-                    libXext \
-                    fontconfig \
-                    libXrender \
-                    libgomp \
-                    wget \
-                    curl
-            else
-                log_warning "Unknown package manager. You may need to install dependencies manually."
-            fi
+            log_info "  - libgl1-mesa-glx libglib2.0-0 libsm6 libxext6 libfontconfig1 libxrender1 libgomp1"
             ;;
         macos)
-            if ! command -v brew >/dev/null 2>&1; then
-                log_warning "Homebrew not found. Installing..."
-                /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-            fi
+            log_info "  - Homebrew may be needed for some dependencies"
             ;;
         windows)
-            log_info "Windows detected. Make sure you have Microsoft Visual C++ Redistributable installed."
+            log_info "  - Microsoft Visual C++ Redistributable"
             ;;
     esac
 }
