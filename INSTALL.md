@@ -53,6 +53,12 @@ For GPU acceleration, install **before** running the installer:
 2. **Latest NVIDIA drivers** 
 3. **CUDA 12.6** from [NVIDIA website](https://developer.nvidia.com/cuda-12-6-0-download-archive)
 
+### System Prerequisites
+Most systems already have these, but install if missing:
+1. **Python 3.11+** (preferably 3.11) from [python.org](https://python.org/downloads/)
+   - On Windows: Check "Add Python to PATH" during installation
+2. **Git** from [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
 ### Required Data Files
 
 #### 1. Video Files
@@ -85,18 +91,6 @@ AZURE_OPENAI_ENDPOINT=your_azure_endpoint
 AZURE_OPENAI_API_VERSION=2023-12-01-preview
 AZURE_OPENAI_DEPLOYMENT_NAME=your_deployment_name
 ```
-
-```
-📁 FilmoCredit/
-├── � .env                       # ← Azure AI configuration file
-├── �📁 data/raw/                  # ← Put your video files here
-│   ├── episode1.mp4
-│   └── episode2.mkv
-└── � db/                    # ← Put IMDB database here
-    └── name.basics.tsv       # ← Required IMDB file
-```
-
-
 
 ## 🚀 Running FilmoCredit
 
@@ -141,8 +135,9 @@ GPU_AVAILABLE=false ./install.sh
 ## 🐛 Troubleshooting
 
 ### Python Not Found
-Install Python 3.11 from [python.org](https://python.org/downloads/)
-On Windows, check "Add Python to PATH" during installation.
+Most systems include Python, but if not detected:
+- Install Python 3.11+ from [python.org](https://python.org/downloads/)
+- On Windows: Check "Add Python to PATH" during installation
 
 ### Permission Errors (Linux/macOS)
 ```bash
