@@ -171,6 +171,12 @@ brew install python3                                # macOS
 2. Install CUDA 12.6
 3. Run `nvidia-smi` to verify
 
+### PaddlePaddle GPU Installation Issues
+If you see `ERROR: No matching distribution found for paddlepaddle-gpu`:
+- The installer automatically uses the nightly repository for latest CUDA support
+- This is normal and handled automatically by the installer
+- The installation will continue with working dependencies
+
 ### Firewall/Network Issues
 If automatic download fails:
 1. Download repository manually

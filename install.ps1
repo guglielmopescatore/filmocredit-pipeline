@@ -206,18 +206,35 @@ function Set-Environment {
     & $PythonCmd -m venv .venv
     
     $pipCmd = ".\.venv\Scripts\pip.exe"
-      # Upgrade pip
+    
+    # Upgrade pip
     & $pipCmd install --upgrade pip
     
     if ($HasGPU) {
-        Write-Info "🎮 Installing GPU dependencies from requirements-gpu.txt..."
-        & $pipCmd install -r requirements-gpu.txt
+        Write-Info "🎮 Installing GPU dependencies..."
+        
+        # PyTorch with CUDA
+        & $pipCmd install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+        
+        # PaddlePaddle GPU
+        & $pipCmd install paddlepaddle-gpu==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu126/
+        
         $variant = "GPU"
     } else {
-        Write-Info "🖥️ Installing CPU dependencies from requirements-cpu.txt..."
-        & $pipCmd install -r requirements-cpu.txt
+        Write-Info "🖥️ Installing CPU dependencies..."
+        
+        # PyTorch CPU
+        & $pipCmd install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+        
+        # PaddlePaddle CPU
+        & $pipCmd install paddlepaddle==3.0.0
+        
         $variant = "CPU"
     }
+    
+    # PaddleOCR and other dependencies
+    & $pipCmd install paddleocr==3.0.0
+    & $pipCmd install -r requirements-base.txt
     
     Write-Success "Environment setup complete! ($variant variant)"
 }
