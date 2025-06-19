@@ -1,20 +1,12 @@
 # FilmoCredit - Installation Guide
 
-## 🚀 Quick Install
+## 🚀 Install
 
-### Linux / macOS
-```bash
-curl -sSL https://raw.githubusercontent.com/guglielmopescatore/filmocredit-pipeline/refactoring-monorepo/install.sh | bash
-```
+1. Download `install.sh` (Linux/macOS) or `install.ps1` (Windows) from https://raw.githubusercontent.com/guglielmopescatore/filmocredit-pipeline/refactoring-monorepo/
 
-### Windows (PowerShell)
-```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/guglielmopescatore/filmocredit-pipeline/refactoring-monorepo/install.ps1'))
-```
+2. Create a folder where you want to install FilmoCredit and place the downloaded script there.
 
-### Manual Download
-1. Download `install.sh` (Linux/macOS) or `install.ps1` (Windows)
-2. Run the script:
+3. Open a terminal and run the script:
    - Linux/macOS: `chmod +x install.sh && ./install.sh`
    - Windows: `powershell -ExecutionPolicy Bypass -File install.ps1`
 
@@ -94,13 +86,13 @@ AZURE_OPENAI_DEPLOYMENT_NAME=your_deployment_name
 
 ## 🚀 Running FilmoCredit
 
+
+
 ### Windows
-- **Desktop Shortcut**: Double-click the FilmoCredit shortcut
-- **Runner Script**: Double-click `run-filmocredit.bat`
+- **Enter the folder FilmoCredit**
 - **Direct**: Run `FilmoCredit.bat` in the FilmoCredit folder
 
 ### Linux / macOS
-- **Runner Script**: `./run-filmocredit.sh`
 - **Direct**: `cd FilmoCredit && ./filmocredit`
 
 The application will:
