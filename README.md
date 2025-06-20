@@ -1,93 +1,163 @@
-# 📼 Rilevazione automatica dei titoli & OCR  
-_Fase 1 del progetto di trascrizione automatica dei sottotitoli_
+# FilmoCredit - Installation Guide
 
-Questo README descrive i tre file introdotti con questo commit — `batch_title_detector.py`, `title_viewer.py` e `config.json` — e spiega come avviarli per individuare in modo (semi-)automatico i titoli/sottotitoli presenti nei video sorgente.
+## 🚀 Install
 
-## Contenuto del commit
-| File | Descrizione sintetica |
-|------|-----------------------|
-| **`batch_title_detector.py`** | Script batch che individua le scene, seleziona frame significativi, esegue OCR multilanguage (EasyOCR) e produce un report `ocr_results.json` per ogni video. |
-| **`title_viewer.py`** | App Streamlit per: (1) lanciare il batch OCR con un click, (2) visualizzare video + frame OCR, (3) filtrare scene “interessanti”, (4) permettere la selezione manuale e l’esportazione di `selected_scenes.json`. |
-| **`config.json`** | File di configurazione centrale con percorsi, lingue OCR, soglia di rilevazione scene, ecc. Tutti gli script lo caricano dinamicamente. |
+1. Download `install.sh` (Linux/macOS) or `install.ps1` (Windows) from https://raw.githubusercontent.com/guglielmopescatore/filmocredit-pipeline/refactoring-monorepo/
 
-## Requisiti
-* Python ≥ 3.9  
-* GPU CUDA consigliata (il codice degrada automaticamente su CPU)  
-* Librerie principali:
-  ```bash
-  pip install opencv-python-headless easyocr scenedetect streamlit Pillow torch
-  ```
-  > Usa `requirements.txt` se presente nel repo.
+2. Create a folder where you want to install FilmoCredit and place the downloaded script there.
 
-## Installazione rapida
+3. Open a terminal and run the script:
+   - Linux/macOS: `chmod +x install.sh && ./install.sh`
+   - Windows: `powershell -ExecutionPolicy Bypass -File install.ps1`
+
+## 📁 Installation Location
+
+FilmoCredit installs in the same directory where you run the installer:
+
+```
+📁 Your-Folder/                    
+├── 📄 install.ps1 (or install.sh) # The installer script
+├── 📄 run-filmocredit.bat/.sh     # Runner (created automatically)
+└── 📁 FilmoCredit/                # Installation directory (created automatically)
+    ├── 📁 .venv/                  # Virtual environment
+    ├── 📄 app.py                  # FilmoCredit application
+    └── 📄 FilmoCredit.bat         # Launcher
+```
+
+## 🎯 What the Installer Does
+
+### Automatic Detection
+- Platform: Windows, Linux, macOS
+- Python Version: Requires Python 3.9+
+- GPU Support: Automatically detects NVIDIA GPU and CUDA
+- Dependencies: Installs PyTorch, PaddleOCR, and other requirements
+
+### Installation Types
+- **GPU Version**: If NVIDIA GPU + CUDA 12.6 detected
+- **CPU Version**: If no GPU/CUDA detected
+- **Self-Contained**: Creates isolated virtual environment
+
+## ⚙️ Setup Requirements
+
+### GPU Prerequisites (Optional)
+For GPU acceleration, install **before** running the installer:
+1. **NVIDIA GPU** with 4GB+ VRAM
+2. **Latest NVIDIA drivers** 
+3. **CUDA 12.6** from [NVIDIA website](https://developer.nvidia.com/cuda-12-6-0-download-archive)
+
+### System Prerequisites
+Most systems already have these, but install if missing:
+1. **Python 3.11+** (preferably 3.11) from [python.org](https://python.org/downloads/)
+   - On Windows: Check "Add Python to PATH" during installation
+2. **Git** from [git-scm.com](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+### Required Data Files
+
+#### 1. Video Files
+Place your video files in: **`FilmoCredit/data/raw/`**
+
+You will already find a sample video named TEST.mp4 in the `data/raw` folder to let you test the software.
+
+Supported formats: `.mp4`, `.mkv`, `.avi`, `.mov`
+
+#### 2. IMDB Database (Required)
+1. **Download**: `name.basics.tsv.gz` from https://datasets.imdbws.com/
+2. **Extract the file**: Open and extract the content from the archive: you will get a file named `name.basics.tsv`
+3. **Place**: The extracted `name.basics.tsv` file in **`FilmoCredit/db/`**
+
+#### 3. Azure AI Configuration (Required)
+The system currently works only with Azure AI models. Create a `.env` file in the **`FilmoCredit/`** root folder with your Azure credentials:
+
+```
+📁 FilmoCredit/
+├── 📄 .env                       # ← Azure AI configuration file
+├── 📁 data/raw/                  # ← Video files
+└── 📁 db/                        # ← IMDB database
+    └── name.basics.tsv
+```
+
+The `.env` file should contain:
+```env
+AZURE_OPENAI_KEY=your_azure_openai_key
+AZURE_OPENAI_ENDPOINT=your_azure_endpoint
+AZURE_OPENAI_API_VERSION=2023-12-01-preview
+AZURE_OPENAI_DEPLOYMENT_NAME=your_deployment_name
+```
+
+## 🚀 Running FilmoCredit
+
+
+
+### Windows
+- **Enter the folder FilmoCredit**
+- **Direct**: Run `FilmoCredit.bat` in the FilmoCredit folder
+
+### Linux / macOS
+- **Direct**: `cd FilmoCredit && ./filmocredit`
+
+The application will:
+1. Activate the virtual environment
+2. Start the Streamlit web interface
+3. Open your browser to http://localhost:8501
+
+## 🔄 Updates
+
+Run the installer again to update to the latest version.
+
+## 🛠️ Advanced Options
+
+### Force Reinstall
 ```bash
-git clone <repo-url>
-cd <repo>
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+# Linux/macOS
+./install.sh --force
+
+# Windows
+./install.ps1 -Force
 ```
 
-## Configurazione cartelle
-```
-data/
-├── raw/          # ↳ inserisci qui i video sorgente (.mp4/.avi/.mkv)
-└── processed/    # ← output automatico (generato dagli script)
-```
-Puoi cambiare questi percorsi — e molti altri parametri — modificando **`config.json`**.
-
-## Flusso di lavoro
-
-### 1) Elaborazione batch (CLI)
+### CPU-Only Install
 ```bash
-python scripts/batch_title_detector.py
-```
-Per ogni video in `data/raw/` verrà creata la struttura:
-```
-data/processed/<nome_video>/
-├── frames/                # frame singolo per scena
-└── ocr_results.json       # OCR + metadati scena
-```
-Le elaborazioni precedenti vengono auto-backupate in `data/processed/backup/`.
+# Linux/macOS
+GPU_AVAILABLE=false ./install.sh
 
-### 2) Revisione interattiva (GUI)
+# Windows
+# Edit install.ps1 and set $hasGPU = $false
+```
+
+## 🐛 Troubleshooting
+
+### Python Not Found
+Most systems include Python, but if not detected:
+- Install Python 3.11+ from [python.org](https://python.org/downloads/)
+- On Windows: Check "Add Python to PATH" during installation
+
+### Permission Errors (Linux/macOS)
 ```bash
-streamlit run app/title_viewer.py
+chmod +x install.sh
+# If needed: sudo apt install python3 python3-pip python3-venv
 ```
-Funzionalità principali dell’interfaccia:
 
-* **Lancio OCR batch** direttamente dal pannello laterale.  
-* **Filtri dinamici**  
-  * “Mostra solo scene significative” (regex + euristica)  
-  * “Mostra solo scene di testa/coda” (± `safe_scene_margin` scene)  
-* **Anteprima sincronizzata**: video player + frame catturato + testo OCR.  
-* **Selezione rapida** con “Seleziona tutte le scene mostrate”.  
-* **Esportazione** delle scene spuntate in `selected_scenes.json` (una per video o in blocco).
+### GPU Not Detected
+1. Install NVIDIA drivers
+2. Install CUDA 12.6
+3. Verify with `nvidia-smi`
 
-## Parametri chiave (`config.json`)
-| Chiave | Significato |
-|--------|-------------|
-| `scene_detection_threshold` | Sensibilità del detector di contenuto (`scenedetect`). |
-| `frame_sample_points` | Percentili di scena usati per il campionamento frame (es.: 0.25, 0.5, 0.75). |
-| `ocr_languages` | Codici lingua EasyOCR, es. `["it","en"]`. |
-| `rotation_angles` | Angoli extra testati durante l’OCR (per testi ruotati). |
-| `safe_scene_margin` | Quante scene iniziali/finali includere sempre nei filtri. |
+## 📋 System Requirements
 
-## Personalizzazione & tuning
-* **Lingue extra** → aggiungi ISO‑639‑1 in `ocr_languages`.  
-* **Prestazioni** → regola `max_workers_gpu` / `max_workers_cpu`.  
-* **Backup** → disattiva rimuovendo il blocco nel codice o cambiando percorso.  
+### Minimum
+- **OS**: Windows 10, macOS 10.15, Linux (Ubuntu 18.04+)
+- **RAM**: 4GB (8GB recommended)
+- **Storage**: 2GB free space
+- **Python**: 3.11+
 
-## Troubleshooting
-| Problema | Possibile causa |
-|----------|-----------------|
-| OCR lento | GPU non rilevata → controlla installazione CUDA / `torch.cuda.is_available()`. |
-| Scene “rumorose” | Abbassa `scene_detection_threshold` o amplia `frame_sample_points`. |
-| Output assente | Verifica estensioni video supportate e percorsi in `config.json`. |
+### GPU Acceleration (Optional)
+- **GPU**: NVIDIA GPU with 4GB+ VRAM
+- **CUDA**: Version 12.6
+- **Drivers**: Latest NVIDIA drivers
 
-## Contribuire
-1. Fai fork e apri branch feature.  
-2. Assicurati che gli script leggano i parametri da `config.json` per evitare hard‑coding.  
-3. Descrivi chiaramente le modifiche nel messaggio di commit. Pull request benvenute!  
+## 🆘 Support
 
-## Licenza
-Distribuito con licenza **MIT** (vedi `LICENSE`).  
+For issues:
+1. Check the [Issues](https://github.com/guglielmopescatore/filmocredit-pipeline/issues) page
+2. Run installer with verbose output: `bash -x install.sh`
+3. Include system info and error messages when reporting bugs

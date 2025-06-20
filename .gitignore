@@ -1,10 +1,58 @@
-# virtual env
-env/
-# data + db
-data/
-db/
-# python cache
+# Python
 __pycache__/
-*.pyc
-# logs
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Project specific
+data/episodes/
+data/raw/*.mp4
+data/raw/*.mkv
+data/raw/*.avi
+data/raw/*.mov
+db/*.db
 *.log
+user_ocr_stopwords.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Backup
+*_backup/
+*.bak
+
+# Environment
+.env
+.env.local
+db/imdb.sqlite
+db/name.basics.tsv.gz
+db/imdb.sqlite
+db/name.basics.tsv.gz
+*.tsv
+*.parquet
+
+build/
+dist/
+.venv*
+*.log*
+
+
+
+
+
+!TEST.mp4
