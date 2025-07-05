@@ -16,6 +16,8 @@
     
     (or, if you are in the FilmoCredit folder, you can run 'source .venv/bin/activate' on Linux/macOS or '.venv\Scripts\activate' on Windows)
 
+5. Create the .env file in the FilmoCredit folder with your Azure AI credentials (see below for details).
+
 5. Run FilmoCredit on Stremlit:
    - Linux/macOS: `streamlit run FilmoCredit/app.py`
    - Windows: `streamlit run FilmoCredit\app.py`
@@ -95,22 +97,6 @@ AZURE_OPENAI_ENDPOINT=your_azure_endpoint
 AZURE_OPENAI_API_VERSION=2023-12-01-preview
 AZURE_OPENAI_DEPLOYMENT_NAME=your_deployment_name
 ```
-
-## 🚀 Running FilmoCredit
-
-
-
-### Windows
-- **Enter the folder FilmoCredit**
-- **Direct**: Run `FilmoCredit.bat` in the FilmoCredit folder
-
-### Linux / macOS
-- **Direct**: `cd FilmoCredit && ./filmocredit`
-
-The application will:
-1. Activate the virtual environment
-2. Start the Streamlit web interface
-3. Open your browser to http://localhost:8501
 
 ## 🔄 Updates
 
