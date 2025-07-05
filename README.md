@@ -10,6 +10,18 @@
    - Linux/macOS: `chmod +x install.sh && ./install.sh`
    - Windows: `powershell -ExecutionPolicy Bypass -File install.ps1`
 
+4. Activate the virtual environment:
+   - Linux/macOS: `source FilmoCredit/.venv/bin/activate`
+   - Windows: `.\FilmoCredit\.venv\Scripts\activate`
+    
+    (or, if you are in the FilmoCredit folder, you can run 'source .venv/bin/activate' on Linux/macOS or '.venv\Scripts\activate' on Windows)
+
+5. Run FilmoCredit on Stremlit:
+   - Linux/macOS: `streamlit run FilmoCredit/app.py`
+   - Windows: `streamlit run FilmoCredit\app.py`
+
+   (or, if you are in the FilmoCredit folder, you can run 'streamlit run app.py' directly)
+s
 ## 📁 Installation Location
 
 FilmoCredit installs in the same directory where you run the installer:

@@ -73,6 +73,13 @@ detect_platform() {
 
 # Check if NVIDIA GPU is available
 check_gpu() {
+    # Skip GPU detection on macOS - only CPU PaddlePaddle is supported
+    if [ "$PLATFORM" = "macos" ]; then
+        log_info "macOS detected - using CPU version (GPU not supported by PaddlePaddle on macOS)"
+        GPU_AVAILABLE=false
+        return 1
+    fi
+    
     # Check if nvidia-smi is available and working
     if command -v nvidia-smi >/dev/null 2>&1; then
         if nvidia-smi >/dev/null 2>&1; then
