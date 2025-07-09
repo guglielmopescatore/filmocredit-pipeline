@@ -252,6 +252,73 @@ VALID_ROLE_GROUPS = {
 ROLE_GROUPS = sorted(list(VALID_ROLE_GROUPS))
 
 
+# Role group to IMDB profession mapping for nconst assignment
+# This mapping is used to match credits role groups with IMDB primaryProfession values
+ROLE_GROUP_TO_IMDB_PROFESSION = {
+    "cast": {"actor", "actress"},
+    "directors": {"director"},
+    "writers": {"writer"},
+    "producers": {"producer"},
+    "cinematographers": {"cinematographer"},
+    "editors": {"editor"},
+    "composers": {"composer"},
+    "production designers": {"production_designer"},
+    "art directors": {"art_director"},
+    "set decorators": {"set_decorator"},
+    "costume designers": {"costume_designer"},
+    "makeup department": {"make_up_department"},
+    "sound department": {"sound_department"},
+    "visual effects": {"visual_effects"},
+    "special effects": {"special_effects"},
+    "music department": {"music_department"},
+    "production managers": {"production_manager"},
+    "location managers": {"location_management"},
+    "casting directors": {"casting_director"},
+    "second unit directors or assistant directors": {"assistant_director"},
+    "camera and electrical department": {"camera_department", "electrical_department"},
+    "art department": {"art_department"},
+    "animation department": {"animation_department"},
+    "costume and wardrobe department": {"costume_department"},
+    "editorial department": {"editorial_department"},
+    "script and continuity department": {"script_department"},
+    "transportation department": {"transportation_department"},
+    "stunts": {"stunts"},
+    # Note: "thanks" and "additional crew" have no direct IMDB profession mapping
+    # These will automatically get internal gp codes
+}
+
+
+def get_imdb_professions_for_role_group(role_group: str) -> set[str]:
+    """
+    Get the set of IMDB professions that correspond to a given role group.
+    
+    Args:
+        role_group: The role group to look up
+        
+    Returns:
+        set: Set of IMDB professions, empty set if no mapping exists
+    """
+    if not role_group:
+        return set()
+    
+    # Normalize role group to lowercase for comparison
+    normalized_role_group = role_group.lower()
+    return ROLE_GROUP_TO_IMDB_PROFESSION.get(normalized_role_group, set())
+
+
+def has_imdb_profession_mapping(role_group: str) -> bool:
+    """
+    Check if a role group has a direct IMDB profession mapping.
+    
+    Args:
+        role_group: The role group to check
+        
+    Returns:
+        bool: True if the role group maps to IMDB professions, False otherwise
+    """
+    return len(get_imdb_professions_for_role_group(role_group)) > 0
+
+
 def validate_role_group(role_group: str) -> tuple[bool, str]:
     """
     Validate if a role group is in the predefined list.

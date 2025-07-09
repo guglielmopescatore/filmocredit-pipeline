@@ -38,19 +38,19 @@ else
 fi
 
 log_info() {
-    echo -e "${BLUE}${EMOJI_INFO} $1${NC}"
+    printf "${BLUE}${EMOJI_INFO} %s${NC}\n" "$1"
 }
 
 log_success() {
-    echo -e "${GREEN}${EMOJI_CHECK} $1${NC}"
+    printf "${GREEN}${EMOJI_CHECK} %s${NC}\n" "$1"
 }
 
 log_warning() {
-    echo -e "${YELLOW}${EMOJI_WARNING} $1${NC}"
+    printf "${YELLOW}${EMOJI_WARNING} %s${NC}\n" "$1"
 }
 
 log_error() {
-    echo -e "${RED}${EMOJI_ERROR} $1${NC}"
+    printf "${RED}${EMOJI_ERROR} %s${NC}\n" "$1"
 }
 
 # Detect platform
@@ -167,6 +167,17 @@ check_gpu() {
 
 # Check Python installation
 check_python() {
+    # Check for Xcode Command Line Tools on macOS
+    if [ "$PLATFORM" = "macos" ]; then
+        if ! command -v git >/dev/null 2>&1; then
+            log_error "Xcode Command Line Tools not found. Please install them first:"
+            log_info "Run: xcode-select --install"
+            log_info "After installation, go to the Software Update Section inside the System Settings. Update your system."
+            log_info "Then run this installer again after the installation completes."
+            exit 1
+        fi
+    fi
+    
     local python_cmd=""
     
     # Try different Python commands
@@ -389,12 +400,12 @@ EOF
 
 # Main installation function
 main() {
-    echo -e "${BLUE}"
+    printf "${BLUE}\n"
     echo "╔══════════════════════════════════════╗"
     echo "║          FilmoCredit Installer       ║"
     echo "║        Universal Cross-Platform     ║"
     echo "╚══════════════════════════════════════╝"
-    echo -e "${NC}"
+    printf "${NC}\n"
     
     detect_platform
     check_python
@@ -406,11 +417,11 @@ main() {
     create_launchers
     add_to_path
     
-    echo -e "${GREEN}"
+    printf "${GREEN}\n"
     echo "╔══════════════════════════════════════╗"
     echo "║     ${EMOJI_ROCKET} Installation Complete! ${EMOJI_ROCKET}       ║"
     echo "╚══════════════════════════════════════╝"
-    echo -e "${NC}"
+    printf "${NC}\n"
     
     log_success "FilmoCredit installed successfully!"
     log_info "Installation directory: $INSTALL_DIR"

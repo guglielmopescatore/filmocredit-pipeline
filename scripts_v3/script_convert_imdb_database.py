@@ -7,8 +7,8 @@ from scripts_v3.utils import normalize_name
 
 def tsv_to_parquet_imdb_normalization():
     """
-    Process IMDb name.basics.tsv file and output both TSV and Parquet files 
-    with nconst and normalizedName.
+    Process IMDb name.basics.tsv file and output Parquet file 
+    with all necessary columns for IMDB validation and profession matching.
     """
     input_path = config.IMDB_TSV_PATH
     parquet_output_path = config.IMDB_PARQUET_PATH
@@ -19,7 +19,8 @@ def tsv_to_parquet_imdb_normalization():
     print("Normalizing names...")
     df['normalizedName'] = df['primaryName'].apply(normalize_name)
 
-    df_out = df[['nconst', 'normalizedName']]
+    # Include all necessary columns for profession matching
+    df_out = df[['nconst', 'normalizedName', 'primaryName', 'primaryProfession', 'birthYear', 'deathYear']]
 
     print(f"Saving processed data to {parquet_output_path}...")
     df_out.to_parquet(parquet_output_path, index=False)
