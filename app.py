@@ -1004,20 +1004,21 @@ if st.session_state.current_tab == 0:
                 
                 try:
                     with st.expander(f"Step 4 IMDB Validation: {episode_id_proc}", expanded=True):
-                        st.write(f"🔍 Validating credits against IMDB database for episode: {episode_id_proc}")
+                        st.write(f"🔍 Validating credits and assigning codes for episode: {episode_id_proc}")
                         
-                        # Create batch validator
-                        batch_validator = IMDBBatchValidator()
+                        # Create batch validator with code assignment
+                        from scripts_v3.imdb_batch_validation import IMDBBatchValidatorWithCodeAssignment
+                        batch_validator = IMDBBatchValidatorWithCodeAssignment()
                         
                         # Get credits to process for this episode
                         credits = batch_validator.get_unprocessed_credits(episode_id=episode_id_proc)
                         
                         if not credits:
-                            st.success(f"✅ No credits need IMDB validation for {episode_id_proc}")
+                            st.success(f"✅ No credits need code assignment for {episode_id_proc}")
                             st.session_state.episode_status[episode_id_proc]['step4_complete'] = True
                             continue
                         
-                        st.write(f"📊 Found {len(credits)} credits to validate for {episode_id_proc}")
+                        st.write(f"📊 Found {len(credits)} credits to process for {episode_id_proc}")
                         
                         # Process credits with progress bar
                         progress_bar = st.progress(0)
@@ -1027,49 +1028,68 @@ if st.session_state.current_tab == 0:
                         processed = 0
                         
                         for i, credit in enumerate(credits):
-                            credit_id = credit['id']
                             name = credit.get('name', '')
-                            is_person = credit.get('is_person')
                             
                             # Update progress
                             progress = (i + 1) / total_credits
                             progress_bar.progress(progress)
                             status_text.text(f"Processing {i+1}/{total_credits}: {name}")
                             
-                            # Skip companies
-                            if is_person is False or is_person == 0:
-                                batch_validator.update_imdb_status(credit_id, True)
-                                batch_validator.stats['companies_skipped'] += 1
-                            else:
-                                # Validate person names
-                                is_found = batch_validator.validate_credit(credit)
-                                batch_validator.update_imdb_status(credit_id, is_found)
-                                
-                                if is_found:
-                                    batch_validator.stats['found_in_imdb'] += 1
-                                else:
-                                    batch_validator.stats['not_found_in_imdb'] += 1
-                                
-                                batch_validator.stats['persons_processed'] += 1
+                            # Process credit with code assignment
+                            success = batch_validator.process_credit_with_code_assignment(credit)
+                            if not success:
+                                st.error(f"Failed to process credit: {name}")
                             
                             processed += 1
                         
                         # Show final results
                         progress_bar.progress(1.0)
-                        status_text.text("IMDB validation complete!")
+                        status_text.text("IMDB validation and code assignment complete!")
                         
+                        # Display comprehensive statistics
                         stats = batch_validator.stats
-                        col1, col2, col3 = st.columns(3)
-                        with col1:
-                            st.metric("✅ Found in IMDB", stats['found_in_imdb'])
-                        with col2:
-                            st.metric("❌ Not Found", stats['not_found_in_imdb'])
-                        with col3:
-                            st.metric("🏢 Companies", stats['companies_skipped'])
+                        st.subheader("📊 Processing Results")
                         
-                        if stats['persons_processed'] > 0:
-                            match_rate = (stats['found_in_imdb'] / stats['persons_processed']) * 100
-                            st.info(f"📈 IMDB match rate for persons: {match_rate:.1f}%")
+                        col1, col2, col3, col4 = st.columns(4)
+                        with col1:
+                            st.metric("📊 Total Processed", stats['total_credits'])
+                        with col2:
+                            st.metric("👤 Persons", stats['persons_processed'])
+                        with col3:
+                            st.metric("🏢 Companies", stats['companies_processed'])
+                        with col4:
+                            auto_total = stats['auto_assigned_nconst'] + stats['auto_assigned_internal']
+                            st.metric("🤖 Auto-assigned", auto_total)
+                        
+                        col5, col6, col7, col8 = st.columns(4)
+                        with col5:
+                            st.metric("✅ IMDB Codes", stats['auto_assigned_nconst'])
+                        with col6:
+                            st.metric("🔧 Internal Codes", stats['auto_assigned_internal'])
+                        with col7:
+                            st.metric("⚠️ Manual Review", stats['manual_required'])
+                        with col8:
+                            st.metric("❓ Ambiguous", stats['ambiguous'])
+                        
+                        # IMDB search statistics
+                        if stats['found_in_imdb'] > 0 or stats['not_found_in_imdb'] > 0:
+                            st.subheader("🎭 IMDB Search Results")
+                            col_imdb1, col_imdb2 = st.columns(2)
+                            with col_imdb1:
+                                st.metric("✅ Found in IMDB", stats['found_in_imdb'])
+                            with col_imdb2:
+                                st.metric("❌ Not Found", stats['not_found_in_imdb'])
+                            
+                            total_searched = stats['found_in_imdb'] + stats['not_found_in_imdb']
+                            if total_searched > 0:
+                                match_rate = (stats['found_in_imdb'] / total_searched) * 100
+                                st.info(f"📈 IMDB match rate: {match_rate:.1f}%")
+                        
+                        # Automatic assignment rate
+                        total_processed = stats['persons_processed'] + stats['companies_processed']
+                        if total_processed > 0:
+                            auto_rate = (auto_total / total_processed) * 100
+                            st.success(f"🚀 Automatic assignment rate: {auto_rate:.1f}%")
                         
                         st.session_state.episode_status[episode_id_proc]['step4_complete'] = True
                         st.success(f"✅ Step 4 completed successfully for {episode_id_proc}")
@@ -1261,7 +1281,7 @@ elif st.session_state.current_tab == 1:
                             cursor.execute(
                                 f"""
                                 UPDATE {config.DB_TABLE_CREDITS}
-                                SET reviewed_status = 'pending', reviewed_at = NULL
+                                SET reviewed_status = 'pending'
                                 WHERE episode_id = ? AND reviewed_status = 'kept'
                             """,
                                 (selected_episode,),
@@ -1328,6 +1348,87 @@ elif st.session_state.current_tab == 1:
                         st.subheader(f"👤 {current_credit['name']}")
                         st.error(f"**Issues:** {problem_desc}")
 
+                        # Display code assignment information
+                        col_info1, col_info2 = st.columns(2)
+                        with col_info1:
+                            assigned_code = current_credit.get('assigned_code')
+                            code_status = current_credit.get('code_assignment_status')
+                            
+                            if assigned_code:
+                                if assigned_code.startswith('nm'):
+                                    st.success(f"🎯 **IMDB Code:** `{assigned_code}`")
+                                elif assigned_code.startswith('gp'):
+                                    st.info(f"👤 **Person Code:** `{assigned_code}`")
+                                elif assigned_code.startswith('cm'):
+                                    st.info(f"🏢 **Company Code:** `{assigned_code}`")
+                                else:
+                                    st.info(f"🔢 **Assigned Code:** `{assigned_code}`")
+                            else:
+                                st.warning("⚠️ **No code assigned**")
+                        
+                        with col_info2:
+                            if code_status:
+                                status_display = {
+                                    'auto_assigned': '✅ Auto-assigned (IMDB match)',
+                                    'internal_assigned': '🔧 Internal code assigned',
+                                    'manual_required': '⚠️ Manual review required',
+                                    'ambiguous': '❓ Multiple IMDB matches'
+                                }.get(code_status, f'🔍 Status: {code_status}')
+                                
+                                if code_status == 'manual_required':
+                                    st.error(status_display)
+                                elif code_status == 'ambiguous':
+                                    st.warning(status_display)
+                                else:
+                                    st.info(status_display)
+                            else:
+                                st.info("🔍 **Status:** Not processed")
+                        
+                        # Show IMDB matches if available (for manual review cases)
+                        imdb_matches = current_credit.get('imdb_matches')
+                        if imdb_matches and code_status in ['manual_required', 'ambiguous']:
+                            st.markdown("### 🎭 IMDB Information")
+                            try:
+                                import json
+                                matches_data = json.loads(imdb_matches) if isinstance(imdb_matches, str) else imdb_matches
+                                
+                                if matches_data:
+                                    st.info(f"Found {len(matches_data)} IMDB match(es) for this name:")
+                                    
+                                    for i, match in enumerate(matches_data):  # Show all matches - no limit
+                                        nconst = match.get('nconst', 'N/A')
+                                        name = match.get('primaryName', 'Unknown')
+                                        
+                                        with st.expander(f"Match {i+1}: {name} ({nconst})"):
+                                            col_match1, col_match2 = st.columns(2)
+                                            with col_match1:
+                                                st.write(f"**Name:** {name}")
+                                                st.write(f"**IMDB Code:** {nconst}")
+                                                
+                                                # Add IMDB link
+                                                if nconst != 'N/A' and nconst.startswith('nm'):
+                                                    imdb_url = f"https://www.imdb.com/name/{nconst}/"
+                                                    st.markdown(f"**🔗 IMDB Link:** [View on IMDB]({imdb_url})")
+                                                
+                                            with col_match2:
+                                                professions = match.get('primaryProfession', 'N/A')
+                                                st.write(f"**Professions:** {professions}")
+                                                birth_year = match.get('birthYear', 'N/A')
+                                                death_year = match.get('deathYear', 'N/A')
+                                                if birth_year != 'N/A':
+                                                    years = f"{birth_year}"
+                                                    if death_year != 'N/A':
+                                                        years += f" - {death_year}"
+                                                    st.write(f"**Years:** {years}")
+                                    
+                                    if code_status == 'manual_required':
+                                        st.warning("👆 **Action needed:** This person was found in IMDB but their profession doesn't match the role group. Please review and manually assign the correct code.")
+                                    elif code_status == 'ambiguous':
+                                        st.warning("👆 **Action needed:** Multiple people with compatible professions found. Please review and select the correct person.")
+                                        
+                            except Exception as e:
+                                st.error(f"Error displaying IMDB matches: {e}")
+
                         is_duplicate = current_credit.get('total_variants', 1) > 1
                         duplicate_entries = current_credit.get('duplicate_entries', [current_credit])
 
@@ -1376,7 +1477,7 @@ elif st.session_state.current_tab == 1:
                                         if source_frames:
                                             frame_list = [f.strip() for f in source_frames.split(',') if f.strip()]
                                             st.write(f"**Source Frames ({len(frame_list)}):**")
-                                            for frame in frame_list[:3]:
+                                            for frame in frame_list:
                                                 st.caption(f"• {frame}")
                                             if len(frame_list) > 3:
                                                 st.caption(f"... and {len(frame_list) - 3} more")
@@ -1560,7 +1661,138 @@ elif st.session_state.current_tab == 1:
                                     else:                                        # For existing entries, show delete checkbox
                                         delete_variant = st.checkbox(
                                             "🗑️", key=f"variant_delete_{i}", help="Check to delete this variant"
-                                        )                                # Store form data for processing on submit
+                                        )
+                                
+                                # Code Assignment Section (for manual review and ambiguous cases)
+                                if not is_new and current_credit.get('code_assignment_status') in ['manual_required', 'ambiguous']:
+                                    st.markdown("##### 🔧 Code Assignment")
+                                    
+                                    # Show context about why this needs manual assignment
+                                    if current_credit.get('code_assignment_status') == 'ambiguous':
+                                        st.info("🔄 **Multiple IMDB matches found** - Please select the correct person or assign an internal code.")
+                                    elif current_credit.get('code_assignment_status') == 'manual_required':
+                                        st.info("⚠️ **Manual review required** - Person found in IMDB but profession doesn't match role. Please review and assign appropriate code.")
+                                    
+                                    # Create columns for code assignment UI
+                                    code_col1, code_col2 = st.columns([3, 1])
+                                    
+                                    with code_col2:
+                                        # Checkbox for internal code assignment
+                                        assign_internal = st.checkbox(
+                                            "Assign internal code", 
+                                            key=f"assign_internal_{i}",
+                                            help="Check to assign a new internal gp/cm code instead of IMDB code"
+                                        )
+                                    
+                                    with code_col1:
+                                        if assign_internal:
+                                            # Show info about what internal code will be assigned
+                                            internal_type = "gp" if is_person else "cm"
+                                            st.info(f"🏷️ Will assign new internal code ({internal_type}xxxxxxx)")
+                                            selected_code = None
+                                        else:
+                                            # Show IMDB code options
+                                            imdb_matches = current_credit.get('imdb_matches')
+                                            code_options = [""]  # Empty option first
+                                            
+                                            if imdb_matches:
+                                                try:
+                                                    import json
+                                                    matches_data = json.loads(imdb_matches) if isinstance(imdb_matches, str) else imdb_matches
+                                                    
+                                                    # Create options with name and nconst
+                                                    for match in matches_data:  # Show all matches - no limit
+                                                        nconst = match.get('nconst', '')
+                                                        name = match.get('primaryName', 'Unknown')
+                                                        professions = match.get('primaryProfession', 'N/A')
+                                                        years = ""
+                                                        if match.get('birthYear', 'N/A') != 'N/A':
+                                                            years = f" ({match.get('birthYear', '')}"
+                                                            if match.get('deathYear', 'N/A') != 'N/A':
+                                                                years += f"-{match.get('deathYear', '')}"
+                                                            years += ")"
+                                                        
+                                                        display_name = f"{nconst} - {name}{years} [{professions}]"
+                                                        code_options.append(nconst)
+                                                        
+                                                except Exception as e:
+                                                    st.error(f"Error parsing IMDB matches: {e}")
+                                            
+                                            # Default to first match if available
+                                            default_index = 1 if len(code_options) > 1 else 0
+                                            
+                                            # Create format function to display code options nicely
+                                            def format_code_option(code):
+                                                if code == "":
+                                                    return ""
+                                                try:
+                                                    if imdb_matches:
+                                                        matches_data = json.loads(imdb_matches) if isinstance(imdb_matches, str) else imdb_matches
+                                                        for match in matches_data:
+                                                            if match.get('nconst') == code:
+                                                                name = match.get('primaryName', 'Unknown')
+                                                                return f"{code} - {name}"
+                                                    return code
+                                                except:
+                                                    return code
+                                            
+                                            selected_code = st.selectbox(
+                                                "Select IMDB Code",
+                                                options=code_options,
+                                                index=default_index,
+                                                key=f"selected_code_{i}",
+                                                help="Choose the correct IMDB code or leave blank for manual entry",
+                                                format_func=format_code_option
+                                            )
+                                            
+                                            # Show IMDB link for selected code
+                                            if selected_code and selected_code.startswith('nm'):
+                                                imdb_url = f"https://www.imdb.com/name/{selected_code}/"
+                                                st.markdown(f"🔗 **Verify selection:** [View {selected_code} on IMDB]({imdb_url})")
+                                            
+                                            # Show quick reference of all available options with links
+                                            if imdb_matches and len(code_options) > 1:
+                                                with st.expander("🔍 Quick Reference - All IMDB Options"):
+                                                    try:
+                                                        matches_data = json.loads(imdb_matches) if isinstance(imdb_matches, str) else imdb_matches
+                                                        for match in matches_data:
+                                                            nconst = match.get('nconst', '')
+                                                            name = match.get('primaryName', 'Unknown')
+                                                            professions = match.get('primaryProfession', 'N/A')
+                                                            if nconst:
+                                                                imdb_url = f"https://www.imdb.com/name/{nconst}/"
+                                                                st.markdown(f"• **{nconst}** - {name} [{professions}] - [View on IMDB]({imdb_url})")
+                                                    except:
+                                                        st.info("Error loading reference data")
+                                            
+                                            # Allow manual entry if no match selected
+                                            if not selected_code:
+                                                manual_code = st.text_input(
+                                                    "Or enter IMDB code manually",
+                                                    key=f"manual_code_{i}",
+                                                    placeholder="nm1234567",
+                                                    help="Enter IMDB nconst manually if not in the list above"
+                                                )
+                                                if manual_code:
+                                                    selected_code = manual_code                                # Store form data for processing on submit
+                                # Get code assignment data if this is a manual review case
+                                code_assignment_data = None
+                                if not is_new and current_credit.get('code_assignment_status') in ['manual_required', 'ambiguous']:
+                                    assign_internal_key = f"assign_internal_{i}"
+                                    selected_code_key = f"selected_code_{i}"
+                                    manual_code_key = f"manual_code_{i}"
+                                    
+                                    # Get values from session state (form hasn't been submitted yet)
+                                    assign_internal = st.session_state.get(assign_internal_key, False)
+                                    selected_code = st.session_state.get(selected_code_key, "")
+                                    manual_code = st.session_state.get(manual_code_key, "")
+                                    
+                                    code_assignment_data = {
+                                        'assign_internal': assign_internal,
+                                        'selected_code': selected_code or manual_code,
+                                        'needs_assignment': True
+                                    }
+                                
                                 form_data.append(
                                     {
                                         'id': entry['id'],
@@ -1571,14 +1803,15 @@ elif st.session_state.current_tab == 1:
                                         'delete': delete_variant,
                                         'is_new': is_new,
                                         'episode_id': entry.get('episode_id', current_credit['episode_id']),
-                                        'source_frame': entry.get('source_frame', 'manual_entry')
+                                        'source_frame': entry.get('source_frame', 'manual_entry'),
+                                        'code_assignment': code_assignment_data
                                     }
                                 )                                # Show source frames for this variant
                                 if not is_new:
                                     source_frames = entry.get('source_frame', '')
                                     if source_frames:
                                         frame_list = [f.strip() for f in source_frames.split(',') if f.strip()]
-                                        st.caption(f"**Source Frames ({len(frame_list)}):** {', '.join(frame_list[:3])}")
+                                        st.caption(f"**Source Frames ({len(frame_list)}):** {', '.join(frame_list)}")
                                         if len(frame_list) > 3:
                                             st.caption(f"... and {len(frame_list) - 3} more")
                                     else:
@@ -1647,8 +1880,8 @@ elif st.session_state.current_tab == 1:
                                             cursor.execute(
                                                 f"""
                                                 INSERT INTO {config.DB_TABLE_CREDITS} 
-                                                (episode_id, name, role_group_normalized, role_detail, scene_position, source_frame, reviewed_status, reviewed_at, is_person)
-                                                VALUES (?, ?, ?, ?, 'manual_entry', ?, 'kept', CURRENT_TIMESTAMP, ?)
+                                                (episode_id, name, role_group_normalized, role_detail, scene_position, source_frame, reviewed_status, is_person)
+                                                VALUES (?, ?, ?, ?, 'manual_entry', ?, 'kept', ?)
                                             """,
                                                 (
                                                     new_variant['episode_id'],
@@ -1662,21 +1895,86 @@ elif st.session_state.current_tab == 1:
                                             
                                         # Update remaining existing variants
                                         for variant in edited_variants:
-                                            cursor.execute(
-                                                f"""
-                                                UPDATE {config.DB_TABLE_CREDITS}
-                                                SET name = ?, role_group_normalized = ?, role_detail = ?, is_person = ?,
-                                                    reviewed_status = 'kept', reviewed_at = CURRENT_TIMESTAMP
-                                                WHERE id = ?
-                                            """,
-                                                (
-                                                    variant['name'],
-                                                    variant['role_group'],
-                                                    variant['role_detail'],
-                                                    variant['is_person'],
-                                                    variant['id'],
-                                                ),
-                                            )
+                                            # Handle code assignment if present
+                                            code_assignment = next((v['code_assignment'] for v in form_data if v['id'] == variant['id']), None)
+                                            
+                                            if code_assignment and code_assignment.get('needs_assignment'):
+                                                if code_assignment.get('assign_internal'):
+                                                    # Generate internal code
+                                                    is_company = not variant['is_person']
+                                                    new_internal_code = utils.generate_next_internal_code(is_company)
+                                                    
+                                                    cursor.execute(
+                                                        f"""
+                                                        UPDATE {config.DB_TABLE_CREDITS}
+                                                        SET name = ?, role_group_normalized = ?, role_detail = ?, is_person = ?,
+                                                            assigned_code = ?, code_assignment_status = 'internal_assigned',
+                                                            reviewed_status = 'kept'
+                                                        WHERE id = ?
+                                                    """,
+                                                        (
+                                                            variant['name'],
+                                                            variant['role_group'],
+                                                            variant['role_detail'],
+                                                            variant['is_person'],
+                                                            new_internal_code,
+                                                            variant['id'],
+                                                        ),
+                                                    )
+                                                    
+                                                elif code_assignment.get('selected_code'):
+                                                    # Assign selected IMDB code
+                                                    cursor.execute(
+                                                        f"""
+                                                        UPDATE {config.DB_TABLE_CREDITS}
+                                                        SET name = ?, role_group_normalized = ?, role_detail = ?, is_person = ?,
+                                                            assigned_code = ?, code_assignment_status = 'auto_assigned',
+                                                            reviewed_status = 'kept'
+                                                        WHERE id = ?
+                                                    """,
+                                                        (
+                                                            variant['name'],
+                                                            variant['role_group'],
+                                                            variant['role_detail'],
+                                                            variant['is_person'],
+                                                            code_assignment['selected_code'],
+                                                            variant['id'],
+                                                        ),
+                                                    )
+                                                else:
+                                                    # No code assignment made, update other fields only
+                                                    cursor.execute(
+                                                        f"""
+                                                        UPDATE {config.DB_TABLE_CREDITS}
+                                                        SET name = ?, role_group_normalized = ?, role_detail = ?, is_person = ?,
+                                                            reviewed_status = 'kept'
+                                                        WHERE id = ?
+                                                    """,
+                                                        (
+                                                            variant['name'],
+                                                            variant['role_group'],
+                                                            variant['role_detail'],
+                                                            variant['is_person'],
+                                                            variant['id'],
+                                                        ),
+                                                    )
+                                            else:
+                                                # No code assignment needed, regular update
+                                                cursor.execute(
+                                                    f"""
+                                                    UPDATE {config.DB_TABLE_CREDITS}
+                                                    SET name = ?, role_group_normalized = ?, role_detail = ?, is_person = ?,
+                                                        reviewed_status = 'kept'
+                                                    WHERE id = ?
+                                                """,
+                                                    (
+                                                        variant['name'],
+                                                        variant['role_group'],
+                                                        variant['role_detail'],
+                                                        variant['is_person'],
+                                                        variant['id'],
+                                                    ),
+                                                )
 
                                         conn.commit()
                                         conn.close()
@@ -1694,8 +1992,22 @@ elif st.session_state.current_tab == 1:
                                                     remaining_new_entries.append(entry)
                                         st.session_state[new_entries_key] = remaining_new_entries
                                         
-                                        # Check if any variants remain
+                                        # Check if any variants remain and collect code assignment info
                                         total_remaining = len(edited_variants) + len(new_variants)
+                                        codes_assigned = 0
+                                        internal_codes_assigned = 0
+                                        imdb_codes_assigned = 0
+                                        
+                                        # Count code assignments
+                                        for variant in edited_variants:
+                                            code_assignment = next((v['code_assignment'] for v in form_data if v['id'] == variant['id']), None)
+                                            if code_assignment and code_assignment.get('needs_assignment'):
+                                                if code_assignment.get('assign_internal'):
+                                                    internal_codes_assigned += 1
+                                                elif code_assignment.get('selected_code'):
+                                                    imdb_codes_assigned += 1
+                                                codes_assigned += 1
+                                        
                                         if total_remaining == 0:
                                             # All variants were deleted
                                             success_msg = f"🗑️ All variants deleted successfully!"
@@ -1708,6 +2020,16 @@ elif st.session_state.current_tab == 1:
                                             removes_msg = f"{removed_new_entries} new entries removed" if removed_new_entries else ""
                                             
                                             actions = [msg for msg in [updates_msg, adds_msg, deletes_msg, removes_msg] if msg]
+                                            
+                                            # Add code assignment summary
+                                            if codes_assigned > 0:
+                                                code_summary = []
+                                                if imdb_codes_assigned > 0:
+                                                    code_summary.append(f"{imdb_codes_assigned} IMDB code(s)")
+                                                if internal_codes_assigned > 0:
+                                                    code_summary.append(f"{internal_codes_assigned} internal code(s)")
+                                                actions.append(f"{' + '.join(code_summary)} assigned")
+                                            
                                             success_msg = f"💾 Changes saved! {', '.join(actions)}."
                                             decision_type = 'variants_edited'
                                             

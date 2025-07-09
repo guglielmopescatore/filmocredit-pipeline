@@ -550,55 +550,59 @@ def init_db() -> None:
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             episode_id TEXT NOT NULL,
             source_frame TEXT NOT NULL,
-            role_group TEXT,            name TEXT,
+            role_group TEXT,
+            name TEXT,
             role_detail TEXT,
             role_group_normalized TEXT,
-            source_image_index INTEGER, -- Kept for historical reasons, but might be original_frame_number now
             scene_position TEXT,        -- Added for deduplication preference
-            original_frame_number TEXT, -- Added to store original frame numbers as text            reviewed_status TEXT DEFAULT 'pending', -- Track review status: 'pending' or 'kept'
-            reviewed_at TIMESTAMP,      -- When the credit was reviewed
+            original_frame_number TEXT, -- Added to store original frame numbers as text
+            reviewed_status TEXT DEFAULT 'pending', -- Track review status: 'pending' or 'kept'
             is_person BOOLEAN,          -- Whether the name refers to a person (true) or company (false)
             normalized_name TEXT,       -- Normalized name for IMDB validation
-            is_present_in_imdb BOOLEAN, -- Whether the name was found in IMDB database
+            assigned_code TEXT,         -- Either IMDB nconst (nm1234567) or internal code (gp1234567)
+            code_assignment_status TEXT, -- 'auto_assigned', 'manual_required', 'ambiguous', 'internal_assigned'
+            imdb_matches TEXT,          -- JSON string containing potential IMDB matches for ambiguous cases
             FOREIGN KEY (episode_id) REFERENCES {config.DB_TABLE_EPISODES} (episode_id)
         )
-        """        )
-          # Add the new columns to existing tables if they don't exist
+        """
+        )
+        
+        # Create table for progressive internal code generation
+        cursor.execute(
+            """
+        CREATE TABLE IF NOT EXISTS progressive_codes (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            last_gp_code INTEGER DEFAULT 0,
+            last_cm_code INTEGER DEFAULT 0,
+            updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+        """
+        )
+        
+        # Initialize progressive codes table if empty
+        cursor.execute("SELECT COUNT(*) FROM progressive_codes")
+        if cursor.fetchone()[0] == 0:
+            cursor.execute("INSERT INTO progressive_codes (last_gp_code, last_cm_code) VALUES (0, 0)")
+            logging.info("Initialized progressive codes table with starting values 0, 0")
+        else:
+            # Add cm_code column if it doesn't exist (for existing databases)
+            try:
+                cursor.execute("ALTER TABLE progressive_codes ADD COLUMN last_cm_code INTEGER DEFAULT 0")
+                logging.info("Added last_cm_code column to progressive_codes table")
+            except sqlite3.OperationalError:
+                # Column already exists
+                pass
+        
+        logging.info("Progressive codes table checked/created successfully.")
+        
+        # Add missing columns to existing credits table (migration)
         try:
             cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN reviewed_status TEXT DEFAULT 'pending'")
-            logging.info("Added 'reviewed_status' column to credits table.")
+            logging.info("Added missing reviewed_status column to credits table")
         except sqlite3.OperationalError:
             # Column already exists
             pass
-
-        try:
-            cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN reviewed_at TIMESTAMP")
-            logging.info("Added 'reviewed_at' column to credits table.")
-        except sqlite3.OperationalError:
-            # Column already exists
-            pass
-
-        try:
-            cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN is_person BOOLEAN")
-            logging.info("Added 'is_person' column to credits table.")
-        except sqlite3.OperationalError:
-            # Column already exists
-            pass
-
-        try:
-            cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN normalized_name TEXT")
-            logging.info("Added 'normalized_name' column to credits table.")
-        except sqlite3.OperationalError:
-            # Column already exists
-            pass
-
-        try:
-            cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN is_present_in_imdb BOOLEAN")
-            logging.info("Added 'is_present_in_imdb' column to credits table.")
-        except sqlite3.OperationalError:
-            # Column already exists
-            pass
-
+        
         cursor.execute(
             f"""
         CREATE INDEX IF NOT EXISTS idx_credits_episode_id ON {config.DB_TABLE_CREDITS} (episode_id);
@@ -614,6 +618,78 @@ def init_db() -> None:
     except Exception as e:
         logging.error(f"Unexpected error during DB initialization: {e}", exc_info=True)
         st.error(f"An unexpected error occurred during database initialization: {e}")
+
+
+def generate_next_internal_code(is_company: bool = False) -> str:
+    """
+    Generate the next progressive internal code.
+    - For persons: gp1234567 format
+    - For companies: cm1234567 format
+    Thread-safe implementation using database transactions.
+    
+    Args:
+        is_company: If True, generate company code (cm), otherwise person code (gp)
+    
+    Returns:
+        str: Next internal code (e.g., "gp0000001" or "cm0000001")
+    """
+    code_type = "cm" if is_company else "gp"
+    column_name = "last_cm_code" if is_company else "last_gp_code"
+    
+    try:
+        conn = sqlite3.connect(config.DB_PATH)
+        cursor = conn.cursor()
+        
+        # Use transaction for thread safety
+        cursor.execute("BEGIN TRANSACTION")
+        
+        # Get and increment the counter
+        cursor.execute(f"SELECT {column_name} FROM progressive_codes WHERE id = 1")
+        result = cursor.fetchone()
+        
+        if result:
+            next_code = result[0] + 1
+        else:
+            # Fallback: initialize if somehow the row doesn't exist
+            next_code = 1
+            if is_company:
+                cursor.execute("INSERT INTO progressive_codes (last_gp_code, last_cm_code) VALUES (0, 0)")
+            else:
+                cursor.execute("INSERT INTO progressive_codes (last_gp_code, last_cm_code) VALUES (0, 0)")
+        
+        # Update the counter
+        cursor.execute(f"UPDATE progressive_codes SET {column_name} = ?, updated_at = CURRENT_TIMESTAMP WHERE id = 1", (next_code,))
+        
+        # Commit the transaction
+        cursor.execute("COMMIT")
+        conn.close()
+        
+        # Format as gp1234567 or cm1234567 (7 digits with zero padding)
+        formatted_code = f"{code_type}{next_code:07d}"
+        logging.info(f"Generated new internal code: {formatted_code} ({'company' if is_company else 'person'})")
+        
+        return formatted_code
+        
+    except sqlite3.Error as e:
+        logging.error(f"Database error generating internal code: {e}", exc_info=True)
+        # Rollback and close connection
+        try:
+            cursor.execute("ROLLBACK")
+            conn.close()
+        except:
+            pass
+        # Return a fallback code with timestamp
+        import time
+        fallback_code = f"{code_type}{int(time.time()) % 10000000:07d}"
+        logging.warning(f"Using fallback internal code: {fallback_code}")
+        return fallback_code
+    except Exception as e:
+        logging.error(f"Unexpected error generating internal code: {e}", exc_info=True)
+        # Return a fallback code with timestamp
+        import time
+        fallback_code = f"{code_type}{int(time.time()) % 10000000:07d}"
+        logging.warning(f"Using fallback internal code: {fallback_code}")
+        return fallback_code
 
 
 def deduplicate_credits(credits: list[dict]) -> list[dict]:
@@ -1495,12 +1571,13 @@ def format_problem_description(problem_types: List[str]) -> str:
         "missing_normalized_role": "⚠️ Missing normalized role group",
         "missing_is_person_flag": "🤖 Missing person/company classification",
         "concatenated_names": "🔗 Multiple names concatenated together",
-        "imdb_name_not_found": "� Name not found in IMDB database",
-        "invalid_imdb_name": "📋 Not found in IMDB database",
         "concatenated_names_detected": "🔗 Appears to be multiple names joined",
         "invalid_name_after_cleaning": "🧹 Name becomes invalid after cleaning",
         "no_valid_words": "📝 No valid words found in name",
-        "too_short": "📏 Name too short to validate"
+        "too_short": "📏 Name too short to validate",
+        "manual_code_review_required": "⚠️ IMDB code assignment needs manual review",
+        "ambiguous_imdb_matches": "❓ Multiple IMDB matches found - needs selection",
+        "missing_code_assignment": "🔢 No code assigned yet"
     }
     
     descriptions = []
@@ -1523,6 +1600,7 @@ def format_problem_description(problem_types: List[str]) -> str:
 def is_company_role_group(role_group: Optional[str]) -> bool:
     """
     Check if a role group indicates a company rather than a person.
+    Uses the definitive list from config.py.
     
     Args:
         role_group: The role group to check
@@ -1533,28 +1611,17 @@ def is_company_role_group(role_group: Optional[str]) -> bool:
     if not role_group:
         return False
     
+    # Definitive list of company role groups from config.py
     company_role_groups = {
-        'Production Companies',
-        'Distributors', 
-        'Sales Representatives / ISA',
-        'Special Effects Companies',
-        'Miscellaneous Companies',
-        'Miscellaneous Company',  # Handle singular form
+        "Production Companies",
+        "Distributors",
+        "Sales Representatives / ISA",
+        "Special Effects Companies",
+        "Miscellaneous Companies"
     }
     
-    # Check exact matches and variations
-    role_group_normalized = role_group.strip()
-    if role_group_normalized in company_role_groups:
-        return True
-    
-    # Handle common variations
-    company_keywords = [
-        'companies', 'company', 'distributors', 'distributor', 
-        'production', 'miscellaneous', 'effects'
-    ]
-    
-    role_lower = role_group_normalized.lower()
-    return any(keyword in role_lower for keyword in company_keywords)
+    # Exact match only - no fuzzy matching to avoid false positives
+    return role_group.strip() in company_role_groups
 
 
 def detect_company_name_patterns(name: str) -> bool:
@@ -1676,6 +1743,7 @@ def identify_problematic_credits_fast(episode_id: str) -> int:
             FROM {config.DB_TABLE_CREDITS} 
             WHERE episode_id = ? 
             AND (reviewed_status IS NULL OR reviewed_status != 'kept')
+            AND role_group NOT IN ('Thanks', 'Additional Crew', 'Production Companies', 'Distributors', 'Sales Representatives / ISA', 'Special Effects Companies', 'Miscellaneous Companies')
             AND (
                 role_group = 'Unknown' 
                 OR role_group_normalized IS NULL 
@@ -1718,7 +1786,8 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
         cursor.execute(f"""
             SELECT id, episode_id, source_frame, role_group, name, role_detail, 
                    role_group_normalized, original_frame_number, scene_position, 
-                   reviewed_status, is_person, normalized_name, is_present_in_imdb
+                   reviewed_status, is_person, normalized_name,
+                   assigned_code, code_assignment_status, imdb_matches
             FROM {config.DB_TABLE_CREDITS} 
             WHERE episode_id = ? 
             AND (reviewed_status IS NULL OR reviewed_status != 'kept')
@@ -1739,13 +1808,19 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
         for i, credit in enumerate(credits_data):
             (credit_id, ep_id, source_frame, role_group, name, role_detail, 
              role_group_normalized, original_frame_number, scene_position, 
-             reviewed_status, is_person, normalized_name, is_present_in_imdb) = credit
+             reviewed_status, is_person, normalized_name,
+             assigned_code, code_assignment_status, imdb_matches) = credit
             
             logging.debug(f"[Problematic Credits] Processing credit {i+1}/{len(credits_data)}: ID={credit_id}, name='{name}', role='{role_group}', is_person={is_person}")
             
             # Skip company role groups from problematic credits identification
             if is_company_role_group(role_group):
                 logging.debug(f"[Problematic Credits] Skipping company role group: '{role_group}' for name: '{name}'")
+                continue
+            
+            # Skip Thanks and Additional Crew roles - they should always get internal codes
+            if role_group and role_group.lower() in ['thanks', 'additional crew']:
+                logging.debug(f"[Problematic Credits] Skipping '{role_group}' role - expected to get internal codes: '{name}'")
                 continue
             
             problem_types = []
@@ -1765,19 +1840,18 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
                 
             # Check for potentially problematic names (very long names)
             if name and len(name.strip().split()) > 6:
-                problem_types.append("concatenated_names")            # Check if name is NOT found in IMDB database (using pre-computed result from Step 4)
-            # Only check for persons, not companies
-            if name and name.strip() and is_person not in [False, 0]:
-               
-                if is_present_in_imdb == False:  # Use == instead of is for SQLite integer comparison
-                    logging.debug(f"[IMDB Check] Name '{name}' NOT FOUND in IMDB database (pre-computed)")
-                    problem_types.append("imdb_name_not_found")
-                elif is_present_in_imdb == True:  # Use == instead of is for SQLite integer comparison
-                    logging.debug(f"[IMDB Check] Name '{name}' is VALID in IMDB database (pre-computed)")
-                elif is_present_in_imdb is None:
-                    logging.warning(f"[IMDB Check] Name '{name}' not yet processed by Step 4 IMDB validation")
-                    # Optionally add a flag to indicate this needs Step 4 processing
-                    problem_types.append("imdb_not_processed")
+                problem_types.append("concatenated_names")
+            
+            # Check for code assignment issues  
+            if code_assignment_status == 'manual_required':
+                problem_types.append("manual_code_review_required")
+            elif code_assignment_status == 'ambiguous':
+                problem_types.append("ambiguous_imdb_matches")
+            elif not assigned_code and not is_company_role_group(role_group):
+                problem_types.append("missing_code_assignment")
+            
+            # NOTE: We do NOT flag credits that got internal gp codes as problematic.
+            # Getting an internal code when not found in IMDB is normal and expected behavior!
             
             # If any problems found, add to problematic list
             if problem_types:
@@ -1794,7 +1868,11 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
                     'reviewed_status': reviewed_status,
                     'is_person': is_person,
                     'normalized_name': normalized_name,
-                    'problem_types': problem_types,                    'priority_score': len(problem_types) * 10  # Higher score for more problems
+                    'assigned_code': assigned_code,
+                    'code_assignment_status': code_assignment_status,
+                    'imdb_matches': imdb_matches,
+                    'problem_types': problem_types,
+                    'priority_score': len(problem_types) * 10  # Higher score for more problems
                 }
                 problematic_credits.append(problematic_credit)
         
