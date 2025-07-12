@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-"""
-Video File Name Sanitizer
-Checks and sanitizes video file names in data/raw folder before program startup.
-Replaces spaces with underscores to ensure compatibility.
-"""
-
 import os
 import logging
 from pathlib import Path
@@ -14,6 +7,7 @@ from .video_formats import get_supported_extensions_set
 def sanitize_video_filenames(data_raw_path: Path) -> Tuple[int, List[str]]:
     """
     Sanitize video file names by replacing spaces with underscores.
+    If a file with underscores already exists, delete the file with spaces.
     
     Args:
         data_raw_path: Path to the data/raw directory
@@ -45,19 +39,27 @@ def sanitize_video_filenames(data_raw_path: Path) -> Tuple[int, List[str]]:
                 
                 # Check if target file already exists
                 if new_path.exists():
-                    logging.warning(f"Cannot rename '{original_name}' to '{new_name}' - target file already exists")
-                    continue
-                
-                try:
-                    # Rename the file
-                    file_path.rename(new_path)
-                    renamed_files.append(original_name)
-                    rename_operations.append(f"'{original_name}' → '{new_name}'")
-                    logging.info(f"Renamed video file: '{original_name}' → '{new_name}'")
-                    
-                except OSError as e:
-                    logging.error(f"Failed to rename '{original_name}': {e}")
-                    continue
+                    try:
+                        # Delete the file with spaces since underscored version already exists
+                        file_path.unlink()
+                        rename_operations.append(f"Deleted '{original_name}' ('{new_name}' already exists)")
+                        logging.info(f"Deleted duplicate video file: '{original_name}' ('{new_name}' already exists)")
+                        renamed_files.append(original_name)  # Count as processed
+                        
+                    except OSError as e:
+                        logging.error(f"Failed to delete '{original_name}': {e}")
+                        continue
+                else:
+                    try:
+                        # Rename the file
+                        file_path.rename(new_path)
+                        renamed_files.append(original_name)
+                        rename_operations.append(f"'{original_name}' → '{new_name}'")
+                        logging.info(f"Renamed video file: '{original_name}' → '{new_name}'")
+                        
+                    except OSError as e:
+                        logging.error(f"Failed to rename '{original_name}': {e}")
+                        continue
     
     return len(renamed_files), rename_operations
 
@@ -87,7 +89,7 @@ def check_and_sanitize_video_files() -> bool:
         
         if renamed_count > 0:
             logging.info(f"✅ Video file sanitization completed!")
-            logging.info(f"   📊 Renamed {renamed_count} file(s):")
+            logging.info(f"   📊 Processed {renamed_count} file(s):")
             for operation in rename_operations:
                 logging.info(f"      • {operation}")
         else:
@@ -112,14 +114,15 @@ def check_and_sanitize_video_files() -> bool:
 
 def preview_sanitization_changes(data_raw_path: Path = None) -> List[Tuple[str, str]]:
     """
-    Preview what files would be renamed without actually renaming them.
+    Preview what files would be renamed or deleted without actually doing it.
     Useful for testing or showing users what will happen.
     
     Args:
         data_raw_path: Path to check (defaults to current directory + data/raw)
         
     Returns:
-        List of (original_name, new_name) tuples for files that would be renamed
+        List of (original_name, action) tuples for files that would be processed
+        where action is either the new_name or "DELETE (duplicate exists)"
     """
     if data_raw_path is None:
         data_raw_path = Path.cwd() / "data" / "raw"
@@ -136,40 +139,11 @@ def preview_sanitization_changes(data_raw_path: Path = None) -> List[Tuple[str, 
             original_name = file_path.name
             if ' ' in original_name:
                 new_name = original_name.replace(' ', '_')
-                changes.append((original_name, new_name))
+                new_path = file_path.parent / new_name
+                
+                if new_path.exists():
+                    changes.append((original_name, "DELETE (duplicate exists)"))
+                else:
+                    changes.append((original_name, new_name))
     
     return changes
-
-
-if __name__ == "__main__":
-    # Configure logging for standalone execution
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(message)s'
-    )
-    
-    print("🎬 Video File Name Sanitizer")
-    print("=" * 50)
-    
-    # Preview changes first
-    preview_changes = preview_sanitization_changes()
-    if preview_changes:
-        print(f"📋 Found {len(preview_changes)} video file(s) with spaces:")
-        for original, new in preview_changes:
-            print(f"   • '{original}' → '{new}'")
-        
-        response = input("\n🤔 Proceed with renaming? (y/N): ").strip().lower()
-        if response != 'y':
-            print("❌ Operation cancelled by user")
-            exit(0)
-    else:
-        print("✅ No video files with spaces found")
-        exit(0)
-    
-    # Perform sanitization
-    success = check_and_sanitize_video_files()
-    if success:
-        print("🎉 Video file sanitization completed successfully!")
-    else:
-        print("⚠️ Some issues occurred during sanitization")
-        exit(1)

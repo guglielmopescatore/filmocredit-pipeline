@@ -139,6 +139,27 @@ def identify_candidate_scenes(
 
     # Create a logger adapter that injects episode_id into log records
     log: LoggerAdapter = LoggerAdapter(logger, {"episode_id": episode_id})
+    
+    # Controllo per un'analisi già esistente. Questo è il comportamento desiderato.
+    if output_file.exists():
+        log.info(f"Trovata analisi finale esistente per '{episode_id}'. Saltando l'intero Step 1.")
+        try:
+            with open(output_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            # Restituisce i dati salvati
+            candidate_scenes = data.get("candidate_scenes", [])
+            status = SceneDetectionStatus(data.get("status", "error"))
+            error_msg = data.get("error", None)
+            return candidate_scenes, status, error_msg
+        except Exception as e:
+            # Questo blocco gestisce solo errori di caricamento (es. file corrotto)
+            log.error(f"Errore critico nel caricare il file di analisi esistente: {e}. L'analisi sarà riprocessata.", exc_info=True)
+            # Il codice prosegue per riprocessare l'analisi
+    else:
+        # Caso normale: il file non esiste ancora, quindi procediamo con l'analisi completa
+        log.info(f"Nessuna analisi esistente trovata per '{episode_id}'. Avvio l'analisi completa.")
+        
+    
     try:
         video = open_video(str(video_path))
         total_frames = video.duration.get_frames()
