@@ -8,6 +8,8 @@ from PIL import Image
 
 st.set_page_config(layout="wide")
 
+# Import video file sanitizer
+from scripts_v3 import video_file_sanitizer
 
 from scenedetect import open_video
 
@@ -99,6 +101,13 @@ openai_logger = logging.getLogger("openai")
 openai_logger.setLevel(logging.INFO)
 
 utils.init_db()
+
+# Sanitize video file names at startup - replace spaces with underscores
+try:
+    video_file_sanitizer.check_and_sanitize_video_files()
+except Exception as e:
+    logging.error(f"Video file sanitization failed: {e}")
+    st.error("⚠️ Warning: Video file name sanitization failed. Some files with spaces in names may cause issues.")
 
 st.title("🎬 Film Credit Extraction Pipeline v3")
 
