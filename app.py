@@ -729,6 +729,56 @@ if st.session_state.current_tab == 0:
                 if episode_id_proc not in st.session_state.episode_status:
                     st.session_state.episode_status[episode_id_proc] = {}
 
+                # Check if Step 2 has already been completed for this episode
+                analysis_manifest_file = (
+                    config.EPISODES_BASE_DIR / episode_id_proc / "analysis" / "analysis_manifest.json"
+                )
+                frames_dir = config.EPISODES_BASE_DIR / episode_id_proc / "analysis" / "frames"
+                
+                # Check both status and file existence for robust detection
+                current_step2_status = st.session_state.episode_status[episode_id_proc].get('step2_status')
+                
+                if (current_step2_status == "completed" or current_step2_status == "already_completed" or 
+                    (analysis_manifest_file.exists() and frames_dir.exists())):
+                    
+                    # If we only have file evidence but no status, verify the files
+                    if current_step2_status not in ["completed", "already_completed"]:
+                        try:
+                            with open(analysis_manifest_file, 'r', encoding='utf-8') as f:
+                                manifest_data = json.load(f)
+                            scenes_in_manifest = manifest_data.get('scenes', {})
+                            
+                            if scenes_in_manifest:
+                                # Check if there are actual frame files in the frames directory
+                                frame_files = list(frames_dir.glob("*.jpg"))
+                                if frame_files:
+                                    st.info(
+                                        f"✅ Step 2 already completed for {episode_id_proc} "
+                                        f"({len(scenes_in_manifest)} scenes processed, {len(frame_files)} frames extracted). Skipping."
+                                    )
+                                    st.session_state.episode_status[episode_id_proc]['step2_status'] = "already_completed"
+                                    logging.info(
+                                        f"[{episode_id_proc}] Step 2 already completed - found analysis_manifest.json with {len(scenes_in_manifest)} scenes and {len(frame_files)} frame files. Skipping."
+                                    )
+                                    continue
+                                else:
+                                    logging.warning(
+                                        f"[{episode_id_proc}] Found manifest but no frame files. Will reprocess Step 2."
+                                    )
+                            else:
+                                logging.warning(
+                                    f"[{episode_id_proc}] Found manifest but no scenes data. Will reprocess Step 2."
+                                )
+                        except Exception as e:
+                            logging.warning(
+                                f"[{episode_id_proc}] Could not validate existing Step 2 results: {e}. Will reprocess."
+                            )
+                    else:
+                        # Status indicates completion, skip without additional checks
+                        st.info(f"✅ Step 2 already completed for {episode_id_proc} (status: {current_step2_status}). Skipping.")
+                        logging.info(f"[{episode_id_proc}] Step 2 already completed with status '{current_step2_status}'. Skipping.")
+                        continue
+
                 scene_analysis_file = (
                     config.EPISODES_BASE_DIR / episode_id_proc / "analysis" / "initial_scene_analysis.json"
                 )
@@ -906,6 +956,9 @@ if st.session_state.current_tab == 0:
                                 logging.info(
                                     f"[{episode_id_proc}] Step 2 completed with final episode cache containing {len(episode_saved_texts_cache)} unique texts"
                                 )
+                                
+                                # Set completion status
+                                final_status_msg_step2 = "completed"
 
                             st.session_state.episode_status[episode_id_proc]['step2_status'] = final_status_msg_step2
                             if final_error_detail_step2:
