@@ -27,8 +27,6 @@ def _compute_image_hash(img: Any) -> Optional[imagehash.ImageHash]:
         return None
 
 
-# string module already imported above for punctuation removal
-
 
 def _process_and_save_frame(
     img: np.ndarray,
