@@ -105,6 +105,43 @@ def is_profession_compatible(imdb_professions, expected_professions):
                 return True
     return False
 
+def check_existing_internal_code(normalized_name, role_group, is_company):
+    """Check if we already have an internal code for this normalized name and role."""
+    try:
+        conn = sqlite3.connect('db/tvcredits_v3.db')
+        cursor = conn.cursor()
+        
+        # Determine the code prefix to search for
+        code_prefix = 'cm' if is_company else 'gp'
+        
+        # Search for existing credits with the same normalized name, role group, and internal code type
+        cursor.execute("""
+            SELECT assigned_code, name, role_group_normalized
+            FROM credits 
+            WHERE assigned_code LIKE ? 
+            AND code_assignment_status = 'internal_assigned'
+            AND role_group_normalized = ?
+            ORDER BY assigned_code ASC
+        """, (f"{code_prefix}%", role_group))
+        
+        results = cursor.fetchall()
+        conn.close()
+        
+        # Check each result to see if the normalized name matches
+        for assigned_code, stored_name, stored_role in results:
+            if stored_name:
+                stored_normalized = normalize_name(stored_name)
+                if stored_normalized == normalized_name:
+                    print(f"🔄 Reusing existing internal code '{assigned_code}' for '{normalized_name}' in role '{role_group}'")
+                    return assigned_code
+        
+        return None
+        
+    except Exception as e:
+        print(f"Error checking existing internal codes: {e}")
+        return None
+
+
 def generate_next_internal_code(is_company=False):
     """Generate next internal code (gp for persons, cm for companies)"""
     conn = sqlite3.connect('db/tvcredits_v3.db')
@@ -155,11 +192,10 @@ def complete_imdb_fix():
     conn = sqlite3.connect('db/tvcredits_v3.db')
     cursor = conn.cursor()
     
-    # Get ALL credits that need processing
+    # Get ALL credits (except companies which will be skipped)
     cursor.execute("""
         SELECT id, name, role_group_normalized, imdb_matches, assigned_code, code_assignment_status, is_person
         FROM credits 
-        WHERE (assigned_code IS NULL OR code_assignment_status IN ('manual_required', 'ambiguous') OR imdb_matches IS NULL OR imdb_matches = '')
         ORDER BY name
     """)
     
@@ -175,11 +211,21 @@ def complete_imdb_fix():
         try:
             # Skip companies - they should get internal cm codes automatically
             if is_person is False or is_person == 0:
-                # This is a company - assign internal cm code
-                internal_code = generate_next_internal_code(is_company=True)
+                # This is a company - check for existing internal code first
+                normalized_name = normalize_name(name)
+                existing_code = check_existing_internal_code(normalized_name, role_group, is_company=True)
+                
+                if existing_code:
+                    # Reuse existing code
+                    internal_code = existing_code
+                    print(f"🔄 Reusing company code: {name} -> {internal_code} (role: {role_group})")
+                else:
+                    # Generate new internal code
+                    internal_code = generate_next_internal_code(is_company=True)
+                    print(f"✅ Auto-assigned company: {name} -> {internal_code} (role: {role_group})")
+                
                 new_status = 'internal_assigned'
                 auto_assigned_internal_count += 1
-                print(f"✅ Auto-assigned company: {name} -> {internal_code} (role: {role_group})")
                 
                 # Update the database
                 cursor.execute("""
@@ -244,7 +290,7 @@ def complete_imdb_fix():
                         manual_required_count += 1
                         print(f"❌ No compatible matches for {name} (role: {role_group}) - manual review needed")
                 
-                # Update the database
+                # Update the database with new IMDB matches and status
                 new_imdb_matches = json.dumps(matches)
                 cursor.execute("""
                     UPDATE credits 
@@ -255,12 +301,23 @@ def complete_imdb_fix():
             else:
                 # Person NOT found in IMDB - assign internal code
                 is_company = (is_person is False or is_person == 0)
-                internal_code = generate_next_internal_code(is_company)
+                
+                # Check for existing internal code first
+                existing_code = check_existing_internal_code(normalized_name, role_group, is_company=False)
+                
+                if existing_code:
+                    # Reuse existing code
+                    internal_code = existing_code
+                    print(f"🔄 Reusing person code: {name} -> {internal_code} (role: {role_group})")
+                else:
+                    # Generate new internal code
+                    internal_code = generate_next_internal_code(is_company)
+                    print(f"✅ Auto-assigned internal: {name} -> {internal_code} (role: {role_group})")
+                
                 new_status = 'internal_assigned'
                 auto_assigned_internal_count += 1
-                print(f"✅ Auto-assigned internal: {name} -> {internal_code} (role: {role_group})")
                 
-                # Update the database
+                # Update the database with internal code and clear IMDB matches
                 cursor.execute("""
                     UPDATE credits 
                     SET imdb_matches = NULL, assigned_code = ?, code_assignment_status = ?
