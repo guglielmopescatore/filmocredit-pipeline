@@ -73,16 +73,16 @@ def force_refresh_ocr_reader():
     selected_lang = st.session_state.get('ocr_language', 'it')
     selected_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
     reader_key = f"ocr_reader_{selected_engine}_{selected_lang}"
-    
+
     # Clear the cached reader
     if reader_key in st.session_state:
         logging.info(f"Clearing cached OCR reader for {selected_engine} ({selected_lang})")
         st.session_state[reader_key] = None
-    
+
     # Clear tracking keys
     st.session_state.pop("current_ocr_reader_engine_type", None)
     st.session_state.pop("current_ocr_reader_lang", None)
-    
+
     # Force recreation
     return get_cached_ocr_reader()
 
@@ -120,27 +120,27 @@ st.markdown(
         padding-left: 2rem;
         padding-right: 2rem;
     }
-    
+
     /* Make sidebar narrower */
     [data-testid="stSidebar"] {
         width: 200px !important;
     }
-    
+
     /* Adjust main content margin to match narrower sidebar */
     .css-1y4p8pa, [data-testid="stSidebar"] + div {
         margin-left: 220px !important;
     }
-    
+
     /* Make tabs wider */
     .stTabs [data-baseweb="tab-list"] {
         width: 100% !important;
     }
-    
+
     /* Make columns wider */
     .stHorizontalBlock {
         width: 100% !important;
     }
-    
+
     /* Make dataframes wider */
     .stDataFrame {
         width: 100% !important;
@@ -163,8 +163,8 @@ st.session_state['ocr_language'] = st.sidebar.selectbox(
 st.session_state['ocr_engine_type'] = 'paddleocr'
 
 # Add OCR refresh button for troubleshooting
-if st.sidebar.button("🔄 Refresh OCR Reader", 
-                    key="refresh_ocr_button", 
+if st.sidebar.button("🔄 Refresh OCR Reader",
+                    key="refresh_ocr_button",
                     help="Click this if you encounter OCR errors or want to refresh the model"):
     force_refresh_ocr_reader()
     st.sidebar.success("OCR reader refreshed!")
@@ -210,7 +210,7 @@ scene_detection_method = st.sidebar.radio(
     options=['time_based', 'scene_count', 'whole_episode'],
     format_func=lambda x: {
         'scene_count': '📋 By scene count',
-        'time_based': '⏱️ By time duration', 
+        'time_based': '⏱️ By time duration',
         'whole_episode': '🎬 Run on the whole episode'
     }[x],
     key="scene_detection_method_selector",
@@ -368,21 +368,21 @@ else:
 col_tab1, col_tab2, col_tab3 = st.columns(3)
 
 with col_tab1:
-    if st.button("⚙️ Setup & Run Pipeline", key="tab_button_1", 
+    if st.button("⚙️ Setup & Run Pipeline", key="tab_button_1",
                  type="primary" if st.session_state.current_tab == 0 else "secondary"):
         st.session_state.current_tab = 0
         st.session_state.preserve_review_tab = False  # Clear preservation when manually switching
         st.rerun()
 
 with col_tab2:
-    if st.button("✏️ Review & Edit Credits", key="tab_button_2", 
+    if st.button("✏️ Review & Edit Credits", key="tab_button_2",
                  type="primary" if st.session_state.current_tab == 1 else "secondary"):
         st.session_state.current_tab = 1
         st.session_state.preserve_review_tab = False  # Clear preservation when manually switching
         st.rerun()
 
 with col_tab3:
-    if st.button("📊 Logs", key="tab_button_3", 
+    if st.button("📊 Logs", key="tab_button_3",
                  type="primary" if st.session_state.current_tab == 2 else "secondary"):
         st.session_state.current_tab = 2
         st.session_state.preserve_review_tab = False  # Clear preservation when manually switching
@@ -605,7 +605,7 @@ if st.session_state.current_tab == 0:
             st.markdown("---")
             st.success("Scene selections updated. Ready for Step 2 if desired.")
     elif not st.session_state.step2_running:  # Only show this message when Step 2 is not running
-        if not selected_videos_str_paths:            
+        if not selected_videos_str_paths:
             st.info("📝 Select videos in Step 1 above to review their candidate scenes for Step 2.")
         # If videos are selected but Step 2 is running, don't show the scene review section
 
@@ -619,7 +619,7 @@ if st.session_state.current_tab == 0:
             st.warning("Please select at least one video for Step 1.")
         else:
             st.subheader("Running Step 1: Automatic Scene Detection")
-            
+
             # Force refresh OCR reader to ensure clean state
             st.info("🔄 Initializing fresh OCR reader...")
             ocr_reader = force_refresh_ocr_reader()
@@ -699,20 +699,20 @@ if st.session_state.current_tab == 0:
                                 st.session_state.episode_status[episode_id_proc]['step1_error'] = str(e)
                                 st.error(f"Exception in Step 1 ({episode_id_proc}): {e}")
                                 logging.error(f"Exception during Step 1 for {episode_id_proc}: {e}", exc_info=True)
-                
+
                 st.success(
                     "Step 1 processing finished for selected videos. Review candidate scenes in '2a. Review Candidate Scenes' section if available."
                 )
 
     if run_step2_button:
         # Set the step2_running flag immediately to hide scene review
-        st.session_state.step2_running = True        
+        st.session_state.step2_running = True
         if not selected_videos_str_paths:
             st.warning("Please select at least one video for Step 2.")
             st.session_state.step2_running = False  # Reset flag if no videos selected
         else:
             st.subheader("Running Step 2: Analyze Candidate Scene Frames")
-            
+
             # Force refresh OCR reader to prevent model caching issues
             st.info("🔄 Refreshing OCR reader to prevent model caching issues...")
             ocr_reader = force_refresh_ocr_reader()
@@ -734,20 +734,20 @@ if st.session_state.current_tab == 0:
                     config.EPISODES_BASE_DIR / episode_id_proc / "analysis" / "analysis_manifest.json"
                 )
                 frames_dir = config.EPISODES_BASE_DIR / episode_id_proc / "analysis" / "frames"
-                
+
                 # Check both status and file existence for robust detection
                 current_step2_status = st.session_state.episode_status[episode_id_proc].get('step2_status')
-                
-                if (current_step2_status == "completed" or current_step2_status == "already_completed" or 
+
+                if (current_step2_status == "completed" or current_step2_status == "already_completed" or
                     (analysis_manifest_file.exists() and frames_dir.exists())):
-                    
+
                     # If we only have file evidence but no status, verify the files
                     if current_step2_status not in ["completed", "already_completed"]:
                         try:
                             with open(analysis_manifest_file, 'r', encoding='utf-8') as f:
                                 manifest_data = json.load(f)
                             scenes_in_manifest = manifest_data.get('scenes', {})
-                            
+
                             if scenes_in_manifest:
                                 # Check if there are actual frame files in the frames directory
                                 frame_files = list(frames_dir.glob("*.jpg"))
@@ -956,7 +956,7 @@ if st.session_state.current_tab == 0:
                                 logging.info(
                                     f"[{episode_id_proc}] Step 2 completed with final episode cache containing {len(episode_saved_texts_cache)} unique texts"
                                 )
-                                
+
                                 # Set completion status
                                 final_status_msg_step2 = "completed"
 
@@ -990,15 +990,15 @@ if st.session_state.current_tab == 0:
                     st.session_state.episode_status[episode_id_proc] = {}
 
                 frames_dir_for_vlm = config.EPISODES_BASE_DIR / episode_id_proc / "analysis" / "frames"
-                
+
                 if not frames_dir_for_vlm.is_dir() or not any(frames_dir_for_vlm.iterdir()):
                     st.warning(
                         f"No frames found from Step 2 for {episode_id_proc} in {frames_dir_for_vlm}. VLM step might have no input."
                     )
-                
+
                 with st.expander(f"Step 3: {episode_id_proc}", expanded=True):
                     st.write(f"Processing Step 3 for {episode_id_proc}...")
-                    
+
                     with st.spinner(f"Running Azure VLM for {episode_id_proc}..."):
                         try:
                             # Role groups are now defined directly in config.py
@@ -1012,25 +1012,27 @@ if st.session_state.current_tab == 0:
                                     vlm_json_path = ocr_dir / f"{episode_id_proc}_credits_azure_vlm.json"
 
                                     if vlm_json_path.exists():
+                                        logging.info(f"[VLM_SAVE] VLM results file found: {vlm_json_path}")
                                         vlm_credits = utils.load_vlm_results_from_jsonl(vlm_json_path)
                                         if vlm_credits:
+                                            logging.info(f"[VLM_SAVE] Loaded {len(vlm_credits)} credits from VLM results for episode {episode_id_proc}")
                                             success, db_msg = utils.save_credits(episode_id_proc, vlm_credits)
                                             if success:
                                                 logging.info(
-                                                    f"[{episode_id_proc}] Successfully saved {len(vlm_credits)} credits to database."
+                                                    f"[VLM_SAVE] Successfully saved {len(vlm_credits)} credits to database for episode {episode_id_proc}."
                                                 )
                                             else:
                                                 logging.error(
-                                                    f"[{episode_id_proc}] Failed to save credits to database: {db_msg}"
+                                                    f"[VLM_SAVE] Failed to save credits to database for episode {episode_id_proc}: {db_msg}"
                                                 )
                                                 st.warning(f"VLM completed but database save failed: {db_msg}")
                                         else:
-                                            logging.warning(f"[{episode_id_proc}] No credits found in VLM results file.")
+                                            logging.warning(f"[VLM_SAVE] No credits found in VLM results file for episode {episode_id_proc}.")
                                     else:
-                                        logging.warning(f"[{episode_id_proc}] VLM results file not found: {vlm_json_path}")
+                                        logging.warning(f"[VLM_SAVE] VLM results file not found for episode {episode_id_proc}: {vlm_json_path}")
                                 except Exception as db_save_err:
                                     logging.error(
-                                        f"[{episode_id_proc}] Error saving VLM results to database: {db_save_err}",
+                                        f"[VLM_SAVE] Error saving VLM results to database for episode {episode_id_proc}: {db_save_err}",
                                         exc_info=True,
                                     )
                                     st.warning(f"VLM completed but database save failed: {db_save_err}")
@@ -1046,7 +1048,7 @@ if st.session_state.current_tab == 0:
                             st.session_state.episode_status[episode_id_proc]['step3_error'] = str(e)
                             st.error(f"Exception in Step 3 ({episode_id_proc}): {e}")
                             logging.error(f"Exception during Step 3 for {episode_id_proc}: {e}", exc_info=True)
-            
+
             st.info("Step 3 processing finished for selected videos.")
 
     if run_step4_button:
@@ -1054,64 +1056,64 @@ if st.session_state.current_tab == 0:
             st.warning("Please select at least one video for Step 4.")
         else:
             st.subheader("Running Step 4: IMDB Validation")
-            
+
             # Import the batch validator
             from scripts_v3.imdb_batch_validation import IMDBBatchValidator
-            
+
             for video_path_str_proc in selected_videos_str_paths:
                 video_path_obj = Path(video_path_str_proc)
                 episode_id_proc = video_path_obj.stem
                 if episode_id_proc not in st.session_state.episode_status:
                     st.session_state.episode_status[episode_id_proc] = {}
-                
+
                 try:
                     with st.expander(f"Step 4 IMDB Validation: {episode_id_proc}", expanded=True):
                         st.write(f"🔍 Validating credits and assigning codes for episode: {episode_id_proc}")
-                        
+
                         # Create batch validator with code assignment
                         from scripts_v3.imdb_batch_validation import IMDBBatchValidatorWithCodeAssignment
                         batch_validator = IMDBBatchValidatorWithCodeAssignment()
-                        
+
                         # Get credits to process for this episode
                         credits = batch_validator.get_unprocessed_credits(episode_id=episode_id_proc)
-                        
+
                         if not credits:
                             st.success(f"✅ No credits need code assignment for {episode_id_proc}")
                             st.session_state.episode_status[episode_id_proc]['step4_complete'] = True
                             continue
-                        
+
                         st.write(f"📊 Found {len(credits)} credits to process for {episode_id_proc}")
-                        
+
                         # Process credits with progress bar
                         progress_bar = st.progress(0)
                         status_text = st.empty()
-                        
+
                         total_credits = len(credits)
                         processed = 0
-                        
+
                         for i, credit in enumerate(credits):
                             name = credit.get('name', '')
-                            
+
                             # Update progress
                             progress = (i + 1) / total_credits
                             progress_bar.progress(progress)
                             status_text.text(f"Processing {i+1}/{total_credits}: {name}")
-                            
+
                             # Process credit with code assignment
                             success = batch_validator.process_credit_with_code_assignment(credit)
                             if not success:
                                 st.error(f"Failed to process credit: {name}")
-                            
+
                             processed += 1
-                        
+
                         # Show final results
                         progress_bar.progress(1.0)
                         status_text.text("IMDB validation and code assignment complete!")
-                        
+
                         # Display comprehensive statistics
                         stats = batch_validator.stats
                         st.subheader("📊 Processing Results")
-                        
+
                         col1, col2, col3, col4 = st.columns(4)
                         with col1:
                             st.metric("📊 Total Processed", stats['total_credits'])
@@ -1122,7 +1124,7 @@ if st.session_state.current_tab == 0:
                         with col4:
                             auto_total = stats['auto_assigned_nconst'] + stats['auto_assigned_internal']
                             st.metric("🤖 Auto-assigned", auto_total)
-                        
+
                         col5, col6, col7, col8 = st.columns(4)
                         with col5:
                             st.metric("✅ IMDB Codes", stats['auto_assigned_nconst'])
@@ -1132,7 +1134,7 @@ if st.session_state.current_tab == 0:
                             st.metric("⚠️ Manual Review", stats['manual_required'])
                         with col8:
                             st.metric("❓ Ambiguous", stats['ambiguous'])
-                        
+
                         # IMDB search statistics
                         if stats['found_in_imdb'] > 0 or stats['not_found_in_imdb'] > 0:
                             st.subheader("🎭 IMDB Search Results")
@@ -1141,26 +1143,26 @@ if st.session_state.current_tab == 0:
                                 st.metric("✅ Found in IMDB", stats['found_in_imdb'])
                             with col_imdb2:
                                 st.metric("❌ Not Found", stats['not_found_in_imdb'])
-                            
+
                             total_searched = stats['found_in_imdb'] + stats['not_found_in_imdb']
                             if total_searched > 0:
                                 match_rate = (stats['found_in_imdb'] / total_searched) * 100
                                 st.info(f"📈 IMDB match rate: {match_rate:.1f}%")
-                        
+
                         # Automatic assignment rate
                         total_processed = stats['persons_processed'] + stats['companies_processed']
                         if total_processed > 0:
                             auto_rate = (auto_total / total_processed) * 100
                             st.success(f"🚀 Automatic assignment rate: {auto_rate:.1f}%")
-                        
+
                         st.session_state.episode_status[episode_id_proc]['step4_complete'] = True
                         st.success(f"✅ Step 4 completed successfully for {episode_id_proc}")
-                        
+
                 except Exception as e:
                     st.session_state.episode_status[episode_id_proc]['step4_error'] = str(e)
                     st.error(f"Exception in Step 4 ({episode_id_proc}): {e}")
                     logging.error(f"Exception during Step 4 for {episode_id_proc}: {e}", exc_info=True)
-            
+
             st.info("Step 4 IMDB validation finished for selected videos.")
 
     if run_all_steps_button:
@@ -1168,9 +1170,9 @@ if st.session_state.current_tab == 0:
             "RUN ALL STEPS functionality needs to be implemented by calling Step 1, 2, and 3 in sequence for each selected video, with appropriate checks for success before proceeding to the next step. This is a complex workflow to manage in Streamlit's execution model and is left as a manual process for now (run steps individually)."
         )
 
-elif st.session_state.current_tab == 1:    
+elif st.session_state.current_tab == 1:
     st.header("✏️ Review & Edit Credits")
-    
+
     # Helper function to preserve review tab state
     def preserve_review_state(episode=None):
         """Set flags to preserve the review tab and current episode after rerun"""
@@ -1180,7 +1182,7 @@ elif st.session_state.current_tab == 1:
         else:
             # Clear episode preservation if not specified
             st.session_state.preserve_episode = None
-    
+
     # Clear preserve flags when user enters review tab
     if st.session_state.get('preserve_review_tab'):
         st.session_state.preserve_review_tab = False
@@ -1237,6 +1239,12 @@ elif st.session_state.current_tab == 1:
 
             with col2:
                 if st.button("🔄 Refresh Episodes"):
+                    # Invalidate cache for all episodes to force fresh calculation
+                    logging.info("[REFRESH] Invalidating cache for all episodes")
+                    for episode in available_episodes:
+                        utils.invalidate_credits_cache(episode)
+                    logging.info("[REFRESH] Cache invalidated for all episodes")
+                    
                     # Set flag to preserve review tab when refreshing episodes
                     st.session_state.preserve_review_tab = True
                     st.rerun()
@@ -1245,7 +1253,7 @@ elif st.session_state.current_tab == 1:
                 # Determine default episode selection with robust logic
                 default_index = 0
                 selected_episode_name = None
-                
+
                 # Priority 1: Use preserved episode if available
                 preserved_episode = st.session_state.get('preserve_episode')
                 if preserved_episode and preserved_episode in episode_options:
@@ -1258,7 +1266,7 @@ elif st.session_state.current_tab == 1:
                     except (ValueError, IndexError):
                         st.warning(f"Preserved episode '{preserved_episode}' no longer available")
                         st.session_state.preserve_episode = None
-                
+
                 # Priority 2: Use last selected episode if no preserved episode
                 if not selected_episode_name:
                     last_episode = st.session_state.get('last_selected_episode')
@@ -1268,14 +1276,14 @@ elif st.session_state.current_tab == 1:
                             selected_episode_name = last_episode
                         except (ValueError, IndexError):
                             default_index = 0
-                
+
                 # Priority 3: Default to first episode
                 if not selected_episode_name and episode_options:
                     selected_episode_name = episode_options[0]
 
                 selected_display = st.selectbox(
-                    "Select an episode to review:", 
-                    options=display_episodes, 
+                    "Select an episode to review:",
+                    options=display_episodes,
                     index=default_index,
                     key="episode_selector_review"
                 )                # Extract the actual episode name from the display string
@@ -1285,7 +1293,7 @@ elif st.session_state.current_tab == 1:
                     selected_episode = (
                         episode_options[display_episodes.index(selected_display)] if selected_display else None
                     )
-                
+
                 # Always update last selected episode for persistence
                 if selected_episode:
                     st.session_state.last_selected_episode = selected_episode
@@ -1313,7 +1321,7 @@ elif st.session_state.current_tab == 1:
                 problematic_queue = st.session_state[queue_key]
                 current_index = st.session_state[index_key]
 
-                col1, col2, col3 = st.columns([3, 1, 1])
+                col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
                 with col1:
                     review_mode = st.selectbox(
                         "Review Mode:",
@@ -1322,50 +1330,198 @@ elif st.session_state.current_tab == 1:
                     )
 
                 with col2:
-                    if st.button("🔄 Refresh Queue"):
+                    if st.button("🔄 Refresh Queue", help="Refresh the list of problematic credits"):
+                        # Invalidate cache for the current episode to force fresh calculation
+                        logging.info(f"[REFRESH_QUEUE] Invalidating cache for episode {selected_episode}")
+                        utils.invalidate_credits_cache(selected_episode)
+                        logging.info(f"[REFRESH_QUEUE] Cache invalidated for episode {selected_episode}")
+                        
                         st.session_state[queue_key] = utils.identify_problematic_credits(selected_episode)
                         st.session_state[index_key] = 0
                         # Reset the original total when queue is refreshed
                         if f"{queue_key}_original" in st.session_state:
                             del st.session_state[f"{queue_key}_original"]
-                          # Set flags to preserve review tab and episode state
+                        # Set flags to preserve review tab and episode state
                         st.session_state.preserve_review_tab = True
                         st.session_state.preserve_episode = selected_episode
-                        
                         st.success("Queue refreshed!")
                         st.rerun()
 
                 with col3:
-                    if st.button("🔓 Reset Reviews", help="Reset all 'kept' status for this episode"):
+                    if st.button("📋 Manage Processed", help="View and manage already processed entities"):
+                        # Set flag to show processed entities management
+                        st.session_state.show_processed_management = True
+                        st.session_state.preserve_review_tab = True
+                        st.session_state.preserve_episode = selected_episode
+                        st.rerun()
+
+                with col4:
+                    if st.button("🔓 Reset All", help="Reset all 'kept' status for this episode"):
                         try:
+                            logging.info(f"[RESET_REVIEWS] Starting reset operation for episode {selected_episode}")
                             conn = sqlite3.connect(config.DB_PATH)
                             cursor = conn.cursor()
+                            
+                            # Check how many credits are currently 'kept'
+                            cursor.execute(
+                                f"SELECT COUNT(*) FROM {config.DB_TABLE_CREDITS} WHERE episode_id = ? AND reviewed_status = 'kept'",
+                                (selected_episode,)
+                            )
+                            kept_count = cursor.fetchone()[0]
+                            logging.info(f"[RESET_REVIEWS] Found {kept_count} credits with 'kept' status for episode {selected_episode}")
+                            
                             cursor.execute(
                                 f"""
                                 UPDATE {config.DB_TABLE_CREDITS}
-                                SET reviewed_status = 'pending'
+                                SET reviewed_status = 'reverted'
                                 WHERE episode_id = ? AND reviewed_status = 'kept'
                             """,
                                 (selected_episode,),
                             )
                             affected_rows = cursor.rowcount
+                            logging.info(f"[RESET_REVIEWS] Updated {affected_rows} credits from 'kept' to 'pending' for episode {selected_episode}")
+                            
                             conn.commit()
-                            conn.close()                            # Refresh the queue
+                            logging.info(f"[RESET_REVIEWS] Committed reset changes for episode {selected_episode}")
+                            conn.close()
+                            logging.info(f"[RESET_REVIEWS] Database connection closed for episode {selected_episode}")
+                            
+                            # Refresh the queue
+                            logging.info(f"[RESET_REVIEWS] Refreshing problematic credits queue for episode {selected_episode}")
                             st.session_state[queue_key] = utils.identify_problematic_credits(selected_episode)
                             st.session_state[index_key] = 0
                             # Reset the original total when queue is refreshed
                             if f"{queue_key}_original" in st.session_state:
                                 del st.session_state[f"{queue_key}_original"]
-                            
-                            st.success(f"Reset review status for {affected_rows} credits. Queue refreshed.")
-                            
+
+
+
+                            st.success(f"Reset review status for {affected_rows} credits to 'reverted'. Queue refreshed.")
+
                             # Set flags to preserve review tab and episode state
                             st.session_state.preserve_review_tab = True
                             st.session_state.preserve_episode = selected_episode
                             st.rerun()
 
                         except Exception as e:
+                            logging.error(f"[RESET_REVIEWS] Error resetting review status for episode {selected_episode}: {e}", exc_info=True)
                             st.error(f"Error resetting review status: {e}")
+
+                # Processed Entities Management Section
+                if st.session_state.get('show_processed_management', False):
+                    st.markdown("---")
+                    st.subheader("📋 Processed Entities Management")
+                    
+                    # Get processed entities
+                    processed_entities = utils.get_processed_entities(selected_episode)
+                    
+                    if not processed_entities:
+                        st.info("No processed entities found for this episode.")
+                        if st.button("❌ Close Management"):
+                            st.session_state.show_processed_management = False
+                            st.session_state.preserve_review_tab = True
+                            st.session_state.preserve_episode = selected_episode
+                            st.rerun()
+                    else:
+                        # Get counts for summary
+                        total_credits = len(processed_entities)
+                        person_count = len([e for e in processed_entities if e['is_person']])
+                        company_count = total_credits - person_count
+                        with_codes = len([e for e in processed_entities if e.get('assigned_code')])
+                        
+                        # Summary metrics
+                        col1, col2, col3, col4 = st.columns(4)
+                        with col1:
+                            st.metric("📊 Total Processed", total_credits)
+                        with col2:
+                            st.metric("👤 Persons", person_count)
+                        with col3:
+                            st.metric("🏢 Companies", company_count)
+                        with col4:
+                            st.metric("🔢 With Codes", with_codes)
+                        
+                        st.info(f"Select the entities you want to put back for review:")
+                        
+                        # Create a DataFrame for better display
+                        import pandas as pd
+                        
+                        # Prepare data for display
+                        display_data = []
+                        for entity in processed_entities:
+                            display_data.append({
+                                'ID': entity['id'],
+                                'Name': entity['name'],
+                                'Role Group': entity['role_group'],
+                                'Role Detail': entity.get('role_detail', 'N/A'),
+                                'Type': 'Person' if entity['is_person'] else 'Company',
+                                'Assigned Code': entity.get('assigned_code', 'N/A'),
+                                'Source Frames': len(entity.get('source_frame', '').split(',')) if entity.get('source_frame') else 0
+                            })
+                        
+                        df = pd.DataFrame(display_data)
+                        
+                        # Add selection functionality
+                        st.dataframe(df, use_container_width=True)
+                        
+                        # Selection interface
+                        col1, col2, col3 = st.columns([2, 1, 1])
+                        
+                        with col1:
+                            st.write("**Selection Options:**")
+                            select_all = st.checkbox("Select All", key="select_all_processed")
+                            select_none = st.checkbox("Select None", key="select_none_processed")
+                            
+                                                    # Handle selection logic
+                        if select_all:
+                            selected_entities = [entity['id'] for entity in processed_entities]
+                        elif select_none:
+                            selected_entities = []
+                        else:
+                            # Manual selection
+                            st.write("**Or manually select specific entities:**")
+                            selected_entities = []
+                            for entity in processed_entities:
+                                if st.checkbox(
+                                    f"{entity['name']} ({entity['role_group']}) - {entity.get('assigned_code', 'No code')}", 
+                                    key=f"select_entity_{entity['id']}"
+                                ):
+                                    selected_entities.append(entity['id'])
+                        
+                        with col2:
+                            if st.button("🔄 Reset Selected", help="Put selected entities back for review"):
+                                if selected_entities:
+                                    affected = utils.reset_entity_review_status(selected_episode, selected_entities)
+                                    if affected > 0:
+                                        st.success(f"Successfully reset {affected} entities to 'reverted' status. They are now back in the review queue.")
+                                        
+                                        # Invalidate cache for the current episode to force fresh calculation
+                                        logging.info(f"[RESET_SELECTED] Invalidating cache for episode {selected_episode}")
+                                        utils.invalidate_credits_cache(selected_episode)
+                                        logging.info(f"[RESET_SELECTED] Cache invalidated for episode {selected_episode}")
+                                        
+                                        # Refresh the queue
+                                        st.session_state[queue_key] = utils.identify_problematic_credits(selected_episode)
+                                        st.session_state[index_key] = 0
+                                        if f"{queue_key}_original" in st.session_state:
+                                            del st.session_state[f"{queue_key}_original"]
+                                        # Close management view
+                                        st.session_state.show_processed_management = False
+                                        st.session_state.preserve_review_tab = True
+                                        st.session_state.preserve_episode = selected_episode
+                                        st.rerun()
+                                    else:
+                                        st.error("Failed to reset entities. Please try again.")
+                                else:
+                                    st.warning("Please select at least one entity to reset.")
+                        
+                        with col3:
+                            if st.button("❌ Close Management"):
+                                st.session_state.show_processed_management = False
+                                st.session_state.preserve_review_tab = True
+                                st.session_state.preserve_episode = selected_episode
+                                st.rerun()
+                        
+                        st.markdown("---")
 
                 if review_mode.startswith("🎯 Focus Mode") and problematic_queue:
                     total_problematic = len(problematic_queue)
@@ -1415,7 +1571,7 @@ elif st.session_state.current_tab == 1:
                         with col_info1:
                             assigned_code = current_credit.get('assigned_code')
                             code_status = current_credit.get('code_assignment_status')
-                            
+
                             if assigned_code:
                                 if assigned_code.startswith('nm'):
                                     st.success(f"🎯 **IMDB Code:** `{assigned_code}`")
@@ -1427,7 +1583,7 @@ elif st.session_state.current_tab == 1:
                                     st.info(f"🔢 **Assigned Code:** `{assigned_code}`")
                             else:
                                 st.warning("⚠️ **No code assigned**")
-                        
+
                         with col_info2:
                             if code_status:
                                 status_display = {
@@ -1436,7 +1592,7 @@ elif st.session_state.current_tab == 1:
                                     'manual_required': '⚠️ Manual review required',
                                     'ambiguous': '❓ Multiple IMDB matches'
                                 }.get(code_status, f'🔍 Status: {code_status}')
-                                
+
                                 if code_status == 'manual_required':
                                     st.error(status_display)
                                 elif code_status == 'ambiguous':
@@ -1445,7 +1601,7 @@ elif st.session_state.current_tab == 1:
                                     st.info(status_display)
                             else:
                                 st.info("🔍 **Status:** Not processed")
-                        
+
                         # Show IMDB matches if available (for manual review cases)
                         imdb_matches = current_credit.get('imdb_matches')
                         if imdb_matches and code_status in ['manual_required', 'ambiguous']:
@@ -1453,25 +1609,25 @@ elif st.session_state.current_tab == 1:
                             try:
                                 import json
                                 matches_data = json.loads(imdb_matches) if isinstance(imdb_matches, str) else imdb_matches
-                                
+
                                 if matches_data:
                                     st.info(f"Found {len(matches_data)} IMDB match(es) for this name:")
-                                    
+
                                     for i, match in enumerate(matches_data):  # Show all matches - no limit
                                         nconst = match.get('nconst', 'N/A')
-                                        name = match.get('primaryName', 'Unknown')
-                                        
-                                        with st.expander(f"Match {i+1}: {name} ({nconst})"):
+                                        match_name = match.get('normalized_name', 'Unknown')
+
+                                        with st.expander(f"Match {i+1}: {match_name} ({nconst})"):
                                             col_match1, col_match2 = st.columns(2)
                                             with col_match1:
-                                                st.write(f"**Name:** {name}")
+                                                st.write(f"**Name:** {match_name}")
                                                 st.write(f"**IMDB Code:** {nconst}")
-                                                
+
                                                 # Add IMDB link
                                                 if nconst != 'N/A' and nconst.startswith('nm'):
                                                     imdb_url = f"https://www.imdb.com/name/{nconst}/"
                                                     st.markdown(f"**🔗 IMDB Link:** [View on IMDB]({imdb_url})")
-                                                
+
                                             with col_match2:
                                                 professions = match.get('primaryProfession', 'N/A')
                                                 st.write(f"**Professions:** {professions}")
@@ -1482,12 +1638,12 @@ elif st.session_state.current_tab == 1:
                                                     if death_year != 'N/A':
                                                         years += f" - {death_year}"
                                                     st.write(f"**Years:** {years}")
-                                    
+
                                     if code_status == 'manual_required':
                                         st.warning("👆 **Action needed:** This person was found in IMDB but their profession doesn't match the role group. Please review and manually assign the correct code.")
                                     elif code_status == 'ambiguous':
                                         st.warning("👆 **Action needed:** Multiple people with compatible professions found. Please review and select the correct person.")
-                                        
+
                             except Exception as e:
                                 st.error(f"Error displaying IMDB matches: {e}")
 
@@ -1585,12 +1741,12 @@ elif st.session_state.current_tab == 1:
                                 st.warning("No source frames available for this credit")                        # Auto-open the variants modal - no buttons needed
                         st.markdown("---")
                         st.markdown("### ✏️ Edit/Delete Variants")
-                        
+
                         # Initialize state for new entries if not exists
                         new_entries_key = f"new_entries_{current_credit['id']}"
                         if new_entries_key not in st.session_state:
                             st.session_state[new_entries_key] = []
-                        
+
                         # Show helpful info about what can be done
                         new_entries_count = len(st.session_state[new_entries_key])
                         if new_entries_count > 0:
@@ -1607,7 +1763,7 @@ elif st.session_state.current_tab == 1:
                             if source_frames:
                                 frame_list = [f.strip() for f in source_frames.split(',') if f.strip()]
                                 available_frames.extend(frame_list)
-                        
+
                         # Remove duplicates and sort
                         available_frames = sorted(list(set(available_frames)))                        # Frame selection for new entries (if there are available frames)
                         selected_frame = None
@@ -1648,10 +1804,10 @@ elif st.session_state.current_tab == 1:
                         with st.form(f"form_edit_variants_{current_credit['id']}"):
                             # Collect form inputs for all variants (existing + new)
                             form_data = []
-                            
+
                             # Combine existing entries with new entries
                             all_entries = duplicate_entries + st.session_state[new_entries_key]
-                            
+
                             for i, entry in enumerate(all_entries):
                                 is_new = entry.get('is_new', False)
                                 entry_type = "New Entry" if is_new else f"Variant {i+1 - len(st.session_state[new_entries_key])}"
@@ -1662,14 +1818,14 @@ elif st.session_state.current_tab == 1:
                                     entry_type = f"New Entry #{new_index}"
                                 else:
                                     entry_type = f"Variant {i+1}"
-                                    
+
                                 # Add visual distinction for new entries
                                 if is_new:
                                     st.markdown(f"#### 🆕 {entry_type}")
                                     st.markdown("*This is a new entry that will be added to the database*")
                                 else:
                                     st.markdown(f"#### {entry_type}")
-                                    
+
                                 col1, col2, col3, col4, col5 = st.columns([2.5, 2.5, 2.5, 1.5, 1])
 
                                 with col1:
@@ -1716,36 +1872,36 @@ elif st.session_state.current_tab == 1:
                                     if is_new:
                                         # For new entries, show a remove checkbox
                                         delete_variant = st.checkbox(
-                                            "❌", 
-                                            key=f"remove_new_{i}", 
+                                            "❌",
+                                            key=f"remove_new_{i}",
                                             help="Check to remove this new entry (won't be saved)"
                                         )
                                     else:                                        # For existing entries, show delete checkbox
                                         delete_variant = st.checkbox(
                                             "🗑️", key=f"variant_delete_{i}", help="Check to delete this variant"
                                         )
-                                
+
                                 # Code Assignment Section (for manual review and ambiguous cases)
                                 if not is_new and current_credit.get('code_assignment_status') in ['manual_required', 'ambiguous']:
                                     st.markdown("##### 🔧 Code Assignment")
-                                    
+
                                     # Show context about why this needs manual assignment
                                     if current_credit.get('code_assignment_status') == 'ambiguous':
                                         st.info("🔄 **Multiple IMDB matches found** - Please select the correct person or assign an internal code.")
                                     elif current_credit.get('code_assignment_status') == 'manual_required':
                                         st.info("⚠️ **Manual review required** - Person found in IMDB but profession doesn't match role. Please review and assign appropriate code.")
-                                    
+
                                     # Create columns for code assignment UI
                                     code_col1, code_col2 = st.columns([3, 1])
-                                    
+
                                     with code_col2:
                                         # Checkbox for internal code assignment
                                         assign_internal = st.checkbox(
-                                            "Assign internal code", 
+                                            "Assign internal code",
                                             key=f"assign_internal_{i}",
                                             help="Check to assign a new internal gp/cm code instead of IMDB code"
                                         )
-                                    
+
                                     with code_col1:
                                         if assign_internal:
                                             # Show info about what internal code will be assigned
@@ -1756,16 +1912,16 @@ elif st.session_state.current_tab == 1:
                                             # Show IMDB code options
                                             imdb_matches = current_credit.get('imdb_matches')
                                             code_options = [""]  # Empty option first
-                                            
+
                                             if imdb_matches:
                                                 try:
                                                     import json
                                                     matches_data = json.loads(imdb_matches) if isinstance(imdb_matches, str) else imdb_matches
-                                                    
+
                                                     # Create options with name and nconst
                                                     for match in matches_data:  # Show all matches - no limit
                                                         nconst = match.get('nconst', '')
-                                                        name = match.get('primaryName', 'Unknown')
+                                                        match_name = match.get('normalized_name', 'Unknown')
                                                         professions = match.get('primaryProfession', 'N/A')
                                                         years = ""
                                                         if match.get('birthYear', 'N/A') != 'N/A':
@@ -1773,16 +1929,16 @@ elif st.session_state.current_tab == 1:
                                                             if match.get('deathYear', 'N/A') != 'N/A':
                                                                 years += f"-{match.get('deathYear', '')}"
                                                             years += ")"
-                                                        
-                                                        display_name = f"{nconst} - {name}{years} [{professions}]"
+
+                                                        display_name = f"{nconst} - {match_name}{years} [{professions}]"
                                                         code_options.append(nconst)
-                                                        
+
                                                 except Exception as e:
                                                     st.error(f"Error parsing IMDB matches: {e}")
-                                            
+
                                             # Default to first match if available
                                             default_index = 1 if len(code_options) > 1 else 0
-                                            
+
                                             # Create format function to display code options nicely
                                             def format_code_option(code):
                                                 if code == "":
@@ -1792,12 +1948,13 @@ elif st.session_state.current_tab == 1:
                                                         matches_data = json.loads(imdb_matches) if isinstance(imdb_matches, str) else imdb_matches
                                                         for match in matches_data:
                                                             if match.get('nconst') == code:
-                                                                name = match.get('primaryName', 'Unknown')
-                                                                return f"{code} - {name}"
+                                                                match_name = match.get('normalized_name', 'Unknown')
+                                                                professions = match.get('primaryProfession', 'N/A')
+                                                                return f"{code} - {match_name} [{professions}]"
                                                     return code
                                                 except:
                                                     return code
-                                            
+
                                             selected_code = st.selectbox(
                                                 "Select IMDB Code",
                                                 options=code_options,
@@ -1806,12 +1963,24 @@ elif st.session_state.current_tab == 1:
                                                 help="Choose the correct IMDB code or leave blank for manual entry",
                                                 format_func=format_code_option
                                             )
-                                            
+
                                             # Show IMDB link for selected code
                                             if selected_code and selected_code.startswith('nm'):
                                                 imdb_url = f"https://www.imdb.com/name/{selected_code}/"
-                                                st.markdown(f"🔗 **Verify selection:** [View {selected_code} on IMDB]({imdb_url})")
-                                            
+                                                # Get profession info for the selected code
+                                                profession_info = ""
+                                                try:
+                                                    if imdb_matches:
+                                                        matches_data = json.loads(imdb_matches) if isinstance(imdb_matches, str) else imdb_matches
+                                                        for match in matches_data:
+                                                            if match.get('nconst') == selected_code:
+                                                                professions = match.get('primaryProfession', 'N/A')
+                                                                profession_info = f" [{professions}]"
+                                                                break
+                                                except:
+                                                    pass
+                                                st.markdown(f"🔗 **Verify selection:** [View {selected_code}{profession_info} on IMDB]({imdb_url})")
+
                                             # Show quick reference of all available options with links
                                             if imdb_matches and len(code_options) > 1:
                                                 with st.expander("🔍 Quick Reference - All IMDB Options"):
@@ -1819,14 +1988,14 @@ elif st.session_state.current_tab == 1:
                                                         matches_data = json.loads(imdb_matches) if isinstance(imdb_matches, str) else imdb_matches
                                                         for match in matches_data:
                                                             nconst = match.get('nconst', '')
-                                                            name = match.get('primaryName', 'Unknown')
+                                                            match_name = match.get('normalized_name', 'Unknown')
                                                             professions = match.get('primaryProfession', 'N/A')
                                                             if nconst:
                                                                 imdb_url = f"https://www.imdb.com/name/{nconst}/"
-                                                                st.markdown(f"• **{nconst}** - {name} [{professions}] - [View on IMDB]({imdb_url})")
+                                                                st.markdown(f"• **{nconst}** - {match_name} [{professions}] - [View on IMDB]({imdb_url})")
                                                     except:
                                                         st.info("Error loading reference data")
-                                            
+
                                             # Allow manual entry if no match selected
                                             if not selected_code:
                                                 manual_code = st.text_input(
@@ -1843,18 +2012,18 @@ elif st.session_state.current_tab == 1:
                                     assign_internal_key = f"assign_internal_{i}"
                                     selected_code_key = f"selected_code_{i}"
                                     manual_code_key = f"manual_code_{i}"
-                                    
+
                                     # Get values from session state (form hasn't been submitted yet)
                                     assign_internal = st.session_state.get(assign_internal_key, False)
                                     selected_code = st.session_state.get(selected_code_key, "")
                                     manual_code = st.session_state.get(manual_code_key, "")
-                                    
+
                                     code_assignment_data = {
                                         'assign_internal': assign_internal,
                                         'selected_code': selected_code or manual_code,
                                         'needs_assignment': True
                                     }
-                                
+
                                 form_data.append(
                                     {
                                         'id': entry['id'],
@@ -1933,15 +2102,22 @@ elif st.session_state.current_tab == 1:
                                         cursor = conn.cursor()
 
                                         # Delete marked variants first (only existing ones)
+                                        logging.info(f"[DB SAVE] Starting database operations for episode {selected_episode}")
+                                        logging.info(f"[DB SAVE] Planning to delete {len(variants_to_delete)} variants: {variants_to_delete}")
+                                        
                                         for variant_id in variants_to_delete:
+                                            logging.info(f"[DB SAVE] Deleting variant with ID: {variant_id}")
                                             cursor.execute(
                                                 f"DELETE FROM {config.DB_TABLE_CREDITS} WHERE id = ?", (variant_id,)                                            )
-                                            
+                                            logging.info(f"[DB SAVE] Deleted variant with ID: {variant_id}")
+
                                         # Insert new variants
-                                        for new_variant in new_variants:
+                                        logging.info(f"[DB SAVE] Planning to insert {len(new_variants)} new variants")
+                                        for i, new_variant in enumerate(new_variants):
+                                            logging.info(f"[DB SAVE] Inserting new variant {i+1}/{len(new_variants)}: {new_variant['name']} (Role: {new_variant['role_group']})")
                                             cursor.execute(
                                                 f"""
-                                                INSERT INTO {config.DB_TABLE_CREDITS} 
+                                                INSERT INTO {config.DB_TABLE_CREDITS}
                                                 (episode_id, name, role_group_normalized, role_detail, scene_position, source_frame, reviewed_status, is_person)
                                                 VALUES (?, ?, ?, ?, 'manual_entry', ?, 'kept', ?)
                                             """,
@@ -1954,18 +2130,22 @@ elif st.session_state.current_tab == 1:
                                                     new_variant['is_person']
                                                 ),
                                             )
-                                            
+                                            logging.info(f"[DB SAVE] Successfully inserted new variant: {new_variant['name']}")
+
                                         # Update remaining existing variants
-                                        for variant in edited_variants:
+                                        logging.info(f"[DB SAVE] Planning to update {len(edited_variants)} existing variants")
+                                        for i, variant in enumerate(edited_variants):
+                                            logging.info(f"[DB SAVE] Updating variant {i+1}/{len(edited_variants)}: {variant['name']} (ID: {variant['id']})")
                                             # Handle code assignment if present
                                             code_assignment = next((v['code_assignment'] for v in form_data if v['id'] == variant['id']), None)
-                                            
+
                                             if code_assignment and code_assignment.get('needs_assignment'):
                                                 if code_assignment.get('assign_internal'):
                                                     # Generate internal code
                                                     is_company = not variant['is_person']
                                                     new_internal_code = utils.generate_next_internal_code(is_company)
-                                                    
+                                                    logging.info(f"[DB SAVE] Assigning internal code {new_internal_code} to variant {variant['name']} (ID: {variant['id']})")
+
                                                     cursor.execute(
                                                         f"""
                                                         UPDATE {config.DB_TABLE_CREDITS}
@@ -1983,9 +2163,12 @@ elif st.session_state.current_tab == 1:
                                                             variant['id'],
                                                         ),
                                                     )
-                                                    
+                                                    logging.info(f"[DB SAVE] Successfully updated variant {variant['name']} with internal code {new_internal_code}")
+
                                                 elif code_assignment.get('selected_code'):
                                                     # Assign selected IMDB code
+                                                    selected_code = code_assignment['selected_code']
+                                                    logging.info(f"[DB SAVE] Assigning IMDB code {selected_code} to variant {variant['name']} (ID: {variant['id']})")
                                                     cursor.execute(
                                                         f"""
                                                         UPDATE {config.DB_TABLE_CREDITS}
@@ -1999,12 +2182,14 @@ elif st.session_state.current_tab == 1:
                                                             variant['role_group'],
                                                             variant['role_detail'],
                                                             variant['is_person'],
-                                                            code_assignment['selected_code'],
+                                                            selected_code,
                                                             variant['id'],
                                                         ),
                                                     )
+                                                    logging.info(f"[DB SAVE] Successfully updated variant {variant['name']} with IMDB code {selected_code}")
                                                 else:
                                                     # No code assignment made, update other fields only
+                                                    logging.info(f"[DB SAVE] Updating variant {variant['name']} (ID: {variant['id']}) without code assignment")
                                                     cursor.execute(
                                                         f"""
                                                         UPDATE {config.DB_TABLE_CREDITS}
@@ -2020,8 +2205,10 @@ elif st.session_state.current_tab == 1:
                                                             variant['id'],
                                                         ),
                                                     )
+                                                    logging.info(f"[DB SAVE] Successfully updated variant {variant['name']} without code assignment")
                                             else:
                                                 # No code assignment needed, regular update
+                                                logging.info(f"[DB SAVE] Regular update for variant {variant['name']} (ID: {variant['id']}) - no code assignment needed")
                                                 cursor.execute(
                                                     f"""
                                                     UPDATE {config.DB_TABLE_CREDITS}
@@ -2037,10 +2224,16 @@ elif st.session_state.current_tab == 1:
                                                         variant['id'],
                                                     ),
                                                 )
+                                                logging.info(f"[DB SAVE] Successfully updated variant {variant['name']} with regular update")
 
+                                        logging.info(f"[DB SAVE] Committing all database changes for episode {selected_episode}")
                                         conn.commit()
+                                        logging.info(f"[DB SAVE] Successfully committed database changes for episode {selected_episode}")
                                         conn.close()
+                                        logging.info(f"[DB SAVE] Database connection closed for episode {selected_episode}")
                                         
+
+
                                         # Update session state: remove processed new entries
                                         # Keep only new entries that weren't processed (neither saved nor removed)
                                         remaining_new_entries = []
@@ -2053,13 +2246,13 @@ elif st.session_state.current_tab == 1:
                                                 if not form_entry['delete']:
                                                     remaining_new_entries.append(entry)
                                         st.session_state[new_entries_key] = remaining_new_entries
-                                        
+
                                         # Check if any variants remain and collect code assignment info
                                         total_remaining = len(edited_variants) + len(new_variants)
                                         codes_assigned = 0
                                         internal_codes_assigned = 0
                                         imdb_codes_assigned = 0
-                                        
+
                                         # Count code assignments
                                         for variant in edited_variants:
                                             code_assignment = next((v['code_assignment'] for v in form_data if v['id'] == variant['id']), None)
@@ -2069,7 +2262,7 @@ elif st.session_state.current_tab == 1:
                                                 elif code_assignment.get('selected_code'):
                                                     imdb_codes_assigned += 1
                                                 codes_assigned += 1
-                                        
+
                                         if total_remaining == 0:
                                             # All variants were deleted
                                             success_msg = f"🗑️ All variants deleted successfully!"
@@ -2080,9 +2273,9 @@ elif st.session_state.current_tab == 1:
                                             adds_msg = f"{len(new_variants)} added" if new_variants else ""
                                             deletes_msg = f"{len(variants_to_delete)} deleted" if variants_to_delete else ""
                                             removes_msg = f"{removed_new_entries} new entries removed" if removed_new_entries else ""
-                                            
+
                                             actions = [msg for msg in [updates_msg, adds_msg, deletes_msg, removes_msg] if msg]
-                                            
+
                                             # Add code assignment summary
                                             if codes_assigned > 0:
                                                 code_summary = []
@@ -2091,10 +2284,10 @@ elif st.session_state.current_tab == 1:
                                                 if internal_codes_assigned > 0:
                                                     code_summary.append(f"{internal_codes_assigned} internal code(s)")
                                                 actions.append(f"{' + '.join(code_summary)} assigned")
-                                            
+
                                             success_msg = f"💾 Changes saved! {', '.join(actions)}."
                                             decision_type = 'variants_edited'
-                                            
+
                                         # Remove from queue and update navigation (for all cases)
                                         # Get fresh references directly from session state
                                         problematic_queue = st.session_state[queue_key]
@@ -2161,7 +2354,7 @@ elif st.session_state.current_tab == 1:
 
                                         # Set flags to preserve review tab and episode state
                                         st.session_state.preserve_review_tab = True
-                                        
+
                                         # Only preserve episode if there are still credits to review
                                         if len(st.session_state[queue_key]) > 0:
                                             st.session_state.preserve_episode = selected_episode
@@ -2169,7 +2362,7 @@ elif st.session_state.current_tab == 1:
                                         else:
                                             st.session_state.preserve_episode = None
                                             logging.info(f"[Variants Save] All credits completed for {selected_episode} - not preserving episode")
-                                        
+
                                         # Log completion
                                         logging.info(
                                             f"[Variants Save] Completed processing. Queue now has {len(st.session_state[queue_key])} credits, index is {st.session_state[index_key]}"
@@ -2179,7 +2372,7 @@ elif st.session_state.current_tab == 1:
                                             st.info("🎉 All credits reviewed!")
                                         else:
                                             st.info("✅ Moving to next credit...")
-                                        
+
                                         # Force rerun to show updated state and navigate to review tab
                                         st.rerun()
 
@@ -2195,10 +2388,10 @@ elif st.session_state.current_tab == 1:
                                         st.session_state[index_key] = 0
                                       # Set flags to preserve review tab and episode state
                                     st.session_state.preserve_review_tab = True
-                                    
+
                                     # Always preserve episode when skipping (there are still credits)
                                     st.session_state.preserve_episode = selected_episode
-                                    
+
                                     st.success("⏭️ Skipped - moved to next credit")
                                     st.rerun()
 

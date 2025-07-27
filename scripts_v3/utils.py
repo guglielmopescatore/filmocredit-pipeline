@@ -138,8 +138,10 @@ def setup_logging() -> None:
         log_file_path = config.LOG_FILE_PATH
         log_file_path.parent.mkdir(parents=True, exist_ok=True)
 
+        # Use a larger maxBytes and fewer backups to reduce rotation frequency on Windows
+        # This reduces the chance of file locking issues during rotation
         file_handler = RotatingFileHandler(
-            filename=log_file_path, maxBytes=5 * 1024 * 1024, backupCount=3, encoding="utf-8"  # 5 MB
+            filename=log_file_path, maxBytes=50 * 1024 * 1024, backupCount=1, encoding="utf-8"  # 50 MB, 1 backup
         )
         file_handler.setLevel(logging.DEBUG)
         file_handler.setFormatter(json_formatter)
@@ -160,7 +162,8 @@ def setup_logging() -> None:
             )
         )
     except Exception as exc:
-        # Se l’aggiunta del FileHandler fallisce, viene gestita l’eccezione
+        # Se l'aggiunta del FileHandler fallisce, viene gestita l'eccezione
+        # On Windows, this might happen due to file locking - log but don't crash
         root_logger.error(
             f"Impossibile aggiungere il RotatingFileHandler per {config.LOG_FILE_PATH}: {exc}"
         )  # ───────────────────────────────────────────────────────────
@@ -803,15 +806,31 @@ def save_credits(episode_id: str, credits_data: list[dict]) -> None:
     Deletes existing credits for the episode before inserting new ones."""
     conn = None
     try:
+        logging.info(f"[SAVE_CREDITS] Starting save operation for episode {episode_id}")
+        logging.info(f"[SAVE_CREDITS] Input credits count: {len(credits_data)}")
+        
         credits_data = deduplicate_credits(credits_data)
+        logging.info(f"[SAVE_CREDITS] After deduplication: {len(credits_data)} credits")
+        
         conn = sqlite3.connect(config.DB_PATH)
         cursor = conn.cursor()
+        logging.info(f"[SAVE_CREDITS] Database connection established for episode {episode_id}")
+
+        # Check existing credits before deletion
+        cursor.execute(f"SELECT COUNT(*) FROM {config.DB_TABLE_CREDITS} WHERE episode_id = ?", (episode_id,))
+        existing_count = cursor.fetchone()[0]
+        logging.info(f"[SAVE_CREDITS] Found {existing_count} existing credits for episode {episode_id}")
 
         cursor.execute(f"DELETE FROM {config.DB_TABLE_CREDITS} WHERE episode_id = ?", (episode_id,))
-        logging.info(f"[{episode_id}] Deleted existing credits from DB.")
+        deleted_count = cursor.rowcount
+        logging.info(f"[SAVE_CREDITS] Deleted {deleted_count} existing credits from DB for episode {episode_id}.")
 
         insert_data = []
-        for credit in credits_data:
+        logging.info(f"[SAVE_CREDITS] Processing {len(credits_data)} credits for insertion")
+        
+        for i, credit in enumerate(credits_data):
+            logging.info(f"[SAVE_CREDITS] Processing credit {i+1}/{len(credits_data)}: {credit.get('name', 'Unknown')} (Role: {credit.get('role_group', 'Unknown')})")
+            
             source_frame = credit.get('source_frame')
             if isinstance(source_frame, list):
                 source_frame_db = ",".join(source_frame)
@@ -852,7 +871,9 @@ def save_credits(episode_id: str, credits_data: list[dict]) -> None:
                     normalized_name,
                 )
             )
+            logging.info(f"[SAVE_CREDITS] Prepared credit {i+1}: {name} (is_person: {is_person}, normalized: {normalized_name})")
 
+        logging.info(f"[SAVE_CREDITS] Executing bulk insert of {len(insert_data)} credits")
         cursor.executemany(
             f"""
         INSERT INTO {config.DB_TABLE_CREDITS}
@@ -861,27 +882,34 @@ def save_credits(episode_id: str, credits_data: list[dict]) -> None:
         """,
             insert_data,
         )
+        logging.info(f"[SAVE_CREDITS] Bulk insert completed successfully")
 
+        logging.info(f"[SAVE_CREDITS] Committing database changes for episode {episode_id}")
         conn.commit()
-        logging.info(f"[{episode_id}] Successfully saved {len(insert_data)} credits to DB.")
+        logging.info(f"[SAVE_CREDITS] Successfully saved {len(insert_data)} credits to DB for episode {episode_id}.")
         
         # Invalidate cache after successful save
+        logging.info(f"[SAVE_CREDITS] Invalidating cache for episode {episode_id}")
         invalidate_credits_cache(episode_id)
+        logging.info(f"[SAVE_CREDITS] Cache invalidated for episode {episode_id}")
         
         return True, f"Saved {len(insert_data)} credits."
 
     except sqlite3.Error as e:
-        logging.error(f"[{episode_id}] Database error saving credits: {e}", exc_info=True)
+        logging.error(f"[SAVE_CREDITS] Database error saving credits for episode {episode_id}: {e}", exc_info=True)
         if conn:
+            logging.info(f"[SAVE_CREDITS] Rolling back database changes for episode {episode_id}")
             conn.rollback()
         return False, f"Database error: {e}"
     except Exception as e:
-        logging.error(f"[{episode_id}] Unexpected error saving credits: {e}", exc_info=True)
+        logging.error(f"[SAVE_CREDITS] Unexpected error saving credits for episode {episode_id}: {e}", exc_info=True)
         if conn:
+            logging.info(f"[SAVE_CREDITS] Rolling back database changes for episode {episode_id}")
             conn.rollback()
         return False, f"Unexpected error: {e}"
     finally:
         if conn:
+            logging.info(f"[SAVE_CREDITS] Closing database connection for episode {episode_id}")
             conn.close()
 
 
@@ -1577,7 +1605,8 @@ def format_problem_description(problem_types: List[str]) -> str:
         "too_short": "📏 Name too short to validate",
         "manual_code_review_required": "⚠️ IMDB code assignment needs manual review",
         "ambiguous_imdb_matches": "❓ Multiple IMDB matches found - needs selection",
-        "missing_code_assignment": "🔢 No code assigned yet"
+        "missing_code_assignment": "🔢 No code assigned yet",
+        "reverted_for_review": "🔄 Reverted for manual review"
     }
     
     descriptions = []
@@ -1681,6 +1710,28 @@ def get_cached_problematic_credits_count(episode_id: str) -> Optional[int]:
     return None
 
 
+def get_cached_problematic_credits_list(episode_id: str) -> Optional[List[Dict[str, Any]]]:
+    """
+    Get cached list of problematic credits for an episode.
+    
+    Args:
+        episode_id: Episode to check
+        
+    Returns:
+        Cached list or None if not cached/expired
+    """
+    cache_key = f"problem_list_{episode_id}"
+    cache_time_key = f"problem_list_time_{episode_id}"
+    
+    if cache_key in st.session_state and cache_time_key in st.session_state:
+        cache_time = st.session_state[cache_time_key]
+        # Check if cache is still valid (30 seconds)
+        if time.time() - cache_time < 30:
+            return st.session_state[cache_key]
+    
+    return None
+
+
 def cache_problematic_credits_count(episode_id: str, count: int) -> None:
     """
     Cache the count of problematic credits for an episode.
@@ -1696,6 +1747,21 @@ def cache_problematic_credits_count(episode_id: str, count: int) -> None:
     st.session_state[cache_time_key] = time.time()
 
 
+def cache_problematic_credits_list(episode_id: str, credits_list: List[Dict[str, Any]]) -> None:
+    """
+    Cache the list of problematic credits for an episode.
+    
+    Args:
+        episode_id: Episode ID
+        credits_list: List of problematic credits
+    """
+    cache_key = f"problem_list_{episode_id}"
+    cache_time_key = f"problem_list_time_{episode_id}"
+    
+    st.session_state[cache_key] = credits_list
+    st.session_state[cache_time_key] = time.time()
+
+
 def invalidate_credits_cache(episode_id: str) -> None:
     """
     Invalidate cached data for an episode when credits are saved.
@@ -1706,6 +1772,8 @@ def invalidate_credits_cache(episode_id: str) -> None:
     cache_keys_to_remove = [
         f"problem_count_{episode_id}",
         f"problem_count_time_{episode_id}",
+        f"problem_list_{episode_id}",
+        f"problem_list_time_{episode_id}",
         f"episode_stats_{episode_id}",
         f"episode_stats_time_{episode_id}"
     ]
@@ -1737,30 +1805,82 @@ def identify_problematic_credits_fast(episode_id: str) -> int:
         conn = sqlite3.connect(config.DB_PATH)
         cursor = conn.cursor()
         
-        # Quick count query for performance
+        # Get credits that need review (including reverted credits) - same query as full function
         cursor.execute(f"""
-            SELECT COUNT(*) 
+            SELECT id, episode_id, source_frame, role_group, name, role_detail, 
+                   role_group_normalized, original_frame_number, scene_position, 
+                   reviewed_status, is_person, normalized_name,
+                   assigned_code, code_assignment_status, imdb_matches
             FROM {config.DB_TABLE_CREDITS} 
             WHERE episode_id = ? 
             AND (reviewed_status IS NULL OR reviewed_status != 'kept')
-            AND role_group NOT IN ('Thanks', 'Additional Crew', 'Production Companies', 'Distributors', 'Sales Representatives / ISA', 'Special Effects Companies', 'Miscellaneous Companies')
-            AND (
-                role_group = 'Unknown' 
-                OR role_group_normalized IS NULL 
-                OR name IS NULL 
-                OR name = ''
-                OR (is_person IS NULL AND role_group NOT LIKE '%Compan%')
-            )
+            ORDER BY role_group_normalized, name
         """, (episode_id,))
         
-        count = cursor.fetchone()[0]
+        credits_data = cursor.fetchall()
         conn.close()
         
-        # Cache the result
-        cache_problematic_credits_count(episode_id, count)
+        if not credits_data:
+            cache_problematic_credits_count(episode_id, 0)
+            return 0
         
-        logging.info(f"Identified {count} problematic credits for episode {episode_id}")
-        return count
+        problematic_count = 0
+        
+        for credit in credits_data:
+            (credit_id, ep_id, source_frame, role_group, name, role_detail, 
+             role_group_normalized, original_frame_number, scene_position, 
+             reviewed_status, is_person, normalized_name,
+             assigned_code, code_assignment_status, imdb_matches) = credit
+            
+            # Skip company role groups from problematic credits identification
+            if is_company_role_group(role_group):
+                continue
+            
+            # Skip Thanks and Additional Crew roles - they should always get internal codes
+            if role_group and role_group.lower() in ['thanks', 'additional crew']:
+                continue
+            
+            problem_types = []
+            
+            # Check for various problematic conditions (same logic as full function)
+            if not name or name.strip() == "":
+                problem_types.append("empty_name")
+            
+            if not role_group or role_group == "Unknown":
+                problem_types.append("unknown_role_group")
+            
+            if not role_group_normalized:
+                problem_types.append("missing_normalized_role")
+                
+            # Check for potential company validation issues
+            if is_person is None and not is_company_role_group(role_group):
+                problem_types.append("missing_is_person_flag")
+                
+            # Check for potentially problematic names (very long names)
+            if name and len(name.strip().split()) > 6:
+                problem_types.append("concatenated_names")
+            
+            # Check for code assignment issues  
+            if code_assignment_status == 'manual_required':
+                problem_types.append("manual_code_review_required")
+            elif code_assignment_status == 'ambiguous':
+                problem_types.append("ambiguous_imdb_matches")
+            elif not assigned_code and not is_company_role_group(role_group):
+                problem_types.append("missing_code_assignment")
+            
+            # Always include reverted credits as problematic
+            if reviewed_status == 'reverted':
+                problem_types.append("reverted_for_review")
+            
+            # If any problems found, count as problematic
+            if problem_types:
+                problematic_count += 1
+        
+        # Cache the result
+        cache_problematic_credits_count(episode_id, problematic_count)
+        
+        logging.info(f"Identified {problematic_count} problematic credits for episode {episode_id}")
+        return problematic_count
         
     except Exception as e:
         logging.error(f"Error identifying problematic credits for {episode_id}: {e}", exc_info=True)
@@ -1777,12 +1897,23 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
           Returns:
         List of problematic credit dictionaries
     """
+    # Check cache first
+    cached_list = get_cached_problematic_credits_list(episode_id)
+    if cached_list is not None:
+        logging.debug(f"Using cached problematic credits list for {episode_id}: {len(cached_list)} credits")
+        return cached_list
+    
     try:
-        logging.info(f"[Problematic Credits] Starting identification for episode: {episode_id}")
+        logging.info(f"[PROBLEMATIC_CREDITS] Starting identification for episode: {episode_id}")
         conn = sqlite3.connect(config.DB_PATH)
         cursor = conn.cursor()
         
-        # Get credits that need review
+        # Get total credits for this episode first
+        cursor.execute(f"SELECT COUNT(*) FROM {config.DB_TABLE_CREDITS} WHERE episode_id = ?", (episode_id,))
+        total_credits = cursor.fetchone()[0]
+        logging.info(f"[PROBLEMATIC_CREDITS] Total credits in database for episode {episode_id}: {total_credits}")
+        
+        # Get credits that need review (including reverted credits)
         cursor.execute(f"""
             SELECT id, episode_id, source_frame, role_group, name, role_detail, 
                    role_group_normalized, original_frame_number, scene_position, 
@@ -1797,30 +1928,30 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
         credits_data = cursor.fetchall()
         conn.close()
         
-        logging.info(f"[Problematic Credits] Found {len(credits_data)} credits that need review for episode: {episode_id}")
+        logging.info(f"[PROBLEMATIC_CREDITS] Found {len(credits_data)} credits that need review for episode: {episode_id}")
         if not credits_data:
-            logging.info(f"[Problematic Credits] No credits to review for episode: {episode_id}")
+            logging.info(f"[PROBLEMATIC_CREDITS] No credits to review for episode: {episode_id}")
             return []
         
         problematic_credits = []
         
-        logging.info(f"[Problematic Credits] Processing {len(credits_data)} individual credits...")
+        logging.info(f"[PROBLEMATIC_CREDITS] Processing {len(credits_data)} individual credits...")
         for i, credit in enumerate(credits_data):
             (credit_id, ep_id, source_frame, role_group, name, role_detail, 
              role_group_normalized, original_frame_number, scene_position, 
              reviewed_status, is_person, normalized_name,
              assigned_code, code_assignment_status, imdb_matches) = credit
             
-            logging.debug(f"[Problematic Credits] Processing credit {i+1}/{len(credits_data)}: ID={credit_id}, name='{name}', role='{role_group}', is_person={is_person}")
+            logging.info(f"[PROBLEMATIC_CREDITS] Processing credit {i+1}/{len(credits_data)}: ID={credit_id}, name='{name}', role='{role_group}', is_person={is_person}")
             
             # Skip company role groups from problematic credits identification
             if is_company_role_group(role_group):
-                logging.debug(f"[Problematic Credits] Skipping company role group: '{role_group}' for name: '{name}'")
+                logging.info(f"[PROBLEMATIC_CREDITS] Skipping company role group: '{role_group}' for name: '{name}'")
                 continue
             
             # Skip Thanks and Additional Crew roles - they should always get internal codes
             if role_group and role_group.lower() in ['thanks', 'additional crew']:
-                logging.debug(f"[Problematic Credits] Skipping '{role_group}' role - expected to get internal codes: '{name}'")
+                logging.info(f"[PROBLEMATIC_CREDITS] Skipping '{role_group}' role - expected to get internal codes: '{name}'")
                 continue
             
             problem_types = []
@@ -1853,8 +1984,14 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
             # NOTE: We do NOT flag credits that got internal gp codes as problematic.
             # Getting an internal code when not found in IMDB is normal and expected behavior!
             
+            # Always include reverted credits as problematic
+            if reviewed_status == 'reverted':
+                problem_types.append("reverted_for_review")
+                logging.info(f"[PROBLEMATIC_CREDITS] Credit '{name}' (ID: {credit_id}) is reverted for review")
+            
             # If any problems found, add to problematic list
             if problem_types:
+                logging.info(f"[PROBLEMATIC_CREDITS] Credit '{name}' (ID: {credit_id}) has problems: {problem_types}")
                 problematic_credit = {
                     'id': credit_id,
                     'episode_id': ep_id,
@@ -1879,9 +2016,9 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
         # Sort by priority score (most problematic first)
         problematic_credits.sort(key=lambda x: x['priority_score'], reverse=True)
         
-        logging.info(f"[Problematic Credits] FINAL RESULTS for episode {episode_id}:")
-        logging.info(f"[Problematic Credits] Total processed: {len(credits_data)} credits")
-        logging.info(f"[Problematic Credits] Found problematic: {len(problematic_credits)} credits")
+        logging.info(f"[PROBLEMATIC_CREDITS] FINAL RESULTS for episode {episode_id}:")
+        logging.info(f"[PROBLEMATIC_CREDITS] Total processed: {len(credits_data)} credits")
+        logging.info(f"[PROBLEMATIC_CREDITS] Found problematic: {len(problematic_credits)} credits")
         
         # Log summary of problem types
         problem_type_counts = {}
@@ -1889,7 +2026,16 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
             for pt in pc['problem_types']:
                 problem_type_counts[pt] = problem_type_counts.get(pt, 0) + 1
         
-        logging.info(f"[Problematic Credits] Problem type summary: {problem_type_counts}")
+        logging.info(f"[PROBLEMATIC_CREDITS] Problem type summary: {problem_type_counts}")
+        
+        # Log the first few problematic credits for debugging
+        if problematic_credits:
+            logging.info(f"[PROBLEMATIC_CREDITS] First 3 problematic credits:")
+            for i, pc in enumerate(problematic_credits[:3]):
+                logging.info(f"[PROBLEMATIC_CREDITS]   {i+1}. {pc['name']} (ID: {pc['id']}) - Problems: {pc['problem_types']}")
+        
+        # Cache the result
+        cache_problematic_credits_list(episode_id, problematic_credits)
         
         return problematic_credits
         
@@ -2004,6 +2150,122 @@ def normalize_name(name):
     name = re.sub(r"\s+", " ", name).strip()
     
     return name
+
+
+def get_processed_entities(episode_id: str) -> List[Dict[str, Any]]:
+    """
+    Get all processed entities (credits with 'kept' status) for an episode.
+    
+    Args:
+        episode_id: Episode to get processed entities for
+        
+    Returns:
+        List of processed credit dictionaries
+    """
+    try:
+        logging.info(f"[PROCESSED_ENTITIES] Getting processed entities for episode: {episode_id}")
+        conn = sqlite3.connect(config.DB_PATH)
+        cursor = conn.cursor()
+        
+        # Get all credits with 'kept' status
+        cursor.execute(f"""
+            SELECT id, episode_id, source_frame, role_group, name, role_detail, 
+                   role_group_normalized, original_frame_number, scene_position, 
+                   reviewed_status, is_person, normalized_name,
+                   assigned_code, code_assignment_status, imdb_matches
+            FROM {config.DB_TABLE_CREDITS} 
+            WHERE episode_id = ? AND reviewed_status = 'kept'
+            ORDER BY role_group_normalized, name
+        """, (episode_id,))
+        
+        credits_data = cursor.fetchall()
+        conn.close()
+        
+        logging.info(f"[PROCESSED_ENTITIES] Found {len(credits_data)} processed entities for episode: {episode_id}")
+        
+        processed_entities = []
+        for credit in credits_data:
+            (credit_id, ep_id, source_frame, role_group, name, role_detail, 
+             role_group_normalized, original_frame_number, scene_position, 
+             reviewed_status, is_person, normalized_name,
+             assigned_code, code_assignment_status, imdb_matches) = credit
+            
+            processed_entity = {
+                'id': credit_id,
+                'episode_id': ep_id,
+                'source_frame': source_frame,
+                'role_group': role_group,
+                'name': name,
+                'role_detail': role_detail,
+                'role_group_normalized': role_group_normalized,
+                'original_frame_number': original_frame_number,
+                'scene_position': scene_position,
+                'reviewed_status': reviewed_status,
+                'is_person': is_person,
+                'normalized_name': normalized_name,
+                'assigned_code': assigned_code,
+                'code_assignment_status': code_assignment_status,
+                'imdb_matches': imdb_matches
+            }
+            processed_entities.append(processed_entity)
+        
+        return processed_entities
+        
+    except Exception as e:
+        logging.error(f"[PROCESSED_ENTITIES] Error getting processed entities for episode {episode_id}: {e}", exc_info=True)
+        return []
+
+
+def reset_entity_review_status(episode_id: str, entity_ids: List[int]) -> int:
+    """
+    Reset review status of specific entities from 'kept' to 'reverted'.
+    Reverted credits will always be considered problematic for review.
+    
+    Args:
+        episode_id: Episode ID
+        entity_ids: List of entity IDs to reset
+        
+    Returns:
+        Number of entities successfully reset
+    """
+    try:
+        logging.info(f"[RESET_ENTITIES] Resetting {len(entity_ids)} entities for episode: {episode_id}")
+        
+        # Handle empty list case
+        if not entity_ids:
+            logging.info(f"[RESET_ENTITIES] No entities to reset for episode: {episode_id}")
+            return 0
+        
+        conn = sqlite3.connect(config.DB_PATH)
+        cursor = conn.cursor()
+        
+        # Handle different cases for SQL IN clause
+        if len(entity_ids) == 1:
+            # Single item - use direct comparison
+            cursor.execute(f"""
+                UPDATE {config.DB_TABLE_CREDITS}
+                SET reviewed_status = 'reverted'
+                WHERE episode_id = ? AND id = ? AND reviewed_status = 'kept'
+            """, (episode_id, entity_ids[0]))
+        else:
+            # Multiple items - use IN clause with proper tuple formatting
+            placeholders = ','.join(['?' for _ in entity_ids])
+            cursor.execute(f"""
+                UPDATE {config.DB_TABLE_CREDITS}
+                SET reviewed_status = 'reverted'
+                WHERE episode_id = ? AND id IN ({placeholders}) AND reviewed_status = 'kept'
+            """, (episode_id, *entity_ids))
+        
+        affected_rows = cursor.rowcount
+        conn.commit()
+        conn.close()
+        
+        logging.info(f"[RESET_ENTITIES] Successfully reset {affected_rows} entities to 'reverted' status for episode: {episode_id}")
+        return affected_rows
+        
+    except Exception as e:
+        logging.error(f"[RESET_ENTITIES] Error resetting entities for episode {episode_id}: {e}", exc_info=True)
+        return 0
 
 # ===========================
 # End of Utils Module
