@@ -1012,25 +1012,27 @@ if st.session_state.current_tab == 0:
                                     vlm_json_path = ocr_dir / f"{episode_id_proc}_credits_azure_vlm.json"
 
                                     if vlm_json_path.exists():
+                                        logging.info(f"[VLM_SAVE] VLM results file found: {vlm_json_path}")
                                         vlm_credits = utils.load_vlm_results_from_jsonl(vlm_json_path)
                                         if vlm_credits:
+                                            logging.info(f"[VLM_SAVE] Loaded {len(vlm_credits)} credits from VLM results for episode {episode_id_proc}")
                                             success, db_msg = utils.save_credits(episode_id_proc, vlm_credits)
                                             if success:
                                                 logging.info(
-                                                    f"[{episode_id_proc}] Successfully saved {len(vlm_credits)} credits to database."
+                                                    f"[VLM_SAVE] Successfully saved {len(vlm_credits)} credits to database for episode {episode_id_proc}."
                                                 )
                                             else:
                                                 logging.error(
-                                                    f"[{episode_id_proc}] Failed to save credits to database: {db_msg}"
+                                                    f"[VLM_SAVE] Failed to save credits to database for episode {episode_id_proc}: {db_msg}"
                                                 )
                                                 st.warning(f"VLM completed but database save failed: {db_msg}")
                                         else:
-                                            logging.warning(f"[{episode_id_proc}] No credits found in VLM results file.")
+                                            logging.warning(f"[VLM_SAVE] No credits found in VLM results file for episode {episode_id_proc}.")
                                     else:
-                                        logging.warning(f"[{episode_id_proc}] VLM results file not found: {vlm_json_path}")
+                                        logging.warning(f"[VLM_SAVE] VLM results file not found for episode {episode_id_proc}: {vlm_json_path}")
                                 except Exception as db_save_err:
                                     logging.error(
-                                        f"[{episode_id_proc}] Error saving VLM results to database: {db_save_err}",
+                                        f"[VLM_SAVE] Error saving VLM results to database for episode {episode_id_proc}: {db_save_err}",
                                         exc_info=True,
                                     )
                                     st.warning(f"VLM completed but database save failed: {db_save_err}")
@@ -1237,6 +1239,12 @@ elif st.session_state.current_tab == 1:
 
             with col2:
                 if st.button("🔄 Refresh Episodes"):
+                    # Invalidate cache for all episodes to force fresh calculation
+                    logging.info("[REFRESH] Invalidating cache for all episodes")
+                    for episode in available_episodes:
+                        utils.invalidate_credits_cache(episode)
+                    logging.info("[REFRESH] Cache invalidated for all episodes")
+                    
                     # Set flag to preserve review tab when refreshing episodes
                     st.session_state.preserve_review_tab = True
                     st.rerun()
@@ -1313,7 +1321,7 @@ elif st.session_state.current_tab == 1:
                 problematic_queue = st.session_state[queue_key]
                 current_index = st.session_state[index_key]
 
-                col1, col2, col3 = st.columns([3, 1, 1])
+                col1, col2, col3, col4 = st.columns([2, 1, 1, 1])
                 with col1:
                     review_mode = st.selectbox(
                         "Review Mode:",
@@ -1322,42 +1330,73 @@ elif st.session_state.current_tab == 1:
                     )
 
                 with col2:
-                    if st.button("🔄 Refresh Queue"):
+                    if st.button("🔄 Refresh Queue", help="Refresh the list of problematic credits"):
+                        # Invalidate cache for the current episode to force fresh calculation
+                        logging.info(f"[REFRESH_QUEUE] Invalidating cache for episode {selected_episode}")
+                        utils.invalidate_credits_cache(selected_episode)
+                        logging.info(f"[REFRESH_QUEUE] Cache invalidated for episode {selected_episode}")
+                        
                         st.session_state[queue_key] = utils.identify_problematic_credits(selected_episode)
                         st.session_state[index_key] = 0
                         # Reset the original total when queue is refreshed
                         if f"{queue_key}_original" in st.session_state:
                             del st.session_state[f"{queue_key}_original"]
-                          # Set flags to preserve review tab and episode state
+                        # Set flags to preserve review tab and episode state
                         st.session_state.preserve_review_tab = True
                         st.session_state.preserve_episode = selected_episode
-
                         st.success("Queue refreshed!")
                         st.rerun()
 
                 with col3:
-                    if st.button("🔓 Reset Reviews", help="Reset all 'kept' status for this episode"):
+                    if st.button("📋 Manage Processed", help="View and manage already processed entities"):
+                        # Set flag to show processed entities management
+                        st.session_state.show_processed_management = True
+                        st.session_state.preserve_review_tab = True
+                        st.session_state.preserve_episode = selected_episode
+                        st.rerun()
+
+                with col4:
+                    if st.button("🔓 Reset All", help="Reset all 'kept' status for this episode"):
                         try:
+                            logging.info(f"[RESET_REVIEWS] Starting reset operation for episode {selected_episode}")
                             conn = sqlite3.connect(config.DB_PATH)
                             cursor = conn.cursor()
+                            
+                            # Check how many credits are currently 'kept'
+                            cursor.execute(
+                                f"SELECT COUNT(*) FROM {config.DB_TABLE_CREDITS} WHERE episode_id = ? AND reviewed_status = 'kept'",
+                                (selected_episode,)
+                            )
+                            kept_count = cursor.fetchone()[0]
+                            logging.info(f"[RESET_REVIEWS] Found {kept_count} credits with 'kept' status for episode {selected_episode}")
+                            
                             cursor.execute(
                                 f"""
                                 UPDATE {config.DB_TABLE_CREDITS}
-                                SET reviewed_status = 'pending'
+                                SET reviewed_status = 'reverted'
                                 WHERE episode_id = ? AND reviewed_status = 'kept'
                             """,
                                 (selected_episode,),
                             )
                             affected_rows = cursor.rowcount
+                            logging.info(f"[RESET_REVIEWS] Updated {affected_rows} credits from 'kept' to 'pending' for episode {selected_episode}")
+                            
                             conn.commit()
-                            conn.close()                            # Refresh the queue
+                            logging.info(f"[RESET_REVIEWS] Committed reset changes for episode {selected_episode}")
+                            conn.close()
+                            logging.info(f"[RESET_REVIEWS] Database connection closed for episode {selected_episode}")
+                            
+                            # Refresh the queue
+                            logging.info(f"[RESET_REVIEWS] Refreshing problematic credits queue for episode {selected_episode}")
                             st.session_state[queue_key] = utils.identify_problematic_credits(selected_episode)
                             st.session_state[index_key] = 0
                             # Reset the original total when queue is refreshed
                             if f"{queue_key}_original" in st.session_state:
                                 del st.session_state[f"{queue_key}_original"]
 
-                            st.success(f"Reset review status for {affected_rows} credits. Queue refreshed.")
+
+
+                            st.success(f"Reset review status for {affected_rows} credits to 'reverted'. Queue refreshed.")
 
                             # Set flags to preserve review tab and episode state
                             st.session_state.preserve_review_tab = True
@@ -1365,7 +1404,124 @@ elif st.session_state.current_tab == 1:
                             st.rerun()
 
                         except Exception as e:
+                            logging.error(f"[RESET_REVIEWS] Error resetting review status for episode {selected_episode}: {e}", exc_info=True)
                             st.error(f"Error resetting review status: {e}")
+
+                # Processed Entities Management Section
+                if st.session_state.get('show_processed_management', False):
+                    st.markdown("---")
+                    st.subheader("📋 Processed Entities Management")
+                    
+                    # Get processed entities
+                    processed_entities = utils.get_processed_entities(selected_episode)
+                    
+                    if not processed_entities:
+                        st.info("No processed entities found for this episode.")
+                        if st.button("❌ Close Management"):
+                            st.session_state.show_processed_management = False
+                            st.session_state.preserve_review_tab = True
+                            st.session_state.preserve_episode = selected_episode
+                            st.rerun()
+                    else:
+                        # Get counts for summary
+                        total_credits = len(processed_entities)
+                        person_count = len([e for e in processed_entities if e['is_person']])
+                        company_count = total_credits - person_count
+                        with_codes = len([e for e in processed_entities if e.get('assigned_code')])
+                        
+                        # Summary metrics
+                        col1, col2, col3, col4 = st.columns(4)
+                        with col1:
+                            st.metric("📊 Total Processed", total_credits)
+                        with col2:
+                            st.metric("👤 Persons", person_count)
+                        with col3:
+                            st.metric("🏢 Companies", company_count)
+                        with col4:
+                            st.metric("🔢 With Codes", with_codes)
+                        
+                        st.info(f"Select the entities you want to put back for review:")
+                        
+                        # Create a DataFrame for better display
+                        import pandas as pd
+                        
+                        # Prepare data for display
+                        display_data = []
+                        for entity in processed_entities:
+                            display_data.append({
+                                'ID': entity['id'],
+                                'Name': entity['name'],
+                                'Role Group': entity['role_group'],
+                                'Role Detail': entity.get('role_detail', 'N/A'),
+                                'Type': 'Person' if entity['is_person'] else 'Company',
+                                'Assigned Code': entity.get('assigned_code', 'N/A'),
+                                'Source Frames': len(entity.get('source_frame', '').split(',')) if entity.get('source_frame') else 0
+                            })
+                        
+                        df = pd.DataFrame(display_data)
+                        
+                        # Add selection functionality
+                        st.dataframe(df, use_container_width=True)
+                        
+                        # Selection interface
+                        col1, col2, col3 = st.columns([2, 1, 1])
+                        
+                        with col1:
+                            st.write("**Selection Options:**")
+                            select_all = st.checkbox("Select All", key="select_all_processed")
+                            select_none = st.checkbox("Select None", key="select_none_processed")
+                            
+                                                    # Handle selection logic
+                        if select_all:
+                            selected_entities = [entity['id'] for entity in processed_entities]
+                        elif select_none:
+                            selected_entities = []
+                        else:
+                            # Manual selection
+                            st.write("**Or manually select specific entities:**")
+                            selected_entities = []
+                            for entity in processed_entities:
+                                if st.checkbox(
+                                    f"{entity['name']} ({entity['role_group']}) - {entity.get('assigned_code', 'No code')}", 
+                                    key=f"select_entity_{entity['id']}"
+                                ):
+                                    selected_entities.append(entity['id'])
+                        
+                        with col2:
+                            if st.button("🔄 Reset Selected", help="Put selected entities back for review"):
+                                if selected_entities:
+                                    affected = utils.reset_entity_review_status(selected_episode, selected_entities)
+                                    if affected > 0:
+                                        st.success(f"Successfully reset {affected} entities to 'reverted' status. They are now back in the review queue.")
+                                        
+                                        # Invalidate cache for the current episode to force fresh calculation
+                                        logging.info(f"[RESET_SELECTED] Invalidating cache for episode {selected_episode}")
+                                        utils.invalidate_credits_cache(selected_episode)
+                                        logging.info(f"[RESET_SELECTED] Cache invalidated for episode {selected_episode}")
+                                        
+                                        # Refresh the queue
+                                        st.session_state[queue_key] = utils.identify_problematic_credits(selected_episode)
+                                        st.session_state[index_key] = 0
+                                        if f"{queue_key}_original" in st.session_state:
+                                            del st.session_state[f"{queue_key}_original"]
+                                        # Close management view
+                                        st.session_state.show_processed_management = False
+                                        st.session_state.preserve_review_tab = True
+                                        st.session_state.preserve_episode = selected_episode
+                                        st.rerun()
+                                    else:
+                                        st.error("Failed to reset entities. Please try again.")
+                                else:
+                                    st.warning("Please select at least one entity to reset.")
+                        
+                        with col3:
+                            if st.button("❌ Close Management"):
+                                st.session_state.show_processed_management = False
+                                st.session_state.preserve_review_tab = True
+                                st.session_state.preserve_episode = selected_episode
+                                st.rerun()
+                        
+                        st.markdown("---")
 
                 if review_mode.startswith("🎯 Focus Mode") and problematic_queue:
                     total_problematic = len(problematic_queue)
@@ -1459,12 +1615,12 @@ elif st.session_state.current_tab == 1:
 
                                     for i, match in enumerate(matches_data):  # Show all matches - no limit
                                         nconst = match.get('nconst', 'N/A')
-                                        name = match.get('primaryName', 'Unknown')
+                                        match_name = match.get('normalized_name', 'Unknown')
 
-                                        with st.expander(f"Match {i+1}: {name} ({nconst})"):
+                                        with st.expander(f"Match {i+1}: {match_name} ({nconst})"):
                                             col_match1, col_match2 = st.columns(2)
                                             with col_match1:
-                                                st.write(f"**Name:** {name}")
+                                                st.write(f"**Name:** {match_name}")
                                                 st.write(f"**IMDB Code:** {nconst}")
 
                                                 # Add IMDB link
@@ -1765,7 +1921,7 @@ elif st.session_state.current_tab == 1:
                                                     # Create options with name and nconst
                                                     for match in matches_data:  # Show all matches - no limit
                                                         nconst = match.get('nconst', '')
-                                                        name = match.get('primaryName', 'Unknown')
+                                                        match_name = match.get('normalized_name', 'Unknown')
                                                         professions = match.get('primaryProfession', 'N/A')
                                                         years = ""
                                                         if match.get('birthYear', 'N/A') != 'N/A':
@@ -1774,7 +1930,7 @@ elif st.session_state.current_tab == 1:
                                                                 years += f"-{match.get('deathYear', '')}"
                                                             years += ")"
 
-                                                        display_name = f"{nconst} - {name}{years} [{professions}]"
+                                                        display_name = f"{nconst} - {match_name}{years} [{professions}]"
                                                         code_options.append(nconst)
 
                                                 except Exception as e:
@@ -1792,8 +1948,9 @@ elif st.session_state.current_tab == 1:
                                                         matches_data = json.loads(imdb_matches) if isinstance(imdb_matches, str) else imdb_matches
                                                         for match in matches_data:
                                                             if match.get('nconst') == code:
-                                                                name = match.get('primaryName', 'Unknown')
-                                                                return f"{code} - {name}"
+                                                                match_name = match.get('normalized_name', 'Unknown')
+                                                                professions = match.get('primaryProfession', 'N/A')
+                                                                return f"{code} - {match_name} [{professions}]"
                                                     return code
                                                 except:
                                                     return code
@@ -1810,7 +1967,19 @@ elif st.session_state.current_tab == 1:
                                             # Show IMDB link for selected code
                                             if selected_code and selected_code.startswith('nm'):
                                                 imdb_url = f"https://www.imdb.com/name/{selected_code}/"
-                                                st.markdown(f"🔗 **Verify selection:** [View {selected_code} on IMDB]({imdb_url})")
+                                                # Get profession info for the selected code
+                                                profession_info = ""
+                                                try:
+                                                    if imdb_matches:
+                                                        matches_data = json.loads(imdb_matches) if isinstance(imdb_matches, str) else imdb_matches
+                                                        for match in matches_data:
+                                                            if match.get('nconst') == selected_code:
+                                                                professions = match.get('primaryProfession', 'N/A')
+                                                                profession_info = f" [{professions}]"
+                                                                break
+                                                except:
+                                                    pass
+                                                st.markdown(f"🔗 **Verify selection:** [View {selected_code}{profession_info} on IMDB]({imdb_url})")
 
                                             # Show quick reference of all available options with links
                                             if imdb_matches and len(code_options) > 1:
@@ -1819,11 +1988,11 @@ elif st.session_state.current_tab == 1:
                                                         matches_data = json.loads(imdb_matches) if isinstance(imdb_matches, str) else imdb_matches
                                                         for match in matches_data:
                                                             nconst = match.get('nconst', '')
-                                                            name = match.get('primaryName', 'Unknown')
+                                                            match_name = match.get('normalized_name', 'Unknown')
                                                             professions = match.get('primaryProfession', 'N/A')
                                                             if nconst:
                                                                 imdb_url = f"https://www.imdb.com/name/{nconst}/"
-                                                                st.markdown(f"• **{nconst}** - {name} [{professions}] - [View on IMDB]({imdb_url})")
+                                                                st.markdown(f"• **{nconst}** - {match_name} [{professions}] - [View on IMDB]({imdb_url})")
                                                     except:
                                                         st.info("Error loading reference data")
 
@@ -1933,12 +2102,19 @@ elif st.session_state.current_tab == 1:
                                         cursor = conn.cursor()
 
                                         # Delete marked variants first (only existing ones)
+                                        logging.info(f"[DB SAVE] Starting database operations for episode {selected_episode}")
+                                        logging.info(f"[DB SAVE] Planning to delete {len(variants_to_delete)} variants: {variants_to_delete}")
+                                        
                                         for variant_id in variants_to_delete:
+                                            logging.info(f"[DB SAVE] Deleting variant with ID: {variant_id}")
                                             cursor.execute(
                                                 f"DELETE FROM {config.DB_TABLE_CREDITS} WHERE id = ?", (variant_id,)                                            )
+                                            logging.info(f"[DB SAVE] Deleted variant with ID: {variant_id}")
 
                                         # Insert new variants
-                                        for new_variant in new_variants:
+                                        logging.info(f"[DB SAVE] Planning to insert {len(new_variants)} new variants")
+                                        for i, new_variant in enumerate(new_variants):
+                                            logging.info(f"[DB SAVE] Inserting new variant {i+1}/{len(new_variants)}: {new_variant['name']} (Role: {new_variant['role_group']})")
                                             cursor.execute(
                                                 f"""
                                                 INSERT INTO {config.DB_TABLE_CREDITS}
@@ -1954,9 +2130,12 @@ elif st.session_state.current_tab == 1:
                                                     new_variant['is_person']
                                                 ),
                                             )
+                                            logging.info(f"[DB SAVE] Successfully inserted new variant: {new_variant['name']}")
 
                                         # Update remaining existing variants
-                                        for variant in edited_variants:
+                                        logging.info(f"[DB SAVE] Planning to update {len(edited_variants)} existing variants")
+                                        for i, variant in enumerate(edited_variants):
+                                            logging.info(f"[DB SAVE] Updating variant {i+1}/{len(edited_variants)}: {variant['name']} (ID: {variant['id']})")
                                             # Handle code assignment if present
                                             code_assignment = next((v['code_assignment'] for v in form_data if v['id'] == variant['id']), None)
 
@@ -1965,6 +2144,7 @@ elif st.session_state.current_tab == 1:
                                                     # Generate internal code
                                                     is_company = not variant['is_person']
                                                     new_internal_code = utils.generate_next_internal_code(is_company)
+                                                    logging.info(f"[DB SAVE] Assigning internal code {new_internal_code} to variant {variant['name']} (ID: {variant['id']})")
 
                                                     cursor.execute(
                                                         f"""
@@ -1983,9 +2163,12 @@ elif st.session_state.current_tab == 1:
                                                             variant['id'],
                                                         ),
                                                     )
+                                                    logging.info(f"[DB SAVE] Successfully updated variant {variant['name']} with internal code {new_internal_code}")
 
                                                 elif code_assignment.get('selected_code'):
                                                     # Assign selected IMDB code
+                                                    selected_code = code_assignment['selected_code']
+                                                    logging.info(f"[DB SAVE] Assigning IMDB code {selected_code} to variant {variant['name']} (ID: {variant['id']})")
                                                     cursor.execute(
                                                         f"""
                                                         UPDATE {config.DB_TABLE_CREDITS}
@@ -1999,12 +2182,14 @@ elif st.session_state.current_tab == 1:
                                                             variant['role_group'],
                                                             variant['role_detail'],
                                                             variant['is_person'],
-                                                            code_assignment['selected_code'],
+                                                            selected_code,
                                                             variant['id'],
                                                         ),
                                                     )
+                                                    logging.info(f"[DB SAVE] Successfully updated variant {variant['name']} with IMDB code {selected_code}")
                                                 else:
                                                     # No code assignment made, update other fields only
+                                                    logging.info(f"[DB SAVE] Updating variant {variant['name']} (ID: {variant['id']}) without code assignment")
                                                     cursor.execute(
                                                         f"""
                                                         UPDATE {config.DB_TABLE_CREDITS}
@@ -2020,8 +2205,10 @@ elif st.session_state.current_tab == 1:
                                                             variant['id'],
                                                         ),
                                                     )
+                                                    logging.info(f"[DB SAVE] Successfully updated variant {variant['name']} without code assignment")
                                             else:
                                                 # No code assignment needed, regular update
+                                                logging.info(f"[DB SAVE] Regular update for variant {variant['name']} (ID: {variant['id']}) - no code assignment needed")
                                                 cursor.execute(
                                                     f"""
                                                     UPDATE {config.DB_TABLE_CREDITS}
@@ -2037,9 +2224,15 @@ elif st.session_state.current_tab == 1:
                                                         variant['id'],
                                                     ),
                                                 )
+                                                logging.info(f"[DB SAVE] Successfully updated variant {variant['name']} with regular update")
 
+                                        logging.info(f"[DB SAVE] Committing all database changes for episode {selected_episode}")
                                         conn.commit()
+                                        logging.info(f"[DB SAVE] Successfully committed database changes for episode {selected_episode}")
                                         conn.close()
+                                        logging.info(f"[DB SAVE] Database connection closed for episode {selected_episode}")
+                                        
+
 
                                         # Update session state: remove processed new entries
                                         # Keep only new entries that weren't processed (neither saved nor removed)
