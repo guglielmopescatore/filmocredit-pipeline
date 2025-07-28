@@ -1244,7 +1244,7 @@ elif st.session_state.current_tab == 1:
                     for episode in available_episodes:
                         utils.invalidate_credits_cache(episode)
                     logging.info("[REFRESH] Cache invalidated for all episodes")
-                    
+
                     # Set flag to preserve review tab when refreshing episodes
                     st.session_state.preserve_review_tab = True
                     st.rerun()
@@ -1335,7 +1335,7 @@ elif st.session_state.current_tab == 1:
                         logging.info(f"[REFRESH_QUEUE] Invalidating cache for episode {selected_episode}")
                         utils.invalidate_credits_cache(selected_episode)
                         logging.info(f"[REFRESH_QUEUE] Cache invalidated for episode {selected_episode}")
-                        
+
                         st.session_state[queue_key] = utils.identify_problematic_credits(selected_episode)
                         st.session_state[index_key] = 0
                         # Reset the original total when queue is refreshed
@@ -1361,7 +1361,7 @@ elif st.session_state.current_tab == 1:
                             logging.info(f"[RESET_REVIEWS] Starting reset operation for episode {selected_episode}")
                             conn = sqlite3.connect(config.DB_PATH)
                             cursor = conn.cursor()
-                            
+
                             # Check how many credits are currently 'kept'
                             cursor.execute(
                                 f"SELECT COUNT(*) FROM {config.DB_TABLE_CREDITS} WHERE episode_id = ? AND reviewed_status = 'kept'",
@@ -1369,7 +1369,7 @@ elif st.session_state.current_tab == 1:
                             )
                             kept_count = cursor.fetchone()[0]
                             logging.info(f"[RESET_REVIEWS] Found {kept_count} credits with 'kept' status for episode {selected_episode}")
-                            
+
                             cursor.execute(
                                 f"""
                                 UPDATE {config.DB_TABLE_CREDITS}
@@ -1380,12 +1380,12 @@ elif st.session_state.current_tab == 1:
                             )
                             affected_rows = cursor.rowcount
                             logging.info(f"[RESET_REVIEWS] Updated {affected_rows} credits from 'kept' to 'pending' for episode {selected_episode}")
-                            
+
                             conn.commit()
                             logging.info(f"[RESET_REVIEWS] Committed reset changes for episode {selected_episode}")
                             conn.close()
                             logging.info(f"[RESET_REVIEWS] Database connection closed for episode {selected_episode}")
-                            
+
                             # Refresh the queue
                             logging.info(f"[RESET_REVIEWS] Refreshing problematic credits queue for episode {selected_episode}")
                             st.session_state[queue_key] = utils.identify_problematic_credits(selected_episode)
@@ -1411,10 +1411,10 @@ elif st.session_state.current_tab == 1:
                 if st.session_state.get('show_processed_management', False):
                     st.markdown("---")
                     st.subheader("📋 Processed Entities Management")
-                    
+
                     # Get processed entities
                     processed_entities = utils.get_processed_entities(selected_episode)
-                    
+
                     if not processed_entities:
                         st.info("No processed entities found for this episode.")
                         if st.button("❌ Close Management"):
@@ -1428,7 +1428,7 @@ elif st.session_state.current_tab == 1:
                         person_count = len([e for e in processed_entities if e['is_person']])
                         company_count = total_credits - person_count
                         with_codes = len([e for e in processed_entities if e.get('assigned_code')])
-                        
+
                         # Summary metrics
                         col1, col2, col3, col4 = st.columns(4)
                         with col1:
@@ -1439,12 +1439,12 @@ elif st.session_state.current_tab == 1:
                             st.metric("🏢 Companies", company_count)
                         with col4:
                             st.metric("🔢 With Codes", with_codes)
-                        
+
                         st.info(f"Select the entities you want to put back for review:")
-                        
+
                         # Create a DataFrame for better display
                         import pandas as pd
-                        
+
                         # Prepare data for display
                         display_data = []
                         for entity in processed_entities:
@@ -1457,20 +1457,20 @@ elif st.session_state.current_tab == 1:
                                 'Assigned Code': entity.get('assigned_code', 'N/A'),
                                 'Source Frames': len(entity.get('source_frame', '').split(',')) if entity.get('source_frame') else 0
                             })
-                        
+
                         df = pd.DataFrame(display_data)
-                        
+
                         # Add selection functionality
                         st.dataframe(df, use_container_width=True)
-                        
+
                         # Selection interface
                         col1, col2, col3 = st.columns([2, 1, 1])
-                        
+
                         with col1:
                             st.write("**Selection Options:**")
                             select_all = st.checkbox("Select All", key="select_all_processed")
                             select_none = st.checkbox("Select None", key="select_none_processed")
-                            
+
                                                     # Handle selection logic
                         if select_all:
                             selected_entities = [entity['id'] for entity in processed_entities]
@@ -1482,23 +1482,23 @@ elif st.session_state.current_tab == 1:
                             selected_entities = []
                             for entity in processed_entities:
                                 if st.checkbox(
-                                    f"{entity['name']} ({entity['role_group']}) - {entity.get('assigned_code', 'No code')}", 
+                                    f"{entity['name']} ({entity['role_group']}) - {entity.get('assigned_code', 'No code')}",
                                     key=f"select_entity_{entity['id']}"
                                 ):
                                     selected_entities.append(entity['id'])
-                        
+
                         with col2:
                             if st.button("🔄 Reset Selected", help="Put selected entities back for review"):
                                 if selected_entities:
                                     affected = utils.reset_entity_review_status(selected_episode, selected_entities)
                                     if affected > 0:
                                         st.success(f"Successfully reset {affected} entities to 'reverted' status. They are now back in the review queue.")
-                                        
+
                                         # Invalidate cache for the current episode to force fresh calculation
                                         logging.info(f"[RESET_SELECTED] Invalidating cache for episode {selected_episode}")
                                         utils.invalidate_credits_cache(selected_episode)
                                         logging.info(f"[RESET_SELECTED] Cache invalidated for episode {selected_episode}")
-                                        
+
                                         # Refresh the queue
                                         st.session_state[queue_key] = utils.identify_problematic_credits(selected_episode)
                                         st.session_state[index_key] = 0
@@ -1513,29 +1513,32 @@ elif st.session_state.current_tab == 1:
                                         st.error("Failed to reset entities. Please try again.")
                                 else:
                                     st.warning("Please select at least one entity to reset.")
-                        
+
                         with col3:
                             if st.button("❌ Close Management"):
                                 st.session_state.show_processed_management = False
                                 st.session_state.preserve_review_tab = True
                                 st.session_state.preserve_episode = selected_episode
                                 st.rerun()
-                        
+
                         st.markdown("---")
 
                 if review_mode.startswith("🎯 Focus Mode") and problematic_queue:
                     total_problematic = len(problematic_queue)
 
-                    if f"{queue_key}_original" not in st.session_state:
-                        st.session_state[f"{queue_key}_original"] = problematic_queue.copy()
-
-                    original_total = len(st.session_state[f"{queue_key}_original"])
-                    resolved_count = max(0, original_total - total_problematic)  # Ensure non-negative
-                    progress = resolved_count / original_total if original_total > 0 else 1.0
+                    # Get the total count of problematic credits for this episode (not just current queue)
+                    total_problematic_in_episode = utils.identify_problematic_credits_fast(selected_episode)
+                    
+                    # Calculate resolved count based on decisions made
+                    completed = len([d for d in st.session_state[decisions_key].values() if d != 'skip'])
+                    resolved_count = completed
+                    
+                    # Calculate progress based on total problematic credits in episode
+                    progress = resolved_count / total_problematic_in_episode if total_problematic_in_episode > 0 else 1.0
                     progress = max(0.0, min(1.0, progress))  # Clamp between 0.0 and 1.0
                     st.progress(
                         progress,
-                        text=f"Progress: {resolved_count}/{original_total} resolved • {total_problematic} remaining",
+                        text=f"Progress: {resolved_count}/{total_problematic_in_episode} resolved • {total_problematic} remaining",
                     )
 
                     if current_index >= total_problematic and total_problematic > 0:
@@ -1571,7 +1574,6 @@ elif st.session_state.current_tab == 1:
                         )
                         st.markdown("---")
 
-                        # Always show the full editing interface and the same header/info for all entries
                         problem_desc = utils.format_problem_description(current_credit['problem_types'])
                         st.subheader(f"👤 {current_credit['name']}")
                         st.error(f"**Issues:** {problem_desc}")
@@ -1657,9 +1659,6 @@ elif st.session_state.current_tab == 1:
                             except Exception as e:
                                 st.error(f"Error displaying IMDB matches: {e}")
 
-                        # Reverted entries now have complete data from backup restoration
-                        # No special handling needed - they will have the same structure as any other credit
-                        
                         is_duplicate = current_credit.get('total_variants', 1) > 1
                         duplicate_entries = current_credit.get('duplicate_entries', [current_credit])
 
@@ -2117,7 +2116,7 @@ elif st.session_state.current_tab == 1:
                                         # Delete marked variants first (only existing ones)
                                         logging.info(f"[DB SAVE] Starting database operations for episode {selected_episode}")
                                         logging.info(f"[DB SAVE] Planning to delete {len(variants_to_delete)} variants: {variants_to_delete}")
-                                        
+
                                         for variant_id in variants_to_delete:
                                             logging.info(f"[DB SAVE] Deleting variant with ID: {variant_id}")
                                             cursor.execute(
@@ -2242,59 +2241,6 @@ elif st.session_state.current_tab == 1:
                                         logging.info(f"[DB SAVE] Committing all database changes for episode {selected_episode}")
                                         conn.commit()
                                         logging.info(f"[DB SAVE] Successfully committed database changes for episode {selected_episode}")
-                                        
-                                        # Create backups for all kept credits
-                                        try:
-                                            cursor.execute(f"""
-                                                SELECT id, episode_id, source_frame, role_group, name, role_detail, 
-                                                       role_group_normalized, original_frame_number, scene_position, 
-                                                       reviewed_status, is_person, normalized_name,
-                                                       assigned_code, code_assignment_status, imdb_matches
-                                                FROM {config.DB_TABLE_CREDITS} 
-                                                WHERE episode_id = ? AND reviewed_status = 'kept'
-                                            """, (selected_episode,))
-                                            
-                                            kept_credits = cursor.fetchall()
-                                            for credit_row in kept_credits:
-                                                (credit_id, ep_id, source_frame, role_group, name, role_detail, 
-                                                 role_group_normalized, original_frame_number, scene_position, 
-                                                 reviewed_status, is_person, normalized_name,
-                                                 assigned_code, code_assignment_status, imdb_matches) = credit_row
-                                                
-                                                # Create JSON backup
-                                                import json
-                                                backup_data = {
-                                                    'id': credit_id,
-                                                    'episode_id': ep_id,
-                                                    'source_frame': source_frame,
-                                                    'role_group': role_group,
-                                                    'name': name,
-                                                    'role_detail': role_detail,
-                                                    'role_group_normalized': role_group_normalized,
-                                                    'original_frame_number': original_frame_number,
-                                                    'scene_position': scene_position,
-                                                    'reviewed_status': reviewed_status,
-                                                    'is_person': is_person,
-                                                    'normalized_name': normalized_name,
-                                                    'assigned_code': assigned_code,
-                                                    'code_assignment_status': code_assignment_status,
-                                                    'imdb_matches': imdb_matches
-                                                }
-                                                
-                                                backup_json = json.dumps(backup_data, ensure_ascii=False, indent=2)
-                                                
-                                                # Update backup column
-                                                cursor.execute(f"""
-                                                    UPDATE {config.DB_TABLE_CREDITS}
-                                                    SET original_data_backup = ?
-                                                    WHERE id = ?
-                                                """, (backup_json, credit_id))
-                                            
-                                            conn.commit()
-                                            logging.info(f"[DB SAVE] Created backups for {len(kept_credits)} kept credits")
-                                        except Exception as e:
-                                            logging.error(f"[DB SAVE] Error creating backups: {e}")
-                                        
                                         conn.close()
                                         logging.info(f"[DB SAVE] Database connection closed for episode {selected_episode}")
                                         
@@ -2307,7 +2253,7 @@ elif st.session_state.current_tab == 1:
                                             del st.session_state['problematic_credits_queue']
                                         if 'current_credit_index' in st.session_state:
                                             del st.session_state['current_credit_index']
-                                        
+
 
 
                                         # Update session state: remove processed new entries
