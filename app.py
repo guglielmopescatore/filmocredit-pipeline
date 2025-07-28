@@ -2242,6 +2242,59 @@ elif st.session_state.current_tab == 1:
                                         logging.info(f"[DB SAVE] Committing all database changes for episode {selected_episode}")
                                         conn.commit()
                                         logging.info(f"[DB SAVE] Successfully committed database changes for episode {selected_episode}")
+                                        
+                                        # Create backups for all kept credits
+                                        try:
+                                            cursor.execute(f"""
+                                                SELECT id, episode_id, source_frame, role_group, name, role_detail, 
+                                                       role_group_normalized, original_frame_number, scene_position, 
+                                                       reviewed_status, is_person, normalized_name,
+                                                       assigned_code, code_assignment_status, imdb_matches
+                                                FROM {config.DB_TABLE_CREDITS} 
+                                                WHERE episode_id = ? AND reviewed_status = 'kept'
+                                            """, (selected_episode,))
+                                            
+                                            kept_credits = cursor.fetchall()
+                                            for credit_row in kept_credits:
+                                                (credit_id, ep_id, source_frame, role_group, name, role_detail, 
+                                                 role_group_normalized, original_frame_number, scene_position, 
+                                                 reviewed_status, is_person, normalized_name,
+                                                 assigned_code, code_assignment_status, imdb_matches) = credit_row
+                                                
+                                                # Create JSON backup
+                                                import json
+                                                backup_data = {
+                                                    'id': credit_id,
+                                                    'episode_id': ep_id,
+                                                    'source_frame': source_frame,
+                                                    'role_group': role_group,
+                                                    'name': name,
+                                                    'role_detail': role_detail,
+                                                    'role_group_normalized': role_group_normalized,
+                                                    'original_frame_number': original_frame_number,
+                                                    'scene_position': scene_position,
+                                                    'reviewed_status': reviewed_status,
+                                                    'is_person': is_person,
+                                                    'normalized_name': normalized_name,
+                                                    'assigned_code': assigned_code,
+                                                    'code_assignment_status': code_assignment_status,
+                                                    'imdb_matches': imdb_matches
+                                                }
+                                                
+                                                backup_json = json.dumps(backup_data, ensure_ascii=False, indent=2)
+                                                
+                                                # Update backup column
+                                                cursor.execute(f"""
+                                                    UPDATE {config.DB_TABLE_CREDITS}
+                                                    SET original_data_backup = ?
+                                                    WHERE id = ?
+                                                """, (backup_json, credit_id))
+                                            
+                                            conn.commit()
+                                            logging.info(f"[DB SAVE] Created backups for {len(kept_credits)} kept credits")
+                                        except Exception as e:
+                                            logging.error(f"[DB SAVE] Error creating backups: {e}")
+                                        
                                         conn.close()
                                         logging.info(f"[DB SAVE] Database connection closed for episode {selected_episode}")
                                         
