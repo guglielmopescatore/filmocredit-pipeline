@@ -1554,6 +1554,15 @@ elif st.session_state.current_tab == 1:
                     with col4:
                         remaining = total_problematic - current_index
                         st.metric("⏳ Remaining", remaining)
+                    
+                    # Add refresh button to clear cache and reload
+                    if st.button("🔄 Refresh Counts", help="Clear cache and reload problematic credits count"):
+                        utils.invalidate_credits_cache(selected_episode)
+                        if 'problematic_credits_queue' in st.session_state:
+                            del st.session_state['problematic_credits_queue']
+                        if 'current_credit_index' in st.session_state:
+                            del st.session_state['current_credit_index']
+                        st.rerun()
 
                     if current_index < total_problematic:
                         current_credit = problematic_queue[current_index]
@@ -1562,6 +1571,7 @@ elif st.session_state.current_tab == 1:
                         )
                         st.markdown("---")
 
+                        # Always show the full editing interface and the same header/info for all entries
                         problem_desc = utils.format_problem_description(current_credit['problem_types'])
                         st.subheader(f"👤 {current_credit['name']}")
                         st.error(f"**Issues:** {problem_desc}")
@@ -1647,6 +1657,9 @@ elif st.session_state.current_tab == 1:
                             except Exception as e:
                                 st.error(f"Error displaying IMDB matches: {e}")
 
+                        # Reverted entries now have complete data from backup restoration
+                        # No special handling needed - they will have the same structure as any other credit
+                        
                         is_duplicate = current_credit.get('total_variants', 1) > 1
                         duplicate_entries = current_credit.get('duplicate_entries', [current_credit])
 
@@ -2229,8 +2242,71 @@ elif st.session_state.current_tab == 1:
                                         logging.info(f"[DB SAVE] Committing all database changes for episode {selected_episode}")
                                         conn.commit()
                                         logging.info(f"[DB SAVE] Successfully committed database changes for episode {selected_episode}")
+                                        
+                                        # Create backups for all kept credits
+                                        try:
+                                            cursor.execute(f"""
+                                                SELECT id, episode_id, source_frame, role_group, name, role_detail, 
+                                                       role_group_normalized, original_frame_number, scene_position, 
+                                                       reviewed_status, is_person, normalized_name,
+                                                       assigned_code, code_assignment_status, imdb_matches
+                                                FROM {config.DB_TABLE_CREDITS} 
+                                                WHERE episode_id = ? AND reviewed_status = 'kept'
+                                            """, (selected_episode,))
+                                            
+                                            kept_credits = cursor.fetchall()
+                                            for credit_row in kept_credits:
+                                                (credit_id, ep_id, source_frame, role_group, name, role_detail, 
+                                                 role_group_normalized, original_frame_number, scene_position, 
+                                                 reviewed_status, is_person, normalized_name,
+                                                 assigned_code, code_assignment_status, imdb_matches) = credit_row
+                                                
+                                                # Create JSON backup
+                                                import json
+                                                backup_data = {
+                                                    'id': credit_id,
+                                                    'episode_id': ep_id,
+                                                    'source_frame': source_frame,
+                                                    'role_group': role_group,
+                                                    'name': name,
+                                                    'role_detail': role_detail,
+                                                    'role_group_normalized': role_group_normalized,
+                                                    'original_frame_number': original_frame_number,
+                                                    'scene_position': scene_position,
+                                                    'reviewed_status': reviewed_status,
+                                                    'is_person': is_person,
+                                                    'normalized_name': normalized_name,
+                                                    'assigned_code': assigned_code,
+                                                    'code_assignment_status': code_assignment_status,
+                                                    'imdb_matches': imdb_matches
+                                                }
+                                                
+                                                backup_json = json.dumps(backup_data, ensure_ascii=False, indent=2)
+                                                
+                                                # Update backup column
+                                                cursor.execute(f"""
+                                                    UPDATE {config.DB_TABLE_CREDITS}
+                                                    SET original_data_backup = ?
+                                                    WHERE id = ?
+                                                """, (backup_json, credit_id))
+                                            
+                                            conn.commit()
+                                            logging.info(f"[DB SAVE] Created backups for {len(kept_credits)} kept credits")
+                                        except Exception as e:
+                                            logging.error(f"[DB SAVE] Error creating backups: {e}")
+                                        
                                         conn.close()
                                         logging.info(f"[DB SAVE] Database connection closed for episode {selected_episode}")
+                                        
+                                        # Invalidate cache after database changes
+                                        utils.invalidate_credits_cache(selected_episode)
+                                        logging.info(f"[DB SAVE] Invalidated cache for episode {selected_episode}")
+                                        
+                                        # Clear session state to force refresh
+                                        if 'problematic_credits_queue' in st.session_state:
+                                            del st.session_state['problematic_credits_queue']
+                                        if 'current_credit_index' in st.session_state:
+                                            del st.session_state['current_credit_index']
                                         
 
 

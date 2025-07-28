@@ -1992,6 +1992,67 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
             # If any problems found, add to problematic list
             if problem_types:
                 logging.info(f"[PROBLEMATIC_CREDITS] Credit '{name}' (ID: {credit_id}) has problems: {problem_types}")
+                
+                # Build duplicate entries structure for all problematic credits
+                duplicate_entries = []
+                try:
+                    # Get all credits with the same normalized name and role group for this episode
+                    cursor.execute(f"""
+                        SELECT id, episode_id, source_frame, role_group, name, role_detail, 
+                               role_group_normalized, original_frame_number, scene_position, 
+                               reviewed_status, is_person, normalized_name,
+                               assigned_code, code_assignment_status, imdb_matches
+                        FROM {config.DB_TABLE_CREDITS} 
+                        WHERE episode_id = ? AND normalized_name = ? AND role_group_normalized = ?
+                        ORDER BY id
+                    """, (episode_id, normalized_name, role_group_normalized))
+                    
+                    all_variants = cursor.fetchall()
+                    for variant_row in all_variants:
+                        (v_id, v_ep_id, v_source_frame, v_role_group, v_name, v_role_detail, 
+                         v_role_group_normalized, v_original_frame_number, v_scene_position, 
+                         v_reviewed_status, v_is_person, v_normalized_name,
+                         v_assigned_code, v_code_assignment_status, v_imdb_matches) = variant_row
+                        
+                        duplicate_entries.append({
+                            'id': v_id,
+                            'episode_id': v_ep_id,
+                            'source_frame': v_source_frame,
+                            'role_group': v_role_group,
+                            'name': v_name,
+                            'role_detail': v_role_detail,
+                            'role_group_normalized': v_role_group_normalized,
+                            'original_frame_number': v_original_frame_number,
+                            'scene_position': v_scene_position,
+                            'reviewed_status': v_reviewed_status,
+                            'is_person': v_is_person,
+                            'normalized_name': v_normalized_name,
+                            'assigned_code': v_assigned_code,
+                            'code_assignment_status': v_code_assignment_status,
+                            'imdb_matches': v_imdb_matches
+                        })
+                        
+                except Exception as e:
+                    logging.error(f"[PROBLEMATIC_CREDITS] Error building duplicate entries for credit {credit_id}: {e}")
+                    # Fallback to single entry if duplicate detection fails
+                    duplicate_entries = [{
+                        'id': credit_id,
+                        'episode_id': ep_id,
+                        'source_frame': source_frame,
+                        'role_group': role_group,
+                        'name': name,
+                        'role_detail': role_detail,
+                        'role_group_normalized': role_group_normalized,
+                        'original_frame_number': original_frame_number,
+                        'scene_position': scene_position,
+                        'reviewed_status': reviewed_status,
+                        'is_person': is_person,
+                        'normalized_name': normalized_name,
+                        'assigned_code': assigned_code,
+                        'code_assignment_status': code_assignment_status,
+                        'imdb_matches': imdb_matches
+                    }]
+                
                 problematic_credit = {
                     'id': credit_id,
                     'episode_id': ep_id,
@@ -2009,7 +2070,9 @@ def identify_problematic_credits(episode_id: str) -> List[Dict[str, Any]]:
                     'code_assignment_status': code_assignment_status,
                     'imdb_matches': imdb_matches,
                     'problem_types': problem_types,
-                    'priority_score': len(problem_types) * 10  # Higher score for more problems
+                    'priority_score': len(problem_types) * 10,  # Higher score for more problems
+                    'duplicate_entries': duplicate_entries,
+                    'total_variants': len(duplicate_entries)
                 }
                 problematic_credits.append(problematic_credit)
         
@@ -2218,8 +2281,8 @@ def get_processed_entities(episode_id: str) -> List[Dict[str, Any]]:
 
 def reset_entity_review_status(episode_id: str, entity_ids: List[int]) -> int:
     """
-    Reset review status of specific entities from 'kept' to 'reverted'.
-    Reverted credits will always be considered problematic for review.
+    Reset review status of specific entities by restoring them from their backup data.
+    This ensures reverted credits have their complete original data structure.
     
     Args:
         episode_id: Episode ID
@@ -2239,29 +2302,79 @@ def reset_entity_review_status(episode_id: str, entity_ids: List[int]) -> int:
         conn = sqlite3.connect(config.DB_PATH)
         cursor = conn.cursor()
         
-        # Handle different cases for SQL IN clause
-        if len(entity_ids) == 1:
-            # Single item - use direct comparison
-            cursor.execute(f"""
-                UPDATE {config.DB_TABLE_CREDITS}
-                SET reviewed_status = 'reverted'
-                WHERE episode_id = ? AND id = ? AND reviewed_status = 'kept'
-            """, (episode_id, entity_ids[0]))
-        else:
-            # Multiple items - use IN clause with proper tuple formatting
-            placeholders = ','.join(['?' for _ in entity_ids])
-            cursor.execute(f"""
-                UPDATE {config.DB_TABLE_CREDITS}
-                SET reviewed_status = 'reverted'
-                WHERE episode_id = ? AND id IN ({placeholders}) AND reviewed_status = 'kept'
-            """, (episode_id, *entity_ids))
+        restored_count = 0
         
-        affected_rows = cursor.rowcount
+        for entity_id in entity_ids:
+            # Get the backup data for this entity
+            cursor.execute(f"""
+                SELECT original_data_backup 
+                FROM {config.DB_TABLE_CREDITS} 
+                WHERE episode_id = ? AND id = ? AND reviewed_status = 'kept'
+            """, (episode_id, entity_id))
+            
+            backup_result = cursor.fetchone()
+            if backup_result and backup_result[0]:
+                try:
+                    import json
+                    backup_data = json.loads(backup_result[0])
+                    
+                    # Restore all fields from backup, but keep the current id and episode_id
+                    # and set reviewed_status to 'reverted'
+                    cursor.execute(f"""
+                        UPDATE {config.DB_TABLE_CREDITS}
+                        SET 
+                            source_frame = ?,
+                            role_group = ?,
+                            name = ?,
+                            role_detail = ?,
+                            role_group_normalized = ?,
+                            scene_position = ?,
+                            original_frame_number = ?,
+                            reviewed_status = 'reverted',
+                            is_person = ?,
+                            normalized_name = ?,
+                            assigned_code = ?,
+                            code_assignment_status = ?,
+                            imdb_matches = ?
+                        WHERE episode_id = ? AND id = ?
+                    """, (
+                        backup_data.get('source_frame'),
+                        backup_data.get('role_group'),
+                        backup_data.get('name'),
+                        backup_data.get('role_detail'),
+                        backup_data.get('role_group_normalized'),
+                        backup_data.get('scene_position'),
+                        backup_data.get('original_frame_number'),
+                        backup_data.get('is_person'),
+                        backup_data.get('normalized_name'),
+                        backup_data.get('assigned_code'),
+                        backup_data.get('code_assignment_status'),
+                        backup_data.get('imdb_matches'),
+                        episode_id,
+                        entity_id
+                    ))
+                    
+                    if cursor.rowcount > 0:
+                        restored_count += 1
+                        logging.info(f"[RESET_ENTITIES] Successfully restored entity {entity_id} from backup")
+                    else:
+                        logging.warning(f"[RESET_ENTITIES] No rows updated for entity {entity_id}")
+                        
+                except json.JSONDecodeError as e:
+                    logging.error(f"[RESET_ENTITIES] Error parsing backup JSON for entity {entity_id}: {e}")
+                except Exception as e:
+                    logging.error(f"[RESET_ENTITIES] Error restoring entity {entity_id}: {e}")
+            else:
+                logging.warning(f"[RESET_ENTITIES] No backup data found for entity {entity_id}")
+        
         conn.commit()
         conn.close()
         
-        logging.info(f"[RESET_ENTITIES] Successfully reset {affected_rows} entities to 'reverted' status for episode: {episode_id}")
-        return affected_rows
+        # Invalidate cache after restoring entities
+        invalidate_credits_cache(episode_id)
+        
+        logging.info(f"[RESET_ENTITIES] Successfully restored {restored_count} entities from backup for episode: {episode_id}")
+        return restored_count
         
     except Exception as e:
         logging.error(f"[RESET_ENTITIES] Error resetting entities for episode {episode_id}: {e}", exc_info=True)
