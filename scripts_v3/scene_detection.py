@@ -201,6 +201,13 @@ def identify_candidate_scenes(
             scene_manager.detect_scenes(video=video, end_time=FrameTimecode(total_frames, fps), show_progress=True)
             scenes_in_video = scene_manager.get_scene_list()
 
+            # Handle case where no scene cuts are detected (entire video is one scene)
+            if not scenes_in_video:
+                log.info(f"No scene cuts detected - treating entire video as single scene (0 to {total_frames})")
+                start_tc = FrameTimecode(0, fps)
+                end_tc = FrameTimecode(total_frames, fps)
+                scenes_in_video = [(start_tc, end_tc)]
+
             # Cache the detected scenes
             cache_data = {
                 'total_frames': total_frames,
