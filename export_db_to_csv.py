@@ -84,6 +84,28 @@ def export_table_to_csv(
 
         # Get column names
         column_names = [description[0] for description in cursor.description]
+        
+        # Post-process rows for credits table to clean episode_id
+        if table_name == 'credits' and 'episode_id' in column_names:
+            episode_id_idx = column_names.index('episode_id')
+            processed_rows = []
+            
+            for row in rows:
+                row_list = list(row)
+                episode_id = row_list[episode_id_idx]
+                
+                # Remove _End and _Opening suffixes
+                if episode_id:
+                    episode_id = str(episode_id)
+                    if episode_id.endswith('_End'):
+                        episode_id = episode_id[:-4]  # Remove last 4 chars
+                    elif episode_id.endswith('_Opening'):
+                        episode_id = episode_id[:-8]  # Remove last 8 chars
+                    row_list[episode_id_idx] = episode_id
+                
+                processed_rows.append(tuple(row_list))
+            
+            rows = processed_rows
 
         # Write to CSV
         with open(output_path, 'w', newline='', encoding='utf-8') as csvfile:
@@ -265,10 +287,28 @@ Examples:
         exported_files = []
         for table in tables_to_export:
             try:
-                # Define specific columns for credits table
+                # Define specific columns for credits table to export all relevant fields
                 columns = None
                 if table == 'credits':
-                    columns = ['episode_id', 'name', 'role_detail', 'role_group_normalized']
+                    # Export all important columns including new imdb_name field
+                    columns = [
+                        'id',
+                        'episode_id',
+                        'source_frame',
+                        'role_group',
+                        'role_group_normalized',
+                        'role_detail',
+                        'name',
+                        'imdb_name',
+                        'normalized_name',
+                        'is_person',
+                        'assigned_code',
+                        'code_assignment_status',
+                        'imdb_matches',
+                        'scene_position',
+                        'original_frame_number',
+                        'reviewed_status'
+                    ]
                 
                 output_path = export_table_to_csv(
                     db_path,

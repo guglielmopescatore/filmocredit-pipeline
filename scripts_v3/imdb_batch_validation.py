@@ -13,10 +13,12 @@ Author: Assistant
 Date: July 2025
 """
 
+import csv
 import sqlite3
 import logging
 import time
 from typing import List, Dict, Any, Tuple, Optional
+from datetime import datetime
 import sys
 import os
 
@@ -30,7 +32,9 @@ from scripts_v3.utils import get_imdb_validator
 class IMDBBatchValidatorWithCodeAssignment:
     """Batch processor for IMDB validation with code assignment."""
     
-    def __init__(self):
+    def __init__(self, fuzzy_enabled: bool = True, fuzzy_threshold: int = 90):
+        self.fuzzy_enabled = fuzzy_enabled
+        self.fuzzy_threshold = fuzzy_threshold
         self.validator: Optional[IMDBNameValidator] = None
         self.stats = {
             'total_credits': 0,
@@ -46,11 +50,15 @@ class IMDBBatchValidatorWithCodeAssignment:
             'not_found_in_imdb': 0,
             'companies_skipped': 0
         }
+        self.fuzzy_corrections = []  # Track all fuzzy match corrections
     
     def _get_validator(self) -> IMDBNameValidator:
-        """Get the IMDB validator instance."""
+        """Get the IMDB validator instance with configured fuzzy settings."""
         if self.validator is None:
-            self.validator = IMDBNameValidator()
+            self.validator = IMDBNameValidator(
+                fuzzy_enabled=self.fuzzy_enabled,
+                fuzzy_threshold=self.fuzzy_threshold
+            )
         return self.validator
     
     def get_unprocessed_credits(self, episode_id: Optional[str] = None, force_reprocess: bool = False) -> List[Dict[str, Any]]:
@@ -77,7 +85,9 @@ class IMDBBatchValidatorWithCodeAssignment:
                 params.append(episode_id)
             
             if not force_reprocess:
-                where_conditions.append("(assigned_code IS NULL OR code_assignment_status IN ('manual_required', 'ambiguous'))")
+                # Only process credits that have never been processed at all
+                # Skip credits with any status (ambiguous, manual_required, etc.) - they need human review
+                where_conditions.append("assigned_code IS NULL AND (code_assignment_status IS NULL OR code_assignment_status = '')")
             
             where_clause = "WHERE " + " AND ".join(where_conditions) if where_conditions else ""
             
@@ -102,7 +112,8 @@ class IMDBBatchValidatorWithCodeAssignment:
     
     def update_credit_with_code_assignment(self, credit_id: int, assigned_code: str, 
                                          assignment_status: CodeAssignmentStatus, 
-                                         imdb_matches_json: Optional[str] = None) -> bool:
+                                         imdb_matches_json: Optional[str] = None,
+                                         corrected_name: Optional[str] = None) -> bool:
         """
         Update a credit with code assignment results.
         
@@ -111,6 +122,7 @@ class IMDBBatchValidatorWithCodeAssignment:
             assigned_code: The assigned code (nconst or internal gp code)
             assignment_status: The assignment status
             imdb_matches_json: JSON string of IMDB matches for ambiguous cases
+            corrected_name: IMDB official name to replace OCR name (when auto-assigned)
         
         Returns:
             True if successful, False otherwise
@@ -119,12 +131,22 @@ class IMDBBatchValidatorWithCodeAssignment:
             conn = sqlite3.connect(config.DB_PATH)
             cursor = conn.cursor()
             
-            cursor.execute(
-                f"""UPDATE {config.DB_TABLE_CREDITS} 
-                    SET assigned_code = ?, code_assignment_status = ?, imdb_matches = ?
-                    WHERE id = ?""",
-                (assigned_code, assignment_status.value, imdb_matches_json, credit_id)
-            )
+            # If we have a corrected name from IMDB, update both name and imdb_name fields
+            if corrected_name and assignment_status == CodeAssignmentStatus.AUTO_ASSIGNED:
+                cursor.execute(
+                    f"""UPDATE {config.DB_TABLE_CREDITS} 
+                        SET assigned_code = ?, code_assignment_status = ?, imdb_matches = ?, imdb_name = ?
+                        WHERE id = ?""",
+                    (assigned_code, assignment_status.value, imdb_matches_json, corrected_name, credit_id)
+                )
+                logging.info(f"Updated credit {credit_id} with IMDB name: '{corrected_name}'")
+            else:
+                cursor.execute(
+                    f"""UPDATE {config.DB_TABLE_CREDITS} 
+                        SET assigned_code = ?, code_assignment_status = ?, imdb_matches = ?
+                        WHERE id = ?""",
+                    (assigned_code, assignment_status.value, imdb_matches_json, credit_id)
+                )
             
             conn.commit()
             conn.close()
@@ -148,6 +170,8 @@ class IMDBBatchValidatorWithCodeAssignment:
         role_group = credit.get('role_group_normalized') or credit.get('role_group', '')
         is_person = credit.get('is_person')
         credit_id = credit.get('id')
+        episode_id = credit.get('episode_id', '')
+        source_frame = credit.get('source_frame', '')
         
         if not name:
             logging.warning(f"Credit {credit_id} has no name, skipping")
@@ -159,15 +183,37 @@ class IMDBBatchValidatorWithCodeAssignment:
             # Validate and assign code
             result = validator.validate_name_with_code_assignment(name, role_group, is_person)
             
+            # Track fuzzy corrections if name was corrected
+            if result.corrected_name and result.corrected_name != name:
+                # Check if this was a fuzzy match (not exact)
+                if result.validation_method and 'fuzzy' in result.validation_method.lower():
+                    self.fuzzy_corrections.append({
+                        'episode_id': episode_id,
+                        'source_frame': source_frame,
+                        'original_name': name,
+                        'corrected_name': result.corrected_name,
+                        'imdb_code': result.assigned_code,
+                        'role_group': role_group,
+                        'confidence': result.confidence
+                    })
+                    logging.info(f"🔍 FUZZY CORRECTION TRACKED: '{name}' -> '{result.corrected_name}' (frame: {source_frame}, method: {result.validation_method})")
+                else:
+                    logging.debug(f"Name corrected but via exact match: '{name}' -> '{result.corrected_name}' (method: {result.validation_method})")
+            elif result.corrected_name == name:
+                logging.debug(f"Name unchanged: '{name}' (method: {result.validation_method})")
+            else:
+                logging.debug(f"No corrected name in result for: '{name}' (method: {result.validation_method})")
+            
             # Determine if person was found in IMDB (regardless of assignment success)
             is_found_in_imdb = result.matches and len(result.matches) > 0
             
-            # Update database with the result
+            # Update database with the result (including corrected name if available)
             success = self.update_credit_with_code_assignment(
                 credit_id,
                 result.assigned_code,
                 result.assignment_status,
-                result.imdb_matches_json
+                result.imdb_matches_json,
+                result.corrected_name
             )
             
             if success:
@@ -281,9 +327,57 @@ class IMDBBatchValidatorWithCodeAssignment:
         total_processed = stats['persons_processed'] + stats['companies_processed']
         if total_processed > 0:
             auto_rate = ((stats['auto_assigned_nconst'] + stats['auto_assigned_internal']) / total_processed) * 100
-            print(f"� Automatic assignment rate: {auto_rate:.1f}%")
+            print(f"🤖 Automatic assignment rate: {auto_rate:.1f}%")
+        
+        # Fuzzy corrections summary
+        if self.fuzzy_corrections:
+            print(f"🔍 Fuzzy match corrections: {len(self.fuzzy_corrections)}")
         
         print("="*60)
+    
+    def save_fuzzy_corrections_to_csv(self, output_path: str = None) -> Optional[str]:
+        """
+        Save all fuzzy match corrections to a CSV file.
+        
+        Args:
+            output_path: Optional path for the CSV file. If not provided, generates one.
+            
+        Returns:
+            Path to the saved CSV file, or None if no corrections to save
+        """
+        logging.info(f"Attempting to save fuzzy corrections. Count: {len(self.fuzzy_corrections)}")
+        
+        if not self.fuzzy_corrections:
+            logging.info("No fuzzy corrections to save - list is empty")
+            print("ℹ️  No fuzzy corrections to save (no fuzzy matches occurred)")
+            return None
+        
+        if output_path is None:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            output_path = config.PROJECT_ROOT / 'exports' / f'fuzzy_corrections_{timestamp}.csv'
+        
+        # Ensure output directory exists
+        from pathlib import Path
+        output_path = Path(output_path)
+        if not output_path.is_absolute():
+            output_path = config.PROJECT_ROOT / output_path
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        
+        try:
+            with open(output_path, 'w', newline='', encoding='utf-8') as csvfile:
+                fieldnames = ['episode_id', 'source_frame', 'original_name', 'corrected_name', 'imdb_code', 'role_group', 'confidence']
+                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+                
+                writer.writeheader()
+                writer.writerows(self.fuzzy_corrections)
+            
+            logging.info(f"Saved {len(self.fuzzy_corrections)} fuzzy corrections to: {output_path}")
+            print(f"📄 Fuzzy corrections saved to: {output_path}")
+            return str(output_path)
+            
+        except Exception as e:
+            logging.error(f"Error saving fuzzy corrections CSV: {e}")
+            return None
 
 
 # Legacy class for backward compatibility
@@ -349,6 +443,9 @@ def main():
     
     # Print final statistics
     batch_validator.print_final_stats()
+    
+    # Save fuzzy corrections to CSV
+    batch_validator.save_fuzzy_corrections_to_csv()
     
     processing_time = end_time - start_time
     print(f"⏱️  Processing time: {processing_time:.1f} seconds")

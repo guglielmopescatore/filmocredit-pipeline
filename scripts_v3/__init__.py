@@ -23,7 +23,7 @@ __all__ = [
     'utils',
     'scene_detection',
     'frame_analysis',
-    'azure_vlm_processing',
+    'vlm_processing',
     'exceptions',
     # Eccezioni
     'FilmocreditError',

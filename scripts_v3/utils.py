@@ -274,18 +274,30 @@ def clean_vlm_output(raw_text: str) -> str:
     if cleaned.startswith('[') and cleaned.endswith(']'):
         return cleaned
     elif cleaned.startswith('{') and cleaned.endswith('}'):
+        # Check if it's our expected wrapper object with "credits" key
+        if '"credits"' in cleaned:
+             return cleaned
+        
         logging.warning(f"VLM returned a JSON object, expected list. Wrapping in list. Raw: {raw_text[:200]}...")
         return f"[{cleaned}]"
     else:
         logging.warning(f"VLM output doesn't look like JSON list: '{cleaned[:200]}...'")
-        match = re.search(r"(\[.*\])", cleaned, re.DOTALL)
-        if match:
-            extracted_list = match.group(1).strip()
+        # Try to find list first
+        match_list = re.search(r"(\[.*\])", cleaned, re.DOTALL)
+        if match_list:
+            extracted_list = match_list.group(1).strip()
             logging.warning(f"Extracted potential JSON list using regex: '{extracted_list[:200]}...'")
             return extracted_list
-        else:
-            logging.error(f"Could not extract valid JSON list from VLM output: '{cleaned[:200]}...'")
-            return "[]"
+        
+        # Try to find object
+        match_obj = re.search(r"(\{.*\})", cleaned, re.DOTALL)
+        if match_obj:
+            extracted_obj = match_obj.group(1).strip()
+            if '"credits"' in extracted_obj:
+                return extracted_obj
+        
+        logging.error(f"Could not extract valid JSON list from VLM output: '{cleaned[:200]}...'")
+        return "[]"
 
 
 def parse_vlm_json(json_string: str, source_identifier: str, name_key: str = "name") -> List[Dict[str, Any]]:
@@ -310,13 +322,30 @@ def parse_vlm_json(json_string: str, source_identifier: str, name_key: str = "na
     except json.JSONDecodeError as jde:
         logging.error(f"JSON decode error for {source_identifier}: {jde} - Input truncated: {json_string[:200]}...")
         return []
-    # Ensure data is a list
+    
+    # Handle the case where clean_vlm_output wrapped the response object in a list
+    # (e.g. if it failed to detect "credits" key in string check but it was there)
+    if isinstance(data, list) and len(data) == 1 and isinstance(data[0], dict) and "credits" in data[0]:
+        explanation = data[0].get("explanation")
+        if explanation:
+             logging.info(f"[{source_identifier}] VLM Explanation: {explanation}")
+        data = data[0]["credits"]
+    
+    # Handle the standard wrapper object case
+    if isinstance(data, dict) and "credits" in data:
+         explanation = data.get("explanation")
+         if explanation:
+             logging.info(f"[{source_identifier}] VLM Explanation: {explanation}")
+         data = data["credits"]
+
+    # Ensure data is a list (legacy fallback for single dict credit)
     if isinstance(data, dict):
         logging.warning(f"VLM JSON for {source_identifier} is a dict; wrapping into list.")
         data = [data]
     elif not isinstance(data, list):
         logging.error(f"Unexpected VLM JSON type for {source_identifier}: {type(data)}; expected list or dict.")
         return []
+    
     # Validate each entry
     for item in data:
         if not isinstance(item, dict):
@@ -429,19 +458,31 @@ def calculate_hash_difference(hash1: Optional[imagehash.ImageHash], hash2: Optio
 
 def get_paddleocr_reader(lang: str = 'it'):
     """Initializes and returns a PaddleOCR reader instance for the specified language."""
+    import numpy as np
     # Lazy import to avoid DLL conflicts when OCR engine is not selected
     from paddleocr import PaddleOCR
-
-    actual_lang_code = config.PADDLEOCR_LANG_MAP.get(lang, lang)
-
-    logging.info(f"Attempting PaddleOCR init for lang='{actual_lang_code}' (PP-OCRv5)")
+    
+    logging.info(f"Creating PaddleOCR instance...")
     ocr_reader = PaddleOCR(
         use_doc_orientation_classify=True,
         use_doc_unwarping=False,
         use_textline_orientation=True,
-        lang=actual_lang_code,
-    )
-    logging.info(f"PaddleOCR reader initialized for '{actual_lang_code}'")
+        lang=lang
+        )
+    
+    
+    
+    logging.info(f"PaddleOCR instance created, performing warmup...")
+    
+    # Warmup: run a dummy prediction to initialize GPU/models fully
+    try:
+        dummy_img = np.ones((100, 300, 3), dtype=np.uint8) * 255
+        _ = ocr_reader.predict(dummy_img)
+        logging.info(f"PaddleOCR warmup completed successfully")
+    except Exception as e:
+        logging.warning(f"PaddleOCR warmup failed (non-critical): {e}")
+    
+    logging.info(f"PaddleOCR reader initialized and ready")
     return ocr_reader
 
 
@@ -459,7 +500,9 @@ def paddleocr_predict_with_retry(ocr_reader, img, max_retries=2):
     """
     for attempt in range(max_retries + 1):
         try:
+            
             results = ocr_reader.predict(img)
+            logging.info(f"PaddleOCR prediction successful")
             return True, results
         except RuntimeError as e:
             if "Unknown exception" in str(e) and attempt < max_retries:
@@ -565,6 +608,7 @@ def init_db() -> None:
             assigned_code TEXT,         -- Either IMDB nconst (nm1234567) or internal code (gp1234567)
             code_assignment_status TEXT, -- 'auto_assigned', 'manual_required', 'ambiguous', 'internal_assigned'
             imdb_matches TEXT,          -- JSON string containing potential IMDB matches for ambiguous cases
+            imdb_name TEXT,             -- IMDB canonical name (populated when IMDB match found)
             FOREIGN KEY (episode_id) REFERENCES {config.DB_TABLE_EPISODES} (episode_id)
         )
         """
@@ -2207,7 +2251,7 @@ def normalize_name(name):
     name = ''.join(char for char in name if unicodedata.category(char) != 'Mn')
     
     # Remove punctuation but preserve spaces
-    name = re.sub(r"[.\-_,']", "", name)
+    name = re.sub(r"[.\-_,'\"]", " ", name)
     
     # Remove any extra whitespace and normalize to single spaces
     name = re.sub(r"\s+", " ", name).strip()

@@ -2,6 +2,7 @@ import base64
 import json
 import logging
 import os
+import sqlite3
 import time
 from dataclasses import dataclass
 from mimetypes import guess_type
@@ -11,11 +12,20 @@ from typing import Any, Dict, List, Optional, Tuple
 from tqdm import tqdm
 
 try:
-    from openai import APIConnectionError, APIStatusError, AzureOpenAI, RateLimitError
+    from openai import APIConnectionError, APIStatusError, AzureOpenAI, OpenAI, RateLimitError
 except ImportError:
-    AzureOpenAI = None
+    AzureOpenAI = OpenAI = None
     APIStatusError = APIConnectionError = RateLimitError = None
     logging.warning("Azure OpenAI library not found. Azure VLM processing will not be available.")
+
+try:
+    from anthropic import AnthropicFoundry
+    # Set Anthropic library logging to INFO to avoid debug spam
+    import anthropic
+    logging.getLogger('anthropic').setLevel(logging.INFO)
+except ImportError:
+    AnthropicFoundry = None
+    logging.warning("Anthropic library not found. Claude VLM processing will not be available.")
 
 from scripts_v3 import config, utils
 
@@ -55,15 +65,16 @@ def local_image_to_data_url(image_path: Path) -> Optional[str]:
 
 
 def run_azure_vlm_ocr_on_frames(
-    episode_id: str, max_new_tokens: int
+    episode_id: str, max_new_tokens: int, vlm_provider: str = "auto"
 ) -> Tuple[int, str, Optional[str]]:
     """
-    Runs Azure VLM OCR on selected frames for an episode, one frame at a time,
+    Runs VLM OCR on selected frames for an episode, one frame at a time,
     processes results, and saves them.
 
     Args:
         episode_id: The ID of the episode.
         max_new_tokens: The maximum number of new tokens for generation.
+        vlm_provider: VLM provider to use ('auto', 'claude', 'azure'). Default: 'auto'
 
     Returns:
         A tuple containing:
@@ -122,36 +133,203 @@ def run_azure_vlm_ocr_on_frames(
 
     logging.info(f"[{episode_id}] Found {len(all_frames_info)} total frames for potential processing.")
 
+    # Check which frames are already fully processed in the database
+    # A frame is fully processed if all its credits (name-frame pairs) exist in DB
     processed_frames_set = set()
+    incomplete_frames_to_clean = set()
+    
+    # Load existing credits from JSON to know what should be in DB for each frame
+    json_credits_by_frame = {}
     if output_json_path.exists():
         try:
             with open(output_json_path, 'r', encoding='utf-8') as f:
                 existing_credits = json.load(f)
                 for credit in existing_credits:
                     frames = credit.get('source_frame', [])
-                    if isinstance(frames, list):
-                        processed_frames_set.update(frames)
-                    elif isinstance(frames, str):
-                        processed_frames_set.add(frames)
+                    if isinstance(frames, str):
+                        frames = [frames]
+                    elif not isinstance(frames, list):
+                        frames = []
+                    
+                    name = credit.get('name', '')
+                    for frame_filename in frames:
+                        if frame_filename not in json_credits_by_frame:
+                            json_credits_by_frame[frame_filename] = []
+                        json_credits_by_frame[frame_filename].append(name)
+            
+            logging.info(f"[{episode_id}] Loaded JSON with credits for {len(json_credits_by_frame)} frames")
+            
+            # Now check database to see which frames are fully processed
+            try:
+                conn = sqlite3.connect(config.DB_PATH)
+                cursor = conn.cursor()
+                
+                for frame_filename, expected_names in json_credits_by_frame.items():
+                    # Get all names in DB for this frame
+                    cursor.execute(
+                        f"""SELECT DISTINCT name FROM {config.DB_TABLE_CREDITS} 
+                        WHERE episode_id = ? AND source_frame LIKE ?""",
+                        (episode_id, f"%{frame_filename}%")
+                    )
+                    db_names = {row[0] for row in cursor.fetchall()}
+                    
+                    # Check if all expected names are in DB
+                    if set(expected_names).issubset(db_names):
+                        processed_frames_set.add(frame_filename)
+                        logging.debug(f"[{episode_id}] Frame {frame_filename} fully processed in DB")
+                    else:
+                        missing = set(expected_names) - db_names
+                        if db_names:  # Has some credits but incomplete
+                            incomplete_frames_to_clean.add(frame_filename)
+                            logging.info(f"[{episode_id}] Frame {frame_filename} incomplete in DB (missing: {missing}) - will clean and reprocess")
+                        else:
+                            logging.debug(f"[{episode_id}] Frame {frame_filename} not in DB - will process")
+                
+                # Clean incomplete frames from database
+                if incomplete_frames_to_clean:
+                    logging.info(f"[{episode_id}] Cleaning {len(incomplete_frames_to_clean)} incomplete frames from database")
+                    for frame_filename in incomplete_frames_to_clean:
+                        cursor.execute(
+                            f"""DELETE FROM {config.DB_TABLE_CREDITS} 
+                            WHERE episode_id = ? AND source_frame LIKE ?""",
+                            (episode_id, f"%{frame_filename}%")
+                        )
+                        deleted = cursor.rowcount
+                        logging.info(f"[{episode_id}] Deleted {deleted} incomplete credits for frame {frame_filename}")
+                    
+                    conn.commit()
+                    logging.info(f"[{episode_id}] Database cleanup completed for incomplete frames")
+                
+                conn.close()
+                logging.info(f"[{episode_id}] Found {len(processed_frames_set)} fully processed frames in database")
+                
+            except Exception as db_err:
+                logging.warning(f"[{episode_id}] Could not check database for processed frames: {db_err}")
+                # Fallback: treat all frames in JSON as processed
+                processed_frames_set = set(json_credits_by_frame.keys())
+            
+            # Clean incomplete frames from JSON
+            if incomplete_frames_to_clean:
+                logging.info(f"[{episode_id}] Cleaning {len(incomplete_frames_to_clean)} incomplete frames from JSON")
+                cleaned_credits = []
+                for credit in existing_credits:
+                    frames = credit.get('source_frame', [])
+                    if isinstance(frames, str):
+                        frames = [frames]
+                    elif not isinstance(frames, list):
+                        frames = []
+                    
+                    # Keep credits that don't belong to incomplete frames
+                    if not any(frame in incomplete_frames_to_clean for frame in frames):
+                        cleaned_credits.append(credit)
+                
+                # Save cleaned JSON
+                try:
+                    with open(output_json_path, 'w', encoding='utf-8') as f:
+                        json.dump(cleaned_credits, f, ensure_ascii=False, indent=2)
+                    logging.info(f"[{episode_id}] Cleaned JSON saved with {len(cleaned_credits)} credits (removed {len(existing_credits) - len(cleaned_credits)} incomplete credits)")
+                except Exception as write_err:
+                    logging.error(f"[{episode_id}] Failed to save cleaned JSON: {write_err}")
+                
         except Exception as e:
             logging.warning(f"[{episode_id}] Could not load processed frames from {output_json_path}: {e}")
+    
     logging.info(
-        f"[{episode_id}] Found {len(processed_frames_set)} already processed unique frame filenames in {output_json_path.name}."
+        f"[{episode_id}] Found {len(processed_frames_set)} already fully processed frame filenames (verified in DB)."
     )
 
-    # Initialize Azure client with credentials from config.Env
+    # Initialize VLM client based on user preference or auto-detect
     try:
-        api_key = os.getenv(config.AzureConfig.API_KEY_ENV)
-        api_version = os.getenv(config.AzureConfig.API_VERSION_ENV, "2024-02-15-preview")
-        endpoint = os.getenv(config.AzureConfig.ENDPOINT_ENV)
-        deployment_name = os.getenv(config.AzureConfig.DEPLOYMENT_NAME_ENV)
-        if not all([api_key, endpoint, deployment_name]):
-            raise ValueError("Azure endpoint/deployment/key environment variables not set.")
-        client = AzureOpenAI(api_key=api_key, api_version=api_version, azure_endpoint=endpoint)
+        # Get credentials
+        claude_endpoint = os.getenv("CLAUDE_ENDPOINT")
+        claude_api_key = os.getenv("CLAUDE_API_KEY")
+        claude_model = os.getenv("CLAUDE_MODEL_DEPLOYMENT_NAME")
+        
+        # Azure Common
+        azure_api_key = os.getenv(config.AzureConfig.API_KEY_ENV)
+        azure_api_version = os.getenv(config.AzureConfig.API_VERSION_ENV, config.AzureConfig.DEFAULT_API_VERSION)
+        
+        # GPT 4.1
+        gpt4_endpoint = os.getenv(config.AzureConfig.GPT4_ENDPOINT_ENV) or os.getenv(config.AzureConfig.ENDPOINT_ENV)
+        gpt4_deployment = os.getenv(config.AzureConfig.GPT4_DEPLOYMENT_NAME_ENV) or os.getenv(config.AzureConfig.DEPLOYMENT_NAME_ENV)
+        
+        # GPT 5.1
+        gpt5_endpoint = os.getenv(config.AzureConfig.GPT5_ENDPOINT_ENV)
+        gpt5_deployment = os.getenv(config.AzureConfig.GPT5_DEPLOYMENT_NAME_ENV)
+        
+        # Check availability
+        claude_available = bool(claude_endpoint and claude_api_key and claude_model and AnthropicFoundry)
+        gpt4_available = bool(azure_api_key and gpt4_endpoint and gpt4_deployment and AzureOpenAI)
+        gpt5_available = bool(azure_api_key and gpt5_endpoint and gpt5_deployment and OpenAI)
+        
+        # Debug logging for availability
+        logging.debug(f"[{episode_id}] VLM Availability Check:")
+        logging.debug(f"  Claude: {claude_available} (Key: {bool(claude_api_key)}, Endpoint: {bool(claude_endpoint)}, Model: {bool(claude_model)}, Lib: {bool(AnthropicFoundry)})")
+        logging.debug(f"  GPT-4.1: {gpt4_available} (Key: {bool(azure_api_key)}, Endpoint: {bool(gpt4_endpoint)}, Model: {bool(gpt4_deployment)}, Lib: {bool(AzureOpenAI)})")
+        logging.debug(f"  GPT-5.1: {gpt5_available} (Key: {bool(azure_api_key)}, Endpoint: {bool(gpt5_endpoint)}, Model: {bool(gpt5_deployment)}, Lib: {bool(OpenAI)})")
+        
+        # Select provider based on preference
+        selected_provider = None
+        
+        if vlm_provider == "claude":
+            if not claude_available:
+                raise ValueError("Claude provider requested but credentials not available or library not installed")
+            selected_provider = "claude"
+        elif vlm_provider == "azure_gpt5":
+            if not gpt5_available:
+                missing = []
+                if not azure_api_key: missing.append("AZURE_OPENAI_KEY")
+                if not gpt5_endpoint: missing.append("GPT_5_1_AZURE_OPENAI_ENDPOINT")
+                if not gpt5_deployment: missing.append("GPT_5_1_AZURE_OPENAI_DEPLOYMENT_NAME")
+                if not OpenAI: missing.append("openai library (OpenAI class)")
+                raise ValueError(f"Azure GPT-5.1 provider requested but credentials not available or library not installed. Missing: {', '.join(missing)}")
+            selected_provider = "azure_gpt5"
+        elif vlm_provider == "azure_gpt4":
+            if not gpt4_available:
+                raise ValueError("Azure GPT-4.1 provider requested but credentials not available or library not installed")
+            selected_provider = "azure_gpt4"
+        elif vlm_provider == "azure": # Legacy/Generic Azure request -> prefer GPT-5 if available, else GPT-4
+             if gpt5_available:
+                 selected_provider = "azure_gpt5"
+             elif gpt4_available:
+                 selected_provider = "azure_gpt4"
+             else:
+                 raise ValueError("Azure provider requested but neither GPT-5.1 nor GPT-4.1 credentials available")
+        else:  # auto
+            if claude_available:
+                selected_provider = "claude"
+            elif gpt5_available:
+                selected_provider = "azure_gpt5"
+            elif gpt4_available:
+                selected_provider = "azure_gpt4"
+            else:
+                raise ValueError("No VLM provider available (neither Claude nor Azure credentials set)")
+        
+        # Initialize client
+        if selected_provider == "claude":
+            logging.info(f"[{episode_id}] Using Claude model: {claude_model}")
+            client = AnthropicFoundry(api_key=claude_api_key, base_url=claude_endpoint)
+            deployment_name = claude_model
+            vlm_provider = "claude"
+            
+        elif selected_provider == "azure_gpt5":
+            logging.info(f"[{episode_id}] Using Azure GPT-5.1 model: {gpt5_deployment}")
+            # GPT-5.1 uses OpenAI client with base_url
+            client = OpenAI(api_key=azure_api_key, base_url=gpt5_endpoint)
+            deployment_name = gpt5_deployment
+            vlm_provider = "azure_gpt5"
+            
+        elif selected_provider == "azure_gpt4":
+            logging.info(f"[{episode_id}] Using Azure GPT-4.1 model: {gpt4_deployment}")
+            # GPT-4.1 uses AzureOpenAI client
+            client = AzureOpenAI(api_key=azure_api_key, api_version=azure_api_version, azure_endpoint=gpt4_endpoint)
+            deployment_name = gpt4_deployment
+            vlm_provider = "azure_gpt4"
+            
     except Exception as client_err:
-        msg = f"Failed to initialize Azure OpenAI client: {client_err}"
+        msg = f"Failed to initialize VLM client: {client_err}"
         logging.error(f"[{episode_id}] {msg}", exc_info=True)
-        return 0, "error_azure_client_init", msg
+        return 0, "error_vlm_client_init", msg
 
     newly_added_credits_count = 0
     prompt_template = config.BASE_PROMPT_TEMPLATE
@@ -250,15 +428,49 @@ def run_azure_vlm_ocr_on_frames(
                 prompt_text = prompt_template.format(previous_credits_json=previous_llm_output_json_str)
                 logging.debug(f"[{episode_id}] Using prompt for frame {frame_idx}: {frame_data['filename']}...")
 
-                messages = [
-                    {
-                        "role": "user",
-                        "content": [
-                            {"type": "image_url", "image_url": {"url": data_url}},
-                            {"type": "text", "text": prompt_text},
-                        ],
-                    }
-                ]
+                # Prepare messages based on provider
+                if vlm_provider == "claude":
+                    # Claude format with base64 image
+                    with open(frame_path, "rb") as image_file:
+                        image_data = base64.b64encode(image_file.read()).decode("utf-8")
+                    
+                    messages = [
+                        {
+                            "role": "user",
+                            "content": [
+                                {
+                                    "type": "image",
+                                    "source": {
+                                        "type": "base64",
+                                        "media_type": "image/jpeg",
+                                        "data": image_data,
+                                    },
+                                },
+                                {
+                                    "type": "text",
+                                    "text": prompt_text
+                                }
+                            ],
+                        }
+                    ]
+                else:
+                    # Azure OpenAI / GPT-5 format with data URL
+                    # Note: data_url already contains "data:image/jpeg;base64," prefix from local_image_to_data_url
+                    messages = [
+                        {
+                            "role": "user",
+                            "content": [
+                                {
+                                    "type": "image_url", 
+                                    "image_url": {
+                                        "url": data_url,
+                                        "detail": "high"
+                                    }
+                                },
+                                {"type": "text", "text": prompt_text},
+                            ],
+                        }
+                    ]
 
                 logging.debug(f"[{episode_id}] Sending request for frame {frame_idx}: {frame_data['filename']}")
 
@@ -266,13 +478,38 @@ def run_azure_vlm_ocr_on_frames(
                 response = None
                 for attempt in range(1, MAX_API_RETRIES + 1):
                     try:
-                        response = client.chat.completions.create(
-                            model=deployment_name, messages=messages, max_tokens=max_new_tokens, temperature=0.0
-                        )
+                        if vlm_provider == "claude":
+                            # Claude API call
+                            response = client.messages.create(
+                                model=deployment_name,
+                                messages=messages,
+                                max_tokens=max_new_tokens
+                            )
+                            # Extract content from Claude response (it's a list of TextBlock)
+                            if response.content and len(response.content) > 0:
+                                generated_text = response.content[0].text.strip()
+                            else:
+                                generated_text = ""
+                        else:
+                            # Azure OpenAI / GPT-5 API call
+                            # Both use client.chat.completions.create with same signature
+                            
+                            completion_kwargs = {
+                                "model": deployment_name,
+                                "messages": messages
+                            }
+                            
+                            # GPT-5.1 and GPT-4.1 (Preview) do not support max_tokens or temperature
+                            if vlm_provider not in ["azure_gpt5", "azure_gpt4"]:
+                                completion_kwargs["max_tokens"] = max_new_tokens
+                                completion_kwargs["temperature"] = 0.0
+                                
+                            response = client.chat.completions.create(**completion_kwargs)
+                            generated_text = response.choices[0].message.content.strip()
                         break
                     except (APIConnectionError, APIStatusError) as api_err:
                         logging.warning(
-                            f"[{episode_id}] Azure API error (attempt {attempt}/{MAX_API_RETRIES}): {api_err}"
+                            f"[{episode_id}] VLM API error (attempt {attempt}/{MAX_API_RETRIES}): {api_err}"
                         )
                         if attempt == MAX_API_RETRIES:
                             raise
@@ -280,16 +517,25 @@ def run_azure_vlm_ocr_on_frames(
                         time.sleep(sleep_time)
                     except RateLimitError as rl_err:
                         logging.warning(
-                            f"[{episode_id}] Azure rate limit (attempt {attempt}/{MAX_API_RETRIES}): {rl_err}"
+                            f"[{episode_id}] VLM rate limit (attempt {attempt}/{MAX_API_RETRIES}): {rl_err}"
                         )
                         if attempt == MAX_API_RETRIES:
                             raise
                         sleep_time = BACKOFF_FACTOR**attempt
                         time.sleep(sleep_time)
+                    except Exception as e:
+                        # Catch Claude-specific errors
+                        logging.warning(
+                            f"[{episode_id}] VLM error (attempt {attempt}/{MAX_API_RETRIES}): {e}"
+                        )
+                        if attempt == MAX_API_RETRIES:
+                            raise
+                        sleep_time = BACKOFF_FACTOR**attempt
+                        time.sleep(sleep_time)
+                        
                 if response is None:
-                    raise RuntimeError("Azure VLM retry failed, no response received.")
+                    raise RuntimeError("VLM retry failed, no response received.")
 
-                generated_text = response.choices[0].message.content.strip()
                 logging.debug(
                     f"[{episode_id}] VLM Raw Output for frame {frame_idx} ({frame_data['filename']}): {generated_text}"
                 )

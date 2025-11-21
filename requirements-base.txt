@@ -13,3 +13,4 @@ tokenizers==0.21.1
 scenedetect[opencv]
 transformers
 openai
+anthropic

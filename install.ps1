@@ -96,7 +96,7 @@ function Test-GPU {    # First check if NVIDIA GPU is present
             # Alternative: check common CUDA installation paths
             if (-not $cudaInstalled) {
                 $commonPaths = @(
-                    "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6",
+                    "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9",
                     "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5",
                     "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4"
                 )
@@ -118,8 +118,8 @@ function Test-GPU {    # First check if NVIDIA GPU is present
                     if ($cudaVersion -match "^12\.") {
                         return $true
                     } else {
-                        Write-Warning "CUDA $cudaVersion detected, but version 12.6 is recommended"
-                        Write-Info "FilmoCredit is optimized for CUDA 12.6"
+                        Write-Warning "CUDA $cudaVersion detected, but version 12.9 is recommended"
+                        Write-Info "FilmoCredit is optimized for CUDA 12.9"
                         $response = Read-Host "Continue with GPU installation anyway? (y/N)"
                         return ($response -eq "y" -or $response -eq "Y")
                     }
@@ -129,8 +129,8 @@ function Test-GPU {    # First check if NVIDIA GPU is present
                 }
             } else {
                 Write-Warning "NVIDIA GPU found but CUDA not detected!"
-                Write-Info "Please install CUDA 12.6 from:"
-                Write-Info "https://developer.nvidia.com/cuda-12-6-0-download-archive"
+                Write-Info "Please install CUDA 12.9 from:"
+                Write-Info "https://developer.nvidia.com/cuda-12-9-0-download-archive"
                 Write-Info ""
                 Write-Info "Or continue with CPU-only installation"
                 $response = Read-Host "Install CPU version instead? (Y/n)"
@@ -213,26 +213,20 @@ function Set-Environment {
     if ($HasGPU) {
         Write-Info "🎮 Installing GPU dependencies..."
         
-        # PyTorch with CUDA
-        & $pipCmd install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
-        
         # PaddlePaddle GPU
-        & $pipCmd install paddlepaddle-gpu==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu126/
+        & $pipCmd install paddlepaddle-gpu==3.2.1 -i https://www.paddlepaddle.org.cn/packages/stable/cu129/
         
         $variant = "GPU"    } else {
         Write-Info "🖥️ Installing CPU dependencies..."
         
-        # PyTorch CPU
-        & $pipCmd install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-        
         # PaddlePaddle CPU
-        & $pipCmd install paddlepaddle==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
+        & $pipCmd install paddlepaddle==3.2.1 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
         
         $variant = "CPU"
     }
     
     # PaddleOCR and other dependencies
-    & $pipCmd install paddleocr==3.0.0
+    & $pipCmd install paddleocr[all]==3.3.1
     & $pipCmd install -r requirements-base.txt
     
     Write-Success "Environment setup complete! ($variant variant)"
