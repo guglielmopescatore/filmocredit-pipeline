@@ -9,14 +9,14 @@ from PIL import Image
 st.set_page_config(layout="wide")
 
 # Import video file sanitizer
-from scripts_v3 import video_file_sanitizer
+from scripts_v3 import video_file_sanitizer, vlm_processing
 
 from scenedetect import open_video
 
 # Assuming scripts_v3 is in a location accessible by Python's path
 # This can be achieved by running the app from the project's root directory
 # or by installing the project package (e.g., using 'pip install -e .')
-from scripts_v3 import azure_vlm_processing, config, constants, frame_analysis, scene_detection, utils
+from scripts_v3 import config, constants, frame_analysis, scene_detection, utils
 from scripts_v3.exceptions import ConfigError
 
 
@@ -31,60 +31,49 @@ def display_image(path: Path, width: int = 200) -> None:
         st.error(f"Error displaying image {path}: {e}")
 
 
-def get_cached_ocr_reader():
+@st.cache_resource
+def get_cached_ocr_reader(_engine: str = "paddleocr", _lang: str = "it"):
+    """
+    Get cached OCR reader using st.cache_resource to avoid serialization issues with GPU objects.
+    
+    Args:
+        _engine: OCR engine type (prefix _ to exclude from cache key hash)
+        _lang: Language code (prefix _ to exclude from cache key hash)
+    
+    Returns:
+        OCR reader instance
+    """
+    logging.info(f"Initializing OCR reader: Engine={_engine}, Lang={_lang}")
+    try:
+        if _engine == "paddleocr":
+            paddle_lang_code = config.PADDLEOCR_LANG_MAP.get(_lang, _lang)
+            reader = utils.get_paddleocr_reader(lang=paddle_lang_code)
+            logging.info(f"OCR Reader for {_engine} ({_lang}) initialized successfully.")
+            return reader
+        else:
+            logging.error(f"Unsupported OCR engine: {_engine}")
+            return None
+    except Exception as e:
+        logging.error(f"Exception initializing OCR reader {_engine} ({_lang}): {e}", exc_info=True)
+        st.error(f"Error initializing OCR for {_engine} ({_lang}): {e}")
+        return None
+
+
+def get_ocr_reader():
+    """Get OCR reader based on current session state settings."""
     selected_lang = st.session_state.get('ocr_language', 'it')
     selected_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
-    reader_key = f"ocr_reader_{selected_engine}_{selected_lang}"
-    current_reader_engine_key = "current_ocr_reader_engine_type"
-    current_reader_lang_key = "current_ocr_reader_lang"
-
-    if (
-        reader_key not in st.session_state
-        or st.session_state.get(reader_key) is None
-        or st.session_state.get(current_reader_engine_key) != selected_engine
-        or st.session_state.get(current_reader_lang_key) != selected_lang
-    ):
-        logging.info(f"Initializing OCR reader: Engine={selected_engine}, Lang={selected_lang}")
-        try:
-            if selected_engine == "paddleocr":
-                paddle_lang_code = config.PADDLEOCR_LANG_MAP.get(selected_lang, selected_lang)
-                st.session_state[reader_key] = utils.get_paddleocr_reader(lang=paddle_lang_code)
-            else:
-                st.session_state[reader_key] = None
-                logging.error(f"Unsupported OCR engine: {selected_engine}")
-            st.session_state[current_reader_engine_key] = selected_engine
-            st.session_state[current_reader_lang_key] = selected_lang
-            if st.session_state.get(reader_key):
-                logging.info(f"OCR Reader for {selected_engine} ({selected_lang}) initialized successfully.")
-            else:
-                logging.error(
-                    f"Failed to initialize OCR Reader for {selected_engine} ({selected_lang}). Reader is None."
-                )
-        except Exception as e:
-            st.session_state[reader_key] = None
-            logging.error(f"Exception initializing OCR reader {selected_engine} ({selected_lang}): {e}", exc_info=True)
-            st.error(f"Error initializing OCR for {selected_engine} ({selected_lang}): {e}")
-
-    return st.session_state.get(reader_key)
+    return get_cached_ocr_reader(_engine=selected_engine, _lang=selected_lang)
 
 
 def force_refresh_ocr_reader():
     """Force refresh the OCR reader to fix model caching issues."""
-    selected_lang = st.session_state.get('ocr_language', 'it')
-    selected_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
-    reader_key = f"ocr_reader_{selected_engine}_{selected_lang}"
-
-    # Clear the cached reader
-    if reader_key in st.session_state:
-        logging.info(f"Clearing cached OCR reader for {selected_engine} ({selected_lang})")
-        st.session_state[reader_key] = None
-
-    # Clear tracking keys
-    st.session_state.pop("current_ocr_reader_engine_type", None)
-    st.session_state.pop("current_ocr_reader_lang", None)
-
-    # Force recreation
-    return get_cached_ocr_reader()
+    # Clear the cache_resource cache
+    get_cached_ocr_reader.clear()
+    logging.info("Cleared cached OCR reader")
+    
+    # Return new reader with current settings
+    return get_ocr_reader()
 
 
 utils.setup_logging()
@@ -438,11 +427,71 @@ if st.session_state.current_tab == 0:
     with col2:
         run_step2_button = st.button("STEP 2: Analyze Scene Frames", key="run_step2_btn_v3")
     with col3:
-        run_step3_button = st.button("STEP 3: Azure VLM OCR", key="run_step3_btn_v3")
+        run_step3_button = st.button("STEP 3: VLM OCR", key="run_step3_btn_v3")
     with col4:
         run_step4_button = st.button("STEP 4: IMDB Validation", key="run_step4_btn_v3")
     with col5:
         run_all_steps_button = st.button("RUN ALL STEPS", key="run_all_steps_btn_v3")
+    
+    # Step 3 Settings - VLM Provider Selection
+    with st.expander("⚙️ Step 3 Settings - VLM Provider", expanded=False):
+        st.write("Configure Vision Language Model provider for OCR extraction")
+        
+        col_vlm1, col_vlm2 = st.columns(2)
+        with col_vlm1:
+            vlm_provider = st.selectbox(
+                "VLM Provider",
+                options=["auto", "claude", "azure_gpt5", "azure_gpt4"],
+                index=0,
+                key="vlm_provider_selection",
+                help="'auto' will use Claude if available, then GPT-5.1, then GPT-4.1"
+            )
+        
+        with col_vlm2:
+            if vlm_provider == "claude":
+                st.info("🤖 Using Claude (Anthropic Foundry)")
+                st.caption("Set CLAUDE_* variables in .env")
+            elif vlm_provider == "azure_gpt5":
+                st.info("🚀 Using Azure GPT-5.1 (Preview)")
+                st.caption("Set GPT_5_1_AZURE_OPENAI_* variables in .env")
+            elif vlm_provider == "azure_gpt4":
+                st.info("☁️ Using Azure GPT-4.1")
+                st.caption("Set GPT_4_1_AZURE_OPENAI_* variables in .env")
+            else:
+                st.info("🔄 Auto-detect: Claude → GPT-5.1 → GPT-4.1")
+                st.caption("Will use best available provider based on .env credentials")
+    
+    # Step 4 Settings - Fuzzy Matching Configuration
+    with st.expander("⚙️ Step 4 Settings - IMDB Fuzzy Matching", expanded=False):
+        st.write("Configure fuzzy matching behavior for IMDB name validation")
+        
+        col_fuzzy1, col_fuzzy2 = st.columns(2)
+        with col_fuzzy1:
+            fuzzy_enabled = st.checkbox(
+                "Enable Fuzzy Matching",
+                value=True,
+                key="fuzzy_matching_enabled",
+                help="When enabled, names not found with exact match will be searched using fuzzy matching"
+            )
+        
+        with col_fuzzy2:
+            fuzzy_threshold = st.slider(
+                "Fuzzy Match Threshold (%)",
+                min_value=70,
+                max_value=100,
+                value=90,
+                step=5,
+                key="fuzzy_matching_threshold",
+                disabled=not fuzzy_enabled,
+                help="Minimum similarity percentage required for fuzzy matches. Set to 100 to disable fuzzy matching (exact matches only)"
+            )
+        
+        if fuzzy_threshold == 100:
+            st.info("ℹ️ Threshold set to 100% - only exact matches will be used (fuzzy matching disabled)")
+        elif fuzzy_enabled:
+            st.info(f"ℹ️ Fuzzy matching enabled with {fuzzy_threshold}% threshold - names with {fuzzy_threshold}%+ similarity will be matched")
+        else:
+            st.info("ℹ️ Fuzzy matching disabled - only exact matches will be used")
 
     if 'user_selected_scenes_for_step2' not in st.session_state:
         st.session_state.user_selected_scenes_for_step2 = {}
@@ -989,6 +1038,34 @@ if st.session_state.current_tab == 0:
                 if episode_id_proc not in st.session_state.episode_status:
                     st.session_state.episode_status[episode_id_proc] = {}
 
+                # Check if VLM JSON already exists - if so, load directly without LLM calls
+                ocr_dir = config.EPISODES_BASE_DIR / episode_id_proc / "ocr"
+                vlm_json_path = ocr_dir / f"{episode_id_proc}_credits_azure_vlm.json"
+                
+                # If VLM file exists, load from file directly (skip LLM calls)
+                if vlm_json_path.exists():
+                    with st.expander(f"Step 3: {episode_id_proc} (Loading from existing file)", expanded=True):
+                        st.info(f"VLM results file already exists for {episode_id_proc}. Loading credits from file to database...")
+                        try:
+                            vlm_credits = utils.load_vlm_results_from_jsonl(vlm_json_path)
+                            if vlm_credits:
+                                logging.info(f"[VLM_LOAD] Loaded {len(vlm_credits)} credits from existing VLM file for episode {episode_id_proc}")
+                                success, db_msg = utils.save_credits(episode_id_proc, vlm_credits)
+                                if success:
+                                    st.success(f"✅ Loaded {len(vlm_credits)} credits from existing VLM file to database for {episode_id_proc}")
+                                    st.session_state.episode_status[episode_id_proc]['step3_status'] = 'completed_from_file'
+                                    logging.info(f"[VLM_LOAD] Successfully saved {len(vlm_credits)} credits from existing file to database for {episode_id_proc}")
+                                else:
+                                    st.error(f"Failed to save credits from file to database: {db_msg}")
+                                    logging.error(f"[VLM_LOAD] Failed to save credits to database for {episode_id_proc}: {db_msg}")
+                            else:
+                                st.warning(f"VLM file exists but contains no credits for {episode_id_proc}")
+                        except Exception as load_err:
+                            st.error(f"Error loading VLM file: {load_err}")
+                            logging.error(f"[VLM_LOAD] Error loading VLM file for {episode_id_proc}: {load_err}", exc_info=True)
+                    continue  # Skip to next episode - no LLM calls needed
+
+                # VLM file doesn't exist - proceed with normal LLM processing
                 frames_dir_for_vlm = config.EPISODES_BASE_DIR / episode_id_proc / "analysis" / "frames"
 
                 if not frames_dir_for_vlm.is_dir() or not any(frames_dir_for_vlm.iterdir()):
@@ -999,11 +1076,14 @@ if st.session_state.current_tab == 0:
                 with st.expander(f"Step 3: {episode_id_proc}", expanded=True):
                     st.write(f"Processing Step 3 for {episode_id_proc}...")
 
-                    with st.spinner(f"Running Azure VLM for {episode_id_proc}..."):
+                    with st.spinner(f"Running VLM OCR for {episode_id_proc}..."):
                         try:
+                            # Get VLM provider preference from session state
+                            vlm_provider_choice = st.session_state.get("vlm_provider_selection", "auto")
+                            
                             # Role groups are now defined directly in config.py
-                            count, status, err_msg = azure_vlm_processing.run_azure_vlm_ocr_on_frames(
-                                episode_id_proc, constants.DEFAULT_VLM_MAX_NEW_TOKENS
+                            count, status, err_msg = vlm_processing.run_azure_vlm_ocr_on_frames(
+                                episode_id_proc, constants.DEFAULT_VLM_MAX_NEW_TOKENS, vlm_provider_choice
                             )
 
                             if status == "completed" and not err_msg:
@@ -1069,10 +1149,23 @@ if st.session_state.current_tab == 0:
                 try:
                     with st.expander(f"Step 4 IMDB Validation: {episode_id_proc}", expanded=True):
                         st.write(f"🔍 Validating credits and assigning codes for episode: {episode_id_proc}")
+                        
+                        # Get fuzzy matching settings from session state
+                        fuzzy_enabled = st.session_state.get('fuzzy_matching_enabled', True)
+                        fuzzy_threshold = st.session_state.get('fuzzy_matching_threshold', 90)
+                        
+                        # Show current settings
+                        if fuzzy_enabled and fuzzy_threshold < 100:
+                            st.info(f"🔍 Fuzzy matching enabled with {fuzzy_threshold}% threshold")
+                        else:
+                            st.info("🎯 Exact matching only (fuzzy matching disabled)")
 
-                        # Create batch validator with code assignment
+                        # Create batch validator with code assignment and fuzzy settings
                         from scripts_v3.imdb_batch_validation import IMDBBatchValidatorWithCodeAssignment
-                        batch_validator = IMDBBatchValidatorWithCodeAssignment()
+                        batch_validator = IMDBBatchValidatorWithCodeAssignment(
+                            fuzzy_enabled=fuzzy_enabled,
+                            fuzzy_threshold=fuzzy_threshold
+                        )
 
                         # Get credits to process for this episode
                         credits = batch_validator.get_unprocessed_credits(episode_id=episode_id_proc)
@@ -1154,6 +1247,17 @@ if st.session_state.current_tab == 0:
                         if total_processed > 0:
                             auto_rate = (auto_total / total_processed) * 100
                             st.success(f"🚀 Automatic assignment rate: {auto_rate:.1f}%")
+                        
+                        # Save fuzzy corrections CSV
+                        fuzzy_csv_path = batch_validator.save_fuzzy_corrections_to_csv()
+                        if fuzzy_csv_path:
+                            st.info(f"🔍 Fuzzy corrections saved: {len(batch_validator.fuzzy_corrections)} corrections")
+                            st.download_button(
+                                label="📥 Download Fuzzy Corrections CSV",
+                                data=open(fuzzy_csv_path, 'rb').read(),
+                                file_name=Path(fuzzy_csv_path).name,
+                                mime='text/csv'
+                            )
 
                         st.session_state.episode_status[episode_id_proc]['step4_complete'] = True
                         st.success(f"✅ Step 4 completed successfully for {episode_id_proc}")

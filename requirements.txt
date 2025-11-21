@@ -1,5 +1,4 @@
 # OCR & AI
-easyocr
 transformers
 openai # >>> Add Azure OpenAI library <<<
 python-dotenv # >>> Add dotenv <<<

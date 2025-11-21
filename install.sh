@@ -122,8 +122,8 @@ check_gpu() {
                         GPU_AVAILABLE=true
                         return 0
                     else
-                        log_warning "CUDA $cuda_version detected, but version 12.6 is recommended"
-                        log_info "FilmoCredit is optimized for CUDA 12.6"
+                        log_warning "CUDA $cuda_version detected, but version 12.9 is recommended"
+                        log_info "FilmoCredit is optimized for CUDA 12.9"
                         echo -n "Continue with GPU installation anyway? (y/N): "
                         read -r response
                         if [ "$response" = "y" ] || [ "$response" = "Y" ]; then
@@ -138,14 +138,14 @@ check_gpu() {
                 fi
             else
                 log_warning "NVIDIA GPU found but CUDA not detected!"
-                log_info "Please install CUDA 12.6:"
+                log_info "Please install CUDA 12.9:"
                 case $PLATFORM in
                     linux)
                         log_info "Ubuntu/Debian: https://developer.nvidia.com/cuda-downloads?target_os=Linux"
                         log_info "Or: sudo apt install nvidia-cuda-toolkit"
                         ;;
                     *)
-                        log_info "https://developer.nvidia.com/cuda-12-6-0-download-archive"
+                        log_info "https://developer.nvidia.com/cuda-12-9-0-download-archive"
                         ;;
                 esac
                 echo ""
@@ -285,27 +285,22 @@ setup_environment() {
     if [ "$GPU_AVAILABLE" = true ]; then
         log_info "${EMOJI_GPU} Installing GPU dependencies..."
         
-        # PyTorch with CUDA
-        $PIP_CMD install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
-        
         # PaddlePaddle GPU
-        $PIP_CMD install paddlepaddle-gpu==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu126/
+        $PIP_CMD install paddlepaddle-gpu==3.2.1 -i https://www.paddlepaddle.org.cn/packages/stable/cu129/
         
         # PaddleOCR
-        $PIP_CMD install paddleocr==3.0.0
+        $PIP_CMD install paddleocr[all]==3.3.1
         
         VARIANT="gpu"
     else
         log_info "${EMOJI_CPU} Installing CPU dependencies..."
-        
-        # PyTorch CPU
-        $PIP_CMD install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+    
         
         # PaddlePaddle CPU
-        $PIP_CMD install paddlepaddle==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
+        $PIP_CMD install paddlepaddle==3.2.1 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
         
         # PaddleOCR
-        $PIP_CMD install paddleocr==3.0.0
+        $PIP_CMD install paddleocr[all]==3.3.1
         
         VARIANT="cpu"
     fi

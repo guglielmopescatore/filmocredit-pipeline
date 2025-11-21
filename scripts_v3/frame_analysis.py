@@ -200,26 +200,19 @@ def _process_and_save_frame(
 
     # For dynamic scroll processing, use different similarity logic
     if processing_mode == "dynamic":
-        # In scroll mode, we want to capture frames even if text is similar but positioned differently
-        # Only skip if the text is EXACTLY the same (95% similarity) 
-        if episode_saved_texts_cache:
-            last_saved_text = episode_saved_texts_cache[-1]
-            text_similarity = fuzz.token_sort_ratio(norm_text, last_saved_text)
-            
-            logging.info(f"[{episode_id}] Frame {frame_num} ({processing_mode}) SCROLL MODE SIMILARITY:")
-            logging.info(f"  - Current: '{norm_text}' (length: {len(norm_text)})")
-            logging.info(f"  - Last saved: '{last_saved_text}' (length: {len(last_saved_text)})")
-            logging.info(f"  - Similarity: {text_similarity}%")
-            
-            # In scroll mode, only skip if texts are identical (prevent exact duplicates)
-            if text_similarity == constants.FUZZY_TEXT_SIMILARITY_SCROLLING_THRESHOLD:  # Very high threshold for scroll mode
-                save_frame = False
-                skip_reason = f"identical_text_scroll_{text_similarity}"
-                logging.info(f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SKIP - identical text in scroll mode")
-            else:
-                logging.info(f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SAVE - different enough for scroll mode")
-        else:
-            logging.info(f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SAVE - first frame in scroll mode")
+        # In scroll mode, ALWAYS save frames at the computed interval based on scroll velocity
+        # Do NOT apply text similarity checks because:
+        # 1. Scrolling content naturally has overlapping text between consecutive samples
+        # 2. The sampling interval is already computed to capture new content based on scroll velocity
+        #    (frames are sampled when content scrolls ~90% of frame height, ensuring minimal overlap)
+        # 3. Text similarity checks would incorrectly skip frames containing new credits
+        
+        logging.info(f"[{episode_id}] Frame {frame_num} ({processing_mode}) SCROLL MODE:")
+        logging.info(f"  - Current text: '{norm_text}' (length: {len(norm_text)})")
+        logging.info(f"  - DECISION: SAVE - scroll mode always saves at computed interval (velocity-based sampling)")
+        
+        # Always save in scroll mode - the interval itself handles redundancy
+        save_frame = True
             
     else:
         # Static/single frame processing - use original similarity logic
@@ -576,9 +569,21 @@ def analyze_candidate_scene_frames(
             analysis_info["type"] = "dynamic_scroll"
             scroll_pixels_per_frame = abs(median_v_flow)
             pixels_to_scroll_before_save = frame_height * constants.SCROLL_FRAME_HEIGHT_RATIO
-            frames_per_save = max(1, int(round(pixels_to_scroll_before_save / scroll_pixels_per_frame)))
+            frames_per_save_raw = pixels_to_scroll_before_save / scroll_pixels_per_frame if scroll_pixels_per_frame > 0 else 1
+            
+            # Cap frames_per_save to ensure reasonable sampling density even for slow scrolls
+            # Maximum 150 frames (~6 seconds at 24fps) to ensure we capture credits adequately
+            # This protects against parallax backgrounds that can reduce measured scroll velocity
+            MAX_FRAMES_PER_SAVE = 150
+            frames_per_save = max(1, min(int(round(frames_per_save_raw)), MAX_FRAMES_PER_SAVE))
+            
             analysis_info["save_interval_frames"] = int(frames_per_save)
+            analysis_info["save_interval_frames_uncapped"] = int(round(frames_per_save_raw))
             analysis_info["target_scroll_ratio"] = float(constants.SCROLL_FRAME_HEIGHT_RATIO)
+            
+            logging.info(f"[{episode_id}] Scene {scene_index} SCROLL SAMPLING: velocity={scroll_pixels_per_frame:.2f} px/frame, "
+                        f"raw_interval={frames_per_save_raw:.1f}, capped_interval={frames_per_save}, "
+                        f"expected_frames={num_frames // frames_per_save}")
 
             # Iterate over frames at computed interval with progress bar
             for i in tqdm(

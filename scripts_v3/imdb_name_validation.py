@@ -30,6 +30,7 @@ from enum import Enum
 
 import pandas as pd
 import streamlit as st
+from thefuzz import fuzz
 
 from scripts_v3 import config
 from scripts_v3.utils import generate_next_internal_code
@@ -65,18 +66,28 @@ class ValidationResult:
     validation_method: str
     suggestion: Optional[str]
     imdb_matches_json: Optional[str]  # JSON string of matches for ambiguous cases
+    corrected_name: Optional[str] = None  # IMDB official name when auto-assigned
 
 
 class IMDBNameValidator:
     """Handles IMDB name validation and nconst assignment using pandas DataFrame for performance"""
     
-    def __init__(self):
+    def __init__(self, fuzzy_enabled: bool = True, fuzzy_threshold: int = 90):
         self.parquet_path = config.IMDB_PARQUET_PATH
         self.tsv_path = config.IMDB_TSV_PATH  # Fallback for backward compatibility
-        self.fuzzy_threshold = 85  # Minimum similarity score for fuzzy matching
+        self.fuzzy_enabled = fuzzy_enabled
+        self.fuzzy_threshold = max(70, min(100, fuzzy_threshold))  # Clamp between 70-100
         self._imdb_df = None
         self._name_lookup = None
         self._initialized = False
+        self._profession_filter_cache = {}  # Cache filtered DataFrames by profession set
+        
+        # NEW: Indici per velocizzare exact match e fuzzy search
+        self._exact_index = {}  # normalizedName -> [row_indices]
+        self._token_index = {}  # token -> {row_indices}
+        
+        # NEW: Cache validation results per (normalized_name, role_group)
+        self._validation_cache = {}
         
     def _initialize_imdb_data(self) -> bool:
         """
@@ -93,6 +104,8 @@ class IMDBNameValidator:
             self._initialized = True
             self._imdb_df = st.session_state.get("imdb_dataframe")
             self._name_lookup = st.session_state.get("imdb_name_lookup")
+            self._exact_index = st.session_state.get("imdb_exact_index", {})
+            self._token_index = st.session_state.get("imdb_token_index", {})
             if self._imdb_df is not None and self._name_lookup is not None:
                 logging.info("IMDB database loaded from cache")
                 return True
@@ -182,13 +195,22 @@ class IMDBNameValidator:
             # Remove empty normalized names
             self._imdb_df = self._imdb_df[self._imdb_df['normalized_name'] != '']
             
+            # Ensure RangeIndex for fast indexing
+            self._imdb_df = self._imdb_df.reset_index(drop=True)
+            self._name_lookup = self._imdb_df
+            
             load_time = time.time() - start_time
             logging.info(f"Successfully loaded {len(self._imdb_df):,} IMDB names in {load_time:.2f} seconds")
+            
+            # Build indices for fast lookup
+            self._build_indices()
             
             # Cache the data in session state
             st.session_state[cache_key] = True
             st.session_state["imdb_dataframe"] = self._imdb_df
             st.session_state["imdb_name_lookup"] = self._name_lookup
+            st.session_state["imdb_exact_index"] = self._exact_index
+            st.session_state["imdb_token_index"] = self._token_index
             
             self._initialized = True
             return True
@@ -196,6 +218,46 @@ class IMDBNameValidator:
         except Exception as e:
             logging.error(f"Error loading IMDB data: {e}", exc_info=True)
             return False
+    
+    def _build_indices(self):
+        """
+        Build indices for fast exact match and fuzzy candidate selection:
+        - _exact_index: normalizedName -> [row_indices]
+        - _token_index: token -> {row_indices}
+        """
+        if self._name_lookup is None:
+            return
+        
+        logging.info("🔧 Building indices for exact and fuzzy matching...")
+        from collections import defaultdict
+        
+        self._exact_index = defaultdict(list)
+        self._token_index = defaultdict(set)
+        
+        for idx, norm_name in self._name_lookup['normalized_name'].items():
+            if pd.isna(norm_name):
+                continue
+            norm_name = str(norm_name).strip()
+            if not norm_name:
+                continue
+            
+            # Exact index
+            self._exact_index[norm_name].append(idx)
+            
+            # Token index
+            tokens = norm_name.split()
+            for tok in tokens:
+                if tok:
+                    self._token_index[tok].add(idx)
+        
+        # Convert defaultdict to regular dict for session state storage
+        self._exact_index = dict(self._exact_index)
+        self._token_index = dict(self._token_index)
+        
+        logging.info(
+            f"✅ Indices built: {len(self._exact_index)} unique normalized names, "
+            f"{len(self._token_index)} unique tokens"
+        )
     
     def _clean_name_for_validation(self, name: str) -> str:
         """
@@ -249,6 +311,16 @@ class IMDBNameValidator:
             ValidationResult with assigned code and status
         """
         logging.debug(f"IMDB validation with code assignment for name: '{name}', role_group: '{role_group}', is_person: {is_person}")
+        
+        # OPTIMIZATION: Cache validation results by (normalized_name, role_group)
+        from scripts_v3.utils import normalize_name
+        norm_name = normalize_name(name)
+        role_key = role_group.lower() if isinstance(role_group, str) else None
+        cache_key = (norm_name, role_key, is_person)
+        
+        if cache_key in self._validation_cache:
+            logging.debug(f"[VALIDATION CACHE HIT] Reusing result for '{name}' + '{role_group}'")
+            return self._validation_cache[cache_key]
         
         # Import the helper function for consistent company detection (fallback)
         from scripts_v3.utils import is_company_role_group
@@ -331,9 +403,9 @@ class IMDBNameValidator:
                 imdb_matches_json=None
             )
         
-        # Check if role group always gets internal codes (thanks, additional crew)
-        if role_group and role_group.lower() in ['thanks', 'additional crew']:
-            logging.info(f"Processing '{name}' (role: '{role_group}' - always internal)")
+        # Check if role group is "Thanks" - always gets internal codes (no IMDB search)
+        if role_group and role_group.lower() == 'thanks':
+            logging.info(f"Processing '{name}' (role: '{role_group}' - always internal, no IMDB search)")
             
             # First check if we already have an internal code for this name and role
             from scripts_v3.utils import normalize_name
@@ -355,14 +427,14 @@ class IMDBNameValidator:
                     )
             
             # If no existing code found, create a new one
-            internal_code = generate_next_internal_code(is_company=False)  # Person code for thanks/additional crew
+            internal_code = generate_next_internal_code(is_company=False)
             return ValidationResult(
                 assigned_code=internal_code,
                 assignment_status=CodeAssignmentStatus.INTERNAL_ASSIGNED,
                 is_valid=True,
                 confidence=1.0,
                 matches=[],
-                validation_method='thanks_additional_crew_internal_code',
+                validation_method='thanks_internal_code',
                 suggestion=None,
                 imdb_matches_json=None
             )
@@ -481,40 +553,88 @@ class IMDBNameValidator:
             
             logging.info(f"IMDB validation for '{original_name}' -> normalized: '{normalized_name}' -> words: {words} -> {len(permutations)} permutations")
             
-            # Check each permutation against the lookup DataFrame
-            found_matches = []
+            # First try exact matches for all permutations using index
+            exact_matches = []
+            is_fuzzy_match = False
             for perm in permutations:
                 logging.debug(f"Searching IMDB for exact match: '{perm}'")
                 
                 try:
-                    # Search using the normalized_name column
-                    matches = self._name_lookup[self._name_lookup['normalized_name'] == perm]
-                    if not matches.empty:
-                        logging.info(f"Found {len(matches)} IMDB match(es) for permutation '{perm}'")
-                        found_matches.extend(matches.to_dict('records'))
+                    # OPTIMIZED: Use index for exact match
+                    matches = self._exact_match_via_index(perm)
+                    if matches:
+                        logging.info(f"Found {len(matches)} IMDB exact match(es) for permutation '{perm}'")
+                        exact_matches.extend(matches)
                     else:
-                        logging.debug(f"No IMDB matches found for permutation '{perm}'")
+                        logging.debug(f"No exact IMDB matches found for permutation '{perm}'")
                 except Exception as e:
                     logging.error(f"Error searching IMDB for permutation '{perm}': {e}")
                     continue
             
-            # If no matches found, assign internal code
-            if not found_matches:
-                logging.info(f"No IMDB matches found for '{original_name}', assigning internal code")
-                internal_code = generate_next_internal_code(is_company=False)
-                return ValidationResult(
-                    assigned_code=internal_code,
-                    assignment_status=CodeAssignmentStatus.INTERNAL_ASSIGNED,
-                    is_valid=False,
-                    confidence=0.0,
-                    matches=[],
-                    validation_method='no_match',
-                    suggestion=None,
-                    imdb_matches_json=None
-                )
+            # If we found exact matches, use them
+            if exact_matches:
+                logging.info(f"Found {len(exact_matches)} exact match(es) for '{original_name}'")
+                found_matches = exact_matches
+                is_fuzzy_match = False
+            else:
+                # No exact matches - try fuzzy matching if enabled and threshold < 100
+                # SKIP fuzzy matching for Thanks and Additional Crew
+                if role_group and role_group.lower() in ['thanks', 'additional crew']:
+                    logging.info(f"Skipping fuzzy matching for role_group '{role_group}' - exact match only, assigning internal code")
+                    internal_code = generate_next_internal_code(is_company=False)
+                    return ValidationResult(
+                        assigned_code=internal_code,
+                        assignment_status=CodeAssignmentStatus.INTERNAL_ASSIGNED,
+                        is_valid=False,
+                        confidence=0.0,
+                        matches=[],
+                        validation_method='no_match_exact_only',
+                        suggestion=None,
+                        imdb_matches_json=None
+                    )
+                elif self.fuzzy_enabled and self.fuzzy_threshold < 100:
+                    logging.info(f"No exact IMDB matches for '{original_name}', attempting fuzzy matching with name+profession (threshold: {self.fuzzy_threshold}%)")
+                    fuzzy_matches = self._fuzzy_search_imdb(normalized_name, role_group=role_group, threshold=self.fuzzy_threshold)
+                    
+                    if fuzzy_matches:
+                        logging.info(f"Found {len(fuzzy_matches)} fuzzy match(es) for '{original_name}' with similarity >= {self.fuzzy_threshold}%")
+                        found_matches = fuzzy_matches
+                        is_fuzzy_match = True
+                    else:
+                        logging.info(f"No fuzzy matches found for '{original_name}' at {self.fuzzy_threshold}% threshold, assigning internal code")
+                        internal_code = generate_next_internal_code(is_company=False)
+                        return ValidationResult(
+                            assigned_code=internal_code,
+                            assignment_status=CodeAssignmentStatus.INTERNAL_ASSIGNED,
+                            is_valid=False,
+                            confidence=0.0,
+                            matches=[],
+                            validation_method='no_match',
+                            suggestion=None,
+                            imdb_matches_json=None
+                        )
+                else:
+                    # Fuzzy matching disabled or threshold is 100%
+                    logging.info(f"No exact IMDB matches for '{original_name}' and fuzzy matching is disabled (enabled: {self.fuzzy_enabled}, threshold: {self.fuzzy_threshold}%), assigning internal code")
+                    internal_code = generate_next_internal_code(is_company=False)
+                    return ValidationResult(
+                        assigned_code=internal_code,
+                        assignment_status=CodeAssignmentStatus.INTERNAL_ASSIGNED,
+                        is_valid=False,
+                        confidence=0.0,
+                        matches=[],
+                        validation_method='no_match_fuzzy_disabled',
+                        suggestion=None,
+                        imdb_matches_json=None
+                    )
             
             # Now apply the assignment logic based on profession matching
-            return self._apply_assignment_logic(original_name, role_group, found_matches)
+            result = self._apply_assignment_logic(original_name, role_group, found_matches, is_fuzzy_match)
+            
+            # OPTIMIZATION: Cache the result
+            self._validation_cache[cache_key] = result
+            
+            return result
             
         except Exception as e:
             logging.error(f"Error validating name '{name}': {e}", exc_info=True)
@@ -530,7 +650,7 @@ class IMDBNameValidator:
                 imdb_matches_json=None
             )
     
-    def _apply_assignment_logic(self, name: str, role_group: Optional[str], imdb_matches: List[Dict[str, Any]]) -> ValidationResult:
+    def _apply_assignment_logic(self, name: str, role_group: Optional[str], imdb_matches: List[Dict[str, Any]], is_fuzzy: bool = False) -> ValidationResult:
         """
         Apply the assignment logic based on profession matching.
         
@@ -538,11 +658,12 @@ class IMDBNameValidator:
             name: Original name
             role_group: Role group for profession matching
             imdb_matches: List of IMDB matches found
+            is_fuzzy: Whether matches came from fuzzy search
             
         Returns:
             ValidationResult with assigned code and status
         """
-        logging.info(f"Applying assignment logic for '{name}' with role_group '{role_group}' and {len(imdb_matches)} IMDB matches")
+        logging.info(f"Applying assignment logic for '{name}' with role_group '{role_group}' and {len(imdb_matches)} IMDB matches (fuzzy: {is_fuzzy})")
         
         # Format the matches for consistency
         formatted_matches = self._format_matches(imdb_matches)
@@ -583,32 +704,38 @@ class IMDBNameValidator:
             # Rule 1: Single exact match with compatible profession
             match = compatible_matches[0]
             nconst = match.get('nconst')
-            logging.info(f"Single exact match with compatible profession: {nconst}")
+            primary_name = match.get('primaryName')
+            method = 'single_fuzzy_match' if is_fuzzy else 'single_exact_match'
+            logging.info(f"Single exact match with compatible profession: {nconst} ({primary_name})")
             return ValidationResult(
                 assigned_code=nconst,
                 assignment_status=CodeAssignmentStatus.AUTO_ASSIGNED,
                 is_valid=True,
                 confidence=1.0,
                 matches=compatible_matches,
-                validation_method='single_exact_match',
-                suggestion=match.get('primaryName'),
-                imdb_matches_json=None
+                validation_method=method,
+                suggestion=primary_name,
+                imdb_matches_json=None,
+                corrected_name=primary_name
             )
         
         elif total_matches > 1 and compatible_count == 1:
             # Rule 2: Multiple matches, but only one with compatible profession
             match = compatible_matches[0]
             nconst = match.get('nconst')
-            logging.info(f"Multiple matches but only one compatible: {nconst}")
+            primary_name = match.get('primaryName')
+            method = 'multiple_fuzzy_one_compatible' if is_fuzzy else 'multiple_matches_one_compatible'
+            logging.info(f"Multiple matches but only one compatible: {nconst} ({primary_name})")
             return ValidationResult(
                 assigned_code=nconst,
                 assignment_status=CodeAssignmentStatus.AUTO_ASSIGNED,
                 is_valid=True,
                 confidence=1.0,
                 matches=compatible_matches,
-                validation_method='multiple_matches_one_compatible',
-                suggestion=match.get('primaryName'),
-                imdb_matches_json=None
+                validation_method=method,
+                suggestion=primary_name,
+                imdb_matches_json=None,
+                corrected_name=primary_name
             )
         
         elif compatible_count > 1:
@@ -686,6 +813,176 @@ class IMDBNameValidator:
         """
         return len(match_professions.intersection(expected_professions)) > 0
     
+    def _exact_match_via_index(self, normalized_name: str) -> List[Dict[str, Any]]:
+        """Fast exact match using pre-built index"""
+        if not normalized_name or not self._exact_index:
+            return []
+        
+        indices = self._exact_index.get(normalized_name, [])
+        if not indices:
+            return []
+        
+        matches = self._name_lookup.iloc[indices]
+        return matches.to_dict('records')
+    
+    def _get_candidate_indices_from_tokens(self, normalized_name: str) -> List[int]:
+        """Get candidate row indices based on token overlap"""
+        if not normalized_name or not self._token_index:
+            return []
+        
+        tokens = str(normalized_name).split()
+        if not tokens:
+            return []
+        
+        # Union of all token candidate sets
+        candidates = set()
+        for tok in tokens:
+            candidates |= self._token_index.get(tok, set())
+        
+        return list(candidates)
+    
+    def _fuzzy_search_imdb(self, normalized_name: str, role_group: Optional[str] = None, threshold: int = 90, max_results: int = 10) -> List[Dict[str, Any]]:
+        """
+        Perform fuzzy string matching against IMDB database using name+profession combinations.
+        
+        Args:
+            normalized_name: Normalized name to search for
+            role_group: Role group to map to IMDB professions for combined matching
+            threshold: Minimum similarity score (0-100), default 90%
+            max_results: Maximum number of results to return
+            
+        Returns:
+            List of IMDB match dictionaries with similarity scores
+        """
+        if not normalized_name or self._name_lookup is None:
+            return []
+        
+        try:
+            # OPTIMIZATION 1: Get token-based candidates first (drastically reduces search space)
+            candidate_indices = self._get_candidate_indices_from_tokens(normalized_name)
+            if not candidate_indices:
+                logging.info(f"Fuzzy search: no token-based candidates for '{normalized_name}'")
+                return []
+            
+            # Get IMDB professions for this role group
+            search_professions = []
+            if role_group and config.has_imdb_profession_mapping(role_group):
+                search_professions = list(config.get_imdb_professions_for_role_group(role_group))
+            
+            # OPTIMIZATION 2: PRE-FILTER by profession WITH CACHING!
+            # Create cache key from sorted professions
+            cache_key = tuple(sorted(search_professions)) if search_professions else None
+            
+            if cache_key and cache_key in self._profession_filter_cache:
+                # CACHE HIT - reuse filtered DataFrame!
+                base_df = self._profession_filter_cache[cache_key]
+                logging.debug(f"[CACHE HIT] Reusing profession filter for {search_professions} ({len(base_df):,} records)")
+            elif search_professions:
+                # CACHE MISS - filter and cache result
+                base_df = self._name_lookup
+                profession_conditions = []
+                for prof in search_professions:
+                    # Check if profession appears in primaryProfession field
+                    profession_conditions.append(
+                        base_df['primaryProfession'].str.contains(prof, case=False, na=False, regex=False)
+                    )
+                
+                if profession_conditions:
+                    # Combine all profession conditions with OR
+                    combined_condition = profession_conditions[0]
+                    for condition in profession_conditions[1:]:
+                        combined_condition |= condition
+                    
+                    base_df = base_df[combined_condition]
+                    # Cache the filtered result
+                    self._profession_filter_cache[cache_key] = base_df
+                    logging.info(f"[FILTER] Profession filtering: {len(self._name_lookup):,} → {len(base_df):,} records ({search_professions}) - CACHED")
+            else:
+                # No profession filter
+                base_df = self._name_lookup
+                logging.debug(f"No profession filter - using token candidates from ALL {len(base_df):,} records")
+            
+            # OPTIMIZATION 3: Intersect profession filter with token candidates
+            candidate_index = pd.Index(candidate_indices)
+            search_df = base_df.loc[base_df.index.intersection(candidate_index)]
+            
+            if search_df.empty:
+                logging.info(f"Fuzzy search: no candidates left after profession+token filtering for '{normalized_name}'")
+                return []
+            
+            logging.info(f"Fuzzy search: {len(search_df):,} candidates (from {len(candidate_indices):,} token matches + profession filter)")
+            
+            # Create search strings with name+profession combinations
+            search_strings = [normalized_name]  # Always include bare name as fallback
+            
+            if search_professions:
+                for prof in search_professions:
+                    search_strings.append(f"{normalized_name} {prof}")
+                    # Special handling for cast - try both actor and actress
+                    if prof in ['actor', 'actress']:
+                        search_strings.append(f"{normalized_name} actor")
+                        search_strings.append(f"{normalized_name} actress")
+                
+                # Remove duplicates
+                search_strings = list(set(search_strings))
+                logging.debug(f"Fuzzy search strings for '{normalized_name}' with role '{role_group}': {search_strings}")
+            
+            # Calculate fuzzy similarity scores
+            matches_with_scores = []
+            
+            logging.info(f"Starting fuzzy matching on {len(search_df):,} candidates...")
+            processed = 0
+            
+            for _, row in search_df.iterrows():
+                processed += 1
+                if processed % 10000 == 0:
+                    logging.info(f"  Fuzzy matching progress: {processed:,}/{len(search_df):,} records...")
+                
+                # Get all search combinations for this IMDB entry
+                imdb_search_combos = row.get('search_combinations', [])
+                if not isinstance(imdb_search_combos, list):
+                    # Fallback to just normalized name if search_combinations not available
+                    imdb_search_combos = [row.get('normalized_name', '')]
+                
+                # Try matching against all combinations
+                best_similarity = 0
+                best_match_string = None
+                
+                for query_str in search_strings:
+                    for imdb_str in imdb_search_combos:
+                        if not imdb_str:
+                            continue
+                        
+                        # MICRO-FILTER: Skip if length difference is too large
+                        if abs(len(imdb_str) - len(query_str)) > 10:
+                            continue
+                        
+                        # Use token_sort_ratio for better name matching (handles word order)
+                        similarity = fuzz.token_sort_ratio(query_str, imdb_str)
+                        
+                        if similarity > best_similarity:
+                            best_similarity = similarity
+                            best_match_string = imdb_str
+                
+                if best_similarity >= threshold:
+                    match_dict = row.to_dict()
+                    match_dict['fuzzy_similarity'] = best_similarity
+                    match_dict['matched_string'] = best_match_string
+                    matches_with_scores.append(match_dict)
+            
+            # Sort by similarity score (descending) and limit results
+            matches_with_scores.sort(key=lambda x: x['fuzzy_similarity'], reverse=True)
+            top_matches = matches_with_scores[:max_results]
+            
+            if top_matches:
+                logging.info(f"Fuzzy matching found {len(top_matches)} matches for '{normalized_name}' + role '{role_group}' (best: {top_matches[0]['fuzzy_similarity']}% via '{top_matches[0].get('matched_string', 'N/A')}')")
+            
+            return top_matches
+            
+        except Exception as e:
+            logging.error(f"Error during fuzzy matching for '{normalized_name}': {e}", exc_info=True)
+            return []
+    
     def validate_name(self, name: str, role_group: Optional[str] = None, is_person: Optional[bool] = None) -> Dict[str, Any]:
         """
         Legacy method for backward compatibility. 
@@ -743,15 +1040,24 @@ class IMDBNameValidator:
             # Convert NaN values to None and handle data types
             formatted_match = {}
             for key, value in match.items():
-                if pd.isna(value):
-                    formatted_match[key] = None
-                elif key in ['birthYear', 'deathYear']:
-                    try:
-                        formatted_match[key] = int(value) if value else None
-                    except (ValueError, TypeError):
+                # Skip search_combinations and other list/array columns
+                if key == 'search_combinations' or isinstance(value, (list, tuple)):
+                    continue  # Don't include list columns in formatted output
+                
+                # Handle scalar values
+                try:
+                    if pd.isna(value):
                         formatted_match[key] = None
-                else:
-                    formatted_match[key] = str(value) if value else ''
+                    elif key in ['birthYear', 'deathYear']:
+                        try:
+                            formatted_match[key] = int(value) if value else None
+                        except (ValueError, TypeError):
+                            formatted_match[key] = None
+                    else:
+                        formatted_match[key] = str(value) if value else ''
+                except (ValueError, TypeError):
+                    # If pd.isna() fails (e.g., on arrays), skip this field
+                    continue
             formatted.append(formatted_match)
         return formatted
     

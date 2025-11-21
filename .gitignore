@@ -58,3 +58,6 @@ dist/
 !TEST.mp4
 *.db*
 cleanup_database.py
+exports/*
+exports/
+chapter.md

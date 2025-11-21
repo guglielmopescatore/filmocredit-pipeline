@@ -59,27 +59,48 @@ Input:
 
 Instructions:
 
-    Parse all visible textual credits (role-name pairs) in the current image.
-    CRITICAL: If no new credits are identified (or none are found at all), output an empty list: []. Do not fabricate any information.
+    Parse all visible textual credits (role-name pairs) in the current image. Even if they are blurred or faded, attempt to identify them.
+    Include restoration credits (e.g., "Restored by", "Restauro a cura di"), logos with text, and technical partners.
+    CRITICAL: If no new credits are identified (or none are found at all), output an empty list for "credits". Do not fabricate any information.
 
 Output:
-    Return a raw JSON list, where each object represents a newly identified credit:
-    {{ "role_detail": "Specific Role/Title/Character/text that appears with the name or null", "name": "Name As Written", "role_group": "CATEGORY", "is_person": true/false }}
+    Return a JSON object with the following structure:
+    {{
+        "credits": [
+            {{ "role_detail": "Specific Role/Title/Character/text that appears with the name or null", "name": "Name As Written", "role_group": "CATEGORY", "is_person": true/false }},
+            ...
+        ],
+        "explanation": "Brief explanation if credits list is empty, otherwise null"
+    }}
+
+    The "credits" field must be a list of objects where each object represents a newly identified credit.
+    The "explanation" field must be a string explaining why the list is empty (e.g., "No text visible", "Only logos", "Same credits as previous frame"). If credits are found, set "explanation" to null.
 
 Example Output Format:
-[
-{{"role_detail": "Director", "name": "Jane Director", "role_group": "Directors", "is_person": true}},
-{{"role_detail": "The Hero", "name": "John Actor", "role_group": "Cast", "is_person": true}},
-{{"role_detail": "Villain", "name": "Actor One", "role_group": "Cast", "is_person": true}},
-{{"role_detail": "e con", "name": "Jane Doe", "role_group": "Cast", "is_person": true}},
-{{"role_detail": "Aiuti segreteria di produzione", "name": "Fabio Lucilli", "role_group": "Production Managers", "is_person": true}},
-{{"role_detail": "Musiche originali", "name": "Composer Name", "role_group": "Composers", "is_person": true}},
-{{"role_detail": "Production Designer", "name": "Designer Name", "role_group": "Production Designers", "is_person": true}},
-{{"role_detail": "Ringraziamenti speciali", "name": "Warner Bros. Pictures", "role_group": "Thanks", "is_person": false}},
-{{"role_detail": "Catering", "name": "ABC Catering Services", "role_group": "Miscellaneous Companies", "is_person": false}},
-{{"role_detail": "Da cosa è accompagnato il testo", "name": "Just A Name", "role_group": "Additional Crew", "is_person": true}},
-{{"role_detail": "Direttore di seconda unità", "name": "Assistant Name", "role_group": "Second Unit Directors or Assistant Directors", "is_person": true}}
-]
+{{
+    "credits": [
+        {{"role_detail": "Director", "name": "Jane Director", "role_group": "Directors", "is_person": true}},
+        {{"role_detail": "The Hero", "name": "John Actor", "role_group": "Cast", "is_person": true}},
+        {{"role_detail": "Villain", "name": "Actor One", "role_group": "Cast", "is_person": true}},
+        {{"role_detail": "e con", "name": "Jane Doe", "role_group": "Cast", "is_person": true}},
+        {{"role_detail": "Aiuti segreteria di produzione", "name": "Fabio Lucilli", "role_group": "Production Managers", "is_person": true}},
+        {{"role_detail": "Musiche originali", "name": "Composer Name", "role_group": "Composers", "is_person": true}},
+        {{"role_detail": "Production Designer", "name": "Designer Name", "role_group": "Production Designers", "is_person": true}},
+        {{"role_detail": "Ringraziamenti speciali", "name": "Warner Bros. Pictures", "role_group": "Thanks", "is_person": false}},
+        {{"role_detail": "Catering", "name": "ABC Catering Services", "role_group": "Miscellaneous Companies", "is_person": false}},
+        {{"role_detail": "Restaurato da", "name": "Cineteca di Bologna", "role_group": "Miscellaneous Companies", "is_person": false}},
+        {{"role_detail": "Da cosa è accompagnato il testo", "name": "Just A Name", "role_group": "Additional Crew", "is_person": true}},
+        {{"role_detail": "Direttore di seconda unità", "name": "Assistant Name", "role_group": "Second Unit Directors or Assistant Directors", "is_person": true}}
+    ],
+    "explanation": null
+}}
+
+OR (if no credits found):
+
+{{
+    "credits": [],
+    "explanation": "The screen contains only the production company logo and no textual credits."
+}}
 
 Field Definitions:
 
@@ -91,6 +112,8 @@ role_group: Choose only from the following predefined categories based on IMDb's
 
 **CAST AND CREW CATEGORIES:**
 - **Cast**: attori, interpreti, character names, "con", "e con", "e di", or names without technical roles.
+- **Dubbing**: All roles related to dubbing (except for sound engineers and sound technicians): voice-over, ADR, and localization (e.g., "Doppiaggio", "Additional voices", "ADR Coordinator") all of them go here. These are often in pages where is specified "Italian Version", "Brasilian Version", "English Version" etc. Also writers of adapations should go in this category.
+- **Dubbing_Sound**: All sound technicians or engineers specifically for dubbing should go in this category.
 - **Directors**: regista, regia, directed by, co-director.
 - **Writers**: sceneggiatura, scritto da, written by, story by.
 - **Producers**: producer, executive producer, coproducer, line producer.
@@ -121,12 +144,13 @@ role_group: Choose only from the following predefined categories based on IMDb's
 - **Thanks**: acknowledgments, ringraziamenti, special thanks, dediche.
 - **Additional Crew**: any identifiable crew member whose role doesn't fall into the above categories.
 
+
 **COMPANY CATEGORIES:**
 - **Production Companies**: All financing entities, including those noted as "in association with" or "participating".
 - **Distributors**: Companies that distribute the film to theaters, streaming, or other venues.
 - **Sales Representatives / ISA**: International sales agents or producers' reps that sell distribution rights.
 - **Special Effects Companies**: Companies providing special effects services.
-- **Miscellaneous Companies**: Any company or organization mentioned other than the above categories (e.g., "Catering", "Cibo", "Noleggio Attrezzature", "Sponsor", etc.).
+- **Miscellaneous Companies**: Any company or organization mentioned other than the above categories (e.g., "Catering", "Cibo", "Noleggio Attrezzature", "Sponsor", "Restored by", "Restoration", etc.).
 
 IMPORTANT NOTES:
 - Production services or facilities companies belong in Miscellaneous Companies, not Production Companies.
@@ -143,7 +167,7 @@ IMPORTANT NOTES:
 
 VERY IMPORTANT: Companies can fall only into the "Production Companies", "Distributors", "Sales Representatives / ISA", "Special Effects Companies", or "Miscellaneous Companies" categories. So, if is_person is false, the role_group must be one of these company categories. If the role does not fit any of these categories, put it in Miscellaneous Companies.
 
-Ensure output is ONLY the raw JSON list, without any additional text or formatting.
+Ensure output is ONLY the raw JSON object, without any additional text or formatting.
 """
 
 
@@ -191,9 +215,21 @@ class AzureConfig:
     """Environment variable keys for Azure OpenAI settings."""
 
     API_KEY_ENV: str = 'AZURE_OPENAI_KEY'
-    API_VERSION_ENV: str = 'AZURE_OPENAI_API_VERSION'
+    # Default API version if not specified in env
+    DEFAULT_API_VERSION: str = '2025-03-01-preview'
+    
+    # GPT 4.1
+    GPT4_ENDPOINT_ENV: str = 'GPT_4_1_AZURE_OPENAI_ENDPOINT'
+    GPT4_DEPLOYMENT_NAME_ENV: str = 'GPT_4_1_AZURE_OPENAI_DEPLOYMENT_NAME'
+    
+    # GPT 5.1
+    GPT5_ENDPOINT_ENV: str = 'GPT_5_1_AZURE_OPENAI_ENDPOINT'
+    GPT5_DEPLOYMENT_NAME_ENV: str = 'GPT_5_1_AZURE_OPENAI_DEPLOYMENT_NAME'
+    
+    # Legacy/Fallback (if needed)
     ENDPOINT_ENV: str = 'AZURE_OPENAI_ENDPOINT'
     DEPLOYMENT_NAME_ENV: str = 'AZURE_OPENAI_DEPLOYMENT_NAME'
+    API_VERSION_ENV: str = 'AZURE_OPENAI_API_VERSION'
 
 
 # Ensure critical directories exist (only in development mode)
@@ -283,8 +319,11 @@ ROLE_GROUP_TO_IMDB_PROFESSION = {
     "script and continuity department": {"script_department"},
     "transportation department": {"transportation_department"},
     "stunts": {"stunts"},
-    # Note: "thanks" and "additional crew" have no direct IMDB profession mapping
-    # These will automatically get internal gp codes
+    "additional crew": {"miscellaneous"},  # Additional crew maps to miscellaneous profession
+    "dubbing": {"miscellaneous"},  # Dubbing maps to miscellaneous profession
+    "dubbing_sound": {"miscellaneous", "sound_department"},  # Dubbing_Sound maps to both miscellaneous and sound_department
+    # Note: "thanks" still has no direct IMDB profession mapping
+    # Thanks will do exact match without profession filtering
 }
 
 

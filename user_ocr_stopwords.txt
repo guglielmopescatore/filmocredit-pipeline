@@ -30,3 +30,5 @@ EXTRA
 4
 QUATTRO
 3
+100
+series
