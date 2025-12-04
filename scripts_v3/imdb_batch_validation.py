@@ -92,7 +92,7 @@ class IMDBBatchValidatorWithCodeAssignment:
             where_clause = "WHERE " + " AND ".join(where_conditions) if where_conditions else ""
             
             query = f"""
-                SELECT id, episode_id, name, normalized_name, role_group, role_group_normalized, is_person,
+                SELECT id, episode_id, name, normalized_name, role_group, role_group_normalized, role_group_corrected, is_person,
                        assigned_code, code_assignment_status
                 FROM {config.DB_TABLE_CREDITS}
                 {where_clause}
@@ -167,7 +167,8 @@ class IMDBBatchValidatorWithCodeAssignment:
             True if processed successfully, False otherwise
         """
         name = credit.get('name', '')
-        role_group = credit.get('role_group_normalized') or credit.get('role_group', '')
+        # Use role_group_corrected if available, otherwise fall back to role_group_normalized or role_group
+        role_group = credit.get('role_group_corrected') or credit.get('role_group_normalized') or credit.get('role_group', '')
         is_person = credit.get('is_person')
         credit_id = credit.get('id')
         episode_id = credit.get('episode_id', '')

@@ -231,15 +231,43 @@ def _process_and_save_frame(
 
             # Decide whether to save or skip based on similarity to last saved frame
             if text_similarity > dynamic_threshold:
-                # Texts are similar - decide based on length (keep the longer one)
+                # Texts are similar - decide based on length and contrast
                 current_length = len(norm_text)
                 last_saved_length = len(last_saved_text)
-
+                
+                should_replace = False
+                replace_reason = ""
+                
+                # 1. Check length - prefer significantly longer text
                 if current_length > last_saved_length:
-                    # Current text is longer - save current and remove the shorter one from cache
+                    should_replace = True
+                    replace_reason = f"longer_text_{current_length}_vs_{last_saved_length}"
+                
+                # 2. If lengths are similar (or current is shorter), check contrast
+                # Only check if we have the file path for the last saved frame
+                elif episode_saved_files_cache and len(episode_saved_files_cache) > 0:
+                    try:
+                        last_saved_path = episode_saved_files_cache[-1]
+                        last_saved_img = cv2.imread(last_saved_path)
+                        
+                        if last_saved_img is not None:
+                            # Compare quality (contrast)
+                            quality_result = utils.compare_frame_quality(
+                                last_saved_img, img, last_saved_text, norm_text, user_stopwords
+                            )
+                            
+                            if quality_result == "frame2":
+                                should_replace = True
+                                replace_reason = "better_contrast"
+                                logging.info(f"[{episode_id}] Frame {frame_num}: Better contrast detected than last saved frame.")
+                    except Exception as e:
+                        logging.warning(f"[{episode_id}] Error comparing frame quality: {e}")
+
+                if should_replace:
+                    # Save current and remove the previous one from cache
                     save_frame = True
 
-                    # Remove the last saved text from cache since we're replacing it with longer text
+                    # Remove the last saved text from cache since we're replacing it
                     episode_saved_texts_cache.pop()
 
                     # Also remove the corresponding file if file cache exists
@@ -249,26 +277,28 @@ def _process_and_save_frame(
                             # Move the old file to skipped directory instead of deleting
                             removed_file = Path(removed_file_path)
                             if removed_file.exists():
-                                replacement_name = f"replaced_shorter_{removed_file.name}"
+                                # Use specific prefix for low contrast replacements
+                                prefix_tag = "low_contrast_check_" if replace_reason == "better_contrast" else "replaced_shorter_"
+                                replacement_name = f"{prefix_tag}{removed_file.name}"
                                 replacement_path = skipped_frames_dir / replacement_name
                                 skipped_frames_dir.mkdir(parents=True, exist_ok=True)
                                 removed_file.rename(replacement_path)
-                                logging.info(f"[{episode_id}] Moved replaced shorter frame to: {replacement_path.name}")
+                                logging.info(f"[{episode_id}] Moved replaced frame ({replace_reason}) to: {replacement_path.name}")
                         except Exception as e:
                             logging.warning(f"[{episode_id}] Could not move replaced file {removed_file_path}: {e}")
 
                     logging.info(
-                        f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SAVE - replacing shorter text ({last_saved_length} chars) with longer text ({current_length} chars)"
+                        f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SAVE - replacing previous frame. Reason: {replace_reason}"
                     )
                     logging.info(
-                        f"[{episode_id}] Removed shorter text from episode cache. Cache size: {len(episode_saved_texts_cache)}"
+                        f"[{episode_id}] Removed previous text from episode cache. Cache size: {len(episode_saved_texts_cache)}"
                     )
                 else:
-                    # Last saved text is longer or equal - skip current
+                    # Last saved text is better or equal - skip current
                     save_frame = False
-                    skip_reason = f"similar_to_last_saved_shorter_{text_similarity}"
+                    skip_reason = f"similar_to_last_saved_{text_similarity}"
                     logging.info(
-                        f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SKIP - current text ({current_length} chars) is shorter than or equal to last saved ({last_saved_length} chars)"
+                        f"[{episode_id}] Frame {frame_num} ({processing_mode}) DECISION: SKIP - current frame not better than last saved (Length: {current_length} vs {last_saved_length})"
                     )
             else:
                 logging.info(
@@ -334,13 +364,7 @@ def _process_and_save_frame(
                     "scene_position": scene_position,
                 }
                 logging.info(f"[{episode_id}] Frame {frame_num} ({processing_mode}) SAVED: {out_path.name}")
-                # Add the normalized text to episode cache for future comparisons
-                if episode_saved_texts_cache is not None:
-                    episode_saved_texts_cache.append(norm_text)
-                    logging.info(
-                        f"[{episode_id}] Added text to episode cache. Cache size: {len(episode_saved_texts_cache)}"
-                    )
-
+                
                 # Add the file path to episode files cache for file management
                 if episode_saved_files_cache is not None:
                     episode_saved_files_cache.append(str(out_path))
@@ -544,19 +568,46 @@ def analyze_candidate_scene_frames(
                 gray_frames = [cv2.cvtColor(fd["img"], cv2.COLOR_BGR2GRAY) for fd in frames_data]
                 # Compute vertical flows between consecutive frames
                 vertical_flows = [utils.calculate_vertical_flow(g1, g2) for g1, g2 in zip(gray_frames, gray_frames[1:])]
-                # Compute and store median vertical flow for scroll detection
-                median_v_flow = float(np.median(vertical_flows)) if vertical_flows else 0.0
+                
+                # LAYER 1: Use 75th percentile instead of median to filter out slow-moving background
+                # This is more resistant to parallax effects where the background moves slower than the text
+                percentile_v_flow = float(np.percentile(vertical_flows, 75)) if vertical_flows else 0.0
+                
+                # LAYER 2: Extract ROI (center 30%-70% of frame height) to ignore static borders and parallax
+                # Region-of-interest approach: credits typically appear in the center portion of the frame
+                roi_start_idx = int(len(vertical_flows) * 0.3)
+                roi_end_idx = int(len(vertical_flows) * 0.7)
+                roi_flows = vertical_flows[roi_start_idx:roi_end_idx] if roi_end_idx > roi_start_idx else vertical_flows
+                roi_percentile_v_flow = float(np.percentile(roi_flows, 75)) if roi_flows else percentile_v_flow
+                
+                # Use ROI-based percentile as primary metric (more accurate for credits with parallax)
+                median_v_flow = roi_percentile_v_flow
+                
                 analysis_info["median_flow_px_per_frame"] = median_v_flow
+                analysis_info["full_percentile_flow"] = percentile_v_flow  # Store for debugging
+                analysis_info["roi_percentile_flow"] = roi_percentile_v_flow  # Store for debugging
+                
+                # Detect scroll direction only if above threshold (otherwise it's static)
+                # For static scenes, direction will remain null
+                if abs(median_v_flow) > constants.MIN_ABS_SCROLL_FLOW_THRESHOLD:
+                    # Only set direction for actual scrolling scenes
+                    analysis_info["scroll_direction"] = "upward" if median_v_flow < 0 else "downward"
+                    apply_dynamic_scroll_logic = True
+                else:
+                    # Static/slow scene - no meaningful scroll direction
+                    analysis_info["scroll_direction"] = None
+                
+                logging.debug(
+                    f"[{episode_id}] Scene {scene_index} scroll analysis: "
+                    f"full_percentile={percentile_v_flow:.2f}, roi_percentile={roi_percentile_v_flow:.2f}, "
+                    f"flow_samples={len(vertical_flows)}, roi_samples={len(roi_flows)}, "
+                    f"is_scrolling={apply_dynamic_scroll_logic}"
+                )
             except Exception as e:
                 logging.error(f"[{episode_id}] Error during optimized flow calc for scene {scene_index}: {e}")
                 analysis_info["type"] = "error_flow_calculation"
                 analysis_info["status"] = "error"
                 return analysis_info, last_saved_text_output, last_saved_hash_output, last_saved_bbox_output
-
-            if abs(median_v_flow) > constants.MIN_ABS_SCROLL_FLOW_THRESHOLD:
-                apply_dynamic_scroll_logic = True
-            else:
-                pass
         else:
             logging.warning(
                 f"[{episode_id}] Scene {scene_index} has unknown position '{scene_info.get('position', 'unknown')}'. Defaulting to static/slow logic."
@@ -708,7 +759,55 @@ def analyze_candidate_scene_frames(
                         current_comparator_bbox = new_bbox
 
             else:
-                pass
+                # Fallback for short static scenes: sample at least one frame (middle frame)
+                if num_frames > 0:
+                    logging.info(f"[{episode_id}] Scene {scene_index} is short ({scene_duration_seconds:.2f}s) but static. Sampling middle frame.")
+                    
+                    # Pick middle frame
+                    mid_idx = num_frames // 2
+                    frame_data = frames_data[mid_idx]
+                    full_frame_img = frame_data.get("img")
+                    frame_num = frame_data.get("num", -1)
+                    
+                    if full_frame_img is not None and full_frame_img.size > 0:
+                        current_frame_hash = _compute_image_hash(full_frame_img)
+                        
+                        metadata, new_text, new_hash, new_bbox = _process_and_save_frame(
+                            full_frame_img,
+                            episode_id,
+                            frame_num,
+                            frames_output_dir,
+                            skipped_frames_dir,
+                            base_filename_prefix,
+                            ocr_reader,
+                            ocr_engine_type,
+                            user_stopwords,
+                            current_comparator_text,
+                            current_comparator_hash,
+                            processing_mode="static",
+                            scene_index=scene_index,
+                            saved_frame_count=saved_frame_count,
+                            scene_position=current_scene_position,
+                            prev_bbox=current_comparator_bbox,
+                            frame_width=frame_width,
+                            current_hash=current_frame_hash,
+                            fps=fps,
+                            frame_idx_rel=mid_idx,
+                            episode_saved_texts_cache=episode_saved_texts_cache,
+                            episode_saved_files_cache=episode_saved_files_cache,
+                        )
+                        
+                        if metadata:
+                            output_files_data.append(metadata)
+                            saved_frame_count += 1
+                            last_saved_text_output = new_text
+                            last_saved_hash_output = new_hash
+                            last_saved_bbox_output = new_bbox
+                            current_comparator_text = new_text
+                            current_comparator_hash = new_hash
+                            current_comparator_bbox = new_bbox
+                else:
+                    logging.warning(f"[{episode_id}] Scene {scene_index} has 0 frames available for sampling.")
 
         analysis_info["output_files"] = output_files_data
         analysis_info["frame_count"] = saved_frame_count

@@ -143,8 +143,8 @@ st.sidebar.header("Configuration")
 
 st.session_state['ocr_language'] = st.sidebar.selectbox(
     "OCR Language",
-    ['it', 'en', 'ch'],
-    index=['it', 'en', 'ch'].index(st.session_state.get('ocr_language', 'it')),
+    ['en', 'it', 'ch'],
+    index=['en', 'it', 'ch'].index(st.session_state.get('ocr_language', 'en')),
     key='ocr_language_select_key_v3',
 )
 
@@ -434,7 +434,7 @@ if st.session_state.current_tab == 0:
         run_all_steps_button = st.button("RUN ALL STEPS", key="run_all_steps_btn_v3")
     
     # Step 3 Settings - VLM Provider Selection
-    with st.expander("⚙️ Step 3 Settings - VLM Provider", expanded=False):
+    with st.expander("⚙️ Step 3 Settings - VLM Provider & Role Correction", expanded=False):
         st.write("Configure Vision Language Model provider for OCR extraction")
         
         col_vlm1, col_vlm2 = st.columns(2)
@@ -459,6 +459,33 @@ if st.session_state.current_tab == 0:
                 st.caption("Set GPT_4_1_AZURE_OPENAI_* variables in .env")
             else:
                 st.info("🔄 Auto-detect: Claude → GPT-5.1 → GPT-4.1")
+                st.caption("Will use first available provider")
+        
+        st.divider()
+        st.write("**Visual Context**")
+        include_previous_frame = st.checkbox(
+            "Include previous frame as visual context",
+            value=True,
+            key="include_previous_frame_context",
+            help="When enabled, each frame will see the previous frame image as visual context alongside the JSON credits list"
+        )
+        if include_previous_frame:
+            st.success("✅ Previous frame will be shown to LLM for better context")
+        else:
+            st.info("ℹ️ Only current frame will be analyzed (standard mode)")
+        
+        st.divider()
+        st.write("**Role Group Hard Mapping**")
+        enable_role_correction = st.checkbox(
+            "Enable automatic role_group correction based on role_detail keywords",
+            value=False,
+            key="enable_role_correction",
+            help="When enabled, corrects LLM mistakes by matching role_detail patterns (e.g., 'regista' → Directors, 'montaggio' → Editors)"
+        )
+        if enable_role_correction:
+            st.success("✅ Role corrections will be applied after VLM processing")
+        else:
+                st.info("🔄 Auto-detect: Claude → GPT-5.1 → GPT-4.1")
                 st.caption("Will use best available provider based on .env credentials")
     
     # Step 4 Settings - Fuzzy Matching Configuration
@@ -477,10 +504,10 @@ if st.session_state.current_tab == 0:
         with col_fuzzy2:
             fuzzy_threshold = st.slider(
                 "Fuzzy Match Threshold (%)",
-                min_value=70,
-                max_value=100,
-                value=90,
-                step=5,
+                min_value=70.0,
+                max_value=100.0,
+                value=90.0,
+                step=0.5,
                 key="fuzzy_matching_threshold",
                 disabled=not fuzzy_enabled,
                 help="Minimum similarity percentage required for fuzzy matches. Set to 100 to disable fuzzy matching (exact matches only)"
@@ -528,127 +555,128 @@ if st.session_state.current_tab == 0:
                     config.EPISODES_BASE_DIR / episode_id_review / "analysis" / "step1_representative_frames"
                 )
 
-            if scene_analysis_file_review.exists():
-                try:
-                    with open(scene_analysis_file_review, 'r', encoding='utf-8') as f_review:
-                        step1_output = json.load(f_review)
+                if scene_analysis_file_review.exists():
+                    try:
+                        with open(scene_analysis_file_review, 'r', encoding='utf-8') as f_review:
+                            step1_output = json.load(f_review)
 
-                    candidate_scenes_from_step1 = step1_output.get("candidate_scenes", [])
+                        candidate_scenes_from_step1 = step1_output.get("candidate_scenes", [])
 
-                    if not candidate_scenes_from_step1:
-                        st.info(f"No candidate scenes found by Step 1 for {episode_id_review} to review.")
-                        st.session_state.user_selected_scenes_for_step2[episode_id_review] = []
+                        if not candidate_scenes_from_step1:
+                            st.info(f"No candidate scenes found by Step 1 for {episode_id_review} to review.")
+                            st.session_state.user_selected_scenes_for_step2[episode_id_review] = []
 
-                    any_review_ui_shown_for_an_episode = True
-                    with st.expander(
-                        f"Review scenes for {episode_id_review} (Found {len(candidate_scenes_from_step1)} candidates)",
-                        expanded=True,
-                    ):
-                        if episode_id_review not in st.session_state.user_selected_scenes_for_step2:
-                            initial_selected_indices = [
-                                i for i, scene in enumerate(candidate_scenes_from_step1) if scene.get("selected", True)
-                            ]
-                            st.session_state.user_selected_scenes_for_step2[
-                                episode_id_review
-                            ] = initial_selected_indices
-
-                        if not step1_frames_base_dir_review.exists():
-                            st.warning(f"Directory does not exist: {step1_frames_base_dir_review}")
-
-                        selected_indices_for_episode = st.session_state.user_selected_scenes_for_step2.get(
-                            episode_id_review, []
-                        )
-
-                        cols_review = st.columns(3)
-                        current_col_idx_review = 0
-                        newly_selected_indices = []
-
-                        for idx, scene_info_review in enumerate(candidate_scenes_from_step1):
-                            with cols_review[current_col_idx_review]:
-                                scene_label = f"Scene {scene_info_review.get('scene_index', idx)} ({scene_info_review.get('position', 'N/A')})"
-                                is_selected_in_ui = st.checkbox(
-                                    scene_label,
-                                    value=(idx in selected_indices_for_episode),
-                                    key=f"scene_select_{episode_id_review}_{idx}",
-                                )
-                                if is_selected_in_ui:
-                                    newly_selected_indices.append(idx)
-
-                                st.caption(
-                                    f"Frames: {scene_info_review.get('original_start_frame')} - {scene_info_review.get('original_end_frame')}"
-                                )
-                                if scene_info_review.get("text_found_in_samples"):
-                                    ocr_sample_text = scene_info_review.get('text_found_in_samples')[0][:50]
-                                    st.caption(f'OCR Sample: "{ocr_sample_text}..."')
-
-                                representative_frames = scene_info_review.get("representative_frames_saved", [])
-                                if representative_frames:
-                                    img_filename = representative_frames[0]
-                                    img_path = step1_frames_base_dir_review / img_filename
-                                    if img_path.exists():
-                                        display_image(img_path, width=200)
-                                    else:
-                                        st.caption(f"Representative frame not found at {img_path}")
-                                        alt_path = (
-                                            config.EPISODES_BASE_DIR
-                                            / episode_id_review
-                                            / "analysis"
-                                            / "step1_representative_frames"
-                                            / img_filename
-                                        )
-                                        if alt_path.exists():
-                                            display_image(alt_path, width=200)
-                                        else:
-                                            st.caption(f"Alternate image also not found: {alt_path}")
-                                else:
-                                    st.caption("No representative frame saved.")
-                                st.markdown("---")
-                            current_col_idx_review = (current_col_idx_review + 1) % 3
-
-                        if set(st.session_state.user_selected_scenes_for_step2.get(episode_id_review, [])) != set(
-                            newly_selected_indices
+                        any_review_ui_shown_for_an_episode = True
+                        with st.expander(
+                            f"Review scenes for {episode_id_review} (Found {len(candidate_scenes_from_step1)} candidates)",
+                            expanded=True,
                         ):
-                            st.session_state.user_selected_scenes_for_step2[episode_id_review] = newly_selected_indices
-                            logging.info(
-                                f"User updated scene selection for {episode_id_review}. New selection: {newly_selected_indices}"
+                            if episode_id_review not in st.session_state.user_selected_scenes_for_step2:
+                                initial_selected_indices = [
+                                    i for i, scene in enumerate(candidate_scenes_from_step1) if scene.get("selected", True)
+                                ]
+                                st.session_state.user_selected_scenes_for_step2[
+                                    episode_id_review
+                                ] = initial_selected_indices
+
+                            if not step1_frames_base_dir_review.exists():
+                                st.warning(f"Directory does not exist: {step1_frames_base_dir_review}")
+
+                            selected_indices_for_episode = st.session_state.user_selected_scenes_for_step2.get(
+                                episode_id_review, []
                             )
 
-                            updated_candidate_scenes_for_json_save = []
-                            for i, scene_data_original in enumerate(candidate_scenes_from_step1):
-                                scene_copy = scene_data_original.copy()
-                                scene_copy["selected"] = i in newly_selected_indices
-                                updated_candidate_scenes_for_json_save.append(scene_copy)
+                            cols_review = st.columns(3)
+                            current_col_idx_review = 0
+                            newly_selected_indices = []
 
-                            data_to_save_to_json = step1_output.copy()
-                            data_to_save_to_json["candidate_scenes"] = updated_candidate_scenes_for_json_save
+                            for idx, scene_info_review in enumerate(candidate_scenes_from_step1):
+                                with cols_review[current_col_idx_review]:
+                                    scene_label = f"Scene {scene_info_review.get('scene_index', idx)} ({scene_info_review.get('position', 'N/A')})"
+                                    is_selected_in_ui = st.checkbox(
+                                        scene_label,
+                                        value=(idx in selected_indices_for_episode),
+                                        key=f"scene_select_{episode_id_review}_{idx}",
+                                    )
+                                    if is_selected_in_ui:
+                                        newly_selected_indices.append(idx)
 
-                            try:
-                                with open(scene_analysis_file_review, 'w', encoding='utf-8') as f_save:
-                                    json.dump(data_to_save_to_json, f_save, indent=4)
+                                    st.caption(
+                                        f"Frames: {scene_info_review.get('original_start_frame')} - {scene_info_review.get('original_end_frame')}"
+                                    )
+                                    if scene_info_review.get("text_found_in_samples"):
+                                        ocr_sample_text = scene_info_review.get('text_found_in_samples')[0][:50]
+                                        st.caption(f'OCR Sample: "{ocr_sample_text}..."')
+
+                                    representative_frames = scene_info_review.get("representative_frames_saved", [])
+                                    if representative_frames:
+                                        img_filename = representative_frames[0]
+                                        img_path = step1_frames_base_dir_review / img_filename
+                                        if img_path.exists():
+                                            display_image(img_path, width=200)
+                                        else:
+                                            st.caption(f"Representative frame not found at {img_path}")
+                                            alt_path = (
+                                                config.EPISODES_BASE_DIR
+                                                / episode_id_review
+                                                / "analysis"
+                                                / "step1_representative_frames"
+                                                / img_filename
+                                            )
+                                            if alt_path.exists():
+                                                display_image(alt_path, width=200)
+                                            else:
+                                                st.caption(f"Alternate image also not found: {alt_path}")
+                                    else:
+                                        st.caption("No representative frame saved.")
+                                    st.markdown("---")
+                                current_col_idx_review = (current_col_idx_review + 1) % 3
+
+                            if set(st.session_state.user_selected_scenes_for_step2.get(episode_id_review, [])) != set(
+                                newly_selected_indices
+                            ):
+                                st.session_state.user_selected_scenes_for_step2[episode_id_review] = newly_selected_indices
                                 logging.info(
-                                    f"Saved updated scene selections to {scene_analysis_file_review.name} for {episode_id_review}"
+                                    f"User updated scene selection for {episode_id_review}. New selection: {newly_selected_indices}"
                                 )
-                            except Exception as e_save_json:
-                                logging.error(
-                                    f"Error saving scene selections to JSON for {episode_id_review}: {e_save_json}"
-                                )
-                                st.error(f"Failed to save selection changes for {episode_id_review}.")
 
-                        current_selected_count_for_info = len(
-                            st.session_state.user_selected_scenes_for_step2.get(episode_id_review, [])
-                        )
-                        st.info(
-                            f"User has selected {current_selected_count_for_info} scenes for {episode_id_review} for Step 2 processing."
-                        )
+                                updated_candidate_scenes_for_json_save = []
+                                for i, scene_data_original in enumerate(candidate_scenes_from_step1):
+                                    scene_copy = scene_data_original.copy()
+                                    scene_copy["selected"] = i in newly_selected_indices
+                                    updated_candidate_scenes_for_json_save.append(scene_copy)
 
-                except Exception as e_review:
-                    st.error(f"Error loading or displaying scenes for review ({episode_id_review}): {e_review}")
-                    logging.error(
-                        f"Error during scene review display for {episode_id_review}: {e_review}", exc_info=True
+                                data_to_save_to_json = step1_output.copy()
+                                data_to_save_to_json["candidate_scenes"] = updated_candidate_scenes_for_json_save
+
+                                try:
+                                    with open(scene_analysis_file_review, 'w', encoding='utf-8') as f_save:
+                                        json.dump(data_to_save_to_json, f_save, indent=4)
+                                    logging.info(
+                                        f"Saved updated scene selections to {scene_analysis_file_review.name} for {episode_id_review}"
+                                    )
+                                except Exception as e_save_json:
+                                    logging.error(
+                                        f"Error saving scene selections to JSON for {episode_id_review}: {e_save_json}"
+                                    )
+                                    st.error(f"Failed to save selection changes for {episode_id_review}.")
+
+                            current_selected_count_for_info = len(
+                                st.session_state.user_selected_scenes_for_step2.get(episode_id_review, [])
+                            )
+                            st.info(
+                                f"User has selected {current_selected_count_for_info} scenes for {episode_id_review} for Step 2 processing."
+                            )
+
+                    except Exception as e_review:
+                        st.error(f"Error loading or displaying scenes for review ({episode_id_review}): {e_review}")
+                        logging.error(
+                            f"Error during scene review display for {episode_id_review}: {e_review}", exc_info=True
+                        )
+                else:
+                    st.warning(
+                        f"Step 1 output file not found for {episode_id_review}. Run Step 1 to generate candidate scenes for review."
                     )
-            else:                st.warning(
-                    f"Step 1 output file not found for {episode_id_review}. Run Step 1 to generate candidate scenes for review."
-                )
 
         if any_review_ui_shown_for_an_episode:
             st.markdown("---")
@@ -1055,6 +1083,20 @@ if st.session_state.current_tab == 0:
                                     st.success(f"✅ Loaded {len(vlm_credits)} credits from existing VLM file to database for {episode_id_proc}")
                                     st.session_state.episode_status[episode_id_proc]['step3_status'] = 'completed_from_file'
                                     logging.info(f"[VLM_LOAD] Successfully saved {len(vlm_credits)} credits from existing file to database for {episode_id_proc}")
+                                    
+                                    # APPLY ROLE GROUP CORRECTIONS AFTER SAVE (EXISTING FILE PATH)
+                                    enable_role_correction = st.session_state.get("enable_role_correction", False)
+                                    if enable_role_correction:
+                                        st.info(f"🔧 Applying role_group corrections for {episode_id_proc}...")
+                                        corr_success, corr_msg = utils.apply_role_group_corrections_to_database(
+                                            episode_id_proc, enabled=True
+                                        )
+                                        if corr_success:
+                                            st.success(f"✅ {corr_msg}")
+                                            logging.info(f"[ROLE_CORRECTION] {corr_msg}")
+                                        else:
+                                            st.warning(f"⚠️ Role correction failed: {corr_msg}")
+                                            logging.error(f"[ROLE_CORRECTION] {corr_msg}")
                                 else:
                                     st.error(f"Failed to save credits from file to database: {db_msg}")
                                     logging.error(f"[VLM_LOAD] Failed to save credits to database for {episode_id_proc}: {db_msg}")
@@ -1080,10 +1122,12 @@ if st.session_state.current_tab == 0:
                         try:
                             # Get VLM provider preference from session state
                             vlm_provider_choice = st.session_state.get("vlm_provider_selection", "auto")
+                            enable_role_correction = st.session_state.get("enable_role_correction", False)
+                            include_previous_frame = st.session_state.get("include_previous_frame_context", True)
                             
                             # Role groups are now defined directly in config.py
                             count, status, err_msg = vlm_processing.run_azure_vlm_ocr_on_frames(
-                                episode_id_proc, constants.DEFAULT_VLM_MAX_NEW_TOKENS, vlm_provider_choice
+                                episode_id_proc, constants.DEFAULT_VLM_MAX_NEW_TOKENS, vlm_provider_choice, enable_role_correction, include_previous_frame
                             )
 
                             if status == "completed" and not err_msg:
@@ -1101,6 +1145,19 @@ if st.session_state.current_tab == 0:
                                                 logging.info(
                                                     f"[VLM_SAVE] Successfully saved {len(vlm_credits)} credits to database for episode {episode_id_proc}."
                                                 )
+                                                
+                                                # APPLY ROLE GROUP CORRECTIONS AFTER SAVE
+                                                if enable_role_correction:
+                                                    st.info(f"🔧 Applying role_group corrections for {episode_id_proc}...")
+                                                    corr_success, corr_msg = utils.apply_role_group_corrections_to_database(
+                                                        episode_id_proc, enabled=True
+                                                    )
+                                                    if corr_success:
+                                                        st.success(f"✅ {corr_msg}")
+                                                        logging.info(f"[ROLE_CORRECTION] {corr_msg}")
+                                                    else:
+                                                        st.warning(f"⚠️ Role correction failed: {corr_msg}")
+                                                        logging.error(f"[ROLE_CORRECTION] {corr_msg}")
                                             else:
                                                 logging.error(
                                                     f"[VLM_SAVE] Failed to save credits to database for episode {episode_id_proc}: {db_msg}"

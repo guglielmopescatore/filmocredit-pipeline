@@ -597,9 +597,11 @@ def init_db() -> None:
             episode_id TEXT NOT NULL,
             source_frame TEXT NOT NULL,
             role_group TEXT,
+            secondary_role_group TEXT,  -- Fallback role group for ambiguous cases (e.g., Music Licensing -> Legal + Music)
             name TEXT,
             role_detail TEXT,
             role_group_normalized TEXT,
+            role_group_corrected TEXT,  -- Hard-mapped corrected role_group based on role_detail
             scene_position TEXT,        -- Added for deduplication preference
             original_frame_number TEXT, -- Added to store original frame numbers as text
             reviewed_status TEXT DEFAULT 'pending', -- Track review status: 'pending' or 'kept'
@@ -644,8 +646,20 @@ def init_db() -> None:
         
         # Add missing columns to existing credits table (migration)
         try:
+            cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN role_group_corrected TEXT")
+            logging.info("Added role_group_corrected column to credits table")
+        except sqlite3.OperationalError:
+            # Column already exists
+            pass
+        try:
             cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN reviewed_status TEXT DEFAULT 'pending'")
             logging.info("Added missing reviewed_status column to credits table")
+        except sqlite3.OperationalError:
+            # Column already exists
+            pass
+        try:
+            cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN secondary_role_group TEXT")
+            logging.info("Added secondary_role_group column to credits table")
         except sqlite3.OperationalError:
             # Column already exists
             pass
@@ -899,7 +913,9 @@ def save_credits(episode_id: str, credits_data: list[dict]) -> None:
                     is_person = True  # Default to person
 
             # Calculate normalized name for IMDB validation and operations
-            name = credit.get('name', '')
+            # Strip honorifics (Mr., Mrs., Dr., etc.) from the original name
+            raw_name = credit.get('name', '')
+            name = strip_honorifics(raw_name) if raw_name else ''
             normalized_name = normalize_name(name) if name else None
 
             insert_data.append(
@@ -907,8 +923,11 @@ def save_credits(episode_id: str, credits_data: list[dict]) -> None:
                     episode_id,
                     source_frame_db,
                     credit.get('role_group'),
+                    credit.get('secondary_role_group'),  # NEW: fallback role group for ambiguous cases
                     name,
-                    credit.get('role_detail'),                    credit.get('role_group_normalized'),
+                    credit.get('role_detail'),
+                    credit.get('role_group_normalized'),
+                    credit.get('role_group_corrected'),  # NEW: hard-mapped corrected role_group
                     original_frame_number_db,
                     scene_pos,
                     is_person,
@@ -921,8 +940,8 @@ def save_credits(episode_id: str, credits_data: list[dict]) -> None:
         cursor.executemany(
             f"""
         INSERT INTO {config.DB_TABLE_CREDITS}
-        (episode_id, source_frame, role_group, name, role_detail, role_group_normalized, original_frame_number, scene_position, is_person, normalized_name)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        (episode_id, source_frame, role_group, secondary_role_group, name, role_detail, role_group_normalized, role_group_corrected, original_frame_number, scene_position, is_person, normalized_name)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
             insert_data,
         )
@@ -984,6 +1003,94 @@ def load_vlm_results_from_jsonl(jsonl_path: Path) -> List[Dict[str, Any]]:
     except Exception as e:
         logging.error(f"Error reading VLM results from {jsonl_path}: {e}")
     return results
+
+
+def apply_role_group_corrections_to_database(episode_id: str, enabled: bool = True) -> tuple[bool, str]:
+    """
+    Apply role_group corrections to database based on role_detail patterns.
+    This updates the role_group_corrected column for credits that match patterns.
+    
+    Args:
+        episode_id: Episode ID to apply corrections to
+        enabled: Whether correction is enabled
+        
+    Returns:
+        Tuple of (success, message)
+    """
+    if not enabled:
+        return True, "Role correction disabled"
+    
+    try:
+        from scripts_v3.role_detail_mapping import correct_role_group_from_detail
+        
+        conn = sqlite3.connect(config.DB_PATH)
+        cursor = conn.cursor()
+        
+        # Get all credits for this episode
+        cursor.execute(
+            f"""SELECT id, name, role_detail, role_group, role_group_normalized, is_person 
+                FROM {config.DB_TABLE_CREDITS} 
+                WHERE episode_id = ?""",
+            (episode_id,)
+        )
+        
+        credits = cursor.fetchall()
+        total_credits = len(credits)
+        correction_count = 0
+        skipped_count = 0
+        
+        logging.info(f"[{episode_id}] Starting role correction for {total_credits} credits...")
+        
+        for credit_id, name, role_detail, role_group, role_group_normalized, is_person in credits:
+            current_role = role_group_normalized or role_group or "Unknown"
+            
+            # SKIP correction for companies (is_person=False) and Thanks role_group
+            if is_person == False or is_person == 0:
+                skipped_count += 1
+                logging.debug(f"[ROLE_CORRECTION] Skipping '{name}': is_person=False (company)")
+                continue
+            
+            if current_role.lower() == "thanks":
+                skipped_count += 1
+                logging.debug(f"[ROLE_CORRECTION] Skipping '{name}': role_group=Thanks")
+                continue
+            
+            # Apply correction (disabled by default - must explicitly enable)
+            corrected_role_group = correct_role_group_from_detail(
+                role_detail,
+                current_role,
+                enabled=False  # Disabled by default
+            )
+            
+            if corrected_role_group:
+                # Update database
+                cursor.execute(
+                    f"""UPDATE {config.DB_TABLE_CREDITS} 
+                        SET role_group_corrected = ? 
+                        WHERE id = ?""",
+                    (corrected_role_group, credit_id)
+                )
+                correction_count += 1
+                logging.info(
+                    f"[ROLE_CORRECTION] {name}: '{current_role}' → '{corrected_role_group}' "
+                    f"(pattern: '{role_detail}')"
+                )
+        
+        conn.commit()
+        conn.close()
+        
+        eligible_credits = total_credits - skipped_count
+        message = f"Applied {correction_count}/{eligible_credits} role_group corrections (skipped {skipped_count} companies/Thanks)"
+        logging.info(f"[{episode_id}] ✅ {message}")
+        
+        # Invalidate cache
+        invalidate_credits_cache(episode_id)
+        
+        return True, message
+        
+    except Exception as e:
+        logging.error(f"Error applying role corrections for {episode_id}: {e}", exc_info=True)
+        return False, f"Error: {e}"
 
 
 def load_processed_frames(jsonl_path: Path, episode_id: str) -> Set[str]:
@@ -2214,6 +2321,50 @@ def find_frame_path(episode_id: str, frame_filename: str) -> Optional[Path]:
 
 
 import unicodedata
+
+
+def strip_honorifics(name: str) -> str:
+    """
+    Remove honorific titles/nominatives from names while preserving original case and formatting.
+    
+    This is used to clean names from LLM output before saving to database.
+    Examples:
+        "Mr. John Smith" -> "John Smith"
+        "Mrs. Jane Doe" -> "Jane Doe"
+        "Dr. Mario Rossi" -> "Mario Rossi"
+        "Sig. Giuseppe Verdi" -> "Giuseppe Verdi"
+        "John Smith, MD" -> "John Smith"
+    """
+    if not name or not isinstance(name, str):
+        return name
+    
+    original_name = name
+    
+    # Remove common honorifics/titles at the BEGINNING (case-insensitive, at word boundaries)
+    # English titles
+    name = re.sub(r"\b(Mr|Mrs|Ms|Miss|Mx|Dr|Prof|Rev|Fr|Esq|Sir)\.?\s+", "", name, flags=re.IGNORECASE)
+    # Italian titles
+    name = re.sub(r"\b(Sig|Sig\.ra|Sig\.na|Dott|Dott\.ssa|Prof|Prof\.ssa|Ing|Arch|Avv|Geom|Rag|Cav|Comm|On)\.?\s+", "", name, flags=re.IGNORECASE)
+    # Spanish titles
+    name = re.sub(r"\b(Sr|Sra|Srta|Srs|Dr|Dra|Prof|Profa)\.?\s+", "", name, flags=re.IGNORECASE)
+    # French titles  
+    name = re.sub(r"\b(M|Mme|Mlle|Mons|Pr|Mgr)\.?\s+", "", name, flags=re.IGNORECASE)
+    # German titles
+    name = re.sub(r"\b(Herr|Frau|Fräulein|Dr|Prof)\.?\s+", "", name, flags=re.IGNORECASE)
+    # Military/Political titles
+    name = re.sub(r"\b(Capt|Cmdr|Lt|Lt\. Colonel|Maj|Gen|Adm|Hon|Sen|Rep|Gov|Pres|VP|Amb|PM)\.?\s+", "", name, flags=re.IGNORECASE)
+    
+    # Remove credential suffixes at the END (e.g., ", MD", ", Ph.D") - but keep Jr., Sr., II, III, IV
+    name = re.sub(r",?\s*(MD|M\.D\.|Ph\.?D\.?|D\.?O\.|DDS|DVM|RN|JD|J\.D\.|Esq\.?)\s*$", "", name, flags=re.IGNORECASE)
+    
+    # Clean up any resulting double spaces
+    name = re.sub(r"\s+", " ", name).strip()
+    
+    if name != original_name:
+        logging.debug(f"Stripped honorifics: '{original_name}' -> '{name}'")
+    
+    return name
+
 
 def normalize_name(name):
     """

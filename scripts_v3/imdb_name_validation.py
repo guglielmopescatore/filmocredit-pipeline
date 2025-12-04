@@ -36,6 +36,15 @@ from scripts_v3 import config
 from scripts_v3.utils import generate_next_internal_code
 
 
+# Global cache for IMDB data to support CLI usage without Streamlit session state
+_IMDB_CACHE = {
+    "initialized": False,
+    "df": None,
+    "name_lookup": None,
+    "exact_index": {},
+    "token_index": {}
+}
+
 class CodeAssignmentStatus(Enum):
     """Enum for code assignment status values"""
     AUTO_ASSIGNED = "auto_assigned"
@@ -100,15 +109,37 @@ class IMDBNameValidator:
             
         # Check cache first
         cache_key = "imdb_initialized"
-        if st.session_state.get(cache_key, False):
-            self._initialized = True
-            self._imdb_df = st.session_state.get("imdb_dataframe")
-            self._name_lookup = st.session_state.get("imdb_name_lookup")
-            self._exact_index = st.session_state.get("imdb_exact_index", {})
-            self._token_index = st.session_state.get("imdb_token_index", {})
-            if self._imdb_df is not None and self._name_lookup is not None:
-                logging.info("IMDB database loaded from cache")
-                return True
+        
+        # Determine if we can use Streamlit session state
+        use_streamlit_cache = False
+        try:
+            # Check if running within Streamlit context
+            if getattr(st, "session_state", None) is not None and hasattr(st, "runtime") and st.runtime.exists():
+                use_streamlit_cache = True
+        except Exception:
+            pass
+            
+        if use_streamlit_cache:
+            if st.session_state.get(cache_key, False):
+                self._initialized = True
+                self._imdb_df = st.session_state.get("imdb_dataframe")
+                self._name_lookup = st.session_state.get("imdb_name_lookup")
+                self._exact_index = st.session_state.get("imdb_exact_index", {})
+                self._token_index = st.session_state.get("imdb_token_index", {})
+                if self._imdb_df is not None and self._name_lookup is not None:
+                    logging.info("IMDB database loaded from Streamlit cache")
+                    return True
+        else:
+            # Use global module-level cache for CLI/batch mode
+            if _IMDB_CACHE["initialized"]:
+                self._initialized = True
+                self._imdb_df = _IMDB_CACHE["df"]
+                self._name_lookup = _IMDB_CACHE["name_lookup"]
+                self._exact_index = _IMDB_CACHE["exact_index"]
+                self._token_index = _IMDB_CACHE["token_index"]
+                if self._imdb_df is not None and self._name_lookup is not None:
+                    logging.info("IMDB database loaded from global module cache")
+                    return True
         
         # Try to load Parquet file first, then fall back to TSV
         data_path = None
@@ -179,7 +210,8 @@ class IMDBNameValidator:
                         'primaryProfession': 'string',
                         'knownForTitles': 'string'
                     },
-                    na_values=['\\N']
+                    na_values=['\\N'],
+                    encoding='utf-8'
                 )
                   # Create normalized names using utils.normalize_name
                 logging.info("Creating normalized names using normalize_name function")
@@ -205,12 +237,19 @@ class IMDBNameValidator:
             # Build indices for fast lookup
             self._build_indices()
             
-            # Cache the data in session state
-            st.session_state[cache_key] = True
-            st.session_state["imdb_dataframe"] = self._imdb_df
-            st.session_state["imdb_name_lookup"] = self._name_lookup
-            st.session_state["imdb_exact_index"] = self._exact_index
-            st.session_state["imdb_token_index"] = self._token_index
+            # Cache the data
+            if use_streamlit_cache:
+                st.session_state[cache_key] = True
+                st.session_state["imdb_dataframe"] = self._imdb_df
+                st.session_state["imdb_name_lookup"] = self._name_lookup
+                st.session_state["imdb_exact_index"] = self._exact_index
+                st.session_state["imdb_token_index"] = self._token_index
+            else:
+                _IMDB_CACHE["initialized"] = True
+                _IMDB_CACHE["df"] = self._imdb_df
+                _IMDB_CACHE["name_lookup"] = self._name_lookup
+                _IMDB_CACHE["exact_index"] = self._exact_index
+                _IMDB_CACHE["token_index"] = self._token_index
             
             self._initialized = True
             return True
@@ -403,8 +442,8 @@ class IMDBNameValidator:
                 imdb_matches_json=None
             )
         
-        # Check if role group is "Thanks" - always gets internal codes (no IMDB search)
-        if role_group and role_group.lower() == 'thanks':
+        # Check if role group is "Thanks" or "Unknown" - always gets internal codes (no IMDB search)
+        if role_group and role_group.lower() in ['thanks', 'unknown']:
             logging.info(f"Processing '{name}' (role: '{role_group}' - always internal, no IMDB search)")
             
             # First check if we already have an internal code for this name and role
@@ -472,9 +511,21 @@ class IMDBNameValidator:
             # Import normalize_name locally to avoid circular imports
             from scripts_v3.utils import normalize_name
             
-            # Normalize the name using the same function used for IMDB data
+            # Extract Jr./Sr. suffix BEFORE normalization (look for ", Jr." or ", Sr." pattern)
             original_name = name
-            normalized_name = normalize_name(name)
+            suffix = None
+            import re
+            suffix_match = re.search(r',\s*(Jr\.?|Sr\.?)\s*$', original_name, re.IGNORECASE)
+            if suffix_match:
+                suffix = suffix_match.group(1).lower().rstrip('.')
+                # Remove the suffix from name before normalization
+                name_for_normalization = original_name[:suffix_match.start()].strip()
+                logging.debug(f"Extracted suffix '{suffix}' from original name '{original_name}', normalizing '{name_for_normalization}'")
+            else:
+                name_for_normalization = original_name
+            
+            # Normalize the name using the same function used for IMDB data
+            normalized_name = normalize_name(name_for_normalization)
             
             if not normalized_name:
                 logging.warning(f"Name '{original_name}' became empty after normalization, assigning internal code")
@@ -508,6 +559,7 @@ class IMDBNameValidator:
             
             # Split normalized name into words for permutation testing
             words = normalized_name.split()
+            
             if len(words) == 0:
                 logging.warning(f"No valid words found in normalized name '{normalized_name}', assigning internal code")
                 internal_code = generate_next_internal_code(is_company=False)
@@ -547,11 +599,17 @@ class IMDBNameValidator:
             max_permutations = 720  # 6! = 720, higher limit for better matching
             if math.factorial(len(words)) > max_permutations:
                 logging.warning(f"Name '{original_name}' would generate {math.factorial(len(words))} permutations - using only original order")
-                permutations = [' '.join(words)]
+                base_permutations = [' '.join(words)]
             else:
-                permutations = set([' '.join(p) for p in itertools.permutations(words)])
+                base_permutations = set([' '.join(p) for p in itertools.permutations(words)])
             
-            logging.info(f"IMDB validation for '{original_name}' -> normalized: '{normalized_name}' -> words: {words} -> {len(permutations)} permutations")
+            # If we extracted a suffix (Jr./Sr.), append it to all permutations
+            if suffix:
+                permutations = set([f"{perm} {suffix}" for perm in base_permutations])
+            else:
+                permutations = base_permutations
+            
+            logging.info(f"IMDB validation for '{original_name}' -> normalized: '{normalized_name}' -> words: {words}{' + suffix: ' + suffix if suffix else ''} -> {len(permutations)} permutations")
             
             # First try exact matches for all permutations using index
             exact_matches = []
@@ -578,8 +636,8 @@ class IMDBNameValidator:
                 is_fuzzy_match = False
             else:
                 # No exact matches - try fuzzy matching if enabled and threshold < 100
-                # SKIP fuzzy matching for Thanks and Additional Crew
-                if role_group and role_group.lower() in ['thanks', 'additional crew']:
+                # SKIP fuzzy matching for Thanks, Unknown and Additional Crew
+                if role_group and role_group.lower() in ['thanks', 'unknown', 'additional crew']:
                     logging.info(f"Skipping fuzzy matching for role_group '{role_group}' - exact match only, assigning internal code")
                     internal_code = generate_next_internal_code(is_company=False)
                     return ValidationResult(
@@ -873,11 +931,14 @@ class IMDBNameValidator:
             # Create cache key from sorted professions
             cache_key = tuple(sorted(search_professions)) if search_professions else None
             
+            # Check if primaryProfession column exists in the DataFrame
+            has_profession_column = 'primaryProfession' in self._name_lookup.columns
+            
             if cache_key and cache_key in self._profession_filter_cache:
                 # CACHE HIT - reuse filtered DataFrame!
                 base_df = self._profession_filter_cache[cache_key]
                 logging.debug(f"[CACHE HIT] Reusing profession filter for {search_professions} ({len(base_df):,} records)")
-            elif search_professions:
+            elif search_professions and has_profession_column:
                 # CACHE MISS - filter and cache result
                 base_df = self._name_lookup
                 profession_conditions = []
@@ -898,9 +959,12 @@ class IMDBNameValidator:
                     self._profession_filter_cache[cache_key] = base_df
                     logging.info(f"[FILTER] Profession filtering: {len(self._name_lookup):,} → {len(base_df):,} records ({search_professions}) - CACHED")
             else:
-                # No profession filter
+                # No profession filter (either no professions to filter, or column doesn't exist)
                 base_df = self._name_lookup
-                logging.debug(f"No profession filter - using token candidates from ALL {len(base_df):,} records")
+                if search_professions and not has_profession_column:
+                    logging.warning(f"primaryProfession column not found in IMDB data - skipping profession filtering. Consider regenerating the parquet file.")
+                else:
+                    logging.debug(f"No profession filter - using token candidates from ALL {len(base_df):,} records)")
             
             # OPTIMIZATION 3: Intersect profession filter with token candidates
             candidate_index = pd.Index(candidate_indices)
@@ -1120,13 +1184,16 @@ class IMDBNameValidator:
         try:
             total_count = len(self._imdb_df)
             
-            # Count by profession categories
+            # Count by profession categories (only if column exists)
             profession_stats = {}
-            common_professions = ['actor', 'actress', 'director', 'writer', 'producer', 'composer']
-            
-            for profession in common_professions:
-                count = self._imdb_df['primaryProfession'].fillna('').str.contains(profession, case=False).sum()
-                profession_stats[profession] = int(count)
+            if 'primaryProfession' in self._imdb_df.columns:
+                common_professions = ['actor', 'actress', 'director', 'writer', 'producer', 'composer']
+                
+                for profession in common_professions:
+                    count = self._imdb_df['primaryProfession'].fillna('').str.contains(profession, case=False).sum()
+                    profession_stats[profession] = int(count)
+            else:
+                profession_stats = {'note': 'primaryProfession column not available in parquet file'}
             
             return {
                 'total_names': total_count,
@@ -1144,6 +1211,7 @@ class IMDBNameValidator:
         """
         Create Parquet file from TSV file using the same normalization as the main codebase.
         This ensures consistent normalization between IMDB data and credits data.
+        Includes search_combinations for enhanced fuzzy matching.
         """
         import pandas as pd
         # Import normalize_name locally to avoid circular imports
@@ -1152,18 +1220,54 @@ class IMDBNameValidator:
         logging.info(f"Creating Parquet file from TSV: {self.tsv_path} -> {self.parquet_path}")
         
         # Read TSV file
-        df = pd.read_csv(self.tsv_path, sep='\t', dtype=str, na_values='\\N')
+        df = pd.read_csv(self.tsv_path, sep='\t', dtype=str, na_values='\\N', encoding='utf-8')
         logging.info(f"Loaded {len(df)} names from TSV file")
         
         # Normalize names using the same function as credits data
         df['normalizedName'] = df['primaryName'].apply(lambda x: normalize_name(x) if pd.notna(x) else '')
         
-        # Keep only the columns we need
-        df_out = df[['nconst', 'normalizedName']]
+        # Create search_combinations for enhanced fuzzy matching (name + profession combos)
+        def create_search_combinations(row):
+            """Create all possible name+profession combinations for fuzzy matching."""
+            normalized_name = row['normalizedName']
+            if pd.isna(normalized_name) or not normalized_name:
+                return []
+            
+            professions = row.get('primaryProfession', '')
+            if pd.isna(professions) or not professions:
+                # No professions listed - just use name
+                return [normalized_name]
+            
+            # Split professions and create combinations
+            prof_list = [p.strip() for p in str(professions).split(',') if p.strip()]
+            combinations = []
+            
+            for prof in prof_list:
+                # Add name + profession combination
+                combinations.append(f"{normalized_name} {prof}")
+            
+            # Remove duplicates while preserving order
+            seen = set()
+            unique_combinations = []
+            for combo in combinations:
+                if combo not in seen:
+                    seen.add(combo)
+                    unique_combinations.append(combo)
+            
+            return unique_combinations
+        
+        logging.info("Creating search combinations for enhanced fuzzy matching...")
+        df['search_combinations'] = df.apply(create_search_combinations, axis=1)
+        
+        # Keep columns needed for matching
+        columns_to_keep = ['nconst', 'normalizedName', 'primaryName', 'primaryProfession', 'birthYear', 'deathYear', 'search_combinations']
+        # Only keep columns that exist in the DataFrame
+        existing_columns = [col for col in columns_to_keep if col in df.columns]
+        df_out = df[existing_columns]
         
         # Save to Parquet
         df_out.to_parquet(self.parquet_path, index=False)
-        logging.info(f"Successfully created Parquet file: {self.parquet_path}")
+        logging.info(f"Successfully created Parquet file with columns {existing_columns}: {self.parquet_path}")
 
     def _check_existing_internal_code(self, normalized_name: str, role_group: str, is_company: bool) -> Optional[str]:
         """

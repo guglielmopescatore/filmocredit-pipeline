@@ -4,9 +4,6 @@ Script to apply IMDB validation/correction to human-corrected credits CSV.
 Standalone version that replicates the exact logic from imdb_name_validation.py
 without Streamlit dependencies.
 
-Input: human_data_to_be_imdbized/credits_human_corrected_DEF.csv
-Output: human_data_to_be_imdbized/credits_human_corrected_DEF_imdbized.csv
-
 Adds a new column 'nome_corretto_imdb' with the canonical IMDB name when found.
 """
 
@@ -14,6 +11,7 @@ import sys
 from pathlib import Path
 import pandas as pd
 import logging
+import re
 from thefuzz import fuzz  # SAME as original - not fuzzywuzzy!
 from typing import Optional, List, Dict, Any
 from enum import Enum
@@ -439,7 +437,7 @@ class StandaloneIMDBValidator:
                 'method': 'unexpected_case'
             }
 
-    def validate_name(self, name: str, role_group: Optional[str] = None) -> Dict[str, Any]:
+    def validate_name(self, name: str, role_group: Optional[str] = None, threshold: Optional[int] = None) -> Dict[str, Any]:
         """
         Validate name against IMDB - returns ONLY IMDB matches, NULL if not found.
         NO internal codes generation - just IMDB nconst or None.
@@ -452,8 +450,23 @@ class StandaloneIMDBValidator:
                 'method': 'no_imdb_data'
             }
 
+        # Use provided threshold or default
+        current_threshold = threshold if threshold is not None else self.fuzzy_threshold
+
         original_name = name
-        normalized = normalize_name(name)  # Use EXACT same normalization
+        
+        # Extract Jr./Sr. suffix BEFORE normalization (look for ", Jr." or ", Sr." pattern)
+        suffix = None
+        suffix_match = re.search(r',\s*(Jr\.?|Sr\.?)\s*$', original_name, re.IGNORECASE)
+        if suffix_match:
+            suffix = suffix_match.group(1).lower().rstrip('.')
+            # Remove the suffix from name before normalization
+            name_for_normalization = original_name[:suffix_match.start()].strip()
+            logging.debug(f"Extracted suffix '{suffix}' from original name '{original_name}', normalizing '{name_for_normalization}'")
+        else:
+            name_for_normalization = original_name
+        
+        normalized = normalize_name(name_for_normalization)  # Use EXACT same normalization
 
         # Split into words for permutation testing (EXACT same logic)
         words = normalized.split()
@@ -486,13 +499,19 @@ class StandaloneIMDBValidator:
                 f"'{original_name}' would generate {math.factorial(len(words))} "
                 f"permutations - using only original order"
             )
-            permutations = [' '.join(words)]
+            base_permutations = [' '.join(words)]
         else:
-            permutations = set([' '.join(p) for p in itertools.permutations(words)])
+            base_permutations = set([' '.join(p) for p in itertools.permutations(words)])
+        
+        # If we extracted a suffix (Jr./Sr.), append it to all permutations
+        if suffix:
+            permutations = set([f"{perm} {suffix}" for perm in base_permutations])
+        else:
+            permutations = base_permutations
 
         logging.info(
             f"IMDB validation for '{original_name}' -> normalized: '{normalized}' "
-            f"-> words: {words} -> {len(permutations)} permutations"
+            f"-> words: {words}{' + suffix: ' + suffix if suffix else ''} -> {len(permutations)} permutations"
         )
 
         # Try exact matches for ALL permutations (EXACT same logic but usando l'indice)
@@ -513,10 +532,10 @@ class StandaloneIMDBValidator:
             logging.info(
                 f"Found {len(exact_matches)} exact match(es) for '{original_name}'"
             )
-        elif self.fuzzy_enabled and self.fuzzy_threshold < 100:
+        elif self.fuzzy_enabled and current_threshold < 100:
             # Check if we should skip fuzzy for certain role groups
-            if role_group and role_group.lower() == 'thanks':
-                # No fuzzy matching for Thanks - only exact matches (no profession mapping)
+            if role_group and role_group.lower() in ['thanks', 'unknown']:
+                # No fuzzy matching for Thanks/Unknown - only exact matches (no profession mapping)
                 logging.info(
                     f"Skipping fuzzy matching for role_group '{role_group}' "
                     f"- exact match only"
@@ -527,16 +546,16 @@ class StandaloneIMDBValidator:
                 # Try fuzzy matching (EXACT same logic, ma con indice)
                 logging.info(
                     f"No exact matches for '{original_name}', trying fuzzy "
-                    f"(threshold: {self.fuzzy_threshold}%)"
+                    f"(threshold: {current_threshold}%)"
                 )
                 matches = self._fuzzy_search_imdb(
-                    normalized, role_group, self.fuzzy_threshold
+                    normalized, role_group, current_threshold
                 )
                 is_fuzzy = True
                 if matches:
                     logging.info(
                         f"Found {len(matches)} fuzzy match(es) with similarity "
-                        f">= {self.fuzzy_threshold}%"
+                        f">= {current_threshold}%"
                     )
         else:
             matches = []
@@ -569,8 +588,8 @@ def imdbize_human_data():
 
     # Input/output paths
     input_dir = Path(__file__).parent / "human_data_to_be_imdbized"
-    input_file = input_dir / "credits_human_corrected with dubbing.csv"
-    output_file = input_dir / "credits_human_corrected_with_dubbing_imdbized.csv"
+    input_file = input_dir / "credits_human_corrected_merged_to_be_imdbized_LAST.csv"
+    output_file = input_dir / "credits_human_corrected_merged_imdbized_LAST.csv"
 
     print(f"Input file: {input_file}")
     print(f"Output file: {output_file}")
@@ -590,7 +609,7 @@ def imdbize_human_data():
         if resume_choice == 'yes':
             resume_mode = True
             print(f"📖 Loading existing output for resume...")
-            existing_df = pd.read_csv(output_file, sep=';')
+            existing_df = pd.read_csv(output_file, sep=';', encoding='utf-8-sig')
             existing_df.columns = existing_df.columns.str.strip()
             if '' in existing_df.columns:
                 existing_df = existing_df.drop(columns=[''])
@@ -598,7 +617,7 @@ def imdbize_human_data():
 
     print(f"📖 Loading CSV file...")
     logging.info(f"📖 Loading human-corrected credits from: {input_file}")
-    df = pd.read_csv(input_file, sep=';')  # Semicolon separator
+    df = pd.read_csv(input_file, sep=';', encoding='utf-8')  # Semicolon separator
     print(f"✅ Loaded {len(df)} rows")
 
     # Strip whitespace from column names and drop empty columns
@@ -640,34 +659,40 @@ def imdbize_human_data():
     print(f"✅ IMDB database loaded: {len(validator._name_lookup)} records")
 
     # Add new columns for IMDB results
-    df['imdb_nconst'] = None  # IMDB code or NULL
-    df['nome_corretto_imdb'] = None  # IMDB canonical name (always if found, even if same)
-    df['imdb_action'] = None  # M=Modified, A=Assigned, X=Not found
+    THRESHOLDS = [88, 90, 92, 94, 96, 98, 99]
+    
+    for t in THRESHOLDS:
+        df[f'imdb_nconst_{t}'] = None
+        df[f'nome_corretto_imdb_{t}'] = None
+        df[f'imdb_action_{t}'] = None
 
     # If resuming, merge existing results
     if resume_mode and existing_df is not None:
         print(f"🔄 Merging existing results...")
-        if 'imdb_nconst' in existing_df.columns:
-            df['imdb_nconst'] = existing_df['imdb_nconst']
-        if 'nome_corretto_imdb' in existing_df.columns:
-            df['nome_corretto_imdb'] = existing_df['nome_corretto_imdb']
-        if 'imdb_action' in existing_df.columns:
-            df['imdb_action'] = existing_df['imdb_action']
+        for t in THRESHOLDS:
+            col_nconst = f'imdb_nconst_{t}'
+            col_name = f'nome_corretto_imdb_{t}'
+            col_action = f'imdb_action_{t}'
+            
+            if col_nconst in existing_df.columns:
+                df[col_nconst] = existing_df[col_nconst]
+            if col_name in existing_df.columns:
+                df[col_name] = existing_df[col_name]
+            if col_action in existing_df.columns:
+                df[col_action] = existing_df[col_action]
 
-        already_processed = df['imdb_action'].notna().sum()
-        print(f"✅ Found {already_processed} already processed credits - will skip these")
-        logging.info(f"Resume mode: {already_processed} credits already processed")
+        # Check if processed based on first threshold (arbitrary)
+        first_action_col = f'imdb_action_{THRESHOLDS[0]}'
+        if first_action_col in df.columns:
+            already_processed = df[first_action_col].notna().sum()
+            print(f"✅ Found {already_processed} already processed credits - will skip these")
+            logging.info(f"Resume mode: {already_processed} credits already processed")
 
     print(f"🔍 Starting to process {len(df)} credits...")
     logging.info("🔍 Processing credits with IMDB validation...")
 
     # Stats
     stats = {
-        'auto_assigned': 0,
-        'ambiguous': 0,
-        'no_match': 0,
-        'no_profession_mapping': 0,
-        'incompatible_profession': 0,
         'total': 0,
         'persons_processed': 0
     }
@@ -676,7 +701,7 @@ def imdbize_human_data():
     SAVE_INTERVAL = 50
     rows_since_last_save = 0
 
-    # Cache di alto livello per evitare di rifare validate_name su stessi (nome_normalizzato, role_group)
+    # Cache di alto livello per evitare di rifare validate_name su stessi (nome_normalizzato, role_group, threshold)
     validation_cache: Dict[Any, Dict[str, Any]] = {}
 
     for idx, row in df.iterrows():
@@ -691,18 +716,13 @@ def imdbize_human_data():
             logging.debug(f"Row {idx}: Skipping non-person entity: {name}")
             continue
 
-        # RESUME: se già processata, aggiornare stats e saltare
-        if resume_mode and pd.notna(row.get('imdb_action')):
+        # RESUME: se già processata (check first threshold), aggiornare stats e saltare
+        first_action_col = f'imdb_action_{THRESHOLDS[0]}'
+        if resume_mode and pd.notna(row.get(first_action_col)):
             if (idx + 1) % 100 == 0:
-                print(f"[SKIP] Row {idx+1}: Already processed ({row.get('imdb_action')})")
+                print(f"[SKIP] Row {idx+1}: Already processed")
             logging.debug(f"Row {idx}: Skipping already processed credit: {name}")
             stats['persons_processed'] += 1
-
-            existing_action = row.get('imdb_action')
-            if existing_action in ('A', 'M'):
-                stats['auto_assigned'] += 1
-            elif existing_action == 'X':
-                stats['no_match'] += 1
             continue
 
         stats['persons_processed'] += 1
@@ -710,77 +730,68 @@ def imdbize_human_data():
         print(f"\n--- Processing row {idx+1}/{len(df)} ---")
         print(f"Name: {name}, Role: {role_group}, IsPerson: {is_person}")
 
-        # Skip IMDB search for "Thanks" - always NULL (no code assigned in human data)
-        if role_group and isinstance(role_group, str) and role_group.lower() == 'thanks':
-            print(f"[SKIP] '{name}' - Thanks role (no IMDB search)")
-            logging.info(f"Row {idx}: Skipping IMDB search for Thanks role: '{name}'")
-            df.at[idx, 'imdb_action'] = 'X'
-            df.at[idx, 'nome_corretto_imdb'] = name
-            stats['no_match'] += 1
+        # Skip IMDB search for "Thanks" and "Unknown" - always NULL (no code assigned in human data)
+        if role_group and isinstance(role_group, str) and role_group.lower() in ['thanks', 'unknown']:
+            print(f"[SKIP] '{name}' - {role_group} role (no IMDB search)")
+            logging.info(f"Row {idx}: Skipping IMDB search for {role_group} role: '{name}'")
+            for t in THRESHOLDS:
+                df.at[idx, f'imdb_action_{t}'] = 'X'
+                df.at[idx, f'nome_corretto_imdb_{t}'] = name
             continue
 
-        # Chiave cache: nome normalizzato + role_group normalizzata
+        # Chiave cache base
         norm_name = normalize_name(name)
         role_key = role_group.lower() if isinstance(role_group, str) else None
-        cache_key = (norm_name, role_key)
+        
+        # Loop over thresholds
+        for t in THRESHOLDS:
+            cache_key = (norm_name, role_key, t)
 
-        # Validate (con cache)
-        try:
-            if cache_key in validation_cache:
-                result = validation_cache[cache_key]
-            else:
-                result = validator.validate_name(name=name, role_group=role_group)
-                validation_cache[cache_key] = result
-
-            # Store IMDB results
-            imdb_code = result['assigned_code']
-            imdb_name = result['corrected_name']
-
-            df.at[idx, 'imdb_nconst'] = imdb_code
-
-            if imdb_code and imdb_name:
-                # Found in IMDB - always set the IMDB name
-                df.at[idx, 'nome_corretto_imdb'] = imdb_name
-
-                # Check if name was modified
-                if normalize_name(imdb_name) != normalize_name(name):
-                    df.at[idx, 'imdb_action'] = 'M'
-                    print(f"[M] '{name}' → '{imdb_name}' ({imdb_code})")
-                    logging.info(f"[M] Row {idx}: '{name}' → '{imdb_name}' ({imdb_code})")
+            # Validate (con cache)
+            try:
+                if cache_key in validation_cache:
+                    result = validation_cache[cache_key]
                 else:
-                    df.at[idx, 'imdb_action'] = 'A'
-                    print(f"[A] '{name}' = '{imdb_name}' ({imdb_code})")
-                    logging.info(f"[A] Row {idx}: '{name}' matched IMDB ({imdb_code})")
-            else:
-                # Not found in IMDB
-                df.at[idx, 'imdb_action'] = 'X'
-                df.at[idx, 'nome_corretto_imdb'] = name  # Keep original
-                status = result['status']
-                print(f"[X] '{name}' - {status}")
-                logging.info(f"[X] Row {idx}: '{name}' - {status}")
+                    result = validator.validate_name(name=name, role_group=role_group, threshold=t)
+                    validation_cache[cache_key] = result
 
-            # Update stats
-            if result['status'] == 'auto_assigned':
-                stats['auto_assigned'] += 1
-            elif result['status'] == 'ambiguous':
-                stats['ambiguous'] += 1
-            elif result['status'] == 'no_match':
-                stats['no_match'] += 1
-            elif result['status'] == 'no_profession_mapping':
-                stats['no_profession_mapping'] += 1
-            elif result['status'] == 'incompatible_profession':
-                stats['incompatible_profession'] += 1
+                # Store IMDB results
+                imdb_code = result['assigned_code']
+                imdb_name = result['corrected_name']
 
-            # Incremental save (rimasto a 50 righe)
-            rows_since_last_save += 1
-            if rows_since_last_save >= SAVE_INTERVAL:
-                print(f"\n💾 Saving progress... ({idx + 1}/{len(df)} rows processed)")
-                df.to_csv(output_file, sep=';', index=False)
-                rows_since_last_save = 0
+                df.at[idx, f'imdb_nconst_{t}'] = imdb_code
 
-        except Exception as e:
-            logging.error(f"❌ Error processing row {idx} ('{name}'): {e}", exc_info=True)
-            continue
+                if imdb_code and imdb_name:
+                    # Found in IMDB - always set the IMDB name
+                    df.at[idx, f'nome_corretto_imdb_{t}'] = imdb_name
+
+                    # Check if name was modified
+                    if normalize_name(imdb_name) != normalize_name(name):
+                        df.at[idx, f'imdb_action_{t}'] = 'M'
+                        if t == 90: # Log only for standard threshold to avoid spam
+                            print(f"[M][{t}] '{name}' → '{imdb_name}' ({imdb_code})")
+                    else:
+                        df.at[idx, f'imdb_action_{t}'] = 'A'
+                        if t == 90:
+                            print(f"[A][{t}] '{name}' = '{imdb_name}' ({imdb_code})")
+                else:
+                    # Not found in IMDB
+                    df.at[idx, f'imdb_action_{t}'] = 'X'
+                    df.at[idx, f'nome_corretto_imdb_{t}'] = name  # Keep original
+                    status = result['status']
+                    if t == 90:
+                        print(f"[X][{t}] '{name}' - {status}")
+
+            except Exception as e:
+                logging.error(f"❌ Error processing row {idx} ('{name}') threshold {t}: {e}", exc_info=True)
+                continue
+
+        # Incremental save (rimasto a 50 righe)
+        rows_since_last_save += 1
+        if rows_since_last_save >= SAVE_INTERVAL:
+            print(f"\n💾 Saving progress... ({idx + 1}/{len(df)} rows processed)")
+            df.to_csv(output_file, sep=';', index=False, encoding='utf-8-sig')
+            rows_since_last_save = 0
 
         # Progress indicator
         if (idx + 1) % 100 == 0:
@@ -788,7 +799,7 @@ def imdbize_human_data():
 
     # Save output finale
     logging.info(f"💾 Saving IMDBized credits to: {output_file}")
-    df.to_csv(output_file, sep=';', index=False)
+    df.to_csv(output_file, sep=';', index=False, encoding='utf-8-sig')
 
     # Print statistics
     logging.info("\n" + "=" * 60)
@@ -796,29 +807,6 @@ def imdbize_human_data():
     logging.info("=" * 60)
     logging.info(f"Total rows in file: {stats['total']}")
     logging.info(f"Persons processed: {stats['persons_processed']}")
-    logging.info(f"")
-    if stats['persons_processed'] > 0:
-        logging.info(
-            f"IMDB matched (auto-assigned): {stats['auto_assigned']} "
-            f"({stats['auto_assigned'] / stats['persons_processed'] * 100:.1f}%)"
-        )
-        logging.info(f"Not matched (NULL):")
-        logging.info(
-            f"  - No match found: {stats['no_match']} "
-            f"({stats['no_match'] / stats['persons_processed'] * 100:.1f}%)"
-        )
-        logging.info(
-            f"  - Ambiguous (multiple matches): {stats['ambiguous']} "
-            f"({stats['ambiguous'] / stats['persons_processed'] * 100:.1f}%)"
-        )
-        logging.info(
-            f"  - Incompatible profession: {stats['incompatible_profession']} "
-            f"({stats['incompatible_profession'] / stats['persons_processed'] * 100:.1f}%)"
-        )
-        logging.info(
-            f"  - No profession mapping: {stats['no_profession_mapping']} "
-            f"({stats['no_profession_mapping'] / stats['persons_processed'] * 100:.1f}%)"
-        )
     logging.info("=" * 60)
     logging.info(f"✅ Output saved to: {output_file}")
     logging.info("=" * 60)
