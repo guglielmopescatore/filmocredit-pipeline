@@ -167,8 +167,12 @@ class IMDBBatchValidatorWithCodeAssignment:
             True if processed successfully, False otherwise
         """
         name = credit.get('name', '')
-        # Use role_group_corrected if available, otherwise fall back to role_group_normalized or role_group
-        role_group = credit.get('role_group_corrected') or credit.get('role_group_normalized') or credit.get('role_group', '')
+        # Use role_group_corrected if available (not None), otherwise fall back to role_group_normalized or role_group
+        role_group_corrected = credit.get('role_group_corrected')
+        if role_group_corrected is not None:
+            role_group = role_group_corrected
+        else:
+            role_group = credit.get('role_group_normalized') or credit.get('role_group', '')
         is_person = credit.get('is_person')
         credit_id = credit.get('id')
         episode_id = credit.get('episode_id', '')

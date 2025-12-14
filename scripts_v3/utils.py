@@ -1008,7 +1008,13 @@ def load_vlm_results_from_jsonl(jsonl_path: Path) -> List[Dict[str, Any]]:
 def apply_role_group_corrections_to_database(episode_id: str, enabled: bool = True) -> tuple[bool, str]:
     """
     Apply role_group corrections to database based on role_detail patterns.
-    This updates the role_group_corrected column for credits that match patterns.
+    This updates the role_group_corrected column for all credits of the episode.
+    
+    Logic:
+    - If mapping exists and role_group differs: set role_group_corrected = mapped value
+    - If mapping exists and role_group matches: set role_group_corrected = current value (confirmed correct)
+    - If no mapping exists: set role_group_corrected = current value (no change needed)
+    - Skip companies (is_person=False) and Cast (never remap Cast)
     
     Args:
         episode_id: Episode ID to apply corrections to
@@ -1021,7 +1027,7 @@ def apply_role_group_corrections_to_database(episode_id: str, enabled: bool = Tr
         return True, "Role correction disabled"
     
     try:
-        from scripts_v3.role_detail_mapping import correct_role_group_from_detail
+        from scripts_v3.role_detail_mapping import find_role_group_for_detail, normalize_role_detail
         
         conn = sqlite3.connect(config.DB_PATH)
         cursor = conn.cursor()
@@ -1037,6 +1043,7 @@ def apply_role_group_corrections_to_database(episode_id: str, enabled: bool = Tr
         credits = cursor.fetchall()
         total_credits = len(credits)
         correction_count = 0
+        unchanged_count = 0
         skipped_count = 0
         
         logging.info(f"[{episode_id}] Starting role correction for {total_credits} credits...")
@@ -1044,43 +1051,69 @@ def apply_role_group_corrections_to_database(episode_id: str, enabled: bool = Tr
         for credit_id, name, role_detail, role_group, role_group_normalized, is_person in credits:
             current_role = role_group_normalized or role_group or "Unknown"
             
-            # SKIP correction for companies (is_person=False) and Thanks role_group
+            # SKIP correction for companies (is_person=False)
             if is_person == False or is_person == 0:
-                skipped_count += 1
-                logging.debug(f"[ROLE_CORRECTION] Skipping '{name}': is_person=False (company)")
-                continue
-            
-            if current_role.lower() == "thanks":
-                skipped_count += 1
-                logging.debug(f"[ROLE_CORRECTION] Skipping '{name}': role_group=Thanks")
-                continue
-            
-            # Apply correction (disabled by default - must explicitly enable)
-            corrected_role_group = correct_role_group_from_detail(
-                role_detail,
-                current_role,
-                enabled=False  # Disabled by default
-            )
-            
-            if corrected_role_group:
-                # Update database
+                # Still set role_group_corrected to current value for companies
                 cursor.execute(
                     f"""UPDATE {config.DB_TABLE_CREDITS} 
                         SET role_group_corrected = ? 
                         WHERE id = ?""",
-                    (corrected_role_group, credit_id)
+                    (current_role, credit_id)
+                )
+                skipped_count += 1
+                logging.debug(f"[ROLE_CORRECTION] Skipping '{name}': is_person=False (company), keeping '{current_role}'")
+                continue
+            
+            # NEVER remap Cast
+            if current_role == "Cast":
+                cursor.execute(
+                    f"""UPDATE {config.DB_TABLE_CREDITS} 
+                        SET role_group_corrected = ? 
+                        WHERE id = ?""",
+                    (current_role, credit_id)
+                )
+                skipped_count += 1
+                logging.debug(f"[ROLE_CORRECTION] Skipping '{name}': role_group=Cast, keeping 'Cast'")
+                continue
+            
+            # Normalize role_detail and look up in mapping
+            normalized_detail = normalize_role_detail(role_detail) if role_detail else ""
+            mapped_role_group = find_role_group_for_detail(normalized_detail) if normalized_detail else None
+            
+            if mapped_role_group and mapped_role_group != current_role:
+                # Mapping exists and differs from current - CORRECT IT
+                cursor.execute(
+                    f"""UPDATE {config.DB_TABLE_CREDITS} 
+                        SET role_group_corrected = ? 
+                        WHERE id = ?""",
+                    (mapped_role_group, credit_id)
                 )
                 correction_count += 1
                 logging.info(
-                    f"[ROLE_CORRECTION] {name}: '{current_role}' → '{corrected_role_group}' "
-                    f"(pattern: '{role_detail}')"
+                    f"[ROLE_CORRECTION] {name}: '{current_role}' → '{mapped_role_group}' "
+                    f"(role_detail: '{role_detail}')"
+                )
+            else:
+                # No mapping or already correct - keep current value
+                cursor.execute(
+                    f"""UPDATE {config.DB_TABLE_CREDITS} 
+                        SET role_group_corrected = ? 
+                        WHERE id = ?""",
+                    (current_role, credit_id)
+                )
+                unchanged_count += 1
+                logging.debug(
+                    f"[ROLE_CORRECTION] {name}: keeping '{current_role}' "
+                    f"(role_detail: '{role_detail}', mapped: {mapped_role_group})"
                 )
         
         conn.commit()
         conn.close()
         
-        eligible_credits = total_credits - skipped_count
-        message = f"Applied {correction_count}/{eligible_credits} role_group corrections (skipped {skipped_count} companies/Thanks)"
+        message = (
+            f"Role correction complete: {correction_count} corrected, "
+            f"{unchanged_count} unchanged, {skipped_count} skipped (companies/Cast)"
+        )
         logging.info(f"[{episode_id}] ✅ {message}")
         
         # Invalidate cache
@@ -2355,7 +2388,7 @@ def strip_honorifics(name: str) -> str:
     name = re.sub(r"\b(Capt|Cmdr|Lt|Lt\. Colonel|Maj|Gen|Adm|Hon|Sen|Rep|Gov|Pres|VP|Amb|PM)\.?\s+", "", name, flags=re.IGNORECASE)
     
     # Remove credential suffixes at the END (e.g., ", MD", ", Ph.D") - but keep Jr., Sr., II, III, IV
-    name = re.sub(r",?\s*(MD|M\.D\.|Ph\.?D\.?|D\.?O\.|DDS|DVM|RN|JD|J\.D\.|Esq\.?)\s*$", "", name, flags=re.IGNORECASE)
+    name = re.sub(r",?\s*(MD|M\.D\.|Ph\.?D\.?|D\.?O\.|DDS|D.D.S.|DVM|RN|JD|J\.D\.|Esq\.?)\s*$", "", name, flags=re.IGNORECASE)
     
     # Clean up any resulting double spaces
     name = re.sub(r"\s+", " ", name).strip()

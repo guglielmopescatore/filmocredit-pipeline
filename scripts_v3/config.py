@@ -3,7 +3,7 @@ from typing_extensions import Final
 from . import constants
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 try:
     import sys
@@ -199,6 +199,9 @@ role_group: Choose only from the following predefined categories based on IMDb's
         "supervising directors",
         "TV series directors credited on specific episodes",
         "only when person has a key creative/directorial role"
+      ],
+      "note": [
+          "'Ideato e diretto da' or 'Created and Directed by' should be split into two separate credits: one for 'Writers' and one for 'Directors'.",
       ]
     }},
 
@@ -206,7 +209,7 @@ role_group: Choose only from the following predefined categories based on IMDb's
       "description": "Second unit directing and assistant directing roles.",
       "include": [
         "regia seconda unità, 2nd Unit Director, 2nd Unit Coordinator",
-        "aiuto regista, assistant director (1st AD, 2nd AD, 3rd AD)",
+        "aiuto regista, assistant director (1st AD, 2nd AD, 3rd AD), first assistant, second assistant etc.",
         "DGA trainee, AD PA when clearly tied to directing department",
         "set coordination/management specifically linked to second-unit directing",
         "AOSM (Organizzatore scene di massa)"
@@ -221,7 +224,7 @@ role_group: Choose only from the following predefined categories based on IMDb's
     "Writers": {{
       "description": "Writing and story creation roles.",
       "include": [
-        "sceneggiatura, soggetto, 'written by', 'story by', 'screenplay by', 'teleplay by'",
+        "sceneggiatura, soggetto, 'ideato da', 'written by', 'story by', 'screenplay by', 'teleplay by'",
         "'creator' / 'created by' (TV series creators)",
         "'screen story', 'television story'",
         "source material authors (novel, book, play, article, characters etc.)",
@@ -238,19 +241,19 @@ role_group: Choose only from the following predefined categories based on IMDb's
     "Producers": {{
       "description": "Creative/financing producer roles.",
       "include": [
-        "producer, co-producer, associate producer",
+        "producer, co-producer, associate producer, Executive in Charge of Production",
         "executive producer, co-executive producer, assistant producer (NOT assistant to producer taht go to 'Production Department')",
-        "line producer when clearly a creative/producer credit rather than pure management",
+        "line producers",
         "\"produced by\", \"developed for television by\"",
         "producer (p.g.a.)",
         "commissioning editors and series editors when functioning as producing roles",
         "assistant producer (not 'assistant to producer')",
-        "every Executive belongs here unless clearly a pure financial role",
-        "executive in charge of production"
+        "every Executive Producer of the movie production belongs here unless related to one specific group such as music, post production, VFX etc. etc. (then follow that heading)"
       ],
       "exclude": [
         "production manager, unit production manager, production supervisor, unit manager, stage manager, production director (→ 'Production Managers')",
-        "company-only credits like 'Produzione Babe Films' (company → 'Miscellaneous Companies'; individual admin staff → 'Additional Crew')"
+        "executive that are related to one specific group such as music, post production, VFX etc. etc. (→ follow that heading)",
+        "people with 'company credits' like 'Produzione Babe Films' (company → 'Miscellaneous Companies'; individual admin staff → 'Additional Crew') or '[Company] Productions' as role_detail",
       ]
     }},
 
@@ -266,12 +269,13 @@ role_group: Choose only from the following predefined categories based on IMDb's
         "production consultant",
         "public space/filming/location permits and similar minor permit roles",
         "department PAs should go to the specific department instead where clearly indicated",
+        "permessi o.s.p, permessi minori, carnet supervisor",
       ],
       "exclude": [
         "production manager, unit production manager, production supervisor, post-production supervisor, unit manager, executive in charge of production, production director (→ 'Production Managers')",
         "casting roles",
         "external company credits such as 'Produzione Babe Films' because those are people external to the production (→ 'Additional Crew')",
-        "interns not clearly assigned to production (→ 'Additional Crew')",
+        "interns and stagiaires (→ 'Additional Crew')",
         "personal assistants to individuals such as 'Assistant to David Lynch' (→ 'Additional Crew')"
       ]
     }},
@@ -302,7 +306,7 @@ role_group: Choose only from the following predefined categories based on IMDb's
         "\"Music by\", \"Score by\", \"Original score composed by\"",
         "\"Musiche originali\", \"Musica originale\"",
         "authors of original songs and lyrics when clearly credited as writers (e.g. 'Songs written by', 'Lyrics by')",
-        "Also co-composers when clearly indicated (such as in 'Score Co-Produced by')"
+        "Also co-composers of original music (such as in 'Score Co-Produced by', 'Percussion Based Score' etc.)"
       ],
       "exclude": [
         "music supervisors, orchestrators, arrangers, music editors, performers etc. (→ 'Music Department')"
@@ -377,13 +381,14 @@ role_group: Choose only from the following predefined categories based on IMDb's
       "description": "Digital/optical post-production visual effects.",
       "include": [
         "VFX supervisor, VFX producer",
-        "compositor, matte painter, CG artist, matchmover",
+        "compositor, matte painter, CG artist, matchmover, digital artist",
         "simulation/FX artist, lighting TD, roto/paint, tracking",
         "digital cleanup, digital restoration, DI cleanup when under VFX",
         "miniature/model work credited under VFX",
         "animators in live-action VFX or effects sequences",
         "titles/motion graphics in a digital post-production/VFX context",
-        "Research and Development (R&D) roles specifically for VFX technology"
+        "Research and Development (R&D) roles specifically for VFX technology",
+        "Générique in French are the ones related to Titles"
       ],
       "exclude": [
         "practical/on-set effects (→ 'Special Effects')",
@@ -424,6 +429,7 @@ role_group: Choose only from the following predefined categories based on IMDb's
       ],
       "exclude": [
         "main composer(s) (→ 'Composers') of the movie/production",
+        "Movie original music score composers (→ 'Composers')",
         "sound roles not related to music (→ 'Sound Department')",
         "song-specific credits tied to named songs (→ 'Soundtrack')",
         "music clearances/legal roles (→ 'Legal Department')"
@@ -433,24 +439,29 @@ role_group: Choose only from the following predefined categories based on IMDb's
     "Production Managers": {{
       "description": "Production management and supervisory roles handling schedule, budget, and operations.",
       "include": [
-        "production manager, unit production manager (UPM)",
-        "production supervisor, post-production supervisor, ispettore di produzione",
-        "unit manager, production director",
-        "production administrator", 
-        "'Organizzazione' in italian credits when clearly production management",
-        
+        "production manager, unit production manager (UPM), director of production",
+        "production supervisor, ispettore di produzione, production administrator",
+        "unit manager, production director, direttore di produzione, chief operating officer (COO)",
+        "production administrator, physical production", 
+        "'Organizzazione' or 'Organizzazione generale' in italian credits",
       ],
       "exclude": [
         "assistants, coordinators, and secretaries under PMs (→ 'Production Department' or 'Additional Crew')",
-        "finance/accounting roles (→ 'Production Finance and Accounting' if used; otherwise 'Additional Crew')"
+        "finance/accounting roles (→ 'Production Finance and Accounting' if used; otherwise 'Additional Crew')",
+        "Supervisors of other departments"
       ]
     }},
     
     "Production Finance and Accounting": {{
       "description": "Financial and accounting roles within production management.",
         "include": [
-            "production accountant, controller, cashier",
-            "financial controller, cost report manager",
+            "production accountant, production controller, assistant production controller, production accountant, cashier",
+            "financial controller, cost report manager, Directeur financier",
+            "amministrazione di produzione, contabile di produzione, amminsitrazione"
+        ],
+        "exclude": [
+            "production managers (→ 'Production Managers')",
+            "roles related to external companies such as 'Amministratore per [Company]' or 'Contabile per [Company]' (→ 'Additional Crew')"
         ]
     }},
 
@@ -512,8 +523,8 @@ role_group: Choose only from the following predefined categories based on IMDb's
                 "Electrician, generator operator, cable puller",
                 "Key grip, assistant key grip, grip crew, rigging grips",
                 "Photographs, dailys photographer, still photographer (on-set)",
-                "video operators",
-                "other languages: gruppisti, Machinistes, électriciens, fotógrafo de plató etc. etc.",
+                "video operators, Insert Director of Photography",
+                "other languages: gruppista, Machinistes, électriciens, fotógrafo de plató etc. etc.",
                 "In products where there are a lot of 'Photography' credits, these go here unless there is a main cinematographer/DoP credited for the whole production"
             ],
             "exclude": [
@@ -580,7 +591,9 @@ role_group: Choose only from the following predefined categories based on IMDb's
         "set dresser, props, scenic painters, carpenters, greens",
         "set construction, set dressing, graphic design, sign writers, Décors (french), assistant set decorator",
         "production buyer, set decoration buyer, set dressing buyer, prop buyers",
-        "sculptors making set objects or decor, 'factices'"
+        "sculptors making set objects or decor, factices, storyboard artists working for live-action",
+        "swing gang, laborers",
+        "Translite Photography",
       ],
       "exclude": [
         "primary production designer (→ 'Production Designers')",
@@ -611,10 +624,10 @@ role_group: Choose only from the following predefined categories based on IMDb's
       "description": "All editing/post roles not covered by main editor, color, VFX, or sound.",
       "include": [
         "assistant editors, additional editors (support roles), on-line editors",
-        "negative cutter, dailies operator, post-production coordinator",
+        "negative cutter, dailies operator, post-production coordinator, post production PA",
         "editorial assistants, post-production assistants when editorial-focused",
         "video mastering, VOD mastering, data I/O, conforming when under editorial",
-        "head of post-production",
+        "head of post-production, Rippeur, Télécinéma",
         "subtitle creation and timing when clearly editorial/post",
         "in francais: assistant monteur, monteur additionnel, monteur en ligne, traitement numérique, responsable de l'argentique, Numérisation et conformation etc"
       ],
@@ -622,7 +635,6 @@ role_group: Choose only from the following predefined categories based on IMDb's
         "sound editing (→ 'Sound Department')",
         "VFX editing (→ 'Visual Effects')",
         "commissioning editors / series editors as producing roles (→ 'Producers')",
-        "post-production supervisors (→ 'Production Managers')",
         "administrative/managerial roles in external post houses like 'Technical Director' (→ 'Additional Crew')"
       ]
     }},
@@ -672,7 +684,7 @@ role_group: Choose only from the following predefined categories based on IMDb's
     "Publicity": {{
       "description": "Public image, press, and media relations roles.",
       "include": [
-        "publicist, unit publicist",
+        "publicist, unit publicist, Campaign Coordinator",
         "public relations specialist, PR coordinator"
       ],
       "exclude": [
@@ -711,7 +723,7 @@ role_group: Choose only from the following predefined categories based on IMDb's
     }},
     
     "Property Department": {{
-        "description": "Responsible for all movable objects handled by actors or used as set dressing. Sources, creates, maintains, and manages props that support storytelling.",
+        "description": "Responsible for all movable objects handled by actors or used as set dressing. Sources, creates, maintains, and manages props that support storytelling. DO NOT INSERT HERE buyers,drivers and store related roles.",
         "include": [
             "armorer, weapons master",
             "property master, assistant property master",
@@ -725,7 +737,8 @@ role_group: Choose only from the following predefined categories based on IMDb's
             "model maker if credited under SFX/VFX departments (→ stay in SFX/VFX)",
             "production buyer (→ Art Department)",
             "props driver (→ Transportation Department)",
-            "set decoration buyer, set dressing buyer (→ Art Department)"
+            "set decoration buyer, set dressing buyer (→ Art Department)",
+            "storeman and assistants (→ Art Department)" 
         ]
     }},
 
@@ -798,13 +811,13 @@ role_group: Choose only from the following predefined categories based on IMDb's
       "description": "All identifiable crew not fitting any specific category above.",
       "include": [
         "facilities, people external to the production of the movie"
-        "sales roles and distributors as individuals (e.g., 'sales representative', 'distribution executive')",
         "stand-ins and photo doubles (e.g. 'stand-in', 'stand-in: [actor name]')",
-        "assistant stage managers, floor managers",
+        "administration for external companies (e.g. 'Amministratore per [Company]')",
+        "assistant stage managers (ASM), floor managers",
         "assistants to unidentified people or departments, personal assistants",
         "translators, dialect coaches, animal trainers, religious advisors, historical consultants",
-        "interns and stagiaires not clearly assigned to a specific department (try to infer department if possible)",
-        "individuals working for external companies in non-producer roles (e.g. 'Produzione [Company]' named individuals who are not producers)"
+        "Always interns, stagisti and stagiaires go here unless it's very clear they are part of a specific department, such as 'sound intern' or 'production intern' etc. etc.",
+        "individuals working for external companies in non-producer roles (e.g. 'Produzione [Company]' named individuals who are not producers)",
       ]
     }}
   }},
@@ -861,7 +874,7 @@ role_group: Choose only from the following predefined categories based on IMDb's
       "Singular Entities: Only one name per JSON object. If multiple names are listed on one line, create separate objects.",
       "Song Titles: Do not extract song/track titles as entities. Extract only composers and performers.",
       "Context Inference: Consecutive names under the same heading share the same role_group. If no role is visible, infer from previous frame.",
-      "Dual Roles: If a name has two distinct roles (e.g., 'Production Executive' and 'Construction Coordinator'), create TWO separate entries with appropriate groups."
+      "Dual Roles: If a name has two distinct roles (e.g., 'Production Executive and Construction Coordinator'; or 'Scenografia e Costumi'; or 'PA/Continuity'), create TWO separate entries with appropriate groups."
     ],
     "people_vs_companies_strict": [
       "Identification: If a name refers to a corporate entity (contains 's.r.l.', 'Inc.', 'GmbH', 'Studios' or acts as a brand), set 'is_person': false.",
@@ -877,12 +890,13 @@ role_group: Choose only from the following predefined categories based on IMDb's
     "role_group_logic_and_edge_cases": [
       "Songs vs Score: 'Soundtrack' is for ALL people working on songs. 'Music Department'/'Composers' is ONLY for the film's score/crew.",
       "Department Context: 'Executive Producer', 'Coordinator', 'Project Manager' listed under a specific Dept (e.g., 'Visual Effects') go to THAT Department, not 'Producers'.",
-      "Interns: Interns under a specific department go to that department (e.g., Editorial Intern -> Editorial Department), not Additional Crew.",
       "Production Managers (IMDb Rule): Only HEADS (UPM, Supervisor, Line Producer) go here. Coordinators/Assistants go to 'Production Department'.",
       "Aiuto Attrezzisti: Usually 'Camera and Electrical', but 'Art Department' if tied to props/prep.",
       "Helpers/Refuerzos/Peones: Subheadings like 'Producción' under a 'Helpers' block = 'Production Department' (assistants); subheadings like "Dirección" = 'Second Unit Directors or Assistant Directors' etc. etc..",
       "VFX Context: Subheadings like 'Producción' under 'Title Design' or 'VFX' blocks = 'Visual Effects' (digital production).",
       "Unknowns: If a role cannot be categorized or is doubtful, set 'role_group': 'Unknown' for manual review."
+      "Prosthetics and dental prosthetics can go to 'Makeup Department' or 'Special Effects' depending on context. Try to understand if it's just makeup-related or is a creative special effect prosthetic."
+      "You can find the text 'Cast' in frames related to dubbing, usually containing also strings like 'Edizione/Versione [nazione]' or 'International Dubbing' etc. etc. In this case, those go to 'Voice Actors - Dubbing' and NOT to Cast." 
     ],
     "previous_credits_handling": [
       "READ-ONLY: Treat 'previous_credits_json' as context only. NEVER fix or change it.",
@@ -946,9 +960,9 @@ class AzureConfig:
     GPT4_ENDPOINT_ENV: str = 'GPT_4_1_AZURE_OPENAI_ENDPOINT'
     GPT4_DEPLOYMENT_NAME_ENV: str = 'GPT_4_1_AZURE_OPENAI_DEPLOYMENT_NAME'
     
-    # GPT 5.1
-    GPT5_ENDPOINT_ENV: str = 'GPT_5_1_AZURE_OPENAI_ENDPOINT'
-    GPT5_DEPLOYMENT_NAME_ENV: str = 'GPT_5_1_AZURE_OPENAI_DEPLOYMENT_NAME'
+    # GPT 5
+    GPT5_ENDPOINT_ENV: str = 'GPT_5_AZURE_OPENAI_ENDPOINT'
+    GPT5_DEPLOYMENT_NAME_ENV: str = 'GPT_5_AZURE_OPENAI_DEPLOYMENT_NAME'
     
     # Legacy/Fallback (if needed)
     ENDPOINT_ENV: str = 'AZURE_OPENAI_ENDPOINT'

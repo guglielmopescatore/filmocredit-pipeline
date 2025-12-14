@@ -28,11 +28,12 @@ except ImportError:
     logging.warning("Anthropic library not found. Claude VLM processing will not be available.")
 
 from scripts_v3 import config, utils
-from scripts_v3.role_detail_mapping import apply_role_corrections_to_credits
+# Note: Role corrections are now applied after DB save via utils.apply_role_group_corrections_to_database()
 
 # Exponential backoff settings for Azure API retries
+# 429 (NoCapacity) errors require longer waits during peak load
 MAX_API_RETRIES = 3
-BACKOFF_FACTOR = 2.0
+BACKOFF_FACTOR = 4.0
 
 
 @dataclass
@@ -256,7 +257,7 @@ def run_azure_vlm_ocr_on_frames(
         gpt4_endpoint = os.getenv(config.AzureConfig.GPT4_ENDPOINT_ENV) or os.getenv(config.AzureConfig.ENDPOINT_ENV)
         gpt4_deployment = os.getenv(config.AzureConfig.GPT4_DEPLOYMENT_NAME_ENV) or os.getenv(config.AzureConfig.DEPLOYMENT_NAME_ENV)
         
-        # GPT 5.1
+        # GPT 5
         gpt5_endpoint = os.getenv(config.AzureConfig.GPT5_ENDPOINT_ENV)
         gpt5_deployment = os.getenv(config.AzureConfig.GPT5_DEPLOYMENT_NAME_ENV)
         
@@ -269,7 +270,7 @@ def run_azure_vlm_ocr_on_frames(
         logging.debug(f"[{episode_id}] VLM Availability Check:")
         logging.debug(f"  Claude: {claude_available} (Key: {bool(claude_api_key)}, Endpoint: {bool(claude_endpoint)}, Model: {bool(claude_model)}, Lib: {bool(AnthropicFoundry)})")
         logging.debug(f"  GPT-4.1: {gpt4_available} (Key: {bool(azure_api_key)}, Endpoint: {bool(gpt4_endpoint)}, Model: {bool(gpt4_deployment)}, Lib: {bool(AzureOpenAI)})")
-        logging.debug(f"  GPT-5.1: {gpt5_available} (Key: {bool(azure_api_key)}, Endpoint: {bool(gpt5_endpoint)}, Model: {bool(gpt5_deployment)}, Lib: {bool(OpenAI)})")
+        logging.debug(f"  GPT_5: {gpt5_available} (Key: {bool(azure_api_key)}, Endpoint: {bool(gpt5_endpoint)}, Model: {bool(gpt5_deployment)}, Lib: {bool(OpenAI)})")
         
         # Select provider based on preference
         selected_provider = None
@@ -282,10 +283,10 @@ def run_azure_vlm_ocr_on_frames(
             if not gpt5_available:
                 missing = []
                 if not azure_api_key: missing.append("AZURE_OPENAI_KEY")
-                if not gpt5_endpoint: missing.append("GPT_5_1_AZURE_OPENAI_ENDPOINT")
-                if not gpt5_deployment: missing.append("GPT_5_1_AZURE_OPENAI_DEPLOYMENT_NAME")
+                if not gpt5_endpoint: missing.append("GPT_5_AZURE_OPENAI_ENDPOINT")
+                if not gpt5_deployment: missing.append("GPT_5_AZURE_OPENAI_DEPLOYMENT_NAME")
                 if not OpenAI: missing.append("openai library (OpenAI class)")
-                raise ValueError(f"Azure GPT-5.1 provider requested but credentials not available or library not installed. Missing: {', '.join(missing)}")
+                raise ValueError(f"Azure GPT_5 provider requested but credentials not available or library not installed. Missing: {', '.join(missing)}")
             selected_provider = "azure_gpt5"
         elif vlm_provider == "azure_gpt4":
             if not gpt4_available:
@@ -297,7 +298,7 @@ def run_azure_vlm_ocr_on_frames(
              elif gpt4_available:
                  selected_provider = "azure_gpt4"
              else:
-                 raise ValueError("Azure provider requested but neither GPT-5.1 nor GPT-4.1 credentials available")
+                 raise ValueError("Azure provider requested but neither GPT_5 nor GPT-4.1 credentials available")
         else:  # auto
             if claude_available:
                 selected_provider = "claude"
@@ -316,8 +317,8 @@ def run_azure_vlm_ocr_on_frames(
             vlm_provider = "claude"
             
         elif selected_provider == "azure_gpt5":
-            logging.info(f"[{episode_id}] Using Azure GPT-5.1 model: {gpt5_deployment}")
-            # GPT-5.1 uses OpenAI client with base_url
+            logging.info(f"[{episode_id}] Using Azure GPT_5 model: {gpt5_deployment}")
+            # GPT_5 uses OpenAI client with base_url
             client = OpenAI(api_key=azure_api_key, base_url=gpt5_endpoint)
             deployment_name = gpt5_deployment
             vlm_provider = "azure_gpt5"
@@ -612,7 +613,7 @@ def run_azure_vlm_ocr_on_frames(
                                 "messages": messages
                             }
                             
-                            # GPT-5.1 and GPT-4.1 (Preview) do not support max_tokens or temperature
+                            # GPT_5 and GPT-4.1 (Preview) do not support max_tokens or temperature
                             if vlm_provider not in ["azure_gpt5", "azure_gpt4"]:
                                 completion_kwargs["max_tokens"] = max_new_tokens
                                 completion_kwargs["temperature"] = 0.0
@@ -623,7 +624,11 @@ def run_azure_vlm_ocr_on_frames(
                             # Log cache usage metrics if available (Azure OpenAI Prompt Caching)
                             if hasattr(response, 'usage'):
                                 usage = response.usage
-                                cached_tokens = getattr(usage, 'prompt_tokens_details', {}).get('cached_tokens', 0) if hasattr(usage, 'prompt_tokens_details') else 0
+                                cached_tokens = 0
+                                if hasattr(usage, 'prompt_tokens_details'):
+                                    details = usage.prompt_tokens_details
+                                    if hasattr(details, 'cached_tokens'):
+                                        cached_tokens = details.cached_tokens
                                 if cached_tokens > 0:
                                     logging.info(
                                         f"[{episode_id}] Frame {frame_idx} Azure cache: "
@@ -668,6 +673,9 @@ def run_azure_vlm_ocr_on_frames(
                 current_frame_parsed_credits = utils.parse_vlm_json(
                     cleaned_json_str, frame_data['filename'], name_key="name"
                 )
+
+                # Note: Role group corrections are applied AFTER saving to DB
+                # via apply_role_group_corrections_to_database() in utils.py
 
                 if current_frame_parsed_credits:
                     for credit_entry in current_frame_parsed_credits:

@@ -444,7 +444,7 @@ if st.session_state.current_tab == 0:
                 options=["auto", "claude", "azure_gpt5", "azure_gpt4"],
                 index=0,
                 key="vlm_provider_selection",
-                help="'auto' will use Claude if available, then GPT-5.1, then GPT-4.1"
+                help="'auto' will use Claude if available, then GPT-5, then GPT-4.1"
             )
         
         with col_vlm2:
@@ -452,20 +452,20 @@ if st.session_state.current_tab == 0:
                 st.info("🤖 Using Claude (Anthropic Foundry)")
                 st.caption("Set CLAUDE_* variables in .env")
             elif vlm_provider == "azure_gpt5":
-                st.info("🚀 Using Azure GPT-5.1 (Preview)")
-                st.caption("Set GPT_5_1_AZURE_OPENAI_* variables in .env")
+                st.info("🚀 Using Azure GPT-5 (Preview)")
+                st.caption("Set GPT_5_AZURE_OPENAI_* variables in .env")
             elif vlm_provider == "azure_gpt4":
                 st.info("☁️ Using Azure GPT-4.1")
                 st.caption("Set GPT_4_1_AZURE_OPENAI_* variables in .env")
             else:
-                st.info("🔄 Auto-detect: Claude → GPT-5.1 → GPT-4.1")
+                st.info("🔄 Auto-detect: Claude → GPT-5 → GPT-4.1")
                 st.caption("Will use first available provider")
         
         st.divider()
         st.write("**Visual Context**")
         include_previous_frame = st.checkbox(
             "Include previous frame as visual context",
-            value=True,
+            value=False,
             key="include_previous_frame_context",
             help="When enabled, each frame will see the previous frame image as visual context alongside the JSON credits list"
         )
@@ -477,16 +477,16 @@ if st.session_state.current_tab == 0:
         st.divider()
         st.write("**Role Group Hard Mapping**")
         enable_role_correction = st.checkbox(
-            "Enable automatic role_group correction based on role_detail keywords",
+            "Enable automatic role_group correction based on role_detail keywords (Coming Soon - Not Yet Available)",
             value=False,
             key="enable_role_correction",
-            help="When enabled, corrects LLM mistakes by matching role_detail patterns (e.g., 'regista' → Directors, 'montaggio' → Editors)"
+            help="When enabled, corrects LLM mistakes by matching role_detail patterns (e.g., 'regista' → Directors, 'montaggio' → Editors)",
+            disabled=True
         )
         if enable_role_correction:
             st.success("✅ Role corrections will be applied after VLM processing")
         else:
-                st.info("🔄 Auto-detect: Claude → GPT-5.1 → GPT-4.1")
-                st.caption("Will use best available provider based on .env credentials")
+            st.info("🔜 Role group mapping corrections will be available in a future update")
     
     # Step 4 Settings - Fuzzy Matching Configuration
     with st.expander("⚙️ Step 4 Settings - IMDB Fuzzy Matching", expanded=False):
