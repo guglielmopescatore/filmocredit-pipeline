@@ -1327,9 +1327,152 @@ if st.session_state.current_tab == 0:
             st.info("Step 4 IMDB validation finished for selected videos.")
 
     if run_all_steps_button:
-        st.warning(
-            "RUN ALL STEPS functionality needs to be implemented by calling Step 1, 2, and 3 in sequence for each selected video, with appropriate checks for success before proceeding to the next step. This is a complex workflow to manage in Streamlit's execution model and is left as a manual process for now (run steps individually)."
-        )
+        st.info("🚀 Running full pipeline for all selected videos...")
+        
+        if not selected_videos_str_paths:
+            st.error("❌ No videos selected. Please select at least one video.")
+        else:
+            import time
+            start_time = time.time()
+            
+            progress_bar = st.progress(0)
+            status_text = st.empty()
+            
+            total_steps = len(selected_videos_str_paths) * 4  # 4 steps per video
+            current_step = 0
+            
+            all_success = True
+            
+            for video_path_str in selected_videos_str_paths:
+                video_file = Path(video_path_str)
+                episode_id_base = video_file.stem
+                status_text.text(f"Processing: {episode_id_base}")
+                
+                try:
+                    # STEP 1: Scene Detection
+                    status_text.text(f"📹 Step 1/4: Scene detection for {episode_id_base}...")
+                    logging.info(f"[FULL PIPELINE] Starting Step 1 for {episode_id_base}")
+                    
+                    segment_mode = st.session_state.get('segment_mode', 'time_based')
+                    initial_scenes_count = st.session_state.get('initial_scenes_count', 3)
+                    final_scenes_count = st.session_state.get('final_scenes_count', 3)
+                    
+                    success_s1, msg_s1 = scene_detection.detect_and_save_scenes(
+                        video_file, 
+                        mode=segment_mode,
+                        initial_scenes=initial_scenes_count,
+                        final_scenes=final_scenes_count
+                    )
+                    
+                    current_step += 1
+                    progress_bar.progress(current_step / total_steps)
+                    
+                    if not success_s1:
+                        st.error(f"❌ Step 1 failed for {episode_id_base}: {msg_s1}")
+                        all_success = False
+                        continue
+                    
+                    logging.info(f"[FULL PIPELINE] Step 1 completed for {episode_id_base}")
+                    
+                    # STEP 2: Frame Analysis
+                    status_text.text(f"🖼️ Step 2/4: Frame analysis for {episode_id_base}...")
+                    logging.info(f"[FULL PIPELINE] Starting Step 2 for {episode_id_base}")
+                    
+                    ocr_reader = get_ocr_reader()
+                    ocr_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
+                    
+                    success_s2, msg_s2 = frame_analysis.analyze_episode_frames(
+                        episode_id_base,
+                        ocr_reader=ocr_reader,
+                        ocr_engine_type=ocr_engine,
+                        user_stopwords=utils.load_user_stopwords()
+                    )
+                    
+                    current_step += 1
+                    progress_bar.progress(current_step / total_steps)
+                    
+                    if not success_s2:
+                        st.error(f"❌ Step 2 failed for {episode_id_base}: {msg_s2}")
+                        all_success = False
+                        continue
+                    
+                    logging.info(f"[FULL PIPELINE] Step 2 completed for {episode_id_base}")
+                    
+                    # STEP 3: VLM Processing
+                    status_text.text(f"🤖 Step 3/4: VLM extraction for {episode_id_base}...")
+                    logging.info(f"[FULL PIPELINE] Starting Step 3 for {episode_id_base}")
+                    
+                    vlm_prov = st.session_state.get('vlm_provider_selection', 'auto')
+                    include_prev_frame = st.session_state.get('include_previous_frame_context', False)
+                    
+                    success_s3, msg_s3 = vlm_processing.run_azure_vlm_ocr_on_frames(
+                        episode_id_base,
+                        vlm_provider=vlm_prov,
+                        include_previous_frame_context=include_prev_frame
+                    )
+                    
+                    current_step += 1
+                    progress_bar.progress(current_step / total_steps)
+                    
+                    if not success_s3:
+                        st.error(f"❌ Step 3 failed for {episode_id_base}: {msg_s3}")
+                        all_success = False
+                        continue
+                    
+                    logging.info(f"[FULL PIPELINE] Step 3 completed for {episode_id_base}")
+                    
+                    # STEP 4: IMDB Validation
+                    status_text.text(f"🔍 Step 4/4: IMDB validation for {episode_id_base}...")
+                    logging.info(f"[FULL PIPELINE] Starting Step 4 for {episode_id_base}")
+                    
+                    from scripts_v3 import imdb_batch_validation
+                    
+                    fuzzy_enabled_val = st.session_state.get('fuzzy_matching_enabled', True)
+                    fuzzy_threshold_val = st.session_state.get('fuzzy_matching_threshold', 90.0)
+                    
+                    disable_fuzzy = (fuzzy_threshold_val >= 100) or (not fuzzy_enabled_val)
+                    
+                    success_s4, msg_s4 = imdb_batch_validation.process_episode(
+                        episode_id_base,
+                        enable_fuzzy=not disable_fuzzy,
+                        fuzzy_threshold=fuzzy_threshold_val
+                    )
+                    
+                    current_step += 1
+                    progress_bar.progress(current_step / total_steps)
+                    
+                    if not success_s4:
+                        st.warning(f"⚠️ Step 4 completed with issues for {episode_id_base}: {msg_s4}")
+                    else:
+                        logging.info(f"[FULL PIPELINE] Step 4 completed for {episode_id_base}")
+                        st.success(f"✅ Full pipeline completed for {episode_id_base}")
+                    
+                except Exception as e:
+                    st.error(f"❌ Exception during full pipeline for {episode_id_base}: {e}")
+                    logging.error(f"[FULL PIPELINE] Exception for {episode_id_base}: {e}", exc_info=True)
+                    all_success = False
+                    current_step += (4 - (current_step % 4))  # Skip remaining steps for this video
+                    progress_bar.progress(current_step / total_steps)
+                    continue
+            
+            progress_bar.progress(1.0)
+            
+            end_time = time.time()
+            total_duration = end_time - start_time
+            hours = int(total_duration // 3600)
+            minutes = int((total_duration % 3600) // 60)
+            seconds = int(total_duration % 60)
+            
+            duration_str = f"{hours}h {minutes}m {seconds}s" if hours > 0 else f"{minutes}m {seconds}s"
+            
+            if all_success:
+                status_text.text(f"✅ Full pipeline completed successfully in {duration_str}!")
+                st.success(f"✅ Processed {len(selected_videos_str_paths)} video(s) through all 4 steps in {duration_str}")
+                logging.info(f"[FULL PIPELINE] Completed successfully for {len(selected_videos_str_paths)} video(s) in {total_duration:.2f} seconds ({duration_str})")
+            else:
+                status_text.text(f"⚠️ Pipeline completed with some errors in {duration_str}")
+                st.warning(f"⚠️ Some videos encountered errors. Total time: {duration_str}. Check logs above for details.")
+                logging.info(f"[FULL PIPELINE] Completed with errors for {len(selected_videos_str_paths)} video(s) in {total_duration:.2f} seconds ({duration_str})")
 
 elif st.session_state.current_tab == 1:
     st.header("✏️ Review & Edit Credits")
