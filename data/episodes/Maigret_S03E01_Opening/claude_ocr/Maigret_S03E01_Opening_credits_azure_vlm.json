@@ -1,0 +1,514 @@
+[
+  {
+    "role_detail": "présente",
+    "name": "MESA PRODUCTIONS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_000_static_000_num00000_sim0.jpg"
+    ],
+    "original_frame_number": [
+      0
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "une co-production",
+    "name": "TELEVISION SUISSE ROMANDE",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_001_static_000_num00150_sim100.jpg"
+    ],
+    "original_frame_number": [
+      150
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "une co-production",
+    "name": "RTBF",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_001_static_000_num00150_sim100.jpg",
+      "scene_015_static_015_num02179_sim99.jpg"
+    ],
+    "original_frame_number": [
+      150,
+      2179
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "une co-production",
+    "name": "TELEVISION BELGE",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_001_static_000_num00150_sim100.jpg"
+    ],
+    "original_frame_number": [
+      150
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "avec la participation de",
+    "name": "ANTENNE 2",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_001_static_000_num00150_sim100.jpg"
+    ],
+    "original_frame_number": [
+      150
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "avec la participation de",
+    "name": "LA CINQ",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_001_static_000_num00150_sim100.jpg"
+    ],
+    "original_frame_number": [
+      150
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Bruno Cremer",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_008_static_001_num00848_sim100.jpg"
+    ],
+    "original_frame_number": [
+      848
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Maigret",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_013_static_002_num01285_sim61.jpg"
+    ],
+    "original_frame_number": [
+      1285
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Un film de",
+    "name": "Claude Goretta",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_015_static_009_num01819_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1819
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "DUNE",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_015_static_015_num02179_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2179
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "E.C. Téléviion Paris",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_015_static_015_num02179_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2179
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "FRANCE 2",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_015_static_015_num02179_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2179
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Télévision Suisse Romande",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_015_static_015_num02179_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2179
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Avec",
+    "name": "Jérôme Deschamps",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_023_num02509_sim40.jpg"
+    ],
+    "original_frame_number": [
+      2509
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Michel Caccia",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_025_num02644_sim79.jpg"
+    ],
+    "original_frame_number": [
+      2644
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Maryvonne Schiltz",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_025_num02644_sim79.jpg"
+    ],
+    "original_frame_number": [
+      2644
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Marilù Marini",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_016_static_001_num02854_sim100.jpg"
+    ],
+    "original_frame_number": [
+      2854
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Eric Desmarestz",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_016_static_001_num02854_sim100.jpg"
+    ],
+    "original_frame_number": [
+      2854
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Jean-Claude Frissung",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_016_static_004_num03019_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3019
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Jean-Pierre Gos",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_016_static_004_num03019_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3019
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Terence Ford",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_016_static_010_num03214_sim81.jpg"
+    ],
+    "original_frame_number": [
+      3214
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Veronike Ryke",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_016_static_010_num03214_sim81.jpg"
+    ],
+    "original_frame_number": [
+      3214
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Charlotte Maury",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_017_static_001_num03489_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3489
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Jacques Ciron",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_017_static_001_num03489_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3489
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Montage",
+    "name": "Eliane GUIGNET",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_020_scroll_002_num04105_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4105
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Décors",
+    "name": "Serge ETTER",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_020_scroll_003_num04255_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4255
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Décors",
+    "name": "Laurence BRENGUER",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_020_scroll_003_num04255_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4255
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Adaptation et Dialogues",
+    "name": "Santiago AMIGORENA",
+    "role_group": "Dubbing",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing",
+    "source_frame": [
+      "scene_021_static_002_num04404_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4404
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Adaptation et Dialogues",
+    "name": "Claude GORETTA",
+    "role_group": "Dubbing",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing",
+    "source_frame": [
+      "scene_021_static_002_num04404_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4404
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "D'après le roman de",
+    "name": "Georges Simenon",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_021_static_004_num04539_sim19.jpg"
+    ],
+    "original_frame_number": [
+      4539
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Producteur Exécutif",
+    "name": "Alain BLOCH",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_023_static_000_num05061_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5061
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Producteurs délégués",
+    "name": "Eve VERCEL",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_024_static_001_num05211_sim12.jpg"
+    ],
+    "original_frame_number": [
+      5211
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Producteurs délégués",
+    "name": "Robert NADOR",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_024_static_001_num05211_sim12.jpg"
+    ],
+    "original_frame_number": [
+      5211
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Producteurs délégués",
+    "name": "Steve HAWES",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_024_static_001_num05211_sim12.jpg"
+    ],
+    "original_frame_number": [
+      5211
+    ],
+    "scene_position": "second_half"
+  }
+]

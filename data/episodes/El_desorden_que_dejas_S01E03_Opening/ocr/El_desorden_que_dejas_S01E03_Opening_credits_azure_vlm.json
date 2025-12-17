@@ -1,0 +1,259 @@
+[
+  {
+    "role_detail": null,
+    "name": "BÁRBARA LENNIE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_048_static_000_num06475_sim21.jpg"
+    ],
+    "original_frame_number": [
+      6475
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "TAMAR NOVAS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_048_static_004_num06655_sim85.jpg"
+    ],
+    "original_frame_number": [
+      6655
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "ARÓN PIPER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_048_static_004_num06655_sim85.jpg"
+    ],
+    "original_frame_number": [
+      6655
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "ROBERTO ENRÍQUEZ",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_048_static_005_num06715_sim59.jpg"
+    ],
+    "original_frame_number": [
+      6715
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "ROQUE RUIZ",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_049_static_000_num06763_sim31.jpg"
+    ],
+    "original_frame_number": [
+      6763
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "ISABEL GARRIDO",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_049_static_000_num06763_sim31.jpg"
+    ],
+    "original_frame_number": [
+      6763
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "FEDE PEREZ",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_049_static_002_num06928_sim99.jpg"
+    ],
+    "original_frame_number": [
+      6928
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "ALFONSO AGRA",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_049_static_002_num06928_sim99.jpg"
+    ],
+    "original_frame_number": [
+      6928
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "SUSANA DANS",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_049_static_002_num06928_sim99.jpg"
+    ],
+    "original_frame_number": [
+      6928
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Historia Original",
+    "name": "LUCIO GODOY",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_049_static_003_num07018_sim29.jpg"
+    ],
+    "original_frame_number": [
+      7018
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Historia Original",
+    "name": "RICARDO CURTO",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_049_static_003_num07018_sim29.jpg"
+    ],
+    "original_frame_number": [
+      7018
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Productores Ejecutivos",
+    "name": "EMMA LUSTRES",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_050_static_000_num07118_sim40.jpg"
+    ],
+    "original_frame_number": [
+      7118
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Productores Ejecutivos",
+    "name": "CARLOS MONTERO",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_050_static_000_num07118_sim40.jpg"
+    ],
+    "original_frame_number": [
+      7118
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Productores Ejecutivos",
+    "name": "BORJA PENA",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_050_static_000_num07118_sim40.jpg"
+    ],
+    "original_frame_number": [
+      7118
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Basada en el libro \"EL DESORDEN QUE DEJAS\" de",
+    "name": "CARLOS MONTERO",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_050_static_001_num07373_sim50.jpg"
+    ],
+    "original_frame_number": [
+      7373
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Escrito por",
+    "name": "Javier Holgado Vicente",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_053_static_001_num08015_sim41.jpg"
+    ],
+    "original_frame_number": [
+      8015
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Dirigido por",
+    "name": "SÍLVIA QUER",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_055_static_001_num08234_sim94.jpg"
+    ],
+    "original_frame_number": [
+      8234
+    ],
+    "scene_position": "second_half"
+  }
+]

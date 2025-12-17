@@ -1,0 +1,341 @@
+{
+    "episode_id": "8_e_mezzo",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 1,
+            "original_start_frame": 68,
+            "original_end_frame": 351,
+            "original_start_timecode": "00:00:02.836",
+            "original_end_timecode": "00:00:14.641",
+            "duration_frames": 283,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "CRITERION THE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 82,
+                    "ocr_text": "0",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 96,
+                    "ocr_text": "0",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 110,
+                    "ocr_text": "THE",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 124,
+                    "ocr_text": "CRITERION THE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_first_half_frame_124_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 351,
+            "original_end_frame": 1472,
+            "original_start_timecode": "00:00:14.641",
+            "original_end_timecode": "00:01:01.401",
+            "duration_frames": 1121,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "il film è stato restaurato da THE MEDIASET COLLECTION CINEMAFOREVER Dedicato a CARLO BERNASCONI"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 407,
+                    "ocr_text": "il film è stato restaurato da THE MEDIASET COLLECTION CINEMAFOREVER Dedicato a CARLO BERNASCONI",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_first_half_frame_407_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 3,
+            "original_start_frame": 1472,
+            "original_end_frame": 1674,
+            "original_start_timecode": "00:01:01.401",
+            "original_end_timecode": "00:01:09.827",
+            "duration_frames": 202,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "RIZZOLI FEDERICO FELLINI"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1482,
+                    "ocr_text": "RIZZOLI FEDERICO FELLINI",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_003_first_half_frame_1482_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 5,
+            "original_start_frame": 2069,
+            "original_end_frame": 2255,
+            "original_start_timecode": "00:01:26.303",
+            "original_end_timecode": "00:01:34.062",
+            "duration_frames": 186,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "IDEATO E DIRETTO DA FEDERICO FELLINI"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2078,
+                    "ocr_text": "IDEATO E DIRETTO DA FEDERICO FELLINI",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_005_first_half_frame_2078_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 6,
+            "original_start_frame": 2255,
+            "original_end_frame": 3140,
+            "original_start_timecode": "00:01:34.062",
+            "original_end_timecode": "00:02:10.977",
+            "duration_frames": 885,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "SOGGETTO FELLINI SCENEGGIATURA FEDERICO FELLINI OITTNL PINELLI ENNO"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2299,
+                    "ocr_text": "SOGGETTO FELLINI SCENEGGIATURA FEDERICO FELLINI OITTNL PINELLI ENNO",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_006_first_half_frame_2299_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 7,
+            "original_start_frame": 3140,
+            "original_end_frame": 4402,
+            "original_start_timecode": "00:02:10.977",
+            "original_end_timecode": "00:03:03.619",
+            "duration_frames": 1262,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "JEAN ROUGEUL MARIO PISU YVONNE CASADEI IAN DALLAS MINO DORO NADINE SANDERS GEORGIA SIMMONS HEDY VESSEL"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3203,
+                    "ocr_text": "JEAN ROUGEUL MARIO PISU YVONNE CASADEI IAN DALLAS MINO DORO NADINE SANDERS GEORGIA SIMMONS HEDY VESSEL",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_007_second_half_frame_3203_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 8,
+            "original_start_frame": 4402,
+            "original_end_frame": 4667,
+            "original_start_timecode": "00:03:03.619",
+            "original_end_timecode": "00:03:14.672",
+            "duration_frames": 265,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "COLLABORAZIONE ARTISTICA. ARREDAMENTO. BRUNELLO RONDI VITO ANZALONE ASS. COSTUMI. AIUTO REG.GUIDARINO GUIDI ORIETTA NASALLI ROCCA ASS. SCENOGRAFO ASSISTENTI. LUCIANO RICCERI GIULIO PARADISI OPERATORE FRANCESCO ALUIGI PASQUALE DE SANTIS CAPO TRUCCO. SEGR.ED.MIRELLA GAMACCHIO OTELLO FAVA (c.S.C.) PARRUCCHIERA. SEGR. DI PRODUZ. RENATA MAGNANTI ALBINO MORANDIN ANGELO IACONO CAPO SARTA. .CLARA POGGI FONICI MARIO FARAONI- ALBERTO BARTOLOMEI"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4415,
+                    "ocr_text": "COLLABORAZIONE ARTISTICA. ARREDAMENTO. BRUNELLO RONDI VITO ANZALONE ASS. COSTUMI. AIUTO REG.GUIDARINO GUIDI ORIETTA NASALLI ROCCA ASS. SCENOGRAFO ASSISTENTI. LUCIANO RICCERI GIULIO PARADISI OPERATORE FRANCESCO ALUIGI PASQUALE DE SANTIS CAPO TRUCCO. SEGR.ED.MIRELLA GAMACCHIO OTELLO FAVA (c.S.C.) PARRUCCHIERA. SEGR. DI PRODUZ. RENATA MAGNANTI ALBINO MORANDIN ANGELO IACONO CAPO SARTA. .CLARA POGGI FONICI MARIO FARAONI- ALBERTO BARTOLOMEI",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_008_second_half_frame_4415_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 9,
+            "original_start_frame": 4667,
+            "original_end_frame": 5230,
+            "original_start_timecode": "00:03:14.672",
+            "original_end_timecode": "00:03:38.157",
+            "duration_frames": 563,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "NEGATIVI DUPONT SVILUPPO E STAMPA ISTITUTO NAZIONALE E LUCE ENZO VERZINI TECNICO PRODUZIONE ESEGUITA NEGLI STABILIMENTI Titanus"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4695,
+                    "ocr_text": "NEGATIVI DUPONT SVILUPPO E STAMPA ISTITUTO NAZIONALE E LUCE ENZO VERZINI TECNICO PRODUZIONE ESEGUITA NEGLI STABILIMENTI Titanus",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_009_second_half_frame_4695_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 68,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:02.836",
+            "duration_frames": 68,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 68,
+            "end_frame": 351,
+            "start_timecode": "00:00:02.836",
+            "end_timecode": "00:00:14.641",
+            "duration_frames": 283,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 351,
+            "end_frame": 1472,
+            "start_timecode": "00:00:14.641",
+            "end_timecode": "00:01:01.401",
+            "duration_frames": 1121,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 1472,
+            "end_frame": 1674,
+            "start_timecode": "00:01:01.401",
+            "end_timecode": "00:01:09.827",
+            "duration_frames": 202,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 1674,
+            "end_frame": 2069,
+            "start_timecode": "00:01:09.827",
+            "end_timecode": "00:01:26.303",
+            "duration_frames": 395,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 2069,
+            "end_frame": 2255,
+            "start_timecode": "00:01:26.303",
+            "end_timecode": "00:01:34.062",
+            "duration_frames": 186,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 6,
+            "start_frame": 2255,
+            "end_frame": 3140,
+            "start_timecode": "00:01:34.062",
+            "end_timecode": "00:02:10.977",
+            "duration_frames": 885,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 7,
+            "start_frame": 3140,
+            "end_frame": 4402,
+            "start_timecode": "00:02:10.977",
+            "end_timecode": "00:03:03.619",
+            "duration_frames": 1262,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 8,
+            "start_frame": 4402,
+            "end_frame": 4667,
+            "start_timecode": "00:03:03.619",
+            "end_timecode": "00:03:14.672",
+            "duration_frames": 265,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 9,
+            "start_frame": 4667,
+            "end_frame": 5230,
+            "start_timecode": "00:03:14.672",
+            "end_timecode": "00:03:38.157",
+            "duration_frames": 563,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:25:46.607979"
+}

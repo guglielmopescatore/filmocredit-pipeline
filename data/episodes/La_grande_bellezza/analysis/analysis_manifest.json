@@ -1,0 +1,2838 @@
+{
+  "scenes": {
+    "scene_5": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_005_static_000_num00315_sim0.jpg",
+          "frame_num": 315,
+          "ocr_text": "MEDUSA",
+          "ocr_bbox": [
+            241,
+            292,
+            1022,
+            452
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_005_static_001_num00339_sim67.jpg",
+          "frame_num": 339,
+          "ocr_text": "MEDUSA MEDIASET GROUP",
+          "ocr_bbox": [
+            371,
+            287,
+            896,
+            456
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_005_static_002_num00387_sim100.jpg",
+          "frame_num": 387,
+          "ocr_text": "MEDUSA MEDIASET GROUP",
+          "ocr_bbox": [
+            407,
+            282,
+            862,
+            426
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_005_static_003_num00423_sim100.jpg",
+          "frame_num": 423,
+          "ocr_text": "MEDUSA MEDIASET GROUP",
+          "ocr_bbox": [
+            416,
+            278,
+            850,
+            417
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.11827680468559265,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10361740738153458,
+      "roi_percentile_flow": 0.11827680468559265,
+      "scroll_direction": null
+    },
+    "scene_7": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_007_static_000_num00752_sim22.jpg",
+          "frame_num": 752,
+          "ocr_text": "*indigo",
+          "ocr_bbox": [
+            146,
+            154,
+            845,
+            387
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_007_static_001_num00764_sim75.jpg",
+          "frame_num": 764,
+          "ocr_text": "*indigofilm",
+          "ocr_bbox": [
+            164,
+            169,
+            1088,
+            373
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.11364978551864624,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10613607242703438,
+      "roi_percentile_flow": 0.11364978551864624,
+      "scroll_direction": null
+    },
+    "scene_9": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.9292471408843994,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.1582393646240234,
+      "roi_percentile_flow": 0.9292471408843994,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 527,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_10": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_010_static_000_num00945_sim53.jpg",
+          "frame_num": 945,
+          "ocr_text": "Films",
+          "ocr_bbox": [
+            772,
+            194,
+            1103,
+            311
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_010_static_001_num00969_sim59.jpg",
+          "frame_num": 969,
+          "ocr_text": "B babe films",
+          "ocr_bbox": [
+            208,
+            160,
+            1076,
+            349
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_010_static_002_num01005_sim88.jpg",
+          "frame_num": 1005,
+          "ocr_text": "88 babe films",
+          "ocr_bbox": [
+            204,
+            149,
+            1068,
+            341
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_010_static_003_num01053_sim26.jpg",
+          "frame_num": 1053,
+          "ocr_text": "Banca Popolare di Vicenza",
+          "ocr_bbox": [
+            462,
+            255,
+            815,
+            343
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_010_static_004_num01185_sim22.jpg",
+          "frame_num": 1185,
+          "ocr_text": "Viaggiare \u00e8 proprio utile, fa lavorare l'immaginazione Tutto il resto \u00e8 delusione e fatica. il viaggio che ci \u00e8 dato \u00e8 interamente immaginario. Ecco la sua forza.",
+          "ocr_bbox": [
+            321,
+            88,
+            807,
+            197
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_14": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_014_static_000_num01442_sim17.jpg",
+          "frame_num": 1442,
+          "ocr_text": "La Grande Bellezza",
+          "ocr_bbox": [
+            314,
+            228,
+            974,
+            306
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_014_static_001_num01982_sim38.jpg",
+          "frame_num": 1982,
+          "ocr_text": "e FRANCE 2 CIN\u00c9MA",
+          "ocr_bbox": [
+            495,
+            317,
+            785,
+            354
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.1041120383888483,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.12060585618019104,
+      "roi_percentile_flow": 0.1041120383888483,
+      "scroll_direction": null
+    },
+    "scene_15": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_000_num02094_sim23.jpg",
+          "frame_num": 2094,
+          "ocr_text": "una coproduzione Italia -Francla sviluppata con il sosfegno del Programma MEDIA della Comunita Europea",
+          "ocr_bbox": [
+            131,
+            378,
+            510,
+            496
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_001_num02166_sim42.jpg",
+          "frame_num": 2166,
+          "ocr_text": "in associazione con BANCA POPOLARE DI VICENZA ai sensi delle norme sul Tax Credit",
+          "ocr_bbox": [
+            436,
+            80,
+            780,
+            167
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_002_num02226_sim33.jpg",
+          "frame_num": 2226,
+          "ocr_text": "con il supporto di EURIMAGES",
+          "ocr_bbox": [
+            366,
+            422,
+            517,
+            476
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_003_num02298_sim34.jpg",
+          "frame_num": 2298,
+          "ocr_text": "con il conibutoCel Ministero per iBeni Me AttSita Culturali Direzione Generale per il Cinema",
+          "ocr_bbox": [
+            164,
+            420,
+            445,
+            497
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_004_num02310_sim86.jpg",
+          "frame_num": 2310,
+          "ocr_text": "con il contributo del Ministero per i Beni  le Attivit\u00e0 Culturali Direzione'Generale per il Cinema",
+          "ocr_bbox": [
+            162,
+            419,
+            446,
+            499
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_005_num02322_sim99.jpg",
+          "frame_num": 2322,
+          "ocr_text": "con il contributo del Ministero per i Beni & le Attivit\u00e0 Culturali Direzione Generale per il Cinema",
+          "ocr_bbox": [
+            162,
+            419,
+            446,
+            498
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_006_num02346_sim99.jpg",
+          "frame_num": 2346,
+          "ocr_text": "con il contributo del Ministero per i Benie le Attivit\u00e0 Culturali Direzione Generale per il Cinema",
+          "ocr_bbox": [
+            162,
+            419,
+            446,
+            498
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_007_num02382_sim39.jpg",
+          "frame_num": 2382,
+          "ocr_text": "opera realizzata con il sostegno della Regione Lazio Fondo Regionale per il Cinema e l'Audiovisivo",
+          "ocr_bbox": [
+            422,
+            96,
+            843,
+            146
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_008_num02454_sim32.jpg",
+          "frame_num": 2454,
+          "ocr_text": "in collaborazione con MEDIASET PREMIUM",
+          "ocr_bbox": [
+            513,
+            79,
+            742,
+            133
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_009_num02526_sim46.jpg",
+          "frame_num": 2526,
+          "ocr_text": "con la partecipazione di CANAL+e CINE+",
+          "ocr_bbox": [
+            897,
+            416,
+            1098,
+            469
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_010_num02538_sim96.jpg",
+          "frame_num": 2538,
+          "ocr_text": "con la partecipazione di CANAL+ e CINE+",
+          "ocr_bbox": [
+            898,
+            416,
+            1099,
+            470
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_011_num02598_sim57.jpg",
+          "frame_num": 2598,
+          "ocr_text": "corla partecipazione di FRANCE T\u00c9L\u00c9VISIONS",
+          "ocr_bbox": [
+            171,
+            429,
+            410,
+            481
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_012_num02610_sim91.jpg",
+          "frame_num": 2610,
+          "ocr_text": "con la partecipazione di FRANCE T\u00c9L\u00c9VISIONS",
+          "ocr_bbox": [
+            171,
+            427,
+            410,
+            481
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_013_num02634_sim99.jpg",
+          "frame_num": 2634,
+          "ocr_text": "con la partecipazione di FRANCE TEL\u00c9VISIONS",
+          "ocr_bbox": [
+            170,
+            427,
+            408,
+            480
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_014_num02646_sim99.jpg",
+          "frame_num": 2646,
+          "ocr_text": "con la partecipazione di FRANCE TELEVISIONS",
+          "ocr_bbox": [
+            172,
+            428,
+            409,
+            480
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_015_num02670_sim26.jpg",
+          "frame_num": 2670,
+          "ocr_text": "Fincesca-Cim",
+          "ocr_bbox": [
+            534,
+            438,
+            699,
+            464
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_016_num02682_sim30.jpg",
+          "frame_num": 2682,
+          "ocr_text": "prodotto da Nicola Giuliano Francesca Cima",
+          "ocr_bbox": [
+            526,
+            376,
+            701,
+            466
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_017_num02742_sim29.jpg",
+          "frame_num": 2742,
+          "ocr_text": "Fabio Conversi",
+          "ocr_bbox": [
+            182,
+            457,
+            345,
+            487
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_018_num02754_sim67.jpg",
+          "frame_num": 2754,
+          "ocr_text": "coprodotto da Fabio Conversi",
+          "ocr_bbox": [
+            181,
+            432,
+            345,
+            487
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_019_num02814_sim56.jpg",
+          "frame_num": 2814,
+          "ocr_text": "coprodotto da J\u00e9r\u00f4me Seydoux",
+          "ocr_bbox": [
+            896,
+            428,
+            1073,
+            489
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_020_num02862_sim29.jpg",
+          "frame_num": 2862,
+          "ocr_text": "Viola Preshieri",
+          "ocr_bbox": [
+            529,
+            473,
+            683,
+            501
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_021_num02874_sim55.jpg",
+          "frame_num": 2874,
+          "ocr_text": "produttore esecutivo Viola Prestieri",
+          "ocr_bbox": [
+            521,
+            447,
+            693,
+            501
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_022_num02910_sim48.jpg",
+          "frame_num": 2910,
+          "ocr_text": "Viold Presheri",
+          "ocr_bbox": [
+            530,
+            472,
+            679,
+            502
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_023_num02922_sim21.jpg",
+          "frame_num": 2922,
+          "ocr_text": "produttori associati Carlotta Calori Guendalina Ponti",
+          "ocr_bbox": [
+            527,
+            401,
+            714,
+            491
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_024_num03006_sim39.jpg",
+          "frame_num": 3006,
+          "ocr_text": "produtioriassociati Romain Le Grand Vivien Aslanian Muriel Sauzay",
+          "ocr_bbox": [
+            511,
+            317,
+            718,
+            444
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_025_num03018_sim84.jpg",
+          "frame_num": 3018,
+          "ocr_text": "produttori associati Romain Le Grand Vivien Aslanian Muriel Sauzay",
+          "ocr_bbox": [
+            532,
+            317,
+            719,
+            443
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_026_num03102_sim25.jpg",
+          "frame_num": 3102,
+          "ocr_text": "Toni Servillo",
+          "ocr_bbox": [
+            813,
+            66,
+            949,
+            94
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_027_num03174_sim46.jpg",
+          "frame_num": 3174,
+          "ocr_text": "Carlo Verdone",
+          "ocr_bbox": [
+            668,
+            149,
+            823,
+            177
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_028_num03246_sim36.jpg",
+          "frame_num": 3246,
+          "ocr_text": "Sabrina Ferilli",
+          "ocr_bbox": [
+            159,
+            103,
+            317,
+            134
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_029_num03306_sim26.jpg",
+          "frame_num": 3306,
+          "ocr_text": "Carlo Buccirosso",
+          "ocr_bbox": [
+            567,
+            51,
+            751,
+            79
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_030_num03378_sim23.jpg",
+          "frame_num": 3378,
+          "ocr_text": "Iaia Forte",
+          "ocr_bbox": [
+            283,
+            132,
+            394,
+            166
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_031_num03522_sim31.jpg",
+          "frame_num": 3522,
+          "ocr_text": "Pamela Villoresi",
+          "ocr_bbox": [
+            852,
+            103,
+            1031,
+            137
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_032_num03594_sim41.jpg",
+          "frame_num": 3594,
+          "ocr_text": "Galatea Ranzi",
+          "ocr_bbox": [
+            934,
+            1109,
+            1087,
+            1143
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_033_num03606_sim100.jpg",
+          "frame_num": 3606,
+          "ocr_text": "Galatea Ranzi",
+          "ocr_bbox": [
+            935,
+            1109,
+            1086,
+            1143
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_034_num03618_sim100.jpg",
+          "frame_num": 3618,
+          "ocr_text": "Galatea Ranzi",
+          "ocr_bbox": [
+            191,
+            135,
+            346,
+            171
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_035_num03630_sim100.jpg",
+          "frame_num": 3630,
+          "ocr_text": "Galatea Ranzi",
+          "ocr_bbox": [
+            192,
+            136,
+            345,
+            170
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_036_num03666_sim43.jpg",
+          "frame_num": 3666,
+          "ocr_text": "Franco Graziosi",
+          "ocr_bbox": [
+            131,
+            451,
+            302,
+            478
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_037_num03738_sim41.jpg",
+          "frame_num": 3738,
+          "ocr_text": "Giorgio-Pasofti",
+          "ocr_bbox": [
+            885,
+            179,
+            1046,
+            203
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_038_num03750_sim90.jpg",
+          "frame_num": 3750,
+          "ocr_text": "Giorgio Pasotti",
+          "ocr_bbox": [
+            883,
+            174,
+            1046,
+            210
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_039_num03822_sim38.jpg",
+          "frame_num": 3822,
+          "ocr_text": "Massimo Popolizio",
+          "ocr_bbox": [
+            164,
+            272,
+            369,
+            308
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_040_num03906_sim30.jpg",
+          "frame_num": 3906,
+          "ocr_text": "Sonia 1 Gessner Anna Della Rosa",
+          "ocr_bbox": [
+            660,
+            75,
+            840,
+            141
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_041_num03978_sim46.jpg",
+          "frame_num": 3978,
+          "ocr_text": "Luca Marinelli Serena Grandi",
+          "ocr_bbox": [
+            131,
+            362,
+            290,
+            427
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_042_num04050_sim39.jpg",
+          "frame_num": 4050,
+          "ocr_text": "Iuan Franek Vernon Dobtcheff",
+          "ocr_bbox": [
+            188,
+            91,
+            379,
+            160
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_043_num04122_sim34.jpg",
+          "frame_num": 4122,
+          "ocr_text": "Dario Cantarelli Lillo Petrolo",
+          "ocr_bbox": [
+            790,
+            90,
+            966,
+            155
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_044_num04194_sim46.jpg",
+          "frame_num": 4194,
+          "ocr_text": "Luciano Virgilio Aldo Ralli",
+          "ocr_bbox": [
+            224,
+            400,
+            399,
+            466
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_045_num04266_sim47.jpg",
+          "frame_num": 4266,
+          "ocr_text": "Giusi Merli Giovanna Vignola Anita Kravos",
+          "ocr_bbox": [
+            293,
+            61,
+            485,
+            165
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_046_num04338_sim35.jpg",
+          "frame_num": 4338,
+          "ocr_text": "Ludovico Caldarera Marialaura Rondanini",
+          "ocr_bbox": [
+            158,
+            409,
+            395,
+            471
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_047_num04398_sim38.jpg",
+          "frame_num": 4398,
+          "ocr_text": "Francesca Golia Silvia Munguia",
+          "ocr_bbox": [
+            976,
+            55,
+            1148,
+            122
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_048_num04470_sim44.jpg",
+          "frame_num": 4470,
+          "ocr_text": "con Massimo De Francovich",
+          "ocr_bbox": [
+            447,
+            67,
+            701,
+            116
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_049_num04542_sim24.jpg",
+          "frame_num": 4542,
+          "ocr_text": "Roberto Herlitzka",
+          "ocr_bbox": [
+            947,
+            972,
+            1136,
+            1005
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_050_num04566_sim89.jpg",
+          "frame_num": 4566,
+          "ocr_text": "Roberto Herlitzka con",
+          "ocr_bbox": [
+            949,
+            973,
+            1136,
+            1026
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_051_num04614_sim47.jpg",
+          "frame_num": 4614,
+          "ocr_text": "e con Isabella Ferrari",
+          "ocr_bbox": [
+            490,
+            441,
+            657,
+            492
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_052_num04698_sim36.jpg",
+          "frame_num": 4698,
+          "ocr_text": "direttore della fotografia Luca Bigazzi",
+          "ocr_bbox": [
+            857,
+            316,
+            1061,
+            378
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_053_num04758_sim34.jpg",
+          "frame_num": 4758,
+          "ocr_text": "montaggio Cristiano Travaglioli a.m.c.",
+          "ocr_bbox": [
+            255,
+            261,
+            525,
+            316
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_054_num04830_sim33.jpg",
+          "frame_num": 4830,
+          "ocr_text": "musiche Lele Marchitelli Edizioni Musicali Indigo Film",
+          "ocr_bbox": [
+            700,
+            316,
+            868,
+            389
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_055_num04866_sim100.jpg",
+          "frame_num": 4866,
+          "ocr_text": "musiche Lele Marchitelli Edizioni Musicali Indigo Film",
+          "ocr_bbox": [
+            700,
+            316,
+            867,
+            390
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_056_num04890_sim23.jpg",
+          "frame_num": 4890,
+          "ocr_text": "soggetto Paolo Sorrentino",
+          "ocr_bbox": [
+            327,
+            263,
+            510,
+            315
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_057_num04902_sim100.jpg",
+          "frame_num": 4902,
+          "ocr_text": "soggetto Paolo Sorrentino",
+          "ocr_bbox": [
+            327,
+            263,
+            510,
+            315
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_058_num04914_sim100.jpg",
+          "frame_num": 4914,
+          "ocr_text": "soggetto Paolo Sorrentino",
+          "ocr_bbox": [
+            328,
+            263,
+            510,
+            315
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_059_num04938_sim100.jpg",
+          "frame_num": 4938,
+          "ocr_text": "soggetto Paolo Sorrentino",
+          "ocr_bbox": [
+            328,
+            260,
+            510,
+            315
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_060_num04962_sim57.jpg",
+          "frame_num": 4962,
+          "ocr_text": "sceneggiatura Paolo Sorrentino Umberto Contarello",
+          "ocr_bbox": [
+            229,
+            263,
+            437,
+            345
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_061_num05034_sim48.jpg",
+          "frame_num": 5034,
+          "ocr_text": "scenografia Stefania Cella",
+          "ocr_bbox": [
+            793,
+            95,
+            947,
+            155
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_062_num05106_sim45.jpg",
+          "frame_num": 5106,
+          "ocr_text": "costumi Daniela Ciancio",
+          "ocr_bbox": [
+            183,
+            133,
+            357,
+            185
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_063_num05166_sim31.jpg",
+          "frame_num": 5166,
+          "ocr_text": "montaggio del suono Silvia Moraes suono Emanuele-Cecere",
+          "ocr_bbox": [
+            319,
+            59,
+            830,
+            470
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_064_num05178_sim88.jpg",
+          "frame_num": 5178,
+          "ocr_text": "montaggio del suono Silvia Moraes suono Emanuele Cecere",
+          "ocr_bbox": [
+            319,
+            59,
+            829,
+            470
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_065_num05238_sim48.jpg",
+          "frame_num": 5238,
+          "ocr_text": "trucco Maurizio Silvi acconciature Aldo Signoretti",
+          "ocr_bbox": [
+            142,
+            103,
+            399,
+            458
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_066_num05310_sim36.jpg",
+          "frame_num": 5310,
+          "ocr_text": "organizzazione Gennaro Formisano direzione-amministrativa Stefano d'Avella",
+          "ocr_bbox": [
+            250,
+            363,
+            1024,
+            517
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_067_num05382_sim33.jpg",
+          "frame_num": 5382,
+          "ocr_text": "aiuto regia Davide Bertoni",
+          "ocr_bbox": [
+            826,
+            304,
+            990,
+            357
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_068_num05454_sim31.jpg",
+          "frame_num": 5454,
+          "ocr_text": "casting Annamaria Sambucco",
+          "ocr_bbox": [
+            553,
+            401,
+            790,
+            455
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_069_num05526_sim26.jpg",
+          "frame_num": 5526,
+          "ocr_text": "superoisione effetti-visiui Rodolfo Migliari",
+          "ocr_bbox": [
+            282,
+            415,
+            495,
+            475
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_070_num05562_sim85.jpg",
+          "frame_num": 5562,
+          "ocr_text": "superoisione effetti visivi Rodolfo Migliari",
+          "ocr_bbox": [
+            282,
+            415,
+            495,
+            475
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_071_num05622_sim30.jpg",
+          "frame_num": 5622,
+          "ocr_text": "Altri interpreti",
+          "ocr_bbox": [
+            347,
+            260,
+            453,
+            284
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_072_num05658_sim7.jpg",
+          "frame_num": 5658,
+          "ocr_text": "Altri interpreti Alberto Aguirre Mariachi festa Maria Rosaria Alati Donna anziana botox Francesca Amodio Carmelina Stefania Barca Donna botox Gabriela Belisario Ragazza botox Alessia.Bellotto Ammiratrice Jep Concetta-Buzzanca Signora matrimonio Gino Canini Mariachi-festa Amaluisar Capasa Elisa De Santis Roberta Cartocci Guida turistica Severino.Cesari Sebastiano Paf Margherita Cornal Donna \"adoro\" Jamaica Corridori Ballerina burlesque",
+          "ocr_bbox": [
+            255,
+            262,
+            524,
+            500
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_073_num05670_sim89.jpg",
+          "frame_num": 5670,
+          "ocr_text": "Altri interpreti Alberto Aguirre Mariachi festa Maria Rosaria Alati Donna anziana botox Francesca Amodio Carmelina Stefania Barca Donna botox Gabriela Belisario Ragazza botox Alessia Bellotto Ammiratrice Jep Concetta Buzzanca Signora matrimonio Gino Canini Mariachi festa Annaluisa Capasa Elisa De Santis Roberta Cartocci Guida turistica Severino Cesari Sebastiano Paf Margherita Cornali Donna \"adoro\" Jamaica-Corridori Ballerina burlesque",
+          "ocr_bbox": [
+            255,
+            262,
+            522,
+            502
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_074_num05682_sim98.jpg",
+          "frame_num": 5682,
+          "ocr_text": "Altri interpreti Alberto Aguirre Mariachi festa Maria Rosaria Alati Donna anziana botox Francesca Amodio Carmelina Stefania Barca Donna botox Gabriela Belisario Ragazza botox Alessia Bellotto Ammiratrice Jep Concetta Buzzanca Signora matrimonio Gino Canini Mariachi festa Annaluisa Capasa Elisa De Santis Roberta Cartocci Guida turistica Severino Cesari Sebastiano Paf Margherita Cornali Donna \"adoro\" Jamaica Corridori Ballerina burlesque",
+          "ocr_bbox": [
+            255,
+            261,
+            522,
+            501
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_075_num05850_sim46.jpg",
+          "frame_num": 5850,
+          "ocr_text": "Natalia De Maria Cubista festafep armelo Di Marco Uomo joaging. Giulia DiQuilio Donnacoppia'esibizionista Giorgia Ferrero AmmiratriceJep Melania Fiore Infermiera pos Lorenzo Gioielli Uomo coppia esibizionista Mayda-Gonzales Mariachi festa Maria Lovelti Contessa festa Roberto Lumiento Trans AgatarMalys/ko Polina Giulia Maulucci Ammiratrice Jep PaoloMazzarelli Attore fiction",
+          "ocr_bbox": [
+            735,
+            289,
+            1032,
+            465
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_076_num05862_sim86.jpg",
+          "frame_num": 5862,
+          "ocr_text": "Natalia De Maria Cubista festa Jep Carmelo Di Marco Uomo jogging Giulia Di Quilio Donna coppia esibizionista Giorgia Ferrero Ammiratrice Jep Melania Fiore Infermiera pos Lorenzo Gioielli Uomo coppia esibizionista Mayda Gonzales Mariachi festa Maria Lovetti Contessa festa Roberto Lumiento Trans Agata Malyszko Polina Giulia Maulucci Ammiratrice Jep Paolo Mazzarelli Attore fiction",
+          "ocr_bbox": [
+            734,
+            285,
+            1032,
+            465
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_077_num05946_sim100.jpg",
+          "frame_num": 5946,
+          "ocr_text": "or Natalia De Maria Cubista festa Jep Carmelo Di Marco Uomo jogging Giulia Di Quilio Donna coppia esibizionista Giorgia Ferrero Ammiratrice Jep Melania Fiore Infermiera pos Lorenzo Gioielli Uomo coppia esibizionista Mayda Gonzales Mariachi festa Maria Lovetti Contessa festa Roberto Lumiento Trans Agata Malyszko Polina Giulia Maulucci Ammiratrice Jep Paolo Mazzarelli Attore fiction",
+          "ocr_bbox": [
+            734,
+            215,
+            1033,
+            465
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_078_num06006_sim100.jpg",
+          "frame_num": 6006,
+          "ocr_text": "oroo Natalia De Maria Cubista festa Jep Carmelo Di Marco Uomo jogging Giulia Di Quilio Donna coppia esibizionista Giorgia Ferrero Ammiratrice Jep Melania Fiore Infermiera pos Lorenzo Gioielli Uomo coppia esibizionista Mayda Gonzales Mariachi festa Maria Lovetti Contessa festa Roberto Lumiento Trans Agata Malyszko Polina Giulia Maulucci Ammiratrice Jep Paolo Mazzarelli Attore fiction",
+          "ocr_bbox": [
+            734,
+            209,
+            1032,
+            465
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_079_num06030_sim2.jpg",
+          "frame_num": 6030,
+          "ocr_text": "onoo",
+          "ocr_bbox": [
+            733,
+            202,
+            778,
+            219
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_080_num06042_sim2.jpg",
+          "frame_num": 6042,
+          "ocr_text": "onoo Flavio Mieli Jep giovane Claudio Minutillo Turtur Figlio Lillo Daniele Pilli Prete funerale Monica Piseddu Madre chiostro Pedro Ramirez Mariachi festa Yoon Suck Ryul Giapponese infartuato Maura Rossi Pazza bar Massimo Santangelo Autista pullman Catarina Scalaprice Ammiralrice Jep Carlo Sorrentines figiiodilio Elisabetta-Ventura Batlerina-ventilatore Sara Wakayanagi Cantante giapponese da voce-di-Dadina-endi Cristina Aubry",
+          "ocr_bbox": [
+            293,
+            205,
+            775,
+            495
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_081_num06054_sim90.jpg",
+          "frame_num": 6054,
+          "ocr_text": "onoo 0000 Flavio Mieli Jep giovane Claudio Minutillo Turtur Figlio Lillo Daniele Pilli Prete funerale Monica Piseddu Madre chiostro Pedro Ramirez Mariachi festa Yoon Suck Ryul Giapponese infartuato Maura Rossi Pazza bar Massimo Santangelo Autista pullman Catarina Scalaprice Ammiratrice Jep Carlo Sorrentino 2figlio Lillo Elisabetta Ventura Ballerina ventilatore Sara Wakayanagi Cantante giapponese La voce di Dadina \u00e9 di Cristina Aubry",
+          "ocr_bbox": [
+            293,
+            204,
+            821,
+            497
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_082_num06246_sim45.jpg",
+          "frame_num": 6246,
+          "ocr_text": "Ufficio stampa Studio PUNTOeVIRGOLA Ricerche e documentazione Lara Lucchetta Segretaria di edizione Samantha Natalucci Direttore di produzione Giuseppe Di Gangi Ispettore di produzione Raffaello Vignoli Coordinatrice di produzione Daniela Moramarco Location manager Giuseppe Nardi Gianluca Tittonel Assistenti location manager Danilo Simotti Piernicola Pinnola",
+          "ocr_bbox": [
+            204,
+            295,
+            544,
+            487
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_083_num06438_sim48.jpg",
+          "frame_num": 6438,
+          "ocr_text": "Segretari di produzione Maurizio Porro Lorenzo Rossi Espagnet Alessandro Del Vecchio Aiuti segr. di produzione Nicola Scamarcio Lorenzo Distante Stagisti Claudia Contento Giulia Odoardi Benedetta Barroero Zoe Giudice Maria Soledad Marchi",
+          "ocr_bbox": [
+            157,
+            299,
+            475,
+            446
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_084_num06630_sim44.jpg",
+          "frame_num": 6630,
+          "ocr_text": "I Aiuto regista Jacopo Bonvicini IllAiutoregista Giorgig Servilla Assistegtialla regia Piero Messina Baladine Ardani Conversi Ginlio Gangiano Serena Lupo LucillaMasucci Domenico De Feudis Andrea-Armani",
+          "ocr_bbox": [
+            146,
+            270,
+            444,
+            402
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_085_num06642_sim65.jpg",
+          "frame_num": 6642,
+          "ocr_text": "II Aiuto regista Jacopo Bonvicini III Aiuto regista Giorgio Servillo Assistenti alla regia Piero Messina Baladine Ardant-Conversi Giulio Cangiano Serena Lupo Lucilla Masucci Domenico De Feudis Andrea Armani Fabrizio-Provinciali Ass. casting Manuela-De Santis Street casting Ardalan Nabavinejad Auronda-Scalera",
+          "ocr_bbox": [
+            145,
+            270,
+            446,
+            474
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_086_num06654_sim93.jpg",
+          "frame_num": 6654,
+          "ocr_text": "II Aiuto regista Jacopo Bonvicini III Aiuto regista Giorgio Servillo Assistenti alla regia Piero Messina Baladine Ardant-Conversi Giulio Cangiano Serena Lupo Lucilla Masucci Domenico De Feudis Andrea Armani Fabrizio Provinciali Ass. casting Manuela-De-Santis Street casting. Ardalan Nabavinejad Auronda Scalera",
+          "ocr_bbox": [
+            145,
+            270,
+            445,
+            474
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_087_num06678_sim93.jpg",
+          "frame_num": 6678,
+          "ocr_text": "II Aiuto regista Jacopo Bonvicini III Aiuto regista Giorgio Servillo Assistenti alla regia Piero Messina Baladine Ardant-Conversi Giulio Cangiano Serena Lupo Lucilla Masucci Domenico De Feudis Andrea Armani Fabrizio Provinciali Ass. casting Manuela De Santis Street casting Ardalan,Nabavinejad Auronda Scalera",
+          "ocr_bbox": [
+            145,
+            270,
+            446,
+            474
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_088_num06690_sim96.jpg",
+          "frame_num": 6690,
+          "ocr_text": "II Aiuto regista Jacopo Bonvicini III Aiuto regista Giorgio Servillo Assistenti alla regia Piero Messina Baladine Ardant-Conversi Giulio Cangiano Serena Lupo Lucilla Masucci Domenico De Feudis Andrea Armani Fabrizio Provinciali Ass. casting Manuela De Santis Street casting Ardalan Nabavinejad Auronda Scalera",
+          "ocr_bbox": [
+            145,
+            268,
+            445,
+            476
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_089_num06822_sim30.jpg",
+          "frame_num": 6822,
+          "ocr_text": "macchina-Fotografia.llunita Oneratore Steadycam Assistenle ounratore Iassistenicoperatare",
+          "ocr_bbox": [
+            201,
+            226,
+            378,
+            282
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_090_num06834_sim25.jpg",
+          "frame_num": 6834,
+          "ocr_text": "XOXX Operatore II macchina-Fotografia II unit\u00e0 Daria D'Antonio Operatore Steadycam Alessandro Brambilla Assistente operatore Salvatore Bognanni II assistente operatore Paolo Cafiero Assistenti operatore aggiunti Marco Maggi Rafael Jeneral Aiuti operatore Luan Amelio Roberto Rinalduzzi Video Assist Elisabetta Di Salvo Stagista Alberto Meloni Fotografo di scena Gianni Fiorito Aiuto fotografo di scena Anna Fantini Operatore subacqueo Aldo Chessari Assistente operatore subacqueo Maurizio Cremisini Aiuti operatori subacquei Simone Trecca Emiliano Mambusi",
+          "ocr_bbox": [
+            130,
+            16,
+            1059,
+            486
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_091_num06954_sim100.jpg",
+          "frame_num": 6954,
+          "ocr_text": "Operatore II macchina-Fotografia II unit\u00e0 Daria D'Antonio Operatore Steadycam Alessandro Brambilla Assistente operatore Salvatore Bognanni II assistente operatore Paolo Cafiero Assistenti operatore aggiunti Marco Maggi Rafael Jeneral Aiuti operatore Luan Amelio Roberto Rinalduzzi Video Assist Elisabetta Di Salvo Stagista Alberto Meloni Fotografo di scena Gianni Fiorito Anna Fantini Aiuto fotografo di scena Operatore subacqueo Aldo Chessari Assistente operatore subacqueo Maurizio Cremisini Aiuti operatori subacquei Simone Trecca Emiliano Mambusi",
+          "ocr_bbox": [
+            130,
+            224,
+            528,
+            484
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_092_num06978_sim100.jpg",
+          "frame_num": 6978,
+          "ocr_text": "Operatore II macchina-Fotografia II unita Daria D'Antonio Operatore Steadycam Alessandro Brambilla Assistente operatore Salvatore Bognanni II assistente operatore Paolo Cafiero Assistenti operatore aggiunti Marco Maggi Rafael Jeneral Aiuti operatore Luan Amelio Roberto Rinalduzzi Video Assist Elisabetta Di Salvo Stagista Alberto Meloni Fotografo di scena Gianni Fiorito Anna Fantini Aiuto fotografo di scena Operatore subacqueo Aldo Chessari Assistente operatore subacqueo Maurizio Cremisini Aiuti operatori subacquei Simone Trecca Emiliano Mambusi",
+          "ocr_bbox": [
+            129,
+            221,
+            526,
+            484
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_093_num07026_sim100.jpg",
+          "frame_num": 7026,
+          "ocr_text": "Operatore II macchina-Fotografia II unit\u00e0 Daria D'Antonio Operatore Steadycam Alessandro Brambilla Assistente operatore Salvatore Bognanni II assistente operatore Paolo Cafiero Assistenti operatore aggiunti Marco Maggi Rafael Jeneral Aiuti operatore Luan Amelio Roberto Rinalduzzi Video Assist Elisabetta Di Salvo Stagista Alberto Meloni Fotografo di scena Gianni Fiorito Anna Fantini Aiuto fotografo di scena Operatore subacqueo Aldo Chessari Assistente operatore subacqueo Maurizio Cremisini Aiuti operatori subacquei Simone Trecca Emiliano Mambusi",
+          "ocr_bbox": [
+            130,
+            224,
+            527,
+            484
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_094_num07038_sim100.jpg",
+          "frame_num": 7038,
+          "ocr_text": "Operatore II macchina-Fotografia II unita Daria D'Antonio Operatore Steadycam Alessandro Brambilla Assistente operatore Salvatore Bognanni II assistente operatore Paolo Cafiero Assistenti operatore aggiunti Marco Maggi Rafael Jeneral Aiuti operatore Luan Amelio Roberto Rinalduzzi Video Assist Elisabetta Di Salvo Stagista Alberto Meloni Fotografo di scena Gianni Fiorito Anna Fantini Aiuto fotografo di scena Operatore subacqueo Aldo Chessari Assistente operatore subacqueo Maurizio Cremisini Aiuti operatori subacquei Simone Trecca Emiliano Mambusi",
+          "ocr_bbox": [
+            130,
+            224,
+            527,
+            484
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_095_num07074_sim49.jpg",
+          "frame_num": 7074,
+          "ocr_text": "Coordinatore di postproduzione Filippo Pichi Assistente al montaggio Tommaso Gallone II Assistente montaggio Francesco Di Stefano Aiuto al montaggio Ardalan Nabavinejad Microfonisti Francesco Sabez Marco Saveriano Montatore presa diretta Dario Calvari Laboratorio di sonorizzazione MDI Margutta Digital International Fonico di mixage Alessandro Checcacci Fonico di doppiaggio Fabio Curi Effetti sonori InHouse Montaggio effetti sonori Mirko Perri Ass. montaggio effetti sonori Damiano Cesarini Rumorista di sala Mauro Eusepi Field recordist Matteo Bendinelli",
+          "ocr_bbox": [
+            147,
+            217,
+            577,
+            467
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_096_num07110_sim100.jpg",
+          "frame_num": 7110,
+          "ocr_text": "Coordinatore di postproduzione Filippo Pichi Assistente al montaggio Tommaso Gallone II Assistente montaggio Francesco Di Stefano Aiuto al montaggio Ardalan Nabavinejad Francesco Sabez Microfonisti Marco Saveriano Montatore presa diretta Dario Calvari Laboratorio di sonorizzazione MDI Margutta Digital International Fonico di mixage Alessandro Checcacci Fonico di doppiaggio Fabio Curi Effetti sonori InHouse Montaggio effetti sonori Mirko Perri Ass. montaggio effetti sonori Damiano Cesarini Rumorista di sala Mauro Eusepi Field recordist Matteo Bendinelli",
+          "ocr_bbox": [
+            149,
+            217,
+            577,
+            468
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_097_num07182_sim100.jpg",
+          "frame_num": 7182,
+          "ocr_text": "Coordinatore di postproduzione Filippo Pichi Assistente al montaggio Tommaso Gallone II Assistente montaggio Francesco Di Stefano Aiuto al montaggio Ardalan Nabavinejad Microfonisti Francesco Sabez Marco Saveriano Montatore presa diretta Dario Calvari Laboratorio di sonorizzazione MDI Margutta Digital International Fonico di mixage Alessandro Checcacci Fonico di doppiaggio Fabio Curi Effetti sonori InHouse Montaggio effetti sonori Mirko Perri Ass. montaggio effetti sonori Damiano Cesarini Rumorista di sala Mauro Eusepi Field recordist Matteo Bendinelli",
+          "ocr_bbox": [
+            148,
+            218,
+            577,
+            468
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_098_num07290_sim47.jpg",
+          "frame_num": 7290,
+          "ocr_text": "Assistente scenografo Ludovica Ferrario Assistenti arredatore Angelo Panzironi Giulia Busnengo Anca Gabriela Rafan Aiuto arredatore Francesca Esposito Aiuti scenografo Cristina Vittoria Marazzi Rocco Ceraolo Attrezzista Massimo Avolio Attrezzista di preparazione Stefano Picciarelli Aiuti attrezzista Manuel Antonini Alessandro Marangolo Piltore di scena Giorgio Barullo Manovali Fabio Galvagno Angelo Spirito Daniele-Rossi Espagnel Fabrizio.Mucci Stefano Barberi",
+          "ocr_bbox": [
+            131,
+            269,
+            469,
+            515
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_099_num07302_sim97.jpg",
+          "frame_num": 7302,
+          "ocr_text": "Assistente scenografo Ludovica Ferrario Assistenti arredatore Angelo Panzironi Giulia Busnengo Anca Gabriela Rafan Aiuto arredatore Francesca Esposito Aiuti scenografo Cristina Vittoria Marazzi Rocco Ceraolo Attrezzista Massimo Avolio Attrezzista di preparazione Stefano Picciarelli Aiuti attrezzista Manuel Antonini Alessandro Marangolo Pittore di scena Giorgio Barullo Manovali Fabio Galvagno Angelo Spirito Daniele Rossi Espagnet Fabrizio Mucci Stefano Barberi",
+          "ocr_bbox": [
+            131,
+            266,
+            468,
+            513
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_100_num07542_sim8.jpg",
+          "frame_num": 7542,
+          "ocr_text": "anfora Olga Michalowska",
+          "ocr_bbox": [
+            280,
+            365,
+            392,
+            392
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_101_num07554_sim25.jpg",
+          "frame_num": 7554,
+          "ocr_text": "Assistenti costumista Chiara Nobile Luca Canfora Olga Michalowska Chiara Fabbri Laura Maccarone Aiuto costumista Eleonora Medolla Stagiste Sara Cavagnini Flore Saunois",
+          "ocr_bbox": [
+            131,
+            347,
+            392,
+            465
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_102_num07746_sim45.jpg",
+          "frame_num": 7746,
+          "ocr_text": "Sarta di scena Roberta Ciciani Sarte Giuseppina Dosa Sabrina Salvitti Carmelina D'Andrea Amelia Valentini Anna Sciotti Antonella Angelini Giovanna Paglia Clara Ferrazzini Rita Ciaramaglia Gradisca Sciotti Orielta Bodo",
+          "ocr_bbox": [
+            130,
+            337,
+            360,
+            514
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_103_num07938_sim47.jpg",
+          "frame_num": 7938,
+          "ocr_text": "Capo truccatore Matteo Silvi Truccatrice Rossella Gregorio Donatella Podano Aggiunti trucco Melissa Mazzocco Simona Ferri Lino Valentini Lidia Mini Patrizia Tofani Veronica Luongo Laura Angeletti Amel-Ben-Soltane Giorgiana Gregorini",
+          "ocr_bbox": [
+            147,
+            336,
+            387,
+            511
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_104_num07950_sim95.jpg",
+          "frame_num": 7950,
+          "ocr_text": "Capo truccatore Matteo Silvi Truccatrice Rossella Gregorio Aggiunti trucco Donatella Podano Melissa Mazzocco Simona Ferri Lino Valentini Lidia Mini Patrizia Tofani Veronica Luongo Laura Angeletti Amel Ben Soltane Giorgiana Gregorini",
+          "ocr_bbox": [
+            147,
+            336,
+            389,
+            513
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_105_num08118_sim100.jpg",
+          "frame_num": 8118,
+          "ocr_text": "Matteo Silvi Capo truccatore Truccatrice Rossella Gregorio Aggiunti trucco Donatella Podano Melissa Mazzocco Simona Ferri Lino Valentini Lidia Mini Patrizia Tofani Veronica Luongo Laura Angeletti Amel Ben Soltane Giorgiana Gregorini",
+          "ocr_bbox": [
+            144,
+            336,
+            389,
+            512
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_106_num08190_sim49.jpg",
+          "frame_num": 8190,
+          "ocr_text": "Capo parrucchiere Marco Perna Parrucchiere Peter Nicastro Aggiunti parrucchieri Claudia Bianchi Daniele Fiori Stefano Nigro Gianmarco Gaeta Fabio Ligorio Sharim Sabatini Pasquale Valentini Massimo Badiali Stefania Petrini",
+          "ocr_bbox": [
+            268,
+            343,
+            535,
+            502
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_107_num08442_sim45.jpg",
+          "frame_num": 8442,
+          "ocr_text": "Caposquadra elettricisti Alessandro Saulini Elettricisti Fabio Policastro Francesco Galli Daniel Rizzoni Michele Lacerenza Fabio Rovoletto Mauro Romor Ali' Darvish",
+          "ocr_bbox": [
+            485,
+            390,
+            771,
+            509
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_108_num08634_sim48.jpg",
+          "frame_num": 8634,
+          "ocr_text": "Caposquadra macchinisti Patrizio Marra lacchinisti Massimo Barbona Cristiano-Biagioli Daniele-Anzellotti Cesare Pascarella Danilo.Marcelli Srefano Vattentinuzzi Guido Mestre",
+          "ocr_bbox": [
+            512,
+            390,
+            812,
+            509
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_109_num08646_sim81.jpg",
+          "frame_num": 8646,
+          "ocr_text": "Caposquadra macchinisti Patrizio Marra Macchinisti Massimo Barbona Cristiano Biagioli Daniele Anzellotti Cesare Pascarella Danilo Marcelli Stefano Vallentinuzzi Guido Mestre",
+          "ocr_bbox": [
+            511,
+            389,
+            814,
+            509
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_110_num08838_sim47.jpg",
+          "frame_num": 8838,
+          "ocr_text": "Gruppista Marco Francescon Autisti Roberto Nesi Danilo Di Ruzza Valentino De Simone Giuliano Troiano Carlo Nevola Marco Ferreri Stefano Ghersi Maurizio Augelli Stefano Rosati Scenotecnici Luca Ricci Tiberio Angeloni Franco Galiano Massimo Giovannetti",
+          "ocr_bbox": [
+            529,
+            279,
+            754,
+            498
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_111_num09102_sim48.jpg",
+          "frame_num": 9102,
+          "ocr_text": "Coordinamento stuntman scene subacquee Franco Maria Salamon Jonatha Marzeddu Stuntman Rocco Russo Coordinamento stuntman Mauro Caterini Savino Cirulli - Cineworld Aosm Roma Alessandra Troisi Permessi minori Deborah Petrarchi Backstage Gianluca Jodice Valerio Azzali Montaggio backstage Andrea Campajola",
+          "ocr_bbox": [
+            311,
+            280,
+            753,
+            473
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_112_num09342_sim48.jpg",
+          "frame_num": 9342,
+          "ocr_text": "Amministrazione Anna Tramontano Amministrazionefilm Massimiliano Tramontano Cassiera Rossella Aterrano Produzione Indigo Film Valeria Di Graziano llaria Avanzi Paolo Centore Alessandra Cevenini Sara Calvanico Laura Branchini Antonella Anselmo Consulenza Legale Studio Legale Ponti - De Sanctis & Partners Guendalina Ponti Lorenzo De Sanctis Clorinda Abate laia Calderaro Alessandro Coni",
+          "ocr_bbox": [
+            649,
+            261,
+            1074,
+            506
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_113_num09354_sim99.jpg",
+          "frame_num": 9354,
+          "ocr_text": "Amministrazione Anna Tramontano Amministrazione film Massimiliano Tramontano Cassiera Rossella Aterrano Produzione Indigo Film Valeria Di Graziano llaria Avanzi Paolo Centore Alessandra Cevenini Sara Calvanico Laura Branchini Antonella Anselmo Consulenza Legale Studio Legale Ponti - De Sanctis & Partners Guendalina Ponti Lorenzo De Sanctis Clorinda Abate laia Calderaro Alessandro Coni",
+          "ocr_bbox": [
+            648,
+            261,
+            1074,
+            507
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_114_num09522_sim54.jpg",
+          "frame_num": 9522,
+          "ocr_text": "Produzione Babe Films Alix Gugenheim Cl\u00e9mence Forestier Oriana Buttacavoli Riccardo Marchegiani Odette Adamski Produzione Pathe Olivier Cottet Puinel Charlotte Laurendeau Lucile Brun Consulenza legale Babe Films Isabelle Laratte Amministrazione per Pronos 94 Elena Tramontano Valentina Viscione Emanuela Neresine Umberto Dell'Isola Caterina Felleca Antonio Silvestro",
+          "ocr_bbox": [
+            550,
+            249,
+            898,
+            510
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_115_num09642_sim44.jpg",
+          "frame_num": 9642,
+          "ocr_text": "Macchine da presa D-Vision Materiale Elettricisti-Macchinisti Luxor Lampade e gelatine REC Trasporti C.S. Cinematografica Stiffi Magic Rent Auto di scena Maggiore Rent Palazzi Service Assicurazione Assitalia -Studio Donati Sicurezza sul lavoro Framinia Effetti speciali Ricci srl Piattaforme aeree Titoccisrl Catering Jerico Rinaldi - Cielo e Terra Catering",
+          "ocr_bbox": [
+            486,
+            317,
+            942,
+            496
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_116_num09654_sim99.jpg",
+          "frame_num": 9654,
+          "ocr_text": "Macchine da presa D-Vision Materiale Elettricisti-Macchinisti Luxor Lampade e gelatine REC Trasporti C.S. Cinematografica Stiffi Magic Rent Auto di scena Maggiore Rent Palazzi Service Assicurazione Assitalia - Studio Donati Sicurezza sul lavoro Framinia Effetti speciali Ricci srl Piattaforme aeree Titocci srl Catering Jerico Rinaldi - Cielo e Terra Catering",
+          "ocr_bbox": [
+            486,
+            316,
+            942,
+            496
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_117_num09666_sim100.jpg",
+          "frame_num": 9666,
+          "ocr_text": "Macchine da presa D-Vision Materiale Elettricisti-Macchinisti Luxor Lampade e gelatine REC Trasporti C.S. Cinematografica Stiffi Magic Rent Auto di scena Maggiore Rent Palazzi Service Assicurazione Assitalia - Studio Donati Sicurezza sul lavoro Frraminia Effetti speciali Ricci srl Piattaforme aeree Titocci srl Catering Jerico Rinaldi - Cielo e Terra Catering",
+          "ocr_bbox": [
+            487,
+            317,
+            942,
+            495
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_118_num09786_sim39.jpg",
+          "frame_num": 9786,
+          "ocr_text": "Arredamento Afolki di El Alami Mohamed ArredamentiCineteatrali GRP di Renato Postiglione&c Eurogarden Arte&lngegno 20o8 Cine800 Cine ARs Magazzini Ruffi Antiqarte 2F Cinerent Eliostile Communications Peroni",
+          "ocr_bbox": [
+            724,
+            351,
+            1149,
+            513
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_119_num09798_sim93.jpg",
+          "frame_num": 9798,
+          "ocr_text": "Arredamento Afolki di El Alami Mohamed Arredamenti Cineteatrali GRP di Renato Postiglione&c Eurogarden Arte&lngegno 20o8 Cine800 Cine ARs Magazzini Ruffi Antigarte 2F Cinerent Eliostile Communications Peroni",
+          "ocr_bbox": [
+            724,
+            352,
+            1149,
+            513
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_120_num09894_sim41.jpg",
+          "frame_num": 9894,
+          "ocr_text": "B.T.N.srl Costruzioni Leonardo Cruciano workshop srl Sartorie AnnaMode Sartoria Cine-teatrale Nori Enzo-Bracciano-Roma Bottega d'Alice Signorina Grandi Firme Pikkio Pompei Misano smoking Maurizio Bazar",
+          "ocr_bbox": [
+            750,
+            326,
+            1146,
+            488
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_121_num09906_sim96.jpg",
+          "frame_num": 9906,
+          "ocr_text": "B.T.N. srl Costruzioni Leonardo Cruciano workshop srl Sartorie Anna Mode Sartoria Cine-teatrale Nori Enzo-Bracciano-Roma Bottega d'Alice Signorina Grandi Firme Pikio Pompei Misano smoking Maurizio Bazar",
+          "ocr_bbox": [
+            751,
+            326,
+            1147,
+            488
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_122_num09942_sim99.jpg",
+          "frame_num": 9942,
+          "ocr_text": "B.T. N. srl Costruzioni Leonardo Cruciano workshop srl Sartorie Anna Mode Sartoria Cine-teatrale Nori Enzo-Bracciano-Roma Bottega d'Alice Signorina Grandi Firme Pikio Pompei Misano smoking Maurizio Bazar",
+          "ocr_bbox": [
+            750,
+            326,
+            1146,
+            489
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_123_num09954_sim100.jpg",
+          "frame_num": 9954,
+          "ocr_text": "B.T. N. srl Costruzioni Leonardo Cruciano workshop srl Sartorie Anna Mode Sartoria Cine-teatrale Nori Enzo-Bracciano-Roma Bottega d'Alice Signorina Grandi Firme Pikkio Pompei Misano smoking Maurizio Bazar",
+          "ocr_bbox": [
+            751,
+            326,
+            1147,
+            488
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_124_num09990_sim96.jpg",
+          "frame_num": 9990,
+          "ocr_text": "Costruzioni B.T.N.srl Leonardo Cruciano workshop srl Sartorie Anna Mode Sartoria Cine-teatrale Nori Enzo-Bracciano-Roma Bottega d'Alice Signorina Grandi Firme Pikio Pompei Misano smoking Maurizio Bazar mann",
+          "ocr_bbox": [
+            749,
+            325,
+            1266,
+            497
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_125_num10110_sim44.jpg",
+          "frame_num": 10110,
+          "ocr_text": "Visual effects Chromatica Digital artist Luca Della Grotta 3D animator Alessandro Contenta Gianpaolo Fragale Stefano Valente Compositors Roberto Saba Marco Tripodi Chiara Milita Compositors jr. Roberto Ruffino Lena Di Gennaro Giulia Cadeddu Marco Bersani Coordinator Enrico Barone",
+          "ocr_bbox": [
+            340,
+            303,
+            582,
+            510
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_126_num10194_sim97.jpg",
+          "frame_num": 10194,
+          "ocr_text": "66 TERMINT (MI- Visual effects Chromatica Digital artist Luca Della Grotta 3D animator Alessandro Contenta Gianpaolo Fragale Compositors Stefano Valente Roberto Saba Marco Tripodi Chiara Milita Compositors jr. Roberto Ruffino Lena Di Gennaro Giulia Cadeddu Marco Bersani Coordinator Enrico Barone",
+          "ocr_bbox": [
+            339,
+            235,
+            1066,
+            509
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_127_num10314_sim49.jpg",
+          "frame_num": 10314,
+          "ocr_text": "ERMIHI (MR- Laboratorio di postproduzione technicoor Project Manager Marco Conte Colorist Andrea Orsini Titles supervisor Francesca Di Giamberardino Titles Stefano Pajetta Lorenzo Moneta Matteo Vito Murro Scansione Moreno Menchi Mirko Giambartolomei Conforming Davide Piastra Digital cleaning Marco Buonanno Allestimento-luci Technolight",
+          "ocr_bbox": [
+            212,
+            282,
+            1266,
+            509
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_015_static_128_num10602_sim22.jpg",
+          "frame_num": 10602,
+          "ocr_text": "un ringraziamento speciale a Roberto De Francesco",
+          "ocr_bbox": [
+            178,
+            460,
+            413,
+            512
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 129,
+      "median_flow_px_per_frame": 0.25903254747390747,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.29201385378837585,
+      "roi_percentile_flow": 0.25903254747390747,
+      "scroll_direction": null
+    },
+    "scene_16": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_000_num10723_sim48.jpg",
+          "frame_num": 10723,
+          "ocr_text": "Paolo Sorrentino ringrazia",
+          "ocr_bbox": [
+            613,
+            526,
+            752,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_001_num10735_sim75.jpg",
+          "frame_num": 10735,
+          "ocr_text": "Paolo Sorrentino ringrazia Daniela D'Antonio",
+          "ocr_bbox": [
+            611,
+            497,
+            752,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_002_num10747_sim72.jpg",
+          "frame_num": 10747,
+          "ocr_text": "Paolo Sorrentino ringrazia Danicla D'Antonio Giorgio Armani Roberia Armani",
+          "ocr_bbox": [
+            612,
+            473,
+            752,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_003_num10759_sim77.jpg",
+          "frame_num": 10759,
+          "ocr_text": "Paolo Sorrentino ringrazia DanielaD'Antonio Giorgio Armani RobertaArmani Flavio Caltaneo GuidoTorlonia",
+          "ocr_bbox": [
+            612,
+            447,
+            752,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_004_num10771_sim74.jpg",
+          "frame_num": 10771,
+          "ocr_text": "Paolo Sorrentino ringrazia Daniela D'Antonio Giorgio Armani Roberta Armani Flavio Cantaneo Guido Torlonia Roberto D'Antonio Aurclio De Laurentis",
+          "ocr_bbox": [
+            612,
+            421,
+            752,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_005_num10783_sim93.jpg",
+          "frame_num": 10783,
+          "ocr_text": "Paolo Sorrentino ringrazia DanielaD'Antonio Giorgio Armani Roberta Armani Flavio Cataneo Guido Torlonia Roberto D'Antonio Aurelio De Laurentis Roberto D'Agostino",
+          "ocr_bbox": [
+            613,
+            397,
+            751,
+            532
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_006_num10795_sim77.jpg",
+          "frame_num": 10795,
+          "ocr_text": "Paolo Sorrentino ringrazia Danicla D' Antonio Giorgio Armani Roberta Armani Flavio Cattaneo GuidoTorlonia Roberio D'Antonio Aurelio DeLaurentiis Roberto D'Agostino un ringraziamento particolare a",
+          "ocr_bbox": [
+            600,
+            370,
+            763,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_007_num10807_sim74.jpg",
+          "frame_num": 10807,
+          "ocr_text": "Paolo Sorrentino ringrazia Daniela D'Antonio Giorgio Armani Roberta Armani Flavio Cattaneo Guido Torlonia Roberto D'Antonio Aurelio DeLaurentis Roberio D'Agostino unringraziamento particolare a GulioBrogiAntonelloVenditti Claudio Vecchio, Fiammetta Baralla",
+          "ocr_bbox": [
+            510,
+            346,
+            853,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_008_num10819_sim84.jpg",
+          "frame_num": 10819,
+          "ocr_text": "PaoloSorrentino ringrazia Daniela D'Antonio Giorgio Armani Roberia Armani Flavio Cattaneo Guido Torlonia RobertoD'Antonio Aurelio DelLaurentiis Roberto D'Agostino unringraziamento particolarea Giulio Brogi Antonello Venditti Claudio Vecchio, Fiammetta Baralla",
+          "ocr_bbox": [
+            512,
+            318,
+            852,
+            519
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_009_num10831_sim76.jpg",
+          "frame_num": 10831,
+          "ocr_text": "Paolo'Sorrentinoringrazia Daniela D'Antonio Giorgio Armani Roberta Armani Flavio Caltaneo Guido Torlonia RobertoD'Antonio Aurelio DeLaurentiis Roberto D'Agostino unringraziamento particolare a Giulio Brogi. Antonello Venditti Claudio Vecchio. Fiammetta Baralla gli abitiindossati dal signor Toni Servillo sono stati realizzati da Cesare Attolint la signora Sabrina Ferilliindossa abiti Laura Biagiotti",
+          "ocr_bbox": [
+            487,
+            294,
+            879,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_010_num10843_sim80.jpg",
+          "frame_num": 10843,
+          "ocr_text": "Paolo Sorrentinoringrazia Daniela D'Antonio Giorgio Armani Roberta Armani Flavio Cattaneo Guido Torlonia Roberto D'Antonio Aurelio De Laurentiis Roberto D'Agostino un ringraziamento particolare a Giulio Brogi. Antonello Venditti, Claudio Vecchio, Fiammetta Baralla gli abiti indossati dal signor Toni Servillo sono stati realizzati da Cesare Attolini la signora Sabrina Ferilli indossa abiti Laura Biagiotti film realizzato in associazione con",
+          "ocr_bbox": [
+            483,
+            267,
+            880,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_011_num10855_sim86.jpg",
+          "frame_num": 10855,
+          "ocr_text": "Paolo Sorrentino ringrazia DanielaD'Antonio Giorgio Armani Roberta Armani Flavio Cattaneo Guido Torlonia Roberio D'Antonio Aurelio De Laurentiis Roberto D'Agostino un ringraziamento particolarea Giulio Brogi. Antonello Venditti, Claudio Vecchio, Fiammetta Baralla gliabitiindossati dal signor Toni Servillo sono stati realizzati da Cesare Antolini la signora Sabrina Ferilliindossa abiti Laura Biagiotti film realizzatoin associazionecon Biscottificio Verona S.r..ai sensidelle normesul Tax Credit",
+          "ocr_bbox": [
+            482,
+            240,
+            882,
+            533
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_012_num10867_sim90.jpg",
+          "frame_num": 10867,
+          "ocr_text": "Paolb Sorrentino ringrazia Daniela D'Antonio Giorgio Armani RobertaArmani Flavio Cattaneo Guido Torlonia Roberto D'Antonio Aurelio De Laurentiis Roberto D'Agostino un ringraziamento particolare a Giulio Brogi. Antonello Venditti, Claudio Vecchio, Fiammetta Baralla gli abiti indossati dal signor Toni Servillo sono stati realizzati da Cesare Attolini la signora Sabrina Ferilliindossa abiti Laura Biagiotti film realizzato in associazione con Biscottificio Verona S.r.I. ai sensi delle norme sul Tax Credit siringraziano",
+          "ocr_bbox": [
+            484,
+            214,
+            880,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_013_num10879_sim91.jpg",
+          "frame_num": 10879,
+          "ocr_text": "Paolo Sorrentino ringrazia DanielaD'Antonio Giorgio Armani Roberta Armani Flavio Cattaneo Guido Torlonia Roberto D'Antonio Aurelio De Laurentiis Roberto D'Agostino un ringraziamento particolare a Giulio Brogi. Antonello Venditti, Claudio Vecchio, Fiammetta Baralla gli abiti indossati dal signor Toni Servillo sono stati realizzati da Cesare Attolini Ja signora Sabrina Ferilliindossa abiti Laura Biagiotti film realizzato in associazione con Biscottificio Verona S.r.l.ai sensi delle norme sul Tax Credit si ringraziano K GinefinanceAndreaZoso e Bruno della Ragione",
+          "ocr_bbox": [
+            483,
+            191,
+            880,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_014_num10903_sim84.jpg",
+          "frame_num": 10903,
+          "ocr_text": "Paolo Sorrentino ringrazia Danicla D'Antonio Giorgio Armani Roberta Armani Flavio Cattaneo Guido Torlonia Roberto D'Antonio Aurelio De Laurentiis Roberto D'Agostino un ringraziamento particolare a Giulio Brogi, Antonello Venditti Claudio Vecchio, Fiammetta Baralla gli abiti indossati dal signor Toni Servillo sono stati realizzati da Cesare Antolini la signora Sabrina Ferilliindossa abiti Laura Biagiotti film realizzato in associazione con Biscottificio Verona S.r.l. ai sensi delle norme sul Tax Credit si ringraziano Cinefinance-AndreaZoso e Bruno dellaRagione Alberto Baldini. Luca Giordano, Roberto Camba, Giuseppe Arnone, Anna Lazzari. Riccardo Favato ACONDROPLASJA Insieme Per Crescere Associazione ONLUS",
+          "ocr_bbox": [
+            443,
+            139,
+            921,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_015_num10915_sim91.jpg",
+          "frame_num": 10915,
+          "ocr_text": "PaoloSorrentino ringrazia DanielaD'Antonio Giorgio Armani Roberta Armani Flavio Cattaneo Guido Torlonia Roberto D'Antonio Aurelio De Laurentiis Roberto D'Agostino un ringraziamento particolare a Giulio Brogi. Antonello Venditti Claudio Vecchio, Fiammetta Baralla gli abitiindossati dal signor Toni Servillo sono stati realizzati da Cesare Attolini la signora Sabrina Ferilli indossa abiti Laura Biagiotti film realizzato in associazione con Biscottificio Verona S.r.I. ai sensi delle norme sul Tax Credit si ringraziano Cinefinance Andrea Zoso e Bruno della Ragione Alberto Baldini, Luca Giordano, Roberto Camba, Giuseppe Arnone, Anna Lazzari, Riccardo Favato ACONDROPLASIA Insieme Per Crescere Associazione ONLUS www.acondroplasia-insiemepercrescere.it",
+          "ocr_bbox": [
+            442,
+            114,
+            922,
+            534
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_016_num10927_sim96.jpg",
+          "frame_num": 10927,
+          "ocr_text": "Paolo Sorrentino ringrazia Danicla D'Antonio Giorgio Armani Roberta Armani Flavio Cattaneo Guido Torlonia Roberto'D'Antonio Aurelio De Laurentifis Roberto D'Agostino un ringraziamento particolare a Giulio Brogi. Antonello Venditti, Claudio Vecchio, Fiammetta Baralla gli abitiindossati dal signor Toni Servillo sono stati realizzati da Cesare Attolini la signora Sabrina Ferilli indossa abiti Laura Biagiotti film realizzato in associazione con Biscottificio Verona S.r.l. ai sensi delle norme sul Tax Credit si ringraziano Cinefinance - Andrea Zoso e Bruno della Ragione Alberto Baldini, Luca Giordano, Roberto Camba, Giuseppe Arnone, Anna Lazzari, Riccardo Favato ACONDROPLASIA Insieme Per Crescere Associazione ONLUS www.acondroplasia-insiemepercrescere.it siringraziano inoltre",
+          "ocr_bbox": [
+            443,
+            87,
+            922,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_017_num10939_sim92.jpg",
+          "frame_num": 10939,
+          "ocr_text": "Paolo Sorrentino ringrazia Daniela D'Antonio Giorgio Armani Roberta Armani Flavio Cattaneo Guido Torlonia Roberto D' Antonio Aurelio De Laurentiis Roberto D'Agostino un ringraziamento particolare a Giulio Brogi. Antonello Venditti Claudio Vecchio, Fiammetta Barailla gli abiti indossati dal signor Toni Servillo sono stati realizzati da Cesare Antolini la signora Sabrina Ferilli indossa abiti Laura Biagiotti film realizzato in associazione con Biscottificio Verona S.r.l. ai sensi delle norme sul Tax Credit ...siringraziano Cinefinance- Andrea Zoso e Bruno della Ragione Alberto Baldini, Luca Giordano, Roberto Camba, Giuseppe Arnone, Anna Lazzari, Riccardo Favato ACONDROPLASIA Insieme Per Crescere Associazione ONLUS www.acondroplasia-insiemepercrescere.it siringraziano inoltre Ministero ner i Benie le Antivita Cnlturali",
+          "ocr_bbox": [
+            441,
+            59,
+            922,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_018_num10951_sim87.jpg",
+          "frame_num": 10951,
+          "ocr_text": "Paolo Sorrentino ringrazia Daniela D'Antonio Giorgio Armani RobertaArmani Flavio Cattaneo GuidoTorlonia Roberto D'Antonio Aurclio De Laurentiis Roberto D'Agostino un ringraziamentoparticolarea Giulio Brogi, Antonello Venditti, Claudio Vecchio, Fiammetta Baralla gli abiti indossati dal signor Toni Servillo sono stati realizzati da Cesare Anolini la signora Sabrina Ferilli indossa abiti Laura Biagiotti film realizzato in associazione con Biscottificio Verona S.r.I. ai sensi delle norme sul Tax Gredi siringraziano Cinefinance-Andrea Zoso e Bruno della Ragione Alberto Baldini. Luca Giordano, Roberto Camba, Giuseppe Arnone, Anna Lazzari. Riccardo Favato ACONDROPLASIA Insieme Per Crescere Associazione ONLUS www.acondroplasia-insiemepercrescere.it si ringraziano inoltre Ministero per i Benie le Attivita Culturali Comune di Roma Gabinetto del Sindaco di Roma Capitale",
+          "ocr_bbox": [
+            443,
+            35,
+            921,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_019_num10963_sim91.jpg",
+          "frame_num": 10963,
+          "ocr_text": "Paolo Sorrentino ringrazia DanielaD'Antonio Giorgio Armani Roberta Armani Flavio Cattaneo Guido Torlonia Roberto D'Antonio Aurelio De Laurentiis Roberto D'Agostino un ringraziamento particolare a Giulio Brogi. Antonello Venditfi, Claudio Vecchio, Fiammetta Baralla gli abiti indossati dal signor Toni Servillo sono stati realizzati da Cesare Antolini la signora Sabrina Ferilli indossa abiti Laura Biagiotti film realizzato in associazione con Biscottificio Verona S.r.l. ai sensi delle norme sul Tax Credit si ringraziano Cinefinance Andrea Zoso e Bruno della Ragione Alberto Baldini, Luca Giordano, Roberto Camba, Giuseppe Arnone, Anna Lazzari, Riccardo Favato ACONDROPLASIA Insieme Per Crescere Associazione ONLUS www.acondroplasia-insiemepercrescere.it siringraziano inoltre Ministero per i Beni e le Attivita Culturali Comune di Roma Gabinetto del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenzaai Beni Culturalidi Roma Canitale",
+          "ocr_bbox": [
+            440,
+            10,
+            923,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_020_num10975_sim90.jpg",
+          "frame_num": 10975,
+          "ocr_text": "Daniela D'Antonio Giorgio Armani Roberta Armani Flavio Cattaneo Guido Torlonia Roberto D'Antonio Aurelio De Laurentiis Roberto D'Agostino un ringraziamento particolare a Giulio Brogi. Antonello Venditti, Claudio Vecchio, Fiammetta Baralla gliabitiindossati dal signor Toni Servillosono statirealizzati daCesare Antolini la signora Sabrina Ferilli indossa abiti Laura Biagiotti film realizzato in associazione con Biscottificio Verona S.r.I. ai sensi delle norme sul Tax Credit siringraziano Cinefinance-AndreaZoso e Bruno della Ragione Alberto Baldini, Luca Giordano, Roberto Camba, Giuseppe Arnone, Anna Lazzari. Riccardo Favato ACONDROPLASIA Insieme Per Crescere Associazione ONLUS www.acondroplasia-insiemepercrescere.it si ringraziano inoltre Ministero per i Beni e le Attivita Culturali Comune di Roma Gabinetto del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenza ai Beni Culturali di Roma Capitale Sopraintendenza per i Beni Architettonici e Paesaggistici per il Comune di Roma",
+          "ocr_bbox": [
+            444,
+            11,
+            922,
+            535
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_021_num10987_sim82.jpg",
+          "frame_num": 10987,
+          "ocr_text": "Giorgio Armani RobertaArmani Flavio Cattaneo GuidoTorlonia Roberto D'Antonio Aurelio De Laurentiis Roberto D'Agostino un ringraziamento particolare a Giulio Brogi, Antonello Venditti, Claudio Vecchio, Fiammetta Baralla gi abitiindossatidalsignorToniServillosonostatirealizzatidaCesareAnolini la signora Sabrina Ferilliindossaabiti Laura Biagiotti film realizzato in associazione con Biscottificio Verona S.r.I. ai sensi delle normesul TaxCredit si ringraziano Cinefinance-Andrea Zoso e Bruno della Ragione Alberio Baldini, Luca Giordano, Roberto Camba, Giuseppe Arnone, Anna Lazzari, RiccardoFavato ACONDROPLASIAInsieme Per Crescere Associazione ONLUS www.acondroplasia-insiemepercrescere.it si ringraziano inoltre Ministero per i Beni e le Attivita Culturali Comune di Roma Gabinetto del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenza ai Beni Culturali di Roma Capitale Sopraintendenza per i Beni Architettonici e Paesaggistici per il Comune di Roma Soprintendenza Speciale PSAE e Polo Museale della Citta di Roma II Segretario Generale della Giustizia Amministrativa",
+          "ocr_bbox": [
+            442,
+            0,
+            923,
+            535
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_022_num10999_sim81.jpg",
+          "frame_num": 10999,
+          "ocr_text": "Flavio Cattaneo GuidoTorlonia Roberto D'Antonio Aurelio De Laurentis Roberto D'Agostino un ringraziamento particolare a Giulio Brogi. Antonello Venditti, Claudio Vecchio, Fiammetta Baralla gliabitiindossati dalsignor Toni Servillosono stati realizzati da Cesare Attolini lasignora'SabrinaFerilliindossaabitiLauraBiagiotti film realizzatoinassociazione.con Biscottificio Verona S.r.I. ai sensi delle normesul Tax Credit si ringraziano Cinefinance-Andrea Zoso e Bruno della Ragione Alberto Baldini, Luca Giordano, Roberto Camba, Giuseppe Arnone, Anna Lazzari, Riccardo Favato ACONDROPLASIA Insieme Per Crescere Associazione ONLUS www.acondroplasia-insiemepercrescere.it siringraziano inoltre Ministero per i Benie le Attivita Culturali Comune di Roma Gabinetto del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenza ai Beni Culturali di Roma Capitale Sopraintendenza per i Beni Architettonici e Paesaggistici per il Comune di Roma Soprintendenza Speciale PSAE e Polo Museale della Citta di Roma I Segretario Generale della Giustizia Amministrativa L'Acad\u00e9mie de France \u00e0 Rome Sopraintendenza per i Beni Archeologici dell'Etruria Meridionale",
+          "ocr_bbox": [
+            442,
+            0,
+            923,
+            535
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_023_num11011_sim83.jpg",
+          "frame_num": 11011,
+          "ocr_text": "Roberto D'Antonio Aurelio De Laurentiis Roberto D'Agostino un ringraziamento particolare a Giulio BrogiAntonello Venditti Claudio Vecchio, FiammettaBaralla gliabitiindossati dal signor Toni Servillosono stati realizzati da Cesare Antolini lasignora Sabrina Ferilli indossa abiti Laura Biagiotti film realizzato in associazione con Biscottificio VeronaS.r.l.aisensi dellenormesulTaxCredit siringraziano Cinefinance AndreaZoso eBruno della Ragione Alberto Baldini, Luca Giordano, Roberto Camba, Giuseppe Arnone, Anna Lazzari, Riccardo Favato ACONDROPLASIA Insieme Per Crescere Associazione ONLUS www.acondroplasia-insiemepercrescere.it siringraziano inoltre Ministero per i Beni e le Attivita Culturali Comune di Roma Gabinetto del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenza ai Beni Culturali di Roma Capitale Sopraintendenza per i Beni Architettonici e Paesaggistici per il Comune di Roma Soprintendenza Speciale PSAE e Polo Museale della Citta di Roma I Segretario Generale della Giustizia Amministrativa L'Acad\u00e9mie de France \u00e0 Rome Sopraintendenza per i Beni Archeologici dell'Etruria Meridionale Real Academia de Espana en Roma Stato Maggiore Esercito VI Reggimento Genio Pionieri di Roma",
+          "ocr_bbox": [
+            443,
+            0,
+            922,
+            536
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_024_num11023_sim87.jpg",
+          "frame_num": 11023,
+          "ocr_text": "RobertoD'Agostino un ringraziamento particolare a Giulio Brogi, Antonello Venditfi, Claudio Vecchio, Fiammetta Baralla gliabitiindossatidal signor Toni Servillosono stati realizzati da Cesare Anolini Iasignora Sabrina Ferilli indossa abiti Laura Biagiomi filmrealizzato in associazione con Biscottificio Verona S.rl.aisensidelle normesul Tax Credit siringraziano Cinefinance-Andrea Zoso e Bruno della Ragione Alberto Baldini, Luca Giordano, Roberto Camba, Giuseppe Arnone, Anna Lazzari, Riccardo Favato ACONDROPLASIAInsieme Per Crescere Associazione ONLUS www.acondroplasia-insiemepercrescere.it siringraziano inoltre Ministero per i Beni e le Attivita Culturali Comune di Roma Gabinetto del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenza ai Beni Culturali di Roma Capitale Sopraintendenza per i Beni Architettonici e Paesaggistici per il Comune di Roma Soprintendenza Speciale PSAE e Polo Museale della Citta di Roma I Segretario Generale della Giustizia Amministrativa L'Acad\u00e9mie de France a Rome Sopraintendenza per i Beni Archeologici dell'Etruria Meridionale Real Academia de Espana en Roma Stato Maggiore Esercito- VI Reggimento Genio Pionieri di Roma ARDIS-Azienda Regionale per la Difesa del Suolo Comando provinciale dei Vigili del Fuoco di Roma",
+          "ocr_bbox": [
+            441,
+            0,
+            923,
+            536
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_025_num11035_sim91.jpg",
+          "frame_num": 11035,
+          "ocr_text": "un ringraziamento particolare a Giulio Brogi, Antonello Venditti, Claudio Vecchio, Fiammetta Baralla gliabiti indossati dal signor Toni Servillo sono stati realizzati da Cesare Anolini lasignora SabrinaFerilli indossa abiti Laura Biagiomi filmrealizzato in associazione con Biscottificio Verona Sri. aisensi delle norme sul Tax Credit siringraziano Ginefinance-Andrea Zoso e Bruno della Ragione Alberto Baldini. Luca Giordano, Roberto Camba, Giuseppe Arnone, Anna Lazzari, Riccardo Favato ACONDROPLASIA Insieme Per Crescere Associazione ONLUS www.acondroplasia-insiemepercrescere.it siringraziano inoltre Ministero per i Beni e le Attivita Culturali Comune di Roma Gabinetto del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenza ai Beni Culturali di Roma Capitale Sopraintendenza per i Beni Architettonici e Paesaggistici per il Comune di Roma Soprintendenza Speciale PSAE e Polo Museale della Citta di Roma II Segretario Generale della Giustizia Amministrativa L'Academie de France a Rome Sopraintendenza per i Beni Archeologici dell'Etruria Meridionale Real Academia de Espana en Roma Stato Maggiore Esercito-VI Reggimento Genio Pionieri di Roma ARDIS-Azienda Regionale per la Difesa del Suolo Comando provinciale dei Vigili del Fuoco di Roma Comune Isola del Giglio Polizia Municipale Isola del Giglio",
+          "ocr_bbox": [
+            443,
+            14,
+            922,
+            537
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_026_num11047_sim91.jpg",
+          "frame_num": 11047,
+          "ocr_text": "Giulio Brogi. Antonello Venditti, Claudio Vecchio, Fiammeita Baralla gli abiti indossati dal signor Toni Servillo sono stati realizzatida Gesare Antolini lasignora SabrinaFerilli indossaabiti Laura Biagiotti filmrealizzatoinassociazionecon Biscottificio VeronaS.r.1.aisensidellenormesulTax Credit si ringraziano Cinefinance-Andrea Zoso e Bruno della Ragione Alberto Baldini, Luca Giordano, Roberto Camba, Giuseppe Arnone, Anna Lazzari. RiccardoFavato ACONDROPLASIA Insieme Per Crescere Associazione ONLUS www.acondroplasia-insiemepercrescere.it siringraziano inoltre Ministero per i Beni e le Attivita Culturali Comune di Roma Gabinetto del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenza ai Beni Culturali di Roma Capitale Sopraintendenza per i Beni Architettonici e Paesaggistici per il Comune di Roma Soprintendenza Speciale PSAE e Polo Museale della Citt\u00e0 di Roma I Segretario Generale della Giustizia Amministrativa L'Academie de France a Rome Sopraintendenza per i Beni Archeologici dell'Etruria Meridionale Real Academia de Espana en Roma Stato Maggiore Esercito- VI Reggimento Genio Pionieri di Roma ARDIS-Azienda Regionale per la Difesa del Suolo Comando provinciale dei Vigili del Fuoco di Roma Comune Isola del Giglio Polizia Municipale Isola del Giglio Parco Nazionale Arcipelago Toscano Pro Loco Isola del Giglio",
+          "ocr_bbox": [
+            441,
+            14,
+            922,
+            537
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_027_num11059_sim87.jpg",
+          "frame_num": 11059,
+          "ocr_text": "gliabiti indossatidal signor ToniServillo sonostati realizzati da Cesare Antolini lasignora SabrinaFerilliindossaabiti Laura Biagiotti filmrealizzatoinassociazione.con BiscottificioVeronaS.rl.aisensidellenormesulTaxCredit siringraziano Cinefinance-AndreaZoso eBruno dellaRagione Alberto Baldini, Luca Giordano, Roberto Camba, Giuseppe Arnone, Anna Lazzari, Riccardo Favato ACONDROPLASIA Insieme Per Crescere Associazione ONLUS www.acondroplasia-insiemepercrescere.it siringraziano inoltre Ministero per i Beni e le Attivita Culturali Comune di Roma Gabinetto del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenza ai Beni Culturali di Roma Capitale Sopraintendenza per i Beni Architettonici e Paesaggistici per il Comune di Roma Soprintendenza Speciale PSAE e Polo Museale della Citta di Roma I Segretario Generale della Giustizia Amministrativa L'Acad\u00e9mie de France \u00e0 Rome Sopraintendenza per i Beni Archeologici dell'Etruria Meridionale Real Academia de Espana en Roma Stato Maggiore Esercito- VI Reggimento Genio Pionieri di Roma ARDIS-Azienda Regionale per la Difesa del Suolo Comando provinciale dei Vigili del Fuoco di Roma Comune Isola del Giglio Polizia Municipale Isola del Giglio Parco Nazionale Arcipelago Toscano Pro Loco Isola del Giglio Ufficio Circondariale Marittimo Porto Santo Stefano-Comandante Giorgia Capozzella INA Assitalia spa",
+          "ocr_bbox": [
+            441,
+            28,
+            922,
+            540
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_028_num11071_sim90.jpg",
+          "frame_num": 11071,
+          "ocr_text": "gliabiti indossati dal signor Toni Servillo sono stati realizzatida Gesare Antolini lasignora SabrinalFerilli indossaabiti Laura Biagiotti film realizzato in associazione con Biscottificio Verona Srai sensi delle norme sul Tax Credit siringraziano Cinefinance-AndreaZosoeBruno dellaRagione Alberto Baldini,Luca Giordano, Roberto Camba, Giuseppe Arnone, Anna Lazzari, Riccardo Favato ACONDROPLASIA Insieme Per Crescere Associazione ONLUS www.acondroplasia-insiemepercrescere.it siringraziano inoltre Ministero per  Beni e le Attivita Culturali Comune di Roma Gabinetto del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenza ai Beni Culturali di Roma Capitale Sopraintendenza per i Beni Architettonicie Paesaggistici per il Comune di Roma Soprintendenza Speciale PSAE e Polo Museale della Citta di Roma II Segretario Generale della Giustizia Amministrativa L'Acad\u00e9mie de France a Rome Sopraintendenza per i Beni Archeologici dell'Etruria Meridionale Real Academia de Espana en Roma Stato Maggiore Esercito VI Reggimento Genio Pionieri di Roma ARDIS- Azienda Regionale per la Difesa del Suolo Comando provinciale dei Vigili del Fuoco di Roma Comune Isola del Giglio Polizia Municipale Isola del Giglio Parco Nazionale Arcipelago Toscano Pro Loco Isola del Giglio Ufficio Circondariale Marittimo Porto Santo Stefano- Comandante Giorgia Capozzella INA Assitalia spa",
+          "ocr_bbox": [
+            442,
+            1,
+            922,
+            514
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_029_num11095_sim80.jpg",
+          "frame_num": 11095,
+          "ocr_text": "BiscottificioVeronaS.rlLaisensidellenormesulTaxCredit siringraziano Ginefinance-AndreaZosoe Bruno dellaRagione Alberio Baldini, Luca Giordano, Roberto Gamba, Giuseppe Arnone, Anna Lazzari, Riccardo Favato ACONDROPLASIAInsiemePerCrescereAssociazioneONLUS wwwacondroplasia-insiemepercrescere.it si ringraziano inoltre Ministero per i Beni e le Attivita Culturali Comune di Roma Gabinetto del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenza ai Beni Culturali di Roma Capitale Sopraintendenza per i Beni Architettonici e Paesaggistici per il Comune di Roma SoprintendenzaSpeciale PSAE e Polo Museale della Citta di Roma I Segretario Generale della Giustizia Amministrativa L'Academie de France \u00e0 Rome Sopraintendenza per i Beni Archeologici dell'Etruria Meridionale Real Academia de Espana en Roma Stato Maggiore Esercito- VI Reggimento Genio Pionieri di Roma ARDIS Azienda Regionale per la Difesa del Suolo Comando provinciale dei Vigili del Fuoco di Roma Comune Isola del Giglio Polizia Municipale Isola del Giglio Parco Nazionale Arcipelago Toscano Pro Loco Isola del Giglio Ufficio Circondariale Marittimo Porto Santo Stefano-Comandante Giorgia Capozzella INA Assitalia spa IED-Istituto Europeo di Design Condominio Piazza del Colosseo n. 9-Roma Le riprese nel Museo Nazionale Romano Palazzo Altemps e nelle Terme di Caracalla sono state realizzate su concessione del Ministero per i Beni e le Attivita Culturali",
+          "ocr_bbox": [
+            442,
+            3,
+            922,
+            538
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_030_num11131_sim87.jpg",
+          "frame_num": 11131,
+          "ocr_text": "Alberto Baldini, Luca Giordano, Roberito Gamba, Giuseppe Armone, Anna Lazzari, Riccardo Favato ACONDROPLASIA Insieme Per Crescere Associazione ONLUS wwwacondroplasia-insiemepercrescere.it Siringraziano inoltre Ministero peri Beni e le Attivita Culturali Comune di Roma Gabinetto del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenza ai Beni Culturali di Roma Capitale Sopraintendenza per i Beni Architettonici e Paesaggistici per il Comune di Roma Soprintendenza Speciale PSAE e Polo Museale della Citta di Roma II Segretario Generale della Giustizia Amministrativa L'Acad\u00e9mie de France \u00e0 Rome Sopraintendenza per i Beni Archeologici dell'Etruria Meridionale Real Academia de Espana en Roma Stato Maggiore Esercito-VI Reggimento Genio Pionieri di Roma ARDIS-Azienda Regionale per la Difesa del Suolo Comando provinciale dei Vigili del Fuoco di Roma Comune Isola del Giglio Polizia Municipale Isola del Giglio Parco Nazionale Arcipelago Toscano Pro Loco Isola del Giglio Ufficio Circondariale Marittimo Porto Santo Stefano- Comandante Giorgia Capozzella INA Assitalia spa IED-Istituto Europeo di Design Condominio Piazza del Colosseo n. 9-Roma Le riprese nel Museo Nazionale Romano Palazzo Altemps e nelle Terme di Caracalla sono state realizzate su concessione del Ministero per i Beni e le Attivita Culturali Sopraintendenza Speciale per i Beni Archeologici di Roma Caffe Toraldo, Citroen Italia, Renault Italia. Jaguar, Land Rover Italia spa. Toremar. Eurotravel Bus Service",
+          "ocr_bbox": [
+            442,
+            13,
+            923,
+            527
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_031_num11143_sim91.jpg",
+          "frame_num": 11143,
+          "ocr_text": "ACONDROPLASIAinsieme Per Crescere Associazione ONLUS wwwacondroplasia-insiemepercrescere.it siringraziano inoltre Ministero peri Beniele Antivita Culturali Comune diRoma Gabinetto del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenzaai Beni Culturalidi Roma Capitale Sopraintendenza per i Bemi Architettonici e Paesaggistici per il Comune di Roma Soprintendenza Speciale PSAE e Polo Museale della Citta di Roma I Segretario Generale della Giustizia Amministrativa L'Academie de France \u00e0 Rome Sopraintendenza per i Beni Archeologici dell'Etruria Meridionale Real Academia de Espana en Roma Stato Maggiore Esercito- VI Reggimento Genio Pionieri di Roma ARDIS- Azienda Regionale per la Difesa del Suolo Comando provinciale dei Vigili del Fuoco di Roma Comune Isola del Giglio Polizia Municipale Isola del Giglio Parco Nazionale Arcipelago Toscano Pro Loco Isola del Giglio Ufficio Circondariale Marittimo Porto Santo Stefano-Comandante Giorgia Capozzella INA Assitalia spa IED-Istituto Europeo di Design Condominio Piazza del Colosseo n. 9-Roma Le riprese nel Museo Nazionale Romano Palazzo Altemps e nelle Terme di Caracalla sono state realizzate su concessione del Ministero per i Beni e le Attivita Culturali Sopraintendenza Speciale per i Beni Archeologici di Roma Caffe Toraldo, Citroen Italia, Renault Italia. Jaguar, Land Rover Italia spa. Toremar Eurotravel Bus Service Salvo Nastasi, Ilma Caccavale, Luigi Caputo, Francesca Casarola, Salvatore D'Amico. Andrea De Cristofaro.",
+          "ocr_bbox": [
+            420,
+            15,
+            942,
+            540
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_032_num11155_sim87.jpg",
+          "frame_num": 11155,
+          "ocr_text": "www,acondroplasia-insiemepercrescere.it Siringraziano inolitre Ministero peri Beni e le Antivita Culturali ComunedijRoma Gabinento del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenza ai Beni Culturalidi Roma Capitale Sopraintendenzaperi Beni Architettonicie Paesaggistici per il Comune di Roma Soprintendenza Speciale PSAE e Polo Museale della Gitta di Roma I Segretario Generaledella Giustizia Amministrativa L'Acad\u00e9mie de France \u00e0 Rome Sopraintendenza per i Beni ArcheologicidellEtruriaMeridionale Real Academia de Espana en Roma Stato Maggiore Esercito VI Reggimento Genio Pionieri di Roma ARDIS- Azienda Regionale per la Difesa del Suolo Comando provinciale dei Vigili del Fuoco di Roma Comune Isola del Giglio Polizia Municipale Isola del Giglio Parco Nazionale Arcipelago Toscano Pro'Loco Isola del Giglio Ufficio Circondariale Marittimo Porto Santo Stefano- Comandante Giorgia Capozzella INA Assitalia spa IED Istituto Europeo di Design Condominio Piazza del Colosseo n. 9-Roma Le riprese nel Museo Nazionale Romano Palazzo Altemps e nelle Terme di Caracalla Sopraintendenza Speciale per i Beni Archeologici di Roma Caffe Toraldo, Citroen Italia, Renault Italia. Jaguar, Land Rover Italia spa. Toremar, Eurotravel Bus Service Salvo Nastasi. Ilma Caccavale, Luigi Caputo, Francesca Casarola. Salvatore D'Amico, Andrea De Cristofaro. Franca De Monti, Marchese Alvise Di Canossa, Nello D'Isa. Diego Esposito, Marisela Federici Stefano Fregni, I Romans, Gina Magnani, Andrea Maguolo, Leo Mantovani, Giuseppe Modesti",
+          "ocr_bbox": [
+            420,
+            6,
+            943,
+            540
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_033_num11167_sim87.jpg",
+          "frame_num": 11167,
+          "ocr_text": "siringraziano inolire Ministero peri Beni cle Antivita Culturali ComunediRoma Gabinento del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenzaai Beni Culturalidi RomaCapitale Sopraintendenza per i Beni Architettonicie Paesaggistici per il Comune di Roma SoprintendenzaSpeciale PSAE e Polo Musealedella Citta di Roma I Segretario Generaledella Giustizia Amministrativa L'AcademiedeFranceA Rome Sopraintendenzaperi BeniArcheologicidell'Etruria Meridionale Real Academia de Espana en Roma Stato Maggiore Esercito-VI Reggimento Genio Pionieri di Roma ARDIS - Azienda Regionale per la Difesa del Suolo Comando provinciale dei Vigili del Fuoco di Roma Comune Isola del Giglio Polizia Municipale Isola del Giglio Parco Nazionale Arcipelago Toscano Pro Loco Isola del Giglio Ufficio Circondariale Marittimo Porto Santo Stefano-Comandante Giorgia Capozzella INA Assitalia spa IED- Istituto Europeo di Design Condominio Piazza del Colosseo n 9 Roma Le riprese nel Museo Nazionale Romano Palazzo Altemps e nelle Terme di Caracalla sono state realizzate su concessione del Ministero per i Beni e le Attivita Culturali Sopraintendenza Speciale per i Beni Archeologici di Roma Caffe Toraldo, Citroen Italia, Renault Italia. Jaguar, Land Rover Italia spa. Toremar, Eurotravel Bus Service Salvo Nastasi, Ilma Caccavale, Luigi Caputo, Francesca Casarola. Salvatore D'Amico, Andrea De Cristofaro. Franca De Monti, Marchese Alvise Di Canossa, Nello D'Isa. Diego Esposito, Marisela Federici Stefano Fregni. I Romans, Gina Magnani, Andrea Maguolo, Leo Mantovani, Giuseppe Modesti. Gianni Narducci, Laura Novali per Ferretti Group, dott.ssa Patrizia Pavone, Mauro Pretti. Francesco Serra Di Cassano",
+          "ocr_bbox": [
+            392,
+            15,
+            972,
+            527
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_034_num11191_sim89.jpg",
+          "frame_num": 11191,
+          "ocr_text": "ComunediRoma Gabinetto del Sindaco di Roma Capitale Polizia di Roma Capitale Sovraintendenza ai Beni Culturali di Roma Capitale Sopraintendenzaperi Beni ArchitettoniciePaesaggistici peril Comunedi Roma Soprintendenza Speciale PSAE e Polo Musealedella Citta di Roma I Segretario Generale della Giustizia Amministrativa L'AcademiedeFranceARome Sopraintendenza periBeniArcheologicidelrEtruriaMeridionale RealAcademiadeEspanaen Roma Stato Maggiore Esercito-V Reggimento Genio Pionieri di Roma ARDISAzienda Regionale per la Difesa del Suolo Comando provinciale dei Vigilidel Fuoco di Roma Comune Isola del Giglio Polizia Municipale Isola del Giglio Parco Nazionale Arcipelago Toscano Pro Loco Isola del Giglio Ufficio Circondariale Marittimo Porto Santo Stefano-Comandante Giorgia Capozzella INA Assitalia spa IED- Istituto Europeo di Design Condominio Piazza del Colosseo n. 9-Roma Le riprese nel Museo Nazionale Romano Palazzo Altemps e nelle Terme di Caracalla sono state realizzate su concessione del Ministero per i Beni e le Attivita Culturali Sopraintendenza Speciale peri Beni Archeologici di Roma Caffe Toraldo, Citroen Italia, Renault Italia, Jaguar, Land Rover Italia spa. Toremar. Eurotravel Bus Service Salvo Nastasi. Ilma Caccavale, Luigi Caputo, Francesca Casarola, Salvatore D'Amico, Andrea De Cristofaro. Franca De Monti, Marchese Alvise Di Canossa, Nello D'lsa. Diego Esposito, Marisela Federici Stefano Fregni I Romans, Gina Magnani, Andrea Maguolo, Leo Mantovani, Giuseppe Modesti. Gianni Narducci, Laura Novali per Ferretti Group, dott.ssa Patrizia Pavone, Mauro Pretti, Francesco Serra Di Cassano pericostumi Gaga Altieri. Boglioli Colmar. Lisa Corti. Cravatte Tino Cosma, Dusan. Gallo, Gucci. Historic Research.",
+          "ocr_bbox": [
+            393,
+            6,
+            972,
+            541
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_035_num11203_sim81.jpg",
+          "frame_num": 11203,
+          "ocr_text": "Polizia di Roma Capitale Sovraintendenzaai BeniCulturalidiRoma Capitale Sopraintendenza peri Beni Architettonicie Paesaggistici per il Comune di Roma SoprintendenzaSpecialePSAEePoloMusealedella GittadiRoma I Segretario Generaledella GiustiziaAmministrativa L'Academie de France A Rome Sopraintendenza peri Beni Archeologicidell-EtruriaMeridionale Real Academiiade Espanaen Roma Stato Maggiore Esercito-VReggimento Genio Pionieri di Roma ARDIS-Azienda Regionale per la Difesa del Suolo Comando provinciale dei Vigili del Fuoco di Roma Comune Isola del Giglio Polizia Municipale Isola del Giglio Pro Loco Isola del Giglio Ufficio Circondariale Marittimo Porto Santo Stefano-Comandante Giorgia Capozzella INA Assitalia spa IED-Istituto Europeo di Design Le riprese nel Museo Nazionale Romano Palazzo Altemps e nelle Terme di Caracalla sono state realizzate su concessione del Ministero per i Beni e le Altivita Culturali Sopraintendenza Speciale per i Beni Archeologici di Roma Caffe Toraldo, Citroen Italia, Renault Italia, Jaguar, Land Rover Italia spa. Toremar, Eurotravel Bus Service Salvo Nastasi, Ilma Caccavale, Luigi Caputo, Francesca Casarola, Salvatore D'Amico. Andrea De Cristofaro. Franca De Monti, Marchese Alvise Di Canossa, Nello D'Isa, Diego Esposito, Marisela Federici Stefano Fregni, I Romans, Gina Magnani, Andrea Maguolo, Leo Mantovani, Giuseppe Modesti Gianni Narducci, Laura Novali per Ferretti Group, dott.ssa Patrizia Pavone, Mauro Pretti, Francesco Serra Di Cassano Gaga Altieri, Boglioli, Colmar, Lisa Corti, Cravatte Tino Cosma, Dusan, Gallo, Gucci, Historic Research. Hogan, Grazia Lotti, Luxottica. Angelo Marani, Cappelli Marzi Firenze, Martino Midali srl. Panizza Cappelli, Per te by Kryzia, La Maison Franco Pianegonda srl, Lorenzo Riva, Todd's.",
+          "ocr_bbox": [
+            392,
+            7,
+            974,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_036_num11215_sim87.jpg",
+          "frame_num": 11215,
+          "ocr_text": "Sopraintendenza peri Beni Architettonici e Paesaggistici per il Comune di Roma Soprintendenza Speciale PSAE e Polo Museale della Cinta di Roma  Segretario Generale della Giustizia Amministrativa L'Academiede FranceARome Sopraintendenza per i Beni Archeologici dellEtruria Meridionale Real Academiade Espana en Roma StatoMaggiore Esercito-Vl Reggimento Genio Pionieridi Roma ARDIS-Azienda Regionale per la Difesadel Suolo Comando provinciale dei Vigili del Fuoco di Roma Comune Isola del Ciglio Polizia Municipale Isola del Giglio Parco Nazionale Arcipelago Toscano Pro Loco Isola del Giglio Ufficio Circondariale Marittimo Porto Santo Stefano-Comandante Giorgia Capozzella INAAssitalia spa IED= Istituto Europeo di Design Condominio Piazza del Colosseo n. 9 Roma Le riprese nel Museo Nazionale Romano Palazzo Altemps e nelle Terme di Caracalla sono state realizzate su'concessione del Ministero per i Beni e le Attivita Culturali Sopraintendenza Speciale per i Beni Archeologici di Roma Caffe Toraldo, Gitroen Italia, Renault Italia. Jaguar, Land Rover Italia spa Toremar. Eurotravel Bus Service Salvo Nastasi Ilma Caccavale, Luigi Caputo, Francesca Casarola, Salvatore D'Amico, Andrea De Cristofaro Franca De Monti, Marchese Alvise Di Canossa, Nello D'lsa. Diego Esposito, Marisela Federici Stefano Fregni. I Romans, Gina Magnani. Andrea Maguolo, Leo Mantovani. Giuseppe Modesti Gianni Narducci, Laura Novali per Ferretti Group, dott.ssa Patrizia Pavone, Mauro Pretti. Francesco Serra Di Cassano pericostumi Gaga Altieri. Boglioli, Colmar. Lisa Corti Cravatte Tino Cosma. Dusan, Gallo, Gucci, Historic Research. Hogan, Grazia Lotti, Luxottica. Angelo Marani, Cappelli Marzi Firenze, Martino Midali srl. Panizza Cappelli. Per te by Kryzia, La Maison Franco Pianegonda srl, Lorenzo Riva, Todd's, www.cellispose.com",
+          "ocr_bbox": [
+            393,
+            4,
+            972,
+            529
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_037_num11251_sim78.jpg",
+          "frame_num": 11251,
+          "ocr_text": "RealAcademiadeEspanaenikoma Stato Maggiore Esercito-VReggimento Genio Pionieridi Roma ARDIS-Azienda Regionale per Ia Difesa del Suolo Comando provinciale dei Vigili del Fuoco di Roma Gomune Isola del Giglio Polizia Municipale Isola del Giglio ParcoNazionaleArcipelagoToscano Pro Loco Isola del Giglio Ufficio Circondariale Marittimo Porto Santo Stefano- Comandante Giorgia Capozzella INAAssitalia spa IED-Istituto Europeo di Design CondominioPiazzadelColosseo n.9-Roma Le ripresenel Museo Nazionale Romano Palazzo Altemps e nelle Terme di Caracalla Sono staterealizzate su concessione del Ministero per i Beni e le Attivita Culturali Sopraintendenza Specialeperi BeniArcheologicidi Roma Caffe Toraldo, Citroen Italia, Renaulh Italia Jaguar. Land Rover Italia spa Toremar, Eurotravel Bus Service Salvo Nastasi, Ilma Caccavale, Luigi Caputo. Francesca Casarola, Salvatore D'Amico, Andrea De Cristofaro Franca De Monti, Marchese Alvise Di Canossa, Nello D'sa. Diego Esposito. Marisela Federici Stefano Fregni I Romans, Gina Magnani. Andrea Maguolo, Leo Mantovani. Giuseppe Modesti. Gianni Narducci, Laura Novali per Ferretti Group, dott.ssa Patrizia Pavone, Mauro Pretti. Francesco Serra Di Cassano pericostumi Gaga Altieri, Boglioli Colmar. Lisa Corti Cravatte Tino Cosma, Dusan. Gallo, Gucci, Historic Research. Hogan, Grazia Lotti, Luxottica. Angelo Marani, Cappelli Marzi Firenze, Martino Midali srl. Panizza Cappelli. Per te by Kryzia, La Maison Franco Pianegonda srl. Lorenzo Riva, Todd's. www.cellispose.com per la scenografia Alessi. Alpitour, Apple Inc. Altai, Lampade Artemide, Bellaria Design, Bose, Brandani Gift Group. Broggi 1818. Campeggi srl. Leonardo Cruciano, Declercq Mobilier, Dedar tessuti per arredamento, carte da parati. passamanerie, Eter-Biometric Tecnologies-Sistemi biometrici di controllo accessi e apparati di sicurezza elettronici.",
+          "ocr_bbox": [
+            392,
+            0,
+            972,
+            542
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_038_num11263_sim87.jpg",
+          "frame_num": 11263,
+          "ocr_text": "Comando provinciale dei Vigili del Fuoco di Roma Comune Isola del Giglio Polizia Municipale lsoladel Giglio ParcoNazionaleArcipelagoToscano Pro Loco Isola del Giglio Ufficio Circondariale Marittimo Porto Santo Stefano- Comandante Giorgia Capozzella INAAssitaliaspa IED-Istituto Europeo di Design Condominio Piazzadel Colosseo n. 9-Roma Letipresenel Museo Nazionale Romano Palazzo Altemps e nelle Terme di Caracalla sono staterealizzatesu concessione del Ministero per i Beni e le Attivita Culturali SopraintendenzaSpecialeperiBeni Archeologici di Roma Caffe Toraldo Citroen Italia, Renault Italia, Jaguar Land Rover Italia spa. Toremar, Eurotravel Bus Service Salvo Nastasi, Ilma Caccavale, Luigi Caputo, Francesca Casarola, Salvatore D'Amico, Andrea De Cristofaro, Franca De Monti, Marchese Alvise Di Canossa, Nello D'Isa. Diego Esposito, Marisela Federici. Stefano Fregni, I Romans, Gina Magnani, Andrea Maguolo, Leo Mantovani, Giuseppe Modesti Gianni Narducci, Laura Novali per Ferretti Group, dott.ssa Patrizia Pavone, Mauro Pretti. Francesco Serra Di Cassano pericostumi Gaga Altieri, Boglioli, Colmar, Lisa Corti, Cravatte Tino Cosma, Dusan, Gallo, Gucci, Historic Research. Hogan, Grazia Lotti, Luxottica, Angelo Marani, Cappelli Marzi Firenze, Martino Midali srl. Panizza Cappelli, Per te by Kryzia, La Maison Franco Pianegonda srl. Lorenzo Riva, Todd's. www.cellispose.com perlascenografia Alessi. Alpitour. Apple Inc. Altai. Lampade Ariemide, Bellaria Design. Bose, Brandani Gift Group. Broggi 1818. Campeggi sri. Leonardo Cruciano, Declercq Mobilier, Dedar tessuti per arredamento, carte da parati. passamanerie. Eter-Biometric Tecnologies Sistemi biometrici di controllo accessi e apparati di sicurezza elettronici. Flos, Foscarini, FP Group, Gervasoni spa, Meeting Chairs- design Laurence Humier, Messulam, Obor. Society, Ceramica Artistica Solimene Vincenzo srl. Trudi spa. Unopiu.",
+          "ocr_bbox": [
+            393,
+            8,
+            972,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_039_num11287_sim86.jpg",
+          "frame_num": 11287,
+          "ocr_text": "ParcoNaztonaleArcibelagoioscano Pro Loco Isola del Giglio Ufficio Circondariale Marittimo Porto Santo Stefano-Comandante Giorgia Gapozzella INAAssitaliaspa IED-Istituto Europeo di Design CondominioPiazzadelColosseon.9-Roma Leriprese nel Museo Nazionale Romano Palazzo Altemps e nelle Terme di Caracalla Sono state realizzate su concessione del Ministero per i Benie le Altivita Culturali Sopraintendenza Specialeperi BeniArcheologici di Roma Caffe Toraldo, Citroen ltalia, Renault Italia, Jaguar, Land Rover Italia spa. Toremar, Eurotravel Bus Service Salvo Nastasi, lma Caccavale, Luigi Caputo, Francesca Casarola, Salvatore D'Amico. Andrea De Cristofaro, Franca De Monti, Marchese Alvise Di Canossa, Nello D'isa. Diego Esposito, Marisela Federici. Stefano Fregni. I Romans, GinaMagnanil, Andrea Maguolo, Leo Mantovani. Giuseppe Modesti Gianni Narducci, Laura Novali per Ferretti Group, dott:ssa Patrizia Pavone, Mauro Pretti. Francesco Serra Di Cassano pericostumi Gaga Altieri, Boglioli, Colmar, Lisa Corti. Cravatte Tino Cosma, Dusan. Gallo, Gucci, Historic Research. Hogan, Grazia Loiti, Luxottica, Angelo Marani, Cappelli Marzi Firenze, Martino Midali srl. Panizza Cappelli, Per te by Kryzia. La Maison Franco Pianegonda srl, Lorenzo Riva, Todd's. www.cellispose.com per lascenografia Alessi. Alpitour. Apple Inc., Altai. Lampade Artemide, Bellaria Design. Bose, Brandani Gift Group, Broggi 1818. Campeggi srl Leonardo Cruciano, Declercq Mobilier, Dedar tessuti per arredamento, carte da parati. passamanerie. Eter Biometric Tecnologies-Sistemi biometrici di controllo accessie apparati di sicurezza elettronici. Flos, Foscarini. FP Group, Gervasoni spa, Meeting Chairs-design Laurence Humier, Messulam, Obor. Society Ceramica Artistica Solimene Vincenzo srl. Trudi spa, Unopiu. Corpi IluminantiViabizzuno Viabizzuno Villeroy &Boch. Adelphi Edizioni, Umberto Allemandi & C., Giulio Einaudi Editore, Skira Editore spa",
+          "ocr_bbox": [
+            393,
+            1,
+            972,
+            528
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_040_num11323_sim82.jpg",
+          "frame_num": 11323,
+          "ocr_text": "TED-IstitutoEuropeodiDesign Condominio Piazzadel Colosseo n. \u2468-Roma Leriprese nel Museo Nazionale Romano Palazzo Altemps enelle Terme di Garacalla Sono state realizzate su concessione del Ministero peri Benie le Attivita Culturali SopraintendenzaSpecialeperiBeniArcheologicidiRoma Gaffe Toraldo, Gitroen Italia, Renault Italia, Jaguar,Land Roveritaliaspa. Toremar, Eurotravel Bus Service Salvo Nastasi. Ilma Caccavale, Luigi Caputo, FrancescaCasarola, Salvatore D'Amico, Andrea De Cristofaro, Franca De Monti Marchese Alvise Di Canossa, Nello D'isa. Diego Esposito, Marisela Federici. Stefano Fregni, IRomans, GinaMagnani, AndreaMaguolo, Leo Mantovani. Giuseppe Modesti. Gianni Narducci, Laura Novali per Ferretti Group, dottissa Patrizia Pavone, Mauro Pretti, Francesco Serra Di Cassano pericostumi Gaga Alfieri, Boglioli, Colmar,LisaCorfi, Cravaite Tino Cosma,Dusan. Gallo, Gucci Historic Research. Hogan, Grazia Lotti, Luxottica. Angelo Marani, Cappelli Marzi Firenze, Martino Midali srl Panizza Cappelli, Perte by Kryzia, LaMaison Franco Pianegonda srl. Lorenzo Riva, Todd's. www.cellispose.com perlascenografia Alessi, Alpitour. Apple Inc., Altai, Lampade Artemide, Bellaria Design. Bose, Brandani Gift Group. Broggi 1818 Campeggi srl. Leonardo Cruciano, Declercq Mobilier, Dedar tessuti per arredamento, carte da parati. passamanerie. Eter Biometric Tecnologies Sistemi biometrici di controllo accessie apparati di sicurezza elettronici. Flos, Foscarini, FP Group, Gervasoni spa, Meeting Chairs-design Laurence Humier, Messulam, Obor. Society, Ceramica Artistica Solimene Vincenzo srl, Irudi spa, Unopiu Corpi Illuminanti Viabizzuno Viabizzuno Villeroy & Boch. Adelphi Edizioni, Umberto Allemandi & C. Giulio Einaudi Editore, Skira Editore spa Film realizzato ai sensi delle norme vigenti con il contributo di Banca Popolare di Vicenza, Sisley, Sanpellegrino consulenza product placement di Pch Media di Chiara Telarucci",
+          "ocr_bbox": [
+            391,
+            0,
+            973,
+            540
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_041_num11359_sim72.jpg",
+          "frame_num": 11359,
+          "ocr_text": "Caffe Torsldo, Citroen Italia, RenaultItalia, Jaguar,Land Rover Italiaspa, Salvo Nastasi, lma Caccavale, Lungi Caputo, Francesca Casarola, Salvatore D'Amico, Andrea De Gristofaro, Franca De Monti, Marchese Alvise Di Canossa, Nello D'lsa, Diego Esposito, Marisela Federici, Stefano Eregni, URomans, GinaMagnanil, Andrea Maguolo, Leo Mantovani, Giuseppe Modesti GianniNarducci, LauraNovali per Ferretti Group,dottissa Patrizia Pavone, Mauro Pretti, Francesco Serra Di Cassano Gaga Altieri, Boglioli, Golmar, LisaGorti Gravatte Tino Cosma, Dusan, Gallo, Gucci, Historic Research, Hogan, Grazia Lotti, Luxottica, Angelo Marani, Cappelli Marzi Firenze, Martino Midali srl Panizza Cappelli, Per te by Kryzia, La Maison Franco Pianegonda srl. Lorenzo Riva, Todd's, www.cellispose.com Alessi Alpitour, Apple Inc, Altai Lampade Artemide, Bellaria Design. Bose, Brandani Gift Group. Broggi 1818 Eter-Biometric Tecnologies-Sistemi biometrici di controllo accessie apparati di Sicurezza elettronici. Flos, Foscarini FP Group, Gervasoni spa, Meeting Chairs-design Laurence Humier, Messulam, Obor. Society,Ceramica Artistica Solimene Vincenzo srl, Trudi spa. Unopiu. Corpi lluminanti Viabizzuno Viabizzuno Film realizzato ai sensi delle norme vigenti con il contributo di Banca Popolare di Vicenza, Sisley, Sanpellegrino sceneggiatura tradotta da Martin Maguire per la citazione di",
+          "ocr_bbox": [
+            392,
+            9,
+            974,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_042_num11383_sim77.jpg",
+          "frame_num": 11383,
+          "ocr_text": "Salvo Nastasi, lma Gaccavale,Luigi Caputo, Francesca Casarola, Salvatore D'Amico, Andrea De Gristofaro, Franca De Monti, Marchese Alvise Di Canossa, Sello D'lsa, Diego Esposito, Marisela Federici Stefano Fregni, I Romans, Gina Magnani, Andrea Maguolo, Leo Mantovani Giuseppe Modesti Gianni Narducci, Laura Novali per Ferretti Group, dottssa Patrizia Pavone, Mauro Pretti, Francesco Serra Di Cassano peri costumi Gaga Altieri, Boglioli, @olmar, Lisa Corti, Cravatte Tino Cosma Dusan, Gallo, Gucci, Historic Research. Hogan, Grazia Lontil. Luxottica, Angelo Maranil Cappelli Marzi Firenze, Martino Midali srl. Panizza Cappelli, Perte by Kryzia, La Maison Franco Pianegonda srl. Lorenzo Riva, Todd's. www.cellispose.com perlascenografia Alessi Alpitour, Applelnc, Altai, Lampade Ariemide, Bellaria Design, Bose, Brandani Gift Group, Broggi 1818. Campeggisr Leonardo Cruciano, DeclereqMobilier, Dedar tessuti per arredamento, carte da parati passamanerie Eter Biometric Tecnologies Sistemi biometrici di controllo accessi e apparati di sicurezza elettronici. Flos, Foscarini FP Group, Gervasoni spa, Meeting Chairs-design Laurence Humier. Messulam. Obor. Society. Ceramica Aruistica Solimene Vincenzo srl. Trudi spa, Unopio. Corpi IlluminantiViabizzuno Viabizzuno Villeroy & Boch. Adelphi Edizioni, Umberto Allemandi& C. Giulio Einaudi Editore, Skira Editore spa Film realizzato ai sensi delle norme vigenti con il contributo di Banca Popolare di Vicenza, Sisley, Sanpellegrino consulenza product placement di Pch Media di Chiara Telarucci sceneggiatura tradotta da Martin Maguire per la citazione di -Voyage au bout de la nuit \" di Louis Ferdinand Celine \u00c9ditions Gallimard, 1952 Corbaccio Editore traduzione italiana di Ernesto Ferrero",
+          "ocr_bbox": [
+            392,
+            9,
+            973,
+            542
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_043_num11443_sim71.jpg",
+          "frame_num": 11443,
+          "ocr_text": "Hogan, Grazia Loiti, Luxottica, Angelo Marani, Cappelli Marzi Firenze, Martino Midali srl Panizza Cappelli, Perte by Kryzia, LaMaison Franco Pianegonda srl, Lorenzo Riva, Todd's, www.cellispose.com perlascenografia Alessi, Alpitour, AppleInc, Altai, Lampade Ariemide, Bellaria Design, Bose, Brandani Gift Group, Broggi 1818. Campeggisrl Leonardo Cruciano, Declercq Mobiier, Dedar tessuti perarredamento, carte da parati passamanerie. Eter Biometric Tecnologies-Sistemi biometricidicontrollo accessi@apparati di sicurezza elettronici Flos, Foscarini, FP Group, Gervasonispa, Meeting Chairs-design LaurenceHumier, Messulam, Obor. Society, Ceramica Artistica Solimene Vincenzo srl, Trudispa, Unopiu. Corpi IlluminantiViabizzunoViabizzuno Villeroy\u2467Boch, Adelphi Edizioni, Umberto Allemandi& C, Giulio Einaudi Editore, Skira Editore spa Filmrealizzatoaisensidellenormevigenticonil contributo di BancaPopolare diVicenza,Sisley, Sanpellegrino consulenza product placementdi PchMedia di Chiara Telarucci sceneggiaturatradottada Martin Maguire per la citazione di Voyage au bout de la nuit \" di Louis-Ferdinand Celine \u00c9ditions Gallimard, 1952 Corbaccio Editore traduzione italiana di Ernesto Ferrero il libro Lapparato umano di Jep Gambardella \u00e9da ritenersi funzionale alla storia del film e non \u00e9mai stato pubblicato. Si ringrazia Giulio Einaudi Editore per la collaborazione \"La Fornarina\" di Raffaello Sanzio, per gentile concessione della Soprintendenza Speciale per il Patrimonio Storico, Artistico ed Etnoantropologicoe",
+          "ocr_bbox": [
+            393,
+            0,
+            969,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_044_num11515_sim65.jpg",
+          "frame_num": 11515,
+          "ocr_text": "Corpi Illuminanti Viabizzuno Viabizzuno Villeroy & Boch, Adelphi Edizioni, Umberto Allemandi & C., Giulio Einaudi Editore, Skira Editore spa Filmrealizzato ai Sensi delle norme vigenti con il contributo di BancaPopolare di Vicenza, Sisley, Sanpellegrino consulenzaproducrplacementdiPch MediadiChiaraTelarucci sceneggiaturatradotta daMartinMaguire perlacitazionedi -Voyage au bout de la nuit \"di Louis-Ferdinand Celine Editions Gallimard, 1952 Corbaccio Editore traduzione italianadi ErnestoFerrero il libro\"Lapparatoumano di Jep Gambardella e da ritenersi funzionale alla storia del film enon e mai stato pubblicato. Si ringrazia Giulio Einaudi Editore per la collaborazione 'La Fornarina\"di Raffaello Sanzio. per gentile concessione della Soprintendenza Speciale per il Patrimonio Storico, Artistico ed Etnoantropologico e per il Polo Museale della citta di Roma \"Crocifissione\" di Jacopo da Bassano (1515:1592) Treviso, Museo Civico \u00a9 2O13. Foto Scala, Firenze i dipinto\"Bosco con neve\"e di Luca Pignatelli le opere\"Water Sounds\"e\"Seeps\" sono di Francesco Patriarca",
+          "ocr_bbox": [
+            398,
+            4,
+            966,
+            533
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_045_num11587_sim59.jpg",
+          "frame_num": 11587,
+          "ocr_text": "sceneggiaturatradottada MartinMaguire perla citazionedi -Voyage au boutde lanuit\"diLouis-Ferdinand Celine Editions Gallimard, 1952 Gorbaccio Editore Iraduzione italianadi Ernesto Ferrero i libro Lapparato umano\" dijep Cambardella edaritenersi funzionaleallastoriadelfimenon\u00e9mai statopubblicato. Si ringrazia Giulio Einaudi Editore per la collaborazione \"LaFornarina\"diRaffaelloSanzio, per-gentileconcessione della SoprintendenzaSpeciale peril PatrimonioStorico,Artisticoed Etnoantropologicoe per il Polo Museale della citta di Roma \"Grocifissione\" di Jacopoda Bassano(1515-1592) Treviso, Museo Civico  2O13. Foto Scala, Firenze i dipinto\"Bosco conneve\" di LucaPignatelli le opere\"Water Sounds\"e\"Seeps\" sono di Francesco Patriarca Ritratto di donna\"di Carlo Lapucci Siringraziano gliartisti Emanuele Becheri, Simone Bergantini, Gabriele Bonato, Meena Hasan. Hotel de la lune Gian Maria Tosatti, Michele Mancini, Antonio Riello, Yiquian Zhao Siringraziano",
+          "ocr_bbox": [
+            399,
+            0,
+            965,
+            536
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_046_num11599_sim74.jpg",
+          "frame_num": 11599,
+          "ocr_text": "perla citazione di -Voyage au bout de la nuit\"di Louis-Ferdinand Celine Editions Gaillimard, 1952 Gorbaccio Editore Iraduzione italiana di Ernesto Ferrero il libro \"Lapparato umano\" dijjep Gambardella \u00e9da ritenersi funzionalealla storia del film enon\u00e9mai stato pubblicato. Si ringrazia Giulio Einaudi Editore per la collaborazione La Fornarina\"di Raffaello Sanzio pergentileconcessionedella SoprintendenzaSpecialeperil Patrimonio Storico, Artisticoed Etnoaniropologicoe peril Polo Musealedella cinta di Roma \"Crocifissione\"diJacopo da Bassano (1515-1592) Treviso, Museo Givico  2O13 Foto Scala, Firenze il dipinto \"Bosco con neve\"\u00e9 di Luca Pignatelli le opere \"Water Sounds\"e\"Seeps\" sono di Francesco Patriarca \"Ritratto di donna\"di Carlo Lapucci Si ringraziano gliartisti Emanuele Becheri, Simone Bergantini, Gabriele Bonato, Meena Hasan. Hotel de la lune-Gian Maria Tosatti Michele Mancini, Antonio Riello, Yiquian Zhao Siringraziano Associazione Archivi Guttuso",
+          "ocr_bbox": [
+            397,
+            11,
+            966,
+            536
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_047_num11611_sim84.jpg",
+          "frame_num": 11611,
+          "ocr_text": "-Voyageau bout delanuit\"di Louis-Ferdinand Celine Editions Gallimard, 1952 Corbaccio Editore traduzione italiana di Ernesto Ferrero il libro Lapparato umano\" diJep Gambardella eda ritenersi funzionale alla storiadel film enon\u00e9mai stato pubblicato. Si ringrazia Giulio Einaudi Editore per la collaborazione \"LaFornarina\"di Raffaello Sanzio per gentileconcessionedella SoprintendenzaSpecialeperil Patrimonio Storico, Aristicoed Etnoantropologico peril Polo Museale della citta di Roma \"Crocifissione\"diJacopo daBassano(1515-4592] Treviso, Museo Civico  2o13. Foto Scala, Firenze il dipinto\"Boscoconneveedi Luca Pignatelli le opere \"Water Sounds\"e\"Seeps\" sono di Francesco Patriarca \"Ritratto di donna\"di Carlo Lapucci Si ringraziano gliartisti Emanuele Becheri, Simone Bergantini, Gabriele Bonato, Meena Hasan. Hotel de la lune- Gian Maria Tosatti, Michele Mancini, Antonio Riello, Yiquian Zhao Siringraziano Associazione Archivi Guttuso Wannenes- Genova I Calendario del Popolo-per gentile concessione di Sandro Teti Editore",
+          "ocr_bbox": [
+            397,
+            0,
+            966,
+            537
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_048_num11623_sim76.jpg",
+          "frame_num": 11623,
+          "ocr_text": "Corbaccio Editore traduzione italiana di Ernesto Ferrero i libro Lapparato umano\" diJep Gambardella \u00e9da ritenersi funzionale alla storia del film e non\u00e9 mai stato pubblieato. Si ringrazia Giulio Einaudi Editore per la collaborazione \"La Fornarina\"di Raffaello Sanzio, pergentileconcessionedellSoprintendenza Speciale peril PatrimonioStorico,AristicoEtoantopologic peril Polo Musealedella citta di Roma \"Grocifissione\"diJacopodaBassano (1615-4592) Treviso, Museo Civico 2o13. Foto Scala, Firenze I dipinto Bosco connever cdi Luca Pignatelli le opere \"Water Sounds\"e\"Seeps\" sono di Francesco Patriarca \"Ritratto di donna\"di Carlo Lapucci Si ringraziano gli artisti Emanuele Becheri, Simone Bergantini, Gabriele Bonato, Meena Hasan. Hotel de la lune Gian Maria Tosatti Michele Mancini. Antonio Riello, Yiquian Zhao Siringraziano Associazione Archivi Guttuso Wannenes Genova I Calendario del Popolo- per gentile concessione di Sandro Ieti Editore Vanity Fair- Edizioni Conde Nast per la fornitura delle riviste. la Repubblica: I'Espresso. MicroMega. I Corriere della Sera, L'Europeo, Panorama.",
+          "ocr_bbox": [
+            397,
+            0,
+            966,
+            537
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_049_num11635_sim78.jpg",
+          "frame_num": 11635,
+          "ocr_text": "il libro Lapparato umano dijjep Gambardella e daritenersi funzionale alla storiadel filme non emai stato pubblicato. Si ringrazia Giulio Einaudi Editore per la collaborazione \"LaFornarina\"di Raffaello Sanzio pergentile concessione della SoprintendenzaSpeciale peril PatrimonioStorico,Aristico ed Etmoantropologicoe peril Polb Musealedella cittadi Roma \"Grocifissione\"diJacopo da Bassano(1515-4592) Treviso, Museo Civico \u00a92O13.FotoScala, Firenze il dipinto \"Bosco con neve\"edi Luca Pignatellh le opere\"Water Sounds\"@\"Seeps\" sono diFrancesco Patriarca \"Ritratto di donna\"di Carlo Lapucci Siringraziano gli artisti Emanuele Becheri, Simone Bergantini Gabriele Bonato, Meena Hasan. Hotel de la lune, Gian Maria Iosatti. Michele Mancini, Antonio Riello. Yiquian Zhao Siringraziano Associazione Archivi Guttuso Wannenes-Genova I Calendario del Popolo-per gentile concessione di Sandro Teti Editore Vanity Fair-Edizioni Conde Nast per la fornitura delle riviste, la Repubblica. I'Espresso., MicroMega. I Corriere della Sera. L'Europeo, Panorama. I Messaggero. I Sole 24 Ore, La Stampa. II Tempo. L'Unita' La Gazzetta dello Sport. il Romanista. Internazionale, Artforum. Cura Magazine. Flashart. Frieze. Kaleidoscope. Mousse, Parkett.",
+          "ocr_bbox": [
+            398,
+            25,
+            966,
+            538
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_050_num11647_sim86.jpg",
+          "frame_num": 11647,
+          "ocr_text": "il libro 'Lapparato umano\" dijep Gambardella e da ritenersi funzionale alla storia del film e non\u00e9 mai stato pubblicato. Siringrazia Giulio Einaudi Editore per la collaborazione LaFornarinadiRaffaello Sanzio per gentileconcessione della Soprintendenza Speciale peril Patrimonio Storico,Artistico ed Eitnoantropologico e peril Polb Museale della citta di Roma \"Grocifissione\"diJacopo da Bassano (1515-1592) Treviso,Museo Givico2o13.Foto Scala, Firenze ildipinto \"Bosco conneve\"\u00e9 di Luca Pignatelli le opere\"Water Sounds\"\"Seeps\" sonodi Francesco Patriarca Ritratto di donna\"di Carlo Lapucci Si ringraziano gli artisti Emanuele Becheri, Simone Bergantini, Gabriele Bonato, Meena Hasan Hotel de la lune-Gian Maria Tosatti, Michele Mancini, Antonio Riello, Yiquian Zhao Siringraziano Associazione Archivi Guttuso Wannenes-Genova I Calendario del Popolo-per gentile concessione di Sandro Teti Editore Vanity Fair - Edizioni Conde Nast per la fornitura delle riviste, la Repubblica. I'Espresso, MicroMega. I Corriere della Sera, L'Europeo, Panorama, I1 Messaggero, Il Sole 24 Ore, La Stampa. II Tempo. L'Unita' La Gazzetta dello Sport. il Romanista. Internazionale, Artforum, Cura Magazine, Flashart. Frieze, Kaleidoscope, Mousse, Parkett. Paninispa",
+          "ocr_bbox": [
+            400,
+            0,
+            965,
+            526
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_051_num11671_sim66.jpg",
+          "frame_num": 11671,
+          "ocr_text": "La Fornarina\"di Raffaello Sanzio, peril Polo Museale della citta di Roma \"Crocifissione\"dijJacopo daBassano(1515-1592) Treviso, Museo Civico \u00a92o13. Foto Scala, Eirenze il dipinto \"Bosco con neve\"E di Luca Pignatelli \"Water Sounds\"e\"Seeps\" Sono di Francesco Patriarca \"Ritratto di donna\"di Carlo Lapucci Si ringraziano gli artisti Emanuele Becheri, Simone Bergantini. Gabriele Bonato, Meena Hasan, Hotel de la lune- Gian Maria Tosatti, Michele Mancini, Antonio Riello, Yiquian Zhao Associazione Archivi Guttuso I Calendario del Popolo-per gentile concessione di Sandro Teti Editore Vanity Fair -Edizioni Conde Nast per la fornitura delle riviste, Internazionale, Arforum, Cura Magazine, Flashart. Frieze, Kaleidoscope, Mousse, Parkett Discovery Italia realizzato da Maddoll per Discovery Italia",
+          "ocr_bbox": [
+            460,
+            26,
+            904,
+            538
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_052_num11683_sim77.jpg",
+          "frame_num": 11683,
+          "ocr_text": "\"La Fornarina\"di Raffacllo Sanzio per gentile concessione della Soprintendenza Speciale peril Patrimonio Storico, Artistico ed Etnoantropologicoe per il Polo Museale della citta di Roma \"Grocifissione\"dijJacopo da Bassano(1515-4592) Treviso, Museo Civico 2o13. Foto Scala, Firenze il dipinto\"Bosco con neve\"t di Luca Pignatelli le opere-Water Sounds\"e\"Seeps\" sono di Francesco Patriarca Ritratto di donna\"di Carlo Lapucci Si ringraziano gli artisti Emanuele Becheri, Simone Bergantini, Gabriele Bonato, Meena Hasan. Hotel de la lune- Gian Maria Tosatti. Michele Mancini, Antonio Riello. Yiquian Zhao Siringraziano Associazione Archivi Guttuso Wannenes- Genova I Calendario del Popolo-per gentile concessione di Sandro Teti Editore Vanity Fair- Edizioni Cond\u00e9 Nast per la fornitura delle riviste. la Repubblica, I'Espresso, MicroMega, I Corriere della Sera, L'Europeo, Panorama, II Messaggero, Il Sole 24 Ore. La Stampa. II Tempo. L'Unita. La Gazzetta dello Sport, il Romanista. Internazionale, Artforum. Cura Magazine, Flashart. Frieze. Kaleidoscope, Mousse, Parkett Paninispa Discovery Italia \"Vendo casa.. disperatamente\" realizzato da Maddoll per Discovery Italia",
+          "ocr_bbox": [
+            397,
+            0,
+            967,
+            511
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_053_num11755_sim79.jpg",
+          "frame_num": 11755,
+          "ocr_text": "le opere\"Water Sounds\"e \"Seeps\" sono di Francesco Patriarca Ritratto di donna\"di Carlo Lapucci Si ringraziano gliartisti Emanuele Becheri, Simone Bergantini, Gabriele Bonato, Meena Hasan. Hotel de la lune- Gian Maria Tosatti. Michele Mancini, Antonio Riello, Yiquian Zhao Siringraziano Associazione Archivi Guttuso Wannenes- Genova I1 Calendario del Popolo-per gentile concessione di Sandro Teti Editore Vanity Fair- Edizioni Cond\u00e8 Nast per la fornitura delle riviste, la Repubblica, I'Espresso, MicroMega. Il Corriere della Sera. L'Europeo, Panorama, I Messaggero, Il Sole 24 Ore, La Stampa, II Tempo, L'Unita' La Gazzetta dello Sport, il Romanista. Internazionale, Artforum, Cura Magazine, Flashart. Frieze, Kaleidoscope, Mousse. Parkett Panini spa Discovery Italia \"Vendo casa... disperatamente\" realizzato da Maddoll per Discovery Italia Corbis \"Following shot of a dirt bike race\" \"Il fu Mattia Pascal letto da Omero Antonutti\" Ad alta voce - Radiotre Rai - Radio Televisione Italiana Le musiche originali di Lele Marchitelli sono eseguite da Tastiere, programmazione, chitarra, basso Lele Marchitelli Violino primo Prisca Amori Violino secondo Marcello Sirignano",
+          "ocr_bbox": [
+            442,
+            4,
+            919,
+            540
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_054_num11779_sim90.jpg",
+          "frame_num": 11779,
+          "ocr_text": "Si ringraziano gli artisti Emanuele Becheri, Simone Bergantini, Gabriele Bonato, Meena Hasan. Hotel de la lune Gian Maria Tosatti, Michele Mancini, Antonio Riello. Yiquian Zhao Siringraziano Associazione Archivi Guttuso Wannenes - Genova I1 Calendario del Popolo - per gentile concessione di Sandro Teti Editore Vanity Fair - Edizioni Cond\u00e8 Nast per la fornitura delle riviste, la Repubblica. 1'Espresso, MicroMega. Il Corriere della Sera, L'Europeo, Panorama, I1 Messaggero, IIl Sole 24 Ore. La Stampa, II Tempo, L'Unita'. La Gazzetta dello Sport. il Romanista. Internazionale, Artforum. Cura Magazine, Flashart. Frieze, Kaleidoscope, Mousse, Parkett. Panini spa Discovery Italia \"Vendo casa... disperatamente\" realizzato da Maddoll per Discovery Italia Corbis \" Following shot of a dirt bike race\" \"Il fu Mattia Pascal letto da Omero Antonutti\" Ad alta voce - Radiotre Rai - Radio Televisione Italiana Le musiche originali di Lele Marchitelli sono eseguite da Tastiere, programmazione, chitarra, basso Lele Marchitelli Violino primo Prisca Amori Violino secondo Marcello Sirignano Viola Nico Ciricugno Violoncello Giuseppe Tortora Contrabbasso Enzo Pietropaoli Pianoforte Roberto Tarenzi",
+          "ocr_bbox": [
+            444,
+            29,
+            919,
+            539
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_055_num11791_sim95.jpg",
+          "frame_num": 11791,
+          "ocr_text": "Si ringraziano gliartisti Emanuele Becheri, Simone Bergantini, Gabriele Bonato, Meena Hasan. Hotel de la lune- Gian Maria Tosatti, Michele Mancini, Antonio Riello, Yiquian Zhao Si ringraziano Associazione Archivi Guttuso Wannenes- Genova I1 Calendario del Popolo - per gentile concessione di Sandro Teti Editore Vanity Fair - Edizioni Cond\u00e8 Nast per la fornitura delle riviste. la Repubblica, I'Espresso, MicroMega, Il Corriere della Sera, L'Europeo, Panorama. Il Messaggero, Il Sole 24 Ore, La Stampa, II Tempo. L'Unita'., La Gazzetta delfo Sport, il Romanista. Internazionale, Artforum, Cura Magazine, Flashart, Frieze, Kaleidoscope, Mousse, Parkett, Panini spa Discovery Italia \"Vendo casa .. disperatamente realizzato da Maddoll per Discovery Italia Corbis \" Following shot of a dirt bike race\" \"Il fu Mattia Pascal letto da Omero Antonutti' Ad alta voce - Radiotre Rai - Radio Televisione Italiana Le musiche originali di Lele Marchitelli sono eseguite da Tastiere, programmazione, chitarra, basso Lele Marchitelli Violino primo Prisca Amori Violino secondo Marcello Sirignano Viola Nico Ciricugno Violoncello Giuseppe Tortora Contrabbasso Enzo Pietropaoli Pianoforte Roberto Tarenzi Batteria Alessandro Paternesi Sax Tenore Max lonata",
+          "ocr_bbox": [
+            443,
+            5,
+            919,
+            539
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_056_num11803_sim96.jpg",
+          "frame_num": 11803,
+          "ocr_text": "Emanuele Becheri, Simone Bergantini, Gabriele Bonato, Meena Hasan, Hotel de la lune - Gian Maria Tosatti, Michele Mancini, Antonio Riello, Yiquian Zhao Si ringraziano Associazione Archivi Guttuso Wannenes - Genova Il Calendario del Popolo - per gentile concessione di Sandro Teti Editore Vanity Fair - Edizioni Cond\u00e8 Nast per la fornitura delle riviste. la Repubblica, I'Espresso, MicroMega, Il Corriere della Sera, L'Europeo, Panorama, I Messaggero, I Sole 24 Ore, La Stampa, I Tempo, L'Unita. La Gazzetta dello Sport, il Romanista. Internazionale, Artforum, Cura Magazine, Flashart. Frieze, Kaleidoscope, Mousse, Parkett. Panini spa Discovery Italia \"Vendo casa... disperatamente\" realizzato da Maddoll per Discovery Italia Corbis \" Following shot of a dirt bike race\" \"Il fu Mattia Pascal letto da Omero Antonutti\" Ad alta voce - Radiotre Rai - Radio Televisione Italiana Le musiche originali di Lele Marchitelli sono eseguite da Lele Marchitelli Tastiere, programmazione, chitarra, basso Violino primo Prisca Amori Violino secondo Marcello Sirignano Viola Nico Ciricugno Giuseppe Tortora Violoncello Contrabbasso Enzo Pietropaoli Pianoforte Roberto Tarenzi Batteria Alessandro Paternesi Sax Tenore Max lonata Registrazioni e missaggi effettuati presso",
+          "ocr_bbox": [
+            442,
+            6,
+            919,
+            537
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_057_num11815_sim90.jpg",
+          "frame_num": 11815,
+          "ocr_text": "Si ringraziano Associazione Archivi Guttuso Wannenes- Genova I1 Calendario del Popolo - per gentile concessione di Sandro Teti Editore Vanity Fair - Edizioni Conde Nast per la fornitura delle riviste. la Repubblica, I'Espresso, MicroMega, Il Corriere della Sera, L'Europeo, Panorama, IIl Messaggero, Il Sole 2 4 Ore, La Stampa, II Tempo, L'Unita', La Gazzetta delfo Sport, il Romanista, Internazionale, Artforum. Cura Magazine. Flashart. Frieze, Kaleidoscope, Mousse, Parkett. Panini spa Discovery Italia \"Vendo casa... disperatamente\" realizzato da Maddoll per Discovery Italia Corbis \" Following shot of a dirt bike race\" \"II fu Mattia Pascal letto da Omero Antonutti\" Ad alta voce - Radiotre Rai - Radio Televisione Italiana Le musiche originali di Lele Marchitelli sono eseguite da Tastiere, programmazione, chitarra, basso Lele Marchitelli Violino primo Prisca Amori Violino secondo Marcello Sirignano Viola Nico Ciricugno Violoncello Giuseppe Tortora Contrabbasso Enzo Pietropaoli Pianoforte Roberto Tarenzi Batteria Alessandro Paternesi Sax Tenore Max lonata Registrazionie missaggi effettuati presso Digital Records Roma Tecnico del suono Goffredo Gibellini GianlucsPorelli",
+          "ocr_bbox": [
+            445,
+            29,
+            918,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_016_static_058_num11817_sim96.jpg",
+          "frame_num": 11817,
+          "ocr_text": "Si ringraziano Associazione Archivi Guttuso Wannenes - Genova I Calendario del Popolo - per gentile concessione di Sandro Teti Editore Vanity Fair - Edizioni Conde Nast per la fornitura delle riviste. la Repubblica, 1'Espresso, MicroMega, Il Corriere della Sera, L'Europeo, Panorama, I1 Messaggero, Il Sole 2 4 Ore, La Stampa, II Tempo, L'Unita. La Gazzetta dello Sport., il Romanista. Internazionale, Artforum, Cura Magazine, Flashart, Frieze, Kaleidoscope, Mousse, Parkett, Panini spa Discovery Italia \"Vendo casa.. disperatamente\" realizzato da Maddoll per Discovery Italia Corbis \" Following shot of a dirt bike race\" \"Il fu Mattia Pascal letto da Omero Antonutti\" Ad alta voce - Radiotre Rai - Radio Televisione Italiana Le musiche originali di Lele Marchitelli sono eseguite da Tastiere, programmazione, chitarra, basso Lele Marchitelli Violino primo Prisca Amori Violino secondo Marcello Sirignano Viola Nico Ciricugno Violoncello Giuseppe Tortora Contrabbasso Enzo Pietropaoli Pianoforte Roberto Tarenzi Batteria Alessandro Paternesi Max lonata Sax Tenore Registrazionire missaggi effettuati presso Digital Records,Roma Iecnicodel suono Goffredo Gibellini Assistentedistudio Gianluca Porelli",
+          "ocr_bbox": [
+            443,
+            26,
+            920,
+            544
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 59,
+      "median_flow_px_per_frame": 0.1876986026763916,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -0.437425434589386,
+      "roi_percentile_flow": 0.1876986026763916,
+      "scroll_direction": null
+    },
+    "scene_17": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_000_num11830_sim95.jpg",
+          "frame_num": 11830,
+          "ocr_text": "Si ringraziano Associazione Archivi Guttuso Wannenes - Genova I1 Calendario del Popolo - per gentile concessione di Sandro Teti Editore Vanity Fair - Edizioni Conde Nast per la fornitura delle riviste. la Repubblica, I'Espresso, MicroMega, Il Corriere della Sera, L'Europeo, Panorama, Il Messaggero, Il Sole 24 Ore, La Stampa, II Tempo, L'Unita', La Gazzetta dello Sport, il Romanista. Internazionale, Artforum. Cura Magazine, Flashart, Frieze, Kaleidoscope, Mousse, Parkett. Panini spa Discovery Italia \"Vendo casa... disperatamente\" realizzato da Maddoll per Discovery Italia Corbis \" Following shot of a dirt bike race\" \"Il fu Mattia Pascal letto da Omero Antonutti\" Ad alta voce - Radiotre Rai - Radio Televisione Italiana Le musiche originali di Lele Marchitelli sono eseguite da Tastiere, programmazione, chitarra, basso Lele Marchitelli Violino primo Prisca Amori Violino secondo Marcello Sirignano Nico Ciricugno Viola Violoncello Giuseppe Tortora Contrabbasso Enzo Pietropaoli Pianoforte Roberto Tarenzi Alessandro Paternesi Batteria Sax Tenore Max lonata Registrazionie missaggi effettuati presso Digital Records Roma D Tecnico del suono Coffredo Gibellini Assistentedi studio Gianluca Porelli Coordinamento AngeloGiovagnoli",
+          "ocr_bbox": [
+            445,
+            0,
+            918,
+            531
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_001_num11842_sim91.jpg",
+          "frame_num": 11842,
+          "ocr_text": "Associazione Archivi Guttuso Wannenes-Genova II Calendario del Popolo - per gentile concessione di Sandro Teti Editore Vanity Fair - Edizioni Cond\u00e8 Nast per la fornitura delle riviste, la Repubblica, I'Espresso, MicroMega, Il Corriere della Sera, L'Europeo, Panorama, Il Messaggero, Il Sole 2 4 Ore, La Stampa, II Tempo, L'Unita'. La Gazzetta dello Sport, il Romanista. Internazionale, Artforum. Cura Magazine, Flashart. Frieze, Kaleidoscope, Mousse, Parkett. Panini spa Discovery Italia \"Vendo casa ... disperatamente realizzato da Maddoll per Discovery Italia Corbis \" Following shot of a dirt bike race\" \"Il fu Mattia Pascal letto da Omero Antonutti\" Ad alta voce - Radiotre Rai - Radio Televisione Italiana Le musiche originali di Lele Marchitelli sono eseguite da Tastiere, programmazione, chitarra, basso Lele Marchitelli Prisca Amori Violino primo Violino secondo Marcello Sirignano Viola Nico Ciricugno Violoncello Giuseppe Tortora Contrabbasso Enzo Pietropaoli Pianoforte Roberto Tarenzi Batteria Alessandro Paternesi Saxlenore Maxdonata Registrazioniemissaggieffettuatipresso Digital Records Roma Tecnico del suono Goffredo Gibellini Assistente di studio GianlucaPorelli Coordinamento Angelo Giovagnoli Music Licensingacura diElena Zingalie AlessandroMiealizzi",
+          "ocr_bbox": [
+            444,
+            0,
+            918,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_002_num11854_sim93.jpg",
+          "frame_num": 11854,
+          "ocr_text": "II Calendario del Popolo - per gentile concessione di Sandro Teti Editore Vanity Fair - Edizioni'Cond\u00e8 Nast per la fornitura delle riviste la Repubblica, 1'Espresso, MicroMega, Il Corriere della Sera, L'Europeo, Panorama, I1 Messaggero, Il Sole 24 Ore, La Stampa. II Tempo, L'Unita. La Gazzetta dello Sport. il Romanista. Internazionale, Artforum. Cura Magazine, Flashart. Frieze. Kaleidoscope, Mousse, Parkett Panini spa Discovery Italia \"Vendo casa... disperatamente\" realizzato da Maddoll per Discovery Italia Corbis \"Following shot of a dirt bike race\" \"Il fu Mattia Pascal letto da Omero Antonutti\" Ad alta voce - Radiotre Rai - Radio Televisione Italiana Le musiche originali di Lele Marchitelli sono eseguite da Tastiere, programmazione, chitarra, basso Lele Marchitelli Violino primo Prisca Amori Violino secondo Marcello Sirignano Viola Nico Ciricugno Violoncello Giuseppe Tortora Contrabbasso Enzo Pietropaoli Pianoforie Roberto Tarenzi Batteria Alessandro Paternesi SaxTenore Maxdonata Registrazioniemissaggieffettuatipresso D Digital Records Roma Goffredo Gibellini Tecnico del suono Assistente di studio Gianluca Porelli Coordinamento Angelo Giovagnoli Music Licensinga cura di ElenaZingalie Alessandro Micalizzi Pe PLUGINMUSIC",
+          "ocr_bbox": [
+            442,
+            0,
+            920,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_003_num11962_sim63.jpg",
+          "frame_num": 11962,
+          "ocr_text": "Le musiche originali di Lele Marchitelli sono eseguite da Tastiere, programmazione, chitarra, basso LeleMarchitelli Violino primo PriscaAmori Violino secondo Marcello Sirignano Viola Nico Ciricugno Violoncello Giuseppe Tortora Contrabbasso Enzo Pietropaoli Pianoforite RobertoTarenzi Battrns Alessandro Paternesi SaxTenore Max lonata Registrazionie missaggi effettuati presso Digital Records Roma Tecnico del suono Goffredo Gibellini Assistente di studio Gianluca Porelli Coordinamento Angelb Giovagnoli Music Licensingacuradi ElenaZingalieAlessandroMicalizzi PLUG IN MUSIC FARLAMORE (D. A. Lang) (F.Bracardi/C.LeFriant/D.Pace) eseguita dalle voci femminili del Torino eseguita da Bob Sinclar &Raffaella Carra Vocalensemble Mascheroni Edizioni Musicali Srl dirette dal Maestro Carlo Boccadoro Mighty Bop Sessions Manuela Dimasi, Genziana Gentilini Edizioni per I Italia. Silvia Graziani, Nadia Kuprina. Mascheroni Edizioni Musicali Srl Valeria Laino, Laura Marconi Universal Music Italia Srl Barbara Sartorio, Valeria Sottili (P) 2011 Energy Production Srl. AlessandraVaglienti under exclusive license \u00a9 Red Poppy from Yellow Productions",
+          "ocr_bbox": [
+            367,
+            29,
+            1009,
+            541
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_004_num11974_sim87.jpg",
+          "frame_num": 11974,
+          "ocr_text": "Le musiche originali di Lele Marchitellisono eseguite da Tastiere programmazione,chitarra, basso Lele Marchitelli Violino primo Prisca Amori Violino secondo Marcello Sirignano Viola Nico Ciricugno Violoncellb Giuseppe Tortora Contrabbasso Enzo Pietropaoli Pianoforte Roberto Tarenzi Batteria Alessandro Paternesi SaxTenore Max lonata Registrazioniemissaggieffentuatipresso Digital Records Roma Tecnico del suono Coffredo Gibellini Assistente di studio Gianluca Porelli Coordinamento Angelo Giovagnoli Music Licensingacura di ElenaZingalieAlessandroMicalizzi PLUG IN MUSIC FARLSAMORE (D. A. Lang) (F. Bracardi/C.Le Friant/D. Pace) eseguita dalle voci femminili del Torino eseguita da Bob Sinclar &Raffaella Carra Vocalensemble Mascheroni Edizioni Musicali Srl dirette dal Maestro Carlo Boccadoro Mighty Bop Sessions Manuela Dimasi, Genziana Gentilini Edizioni per IItalia: Silvia Graziani, Nadia Kuprina. Mascheroni Edizioni Musicali Srl Valeria Laino, Laura Marconi Universal Music Italia Srl Barbara Sartorio, Valeria Sottili (P) 2011 Energy Production Srl. Alessandra Vaglienti under exclusive license from Yellow Productions \u00a9 Red Poppy Edizioni per I'ltalia: Casa Ricordi Srl Licensed courtesy of Energy Production Srl (p)2013 Indigo Film srl",
+          "ocr_bbox": [
+            367,
+            2,
+            1012,
+            541
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_005_num12010_sim81.jpg",
+          "frame_num": 12010,
+          "ocr_text": "Violoncello Giuseppe Tortora Contrabbasso Enzo Pietropaoli Pianoforite Roberto Tarenzi Batteria Alessandro Paternesi SaxTenore Maxlonata Registrazioniemissaggieffentuatipresso D Digital Records Roma Tecnico del suono Goffredo Gibellini Assistente di studio Gianluca Porelli Coordinamento Angelo Ciovagnoli Music Licensing a cura di Elena Zingali e Alessandro Micalizzi PLUGINMUSIC FARLSAMORE (D. A. Lang) (F. Bracardi/C. Le Friant/D. Pace) eseguita dalle voci femminili del Torino eseguita da Bob Sinclar & Raffaella Carra Vocalensemble Mascheroni Edizioni Musicali Srl dirette dal Maestro Carlo Boccadoro Mighty Bop Sessions Manuela Dimasi, Genziana Gentilini Edizioni per Italia Silvia Graziani, Nadia Kuprina. Mascheroni Edizioni Musicali Srl Valeria Laino, Laura Marconi Universal Music Italia Srl Barbara Sartorio, Valeria Sottili (P) 2011 Energy Production Srl. Alessandra Vaglienti under exclusive license \u00a9 Red Poppy from Yellow Productions Edizioni per I'ltalia: Casa Ricordi Srl Licensed courtesy of Energy Production Srl (p)2013 Indigo Film srl MORE THAN SCARLET MUEVE LA COLITA (Fitzgerald/Kelly/Schutzinger/Ely) (F. Attanasio/R. Nanni eseguita da Decoder Ring L. Confetta/S. Attanasio/G. Attanasio) \u00a9 2001 Copyright control / EMI Music eseguita da El Gato D.J",
+          "ocr_bbox": [
+            366,
+            3,
+            1013,
+            540
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_006_num12022_sim85.jpg",
+          "frame_num": 12022,
+          "ocr_text": "Pianoforie RobertoTarenzi Batteria Alessandro Paternesi Saxlenore Max lonata Registrazionie missaggieffettuati presso Digital Records Roma Goffredo Gibellini Tecnico del suono Assistente di studio Gianluca Porelli Coordinamento Angelo Giovagnoli Music Licensinga cura di ElenaZingali e Alessandro Micalizzi PLUGIN MUSIC I LIE FARLAMORE (F.Bracardi/C.Le Friant/D. Pace) (D. A.Lang) eseguita dalle voci femminili del Torino eseguita da Bob Sinclar & Raffaella Carra Vocalensemble Mascheroni Edizioni Musicali Srl dirette dal Maestro Carlo Boccadoro Mighty Bop Sessions Manuela Dimasi, Genziana Gentilini Edizioni per IHtalia Silvia Graziani, Nadia Kuprina, Mascheroni Edizioni Musicali Srl Valeria Laino, Laura Marconi Universal Music Italia Srl Barbara Sartorio, Valeria Sottili (P) 2011 Energy Production Srl. Alessandra Vaglienti under exclusive license \u00a9 Red Poppy from Yellow Productions Edizioni per I'ltalia: Casa Ricordi Srl Licensed courtesy of Energy Production Srl (p)2013 Indigo Film srl MORE THAN SCARLET MUEVE LA COLITA (Fitzgerald/Kelly/Schutzinger/Ely) (F. Attanasio/R. Nanni eseguita da Decoder Ring L. Confetta/S. Attanasio/G. Attanasio) \u00a9 2001 Copyright control / EMI Music eseguita da El Gato D.J. Publishing Australia PTY Ltd \u00a9 1999 Ala Bianca Publishing Edizioni per I'Italia: EMI Music Publishing Italia Srl su licenza ALA BiANCA Group Srl",
+          "ocr_bbox": [
+            341,
+            2,
+            1014,
+            541
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_007_num12070_sim84.jpg",
+          "frame_num": 12070,
+          "ocr_text": "Coordinamento Angelo Giovagnoli Music Licensing a cura di ElenaZingalie Alessandro Micalizzi PLUGIN MUSIC ILIE FARLAMORE (D. A. Lang) (F.Bracardi/C. Le Friant/D. Pace) eseguita dalle voci femminili del Torino eseguita da Bob Sinclar &Raffaella Carra Vocalensemble Mascheroni Edizioni Musicali Srl dirette dal Maestro Carlo Boccadoro Mighty Bop Sessions Manuela Dimasi, Genziana Gentilini Edizioni per IItalia Silvia Graziani, Nadia Kuprina. Mascheroni Edizioni Musicali Srl Valeria Laino, Laura Marconi Universal Music Italia Sri Barbara Sartorio, Valeria Sottili (P) 2011 Energy Production Srl Alessandra Vaglienti under exclusive license Red Poppy from Yellow Productions Edizioni per I'ltalia: Casa Ricordi Srl Licensed courtesy of Energy Production Srl (p)2013 Indigo Film srl MORE THAN SCARLET MUEVE LA GOLITA (Fitzgerald/Kelly/Schutzinger/Ely) (F. Attanasio/R. Nanni eseguita da Decoder Ring L. Confetta/S. Antanasio/G. Attanasio) \u00a9 2001 Copyright control / EMI Music eseguita da El Gato D.J. Publishing Australia PTY Ltd 1999 Ala Bianca Publishing Edizioni per I'Italia: EMI Music Publishing Italia Srl su licenza ALA BlANCA Group Srl Licensed courtesy of inSYNC Music obo Red Carpet Productions Pty Ltd MY HEART'S IN THE HIGHLANDS QUE NO SE ACABE EL MAMBO (A. Part) (J. Pena Suazo) Else Torp & Christopher Bowers-Broadbent eseguita da La Banda Gorda \u00a9 Universal ed. AG Wien \u00a9 Nota Publishing",
+          "ocr_bbox": [
+            342,
+            0,
+            1014,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_008_num12082_sim90.jpg",
+          "frame_num": 12082,
+          "ocr_text": "MusicLicensingacuradi ElenaZingalieAlessandroMicalizzi PLUGIN MUSIC ILIE FARLAMORE (D. A. Lang) (F.Bracardi/C.Le Eriant/D.Pace) eseguita dalle voci femminili del Torino eseguita da Bob Sinclar&Raffaella Carra Vocalensemble Mascheroni Edizioni Musicali Srl dirette dal Maestro Carlo Boccadoro Mighty Bop Sessions Manuela Dimasi, Genziana Gentilini Edizioni per Hitalia: Silvia Graziani, Nadia Kuprina. Mascheroni Edizioni Musicali Srl Universal Music Italia Srl Valeria Laino, Laura Marconi Barbara Sartorio, Valeria Sottili (P) 2011 Energy Production Srl Alessandra Vaglienti under exclusive license  Red Poppy from Yellow Productions Edizioni per I'ltalia: Casa Ricordi Srl (p)2013 Indigo Film srl MORE THAN SCARLET MUEVE LA COLITA (Fitzgerald/Kelly/Schutzinger/Ely) (F. Attanasio/R. Nanni eseguita da Decoder Ring L. Confetta/S. Attanasio/G.Attanasio) \u00a9 2001 Copyright control / EMI Music eseguita da El Gato DJ Publishing Australia PTY Ltd 1999 Ala Bianca Publishing Edizioni per I'Italia: EMI Music Publishing Italia Srl su licenza ALA BlANCA Group Srl Licensed courtesy of inSYNC Music obo Red Carpet Productions Pty Ltd MY HEART'S IN THE HIGHLANDS QUE NO SE ACABE EL MAMBO (A. Part) (J. Pena Suazo) Else Torp & Christopher Bowers Broadbent eseguita da La Banda Gorda \u00a9 Universal ed. AG Wien \u00a9 Nota Publishing Edizioni per I'ltalia Casa Ricordi srl (p) 2004J&N Used by arrangement with HARMONIA MUNDI USA",
+          "ocr_bbox": [
+            342,
+            16,
+            1009,
+            541
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_009_num12106_sim90.jpg",
+          "frame_num": 12106,
+          "ocr_text": "ILIE FARLAMORE (D. A. Lang) (F.Bracardi/C.Le Friant/D.Pace) eseguita dalle voci femminil del Torino eseguita da Bob Sinclar &Raffaella Carra Vocalensemble Mascheroni Edizioni Musicali Srl dirette dal Maestro Carlo Boccadoro Mighty Bop Sessions Manuela Dimasi, Genziana Gentilini Edizioni per IItalia Silvia Graziani, Nadia Kuprina. Mascheroni Edizioni Musicali SrI Valeria Laino, Laura Marconi Universal Musie Italia Srl Barbara Sartorio, Valeria Sottili (P) 2011 Energy Production Srl Alessandra Vaglienti under exclusive license \u00a9 Red Poppy from Yellow Productions Edizioni per I'ltalia: Casa Ricordi Srl Licensed courtesy of Energy Production Srl (p)2013 IndigoFilm srl MORE THAN SCARLET MUEVE LA COLITA (Fitzgerald/Kelly/Schutzinger/Ely) (F. Attanasio/R. Nanni eseguita da Decoder Ring L. Confetta/S. Antanasio/G. Antanasio) 2001 Copyright control / EMI Music eseguita da El Gato DJ Publishing Australia PTY Ltd 1999 Ala Bianca Publishing Edizioni per I'Italia: EMl Music Publishing Italia Sri su licenza ALA BIANCA Group Srl Licensed courtesy of inSYNC Music obo Red Carpet Productions Pty Ltd MY HEART'S IN THE HIGHLANDS QUE NO SE ACABE EL MAMBO (A. Prt) (J. Pena Suazo) Else Torp & Christopher Bowers-Broadbent eseguita da La Banda Gorda \u00a9 Universal ed. AG Wien \u00a9 Nota Publishing Edizioni per I'ltalia Casa Ricordi srl (p) 2004J&N Used by arrangement with HARMONIA MUNDI USA THE LAMB PARADE (J.K. Tavener, W. Blake) (Berthling/Hallonsten/Berthiling)",
+          "ocr_bbox": [
+            340,
+            83,
+            1014,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_010_num12118_sim92.jpg",
+          "frame_num": 12118,
+          "ocr_text": "FARLAMORE ILTE (D.A. Lang) (F. Bracardi/C.Le Eriant/D.Pace) eseguita dallesoci femminili del Torino eseguita da Bob Sinclar &Raffaella Carra Vocalensemble Mascheroni Edizioni Musicali Srl dirette dal Maestro Carlo Boccadoro Mighty Bop Sessions Manuela Dimasi, Genziana Gentilini Edizioni per Hitalia Silvia Graziani, Nadia Kuprina. Mascheroni Edizioni Musicali Srl Valeria Laino, Laura Marconi Universal Music Italia SrI Barbara Sartorio, Valeria Sottili (P) 2011 Energy Production Srl. Alessandra Vaglienti under exclusive license \u00a9 Red Poppy from Yellow Productions Edizioni per I'ltalia: Casa Ricordi Srl Licensed courtesyof Energy Production Srl (p)2013 Indigo Film srl MORE THAN SCARLET MUEVE LACOLITA (E. Attanasio/R. Nanni (Fitzgerald/Kelly/Schutzinger/Ely) eseguita da Decoder Ring L. Confetta/S. Attanasio/G. Attanasio) 2001 Copyright control / EMI Music eseguita da El Gato DJ Publishing Australia PTY Ltd 1999 Ala Bianca Publishing Edizioni per I'Italia: EMl Music Publishing Italia Sri su licenza ALA BlaNCA Group Srl Licensed courtesy of inSYNC Music obo Red Carpet Productions Pty Ltd MY HEART'S IN THE HIGHLANDS QUE NO SE ACABE EL MAMBO (A. Part) (J. Pena Suazo) Else Torp & Christopher Bowers-Broadbent eseguita da La Banda Gorda \u00a9 Universal ed. AG Wien \u00a9 Nota Publishing Edizioni per I'Italia Casa Ricordi srl (p) 2004J&N Used by arrangement with HARMONIA MUNDI USA THE LAMB PARADE (J.K. Tavener, W. Blake) (Berthling/Hallonsten/Berthling) \u00a9 Chester Music eseguita da Tape Edizioni per I'Italia: Casa Ricordi Srl &(p) 2008 Hapna Verlag",
+          "ocr_bbox": [
+            340,
+            55,
+            1015,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_011_num12130_sim94.jpg",
+          "frame_num": 12130,
+          "ocr_text": "ILIE FARLAMORE (D.A. Lang) (F.Bracardi/C.Le Friant/D. Pace) eseguita dalle voci femminili del Torino eseguita da Bob Sinclar &Raffaella Carra Vocalensemble Mascheroni Edizioni Musicali Srl dirette dal Maestro.Carlo Boccadoro Mighty Bop Sessions Manuela Dimasi, Genziana Gentilini Edizioni per IItalia. Silvia Graziani, Nadia Kuprina Mascheroni Edizioni Musicali Srl Valeria Laino, Laura Marconi Universal Music Italia Srl Barbara Sartorio, Valeria Sottili (P) 2011 EnergyProduction Srl. Alessandra Vaglienti under exclusive license \u00a9 Red Poppy from Yellow Productions Edizioni per I'ltalia: Casa Ricordi SrI Licensed courtesyof Energy Production Srl (p)2013 Indigo Film srl MORE THAN SCARLET MUEVE LACOLITA (Fitzgerald/Kelly/Schutzinger/Ely) (E. Attanasio/R. Nanni eseguita da Decoder Ring L. Confetta/S. Attanasio/G. Attanasio) 2001 Copyright control / EMI Music eseguita da El Gato D.J. Publishing Australia PTY Ltd 1999 Ala Bianca Publishing Edizioni per I'Italia: EMl Music Publishing Italia Srl su licenza ALA BIANCA Group Srl Licensed courtesy of inSYNC Music obo Red Carpet Productions Pty Ltd MY HEART'S IN THE HIGHLANDS QUE NO SE ACABE EL MAMBO (A. Part) (J. Pena Suazo) Else Torp & Christopher Bowers-Broadbent eseguita da La Banda Gorda \u00a9 Universal ed. AG Wien \u00a9 Nota Publishing Edizioni per I'ltalia Casa Ricordi srl (p)2004J&N Used by arrangement with HARMONIA MUNDI USA THE LAMB PARADE (J.K. Tavener. W. Blake) (Berthling/Hallonsten/Berthling) \u00a9 Chester Music eseguita da Tape Edizioni per I'Italia: Casa Ricordi Srl (p) 2008 Hapna Verlag The Choir of the Temple Church diretto da Stephen Layton",
+          "ocr_bbox": [
+            341,
+            31,
+            1014,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_012_num12142_sim92.jpg",
+          "frame_num": 12142,
+          "ocr_text": "ILIE FARLAMORE (D.A. Lang) (F.Bracardi/C.LeFriant/D. Pace) eseguita dalle voci femminili del Torino eseguita da Bob Sinclar &Raffaella Carra Vocalensemble Mascheroni Edizioni Musicali Srl dirette dal Maestro Carlo Boccadoro Mighty Bop Sessions Manuela Dimasi, Genziana Gentilini Edizion per HItalia: Silvia Graziani, Nadia Kuprina Mascheroni Edizioni Musicali Srl Valeria Laino. Laura Marconi Universal Music Italia Srl Barbara Sartorio, Valeria Sottili (P) 2011 EnergyProduction Srl Alessandra Vaglienti under exclusive license from Yellow Productions \u00a9 Red Poppy Edizioni per I'ltalia: Casa Ricordi SrI Licensed courtesyof Energy Production Srl (p)2013 Indigo Filmsrl MORE THAN SCARLET MUEVE LA COLITA (Fitzgerald/Kelly/Schutzinger/Ely) (F. Attanasio/R. Nanni eseguita da Decoder Ring L. Confenta/S. Antanasio/G. Antanasio) \u00a9 2001 Copyright control / EMI Music eseguita da El Gato DJ Publishing Australia PTY Ltd 1999 Ala Bianca Publishing Edizioni per I'Italia: EMl Music Publishing Italia Srl sulicenzaALABIANCA Group Srl Licensed courtesy of inSYNC Music obo Red Carpet Productions Pty Ltd MY HEART'S IN THE HIGHLANDS QUENO SE ACABE EL MAMBO (A. Part) (. Pena Suazo) Else Torp & Christopher Bowers-Broadbent eseguita da La Banda Gorda \u00a9 Universal ed. AG Wien \u00a9Nota Publishing Edizioni per I'ltalia Casa Ricordi srl (p) 2004J&N Used by arrangement with HARMONIA MUNDI USA THE LAMB PARADE (J.K. Tavener. W. Blake) (Berthling/Hallonsten/Berthling) \u00a9 Chester Music eseguita da Tape Edizioni per I'Italia: Casa Ricordi Srl \u00a9&(p) 2008 Hapna Verlag The Choir of the Temple Church diretto da Stephen Layton (P) 2oo3 Decca Music Group Limited SYMPHONY NO.3 OP.36 Per gentile concessione di Universal Music Italia Srl \"OF SORROWFUL SONG\" IIL LENTO- CANTABILE SEMPLICE",
+          "ocr_bbox": [
+            338,
+            5,
+            1052,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_013_num12154_sim94.jpg",
+          "frame_num": 12154,
+          "ocr_text": "ID.A.Lang) (F.Bracardi/C.LeFriant/D,Pace) eseguita dalle voci femminili del Torino eseguita da Bob Sinclar &Raffaella Carra Vocalensemble Mascheroni Edizioni Musicali Srl direttedal Maestro Carlo Boccadoro Mighty Bop Sessions Manuela Dimasi, Genziana Gentilini Edizioni per IHtalia: Silvia Graziani, Nadia Kuprina. Mascheroni Edizioni Musicali Srl Valeria Laino, Laura Marconi Universal Music Italia Srl Barbara Sariorio, Vaileria Sottili (P)2011 EnergyProductionSrl Alessandra Vaglienti under exclusive license \u00a9 Red Poppy from Yellow Productions Edizioni per I'ltalia: Casa Ricordi SrI Licensed courtesyof Energy Production Srl (p)2013 Indig0 Film srl MORE THAN SCARLET MUEVE LA GOLITA (Fitzgerald/Kelly/Schutzinger/Ely) (F. Attanasio/R Nanni eseguita da Decoder Ring L. Confetta/S. Altanasio/G. Attanasio) \u00a92001 Copyright control /EMI Music eseguita da El Gato DJ Publishing Australia PTY Ltd 1999 Ala Bianca Publishing Edizioni per I'Italia: EMI Music Publishing Italia Srl su licenza ALA BIANCA Group SrI Licensed courtesy of inSYNG Music obo Red Carpet Productions Pty Lid MY HEART'S IN THE HIGHLANDS QUENO SE ACABE EL MAMBO (A. Part) (. Pena Suazo) Else Torp & Christopher Bowers Broadbent eseguita da La Banda Gorda \u00a9 Universal ed. AG.Wien Nota Publishing Edizioni per I'Italia Casa Ricordi srl (p)2004 Used by arrangement with HARMONIA MUNDI USA THE LAMB PARADE (J.K. Tavener. W. Blake) (Berthling/Hallonsten/Berthling) \u00a9 Chester Music eseguita da Tape Edizioni per I'Italia: Casa Ricordi Srl \u00a9&(p) 2008 Hapna Verlag The Choir of the Temple Church diretto da Stephen Layton (P) 2003 Decca Music Group Limited SYMPHONY NO.3 OP.36 Per gentile concessione di Universal Music Italia Sril OF SORROWFUL SONG\" III LENTO - CANTABILE SEMPLICE (H.M. G\u00f2recki) London Sinfonietta",
+          "ocr_bbox": [
+            338,
+            0,
+            1052,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_014_num12190_sim81.jpg",
+          "frame_num": 12190,
+          "ocr_text": "ValerialLaino.LauraMarconi Universal Music ltalia Sri Barbara Sartorio, Valeria Sottili (P) 2011 Energy Production Srl AlessandraVaglienti under exclusive license Red Poppy from Yellow Productions Edizioni per Hihtalia, Casa Ricordi SrI Licensed courtesy of Energy Production Srl (p)2013 Indigo Film srl MORE THANSCARLET MUEVE LACOLITA (Fitzgerald/Kelly/Schutzinger/Ely) (F Attanasio/R. Nanni eseguita da Decoder Ring L. Confenta/S. Antanasio/G. Antanasio) \u00a9 2001 CopyrighI control /EMI Music eseguita da El Gato DJ Publishing Australia PTYLtd 1999 Ala Bianca Publishing Edizioni per IItalia: EMl Music Publishing Italia Srl su licenza ALA BIANCA Group SrI LicensedcourtesyofinSYNCMusicobo Red Carpet Productions Pty Ltd MYHEARTS IN THE HIGHLANDS QUENO SE ACABE EL MAMBO (A. Part) (. Pena Suazo) Else Torp& Christopher Bowers-Broadbent eseguita da La Banda Gorda Universal ed. AG Wien Nota Publishing Edizioni per IItalia Casa Ricordi srl (p) 2004J&N Used by arrangement with HARMONIA MUNDI USA THE LAMB PARADE (J.K. Tavener. W. Blake) (Berthling/Hallonsten/Berthling) \u00a9 Chester Music eseguita da Tape Edizioni per 'ltalia: Casa Ricordi Srl \u00a9 &(p) 2008 Hapna Verlag The Choir of the Temple Church diretto da Stephen Layton (P) 2oo3 Decca Music Group Limited SYMPHONY NO.3 OP.36 Per gentile concessione di Universal Music Italia Srl \"OF SORROWFUL SONG\": III. LENTO - CANTABILE SEMPLICE (H. M. G\u00f2recki) London Sinfonietta WORLD TO COME IV diretta da David Zinman Soprano Dawn Upshaw (D.A. Lang) eseguita da Maya Beiser Chester Music/ Boosey & Hawkes Ltd. \u00a9 G. Schirmer Inc. / Red Poppy Edizioni per I'Italia: Casa Ricordi Srl Edizioni per I'ltalia: Casa Ricordi Srl (p)1992 Nonesuch Records Licensed exclusively from Entertainment One U.S. LP Per gentile concessione di Warner Music Italia Srl",
+          "ocr_bbox": [
+            336,
+            0,
+            1051,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_015_num12286_sim74.jpg",
+          "frame_num": 12286,
+          "ocr_text": "MYHEART'S IN THE HIGHLANDS QUENO SEACABE EL MAMBO (A. Part) (L PenaSuazo) Else Torp& Christopher Bowers Broadbent eseguita da La Banda Gorda Universal ed. AC Wien Nota Publishing Edizioni per Htalia Gasa Ricordi srl (p) 2004N Used byarrangement with HARMONIAMUNDIUSA THE LAMB PARADE (JK. Tavener, W. Blake) (Berthling/Hallonsten/Berthling) Chester Music eseguita da Tape Edizioni per IItalia: Casa Ricordi Srl (p) 2008 Hapna Verlag The Choir of the Temple Church diretto da Stephen Layton (P) 20o3 Decca Music Group Limited SYMPHONY NO3 OP36 Per gentile concessione di Universal Music Italia Srl \"OF SORROWFUL SONG\" IIL LENTO = CANTABILE SEMPLICE (H.M. Gorecki) London Sinfonietta WORLD TO COME IV diretta da David Zinman (D.A. Lang) Soprano Dawn Upshaw eseguita da Maya Beiser \u00a9 Chester Music/ Boosey & Hawkes Ltd. \u00a9 G. Schirmer Inc./ Red Poppy Edizioni per I'Italia: Casa Ricordi Srl Edizioni per I'ltalia: Casa Ricordi Srl (p) 1992 Nonesuch Records Licensed exclusively from Entertainment One U.S.LP Per gentile concessione di Warner Music Italia Srl MOODY TAKE MY BREATH AWAY(G. Boratto) (Scroggins) eseguita da Gui Boratto@ 2oo9 Truelove Music eseguita da ESG Edizioni per I'Italia: DIPIU Srl \u00a9 Fire Songs (p) 2009 Kompakt (p) 1981 Fire Records Produced by Guilherme Boratto Licensed by pleasure of Fire Records Courtesy of Kompakt THE BEATITUDES FOREVER (V. Martynov) (M.Fabrizio-A.Venditti) eseguita dai Kronos Quartet eseguita da Antonello Venditti (p) 2012 Nonesuch Records  2011 Heinz Music Srl Per gentile concessione di \u00a9 2012 by EDIZIONI CURCI Srl - HEINZ MUSIC Srl - Milano Warner Music Italia Srl OTTODODICLED MUS S rI - WIZ MUSIC ED MUS - Milano",
+          "ocr_bbox": [
+            336,
+            23,
+            1052,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_016_num12346_sim86.jpg",
+          "frame_num": 12346,
+          "ocr_text": "THE LAMB PARADE (J.K. Tavener, W. Blake) (Berthiling/Hallonsten/Berthling) Chester Music eseguita da Tape Edizioni per Htalia, Casa Ricordi Srl \u00a98 (p) 2008 Hapna Verlag The Choir of the Temple Church diretto da Stephen Layton (P) 2oo3 DeccaMusic Group Limited SYMPHONYNO.3OP-36 Per gentile concessione di Universal Music Italia Srl \"OFSORROWFUL SONG\"IIL LENTO-CANTABILE SEMPLICE (H.M. Gorecki) London Sinfonietta WORLD TO COME IV diretta da David Zinman (D.A. Lang) Soprano Dawn Upshaw eseguita da Maya Beiser Chester Music / Boosey & Hawkes Lrd. G. Schirmer Inc./Red Poppy Edizioni per I'Italia: Casa Ricordi Srl Edizioni per I'Italia: Casa Ricordi Srl (p) 1992 Nonesuch Records Licensed exclusively from Entertainment One U.S. LP Per gentile concessione di Warner Music Italia Srl MOODY TAKE MY BREATH AWAY(G. Boratto) (Scroggins) eseguita da Gui Boratto@ 20og Truelove Music eseguita da ESG Edizioni per I'Italia: DIPIU'-Srl \u00a9 Fire Songs (p) 2009 Kompakt (p) 1981 Fire Records Produced by Guilherme Boratto Licensed by pleasure of Fire Records Courtesy of Kompakt THE BEATITUDES FOREVER (V.Martynov) (M.Fabrizio-A.Venditti) eseguita dai Kronos Quartet eseguita da Antonello Venditti (p) 2012 Nonesuch Records 2011 Heinz Music Srl Per gentile concessione di \u00a9 2012 by EDIZIONI CURCI Srl - HEINZ MUSIC Srl - Milano Warner Music Italia Srl OTTODODICI ED. MUS. S.r.I. - WIZ MUSIC ED. MUS. - MilanO PANCHO THERE MUST BE AN ANGEL (PLAYING WTTH MY HEART) (Steffaro/Trombey) (A. Lennox/D.A. Stewart) (p) &\u00a9.1966 Fonos Edizioni Musicali-Milano eseguita da Lorraine Bowen Rai-Radio Televisione Italiana Remix di Paolo Scotti \u00a9 Universal Music Publishing MGB Ltd. Edizioni per I'Italia: Universal Music Publishing Ricordi Srl",
+          "ocr_bbox": [
+            336,
+            0,
+            1053,
+            523
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_017_num12382_sim84.jpg",
+          "frame_num": 12382,
+          "ocr_text": "(P) 2oo3 Decca Music Group Limited SYMPHONYNO3OP36 Per gentile concessione di Universal Music Italia Srl \"OFSORROWFUL SONG\"IIL LENTO CANTABILE SEMPLICE (H. M. Gorecki) London Sinfonietta WORLD TO COME IV diretta da David Zinman (D.A. Lang) Soprano Dawn Upshaw eseguita da Maya Beiser Chester Music/ Boosey Hawkes Ltd.  G. Schirmer Inc./ Red Poppy Edizioni per l'Italia: Casa Ricordi Srl Edizioni per I talia, Casa Ricordi Srl (p) 1992 Nonesuch Records Licensed exclusively from Entertainment One U.S. LP Per gentile concessione di Warner Music Italia Srl MOODY TAKE MY BREATH AWAY(G. Boratto) (Scroggins) eseguita da Gui Boratto\u00a9 2009 Truelove Music eseguita da ESG Edizioni per IItalia: DIPIU Srl Fire Songs (p) 2009 Kompakt (p) 1981 FireRecords Produced by Guilherme Boratto Licensed by pleasure of Fire Records Courtesy of Kompakt THE BEATITUDES FOREVER (V. Martynov) (M.Fabrizio - A.Venditti) eseguita dai Kronos Quartet eseguita da Antonello Venditti (p) 2012 Nonesuch Records 2011 Heinz Music Srl Per gentile concessione di \u00a9 2012 by EDIZIONI CURCI Srl - HEINZ MUSIC Srl- Milano Warner Music Italia Srl OTTODODICIED. MUS. S.r.I. - WIZ.MUSIC ED. MUS. -Milano PANCHO THERE MUST BE AN ANGEL (PLAYING WITH MY HEART) (Steffaro/Trombey) (A. Lennox /D.A. Stewart) (p) &\u00a9.1966 Fonos Edizioni Musicali -Milano eseguita da Lorraine Bowen RaiRadio Televisione Italiana Remix di Paolo Scotti \u00a9 Universal Music Publishing MGB Ltd. Edizioni per I'Italia: Universal Music Publishing Ricordi Srl WATER FROM THE SAME SOURCE SINFONIA N. 1 IN DO MAGGIORE (C. Frederickson. R. Grimes. J. Noble) ADAGIO Performed by Rachel's (G. Bizet) from the album \"systems/layers\" Leopold Stokowski Copyright 2003 Quarterstick Records and his Symphony OrchestraAn Archipel Production",
+          "ocr_bbox": [
+            335,
+            1,
+            1053,
+            539
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_018_num12466_sim72.jpg",
+          "frame_num": 12466,
+          "ocr_text": "eseguita da ESG Edizioni per IItalia: DIPIU Srl Fire Songs (p) 2009 Kompakt (p) 1981 Fire Records Produced by Guilherme Boratto Licensed by pleasure of Fire Records Courtesy of Kompakt THE BEATITUDES FOREVER (V.Martynov) (M.Fabrizio-AVenditti) eseguita dai Kronos Quarter eseguita da Antonello Venditti (p) 2012Nonesuch Records 2011 Heinz Music Srl Per gentile concessionedi \u00a9 2012 by EDIZIONI CURCISrl-HEINZ MUSIC SrJ-Milano Warner Music Italia Srl PANCHO THERE MUST BE AN-ANGEL (PLAYING WITH MY HEART) (Steffaro/Trombey) (A. Lennox/D.A. Stewart) (p) & C.1966 Fonos Edizioni Musicali-Milano eseguita da Lorraine Bowen Rai - Radio Televisione Italiana Remix di Paolo Scotti Universal Music Publishing MGB Ltd. Edizioni per I'ltalia: Universal Music Publishing Ricordi Srl WATER FROM THE SAME SOURCE SINFONIA N. 1 IN DO MAGGIORE (C. Frederickson. R. Grimes. J. Noble) ADAGIO Performed by Rachel's (G. Bizet) from the album \"systems/layers Leopold Stokowski Copyright 2o03 Quarterstick Records and his Symphony OrchestraAn Archipel Production DIES IRAE EVERYTHING TRYING (Zbigniew Preisner) (Damien Jurado) Performed by Elzbieta Towarnicka, soprano: Performed by Damien Jurado Dariusz Paradowski, male soprano: Courtesy of Secretly Canadian Piotr Lykowski, countertenor. \u00a9 House of Hassle LLC administered Piotr Kusiewicz, tenor. by Kobalt Music Publishing Limited Grzegorz Zychowicz, bass; Jan Szypowski, organ. From Requiem for my friend. DISCOTECA Published by Chester Music Ltd. / New Music B.V. (C. Bouyjou / C. Fabre / R. Valli) Published in Italy by: Casa Ricordi Srl eseguita da Exchpoptrue Recording used by kind permission of New Music B.V. Published by DJ Center Records",
+          "ocr_bbox": [
+            335,
+            1,
+            1051,
+            539
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_019_num12478_sim91.jpg",
+          "frame_num": 12478,
+          "ocr_text": "(p) 1981 Fire Records Produced by Guilherme Boratto Licensed by pleasure of Fire Records Courtesyof Kompakt THE BEATITUDES FOREVER (V. Mariynov) (M.Fabrizio>AVenditti) eseguita dai Kronos Quariet eseguita da Antonello Venditti (p) 2012 Nonesuch Records 2011 Heinz Music Srl Per gentileconcessionedi  2012 by EDIZIONI CURCISrl-HEINZ MUSIC SrJ-Milano Warner Music Italia Srl OTTODODICIED.MUS.S.r.L=WIZMUSIC ED.MUS,-MilanO PANCHO THERE MUST BE ANANGEL (PLAYING WITH MY HEART) (Steffaro/ Trombey) (A.Lennox/D.A. Stewart) (p) & \u00a9.1966 Fonos Edizioni Musicali Milano eseguita da Lorraine Bowen Rai-Radio Televisione Italiana Remix di Paolo Scotti Universal Music Publishing MGB Ltd. Edizioni per I'ltalia: Universal Music Publishing Ricordi Srl WATER FROM THE SAME SOURCE SINFONIAN. 1 IN DO MAGGIORE (C. Frederickson. R. Grimes. J. Noble) ADAGIO Performed by Rachel's (G. Bizet) from the album \"systems/layers' Leopold Stokowski Copyright 2003 Quarterstick Records and his Symphony OrchestraAn Archipel Production DIES IRAE EVERYTHING TRYING (Zbigniew Preisner) (Damien Jurado) Performed by Elzbieta Towarnicka, soprano; Performed by Damien Jurado Dariusz Paradowski, male soprano Courtesy of Secretly Canadian Piotr Lykowski, countertenor. \u00a9 House of Hassle LLC administered Piotr Kusiewicz, tenor. by Kobalt Music Publishing Limited Grzegorz Zychowicz, bass: Jan Szypowski, organ. From 'Requiem for my friend' DISCOTECA Published by Chester Music Ltd. / New Music B.V. (C. Bouyjou/ C. Fabre/ R. Valli) Published in Italy by: Casa Ricordi Srl eseguita da Exchpoptrue Recording used by kind permission of New Music B.V. Published by DJ Center Records All rights reserved. \u00a9 2003 Hot Banana www.preisner.com \u00a9 DJ Center Music Group",
+          "ocr_bbox": [
+            334,
+            3,
+            1051,
+            542
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_020_num12514_sim85.jpg",
+          "frame_num": 12514,
+          "ocr_text": "eseguita dai Kronos Quartet eseguita da Antonello Venditti 201 HeinzMusicSrl (p) 2012 Nonesuch Records Per gentile concessionedi  2O12 by EDIZIONI GURCISrl-HEINZ MUSIC Srl-Milano Warner Music Italia Srl OTTODODIGIED.MUS.S.r.L-WIZMUSIC ED.MUS.-MilanO PANGHO THERE MUST BE ANANGEL (PLAYING WITH MY HEART) (Steffaro/Trombey) (A. Lennox/D.A.Stewart) (p) .1966 Fonos EdizioniMusicali -Milano eseguita da Lorraine Bowen Rai Radio Televisione Italiana Remix di Paolo Scotti Universal Music Publishing MGB Lrd Edizioni per I'ltalia: Universal Music Publishing Ricordi Srl WATER FROM THE SAME SOURCE SINFONIA N. 1 IN DO MAGGIORE (C. Frederickson. R. Grimes. J. Noble) ADAGIO Performed by Rachel's (G. Bizet) from the album \"systems/layers Leopold Stokowski Copyright 2003 Quarterstick Records and his Symphony OrchestraAn Archipel Production DIES IRAE EVERYTHING TRYING (Zbigniew Preisner) (Damien Jurado) Performed by Elzbieta Towarnicka, soprano: Performed by Damien Jurado Dariusz Paradowski, male soprano Courtesy of Secretly Canadian Piotr Lykowski, countertenor. House of Hassle LLC administered Piotr Kusiewicz, tenor. by Kobalt Music Publishing Limited Grzegorz Zychowicz, bass; Jan Szypowski, organ. From 'Requiem for my friend. DISCOTECA Published by Chester Music Ltd. / New Music B.V. (C. Bouyjou / C. Fabre /R. Valli) Published in Italy by: Casa Ricordi Srl eseguita da Exchpoptrue Recording used by kind permission of New Music B.V. Published by DJ Center Records All rights reserved. \u00a9 2003 Hot Banana www.preisner.com \u00a9 DJ Center Music Group WE NO SPEAK AMERICANO TI RUBERO' (R. Carosone / N. Salerno / M. Handley / D. MacLennan/ A. Stanley) (B.Lauzi) eseguita da Studio Allstars eseguita da Monica Cetti \u00a9 Universal Music Publishing Ricordi Srl \u00a9 Universal Music Publishing Ricordi Srl",
+          "ocr_bbox": [
+            302,
+            3,
+            1052,
+            542
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_021_num12646_sim72.jpg",
+          "frame_num": 12646,
+          "ocr_text": "DIESIRAE EVERTIHINGIRYING (Zbigniew Preisner) (Damien Jurado) Performed by Elzbieta Towarnicka, soprano, Performed by Damien Jurado DariuszParadowski, male soprano Courtesyof Secretly Canadian House of Hassle L.L.Cadministered Piotr Lykowski, countertenor Piotr Kusiewicz, tenor by Kobalt Music Publishing Limited Grzegorz Zychowicz, bass, Jan Szypowski, organ. From Requiem for my friend\". DISCOTECA Published by Chester Music Ltd. / New Music B.V. (C. Bouyjou/ C. Fabre/R. Valli) Published in Italy by: Casa Ricordi Srl eseguita da Exchpoptrue Recording used by kind permission of New Music B.V. Published by DJ Center Records All rights reserved.  2003 Hot Banana www.preisner.com \u00a9 DJ Center Music Group WE NO SPEAK AMERICANO TI RUBERO (R. Carosone/N. Salerno/M. Handley / D. MacLennan/ A. Stanley) (B.Lauzi) eseguita da Studio Allstars eseguita da Monica Cetti \u00a9 Universal Music Publishing Ricordi Srl \u00a9 Universal Music P\u00fcblishing Ricordi Srl (p) 2010 One Media IP'Ltd. (p)2013 Indigo Film.Srl TROIS MOUVEMENTS PERP\u00c9TUELS (1918) BEATAVISCERA (F. Poulenc) (Magister Perotinus) Performed by Peter Beijersbergen van Henegouwen, piano Performed by Vox Clamantis \u00a9 Chester Music (p) ECM Records 2012 Edizioni per I'ltalia: Casa Ricordi Srl Courtesy of LTM Recordings Colonna sonora originale distribuita da EMI - UNIVERSAL Questo film \u00e8 stato realizzato con il supporto della Roma Lazio Film Commission Questo film \u00e8 stato realizzato anche grazie all'utilizzo del credito d'imposta previsto dalla legge 24 Dicembre 2007. n. 244",
+          "ocr_bbox": [
+            302,
+            0,
+            1008,
+            538
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_022_num12718_sim68.jpg",
+          "frame_num": 12718,
+          "ocr_text": "All rightsreserved. 2003Hot Banana www.preisner.com DJ Center Music Group WE NO SPEARAMERICANO TIRUBERO (R. Carosone/N. Salerno/M.Handley/D. MacLennan/A. Stanley) (B.Lauzi) eseguita da Studio Allstars eseguita da Monica Cetti \u00a9Universal Music PublishingRicordiSrl Universal MusicPublishingRicordi Srl (p) 2010 One Media IP Ltd. (p)2013 Indigo Film Srl TROIS MOUVEMENTS PERP\u00c9TUELS (1918) BEATAVISCERA (F. Poulenc) (Magister Perotinus) Performed by Peter Beijersbergen van Henegouwen, piano Performed by Vox Clamantis \u00a9 Chester Music (p) ECM Records 2012 Edizioni per I'talia: Casa Ricordi Srl Courtesy of LTM Recordings Colonna sonora originale distribuita da EMI- UNIVERSAI Questo film \u00e8 stato realizzato con il supporto della Roma Lazio Film Commission Questo film \u00e8 stato realizzato anche grazie allutilizzo del credito d'imposta previsto dalla legge 24 Dicembre 2007.n. 244 Distribuzione Francia PATHE Distribuzione e vendite internazionali PATH\u00c9 INTERNATIONAL Muriel Sauzay Mayalen De Croisoeuil Sayako Huddleston Agathe Theodore",
+          "ocr_bbox": [
+            300,
+            0,
+            1007,
+            501
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_023_num12802_sim62.jpg",
+          "frame_num": 12802,
+          "ocr_text": "Chester Music (p) ECMRecords2012 Edizioni perHtalia,GasaRicordi SrI Courtesyof LTM Recordings Colonna sonora originale distribuita da EMl-UNIVERSAL Questo film \u00e9 stato realizzato con il supporio della Ronia Lazio Film Comimission Questo film \u00e9 stato realizzato anche grazie all'utilizzo del credito d'imposta previsto dalla legge24Dicembre2007,n.244 Distribuzione Francia PATHE Distribuzione e vendite internazionali PATHE INTERNATIONAL Muriel Sauzay Mayalen De Croisoeuil Sayako Huddleston Agathe Theodore MEDIA EURIMAGES CINE + cinema",
+          "ocr_bbox": [
+            376,
+            0,
+            961,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_024_num12886_sim59.jpg",
+          "frame_num": 12886,
+          "ocr_text": "legge24Dicembre20o7,n.249 Distribuzione Francia PATHE Distribuzioneevenditeinternazionali PATHE INTERNATIONAL Muriel Sauzay Mayalen De Croisoeuil Sayako Huddleston Agathe Theodore MEDIA EURIMAGES CANAL+ CINE + cinema DIDOLBY DIGITA 2013 INDIGO FILM, BABE FILMS, PATH\u00c9 PRODUCTION, FRANCE 2 CINEMA",
+          "ocr_bbox": [
+            487,
+            10,
+            944,
+            466
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_025_num12946_sim60.jpg",
+          "frame_num": 12946,
+          "ocr_text": "Mayalen De Croisoeuil SayakoHuddleston AgatheTheodore PATHE MEDIAO EURIMACES CANAL+ CINE + 2 cinema DIDOLBY \u00a9 2O13 INDIGO FILM. BABE FILMS. PATH\u00c9 PRODUGTION FRANCE 2 CIN\u00c9MA",
+          "ocr_bbox": [
+            487,
+            0,
+            948,
+            337
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_grande_bellezza\\analysis\\frames\\scene_017_static_026_num13030_sim57.jpg",
+          "frame_num": 13030,
+          "ocr_text": "EUROPE LOVES CINTINA CANAL+ CINE + cinema MDOLBY DIGITAL \u00a9 2O13 INDIGO FILM, BABEFILMS, PATH\u00c9 PRODUCTION, FRANGE 2 GIN\u00c9MA",
+          "ocr_bbox": [
+            496,
+            0,
+            944,
+            159
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 27,
+      "median_flow_px_per_frame": -0.1944902390241623,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.257524237036705,
+      "roi_percentile_flow": -0.1944902390241623,
+      "scroll_direction": null
+    }
+  }
+}

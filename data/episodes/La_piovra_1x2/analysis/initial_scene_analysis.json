@@ -1,0 +1,300 @@
+{
+    "episode_id": "La_piovra_1x2",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 8,
+            "original_start_frame": 275,
+            "original_end_frame": 285,
+            "original_start_timecode": "00:00:11.000",
+            "original_end_timecode": "00:00:11.400",
+            "duration_frames": 10,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Rai RAI La RADIOTELEVISIONE ITALIANA presenta"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 275,
+                    "ocr_text": "Rai RAI La RADIOTELEVISIONE ITALIANA presenta",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_008_first_half_frame_275_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 9,
+            "original_start_frame": 285,
+            "original_end_frame": 531,
+            "original_start_timecode": "00:00:11.400",
+            "original_end_timecode": "00:00:21.240",
+            "duration_frames": 246,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Rai La RAI RADIOTELEVISIONE ITALIANA presenta"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 297,
+                    "ocr_text": "Rai La RAI RADIOTELEVISIONE ITALIANA presenta",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_009_first_half_frame_297_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 10,
+            "original_start_frame": 531,
+            "original_end_frame": 2538,
+            "original_start_timecode": "00:00:21.240",
+            "original_end_timecode": "00:01:41.520",
+            "duration_frames": 2007,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Rai soggetto di NICOLA BADALUCCO elaborato da LUCIO BATTISTRADA - MASSIMO DE RITA"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 631,
+                    "ocr_text": "Rai soggetto di NICOLA BADALUCCO elaborato da LUCIO BATTISTRADA - MASSIMO DE RITA",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_010_first_half_frame_631_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 11,
+            "original_start_frame": 2538,
+            "original_end_frame": 2886,
+            "original_start_timecode": "00:01:41.520",
+            "original_end_timecode": "00:01:55.440",
+            "duration_frames": 348,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Rai XIII"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2555,
+                    "ocr_text": "Rai",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 2572,
+                    "ocr_text": "Rai",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 2590,
+                    "ocr_text": "Rai",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 2607,
+                    "ocr_text": "Rai",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 2625,
+                    "ocr_text": "Rai",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 2642,
+                    "ocr_text": "Rai XIII",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_011_second_half_frame_2642_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 12,
+            "original_start_frame": 2886,
+            "original_end_frame": 3089,
+            "original_start_timecode": "00:01:55.440",
+            "original_end_timecode": "00:02:03.560",
+            "duration_frames": 203,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Rai regia DAMIANO DAMIANI"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2896,
+                    "ocr_text": "Rai regia DAMIANO DAMIANI",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_012_second_half_frame_2896_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 20,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:00.800",
+            "duration_frames": 20,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 20,
+            "end_frame": 38,
+            "start_timecode": "00:00:00.800",
+            "end_timecode": "00:00:01.520",
+            "duration_frames": 18,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 38,
+            "end_frame": 60,
+            "start_timecode": "00:00:01.520",
+            "end_timecode": "00:00:02.400",
+            "duration_frames": 22,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 60,
+            "end_frame": 103,
+            "start_timecode": "00:00:02.400",
+            "end_timecode": "00:00:04.120",
+            "duration_frames": 43,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 103,
+            "end_frame": 149,
+            "start_timecode": "00:00:04.120",
+            "end_timecode": "00:00:05.960",
+            "duration_frames": 46,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 149,
+            "end_frame": 178,
+            "start_timecode": "00:00:05.960",
+            "end_timecode": "00:00:07.120",
+            "duration_frames": 29,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 6,
+            "start_frame": 178,
+            "end_frame": 226,
+            "start_timecode": "00:00:07.120",
+            "end_timecode": "00:00:09.040",
+            "duration_frames": 48,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 7,
+            "start_frame": 226,
+            "end_frame": 275,
+            "start_timecode": "00:00:09.040",
+            "end_timecode": "00:00:11.000",
+            "duration_frames": 49,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 8,
+            "start_frame": 275,
+            "end_frame": 285,
+            "start_timecode": "00:00:11.000",
+            "end_timecode": "00:00:11.400",
+            "duration_frames": 10,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 9,
+            "start_frame": 285,
+            "end_frame": 531,
+            "start_timecode": "00:00:11.400",
+            "end_timecode": "00:00:21.240",
+            "duration_frames": 246,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 10,
+            "start_frame": 531,
+            "end_frame": 2538,
+            "start_timecode": "00:00:21.240",
+            "end_timecode": "00:01:41.520",
+            "duration_frames": 2007,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 11,
+            "start_frame": 2538,
+            "end_frame": 2886,
+            "start_timecode": "00:01:41.520",
+            "end_timecode": "00:01:55.440",
+            "duration_frames": 348,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 12,
+            "start_frame": 2886,
+            "end_frame": 3089,
+            "start_timecode": "00:01:55.440",
+            "end_timecode": "00:02:03.560",
+            "duration_frames": 203,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:37:23.205258"
+}

@@ -1,0 +1,530 @@
+{
+  "scenes": {
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_3": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_003_static_000_num00360_sim0.jpg",
+          "frame_num": 360,
+          "ocr_text": "PROSEGUR",
+          "ocr_bbox": [
+            625,
+            79,
+            681,
+            90
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.14681074023246765,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.16783934831619263,
+      "roi_percentile_flow": -0.14681074023246765,
+      "scroll_direction": null
+    },
+    "scene_10": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.9114498496055603,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.044142723083496,
+      "roi_percentile_flow": 0.9114498496055603,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 711,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_19": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 1.1747273206710815,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.7080878019332886,
+      "roi_percentile_flow": 1.1747273206710815,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 552,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_26": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.12474900484085083,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.11992447823286057,
+      "roi_percentile_flow": -0.12474900484085083,
+      "scroll_direction": null
+    },
+    "scene_29": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_029_static_000_num04181_sim12.jpg",
+          "frame_num": 4181,
+          "ocr_text": "N\u00famero desconocido - 13:24 Si no quieres que el v\u00eddeo se haga p\u00fablico pon estas preguntas en el examen:",
+          "ocr_bbox": [
+            775,
+            278,
+            1047,
+            410
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_029_static_001_num04301_sim95.jpg",
+          "frame_num": 4301,
+          "ocr_text": "N\u00famero desconocido - 13:24 Si no el I v\u00eddeo quieres que se haga p\u00fablico uod estas preguntas en el examen:",
+          "ocr_bbox": [
+            773,
+            278,
+            1049,
+            410
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.4620850682258606,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2816949486732483,
+      "roi_percentile_flow": 0.4620850682258606,
+      "scroll_direction": null
+    },
+    "scene_30": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_030_static_000_num04367_sim51.jpg",
+          "frame_num": 4367,
+          "ocr_text": "Numero desconocido 13:24 1. \"Por qu\u00e9 me la suda la clase de literatura?\"",
+          "ocr_bbox": [
+            145,
+            488,
+            415,
+            570
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.12053986638784409,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.14279097318649292,
+      "roi_percentile_flow": 0.12053986638784409,
+      "scroll_direction": null
+    },
+    "scene_31": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_031_scroll_000_num04749_sim0.jpg",
+          "frame_num": 4749,
+          "ocr_text": "N\u00famero desconocido - 13:24 2. \"Escribe el t\u00edtulo y el autor del libro  te d\u00e9 la que a gana\"",
+          "ocr_bbox": [
+            716,
+            295,
+            1015,
+            382
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 1.892183780670166,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 1.4665918350219727,
+      "roi_percentile_flow": 1.892183780670166,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 342,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_47": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.7247247695922852,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -0.2691350281238556,
+      "roi_percentile_flow": -0.7247247695922852,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 894,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_48": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_048_static_000_num06475_sim21.jpg",
+          "frame_num": 6475,
+          "ocr_text": "B\u00c1RBARA LENNIE",
+          "ocr_bbox": [
+            852,
+            349,
+            1092,
+            379
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_048_static_001_num06595_sim29.jpg",
+          "frame_num": 6595,
+          "ocr_text": "TAMAR NOVAS ARONPIPER",
+          "ocr_bbox": [
+            155,
+            172,
+            353,
+            241
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_048_static_002_num06610_sim68.jpg",
+          "frame_num": 6610,
+          "ocr_text": "TAMAR NOVAS ARON PIPER SRIZ N",
+          "ocr_bbox": [
+            155,
+            174,
+            783,
+            446
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_048_static_003_num06625_sim91.jpg",
+          "frame_num": 6625,
+          "ocr_text": "TAMAR NOVAS ARON PIPER SRIZ NOVARIZ",
+          "ocr_bbox": [
+            154,
+            172,
+            870,
+            445
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_048_static_004_num06655_sim85.jpg",
+          "frame_num": 6655,
+          "ocr_text": "TAMAR NOVAS ARON PIPER VSRIZ NOVARIZ",
+          "ocr_bbox": [
+            152,
+            171,
+            868,
+            444
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_048_static_005_num06715_sim59.jpg",
+          "frame_num": 6715,
+          "ocr_text": "ROBERTO ENR\u00cdQUEZ SRIZ NOVARIZ",
+          "ocr_bbox": [
+            557,
+            364,
+            1161,
+            445
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_048_static_006_num06745_sim40.jpg",
+          "frame_num": 6745,
+          "ocr_text": "NOVARIZ",
+          "ocr_bbox": [
+            745,
+            412,
+            861,
+            443
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 7,
+      "median_flow_px_per_frame": 0.10667166858911514,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.11988163739442825,
+      "roi_percentile_flow": 0.10667166858911514,
+      "scroll_direction": null
+    },
+    "scene_49": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_049_static_000_num06763_sim31.jpg",
+          "frame_num": 6763,
+          "ocr_text": "ROQUE RUIZ ISABEL GARRIDO",
+          "ocr_bbox": [
+            524,
+            322,
+            754,
+            394
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_049_static_001_num06853_sim37.jpg",
+          "frame_num": 6853,
+          "ocr_text": "FEDE P\u00c9REZ ALFONSO AGRA SUSANA DANS",
+          "ocr_bbox": [
+            532,
+            303,
+            749,
+            418
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_049_static_002_num06928_sim99.jpg",
+          "frame_num": 6928,
+          "ocr_text": "FEDE PEREZ ALFONSO AGRA SUSANA DANS",
+          "ocr_bbox": [
+            531,
+            305,
+            749,
+            416
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_049_static_003_num07018_sim29.jpg",
+          "frame_num": 7018,
+          "ocr_text": "Musion Original LUCIO GODOY RICARDO CURTO",
+          "ocr_bbox": [
+            903,
+            362,
+            1130,
+            471
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.1228632852435112,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.18195194005966187,
+      "roi_percentile_flow": 0.1228632852435112,
+      "scroll_direction": null
+    },
+    "scene_50": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_050_static_000_num07118_sim40.jpg",
+          "frame_num": 7118,
+          "ocr_text": "Productores Ejecutivos EMMA LUSTRES CARLOS MONTERO BORJA PENA",
+          "ocr_bbox": [
+            121,
+            154,
+            379,
+            312
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_050_static_001_num07373_sim50.jpg",
+          "frame_num": 7373,
+          "ocr_text": "Basada en el libro EL DESORDEN QUE DEJAS de CARLOS MONTERO",
+          "ocr_bbox": [
+            796,
+            312,
+            1115,
+            405
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_050_static_002_num07523_sim41.jpg",
+          "frame_num": 7523,
+          "ocr_text": "EL DESOKDEN QUE FIAS",
+          "ocr_bbox": [
+            439,
+            201,
+            862,
+            489
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_050_static_003_num07538_sim58.jpg",
+          "frame_num": 7538,
+          "ocr_text": "DESORDEN QUE DEJAS",
+          "ocr_bbox": [
+            441,
+            275,
+            863,
+            486
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": -0.11234307289123535,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": -0.11234307289123535,
+      "scroll_direction": null
+    },
+    "scene_53": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_053_static_000_num08000_sim29.jpg",
+          "frame_num": 8000,
+          "ocr_text": "POWEREITT NOVARIZ",
+          "ocr_bbox": [
+            561,
+            331,
+            739,
+            369
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_053_static_001_num08015_sim41.jpg",
+          "frame_num": 8015,
+          "ocr_text": "POWERFTT NPYARIZ Escrito por JAVIER HOLGADO VICENTE",
+          "ocr_bbox": [
+            126,
+            329,
+            741,
+            606
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.182041198015213,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.18303826451301575,
+      "roi_percentile_flow": 0.182041198015213,
+      "scroll_direction": null
+    },
+    "scene_54": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_054_scroll_000_num08061_sim0.jpg",
+          "frame_num": 8061,
+          "ocr_text": "Escrito por JAVIER HOLGADO VICENTE",
+          "ocr_bbox": [
+            126,
+            540,
+            493,
+            606
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.18613600730896,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 1.3207478523254395,
+      "roi_percentile_flow": 2.18613600730896,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 296,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_55": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_055_static_000_num08159_sim42.jpg",
+          "frame_num": 8159,
+          "ocr_text": "Dirigido por S\u00cdLVIA QUER",
+          "ocr_bbox": [
+            222,
+            536,
+            397,
+            610
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_055_static_001_num08234_sim94.jpg",
+          "frame_num": 8234,
+          "ocr_text": "Dirigilo por SILVIA QUER",
+          "ocr_bbox": [
+            223,
+            538,
+            396,
+            609
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.23120775818824768,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.8125771880149841,
+      "roi_percentile_flow": 0.23120775818824768,
+      "scroll_direction": null
+    },
+    "scene_56": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_056_static_000_num08250_sim24.jpg",
+          "frame_num": 8250,
+          "ocr_text": "OWEK NOVAR",
+          "ocr_bbox": [
+            1014,
+            383,
+            1274,
+            496
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_Opening\\analysis\\frames\\scene_056_static_001_num08295_sim59.jpg",
+          "frame_num": 8295,
+          "ocr_text": "NOVARIZ",
+          "ocr_bbox": [
+            1126,
+            461,
+            1280,
+            512
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.44735634326934814,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.453127920627594,
+      "roi_percentile_flow": 0.44735634326934814,
+      "scroll_direction": null
+    }
+  }
+}

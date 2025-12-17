@@ -1,0 +1,1596 @@
+[
+  {
+    "role_detail": "Starring",
+    "name": "Kyle MacLachlan",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_static_006_num00880_sim69.jpg"
+    ],
+    "original_frame_number": [
+      880
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "MADCHEN AMICK",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_static_000_num01128_sim93.jpg"
+    ],
+    "original_frame_number": [
+      1128
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "DANA ASHBROOK",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_static_001_num01188_sim36.jpg"
+    ],
+    "original_frame_number": [
+      1188
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "RICHARD BEYMER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_static_002_num01260_sim30.jpg"
+    ],
+    "original_frame_number": [
+      1260
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "LARA FLYNN BOYLE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_static_003_num01332_sim40.jpg"
+    ],
+    "original_frame_number": [
+      1332
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "SHERILYN FENN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_static_004_num01392_sim34.jpg"
+    ],
+    "original_frame_number": [
+      1392
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "WARREN FROST",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_static_005_num01476_sim32.jpg"
+    ],
+    "original_frame_number": [
+      1476
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "PEGGY LIPTON",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_static_007_num01572_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1572
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "JAMES MARSHALL",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_static_008_num01620_sim8.jpg"
+    ],
+    "original_frame_number": [
+      1620
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "EVERETT McGILL",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_static_009_num01692_sim36.jpg"
+    ],
+    "original_frame_number": [
+      1692
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "JACK NANCE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_static_010_num01764_sim17.jpg"
+    ],
+    "original_frame_number": [
+      1764
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "RAY WISE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_static_011_num01836_sim33.jpg"
+    ],
+    "original_frame_number": [
+      1836
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "as Jocelyn Packard",
+    "name": "JOAN CHEN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_static_012_num01908_sim17.jpg"
+    ],
+    "original_frame_number": [
+      1908
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "as Catherine Martell",
+    "name": "PIPER LAURIE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_static_013_num01992_sim46.jpg"
+    ],
+    "original_frame_number": [
+      1992
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Created by",
+    "name": "MARK FROST",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_002_static_014_num02076_sim37.jpg"
+    ],
+    "original_frame_number": [
+      2076
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Created by",
+    "name": "DAVID LYNCH",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_002_static_014_num02076_sim37.jpg"
+    ],
+    "original_frame_number": [
+      2076
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Starring",
+    "name": "ERIC DA RE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_000_num02310_sim35.jpg"
+    ],
+    "original_frame_number": [
+      2310
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "HARRY GOAZ",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_001_num02382_sim36.jpg"
+    ],
+    "original_frame_number": [
+      2382
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "MICHAEL HORSE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_003_num02466_sim35.jpg"
+    ],
+    "original_frame_number": [
+      2466
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "SHERYL LEE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_005_num02550_sim30.jpg"
+    ],
+    "original_frame_number": [
+      2550
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "as Dr. Jacoby",
+    "name": "Russ Tamblyn",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_007_num02634_sim57.jpg"
+    ],
+    "original_frame_number": [
+      2634
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Guest Starring",
+    "name": "Grace Zabriskie",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_009_num02718_sim98.jpg"
+    ],
+    "original_frame_number": [
+      2718
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Guest Starring",
+    "name": "Ginger Lynn",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_010_num02766_sim55.jpg"
+    ],
+    "original_frame_number": [
+      2766
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "David Patrick Kelly",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_011_num02790_sim31.jpg"
+    ],
+    "original_frame_number": [
+      2790
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Miguel Ferrer",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_012_num02862_sim26.jpg"
+    ],
+    "original_frame_number": [
+      2862
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "MIGUEL FERRER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_014_num02922_sim46.jpg"
+    ],
+    "original_frame_number": [
+      2922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "VICTORIA CATLIN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_016_num02958_sim98.jpg"
+    ],
+    "original_frame_number": [
+      2958
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "WENDY ROBIE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_016_num02958_sim98.jpg"
+    ],
+    "original_frame_number": [
+      2958
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "KIMMY ROBERTSON",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_016_num02958_sim98.jpg"
+    ],
+    "original_frame_number": [
+      2958
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "JAN D'ARCY",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_018_num03054_sim63.jpg"
+    ],
+    "original_frame_number": [
+      3054
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "MARY JO DESCHANEL",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_018_num03054_sim63.jpg"
+    ],
+    "original_frame_number": [
+      3054
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "GARY HERSHBERGER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_018_num03054_sim63.jpg"
+    ],
+    "original_frame_number": [
+      3054
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Music Composed & Conducted by",
+    "name": "ANGELO BADALAMENTI",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_005_static_019_num03150_sim23.jpg"
+    ],
+    "original_frame_number": [
+      3150
+    ],
+    "scene_position": "first_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Produced by",
+    "name": "Gregg Fienberg",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_005_static_021_num03246_sim32.jpg"
+    ],
+    "original_frame_number": [
+      3246
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Executive Producers",
+    "name": "Mark Frost",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_009_static_000_num03846_sim67.jpg"
+    ],
+    "original_frame_number": [
+      3846
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Executive Producers",
+    "name": "David Lynch",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_009_static_000_num03846_sim67.jpg"
+    ],
+    "original_frame_number": [
+      3846
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Associate Producer",
+    "name": "PHILIP NEEL",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_009_static_001_num03990_sim44.jpg"
+    ],
+    "original_frame_number": [
+      3990
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Director of Photography",
+    "name": "FRANK BYERS",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_010_static_001_num04033_sim93.jpg"
+    ],
+    "original_frame_number": [
+      4033
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production Designer",
+    "name": "RICHARD HOOVER",
+    "role_group": "Production Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Designers",
+    "source_frame": [
+      "scene_010_static_002_num04057_sim41.jpg"
+    ],
+    "original_frame_number": [
+      4057
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Editor",
+    "name": "JONATHAN P. SHAW",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_010_static_003_num04093_sim39.jpg"
+    ],
+    "original_frame_number": [
+      4093
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Original & Series Casting by",
+    "name": "JOHANNA RAY",
+    "role_group": "Casting Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Directors",
+    "source_frame": [
+      "scene_010_static_004_num04129_sim34.jpg"
+    ],
+    "original_frame_number": [
+      4129
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Director of Photography",
+    "name": "RON GARCIA",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_010_static_005_num04177_sim35.jpg"
+    ],
+    "original_frame_number": [
+      4177
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production Designer",
+    "name": "PATRICIA NORRIS",
+    "role_group": "Production Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Designers",
+    "source_frame": [
+      "scene_010_static_005_num04177_sim35.jpg"
+    ],
+    "original_frame_number": [
+      4177
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Costume Designer",
+    "name": "PATRICIA NORRIS",
+    "role_group": "Costume Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume Designers",
+    "source_frame": [
+      "scene_010_static_005_num04177_sim35.jpg"
+    ],
+    "original_frame_number": [
+      4177
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Man From Another Place",
+    "name": "MICHAEL J. ANDERSON",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_006_num04213_sim37.jpg"
+    ],
+    "original_frame_number": [
+      4213
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Johnny Horne",
+    "name": "ROBERT BAUER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_006_num04213_sim37.jpg"
+    ],
+    "original_frame_number": [
+      4213
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Bartender",
+    "name": "KIM LENTZ",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_006_num04213_sim37.jpg"
+    ],
+    "original_frame_number": [
+      4213
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Killer Bob",
+    "name": "FRANK SILVA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_006_num04213_sim37.jpg"
+    ],
+    "original_frame_number": [
+      4213
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Swabbie",
+    "name": "CHARLIE SPRADLING",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_006_num04213_sim37.jpg"
+    ],
+    "original_frame_number": [
+      4213
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "One-Armed Man",
+    "name": "AL STROBEL",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_006_num04213_sim37.jpg"
+    ],
+    "original_frame_number": [
+      4213
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production Manager",
+    "name": "GREG FIENBERG",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_010_static_007_num04285_sim35.jpg"
+    ],
+    "original_frame_number": [
+      4285
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Unit Production Manager",
+    "name": "ROBERT D. SIMON",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_010_static_007_num04285_sim35.jpg"
+    ],
+    "original_frame_number": [
+      4285
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "1st Assistant Director",
+    "name": "SCOTT CAMERON",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_010_static_009_num04333_sim92.jpg"
+    ],
+    "original_frame_number": [
+      4333
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "2nd Assistant Directors",
+    "name": "CHRISTOPHER T. GERRITY",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_010_static_009_num04333_sim92.jpg"
+    ],
+    "original_frame_number": [
+      4333
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "2nd Assistant Directors",
+    "name": "DEEPAK NAYAR",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_010_static_009_num04333_sim92.jpg"
+    ],
+    "original_frame_number": [
+      4333
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production Supervisor",
+    "name": "MIKE HARBERT",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_010_static_010_num04369_sim58.jpg"
+    ],
+    "original_frame_number": [
+      4369
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "1st Assistant Camera",
+    "name": "RUDY FENENGA JR.",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_010_static_010_num04369_sim58.jpg"
+    ],
+    "original_frame_number": [
+      4369
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "2nd Assistant Camera",
+    "name": "BETH COTTER",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_010_static_010_num04369_sim58.jpg"
+    ],
+    "original_frame_number": [
+      4369
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Art Director",
+    "name": "OKOWITA",
+    "role_group": "Art Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Directors",
+    "source_frame": [
+      "scene_010_static_011_num04405_sim41.jpg"
+    ],
+    "original_frame_number": [
+      4405
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Decorator",
+    "name": "BRIAN KASCH",
+    "role_group": "Set Decorators",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Set Decorators",
+    "source_frame": [
+      "scene_010_static_011_num04405_sim41.jpg"
+    ],
+    "original_frame_number": [
+      4405
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Construction Coordinator",
+    "name": "KEITH COX",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_010_static_011_num04405_sim41.jpg"
+    ],
+    "original_frame_number": [
+      4405
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Property Master",
+    "name": "DAVE ROBINSON",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_010_static_011_num04405_sim41.jpg"
+    ],
+    "original_frame_number": [
+      4405
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Costume Designer",
+    "name": "SARA MARKOWITZ",
+    "role_group": "Costume Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume Designers",
+    "source_frame": [
+      "scene_010_static_013_num04453_sim99.jpg"
+    ],
+    "original_frame_number": [
+      4453
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Costume Supervisor",
+    "name": "LAURIE L. HUDSON",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_010_static_013_num04453_sim99.jpg"
+    ],
+    "original_frame_number": [
+      4453
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Make-Up",
+    "name": "CARLA ROSETO FABRIZI",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_010_static_013_num04453_sim99.jpg"
+    ],
+    "original_frame_number": [
+      4453
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Hair",
+    "name": "ANNETTE E. FABRIZI",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_010_static_013_num04453_sim99.jpg"
+    ],
+    "original_frame_number": [
+      4453
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Make-Up/Hair Assistant",
+    "name": "LINDA A. VALLEJO",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_010_static_013_num04453_sim99.jpg"
+    ],
+    "original_frame_number": [
+      4453
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Gaffer",
+    "name": "ROBERT FERRARA",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_010_static_015_num04501_sim99.jpg"
+    ],
+    "original_frame_number": [
+      4501
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Key Grip",
+    "name": "JOSEPH KELLY",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_010_static_015_num04501_sim99.jpg"
+    ],
+    "original_frame_number": [
+      4501
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Sound Mixer",
+    "name": "WALTER HOYLMAN",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_010_static_015_num04501_sim99.jpg"
+    ],
+    "original_frame_number": [
+      4501
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Boom Operator",
+    "name": "WALTER CHARLES GOREY",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_010_static_015_num04501_sim99.jpg"
+    ],
+    "original_frame_number": [
+      4501
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Transportation Coordinator",
+    "name": "STEVE BOYD",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_010_static_016_num04525_sim40.jpg"
+    ],
+    "original_frame_number": [
+      4525
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Transportation Captain",
+    "name": "GREG VAN DYKE",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_010_static_016_num04525_sim40.jpg"
+    ],
+    "original_frame_number": [
+      4525
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Location Manager",
+    "name": "STEVE SHARE",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_010_static_016_num04525_sim40.jpg"
+    ],
+    "original_frame_number": [
+      4525
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Casting Assistant",
+    "name": "ELAINE J. HUZZAR",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_010_static_016_num04525_sim40.jpg"
+    ],
+    "original_frame_number": [
+      4525
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production Controller",
+    "name": "NOWELL B. GROSSMAN",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_010_static_017_num04573_sim41.jpg"
+    ],
+    "original_frame_number": [
+      4573
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production Coordinator",
+    "name": "JOSEPH ANTRONE",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_010_static_017_num04573_sim41.jpg"
+    ],
+    "original_frame_number": [
+      4573
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production Secretary",
+    "name": "LORI TULLI-MITCHELL",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_010_static_017_num04573_sim41.jpg"
+    ],
+    "original_frame_number": [
+      4573
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Script Supervisor",
+    "name": "JANE GOLDSMITH",
+    "role_group": "Script and Continuity Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Script and Continuity Department",
+    "source_frame": [
+      "scene_010_static_017_num04573_sim41.jpg"
+    ],
+    "original_frame_number": [
+      4573
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Orchestrations",
+    "name": "ANGELO BADALAMENTI",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_010_static_018_num04609_sim41.jpg"
+    ],
+    "original_frame_number": [
+      4609
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Assistant to Mark Frost",
+    "name": "PAULA SHIMATSU-U",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_010_static_018_num04609_sim41.jpg"
+    ],
+    "original_frame_number": [
+      4609
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant to David Lynch",
+    "name": "DEBBY TRUTNIK",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_010_static_018_num04609_sim41.jpg"
+    ],
+    "original_frame_number": [
+      4609
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant to Gregg Fienberg",
+    "name": "SUZANNE HARGROVE",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_010_static_018_num04609_sim41.jpg"
+    ],
+    "original_frame_number": [
+      4609
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Post Production Assistant",
+    "name": "CHRIS BROWN",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_010_static_018_num04609_sim41.jpg"
+    ],
+    "original_frame_number": [
+      4609
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Post Production Coordinator",
+    "name": "JOHN WENTWORTH",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_010_static_019_num04657_sim51.jpg"
+    ],
+    "original_frame_number": [
+      4657
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Music Editor",
+    "name": "LORI L. ESCHLER",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_010_static_019_num04657_sim51.jpg"
+    ],
+    "original_frame_number": [
+      4657
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant Music Editor",
+    "name": "ALEXIS SEYMOUR",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_010_static_019_num04657_sim51.jpg"
+    ],
+    "original_frame_number": [
+      4657
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant Editors",
+    "name": "KEN BLACKWELL",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_010_static_019_num04657_sim51.jpg"
+    ],
+    "original_frame_number": [
+      4657
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant Editors",
+    "name": "PAMELA REISENLEITER",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_010_static_019_num04657_sim51.jpg"
+    ],
+    "original_frame_number": [
+      4657
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Supervising Sound Editor",
+    "name": "MATTHEW SAWELSON",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_010_static_020_num04693_sim43.jpg"
+    ],
+    "original_frame_number": [
+      4693
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Sound Effects Editor",
+    "name": "JOHN HAENY",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_010_static_020_num04693_sim43.jpg"
+    ],
+    "original_frame_number": [
+      4693
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Re-recording Mixers",
+    "name": "GARY ALEXANDER",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_010_static_020_num04693_sim43.jpg"
+    ],
+    "original_frame_number": [
+      4693
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Re-recording Mixers",
+    "name": "ADAM JENKINS",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_010_static_020_num04693_sim43.jpg"
+    ],
+    "original_frame_number": [
+      4693
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assorted wardrobe provided by",
+    "name": "THE GREIF COMPANIES",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_010_static_022_num04765_sim99.jpg"
+    ],
+    "original_frame_number": [
+      4765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assorted wardrobe provided by",
+    "name": "SHEPLERS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_010_static_022_num04765_sim99.jpg"
+    ],
+    "original_frame_number": [
+      4765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Extras Casting",
+    "name": "SUPERIOR CASTING, INC.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_010_static_022_num04765_sim99.jpg"
+    ],
+    "original_frame_number": [
+      4765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Marine Coordination by",
+    "name": "MOTION PICTURE MARINE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_010_static_022_num04765_sim99.jpg"
+    ],
+    "original_frame_number": [
+      4765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Titles & Opticals by",
+    "name": "PACIFIC TITLE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_010_static_024_num04789_sim94.jpg"
+    ],
+    "original_frame_number": [
+      4789
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Color by",
+    "name": "de luxe",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_010_static_024_num04789_sim94.jpg"
+    ],
+    "original_frame_number": [
+      4789
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Telecine and Electronic Post Production",
+    "name": "ENCORE VIDEO",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_010_static_024_num04789_sim94.jpg"
+    ],
+    "original_frame_number": [
+      4789
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Telecine Colorist",
+    "name": "DREW MARSH",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "scene_010_static_024_num04789_sim94.jpg"
+    ],
+    "original_frame_number": [
+      4789
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Post Production Sound & Sound Effects by",
+    "name": "TODD-AO/GLEN GLENN STUDIOS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_010_static_024_num04789_sim94.jpg"
+    ],
+    "original_frame_number": [
+      4789
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Copyright MCMXC by",
+    "name": "LYNCH/FROST PRODUCTIONS, INC.",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_010_static_025_num04813_sim42.jpg"
+    ],
+    "original_frame_number": [
+      4813
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "In association with",
+    "name": "PROPAGANDA FILMS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_010_static_026_num04849_sim15.jpg"
+    ],
+    "original_frame_number": [
+      4849
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "LYNCH/FROST PRODUCTIONS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_010_static_027_num04897_sim31.jpg"
+    ],
+    "original_frame_number": [
+      4897
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "CBS TELEVISION DISTRIBUTION",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_015_static_000_num05061_sim92.jpg"
+    ],
+    "original_frame_number": [
+      5061
+    ],
+    "scene_position": "second_half"
+  }
+]

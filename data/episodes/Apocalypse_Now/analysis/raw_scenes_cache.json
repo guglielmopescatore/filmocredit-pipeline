@@ -1,0 +1,13 @@
+{
+  "total_frames": 10603,
+  "fps": 29.971873984142015,
+  "timestamp": "2025-12-04T14:28:22.370445",
+  "scenes": [
+    {
+      "start_frame": 0,
+      "end_frame": 10603,
+      "start_timecode": "00:00:00.000",
+      "end_timecode": "00:05:53.765"
+    }
+  ]
+}

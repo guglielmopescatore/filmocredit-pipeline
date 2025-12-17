@@ -1,0 +1,104 @@
+{
+    "episode_id": "The_World_At_War_S01E03_Opening",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 1680,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:00:56.033",
+            "duration_frames": 1680,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "3. FRANCE FALLS"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 84,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 168,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 252,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 336,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 420,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 504,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 588,
+                    "ocr_text": "3. FRANCE FALLS",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_588_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 84: No text found (CLAHE)",
+                "Frame 168: No text found (CLAHE)",
+                "Frame 252: No text found (CLAHE)",
+                "Frame 336: No text found (CLAHE)",
+                "Frame 420: No text found (CLAHE)",
+                "Frame 504: No text found (CLAHE)"
+            ],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 1680,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:56.033",
+            "duration_frames": 1680,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 1680,
+            "end_frame": 1710,
+            "start_timecode": "00:00:56.033",
+            "end_timecode": "00:00:57.033",
+            "duration_frames": 30,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 1710,
+            "end_frame": 1712,
+            "start_timecode": "00:00:57.033",
+            "end_timecode": "00:00:57.100",
+            "duration_frames": 2,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:43:50.493173"
+}

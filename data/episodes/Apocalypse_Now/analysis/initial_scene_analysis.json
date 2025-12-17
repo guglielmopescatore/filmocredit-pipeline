@@ -1,0 +1,54 @@
+{
+    "episode_id": "Apocalypse_Now",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 10603,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:05:53.765",
+            "duration_frames": 10603,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Apce Nove"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 530,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1060,
+                    "ocr_text": "Apce Nove",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_1060_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 530: No text found (CLAHE)"
+            ],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 10603,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:05:53.765",
+            "duration_frames": 10603,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:28:22.842714"
+}

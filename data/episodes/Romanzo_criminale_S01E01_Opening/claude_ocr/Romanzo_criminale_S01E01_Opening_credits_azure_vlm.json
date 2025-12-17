@@ -1,0 +1,612 @@
+[
+  {
+    "role_detail": "Tratto dall'omonimo romanzo di",
+    "name": "Giancarlo De Cataldo",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_002_scroll_000_num00132_sim0.jpg",
+      "scene_037_static_000_num01473_sim45.jpg"
+    ],
+    "original_frame_number": [
+      132,
+      1473
+    ],
+    "scene_position": "first_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Edito da",
+    "name": "Giulio Einaudi Editore S.P.A",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_002_scroll_000_num00132_sim0.jpg"
+    ],
+    "original_frame_number": [
+      132
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Consulenza artistica",
+    "name": "Michele Placido",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_004_static_001_num00258_sim97.jpg"
+    ],
+    "original_frame_number": [
+      258
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "con",
+    "name": "Francesco Montanari",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_000_num00289_sim30.jpg"
+    ],
+    "original_frame_number": [
+      289
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Vinicio Marchioni",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_008_static_001_num00432_sim92.jpg"
+    ],
+    "original_frame_number": [
+      432
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Alessandro Roja",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_001_num00542_sim90.jpg"
+    ],
+    "original_frame_number": [
+      542
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Marco Bocci",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_012_static_001_num00627_sim100.jpg"
+    ],
+    "original_frame_number": [
+      627
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Andrea Sartoretti",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_016_scroll_000_num00721_sim0.jpg"
+    ],
+    "original_frame_number": [
+      721
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Riccardo De Filippis",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_018_scroll_000_num00819_sim0.jpg"
+    ],
+    "original_frame_number": [
+      819
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Mauro Meconi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_018_scroll_000_num00819_sim0.jpg"
+    ],
+    "original_frame_number": [
+      819
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Edoardo Pesce",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_018_scroll_000_num00819_sim0.jpg"
+    ],
+    "original_frame_number": [
+      819
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Lorenzo Renzi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_018_scroll_000_num00819_sim0.jpg"
+    ],
+    "original_frame_number": [
+      819
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Alessandra Mastronardi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_022_scroll_000_num00938_sim0.jpg"
+    ],
+    "original_frame_number": [
+      938
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Jesus Emiliano Coltorti",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_022_scroll_000_num00938_sim0.jpg"
+    ],
+    "original_frame_number": [
+      938
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Roberto Infascelli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_023_static_000_num01028_sim37.jpg"
+    ],
+    "original_frame_number": [
+      1028
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Fausto Maria Sciarappa",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_023_static_000_num01028_sim37.jpg"
+    ],
+    "original_frame_number": [
+      1028
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Claudio Spadaro",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_023_static_000_num01028_sim37.jpg"
+    ],
+    "original_frame_number": [
+      1028
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Orlando Cinque",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_023_static_000_num01028_sim37.jpg"
+    ],
+    "original_frame_number": [
+      1028
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Ivano De Matteo",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_028_static_001_num01175_sim97.jpg"
+    ],
+    "original_frame_number": [
+      1175
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Fausto Paravidino",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_028_static_001_num01175_sim97.jpg"
+    ],
+    "original_frame_number": [
+      1175
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Giorgio Caputo",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_028_static_001_num01175_sim97.jpg"
+    ],
+    "original_frame_number": [
+      1175
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Alessandro Prete",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_028_static_001_num01175_sim97.jpg"
+    ],
+    "original_frame_number": [
+      1175
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Danilo Nigrelli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_029_static_000_num01202_sim39.jpg"
+    ],
+    "original_frame_number": [
+      1202
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Dario D'Ambrosi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_029_static_000_num01202_sim39.jpg"
+    ],
+    "original_frame_number": [
+      1202
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Antonella Attili",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_029_static_000_num01202_sim39.jpg"
+    ],
+    "original_frame_number": [
+      1202
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Edoardo Leo",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_029_static_000_num01202_sim39.jpg"
+    ],
+    "original_frame_number": [
+      1202
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Fabio Camilli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_029_static_000_num01202_sim39.jpg"
+    ],
+    "original_frame_number": [
+      1202
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "e con",
+    "name": "Massimo De Francovich",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_032_static_000_num01286_sim28.jpg"
+    ],
+    "original_frame_number": [
+      1286
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "e con la partecipazione di",
+    "name": "Marco Giallini",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_034_static_000_num01356_sim47.jpg"
+    ],
+    "original_frame_number": [
+      1356
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Soggetto di serie",
+    "name": "Daniele Cesarano",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_037_static_000_num01473_sim45.jpg",
+      "scene_043_static_000_num01729_sim14.jpg"
+    ],
+    "original_frame_number": [
+      1473,
+      1729
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Soggetto di serie",
+    "name": "Barbara Petronio",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_037_static_000_num01473_sim45.jpg",
+      "scene_043_static_000_num01729_sim14.jpg"
+    ],
+    "original_frame_number": [
+      1473,
+      1729
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Soggetto di serie",
+    "name": "Leonardo Valenti",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_037_static_000_num01473_sim45.jpg",
+      "scene_043_static_000_num01729_sim14.jpg"
+    ],
+    "original_frame_number": [
+      1473,
+      1729
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Sceneggiatura di",
+    "name": "Paolo Marchesini",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_043_static_000_num01729_sim14.jpg"
+    ],
+    "original_frame_number": [
+      1729
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Editing di",
+    "name": "Giancarlo De Cataldo",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_048_scroll_000_num01873_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1873
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Produttore Esecutivo Cattleya",
+    "name": "Matteo De Laurentiis",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_049_static_001_num01925_sim94.jpg"
+    ],
+    "original_frame_number": [
+      1925
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Produttore Delegato",
+    "name": "Gina Gardini",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_052_static_000_num02000_sim55.jpg"
+    ],
+    "original_frame_number": [
+      2000
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Prodotto da",
+    "name": "Riccardo Tozzi",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_056_static_000_num02104_sim40.jpg"
+    ],
+    "original_frame_number": [
+      2104
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Prodotto da",
+    "name": "Giovanni Stabilini",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_056_static_000_num02104_sim40.jpg"
+    ],
+    "original_frame_number": [
+      2104
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Prodotto da",
+    "name": "Marco Chimenz",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_056_static_000_num02104_sim40.jpg"
+    ],
+    "original_frame_number": [
+      2104
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Regia di",
+    "name": "Stefano Sollima",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_062_static_000_num02326_sim36.jpg"
+    ],
+    "original_frame_number": [
+      2326
+    ],
+    "scene_position": "second_half"
+  }
+]

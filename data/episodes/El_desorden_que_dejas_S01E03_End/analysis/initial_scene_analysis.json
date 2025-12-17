@@ -1,0 +1,114 @@
+{
+    "episode_id": "El_desorden_que_dejas_S01E03_End",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 2617,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:01:27.314",
+            "duration_frames": 2617,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "TAMAR NOVAS ARÓN PIPER ROBERTO ENRÍQUEZ"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 130,
+                    "ocr_text": "TAMAR NOVAS ARÓN PIPER ROBERTO ENRÍQUEZ",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_130_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 2658,
+            "original_end_frame": 3915,
+            "original_start_timecode": "00:01:28.682",
+            "original_end_timecode": "00:02:10.621",
+            "duration_frames": 1257,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Deutsch Studio Eclair Studios Germany Übersetzung Ilse Layer Dialogbuch Dr. Michael Nowka Dialogregie Dr. Michael Nowka Aufnahme Christian Voigt Schnitt Rabea Matthies Schnitt Nico Hohlfeld Aufnahmeleitung Juliane Kiesel Mischung Matthias Schwab Produktionsleitung Maximilian Fleming christa kistner INTERNATIONAL NETFLIX eclairSTUDIOS DUBBING"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2720,
+                    "ocr_text": "Deutsch Studio Eclair Studios Germany Übersetzung Ilse Layer Dialogbuch Dr. Michael Nowka Dialogregie Dr. Michael Nowka Aufnahme Christian Voigt Schnitt Rabea Matthies Schnitt Nico Hohlfeld Aufnahmeleitung Juliane Kiesel Mischung Matthias Schwab Produktionsleitung Maximilian Fleming christa kistner INTERNATIONAL NETFLIX eclairSTUDIOS DUBBING",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_second_half_frame_2720_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 2617,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:01:27.314",
+            "duration_frames": 2617,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 2617,
+            "end_frame": 2620,
+            "start_timecode": "00:01:27.314",
+            "end_timecode": "00:01:27.414",
+            "duration_frames": 3,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 2620,
+            "end_frame": 2656,
+            "start_timecode": "00:01:27.414",
+            "end_timecode": "00:01:28.615",
+            "duration_frames": 36,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 2656,
+            "end_frame": 2658,
+            "start_timecode": "00:01:28.615",
+            "end_timecode": "00:01:28.682",
+            "duration_frames": 2,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 2658,
+            "end_frame": 3915,
+            "start_timecode": "00:01:28.682",
+            "end_timecode": "00:02:10.621",
+            "duration_frames": 1257,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:29:42.929411"
+}

@@ -1,0 +1,547 @@
+{
+  "scenes": {
+    "scene_8": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_008_static_000_num00280_sim0.jpg",
+          "frame_num": 280,
+          "ocr_text": "Rai La RAI RADIOTELEVISIONE ITALIANA presenta",
+          "ocr_bbox": [
+            123,
+            28,
+            690,
+            267
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.3608894348144531,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3119043707847595,
+      "roi_percentile_flow": 0.3608894348144531,
+      "scroll_direction": null
+    },
+    "scene_9": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_009_static_000_num00297_sim100.jpg",
+          "frame_num": 297,
+          "ocr_text": "Rai La RAI RADIOTELEVISIONE ITALIANA presenta",
+          "ocr_bbox": [
+            121,
+            28,
+            690,
+            269
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_009_static_001_num00417_sim31.jpg",
+          "frame_num": 417,
+          "ocr_text": "Rai LA PIOVRA",
+          "ocr_bbox": [
+            92,
+            28,
+            690,
+            245
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.22315941751003265,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.23297923803329468,
+      "roi_percentile_flow": 0.22315941751003265,
+      "scroll_direction": null
+    },
+    "scene_10": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_000_num00543_sim17.jpg",
+          "frame_num": 543,
+          "ocr_text": "Rai soggetto di NICOLA BADALUCCO elaborato da LUCIO BATTISTRADA MASSIMO DE RITA",
+          "ocr_bbox": [
+            176,
+            26,
+            691,
+            377
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_001_num00675_sim37.jpg",
+          "frame_num": 675,
+          "ocr_text": "Rai sceneggiatura di ENNIO DE CONCINI",
+          "ocr_bbox": [
+            149,
+            28,
+            690,
+            267
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_002_num00771_sim35.jpg",
+          "frame_num": 771,
+          "ocr_text": "Rai con MICHELE PLACIDO",
+          "ocr_bbox": [
+            394,
+            28,
+            690,
+            353
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_003_num00855_sim54.jpg",
+          "frame_num": 855,
+          "ocr_text": "Rai PLACIDO",
+          "ocr_bbox": [
+            399,
+            28,
+            690,
+            353
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_004_num00867_sim26.jpg",
+          "frame_num": 867,
+          "ocr_text": "Rai BARBARA DE ROSSI",
+          "ocr_bbox": [
+            116,
+            26,
+            691,
+            355
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_005_num00975_sim29.jpg",
+          "frame_num": 975,
+          "ocr_text": "Rai NICOLE JAMET",
+          "ocr_bbox": [
+            429,
+            28,
+            690,
+            356
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_006_num01071_sim38.jpg",
+          "frame_num": 1071,
+          "ocr_text": "Rai ANGELO INFANTI",
+          "ocr_bbox": [
+            118,
+            27,
+            691,
+            354
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_007_num01167_sim31.jpg",
+          "frame_num": 1167,
+          "ocr_text": "Rai PINO COLIZZI",
+          "ocr_bbox": [
+            421,
+            28,
+            690,
+            355
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_008_num01275_sim43.jpg",
+          "frame_num": 1275,
+          "ocr_text": "Rai RENATO MORI",
+          "ocr_bbox": [
+            119,
+            28,
+            690,
+            355
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_009_num01359_sim38.jpg",
+          "frame_num": 1359,
+          "ocr_text": "Rai MASSIMO BONETTI",
+          "ocr_bbox": [
+            385,
+            28,
+            690,
+            353
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_010_num01455_sim28.jpg",
+          "frame_num": 1455,
+          "ocr_text": "Rai EURILLA DEL BONO CARIDDI NARDULLI MICHELE ABRUZZO",
+          "ocr_bbox": [
+            120,
+            28,
+            690,
+            355
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_011_num01563_sim38.jpg",
+          "frame_num": 1563,
+          "ocr_text": "Rai GEOFFREY COPLESTON JACQUES DACQMINE PAUL GUERS",
+          "ocr_bbox": [
+            175,
+            28,
+            690,
+            352
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_012_num01587_sim33.jpg",
+          "frame_num": 1587,
+          "ocr_text": "Rai COPLESTON",
+          "ocr_bbox": [
+            375,
+            27,
+            691,
+            282
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_013_num01599_sim33.jpg",
+          "frame_num": 1599,
+          "ocr_text": "Rai GEOFFREY COPLESTON JACQUES DACQMINE PAUL GUERS",
+          "ocr_bbox": [
+            175,
+            28,
+            690,
+            354
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_014_num01671_sim23.jpg",
+          "frame_num": 1671,
+          "ocr_text": "Rai con FLAVIO BUCCI",
+          "ocr_bbox": [
+            120,
+            26,
+            691,
+            356
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_015_num01755_sim27.jpg",
+          "frame_num": 1755,
+          "ocr_text": "Rai con fa partecipazione eisiraordinaria-dir ELORINDA BOLKAN rauolo, di Olga Camastra",
+          "ocr_bbox": [
+            139,
+            26,
+            691,
+            357
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_016_num01767_sim76.jpg",
+          "frame_num": 1767,
+          "ocr_text": "Rai con la partecipazione straordinaria di FLORINDA BOLKAN nel ruolo di Olga Camastra",
+          "ocr_bbox": [
+            149,
+            27,
+            691,
+            363
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_017_num01875_sim51.jpg",
+          "frame_num": 1875,
+          "ocr_text": "Rai con FRANCOIS PERIER nel ruolo dell avv. Terrasini",
+          "ocr_bbox": [
+            149,
+            28,
+            690,
+            355
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_018_num01887_sim98.jpg",
+          "frame_num": 1887,
+          "ocr_text": "Rai e con FRANCOIS PERIER nel ruolo dell' avv. Terrasini",
+          "ocr_bbox": [
+            152,
+            28,
+            690,
+            354
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_019_num01959_sim39.jpg",
+          "frame_num": 1959,
+          "ocr_text": "Rai direttore della,fotografia NINO CELESTE",
+          "ocr_bbox": [
+            328,
+            28,
+            690,
+            355
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_020_num01971_sim73.jpg",
+          "frame_num": 1971,
+          "ocr_text": "Rai direttore della fotografia NINO CELESTE",
+          "ocr_bbox": [
+            329,
+            28,
+            690,
+            355
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_021_num02055_sim34.jpg",
+          "frame_num": 2055,
+          "ocr_text": "Rai scenografo UIMBERTO TURCO",
+          "ocr_bbox": [
+            119,
+            28,
+            690,
+            353
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_022_num02139_sim42.jpg",
+          "frame_num": 2139,
+          "ocr_text": "Rai montaggio ENZO MENICONI",
+          "ocr_bbox": [
+            301,
+            28,
+            690,
+            355
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_023_num02223_sim39.jpg",
+          "frame_num": 2223,
+          "ocr_text": "Rai aiuto regista ENRICO BERGIER",
+          "ocr_bbox": [
+            119,
+            29,
+            690,
+            353
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_024_num02307_sim35.jpg",
+          "frame_num": 2307,
+          "ocr_text": "Rai di produzione DIEGO ALCHIMEDE",
+          "ocr_bbox": [
+            248,
+            27,
+            691,
+            355
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_025_num02367_sim85.jpg",
+          "frame_num": 2367,
+          "ocr_text": "Rai direttore di produzione DIEGO ALCHIMEDE",
+          "ocr_bbox": [
+            249,
+            27,
+            691,
+            354
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_026_num02391_sim34.jpg",
+          "frame_num": 2391,
+          "ocr_text": "Rai a RIZ ORTOLANI",
+          "ocr_bbox": [
+            123,
+            26,
+            691,
+            354
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_010_static_027_num02415_sim54.jpg",
+          "frame_num": 2415,
+          "ocr_text": "Rai musica composta e diretta da RIZ ORTOLANI",
+          "ocr_bbox": [
+            120,
+            28,
+            690,
+            357
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 28,
+      "median_flow_px_per_frame": 0.2068425714969635,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.18821978569030762,
+      "roi_percentile_flow": 0.2068425714969635,
+      "scroll_direction": null
+    },
+    "scene_11": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_011_static_000_num02682_sim36.jpg",
+          "frame_num": 2682,
+          "ocr_text": "Rai delegato programma",
+          "ocr_bbox": [
+            429,
+            27,
+            691,
+            323
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_011_static_001_num02706_sim71.jpg",
+          "frame_num": 2706,
+          "ocr_text": "Rai delegato programma CLAUDIA ALOISI",
+          "ocr_bbox": [
+            294,
+            27,
+            691,
+            356
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_011_static_002_num02730_sim60.jpg",
+          "frame_num": 2730,
+          "ocr_text": "Rai CLAUDIA ALOISI",
+          "ocr_bbox": [
+            294,
+            27,
+            691,
+            357
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_011_static_003_num02742_sim76.jpg",
+          "frame_num": 2742,
+          "ocr_text": "Rai delegato RAI CLAUDIA ALOISI",
+          "ocr_bbox": [
+            294,
+            27,
+            691,
+            356
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_011_static_004_num02754_sim82.jpg",
+          "frame_num": 2754,
+          "ocr_text": "Rai delegato programma CLAUDIA ALOISI",
+          "ocr_bbox": [
+            295,
+            27,
+            691,
+            355
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_011_static_005_num02778_sim33.jpg",
+          "frame_num": 2778,
+          "ocr_text": "Rai una produzione ESCORT CINE TV da organizzata BRUNO TURCHETTO",
+          "ocr_bbox": [
+            177,
+            28,
+            690,
+            354
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_011_static_006_num02802_sim100.jpg",
+          "frame_num": 2802,
+          "ocr_text": "Rai una produzione ESCORT CINE TV organizzata da BRUNO TURCHETTO",
+          "ocr_bbox": [
+            179,
+            28,
+            690,
+            355
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 7,
+      "median_flow_px_per_frame": 0.2537963092327118,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.24944575130939484,
+      "roi_percentile_flow": 0.2537963092327118,
+      "scroll_direction": null
+    },
+    "scene_12": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_012_scroll_000_num02957_sim0.jpg",
+          "frame_num": 2957,
+          "ocr_text": "Rai regia",
+          "ocr_bbox": [
+            316,
+            27,
+            691,
+            219
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "La_piovra_1x2\\analysis\\frames\\scene_012_scroll_001_num03028_sim0.jpg",
+          "frame_num": 3028,
+          "ocr_text": "Rai SECONDA-PUNTATA",
+          "ocr_bbox": [
+            172,
+            26,
+            691,
+            237
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 5.264969348907471,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 4.487572193145752,
+      "roi_percentile_flow": 5.264969348907471,
+      "scroll_direction": "downward",
+      "save_interval_frames": 71,
+      "save_interval_frames_uncapped": 71,
+      "target_scroll_ratio": 0.9
+    }
+  }
+}

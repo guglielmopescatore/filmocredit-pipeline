@@ -1,0 +1,5852 @@
+[
+  {
+    "role_detail": "Organizzatore Generale",
+    "name": "Sandra Bonacchi",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_000_static_000_num00150_sim0.jpg"
+    ],
+    "original_frame_number": [
+      150
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Fotografia",
+    "name": "Paolo Carnera (A.I.C.)",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_000_static_001_num00240_sim46.jpg"
+    ],
+    "original_frame_number": [
+      240
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Montaggio",
+    "name": "Patrizio Marone",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_000_static_002_num00315_sim44.jpg"
+    ],
+    "original_frame_number": [
+      315
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Collaborazione al Montaggio",
+    "name": "Lorenzo Peluso",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_002_num00315_sim44.jpg"
+    ],
+    "original_frame_number": [
+      315
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Musiche di",
+    "name": "Pasquale Catalano",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_000_static_003_num00405_sim31.jpg",
+      "scene_008_scroll_000_num05150_sim0.jpg",
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      405,
+      5150,
+      5321
+    ],
+    "scene_position": "first_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Sigla realizzata da",
+    "name": "RED BEE MEDIA",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_004_num00495_sim36.jpg"
+    ],
+    "original_frame_number": [
+      495
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Con musica di",
+    "name": "Stefano Fresi",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_000_static_004_num00495_sim36.jpg"
+    ],
+    "original_frame_number": [
+      495
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Suono in Presa Diretta",
+    "name": "Maricetta Lombardo",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_005_num00570_sim47.jpg"
+    ],
+    "original_frame_number": [
+      570
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Microfonista",
+    "name": "Alessandro Molaioli (A.I.T.S.)",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_005_num00570_sim47.jpg"
+    ],
+    "original_frame_number": [
+      570
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Scenografia",
+    "name": "Paola Comencini",
+    "role_group": "Production Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Designers",
+    "source_frame": [
+      "scene_000_static_006_num00660_sim30.jpg"
+    ],
+    "original_frame_number": [
+      660
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Costumi",
+    "name": "Nicoletta Taranta",
+    "role_group": "Costume Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume Designers",
+    "source_frame": [
+      "scene_000_static_007_num00750_sim45.jpg"
+    ],
+    "original_frame_number": [
+      750
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Arredatore",
+    "name": "Maurizio Leonardi",
+    "role_group": "Set Decorators",
+    "secondary_role_group": "Art Department",
+    "is_person": true,
+    "role_group_normalized": "Set Decorators",
+    "source_frame": [
+      "scene_000_static_008_num00825_sim28.jpg"
+    ],
+    "original_frame_number": [
+      825
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Operatore di Macchina",
+    "name": "Ivan Casalgrandi",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_008_num00825_sim28.jpg"
+    ],
+    "original_frame_number": [
+      825
+    ],
+    "scene_position": "first_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Aiuto Regista",
+    "name": "Milena Cocozza",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_000_static_009_num00915_sim44.jpg"
+    ],
+    "original_frame_number": [
+      915
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Direttore Di Produzione",
+    "name": "Alberto Sammarco",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_000_static_009_num00915_sim44.jpg"
+    ],
+    "original_frame_number": [
+      915
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Casting",
+    "name": "Laura Muccino",
+    "role_group": "Casting Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Directors",
+    "source_frame": [
+      "scene_000_static_010_num01005_sim40.jpg"
+    ],
+    "original_frame_number": [
+      1005
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Casting",
+    "name": "Anna Maria Sambucco",
+    "role_group": "Casting Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Directors",
+    "source_frame": [
+      "scene_000_static_010_num01005_sim40.jpg"
+    ],
+    "original_frame_number": [
+      1005
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Piccietto",
+    "name": "Valerio Morigi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Uomo 50 Anni",
+    "name": "Mauro Cremonini",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Sandra",
+    "name": "Valentina Calandriello",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Giulio Brega",
+    "name": "Stefano Ambrogi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Vito Macri’",
+    "name": "Rocco Barbaro",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Rizzo",
+    "name": "Fulvio Pepe",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Padre Angelina",
+    "name": "Bruno Pavoncello",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Cannizzaro 4",
+    "name": "Simone Sabani",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Neofascista 2",
+    "name": "Adriano Saleri",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Angioletto",
+    "name": "Mauro Santopietro",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Persichetti",
+    "name": "Andrea Lolli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Enrico Bordini",
+    "name": "Alberto Bognanni",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Gianni Bordini",
+    "name": "Alberto Buccolini",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Serena",
+    "name": "Anna Bellato",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Ilaria",
+    "name": "Chiara Francini",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Amante Padre Freddo",
+    "name": "Alessandra Roca",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Mazzocchio",
+    "name": "Bruno Buzzi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Don Mimmo D’ Ragioniere",
+    "name": "Federico Torre",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_025_num01425_sim68.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Barone Rossellini",
+    "name": "Aldo Abbate",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg"
+    ],
+    "original_frame_number": [
+      1665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Contrabbandiere",
+    "name": "Stefano Adami",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg"
+    ],
+    "original_frame_number": [
+      1665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Tecnico Scientifica",
+    "name": "Cesare Apolito",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg"
+    ],
+    "original_frame_number": [
+      1665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Spacciatore Testaccio",
+    "name": "Giovanni Balestra",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg"
+    ],
+    "original_frame_number": [
+      1665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Detenuto Ventenne",
+    "name": "Alessandro Bardani",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg"
+    ],
+    "original_frame_number": [
+      1665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Direttore Riformatorio",
+    "name": "Enrico Bellisari",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg"
+    ],
+    "original_frame_number": [
+      1665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Fabio Corbucci",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg"
+    ],
+    "original_frame_number": [
+      1665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Franco Solenghi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg"
+    ],
+    "original_frame_number": [
+      1665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Cassiera Bar Questura",
+    "name": "Franco Bottone",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg"
+    ],
+    "original_frame_number": [
+      1665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Paolo Buglioni",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg"
+    ],
+    "original_frame_number": [
+      1665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Tiziana Buldini",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg"
+    ],
+    "original_frame_number": [
+      1665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Lin Pin",
+    "name": "Linda Chang",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg"
+    ],
+    "original_frame_number": [
+      1665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Cannizzaro 2",
+    "name": "Umberto De Luca",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg"
+    ],
+    "original_frame_number": [
+      1665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Attricetta",
+    "name": "Elisa Della Valentina",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg",
+      "scene_001_scroll_001_num01820_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1665,
+      1820
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Spacciatore Terribile",
+    "name": "Marco Di Folco",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg",
+      "scene_001_scroll_001_num01820_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1665,
+      1820
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Moglie Gerardo",
+    "name": "Germana Di Giannicola",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg",
+      "scene_001_scroll_001_num01820_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1665,
+      1820
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Voce Ragazza Radio",
+    "name": "Angelica Di Maio",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_029_num01665_sim96.jpg"
+    ],
+    "original_frame_number": [
+      1665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Voce Ragazza Radio",
+    "name": "Angelica Di Majo",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_scroll_001_num01820_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1820
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Primo Detenuto Mensa",
+    "name": "Flavio Domenici",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_scroll_001_num01820_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1820
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Chantal",
+    "name": "Sueli Odila Ferreira",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_scroll_001_num01820_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1820
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Venditore Porsche",
+    "name": "Maurizio Ghedin",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_scroll_001_num01820_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1820
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Barbiere Modenese",
+    "name": "Romano Ghini",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_scroll_001_num01820_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1820
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Cannizzaro 1",
+    "name": "Gaetano Giordano",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_scroll_001_num01820_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1820
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistente Borgia",
+    "name": "Francesco Gisotti",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_scroll_001_num01820_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1820
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Luigi Montesi",
+    "name": "Alberto Goldoni",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_scroll_001_num01820_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1820
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Contadino Checco",
+    "name": "Giancarlo Gori",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_scroll_001_num01820_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1820
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Donatella Moglie Angioletto",
+    "name": "Gaia Insenga",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_scroll_001_num01820_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1820
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Speaker 2 Radio",
+    "name": "Giovanni La Gorga",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_scroll_001_num01820_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1820
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Angela Donna Puma",
+    "name": "Luz Beatriz Lattanzi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_scroll_001_num01820_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1820
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Speaker Radio Libera",
+    "name": "Marco Laurenzano",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_scroll_001_num01820_sim0.jpg",
+      "scene_003_scroll_000_num01989_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1820,
+      1989
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Commissario Capo",
+    "name": "Alfonso Liguori",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_scroll_001_num01820_sim0.jpg",
+      "scene_003_scroll_000_num01989_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1820,
+      1989
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Patologo",
+    "name": "Toni Malco",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_scroll_000_num01967_sim0.jpg",
+      "scene_004_scroll_000_num02012_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1967,
+      2012
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Poliziotto Olivetti",
+    "name": "Fabio Mancini",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_scroll_000_num01967_sim0.jpg",
+      "scene_004_scroll_000_num02012_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1967,
+      2012
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Speaker 1 Radio / Video Tg",
+    "name": "Gino Manfredi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_scroll_000_num01967_sim0.jpg",
+      "scene_004_scroll_000_num02012_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1967,
+      2012
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Treccia",
+    "name": "Alessio Manuali",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_scroll_000_num01967_sim0.jpg",
+      "scene_004_scroll_000_num02012_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1967,
+      2012
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Cameriere Ristorante Bufalo",
+    "name": "Francesco Marino",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_scroll_000_num01967_sim0.jpg",
+      "scene_004_scroll_000_num02012_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1967,
+      2012
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Vice Questore",
+    "name": "Saverio Mattei",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_scroll_000_num01967_sim0.jpg",
+      "scene_004_scroll_000_num02012_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1967,
+      2012
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Secondino Grasso",
+    "name": "Paolo Mellucci",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_scroll_000_num01967_sim0.jpg",
+      "scene_004_scroll_000_num02012_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1967,
+      2012
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Speaker 2 Radio / Video Tg",
+    "name": "Stefano Mondini",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_scroll_000_num01967_sim0.jpg",
+      "scene_004_scroll_000_num02012_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1967,
+      2012
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Fringuello",
+    "name": "Maurizio Mosetti",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_scroll_000_num01967_sim0.jpg",
+      "scene_004_scroll_000_num02012_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1967,
+      2012
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Carabiniere Posto Di Blocco",
+    "name": "Antonio Nobili",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_scroll_000_num01967_sim0.jpg",
+      "scene_004_scroll_000_num02012_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1967,
+      2012
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Agente Di Viaggi",
+    "name": "Paolo Orlandelli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_scroll_000_num01967_sim0.jpg",
+      "scene_004_scroll_000_num02012_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1967,
+      2012
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Sergio Garzone Bar '66",
+    "name": "Luca Paniconi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_scroll_000_num01967_sim0.jpg",
+      "scene_004_scroll_000_num02012_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1967,
+      2012
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Prete",
+    "name": "Alcide Pasquini",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_scroll_000_num01967_sim0.jpg",
+      "scene_004_scroll_000_num02012_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1967,
+      2012
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Proprietario Ristorante Ostia",
+    "name": "Romolo Passini",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_003_scroll_000_num01989_sim0.jpg",
+      "scene_004_scroll_001_num02160_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1989,
+      2160
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Fabio Franchi",
+    "name": "Lucio Patane'",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_003_scroll_000_num01989_sim0.jpg",
+      "scene_004_scroll_001_num02160_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1989,
+      2160
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Barista Roberta",
+    "name": "Alberto Patelli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_000_num02012_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2012
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Dandi 12 anni",
+    "name": "Marco Puglia",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_000_num02012_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2012
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Cannizzaro 3",
+    "name": "Orlando Ragusa",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_001_num02160_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2160
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Madre Freddo",
+    "name": "Monica Rametta",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_001_num02160_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2160
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Proprietario Sfasciò",
+    "name": "Fabrizio Rendina",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_001_num02160_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2160
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Secondino Amico",
+    "name": "Carlo Rossi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_001_num02160_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2160
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Commessa Boutique Lingerie",
+    "name": "Carolina Rubino",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_001_num02160_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2160
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Medico Legale Modena",
+    "name": "Massimiliano Sassi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_001_num02160_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2160
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Nicola Costantini",
+    "name": "Leonardo Sbragia",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_001_num02160_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2160
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Prostituta 1",
+    "name": "Sonia Signorelli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_001_num02160_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2160
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Anna Maria Moresi",
+    "name": "Liliana Stanziani",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_001_num02160_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2160
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Braccio Destro Macri'",
+    "name": "Pino Torcasio",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_001_num02160_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2160
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Accompagnatore Attricetta",
+    "name": "Roberto Verrocchi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_001_num02160_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2160
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Prostituta Slava",
+    "name": "Katrin Vitrova",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_001_num02160_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2160
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Prostituta 2",
+    "name": "Manuela Zero",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_001_num02160_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2160
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Commissario Rava",
+    "name": "Paolo Zuccari",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_scroll_002_num02308_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2308
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Responsabile Post Produzione",
+    "name": "Simona De Laurentiis",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_004_scroll_002_num02308_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2308
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Responsabile Edizioni Musicali",
+    "name": "Joshua Berman",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_004_scroll_002_num02308_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2308
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Business & Legal Affairs",
+    "name": "Nathanaël Poupin",
+    "role_group": "Legal Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Legal Department",
+    "source_frame": [
+      "scene_004_scroll_002_num02308_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2308
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Responsabile Marketing",
+    "name": "Karen Hassan",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_004_scroll_002_num02308_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2308
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Marketing",
+    "name": "Giada Giannecchini",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_004_scroll_002_num02308_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2308
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Responsabile Amministrativo Cattleya",
+    "name": "Firminio Pasquali",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_004_scroll_002_num02308_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2308
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Organizzatore Produzione Cattleya",
+    "name": "Antonella Iovino",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_004_scroll_002_num02308_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2308
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Post Produzione",
+    "name": "Eleonora Piemontese",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_004_scroll_002_num02308_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2308
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Coordinamento Produzione Esecutiva",
+    "name": "Silvia Polato",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_004_scroll_002_num02308_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2308
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Ufficio Stampa Sky Tv",
+    "name": "Marzia Kronauer",
+    "role_group": "Publicity",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Publicity",
+    "source_frame": [
+      "scene_004_scroll_002_num02308_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2308
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistente",
+    "name": "Roberta Chiarenza",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_004_scroll_002_num02308_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2308
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Regia II Unità",
+    "name": "Enrico Rosati",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_004_scroll_003_num02456_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2456
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Regia II Unità",
+    "name": "Massimiliano Camaiti",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_004_scroll_003_num02456_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2456
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistente al Montaggio",
+    "name": "Laura Gallo",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_004_scroll_003_num02456_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2456
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Segretarie di Edizione",
+    "name": "Melissa Strizzi",
+    "role_group": "Script and Continuity Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Script and Continuity Department",
+    "source_frame": [
+      "scene_004_scroll_003_num02456_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2456
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Segretarie di Edizione",
+    "name": "Fiorella Di Mambro",
+    "role_group": "Script and Continuity Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Script and Continuity Department",
+    "source_frame": [
+      "scene_004_scroll_003_num02456_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2456
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistente alla Regia",
+    "name": "Andrea Rebuzzi",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_004_scroll_003_num02456_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2456
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Acting Coach",
+    "name": "Mario Pizzuti",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_004_scroll_003_num02456_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2456
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Segretaria Edizione II Unità",
+    "name": "Ilary Rossi",
+    "role_group": "Script and Continuity Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Script and Continuity Department",
+    "source_frame": [
+      "scene_004_scroll_003_num02456_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2456
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistente",
+    "name": "Gabriella Giannattasio",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_004_scroll_003_num02456_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2456
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Ispettori di Produzione",
+    "name": "Riccardo Borri",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_004_scroll_003_num02456_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2456
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Ispettori di Produzione",
+    "name": "Simone Sterpetti",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_004_scroll_003_num02456_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2456
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Coordinatrice di Produzione",
+    "name": "Giorgia Pellegrini",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_004_scroll_003_num02456_sim0.jpg",
+      "scene_005_scroll_000_num02626_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2456,
+      2626
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Coordinatrice di Produzione Set",
+    "name": "Alice Marchitelli",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_004_scroll_003_num02456_sim0.jpg",
+      "scene_005_scroll_000_num02626_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2456,
+      2626
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuti Segretari di Produzione",
+    "name": "Fabio Carla'",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_004_scroll_004_num02604_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2604
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuti Segretari di Produzione",
+    "name": "Benedetta Anza'",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_004_scroll_004_num02604_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2604
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuti Segretari di Produzione",
+    "name": "Lorenzo Battisti",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_004_scroll_004_num02604_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2604
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuti Segretari di Produzione",
+    "name": "Riccardo Carletti",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_004_scroll_004_num02604_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2604
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuti Segretari di Produzione",
+    "name": "Giuseppe Balzano",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_004_scroll_004_num02604_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2604
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuti Segretari di Produzione",
+    "name": "Arianna Brambilla",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_004_scroll_004_num02604_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2604
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuti Segretari di Produzione",
+    "name": "Lino Vittozzi",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_004_scroll_004_num02604_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2604
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistente Coordinatrice di Produzione",
+    "name": "Anna Lisa Serafini",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_004_scroll_004_num02604_sim0.jpg",
+      "scene_006_scroll_000_num02665_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2604,
+      2665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "II Assistente alla Regia",
+    "name": "Francesca Aschettino",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_004_scroll_004_num02604_sim0.jpg",
+      "scene_006_scroll_000_num02665_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2604,
+      2665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Amministratore",
+    "name": "Carlo Gagliardi",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_004_scroll_004_num02604_sim0.jpg",
+      "scene_006_scroll_000_num02665_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2604,
+      2665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Cassiera",
+    "name": "Piera Giaccherini",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_004_scroll_004_num02604_sim0.jpg",
+      "scene_006_scroll_000_num02665_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2604,
+      2665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuto Cassiera",
+    "name": "Silvana Carnevale",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_004_scroll_004_num02604_sim0.jpg",
+      "scene_006_scroll_000_num02665_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2604,
+      2665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "II Operatore di Macchina",
+    "name": "Paolo Carnera",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_004_scroll_004_num02604_sim0.jpg",
+      "scene_006_scroll_000_num02665_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2604,
+      2665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistente Operatore",
+    "name": "Massimiliano Ricci",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_005_scroll_000_num02626_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2626
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "II Assistente Operatore",
+    "name": "Giorgio Abruzzetti",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_005_scroll_000_num02626_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2626
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuto Operatore",
+    "name": "Liviu Ciprian Suber",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_005_scroll_000_num02626_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2626
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Video Assistant",
+    "name": "Andrea Grossi",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_000_num02665_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Fotografo di Scena",
+    "name": "Emanuela Scarpa",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_000_num02665_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2665
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Direttore Fotografia II Unità",
+    "name": "Ivan Casalgrandi",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_006_scroll_000_num02665_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2665
+    ],
+    "scene_position": "first_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Aiuto Operatore",
+    "name": "Liviu Ciprian Suhar",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_001_num02813_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2813
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Operatore di Macchina II Unità",
+    "name": "Giovanni Galasso",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_001_num02813_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2813
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Operatore di Macchina II Unità",
+    "name": "Vittorio Omodei Zorini",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_001_num02813_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2813
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Operatore di Macchina Aggiunto",
+    "name": "Carlo Passari",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_001_num02813_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2813
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistenti Operatori Aggiunti",
+    "name": "Simone Ginanneschi",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_001_num02813_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2813
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistenti Operatori Aggiunti",
+    "name": "Cristina Capone",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_001_num02813_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2813
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistenti Operatore II Unità",
+    "name": "Gianluca Bombardone",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_001_num02813_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2813
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistenti Operatore II Unità",
+    "name": "Gianluca Pennestri",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_001_num02813_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2813
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Capo Truccatore",
+    "name": "Alberto Blasi",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_006_scroll_001_num02813_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2813
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Capo Parrucchiera",
+    "name": "Nadia Rosati",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_006_scroll_001_num02813_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2813
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Fonico II Unità",
+    "name": "Alessandro Bianchi",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_006_scroll_001_num02813_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2813
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Microfonista II Unità",
+    "name": "Giovanni Paris",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_006_scroll_001_num02813_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2813
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Fonico Aggiunto",
+    "name": "Luca Novelli",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_006_scroll_001_num02813_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2813
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuto Scenografo",
+    "name": "Alberto Duelli",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_006_scroll_001_num02813_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2813
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistente Arredatore",
+    "name": "Andrea Audino",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_006_scroll_002_num02961_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2961
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistente Scenografo",
+    "name": "Rosalia Maria Canino",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_006_scroll_002_num02961_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2961
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuto Scenografo",
+    "name": "Delia Tiare De Laurentiis",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_006_scroll_002_num02961_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2961
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Attrezzista di Scena",
+    "name": "Massimo Papini",
+    "role_group": "Art Department",
+    "secondary_role_group": "Property Department",
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_006_scroll_002_num02961_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2961
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuto Attrezzista di Scena",
+    "name": "Daniele Neroni",
+    "role_group": "Art Department",
+    "secondary_role_group": "Property Department",
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_006_scroll_002_num02961_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2961
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Attrezzista di Preparazione",
+    "name": "Giancarlo Carbonaro",
+    "role_group": "Art Department",
+    "secondary_role_group": "Property Department",
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_006_scroll_002_num02961_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2961
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "II Attrezzista di Preparazione",
+    "name": "Marco Aureli",
+    "role_group": "Art Department",
+    "secondary_role_group": "Property Department",
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_006_scroll_002_num02961_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2961
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuto Attrezzisti di Preparazione",
+    "name": "Massimo Tola",
+    "role_group": "Art Department",
+    "secondary_role_group": "Property Department",
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_006_scroll_002_num02961_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2961
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuto Attrezzisti di Preparazione",
+    "name": "Davide De Ioannon",
+    "role_group": "Art Department",
+    "secondary_role_group": "Property Department",
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_006_scroll_002_num02961_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2961
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Attrezzista II Unità",
+    "name": "Angelo Parisi",
+    "role_group": "Art Department",
+    "secondary_role_group": "Property Department",
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_006_scroll_002_num02961_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2961
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Pittori",
+    "name": "Mauro Bomba",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_006_scroll_002_num02961_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2961
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Pittori",
+    "name": "Alessio Bomba",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_006_scroll_002_num02961_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2961
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "I Assistente Costumista",
+    "name": "Cristiana Ricceri",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_006_scroll_002_num02961_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2961
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "II Assistente Costumista",
+    "name": "Fulvia Roverselli",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_006_scroll_003_num03109_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3109
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "II Assistente Costumista",
+    "name": "Magdalena Paula Grassi",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_006_scroll_003_num03109_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3109
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Sarta",
+    "name": "Francesca Campanella",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_006_scroll_003_num03109_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3109
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuto ai Costumi",
+    "name": "Roberta Orlando",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_006_scroll_003_num03109_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3109
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuto ai Costumi",
+    "name": "Gaia Mandarano",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_006_scroll_003_num03109_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3109
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Truccatrice",
+    "name": "Stefania Trani",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_006_scroll_003_num03109_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3109
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Truccatore Aggiunto",
+    "name": "Mario Michisanti",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_006_scroll_003_num03109_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3109
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Parrucchieri",
+    "name": "Maurizio Lupi",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_006_scroll_003_num03109_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3109
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Parrucchieri",
+    "name": "Fulvio Zucconi",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_006_scroll_003_num03109_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3109
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Parrucchiere Aggiunto",
+    "name": "Francesco Scaramella",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_006_scroll_003_num03109_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3109
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Capo Squadra Elettricista",
+    "name": "Virgilio Palone",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_003_num03109_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3109
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Elettricisti",
+    "name": "Giuseppe Antonelli",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_003_num03109_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3109
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Elettricisti",
+    "name": "Loris Felici",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_003_num03109_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3109
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Elettricisti",
+    "name": "Dario Tosti",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_004_num03257_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3257
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Elettricisti",
+    "name": "Michele Pellegrini",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_004_num03257_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3257
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Gruppista",
+    "name": "Giovanni Battista Squillace",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_004_num03257_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3257
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Capi Squadra Macchinisti",
+    "name": "Marco Moroni",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_004_num03257_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3257
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Capi Squadra Macchinisti",
+    "name": "Cesare Guarino",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_004_num03257_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3257
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Macchinisti",
+    "name": "Massimo Diamanti",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_004_num03257_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3257
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Macchinisti",
+    "name": "Roberto Torsellini",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_004_num03257_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3257
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Macchinisti",
+    "name": "Claudio Ricci",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_004_num03257_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3257
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Macchinisti",
+    "name": "Massimo Gattobigio",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_004_num03257_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3257
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Capo Trasporti",
+    "name": "Ivano Proveromo",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_006_scroll_004_num03257_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3257
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Autisti",
+    "name": "Luigi Fileni",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_006_scroll_004_num03257_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3257
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Autisti",
+    "name": "Giovanni Bove",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_006_scroll_004_num03257_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3257
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Autisti",
+    "name": "Fabrizio Peduzzi",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_006_scroll_004_num03257_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3257
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Autisti",
+    "name": "Mario Fileni",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_006_scroll_005_num03405_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3405
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Coordinatore Effetti Speciali",
+    "name": "Francesco Sabelli",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_006_scroll_005_num03405_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3405
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Effetti Speciali",
+    "name": "Carlo Quattrone",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_006_scroll_005_num03405_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3405
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Scenotecnico",
+    "name": "Roberto Ricci",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_006_scroll_005_num03405_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3405
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Coordinatore Stunt",
+    "name": "Alessandro Borgese",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_006_scroll_005_num03405_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3405
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stunt Driver",
+    "name": "Giampiero Comanducci",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_006_scroll_005_num03405_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3405
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stuntmen",
+    "name": "Ottaviano Dell’ Acqua",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_006_scroll_005_num03405_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3405
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stuntmen",
+    "name": "Riccardo Mioni",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_006_scroll_005_num03405_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3405
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stuntmen",
+    "name": "Stefano Maria Mioni",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_006_scroll_005_num03405_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3405
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stuntmen",
+    "name": "Viet Daniele Nguyen - Hung",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_006_scroll_005_num03405_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3405
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stuntmen",
+    "name": "Paolo Antonini",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_006_scroll_005_num03405_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3405
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stuntmen",
+    "name": "Massimiliano Ubaldi",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_006_scroll_005_num03405_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3405
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stuntmen",
+    "name": "Giorgio Antonini",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_006_scroll_005_num03405_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3405
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stuntmen",
+    "name": "Emiliano Novelli",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_006_scroll_006_num03553_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3553
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stuntmen",
+    "name": "Antonio Letterio",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_006_scroll_006_num03553_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3553
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stuntmen",
+    "name": "Serena Letterio",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_006_scroll_006_num03553_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3553
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Permessi O.S.P.",
+    "name": "Luca Chiarini Petrelli",
+    "role_group": "Production Department",
+    "secondary_role_group": "Location Managers",
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_006_scroll_006_num03553_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3553
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Permessi O.S.P.",
+    "name": "Alessandro Randone",
+    "role_group": "Production Department",
+    "secondary_role_group": "Location Managers",
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_006_scroll_006_num03553_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3553
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Permessi O.S.P.",
+    "name": "Aldo Rizzieri",
+    "role_group": "Production Department",
+    "secondary_role_group": "Location Managers",
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_006_scroll_006_num03553_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3553
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuto Attrezzisti",
+    "name": "Silvano Spoletini",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_006_num03553_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3553
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Aiuto Attrezzisti",
+    "name": "Antonio Chiffi",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_006_scroll_006_num03553_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3553
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "A.O.S.M.",
+    "name": "Gianfilippo Spoletini",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_006_scroll_006_num03553_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3553
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Permessi Minori",
+    "name": "Maurizia Tranchina",
+    "role_group": "Production Department",
+    "secondary_role_group": "Location Managers",
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_006_scroll_006_num03553_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3553
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Location Manager",
+    "name": "Valentina Cafagna",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_006_scroll_006_num03553_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3553
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Andrea Bartolazzi",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_007_num03701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3701
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Irma Basile",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_007_num03701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3701
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Marco Bianco",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_007_num03701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3701
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Elisa Boltri",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_007_num03701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3701
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Inese Briede",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_007_num03701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3701
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Giuseppina Cascegna",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_007_num03701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3701
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Claudia Croce",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_007_num03701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3701
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Arianna De Chiara",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_007_num03701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3701
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Viviana Farzalari",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_007_num03701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3701
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Tiziana Gianfriglia",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_008_num03849_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3849
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Marina Giorgi",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_008_num03849_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3849
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Gianluca Leoncini",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_008_num03849_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3849
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Patrizia Marchi",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_008_num03849_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3849
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Daniele Massa",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_008_num03849_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3849
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Cinzia Micozzi",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_008_num03849_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3849
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Erica Negri",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_008_num03849_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3849
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Susanna Paganin",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_008_num03849_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3849
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Claudia Passeri",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_008_num03849_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3849
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Fabio Peschisolido",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_008_num03849_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3849
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Roberta Peschisolido",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_008_num03849_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3849
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Roberto Pompei",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_008_num03849_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3849
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Serena Sosteani",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_008_num03849_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3849
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Alessandro Spadea",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_009_num03997_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3997
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Team Cattleya",
+    "name": "Gabriele Stucchi",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_006_scroll_009_num03997_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3997
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Sonorizzazione e Post-Produzione",
+    "name": "Sound Art 23",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_006_scroll_009_num03997_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3997
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Fonico Doppiaggio",
+    "name": "Pietro Patriarca",
+    "role_group": "Dubbing_Sound",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing_Sound",
+    "source_frame": [
+      "scene_006_scroll_009_num03997_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3997
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Fonico Doppiaggio",
+    "name": "Massimo Marino",
+    "role_group": "Dubbing_Sound",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing_Sound",
+    "source_frame": [
+      "scene_006_scroll_009_num03997_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3997
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Fonico Doppiaggio",
+    "name": "Fonico Doppiaggio",
+    "role_group": "Dubbing_Sound",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing_Sound",
+    "source_frame": [
+      "scene_006_scroll_010_num04145_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4145
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Fonico di Mix",
+    "name": "Luigi Casale",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_006_scroll_010_num04145_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4145
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Montaggio Presa Diretta",
+    "name": "Stefano Di Fiore",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_006_scroll_010_num04145_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4145
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Montaggio Presa Diretta",
+    "name": "Tommaso Conti",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_006_scroll_010_num04145_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4145
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Effetti Sonori",
+    "name": "Piergiorgio De Luca",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_006_scroll_010_num04145_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4145
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Effetti Sonori",
+    "name": "Mirko Perri",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_006_scroll_010_num04145_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4145
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Rumorista",
+    "name": "Paolo Frati",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_006_scroll_011_num04293_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4293
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Doppiaggio",
+    "name": "CDL",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_006_scroll_011_num04293_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4293
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Direzione del Doppiaggio",
+    "name": "Elisabetta Bucciarelli",
+    "role_group": "Dubbing",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing",
+    "source_frame": [
+      "scene_006_scroll_011_num04293_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4293
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistente al Doppiaggio",
+    "name": "Alessia Alessi",
+    "role_group": "Dubbing",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing",
+    "source_frame": [
+      "scene_006_scroll_011_num04293_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4293
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Macchine da Presa",
+    "name": "AMG - Arco Multimedia Group",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_006_scroll_012_num04441_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4441
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Laboratorio Sviluppo e Stampa",
+    "name": "AUGUSTUSCOLOR S.A.S.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_006_scroll_012_num04441_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4441
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Sviluppo Negativo",
+    "name": "Alessandro Cecchetti",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_006_scroll_012_num04441_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4441
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Sviluppo Negativo",
+    "name": "Pietro Cantiani",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_006_scroll_012_num04441_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4441
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Telecinema Giornalieri",
+    "name": "Erminio Lauri",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_006_scroll_012_num04441_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4441
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Telecinema Giornalieri",
+    "name": "Alessandro Maniccia",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_006_scroll_012_num04441_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4441
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Telecinema Giornalieri",
+    "name": "Luca Proietti",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_006_scroll_012_num04441_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4441
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "On-Line",
+    "name": "Graziano Falzone",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_006_scroll_012_num04441_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4441
+    ],
+    "scene_position": "first_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "On-Line",
+    "name": "Carla De Luca",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_006_scroll_012_num04441_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4441
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Revival",
+    "name": "Francesco Spadoni",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_006_scroll_012_num04441_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4441
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Revival",
+    "name": "Stefania Pittella",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_006_scroll_012_num04441_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4441
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Vfx producer",
+    "name": "Pierfrancesco Fiorenza",
+    "role_group": "Visual Effects",
+    "secondary_role_group": "Production Department",
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_006_scroll_012_num04441_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4441
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Vfx supervisor",
+    "name": "Raffaele Nappi",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_006_scroll_013_num04589_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4589
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Vfx compositor",
+    "name": "Mauro Maccari",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_006_scroll_013_num04589_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4589
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Vfx compositor",
+    "name": "Rita Torchetti",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_006_scroll_013_num04589_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4589
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Vfx compositor",
+    "name": "Mauro Albanese",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_006_scroll_013_num04589_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4589
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Titoli",
+    "name": "Graziano Falzone",
+    "role_group": "Visual Effects",
+    "secondary_role_group": "Editorial Department",
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_006_scroll_013_num04589_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4589
+    ],
+    "scene_position": "first_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Colorist",
+    "name": "Marco Giliberti",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "scene_006_scroll_013_num04589_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4589
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Duplicazioni",
+    "name": "Cinzia D'Ubaldi",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_006_scroll_013_num04589_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4589
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Duplicazioni",
+    "name": "Dino Lollobrigida",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_006_scroll_013_num04589_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4589
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Inserimento Audio e Controllo Tecnico",
+    "name": "Tiziana Di Clemente",
+    "role_group": "Editorial Department",
+    "secondary_role_group": "Sound Department",
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_006_scroll_013_num04589_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4589
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Pellicola",
+    "name": "Kodak S.p.A.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_006_scroll_013_num04589_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4589
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Effetti Visivi Digitali",
+    "name": "VISUALOGIE",
+    "role_group": "Special Effects Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Special Effects Companies",
+    "source_frame": [
+      "scene_006_scroll_013_num04589_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4589
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Vfx Supervisor & Producer / Vfx Supervisor",
+    "name": "Paola Trisoglio",
+    "role_group": "Visual Effects",
+    "secondary_role_group": "Production Department",
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_006_scroll_013_num04589_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4589
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Vfx Coordinator",
+    "name": "Stefano Marinonni",
+    "role_group": "Visual Effects",
+    "secondary_role_group": "Production Department",
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_006_scroll_013_num04589_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4589
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Digital Artist",
+    "name": "Federica Nisi",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_007_scroll_000_num04667_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4667
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Artist",
+    "name": "Amedeo Califano",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_007_scroll_000_num04667_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4667
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assicurazione",
+    "name": "Kent Insurance Broker S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_000_num04667_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4667
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assicurazione",
+    "name": "Chubb Insurance Company Of Europe S.A.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_000_num04667_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4667
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Catering",
+    "name": "Gigi Catering S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": "Craft Services",
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_000_num04667_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4667
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Materiale a Consumo Elettricisti e Noleggio Furgoni",
+    "name": "2001 Rainbow S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_000_num04667_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4667
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Materiale a Consumo Macchinisti",
+    "name": "Icol S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_001_num04815_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4815
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Materiale Audio Noleggio",
+    "name": "Andrea Fiorentini",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_001_num04815_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4815
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Attrezzeria e Sartoria",
+    "name": "L’Officina S.a.s. di Alberto Ronci",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_001_num04815_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4815
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Previsioni Meteo",
+    "name": "Man Service S.n.c.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_001_num04815_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4815
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Noleggio Piattaforme Aeree",
+    "name": "Eva Nolo S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_001_num04815_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4815
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Ferramenta",
+    "name": "Verdile Due S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_001_num04815_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4815
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Agenzia Viaggi",
+    "name": "The Freeway",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_001_num04815_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4815
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Effetti Speciali Trucco",
+    "name": "R & S Diffusion S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": "Makeup Department",
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_001_num04815_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4815
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Parrucche",
+    "name": "Rocchetti & Rocchetti S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": "Makeup Department",
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_001_num04815_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4815
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Sicurezza sul Lavoro",
+    "name": "Eco Consult S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": "Health and Safety Department",
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_001_num04815_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4815
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Addestratore Animali",
+    "name": "MP Dog Star S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_001_num04815_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4815
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Mezzi di Scena",
+    "name": "Stuntman School di Falco Gianluca",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_001_num04815_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4815
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Mezzi di Scena",
+    "name": "2 RUN S.a.s. di F. Crocini & C.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_001_num04815_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4815
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Auto in Posa",
+    "name": "Davide Fichera",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_001_num04815_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4815
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Spedizioni Nazionali",
+    "name": "Transor International S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_002_num04963_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4963
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Steadicam",
+    "name": "Steadimule di Giacometti Sandra",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": "Camera and Electrical Department",
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_002_num04963_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4963
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Tappezzeria",
+    "name": "Artigiana Arredatori e Tappezzieri di Bruno Schiavi S.a.s.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_002_num04963_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4963
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Costruzioni",
+    "name": "Arcoscenico Due S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_002_num04963_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4963
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Costruzioni",
+    "name": "Galli Costruzioni Scenografiche S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_002_num04963_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4963
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stampati Elaborazioni Grafiche",
+    "name": "Centro Copie Cervialto S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_002_num04963_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4963
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stampati Elaborazioni Grafiche",
+    "name": "Pubblicità In S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_002_num04963_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4963
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Linoleum, Moquettes, PVC",
+    "name": "C.M. Parati S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_002_num04963_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4963
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stucchi Plastiche Resine",
+    "name": "CineArs S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_002_num04963_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4963
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Arredamento Noleggio",
+    "name": "Cine Art",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_002_num04963_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4963
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Arredamento Noleggio",
+    "name": "Cine 800 S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_002_num04963_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4963
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Arredamento Noleggio",
+    "name": "Arredamenti Cinemeteatrali GRP di Renato Postiglione & C. Snc",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_003_num05111_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5111
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Arredamento Noleggio",
+    "name": "Mobil Carta S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_003_num05111_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5111
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Arredamento Noleggio",
+    "name": "E. Rancati S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_003_num05111_sim0.jpg",
+      "scene_009_scroll_000_num05173_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5111,
+      5173
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Arredamento Noleggio",
+    "name": "WAMA Arredamenti S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_003_num05111_sim0.jpg",
+      "scene_009_scroll_000_num05173_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5111,
+      5173
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Arredamento Acquisto",
+    "name": "Piazza Affari Picc. Soc. Coop.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_003_num05111_sim0.jpg",
+      "scene_009_scroll_000_num05173_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5111,
+      5173
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Piante e Fiori",
+    "name": "Piante e Fiori Rossiello S.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_003_num05111_sim0.jpg",
+      "scene_009_scroll_000_num05173_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5111,
+      5173
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Tendaggi",
+    "name": "Tende...nze Di Simonetta Ceprani",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_003_num05111_sim0.jpg",
+      "scene_009_scroll_000_num05173_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5111,
+      5173
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Coordinamento Forniture Arredamento",
+    "name": "\"Tempi Moderni S.r.l. Di M.G. Cacciamani & F. Ciotti\"",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_003_num05111_sim0.jpg",
+      "scene_009_scroll_000_num05173_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5111,
+      5173
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Abbigliamento Noleggio",
+    "name": "Annamode 68 - Roma",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_003_num05111_sim0.jpg",
+      "scene_009_scroll_000_num05173_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5111,
+      5173
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Abbigliamento Noleggio",
+    "name": "Sartoria Cine-Teatrale Nori",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_003_num05111_sim0.jpg",
+      "scene_009_scroll_000_num05173_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5111,
+      5173
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Abbigliamento Noleggio",
+    "name": "Enzo - Bracciano - Roma",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_003_num05111_sim0.jpg",
+      "scene_009_scroll_000_num05173_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5111,
+      5173
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Pulitura Costumi",
+    "name": "Mister Clean S.a.s.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_scroll_003_num05111_sim0.jpg",
+      "scene_009_scroll_000_num05173_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5111,
+      5173
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Dirette da",
+    "name": "Pasquale Catalano",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_008_scroll_000_num05150_sim0.jpg",
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5150,
+      5321
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Dirette da",
+    "name": "Giuseppe Sasso",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_008_scroll_000_num05150_sim0.jpg",
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5150,
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Eseguite da",
+    "name": "Luca Bagagli",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Eseguite da",
+    "name": "Eleonora Bordonaro",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Eseguite da",
+    "name": "Roberto Catucci",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Eseguite da",
+    "name": "Felice de Falco",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Eseguite da",
+    "name": "Andrea Esposito",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Eseguite da",
+    "name": "Melania Esposito",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Eseguite da",
+    "name": "Mauro Fagiani",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Eseguite da",
+    "name": "Giuseppe Lucania",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Eseguite da",
+    "name": "Raffaele Pulcrano",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Eseguite da",
+    "name": "Paolo Sasso",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Eseguite da",
+    "name": "Valeria Squillante",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Eseguite da",
+    "name": "Andrea Tarantino",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Registrazioni e missaggi",
+    "name": "Amarcord Studio (NA)",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Registrazioni e missaggi",
+    "name": "E-Left Studio (Roma)",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Edizioni Musicali",
+    "name": "Flipper Srl",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Edizioni Musicali",
+    "name": "Radiocattleya Srl",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Per EMI Music Publishing Italia Srl",
+    "name": "Lula Sarchioni",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Per EMI Music Publishing Italia Srl",
+    "name": "Anna Collabolletta",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Per EMI Music Publishing Italia Srl",
+    "name": "Valentina Iacoacci",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Per EMI Music Publishing Italia Srl",
+    "name": "Lina Cardillo",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_009_scroll_001_num05321_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5321
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Comune di Roma Dipartimento IV Politiche Culturali II U.O. - Ufficio Cinema",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_002_num05469_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5469
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Volvo Auto Italia S.p.A.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_002_num05469_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5469
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Ministero per i Beni e le Attività Culturali",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_002_num05469_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5469
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Soprintendenza per i Beni Archeologici di Ostia",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_002_num05469_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5469
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Telecom Italia S.p.A.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_002_num05469_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5469
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Teatro dell'Opera",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_002_num05469_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5469
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "RCS Libri S.p.A. - Bompiani",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_002_num05469_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5469
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "\"La Nazione\" e \"Il Resto del Carlino\" - Società Poligrafici Editoriale S.p.A.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_002_num05469_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5469
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "\"Il Messaggero\"",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_002_num05469_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5469
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Le Terrazze del Presidente",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_002_num05469_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5469
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Ferrovie dello Stato S.P.A.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_002_num05469_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5469
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "RFI - Rete Ferroviaria Italiana - Gruppo Ferrovie dello Stato",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_002_num05469_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5469
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Porti di Roma e del Lazio - Autorità Portuale Civitavecchia Fiumicino Gaeta",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_003_num05617_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5617
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Cruise Roma Terminal",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_003_num05617_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5617
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Magneti Marelli",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_003_num05617_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5617
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Michelin Italiana S.p.A.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_003_num05617_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5617
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "per auto di scena",
+    "name": "Massimiliano Russo",
+    "role_group": "Property Department",
+    "secondary_role_group": "Transportation Department",
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_009_scroll_003_num05617_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5617
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Debbie Carmichael",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_009_scroll_003_num05617_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5617
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Red Bee Media Ltd.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_003_num05617_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5617
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "AMA S.P.A. - Azienda Municipale Ambiente di Roma",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_003_num05617_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5617
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Brionvega",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_003_num05617_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5617
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Artemide",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_003_num05617_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5617
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Flos",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_003_num05617_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5617
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Sisal S.p.A. - Milano",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_003_num05617_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5617
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Basicitalia (K-Way®)",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_003_num05617_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5617
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Lovable - Branded Apparel Italia",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_004_num05765_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Museum",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_004_num05765_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Ray-Ban",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_004_num05765_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Persol",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_004_num05765_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Rossetti Atelier Orafo in Roma",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_004_num05765_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Teodori +",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_004_num05765_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "La Produzione ringrazia:",
+    "name": "Zaccaria S.p.A. - Idee e forme tessili per la Sanità",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_004_num05765_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Si ringrazia",
+    "name": "Clinique",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_004_num05765_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Copyright 2008",
+    "name": "Sky Italia Srl",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_004_num05765_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Copyright 2008",
+    "name": "Cattleya S.p.A.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_004_num05765_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Sky Cinema",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_005_num05913_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5913
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Dolby Surround",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_005_num05913_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5913
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Augustuscolor",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_005_num05913_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5913
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Kodak Motion Picture Film",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_009_scroll_005_num05913_sim0.jpg"
+    ],
+    "original_frame_number": [
+      5913
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Sky Atlantic",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_010_static_002_num06032_sim80.jpg"
+    ],
+    "original_frame_number": [
+      6032
+    ],
+    "scene_position": "second_half"
+  }
+]

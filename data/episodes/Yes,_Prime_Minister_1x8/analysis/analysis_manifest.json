@@ -1,0 +1,676 @@
+{
+  "scenes": {
+    "scene_1": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_001_static_000_num00186_sim0.jpg",
+          "frame_num": 186,
+          "ocr_text": "YES, PRIME MINISTER",
+          "ocr_bbox": [
+            140,
+            48,
+            541,
+            149
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_001_static_001_num00246_sim53.jpg",
+          "frame_num": 246,
+          "ocr_text": "YES, PRIME MINISTER by and ANTONY JONATHAN JAY LYNN",
+          "ocr_bbox": [
+            74,
+            49,
+            583,
+            370
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_001_static_002_num00270_sim59.jpg",
+          "frame_num": 270,
+          "ocr_text": "YES PRIME 1MINISTER q AAY",
+          "ocr_bbox": [
+            105,
+            49,
+            540,
+            368
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_001_static_003_num00282_sim29.jpg",
+          "frame_num": 282,
+          "ocr_text": "by and ANTONY JONATHAN JAY LYNN",
+          "ocr_bbox": [
+            75,
+            265,
+            583,
+            369
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_001_static_004_num00330_sim97.jpg",
+          "frame_num": 330,
+          "ocr_text": "10 by and ANTONY JONATHAN JAY LYNN",
+          "ocr_bbox": [
+            72,
+            226,
+            582,
+            370
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_001_static_005_num00342_sim78.jpg",
+          "frame_num": 342,
+          "ocr_text": "10 and ANTONY JONATHAN",
+          "ocr_bbox": [
+            75,
+            223,
+            581,
+            330
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_001_static_006_num00354_sim78.jpg",
+          "frame_num": 354,
+          "ocr_text": "10 and ANT ONATHAN JA LYNN",
+          "ocr_bbox": [
+            73,
+            217,
+            579,
+            365
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_001_static_007_num00357_sim36.jpg",
+          "frame_num": 357,
+          "ocr_text": "OI ATHAN",
+          "ocr_bbox": [
+            181,
+            117,
+            581,
+            361
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 8,
+      "median_flow_px_per_frame": 0.4197945296764374,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3395121693611145,
+      "roi_percentile_flow": 0.4197945296764374,
+      "scroll_direction": null
+    },
+    "scene_3": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_003_static_000_num00495_sim26.jpg",
+          "frame_num": 495,
+          "ocr_text": "Starring PAUL EDDINGTON",
+          "ocr_bbox": [
+            79,
+            95,
+            295,
+            194
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_003_static_001_num00531_sim94.jpg",
+          "frame_num": 531,
+          "ocr_text": "Starring PAUL EDDINGTON IN",
+          "ocr_bbox": [
+            81,
+            95,
+            294,
+            417
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_003_static_002_num00567_sim51.jpg",
+          "frame_num": 567,
+          "ocr_text": "EDDINGTON",
+          "ocr_bbox": [
+            81,
+            160,
+            294,
+            195
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_003_static_003_num00579_sim56.jpg",
+          "frame_num": 579,
+          "ocr_text": "Starring PAUE EDDINGTON",
+          "ocr_bbox": [
+            82,
+            95,
+            342,
+            195
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_003_static_004_num00627_sim37.jpg",
+          "frame_num": 627,
+          "ocr_text": "NIGEL HAWTHORNE",
+          "ocr_bbox": [
+            288,
+            170,
+            534,
+            238
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_003_static_005_num00651_sim77.jpg",
+          "frame_num": 651,
+          "ocr_text": "NIGEL HAWTHORNE RED TAPE",
+          "ocr_bbox": [
+            287,
+            172,
+            532,
+            402
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_003_static_006_num00723_sim50.jpg",
+          "frame_num": 723,
+          "ocr_text": "RED TAPE",
+          "ocr_bbox": [
+            321,
+            368,
+            385,
+            404
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_003_static_007_num00759_sim30.jpg",
+          "frame_num": 759,
+          "ocr_text": "DEREK FOWLDS",
+          "ocr_bbox": [
+            98,
+            92,
+            251,
+            163
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_003_static_008_num00879_sim29.jpg",
+          "frame_num": 879,
+          "ocr_text": "R DUES IIAGA",
+          "ocr_bbox": [
+            292,
+            507,
+            640,
+            640
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_003_static_009_num00891_sim14.jpg",
+          "frame_num": 891,
+          "ocr_text": "THE N",
+          "ocr_bbox": [
+            63,
+            217,
+            157,
+            302
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_003_static_010_num00896_sim83.jpg",
+          "frame_num": 896,
+          "ocr_text": "THE MIN",
+          "ocr_bbox": [
+            51,
+            208,
+            165,
+            328
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 11,
+      "median_flow_px_per_frame": 0.14549200236797333,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1534523367881775,
+      "roi_percentile_flow": 0.14549200236797333,
+      "scroll_direction": null
+    },
+    "scene_4": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_004_static_000_num00909_sim67.jpg",
+          "frame_num": 909,
+          "ocr_text": "THE MINISTERIA",
+          "ocr_bbox": [
+            56,
+            211,
+            287,
+            332
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_004_static_001_num00921_sim80.jpg",
+          "frame_num": 921,
+          "ocr_text": "THE MINISTERIAL BROAD",
+          "ocr_bbox": [
+            56,
+            211,
+            327,
+            385
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_004_static_002_num00933_sim91.jpg",
+          "frame_num": 933,
+          "ocr_text": "THE MINISTERIAL BROADCAST",
+          "ocr_bbox": [
+            56,
+            210,
+            339,
+            378
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_004_static_003_num00981_sim98.jpg",
+          "frame_num": 981,
+          "ocr_text": "THE MINISTERIALN BROADCAST",
+          "ocr_bbox": [
+            57,
+            211,
+            356,
+            378
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_004_static_004_num00993_sim98.jpg",
+          "frame_num": 993,
+          "ocr_text": "THE MINISTERIALNG BROADCAST",
+          "ocr_bbox": [
+            56,
+            207,
+            377,
+            378
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_004_static_005_num01038_sim31.jpg",
+          "frame_num": 1038,
+          "ocr_text": "PAUL EDDINGTON NIGEL HAWTHORNE DEREK FOWLDS",
+          "ocr_bbox": [
+            31,
+            279,
+            297,
+            468
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 6,
+      "median_flow_px_per_frame": 0.18116599321365356,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1474599838256836,
+      "roi_percentile_flow": 0.18116599321365356,
+      "scroll_direction": null
+    },
+    "scene_5": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_000_num01051_sim100.jpg",
+          "frame_num": 1051,
+          "ocr_text": "PAUL EDDINGTON NIGEL HAWTHORNE DEREK FOWLDS",
+          "ocr_bbox": [
+            28,
+            243,
+            297,
+            436
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_001_num01063_sim89.jpg",
+          "frame_num": 1063,
+          "ocr_text": "PAUL EDDINGTON NIGEL HAWTHORNE DEREK FOWLDS JOHN WELLS",
+          "ocr_bbox": [
+            31,
+            210,
+            295,
+            480
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_002_num01075_sim98.jpg",
+          "frame_num": 1075,
+          "ocr_text": "PAUL EDDINGTON NIGEL HAWTHORNE DEREK FOWLDS A JOHN WELLS",
+          "ocr_bbox": [
+            28,
+            175,
+            599,
+            453
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_003_num01087_sim89.jpg",
+          "frame_num": 1087,
+          "ocr_text": "PAUL EDDINGTON NIGEL HAWTHORNE DEREK FOWLDS JOHN WELLS RARRYSTANTO.",
+          "ocr_bbox": [
+            28,
+            143,
+            297,
+            479
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_004_num01099_sim91.jpg",
+          "frame_num": 1099,
+          "ocr_text": "PAUL EDDINGTON NIGEL HAWTHORNE DEREK FOWLDS JOHN WELLS BARRY STANTON",
+          "ocr_bbox": [
+            28,
+            108,
+            297,
+            464
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_005_num01123_sim90.jpg",
+          "frame_num": 1123,
+          "ocr_text": "PAUL EDDINGTON NIGEL HAWTHORNE DEREK FOWLDS JOHN WELLS BARRY STANTON BRIAN GWASPARI",
+          "ocr_bbox": [
+            28,
+            42,
+            299,
+            477
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_006_num01183_sim64.jpg",
+          "frame_num": 1183,
+          "ocr_text": "DEREK FOWLDS JOHN WELLS BARRY STANTON BRIAN GWASPARI CAROLYN LYSTER Tik Sequence GERALD SCAREE",
+          "ocr_bbox": [
+            43,
+            29,
+            281,
+            480
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_007_num01195_sim97.jpg",
+          "frame_num": 1195,
+          "ocr_text": "DEREK FOWLDS JOHN WELLS BARRY STANTON BRIAN GWASPARI CAROLYN LYSTER Tike Sequeoce GERALD SCARFE",
+          "ocr_bbox": [
+            42,
+            0,
+            280,
+            456
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_008_num01219_sim80.jpg",
+          "frame_num": 1219,
+          "ocr_text": "JOHN WELLS BARRY STANTON BRIAN GWASPARI CAROLYN LYSTER Titke Sequence GERALD SCARFE Music RONNIE HAZLEHURST",
+          "ocr_bbox": [
+            13,
+            4,
+            312,
+            480
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_009_num01267_sim75.jpg",
+          "frame_num": 1267,
+          "ocr_text": "BRIAN GWASPARI CAROLYN LYSTER Thle Sequence GERALD SCARFE Music RONNIE HAZLEHURST Costume Designer RICHARD WINTER",
+          "ocr_bbox": [
+            13,
+            21,
+            311,
+            438
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_010_num01279_sim88.jpg",
+          "frame_num": 1279,
+          "ocr_text": "DKIAN GWASPARI CAROLYN LYSTER Thle Sequence GERALD SCARFE Music RONNIE HAZLEHURST Costume Designer RICHARD WINTER Makeup Designer",
+          "ocr_bbox": [
+            12,
+            0,
+            311,
+            475
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_011_num01327_sim74.jpg",
+          "frame_num": 1327,
+          "ocr_text": "Thle Sequence GERALD SCARFE Masic RONNIE HAZLEHURST Cosi ume Designer RICHARD WINTER Makeup Designer CHERYL WRIGHT Properties Buyer FRANCIS SMITH",
+          "ocr_bbox": [
+            10,
+            26,
+            310,
+            465
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_012_num01363_sim79.jpg",
+          "frame_num": 1363,
+          "ocr_text": "Marsic RONNIE HAZLEHURST Costume Designer RICHARD WINTER Makeup Designer CHERYL WRIGHT Properties Buyer FRANCIS SMITH Camera Supervisor JOHN DAILLEY",
+          "ocr_bbox": [
+            9,
+            27,
+            310,
+            464
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_013_num01387_sim79.jpg",
+          "frame_num": 1387,
+          "ocr_text": "Cost ame Designer RICHARD WINTER Maheup Designer CHERYL WRIGHT Properties Buyer FRANCIS SMITH Camera Supervisor JOHN DAILLEY Technical Co-Ordinstar REG POULTER",
+          "ocr_bbox": [
+            38,
+            54,
+            284,
+            480
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_014_num01399_sim94.jpg",
+          "frame_num": 1399,
+          "ocr_text": "Cost a me Designct RICHARD WINTER Makeap Designer CHERYL WRIGHT Properties Buyer FRANCIS SMITH Camere Supervisor JOHN DAILLEY Technical Co-Ordinator REG POULTER",
+          "ocr_bbox": [
+            37,
+            18,
+            284,
+            456
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_015_num01471_sim58.jpg",
+          "frame_num": 1471,
+          "ocr_text": "FRANCIS SMITH Camera Supervisor JOHN DAILLEY Jechnical Co-Ordinator REG POULTER Sound PETER BARVILLE Vision Mixer ANGELA BEVERIDGE",
+          "ocr_bbox": [
+            28,
+            13,
+            298,
+            437
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_016_num01495_sim78.jpg",
+          "frame_num": 1495,
+          "ocr_text": "Camera Sape JOHN DAILLEY Technical Co-Ordinstor REG POULTER Sound PETER BARVILLE Vision Miner ANGELA BEVERIDGE Floor Manager JACKIE FOOTE",
+          "ocr_bbox": [
+            27,
+            23,
+            298,
+            462
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_017_num01519_sim80.jpg",
+          "frame_num": 1519,
+          "ocr_text": "Technical Co-Ordinator REG POULTER Sound PETER BARVILLE Vision Mizer ANGELA BEVERIDGE Floor Manager JACKIE FOOTE Assistant Floor Mannger CHRISTINE CROW",
+          "ocr_bbox": [
+            26,
+            47,
+            297,
+            480
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_018_num01591_sim71.jpg",
+          "frame_num": 1591,
+          "ocr_text": "Visiom Mizer ANGELA BEVERIDGE Floor Manager JACKIE FOOTE Assistant Floor Manager CHRISTINE CROW Production Assistant JUDY LOE Videotape Editor CHRIS WADSWORTH",
+          "ocr_bbox": [
+            25,
+            39,
+            297,
+            477
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_019_num01615_sim82.jpg",
+          "frame_num": 1615,
+          "ocr_text": "ANUCLABEVEKIDGE Ploor Manager JACKIE FOOTE Assistani Floor Manager CHRISTINE CROW Production Assistani JUDY LOE Videotape Edior CHRIS WADSWORTH Lighting Director",
+          "ocr_bbox": [
+            27,
+            0,
+            295,
+            480
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_020_num01663_sim80.jpg",
+          "frame_num": 1663,
+          "ocr_text": "Assistamt Floor Mannger CHRISTINE CROW Production Assistant JUDY LOE Videotape Editor CHRIS WADSWORTH Lighring Director RON BRISTOW Production Manager BRIAN JONES",
+          "ocr_bbox": [
+            27,
+            29,
+            295,
+            469
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_021_num01759_sim44.jpg",
+          "frame_num": 1759,
+          "ocr_text": "Lighting Director RON BRISTOW BRIAN JONES Desiga GLORIA CLAYTON",
+          "ocr_bbox": [
+            46,
+            40,
+            278,
+            283
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_022_num01771_sim86.jpg",
+          "frame_num": 1771,
+          "ocr_text": "Lighting Director RON BRISTOW Production Manager BRIAN JONES Design GLORIA CLAYTON",
+          "ocr_bbox": [
+            43,
+            5,
+            279,
+            249
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_023_num01807_sim67.jpg",
+          "frame_num": 1807,
+          "ocr_text": "BRIAN JONES Desigo GLORIA CLAYTON Produced nd Directed by SYDNEY LOTTERBY CARE MCMLXXXY",
+          "ocr_bbox": [
+            37,
+            14,
+            288,
+            480
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_024_num01819_sim62.jpg",
+          "frame_num": 1819,
+          "ocr_text": "GLORIACLAYTON Produced and Directed b SYDNEYLOTTERBY BBCMCMLXXXV",
+          "ocr_bbox": [
+            37,
+            75,
+            288,
+            454
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_025_num01831_sim81.jpg",
+          "frame_num": 1831,
+          "ocr_text": "GLORIA CLAYTON Produredand Directed by SYDNEYLOTTERBY BBC MCMLXXXV",
+          "ocr_bbox": [
+            35,
+            40,
+            289,
+            417
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Yes,_Prime_Minister_1x8\\analysis\\frames\\scene_005_static_026_num01843_sim69.jpg",
+          "frame_num": 1843,
+          "ocr_text": "GLORIACLAYTON Produced and Directed by SYDNEYLOTTERBY BOOMOMLXXXV",
+          "ocr_bbox": [
+            34,
+            5,
+            289,
+            382
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 27,
+      "median_flow_px_per_frame": -0.28028810024261475,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.10611706040799618,
+      "roi_percentile_flow": -0.28028810024261475,
+      "scroll_direction": null
+    }
+  }
+}

@@ -1,0 +1,1013 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_000_static_000_num00000_sim0.jpg",
+          "frame_num": 0,
+          "ocr_text": "FILL STREET BLUES",
+          "ocr_bbox": [
+            120,
+            158,
+            456,
+            286
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.3849153518676758,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.5274696350097656,
+      "roi_percentile_flow": 0.3849153518676758,
+      "scroll_direction": null
+    },
+    "scene_1": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.4640602767467499,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3100297152996063,
+      "roi_percentile_flow": 0.4640602767467499,
+      "scroll_direction": null
+    },
+    "scene_2": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_002_scroll_000_num00065_sim0.jpg",
+          "frame_num": 65,
+          "ocr_text": "HILl STREET BLUES",
+          "ocr_bbox": [
+            116,
+            155,
+            459,
+            283
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.011537551879883,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.5718698501586914,
+      "roi_percentile_flow": 2.011537551879883,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 200,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_4": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_004_static_000_num00333_sim25.jpg",
+          "frame_num": 333,
+          "ocr_text": "Starring DANIEL J. TRAVANTI",
+          "ocr_bbox": [
+            84,
+            290,
+            498,
+            374
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.11252011358737946,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.17378966510295868,
+      "roi_percentile_flow": 0.11252011358737946,
+      "scroll_direction": null
+    },
+    "scene_5": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_005_static_000_num00441_sim32.jpg",
+          "frame_num": 441,
+          "ocr_text": "LICE WNAREA",
+          "ocr_bbox": [
+            0,
+            168,
+            94,
+            228
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.17924588918685913,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.48137176036834717,
+      "roi_percentile_flow": -0.17924588918685913,
+      "scroll_direction": null
+    },
+    "scene_6": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_006_static_000_num00450_sim79.jpg",
+          "frame_num": 450,
+          "ocr_text": "LICE wNAREA ILACE",
+          "ocr_bbox": [
+            0,
+            168,
+            91,
+            342
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_006_static_001_num00462_sim57.jpg",
+          "frame_num": 462,
+          "ocr_text": "LICE WNAREA SLPCT MICHAEL CONRAD",
+          "ocr_bbox": [
+            0,
+            167,
+            482,
+            372
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_006_static_002_num00474_sim93.jpg",
+          "frame_num": 474,
+          "ocr_text": "LICE WHAREA SLPCT. MICHAEL CONRAD IC",
+          "ocr_bbox": [
+            0,
+            166,
+            482,
+            418
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.12203672528266907,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1269005835056305,
+      "roi_percentile_flow": 0.12203672528266907,
+      "scroll_direction": null
+    },
+    "scene_8": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_008_static_000_num00596_sim49.jpg",
+          "frame_num": 596,
+          "ocr_text": "MICHAEL WARREN",
+          "ocr_bbox": [
+            91,
+            330,
+            493,
+            374
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.1258833408355713,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.11665341816842556,
+      "roi_percentile_flow": 0.1258833408355713,
+      "scroll_direction": null
+    },
+    "scene_9": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.10296688973903656,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.13040465116500854,
+      "roi_percentile_flow": -0.10296688973903656,
+      "scroll_direction": null
+    },
+    "scene_10": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_010_static_000_num00731_sim40.jpg",
+          "frame_num": 731,
+          "ocr_text": "BRUCE WEITZ",
+          "ocr_bbox": [
+            141,
+            330,
+            444,
+            376
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.12931647896766663,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.12666895985603333,
+      "roi_percentile_flow": 0.12931647896766663,
+      "scroll_direction": null
+    },
+    "scene_12": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_012_static_000_num00859_sim31.jpg",
+          "frame_num": 859,
+          "ocr_text": "JAMES B. SIKKING",
+          "ocr_bbox": [
+            111,
+            335,
+            494,
+            382
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.11042522639036179,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.12881150841712952,
+      "roi_percentile_flow": 0.11042522639036179,
+      "scroll_direction": null
+    },
+    "scene_13": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_013_static_000_num00942_sim42.jpg",
+          "frame_num": 942,
+          "ocr_text": "JOE SPANO",
+          "ocr_bbox": [
+            171,
+            327,
+            413,
+            381
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.12701739370822906,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.13106662034988403,
+      "roi_percentile_flow": 0.12701739370822906,
+      "scroll_direction": null
+    },
+    "scene_14": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_014_static_000_num01026_sim26.jpg",
+          "frame_num": 1026,
+          "ocr_text": "BARBARA BOSSON",
+          "ocr_bbox": [
+            103,
+            336,
+            501,
+            377
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_014_static_001_num01086_sim18.jpg",
+          "frame_num": 1086,
+          "ocr_text": "RO POLCE",
+          "ocr_bbox": [
+            137,
+            96,
+            228,
+            127
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_014_static_002_num01097_sim94.jpg",
+          "frame_num": 1097,
+          "ocr_text": "RO POLICE",
+          "ocr_bbox": [
+            88,
+            98,
+            177,
+            126
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.14558246731758118,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.16456900537014008,
+      "roi_percentile_flow": 0.14558246731758118,
+      "scroll_direction": null
+    },
+    "scene_15": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_015_static_000_num01110_sim53.jpg",
+          "frame_num": 1110,
+          "ocr_text": "RO POLICE TAUREAN BLACQUE",
+          "ocr_bbox": [
+            78,
+            97,
+            494,
+            376
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_015_static_001_num01146_sim86.jpg",
+          "frame_num": 1146,
+          "ocr_text": "TRO POLICE TAUREAN BLACQUE",
+          "ocr_bbox": [
+            79,
+            97,
+            494,
+            377
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.12662185728549957,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.12427717447280884,
+      "roi_percentile_flow": 0.12662185728549957,
+      "scroll_direction": null
+    },
+    "scene_16": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_016_static_000_num01194_sim32.jpg",
+          "frame_num": 1194,
+          "ocr_text": "KIEL MARTIN",
+          "ocr_bbox": [
+            144,
+            331,
+            441,
+            376
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.1241394504904747,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1252095103263855,
+      "roi_percentile_flow": 0.1241394504904747,
+      "scroll_direction": null
+    },
+    "scene_17": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_017_static_000_num01278_sim42.jpg",
+          "frame_num": 1278,
+          "ocr_text": "RENE ENRIQUEZ",
+          "ocr_bbox": [
+            107,
+            329,
+            474,
+            377
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.12340320646762848,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1246640607714653,
+      "roi_percentile_flow": 0.12340320646762848,
+      "scroll_direction": null
+    },
+    "scene_18": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_018_static_000_num01362_sim16.jpg",
+          "frame_num": 1362,
+          "ocr_text": "BETTY THOMAS",
+          "ocr_bbox": [
+            128,
+            332,
+            477,
+            379
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.12396606802940369,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.14125852286815643,
+      "roi_percentile_flow": 0.12396606802940369,
+      "scroll_direction": null
+    },
+    "scene_19": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_019_static_000_num01438_sim24.jpg",
+          "frame_num": 1438,
+          "ocr_text": "CHARLES HAID AS RENKO",
+          "ocr_bbox": [
+            139,
+            316,
+            461,
+            390
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.12398955971002579,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1364966332912445,
+      "roi_percentile_flow": 0.12398955971002579,
+      "scroll_direction": null
+    },
+    "scene_20": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_020_static_000_num01534_sim38.jpg",
+          "frame_num": 1534,
+          "ocr_text": "AND VERONICA HAMEL AS JOYCE DAVENPORT",
+          "ocr_bbox": [
+            99,
+            294,
+            480,
+            403
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.1397177129983902,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1466459333896637,
+      "roi_percentile_flow": 0.1397177129983902,
+      "scroll_direction": null
+    },
+    "scene_21": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_021_static_000_num01659_sim40.jpg",
+          "frame_num": 1659,
+          "ocr_text": "POLIDE METRO CREATED BY MICHAEL KOZOLL STEVEN BOCHCO",
+          "ocr_bbox": [
+            147,
+            240,
+            450,
+            374
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.10980769991874695,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.13851340115070343,
+      "roi_percentile_flow": 0.10980769991874695,
+      "scroll_direction": null
+    },
+    "scene_24": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_024_static_000_num02401_sim33.jpg",
+          "frame_num": 2401,
+          "ocr_text": "Guest Starring BARBARA BABCOCK",
+          "ocr_bbox": [
+            168,
+            238,
+            424,
+            375
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_024_static_001_num02473_sim22.jpg",
+          "frame_num": 2473,
+          "ocr_text": "DAN HEDAYA",
+          "ocr_bbox": [
+            190,
+            281,
+            399,
+            375
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_024_static_002_num02545_sim25.jpg",
+          "frame_num": 2545,
+          "ocr_text": "MICHAEL TUCKER",
+          "ocr_bbox": [
+            166,
+            281,
+            425,
+            375
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_024_static_003_num02617_sim34.jpg",
+          "frame_num": 2617,
+          "ocr_text": "THOMAS CALLAWAY",
+          "ocr_bbox": [
+            150,
+            281,
+            440,
+            375
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_024_static_004_num02689_sim38.jpg",
+          "frame_num": 2689,
+          "ocr_text": "ALLEN CASE PETER WHITE",
+          "ocr_bbox": [
+            105,
+            280,
+            489,
+            376
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": 0.2343708872795105,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.20252086222171783,
+      "roi_percentile_flow": 0.2343708872795105,
+      "scroll_direction": null
+    },
+    "scene_31": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_031_static_000_num03370_sim49.jpg",
+          "frame_num": 3370,
+          "ocr_text": "Written by ALAN RACHINS",
+          "ocr_bbox": [
+            114,
+            284,
+            474,
+            375
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.18089745938777924,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.20974798500537872,
+      "roi_percentile_flow": 0.18089745938777924,
+      "scroll_direction": null
+    },
+    "scene_32": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_032_static_000_num03455_sim26.jpg",
+          "frame_num": 3455,
+          "ocr_text": "adugaDireatd by",
+          "ocr_bbox": [
+            149,
+            284,
+            478,
+            323
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_032_static_001_num03467_sim32.jpg",
+          "frame_num": 3467,
+          "ocr_text": "Produced &Directed by GREGORY HOBLIT",
+          "ocr_bbox": [
+            83,
+            285,
+            506,
+            374
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_032_static_002_num03479_sim100.jpg",
+          "frame_num": 3479,
+          "ocr_text": "Produced & Directed by GREGORY HOBLIT",
+          "ocr_bbox": [
+            82,
+            283,
+            506,
+            375
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_032_static_003_num03707_sim40.jpg",
+          "frame_num": 3707,
+          "ocr_text": "Story Editor ANTHONY YERKOVICH",
+          "ocr_bbox": [
+            98,
+            193,
+            493,
+            274
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.2505801022052765,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.18334683030843735,
+      "roi_percentile_flow": 0.2505801022052765,
+      "scroll_direction": null
+    },
+    "scene_33": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_033_static_000_num03730_sim35.jpg",
+          "frame_num": 3730,
+          "ocr_text": "Associate Producer DAVID ANSPAUGH",
+          "ocr_bbox": [
+            139,
+            198,
+            452,
+            272
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_033_static_001_num03766_sim24.jpg",
+          "frame_num": 3766,
+          "ocr_text": "Co-Starring GEORGE DICKERSOM Swanson IRENA DU BARRY Rosa Calletano LYNN WHITFIELD Jill Thomas GELA JACOBSON Debbie Kaplan",
+          "ocr_bbox": [
+            81,
+            60,
+            511,
+            353
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.1261105239391327,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.13032041490077972,
+      "roi_percentile_flow": 0.1261105239391327,
+      "scroll_direction": null
+    },
+    "scene_34": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_034_static_000_num03815_sim43.jpg",
+          "frame_num": 3815,
+          "ocr_text": "ROBERT HIRSCHEELD Leo PHILIP G. SCHULTZ Harvey LISA LINDGREN Cindy Spooner JOHN BRANDON Detective Walsh",
+          "ocr_bbox": [
+            76,
+            103,
+            512,
+            352
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_034_static_001_num03887_sim22.jpg",
+          "frame_num": 3887,
+          "ocr_text": "Music by MIKE POST",
+          "ocr_bbox": [
+            202,
+            198,
+            412,
+            274
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_034_static_002_num03923_sim29.jpg",
+          "frame_num": 3923,
+          "ocr_text": "Director of Photography WILLIAM CRONJAGER A.S.C.",
+          "ocr_bbox": [
+            105,
+            196,
+            486,
+            297
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_034_static_003_num03947_sim47.jpg",
+          "frame_num": 3947,
+          "ocr_text": "Art Director JEFFREY L. GOLDSTEIN",
+          "ocr_bbox": [
+            87,
+            198,
+            503,
+            276
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_034_static_004_num03983_sim32.jpg",
+          "frame_num": 3983,
+          "ocr_text": "Editors TOMSTEVENS JOSEPH H. TERRILL,A.C.E. Post Production Supervisor TED RICH",
+          "ocr_bbox": [
+            81,
+            108,
+            508,
+            329
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": 0.12189915776252747,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.12506088614463806,
+      "roi_percentile_flow": 0.12189915776252747,
+      "scroll_direction": null
+    },
+    "scene_35": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_035_static_000_num04019_sim38.jpg",
+          "frame_num": 4019,
+          "ocr_text": "Production Manager CAROL HIMES Unit Production Manager CAL F NAYLOR",
+          "ocr_bbox": [
+            165,
+            115,
+            425,
+            302
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_035_static_001_num04055_sim39.jpg",
+          "frame_num": 4055,
+          "ocr_text": "First Assistanf Director PAUL DEASON 2nd Assistant Director SAM EPSTEIN",
+          "ocr_bbox": [
+            172,
+            117,
+            420,
+            301
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_035_static_002_num04091_sim30.jpg",
+          "frame_num": 4091,
+          "ocr_text": "Casting by GERI WINDSOR",
+          "ocr_bbox": [
+            153,
+            198,
+            437,
+            273
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_035_static_003_num04127_sim19.jpg",
+          "frame_num": 4127,
+          "ocr_text": "Set Decorator VAMES G.CANE Men's Costumer BOB HARRIS. JR. KARENHUDSON Women's Costumer Makeup Artist BOB WESTMORELAND Hair Stylist ELLEN POWELL Second Unit Photography -ANDREW M. COSTIKYAN",
+          "ocr_bbox": [
+            81,
+            116,
+            510,
+            300
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_035_static_004_num04134_sim94.jpg",
+          "frame_num": 4134,
+          "ocr_text": "Set Decorator VAMES G. GANE Men's Costumer BOBHARRIS. JR. KAREN HUDSON Women's Costumer Makeup Artist BOB WESTMORELAND Hair Stylist ELLEN POWELL Second Unit Photography -ANDREW M. COSTIKYAN",
+          "ocr_bbox": [
+            81,
+            116,
+            509,
+            300
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": 0.12805935740470886,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.12694841623306274,
+      "roi_percentile_flow": 0.12805935740470886,
+      "scroll_direction": null
+    },
+    "scene_36": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_036_static_000_num04159_sim45.jpg",
+          "frame_num": 4159,
+          "ocr_text": "Sound Mixer \"FAST EDDIE WILLIE J. THOMPSON Property Master Script Supervisor SANDY NELSON Construction Cootdinator PAT GRANDE DAVID PRICE Transportation Captain Production Coordinator MARY JO BALLERINI Producers'Assistant BARTON J.OGBURN",
+          "ocr_bbox": [
+            82,
+            103,
+            511,
+            317
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_036_static_001_num04183_sim93.jpg",
+          "frame_num": 4183,
+          "ocr_text": "Sound Mixer \"FAST EDDIE WILLIE J. THOMPSON Property Master Script Supervisor SANDY NELSON Construction Cootdinator PAT GRANDE DAVID PRICE Transportation Captain Production Coordinator MARY JO BALLERINI Producers Assistant BARTON J OGBURN",
+          "ocr_bbox": [
+            82,
+            103,
+            508,
+            317
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_036_static_002_num04207_sim46.jpg",
+          "frame_num": 4207,
+          "ocr_text": "Location Manager DAVID LATT PATFENNELL Camera Operator Electrical Gaffer DAVE LEE Key Grip EARL LINDER Techinical Advisor JESSE BREWER Assistants to the Producers MARILYN FIEBELKORN .TERRI S. REDMAN MELODY ROWLAND",
+          "ocr_bbox": [
+            81,
+            96,
+            507,
+            322
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_036_static_003_num04243_sim47.jpg",
+          "frame_num": 4243,
+          "ocr_text": "Assistant Editor LAURA SINGER-WOLF Re-Recording GLEN GLENN SOUND JOHN REITZ Music Editor LA DA PRODUCTIONS ALLAN K. ROSEN JIM WEIDMAN Sound Editor HORTA EDITORIAL SAM HORTA Camera and Lenses by PANAVISION",
+          "ocr_bbox": [
+            81,
+            78,
+            507,
+            340
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.12353798747062683,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.12753218412399292,
+      "roi_percentile_flow": 0.12353798747062683,
+      "scroll_direction": null
+    },
+    "scene_37": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_037_static_000_num04279_sim35.jpg",
+          "frame_num": 4279,
+          "ocr_text": "Executive in Charge of Production for MTM Enterprises ABBY SINGER",
+          "ocr_bbox": [
+            120,
+            200,
+            471,
+            299
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_037_static_001_num04315_sim32.jpg",
+          "frame_num": 4315,
+          "ocr_text": "THIS PICTURE MADE UNDER VISION CODE AFFILIATED WITH AFL.CIO \u00a9MCMLXXXI ALL RIGHTS RESERVED 8005-0412 THE CHARACTERS AND EVENTS DEPICTED IN THIS PHOTOPLAY ARE FICTITIOUS. Titles &Optical Effects MODERN FILM EFFECTS Color by DELUXE",
+          "ocr_bbox": [
+            83,
+            72,
+            499,
+            358
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_037_static_002_num04327_sim83.jpg",
+          "frame_num": 4327,
+          "ocr_text": "THIS PICTURE MADE UNDER EVISION CODE AFFILIATED WITH AFL.CIO \u00a9MCMLXXXI ALL RIGHTS RESERVED 8005-0412 THE CHARACTERS AND EVENTS DEPICTED IN THIS PHOTOPLAY ARE FICTITIOUS. ANY SIMILARITY TO ACTUAL PERSONS, LIVING OR DEAD, IS PURELY COINCIDENTAL. Titles &Optical Effects MODERN FILM EFFECTS Color by DELUXE",
+          "ocr_bbox": [
+            83,
+            72,
+            508,
+            358
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_037_static_003_num04339_sim93.jpg",
+          "frame_num": 4339,
+          "ocr_text": "THIS PICTURE MADE UNDER THE JURISOIC TION OF LEVISION CODE AFFILIATED WITH AFL-CIO \u00a9 MCMLXXXI ALL RIGHTS RESERVED 8005-0412 THE CHARACTERS AND EVENTS DEPICTED IN THIS PHOTOPLAY ARE FICTITIOUS, ANY SIMILARITY TO ACTUAL PERSONS, LIVING OR DEAD, IS PURELY COINCIDENTAL Titles &Optical Effects MODERN.FILM EFFECTS Color by DELUXE",
+          "ocr_bbox": [
+            84,
+            72,
+            507,
+            358
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.1349824070930481,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.1420091837644577,
+      "roi_percentile_flow": 0.1349824070930481,
+      "scroll_direction": null
+    },
+    "scene_38": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_038_static_000_num04371_sim15.jpg",
+          "frame_num": 4371,
+          "ocr_text": "AN MTM ENTERPRISES PRODUCTION",
+          "ocr_bbox": [
+            66,
+            166,
+            537,
+            414
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_038_static_001_num04383_sim94.jpg",
+          "frame_num": 4383,
+          "ocr_text": "MTM AN MTM ENTERPRISES PRODUCTION",
+          "ocr_bbox": [
+            67,
+            42,
+            536,
+            414
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.13981761038303375,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.1148376613855362,
+      "roi_percentile_flow": 0.13981761038303375,
+      "scroll_direction": null
+    },
+    "scene_39": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Hill_Street_Blues_1x13\\analysis\\frames\\scene_039_static_000_num04384_sim99.jpg",
+          "frame_num": 4384,
+          "ocr_text": "MITM AN MTM ENTERPRISES PRODUCTION",
+          "ocr_bbox": [
+            68,
+            42,
+            535,
+            415
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.13847016543149948,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.12528624385595322,
+      "roi_percentile_flow": 0.13847016543149948,
+      "scroll_direction": null
+    }
+  }
+}

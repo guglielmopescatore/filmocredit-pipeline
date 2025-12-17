@@ -1,0 +1,287 @@
+[
+  {
+    "role_detail": "Film Editor",
+    "name": "ALAN AFRIAT",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_000_static_000_num00120_sim0.jpg"
+    ],
+    "original_frame_number": [
+      120
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Film Research",
+    "name": "John Rowe",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_008_num00330_sim98.jpg"
+    ],
+    "original_frame_number": [
+      330
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stills Research",
+    "name": "Isobel Hinshelwood",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_009_num00390_sim34.jpg"
+    ],
+    "original_frame_number": [
+      390
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Graphics",
+    "name": "Ian Kestle",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_009_num00390_sim34.jpg"
+    ],
+    "original_frame_number": [
+      390
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Dubbing Mixer",
+    "name": "Freddie Slade",
+    "role_group": "Dubbing_Sound",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing_Sound",
+    "source_frame": [
+      "scene_000_static_015_num00525_sim22.jpg"
+    ],
+    "original_frame_number": [
+      525
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Music",
+    "name": "Carl Davis",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_000_static_020_num00675_sim27.jpg"
+    ],
+    "original_frame_number": [
+      675
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Laboratory Liaison",
+    "name": "Roger Chinery",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_021_num00795_sim23.jpg"
+    ],
+    "original_frame_number": [
+      795
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Script Associate",
+    "name": "Jerome Kuehl",
+    "role_group": "Script and Continuity Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Script and Continuity Department",
+    "source_frame": [
+      "scene_000_static_021_num00795_sim23.jpg"
+    ],
+    "original_frame_number": [
+      795
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Unit Manager",
+    "name": "Liz Sutherland",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_000_static_021_num00795_sim23.jpg"
+    ],
+    "original_frame_number": [
+      795
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Historical Adviser",
+    "name": "Noble Frankland",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_026_num00960_sim12.jpg"
+    ],
+    "original_frame_number": [
+      960
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Archive Sources",
+    "name": "Bundesarchiv-Koblenz",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_029_num01095_sim16.jpg"
+    ],
+    "original_frame_number": [
+      1095
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Archive Sources",
+    "name": "E.C.P.A. France",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_029_num01095_sim16.jpg"
+    ],
+    "original_frame_number": [
+      1095
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Archive Sources",
+    "name": "Film from the Movietonews",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_029_num01095_sim16.jpg"
+    ],
+    "original_frame_number": [
+      1095
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Archive Sources",
+    "name": "Pathé Cinema",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_029_num01095_sim16.jpg"
+    ],
+    "original_frame_number": [
+      1095
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Archive Sources",
+    "name": "Visnews",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_029_num01095_sim16.jpg"
+    ],
+    "original_frame_number": [
+      1095
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Processing by",
+    "name": "Humphries Laboratories",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_029_num01095_sim16.jpg"
+    ],
+    "original_frame_number": [
+      1095
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "in co-operation with",
+    "name": "The Imperial War Museum",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_033_num01320_sim25.jpg"
+    ],
+    "original_frame_number": [
+      1320
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Produced by",
+    "name": "Jeremy Isaacs",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_static_043_num01739_sim93.jpg"
+    ],
+    "original_frame_number": [
+      1739
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Colour Production",
+    "name": "Thames",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_002_static_002_num01801_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1801
+    ],
+    "scene_position": "second_half"
+  }
+]

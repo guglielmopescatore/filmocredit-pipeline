@@ -1,0 +1,880 @@
+{
+  "scenes": {
+    "scene_1": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_001_static_000_num00116_sim0.jpg",
+          "frame_num": 116,
+          "ocr_text": "CRITE THE",
+          "ocr_bbox": [
+            461,
+            588,
+            487,
+            760
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_001_static_001_num00128_sim75.jpg",
+          "frame_num": 128,
+          "ocr_text": "THE CRITERION C",
+          "ocr_bbox": [
+            -129,
+            0,
+            -99,
+            305
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_001_static_002_num00140_sim83.jpg",
+          "frame_num": 140,
+          "ocr_text": "CRITERION COLLECT THE",
+          "ocr_bbox": [
+            457,
+            589,
+            494,
+            1013
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_001_static_003_num00212_sim55.jpg",
+          "frame_num": 212,
+          "ocr_text": "LLECTION",
+          "ocr_bbox": [
+            439,
+            123,
+            617,
+            300
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_001_static_004_num00344_sim19.jpg",
+          "frame_num": 344,
+          "ocr_text": "il film \u00e8 stato restaurato da THE MEDIASET COLLECTION CINEMAFOREVER Dedicato a CARLO BERNASCONI",
+          "ocr_bbox": [
+            345,
+            108,
+            998,
+            537
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_001_static_005_num00350_sim100.jpg",
+          "frame_num": 350,
+          "ocr_text": "il film \u00e8 stato restaurato da THE MEDIASET COLLECTION CINEMAFOREVER Dedicato a CARLO BERNASCONI",
+          "ocr_bbox": [
+            346,
+            106,
+            998,
+            539
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 6,
+      "median_flow_px_per_frame": 0.20399507880210876,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.15280665084719658,
+      "roi_percentile_flow": 0.20399507880210876,
+      "scroll_direction": null
+    },
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_002_static_000_num00363_sim95.jpg",
+          "frame_num": 363,
+          "ocr_text": "il film \u00e8 stato restaurato da THE MEDIASET COLLECTION CIINEMAF FOREVER Dedicato a CARLO BERNASCONI",
+          "ocr_bbox": [
+            343,
+            107,
+            996,
+            539
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_002_static_001_num00579_sim43.jpg",
+          "frame_num": 579,
+          "ocr_text": "in collaborazione con SCUOLA NAZIONALE DI CINEMA Centro Sperimentale di Cinematografia",
+          "ocr_bbox": [
+            286,
+            215,
+            997,
+            466
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_002_static_002_num00591_sim99.jpg",
+          "frame_num": 591,
+          "ocr_text": "in collaborazione con SCUOLA NAZIONALE E DI CINEMA Centro Sperimentale di Cinematografia",
+          "ocr_bbox": [
+            282,
+            213,
+            1000,
+            468
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_002_static_003_num00795_sim33.jpg",
+          "frame_num": 795,
+          "ocr_text": "e con Cinecitta Holding",
+          "ocr_bbox": [
+            478,
+            285,
+            805,
+            423
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_002_static_004_num00927_sim24.jpg",
+          "frame_num": 927,
+          "ocr_text": "restauro effettuato presso gli stabilimenti Cinecitta Studios e Videorecording consulenza tecnica ca Manrico Masini Vincenzo Verzini un particolare ringraziamento a",
+          "ocr_bbox": [
+            311,
+            221,
+            978,
+            656
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_002_static_005_num00939_sim99.jpg",
+          "frame_num": 939,
+          "ocr_text": "restauro effettuato presso gli stabilimenti Cinecitta Studios e Videorecording consulenza tecnica Manrico Masini Vincenzo Verzini un particolare ringraziamento a",
+          "ocr_bbox": [
+            311,
+            221,
+            982,
+            656
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_002_static_006_num01143_sim21.jpg",
+          "frame_num": 1143,
+          "ocr_text": "CINEMA FOREVER un'iniziativa GRUPPO MEDIASET",
+          "ocr_bbox": [
+            340,
+            199,
+            925,
+            519
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_002_static_007_num01155_sim100.jpg",
+          "frame_num": 1155,
+          "ocr_text": "CINEMA FOREVER \u00e8 un'iniziativa GRUPPO MEDIASET",
+          "ocr_bbox": [
+            338,
+            197,
+            927,
+            517
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_002_static_008_num01239_sim51.jpg",
+          "frame_num": 1239,
+          "ocr_text": "CINEMA FOREVER eun'iniziativa GRUPPO MEDIASET",
+          "ocr_bbox": [
+            339,
+            199,
+            928,
+            516
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_002_static_009_num01251_sim51.jpg",
+          "frame_num": 1251,
+          "ocr_text": "CINEMA FOREVER \u00e8 un'iniziativa GRUPPO MEDIASET",
+          "ocr_bbox": [
+            340,
+            200,
+            927,
+            517
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_002_static_010_num01395_sim36.jpg",
+          "frame_num": 1395,
+          "ocr_text": "ANGELO RIZZOLI PRESENTA",
+          "ocr_bbox": [
+            101,
+            48,
+            707,
+            154
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_002_static_011_num01407_sim100.jpg",
+          "frame_num": 1407,
+          "ocr_text": "ANGELO RIZZOLI PRESENTA",
+          "ocr_bbox": [
+            101,
+            46,
+            707,
+            153
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_002_static_012_num01471_sim70.jpg",
+          "frame_num": 1471,
+          "ocr_text": "ANGELO RIZZOLI PRESENTA DI FEDERICO FELLINI",
+          "ocr_bbox": [
+            98,
+            44,
+            1146,
+            612
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 13,
+      "median_flow_px_per_frame": 0.18260427564382553,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1820124238729477,
+      "roi_percentile_flow": 0.18260427564382553,
+      "scroll_direction": null
+    },
+    "scene_3": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_003_static_000_num01484_sim72.jpg",
+          "frame_num": 1484,
+          "ocr_text": "RIZZOLI J FEDERICO FELLINI",
+          "ocr_bbox": [
+            418,
+            46,
+            1146,
+            613
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_003_static_001_num01496_sim96.jpg",
+          "frame_num": 1496,
+          "ocr_text": "RIZZOLI FEDERICO FELLINI",
+          "ocr_bbox": [
+            418,
+            46,
+            1147,
+            613
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.15877288579940796,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.15316112339496613,
+      "roi_percentile_flow": 0.15877288579940796,
+      "scroll_direction": null
+    },
+    "scene_5": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_005_static_000_num02069_sim63.jpg",
+          "frame_num": 2069,
+          "ocr_text": "IDEATO E DIRETTO DA FEDERICO FELLINI",
+          "ocr_bbox": [
+            495,
+            460,
+            1192,
+            598
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_005_static_001_num02081_sim100.jpg",
+          "frame_num": 2081,
+          "ocr_text": "IDEATO E DIRETTO DA FEDERICO FELLINI",
+          "ocr_bbox": [
+            492,
+            458,
+            1194,
+            602
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_005_static_002_num02165_sim73.jpg",
+          "frame_num": 2165,
+          "ocr_text": "PRODOTTO DA ANGELO RIZZOLI IDEATO E DIRETTO DA FEDERICO FELLINI",
+          "ocr_bbox": [
+            249,
+            221,
+            1193,
+            599
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_005_static_003_num02177_sim58.jpg",
+          "frame_num": 2177,
+          "ocr_text": "PRODOTTO DA ANGELO RIZZOLI",
+          "ocr_bbox": [
+            250,
+            225,
+            1012,
+            413
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_005_static_004_num02249_sim43.jpg",
+          "frame_num": 2249,
+          "ocr_text": "FEDERICO FELLINE ENNIO PRODOTTO DA SORNEGGIATURA ANGELO RIZZOLIN PINELLI FLALANO BRUNELLO RONDI",
+          "ocr_bbox": [
+            180,
+            128,
+            1088,
+            572
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_005_static_005_num02254_sim71.jpg",
+          "frame_num": 2254,
+          "ocr_text": "SOGGETTO FEDERICO FELLINI ENNIO DA SCENEGGIATURA ANGELODRIZZOLLINI TULLIO PINELLI ENNIO FLAIANO BRUNELLO RONDI",
+          "ocr_bbox": [
+            179,
+            74,
+            1089,
+            572
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 6,
+      "median_flow_px_per_frame": 0.17738623917102814,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1844436228275299,
+      "roi_percentile_flow": 0.17738623917102814,
+      "scroll_direction": null
+    },
+    "scene_6": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_000_num02255_sim98.jpg",
+          "frame_num": 2255,
+          "ocr_text": "SOGGETTO FEDERICO FELLINI ENNIO DA SCENEGGIATURA ANGELEEDRRIZZOLLINI TULLIO PINELLI ENNIO FLAIANO BRUNELLO RONDI",
+          "ocr_bbox": [
+            178,
+            74,
+            1090,
+            573
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_001_num02267_sim71.jpg",
+          "frame_num": 2267,
+          "ocr_text": "SOGGETTO FELLINI FLAIANO SCENEGGIATURA FEDERICO FELLINI OITTNL PINELLI BRUNELLO RONDI",
+          "ocr_bbox": [
+            350,
+            74,
+            1087,
+            573
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_002_num02315_sim81.jpg",
+          "frame_num": 2315,
+          "ocr_text": "SOGGETTO FEDERICO FELLINI ENNIO FLAIANO SCENEGGIATURA FEDERICO FELLINI TULLIO PINELLI ENNIO FLAIANO BRUNELLO RONDI",
+          "ocr_bbox": [
+            178,
+            74,
+            1088,
+            570
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_003_num02459_sim84.jpg",
+          "frame_num": 2459,
+          "ocr_text": "SOGGETTO FEDERICO FELLINI ENNIO FLAIACON MARCELLO MASTROIANNI FEDERICO FELLINI TULLIO PINELLI ENNIO FLAIANO BRUNELLO RONDI",
+          "ocr_bbox": [
+            155,
+            76,
+            1109,
+            571
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_004_num02471_sim33.jpg",
+          "frame_num": 2471,
+          "ocr_text": "CON MARCELLO MASTROIANNI",
+          "ocr_bbox": [
+            154,
+            215,
+            1109,
+            351
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_005_num02531_sim57.jpg",
+          "frame_num": 2531,
+          "ocr_text": "CON MARAEDLA MAARTROANENI",
+          "ocr_bbox": [
+            154,
+            214,
+            1110,
+            351
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_006_num02543_sim43.jpg",
+          "frame_num": 2543,
+          "ocr_text": "CLAUDIA CARDINALE",
+          "ocr_bbox": [
+            216,
+            281,
+            1055,
+            350
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_007_num02603_sim59.jpg",
+          "frame_num": 2603,
+          "ocr_text": "CLAUDIAKCARDINALE",
+          "ocr_bbox": [
+            218,
+            283,
+            1054,
+            348
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_008_num02615_sim29.jpg",
+          "frame_num": 2615,
+          "ocr_text": "ANOUK AIMEE",
+          "ocr_bbox": [
+            323,
+            284,
+            918,
+            351
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_009_num02675_sim45.jpg",
+          "frame_num": 2675,
+          "ocr_text": "ANOUKAAIMEE",
+          "ocr_bbox": [
+            324,
+            285,
+            917,
+            349
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_010_num02687_sim27.jpg",
+          "frame_num": 2687,
+          "ocr_text": "SANDRA MILO",
+          "ocr_bbox": [
+            335,
+            285,
+            928,
+            353
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_011_num02759_sim25.jpg",
+          "frame_num": 2759,
+          "ocr_text": "ROSSELLA FADK ABARBARA STEELE",
+          "ocr_bbox": [
+            138,
+            293,
+            1125,
+            352
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_012_num02855_sim55.jpg",
+          "frame_num": 2855,
+          "ocr_text": "MADELEINE LEBEAU CATERINA BORATTO ROSSELLA FALK BARBARA STEELE EDRA GALE",
+          "ocr_bbox": [
+            137,
+            242,
+            1126,
+            391
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_013_num02867_sim75.jpg",
+          "frame_num": 2867,
+          "ocr_text": "MADELEINE LEBEAU CATERINA BORATTO EDRA GALE",
+          "ocr_bbox": [
+            137,
+            241,
+            1128,
+            389
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_014_num02987_sim57.jpg",
+          "frame_num": 2987,
+          "ocr_text": "GUIDQ-ALBERTI MADELEINE LEBEAU CATERINA BORATTO MARIO CONOCCHIA BRUNO AGOSTINI EDRA GALE CESARINO MICELI PICARDI",
+          "ocr_bbox": [
+            136,
+            219,
+            1128,
+            423
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_015_num03131_sim43.jpg",
+          "frame_num": 3131,
+          "ocr_text": "JEAN ROUGEUL MARIO PHDO AHBERTE CASADEI MARIOICONOCCHIA BRUNOACOSTINI NADINESARPNOMCEEPPICARDMMONS HEDY VESSEL",
+          "ocr_bbox": [
+            169,
+            168,
+            1090,
+            467
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_006_static_016_num03139_sim53.jpg",
+          "frame_num": 3139,
+          "ocr_text": "JEAN ROUGEUL MARIO PISU YVONNE CASADEI IAN DALLAS MINO DORO NADINE SANDERS GEORGIA SIMMONS HEDY VESSEL",
+          "ocr_bbox": [
+            171,
+            167,
+            1088,
+            469
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 17,
+      "median_flow_px_per_frame": 0.1767812967300415,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.17835041880607605,
+      "roi_percentile_flow": 0.1767812967300415,
+      "scroll_direction": null
+    },
+    "scene_7": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_007_static_000_num03368_sim50.jpg",
+          "frame_num": 3368,
+          "ocr_text": "TITO MASINI MARK HERRON MARISA COLOMBER YVONNE CASADEI EUIAINEDAMALASR MANOL DORORS NADINE SANDERS GEORGIATSRMMONS MARY INDOVINO FRAZIER RIPPY HEDYLVESSEI FRANCESCO RIGAMONTI GULO PARADISI(c.S.c) MARCO GEMINI",
+          "ocr_bbox": [
+            156,
+            105,
+            1101,
+            529
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_007_static_001_num03380_sim69.jpg",
+          "frame_num": 3380,
+          "ocr_text": "TITO MASINI ANNIE GORASSINI ROSSELLA COMO MARK HERRON MARISA COLOMBER NEIL ROBINSON ELISABETTA CATALANO EUGENE WALTER HAZEL ROGERS GILDA DAHLBERG MARIO TARCHETTI MARY INDOVINO FRAZIER RIPPY FRANCESCO RIGAMONTI GIULIO PARADISI(c.S.c) MARCO GEMINI",
+          "ocr_bbox": [
+            155,
+            105,
+            1115,
+            528
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_007_static_002_num03704_sim87.jpg",
+          "frame_num": 3704,
+          "ocr_text": "TITO MASINI ANNIE GORASSINI ROSSELLA COMO MARK HERRON MARISA COLOMBER ECON NEIL ROBINSON ELISABETTA CATALANO GIUDENEAVRISSONE ANNDALEONINSHI GILDA DAHLBERG MARIO TARCHETTI MARY INDOVINO FRAZIER RIPPY FRANCESCO RIGAMONTI GIULIO PARADISI(c.S.c) MARCO GEMINI",
+          "ocr_bbox": [
+            155,
+            107,
+            1112,
+            527
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_007_static_003_num03716_sim24.jpg",
+          "frame_num": 3716,
+          "ocr_text": "E CON GIUDITTA RISSONE ANNIBALE NINCHI",
+          "ocr_bbox": [
+            156,
+            233,
+            1114,
+            345
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_007_static_004_num03812_sim66.jpg",
+          "frame_num": 3812,
+          "ocr_text": "ORGANIZZAZIONE GENERALE GIUDITTA RISSONE ANNIBALE NINCHI CLEMENTE FRACASSI",
+          "ocr_bbox": [
+            155,
+            241,
+            1113,
+            399
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_007_static_005_num03896_sim34.jpg",
+          "frame_num": 3896,
+          "ocr_text": "OSCENOGRAEIAEECCOSTUME CPIERONGHERARDBI",
+          "ocr_bbox": [
+            253,
+            245,
+            1022,
+            398
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_007_static_006_num03992_sim37.jpg",
+          "frame_num": 3992,
+          "ocr_text": "DIRETTORERDELLAEFOTOGRAFIA GPANNI DIVENANZO",
+          "ocr_bbox": [
+            244,
+            245,
+            1017,
+            399
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_007_static_007_num04004_sim64.jpg",
+          "frame_num": 4004,
+          "ocr_text": "DIRETTORE DELLA FOTOGRAFIA GIANNI DI VENANZO",
+          "ocr_bbox": [
+            240,
+            245,
+            1022,
+            405
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_007_static_008_num04016_sim98.jpg",
+          "frame_num": 4016,
+          "ocr_text": "DIRETTORE DELLA FOTOGRAFIA GIANNI I DI VENANZO",
+          "ocr_bbox": [
+            244,
+            246,
+            1016,
+            400
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_007_static_009_num04076_sim47.jpg",
+          "frame_num": 4076,
+          "ocr_text": "MONTAGGIO DIRLTEOE GATOZZO AFIA GIANNLDITVENANZO ASSISTENTE ADRIANA OLASIO",
+          "ocr_bbox": [
+            245,
+            161,
+            1018,
+            471
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_007_static_010_num04172_sim46.jpg",
+          "frame_num": 4172,
+          "ocr_text": "PRODUZIONE LEO CAFOZZO II\u00b0 DIRETTORE OLASIO ALESSANDROANA MARIO BASILI VON NORMANN",
+          "ocr_bbox": [
+            151,
+            101,
+            1107,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_007_static_011_num04184_sim71.jpg",
+          "frame_num": 4184,
+          "ocr_text": "DIRETTORE DI PRODUZIONE NELLO MENICONI (A.D. C.) II\u00b0 DIRETTORE ISPETTORE ALESSANDRO MARIO BASILI VON NORMANN",
+          "ocr_bbox": [
+            148,
+            98,
+            1106,
+            542
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_007_static_012_num04316_sim33.jpg",
+          "frame_num": 4316,
+          "ocr_text": "MUSICA NINO ROTA EDIZIONI MUSICALI CAM",
+          "ocr_bbox": [
+            410,
+            172,
+            849,
+            493
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_007_static_013_num04400_sim17.jpg",
+          "frame_num": 4400,
+          "ocr_text": "COLLABORAZIONE ARTISTICA. ARREDAMENTO BRUNELLO RONDI VITO ANZALONE ASS. COSTUMI AIUTO REG.GUIDARINO GUIDL ORIETTA NASALLI ROCCA MUSICA SCENOGRAFO ASSISTENTI LUCIANO RICCERI GIULIO NINO ROTA FRANCESC UALE DE SANTIS CAPO TRUCCO. SEGR.ED.MIRELLA GAMACCHIO OTELLO FAVA (C.S.C.) PARRUCCHIERA SEGR. DI PRODUZ. RENATA MAGNANTI ALBINO MORANDIN ANGELEDIZIONN MUSICALPO CAM. .CLARA POGGI FONICI MARIO FARAONI - ALBERTO BARTOLOMEI",
+          "ocr_bbox": [
+            122,
+            69,
+            1147,
+            572
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 14,
+      "median_flow_px_per_frame": 0.17705801129341125,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.1736600548028946,
+      "roi_percentile_flow": 0.17705801129341125,
+      "scroll_direction": null
+    },
+    "scene_8": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_008_static_000_num04402_sim95.jpg",
+          "frame_num": 4402,
+          "ocr_text": "COLLABORAZIONE ARTISTICA. ARREDAMENTO BRUNELLO RONDI VITO ANZALONE ASS. COSTUMI AIUTO REG.GUIDARINO GUIDL ORIETTA NASALLI ROCCA MUSICA ASS. SCENOGRAFO ASSISTENTI. LUCIANO RICCERI GIULIO ROTA UALE DE SANTIS CAPO TRUCCO. SEGR.ED.MIRELLA GAMACCHIO OTELLO FAVA (C.S.C.) PARRUCCHIERA. SEGR. DI PRODUZ. RENATA MAGNANTI ALBINO MORANDIN ANGELEDIZIONNMUSICALPO CAM. .CLARA POGGI FONICI MARIO FARAONI - ALBERTO BARTOLOMEI",
+          "ocr_bbox": [
+            122,
+            69,
+            1146,
+            573
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_008_static_001_num04414_sim88.jpg",
+          "frame_num": 4414,
+          "ocr_text": "COLLABORAZIONE ARTISTICA. ARREDAMENTO. BRUNELLO RONDI VITO ANZALONE ASS. COSTUMI. AIUTO REG.GUIDARINO GUIDI ORIETTA NASALLI ROCCA ASS. SCENOGRAFO ASSISTENTI. LUCIANO RICCERI GIULIO PARADISI OPERATORE FRANCESCO ALUIGI PASQUALE DE SANTIS CAPO TRUCCO. SEGR.ED.MIRELLA GAMACCHIO OTELLO FAVA (c.S.C.) PARRUCCHIERA. SEGR. DI PRODUZ. RENATA MAGNANTI ALBINO MORANDIN ANGELO IACONO CAPO SARTA. .CLARA POGGI FONICI MARIO FARAONI- ALBERTO BARTOLOMEI",
+          "ocr_bbox": [
+            121,
+            66,
+            1148,
+            573
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_008_static_002_num04666_sim32.jpg",
+          "frame_num": 4666,
+          "ocr_text": "NEGATIVI DUPONT SVILUPPO E STAMPA ISTITUTO NAZIONALE LUCE ENZO VERZINI TECNICO PRODUZIONE ESEGUITA NEGLI STABILIMENTI Titanus",
+          "ocr_bbox": [
+            224,
+            117,
+            1030,
+            533
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.17969021201133728,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.17584285140037537,
+      "roi_percentile_flow": 0.17969021201133728,
+      "scroll_direction": null
+    },
+    "scene_9": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_009_static_000_num04763_sim99.jpg",
+          "frame_num": 4763,
+          "ocr_text": "NEGATIVI DUPONT SVILUPPO E STAMPA ISTITUTO NAZIONALE E LUCE ENZO VERZINI TECNICO PRODUZIONE ESEGUITA NEGLI STABILIMENTI Titanus",
+          "ocr_bbox": [
+            226,
+            119,
+            1027,
+            533
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_009_static_001_num04823_sim48.jpg",
+          "frame_num": 4823,
+          "ocr_text": "SVILUPPO STAMPA ISTITUT0 NAZIONALE LUCE CINERIZ",
+          "ocr_bbox": [
+            226,
+            184,
+            1028,
+            448
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_009_static_002_num04835_sim46.jpg",
+          "frame_num": 4835,
+          "ocr_text": "UNA PRODUZIONE CINERIZ",
+          "ocr_bbox": [
+            313,
+            89,
+            952,
+            461
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "8_e_mezzo\\analysis\\frames\\scene_009_static_003_num04943_sim23.jpg",
+          "frame_num": 4943,
+          "ocr_text": "FINE",
+          "ocr_bbox": [
+            377,
+            245,
+            902,
+            386
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.18116502463817596,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.20504911243915558,
+      "roi_percentile_flow": 0.18116502463817596,
+      "scroll_direction": null
+    }
+  }
+}

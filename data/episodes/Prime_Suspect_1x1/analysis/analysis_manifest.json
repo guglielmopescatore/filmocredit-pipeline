@@ -1,0 +1,1017 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_000_static_000_num00084_sim0.jpg",
+          "frame_num": 84,
+          "ocr_text": "Helen Mirren",
+          "ocr_bbox": [
+            470,
+            307,
+            807,
+            413
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_000_static_001_num00096_sim100.jpg",
+          "frame_num": 96,
+          "ocr_text": "Helen Mirren",
+          "ocr_bbox": [
+            470,
+            308,
+            806,
+            411
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_000_static_002_num00120_sim100.jpg",
+          "frame_num": 120,
+          "ocr_text": "Helen Mirren",
+          "ocr_bbox": [
+            467,
+            306,
+            809,
+            414
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_000_static_003_num00252_sim24.jpg",
+          "frame_num": 252,
+          "ocr_text": "PRIME SUSPECT",
+          "ocr_bbox": [
+            455,
+            171,
+            828,
+            541
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_000_static_004_num00264_sim100.jpg",
+          "frame_num": 264,
+          "ocr_text": "PRIME SUSPECT",
+          "ocr_bbox": [
+            454,
+            171,
+            827,
+            543
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_000_static_005_num00273_sim100.jpg",
+          "frame_num": 273,
+          "ocr_text": "PRIME SUSPECT",
+          "ocr_bbox": [
+            455,
+            171,
+            826,
+            540
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 6,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_1": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_001_static_000_num00274_sim100.jpg",
+          "frame_num": 274,
+          "ocr_text": "PRIME SUSPECT",
+          "ocr_bbox": [
+            454,
+            171,
+            827,
+            540
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_002_static_000_num00782_sim22.jpg",
+          "frame_num": 782,
+          "ocr_text": "Tom Bell Johin Benfield John Bowe",
+          "ocr_bbox": [
+            226,
+            336,
+            492,
+            589
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_002_static_001_num00842_sim89.jpg",
+          "frame_num": 842,
+          "ocr_text": "Tom Bell John Benfield John Bowe HO7WYN",
+          "ocr_bbox": [
+            220,
+            330,
+            894,
+            642
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_002_static_002_num00926_sim22.jpg",
+          "frame_num": 926,
+          "ocr_text": "H67WYN",
+          "ocr_bbox": [
+            852,
+            683,
+            982,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_002_static_003_num01010_sim17.jpg",
+          "frame_num": 1010,
+          "ocr_text": "EI6 CG",
+          "ocr_bbox": [
+            248,
+            20,
+            341,
+            55
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_002_static_004_num01082_sim77.jpg",
+          "frame_num": 1082,
+          "ocr_text": "FI6 CGY",
+          "ocr_bbox": [
+            400,
+            688,
+            509,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_002_static_005_num01094_sim21.jpg",
+          "frame_num": 1094,
+          "ocr_text": "Bryan Pringle Zoe Wanamaker Tom Wilkinson EI6 CGY",
+          "ocr_bbox": [
+            408,
+            336,
+            1042,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_002_static_006_num01106_sim100.jpg",
+          "frame_num": 1106,
+          "ocr_text": "Bryan Pringle Zoe Wanamaker Tom Wilkinson EI6 CGY",
+          "ocr_bbox": [
+            410,
+            332,
+            1043,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_002_static_007_num01478_sim7.jpg",
+          "frame_num": 1478,
+          "ocr_text": "H67WTH",
+          "ocr_bbox": [
+            300,
+            640,
+            447,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_002_static_008_num01490_sim50.jpg",
+          "frame_num": 1490,
+          "ocr_text": "H67VYR",
+          "ocr_bbox": [
+            168,
+            563,
+            321,
+            605
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_002_static_009_num01502_sim56.jpg",
+          "frame_num": 1502,
+          "ocr_text": "H67WYR N219WYR",
+          "ocr_bbox": [
+            50,
+            462,
+            936,
+            517
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_002_static_010_num01514_sim67.jpg",
+          "frame_num": 1514,
+          "ocr_text": "H67WYR",
+          "ocr_bbox": [
+            0,
+            403,
+            148,
+            451
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_002_static_011_num01538_sim12.jpg",
+          "frame_num": 1538,
+          "ocr_text": "Written n by Lynda La Plante",
+          "ocr_bbox": [
+            481,
+            485,
+            798,
+            647
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_002_static_012_num01754_sim12.jpg",
+          "frame_num": 1754,
+          "ocr_text": "MALOH",
+          "ocr_bbox": [
+            424,
+            605,
+            583,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_002_static_013_num01838_sim16.jpg",
+          "frame_num": 1838,
+          "ocr_text": "Directed d by Christopher Menaul",
+          "ocr_bbox": [
+            444,
+            489,
+            832,
+            653
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 14,
+      "median_flow_px_per_frame": 0.34975001215934753,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.4960643947124481,
+      "roi_percentile_flow": 0.34975001215934753,
+      "scroll_direction": null
+    },
+    "scene_3": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_003_static_000_num02061_sim21.jpg",
+          "frame_num": 2061,
+          "ocr_text": "Claden",
+          "ocr_bbox": [
+            1054,
+            554,
+            1193,
+            584
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.321764200925827,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.360437035560608,
+      "roi_percentile_flow": 0.321764200925827,
+      "scroll_direction": null
+    },
+    "scene_4": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -3.5493884086608887,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -3.5351247787475586,
+      "roi_percentile_flow": -3.5493884086608887,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 183,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_5": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_005_scroll_000_num02217_sim0.jpg",
+          "frame_num": 2217,
+          "ocr_text": "DCI Jane Tennison Helen Mirren DS Bill Otley Tom Bell DCS Michael Kernan John Benfield DS Terry Amson Gary Whelan Jack Ellis DI Tony Muddyman DI Frank Burkin Craig Fairbrass",
+          "ocr_bbox": [
+            352,
+            314,
+            863,
+            703
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_005_scroll_001_num02367_sim0.jpg",
+          "frame_num": 2367,
+          "ocr_text": "DS Terry Amson Gary Whelan DI Tony Muddyman Jack Ellis DI Frank Burkin Craig Fairbrass WPC Maureen Havers Mossie Smith DC Jones lan Fitzgibbon DC Lillie Philip Wright Andrew Tiernan DC Rosper DC Haskons Richard Hawley DC Oakhill Mark Spalding DC Avison Tom Bowles DC Caplan Seamus O'Neill DL Caldicott Marcus Romer",
+          "ocr_bbox": [
+            340,
+            0,
+            859,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_005_scroll_002_num02517_sim0.jpg",
+          "frame_num": 2517,
+          "ocr_text": "DC Avison Tom Bowles Seamus O'Neill DC Caplan DI Caldicott Marcus Romer John Bowe George Marlow Moyra Henson Zoe Wanamaker Mrs Marlow Maxine Audley Peter Tom Wilkinson",
+          "ocr_bbox": [
+            417,
+            20,
+            864,
+            720
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": -3.539332389831543,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -3.536081075668335,
+      "roi_percentile_flow": -3.539332389831543,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 183,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_6": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_006_scroll_000_num02620_sim0.jpg",
+          "frame_num": 2620,
+          "ocr_text": "George Marlow John Bowe Moyra Henson Zoe Wanamaker Mrs Marlow Maxine Audley Peter Tom Wilkinson Joey Jeremy Warder Pam Jessica Turner Sgt Tomlins Rod Arthur Clavtor",
+          "ocr_bbox": [
+            424,
+            0,
+            867,
+            720
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -3.542764902114868,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -3.5370287895202637,
+      "roi_percentile_flow": -3.542764902114868,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 183,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_7": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_007_scroll_000_num02764_sim0.jpg",
+          "frame_num": 2764,
+          "ocr_text": "Sgt Tomlins Rod Arthur Carol Rosy Clayton Linda Susan Brown Painter Phil Hearne James Snell Arnold Upcher Mr Shrapnel Julian Firth Edward Harvey Doug Fisher",
+          "ocr_bbox": [
+            422,
+            104,
+            832,
+            689
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -3.5339951515197754,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -3.529330253601074,
+      "roi_percentile_flow": -3.5339951515197754,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 183,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_8": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_008_scroll_000_num02810_sim0.jpg",
+          "frame_num": 2810,
+          "ocr_text": "Carol Rosy Clayton Linda Susan Brown Painter Phil Hearne Arnold Upcher James Snell Julian Firth Mr Shrapnel Edward Harvey Doug Fisher Reg McKinney lan Hastings",
+          "ocr_bbox": [
+            422,
+            5,
+            832,
+            719
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -3.5440521240234375,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -3.5396032333374023,
+      "roi_percentile_flow": -3.5440521240234375,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 183,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_9": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_009_scroll_000_num02877_sim0.jpg",
+          "frame_num": 2877,
+          "ocr_text": "Arnold Upcher James Snell Mr Shrapnel Julian Firth Edward Harvey Doug Fisher Reg McKinney lan Hastings Annette Frisby Moyra Ruskin Biker Malcolm Freeman",
+          "ocr_bbox": [
+            421,
+            88,
+            895,
+            605
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -3.554316520690918,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -3.5427441596984863,
+      "roi_percentile_flow": -3.554316520690918,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 182,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_10": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_010_scroll_000_num02895_sim0.jpg",
+          "frame_num": 2895,
+          "ocr_text": "Arnold Upcher James Snell Mr Shrapnel Julian Firth Edward Harvey Doug Fisher Reg McKinney lan Hastings Annette Frisby Moyra Ruskin Biker Malcolm Freeman Willy Chang Gareth Tudor Price",
+          "ocr_bbox": [
+            422,
+            26,
+            905,
+            720
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -3.5404064655303955,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -3.538663148880005,
+      "roi_percentile_flow": -3.5404064655303955,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 183,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_11": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_011_scroll_000_num02980_sim0.jpg",
+          "frame_num": 2980,
+          "ocr_text": "Reg McKinney lan Hastings Annette Frisby Moyra Ruskin Biker Malcolm Freeman Willy Chang Gareth Tudor Price Andrew Abrahams Tilly Helen Masters Angela Bruce",
+          "ocr_bbox": [
+            422,
+            44,
+            906,
+            690
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -3.528984546661377,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -3.5314440727233887,
+      "roi_percentile_flow": -3.528984546661377,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 184,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_12": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_012_scroll_000_num03072_sim0.jpg",
+          "frame_num": 3072,
+          "ocr_text": "Willy Chang Gareth Tudor Price Andrew Abrahams Tilly Helen Masters Angela Bruce Mother Sarah Thurston Reporter Jimmy Hibbert Clerk of Court Renny Krupinkski",
+          "ocr_bbox": [
+            426,
+            41,
+            908,
+            683
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -3.5382556915283203,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -3.5382556915283203,
+      "roi_percentile_flow": -3.5382556915283203,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 183,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_13": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_013_scroll_000_num03193_sim0.jpg",
+          "frame_num": 3193,
+          "ocr_text": "Reporter Jimmy Hibbert Clerk of Court Renny Krupinkski Major Howard Michael Fleming Mrs Howard Daphne Neville Michael Ralph Fiennes",
+          "ocr_bbox": [
+            427,
+            0,
+            888,
+            454
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -3.5340754985809326,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -3.5442955493927,
+      "roi_percentile_flow": -3.5340754985809326,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 183,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_14": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_000_num03229_sim71.jpg",
+          "frame_num": 3229,
+          "ocr_text": "Clerk of Court Renny Krupinkski Major Howard Michael Fleming Mrs Howard Daphne Neville Michael Ralph Fiennes Production Manager David Meddick Location Manager Lynne Marriott",
+          "ocr_bbox": [
+            349,
+            61,
+            888,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_001_num03241_sim93.jpg",
+          "frame_num": 3241,
+          "ocr_text": "Clerk of Court Renny Krupinkski Michael Fleming Major Howard Mrs Howard Daphne Neville Michael Ralph F Fiennes Production Manager David Meddick Location Manager Lynne Marriott PA/Continuity Hilda Miller",
+          "ocr_bbox": [
+            349,
+            20,
+            892,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_002_num03253_sim96.jpg",
+          "frame_num": 3253,
+          "ocr_text": "Clerk of Court Renny Krupinkski Major Howard Michael Fleming Mrs Howard Daphne Neville Michael Ralph Fiennes Production Manager David Meddick Location Manager Lynne Marriott PA/Continuity Hilda Miller First Ascictant",
+          "ocr_bbox": [
+            349,
+            0,
+            878,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_003_num03337_sim64.jpg",
+          "frame_num": 3337,
+          "ocr_text": "Production Manager David Meddick Location Manager Lynne Marriott PA/Continuity Hilda Miller First Assistant David Weir Second Assistant Tania Normand Co-ordinator Sue Whitley Camera Operator Howard Somers Focus David Bell",
+          "ocr_bbox": [
+            349,
+            194,
+            865,
+            706
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_004_num03349_sim97.jpg",
+          "frame_num": 3349,
+          "ocr_text": "Production Manager David Meddick Location Manager Lynne Marriott PA/Continuity Hilda Miller First Assistant David Weir Second Assistant Tania Normand Co-ordinator Sue Whitley Camera Operator Howard Somers Focus David Bell Graham Hazard",
+          "ocr_bbox": [
+            349,
+            151,
+            864,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_005_num03361_sim97.jpg",
+          "frame_num": 3361,
+          "ocr_text": "Production Manager David Meddick Location Manager Lynne Marriott PA/Continuity Hilda Miller First Assistant David Weir Second Assistant Tania Normand Co-ordinator Sue Whitley Howard Somers Camera Operator Focus David Bell Graham Hazard Alf Tramonti",
+          "ocr_bbox": [
+            348,
+            105,
+            864,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_006_num03373_sim98.jpg",
+          "frame_num": 3373,
+          "ocr_text": "Production Manager David Meddick Location Manager Lynne Marriott PA/Continuity Hilda Miller First Assistant David Weir Second Assistant Tania Normand Co-ordinator Sue Whitley Camera Operator Howard Somers Focus David Bell Graham Hazard Steadicam Alf Tramontin",
+          "ocr_bbox": [
+            349,
+            63,
+            863,
+            710
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_007_num03385_sim97.jpg",
+          "frame_num": 3385,
+          "ocr_text": "Production Manager David Meddick Location Manager Lynne Marriott PA/Continuity Hilda Miller David Weir First Assistant Second Assistant Tania Normand Co-ordinator Sue Whitley Camera Operator Howard Somers Focus David Bell Graham Hazard Steadicam Alf Tramontin Grip Bob Gregory",
+          "ocr_bbox": [
+            348,
+            21,
+            863,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_008_num03397_sim97.jpg",
+          "frame_num": 3397,
+          "ocr_text": "Production Manager David Meddick Location Manager Lynne Marriott PA/Continuity Hilda Miller First Assistant David Weir Second Assistant Tania Normand Co-ordinator Sue Whitley Camera Operator Howard Somers Focus David Bell Graham Hazard Steadicam Alf Tramontin Grip Bob Gregory [ilm laokio Onhir",
+          "ocr_bbox": [
+            353,
+            0,
+            864,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_009_num03493_sim60.jpg",
+          "frame_num": 3493,
+          "ocr_text": "Howard Somers Camera Operator Focus David Bell Graham Hazard Steadicam Alf Tramontin Grip Bob Gregory Assistant Film Editor Jackie Ophir Sound Mixer Ray French Boom Operator lan Hills Dubbing Editors Paul Griffiths-Davies John Rutherford Dubbing Mixers Brian Saunders",
+          "ocr_bbox": [
+            347,
+            24,
+            932,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_010_num03529_sim84.jpg",
+          "frame_num": 3529,
+          "ocr_text": "Graham Hazard Steadicam Alf Tramontin Grip Bob Gregory Assistant Film Editor Jackie Ophir Sound Mixer Ray French Boom Operator lan Hills Dubbing Editors Paul Griffiths-Davies John Rutherford Dubbing Mixers Brian Saunders Lighting Gaffer Jim Camp Chargehand ASM Tony Mills",
+          "ocr_bbox": [
+            347,
+            23,
+            933,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_011_num03553_sim94.jpg",
+          "frame_num": 3553,
+          "ocr_text": "Steadicam Alf Tramontin Grip Bob Gregory Assistant Film Editor Jackie Ophir Sound Mixer Ray French Boom Operator lan Hills Dubbing Editors Paul Griffiths-Davies John Rutherford Brian Saunders Dubbing Mixers Lighting Gaffer Jim Camp Chargehand ASM Tony Mills Graphic Designer Peter Terry",
+          "ocr_bbox": [
+            346,
+            3,
+            932,
+            714
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_012_num03565_sim92.jpg",
+          "frame_num": 3565,
+          "ocr_text": "Grip Bob Gregory Assistant Film Editor Jackie Ophir Sound Mixer Ray French Boom Operator lan Hills Dubbing Editors Paul Griffiths-Davies John Rutherford Dubbing Mixers Brian Saunders Lighting Gaffer Jim Camp Chargehand ASM Tony Mills Graphic Designer Peter Terry Design Assistant Chris Stephenson",
+          "ocr_bbox": [
+            348,
+            22,
+            932,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_013_num03589_sim93.jpg",
+          "frame_num": 3589,
+          "ocr_text": "Assistant Film Editor Jackie Ophir Sound Mixer Ray French Boom Operator lan Hills Dubbing Editors Paul Griffiths-Davies John Rutherford Dubbing Mixers Brian Saunders Lighting Gaffer Jim Camp Chargehand ASM Tony Mills Graphic Designer Peter Terry Design Assistant Chris Stephenson Production Buyer Trevor Devoy",
+          "ocr_bbox": [
+            348,
+            4,
+            932,
+            713
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_014_num03613_sim88.jpg",
+          "frame_num": 3613,
+          "ocr_text": "Sound Mixer Ray French Boom Operator lan Hills Dubbing Editors Paul Griffiths-Davies John Rutherford Dubbing Mixers Brian Saunders Lighting Gaffer Jim Camp Chargehand ASM Tony Mills Graphic Designer Peter Terry Design Assistant Chris Stephenson Production Buyer Trevor Devoy Costume Designer Sheelagh Killeen DI",
+          "ocr_bbox": [
+            374,
+            0,
+            933,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_015_num03625_sim90.jpg",
+          "frame_num": 3625,
+          "ocr_text": "lan Hills Boom Operator Dubbing Editors Paul Griffiths-Davies John Rutherford Dubbing Mixers Brian Saunders Lighting Gaffer Jim Camp Chargehand ASM Tony Mills Graphic Designer Peter Terry Design Assistant Chris Stephenson Production Buyer Trevor Devoy Costume Designer Sheelagh Killeen Wardrobe Supervisor Anthony Black",
+          "ocr_bbox": [
+            343,
+            3,
+            934,
+            714
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_016_num03637_sim92.jpg",
+          "frame_num": 3637,
+          "ocr_text": "Dooi opcratol Paul Griffiths-Davies Dubbing Editors John Rutherford Brian Saunders Dubbing Mixers Lighting Gaffer Jim Camp Chargehand ASM Tony Mills Graphic Designer Peter Terry Design Assistant Chris Stephenson Production Buyer Trevor Devoy Costume Designer Sheelagh Killeen Wardrobe Supervisor Anthony Black Make Up Supervisor Jane Hatch",
+          "ocr_bbox": [
+            343,
+            0,
+            935,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_017_num03781_sim60.jpg",
+          "frame_num": 3781,
+          "ocr_text": "Iroduction Duyel nevor Devoy Costume Designer Sheelagh Killeen Wardrobe Supervisor Anthony Black Make Up Supervisor Jane Hatch Make Up Assistant Tracey Dilly Casting Director Doreen Jones Music Stephen Warbeck",
+          "ocr_bbox": [
+            342,
+            0,
+            892,
+            413
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_018_num03841_sim56.jpg",
+          "frame_num": 3841,
+          "ocr_text": "Make Up Assistant Tracey Dilly Casting Director Doreen Jones Music Stephen Warbeck",
+          "ocr_bbox": [
+            376,
+            7,
+            891,
+            195
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_019_num03877_sim41.jpg",
+          "frame_num": 3877,
+          "ocr_text": "Music Stephen Warbeck",
+          "ocr_bbox": [
+            527,
+            10,
+            895,
+            76
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_020_num03913_sim35.jpg",
+          "frame_num": 3913,
+          "ocr_text": "Script Associate Jenny Sheridan",
+          "ocr_bbox": [
+            507,
+            264,
+            769,
+            405
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_021_num03925_sim100.jpg",
+          "frame_num": 3925,
+          "ocr_text": "Script Associate Jenny Sheridan",
+          "ocr_bbox": [
+            511,
+            262,
+            766,
+            399
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_022_num04021_sim32.jpg",
+          "frame_num": 4021,
+          "ocr_text": "Film Editor Edward Mansell",
+          "ocr_bbox": [
+            507,
+            264,
+            768,
+            392
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_023_num04033_sim100.jpg",
+          "frame_num": 4033,
+          "ocr_text": "Film Editor Edward Mansell",
+          "ocr_bbox": [
+            507,
+            264,
+            769,
+            396
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_024_num04129_sim40.jpg",
+          "frame_num": 4129,
+          "ocr_text": "Director of Photography Ken Morgan",
+          "ocr_bbox": [
+            478,
+            263,
+            798,
+            409
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_025_num04141_sim100.jpg",
+          "frame_num": 4141,
+          "ocr_text": "Director of Photography Ken Morgan",
+          "ocr_bbox": [
+            480,
+            264,
+            797,
+            407
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_026_num04237_sim41.jpg",
+          "frame_num": 4237,
+          "ocr_text": "Production Designer Roy Stonehouse",
+          "ocr_bbox": [
+            500,
+            263,
+            778,
+            408
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_027_num04249_sim100.jpg",
+          "frame_num": 4249,
+          "ocr_text": "Production Designer Roy Stonehouse",
+          "ocr_bbox": [
+            503,
+            267,
+            776,
+            398
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_028_num04345_sim47.jpg",
+          "frame_num": 4345,
+          "ocr_text": "Production Executive Craig McNeil",
+          "ocr_bbox": [
+            499,
+            266,
+            780,
+            406
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_029_num04357_sim100.jpg",
+          "frame_num": 4357,
+          "ocr_text": "Production Executive Craig McNeil",
+          "ocr_bbox": [
+            498,
+            267,
+            781,
+            403
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_030_num04561_sim50.jpg",
+          "frame_num": 4561,
+          "ocr_text": "Producer Don Leaver  ITV Studios Limited MCMXCI",
+          "ocr_bbox": [
+            539,
+            265,
+            743,
+            440
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_031_num04573_sim100.jpg",
+          "frame_num": 4573,
+          "ocr_text": "Producer Don Leaver ITV Studios Limited MCMXCI",
+          "ocr_bbox": [
+            539,
+            265,
+            742,
+            439
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_032_num04681_sim44.jpg",
+          "frame_num": 4681,
+          "ocr_text": "itv STUDIOS Global Entertainment",
+          "ocr_bbox": [
+            507,
+            394,
+            995,
+            517
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Prime_Suspect_1x1\\analysis\\frames\\scene_014_static_033_num04693_sim100.jpg",
+          "frame_num": 4693,
+          "ocr_text": "itv STUDIOS Global Entertainment",
+          "ocr_bbox": [
+            508,
+            391,
+            996,
+            517
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 34,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    }
+  }
+}

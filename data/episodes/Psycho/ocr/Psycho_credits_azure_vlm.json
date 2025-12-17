@@ -1,0 +1,537 @@
+[
+  {
+    "role_detail": "STARRING",
+    "name": "ANTHONY PERKINS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_000_num00658_sim19.jpg"
+    ],
+    "original_frame_number": [
+      658
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "CO-STARRING",
+    "name": "MARTIN BALSAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_008_static_003_num01082_sim79.jpg"
+    ],
+    "original_frame_number": [
+      1082
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "CO-STARRING",
+    "name": "JOHN McINTIRE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_008_static_003_num01082_sim79.jpg"
+    ],
+    "original_frame_number": [
+      1082
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "with",
+    "name": "Simon Oakland",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_001_num01196_sim87.jpg"
+    ],
+    "original_frame_number": [
+      1196
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "with",
+    "name": "Vaughn Taylor",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_001_num01196_sim87.jpg"
+    ],
+    "original_frame_number": [
+      1196
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "with",
+    "name": "Frank Albertson",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_001_num01196_sim87.jpg"
+    ],
+    "original_frame_number": [
+      1196
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "with",
+    "name": "Lurene Tuttle",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_001_num01196_sim87.jpg"
+    ],
+    "original_frame_number": [
+      1196
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "with",
+    "name": "Pat Hitchcock",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_001_num01196_sim87.jpg"
+    ],
+    "original_frame_number": [
+      1196
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "with",
+    "name": "John Anderson",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_001_num01196_sim87.jpg"
+    ],
+    "original_frame_number": [
+      1196
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "with",
+    "name": "Mort Mills",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_001_num01196_sim87.jpg"
+    ],
+    "original_frame_number": [
+      1196
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "as Marion Crane",
+    "name": "Janet Leigh",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_011_static_001_num01493_sim5.jpg"
+    ],
+    "original_frame_number": [
+      1493
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Screenplay by",
+    "name": "Joseph Stefano",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_012_static_001_num01690_sim35.jpg",
+      "scene_012_static_003_num01720_sim36.jpg",
+      "scene_012_static_005_num01765_sim48.jpg"
+    ],
+    "original_frame_number": [
+      1690,
+      1720,
+      1765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Based on the novel by",
+    "name": "Robert Bloch",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_012_static_001_num01690_sim35.jpg",
+      "scene_012_static_003_num01720_sim36.jpg",
+      "scene_012_static_005_num01765_sim48.jpg"
+    ],
+    "original_frame_number": [
+      1690,
+      1720,
+      1765
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "SCREENPLAY BY",
+    "name": "JOSEPH STEFANO",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_012_static_007_num01795_sim57.jpg"
+    ],
+    "original_frame_number": [
+      1795
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "BASED ON THE NOVEL BY",
+    "name": "ROBERT BLOCH",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_012_static_007_num01795_sim57.jpg"
+    ],
+    "original_frame_number": [
+      1795
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Director of Photography",
+    "name": "John L. Russell, A.S.C.",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_014_static_000_num01924_sim34.jpg"
+    ],
+    "original_frame_number": [
+      1924
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Art Direction",
+    "name": "Joseph Hurley",
+    "role_group": "Art Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Directors",
+    "source_frame": [
+      "scene_014_static_000_num01924_sim34.jpg"
+    ],
+    "original_frame_number": [
+      1924
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Art Direction",
+    "name": "Robert Clatworthy",
+    "role_group": "Art Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Directors",
+    "source_frame": [
+      "scene_014_static_000_num01924_sim34.jpg"
+    ],
+    "original_frame_number": [
+      1924
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Decorator",
+    "name": "George Milo",
+    "role_group": "Set Decorators",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Set Decorators",
+    "source_frame": [
+      "scene_014_static_000_num01924_sim34.jpg"
+    ],
+    "original_frame_number": [
+      1924
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Unit Manager",
+    "name": "Lew Leary",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_014_static_000_num01924_sim34.jpg"
+    ],
+    "original_frame_number": [
+      1924
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Titles Designed by",
+    "name": "Saul Bass",
+    "role_group": "Visual Effects",
+    "secondary_role_group": "Art Department",
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_014_static_000_num01924_sim34.jpg"
+    ],
+    "original_frame_number": [
+      1924
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Edited by",
+    "name": "George Tomasini, A.C.E.",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_014_static_008_num02389_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2389
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Costume Supervisor",
+    "name": "Helen Colvig",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_014_static_008_num02389_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2389
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Make-Up Supervision",
+    "name": "Jack Barron",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_014_static_008_num02389_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2389
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Make-Up Supervision",
+    "name": "Robert Dawn",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_014_static_008_num02389_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2389
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Hairstylist",
+    "name": "Florence Bush",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_014_static_008_num02389_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2389
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Special Effects",
+    "name": "Clarence Champagne",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_014_static_008_num02389_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2389
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Sound Recording by",
+    "name": "Waldon O. Watson",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_014_static_008_num02389_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2389
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Sound Recording by",
+    "name": "William Russell",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_014_static_008_num02389_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2389
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Copyright ©1960 by",
+    "name": "Shamley Productions, Inc.",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_014_static_008_num02389_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2389
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Wesrex Recording System",
+    "name": "Westrex",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_014_static_008_num02389_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2389
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant Director",
+    "name": "Hilton A. Green",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_015_static_003_num02619_sim80.jpg"
+    ],
+    "original_frame_number": [
+      2619
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Pictorial Consultant",
+    "name": "Saul Bass",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_015_static_003_num02619_sim80.jpg"
+    ],
+    "original_frame_number": [
+      2619
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Music by",
+    "name": "Bernard Herrmann",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_016_static_000_num02869_sim27.jpg"
+    ],
+    "original_frame_number": [
+      2869
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Directed by",
+    "name": "Alfred Hitchcock",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_018_static_000_num03042_sim42.jpg"
+    ],
+    "original_frame_number": [
+      3042
+    ],
+    "scene_position": "second_half"
+  }
+]

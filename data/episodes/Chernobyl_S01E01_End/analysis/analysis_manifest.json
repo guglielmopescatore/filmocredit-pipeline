@@ -1,0 +1,1252 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_000_num00060_sim0.jpg",
+          "frame_num": 60,
+          "ocr_text": "DIRECTED BY JOHAN RENCK",
+          "ocr_bbox": [
+            767,
+            374,
+            1150,
+            485
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_001_num00165_sim50.jpg",
+          "frame_num": 165,
+          "ocr_text": "WRITTEN I BY CRAIG MAZIN",
+          "ocr_bbox": [
+            775,
+            376,
+            1143,
+            484
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_002_num00270_sim60.jpg",
+          "frame_num": 270,
+          "ocr_text": "CREATED BY CRAIG MAZIN",
+          "ocr_bbox": [
+            775,
+            374,
+            1143,
+            485
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_003_num00360_sim52.jpg",
+          "frame_num": 360,
+          "ocr_text": "EXECUTIVE PRODUCER CRAIG MAZIN",
+          "ocr_bbox": [
+            774,
+            376,
+            1143,
+            484
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_004_num00375_sim100.jpg",
+          "frame_num": 375,
+          "ocr_text": "EXECUTIVE PRODUCER CRAIG MAZIN",
+          "ocr_bbox": [
+            775,
+            377,
+            1143,
+            484
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_005_num00465_sim66.jpg",
+          "frame_num": 465,
+          "ocr_text": "EXECUTIVE PRODUCER CAROLYN  STRAUSS",
+          "ocr_bbox": [
+            698,
+            373,
+            1218,
+            482
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_006_num00570_sim51.jpg",
+          "frame_num": 570,
+          "ocr_text": "EXECUTIVE PRODUCER JANE FEATHERSTONE",
+          "ocr_bbox": [
+            665,
+            378,
+            1247,
+            484
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_007_num00870_sim36.jpg",
+          "frame_num": 870,
+          "ocr_text": "PRODUCER SANNE WOHLENBERG",
+          "ocr_bbox": [
+            655,
+            376,
+            1260,
+            490
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_008_num00975_sim27.jpg",
+          "frame_num": 975,
+          "ocr_text": "JARED HARRIS",
+          "ocr_bbox": [
+            765,
+            431,
+            1152,
+            489
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_009_num01065_sim41.jpg",
+          "frame_num": 1065,
+          "ocr_text": "STELLAN SKARSGARD",
+          "ocr_bbox": [
+            669,
+            428,
+            1250,
+            486
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_010_num01080_sim94.jpg",
+          "frame_num": 1080,
+          "ocr_text": "STELLAN I SKARSGARD",
+          "ocr_bbox": [
+            667,
+            428,
+            1252,
+            486
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_011_num01170_sim27.jpg",
+          "frame_num": 1170,
+          "ocr_text": "PAUL RITTER",
+          "ocr_bbox": [
+            780,
+            424,
+            1135,
+            489
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_012_num01275_sim31.jpg",
+          "frame_num": 1275,
+          "ocr_text": "JESSIE BUCKLEY ADAM NAGAITIS",
+          "ocr_bbox": [
+            737,
+            390,
+            1181,
+            525
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_013_num01365_sim45.jpg",
+          "frame_num": 1365,
+          "ocr_text": "CON O'NEILL ADRIAN RAWLINS",
+          "ocr_bbox": [
+            722,
+            387,
+            1191,
+            525
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_014_num01380_sim100.jpg",
+          "frame_num": 1380,
+          "ocr_text": "CON O'NEILL ADRIAN RAWLINS",
+          "ocr_bbox": [
+            722,
+            386,
+            1191,
+            525
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_015_num01470_sim24.jpg",
+          "frame_num": 1470,
+          "ocr_text": "SAM TROUGHTON ROBERT EMMS",
+          "ocr_bbox": [
+            713,
+            383,
+            1201,
+            525
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_016_num01575_sim41.jpg",
+          "frame_num": 1575,
+          "ocr_text": "CASTING BY NINA GOLD ROBERT STERNE AND",
+          "ocr_bbox": [
+            533,
+            374,
+            1384,
+            485
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_017_num01680_sim32.jpg",
+          "frame_num": 1680,
+          "ocr_text": "DIRECTOR OF PHOTOGRAPHY JAKOB IHRE FSF",
+          "ocr_bbox": [
+            729,
+            373,
+            1187,
+            486
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_018_num01770_sim39.jpg",
+          "frame_num": 1770,
+          "ocr_text": "PRODUCTION DESIGNER LUKE HULL",
+          "ocr_bbox": [
+            773,
+            376,
+            1143,
+            485
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_019_num01785_sim100.jpg",
+          "frame_num": 1785,
+          "ocr_text": "PRODUCTION DESIGNER LUKE HULL",
+          "ocr_bbox": [
+            772,
+            376,
+            1145,
+            485
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_020_num01875_sim33.jpg",
+          "frame_num": 1875,
+          "ocr_text": "EDITOR JINX GODFREY",
+          "ocr_bbox": [
+            754,
+            372,
+            1162,
+            489
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_021_num01980_sim36.jpg",
+          "frame_num": 1980,
+          "ocr_text": "MUSIC BY HILDUR GUDNAD\u00d3TTIR",
+          "ocr_bbox": [
+            653,
+            373,
+            1262,
+            490
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_022_num02070_sim30.jpg",
+          "frame_num": 2070,
+          "ocr_text": "COSTUME DESIGNER ODILE DICKS-MIREAUX",
+          "ocr_bbox": [
+            644,
+            378,
+            1270,
+            483
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_023_num02085_sim100.jpg",
+          "frame_num": 2085,
+          "ocr_text": "COSTUME DESIGNER ODILE DICKS-MIREAUX",
+          "ocr_bbox": [
+            643,
+            376,
+            1269,
+            485
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_024_num02175_sim45.jpg",
+          "frame_num": 2175,
+          "ocr_text": "MAKE-UP & PROSTHETICS DESIGNER DANIEL PARKER",
+          "ocr_bbox": [
+            667,
+            373,
+            1248,
+            483
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_025_num02280_sim39.jpg",
+          "frame_num": 2280,
+          "ocr_text": "LINE PRODUCER ROB HOW",
+          "ocr_bbox": [
+            821,
+            375,
+            1099,
+            489
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_026_num02385_sim55.jpg",
+          "frame_num": 2385,
+          "ocr_text": "VFX PRODUCER LINDSAY McFARLANE",
+          "ocr_bbox": [
+            673,
+            374,
+            1242,
+            485
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_027_num02475_sim24.jpg",
+          "frame_num": 2475,
+          "ocr_text": "1ST ASSISTANT MEANTI JACQUELINE LESKO CO-PRODUCER MISEIKYTE LITHUANIAN LINE PRODUCER LINETA WILLIAM O'TOOLE CONTROLLER ELAINE WAUGH ISO. PRODUCTION",
+          "ocr_bbox": [
+            397,
+            283,
+            1502,
+            665
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_028_num02490_sim86.jpg",
+          "frame_num": 2490,
+          "ocr_text": "1ST ASSISTANT DIRECTOR DAVID MEANTI JACQUELINE LESKO CO-PRODUCER LINETA MISEIKYTE LITHUANIAN LINE PRODUCER WILLIAM O'TOOLE FINANCIAL CONTROLLER ELAINE POST PRODUCTION SUPERVISOR",
+          "ocr_bbox": [
+            393,
+            282,
+            1505,
+            668
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_029_num02520_sim98.jpg",
+          "frame_num": 2520,
+          "ocr_text": "1ST ASSISTANT DIRECTOR DAVID MEANTI JACQUELINE LESKO CO-PRODUCER LINETA MISEIKYTE LITHUANIAN LINE PRODUCER WILLIAM O'TOOLE FINANCIAL CONTROLLER ELAINE WAUGH POST PRODUCTION SUPERVISOR",
+          "ocr_bbox": [
+            395,
+            283,
+            1505,
+            667
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_030_num02580_sim41.jpg",
+          "frame_num": 2580,
+          "ocr_text": "CAST IN ORDER OF APPEARANCE JARED HARRIS VALERY LEGASOV BLOND MAN MICHAEL SHAEFFER JESSIE BUCKLEY LYUDMILLA IGNATENKO VASILY IGNATENKO ADAM NAGAITIS ANATOLY DYATLOV PAUL RITTER ALEXANDR AKIMOV SAM TROUGHTON KIRSCHENBAUM JOSHUA LEESE LEONID TOPTUNOV ROBERT EMMS BRAZHNIK ADAM LUNDGREN KARL DAVIES VIKTOR PROSKURYAKOV ALEKSANDR KUDRYAVSTEV PAULIUS MARKEVIIUS",
+          "ocr_bbox": [
+            558,
+            202,
+            1378,
+            744
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_031_num02640_sim42.jpg",
+          "frame_num": 2640,
+          "ocr_text": "JAY SIMPSON PEREVOZCHENKO BORIS STOLYARCHUK BILLY POSTLETHWAITE NIKOLAI GORBACHENKO ROSS ARMSTRONG YUVCHENKO DOUGGIE McMEEKIN VIKTOR DEGTARYENKO KAROLIS KASPERAVIIUS SAM STRIKE MISHA PRAVIK GERARD KEARNS SAMMY HAYMAN TITENOK KIBENOK POVILAS S JATKEVIIUS LAURA ELPHINSTONE OKSANA MIKHAIL MICHAEL SOCHA",
+          "ocr_bbox": [
+            594,
+            236,
+            1415,
+            714
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_032_num02700_sim46.jpg",
+          "frame_num": 2700,
+          "ocr_text": "DR. SVETLANA ZINCHENKO NADIA CLIFFORD RON COOK OLD MATERNITY DOCTOR VIKTOR BRYUKHANOV CON O'NEILL ADRIAN RAWLINS NIKOLAI FOMIN OKSANA'S KID JAN RIICA MATAS DIRGINIUS VLADIMIR TISHCHURA SITNIKOV JAMIE SIVES DAY SHIFT WORKER CAOLAN BYRNE NIGHT SHIFT WORKER STEPHEN BISLAND PETROVICH ALEX BLAKE ZHARKOV DONALD SUMPTER BORIS SHCHERBINA STELLAN SKARSGARD",
+          "ocr_bbox": [
+            553,
+            214,
+            1357,
+            736
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_033_num02760_sim42.jpg",
+          "frame_num": 2760,
+          "ocr_text": "STUNT COORDINATORS GARY CONNERY GARY KANE SAULIUS JANAVIIUS STUNT DOUBLE FOR ADAM NAGAITAS PETRAS PIVORIUNAS STANISLAV SAMUCHOV STUNT PERFORMERS MARIUS JANUSONIS JEVGENIJ KIRILOV JACUKEVI VLADISLAV EDVINAS BRASAS",
+          "ocr_bbox": [
+            424,
+            262,
+            1391,
+            685
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_000_static_034_num02775_sim99.jpg",
+          "frame_num": 2775,
+          "ocr_text": "STUNT COORDINATORS GARY CONNERY GARY KANE SAULIUS JANAVIIUS STUNT DOUBLE FOR ADAM NAGAITAS PETRAS PIVORIUNAS STANISLAV SAMUCHOV STUNT PERFORMERS MARIUS JANUSONIS JEVGENIJ KIRILOV JACUKEVIC VLADISLAV EDVINAS S BRASAS",
+          "ocr_bbox": [
+            424,
+            262,
+            1391,
+            685
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 35,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_1": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_001_static_000_num02795_sim40.jpg",
+          "frame_num": 2795,
+          "ocr_text": "PRODUCTION MANAGERS CHEYENNE CONWAY ARNAS RINGAITIS NICOLA MORROW MANTAUTAS KVEDARAS PRODUCTION COORDINATORS POLLY JEFFERIES IEVA SVITOJUTE ASSISTANT PRODUCTION COORDINATORS BIRUTE MASAITYTE-JUDICKIENE UNE LIANDZBERGYTE TRAVEL COORDINATOR AISTE BORJAS SHIPPING COORDINATOR MINDAUGAS BLONSKIS PRODUCTION SECRETARIES AMY SHARMAN AUKSE VEITAITE ZAJANKAUSKAITE PRODUCTION ASSISTANT EGLE OFFICE RUNNERS TOMAS ISAJEVAS PETRAS PIENAUSKAS MARTYNAS BUDRYS",
+          "ocr_bbox": [
+            369,
+            123,
+            1531,
+            822
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_001_static_001_num02825_sim100.jpg",
+          "frame_num": 2825,
+          "ocr_text": "PRODUCTION MANAGERS CHEYENNE CONWAY ARNAS RINGAITIS NICOLA MORROW MANTAUTAS KVEDARAS PRODUCTION COORDINATORS POLLY JEFFERIES IEVA SVITOJUTE ASSISTANT PRODUCTION COORDINATORS BIRUTE MASAITYTE-JUDICKIENE UNE LIANDZBERGYTE TRAVEL COORDINATOR AISTE BORJAS SHIPPING COORDINATOR MINDAUGAS BLONSKIS PRODUCTION SECRETARIES AMY SHARMAN AUKSE VEITAITE ZAJANKAUSKAITE PRODUCTION ASSISTANT EGLE OFFICE E RUNNERS TOMAS ISAJEVAS PETRAS PIENAUSKAS MARTYNAS BUDRYS",
+          "ocr_bbox": [
+            369,
+            125,
+            1531,
+            822
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_001_static_002_num02840_sim45.jpg",
+          "frame_num": 2840,
+          "ocr_text": "RITA STRUZIENE PRODUCTION ACCOUNTANT KEY 1ST ASSISTANT ACCOUNTANT ELLA WEST TADAS MACKELIS 1ST ASSISTANT ACCOUNTANT (LITHUANIA) 2ND ASSISTANT ACCOUNTANT KAREN WALKER PAYROLL ACCOUNTANT T (LITHUANIA) LIUKRECIJA KYBARTIENE CASHIER BIRUTE LAPINSKIENE RENATA DOBRIKIENE ASSISTANT ACCOUNTANTS KRISTINA VALVOLIENE SARAH STIFF JACKIE GILBEY POST PRODUCTION ACCOUNTANCY REEL FIGURES LTD. LITHUANIAN LAWYER RUTA ANDRIULEVICIUTE",
+          "ocr_bbox": [
+            350,
+            147,
+            1405,
+            802
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_001_static_003_num02885_sim50.jpg",
+          "frame_num": 2885,
+          "ocr_text": "SCRIPT SUPERVISOR CHRIS ROUFS 2ND ASSISTANT DIRECTOR BRETT THOMAS TAUTVYDAS SAVUKAITIS 2ND 2ND ASSISTANT DIRECTORS EVELINA VERCINSKAJA LUKAS KUDAPCENKA 3RD ASSISTANT DIRECTOR KEY SET PRODUCTION ASSISTANT KAROLIS S KASIKAUSKAS SIMONAS SSAINERIS SET PRODUCTION ASSISTANT CAST PRODUCTION ASSISTANT AUSRA VINICKAITE ASSISTANT TO JOHAN RENCK IEVA MISIULAITYTE",
+          "ocr_bbox": [
+            465,
+            240,
+            1409,
+            705
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_001_static_004_num02900_sim97.jpg",
+          "frame_num": 2900,
+          "ocr_text": "SCRIPT SUPERVISOR CHRIS ROUFS 2ND ASSISTANT DIRECTOR BRETT THOMAS TAUTVYDAS SAVUKAITIS 2ND 2ND ASSISTANT DIRECTORS EVELINA VERCINSKAJA LUKAS KUDAPCENKA 3RD ASSISTANT DIRECTOR KEY SET PRODUCTION ASSISTANT KAROLIS S KASIKAUSKAS SIMONAS S SAINERIS SET PRODUCTION ASSISTANT CAST PRODUCTION ASSISTANT AUSRA VINICKAITE ASSISTANT TO JOHAN RENCK IEVA MISIULAITYTE",
+          "ocr_bbox": [
+            465,
+            240,
+            1409,
+            705
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_001_static_005_num02930_sim46.jpg",
+          "frame_num": 2930,
+          "ocr_text": "CASTING ASSOCIATE MARTIN WARE SCANDINAVIAN CASTING CONSULTANT PAULINE HANSSON LITHUANIAN CASTING DALIA SURVILAITE VITA SURVILAITE CASTING ASSISTANTS DALIA DAUGILYTE STILLS PHOTOGRAPHER LIAM DANIEL NAOMI TODD DIALECT COACHES JILL McCULLOUGH MOVEMENT COACH IMOGEN KNIGHT",
+          "ocr_bbox": [
+            402,
+            184,
+            1317,
+            764
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_001_static_006_num02945_sim100.jpg",
+          "frame_num": 2945,
+          "ocr_text": "CASTING ASSOCIATE MARTIN WARE SCANDINAVIAN CASTING CONSULTANT PAULINE HANSSON LITHUANIAN CASTING DALIA SURVILAITE VITA SURVILAITE CASTING ASSISTANTS DALIA DAUGILYTE STILLS PHOTOGRAPHER LIAM DANIEL NAOMI TODD DIALECT COACHES JILL McCULLOUGH MOVEMENT COACH IMOGEN I KNIGHT",
+          "ocr_bbox": [
+            403,
+            184,
+            1317,
+            765
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_001_static_007_num02960_sim44.jpg",
+          "frame_num": 2960,
+          "ocr_text": "JONAS SPOKAS SUPERVISING LOCATION MANAGER ASSISTANT LOCATION MANAGERS JULIUS KARVELIS LINAS ASTRAMSKAS DARIUS BALTUSIS AURELIJUS SILKINIS GODA GAJAUSKAITE VYTAUTAS RIABOVAS LOCATION SCOUT UNIT MANAGER DONATAS BAKANAS JUSTINAS BREIMELIS ASSISTANT UNIT MANAGERS ANDRIUS ZVALIAUSKAS TRANSPORT COORDINATOR EVALDAS DABASINSKAS RUTA PUODZIUNAITE ASSISTANT TRANSPORT COORDINATOR TRANSPORTATION CAPTAIN VASILIJ KAZAKEVIC DAVID CHAPLIN FACILITIES HOD",
+          "ocr_bbox": [
+            399,
+            149,
+            1397,
+            798
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_001_static_008_num02990_sim48.jpg",
+          "frame_num": 2990,
+          "ocr_text": "SUPERVISING ART DIRECTOR KAREN WAKEFIELD MAX KLAENTSCHI ART DIRECTORS GAVIN FITCH AINIS JANKAUSKAS PAULIUS DASCIORAS STANDBY ART DIRECTORS LAURA NG ASTRID SIEBEN GRAPHIC DESIGNERS ANITA DHILLON NEIL FLOYD TOMAS JANKAUSKAS ASTA OSTROVSKAJA ASSISTANT GRAPHIC DESIGNER DRAFTSMEN DOMANTAS JAKUCIONIS JUSTAS PALIUKAITIS",
+          "ocr_bbox": [
+            501,
+            173,
+            1403,
+            776
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_001_static_009_num03020_sim48.jpg",
+          "frame_num": 3020,
+          "ocr_text": "ART DEPARTMENT COORDINATOR IEVA BUZINSKAITE JONE GRUBYTE ART DEPARTMENT ASSISTANT DIGITAL ARTIST GORDON CHAMP TOMMY MILES LEAD SCENIC ARTIST SCENIC ARTISTS DOMINEE EREID NANCY O'CONNOR SCULPTOR JAMES O'BRIEN CONSTRUCTION MANAGERS GINTAS MATONIS RENUARAS KRIVELIS DONATAS PIRSTELIS ACTION VEHICLE COORDINATOR JURIJ TERIOSKIN ZYDRUNAS SAPRANAUSKAS ASST. ACTION VEHICLE COORDINATOR ACTIONVEHICLE MECHANIC DAINIUS AIDUKAS",
+          "ocr_bbox": [
+            403,
+            154,
+            1450,
+            792
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_001_static_010_num03050_sim48.jpg",
+          "frame_num": 3050,
+          "ocr_text": "CLAIRE LEVINSON-GENDLER SET DECORATOR ASSISTANT SET DECORATOR LINA GECIENE RYTIS DARASKEVICIUS SET DECORATOR'S ASSISTANT SET DEC BUYER FELICITY HICKMAN ANDRIUS ZUBKAITIS LEAD MAN DAVID BALDWIN CONTROL ROOM LIGHTING DESIGNER SET DRESSERS MARTYNAS VINCIUNAS MARIUS SMAILYS GRIGORY KUTSENKO ARTURAS BUT VYTAUTAS RUMINAS MARTYNAS KOSAS MARTYNAS BALTRUSAITIS ONA KVINTAITE JURGIS PASKEVICIUS ANDRIUS SAVICKAS",
+          "ocr_bbox": [
+            426,
+            199,
+            1699,
+            749
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_001_static_011_num03065_sim100.jpg",
+          "frame_num": 3065,
+          "ocr_text": "CLAIRE LEVINSON-GENDLER SET DECORATOR ASSISTANT SET DECORATOR LINA GECIENE RYTIS S DARASKEVICIUS SET DECORATOR'S ASSISTANT SET DEC BUYER FELICITY HICKMAN ANDRIUS ZUBKAITIS LEAD MAN DAVID BALDWIN CONTROL ROOM LIGHTING DESIGNER SET DRESSERS MARTYNAS VINCIUNAS, MARIUS SMAILYS GRIGORY KUTSENKO ARTURAS BUT VYTAUTAS RUMINAS MARTYNAS KOSAS MARTYNAS BALTRUSAITIS ONA KVINTAITE JURGIS PASKEVICIUS ANDRIUS SAVICKAS",
+          "ocr_bbox": [
+            426,
+            199,
+            1699,
+            749
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_001_static_012_num03080_sim44.jpg",
+          "frame_num": 3080,
+          "ocr_text": "SET DRESSING BUYERS JUSTINAS BACIUSKA EVALDAS S SIMELEVICIUS IEVA ROJUTE EMILIJA EINORYTE ASSISTANT SET DRESSERS DARIUS STELMOKAS PROP MASTER JUSTIN HAYZELDEN CHARGEHAND PROPS TERRY ROYCE TERRENCE HARRINGTON JOHN BOTTON",
+          "ocr_bbox": [
+            560,
+            244,
+            1404,
+            706
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_001_static_013_num03110_sim43.jpg",
+          "frame_num": 3110,
+          "ocr_text": "MARY BURI ACTION PROP MASTER ACTION PROPS BUYER RAMUNAS RASTAUSKAS AURELIJUS GAIDELIONIS ASSISTANT PROPS GYTENIS JANUSAS HENRIKAS PIKTUIZIS SEAN BROAD LEAD STANDBY PROPS STANDBY PROPS EGIDIJUS VAITKEVICIUS VYGANDAS VILKONCIUS ASSISTANT STANDBY PROPS TADAS STALYGA STANDBY CARPENTER PAULIUS DRANSEIKA VITALIJ STRIGUNKOV STANDBY PAINTER",
+          "ocr_bbox": [
+            537,
+            197,
+            1400,
+            752
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_001_static_014_num03140_sim48.jpg",
+          "frame_num": 3140,
+          "ocr_text": "DANNY WINSHIP STOREMAN ASSISTANT STOREMEN OLEG ZYBAILO ARVYDAS NORVAISAS STORES ASSISTANTS AUGUSTAS SAVELIS GYTIS DAUKAS PROPS PAINTER FINISHER SIMON HILLS ANIMAL HANDLERS JO VAUGHAN GWEN GRIFFITHS ANIMAL HUMANE REPRESENTATIVE SHERRI WORREL KAROLIS GRIGALIUNAS LITHUANIAN ANIMAL TRAINER TADAS USTINAVICIUS ARMOURER",
+          "ocr_bbox": [
+            453,
+            199,
+            1372,
+            749
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 15,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_000_num03161_sim41.jpg",
+          "frame_num": 3161,
+          "ocr_text": "ANTS MARTIN VAHUR A CAMERA/STEADICAM OPERATOR B CAMERA OPERATOR FILIP LYMAN SOFIA LARSSON 1ST ASSISTANT CAMERA: A CAMERA 1ST ASSISTANT CAMERA: B CAMERA ROLANDAS JONELIUKSTIS KARIN JAKOBSSON 2ND ASSISTANT CAMERA: A CAMERA 2ND ASSISTANT CAMERA: B CAMERA ALEKSANDR PETROVSKIJ MANTAUTAS KLIMAS CAMERA TRAINEE J-P PASSI ADDITIONAL CAMERA OPERATORS FELIKASAS ABRUKAUSKAS SAULIUS LUKOSEVICIUS AUDRIUS BUDRYS RIMVYDAS LEIPUS MARC-JASON DIT MAIER DATA WRANGLER/2ND UNIT DIT TITAS OBELENIS JUSTINAS PETRAVICIUS DATA WRANGLER",
+          "ocr_bbox": [
+            426,
+            110,
+            1426,
+            838
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_001_num03191_sim42.jpg",
+          "frame_num": 3191,
+          "ocr_text": "KEY GRIP VYTAS GUDLEVICIUS BEST BOY GRIP HENRIKAS GUDLEVICIUS GRIPS MARIUS ZILENAS DOVYDAS STRIOGA JANNE JANNSEN DRONE OPERATORS CHRISTIAN PELLVING SIMONAS JAKUBAUSKAS JONAS BURNICKIS MATAS JANKAUSKAS GUSTAV GERDES GVIDO PUKE LINAS STANKEVICIUS Q TAKE OPERATOR VIDEO ASSISTANTS NIKOLAS VERSECKAS MATAS JURGINIS",
+          "ocr_bbox": [
+            649,
+            132,
+            1404,
+            814
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_002_num03221_sim32.jpg",
+          "frame_num": 3221,
+          "ocr_text": "SOUND RECORDIST VINCENT PIPONNIER NICOLAS FEJOZ BOOM OPERATOR 2ND SOUND ASSISTANT MARGAUX PEYRE",
+          "ocr_bbox": [
+            596,
+            395,
+            1341,
+            556
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_003_num03251_sim30.jpg",
+          "frame_num": 3251,
+          "ocr_text": "GAFFER TOBIAS HENRIKSSON RIGGING GAFFER EGIDIJUS BRAZIUNAS BEST BOY GIEDRIUS BUKAITIS VIDMANTAS KRALIKAUSKAS ELECTRICIANS JONAS BALYS PASLAUSKAS ZYGIMANTAS STROLIA DMITRIJ SINELSCIKOV RICARDAS RUTKAUSKAS JONAS CEPULIS DRESSING ELECTRICIANS VADIM POTAPOV JEVGENIJUS LEMESOVAS ANDRIUS KVATAVICIUS",
+          "ocr_bbox": [
+            581,
+            194,
+            1454,
+            751
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_004_num03281_sim39.jpg",
+          "frame_num": 3281,
+          "ocr_text": "ASSISTANT COSTUME DESIGNERS DAIVA PETRULYTE HOLLY McLEAN COSTUME SUPERVISORS ANNA MUNRO SYLVIE ONG WARDROBE SUPERVISOR GERDA KAJENIENE RUTA TAMULEVICIENE CROWD SUPERVISOR MILITARY CROWD SUPERVISOR INDRE RAMOSKAITE DARIUS VERBICKAS MILITARY ADVISOR CHIEF TEXTILES/BREAKDOWN ARTIST JAN DIECKMANN ON SET COSTUMIERS AKVILE STANKUTE BARBORA BOGUSEVICIUTE PAULE INSODAITE",
+          "ocr_bbox": [
+            413,
+            195,
+            1438,
+            751
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_005_num03311_sim52.jpg",
+          "frame_num": 3311,
+          "ocr_text": "COSTUME BUYER GRAZINA BUCKIENE JURGA KLEIZAITE COSTUME ASSISTANTS GRETA BUTRIMAVICIUTE GRETA VITKAUSKAITE DALIA VIZGIRDAITE GIEDRE GIRDAUSKAITE VEJUNE TAMULIUNAITE MILITARY COSTUME ASSISTANTS JOLANTA PAULAUSKAITE EDITA REKLYTE MILITARY COSTUME PROPS JOKUBAS ADAMONIS IRMANTAS KAVALIAUSKAS NERINGA BENAITIENE, RAMUNE SALKAUSKIENE BREAKDOWN ARTISTS AUKSE SNIESKAITE GRAZVYDAS BUCKUS DONATA PORVANECKAITE",
+          "ocr_bbox": [
+            481,
+            132,
+            1767,
+            814
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_006_num03341_sim50.jpg",
+          "frame_num": 3341,
+          "ocr_text": "ALDONA MAJAKOVAITE COSTUME DEPARTMENT COORDINATOR ASSISTANT COSTUME DEPARTMENT COORDINATOR SIMONA VENCKAUSKAITE JOVITA PAPUCKAITE COSTUME TRAINEE CARNET SUPERVISOR FERENC FULMER ON SET SEAMSTRESS JUZEFA SALATYNSKAJA SEAMSTRESSES ALIONA ABASOVA NATALIJA SAMONENKO GIEDRE MATULEVICIENE CUTTER SNIEGUOLE LEIMONTAITE IRINA NOVIK IRONING LADY",
+          "ocr_bbox": [
+            243,
+            241,
+            1426,
+            711
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_007_num03371_sim46.jpg",
+          "frame_num": 3371,
+          "ocr_text": "NATASHA NIKOLIC-DUNLOP MAKE-UP SUPERVISOR HAIR SUPERVISOR JULIO PARODI MAKE-UP & HAIR SUPERVISOR BOZENA MAISEJENKO ULA PAKALNISKYTE MAKE-UP SUPERVISOR MAKE-UP & HAIR ARTISTS JOVANA JOVANAVIC MARTA SKALSKA NATALIE MITCHELL ZANETA JASIUNIENE RUTA MIGLINAITE LINA MICKUTE MAKE-UP DEPARTMENT COORDINATOR MAKE-UP TRAINEE RUTA PADVELSKYTE",
+          "ocr_bbox": [
+            400,
+            218,
+            1457,
+            730
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_008_num03386_sim100.jpg",
+          "frame_num": 3386,
+          "ocr_text": "NATASHA NIKOLIC-DUNLOP MAKE-UP SUPERVISOR HAIR SUPERVISOR JULIO PARODI MAKE-UP & HAIR SUPERVISOR BOZENA MAISEJENKO ULA PAKALNISKYTE MAKE-UP SUPERVISOR MAKE-UP & HAIR ARTISTS JOVANA JOVANAVIC MARTA SKALSKA NATALIE E MITCHELL ZANETA JASIUNIENE RUTA MIGLINAITE LINA MICKUTE MAKE-UP DEPARTMENT COORDINATOR MAKE-UP TRAINEE RUTA PADVELSKYTE",
+          "ocr_bbox": [
+            400,
+            218,
+            1457,
+            730
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_009_num03401_sim48.jpg",
+          "frame_num": 3401,
+          "ocr_text": "PROSTHETICS SUPERVISORS BARRIE GOWER PAUL SPATERI KEY PROSTHETIC MAKE-UP ARTISTS ROBIN PRITCHARD VICTORIA BANCROFT-PERRY KEY PROSTHETIC SCULPTOR PATT FOAD PROSTHETICS MAKE-UP ARTISTS MARTINA BYRNE, HANNAH ECCLESTON EMMA FAULKES, KATI HOOD CHLOE MUTON-PHILIPS, VICTORIA MONEY LUCY SIBBICK, LUCY PITTARD KEY ART FINISHER BECCA OLEN MOULD MAKING SUPERVISOR JOHN ELDRED-TOOBY MICHAEL SENIOR SILICONE TECHNICIAN BYRNE GRAPHIC DESIGN TATTOOED NOW LTD",
+          "ocr_bbox": [
+            438,
+            173,
+            1695,
+            774
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_010_num03431_sim46.jpg",
+          "frame_num": 3431,
+          "ocr_text": "HEAD OF SFX DEPARTMENT BERLIN GMBH ADOLF WOJTINEK SFXSUPERVISOR CLAUDIUS RAUCH APLING SFX OFFICE COORDINATOR MICHAEL SFX FLOOR SUPERVISOR SVEN HUBNER J\u00d6RG RICHTER SFX SHOP FOREMAN SFX SENIOR TECHNICIAN ANDREAS SCHILLER PHILIP BRAUNSCHOBER SFX TECHNICIANS LINAS KUZMINSKAS ARTIOM 1 GRIGORIAN LITHUANIAN SFX FOREMAN",
+          "ocr_bbox": [
+            368,
+            281,
+            1383,
+            668
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_011_num03461_sim41.jpg",
+          "frame_num": 3461,
+          "ocr_text": "HEALTH & SAFETY ADVISORS JAMES COX MAC McGEARY LITHUANIAN HEALTH & SAFETYADVISOR JUGITA PINTUKAITE-RAKSTIENE LITHUANIAN HEALTH & SAFETY CONSULTANT KRISTINA MECINSKKAITE ASTA CANCINGERIENE UNIT NURSE",
+          "ocr_bbox": [
+            327,
+            351,
+            1525,
+            599
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_012_num03491_sim37.jpg",
+          "frame_num": 3491,
+          "ocr_text": "2ND UNIT CREW M\u00c1NS MANSSON 2ND UNIT DIRECTOR J-P PASSI 2ND UNIT DIRECTOR OF PHOTOGRAPHY LOCATION MANAGER AIVARAS SIDLA UNIT MANAGER ALFONSAS TRISKUS 2ND UNIT COORDINATOR VAIDA VISOCKAITE FRANCESC PRAT DUTEN 1ST ASSISTANT DIRECTOR 2ND ASSISTANT DIRECTOR RASA RIMKUTE 2ND 2ND ASSISTANT DIRECTOR DAGNE PUODZIUNAITE 3RD ASSISTANT DIRECTOR AUSTEJA URBAITE SET PRODUCTION ASSISTANTS SKAISTE BERZINYTE LUKAS LUKOSEVICIUS SCRIPT SUPERVISOR EMILIJA PAULAUSKAITE",
+          "ocr_bbox": [
+            402,
+            153,
+            1400,
+            795
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_013_num03521_sim39.jpg",
+          "frame_num": 3521,
+          "ocr_text": "1ST ASSISTANT CAMERA ELINA ER\u00c4NAN 2ND ASSISTANT CAMERA KARINA GENIS KEY GRIP MAREK KORVIN JURIJ CHARCIUK GRIP CHRISTOPHER NORIN GAFFER BEST BOY OLEG POLOZKOV ROKAS BUGAILISKIS ELECTRICIANS VYTAUTAS JANCIAUSKAS",
+          "ocr_bbox": [
+            576,
+            262,
+            1419,
+            683
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_014_num03551_sim40.jpg",
+          "frame_num": 3551,
+          "ocr_text": "SOUND RECORDISTS VYTAUTAS KIZALA URBANAVICIUS SAULIUS BOOM OPERATORS TOMAS ZUKAUSKAS ANDRIUS PAULAVICIUS 2ND UNIT MAKE-UP & HAIR SUPERVISOR BOZENA MAISEJENKO STANDBY ART DIRECTOR PATRICK CREIGHTON DYLAN SCOTT STANDBY PROPS JONAS VALAINIS",
+          "ocr_bbox": [
+            386,
+            265,
+            1396,
+            683
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_015_num03596_sim39.jpg",
+          "frame_num": 3596,
+          "ocr_text": "UKRAINE CREW TANYA SOKOLOVA LINE PRODUCER UNIT PRODUCTION MANAGERS OLYA KOSENKO DARIA STEPANI E DOWNS LOCATION ACCOUNTANT JOE PRODUCTION MANAGER EMIL SHKULSKY OLGA AVRAHOVA PRODUCTION COORDINATOR ASSISTANT TO PRODUCER DANIEL LINNIK-ZHURAVLIOV LIZA AFONINA PRODUCTION ASSISTANT ACCOMODATION SERVICE INGA YURCHENKO DARIA AVOCADUS OFFICE PRODUCTION ASSISTANT VALENTIN SEMKO 1 st ASSISTANT DIRECTOR 3rd ASSISTANT DIRECTOR NICK PERESTIUK",
+          "ocr_bbox": [
+            483,
+            154,
+            1473,
+            796
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_016_num03626_sim50.jpg",
+          "frame_num": 3626,
+          "ocr_text": "ART DIRECTOR VLADIMIR RADLINSKIY ART DEPARTMENT COORDINATOR IRINA AVDEEVA ASSISTANT ART DIRECTOR MAX HALUSHKA OLEG PILNIK LOCATION ART DIRECTORS KIRILL OVSYANNIKOV SERGII MIAGKYI ACTION VEHICLE SUPERVISOR CONSTRUCTION BUYERS MAXIM YARESKO DMITRIY OGIENKO PICTURE VEHICLES ART DIRECTOR TIMUR VESELOVSKY ANTON LOGOSHA CHARGE HAND MODEL MAKER NIKA BONDAR CASTING CASTING COORDINATOR TAYA HOLIY ANASTASIA PUZIAN CASTING ASSISTANTS MARYSYA KORIAGINA",
+          "ocr_bbox": [
+            464,
+            155,
+            1363,
+            791
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_017_num03656_sim48.jpg",
+          "frame_num": 3656,
+          "ocr_text": "HEAD OF FINANCE OLGA GAPOCHENKO ANDREW EZZHELIONOK FINANCIAL MANAGERS INNA KOKOREVA OLGA LAVRIK LAWYER ACCOUNTANTS LENAS SERGEEVA ALENA SMUK CASHIER MARINA OBRAZTSOVA ART DEPARTMENT ACCOUNTANT KSENIA KOCHNEVA NATALIYA SKARZHEPA COSTUME SUPERVISOR COSTUME/MAKE-UP COORDINATOR TETIANA KHRAPACH NATALIIA OSTROVSKA COSTUME ASSISTANT MARTA SKALSKA MAKE-UP & HAIR ARTIST MAKE-UP & HAIR ASSISTANT/BUYER JULIA TIHOMIROVA",
+          "ocr_bbox": [
+            432,
+            155,
+            1398,
+            795
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_018_num03671_sim100.jpg",
+          "frame_num": 3671,
+          "ocr_text": "HEAD OF FINANCE OLGA GAPOCHENKO ANDREW EZZHELIONOK FINANCIAL MANAGERS INNA KOKOREVA OLGA LAVRIK LAWYER ACCOUNTANTS LENA SERGEEVA ALENA SMUK CASHIER MARINA OBRAZTSOVA ART DEPARTMENT ACCOUNTANT KSENIA KOCHNEVA NATALIYA SKARZHEPA COSTUME SUPERVISOR COSTUME/MAKE-UP COORDINATOR TETIANA KHRAPACH COSTUME E ASSISTANT NATALIIA OSTROVSKA MARTA SKALSKA MAKE-UP & HAIR ARTIST MAKE-UP & HAIR ASSISTANT/BUYER JULIA TIHOMIROVA",
+          "ocr_bbox": [
+            433,
+            155,
+            1398,
+            795
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_002_static_019_num03701_sim47.jpg",
+          "frame_num": 3701,
+          "ocr_text": "GAFFER MYHAILO SHASHKO BEST BOY YURIY RYBCHENKO CHIEF ELECTRICIAN MAKSYM MAKSYMCHUK LEAD PROP MASTER/BUYER ZOYA KOSULINA SERGEY GODLEVSKIY PROP BUYERS ARTEM SOBKO IGOR ANTONIUK PROP ASSISTANT CHARGE HAND PROP MAXIM VERKHGRADSKIY LOCATION MANAGERS ANDRII NEDOBORA DIMA SHEVCHENKO LOCATION ASSISTANTS YURA ZHUSHKO DMITRIY MIKHAILOV UNIT MANAGER CAMEON THACKWELL UNIT MANAGER ASSISTANT ANATOLIY MODZHAR",
+          "ocr_bbox": [
+            546,
+            131,
+            1400,
+            816
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 20,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_3": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_003_static_000_num03725_sim48.jpg",
+          "frame_num": 3725,
+          "ocr_text": "BRADLEY SWEETMAN TRANSPORT COORDINATOR TRANSPORT CAPTAIN ALEKSANDR LOGVINETS TRANSPORT ASSISTANT SASHA KUVSHYNOVA NIKOLAY SEMKO 2ND UNIT PRODUCTION MANAGER 2ND UNIT PRODUCTION COORDINATOR JULIA VOLOSHCHUK GRITS MAKARENKO 2ND UNIT 1ST AD 2ND UNIT 3RD AD VADIM YUZBA EGOR POGREBNIAK 2ND UNIT UNIT MANAGER 2ND UNIT UNIT MANAGER ASSISTANT KIRILL RYBIANTSEV 2ND UNIT TRANSPORT CAPTAIN ALEX BELKO VLADA RUDIASHKO 2ND UNIT PRODUCTION ASSISTANT 2ND UNIT GAFFER VALERA LATUGA OLEG BUBLYK 2ND UNIT BEST BOY 2ND CHIEF ELECTRICIAN ANDREW GOROVOY 2ND UNIT ACTION VEHICLE ASSISTANT EVGEN OKSAMETNY 2ND UNIT VIDEO ASSISTANT SERGIY PONOCHEVNY",
+          "ocr_bbox": [
+            404,
+            89,
+            1396,
+            859
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_003_static_001_num03740_sim100.jpg",
+          "frame_num": 3740,
+          "ocr_text": "BRADLEY SWEETMAN TRANSPORT COORDINATOR TRANSPORT CAPTAIN ALEKSANDR LOGVINETS SASHA KUVSHYNOVA TRANSPORT ASSISTANT NIKOLAY SEMKO 2ND UNIT PRODUCTION MANAGER 2ND UNIT PRODUCTION COORDINATOR JULIA VOLOSHCHUK GRITS MAKARENKO 2ND UNIT 1ST AD 2ND UNIT 3RD AD VADIM YUZBA EGOR POGREBNIAK 2ND UNIT UNIT MANAGER 2ND UNIT UNIT MANAGER ASSISTANT KIRILL RYBIANTSEV 2ND UNIT TRANSPORT CAPTAIN ALEX BELKO VLADA RUDIASHKO 2ND UNIT PRODUCTION ASSISTANT 2ND UNIT T GAFFER VALERA LATUGA OLEG BUBLYK 2ND UNIT BEST BOY 2ND CHIEF ELECTRICIAN ANDREW GOROVOY 2ND UNIT ACTION VEHICLE ASSISTANT EVGEN OKSAMETNY 2ND UNIT VIDEO ASSISTANT SERGIY PONOCHEVNY",
+          "ocr_bbox": [
+            404,
+            89,
+            1397,
+            860
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_003_static_002_num03770_sim46.jpg",
+          "frame_num": 3770,
+          "ocr_text": "MOSCOW CREW LINE PRODUCERS MICHAEL KITAEV OLGA KASHIRINA DENIS POPOV PRODUCTION MANAGER 1ST ASSISTANT DIRECTOR KSENIA SHCHEDRINA DMITRY PERVUSHIN SCRIPT SUPERVISOR PRODUCTION COORDINATOR EKATERINA PISAREVA ROMAN MIRONOV EXTRAS CASTING ALEXANDER VORONOV LOCATION MANAGERS VICTOR SAKHAROV EVGENIY KHLEBNIKOV SET MANAGER TRANSPORT CAPTAIN DMITRY KOKOREV",
+          "ocr_bbox": [
+            535,
+            158,
+            1382,
+            791
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_003_static_003_num03800_sim49.jpg",
+          "frame_num": 3800,
+          "ocr_text": "1ST ASSISTANT CAMERA/FOCUS PULLER ALEKSANDR BUDARIN ANDREY SHILOV 2ND ASSISTANT CAMERA CLAPPER LOADER REN CHITOBA-LEE DIT NIKOLAY PIGAREV VIDEO ASSISTANT ALEKSANDER VERMUL DRONE OPERATOR DMITRIY KLUBNICHKIN DRONE PILOT DENISI KLUBNICHKIN SOUND MIXER IVAN ARAPOV BOOM OPERATOR SERGEY SHUBIN KEY GRIP SERAFIM GORELOV GRIP PAVEL CHUYKO ELECTRICIANS VICTOR SNISAREVKO MARK IZOTIKOV",
+          "ocr_bbox": [
+            382,
+            173,
+            1368,
+            774
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_003_static_004_num03830_sim40.jpg",
+          "frame_num": 3830,
+          "ocr_text": "PROPS MASTER VASILY UFA ON SET PROPS KONSTANTIN ROMANOV SERGEY NOVITSKIY ELENA PIGANOVA COSTUME SEAMSTRESS TATIANA CHERNIKOVA MAKE-UP ARTISTS ELENA KOVAL ELENA EVDOKIMOVA CASHIER SVETLANA KLETSKAYA",
+          "ocr_bbox": [
+            652,
+            247,
+            1403,
+            704
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_003_static_005_num03860_sim21.jpg",
+          "frame_num": 3860,
+          "ocr_text": "EVYEN KLEAN MUSIC SUPERVISOR",
+          "ocr_bbox": [
+            646,
+            457,
+            1239,
+            493
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_003_static_006_num03905_sim15.jpg",
+          "frame_num": 3905,
+          "ocr_text": "ASSEMBLY EDITOR HELENA EVANS 1ST ASSISTANT EDITOR CRAIG FERREIRA KENNY LI 2ND ASSISTANT EDITOR VFX EDITOR LIYANA MANSOR SCORE PRODUCER SAM SLATER COMPOSER'S MUSIC EDITOR GUNNAR \u00d6RN TYNES ARCHIVE RESEARCH FOURTH DRAWER SVETLANA PALMER ADDITIONAL RESEARCH MATERIAL SVETLANA ALEXIEVICH \"VOICES FROM CHERNOBYL\" BY",
+          "ocr_bbox": [
+            536,
+            180,
+            1350,
+            769
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_003_static_007_num03935_sim45.jpg",
+          "frame_num": 3935,
+          "ocr_text": "VFX PRODUCTION MANAGER FAY HANCOCKS MICHAEL WILES VFX PRODUCTION COORDINATOR VFX LEAD DATA WRANGLERS KEV CAHILL DAN PEARSON VFX ASSISTANT DATA WRANGLER KAROLIS  KIRIJENKO VFX SENIOR COMPOSITORS HOWARD PROTHEROE TIM YOUNG 3D SCANNING SERVICES CLEAR ANGLE STUDIOS CHERNOBYL POWER PLANT SOURCE MODEL POST-MODERN DIGITAL (A FILM.UA COMPANY)",
+          "ocr_bbox": [
+            343,
+            242,
+            1699,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_003_static_008_num03950_sim100.jpg",
+          "frame_num": 3950,
+          "ocr_text": "VFX PRODUCTION MANAGER FAY HANCOCKS MICHAEL WILES VFX PRODUCTION COORDINATOR VFX LEAD DATA WRANGLERS KEV CAHILL DAN PEARSON VFX ASSISTANT DATA WRANGLER KAROLIS S KIRIJENKO VFX SENIOR COMPOSITORS HOWARD PROTHEROE TIM YOUNG 3D SCANNING SERVICES CLEAR ANGLE STUDIOS CHERNOBYL POWER PLANT SOURCE MODEL POST-MODERN DIGITAL (A FILM.UA COMPANY)",
+          "ocr_bbox": [
+            343,
+            242,
+            1699,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_003_static_009_num03965_sim51.jpg",
+          "frame_num": 3965,
+          "ocr_text": "VISUAL EFFECTS BY DNEG TV VFX SUPERVISOR MAX DENNISON VFX PRODUCERS CLARE CHEETHAM PAUL JONES 3D SUPERVISOR STEVEN GODFREY LUKE LETKEY 2D SUPERVISOR LINE PRODUCER LAURA BETHENCOURT MONTES PRODUCTION ROBYN WOOLLEY, PATRICK DEAN HOWARD TRUONG, BETH HART GEORGE BUTLER ANITA BERKHANE DUANE LAFAYETTE-BARTON EDITORIAL MARIO BRIOSCHI MARY STROUMPOULI, LEAD COMPOSITORS KENN HEDIN KALVIK NIKI TURPIN TOM HOCKING DAVID SEWELL",
+          "ocr_bbox": [
+            635,
+            111,
+            1767,
+            837
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 10,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_4": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_004_static_000_num03993_sim47.jpg",
+          "frame_num": 3993,
+          "ocr_text": "COMPOSITORS TING YU SYLVESTER, PETE BAXTER ALICE LOCURATOLO TOM PEGG ALICIA AGUILERA COLIN EADE ELEANOR ROGERS GULED AHMED GEORGE CRESSEY, VASCO CERQUEIRA JAY MURRAY, PAULO DARCO EMILY GREELEY, DANIEL CHURCHILL ELENA TOPOUZOGLOU CHRISTIAN WAITE FX SUPERVISOR FX ARTISTS JOLAN AUZEBY, PHILIPP KRATZER PHIL GIFFORD, LUKAS NIEMCZYK PASQUALE RIEFOIL ANDREW ROBERTSON. HARRIETTE CATES 3D ARTISTS ALISTAIR DARBY JAMES ROBSON JAN HREBICEK NESSA ZHANG MINGFANG ANDY POTTER JIMMY ROGERS WILLIAM CARLEY, MARK PASCOE ELISENDA FAUSTINO",
+          "ocr_bbox": [
+            697,
+            35,
+            1680,
+            911
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_004_static_001_num04038_sim46.jpg",
+          "frame_num": 4038,
+          "ocr_text": "ENVIRO/DMP WILLIAM FOULSER PAU MINGUELL, DMPs HOLLIE PEARCE ADRIAN DUDAK, RAINER STOLLE MICHAL SKOWRON ANIMATION SUPERVISOR STAFFORD LAWRENCE ANIMATORS ELIOT SPEED, COLIN TUNNICLIFFE JOHN KAY, HEIDI ELLIOTT ALEX ALVAREZ TERRY TSANG ROTO/PREP SUPERVISORS JACK PHILLIPS PREP ALBA SANCHEZ-SERRANO GONZALEZ CONNOR KITTO MATCHMOVE SUPERVISOR MATCHMOVE BIANCA BURGESS",
+          "ocr_bbox": [
+            563,
+            135,
+            1626,
+            814
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_004_static_002_num04068_sim51.jpg",
+          "frame_num": 4068,
+          "ocr_text": "COLORIST JEAN-CLEMENT SORET DI MANAGERS JENNY-JAYNE WEBB ALEX GASCOIGNE DI PRODUCERS CHARLOTTE LAING LOUISE STEVENSON ONLINE EDITOR NICK TIMMS RE-RECORDING MIXER STUART HILLIKER SUPERVISING SOUND EDITOR STEFAN HENRIX SOUND DESIGNER JOE BEAL DIALOGUE EDITOR MICHAEL MAROUSSAS HARRY BARNES ADR SUPERVISOR ASSISTANT RE-RECORDING MIXER ANDY WADE ANNA WRIGHT FOLEY ARTIST FOLEY MIXER PHILIP CLEMENTS FOLEY EDITOR TOM STEWART",
+          "ocr_bbox": [
+            460,
+            90,
+            1389,
+            858
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_004_static_003_num04098_sim31.jpg",
+          "frame_num": 4098,
+          "ocr_text": "SISTER PICTURES CHIEF OPERATING OFFICER DAN ISAACS MAGALI GIBERT HEAD OF PRODUCTION HEAD OF LEGAL & BUSINESS AFFAIRS LAURA CROWLEY",
+          "ocr_bbox": [
+            425,
+            374,
+            1292,
+            575
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_004_static_004_num04128_sim37.jpg",
+          "frame_num": 4128,
+          "ocr_text": "EXECUTIVE PRODUCERS FOR SKY ANNE MENSAH GABRIEL SILVER",
+          "ocr_bbox": [
+            744,
+            415,
+            1175,
+            534
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_004_static_005_num04158_sim24.jpg",
+          "frame_num": 4158,
+          "ocr_text": "PRODUCTION SERVICES IN LITHUANIA PROVIDED BY BALTIC FILM SERVICES LITHUANIANCO-PRODUCERS GARY TUCK LINETA MISEIKYTE SPECIAL THANKS TO VILNIUS FILM OFFICE. KAUNAS FILM OFFICE THIS FILM HAS BEEN CREATED WITH THE SUPPORT OF THE LITHUANIAN TAX INCENTIVE FOR FILM PRODUCTION.",
+          "ocr_bbox": [
+            181,
+            185,
+            1737,
+            768
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_004_static_006_num04173_sim95.jpg",
+          "frame_num": 4173,
+          "ocr_text": "PRODUCTION SERVICES IN LITHUANIA PROVIDED BY BALTIC FILM SERVICES LITHUANIAN CO-PRODUCERS GARY TUCK LINETA MISEIKYTE SPECIAL THANKS TO VILNIUS FILM OFFICE, KAUNAS S FILM OFFICE THIS FILM HAS BEEN CREATED WITH THE SUPPORT OF THE LITHUANIAN TAX INCENTIVE FOR FILM PRODUCTION.",
+          "ocr_bbox": [
+            183,
+            186,
+            1735,
+            766
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_004_static_007_num04188_sim55.jpg",
+          "frame_num": 4188,
+          "ocr_text": "PRODUCTION SERVICES IN UKRAINE PROVIDED BY RADIOAKTIVE FILM UKRANIAN CO-PRODUCER DARKO SKULSKY SPECIAL THANKS TO KYIV CITY STATE ADMINISTRATION KYIV FILM COMMISSION PRODUCTION SERVICES IN RUSSIA PROVIDED BY VODOROD PICTURES",
+          "ocr_bbox": [
+            478,
+            216,
+            1435,
+            733
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_004_static_008_num04218_sim38.jpg",
+          "frame_num": 4218,
+          "ocr_text": "THIS FILM IS A DRAMATISATION OF ACTUAL FACTS AND EVENTS. SOME OF THE NAMES HAVE BEEN CHANGED AND SOME OF THE EVENTS AND CHARACTERS HAVE BEEN FICTIONALISED MODIFIED DRAMATIC PURPOSES OR COMPOSITED FOR American Humane AMERICAN HUMANE MONITORED THE ANIMAL ACTION. NO ANIMALS WERE HARMED. (AHD 08441)",
+          "ocr_bbox": [
+            325,
+            226,
+            1595,
+            736
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_004_static_009_num04233_sim100.jpg",
+          "frame_num": 4233,
+          "ocr_text": "THIS FILM IS A DRAMATISATION OF ACTUAL FACTS AND EVENTS. SOME OF THE NAMES HAVE BEEN CHANGED AND SOME OF THE EVENTS AND CHARACTERS HAVE E BEEN FICTIONALISED, MODIFIED DRAMATIC PURPOSES OR COMPOSITED FOR American Humane AMERICAN HUMANE MONITORED THE ANIMAL ACTION. NO ANIMALS WERE HARMED. (AHD 08441)",
+          "ocr_bbox": [
+            325,
+            228,
+            1594,
+            735
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_004_static_010_num04248_sim35.jpg",
+          "frame_num": 4248,
+          "ocr_text": "W R MIGHTY SISTER DGA piclures MES albert sustainable production certification COPYRIGHT \u00a9 201 9 HOME BOX OFFICE, INC. ALL RIGHTS RESERVED",
+          "ocr_bbox": [
+            346,
+            244,
+            1573,
+            959
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_004_static_011_num04308_sim100.jpg",
+          "frame_num": 4308,
+          "ocr_text": "WO R MIGHTY SISTER DGA piclures MES albert sustainable production certification COPYRIGHT \u00a9 201 9 HOME BOX OFFICE, INC. ALL RIGHTS RESERVED",
+          "ocr_bbox": [
+            345,
+            244,
+            1573,
+            959
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_004_static_012_num04338_sim6.jpg",
+          "frame_num": 4338,
+          "ocr_text": "HBO MINISERIES",
+          "ocr_bbox": [
+            585,
+            402,
+            1297,
+            554
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 13,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.02521178126335144,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_5": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_005_static_000_num04474_sim20.jpg",
+          "frame_num": 4474,
+          "ocr_text": "a sky orig",
+          "ocr_bbox": [
+            269,
+            397,
+            927,
+            562
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_005_static_001_num04489_sim60.jpg",
+          "frame_num": 4489,
+          "ocr_text": "a sky original pro%",
+          "ocr_bbox": [
+            284,
+            404,
+            1289,
+            549
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_005_static_002_num04504_sim82.jpg",
+          "frame_num": 4504,
+          "ocr_text": "a sky original productio",
+          "ocr_bbox": [
+            286,
+            406,
+            1607,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_005_static_003_num04519_sim98.jpg",
+          "frame_num": 4519,
+          "ocr_text": "a sky original production",
+          "ocr_bbox": [
+            286,
+            406,
+            1628,
+            546
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_End\\analysis\\frames\\scene_005_static_004_num04563_sim95.jpg",
+          "frame_num": 4563,
+          "ocr_text": "production a asky original",
+          "ocr_bbox": [
+            307,
+            410,
+            1623,
+            541
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": -0.10651622712612152,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.12041833996772766,
+      "roi_percentile_flow": -0.10651622712612152,
+      "scroll_direction": null
+    }
+  }
+}

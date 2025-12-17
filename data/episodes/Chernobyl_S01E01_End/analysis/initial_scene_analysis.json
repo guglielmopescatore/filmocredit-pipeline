@@ -1,0 +1,280 @@
+{
+    "episode_id": "Chernobyl_S01E01_End",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 2795,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:01:33.256",
+            "duration_frames": 2795,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "CREATED BY CRAIG MAZIN"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 139,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 279,
+                    "ocr_text": "CREATED BY CRAIG MAZIN",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_279_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 139: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 1,
+            "original_start_frame": 2795,
+            "original_end_frame": 3161,
+            "original_start_timecode": "00:01:33.256",
+            "original_end_timecode": "00:01:45.468",
+            "duration_frames": 366,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "PRODUCTION MANAGERS CHEYENNE CONWAY ARNAS RINGAITIS NICOLA MORROW MANTAUTAS KVEDARAS PRODUCTION COORDINATORS POLLY JEFFERIES IEVA SVITOJUTE ASSISTANT PRODUCTION COORDINATORS BIRUTE MASAITYTE-JUDICKIENE UNE LIANDZBERGYTE TRAVEL COORDINATOR AISTE BORJAS SHIPPING COORDINATOR MINDAUGAS BLONSKIS PRODUCTION SECRETARIES AMY SHARMAN AUKSE VEITAITE EGLE ZAJANKAUSKAITE PRODUCTION ASSISTANT OFFICE RUNNERS TOMAS ISAJEVAS PETRAS PIENAUSKAS MARTYNAS BUDRYS"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2813,
+                    "ocr_text": "PRODUCTION MANAGERS CHEYENNE CONWAY ARNAS RINGAITIS NICOLA MORROW MANTAUTAS KVEDARAS PRODUCTION COORDINATORS POLLY JEFFERIES IEVA SVITOJUTE ASSISTANT PRODUCTION COORDINATORS BIRUTE MASAITYTE-JUDICKIENE UNE LIANDZBERGYTE TRAVEL COORDINATOR AISTE BORJAS SHIPPING COORDINATOR MINDAUGAS BLONSKIS PRODUCTION SECRETARIES AMY SHARMAN AUKSE VEITAITE EGLE ZAJANKAUSKAITE PRODUCTION ASSISTANT OFFICE RUNNERS TOMAS ISAJEVAS PETRAS PIENAUSKAS MARTYNAS BUDRYS",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_second_half_frame_2813_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 3161,
+            "original_end_frame": 3725,
+            "original_start_timecode": "00:01:45.468",
+            "original_end_timecode": "00:02:04.286",
+            "duration_frames": 564,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "ANTS MARTIN VAHUR A CAMERA/STEADICAM OPERATOR B CAMERA OPERATOR FILIP LYMAN SOFIA LARSSON 1ST ASSISTANT CAMERA: A CAMERA 1ST ASSISTANT CAMERA: B CAMERA ROLANDAS JONELIUKSTIS KARIN JAKOBSSON 2ND ASSISTANT CAMERA: A CAMERA 2ND ASSISTANT CAMERA: B CAMERA ALEKSANDR PETROVSKIJ MANTAUTAS KLIMAS CAMERA TRAINEE J-P PASSI ADDITIONAL CAMERA OPERATORS FELIKASAS ABRUKAUSKAS SAULIUS LUKOSEVICIUS AUDRIUS BUDRYS RIMVYDAS LEIPUS MARC-JASON MAIER DIT DATA WRANGLER/2ND UNIT DIT TITAS OBELENIS JUSTINAS PETRAVICIUS DATA WRANGLER"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3189,
+                    "ocr_text": "ANTS MARTIN VAHUR A CAMERA/STEADICAM OPERATOR B CAMERA OPERATOR FILIP LYMAN SOFIA LARSSON 1ST ASSISTANT CAMERA: A CAMERA 1ST ASSISTANT CAMERA: B CAMERA ROLANDAS JONELIUKSTIS KARIN JAKOBSSON 2ND ASSISTANT CAMERA: A CAMERA 2ND ASSISTANT CAMERA: B CAMERA ALEKSANDR PETROVSKIJ MANTAUTAS KLIMAS CAMERA TRAINEE J-P PASSI ADDITIONAL CAMERA OPERATORS FELIKASAS ABRUKAUSKAS SAULIUS LUKOSEVICIUS AUDRIUS BUDRYS RIMVYDAS LEIPUS MARC-JASON MAIER DIT DATA WRANGLER/2ND UNIT DIT TITAS OBELENIS JUSTINAS PETRAVICIUS DATA WRANGLER",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_second_half_frame_3189_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 3,
+            "original_start_frame": 3725,
+            "original_end_frame": 3993,
+            "original_start_timecode": "00:02:04.286",
+            "original_end_timecode": "00:02:13.228",
+            "duration_frames": 268,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "BRADLEY SWEETMAN TRANSPORT COORDINATOR TRANSPORT CAPTAIN ALEKSANDR LOGVINETS SASHA KUVSHYNOVA TRANSPORT ASSISTANT NIKOLAY SEMKO 2ND UNIT PRODUCTION MANAGER 2ND UNIT PRODUCTION COORDINATOR JULIA VOLOSHCHUK GRITS MAKARENKO 2ND UNIT 1ST AD 2ND UNIT 3RD AD VADIM YUZBA EGOR POGREBNIAK 2ND UNIT UNIT MANAGER 2ND UNIT UNIT MANAGER ASSISTANT KIRILL RYBIANTSEV 2ND UNIT TRANSPORT CAPTAIN ALEX BELKO VLADA RUDIASHKO 2ND UNIT PRODUCTION ASSISTANT 2ND UNIT T GAFFER VALERA LATUGA OLEG BUBLYK 2ND UNIT BEST BOY 2ND CHIEF ELECTRICIAN ANDREW GOROVOY 2ND UNIT ACTION VEHICLE ASSISTANT EVGEN OKSAMETNY 2ND UNIT VIDEO ASSISTANT SERGIY PONOCHEVNY"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3738,
+                    "ocr_text": "BRADLEY SWEETMAN TRANSPORT COORDINATOR TRANSPORT CAPTAIN ALEKSANDR LOGVINETS SASHA KUVSHYNOVA TRANSPORT ASSISTANT NIKOLAY SEMKO 2ND UNIT PRODUCTION MANAGER 2ND UNIT PRODUCTION COORDINATOR JULIA VOLOSHCHUK GRITS MAKARENKO 2ND UNIT 1ST AD 2ND UNIT 3RD AD VADIM YUZBA EGOR POGREBNIAK 2ND UNIT UNIT MANAGER 2ND UNIT UNIT MANAGER ASSISTANT KIRILL RYBIANTSEV 2ND UNIT TRANSPORT CAPTAIN ALEX BELKO VLADA RUDIASHKO 2ND UNIT PRODUCTION ASSISTANT 2ND UNIT T GAFFER VALERA LATUGA OLEG BUBLYK 2ND UNIT BEST BOY 2ND CHIEF ELECTRICIAN ANDREW GOROVOY 2ND UNIT ACTION VEHICLE ASSISTANT EVGEN OKSAMETNY 2ND UNIT VIDEO ASSISTANT SERGIY PONOCHEVNY",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_003_second_half_frame_3738_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 4,
+            "original_start_frame": 3993,
+            "original_end_frame": 4414,
+            "original_start_timecode": "00:02:13.228",
+            "original_end_timecode": "00:02:27.275",
+            "duration_frames": 421,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "COMPOSITORS TING YU SYLVESTER, PETE BAXTER ALICE LOCURATOLO, TOM PEGG ALICIA AGUILERA COLIN EADE ELEANOR ROGERS GULED AHMED GEORGE CRESSEY, VASCO CERQUEIRA JAY MURRAY, PAULO DARCO EMILY GREELEY, DANIEL CHURCHILL ELENA TOPOUZOGLOU CHRISTIAN WAITE FX SUPERVISOR FX ARTISTS JOLAN AUZEBY, PHILIPP KRATZER PHIL GIFFORD, LUKAS NIEMCZYK PASQUALE RIEFOIL ANDREW ROBERTSON. HARRIETTE CATES 3D ARTISTS ALISTAIR DARBY JAMES ROBSON JAN HREBICEK NESSA ZHANG MINGFANG ANDY POTTER JIMMY ROGERS WILLIAM CARLEY, MARK PASCOE ELISENDA FAUSTINO"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4014,
+                    "ocr_text": "COMPOSITORS TING YU SYLVESTER, PETE BAXTER ALICE LOCURATOLO, TOM PEGG ALICIA AGUILERA COLIN EADE ELEANOR ROGERS GULED AHMED GEORGE CRESSEY, VASCO CERQUEIRA JAY MURRAY, PAULO DARCO EMILY GREELEY, DANIEL CHURCHILL ELENA TOPOUZOGLOU CHRISTIAN WAITE FX SUPERVISOR FX ARTISTS JOLAN AUZEBY, PHILIPP KRATZER PHIL GIFFORD, LUKAS NIEMCZYK PASQUALE RIEFOIL ANDREW ROBERTSON. HARRIETTE CATES 3D ARTISTS ALISTAIR DARBY JAMES ROBSON JAN HREBICEK NESSA ZHANG MINGFANG ANDY POTTER JIMMY ROGERS WILLIAM CARLEY, MARK PASCOE ELISENDA FAUSTINO",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_004_second_half_frame_4014_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 5,
+            "original_start_frame": 4414,
+            "original_end_frame": 4564,
+            "original_start_timecode": "00:02:27.275",
+            "original_end_timecode": "00:02:32.280",
+            "duration_frames": 150,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "a sky orig"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4421,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4429,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4436,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4444,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4451,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4459,
+                    "ocr_text": "as",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 4466,
+                    "ocr_text": "a sky",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 4474,
+                    "ocr_text": "a sky orig",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_005_second_half_frame_4474_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 4421: No text found (CLAHE)",
+                "Frame 4429: No text found (CLAHE)",
+                "Frame 4436: No text found (CLAHE)",
+                "Frame 4444: No text found (CLAHE)",
+                "Frame 4451: No text found (CLAHE)"
+            ],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 2795,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:01:33.256",
+            "duration_frames": 2795,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 2795,
+            "end_frame": 3161,
+            "start_timecode": "00:01:33.256",
+            "end_timecode": "00:01:45.468",
+            "duration_frames": 366,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 3161,
+            "end_frame": 3725,
+            "start_timecode": "00:01:45.468",
+            "end_timecode": "00:02:04.286",
+            "duration_frames": 564,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 3725,
+            "end_frame": 3993,
+            "start_timecode": "00:02:04.286",
+            "end_timecode": "00:02:13.228",
+            "duration_frames": 268,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 3993,
+            "end_frame": 4414,
+            "start_timecode": "00:02:13.228",
+            "end_timecode": "00:02:27.275",
+            "duration_frames": 421,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 4414,
+            "end_frame": 4564,
+            "start_timecode": "00:02:27.275",
+            "end_timecode": "00:02:32.280",
+            "duration_frames": 150,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:28:43.173676"
+}

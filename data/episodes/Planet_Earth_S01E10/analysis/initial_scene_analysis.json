@@ -1,0 +1,131 @@
+{
+    "episode_id": "Planet_Earth_S01E10",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 1,
+            "original_start_frame": 98,
+            "original_end_frame": 797,
+            "original_start_timecode": "00:00:03.268",
+            "original_end_timecode": "00:00:26.575",
+            "duration_frames": 699,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Producer Mark Linfield"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 132,
+                    "ocr_text": "Producer Mark Linfield",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_first_half_frame_132_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 797,
+            "original_end_frame": 949,
+            "original_start_timecode": "00:00:26.575",
+            "original_end_timecode": "00:00:31.644",
+            "duration_frames": 152,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Jeff Wilson Production or d i nato rs Susan Aartse-Tuyn Amanda Hutchinson Sue Storey Productlon Team Asslstant Samantha Davis Production Manager Mandy Knic"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 804,
+                    "ocr_text": "Jeff Wilson Production or d i nato rs Susan Aartse-Tuyn Amanda Hutchinson Sue Storey Productlon Team Asslstant Samantha Davis Production Manager Mandy Knic",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_second_half_frame_804_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 3,
+            "original_start_frame": 949,
+            "original_end_frame": 1449,
+            "original_start_timecode": "00:00:31.644",
+            "original_end_timecode": "00:00:48.316",
+            "duration_frames": 500,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "The BBC wishes to thank Rob McCall Zygmunt Gizejewski Dany Cleyet-Marrel Office National des Forêts Peter Rosén MICET-Madagascar CFPF -Madagascar Conservatoire Vivant d'Analabe Deutschen Primatenzentrums (DPZ) Saharah Moon Chapotin Prof Peter Kappeler Kirindy Forest Reserve Bialowieza National Park Dan Eatherley Brian Stone Jari Peltomaki"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 974,
+                    "ocr_text": "The BBC wishes to thank Rob McCall Zygmunt Gizejewski Dany Cleyet-Marrel Office National des Forêts Peter Rosén MICET-Madagascar CFPF -Madagascar Conservatoire Vivant d'Analabe Deutschen Primatenzentrums (DPZ) Saharah Moon Chapotin Prof Peter Kappeler Kirindy Forest Reserve Bialowieza National Park Dan Eatherley Brian Stone Jari Peltomaki",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_003_second_half_frame_974_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 98,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:03.268",
+            "duration_frames": 98,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 98,
+            "end_frame": 797,
+            "start_timecode": "00:00:03.268",
+            "end_timecode": "00:00:26.575",
+            "duration_frames": 699,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 797,
+            "end_frame": 949,
+            "start_timecode": "00:00:26.575",
+            "end_timecode": "00:00:31.644",
+            "duration_frames": 152,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 949,
+            "end_frame": 1449,
+            "start_timecode": "00:00:31.644",
+            "end_timecode": "00:00:48.316",
+            "duration_frames": 500,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:38:05.088426"
+}

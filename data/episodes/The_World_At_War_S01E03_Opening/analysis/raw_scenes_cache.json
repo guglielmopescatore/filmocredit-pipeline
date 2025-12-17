@@ -1,0 +1,25 @@
+{
+  "total_frames": 1712,
+  "fps": 29.98248686514886,
+  "timestamp": "2025-12-04T14:43:36.907317",
+  "scenes": [
+    {
+      "start_frame": 0,
+      "end_frame": 1680,
+      "start_timecode": "00:00:00.000",
+      "end_timecode": "00:00:56.033"
+    },
+    {
+      "start_frame": 1680,
+      "end_frame": 1710,
+      "start_timecode": "00:00:56.033",
+      "end_timecode": "00:00:57.033"
+    },
+    {
+      "start_frame": 1710,
+      "end_frame": 1712,
+      "start_timecode": "00:00:57.033",
+      "end_timecode": "00:00:57.100"
+    }
+  ]
+}

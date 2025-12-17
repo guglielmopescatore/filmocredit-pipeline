@@ -1,0 +1,1444 @@
+{
+    "episode_id": "El_desorden_que_dejas_S01E03_Opening",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 2,
+            "original_start_frame": 149,
+            "original_end_frame": 360,
+            "original_start_timecode": "00:00:04.971",
+            "original_end_timecode": "00:00:12.012",
+            "duration_frames": 211,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Una Serie Original de NETFLIX"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 159,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 170,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 180,
+                    "ocr_text": "Una Serie Original de NETFLIX",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_first_half_frame_180_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 159: No text found (CLAHE)",
+                "Frame 170: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 3,
+            "original_start_frame": 360,
+            "original_end_frame": 386,
+            "original_start_timecode": "00:00:12.012",
+            "original_end_timecode": "00:00:12.879",
+            "duration_frames": 26,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "PROSEGUR"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 361,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 362,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 363,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 365,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 366,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 367,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 369,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 370,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 371,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 373,
+                    "ocr_text": "PROSEGUR",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_003_first_half_frame_373_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 361: No text found (CLAHE)",
+                "Frame 362: No text found (CLAHE)",
+                "Frame 363: No text found (CLAHE)",
+                "Frame 365: No text found (CLAHE)",
+                "Frame 366: No text found (CLAHE)",
+                "Frame 367: No text found (CLAHE)",
+                "Frame 369: No text found (CLAHE)",
+                "Frame 370: No text found (CLAHE)",
+                "Frame 371: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 10,
+            "original_start_frame": 1766,
+            "original_end_frame": 1798,
+            "original_start_timecode": "00:00:58.923",
+            "original_end_timecode": "00:00:59.991",
+            "duration_frames": 32,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "PLKE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1767,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1769,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1770,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1772,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1774,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1775,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1777,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1778,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1780,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1782,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1783,
+                    "ocr_text": "PLKE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_010_first_half_frame_1783_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 1767: No text found (CLAHE)",
+                "Frame 1769: No text found (CLAHE)",
+                "Frame 1770: No text found (CLAHE)",
+                "Frame 1772: No text found (CLAHE)",
+                "Frame 1774: No text found (CLAHE)",
+                "Frame 1775: No text found (CLAHE)",
+                "Frame 1777: No text found (CLAHE)",
+                "Frame 1778: No text found (CLAHE)",
+                "Frame 1780: No text found (CLAHE)",
+                "Frame 1782: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 19,
+            "original_start_frame": 2549,
+            "original_end_frame": 2802,
+            "original_start_timecode": "00:01:25.048",
+            "original_end_timecode": "00:01:33.490",
+            "duration_frames": 253,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "ENTU APUKE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2561,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2574,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2586,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2599,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2612,
+                    "ocr_text": "NTU",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 2624,
+                    "ocr_text": "ENTU APUKE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_019_first_half_frame_2624_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 2561: No text found (CLAHE)",
+                "Frame 2574: No text found (CLAHE)",
+                "Frame 2586: No text found (CLAHE)",
+                "Frame 2599: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 26,
+            "original_start_frame": 3509,
+            "original_end_frame": 3728,
+            "original_start_timecode": "00:01:57.079",
+            "original_end_timecode": "00:02:04.386",
+            "duration_frames": 219,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "TAOT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3519,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3530,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3541,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3552,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3563,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3574,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3585,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3596,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3607,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3618,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3629,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3640,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3651,
+                    "ocr_text": "TAOT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_026_first_half_frame_3651_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 3519: No text found (CLAHE)",
+                "Frame 3530: No text found (CLAHE)",
+                "Frame 3541: No text found (CLAHE)",
+                "Frame 3552: No text found (CLAHE)",
+                "Frame 3563: No text found (CLAHE)",
+                "Frame 3574: No text found (CLAHE)",
+                "Frame 3585: No text found (CLAHE)",
+                "Frame 3596: No text found (CLAHE)",
+                "Frame 3607: No text found (CLAHE)",
+                "Frame 3618: No text found (CLAHE)",
+                "Frame 3629: No text found (CLAHE)",
+                "Frame 3640: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 29,
+            "original_start_frame": 4121,
+            "original_end_frame": 4352,
+            "original_start_timecode": "00:02:17.499",
+            "original_end_timecode": "00:02:25.206",
+            "duration_frames": 231,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Número desconocido - 13:24 Si no quieres que el vídeo se haga público pon estas preguntas en el examen:"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4132,
+                    "ocr_text": "7",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 4144,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4155,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4167,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4178,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4190,
+                    "ocr_text": "Número desconocido - 13:24 Si no quieres que el vídeo se haga público pon estas preguntas en el examen:",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_029_first_half_frame_4190_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 4144: No text found (CLAHE)",
+                "Frame 4155: No text found (CLAHE)",
+                "Frame 4167: No text found (CLAHE)",
+                "Frame 4178: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 30,
+            "original_start_frame": 4352,
+            "original_end_frame": 4449,
+            "original_start_timecode": "00:02:25.206",
+            "original_end_timecode": "00:02:28.443",
+            "duration_frames": 97,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Número desconocido - 13:24 suda 1. \"Por qué me la la clase de literatura?\""
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4356,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4361,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4366,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4371,
+                    "ocr_text": "Número desconocido - 13:24 suda 1. \"Por qué me la la clase de literatura?\"",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_030_second_half_frame_4371_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 4356: No text found (CLAHE)",
+                "Frame 4361: No text found (CLAHE)",
+                "Frame 4366: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 31,
+            "original_start_frame": 4449,
+            "original_end_frame": 4838,
+            "original_start_timecode": "00:02:28.443",
+            "original_end_timecode": "00:02:41.422",
+            "duration_frames": 389,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Número desconocido - 13:24 2. \"Escribe el título y el autor del libro te dé la que gana\""
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4468,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4487,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4507,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4526,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4546,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4565,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4585,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4604,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4624,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4643,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4662,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4682,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4701,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4721,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4740,
+                    "ocr_text": "Número desconocido - 13:24 2. \"Escribe el título y el autor del libro te dé la que gana\"",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_031_second_half_frame_4740_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 4468: No text found (CLAHE)",
+                "Frame 4487: No text found (CLAHE)",
+                "Frame 4507: No text found (CLAHE)",
+                "Frame 4526: No text found (CLAHE)",
+                "Frame 4546: No text found (CLAHE)",
+                "Frame 4565: No text found (CLAHE)",
+                "Frame 4585: No text found (CLAHE)",
+                "Frame 4604: No text found (CLAHE)",
+                "Frame 4624: No text found (CLAHE)",
+                "Frame 4643: No text found (CLAHE)",
+                "Frame 4662: No text found (CLAHE)",
+                "Frame 4682: No text found (CLAHE)",
+                "Frame 4701: No text found (CLAHE)",
+                "Frame 4721: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 47,
+            "original_start_frame": 6185,
+            "original_end_frame": 6460,
+            "original_start_timecode": "00:03:26.365",
+            "original_end_timecode": "00:03:35.541",
+            "duration_frames": 275,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "INMA CUESTA"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6198,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 6212,
+                    "ocr_text": "INMA CUESTA",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_047_second_half_frame_6212_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 6198: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 48,
+            "original_start_frame": 6460,
+            "original_end_frame": 6748,
+            "original_start_timecode": "00:03:35.541",
+            "original_end_timecode": "00:03:45.150",
+            "duration_frames": 288,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "BÁRBARA LENNIE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6474,
+                    "ocr_text": "BÁRBARA LENNIE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_048_second_half_frame_6474_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 49,
+            "original_start_frame": 6748,
+            "original_end_frame": 7103,
+            "original_start_timecode": "00:03:45.150",
+            "original_end_timecode": "00:03:56.995",
+            "duration_frames": 355,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "ROQUE RUÍZ ISABEL GARRIDO"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6765,
+                    "ocr_text": "ROQUE RUÍZ ISABEL GARRIDO",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_049_second_half_frame_6765_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 50,
+            "original_start_frame": 7103,
+            "original_end_frame": 7766,
+            "original_start_timecode": "00:03:56.995",
+            "original_end_timecode": "00:04:19.116",
+            "duration_frames": 663,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Productores Ejecutivos EMMA LUSTRES CARLOS MONTERO BORJA PENA"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 7136,
+                    "ocr_text": "Productores Ejecutivos EMMA LUSTRES CARLOS MONTERO BORJA PENA",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_050_second_half_frame_7136_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 53,
+            "original_start_frame": 8000,
+            "original_end_frame": 8061,
+            "original_start_timecode": "00:04:26.923",
+            "original_end_timecode": "00:04:28.959",
+            "duration_frames": 61,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "POWEREITT NOVARIZ scrito por JAVIER HOLGADO"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 8003,
+                    "ocr_text": "POWEREITT NOVARIZ scrito por JAVIER HOLGADO",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_053_second_half_frame_8003_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 54,
+            "original_start_frame": 8061,
+            "original_end_frame": 8129,
+            "original_start_timecode": "00:04:28.959",
+            "original_end_timecode": "00:04:31.228",
+            "duration_frames": 68,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Escrito por JAVIER HOLGADO VICENTE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 8064,
+                    "ocr_text": "Escrito por JAVIER HOLGADO VICENTE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_054_second_half_frame_8064_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 55,
+            "original_start_frame": 8129,
+            "original_end_frame": 8250,
+            "original_start_timecode": "00:04:31.228",
+            "original_end_timecode": "00:04:35.265",
+            "duration_frames": 121,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Dirigido por SÍLVIA QUER"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 8135,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 8141,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 8147,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 8153,
+                    "ocr_text": "Dirigido por SÍLVIA QUER",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_055_second_half_frame_8153_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 8135: No text found (CLAHE)",
+                "Frame 8141: No text found (CLAHE)",
+                "Frame 8147: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 56,
+            "original_start_frame": 8250,
+            "original_end_frame": 8303,
+            "original_start_timecode": "00:04:35.265",
+            "original_end_timecode": "00:04:37.033",
+            "duration_frames": 53,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "OWEL NOVAR"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 8252,
+                    "ocr_text": "OWEL NOVAR",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_056_second_half_frame_8252_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 107,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:03.570",
+            "duration_frames": 107,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 107,
+            "end_frame": 110,
+            "start_timecode": "00:00:03.570",
+            "end_timecode": "00:00:03.670",
+            "duration_frames": 3,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 110,
+            "end_frame": 146,
+            "start_timecode": "00:00:03.670",
+            "end_timecode": "00:00:04.871",
+            "duration_frames": 36,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 146,
+            "end_frame": 149,
+            "start_timecode": "00:00:04.871",
+            "end_timecode": "00:00:04.971",
+            "duration_frames": 3,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 149,
+            "end_frame": 360,
+            "start_timecode": "00:00:04.971",
+            "end_timecode": "00:00:12.012",
+            "duration_frames": 211,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 360,
+            "end_frame": 386,
+            "start_timecode": "00:00:12.012",
+            "end_timecode": "00:00:12.879",
+            "duration_frames": 26,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 6,
+            "start_frame": 386,
+            "end_frame": 403,
+            "start_timecode": "00:00:12.879",
+            "end_timecode": "00:00:13.446",
+            "duration_frames": 17,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 7,
+            "start_frame": 403,
+            "end_frame": 554,
+            "start_timecode": "00:00:13.446",
+            "end_timecode": "00:00:18.484",
+            "duration_frames": 151,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 8,
+            "start_frame": 554,
+            "end_frame": 646,
+            "start_timecode": "00:00:18.484",
+            "end_timecode": "00:00:21.554",
+            "duration_frames": 92,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 9,
+            "start_frame": 646,
+            "end_frame": 813,
+            "start_timecode": "00:00:21.554",
+            "end_timecode": "00:00:27.126",
+            "duration_frames": 167,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 10,
+            "start_frame": 813,
+            "end_frame": 1289,
+            "start_timecode": "00:00:27.126",
+            "end_timecode": "00:00:43.008",
+            "duration_frames": 476,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 11,
+            "start_frame": 1289,
+            "end_frame": 1766,
+            "start_timecode": "00:00:43.008",
+            "end_timecode": "00:00:58.923",
+            "duration_frames": 477,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 12,
+            "start_frame": 1766,
+            "end_frame": 1798,
+            "start_timecode": "00:00:58.923",
+            "end_timecode": "00:00:59.991",
+            "duration_frames": 32,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 13,
+            "start_frame": 1798,
+            "end_frame": 1916,
+            "start_timecode": "00:00:59.991",
+            "end_timecode": "00:01:03.928",
+            "duration_frames": 118,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 14,
+            "start_frame": 1916,
+            "end_frame": 1976,
+            "start_timecode": "00:01:03.928",
+            "end_timecode": "00:01:05.930",
+            "duration_frames": 60,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 15,
+            "start_frame": 1976,
+            "end_frame": 2045,
+            "start_timecode": "00:01:05.930",
+            "end_timecode": "00:01:08.232",
+            "duration_frames": 69,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 16,
+            "start_frame": 2045,
+            "end_frame": 2108,
+            "start_timecode": "00:01:08.232",
+            "end_timecode": "00:01:10.334",
+            "duration_frames": 63,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 17,
+            "start_frame": 2108,
+            "end_frame": 2228,
+            "start_timecode": "00:01:10.334",
+            "end_timecode": "00:01:14.338",
+            "duration_frames": 120,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 18,
+            "start_frame": 2228,
+            "end_frame": 2310,
+            "start_timecode": "00:01:14.338",
+            "end_timecode": "00:01:17.074",
+            "duration_frames": 82,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 19,
+            "start_frame": 2310,
+            "end_frame": 2509,
+            "start_timecode": "00:01:17.074",
+            "end_timecode": "00:01:23.714",
+            "duration_frames": 199,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 20,
+            "start_frame": 2509,
+            "end_frame": 2549,
+            "start_timecode": "00:01:23.714",
+            "end_timecode": "00:01:25.048",
+            "duration_frames": 40,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 21,
+            "start_frame": 2549,
+            "end_frame": 2802,
+            "start_timecode": "00:01:25.048",
+            "end_timecode": "00:01:33.490",
+            "duration_frames": 253,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 22,
+            "start_frame": 2802,
+            "end_frame": 2847,
+            "start_timecode": "00:01:33.490",
+            "end_timecode": "00:01:34.991",
+            "duration_frames": 45,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 23,
+            "start_frame": 2847,
+            "end_frame": 2957,
+            "start_timecode": "00:01:34.991",
+            "end_timecode": "00:01:38.662",
+            "duration_frames": 110,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 24,
+            "start_frame": 2957,
+            "end_frame": 3000,
+            "start_timecode": "00:01:38.662",
+            "end_timecode": "00:01:40.096",
+            "duration_frames": 43,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 25,
+            "start_frame": 3000,
+            "end_frame": 3289,
+            "start_timecode": "00:01:40.096",
+            "end_timecode": "00:01:49.739",
+            "duration_frames": 289,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 26,
+            "start_frame": 3289,
+            "end_frame": 3312,
+            "start_timecode": "00:01:49.739",
+            "end_timecode": "00:01:50.506",
+            "duration_frames": 23,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 27,
+            "start_frame": 3312,
+            "end_frame": 3509,
+            "start_timecode": "00:01:50.506",
+            "end_timecode": "00:01:57.079",
+            "duration_frames": 197,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 28,
+            "start_frame": 3509,
+            "end_frame": 3728,
+            "start_timecode": "00:01:57.079",
+            "end_timecode": "00:02:04.386",
+            "duration_frames": 219,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 29,
+            "start_frame": 3728,
+            "end_frame": 3870,
+            "start_timecode": "00:02:04.386",
+            "end_timecode": "00:02:09.124",
+            "duration_frames": 142,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 30,
+            "start_frame": 3870,
+            "end_frame": 4121,
+            "start_timecode": "00:02:09.124",
+            "end_timecode": "00:02:17.499",
+            "duration_frames": 251,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 31,
+            "start_frame": 4121,
+            "end_frame": 4352,
+            "start_timecode": "00:02:17.499",
+            "end_timecode": "00:02:25.206",
+            "duration_frames": 231,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 32,
+            "start_frame": 4352,
+            "end_frame": 4449,
+            "start_timecode": "00:02:25.206",
+            "end_timecode": "00:02:28.443",
+            "duration_frames": 97,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 33,
+            "start_frame": 4449,
+            "end_frame": 4838,
+            "start_timecode": "00:02:28.443",
+            "end_timecode": "00:02:41.422",
+            "duration_frames": 389,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 34,
+            "start_frame": 4838,
+            "end_frame": 4996,
+            "start_timecode": "00:02:41.422",
+            "end_timecode": "00:02:46.694",
+            "duration_frames": 158,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 35,
+            "start_frame": 4996,
+            "end_frame": 5087,
+            "start_timecode": "00:02:46.694",
+            "end_timecode": "00:02:49.730",
+            "duration_frames": 91,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 36,
+            "start_frame": 5087,
+            "end_frame": 5134,
+            "start_timecode": "00:02:49.730",
+            "end_timecode": "00:02:51.298",
+            "duration_frames": 47,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 37,
+            "start_frame": 5134,
+            "end_frame": 5179,
+            "start_timecode": "00:02:51.298",
+            "end_timecode": "00:02:52.800",
+            "duration_frames": 45,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 38,
+            "start_frame": 5179,
+            "end_frame": 5211,
+            "start_timecode": "00:02:52.800",
+            "end_timecode": "00:02:53.867",
+            "duration_frames": 32,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 39,
+            "start_frame": 5211,
+            "end_frame": 5280,
+            "start_timecode": "00:02:53.867",
+            "end_timecode": "00:02:56.169",
+            "duration_frames": 69,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 40,
+            "start_frame": 5280,
+            "end_frame": 5340,
+            "start_timecode": "00:02:56.169",
+            "end_timecode": "00:02:58.171",
+            "duration_frames": 60,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 41,
+            "start_frame": 5340,
+            "end_frame": 5410,
+            "start_timecode": "00:02:58.171",
+            "end_timecode": "00:03:00.507",
+            "duration_frames": 70,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 42,
+            "start_frame": 5410,
+            "end_frame": 5666,
+            "start_timecode": "00:03:00.507",
+            "end_timecode": "00:03:09.049",
+            "duration_frames": 256,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 43,
+            "start_frame": 5666,
+            "end_frame": 5738,
+            "start_timecode": "00:03:09.049",
+            "end_timecode": "00:03:11.451",
+            "duration_frames": 72,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 44,
+            "start_frame": 5738,
+            "end_frame": 5835,
+            "start_timecode": "00:03:11.451",
+            "end_timecode": "00:03:14.687",
+            "duration_frames": 97,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 45,
+            "start_frame": 5835,
+            "end_frame": 5905,
+            "start_timecode": "00:03:14.687",
+            "end_timecode": "00:03:17.023",
+            "duration_frames": 70,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 46,
+            "start_frame": 5905,
+            "end_frame": 5947,
+            "start_timecode": "00:03:17.023",
+            "end_timecode": "00:03:18.424",
+            "duration_frames": 42,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 47,
+            "start_frame": 5947,
+            "end_frame": 6015,
+            "start_timecode": "00:03:18.424",
+            "end_timecode": "00:03:20.693",
+            "duration_frames": 68,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 48,
+            "start_frame": 6015,
+            "end_frame": 6178,
+            "start_timecode": "00:03:20.693",
+            "end_timecode": "00:03:26.132",
+            "duration_frames": 163,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 49,
+            "start_frame": 6178,
+            "end_frame": 6185,
+            "start_timecode": "00:03:26.132",
+            "end_timecode": "00:03:26.365",
+            "duration_frames": 7,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 50,
+            "start_frame": 6185,
+            "end_frame": 6460,
+            "start_timecode": "00:03:26.365",
+            "end_timecode": "00:03:35.541",
+            "duration_frames": 275,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 51,
+            "start_frame": 6460,
+            "end_frame": 6748,
+            "start_timecode": "00:03:35.541",
+            "end_timecode": "00:03:45.150",
+            "duration_frames": 288,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 52,
+            "start_frame": 6748,
+            "end_frame": 7103,
+            "start_timecode": "00:03:45.150",
+            "end_timecode": "00:03:56.995",
+            "duration_frames": 355,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 53,
+            "start_frame": 7103,
+            "end_frame": 7766,
+            "start_timecode": "00:03:56.995",
+            "end_timecode": "00:04:19.116",
+            "duration_frames": 663,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 54,
+            "start_frame": 7766,
+            "end_frame": 7940,
+            "start_timecode": "00:04:19.116",
+            "end_timecode": "00:04:24.922",
+            "duration_frames": 174,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 55,
+            "start_frame": 7940,
+            "end_frame": 8000,
+            "start_timecode": "00:04:24.922",
+            "end_timecode": "00:04:26.923",
+            "duration_frames": 60,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 56,
+            "start_frame": 8000,
+            "end_frame": 8061,
+            "start_timecode": "00:04:26.923",
+            "end_timecode": "00:04:28.959",
+            "duration_frames": 61,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 57,
+            "start_frame": 8061,
+            "end_frame": 8129,
+            "start_timecode": "00:04:28.959",
+            "end_timecode": "00:04:31.228",
+            "duration_frames": 68,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 58,
+            "start_frame": 8129,
+            "end_frame": 8250,
+            "start_timecode": "00:04:31.228",
+            "end_timecode": "00:04:35.265",
+            "duration_frames": 121,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 59,
+            "start_frame": 8250,
+            "end_frame": 8303,
+            "start_timecode": "00:04:35.265",
+            "end_timecode": "00:04:37.033",
+            "duration_frames": 53,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 60,
+            "start_frame": 8303,
+            "end_frame": 8308,
+            "start_timecode": "00:04:37.033",
+            "end_timecode": "00:04:37.200",
+            "duration_frames": 5,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:33:21.227263"
+}

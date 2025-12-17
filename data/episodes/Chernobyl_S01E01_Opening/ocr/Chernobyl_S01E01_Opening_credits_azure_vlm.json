@@ -1,0 +1,62 @@
+[
+  {
+    "role_detail": "presents",
+    "name": "Sky",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_000_static_000_num00030_sim0.jpg"
+    ],
+    "original_frame_number": [
+      30
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "in association with",
+    "name": "HBO Miniseries",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_000_static_002_num00195_sim96.jpg"
+    ],
+    "original_frame_number": [
+      195
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "production",
+    "name": "Sister Pictures",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_000_static_003_num00255_sim41.jpg"
+    ],
+    "original_frame_number": [
+      255
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "A",
+    "name": "Mighty Mint",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_000_static_004_num00375_sim58.jpg"
+    ],
+    "original_frame_number": [
+      375
+    ],
+    "scene_position": "first_half"
+  }
+]

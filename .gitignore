@@ -10,7 +10,6 @@ ENV/
 .venv
 
 # Project specific
-data/episodes/
 data/raw/*.mp4
 data/raw/*.mkv
 data/raw/*.avi

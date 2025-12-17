@@ -1,0 +1,270 @@
+{
+    "episode_id": "Yes,_Prime_Minister_1x8",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 1,
+            "original_start_frame": 30,
+            "original_end_frame": 358,
+            "original_start_timecode": "00:00:01.202",
+            "original_end_timecode": "00:00:14.343",
+            "duration_frames": 328,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "YES, PRIME MINISTER"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 46,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 62,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 79,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 95,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 112,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 128,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 144,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 161,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 177,
+                    "ocr_text": "YES, PRIME MINISTER",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_first_half_frame_177_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 46: No text found (CLAHE)",
+                "Frame 62: No text found (CLAHE)",
+                "Frame 79: No text found (CLAHE)",
+                "Frame 95: No text found (CLAHE)",
+                "Frame 112: No text found (CLAHE)",
+                "Frame 128: No text found (CLAHE)",
+                "Frame 144: No text found (CLAHE)",
+                "Frame 161: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 3,
+            "original_start_frame": 375,
+            "original_end_frame": 897,
+            "original_start_timecode": "00:00:15.025",
+            "original_end_timecode": "00:00:35.939",
+            "duration_frames": 522,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Starring PAUL EDDINGTON"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 401,
+                    "ocr_text": "NO",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 427,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 453,
+                    "ocr_text": "7",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 479,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 505,
+                    "ocr_text": "Starring PAUL EDDINGTON",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_003_first_half_frame_505_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 427: No text found (CLAHE)",
+                "Frame 479: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 4,
+            "original_start_frame": 897,
+            "original_end_frame": 1039,
+            "original_start_timecode": "00:00:35.939",
+            "original_end_timecode": "00:00:41.628",
+            "duration_frames": 142,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "THE MINISTER"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 904,
+                    "ocr_text": "THE MINISTER",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_004_first_half_frame_904_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 5,
+            "original_start_frame": 1039,
+            "original_end_frame": 2150,
+            "original_start_timecode": "00:00:41.628",
+            "original_end_timecode": "00:01:26.141",
+            "duration_frames": 1111,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "PAUL EDDINGTON NIGEL HAWTHORNE DEREK FOWLDS JOHN WELLS BARRY STANTON"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1094,
+                    "ocr_text": "PAUL EDDINGTON NIGEL HAWTHORNE DEREK FOWLDS JOHN WELLS BARRY STANTON",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_005_first_half_frame_1094_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 30,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:01.202",
+            "duration_frames": 30,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 30,
+            "end_frame": 358,
+            "start_timecode": "00:00:01.202",
+            "end_timecode": "00:00:14.343",
+            "duration_frames": 328,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 358,
+            "end_frame": 374,
+            "start_timecode": "00:00:14.343",
+            "end_timecode": "00:00:14.985",
+            "duration_frames": 16,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 374,
+            "end_frame": 375,
+            "start_timecode": "00:00:14.985",
+            "end_timecode": "00:00:15.025",
+            "duration_frames": 1,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 375,
+            "end_frame": 897,
+            "start_timecode": "00:00:15.025",
+            "end_timecode": "00:00:35.939",
+            "duration_frames": 522,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 897,
+            "end_frame": 1039,
+            "start_timecode": "00:00:35.939",
+            "end_timecode": "00:00:41.628",
+            "duration_frames": 142,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 6,
+            "start_frame": 1039,
+            "end_frame": 2150,
+            "start_timecode": "00:00:41.628",
+            "end_timecode": "00:01:26.141",
+            "duration_frames": 1111,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 7,
+            "start_frame": 2150,
+            "end_frame": 2151,
+            "start_timecode": "00:01:26.141",
+            "end_timecode": "00:01:26.181",
+            "duration_frames": 1,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:45:03.140093"
+}

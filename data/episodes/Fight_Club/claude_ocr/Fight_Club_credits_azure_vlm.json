@@ -1,0 +1,6374 @@
+[
+  {
+    "role_detail": null,
+    "name": "20th Century Fox",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_001_static_005_num00434_sim69.jpg"
+    ],
+    "original_frame_number": [
+      434
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Regency",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_001_static_014_num00758_sim87.jpg"
+    ],
+    "original_frame_number": [
+      758
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Present",
+    "name": "FOX 2000 PICTURES",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_001_static_020_num00950_sim74.jpg"
+    ],
+    "original_frame_number": [
+      950
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Present",
+    "name": "REGENCY ENTERPRISES",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_001_static_020_num00950_sim74.jpg"
+    ],
+    "original_frame_number": [
+      950
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "A Lin'son Films Production",
+    "name": "Lin'son Films",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_001_static_023_num01022_sim30.jpg"
+    ],
+    "original_frame_number": [
+      1022
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "A DAVID FINCHER FILM",
+    "name": "David Fincher",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_001_static_029_num01106_sim96.jpg",
+      "scene_023_scroll_000_num02883_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1106,
+      2883
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Edward Norton",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_003_static_000_num01288_sim87.jpg",
+      "scene_024_static_004_num03118_sim29.jpg"
+    ],
+    "original_frame_number": [
+      1288,
+      3118
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Helena Bonham Carter",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_static_000_num01363_sim87.jpg",
+      "scene_024_static_005_num03202_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1363,
+      3202
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Casting by",
+    "name": "Laray Mayfield",
+    "role_group": "Casting Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Directors",
+    "source_frame": [
+      "scene_009_static_001_num01777_sim87.jpg"
+    ],
+    "original_frame_number": [
+      1777
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Costume Designer",
+    "name": "Michael Kaplan",
+    "role_group": "Costume Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume Designers",
+    "source_frame": [
+      "scene_010_static_000_num01851_sim81.jpg"
+    ],
+    "original_frame_number": [
+      1851
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Music by",
+    "name": "The Dust Brothers",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_014_static_001_num02059_sim88.jpg"
+    ],
+    "original_frame_number": [
+      2059
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Director of Photography",
+    "name": "Jeff Cronenweth",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_017_static_001_num02265_sim94.jpg"
+    ],
+    "original_frame_number": [
+      2265
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Executive Producer",
+    "name": "Arnon Milchan",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_017_static_005_num02326_sim77.jpg"
+    ],
+    "original_frame_number": [
+      2326
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Based on the Novel by",
+    "name": "Chuck Palahniuk",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_019_static_000_num02392_sim47.jpg"
+    ],
+    "original_frame_number": [
+      2392
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Produced by",
+    "name": "Art Linson",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_022_static_001_num02754_sim94.jpg"
+    ],
+    "original_frame_number": [
+      2754
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Produced by",
+    "name": "Cean Chaffin",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_022_static_001_num02754_sim94.jpg"
+    ],
+    "original_frame_number": [
+      2754
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Produced by",
+    "name": "Ross Grayson Bell",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_022_static_001_num02754_sim94.jpg"
+    ],
+    "original_frame_number": [
+      2754
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Unit Production Manager",
+    "name": "Helen Pollak",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_024_static_002_num02962_sim26.jpg"
+    ],
+    "original_frame_number": [
+      2962
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "First Assistant Director",
+    "name": "Mike Topoozian",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_024_static_003_num03034_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3034
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Second Assistant Director",
+    "name": "Bob Wagner",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_024_static_003_num03034_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3034
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Tyler Durden",
+    "name": "Brad Pitt",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_004_num03118_sim29.jpg"
+    ],
+    "original_frame_number": [
+      3118
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Robert Paulsen",
+    "name": "Meat Loaf Aday",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_004_num03118_sim29.jpg"
+    ],
+    "original_frame_number": [
+      3118
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Richard Chesler (Regional Manager)",
+    "name": "Zach Grenier",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_004_num03118_sim29.jpg"
+    ],
+    "original_frame_number": [
+      3118
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Intern at Hospital",
+    "name": "Richmond Arquette",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_004_num03118_sim29.jpg"
+    ],
+    "original_frame_number": [
+      3118
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Thomas at Remaining Men Together",
+    "name": "David Andrews",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_004_num03118_sim29.jpg"
+    ],
+    "original_frame_number": [
+      3118
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Group Leader - Remaining Men Together",
+    "name": "George Maguire",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_004_num03118_sim29.jpg"
+    ],
+    "original_frame_number": [
+      3118
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Weeping Woman - Onward and Upward",
+    "name": "Eugenie Bondurant",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_004_num03118_sim29.jpg"
+    ],
+    "original_frame_number": [
+      3118
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Leader - Partners In Positivity",
+    "name": "Christina Cabot",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_004_num03118_sim29.jpg"
+    ],
+    "original_frame_number": [
+      3118
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Speaker - Free and Clear",
+    "name": "Sydney \"Big Dawg\" Colston",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_005_num03202_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3202
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Chloe",
+    "name": "Rachel Singer",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_005_num03202_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3202
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Airline Check-In Attendant",
+    "name": "Christie Cronenweth",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_005_num03202_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3202
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Federated Motor Co. Inspector Bird",
+    "name": "Tim deZarn",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_005_num03202_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3202
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Federated Motor Co. Inspector Dent",
+    "name": "Ezra Buzzington",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_005_num03202_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3202
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Business Woman on Plane",
+    "name": "Dierdre Downing-Jackson",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_005_num03202_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3202
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Airport Security Officer",
+    "name": "Robert J. Stephenson",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_005_num03202_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3202
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Doorman at Pearson Towers",
+    "name": "Charlie Dell",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_005_num03202_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3202
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Man in Suit",
+    "name": "Rob Lanza",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_005_num03202_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3202
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Walter",
+    "name": "David Lee Smith",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_007_num03310_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3310
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "The Mechanic",
+    "name": "Holt McCallany",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_007_num03310_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3310
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Food Court Maitre d'",
+    "name": "Joel Bissonnette",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_007_num03310_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3310
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Ricky",
+    "name": "Eion Bailey",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_007_num03310_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3310
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "\"Steph\"",
+    "name": "Evan Mirand",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_007_num03310_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3310
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Next Month's Opponent",
+    "name": "Robby Robinson",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_007_num03310_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3310
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Cop at Marla's Building",
+    "name": "Lou Beatty, Jr.",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_007_num03310_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3310
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Detective Stern",
+    "name": "Thom Gossom, Jr.",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_007_num03310_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3310
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Cosmetics Buyer",
+    "name": "Valerie Bickford",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_007_num03310_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3310
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Angel Face",
+    "name": "Jared Leto",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_007_num03310_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3310
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Lou",
+    "name": "Peter Iacangelo",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_008_num03382_sim49.jpg"
+    ],
+    "original_frame_number": [
+      3382
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Lou's Body Guard",
+    "name": "Carl N. Ciarfalio",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_008_num03382_sim49.jpg"
+    ],
+    "original_frame_number": [
+      3382
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Car Salesman",
+    "name": "Stuart Blumberg",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_008_num03382_sim49.jpg"
+    ],
+    "original_frame_number": [
+      3382
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "First Man at Auto Shop",
+    "name": "Todd Peirce",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_008_num03382_sim49.jpg"
+    ],
+    "original_frame_number": [
+      3382
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Second Man at Auto Shop",
+    "name": "Mark Fite",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_008_num03382_sim49.jpg"
+    ],
+    "original_frame_number": [
+      3382
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Seminary Student",
+    "name": "Matt Winston",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_008_num03382_sim49.jpg"
+    ],
+    "original_frame_number": [
+      3382
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Raymond K. Hessel",
+    "name": "Joon B. Kim",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_008_num03382_sim49.jpg"
+    ],
+    "original_frame_number": [
+      3382
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Bus Driver with Broken Nose",
+    "name": "Bennie E. Moore, Jr.",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_008_num03382_sim49.jpg"
+    ],
+    "original_frame_number": [
+      3382
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Channel 4 Reporter",
+    "name": "W. Lauren Sanchez",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_008_num03382_sim49.jpg"
+    ],
+    "original_frame_number": [
+      3382
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Commissioner Jacobs",
+    "name": "Pat McNamara",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_008_num03382_sim49.jpg"
+    ],
+    "original_frame_number": [
+      3382
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Banquet Speaker",
+    "name": "Tyrone R. Livingston",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_009_num03478_sim51.jpg"
+    ],
+    "original_frame_number": [
+      3478
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Airport Valet",
+    "name": "Owen Masterson",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_009_num03478_sim51.jpg"
+    ],
+    "original_frame_number": [
+      3478
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Policeman",
+    "name": "David Jean-Thomas",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_009_num03478_sim51.jpg"
+    ],
+    "original_frame_number": [
+      3478
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Salvator - Winking Bartender",
+    "name": "Paul Carafotes",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_009_num03478_sim51.jpg"
+    ],
+    "original_frame_number": [
+      3478
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Proprietor of Dry Cleaners",
+    "name": "Christopher John Fields",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_009_num03478_sim51.jpg"
+    ],
+    "original_frame_number": [
+      3478
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Bruised Bar Patron #1",
+    "name": "Anderson Bourell",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_009_num03478_sim51.jpg"
+    ],
+    "original_frame_number": [
+      3478
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Bruised Bar Patron #2",
+    "name": "Scotch Ellis Loring",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_009_num03478_sim51.jpg"
+    ],
+    "original_frame_number": [
+      3478
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Bartender in Halo",
+    "name": "Michael Shamus Wiles",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_009_num03478_sim51.jpg"
+    ],
+    "original_frame_number": [
+      3478
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Hotel Desk Clerk",
+    "name": "Andi Carnick",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_009_num03478_sim51.jpg"
+    ],
+    "original_frame_number": [
+      3478
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Waiter at Clifton's",
+    "name": "Edward Kowalczyk",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_009_num03478_sim51.jpg"
+    ],
+    "original_frame_number": [
+      3478
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Desk Sergeant",
+    "name": "Leonard Termo",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_010_num03562_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3562
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Detective Andrew",
+    "name": "Van Quattro",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_010_num03562_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3562
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Detective Kevin",
+    "name": "Markus Redmond",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_010_num03562_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3562
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Detective Walker",
+    "name": "Michael Girardin",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_024_static_010_num03562_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3562
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stunt Coordinator",
+    "name": "Michael Runyard",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_024_static_010_num03562_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3562
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stunt Players",
+    "name": "Damon Caro",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_024_static_010_num03562_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3562
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stunt Players",
+    "name": "Jeff Imada",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_024_static_010_num03562_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3562
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stunt Players",
+    "name": "David Leitch",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_024_static_010_num03562_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3562
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Stunt Players",
+    "name": "Jimmy Nickerson",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_024_static_010_num03562_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3562
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Associate Producer",
+    "name": "John S. Dorsey",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_024_static_011_num03646_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3646
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Art Director",
+    "name": "Chris Gorak",
+    "role_group": "Art Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Directors",
+    "source_frame": [
+      "scene_024_static_011_num03646_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3646
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Set Decorator",
+    "name": "Jay R. Hart",
+    "role_group": "Set Decorators",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Set Decorators",
+    "source_frame": [
+      "scene_024_static_011_num03646_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3646
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Camera Operator",
+    "name": "Conrad W. Hall",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_011_num03646_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3646
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "First Assistant Camera",
+    "name": "John Connor",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_011_num03646_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3646
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Second Assistant Camera",
+    "name": "Lisa Guerriero",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_011_num03646_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3646
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Steadicam Operator",
+    "name": "Chris Haarhoff",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_011_num03646_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3646
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Camera Loader",
+    "name": "Gary Kanner",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_011_num03646_sim45.jpg"
+    ],
+    "original_frame_number": [
+      3646
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Post Production Supervisor",
+    "name": "Peter Mavromates",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_024_static_014_num03814_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3814
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Production Supervisor",
+    "name": "Julie M. Anderson",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_024_static_014_num03814_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3814
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Production Coordinator",
+    "name": "Robb Earnest",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_024_static_014_num03814_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3814
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistant Production Coordinator",
+    "name": "David McKimmie",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_024_static_014_num03814_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3814
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Script Supervisor",
+    "name": "Dina Waxman",
+    "role_group": "Script and Continuity Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Script and Continuity Department",
+    "source_frame": [
+      "scene_024_static_014_num03814_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3814
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Location Managers",
+    "name": "Rick Schuler",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_024_static_014_num03814_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3814
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Location Managers",
+    "name": "Flint Maloney",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_024_static_014_num03814_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3814
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Second Second Assistant Directors",
+    "name": "Allen Kupetsky",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_024_static_014_num03814_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3814
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Second Second Assistant Directors",
+    "name": "Michael A. McCue",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_024_static_014_num03814_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3814
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Sound Mixer",
+    "name": "Jeff Wexler",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_024_static_014_num03814_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3814
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Boom Operator",
+    "name": "Don Coufal",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_024_static_014_num03814_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3814
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Sound Technician",
+    "name": "Mark C. Grech",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_024_static_016_num03850_sim97.jpg"
+    ],
+    "original_frame_number": [
+      3850
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Gaffer",
+    "name": "Claudio Miranda",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_016_num03850_sim97.jpg"
+    ],
+    "original_frame_number": [
+      3850
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Best Boy Electric",
+    "name": "Eddy Maloney",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_016_num03850_sim97.jpg"
+    ],
+    "original_frame_number": [
+      3850
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Fox Best Boy Electric",
+    "name": "Mike Arvanitis",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_016_num03850_sim97.jpg"
+    ],
+    "original_frame_number": [
+      3850
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Rigging Gaffer",
+    "name": "Marty Bosworth",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_016_num03850_sim97.jpg"
+    ],
+    "original_frame_number": [
+      3850
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Rigging Best Boy Electric",
+    "name": "Dave Diamond",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_016_num03850_sim97.jpg"
+    ],
+    "original_frame_number": [
+      3850
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Company Electricians",
+    "name": "Anthony Van Dyke",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_016_num03850_sim97.jpg"
+    ],
+    "original_frame_number": [
+      3850
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Company Electricians",
+    "name": "Clive Richards",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_016_num03850_sim97.jpg"
+    ],
+    "original_frame_number": [
+      3850
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Company Electricians",
+    "name": "Harold J. Skinner",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_016_num03850_sim97.jpg"
+    ],
+    "original_frame_number": [
+      3850
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Company Electricians",
+    "name": "Tom Sugg",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_016_num03850_sim97.jpg"
+    ],
+    "original_frame_number": [
+      3850
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Company Electricians",
+    "name": "James Noble",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_016_num03850_sim97.jpg"
+    ],
+    "original_frame_number": [
+      3850
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Key Grip",
+    "name": "Michael J. Coo",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_017_num03922_sim53.jpg"
+    ],
+    "original_frame_number": [
+      3922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Best Boy Grip",
+    "name": "Craig Kohtala",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_017_num03922_sim53.jpg"
+    ],
+    "original_frame_number": [
+      3922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Fox Best Boy Grip",
+    "name": "Rhett Wooden",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_017_num03922_sim53.jpg"
+    ],
+    "original_frame_number": [
+      3922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Dolly Grip",
+    "name": "Michael Brennan",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_017_num03922_sim53.jpg"
+    ],
+    "original_frame_number": [
+      3922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Rigging Key Grip",
+    "name": "Larry Aube",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_017_num03922_sim53.jpg"
+    ],
+    "original_frame_number": [
+      3922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Rigging Best Boy Grips",
+    "name": "Michael Santoro",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_017_num03922_sim53.jpg"
+    ],
+    "original_frame_number": [
+      3922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Rigging Best Boy Grips",
+    "name": "Robert J. Reilly",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_017_num03922_sim53.jpg"
+    ],
+    "original_frame_number": [
+      3922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Company Grips",
+    "name": "Nico Bally",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_017_num03922_sim53.jpg"
+    ],
+    "original_frame_number": [
+      3922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Company Grips",
+    "name": "John P. Cleveland",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_017_num03922_sim53.jpg"
+    ],
+    "original_frame_number": [
+      3922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Company Grips",
+    "name": "Ken Gottengim, Jr.",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_024_static_017_num03922_sim53.jpg"
+    ],
+    "original_frame_number": [
+      3922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Key Make-Up Artist",
+    "name": "Julie Pearce",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_024_static_017_num03922_sim53.jpg"
+    ],
+    "original_frame_number": [
+      3922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Make-Up Artists",
+    "name": "Randy S. Westgate",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_024_static_017_num03922_sim53.jpg"
+    ],
+    "original_frame_number": [
+      3922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Make-Up Artists",
+    "name": "Margaret Prentice",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_024_static_017_num03922_sim53.jpg"
+    ],
+    "original_frame_number": [
+      3922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Mr. Pitt's Make-Up Artist",
+    "name": "Jean A. Black",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_025_static_000_num04002_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4002
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Special Make-Up Effects",
+    "name": "Rob Bottin Productions, Inc.",
+    "role_group": "Special Effects Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Special Effects Companies",
+    "source_frame": [
+      "scene_025_static_000_num04002_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4002
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production Manager",
+    "name": "Christopher Heeter",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_025_static_000_num04002_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4002
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Illustrator/Sculptor",
+    "name": "Taishiro Kiya",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_025_static_000_num04002_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4002
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Sculptors",
+    "name": "Motoyoshi Hata",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_025_static_000_num04002_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4002
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Sculptors",
+    "name": "Glen Hanz",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_025_static_000_num04002_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4002
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Mold Maker",
+    "name": "Arthur Pimentel",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_025_static_000_num04002_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4002
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Prosthetic Technician",
+    "name": "Greg Solomon",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_025_static_000_num04002_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4002
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Key Hair Stylist",
+    "name": "Frida Aradottir",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_025_static_000_num04002_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4002
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Hair Stylist",
+    "name": "Patty Miller",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_025_static_000_num04002_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4002
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Mr. Pitt's Hair Consultant",
+    "name": "Rebecca Deleo",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_025_static_000_num04002_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4002
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Special Dental Effects",
+    "name": "Rick Glassman, D.D.S.",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_025_static_000_num04002_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4002
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Property Master",
+    "name": "Roy \"Bucky\" Moore",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_025_static_002_num04146_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4146
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant Property Masters",
+    "name": "Bryan Duff",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_025_static_002_num04146_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4146
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant Property Masters",
+    "name": "Bryce Moore",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_025_static_002_num04146_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4146
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant Art Director",
+    "name": "Seth Reed",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_025_static_002_num04146_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4146
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphic Designer",
+    "name": "Eric Rosenberg",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_025_static_002_num04146_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4146
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Costume Supervisor",
+    "name": "Elinor Bardach",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_025_static_002_num04146_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4146
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Key Costumers",
+    "name": "Rhona Meyers",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_025_static_002_num04146_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4146
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Key Costumers",
+    "name": "Wendy Greiner",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_025_static_002_num04146_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4146
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Costumers",
+    "name": "Terry Anderson",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_025_static_002_num04146_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4146
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Costumers",
+    "name": "Wendy M. Craig",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_025_static_002_num04146_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4146
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Costumers",
+    "name": "Amanda Friedland",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_025_static_002_num04146_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4146
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Bob Suit Keyperson",
+    "name": "Camilla Henneman",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_025_static_002_num04146_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4146
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Special Effects Coordinator",
+    "name": "Cliff Wenger",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_026_static_001_num04204_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4204
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Special Effects Foreman",
+    "name": "Eric Roberts",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_026_static_001_num04204_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4204
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Special Effects",
+    "name": "Derrell \"Shawn\" Roberts",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_026_static_001_num04204_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4204
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Special Effects",
+    "name": "Derrick Crane",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_026_static_001_num04204_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4204
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Special Effects",
+    "name": "Kevin Pike",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_026_static_001_num04204_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4204
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production Accountant",
+    "name": "Jim C. Davidson",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_026_static_001_num04204_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4204
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "1st Assistant Accountant",
+    "name": "Joe Hartwick, Jr.",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_026_static_001_num04204_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4204
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "2nd Assistant Accountants",
+    "name": "Julie Ann Snow",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_026_static_001_num04204_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4204
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "2nd Assistant Accountants",
+    "name": "Eileen M. Dennis",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_026_static_001_num04204_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4204
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Construction Accountant",
+    "name": "Carrie Best",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_026_static_001_num04204_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4204
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Payroll Accountant",
+    "name": "Cindy Nevins",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_026_static_001_num04204_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4204
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Post-Production Accountant",
+    "name": "Karen Chalk Wheeler",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_026_static_001_num04204_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4204
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Accounting Assistant",
+    "name": "David J. Cofini",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_026_static_001_num04204_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4204
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Construction Coordinator",
+    "name": "Jeff Passanante",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Construction Foreman",
+    "name": "Tim Lafferty",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Head Paint Foreman",
+    "name": "Tom Brown",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Standby Painter",
+    "name": "Bill \"Kauhane\" Hoyt",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Propmaker Foremen",
+    "name": "David Brenner",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Propmaker Foremen",
+    "name": "Clint Taylor",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Propmaker Foremen",
+    "name": "Neil Gahm",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Propmaker Foremen",
+    "name": "Timothy Vierra",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Propmaker Foremen",
+    "name": "\"Butch\" Montgomery",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Propmaker Foremen",
+    "name": "George M. Stokes, Jr.",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Propmaker Foremen",
+    "name": "Stephen Roll",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Paint Foremen",
+    "name": "Larry Laurent",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Paint Foremen",
+    "name": "Andy Scudier",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Paint Foremen",
+    "name": "Paul Milton Rohrbaugh III",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Paint Foremen",
+    "name": "Bruce G. Smith",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Labor Foremen",
+    "name": "John Leone",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Labor Foremen",
+    "name": "Sam Aguilar",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Labor Foremen",
+    "name": "Manny Valenzuela",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_027_static_000_num04269_sim45.jpg"
+    ],
+    "original_frame_number": [
+      4269
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Art Department Coordinator",
+    "name": "S. Quinn",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_028_static_001_num04418_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4418
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Art Department Assistant",
+    "name": "Dianne Chadwick",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_028_static_001_num04418_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4418
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Storyboard Artist",
+    "name": "Peter Ramsey",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_028_static_001_num04418_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4418
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Designers",
+    "name": "Luis G. Hoyos",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_028_static_001_num04418_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4418
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Designers",
+    "name": "Hugo Santiago",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_028_static_001_num04418_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4418
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Designers",
+    "name": "Peter J. Kelly",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_028_static_001_num04418_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4418
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Designers",
+    "name": "Domenic M. Silvestri",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_028_static_001_num04418_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4418
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Designers",
+    "name": "Julia Levine",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_028_static_001_num04418_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4418
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Illustrators",
+    "name": "Rick K. Buden",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_028_static_001_num04418_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4418
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Illustrators",
+    "name": "Tani Kunitake",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_028_static_001_num04418_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4418
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Model Maker",
+    "name": "Fanée Aaron",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_028_static_001_num04418_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4418
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Leadman",
+    "name": "Scott Bailey",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_028_static_001_num04418_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4418
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "On Set Dresser",
+    "name": "Gregory M. Rocco",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_028_static_001_num04418_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4418
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Dressing Buyer",
+    "name": "Danielle M. Simpson",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_028_static_001_num04418_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4418
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Casting Associate",
+    "name": "Karen Miesels",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Casting Assistant",
+    "name": "Christie Gean George",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Extras Casting",
+    "name": "Bill Dance Casting",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Video Assist",
+    "name": "Wayne R. Tidwell",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Transportation Coordinator",
+    "name": "Dave Robling",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Transportation Captains",
+    "name": "Thomas F. Marshall",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Transportation Captains",
+    "name": "Frank Roughan",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Transportation Captains",
+    "name": "Jim Alfonso",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Dressers",
+    "name": "Charles W. Belisle",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Dressers",
+    "name": "Doug Sieck",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Dressers",
+    "name": "Max E. Brehme",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Dressers",
+    "name": "Tim Wiles",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Dressers",
+    "name": "William Andrew",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Dressers",
+    "name": "John Grant",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Dressers",
+    "name": "Adam Pearlman",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Dressers",
+    "name": "Chris Grantz",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Dressers",
+    "name": "Kim Blomberg",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Dressers",
+    "name": "Tyler Patton",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_029_static_000_num04447_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4447
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Transportation Office Asst.",
+    "name": "Marilyn Tasso",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_030_static_000_num04536_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4536
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Production Assistants",
+    "name": "Buz Presock",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_030_static_000_num04536_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4536
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Production Assistants",
+    "name": "Michael Herron",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_030_static_000_num04536_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4536
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Set Production Assistants",
+    "name": "Maria Mantia",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_030_static_000_num04536_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4536
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production Assistants",
+    "name": "Jeffrey Roderick Woods",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_030_static_000_num04536_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4536
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production Assistants",
+    "name": "Patrick Thornhill",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_030_static_000_num04536_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4536
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production Assistants",
+    "name": "Kieron Estrada",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_030_static_000_num04536_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4536
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production Assistants",
+    "name": "Brandon M. Cox",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_030_static_000_num04536_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4536
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Caterer",
+    "name": "Gala Catering",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_030_static_000_num04536_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4536
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Craft Service",
+    "name": "Raymond Bulinski",
+    "role_group": "Craft Services",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Craft Services",
+    "source_frame": [
+      "scene_030_static_000_num04536_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4536
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Craft Service",
+    "name": "Susan B. Kreutz",
+    "role_group": "Craft Services",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Craft Services",
+    "source_frame": [
+      "scene_030_static_000_num04536_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4536
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Still Photographer",
+    "name": "Merrick Morton",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_030_static_000_num04536_sim49.jpg"
+    ],
+    "original_frame_number": [
+      4536
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistants to Mr. Mitchan",
+    "name": "Shauna Beal",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_031_static_001_num04637_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4637
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistants to Mr. Mitchan",
+    "name": "Hasina Deary",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_031_static_001_num04637_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4637
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Mr. Linson's Associate",
+    "name": "Patti Roberts Nelson",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_031_static_001_num04637_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4637
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant to Ms. Chaflin",
+    "name": "Alison Abrohams",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_031_static_001_num04637_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4637
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant to Mr. Norton",
+    "name": "Julia P. Pitt",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_031_static_001_num04637_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4637
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant to Mr. Pitt",
+    "name": "Rich Malchar",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_031_static_001_num04637_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4637
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Dialect Coach",
+    "name": "Francie Brown",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_031_static_001_num04637_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4637
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Editorial Consultant",
+    "name": "Angus Wall",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_031_static_001_num04637_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4637
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "First Assistant Editors",
+    "name": "Alex Olivares",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_031_static_001_num04637_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4637
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "First Assistant Editors",
+    "name": "Michael Matzdorff",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_031_static_001_num04637_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4637
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Second Assistant Editors",
+    "name": "Michelle Mendenhall",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_031_static_001_num04637_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4637
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Second Assistant Editors",
+    "name": "Babette Dickerson",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_031_static_001_num04637_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4637
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Second Assistant Editors",
+    "name": "Martha Anne Francis",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_031_static_001_num04637_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4637
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Apprentice Editor",
+    "name": "Robert Longstreet Wheeler",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_031_static_001_num04637_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4637
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Post Production Sound Services provided by",
+    "name": "Skywalker Sound",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_032_static_000_num04714_sim33.jpg"
+    ],
+    "original_frame_number": [
+      4714
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Sound Supervisor",
+    "name": "Richard Hymns",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_002_num04858_sim100.jpg"
+    ],
+    "original_frame_number": [
+      4858
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Re-recording Mixers",
+    "name": "David Parker",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_002_num04858_sim100.jpg"
+    ],
+    "original_frame_number": [
+      4858
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Re-recording Mixers",
+    "name": "Michael Semanick",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_002_num04858_sim100.jpg"
+    ],
+    "original_frame_number": [
+      4858
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Re-recording Mixers",
+    "name": "Todd Boekelheide",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_002_num04858_sim100.jpg"
+    ],
+    "original_frame_number": [
+      4858
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Additional Mixing",
+    "name": "David Gleeson",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_002_num04858_sim100.jpg"
+    ],
+    "original_frame_number": [
+      4858
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Supervising Foley Editor",
+    "name": "Malcolm Fife",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_002_num04858_sim100.jpg"
+    ],
+    "original_frame_number": [
+      4858
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Sound Effects Editors",
+    "name": "David C. Hughes",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_002_num04858_sim100.jpg"
+    ],
+    "original_frame_number": [
+      4858
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Sound Effects Editors",
+    "name": "Steve Boeddeker",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_002_num04858_sim100.jpg"
+    ],
+    "original_frame_number": [
+      4858
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Dialogue Editors",
+    "name": "Ewa Sztompke-Oatfield",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_002_num04858_sim100.jpg"
+    ],
+    "original_frame_number": [
+      4858
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Dialogue Editors",
+    "name": "Rich Quinn",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_002_num04858_sim100.jpg"
+    ],
+    "original_frame_number": [
+      4858
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "ADR Supervisor",
+    "name": "Gwendolyn Yates Whittle",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_002_num04858_sim100.jpg"
+    ],
+    "original_frame_number": [
+      4858
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "ADR Editor",
+    "name": "Tom Bellfort",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_002_num04858_sim100.jpg"
+    ],
+    "original_frame_number": [
+      4858
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Conforming Sound Editors",
+    "name": "Larry Oatfield",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_003_num04894_sim52.jpg"
+    ],
+    "original_frame_number": [
+      4894
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Conforming Sound Editors",
+    "name": "Lindakay Brown",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_003_num04894_sim52.jpg"
+    ],
+    "original_frame_number": [
+      4894
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Conforming Sound Editors",
+    "name": "Kyrsten Comoglio",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_003_num04894_sim52.jpg"
+    ],
+    "original_frame_number": [
+      4894
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Asst. Supervising Sound Editor",
+    "name": "Lisa Chino",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_003_num04894_sim52.jpg"
+    ],
+    "original_frame_number": [
+      4894
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Asst. Sound Designer",
+    "name": "Misa Kageyama",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_003_num04894_sim52.jpg"
+    ],
+    "original_frame_number": [
+      4894
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Asst. Sound Editors",
+    "name": "Jessica Bellfort",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_003_num04894_sim52.jpg"
+    ],
+    "original_frame_number": [
+      4894
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Asst. Sound Editors",
+    "name": "Sarah Hegarty",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_003_num04894_sim52.jpg"
+    ],
+    "original_frame_number": [
+      4894
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Asst. Sound Editors",
+    "name": "Andre Fenley",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_003_num04894_sim52.jpg"
+    ],
+    "original_frame_number": [
+      4894
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Asst. Sound Editors",
+    "name": "Larry Schalit",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_003_num04894_sim52.jpg"
+    ],
+    "original_frame_number": [
+      4894
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Sound Apprentice",
+    "name": "Doug Winningham",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_003_num04894_sim52.jpg"
+    ],
+    "original_frame_number": [
+      4894
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Mix Technicians",
+    "name": "Jurgen Scharpf",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_003_num04894_sim52.jpg"
+    ],
+    "original_frame_number": [
+      4894
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Mix Technicians",
+    "name": "Brandon Proctor",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_003_num04894_sim52.jpg"
+    ],
+    "original_frame_number": [
+      4894
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Foley Artists",
+    "name": "John Roesch",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_004_num04990_sim48.jpg"
+    ],
+    "original_frame_number": [
+      4990
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Foley Artists",
+    "name": "Hilda Hodges",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_004_num04990_sim48.jpg"
+    ],
+    "original_frame_number": [
+      4990
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Foley Mixer",
+    "name": "Mary Jo Lang",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_004_num04990_sim48.jpg"
+    ],
+    "original_frame_number": [
+      4990
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Foley Recordist",
+    "name": "Carolyn Tapp",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_004_num04990_sim48.jpg"
+    ],
+    "original_frame_number": [
+      4990
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "ADR Mixers",
+    "name": "Doc Kane",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_004_num04990_sim48.jpg"
+    ],
+    "original_frame_number": [
+      4990
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "ADR Mixers",
+    "name": "Charleen Richards",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_004_num04990_sim48.jpg"
+    ],
+    "original_frame_number": [
+      4990
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "ADR Mixers",
+    "name": "David Boulton",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_032_static_004_num04990_sim48.jpg"
+    ],
+    "original_frame_number": [
+      4990
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Music Editor",
+    "name": "Brian Richards",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_032_static_004_num04990_sim48.jpg"
+    ],
+    "original_frame_number": [
+      4990
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Score Arranged, Recorded and Mixed by",
+    "name": "Michael Simpson",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_032_static_004_num04990_sim48.jpg"
+    ],
+    "original_frame_number": [
+      4990
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Score Arranged, Recorded and Mixed by",
+    "name": "John King",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_032_static_004_num04990_sim48.jpg"
+    ],
+    "original_frame_number": [
+      4990
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Score Co-Produced by",
+    "name": "Art Hodge",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_032_static_004_num04990_sim48.jpg"
+    ],
+    "original_frame_number": [
+      4990
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Score Co-Produced by",
+    "name": "Charles Goodan",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_032_static_004_num04990_sim48.jpg"
+    ],
+    "original_frame_number": [
+      4990
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Score Recorded & Mixed at",
+    "name": "P.C.R. Labs - L.A.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_032_static_004_num04990_sim48.jpg"
+    ],
+    "original_frame_number": [
+      4990
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Voice Casting",
+    "name": "Mickie McGowan",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_032_static_005_num05074_sim45.jpg"
+    ],
+    "original_frame_number": [
+      5074
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Negative Cutter",
+    "name": "Kona Cutting",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_032_static_005_num05074_sim45.jpg"
+    ],
+    "original_frame_number": [
+      5074
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Color Timer",
+    "name": "David Orr",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "scene_032_static_005_num05074_sim45.jpg"
+    ],
+    "original_frame_number": [
+      5074
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Main Title Design",
+    "name": "Makela",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_032_static_005_num05074_sim45.jpg"
+    ],
+    "original_frame_number": [
+      5074
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "End Credits",
+    "name": "Scarlet Letters",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_032_static_005_num05074_sim45.jpg"
+    ],
+    "original_frame_number": [
+      5074
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "End Credits",
+    "name": "Custom Film Effects",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_032_static_005_num05074_sim45.jpg"
+    ],
+    "original_frame_number": [
+      5074
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Transitions by",
+    "name": "Pop Film",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_032_static_005_num05074_sim45.jpg"
+    ],
+    "original_frame_number": [
+      5074
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stock Footage",
+    "name": "Nickerson Research",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_032_static_005_num05074_sim45.jpg"
+    ],
+    "original_frame_number": [
+      5074
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Airline Interiors",
+    "name": "Aero Mock-Ups, Inc.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_032_static_005_num05074_sim45.jpg"
+    ],
+    "original_frame_number": [
+      5074
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Visual Effects Supervisor",
+    "name": "Kevin Tod Haug",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_032_static_006_num05170_sim31.jpg"
+    ],
+    "original_frame_number": [
+      5170
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Visual Effects Producer",
+    "name": "Robin D'Arcy",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_032_static_007_num05254_sim25.jpg"
+    ],
+    "original_frame_number": [
+      5254
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Visual Effects Post Producer",
+    "name": "Carey Len Smith",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_032_static_007_num05254_sim25.jpg"
+    ],
+    "original_frame_number": [
+      5254
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Visual Effects Assistant",
+    "name": "Leslie McMinn",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_032_static_007_num05254_sim25.jpg"
+    ],
+    "original_frame_number": [
+      5254
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Visual Effects Still Photographer",
+    "name": "Michael Douglas Middelton",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_032_static_007_num05254_sim25.jpg"
+    ],
+    "original_frame_number": [
+      5254
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Medical Artist",
+    "name": "Katherine Jones",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_032_static_007_num05254_sim25.jpg"
+    ],
+    "original_frame_number": [
+      5254
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Translite Photography by",
+    "name": "Richard Lund",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_032_static_007_num05254_sim25.jpg"
+    ],
+    "original_frame_number": [
+      5254
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Translite Matte Painter",
+    "name": "Suzanne Mitus",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_032_static_007_num05254_sim25.jpg"
+    ],
+    "original_frame_number": [
+      5254
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Special Visual Effects and Digital Animation by",
+    "name": "Blue Sky Studios",
+    "role_group": "Special Effects Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Special Effects Companies",
+    "source_frame": [
+      "scene_032_static_007_num05254_sim25.jpg"
+    ],
+    "original_frame_number": [
+      5254
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Animation Supervisor",
+    "name": "Carlos Saldanha",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_032_static_007_num05254_sim25.jpg"
+    ],
+    "original_frame_number": [
+      5254
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Senior Lighting & Effects Artist",
+    "name": "Dave Walvoord",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_000_num05337_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5337
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Senior Digital Effects Producer",
+    "name": "Christopher Scollard",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_000_num05337_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5337
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Effects Coordinator",
+    "name": "Irka B. Seng",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_000_num05337_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5337
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Senior Digital Artist",
+    "name": "John Siczewicz",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_000_num05337_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5337
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Modeler",
+    "name": "Alexander Levenson",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_000_num05337_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5337
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Animators",
+    "name": "Jaime Andres Castañeda",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_000_num05337_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5337
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Animators",
+    "name": "Mike Thurmeier",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_000_num05337_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5337
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Rotoscoper",
+    "name": "Christopher M. Burrows",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_000_num05337_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5337
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Effects Editor",
+    "name": "Fritz Archer",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_000_num05337_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5337
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Special Visual Effects and Digital Animation by",
+    "name": "BUF INC.",
+    "role_group": "Special Effects Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Special Effects Companies",
+    "source_frame": [
+      "scene_033_static_003_num05457_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5457
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "CG Supervisors",
+    "name": "Geoffrey Niquet",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_003_num05457_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5457
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "CG Supervisors",
+    "name": "Yann Blondel",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_003_num05457_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5457
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "CG Supervisors",
+    "name": "Christophe-Olivier Dupuis",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_003_num05457_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5457
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "CG Supervisors",
+    "name": "Stéphane Naze",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_003_num05457_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5457
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "CG Supervisors",
+    "name": "David Verbeke",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_003_num05457_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5457
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Artists",
+    "name": "Eric Deltour",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_003_num05457_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5457
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Artists",
+    "name": "Olivier Cauwet",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_003_num05457_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5457
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Artists",
+    "name": "François Boudaille",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_003_num05457_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5457
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Artists",
+    "name": "Patrick Lachaux",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_003_num05457_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5457
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Artists",
+    "name": "Pénélope Vandecave",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_003_num05457_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5457
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Artists",
+    "name": "Séverine Garnier",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_033_static_003_num05457_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5457
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Software Development",
+    "name": "Xavier Bec",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_034_static_000_num05515_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5515
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Software Development",
+    "name": "Laurent Soudrie",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_034_static_000_num05515_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5515
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Software Development",
+    "name": "Isabelle Haulin",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_034_static_000_num05515_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5515
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production",
+    "name": "Patricia Boulogne",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_034_static_000_num05515_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5515
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production",
+    "name": "Francesco Grisi",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_034_static_000_num05515_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5515
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production",
+    "name": "Patrick Shearn",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_034_static_000_num05515_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5515
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Visual Effects and Digital Film Scanning by",
+    "name": "Command Post Toybox, Toronto",
+    "role_group": "Special Effects Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Special Effects Companies",
+    "source_frame": [
+      "scene_034_static_000_num05515_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5515
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Visual Effects Supervisor",
+    "name": "Dennis Berardi",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_034_static_000_num05515_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5515
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Effects Compositor",
+    "name": "Jeff Campbell",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_034_static_000_num05515_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5515
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Film Supervisor",
+    "name": "Mike Ellis",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_034_static_000_num05515_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5515
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "3D Animator",
+    "name": "Jim Rutherford",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_034_static_000_num05515_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5515
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Special Visual Effects and Digital Animation by",
+    "name": "Digital Domain",
+    "role_group": "Special Effects Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Special Effects Companies",
+    "source_frame": [
+      "scene_035_static_000_num05604_sim61.jpg"
+    ],
+    "original_frame_number": [
+      5604
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Visual Effects Supervisor",
+    "name": "Kevin Mack",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_000_num05604_sim61.jpg"
+    ],
+    "original_frame_number": [
+      5604
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Visual Effects Producer",
+    "name": "Eileen Moran",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_000_num05604_sim61.jpg"
+    ],
+    "original_frame_number": [
+      5604
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "CG Supervisor",
+    "name": "Matthew Butler",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_000_num05604_sim61.jpg"
+    ],
+    "original_frame_number": [
+      5604
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Compositing Supervisor",
+    "name": "Carey Villegas",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_000_num05604_sim61.jpg"
+    ],
+    "original_frame_number": [
+      5604
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Opening Sequence Team Leads",
+    "name": "David W. Prescott",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_000_num05604_sim61.jpg"
+    ],
+    "original_frame_number": [
+      5604
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Opening Sequence Team Leads",
+    "name": "Judith Crow",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_000_num05604_sim61.jpg"
+    ],
+    "original_frame_number": [
+      5604
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Compositors",
+    "name": "Darren M. Poe",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_000_num05604_sim61.jpg"
+    ],
+    "original_frame_number": [
+      5604
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Compositors",
+    "name": "Rachel Dunn",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_000_num05604_sim61.jpg"
+    ],
+    "original_frame_number": [
+      5604
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Compositors",
+    "name": "David Stern",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_000_num05604_sim61.jpg"
+    ],
+    "original_frame_number": [
+      5604
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Visual Effects Coordinator",
+    "name": "Lauren Littleton",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_000_num05604_sim61.jpg"
+    ],
+    "original_frame_number": [
+      5604
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Artists",
+    "name": "Daniel Lemmon",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_001_num05700_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5700
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Artists",
+    "name": "Sean Andrew Faden",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_001_num05700_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5700
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Artists",
+    "name": "Vernon B. Wilbert, Jr.",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_001_num05700_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5700
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Artists",
+    "name": "Brad Parker",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_001_num05700_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5700
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Artists",
+    "name": "Michael Eoland",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_001_num05700_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5700
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Artists",
+    "name": "Zachary Tucker",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_001_num05700_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5700
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Artists",
+    "name": "Chris Y. Yang",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_001_num05700_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5700
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Paint Artists",
+    "name": "Paolo J. de Guzman",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_001_num05700_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5700
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Paint Artists",
+    "name": "Martha Snow Mack",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_001_num05700_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5700
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Software Engineers",
+    "name": "Darin K. Grant",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_001_num05700_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5700
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Software Engineers",
+    "name": "Lucio I. Flores",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_001_num05700_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5700
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Film Imaging Supervisor",
+    "name": "Michael D. Kanfer",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_001_num05700_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5700
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Scanning & Recording by",
+    "name": "EFILM",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_035_static_001_num05700_sim51.jpg"
+    ],
+    "original_frame_number": [
+      5700
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Special Visual Effects by",
+    "name": "Gray Matter FX",
+    "role_group": "Special Effects Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Special Effects Companies",
+    "source_frame": [
+      "scene_035_static_002_num05784_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5784
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Visual Effects Supervisor/Lead Compositor",
+    "name": "Gray Marshall",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_002_num05784_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5784
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Visual Effects Producer",
+    "name": "Margaux Mackay",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_002_num05784_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5784
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Compositor/Roto Artist",
+    "name": "Dave Lockwood",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_002_num05784_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5784
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Matte Painter",
+    "name": "David Bailey",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_002_num05784_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5784
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Special Visual Effects and Digital Animation by",
+    "name": "Image Savant",
+    "role_group": "Special Effects Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Special Effects Companies",
+    "source_frame": [
+      "scene_035_static_002_num05784_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5784
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Animation Supervisor/Producer",
+    "name": "Richard \"Dr.\" Baily",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_002_num05784_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5784
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Custom Software",
+    "name": "Josh Aller",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_002_num05784_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5784
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Animation Assistant",
+    "name": "Mark Joiner",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_002_num05784_sim54.jpg"
+    ],
+    "original_frame_number": [
+      5784
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Pre-Visualization by",
+    "name": "Pixel Liberation Front",
+    "role_group": "Special Effects Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Special Effects Companies",
+    "source_frame": [
+      "scene_035_static_003_num05880_sim48.jpg"
+    ],
+    "original_frame_number": [
+      5880
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Pre-Visualization Supervisor",
+    "name": "Ron Frankel",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_003_num05880_sim48.jpg"
+    ],
+    "original_frame_number": [
+      5880
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Shot Designers",
+    "name": "Colin Green",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_003_num05880_sim48.jpg"
+    ],
+    "original_frame_number": [
+      5880
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Shot Designers",
+    "name": "James Battersby",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_003_num05880_sim48.jpg"
+    ],
+    "original_frame_number": [
+      5880
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Digital Compositing",
+    "name": "Nicholas Brooks",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_035_static_003_num05880_sim48.jpg"
+    ],
+    "original_frame_number": [
+      5880
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Miniature Pyrotechnics by",
+    "name": "Stirber Visual Network, Inc.",
+    "role_group": "Special Effects Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Special Effects Companies",
+    "source_frame": [
+      "scene_035_static_003_num05880_sim48.jpg"
+    ],
+    "original_frame_number": [
+      5880
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Supervisor",
+    "name": "John K. Stirber",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_035_static_003_num05880_sim48.jpg"
+    ],
+    "original_frame_number": [
+      5880
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Model Foremen",
+    "name": "Richard Lea",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_035_static_003_num05880_sim48.jpg"
+    ],
+    "original_frame_number": [
+      5880
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Model Foremen",
+    "name": "Jeff S. Pyle",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_035_static_003_num05880_sim48.jpg"
+    ],
+    "original_frame_number": [
+      5880
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Electrical",
+    "name": "Steve Humphrey",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_035_static_003_num05880_sim48.jpg"
+    ],
+    "original_frame_number": [
+      5880
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Pyro Foreman",
+    "name": "Roy Downey",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_035_static_003_num05880_sim48.jpg"
+    ],
+    "original_frame_number": [
+      5880
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Original Music Composed by",
+    "name": "Michael Simpson",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_035_static_005_num05976_sim98.jpg"
+    ],
+    "original_frame_number": [
+      5976
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Original Music Composed by",
+    "name": "John King",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_035_static_005_num05976_sim98.jpg"
+    ],
+    "original_frame_number": [
+      5976
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Coffee Store Zak",
+    "name": "Rolfe Kent",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_009_num06108_sim100.jpg"
+    ],
+    "original_frame_number": [
+      6108
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Coffee Store Zak",
+    "name": "Twentieth Century Fox Film Corporation",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_009_num06108_sim100.jpg"
+    ],
+    "original_frame_number": [
+      6108
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Svarga",
+    "name": "Azam Ali",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_009_num06108_sim100.jpg"
+    ],
+    "original_frame_number": [
+      6108
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Svarga",
+    "name": "Greg Ellis",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_009_num06108_sim100.jpg"
+    ],
+    "original_frame_number": [
+      6108
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Svarga",
+    "name": "Vas",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_009_num06108_sim100.jpg"
+    ],
+    "original_frame_number": [
+      6108
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Svarga",
+    "name": "Narada Productions, Inc.",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_009_num06108_sim100.jpg"
+    ],
+    "original_frame_number": [
+      6108
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Girl From Ypsilanti",
+    "name": "Daniel May",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_009_num06108_sim100.jpg"
+    ],
+    "original_frame_number": [
+      6108
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Girl From Ypsilanti",
+    "name": "Marc Ferrari/MasterSource",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_009_num06108_sim100.jpg"
+    ],
+    "original_frame_number": [
+      6108
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Cafeteria",
+    "name": "Christian Poulet",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_009_num06108_sim100.jpg"
+    ],
+    "original_frame_number": [
+      6108
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Cafeteria",
+    "name": "Cezame Argile",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_009_num06108_sim100.jpg"
+    ],
+    "original_frame_number": [
+      6108
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Cafeteria",
+    "name": "Koka Media/Killer Tracks",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_009_num06108_sim100.jpg"
+    ],
+    "original_frame_number": [
+      6108
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Smoke Stack",
+    "name": "Franki Hulme",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_010_num06144_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6144
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Smoke Stack",
+    "name": "Kenton Hulme",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_010_num06144_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6144
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Smoke Stack",
+    "name": "John Wolfenden",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_010_num06144_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6144
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Smoke Stack",
+    "name": "Melie Sleagall",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_010_num06144_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6144
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Smoke Stack",
+    "name": "Junk Ferry",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_010_num06144_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6144
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Easy Smack It Up",
+    "name": "M. Petrie",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_010_num06144_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6144
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Easy Smack It Up",
+    "name": "K. Moo",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_010_num06144_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6144
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Easy Smack It Up",
+    "name": "The Odditorium",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_010_num06144_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6144
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Easy Smack It Up",
+    "name": "Hi-Ho Records",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_010_num06144_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6144
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Forbidden To Love",
+    "name": "Guy Moon",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_010_num06144_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6144
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Forbidden To Love",
+    "name": "Bob Garret",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_010_num06144_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6144
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Forbidden To Love",
+    "name": "Jeff Haskell",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_010_num06144_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6144
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Splendid & 4M15",
+    "name": "Kenneth \"Babyface\" Edmonds",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_010_num06144_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6144
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "GO'IN OUT WEST",
+    "name": "Tom Waits",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_011_num06228_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6228
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "GO'IN OUT WEST",
+    "name": "Kathleen Brennan",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_011_num06228_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6228
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "GO'IN OUT WEST",
+    "name": "Island Records, Inc.",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_011_num06228_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6228
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "GO'IN OUT WEST",
+    "name": "Universal Music Special Markets",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_011_num06228_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6228
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Theme From VALLEY OF THE DOLLS",
+    "name": "Dory Previn",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_011_num06228_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6228
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Theme From VALLEY OF THE DOLLS",
+    "name": "Andre Previn",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_011_num06228_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6228
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "NO LOVE, NO NOTHIN'",
+    "name": "Leo Robin",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_011_num06228_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6228
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "NO LOVE, NO NOTHIN'",
+    "name": "Harry Warren",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_011_num06228_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6228
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "NO LOVE, NO NOTHIN'",
+    "name": "Marlene Dietrich",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_011_num06228_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6228
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "NO LOVE, NO NOTHIN'",
+    "name": "Columbia Records",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_011_num06228_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6228
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "NO LOVE, NO NOTHIN'",
+    "name": "M. Dietrich Inc.",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_011_num06228_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6228
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "KDFW News Theme",
+    "name": "Stephen Arnold",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_035_static_011_num06228_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6228
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "TZIGANY WALTZ",
+    "name": "George Fenton",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_036_static_000_num06316_sim49.jpg"
+    ],
+    "original_frame_number": [
+      6316
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "TZIGANY WALTZ",
+    "name": "John Leach",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_036_static_000_num06316_sim49.jpg"
+    ],
+    "original_frame_number": [
+      6316
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "TZIGANY WALTZ",
+    "name": "Associated Production Music",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_036_static_000_num06316_sim49.jpg"
+    ],
+    "original_frame_number": [
+      6316
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WHERE IS MY MIND",
+    "name": "Black Francis",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_036_static_000_num06316_sim49.jpg"
+    ],
+    "original_frame_number": [
+      6316
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WHERE IS MY MIND",
+    "name": "The Pixies",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_036_static_000_num06316_sim49.jpg"
+    ],
+    "original_frame_number": [
+      6316
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WHERE IS MY MIND",
+    "name": "Elektra Entertainment Group/4AD",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_036_static_000_num06316_sim49.jpg"
+    ],
+    "original_frame_number": [
+      6316
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WHERE IS MY MIND",
+    "name": "Warner Special Products",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_036_static_000_num06316_sim49.jpg"
+    ],
+    "original_frame_number": [
+      6316
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Soundtrack available on RESTLESS RECORDS",
+    "name": "Restless Records",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_036_static_001_num06412_sim16.jpg"
+    ],
+    "original_frame_number": [
+      6412
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "In memory of",
+    "name": "Raymond Bongiovanni",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_036_static_002_num06496_sim47.jpg"
+    ],
+    "original_frame_number": [
+      6496
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "In memory of",
+    "name": "P. Scott Makela",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_036_static_002_num06496_sim47.jpg"
+    ],
+    "original_frame_number": [
+      6496
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Color by",
+    "name": "TECHNICOLOR",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_036_static_003_num06592_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6592
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Filmed with",
+    "name": "PANAVISION",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_036_static_003_num06592_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6592
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Film Stock",
+    "name": "KODAK",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_036_static_003_num06592_sim52.jpg"
+    ],
+    "original_frame_number": [
+      6592
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Approved No. 36857",
+    "name": "Motion Picture Association of America",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_037_static_000_num06672_sim20.jpg"
+    ],
+    "original_frame_number": [
+      6672
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "In Selected Theatres",
+    "name": "Dolby",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_037_static_000_num06672_sim20.jpg"
+    ],
+    "original_frame_number": [
+      6672
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Affiliated with",
+    "name": "A.F.L.-C.I.O.-C.L.C.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_037_static_000_num06672_sim20.jpg"
+    ],
+    "original_frame_number": [
+      6672
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Copyright © 1999 by",
+    "name": "Twentieth Century Fox Film Corporation",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_037_static_000_num06672_sim20.jpg"
+    ],
+    "original_frame_number": [
+      6672
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Copyright © 1999 by",
+    "name": "Monarchy Enterprises B.V.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_037_static_000_num06672_sim20.jpg"
+    ],
+    "original_frame_number": [
+      6672
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Copyright © 1999 by",
+    "name": "Regency Entertainment (USA), Inc.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_037_static_000_num06672_sim20.jpg"
+    ],
+    "original_frame_number": [
+      6672
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "In association with",
+    "name": "Taurus Film",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_038_static_000_num06761_sim14.jpg"
+    ],
+    "original_frame_number": [
+      6761
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Produced and Released by",
+    "name": "Twentieth Century Fox",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_038_static_001_num06857_sim60.jpg"
+    ],
+    "original_frame_number": [
+      6857
+    ],
+    "scene_position": "second_half"
+  }
+]

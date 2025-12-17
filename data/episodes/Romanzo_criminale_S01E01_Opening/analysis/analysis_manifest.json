@@ -1,0 +1,1130 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_000_scroll_000_num00000_sim0.jpg",
+          "frame_num": 0,
+          "ocr_text": "BANCADITA",
+          "ocr_bbox": [
+            556,
+            579,
+            1275,
+            682
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 1.0817071199417114,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.7020522952079773,
+      "roi_percentile_flow": 1.0817071199417114,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 599,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_2": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_002_scroll_000_num00132_sim0.jpg",
+          "frame_num": 132,
+          "ocr_text": "TRATTO DALLOMONIMO ROMANZO GIANGARLO DE CATALDO EDITO DA GIULIO EINAUDI EDITORE S.PA",
+          "ocr_bbox": [
+            437,
+            113,
+            1029,
+            252
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 1.3825329542160034,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.6614890098571777,
+      "roi_percentile_flow": 1.3825329542160034,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 469,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_3": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_003_scroll_000_num00190_sim0.jpg",
+          "frame_num": 190,
+          "ocr_text": "DAITALIA",
+          "ocr_bbox": [
+            113,
+            186,
+            805,
+            495
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.5547935366630554,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.8305179476737976,
+      "roi_percentile_flow": 0.5547935366630554,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 1168,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_4": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_004_static_000_num00231_sim32.jpg",
+          "frame_num": 231,
+          "ocr_text": "CONSULENZA ARTISTICA MICHELE PLACIDO",
+          "ocr_bbox": [
+            240,
+            498,
+            637,
+            597
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_004_static_001_num00258_sim97.jpg",
+          "frame_num": 258,
+          "ocr_text": "CONSULENZA ARTISTICA S PLACIDO MICHELE",
+          "ocr_bbox": [
+            239,
+            498,
+            637,
+            597
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -0.14170125126838684,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.12155970931053162,
+      "roi_percentile_flow": -0.14170125126838684,
+      "scroll_direction": null
+    },
+    "scene_5": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_005_static_000_num00289_sim30.jpg",
+          "frame_num": 289,
+          "ocr_text": "CON FRANCESCO MONTANARI",
+          "ocr_bbox": [
+            679,
+            181,
+            1013,
+            357
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.17752724885940552,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1725204885005951,
+      "roi_percentile_flow": 0.17752724885940552,
+      "scroll_direction": null
+    },
+    "scene_6": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_006_scroll_000_num00298_sim0.jpg",
+          "frame_num": 298,
+          "ocr_text": "CON FRANCESCO MONTANARI",
+          "ocr_bbox": [
+            680,
+            183,
+            1012,
+            357
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.7084035873413086,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.36540737748146057,
+      "roi_percentile_flow": 0.7084035873413086,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 915,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_7": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_007_static_000_num00410_sim35.jpg",
+          "frame_num": 410,
+          "ocr_text": "VINICIO MARCHIONI",
+          "ocr_bbox": [
+            724,
+            213,
+            1050,
+            362
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.21532228589057922,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3875221014022827,
+      "roi_percentile_flow": 0.21532228589057922,
+      "scroll_direction": null
+    },
+    "scene_8": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_008_static_000_num00417_sim85.jpg",
+          "frame_num": 417,
+          "ocr_text": "VINICIO MARCHIONI IPPPI",
+          "ocr_bbox": [
+            149,
+            213,
+            1049,
+            519
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_008_static_001_num00432_sim92.jpg",
+          "frame_num": 432,
+          "ocr_text": "VINICIO MARCHIONI hil IPPPI",
+          "ocr_bbox": [
+            142,
+            213,
+            1102,
+            521
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_008_static_002_num00460_sim31.jpg",
+          "frame_num": 460,
+          "ocr_text": "IPPPI",
+          "ocr_bbox": [
+            125,
+            436,
+            434,
+            526
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.2307165116071701,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.23798316717147827,
+      "roi_percentile_flow": 0.2307165116071701,
+      "scroll_direction": null
+    },
+    "scene_10": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_010_static_000_num00527_sim0.jpg",
+          "frame_num": 527,
+          "ocr_text": "ALESSANOM ROJA",
+          "ocr_bbox": [
+            617,
+            504,
+            929,
+            650
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_010_static_001_num00542_sim90.jpg",
+          "frame_num": 542,
+          "ocr_text": "ROJA ALESSANDRO",
+          "ocr_bbox": [
+            352,
+            630,
+            659,
+            773
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.2288627326488495,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.21632009744644165,
+      "roi_percentile_flow": 0.2288627326488495,
+      "scroll_direction": null
+    },
+    "scene_11": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.6968445777893066,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.7630026340484619,
+      "roi_percentile_flow": 0.6968445777893066,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 930,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_12": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_012_static_000_num00612_sim31.jpg",
+          "frame_num": 612,
+          "ocr_text": "MARCO BOCCI",
+          "ocr_bbox": [
+            552,
+            497,
+            793,
+            648
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_012_static_001_num00627_sim100.jpg",
+          "frame_num": 627,
+          "ocr_text": "MARCO BOCCI",
+          "ocr_bbox": [
+            553,
+            499,
+            793,
+            648
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.3531705141067505,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.05851437896490097,
+      "roi_percentile_flow": 0.3531705141067505,
+      "scroll_direction": null
+    },
+    "scene_13": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.9335315227508545,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3348667025566101,
+      "roi_percentile_flow": 0.9335315227508545,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 694,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_14": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 1.188948154449463,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 2.58658766746521,
+      "roi_percentile_flow": 1.188948154449463,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 545,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_15": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 6.845881938934326,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 6.042498588562012,
+      "roi_percentile_flow": 6.845881938934326,
+      "scroll_direction": "downward",
+      "save_interval_frames": 95,
+      "save_interval_frames_uncapped": 95,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_16": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_016_scroll_000_num00721_sim0.jpg",
+          "frame_num": 721,
+          "ocr_text": "ma ANDREAT SARTORETTI",
+          "ocr_bbox": [
+            575,
+            106,
+            1035,
+            293
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 9.430135726928711,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 11.828289031982422,
+      "roi_percentile_flow": 9.430135726928711,
+      "scroll_direction": "downward",
+      "save_interval_frames": 69,
+      "save_interval_frames_uncapped": 69,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_17": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 4.294828414916992,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 4.286525726318359,
+      "roi_percentile_flow": 4.294828414916992,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 151,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_18": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_018_scroll_000_num00819_sim0.jpg",
+          "frame_num": 819,
+          "ocr_text": "RICCARDO O DE FILIPPIS MAURO MECONI EDOARDO PESCE LORENZO RENZI",
+          "ocr_bbox": [
+            440,
+            413,
+            963,
+            651
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 1.2056913375854492,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.0830121040344238,
+      "roi_percentile_flow": 1.2056913375854492,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 537,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_19": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.13649031519889832,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.1424863636493683,
+      "roi_percentile_flow": -0.13649031519889832,
+      "scroll_direction": null
+    },
+    "scene_21": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.663603663444519,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.4644683599472046,
+      "roi_percentile_flow": 0.663603663444519,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 976,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_22": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_022_scroll_000_num00938_sim0.jpg",
+          "frame_num": 938,
+          "ocr_text": "ALESSANDRA MASTRONARDI JESUS EMILIANO COLTORTI",
+          "ocr_bbox": [
+            445,
+            484,
+            1032,
+            609
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 1.1641525030136108,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.0381815433502197,
+      "roi_percentile_flow": 1.1641525030136108,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 557,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_23": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_023_static_000_num01028_sim37.jpg",
+          "frame_num": 1028,
+          "ocr_text": "ROBERTO INFASCELLI FAUSTO MARIA SCIARAPPA CLAUDIO SPADARO ORLANDO CINQUE",
+          "ocr_bbox": [
+            266,
+            447,
+            742,
+            677
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.19566361606121063,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.19997504353523254,
+      "roi_percentile_flow": 0.19566361606121063,
+      "scroll_direction": null
+    },
+    "scene_24": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.24377721548080444,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.16885019838809967,
+      "roi_percentile_flow": -0.24377721548080444,
+      "scroll_direction": null
+    },
+    "scene_25": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_025_scroll_000_num01055_sim0.jpg",
+          "frame_num": 1055,
+          "ocr_text": "ROBERTO INFASCELLI FAUSTO MARBIA SCIARAPPA CLAUDIO SPADARO ORLANDO CINQUE",
+          "ocr_bbox": [
+            265,
+            447,
+            741,
+            678
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 1.6774775981903076,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.4110298752784729,
+      "roi_percentile_flow": 1.6774775981903076,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 386,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_27": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.5834938883781433,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.4908618628978729,
+      "roi_percentile_flow": 0.5834938883781433,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 1111,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_28": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_028_static_000_num01160_sim45.jpg",
+          "frame_num": 1160,
+          "ocr_text": "IVANO DE MATTEO FAUSTO PARAVIDINO GIORGIO CAPUTO ALESSANDRO PRETE",
+          "ocr_bbox": [
+            329,
+            69,
+            738,
+            306
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_028_static_001_num01175_sim97.jpg",
+          "frame_num": 1175,
+          "ocr_text": "IVANO DE E MATTEO FAUSTO PARAVIDINO GIORGIO CAPUTO ALESSANDRO PRETE 9",
+          "ocr_bbox": [
+            327,
+            74,
+            738,
+            452
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.4064367711544037,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.11822161078453064,
+      "roi_percentile_flow": 0.4064367711544037,
+      "scroll_direction": null
+    },
+    "scene_29": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_029_static_000_num01202_sim39.jpg",
+          "frame_num": 1202,
+          "ocr_text": "DANILO NIGRELLI DARIO D'AMBROSI ANTONELLA ATTILI EDOARDO LEO FABIO CAMILLI",
+          "ocr_bbox": [
+            272,
+            364,
+            692,
+            650
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_029_static_001_num01217_sim13.jpg",
+          "frame_num": 1217,
+          "ocr_text": "AMBRUS",
+          "ocr_bbox": [
+            602,
+            805,
+            754,
+            848
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_029_static_002_num01219_sim40.jpg",
+          "frame_num": 1219,
+          "ocr_text": "IW IBROSI",
+          "ocr_bbox": [
+            596,
+            639,
+            780,
+            854
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": -0.11213845014572144,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.13808099925518036,
+      "roi_percentile_flow": -0.11213845014572144,
+      "scroll_direction": null
+    },
+    "scene_30": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_030_static_000_num01235_sim20.jpg",
+          "frame_num": 1235,
+          "ocr_text": "DANILO NIGRELLI DARIO D'AMBROSI ANTONELLA ATTILI EDOARDO LEO FABIO CAMILLI",
+          "ocr_bbox": [
+            272,
+            365,
+            694,
+            648
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.11865628510713577,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10498476773500443,
+      "roi_percentile_flow": 0.11865628510713577,
+      "scroll_direction": null
+    },
+    "scene_32": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_032_static_000_num01286_sim28.jpg",
+          "frame_num": 1286,
+          "ocr_text": "E CON MASSIMO DE FRANCOVICH",
+          "ocr_bbox": [
+            284,
+            404,
+            768,
+            500
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.10228535532951355,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -0.11972897499799728,
+      "roi_percentile_flow": -0.10228535532951355,
+      "scroll_direction": null
+    },
+    "scene_33": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 2.0018954277038574,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 1.8097147941589355,
+      "roi_percentile_flow": 2.0018954277038574,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 324,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_34": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_034_static_000_num01356_sim47.jpg",
+          "frame_num": 1356,
+          "ocr_text": "E CON LA PARTECIPAZIONE DI MARCO GIALLINI",
+          "ocr_bbox": [
+            535,
+            508,
+            877,
+            602
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.25149011611938477,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.26940906047821045,
+      "roi_percentile_flow": 0.25149011611938477,
+      "scroll_direction": null
+    },
+    "scene_35": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_035_scroll_000_num01382_sim0.jpg",
+          "frame_num": 1382,
+          "ocr_text": "E CON LA PARTECIPAZIONE DI MARCO GIALLINI",
+          "ocr_bbox": [
+            536,
+            506,
+            875,
+            601
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.9275765419006348,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 1.2739756107330322,
+      "roi_percentile_flow": 2.9275765419006348,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 221,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_37": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_037_static_000_num01473_sim45.jpg",
+          "frame_num": 1473,
+          "ocr_text": "(S.A.C.T.) (S.A.C.T.) ETRONIO S.A.C. TALDO SERIE D",
+          "ocr_bbox": [
+            -351,
+            386,
+            -96,
+            640
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_037_static_001_num01485_sim47.jpg",
+          "frame_num": 1485,
+          "ocr_text": "SOGGETTO DI SERIE DI GIANCARLO DE CATALDO DANIELE CESARANO (S.A.C.T) BARBARA PETRONIO (S.A.C.T.) LEONARDO VALENTI (S.A.C.)",
+          "ocr_bbox": [
+            511,
+            74,
+            1070,
+            337
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -0.14719299972057343,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -0.14929533004760742,
+      "roi_percentile_flow": -0.14719299972057343,
+      "scroll_direction": null
+    },
+    "scene_38": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_038_static_000_num01486_sim99.jpg",
+          "frame_num": 1486,
+          "ocr_text": "SOGGETTO DI SERIE DI GIANCARLO DE CATALDO DANIELE CESARANO (S.A.C.T.) BARBARA PETRONIO (S.A.C.T.) LEONARDO VALENTI (S.A.C.) V",
+          "ocr_bbox": [
+            470,
+            75,
+            1071,
+            473
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.11100495606660843,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10342658311128616,
+      "roi_percentile_flow": 0.11100495606660843,
+      "scroll_direction": null
+    },
+    "scene_39": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.2151317596435547,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.24406154453754425,
+      "roi_percentile_flow": 0.2151317596435547,
+      "scroll_direction": null
+    },
+    "scene_40": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.27047258615493774,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.23241867125034332,
+      "roi_percentile_flow": 0.27047258615493774,
+      "scroll_direction": null
+    },
+    "scene_42": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.20123392343521118,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -0.13419130444526672,
+      "roi_percentile_flow": -0.20123392343521118,
+      "scroll_direction": null
+    },
+    "scene_43": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_043_static_000_num01729_sim14.jpg",
+          "frame_num": 1729,
+          "ocr_text": "(S.A.C.T.) (S.A.C.)",
+          "ocr_bbox": [
+            -328,
+            233,
+            -193,
+            324
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.1468956023454666,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.1739043891429901,
+      "roi_percentile_flow": 0.1468956023454666,
+      "scroll_direction": null
+    },
+    "scene_47": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.5117726922035217,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.4599705934524536,
+      "roi_percentile_flow": 0.5117726922035217,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 1266,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_48": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_048_scroll_000_num01873_sim0.jpg",
+          "frame_num": 1873,
+          "ocr_text": "EDITING DI GIANCARLO DE CATALDO",
+          "ocr_bbox": [
+            502,
+            434,
+            938,
+            531
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.523422956466675,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 1.3117188215255737,
+      "roi_percentile_flow": 2.523422956466675,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 257,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_49": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_049_static_000_num01922_sim43.jpg",
+          "frame_num": 1922,
+          "ocr_text": "PRODUTTORE ESECUTIVO CATTLEYA MATTEO DE LLAENTIS",
+          "ocr_bbox": [
+            457,
+            479,
+            887,
+            582
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_049_static_001_num01925_sim94.jpg",
+          "frame_num": 1925,
+          "ocr_text": "PRODUTTORE E ESECUTIVO CATTLEYA DE LAURENTIIS MATTEO",
+          "ocr_bbox": [
+            457,
+            479,
+            887,
+            581
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -0.14632928371429443,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -0.14756076037883759,
+      "roi_percentile_flow": -0.14632928371429443,
+      "scroll_direction": null
+    },
+    "scene_50": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_050_scroll_000_num01926_sim0.jpg",
+          "frame_num": 1926,
+          "ocr_text": "PRODUTTORE E ESECUTIVO CATTLEYA MATTEO DE LAURENTIIS",
+          "ocr_bbox": [
+            457,
+            479,
+            887,
+            580
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.7208382487297058,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.34851962327957153,
+      "roi_percentile_flow": 0.7208382487297058,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 899,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_51": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.10696844011545181,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.13759848475456238,
+      "roi_percentile_flow": 0.10696844011545181,
+      "scroll_direction": null
+    },
+    "scene_52": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_052_static_000_num02000_sim55.jpg",
+          "frame_num": 2000,
+          "ocr_text": "PRODUTTORE DELEGATO GINA GARDINI",
+          "ocr_bbox": [
+            683,
+            465,
+            956,
+            571
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.3604515492916107,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.263485848903656,
+      "roi_percentile_flow": 0.3604515492916107,
+      "scroll_direction": null
+    },
+    "scene_53": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.14175845682621002,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.2494141161441803,
+      "roi_percentile_flow": 0.14175845682621002,
+      "scroll_direction": null
+    },
+    "scene_56": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_056_static_000_num02104_sim40.jpg",
+          "frame_num": 2104,
+          "ocr_text": "PRODOTTO DA RICCARDO TOZZI GIOVANNI STABILINI MARCO CHIMENZ",
+          "ocr_bbox": [
+            598,
+            109,
+            1005,
+            315
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.14848819375038147,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.1805243045091629,
+      "roi_percentile_flow": 0.14848819375038147,
+      "scroll_direction": null
+    },
+    "scene_61": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 4.534099102020264,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 4.62592887878418,
+      "roi_percentile_flow": 4.534099102020264,
+      "scroll_direction": "downward",
+      "save_interval_frames": 143,
+      "save_interval_frames_uncapped": 143,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_62": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_062_static_000_num02326_sim36.jpg",
+          "frame_num": 2326,
+          "ocr_text": "Regia di STEFANO SOLLIMA",
+          "ocr_bbox": [
+            618,
+            559,
+            995,
+            666
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_062_static_001_num02341_sim46.jpg",
+          "frame_num": 2341,
+          "ocr_text": "ROMANZO  RiminAe",
+          "ocr_bbox": [
+            151,
+            148,
+            1051,
+            654
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_062_static_002_num02356_sim58.jpg",
+          "frame_num": 2356,
+          "ocr_text": "LA SERIE ROMAnZO",
+          "ocr_bbox": [
+            200,
+            142,
+            1018,
+            375
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_Opening\\analysis\\frames\\scene_062_static_003_num02371_sim80.jpg",
+          "frame_num": 2371,
+          "ocr_text": "LA SERIE ROMANZO RiminAe",
+          "ocr_bbox": [
+            187,
+            144,
+            1091,
+            624
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": -0.37201958894729614,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -0.3245851695537567,
+      "roi_percentile_flow": -0.37201958894729614,
+      "scroll_direction": null
+    }
+  }
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "role_detail": "Written by",
+    "name": "Peter Batty",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_000_static_009_num01335_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1335
+    ],
+    "scene_position": "first_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Produced by",
+    "name": "Peter Batty",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_static_009_num01335_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1335
+    ],
+    "scene_position": "first_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Written by",
+    "name": "Ladefer Battmer",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_000_static_010_num01425_sim52.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Produced by",
+    "name": "Ladefer Battmer",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_static_010_num01425_sim52.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Narrated by",
+    "name": "Laurence Olivier",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_011_num01440_sim56.jpg"
+    ],
+    "original_frame_number": [
+      1440
+    ],
+    "scene_position": "first_half"
+  }
+]

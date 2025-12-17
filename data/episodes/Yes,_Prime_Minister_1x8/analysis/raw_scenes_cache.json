@@ -1,0 +1,55 @@
+{
+  "total_frames": 2229,
+  "fps": 24.95905941633424,
+  "timestamp": "2025-12-04T14:44:50.112186",
+  "scenes": [
+    {
+      "start_frame": 0,
+      "end_frame": 30,
+      "start_timecode": "00:00:00.000",
+      "end_timecode": "00:00:01.202"
+    },
+    {
+      "start_frame": 30,
+      "end_frame": 358,
+      "start_timecode": "00:00:01.202",
+      "end_timecode": "00:00:14.343"
+    },
+    {
+      "start_frame": 358,
+      "end_frame": 374,
+      "start_timecode": "00:00:14.343",
+      "end_timecode": "00:00:14.985"
+    },
+    {
+      "start_frame": 374,
+      "end_frame": 375,
+      "start_timecode": "00:00:14.985",
+      "end_timecode": "00:00:15.025"
+    },
+    {
+      "start_frame": 375,
+      "end_frame": 897,
+      "start_timecode": "00:00:15.025",
+      "end_timecode": "00:00:35.939"
+    },
+    {
+      "start_frame": 897,
+      "end_frame": 1039,
+      "start_timecode": "00:00:35.939",
+      "end_timecode": "00:00:41.628"
+    },
+    {
+      "start_frame": 1039,
+      "end_frame": 2150,
+      "start_timecode": "00:00:41.628",
+      "end_timecode": "00:01:26.141"
+    },
+    {
+      "start_frame": 2150,
+      "end_frame": 2151,
+      "start_timecode": "00:01:26.141",
+      "end_timecode": "00:01:26.181"
+    }
+  ]
+}

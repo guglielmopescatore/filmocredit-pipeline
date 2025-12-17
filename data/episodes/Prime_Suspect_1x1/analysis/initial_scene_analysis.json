@@ -1,0 +1,647 @@
+{
+    "episode_id": "Prime_Suspect_1x1",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 274,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:00:11.432",
+            "duration_frames": 274,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Helen Mrren"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 13,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 27,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 41,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 54,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 68,
+                    "ocr_text": "Helen Mrren",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_68_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 13: No text found (CLAHE)",
+                "Frame 27: No text found (CLAHE)",
+                "Frame 41: No text found (CLAHE)",
+                "Frame 54: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 1,
+            "original_start_frame": 274,
+            "original_end_frame": 638,
+            "original_start_timecode": "00:00:11.432",
+            "original_end_timecode": "00:00:26.619",
+            "duration_frames": 364,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "PRIME SUSPECT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 292,
+                    "ocr_text": "PRIME SUSPECT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_first_half_frame_292_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 638,
+            "original_end_frame": 2049,
+            "original_start_timecode": "00:00:26.619",
+            "original_end_timecode": "00:01:25.490",
+            "duration_frames": 1411,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Tom BeN JohrBenfield John Bowe"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 708,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 779,
+                    "ocr_text": "Tom BeN JohrBenfield John Bowe",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_first_half_frame_779_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 708: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 3,
+            "original_start_frame": 2049,
+            "original_end_frame": 2091,
+            "original_start_timecode": "00:01:25.490",
+            "original_end_timecode": "00:01:27.242",
+            "duration_frames": 42,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Claden"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2051,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2053,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2055,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2057,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2059,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2061,
+                    "ocr_text": "Claden",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_003_first_half_frame_2061_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 2051: No text found (CLAHE)",
+                "Frame 2053: No text found (CLAHE)",
+                "Frame 2055: No text found (CLAHE)",
+                "Frame 2057: No text found (CLAHE)",
+                "Frame 2059: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 4,
+            "original_start_frame": 2091,
+            "original_end_frame": 2217,
+            "original_start_timecode": "00:01:27.242",
+            "original_end_timecode": "00:01:32.499",
+            "duration_frames": 126,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Helen Mirren DCI lane Tennison"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2097,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2103,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2109,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2116,
+                    "ocr_text": "Helen Mirren DCI lane Tennison",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_004_first_half_frame_2116_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 2097: No text found (CLAHE)",
+                "Frame 2103: No text found (CLAHE)",
+                "Frame 2109: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 5,
+            "original_start_frame": 2217,
+            "original_end_frame": 2620,
+            "original_start_timecode": "00:01:32.499",
+            "original_end_timecode": "00:01:49.314",
+            "duration_frames": 403,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "DCI Jane Tennison Helen Mirren DS Bill Otley Tom Bell DCS Michael Kernan John Benfield DS Terry Amson Gary Whelan Jack Ellis DI Tony Muddyman DI Frank Burkin Craig Fairbrass WPC Maureen Havers Mossie Smith"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2237,
+                    "ocr_text": "DCI Jane Tennison Helen Mirren DS Bill Otley Tom Bell DCS Michael Kernan John Benfield DS Terry Amson Gary Whelan Jack Ellis DI Tony Muddyman DI Frank Burkin Craig Fairbrass WPC Maureen Havers Mossie Smith",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_005_first_half_frame_2237_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 6,
+            "original_start_frame": 2620,
+            "original_end_frame": 2764,
+            "original_start_timecode": "00:01:49.314",
+            "original_end_timecode": "00:01:55.322",
+            "duration_frames": 144,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Zoe Wanamaker Moyra Henson Mrs Marlow Maxine Audley Peter Tom Wilkinson Joey Jeremy Warder Pam Jessica Turner Sgt Tomlins Rod Arthur Carol Rosy Clayton"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2627,
+                    "ocr_text": "Zoe Wanamaker Moyra Henson Mrs Marlow Maxine Audley Peter Tom Wilkinson Joey Jeremy Warder Pam Jessica Turner Sgt Tomlins Rod Arthur Carol Rosy Clayton",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_006_second_half_frame_2627_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 7,
+            "original_start_frame": 2764,
+            "original_end_frame": 2810,
+            "original_start_timecode": "00:01:55.322",
+            "original_end_timecode": "00:01:57.241",
+            "duration_frames": 46,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Sgt Tomlins Rod Arthur Carol Rosy Clayton Linda Susan Brown Painter Phil Hearne Arnold Upcher James Snell Mr Shrapnel Julian Firth Edward Harvey Doug Fisher"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2766,
+                    "ocr_text": "Sgt Tomlins Rod Arthur Carol Rosy Clayton Linda Susan Brown Painter Phil Hearne Arnold Upcher James Snell Mr Shrapnel Julian Firth Edward Harvey Doug Fisher",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_007_second_half_frame_2766_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 8,
+            "original_start_frame": 2810,
+            "original_end_frame": 2877,
+            "original_start_timecode": "00:01:57.241",
+            "original_end_timecode": "00:02:00.036",
+            "duration_frames": 67,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Carol Rosy Clayton Linda Susan Brown Painter Phil Hearne Arnold Upcher James Snell Mr Shrapnel Julian Firth Edward Harvey Doug Fisher Reg McKinney lan Hastings"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2813,
+                    "ocr_text": "Carol Rosy Clayton Linda Susan Brown Painter Phil Hearne Arnold Upcher James Snell Mr Shrapnel Julian Firth Edward Harvey Doug Fisher Reg McKinney lan Hastings",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_008_second_half_frame_2813_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 9,
+            "original_start_frame": 2877,
+            "original_end_frame": 2895,
+            "original_start_timecode": "00:02:00.036",
+            "original_end_timecode": "00:02:00.787",
+            "duration_frames": 18,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Arnold Upcher James Snell Mr Shrapnel Julian Firth Edward Harvey Doug Fisher Reg McKinney lan Hastings Annette Frisby Moyra Ruskin Biker Malcolm Freeman"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2877,
+                    "ocr_text": "Arnold Upcher James Snell Mr Shrapnel Julian Firth Edward Harvey Doug Fisher Reg McKinney lan Hastings Annette Frisby Moyra Ruskin Biker Malcolm Freeman",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_009_second_half_frame_2877_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 10,
+            "original_start_frame": 2895,
+            "original_end_frame": 2980,
+            "original_start_timecode": "00:02:00.787",
+            "original_end_timecode": "00:02:04.334",
+            "duration_frames": 85,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Arnold Upcher James Snell Mr Shrapnel Julian Firth Edward Harvey Doug Fisher Reg McKinney lan Hastings Annette Frisby Moyra Ruskin Biker Malcolm Freeman Willy Chang Gareth Tudor Price"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2899,
+                    "ocr_text": "Arnold Upcher James Snell Mr Shrapnel Julian Firth Edward Harvey Doug Fisher Reg McKinney lan Hastings Annette Frisby Moyra Ruskin Biker Malcolm Freeman Willy Chang Gareth Tudor Price",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_010_second_half_frame_2899_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 11,
+            "original_start_frame": 2980,
+            "original_end_frame": 3072,
+            "original_start_timecode": "00:02:04.334",
+            "original_end_timecode": "00:02:08.172",
+            "duration_frames": 92,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Reg McKinney lan Hastings Annette Frisby Moyra Ruskin Biker Malcolm Freeman Gareth Tudor Price Willy Chang Tilly Andrew Abrahams Helen Masters Angela Bruce Mother Sarah Thurston"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2984,
+                    "ocr_text": "Reg McKinney lan Hastings Annette Frisby Moyra Ruskin Biker Malcolm Freeman Gareth Tudor Price Willy Chang Tilly Andrew Abrahams Helen Masters Angela Bruce Mother Sarah Thurston",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_011_second_half_frame_2984_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 12,
+            "original_start_frame": 3072,
+            "original_end_frame": 3193,
+            "original_start_timecode": "00:02:08.172",
+            "original_end_timecode": "00:02:13.221",
+            "duration_frames": 121,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Willy Chang Gareth Tudor Price Andrew Abrahams Tilly Helen Masters Angela Bruce Mother Sarah Thurston Reporter Jimmy Hibbert Clerk of Court Renny Krupinkski Major Howard Michael Fleming"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3078,
+                    "ocr_text": "Willy Chang Gareth Tudor Price Andrew Abrahams Tilly Helen Masters Angela Bruce Mother Sarah Thurston Reporter Jimmy Hibbert Clerk of Court Renny Krupinkski Major Howard Michael Fleming",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_012_second_half_frame_3078_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 13,
+            "original_start_frame": 3193,
+            "original_end_frame": 3229,
+            "original_start_timecode": "00:02:13.221",
+            "original_end_timecode": "00:02:14.723",
+            "duration_frames": 36,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Reporter Jimmy Hibbert Clerk of Court Renny Krupinkski Major Howard Michael Fleming Mrs Howard Daphne Neville Michael Ralph Fiennes"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3194,
+                    "ocr_text": "Reporter Jimmy Hibbert Clerk of Court Renny Krupinkski Major Howard Michael Fleming Mrs Howard Daphne Neville Michael Ralph Fiennes",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_013_second_half_frame_3194_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 14,
+            "original_start_frame": 3229,
+            "original_end_frame": 4875,
+            "original_start_timecode": "00:02:14.723",
+            "original_end_timecode": "00:03:23.399",
+            "duration_frames": 1646,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Production Manager David Meddick Location Manager Lynne Marriott Hilda Miller PA/Continuity First Assistant David Weir Second Assistant Tania Normand Co-ordinator Sue Whitley Camera Operator Howard Somers"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3311,
+                    "ocr_text": "Production Manager David Meddick Location Manager Lynne Marriott Hilda Miller PA/Continuity First Assistant David Weir Second Assistant Tania Normand Co-ordinator Sue Whitley Camera Operator Howard Somers",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_014_second_half_frame_3311_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 274,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:11.432",
+            "duration_frames": 274,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 274,
+            "end_frame": 638,
+            "start_timecode": "00:00:11.432",
+            "end_timecode": "00:00:26.619",
+            "duration_frames": 364,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 638,
+            "end_frame": 2049,
+            "start_timecode": "00:00:26.619",
+            "end_timecode": "00:01:25.490",
+            "duration_frames": 1411,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 2049,
+            "end_frame": 2091,
+            "start_timecode": "00:01:25.490",
+            "end_timecode": "00:01:27.242",
+            "duration_frames": 42,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 2091,
+            "end_frame": 2217,
+            "start_timecode": "00:01:27.242",
+            "end_timecode": "00:01:32.499",
+            "duration_frames": 126,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 2217,
+            "end_frame": 2620,
+            "start_timecode": "00:01:32.499",
+            "end_timecode": "00:01:49.314",
+            "duration_frames": 403,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 6,
+            "start_frame": 2620,
+            "end_frame": 2764,
+            "start_timecode": "00:01:49.314",
+            "end_timecode": "00:01:55.322",
+            "duration_frames": 144,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 7,
+            "start_frame": 2764,
+            "end_frame": 2810,
+            "start_timecode": "00:01:55.322",
+            "end_timecode": "00:01:57.241",
+            "duration_frames": 46,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 8,
+            "start_frame": 2810,
+            "end_frame": 2877,
+            "start_timecode": "00:01:57.241",
+            "end_timecode": "00:02:00.036",
+            "duration_frames": 67,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 9,
+            "start_frame": 2877,
+            "end_frame": 2895,
+            "start_timecode": "00:02:00.036",
+            "end_timecode": "00:02:00.787",
+            "duration_frames": 18,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 10,
+            "start_frame": 2895,
+            "end_frame": 2980,
+            "start_timecode": "00:02:00.787",
+            "end_timecode": "00:02:04.334",
+            "duration_frames": 85,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 11,
+            "start_frame": 2980,
+            "end_frame": 3072,
+            "start_timecode": "00:02:04.334",
+            "end_timecode": "00:02:08.172",
+            "duration_frames": 92,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 12,
+            "start_frame": 3072,
+            "end_frame": 3193,
+            "start_timecode": "00:02:08.172",
+            "end_timecode": "00:02:13.221",
+            "duration_frames": 121,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 13,
+            "start_frame": 3193,
+            "end_frame": 3229,
+            "start_timecode": "00:02:13.221",
+            "end_timecode": "00:02:14.723",
+            "duration_frames": 36,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 14,
+            "start_frame": 3229,
+            "end_frame": 4875,
+            "start_timecode": "00:02:14.723",
+            "end_timecode": "00:03:23.399",
+            "duration_frames": 1646,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:38:23.427089"
+}

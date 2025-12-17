@@ -1,0 +1,491 @@
+{
+    "episode_id": "Maigret_S03E01_End",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 20,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:00:00.667",
+            "duration_frames": 20,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "< Back VEED MAIGRET palocehotel Malgratlooke atwhat esoh oftneTioters'employees wos.doing and atwhot-time. 94:15 95:54 II ("
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1,
+                    "ocr_text": "< Back VEED MAIGRET palocehotel Malgratlooke atwhat esoh oftneTioters'employees wos.doing and atwhot-time. 94:15 95:54 II (",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_1_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 1,
+            "original_start_frame": 20,
+            "original_end_frame": 250,
+            "original_start_timecode": "00:00:00.667",
+            "original_end_timecode": "00:00:08.333",
+            "duration_frames": 230,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "< Back VEED 94:16 95:54 II Jules Maigret Bruno CREMER"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 31,
+                    "ocr_text": "< Back VEED 94:16 95:54 II Jules Maigret Bruno CREMER",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_first_half_frame_31_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 250,
+            "original_end_frame": 500,
+            "original_start_timecode": "00:00:08.333",
+            "original_end_timecode": "00:00:16.667",
+            "duration_frames": 250,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED Ramuel Michel CACCIA Charlotte Maryvonne SCHILTZ Marilù MARINI Gigi Juge Benneau Erick DESMARESTZ Janvier Jean-Claude FRISSUNG Lucas Jean-Pierre GOS Michael Clark Terence FORD"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 262,
+                    "ocr_text": "VEED Ramuel Michel CACCIA Charlotte Maryvonne SCHILTZ Marilù MARINI Gigi Juge Benneau Erick DESMARESTZ Janvier Jean-Claude FRISSUNG Lucas Jean-Pierre GOS Michael Clark Terence FORD",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_first_half_frame_262_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 3,
+            "original_start_frame": 500,
+            "original_end_frame": 750,
+            "original_start_timecode": "00:00:16.667",
+            "original_end_timecode": "00:00:25.000",
+            "duration_frames": 250,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEeur du Majestic Jacques CIRON Monsieur Jean Pierre JULIEN Euzebio Pablo VERON Jolivet BURCKHARDT Roger Gardel Michel CASSAGNE Désiré Francis COFFINET Patron Brasserie de I'horloge Pierre BANDERET RDIDEI"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 512,
+                    "ocr_text": "VEeur du Majestic Jacques CIRON Monsieur Jean Pierre JULIEN Euzebio Pablo VERON Jolivet BURCKHARDT Roger Gardel Michel CASSAGNE Désiré Francis COFFINET Patron Brasserie de I'horloge Pierre BANDERET RDIDEI",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_003_first_half_frame_512_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 4,
+            "original_start_frame": 750,
+            "original_end_frame": 1000,
+            "original_start_timecode": "00:00:25.000",
+            "original_end_timecode": "00:00:33.333",
+            "duration_frames": 250,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Avocat de Clark Brian RICHARDS VEED Monsieur Charles Nader FARMAN Patten NIGEL L'interprète Patron du Pelican Jean-Marie DAUNAS Maitre d'hôtel du Majestic Arnold WALTHER Concierge du Majestic Gil LAUBERT Concierge rue Réaumur Bernard ROBIN Contrôleur du train MarCo CALAMANDREI"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 762,
+                    "ocr_text": "Avocat de Clark Brian RICHARDS VEED Monsieur Charles Nader FARMAN Patten NIGEL L'interprète Patron du Pelican Jean-Marie DAUNAS Maitre d'hôtel du Majestic Arnold WALTHER Concierge du Majestic Gil LAUBERT Concierge rue Réaumur Bernard ROBIN Contrôleur du train MarCo CALAMANDREI",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_004_first_half_frame_762_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 5,
+            "original_start_frame": 1000,
+            "original_end_frame": 1250,
+            "original_start_timecode": "00:00:33.333",
+            "original_end_timecode": "00:00:41.667",
+            "duration_frames": 250,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED Le fils de Prosper Arthur DESCHAMPS La danseuse du cabaret Danielle NEGRE Le voyou Philippe MAYMAT Gérard MOULEVRIER Casting Assistantes de réalisation Anne-Marie FALLOT Anne DELUZ"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1012,
+                    "ocr_text": "VEED Le fils de Prosper Arthur DESCHAMPS La danseuse du cabaret Danielle NEGRE Le voyou Philippe MAYMAT Gérard MOULEVRIER Casting Assistantes de réalisation Anne-Marie FALLOT Anne DELUZ",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_005_first_half_frame_1012_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 6,
+            "original_start_frame": 1250,
+            "original_end_frame": 1500,
+            "original_start_timecode": "00:00:41.667",
+            "original_end_timecode": "00:00:50.000",
+            "duration_frames": 250,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "caareu MICNETSTEBENMANN Accessoiriste recherche Sylvie GOY Accessoiriste Plateau Valérie EVANS ZAHND Perchiste Michel CASANG Assistant cadreur Michel ISRAELIAN Costumière Mireille CHAUVEL Maquilleuse Laurence RIEUX Coiffeuse Catherine RIOTTON VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1262,
+                    "ocr_text": "caareu MICNETSTEBENMANN Accessoiriste recherche Sylvie GOY Accessoiriste Plateau Valérie EVANS ZAHND Perchiste Michel CASANG Assistant cadreur Michel ISRAELIAN Costumière Mireille CHAUVEL Maquilleuse Laurence RIEUX Coiffeuse Catherine RIOTTON VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_006_first_half_frame_1262_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 7,
+            "original_start_frame": 1500,
+            "original_end_frame": 1750,
+            "original_start_timecode": "00:00:50.000",
+            "original_end_timecode": "00:00:58.333",
+            "duration_frames": 250,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Electriciens Ramon DOUTAZ FERNAND TAUXE Denis GUEX Alain CHEVAILLAZ Machinistes César KLEBER Joël FLAKS Mathieu MILHAUD Ramon FERNANDEZ ème 2 Assistant de réalisation Stéphane BRASEY 3eme Assistant de réalisation Olivier PAUL VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1512,
+                    "ocr_text": "Electriciens Ramon DOUTAZ FERNAND TAUXE Denis GUEX Alain CHEVAILLAZ Machinistes César KLEBER Joël FLAKS Mathieu MILHAUD Ramon FERNANDEZ ème 2 Assistant de réalisation Stéphane BRASEY 3eme Assistant de réalisation Olivier PAUL VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_007_second_half_frame_1512_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 8,
+            "original_start_frame": 1750,
+            "original_end_frame": 2000,
+            "original_start_timecode": "00:00:58.333",
+            "original_end_timecode": "00:01:06.667",
+            "duration_frames": 250,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Secrétaires de production Nathalie CRUCHON Agnès CHARRETON Carolien van den BERG Chauffeur de production Marc MAEDER Assistants au montage Fréderic BERNEY Khalarath BLOESCH SEK Monteur son Claire MEURINE Dominique DELGUSTE Mixeur Philippe SIMONET VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1762,
+                    "ocr_text": "Secrétaires de production Nathalie CRUCHON Agnès CHARRETON Carolien van den BERG Chauffeur de production Marc MAEDER Assistants au montage Fréderic BERNEY Khalarath BLOESCH SEK Monteur son Claire MEURINE Dominique DELGUSTE Mixeur Philippe SIMONET VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_008_second_half_frame_1762_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 9,
+            "original_start_frame": 2000,
+            "original_end_frame": 2250,
+            "original_start_timecode": "00:01:06.667",
+            "original_end_timecode": "00:01:15.000",
+            "duration_frames": 250,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Générique Edmond LIECHTI Trucages Hermann WETTER Administration Hoang Le VAN Valérie MEISSONNIER Eliane COUPRIE Photographe de plateau Sipa Press Véhicules d'époque Germain Location Auditorium musique Studio MAUNOIR VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2012,
+                    "ocr_text": "Générique Edmond LIECHTI Trucages Hermann WETTER Administration Hoang Le VAN Valérie MEISSONNIER Eliane COUPRIE Photographe de plateau Sipa Press Véhicules d'époque Germain Location Auditorium musique Studio MAUNOIR VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_009_second_half_frame_2012_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 10,
+            "original_start_frame": 2250,
+            "original_end_frame": 2500,
+            "original_start_timecode": "00:01:15.000",
+            "original_end_timecode": "00:01:23.333",
+            "duration_frames": 250,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Montage audio numérique Digison Auditorium Auditel Gerling Assurances Media Assurance France Laurent PETITGIRARD Musique générique Interprétée par L'orchestre Symphonique Français Edition O.S.F. Euterpe/ Jereronimo VEED Reratons publiques Alain Hardel"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2262,
+                    "ocr_text": "Montage audio numérique Digison Auditorium Auditel Gerling Assurances Media Assurance France Laurent PETITGIRARD Musique générique Interprétée par L'orchestre Symphonique Français Edition O.S.F. Euterpe/ Jereronimo VEED Reratons publiques Alain Hardel",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_010_second_half_frame_2262_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 11,
+            "original_start_frame": 2500,
+            "original_end_frame": 2750,
+            "original_start_timecode": "00:01:23.333",
+            "original_end_timecode": "00:01:31.667",
+            "duration_frames": 250,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Producteur exécutif de la collection Daniel DESCHAMPS Producteurs Eve VERCEL Robert NADOR et Steve HAWES Réalisation VEED Claude GORETTA"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2512,
+                    "ocr_text": "Producteur exécutif de la collection Daniel DESCHAMPS Producteurs Eve VERCEL Robert NADOR et Steve HAWES Réalisation VEED Claude GORETTA",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_011_second_half_frame_2512_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 12,
+            "original_start_frame": 2750,
+            "original_end_frame": 2966,
+            "original_start_timecode": "00:01:31.667",
+            "original_end_timecode": "00:01:38.867",
+            "duration_frames": 216,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "LA TELEVISION SUISSE ROMANDE DUNE E.C. Télévision Paris FRANCE 2 en co-production avec LA RTBF Télévision Belge NEXT EPISODE IN 6S avec la participation du VEED Centre National de Ia Cinématographie"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2760,
+                    "ocr_text": "LA TELEVISION SUISSE ROMANDE DUNE E.C. Télévision Paris FRANCE 2 en co-production avec LA RTBF Télévision Belge NEXT EPISODE IN 6S avec la participation du VEED Centre National de Ia Cinématographie",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_012_second_half_frame_2760_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 20,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:00.667",
+            "duration_frames": 20,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 20,
+            "end_frame": 250,
+            "start_timecode": "00:00:00.667",
+            "end_timecode": "00:00:08.333",
+            "duration_frames": 230,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 250,
+            "end_frame": 500,
+            "start_timecode": "00:00:08.333",
+            "end_timecode": "00:00:16.667",
+            "duration_frames": 250,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 500,
+            "end_frame": 750,
+            "start_timecode": "00:00:16.667",
+            "end_timecode": "00:00:25.000",
+            "duration_frames": 250,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 750,
+            "end_frame": 1000,
+            "start_timecode": "00:00:25.000",
+            "end_timecode": "00:00:33.333",
+            "duration_frames": 250,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 1000,
+            "end_frame": 1250,
+            "start_timecode": "00:00:33.333",
+            "end_timecode": "00:00:41.667",
+            "duration_frames": 250,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 6,
+            "start_frame": 1250,
+            "end_frame": 1500,
+            "start_timecode": "00:00:41.667",
+            "end_timecode": "00:00:50.000",
+            "duration_frames": 250,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 7,
+            "start_frame": 1500,
+            "end_frame": 1750,
+            "start_timecode": "00:00:50.000",
+            "end_timecode": "00:00:58.333",
+            "duration_frames": 250,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 8,
+            "start_frame": 1750,
+            "end_frame": 2000,
+            "start_timecode": "00:00:58.333",
+            "end_timecode": "00:01:06.667",
+            "duration_frames": 250,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 9,
+            "start_frame": 2000,
+            "end_frame": 2250,
+            "start_timecode": "00:01:06.667",
+            "end_timecode": "00:01:15.000",
+            "duration_frames": 250,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 10,
+            "start_frame": 2250,
+            "end_frame": 2500,
+            "start_timecode": "00:01:15.000",
+            "end_timecode": "00:01:23.333",
+            "duration_frames": 250,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 11,
+            "start_frame": 2500,
+            "end_frame": 2750,
+            "start_timecode": "00:01:23.333",
+            "end_timecode": "00:01:31.667",
+            "duration_frames": 250,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 12,
+            "start_frame": 2750,
+            "end_frame": 2966,
+            "start_timecode": "00:01:31.667",
+            "end_timecode": "00:01:38.867",
+            "duration_frames": 216,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:37:33.233388"
+}

@@ -1,0 +1,1348 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_000_num00120_sim0.jpg",
+          "frame_num": 120,
+          "ocr_text": "DIRECTED AND PRODUCED BY FRANCIS FORD COPPOLA",
+          "ocr_bbox": [
+            152,
+            105,
+            424,
+            169
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_001_num00135_sim100.jpg",
+          "frame_num": 135,
+          "ocr_text": "DIRECTED AND PRODUCED BY FRANCIS FORD COPPOLA",
+          "ocr_bbox": [
+            151,
+            104,
+            427,
+            172
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_002_num00300_sim54.jpg",
+          "frame_num": 300,
+          "ocr_text": "WRITTEN BY JOHN MILIUS AND FRANCIS FORD COPPOLA NARRATION BY MICHAEL HERR",
+          "ocr_bbox": [
+            150,
+            47,
+            426,
+            231
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_003_num00450_sim15.jpg",
+          "frame_num": 450,
+          "ocr_text": "STARRING",
+          "ocr_bbox": [
+            240,
+            116,
+            338,
+            155
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_004_num00540_sim29.jpg",
+          "frame_num": 540,
+          "ocr_text": "MARLON BRANDO",
+          "ocr_bbox": [
+            163,
+            109,
+            413,
+            164
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_005_num00660_sim31.jpg",
+          "frame_num": 660,
+          "ocr_text": "ROBERT DUVALL",
+          "ocr_bbox": [
+            173,
+            109,
+            403,
+            162
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_006_num00780_sim24.jpg",
+          "frame_num": 780,
+          "ocr_text": "MARTIN SHEEN",
+          "ocr_bbox": [
+            180,
+            109,
+            395,
+            162
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_007_num00885_sim30.jpg",
+          "frame_num": 885,
+          "ocr_text": "MIRAMAX FILMS RELEASE",
+          "ocr_bbox": [
+            188,
+            116,
+            389,
+            190
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_008_num01230_sim25.jpg",
+          "frame_num": 1230,
+          "ocr_text": "CO-PRODUCED BY FRED ROOS GRAY FREDERICKSON AND TOM STERNBERG",
+          "ocr_bbox": [
+            169,
+            62,
+            409,
+            206
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_009_num01365_sim38.jpg",
+          "frame_num": 1365,
+          "ocr_text": "CINEMATOGRAPHY BY VITTORIO STORARO AIC-ASC",
+          "ocr_bbox": [
+            177,
+            94,
+            400,
+            194
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_010_num01470_sim37.jpg",
+          "frame_num": 1470,
+          "ocr_text": "PRODUCTION DESIGNER DEAN TAVOULARIS",
+          "ocr_bbox": [
+            181,
+            102,
+            395,
+            172
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_011_num01575_sim40.jpg",
+          "frame_num": 1575,
+          "ocr_text": "ALSO STARRING FREDERIC FORREST",
+          "ocr_bbox": [
+            181,
+            102,
+            399,
+            172
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_012_num01680_sim29.jpg",
+          "frame_num": 1680,
+          "ocr_text": "ALBERT HALL",
+          "ocr_bbox": [
+            208,
+            112,
+            371,
+            166
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_013_num01785_sim36.jpg",
+          "frame_num": 1785,
+          "ocr_text": "SAM BOTTOMS",
+          "ocr_bbox": [
+            201,
+            116,
+            378,
+            163
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_014_num01890_sim23.jpg",
+          "frame_num": 1890,
+          "ocr_text": "LARRY FISHBURNE",
+          "ocr_bbox": [
+            178,
+            114,
+            398,
+            163
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_015_num01995_sim31.jpg",
+          "frame_num": 1995,
+          "ocr_text": "AND DENNIS HOPPER",
+          "ocr_bbox": [
+            195,
+            102,
+            384,
+            173
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_016_num02100_sim38.jpg",
+          "frame_num": 2100,
+          "ocr_text": "CO-STARRING G.D. SPRADLIN HARRISON FORD",
+          "ocr_bbox": [
+            196,
+            89,
+            384,
+            196
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_017_num02235_sim30.jpg",
+          "frame_num": 2235,
+          "ocr_text": "COLLEEN CAMP CYNTHIA WOOD",
+          "ocr_bbox": [
+            196,
+            99,
+            381,
+            180
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_018_num02355_sim38.jpg",
+          "frame_num": 2355,
+          "ocr_text": "CHRISTIAN MARQUAND AURORE CLEMENT",
+          "ocr_bbox": [
+            157,
+            103,
+            421,
+            179
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_019_num02475_sim35.jpg",
+          "frame_num": 2475,
+          "ocr_text": "SUPERVISING EDITOR RICHARD MARKS EDITORS WALTER MURCH GERALD B. GREENBERG AND LISA FRUCHTMAN",
+          "ocr_bbox": [
+            189,
+            54,
+            391,
+            224
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_020_num02640_sim43.jpg",
+          "frame_num": 2640,
+          "ocr_text": "ASSOCIATE PRODUCER MONA SKAGER CREATIVE CONSULTANT DENNIS JAKOB",
+          "ocr_bbox": [
+            212,
+            84,
+            367,
+            195
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_021_num02775_sim38.jpg",
+          "frame_num": 2775,
+          "ocr_text": "MUSIC BY CARMINE COPPOLA AND FRANCIS FORD COPPOLA",
+          "ocr_bbox": [
+            180,
+            85,
+            399,
+            192
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_022_num02895_sim37.jpg",
+          "frame_num": 2895,
+          "ocr_text": "SOUND MONTAGE AND DESIGN WALTER MURCH",
+          "ocr_bbox": [
+            185,
+            109,
+            393,
+            162
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_023_num03000_sim36.jpg",
+          "frame_num": 3000,
+          "ocr_text": "DOUG CLAYBOURNE EXECUTIVE ASSISTANTS MELISSA MATHISON JACK FRITZ",
+          "ocr_bbox": [
+            199,
+            93,
+            378,
+            210
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_024_num03030_sim73.jpg",
+          "frame_num": 3030,
+          "ocr_text": "SPECIAL ASSISTANT TO THE PRODUCERS DOUG CLAYBOURNE EXECUTIVE ASSISTANTS JACK FRITZ",
+          "ocr_bbox": [
+            154,
+            71,
+            424,
+            210
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_025_num03060_sim91.jpg",
+          "frame_num": 3060,
+          "ocr_text": "SPECIAL ASSISTANT TO THE PRODUCERS DOUG CLAYBOURNE EXECUTIVE ASSISTANTS MELISSA MATHISON JACK FRITZ",
+          "ocr_bbox": [
+            152,
+            68,
+            424,
+            210
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_026_num03135_sim31.jpg",
+          "frame_num": 3135,
+          "ocr_text": "MUSIC PRODUCED BY DAVID RUBINSON",
+          "ocr_bbox": [
+            210,
+            110,
+            367,
+            162
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_027_num03255_sim34.jpg",
+          "frame_num": 3255,
+          "ocr_text": "ART DIRECTOR ANGELO GRAHAM SET DECORATOR GEORGE R. NELSON",
+          "ocr_bbox": [
+            206,
+            85,
+            372,
+            195
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_028_num03375_sim38.jpg",
+          "frame_num": 3375,
+          "ocr_text": "PRODUCTION MANAGERS LEON CHOOLUCK BARRIE OSBORNE",
+          "ocr_bbox": [
+            207,
+            98,
+            371,
+            181
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_029_num03495_sim30.jpg",
+          "frame_num": 3495,
+          "ocr_text": "ASSISTANT DIRECTOR JERRY ZIESMER 2ND ASSISTANT DIRECTOR LARRY J. FRANCO ADDITIONAL ASSISTANT DIRECTOR TONY BRANDT",
+          "ocr_bbox": [
+            178,
+            55,
+            399,
+            226
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_030_num03645_sim40.jpg",
+          "frame_num": 3645,
+          "ocr_text": "MASTER SYNTHESIST PATRICK GLEESON SYNTHESISTS RICHARD BEGGS - BERNARD L KRAUSE DON PRESTON- SHIRLEY WALKER NYLE STEINER E.V.. SOLOIST GUITARIST RANDY HANSEN PERCUSSION BASED SEORE MICKEY HART",
+          "ocr_bbox": [
+            151,
+            74,
+            513,
+            209
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_031_num03660_sim99.jpg",
+          "frame_num": 3660,
+          "ocr_text": "MASTER SYNTHESIST PATRICK GLEESON SYNTHESISTS RICHARD BEGGS - BERNARD L KRAUSE DON PRESTON- SHIRLEY WALKER NYLE STEINER E.V.I. SOLOIST GUITARIST RANDY HANSEN PERCUSSION BASED SCORE MICKEY HART",
+          "ocr_bbox": [
+            151,
+            74,
+            513,
+            209
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_032_num03825_sim43.jpg",
+          "frame_num": 3825,
+          "ocr_text": "MUSIC PRODUCTION ASSISTANCE ETRA AND MICHAEL HINTON PERFORMED WITH THE RHYTHM DEVILS JORDAN AMARANTHA \u00b7 GREG ERRICO ZAKIR HUSSAIN - BILLY KREUTZMANN PHIL LESH - JIM LOVELESS SPECIAL THANKS TO FLORA PURIM",
+          "ocr_bbox": [
+            124,
+            78,
+            510,
+            209
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_033_num04005_sim96.jpg",
+          "frame_num": 4005,
+          "ocr_text": "MUSIC PRODUCTION ASSISTANCE AIRTO OREIRA AND MICHAEL HINTON PERFORMED WITH THE RHYTHM DEVILS JORDAN AMARANTHA \u00b7 GREG ERRICO ZAKIR HUSSAIN \u00b7 BILLY KREUTZMANN PHIL LESH - JIM LOVELESS SPECIAL THANKS TO FLORA PURIM",
+          "ocr_bbox": [
+            122,
+            76,
+            511,
+            208
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_034_num04050_sim43.jpg",
+          "frame_num": 4050,
+          "ocr_text": "NRICO UMETELL CAMERA OPERATOR CAMERA ASSISTANTS RINO BERNARDINI MAURO MARCHETTI - EFREN LAPID ROGILIO De La RAMA GIUSEPPE ALBERTI 2ND UNIT DIRECTOR OF PHOTOGRAPHY STEPHEN H. BURUM, ASC",
+          "ocr_bbox": [
+            96,
+            76,
+            494,
+            208
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_035_num04065_sim96.jpg",
+          "frame_num": 4065,
+          "ocr_text": "ENRICO UMETELLI CAMERA OPERATOR CAMERA ASSISTANTS RINO BERNARDINI MAURO MARCHETTI - EFREN LAPID ROGILIO De La RAMA GIUSEPPE ALBERTI 2ND UNIT DIRECTOR OF PHOTOGRAPHY STEPHEN H. BURUM, ASC",
+          "ocr_bbox": [
+            96,
+            75,
+            494,
+            208
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_036_num04215_sim91.jpg",
+          "frame_num": 4215,
+          "ocr_text": "CAMERA OPERATOR ENRICO UMETELLI CAMERA ASSISTANTS RIND BEBNARDIRI MAURO MARCHETTI - EFREN LAPID ROGILIO DE LA RAMA CIUSEPPE ALBERTI ZND UNIT DIRECTOR OF PHOTOGRAPHY STEPHEN H. BURUM. ASC",
+          "ocr_bbox": [
+            96,
+            76,
+            495,
+            208
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_037_num04245_sim53.jpg",
+          "frame_num": 4245,
+          "ocr_text": "INSEAT DIRECTOR OF PHOTOGRAPHY CALEB DESCHANEL 2NO UNIT CAMERAMAN PIERO SERVO INSERT CAMERA OPERATOR HIRO NARITA STILL PHOTOGRAPHERS CHAS GERRETSEN - JOSH WEINER AERIAL COORDINATORS DICK WHITE - DAVID JONES AERIAL CAMERAMAN DAVID BUTLER ASSISTANT CAMERAMEN DAVID NOWELL",
+          "ocr_bbox": [
+            105,
+            63,
+            487,
+            220
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_038_num04440_sim29.jpg",
+          "frame_num": 4440,
+          "ocr_text": "RE-RECORDISTS WALTER MURCH MARK BERGER RICHARD BEGGS THOMAS SCOTT",
+          "ocr_bbox": [
+            203,
+            86,
+            389,
+            197
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_039_num04455_sim85.jpg",
+          "frame_num": 4455,
+          "ocr_text": "RE-RECORDISTS WALTER MURCH MARK BERGER RICHARD BEGGS DALE STRUMPELL",
+          "ocr_bbox": [
+            203,
+            86,
+            394,
+            175
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_040_num04485_sim91.jpg",
+          "frame_num": 4485,
+          "ocr_text": "RE-RECORDISTS WALTER MURCH MARK BERGER RICHARD BEGGS DALE STRUMPELL THOMAS SCOTT",
+          "ocr_bbox": [
+            204,
+            86,
+            391,
+            197
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_041_num04575_sim28.jpg",
+          "frame_num": 4575,
+          "ocr_text": "ADDITIONAL EDITORS BLACKIE MALKIN-EVAN LOTTMAN ACE ASSOCIATE EDITOR GEORGE BERNOT FIRST ASSISTANT FILM EDITOR MICHAEL JACOBI ASSISTANT FILM EOITORS TRACEY SMITH - STEVE SEMEL RICHARD CANDIB - JERRY ROSS MICHAEL KIRCHBERGER - KEN FISHER JAY BOEKELHEIDE - ARTHUR COBURN APPRENTICE FILM EUITOR",
+          "ocr_bbox": [
+            133,
+            53,
+            513,
+            230
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_042_num04590_sim98.jpg",
+          "frame_num": 4590,
+          "ocr_text": "ADDITIONAL EDITORS BLACKIE MALKIN -EVAN LOTTMAN ACE ASSOCIATE EDITOR GEORGE BERNOT FIRST ASSISTANT FILM EDITOR MICHAEL JACOBI ASSISTANT FILM EOITORS TRACEY SMITH - STEVE SEMEL RICHARD CANDIB - JERRY ROSS MICHAEL KIRCHBERGER - KEN FISHER JAY BOEKELHEIDE - ARTHUR COBURN APPRENTICE FILM EUITOR",
+          "ocr_bbox": [
+            133,
+            55,
+            511,
+            232
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_043_num04605_sim97.jpg",
+          "frame_num": 4605,
+          "ocr_text": "ADDITIONAL EDITORS BLACKIE MALKIN - EVAN LOTTMAN ACE ASSOCIATE EDITOR GEORGE BERNOT FIRST ASSISTANT FILM EDITOR MICHAEL JACOBI ASSISTANT FILM EOITORS1 TRACEY SMITH - STEVE SEMEL RICHARD CANDIB - JERRY ROSS MICHAEL KIRCHBERGER - KEN FISHER JAY BOEKELHEIDE - ARTHUR COBURN APPRENTICE FILM EOITOR SUSAN ARNOLD",
+          "ocr_bbox": [
+            133,
+            53,
+            513,
+            232
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_044_num04830_sim46.jpg",
+          "frame_num": 4830,
+          "ocr_text": "SUPERVISING SOUND EDITDR RICHARD CIRINCIONE SOUND EDITORS LESLIE HODGSON LES WIGGINS GBFE - PAT JACKSON JAY MIRACLE MUSIC EOITOR STAN WITT DIALOGUE EDITORS LESLIE SHATZ - JOHN NUTT JAMES A. BORGARDT JOANNE D'ANTONID",
+          "ocr_bbox": [
+            143,
+            55,
+            491,
+            232
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_045_num05025_sim44.jpg",
+          "frame_num": 5025,
+          "ocr_text": "KAREN WILSON - BARBARA MCBANE DAVE DAVIES APPRENTICE SOUND EDITORS JEPHREY HETZ - LOUIS BENIOFF JEFF WATTS - BARBARA ELLIS DENISE THORP - ROB FRUCHTMAN POST PRODUCTION COORDINATORS DOUG CLAYBOURNE BARBARA MARKS",
+          "ocr_bbox": [
+            112,
+            61,
+            504,
+            242
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_046_num05160_sim90.jpg",
+          "frame_num": 5160,
+          "ocr_text": "KAREN WILSON - BARBARA MCBANE DAVE DAVIES APPRENTICE SOUND EDITORS JEPHREY HETZ \u00b7 LOUIS BENIOFF JEFF WATTS \u00b7 BARBARA ELLIS DENISE THORP - ROB FRUCHTMAN FOREIGN POST PRODUCTION COORDINATOR RUDI FEHR POST PRODUCTION COORDINATORS DOUG CLAYBOURNE BARBARA MARKS",
+          "ocr_bbox": [
+            75,
+            63,
+            503,
+            242
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_047_num05280_sim89.jpg",
+          "frame_num": 5280,
+          "ocr_text": "ASSISTANT SOUND EDITONS. TIM HOLLAND - NINA WAX KAREN WILSON- BARBARA MCRANE DAVE DAVIES APPRENTICESOUND EOITORS JEPRREY HETZ -LOUIS BENIOFF JEFF WATTS- BARBARA ELLIS DENISE THORP - ROB FRUCHTMAN FOREIEN POST PRODUCTION COORDINATOR RUDI FENR POST PRODUCTION COOROINATORS  DOUG CLAYBOURNI BABBARA MARKS",
+          "ocr_bbox": [
+            73,
+            39,
+            503,
+            240
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_048_num05310_sim41.jpg",
+          "frame_num": 5310,
+          "ocr_text": "PRODUCTION EXECUTIVE JOHN LASALANORA COSTUME SUPERVISOR CHARLES E. JAMES COSTUMERS DENNIS M. FILL - GEORGE LITTLE LUSTER BAYLESS - NORMAN BURZA MAKEUP JACK YOUNG FRED C. BLAU JI. CMAA",
+          "ocr_bbox": [
+            164,
+            50,
+            498,
+            201
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_049_num05340_sim90.jpg",
+          "frame_num": 5340,
+          "ocr_text": "PRODUCTION EXECUTIVE AND CONSTRUCTION COORDINATOR JOHN LASALANDRA COSTUME SUPERVISOR CHARLES E. JAMES COSTUMERS DENNIS M. FILL -GEORGE LITTLE LUSTER BAYLESS - NORMAN BURZA MAKEUP JACK YOUNG FRED C. BLAU JR. CMAA",
+          "ocr_bbox": [
+            112,
+            52,
+            494,
+            202
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_050_num05355_sim90.jpg",
+          "frame_num": 5355,
+          "ocr_text": "PRODUCTION EXECUTIVE AND CONSTRUCTION COORDINATOR J JOHN LASALANDRA COSTUME SUPERVISOR CHARLES E. JAMES COSTUMERS DENNIS M. FILL - GEORGE LITTLE LUSTER BAYLESS - NORMAN BURZA MAKEUP JACK YOUNG FRED C. BLAU JR. CMAA PLAYMATE SHOW CHOREOGRAPHER JOHN CALVERT",
+          "ocr_bbox": [
+            110,
+            50,
+            494,
+            223
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_051_num05505_sim47.jpg",
+          "frame_num": 5505,
+          "ocr_text": "SPECIAL EFECTS COORDINATORS JOSEPH LOMBARDI - A. D. FLOWERS SPECIAL EFFECTS MEN LARRY CAVANAUGN - JERRY ENDLER RUDY LISZCZAK - JOHN FRASER RICHARD HELMER - EDDIE AYAY TED MARTIN - DAVID ST. ANA MARIO CARMONA SPECIAL EFFECTS UNLIMITED MARINE COORDINATORS PETE COOPER - DENNIS MURPHY",
+          "ocr_bbox": [
+            119,
+            47,
+            504,
+            216
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_052_num05520_sim97.jpg",
+          "frame_num": 5520,
+          "ocr_text": "SPECIAL EFECTS COORDINATORS JOSEPH LOMBARD! - A. D. FLOWERS SPECIAL EFFECTS MEN LARRY CAVANAUGH - JERRY ENDLER RUDY LISZCZAK - JOHN FRASER RICHARD HELMER - EDDIE AYAY TED MARTIN - DAVID ST. ANA MARIO CARMONA SPECIAL EFFECTS UNLIMITED MARINE COORDINATORS PETE COOPER - DENNIS MURPHY SHANE EDWARDS",
+          "ocr_bbox": [
+            119,
+            47,
+            503,
+            238
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_053_num05550_sim99.jpg",
+          "frame_num": 5550,
+          "ocr_text": "SPECIAL EFECTS COORDINATORS JOSEPH LOMBARDI - A. O. FLOWERS SPECIAL EFFECTS MEN LARRY CAVANAUGH - JERRY ENDLER RUDY LISZCZAK - JOHN FRASER RICHARD HELMER - EDDIE AYAY TED MARTIN - DAVID ST. ANA MARIO CARMONA SPECIAL EFFECTS UNLIMITED MARINE COORDINATORS PETE COOPER - DENNIS MURPHY SHANE EDWARDS",
+          "ocr_bbox": [
+            119,
+            47,
+            503,
+            238
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_054_num05595_sim100.jpg",
+          "frame_num": 5595,
+          "ocr_text": "SPECIAL EFFECTS COORDINATORS JOSEPH LOMBARDI - A. O. FLOWERS SPECIAL EFFECTS MEN LARRY CAVANAUGH - JERRY ENDLER RUDY LISZCZAK - JOHN FRASER RICHARD HELMER - EDDIE AYAY TED MARTIN - DAVID ST. ANA MARIO CARMONA SPECIAL EFFECTS UNLIMITED MARINE COORDINATORS PETE COOPER - DENNIS MURPHY SHANE EDWARDS",
+          "ocr_bbox": [
+            119,
+            47,
+            503,
+            238
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_055_num05730_sim49.jpg",
+          "frame_num": 5730,
+          "ocr_text": "MILITARY ADVISORS DICK WHITE - FRED REXER, JR. LT. COLONEL PETER KAMA (US. ARMY RETIRED PAUL GREGORY \u00b7 PAUL HENSLER RICHARD DIOGUARDI - DOUG RYAN FIXED WING PILOT JOHN ADDINGTON TRANSPORTATTON COORDINATORS JOHN C. READE- DENNIS HOLLIS",
+          "ocr_bbox": [
+            118,
+            73,
+            508,
+            208
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_056_num05745_sim100.jpg",
+          "frame_num": 5745,
+          "ocr_text": "MILITARY ADVISORS DICK WHITE - FRED REXER, JR. LT. COLONEL PETER KAMA (ULS. ARMY RETIRED) PAUL GREGORY - PAUL HENSLER RICHARD DIOGUARDI - DOUG RYAN FIXED WING PILOT JOHN ADDINGTON TRANSPORTATTON COORDINATORS JOHN C. READE- DENNIS HOLLIS",
+          "ocr_bbox": [
+            118,
+            73,
+            510,
+            208
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_057_num06015_sim43.jpg",
+          "frame_num": 6015,
+          "ocr_text": "PRODUCTION ILLUSTRATORS ALEX TAVOULARIS THOMAS A. WRIGHT LEADMAN GARY FETTIS SCULPTOR JAMES CASEY CONSTRUCTION FOREMAN BOB SCAIFE SET ARTIST ROGER DIETZ PRODUCTION ACCOUNTANT NORMAN WEBSTER PRODUCTION CONTROLLER JEAN A. AUTREY",
+          "ocr_bbox": [
+            146,
+            52,
+            409,
+            231
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_058_num06030_sim91.jpg",
+          "frame_num": 6030,
+          "ocr_text": "PRODUCTION ILLUSTRATORS ALEX TAVOULARIS THOMAS A. WRIGHT LEADMAN GARY FETTIS SCULPTOR JAMES CASEY CONSTRUCTION FOREMAN BOB SCAIFE SET ARTIST ROGER DIETZ PRODUCTION ACCOUNTANT NORMAN WEBSTER PROOUCTION CONTROLLER JEAN A. AUTREY ASSISTANT PRODUCTION CONTROLLER GWEN M. LUCAS",
+          "ocr_bbox": [
+            97,
+            53,
+            409,
+            253
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_059_num06075_sim93.jpg",
+          "frame_num": 6075,
+          "ocr_text": "ASSISTANT ART DIRECTOR JAMES MUBAKAMI PROOUCTION ILLUSTRATORS ALEX TAVOULARIS THOMAS A. WRIGHT LEADMAN GARY FETTIS SCULPTOR JAMES CASEY CONSTRUCTION FOREMAN BOB SCAIFE SET ARTIST ROGER DIETZ PRODUCTION ACCOUNTANT NORMAN WEBSTER PROOUCTION CONTROLLER JEAN A. AUTREY ASSISTANT PRODUCTION CONTROLLER GWEN M. LUCAS",
+          "ocr_bbox": [
+            96,
+            30,
+            410,
+            255
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_060_num06210_sim45.jpg",
+          "frame_num": 6210,
+          "ocr_text": "KEY GRIP ALFREDO MARCHETTI GAFFER LUCIANO GALLI PRODUCTION RECORDISTS NATHAN BOXER \u00b7 JACK JACOBSEN SCRIPT SUPERVISORS RAYMOND OUIROZ \u00b7 NANCY TONERY PROPERTY MASTER DOUG MADISON MATT TOMICH - WILLIE E. HUNTER",
+          "ocr_bbox": [
+            156,
+            49,
+            497,
+            230
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_061_num06225_sim82.jpg",
+          "frame_num": 6225,
+          "ocr_text": "KEY GRIP ALFREDO MARCHETTI GAFFER LUCIANO GALLI PRODUCTION RECORDISTS NATHAN BOXER JACK JACOBSEN POST PRODUCTION RECORDIST RANDY THOM SCRIPT SUPERVISORS RAYMOND QUIROZ \u00b7 NANCY TONERY PROPERTY MASTER DOUG MADISON ASSISTANT PROPERTY MASTERS TOM SHAW - TOM ROYSDEN MATT TOMICH - WILLIE E. HUNTER",
+          "ocr_bbox": [
+            123,
+            49,
+            497,
+            230
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_062_num06450_sim43.jpg",
+          "frame_num": 6450,
+          "ocr_text": "CASTING TERRY LIEBLING * VIC RAMOS MONTAGNARD TRIBESMEN CASTING EVA GARDOS PHILIPPINE CASTING LOU WHITEHILL - RANDY CARTER CASTING ASSISTANTS HEIG BECK - KEN METCALFE MARC COPPOLA - SUE BASTIAN STUNT COORDINATOR TERRY J.LEONARD STUNTMEN JOE FINNEGAN - KERRY ROSSAL CHUCK WATERS\u00b7 STEVE BOYUM",
+          "ocr_bbox": [
+            106,
+            50,
+            482,
+            230
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_063_num06465_sim97.jpg",
+          "frame_num": 6465,
+          "ocr_text": "CASTING TERRY LIEBLING - VIC RAMOS MONTAGNARD TRIBESMEN CASTING EVA GARDOS PHILIPPINE CASTING LOU WHITEHILL - RANDY CARTER CASTING ASSISTANTS HEIG BECK - KEN METCALFE MARC COPPOLA - SUE BASTIAN STUNT COORDINATOR TERRY J. LEONARD STUNTMEN JOE FINNEGAN -KERRY ROSSAL CHUCK WATERS\u00b7 STEVE BOYUM",
+          "ocr_bbox": [
+            106,
+            50,
+            482,
+            230
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_064_num06720_sim44.jpg",
+          "frame_num": 6720,
+          "ocr_text": "CAMPAIGN COORDINATOR GABE SUMNER U.S. & CANADIAN PRODUCER'S REPRESENTATIVE IRWIN YABLANS ERNST GOLDSCHMIDT FONEIGN PRODUCER'S REPRESENTATIVE MARKETING DIRECTOR LEE BEAUPRE FOREIGN PUBLICITY COORDINATOR BRETT DICKER",
+          "ocr_bbox": [
+            91,
+            71,
+            416,
+            202
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_065_num06840_sim50.jpg",
+          "frame_num": 6840,
+          "ocr_text": "U.S. PRODUCTION LIAISON AND RESEARCH DEBORAH FINE PRODUCTION COORDINATORS MARISA ALCARAZ- LOOLEE DE LEON ELEANOR COPPOLA DOCUMENTARIAN U.S. PRODUCTION SECRETARY FRANCESCA RIVIERE LOCATION COORDINATOR JACK ENGLISH JOHN CHAPMAN - KEVIN HUGHES RUSS CORIN - LLOYD KINO TONY DINGMAN - BARBARA PARKER MATT TOMICH - PATTI CLAYBOURNE",
+          "ocr_bbox": [
+            78,
+            32,
+            501,
+            254
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_066_num06855_sim92.jpg",
+          "frame_num": 6855,
+          "ocr_text": "U.S. PRODUCTION LIAISON AND RESEARCH DEBORAH FINE PRODUCTION COORDINATORS MARISA ALCARAZ \u00b7 LOOLEE DE LEON DOCUMENTARIAN ELEANOR COPPOLA U.S. PRODUCTION SECRETARY FRANCESCA RIVIERE LOCATION COORDINATOR JACK ENGLISH PRODUCTION ASSISTANTS ROBERT CARROLL - PHIL RADCLIFFE JOHN CHAPMAN - KEVIN HUGHES RUSS CORIN - LLOYD KINO TONY DINGMAN - BARBARA PARKER MATT TOMICH - PATTI CLAYBOURNE",
+          "ocr_bbox": [
+            77,
+            30,
+            501,
+            254
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_067_num06945_sim98.jpg",
+          "frame_num": 6945,
+          "ocr_text": "U.S. PRODUCTION LIAISON AND RESEARCH DEBORAH FINE PRODUCTION COORDINATORS SMARISA ALCARAZ - LOOLEE DE LEON DOCUMENTARIAN ELEANOR COPPOLA U.S. PRODUCTION SECRETARY FRANCESCA RIVIERE LOCATION COORDINATOR JACK ENGLISH PRODUCTION ASSISTANTS ROBERT CARROLL - PHIL RADCLIFFE JOHN CHAPMAN - KEVIN HUGHES RUSS CORIN - LLOYD KINO TONY DINGMAN - BARBARA PARKER MATT TOMICH - PATTI CLAYBOURNE",
+          "ocr_bbox": [
+            77,
+            30,
+            503,
+            254
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_068_num07155_sim45.jpg",
+          "frame_num": 7155,
+          "ocr_text": "WE WISH TO GRATEFULLY ACKNOWLEDGE THE COOPERATION OF THE PEOPLE OF THE PHILIPPINES FOR THEIR HELP IN FILMING THIS MOTION PICTURE PHILIPPINE MILITARY LIAISON DENNIS JUBAN HEMISPHERE PROOUCTIONS JOHN ASHLEY \u00b7 EDDIE ROMERO PHILIPPINE DEPARTMENT OF TOURISM UINDA IGNACIO",
+          "ocr_bbox": [
+            95,
+            74,
+            471,
+            206
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_069_num07275_sim45.jpg",
+          "frame_num": 7275,
+          "ocr_text": "FILMED IN TECHNOVISION TITLES WAYNE FITZGERALD OPTICALS BY MODERN FILM EFFECTS SKIP WATT - JOE BENOIT SUPERVTSING COLOR TECHNICIANS ERNESTO NOVELLL - LARRY ROVETTI RECORDED ON MULTI-TRACK MAGNETICS, INC. HIGH SPEED FILM RECORDING SYSTEM",
+          "ocr_bbox": [
+            111,
+            63,
+            496,
+            214
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_070_num07440_sim39.jpg",
+          "frame_num": 7440,
+          "ocr_text": "'THE HOLLOW MEN' \"LOVE ME, AND LET ME LOVE You\" DY T.S. ELIOT BY ROBERT DUVALL COURTESY OF MRS. T.S. ELIOT THE RIDE OF THE VALKYRIES\" AND MESSRS. FABER & FABER LTO. LONDON FROM \"DIE WALKURE\" OTHER MUSIC BY RICHARD WAGNER THE END\" CONDUCTED BY SIR GEORG SOLTI, BY THE DOORS THE VIENNA PHILHARMONIC ORCHESTRA COURTESY OF DECCA RECORD COMPANY LTU PERFORMED BY THE DOORS LONDION RECOROS INC. \"I CAN'T GET NO SATISFACTION\" \"LET THE GOOD TIMES ROLL\" COURTESY OF ABKCO RECOROS, INC.",
+          "ocr_bbox": [
+            78,
+            38,
+            502,
+            241
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_071_num07455_sim97.jpg",
+          "frame_num": 7455,
+          "ocr_text": "THE HOLLOW MEN' \"LOVE ME, AND LET ME LOVE YoU\" DY T.S. ELIOT BY ROBERT DUVALL COURTESY OF MRS. T.S. ELIDT THE RIDE OF THE VALKYRIES ANO MESSRS. FABER & FABER LTO. LONDON FROM \"DIE WALKURE\" OTIER MUSIC BY RICHARD WAGNER THE END\" CONDUCTED BY SIR GEORG SOLTI, BY THE DOORS THE VIENNA PHILHARMONIC ORCHESTRA COURTESY OF DECCA RECORD COMPANY LTD/ PERFORMED BY THE DOORS LONDON RECOROS INC. \"I CAN'T GET NO SATISFACTION\" \"LET THE GOOD TIMES ROLL\" COURTESY OF ABKCO RECOROS, INC. BY LEONARD LEE",
+          "ocr_bbox": [
+            78,
+            37,
+            502,
+            245
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_072_num07500_sim98.jpg",
+          "frame_num": 7500,
+          "ocr_text": "'THE HOLLOW MEN' \"LOVE ME, AND LET ME LOVE YOU\" BY ROBERT DUVALL BY T.S. ELIOT COURTESY OF MRS. T.S. ELIDT THE RIDE OF THE VALKYRIES\" AND MESSAS. FABER & FABER LTD. LONDON FROM \"DIE WALKURE\" OTHER MUSIC BY RICHARD WAGNER THE END CONDUCTED BY SIR GEORG SOLTI BY THE DOORS THE VIENNA PHILHARMONIC ORCHESTRA COURTESY OF DECCA RECORD COMPANY LTDI PERFORMED BY THE DOORS LONDION RECOROS INC. \"I CAN'T GET NO SATISFACTION\" \"LET THE GOOD TIMES ROLL\" COURTESY OF ABKCO RECOROS. INC. BY LEONARD LEE",
+          "ocr_bbox": [
+            78,
+            38,
+            501,
+            245
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_073_num07530_sim96.jpg",
+          "frame_num": 7530,
+          "ocr_text": "THE HOLLOW MEN \"LOVE ME, AND LET ME LOVE YOU\" BY T.S. ELIOT BY ROBERT DUVALL COURTESY OF MRS. T.S. ELIDT THE RIDE OF THE VALKYRIES\" AND MESSAS. FABER & FABER ILTOL. LONDON FROM \"DIE WALKURE\" OTHER MUSIC BY RICHARD WAGNER THE END CONDUCTED BY SIR GEORG SOLTI BY THE DOORS THE VIENNA PHILHARMONIC ORCHESTRA COURTESY OF DECCA RECORD COMPANY LTD/ PERFORMED BY THE DOORS TONDION RECOROS INC. \"I CAN'T GET NO SATISFACTION\" \"LET THE GOOD TIMES ROLL\" COUNTESY OF ABKCO RECORDS. INE BY LEONARD LEE",
+          "ocr_bbox": [
+            78,
+            38,
+            502,
+            245
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_074_num07545_sim95.jpg",
+          "frame_num": 7545,
+          "ocr_text": "THE HOLLOW MEN \"LOVE ME, AND LET ME LOVE YOU\" BY T.S. ELIOT BY ROBERT DUVALL COURTESY OF MRS. T.S. ELIDT \"THE RIDE OF THE VALKYRIES\" ANET MESSRS. FABER & FABER LTOL. LONDON FROM \"DIE WALKURE\" OTHER MUSIC BY RICHARD WAGNER THE END CONDUCTED BY SIR GEORG SOLTI BY THE DOORS THE VIENNA PHILHARMONIC ORCHESTRA COURTESY OF DECCA RECORD CDMPANY LTD PERFORMED BY THE DOORS LONDION RECOROS INC. \"I CAN'T GET NO SATISFACTION\" \"LET THE GOOD TIMES ROLL\" COURTESY OF ABKCO RECORDS. INC BY LEONARD LEE",
+          "ocr_bbox": [
+            78,
+            38,
+            502,
+            245
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_075_num07695_sim45.jpg",
+          "frame_num": 7695,
+          "ocr_text": "\"SUZIE Q\" BY DALE HAWKINS S.J. LEWIS, E. BROADWATER PERFORMED BY FLASH CADILLAC, COURTESY OF PRIVATE STOCK RECORDS EXCERPTS FROM \"MNONG GAR MUSIC FROM VIETNAM\" COURTESY OF OCORA RADIO FRANCE \"COLLECTION MUSEE DE 1'HOMME\" ZOETROPE MUSIC COMPANY",
+          "ocr_bbox": [
+            176,
+            43,
+            399,
+            238
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_076_num07830_sim41.jpg",
+          "frame_num": 7830,
+          "ocr_text": "\"SURFIN'SAFART\" BRIAN WILSON AND MIKE LOVE GUILD MUSIC (BMD) C/O ORIGINAL SOUND ENTERTAINMENT SOUNDTRACK AVAILABLE ON NONESUCH RECORDS",
+          "ocr_bbox": [
+            171,
+            76,
+            406,
+            188
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_077_num07845_sim85.jpg",
+          "frame_num": 7845,
+          "ocr_text": "\"SURFIN' SAFARI\" BRIAN WILSON AND MIKE LOVE GUILD MUSIC (SMI) C/O DRIGINAL SOUND ENTERTAINMENT SOUNDTRACK AVAILABLE ON NONESUCH RECORDS",
+          "ocr_bbox": [
+            170,
+            76,
+            407,
+            188
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_078_num07995_sim29.jpg",
+          "frame_num": 7995,
+          "ocr_text": "THE DOORS COURTESY OF ELEKTRA/ASYLUM RECORDS",
+          "ocr_bbox": [
+            151,
+            110,
+            424,
+            168
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_079_num08100_sim16.jpg",
+          "frame_num": 8100,
+          "ocr_text": "PRODUCTION AND POST PRODOCTION FACILITIES FURNISHED THROUGH OMNI ZOETROPE STUDIOS SAN FRANCISCO/LOS ANGELES - KRISTINE PETERSON DOUGLAS CROSS - WAYNE WAGNER - NANCY ELY - SHERRY NISEWANER - DANIEL GLEICH DOUGLAS HEMPHILL - JULIE KRAMER - CLIFFORD LATIMER - ANDREW MOORE DENISE COONEY - VALERIE KOUTNIK - WM. POPLAR - STEFAN SEKULA - MICHAEL POPSO COLIN MICHAEL KITCHENS - LARRY CARNEY - JULIE MORIN - SUSAN THISTLE KRYSTAL WALTERS - TERESA ZALESKA - DENNIS GASSNER",
+          "ocr_bbox": [
+            75,
+            38,
+            503,
+            245
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_080_num08115_sim79.jpg",
+          "frame_num": 8115,
+          "ocr_text": "PRODUCTION AND POST PROBUCTION FACILITIES FURNISHED THROUGH OMNI ZOETROPE STUDIOS SAN FRANCISCO/LOS ANGELES - KRISTINE PETERSON DOUGLAS CROSS -WAYNE WAGNER - NANCY ELY - SHERRY NISEWANER - DANIEL GLEICH DAVID PARKER - CHARLES ESPOSITO - JAMES HILL - KATHERINE MORTON - DAIN FRITZ KAREN FRERICHS-LIZA RANOOL - ABIGAIL ABBUEHL-LAWRENCE ANDREWS -PAUL BROUCEK DOUGLAS HEMPHILL - JULIE KRAMER - CLIFFORD LATIMER - ANDREW MOORE COLIN MICHAEL KITCHENS - LARRY CARNEY - JULIE MORIN - SUSAN THISTLE KRYSTAL WALTERS - TERESA ZALESKA - DENNIS GASSNER",
+          "ocr_bbox": [
+            68,
+            37,
+            509,
+            245
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_081_num08145_sim73.jpg",
+          "frame_num": 8145,
+          "ocr_text": "PRODUCTION AND POST PRODUCTION FACILITIES FURNISHED THROUGH OMNI ZOETROPE STUDIOS SAN FRANCISCO/LOS ANGELES - KRISTINE PETERSON MITCHELL DUBIN - FRANKLIN SIMEONE- JOSEPH ZAPPALA - ROBERT PEITSO - DAVID WIRT DOUGLAS CROSS - WAYNE WAGNER - NANCY ELY - SHERRY NISEWANER - DANIEL GLEICH DOUGLAS HEMPHILL - JULIE KRAMER - CLIFFORD LATIMER - ANDREW MOORE MADELINE LEE WERNER - JAMES MILLER -SHELLEY HIGGINS - TODD BOEKELHEIDE CHRISTOPHER NEDDERSON - ANDREW AARON -DONALD KAUFMAN - DAVID CARROLL DENISE COONEY - VALERIE KOUTNIK - WM. POPLAR - STEFAN SEKULA - MICHAEL POPSO COLIN MICHAEL KITCHENS - LARRY CARNEY - JULIE MORIN - SUSAN THISTLE KRYSTAL WALTERS - TERESA ZALESKA - DENNIS GASSNER",
+          "ocr_bbox": [
+            72,
+            37,
+            505,
+            245
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_082_num08175_sim60.jpg",
+          "frame_num": 8175,
+          "ocr_text": "OMNI ZOETROPE STUDIOS SAN FRANCISCO/LOS ANGELES - KRISTINE PETERSON DAVID PARKER - CHARLES ESPOSITO - JAMES HILL - KATHERINE MORTON - DAIN FRITZ DOUGLAS HEMPHILL - JULIE KRAMER - CLIFFORD LATIMER - ANDREW MOORE COLIN MICHAEL KITCHENS - LARRY CARNEY - JULIE MORIN- SUSAN THISTLE KRYSTAL WALTERS- TERESA ZALESKA - DENNIS GASSNER",
+          "ocr_bbox": [
+            80,
+            52,
+            496,
+            245
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_083_num08190_sim74.jpg",
+          "frame_num": 8190,
+          "ocr_text": "PRODUCTION AND POST PRODUCTION FACILITIES FURNISHED THROUGH OMNI ZOETROPE STUDIOS SAN FRANCISCO/LOS ANGELES- KRISTINE PETERSON DOUGLAS HEMPHILL - JULIE KRAMER - CLIFFORD LATIMER - ANOREW MOORE DENISE COONEY - VALERIE KOUTNIK - WM. POPLAR- STEFAN SEKULA - MICHAEL POPSO COLIN MICHAEL KITCHENS - LARRY CARNEY - JULIE MORIN- SUSAN THISTLE KRYSTAL WALTERS- TERESA ZALESKA - DENNIS GASSNER",
+          "ocr_bbox": [
+            79,
+            38,
+            500,
+            245
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_084_num08205_sim83.jpg",
+          "frame_num": 8205,
+          "ocr_text": "PRODUCTION AND POST PRODUCTION FACILITIES FURNISHED THROUGH OMNI ZOETROPE STUDIOS SAN FRANCISCO/LOS ANGELES - KRISTINE PETERSON MITCHELL DUBIN - FRANKLIN SIMEONE - JOSEPH ZAPPALA \u00b7 ROBERT PEITSO - DAVID WIRT DOUGLAS HEMPHILL - JULIE KRAMER - CLIFFORD LATIMER - ANDREW MOORE CHRISTOPHER NEDDERSON - ANDREW AARON -DONALD KAUFMAN \u00b7 DAVID CARROLL DENISE COONEY - VALERIE KOUTNIK - WM. POPLAR- STEFAN SEKULA - MICHAEL POPSO COLIN MICHAEL KITCHENS - LARRY CARNEY - JULIE MORIN- SUSAN THISTLE KRYSTAL WALTERS- TERESA ZALESKA - DENNIS GASSNER",
+          "ocr_bbox": [
+            72,
+            38,
+            503,
+            245
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_085_num08250_sim82.jpg",
+          "frame_num": 8250,
+          "ocr_text": "OMNI ZOETROPE STUDIOS SAN FRANCISCO/LOS ANGELES - KRISTINE PETERSON MITCHELL DUBIN - FRANKLIN SIMEONE- JOSEPH ZAPPALA \u00b7ROBERT PEITSO - DAVID WIRT DOUGLAS CROSS -WAYNE WAGNER - NANCY ELY - SHERRY NISEWANER - DANIEL GLEICH KAREN FRERICHS-LIZA RANDOL - ABIGAIL ABBUEHL -LAWRENCE ANDREWS-PAUL BROUCEK DOUGLAS HEMPHILL - JULIE KRAMER - CLIFFORD LATIMER - ANDREW MOORE DENISE COONEY - VALERIE KOUTNIK - WM. POPLAR- STEFAN SEKULA -MICHAEL POPSO COLIN MICHAEL KITCHENS - LARRY CARNEY - JULIE MORIN - SUSAN THISTLE KRYSTAL WALTERS- TERESA ZALESKA - DENNIS GASSNER",
+          "ocr_bbox": [
+            68,
+            52,
+            508,
+            245
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_086_num08370_sim47.jpg",
+          "frame_num": 8370,
+          "ocr_text": "ONIM ZOETROPESTUDIOS:SAL TAABCIS UU/LOS ASGELE KRISTIRFI TERSON DOUGUASCROSS-WAYNE WAGNER-NANCY ELE -SHEMRY-NISEWANER-CANIE E DAVIO PARKER-CHARLES ESPOSITO -JAVES KILL-KAMHERINE MORTON-DAIN FEIIZ KABEN FRERICHS-UZA RANDOL-ABIGAIL ABDITHL-LAWRENCEANDREVUS-PAUEROIITEK OOUGLAS HENIPHILL -JULIE KRAMEA-TUIFFORD LATIMED-ANDREVIMUURE ECGOTELLERIEKOUTNIXPOPLAA-STEFANSEKUMAELITT",
+          "ocr_bbox": [
+            64,
+            50,
+            513,
+            210
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_087_num08400_sim38.jpg",
+          "frame_num": 8400,
+          "ocr_text": "COLONEL KURTZ MARLON BRANDO ROBERT DUVALL I.T. COLONEL KILGORE CAPTAIN WILLARD MARTIN SHEEN CHEF FREDERIC FORREST CHIEF ALBERT HALL LANCE SAM BOTTOMS CLEAN LARRY FISHBURNE PHOTO JOURNALIST DENNIS HOPPER",
+          "ocr_bbox": [
+            178,
+            52,
+            403,
+            229
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_088_num08580_sim45.jpg",
+          "frame_num": 8580,
+          "ocr_text": "GENERAL G.D. SPRADLIN COLONEL HARRISON FORD CIVILIAN JERRY ZIESMER COLBY SCOTT GLENN SERGEANT MP #1 BO BYERS KILGORE'S GUNNER JAMES KEANE MIKE FROM SAN DIEGO KERRY ROSSALL INJURED SOLDIER RON MCQUEEN",
+          "ocr_bbox": [
+            168,
+            49,
+            387,
+            230
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_089_num08730_sim97.jpg",
+          "frame_num": 8730,
+          "ocr_text": "GENERAL G.D. SPRADLIN COLONEL HARRISON FORD CIVILIAN JERBY ZIESMER COLBY SCOTT GLENN SERGEANT MP \u00d7I BO BYERS KILGORE'S GUNGER JAMES KEANE MIKE FROM SAI DIEGO KERRY ROSSALL INJUBED SOLDIES RON MCQUEEN",
+          "ocr_bbox": [
+            166,
+            48,
+            389,
+            230
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_090_num08760_sim44.jpg",
+          "frame_num": 8760,
+          "ocr_text": "SUPPLY SERGEANT TOM MASON PLAYMATE OF THE YEAR CYNTHIA WOOD PLAYMATE COLLEEN CAMP PLAYMATE LINDA CARPENTER SOLDIER IN TRENCH JACK THIBEAU LT. CARLSEN GLENN WALKEN SOLDIER WITH SUITCASE GEORGE CANTERO MACHINE GUNNER DAMIEN LEAKE",
+          "ocr_bbox": [
+            159,
+            49,
+            400,
+            230
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_091_num08940_sim43.jpg",
+          "frame_num": 8940,
+          "ocr_text": "ROACH HERB RICE SPOTTER WILLIAM UPTON SERGEANT MP #2 LARRY CARNEY AFRS ANNOUNCER MARC COPPOLA MAJOR FROM NEW JERSEY DANIEL KIEWIT CATHOLIC PRIEST FATHER ELIAS BILL GRAHAM AGENT CLEAN'S MOTRER (VOICE) HATTIE JAMES JOHNNY FROM MALIBU JERRY ROSS HELICOPTEN PILOT DICK WHITE",
+          "ocr_bbox": [
+            148,
+            26,
+            389,
+            252
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_092_num09015_sim99.jpg",
+          "frame_num": 9015,
+          "ocr_text": "ROACH HERB RICE SPOTTER WILLIAM UPTON SERGEANT MP 2 LARRY CARNEY AFRS ANNOUNCER MARC COPPOLA MAJOR FROM NEW JERSEY DANIEL KIEWIT CATHOLIC PRIEST FATHER ELIAS AGENT BILL GRAHAM CLEAN'S MOTHER (VOICE) HATTIE JAMES JOHNNY FROM MALIBU JERRY ROSS HELICOPTER PILOT DICK WHITE",
+          "ocr_bbox": [
+            148,
+            26,
+            391,
+            252
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_093_num09165_sim31.jpg",
+          "frame_num": 9165,
+          "ocr_text": "MONTAGNARD TRIBESMEN PORTRAYED BY THE IFUGAO PEOPLE OF BANAUE PHILIPPINE ISLANDS",
+          "ocr_bbox": [
+            147,
+            104,
+            431,
+            180
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_094_num09285_sim41.jpg",
+          "frame_num": 9285,
+          "ocr_text": "THE FRENCH FLANTATION: HUBERT DEMARAIS CHRISTIAN MARQUAND ROXANNE SARRAULT AURORE CLEMENT PHILIPPE DEMARAIS MICHEL PITTON GASTON DEMARAIS FRANCK VILLARO",
+          "ocr_bbox": [
+            178,
+            83,
+            429,
+            193
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_095_num09405_sim85.jpg",
+          "frame_num": 9405,
+          "ocr_text": "THE FRENCO PLANTATION: HUBERT DEMABAS CHRISTIAN MARQUAND ROXANNE SASRAULT AURORE CLEMENT PHILIPPE DEMARAUS: MICHEL PITTON GASTON BEMARAIS FRANCK VILLARD",
+          "ocr_bbox": [
+            175,
+            82,
+            430,
+            193
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_096_num09435_sim47.jpg",
+          "frame_num": 9435,
+          "ocr_text": "CHRISTIAN BEMARAIS DAVID OLIVIER CLAUDINE CHRYSTEL LE PELLETIER THE TUTOR ROBERT JULIAN SERGEANT LEFEVRE YVON LESEAUX FRANCIS DEMARAIS ROMAN COPPOLA GILLES DEMARAIS GIAN-CARLO COPPOLA FRENCH SOLDIER  HENRI SADARDIEL FRENCH SOLDIER 2 GILBERT RENKENS",
+          "ocr_bbox": [
+            173,
+            47,
+            430,
+            228
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_097_num09450_sim100.jpg",
+          "frame_num": 9450,
+          "ocr_text": "CHRISTIAN BEMARAIS DAVID OLIVIER CLAUDINE CHRYSTEL LE PELLETIER THE TUTOR ROBERT JULIAN SERGEANT LEFEVRE YVON LESEAUX FRANCIS DEMARAIS ROMAN COPPOLA GILLES DEMARAIS GIAN-CARLO COPPOLA FRENCH SOLDIER I HENRI SADARDIEL FRENCH SOLDIER #2 GILBERT RENKENS",
+          "ocr_bbox": [
+            173,
+            47,
+            430,
+            228
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_098_num09615_sim12.jpg",
+          "frame_num": 9615,
+          "ocr_text": "APOCALYPSE NOW REDUX",
+          "ocr_bbox": [
+            143,
+            92,
+            435,
+            137
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_099_num09690_sim30.jpg",
+          "frame_num": 9690,
+          "ocr_text": "FRANCIS FORD COPPOLA AND KIM AUBRY",
+          "ocr_bbox": [
+            149,
+            117,
+            426,
+            195
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_100_num09705_sim85.jpg",
+          "frame_num": 9705,
+          "ocr_text": "PRODUCED BY FRANCIS FORD COPPOLA AND KIM AUBRY",
+          "ocr_bbox": [
+            150,
+            85,
+            424,
+            196
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_101_num09810_sim25.jpg",
+          "frame_num": 9810,
+          "ocr_text": "EDITOR WALTER MURCH",
+          "ocr_bbox": [
+            198,
+            103,
+            383,
+            172
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_102_num09930_sim12.jpg",
+          "frame_num": 9930,
+          "ocr_text": "CO-PRODUCED BY SHANNON LAIL AVID ASSISTANT SEAN CULLEN APPRENTICE EDITOR WALTER MURCH JR. SUPERVISING SOUND EDITOR  MICHAEL KIRCHBERGER SOUND EFFECTS EDITOR KYRSTEN MATE COMOGLIO AOR EDITOR GEORGE BERNOT FOLEY EDITOR JEREMY MOLOD SOUND EDITOR PETE HORNER ASSISTANT SOUND EDITORS ERICH STRATMAN - ETHAN DERNER",
+          "ocr_bbox": [
+            139,
+            39,
+            493,
+            241
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_103_num09990_sim94.jpg",
+          "frame_num": 9990,
+          "ocr_text": "CO-PRODUCED BYSHANNON LAIL AVID ASSISTANT SEAN CULLEN APPRENTICE EDITOR WALTER MURCH JR. SUPERVISING SOUND EDITOR MICHAEL KIRCHBERGER SOUND EFFECTS EDITOR A KYRSTEN MATE COMOGLIO GEORGE BERNDT ADR EDITOA FOLEY EDITOR JEREMY MOLOD SOUND EDITOR PETE HORNER ASSISTANT SOUND EOITORS ERICH STRATMAN - ETHAN DERNER",
+          "ocr_bbox": [
+            140,
+            42,
+            492,
+            241
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_104_num10080_sim51.jpg",
+          "frame_num": 10080,
+          "ocr_text": "APPRENTICE SOUND EDITOR EVERETT MOORE SOUND INTERN DAVID BELL MUSIC ARRANGEMENT ED GOLDFARB PERCUSSION BASED SCORE FOR ADDED SCENES BY MICKEY HART COLOR TIMER DALE GRAHN ARCHIVISTS CATHERINE CRAIG -ANAHID NAZARIAN NEGATIVE CUTTER MO HENRY DONAH J. BASSETT & ASSOCIATES",
+          "ocr_bbox": [
+            142,
+            43,
+            511,
+            241
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_105_num10110_sim100.jpg",
+          "frame_num": 10110,
+          "ocr_text": "EVERETT MOORE APPRENTICE SOUND EDITOR SOUND INTERN DAVID BELL MUSIC ARRANGEMENT ED GOLDFARB PERCUSSION BASED SCORE FOR ADDED SCENES BY Y MICKEY HART COLOR TIMER DALE GRAHN ARCHIVISTS CATHERINE CRAIG -ANAHID NAZARIAN NEGATIVE CUTTER MO HENRY DONAH J. BASSETT & ASSOCIATES",
+          "ocr_bbox": [
+            144,
+            44,
+            511,
+            241
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_106_num10305_sim40.jpg",
+          "frame_num": 10305,
+          "ocr_text": "APOCALYPSE NOW REDUX\" WAS RESTORED EDITED AND MIXED AT THE FACILITIES OF AMERICAN ZOETROPE. SAN FRANCISCO. AZ FACILITY STAFF ETHAN DERNER - GLENN KASPRZYCKI AMKICAN ROBERT KNOX- JAMES LEVINE HARRIS LIEBOWITZ -BRIAN SARVIS- HOWIE STEIN",
+          "ocr_bbox": [
+            121,
+            72,
+            451,
+            211
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_107_num10335_sim98.jpg",
+          "frame_num": 10335,
+          "ocr_text": "\"APOCALYPSE NOW REDUX\" WAS RESTORED EDITED AND MIXED AT THE FACILITIES OF AMERICAN ZOETROPE. SAN FRANCISCO. AZ FACILITY STAFF ETHAN DERNER - GLENN KASPRZYCKI AMRICAN ROBERT KNOX - JAMES LEVINE YAOSROPE HARRIS LIEBOWITZ -BRIAN SARVIS - HOWIE STEIN",
+          "ocr_bbox": [
+            121,
+            72,
+            450,
+            211
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_108_num10455_sim46.jpg",
+          "frame_num": 10455,
+          "ocr_text": "PORTIONS OF THIS MOTION PICTURE WERE ORIGINALLY RELEASED IN I979 IN THE UNITED STATES AND CANADA BY UNITED ARTISTS AS \"APOCALYPSE NOW HEaD tHE TALK/MIRAMAX ROOR 138045 dts TECHNICOLOB COPTRIGNT O 2BOG BY ZOETROPE CORPOMATIOS. ALL RISHES RESERVED.",
+          "ocr_bbox": [
+            137,
+            73,
+            459,
+            257
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_109_num10470_sim71.jpg",
+          "frame_num": 10470,
+          "ocr_text": "PORTIONS OF THIS MOTION PICTURE WERE ORIGINALLY RELEASED IN I979 IN THE UNITED STATES AND CANADA BY UNITED ARTISTS AS \"APOCALYPSE NOW HEAD THE TALK/MIRAMAX 8OOR 138045 DIGITA dits TECHNICOLOB THE PERSONS AND EVENTS IN THIS FILM ARE FICTITIOUS, ANY SIMICARITY ID ACTUAL PERSONS OR EVENTS IS INIMTENTIDMAL",
+          "ocr_bbox": [
+            72,
+            72,
+            504,
+            242
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Apocalypse_Now\\analysis\\frames\\scene_000_static_110_num10530_sim85.jpg",
+          "frame_num": 10530,
+          "ocr_text": "PORTIONS OF THIS MOTION PICTURE WERE ORIGINALLY RELEASED IN I979 IN THE UNITED STATES AND CANADA BY UNITED ARTISTS AS \"APOCALYPSE NOW HEAD THE TALK/MIRAMAX HOUK 138045 DIGIYAI dits TECHHICOLOB THE PERSONS AND EVENTS IN THIS FILM ARE FHETITIOUS. ANY SEMILANTY TO ACTUAL PERSONS OR EVENTS IS ININTENTIHOMAL COPYRIGNT \u00a9 7ODR WY ZOETVOPE CORPORATION. ALL ROGNTS RESERVER",
+          "ocr_bbox": [
+            72,
+            72,
+            504,
+            255
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 111,
+      "median_flow_px_per_frame": 0.12410701811313629,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.12356597557663918,
+      "roi_percentile_flow": 0.12410701811313629,
+      "scroll_direction": null
+    }
+  }
+}

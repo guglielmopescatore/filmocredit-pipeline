@@ -1,0 +1,1052 @@
+[
+  {
+    "role_detail": "Producer",
+    "name": "Mark Linfield",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_001_scroll_000_num00206_sim0.jpg"
+    ],
+    "original_frame_number": [
+      206
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Barrie Britton",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_001_scroll_001_num00314_sim0.jpg"
+    ],
+    "original_frame_number": [
+      314
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Richard Burton",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_001_scroll_001_num00314_sim0.jpg"
+    ],
+    "original_frame_number": [
+      314
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Rod Clarke",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_001_scroll_001_num00314_sim0.jpg"
+    ],
+    "original_frame_number": [
+      314
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Martyn Colbeck",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_001_scroll_001_num00314_sim0.jpg"
+    ],
+    "original_frame_number": [
+      314
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Steve Downer",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_001_scroll_001_num00314_sim0.jpg"
+    ],
+    "original_frame_number": [
+      314
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Jeff Hogan",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_001_scroll_001_num00314_sim0.jpg"
+    ],
+    "original_frame_number": [
+      314
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Michael Kelem",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_001_scroll_001_num00314_sim0.jpg"
+    ],
+    "original_frame_number": [
+      314
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Justin Maguire",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_001_scroll_001_num00314_sim0.jpg"
+    ],
+    "original_frame_number": [
+      314
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Michael Male",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_001_scroll_001_num00314_sim0.jpg"
+    ],
+    "original_frame_number": [
+      314
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Photography",
+    "name": "David McKay",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_001_scroll_001_num00314_sim0.jpg"
+    ],
+    "original_frame_number": [
+      314
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Andrew Shillabeer",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_001_scroll_002_num00422_sim0.jpg"
+    ],
+    "original_frame_number": [
+      422
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Tim Shepherd",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_001_scroll_002_num00422_sim0.jpg"
+    ],
+    "original_frame_number": [
+      422
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Warwick Sloss",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_001_scroll_002_num00422_sim0.jpg"
+    ],
+    "original_frame_number": [
+      422
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Photography",
+    "name": "John Waters",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_001_scroll_002_num00422_sim0.jpg"
+    ],
+    "original_frame_number": [
+      422
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Editor",
+    "name": "Jill Garrett",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_001_scroll_002_num00422_sim0.jpg"
+    ],
+    "original_frame_number": [
+      422
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Online Editor",
+    "name": "Chas Francis",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_001_scroll_002_num00422_sim0.jpg"
+    ],
+    "original_frame_number": [
+      422
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Sound Editor",
+    "name": "Tim Owens",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_001_scroll_003_num00530_sim0.jpg"
+    ],
+    "original_frame_number": [
+      530
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Dubbing Mixer",
+    "name": "Andrew Wilson",
+    "role_group": "Dubbing_Sound",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing_Sound",
+    "source_frame": [
+      "scene_001_scroll_003_num00530_sim0.jpg"
+    ],
+    "original_frame_number": [
+      530
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Colourist",
+    "name": "Luke Rainey",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "scene_001_scroll_003_num00530_sim0.jpg"
+    ],
+    "original_frame_number": [
+      530
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Graphic Design",
+    "name": "Burrell Durrant Hifle",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_001_scroll_003_num00530_sim0.jpg"
+    ],
+    "original_frame_number": [
+      530
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Music Composed by",
+    "name": "George Fenton",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_001_scroll_004_num00638_sim0.jpg"
+    ],
+    "original_frame_number": [
+      638
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Music Performed by",
+    "name": "BBC Concert Orchestra",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_001_scroll_004_num00638_sim0.jpg"
+    ],
+    "original_frame_number": [
+      638
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistant Producer",
+    "name": "Penny Allen",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_001_scroll_004_num00638_sim0.jpg"
+    ],
+    "original_frame_number": [
+      638
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Researchers",
+    "name": "Tom Clarke",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_001_scroll_004_num00638_sim0.jpg"
+    ],
+    "original_frame_number": [
+      638
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Researchers",
+    "name": "Conrad Maute",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_001_scroll_005_num00746_sim0.jpg"
+    ],
+    "original_frame_number": [
+      746
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Researchers",
+    "name": "Emma Peace",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_001_scroll_005_num00746_sim0.jpg"
+    ],
+    "original_frame_number": [
+      746
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Field Assistants",
+    "name": "Roland Hilgartner",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_001_scroll_005_num00746_sim0.jpg"
+    ],
+    "original_frame_number": [
+      746
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Field Assistants",
+    "name": "John Pike",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_001_scroll_005_num00746_sim0.jpg"
+    ],
+    "original_frame_number": [
+      746
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Field Assistants",
+    "name": "Emilio White",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_001_scroll_005_num00746_sim0.jpg"
+    ],
+    "original_frame_number": [
+      746
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Field Assistants",
+    "name": "Jeff Wilson",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_001_scroll_005_num00746_sim0.jpg"
+    ],
+    "original_frame_number": [
+      746
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Production Co-ordinators",
+    "name": "Susan Aartse-Tuyn",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_001_scroll_005_num00746_sim0.jpg"
+    ],
+    "original_frame_number": [
+      746
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Production Co-ordinators",
+    "name": "Amanda Hutchinson",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_001_scroll_005_num00746_sim0.jpg"
+    ],
+    "original_frame_number": [
+      746
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Production Co-ordinators",
+    "name": "Sue Storey",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_001_scroll_005_num00746_sim0.jpg"
+    ],
+    "original_frame_number": [
+      746
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Production Team Assistant",
+    "name": "Samantha Davis",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_002_scroll_000_num00797_sim0.jpg"
+    ],
+    "original_frame_number": [
+      797
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Production Manager",
+    "name": "Mandy Knight",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_002_scroll_001_num00905_sim0.jpg"
+    ],
+    "original_frame_number": [
+      905
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Cameraman",
+    "name": "Matt Norman",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_002_scroll_001_num00905_sim0.jpg"
+    ],
+    "original_frame_number": [
+      905
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Editor",
+    "name": "Andrew Chastney",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_002_scroll_001_num00905_sim0.jpg"
+    ],
+    "original_frame_number": [
+      905
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Rob McCall",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_002_scroll_001_num00905_sim0.jpg"
+    ],
+    "original_frame_number": [
+      905
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Zygmunt Gizejewski",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_002_scroll_001_num00905_sim0.jpg"
+    ],
+    "original_frame_number": [
+      905
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Dany Cleyet-Marrel",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_002_scroll_001_num00905_sim0.jpg"
+    ],
+    "original_frame_number": [
+      905
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "CFPF - Madagascar",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Conservatoire Vivant d'Analabe",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Deutschen Primatenzentrums (DPZ)",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Saharah Moon Chapotin",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Peter Kappeler",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Kirindy Forest Reserve",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Białowieża National Park",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Dan Eatherley",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Brian Stone",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Jari Peltomaki",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Craig Benkman",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Steve Sillett",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Jim Spickler",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Tim Fogg",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Nigel Dunstone",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Fernando Vidal",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Helena Bylund",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Redwood National & State Parks",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Anatoly Petrov",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_003_num01024_sim70.jpg"
+    ],
+    "original_frame_number": [
+      1024
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Dan Hartman",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_004_num01084_sim58.jpg"
+    ],
+    "original_frame_number": [
+      1084
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Chief Wildlife Warden, Madhya Pradesh",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_004_num01084_sim58.jpg"
+    ],
+    "original_frame_number": [
+      1084
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Ken Robertson",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_004_num01084_sim58.jpg"
+    ],
+    "original_frame_number": [
+      1084
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Keith Clay",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_004_num01084_sim58.jpg"
+    ],
+    "original_frame_number": [
+      1084
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "QuickBird©DigitalGlobe/Eurimage",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_003_static_004_num01084_sim58.jpg"
+    ],
+    "original_frame_number": [
+      1084
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Co-Production",
+    "name": "BBC",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_003_static_004_num01084_sim58.jpg"
+    ],
+    "original_frame_number": [
+      1084
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Co-Production",
+    "name": "Discovery Channel",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_003_static_004_num01084_sim58.jpg"
+    ],
+    "original_frame_number": [
+      1084
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Co-Production",
+    "name": "NHK",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_003_static_004_num01084_sim58.jpg"
+    ],
+    "original_frame_number": [
+      1084
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Series Producer",
+    "name": "Alastair Fothergill",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_003_static_010_num01324_sim98.jpg"
+    ],
+    "original_frame_number": [
+      1324
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "BBC Bristol",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_003_static_010_num01324_sim98.jpg"
+    ],
+    "original_frame_number": [
+      1324
+    ],
+    "scene_position": "second_half"
+  }
+]
