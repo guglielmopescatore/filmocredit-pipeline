@@ -1,0 +1,3319 @@
+{
+    "episode_id": "Amelie",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 6,
+            "original_start_frame": 546,
+            "original_end_frame": 651,
+            "original_start_timecode": "00:00:22.754",
+            "original_end_timecode": "00:00:27.130",
+            "duration_frames": 105,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "presentent CLAUDIE OSSARD"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 551,
+                    "ocr_text": "presentent CLAUDIE OSSARD",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_006_first_half_frame_551_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 7,
+            "original_start_frame": 651,
+            "original_end_frame": 878,
+            "original_start_timecode": "00:00:27.130",
+            "original_end_timecode": "00:00:36.590",
+            "duration_frames": 227,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Une coproduction VICTOIRES TAPIOCA FILMS FRANCE 3 CINEMA MMC GMBH INDEPENDENT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 662,
+                    "ocr_text": "Une coproduction VICTOIRES TAPIOCA FILMS FRANCE 3 CINEMA MMC GMBH INDEPENDENT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_007_first_half_frame_662_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 13,
+            "original_start_frame": 1813,
+            "original_end_frame": 1906,
+            "original_start_timecode": "00:01:15.555",
+            "original_end_timecode": "00:01:19.431",
+            "duration_frames": 93,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Tel:272 3565 Tel:237 2530 Gustave GuETE Tel:4399356 Eugene RicHaRD Tol:733 20 David SEVEAL  MAGINOT Tel-427 7357 Tel=656202 Franck DuFAiC Stephane BaiL  Tel-M7 33 27 Tel=62017 Mancial Larrons Juliete JAvees Tel-88t 59 48 Tel=51604. dous Escorrice Tel=27735 Pascal BeUNET Julien DaNieL Tel38620 Tel:550 Pichand Lora Tel=53362 Hue PERLON SKY Tel: 633 20"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1817,
+                    "ocr_text": "Tel:272 3565 Tel:237 2530 Gustave GuETE Tel:4399356 Eugene RicHaRD Tol:733 20 David SEVEAL  MAGINOT Tel-427 7357 Tel=656202 Franck DuFAiC Stephane BaiL  Tel-M7 33 27 Tel=62017 Mancial Larrons Juliete JAvees Tel-88t 59 48 Tel=51604. dous Escorrice Tel=27735 Pascal BeUNET Julien DaNieL Tel38620 Tel:550 Pichand Lora Tel=53362 Hue PERLON SKY Tel: 633 20",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_013_first_half_frame_1817_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 21,
+            "original_start_frame": 2337,
+            "original_end_frame": 2380,
+            "original_start_timecode": "00:01:37.393",
+            "original_end_timecode": "00:01:39.185",
+            "duration_frames": 43,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Mathiou Tautou Kassovitz"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2339,
+                    "ocr_text": "Mathiou Tautou Kassovitz",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_021_first_half_frame_2339_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 22,
+            "original_start_frame": 2380,
+            "original_end_frame": 2445,
+            "original_start_timecode": "00:01:39.185",
+            "original_end_timecode": "00:01:41.893",
+            "duration_frames": 65,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Awdrby Mathisu Tautou"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2383,
+                    "ocr_text": "Awdrby Mathisu Tautou",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_022_first_half_frame_2383_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 23,
+            "original_start_frame": 2445,
+            "original_end_frame": 2520,
+            "original_start_timecode": "00:01:41.893",
+            "original_end_timecode": "00:01:45.019",
+            "duration_frames": 75,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Destin roulain"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2448,
+                    "ocr_text": "Destin roulain",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_023_first_half_frame_2448_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 24,
+            "original_start_frame": 2520,
+            "original_end_frame": 2550,
+            "original_start_timecode": "00:01:45.019",
+            "original_end_timecode": "00:01:46.269",
+            "duration_frames": 30,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Le Fabuleux Destin D'Amelie Poulain"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2521,
+                    "ocr_text": "Le Fabuleux Destin D'Amelie Poulain",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_024_first_half_frame_2521_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 26,
+            "original_start_frame": 2570,
+            "original_end_frame": 2688,
+            "original_start_timecode": "00:01:47.103",
+            "original_end_timecode": "00:01:52.020",
+            "duration_frames": 118,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Soenazio GUILLAUME LAURANT JEAN-PIERRE JEUNET"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2575,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2581,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2587,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2593,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2599,
+                    "ocr_text": "Soenazio GUILLAUME LAURANT JEAN-PIERRE JEUNET",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_026_first_half_frame_2599_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 2575: No text found (CLAHE)",
+                "Frame 2581: No text found (CLAHE)",
+                "Frame 2587: No text found (CLAHE)",
+                "Frame 2593: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 27,
+            "original_start_frame": 2688,
+            "original_end_frame": 2768,
+            "original_start_timecode": "00:01:52.020",
+            "original_end_timecode": "00:01:55.354",
+            "duration_frames": 80,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Diabogues GUILLAUME LAURANT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2692,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2696,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2700,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2704,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2708,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2712,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2716,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2720,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2724,
+                    "ocr_text": "Diabogues GUILLAUME LAURANT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_027_first_half_frame_2724_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 2692: No text found (CLAHE)",
+                "Frame 2696: No text found (CLAHE)",
+                "Frame 2700: No text found (CLAHE)",
+                "Frame 2704: No text found (CLAHE)",
+                "Frame 2708: No text found (CLAHE)",
+                "Frame 2712: No text found (CLAHE)",
+                "Frame 2716: No text found (CLAHE)",
+                "Frame 2720: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 28,
+            "original_start_frame": 2768,
+            "original_end_frame": 2837,
+            "original_start_timecode": "00:01:55.354",
+            "original_end_timecode": "00:01:58.230",
+            "duration_frames": 69,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Dialogues GUILLAUME LAURANT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2771,
+                    "ocr_text": "Dialogues GUILLAUME LAURANT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_028_first_half_frame_2771_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 30,
+            "original_start_frame": 2868,
+            "original_end_frame": 2926,
+            "original_start_timecode": "00:01:59.522",
+            "original_end_timecode": "00:02:01.939",
+            "duration_frames": 58,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Casting PIERRE E-JACOUES BENICHOU"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2870,
+                    "ocr_text": "Casting PIERRE E-JACOUES BENICHOU",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_030_first_half_frame_2870_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 33,
+            "original_start_frame": 2992,
+            "original_end_frame": 3067,
+            "original_start_timecode": "00:02:04.689",
+            "original_end_timecode": "00:02:07.815",
+            "duration_frames": 75,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Costumes MADELINE E FONTAINE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2995,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2999,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3003,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3007,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3010,
+                    "ocr_text": "Costumes MADELINE E FONTAINE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_033_first_half_frame_3010_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 2995: No text found (CLAHE)",
+                "Frame 2999: No text found (CLAHE)",
+                "Frame 3003: No text found (CLAHE)",
+                "Frame 3007: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 35,
+            "original_start_frame": 3082,
+            "original_end_frame": 3197,
+            "original_start_timecode": "00:02:08.440",
+            "original_end_timecode": "00:02:13.232",
+            "duration_frames": 115,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "ALINE BONETTO Decor"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3087,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3093,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3099,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3105,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3110,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3116,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3122,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3128,
+                    "ocr_text": "ALINE BONETTO Decor",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_035_first_half_frame_3128_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 3087: No text found (CLAHE)",
+                "Frame 3093: No text found (CLAHE)",
+                "Frame 3099: No text found (CLAHE)",
+                "Frame 3105: No text found (CLAHE)",
+                "Frame 3110: No text found (CLAHE)",
+                "Frame 3116: No text found (CLAHE)",
+                "Frame 3122: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 36,
+            "original_start_frame": 3197,
+            "original_end_frame": 3274,
+            "original_start_timecode": "00:02:13.232",
+            "original_end_timecode": "00:02:16.441",
+            "duration_frames": 77,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Directeur photographie BRUNO DELBONNEL"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3200,
+                    "ocr_text": "Directeur photographie BRUNO DELBONNEL",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_036_first_half_frame_3200_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 37,
+            "original_start_frame": 3274,
+            "original_end_frame": 3297,
+            "original_start_timecode": "00:02:16.441",
+            "original_end_timecode": "00:02:17.400",
+            "duration_frames": 23,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Maquillage NTHALIE TISSIER"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3275,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3276,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3277,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3278,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3279,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3280,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3282,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3283,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3284,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3285,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3286,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3287,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3288,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3290,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3291,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3292,
+                    "ocr_text": "Maquillage NTHALIE TISSIER",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_037_first_half_frame_3292_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 3275: No text found (CLAHE)",
+                "Frame 3276: No text found (CLAHE)",
+                "Frame 3277: No text found (CLAHE)",
+                "Frame 3278: No text found (CLAHE)",
+                "Frame 3279: No text found (CLAHE)",
+                "Frame 3280: No text found (CLAHE)",
+                "Frame 3282: No text found (CLAHE)",
+                "Frame 3283: No text found (CLAHE)",
+                "Frame 3284: No text found (CLAHE)",
+                "Frame 3285: No text found (CLAHE)",
+                "Frame 3286: No text found (CLAHE)",
+                "Frame 3287: No text found (CLAHE)",
+                "Frame 3288: No text found (CLAHE)",
+                "Frame 3290: No text found (CLAHE)",
+                "Frame 3291: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 38,
+            "original_start_frame": 3297,
+            "original_end_frame": 3395,
+            "original_start_timecode": "00:02:17.400",
+            "original_end_timecode": "00:02:21.484",
+            "duration_frames": 98,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Maquillage NATHALITE TISSIER"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3301,
+                    "ocr_text": "Maquillage NATHALITE TISSIER",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_038_first_half_frame_3301_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 39,
+            "original_start_frame": 3395,
+            "original_end_frame": 3467,
+            "original_start_timecode": "00:02:21.484",
+            "original_end_timecode": "00:02:24.484",
+            "duration_frames": 72,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Coiffure JoHN NOLleT VÉRONIQUE BOITOUT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3398,
+                    "ocr_text": "Coiffure JoHN NOLleT VÉRONIQUE BOITOUT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_039_first_half_frame_3398_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 41,
+            "original_start_frame": 3506,
+            "original_end_frame": 3575,
+            "original_start_timecode": "00:02:26.110",
+            "original_end_timecode": "00:02:28.985",
+            "duration_frames": 69,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Musique YANN TIERSEN"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3509,
+                    "ocr_text": "Musique YANN TIERSEN",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_041_first_half_frame_3509_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 43,
+            "original_start_frame": 3599,
+            "original_end_frame": 3670,
+            "original_start_timecode": "00:02:29.985",
+            "original_end_timecode": "00:02:32.944",
+            "duration_frames": 71,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Son JEAN UMANSKY SOPHIE CHIABAUT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3602,
+                    "ocr_text": "Son JEAN UMANSKY SOPHIE CHIABAUT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_043_first_half_frame_3602_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 45,
+            "original_start_frame": 3690,
+            "original_end_frame": 3735,
+            "original_start_timecode": "00:02:33.778",
+            "original_end_timecode": "00:02:35.653",
+            "duration_frames": 45,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "HEeRVE SCHNEID A.C.E Montage"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3692,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3694,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3696,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3699,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3701,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3703,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3705,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3708,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3710,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3712,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3714,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3717,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3719,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3721,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3723,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3726,
+                    "ocr_text": "HEeRVE SCHNEID A.C.E Montage",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_045_first_half_frame_3726_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 3692: No text found (CLAHE)",
+                "Frame 3694: No text found (CLAHE)",
+                "Frame 3696: No text found (CLAHE)",
+                "Frame 3699: No text found (CLAHE)",
+                "Frame 3701: No text found (CLAHE)",
+                "Frame 3703: No text found (CLAHE)",
+                "Frame 3705: No text found (CLAHE)",
+                "Frame 3708: No text found (CLAHE)",
+                "Frame 3710: No text found (CLAHE)",
+                "Frame 3712: No text found (CLAHE)",
+                "Frame 3714: No text found (CLAHE)",
+                "Frame 3717: No text found (CLAHE)",
+                "Frame 3719: No text found (CLAHE)",
+                "Frame 3721: No text found (CLAHE)",
+                "Frame 3723: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 46,
+            "original_start_frame": 3735,
+            "original_end_frame": 3794,
+            "original_start_timecode": "00:02:35.653",
+            "original_end_timecode": "00:02:38.112",
+            "duration_frames": 59,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Montage HERVE SCHINEID"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3737,
+                    "ocr_text": "Montage HERVE SCHINEID",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_046_first_half_frame_3737_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 48,
+            "original_start_frame": 3836,
+            "original_end_frame": 3910,
+            "original_start_timecode": "00:02:39.862",
+            "original_end_timecode": "00:02:42.946",
+            "duration_frames": 74,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "LAURENT KOSSAYAN Efets sonores GERARD HARDY Montage son"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3839,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3843,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3847,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3850,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3854,
+                    "ocr_text": "LAURENT KOSSAYAN Efets sonores GERARD HARDY Montage son",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_048_first_half_frame_3854_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 3839: No text found (CLAHE)",
+                "Frame 3843: No text found (CLAHE)",
+                "Frame 3847: No text found (CLAHE)",
+                "Frame 3850: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 49,
+            "original_start_frame": 3910,
+            "original_end_frame": 3943,
+            "original_start_timecode": "00:02:42.946",
+            "original_end_timecode": "00:02:44.321",
+            "duration_frames": 33,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "LAURENt KOSSAYAN effets sonores CERARD HARDY Montage son"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3911,
+                    "ocr_text": "LAURENt KOSSAYAN effets sonores CERARD HARDY Montage son",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_049_first_half_frame_3911_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 50,
+            "original_start_frame": 3943,
+            "original_end_frame": 4011,
+            "original_start_timecode": "00:02:44.321",
+            "original_end_timecode": "00:02:47.155",
+            "duration_frames": 68,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VINCENT ARNARDI C.A.S Mixage"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3946,
+                    "ocr_text": "VINCENT ARNARDI C.A.S Mixage",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_050_first_half_frame_3946_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 51,
+            "original_start_frame": 4011,
+            "original_end_frame": 4159,
+            "original_start_timecode": "00:02:47.155",
+            "original_end_timecode": "00:02:53.323",
+            "duration_frames": 148,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Premier assistant CHRISTOPHE VASSORT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4018,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4025,
+                    "ocr_text": "Premier assistant CHRISTOPHE VASSORT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_051_first_half_frame_4025_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 4018: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 53,
+            "original_start_frame": 4179,
+            "original_end_frame": 4271,
+            "original_start_timecode": "00:02:54.156",
+            "original_end_timecode": "00:02:57.991",
+            "duration_frames": 92,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Trucages numerigues DUBOI ALAIN CARSOUX Effets speciaux LES S VERSAILLAIS"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4183,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4188,
+                    "ocr_text": "6",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 4192,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4197,
+                    "ocr_text": "Trucages numerigues DUBOI ALAIN CARSOUX Effets speciaux LES S VERSAILLAIS",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_053_first_half_frame_4197_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 4183: No text found (CLAHE)",
+                "Frame 4192: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 55,
+            "original_start_frame": 4335,
+            "original_end_frame": 4384,
+            "original_start_timecode": "00:03:00.658",
+            "original_end_timecode": "00:03:02.700",
+            "duration_frames": 49,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Directeur de production JEAN-MARC DESCHAMPS Rigie"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4337,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4339,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4342,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4344,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4347,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4349,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4352,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4354,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4357,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4359,
+                    "ocr_text": "Directeur de production JEAN-MARC DESCHAMPS Rigie",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_055_first_half_frame_4359_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 4337: No text found (CLAHE)",
+                "Frame 4339: No text found (CLAHE)",
+                "Frame 4342: No text found (CLAHE)",
+                "Frame 4344: No text found (CLAHE)",
+                "Frame 4347: No text found (CLAHE)",
+                "Frame 4349: No text found (CLAHE)",
+                "Frame 4352: No text found (CLAHE)",
+                "Frame 4354: No text found (CLAHE)",
+                "Frame 4357: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 56,
+            "original_start_frame": 4384,
+            "original_end_frame": 4400,
+            "original_start_timecode": "00:03:02.700",
+            "original_end_timecode": "00:03:03.366",
+            "duration_frames": 16,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Directeur de production JEAN-MARC DESCHAMPS Rigie"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4384,
+                    "ocr_text": "Directeur de production JEAN-MARC DESCHAMPS Rigie",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_056_first_half_frame_4384_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 57,
+            "original_start_frame": 4400,
+            "original_end_frame": 4453,
+            "original_start_timecode": "00:03:03.366",
+            "original_end_timecode": "00:03:05.575",
+            "duration_frames": 53,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Directeur de production JEAN-MARC DESCHAMPS Rigie"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4402,
+                    "ocr_text": "Directeur de production JEAN-MARC DESCHAMPS Rigie",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_057_first_half_frame_4402_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 58,
+            "original_start_frame": 4453,
+            "original_end_frame": 4639,
+            "original_start_timecode": "00:03:05.575",
+            "original_end_timecode": "00:03:13.327",
+            "duration_frames": 186,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Produit par CLAUDIE OSSSARD"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4462,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4471,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4480,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4490,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4499,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4508,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4518,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4527,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4536,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4546,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4555,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4564,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4573,
+                    "ocr_text": "Produit par CLAUDIE OSSSARD",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_058_first_half_frame_4573_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 4462: No text found (CLAHE)",
+                "Frame 4471: No text found (CLAHE)",
+                "Frame 4480: No text found (CLAHE)",
+                "Frame 4490: No text found (CLAHE)",
+                "Frame 4499: No text found (CLAHE)",
+                "Frame 4508: No text found (CLAHE)",
+                "Frame 4518: No text found (CLAHE)",
+                "Frame 4527: No text found (CLAHE)",
+                "Frame 4536: No text found (CLAHE)",
+                "Frame 4546: No text found (CLAHE)",
+                "Frame 4555: No text found (CLAHE)",
+                "Frame 4564: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 60,
+            "original_start_frame": 4671,
+            "original_end_frame": 4751,
+            "original_start_timecode": "00:03:14.660",
+            "original_end_timecode": "00:03:17.994",
+            "duration_frames": 80,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Un film De"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4675,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4679,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4683,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4687,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 4691,
+                    "ocr_text": "Un film De",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_060_first_half_frame_4691_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 4675: No text found (CLAHE)",
+                "Frame 4679: No text found (CLAHE)",
+                "Frame 4683: No text found (CLAHE)",
+                "Frame 4687: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 61,
+            "original_start_frame": 4751,
+            "original_end_frame": 4822,
+            "original_start_timecode": "00:03:17.994",
+            "original_end_timecode": "00:03:20.953",
+            "duration_frames": 71,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Un film de JEAN-PIERRE JEUNET"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4754,
+                    "ocr_text": "Un film de JEAN-PIERRE JEUNET",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_061_first_half_frame_4754_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 63,
+            "original_start_frame": 4880,
+            "original_end_frame": 5993,
+            "original_start_timecode": "00:03:23.370",
+            "original_end_timecode": "00:04:09.753",
+            "duration_frames": 1113,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Avec"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4935,
+                    "ocr_text": "Avec",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_063_first_half_frame_4935_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 64,
+            "original_start_frame": 5993,
+            "original_end_frame": 6028,
+            "original_start_timecode": "00:04:09.753",
+            "original_end_timecode": "00:04:11.212",
+            "duration_frames": 35,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "avee"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 5994,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 5996,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 5998,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 6000,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 6001,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 6003,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 6005,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 6007,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 6008,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 6010,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 6012,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 6014,
+                    "ocr_text": "avee",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_064_second_half_frame_6014_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 5994: No text found (CLAHE)",
+                "Frame 5996: No text found (CLAHE)",
+                "Frame 5998: No text found (CLAHE)",
+                "Frame 6000: No text found (CLAHE)",
+                "Frame 6001: No text found (CLAHE)",
+                "Frame 6003: No text found (CLAHE)",
+                "Frame 6005: No text found (CLAHE)",
+                "Frame 6007: No text found (CLAHE)",
+                "Frame 6008: No text found (CLAHE)",
+                "Frame 6010: No text found (CLAHE)",
+                "Frame 6012: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 65,
+            "original_start_frame": 6028,
+            "original_end_frame": 6065,
+            "original_start_timecode": "00:04:11.212",
+            "original_end_timecode": "00:04:12.754",
+            "duration_frames": 37,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "avec EUGENE BERTHIER EugèNe Koler"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6029,
+                    "ocr_text": "avec EUGENE BERTHIER EugèNe Koler",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_065_second_half_frame_6029_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 66,
+            "original_start_frame": 6065,
+            "original_end_frame": 6152,
+            "original_start_timecode": "00:04:12.754",
+            "original_end_timecode": "00:04:16.380",
+            "duration_frames": 87,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "avec EUGÈNE BERTHIER Eugène Koler MARION PRESSBURGERpetites mains du générique CHARLES-ROGER BOURl'homme à la vespasienne LUC PALUN l'épicier d'Amandine"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6069,
+                    "ocr_text": "avec EUGÈNE BERTHIER Eugène Koler MARION PRESSBURGERpetites mains du générique CHARLES-ROGER BOURl'homme à la vespasienne LUC PALUN l'épicier d'Amandine",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_066_second_half_frame_6069_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 67,
+            "original_start_frame": 6152,
+            "original_end_frame": 6580,
+            "original_start_timecode": "00:04:16.380",
+            "original_end_timecode": "00:04:34.216",
+            "duration_frames": 428,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "avec EUGÈNE BERTHIER Eugène Koler MARION PRESSBURGERpetites mains du générique CHARLES-ROGER BOUR l'homme à la vespasienne LUC PALUN l'épicier d'Amandine FABIENNE CHAUDAT la femme dans le coma DOMINIQUE BETTENFELDle voisin d'Amélie JACQUES VIALA le client qui humilie son ami FABIEN BEHAR le client humilié JONATHAN JOSS te fils du client humilié JEAN-PIERRE BECKER le clochard JEAN DARIE l'aveugle THIERRY GIBAULT le client aux endives FRANCOIS BERCOVICIsOM copain FRANCK MONIER Dominique Bredoteau ieune"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6173,
+                    "ocr_text": "avec EUGÈNE BERTHIER Eugène Koler MARION PRESSBURGERpetites mains du générique CHARLES-ROGER BOUR l'homme à la vespasienne LUC PALUN l'épicier d'Amandine FABIENNE CHAUDAT la femme dans le coma DOMINIQUE BETTENFELDle voisin d'Amélie JACQUES VIALA le client qui humilie son ami FABIEN BEHAR le client humilié JONATHAN JOSS te fils du client humilié JEAN-PIERRE BECKER le clochard JEAN DARIE l'aveugle THIERRY GIBAULT le client aux endives FRANCOIS BERCOVICIsOM copain FRANCK MONIER Dominique Bredoteau ieune",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_067_second_half_frame_6173_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 68,
+            "original_start_frame": 6580,
+            "original_end_frame": 6760,
+            "original_start_timecode": "00:04:34.216",
+            "original_end_timecode": "00:04:41.718",
+            "duration_frames": 180,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "JERRY LUCAS le petit garçon du Sacré-Cæur PATRICK PAROUX le souffleur de rue FRANCOIS AUBINEAU le facteur de la concierge PHILIPPE BEAUTIER le facteur de Poulain KARINE ASURE la jolie fille du rendez-vous REGIS IACONOFélix L'Herbier voix off FRANCK-OLIVIER BONNET PalaceVideo ALAIN FLORET le mari de la concierge JEAN-POL BRISSART Pacques Grosjean Merci à Frédéric MITTERAND Directeur de post-production Lionel KOPp (Lumière Unique) Avec la collaboration de Sophie VERMERSCH"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6589,
+                    "ocr_text": "JERRY LUCAS le petit garçon du Sacré-Cæur PATRICK PAROUX le souffleur de rue FRANCOIS AUBINEAU le facteur de la concierge PHILIPPE BEAUTIER le facteur de Poulain KARINE ASURE la jolie fille du rendez-vous REGIS IACONOFélix L'Herbier voix off FRANCK-OLIVIER BONNET PalaceVideo ALAIN FLORET le mari de la concierge JEAN-POL BRISSART Pacques Grosjean Merci à Frédéric MITTERAND Directeur de post-production Lionel KOPp (Lumière Unique) Avec la collaboration de Sophie VERMERSCH",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_068_second_half_frame_6589_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 69,
+            "original_start_frame": 6760,
+            "original_end_frame": 8442,
+            "original_start_timecode": "00:04:41.718",
+            "original_end_timecode": "00:05:51.814",
+            "duration_frames": 1682,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "José SAKO Photographe François PAUMARD Créateur des personnages animés Michael SOWA Attachée de PresseIsabelle SAUVANON Documentaliste Véronique LAMBERT de GUISE Album de Photomatons Ludovic LECOuTEUX D'après la collection originale de Michel FOLCO Affiches murales THERY Storyboard Luc DESPORTES Animaliers Patrick PITAVINO Valentine AUPETIT Cattina"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6844,
+                    "ocr_text": "José SAKO Photographe François PAUMARD Créateur des personnages animés Michael SOWA Attachée de PresseIsabelle SAUVANON Documentaliste Véronique LAMBERT de GUISE Album de Photomatons Ludovic LECOuTEUX D'après la collection originale de Michel FOLCO Affiches murales THERY Storyboard Luc DESPORTES Animaliers Patrick PITAVINO Valentine AUPETIT Cattina",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_069_second_half_frame_6844_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 70,
+            "original_start_frame": 8442,
+            "original_end_frame": 8483,
+            "original_start_timecode": "00:05:51.814",
+            "original_end_timecode": "00:05:53.522",
+            "duration_frames": 41,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Assistant créateur sonore Igor THOMAs GERARD Repiquage Franck METTRE Post-synchro Michel FILIPPI Assistants Jean-Philippe ANGELINI Stéphane de ROCQUIGNY Perchman Jean-Louis LE BRAS Producteur exécutif musique Cavalier Bleu - Jacques SMERLAK Consultant musicalEdouard DUBOIS Effets spéciaux numériques DUBOI Producteur exécutif Antoine SIMKINE Superviseur tournageThomas DUVAL Directeur de production Edouard VAlTON Chargées de proietsDelphine LE ROCH"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 8444,
+                    "ocr_text": "Assistant créateur sonore Igor THOMAs GERARD Repiquage Franck METTRE Post-synchro Michel FILIPPI Assistants Jean-Philippe ANGELINI Stéphane de ROCQUIGNY Perchman Jean-Louis LE BRAS Producteur exécutif musique Cavalier Bleu - Jacques SMERLAK Consultant musicalEdouard DUBOIS Effets spéciaux numériques DUBOI Producteur exécutif Antoine SIMKINE Superviseur tournageThomas DUVAL Directeur de production Edouard VAlTON Chargées de proietsDelphine LE ROCH",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_070_second_half_frame_8444_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 71,
+            "original_start_frame": 8483,
+            "original_end_frame": 8500,
+            "original_start_timecode": "00:05:53.522",
+            "original_end_timecode": "00:05:54.231",
+            "duration_frames": 17,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Post-synchro Michel FILIPPI Assistants Jean-Philippe ANGELINI Stéphane de ROCQUIGNY Perchman Jean-Louis LE BRAS Producteur exécutifmusique Cavalier Bleu - Jacques SMERLAK Consultant musical Edouard DUBOIS Effets spéciaux numériques DUBOI Producteur exécutif Antoine SIMKINE Superviseur tournageThomasDUVAL Directeur de productionEdouard VAlTON Chargées de projets Delphine LE ROCH Séverine de WEVER Chef de projet compositingXavier FOURMOND Chef de projet 3D Jean-Paul ROVELA"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 8483,
+                    "ocr_text": "Post-synchro Michel FILIPPI Assistants Jean-Philippe ANGELINI Stéphane de ROCQUIGNY Perchman Jean-Louis LE BRAS Producteur exécutifmusique Cavalier Bleu - Jacques SMERLAK Consultant musical Edouard DUBOIS Effets spéciaux numériques DUBOI Producteur exécutif Antoine SIMKINE Superviseur tournageThomasDUVAL Directeur de productionEdouard VAlTON Chargées de projets Delphine LE ROCH Séverine de WEVER Chef de projet compositingXavier FOURMOND Chef de projet 3D Jean-Paul ROVELA",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_071_second_half_frame_8483_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 72,
+            "original_start_frame": 8500,
+            "original_end_frame": 8569,
+            "original_start_timecode": "00:05:54.231",
+            "original_end_timecode": "00:05:57.106",
+            "duration_frames": 69,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Stéphane de ROCQUIGNY Perchman Jean-Louis LE BRAS Producteur exécutifmusique Cavalier Bleu - Jacques SMERLAK Consultant musicalEdouard DuBOIS Effets spéciaux numériques DUBOI Producteur exécutif Antoine SIMKINE Superviseur tournageThomas DUVAL Directeur de production Edouard VALTON Chargées de projets Delphine LE ROCH Séverine de WEVER Chef de projet compositingXavier FOURMOND Chef de projet 3D Jean-Paul ROVELA RetouchesMatador Marco PACCOSI"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 8503,
+                    "ocr_text": "Stéphane de ROCQUIGNY Perchman Jean-Louis LE BRAS Producteur exécutifmusique Cavalier Bleu - Jacques SMERLAK Consultant musicalEdouard DuBOIS Effets spéciaux numériques DUBOI Producteur exécutif Antoine SIMKINE Superviseur tournageThomas DUVAL Directeur de production Edouard VALTON Chargées de projets Delphine LE ROCH Séverine de WEVER Chef de projet compositingXavier FOURMOND Chef de projet 3D Jean-Paul ROVELA RetouchesMatador Marco PACCOSI",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_072_second_half_frame_8503_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 73,
+            "original_start_frame": 8569,
+            "original_end_frame": 8648,
+            "original_start_timecode": "00:05:57.106",
+            "original_end_timecode": "00:06:00.398",
+            "duration_frames": 79,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Effets spéciaux numériques DUBOI Producteur exécutif Antoine SIMKINE Superviseur tournage ThomasDuVAL Directeur de production Edouard VAlTON Chargées de projets Delphine LE ROCH Séverine de WEVER Chef de projet compositing Xavier FOURMOND Chef de projet 3D Jean-Paul ROVELA Retouches Matador Marco PACCOSI SolennCOLLIGNON Graphistes compositing \"Dutruc\" Loãc BOUINEAUAndré BRIZARD Thierry DELOBEL Stéphane DITTOO Alexandre KOLASINSKI JeremyLE ROUX Patricia MEDJAHED Georges TORNERO"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 8572,
+                    "ocr_text": "Effets spéciaux numériques DUBOI Producteur exécutif Antoine SIMKINE Superviseur tournage ThomasDuVAL Directeur de production Edouard VAlTON Chargées de projets Delphine LE ROCH Séverine de WEVER Chef de projet compositing Xavier FOURMOND Chef de projet 3D Jean-Paul ROVELA Retouches Matador Marco PACCOSI SolennCOLLIGNON Graphistes compositing \"Dutruc\" Loãc BOUINEAUAndré BRIZARD Thierry DELOBEL Stéphane DITTOO Alexandre KOLASINSKI JeremyLE ROUX Patricia MEDJAHED Georges TORNERO",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_073_second_half_frame_8572_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 74,
+            "original_start_frame": 8648,
+            "original_end_frame": 8672,
+            "original_start_timecode": "00:06:00.398",
+            "original_end_timecode": "00:06:01.399",
+            "duration_frames": 24,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Chef de projet compositingXavier FOURMOND Chef de projet 3D Jean-Paul ROVELA Retouches Matador Marco PACCOSI Solenn COLLIGNON Graphistes compositing \"Dutruc\" Loïc BOUINEAUAndré BRIZARD Thierry DELOBELStéphane DITTOO Alexandre KOLASINSKI Jeremy LE ROUX PatriciaMEDJAHED Georges TORNERO Daniel TRUJILLO CHINCHINA Assistes de Lucie BORIES Leñla DIXMIR Yann GONSARDMathieu LE MEUR Graphistes 3D Matte painting Bruno LE PROVOST Jean-Marie VIVES Olivier REVIlIONStéphanie DARGENT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 8649,
+                    "ocr_text": "Chef de projet compositingXavier FOURMOND Chef de projet 3D Jean-Paul ROVELA Retouches Matador Marco PACCOSI Solenn COLLIGNON Graphistes compositing \"Dutruc\" Loïc BOUINEAUAndré BRIZARD Thierry DELOBELStéphane DITTOO Alexandre KOLASINSKI Jeremy LE ROUX PatriciaMEDJAHED Georges TORNERO Daniel TRUJILLO CHINCHINA Assistes de Lucie BORIES Leñla DIXMIR Yann GONSARDMathieu LE MEUR Graphistes 3D Matte painting Bruno LE PROVOST Jean-Marie VIVES Olivier REVIlIONStéphanie DARGENT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_074_second_half_frame_8649_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 75,
+            "original_start_frame": 8672,
+            "original_end_frame": 8690,
+            "original_start_timecode": "00:06:01.399",
+            "original_end_timecode": "00:06:02.149",
+            "duration_frames": 18,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Retouches Matador Marco PACCOSI Solenn COLLIGNON Graphistes compositing \"Dutruc\" Loãc BOUINEAUAndré BRIZARD Thierry DELOBEL Stéphane DITTOO Alexandre KOLASINSKI JeremyLE ROUX Patricia MEDJAHED Georges TORNERO Daniel TRUJILLO CHINCHINA Assistés de Lucie BORIES Leïla DIXMIR Yann GONSARD Mathieu LE MEUR Graphistes 30 Matte painting Bruno LE PROVOST Jean-Marie VIVES Olivier REVILLON Stéphanie DARGENT Morgann SAGEL Véronique ZILBERFAIN Pierre VILLETTE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 8672,
+                    "ocr_text": "Retouches Matador Marco PACCOSI Solenn COLLIGNON Graphistes compositing \"Dutruc\" Loãc BOUINEAUAndré BRIZARD Thierry DELOBEL Stéphane DITTOO Alexandre KOLASINSKI JeremyLE ROUX Patricia MEDJAHED Georges TORNERO Daniel TRUJILLO CHINCHINA Assistés de Lucie BORIES Leïla DIXMIR Yann GONSARD Mathieu LE MEUR Graphistes 30 Matte painting Bruno LE PROVOST Jean-Marie VIVES Olivier REVILLON Stéphanie DARGENT Morgann SAGEL Véronique ZILBERFAIN Pierre VILLETTE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_075_second_half_frame_8672_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 76,
+            "original_start_frame": 8690,
+            "original_end_frame": 8718,
+            "original_start_timecode": "00:06:02.149",
+            "original_end_timecode": "00:06:03.316",
+            "duration_frames": 28,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Soienn COLLiGNUN Graphistes compositing \"Dutruc\" Loïc BOUINEAUAndré BRIZARD Thierry DELOBEL Stéphane DITTOO Alexandre KOLASINSKI JeremyLE ROUX Patricia MEDJAHED Georges TORNERO Daniel TRUJILLO CHINCHINA Assistés de Lucie BORIES LeñlaDIXMIR Yann GONSARDMathieu LE MEUR Graphistes 3D Matte painting BrunoLE PROvOST Jean-Marie VIVES Olivier REVILLON Stéphanie DARGENT Morgann SAGEL Véronique ZILBERFAIN Pierre VILLETTE Recherche et développement Stéphane DEVERLY"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 8691,
+                    "ocr_text": "Soienn COLLiGNUN Graphistes compositing \"Dutruc\" Loïc BOUINEAUAndré BRIZARD Thierry DELOBEL Stéphane DITTOO Alexandre KOLASINSKI JeremyLE ROUX Patricia MEDJAHED Georges TORNERO Daniel TRUJILLO CHINCHINA Assistés de Lucie BORIES LeñlaDIXMIR Yann GONSARDMathieu LE MEUR Graphistes 3D Matte painting BrunoLE PROvOST Jean-Marie VIVES Olivier REVILLON Stéphanie DARGENT Morgann SAGEL Véronique ZILBERFAIN Pierre VILLETTE Recherche et développement Stéphane DEVERLY",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_076_second_half_frame_8691_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 77,
+            "original_start_frame": 8718,
+            "original_end_frame": 8943,
+            "original_start_timecode": "00:06:03.316",
+            "original_end_timecode": "00:06:12.692",
+            "duration_frames": 225,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "ThierryDELOBEL Stéphane DITTOO Alexandre KOLASINSKI JeremyLE ROUX Patricia MEDJAHED Georges TORNERO Daniel TRUJILLO CHINCHINA Assistes de Lucie BORIES LeïlaDIXMIR Yann GONSARD Mathieu LE MEUR Graphistes 3D Matte painting Bruno LE PROVOST Jean-Marie VIVES Olivier REVILLON Stéphanie DARGENT Morgann SAGEL Véronique ZILBERFAIN Pierre VILLETTE Recherche et développement Stéphane DEVERLY Olivier TUBACH Laurent CLAVIER Jypo Marc BRUCKERT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 8729,
+                    "ocr_text": "ThierryDELOBEL Stéphane DITTOO Alexandre KOLASINSKI JeremyLE ROUX Patricia MEDJAHED Georges TORNERO Daniel TRUJILLO CHINCHINA Assistes de Lucie BORIES LeïlaDIXMIR Yann GONSARD Mathieu LE MEUR Graphistes 3D Matte painting Bruno LE PROVOST Jean-Marie VIVES Olivier REVILLON Stéphanie DARGENT Morgann SAGEL Véronique ZILBERFAIN Pierre VILLETTE Recherche et développement Stéphane DEVERLY Olivier TUBACH Laurent CLAVIER Jypo Marc BRUCKERT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_077_second_half_frame_8729_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 78,
+            "original_start_frame": 8943,
+            "original_end_frame": 9021,
+            "original_start_timecode": "00:06:12.692",
+            "original_end_timecode": "00:06:15.943",
+            "duration_frames": 78,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Laooratoire numerique DUBOICOLOR Directeur techniqueRip HAMPTON O'NEIL Directeur des productions Tommaso VERGALLO Assisté de Aurore ADER LaureFOURMENTAL Coordinateur du projet Jérôme ARTHUIS Numérisation et conformation Christophe BELENA Tina LIN Guillaume UGUET Jraitement numérique FrancoisDUPUY Abdel Ali KASSOU Nicolas PELE Alexandre JEANNERET Jransfert vidéo Christophe COTTET Responsable de l'argentique Coralie BOULAY Stagiaires Nicolas NICOLE Gaël EXILIE Dahorah GOIGOUY"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 8946,
+                    "ocr_text": "Laooratoire numerique DUBOICOLOR Directeur techniqueRip HAMPTON O'NEIL Directeur des productions Tommaso VERGALLO Assisté de Aurore ADER LaureFOURMENTAL Coordinateur du projet Jérôme ARTHUIS Numérisation et conformation Christophe BELENA Tina LIN Guillaume UGUET Jraitement numérique FrancoisDUPUY Abdel Ali KASSOU Nicolas PELE Alexandre JEANNERET Jransfert vidéo Christophe COTTET Responsable de l'argentique Coralie BOULAY Stagiaires Nicolas NICOLE Gaël EXILIE Dahorah GOIGOUY",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_078_second_half_frame_8946_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 79,
+            "original_start_frame": 9021,
+            "original_end_frame": 9038,
+            "original_start_timecode": "00:06:15.943",
+            "original_end_timecode": "00:06:16.651",
+            "duration_frames": 17,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Numérisation et conformation Christophe BELENA Tina LIN Guillaume UGUET Jraitement numérique François DUPUY Abdel Ali KASSOU Nicolas PELE Alexandre JEANNERET Jransfert vidéo Christophe COTTET Responsable de l'argentique Coralie BOULAY StagiairesNicolas NICOLE Gaël EXILIE Déborah GOIGOUX Équipe Allemagne Producteur Arne MEERKAMP VAN EMBDEN Directeur de production Marc GREWE Administratrice de production Eva NEUFAHRT Assistante de production Claudia DUMMER-MANASSE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 9021,
+                    "ocr_text": "Numérisation et conformation Christophe BELENA Tina LIN Guillaume UGUET Jraitement numérique François DUPUY Abdel Ali KASSOU Nicolas PELE Alexandre JEANNERET Jransfert vidéo Christophe COTTET Responsable de l'argentique Coralie BOULAY StagiairesNicolas NICOLE Gaël EXILIE Déborah GOIGOUX Équipe Allemagne Producteur Arne MEERKAMP VAN EMBDEN Directeur de production Marc GREWE Administratrice de production Eva NEUFAHRT Assistante de production Claudia DUMMER-MANASSE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_079_second_half_frame_9021_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 80,
+            "original_start_frame": 9038,
+            "original_end_frame": 9065,
+            "original_start_timecode": "00:06:16.651",
+            "original_end_timecode": "00:06:17.777",
+            "duration_frames": 27,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Guillaume UGUET Jraitement numérique FrançoisDUPUY Abdel Ali KASSOU Nicolas PELE Alexandre JEANNERET Jransfert vidéo Christophe COTTET Responsable de l'argentiqueCoralie BOuLAY Stagiaires NicolasNICOLE Gaël EXILIE Déborah GOIGOUX Équipe Allemagne ProducteurArne MEERKAMP VAN EMBDEN Directeur de production Marc GREWE Administratrice de production Eva NEUFAHRT Assistante de production Claudia DUMMER-MANASSE Secrétaire de production Karen MiTREGA"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 9039,
+                    "ocr_text": "Guillaume UGUET Jraitement numérique FrançoisDUPUY Abdel Ali KASSOU Nicolas PELE Alexandre JEANNERET Jransfert vidéo Christophe COTTET Responsable de l'argentiqueCoralie BOuLAY Stagiaires NicolasNICOLE Gaël EXILIE Déborah GOIGOUX Équipe Allemagne ProducteurArne MEERKAMP VAN EMBDEN Directeur de production Marc GREWE Administratrice de production Eva NEUFAHRT Assistante de production Claudia DUMMER-MANASSE Secrétaire de production Karen MiTREGA",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_080_second_half_frame_9039_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 81,
+            "original_start_frame": 9065,
+            "original_end_frame": 9142,
+            "original_start_timecode": "00:06:17.777",
+            "original_end_timecode": "00:06:20.986",
+            "duration_frames": 77,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Nicolas PELE Alexandre JEANNERET Jransfert vidéo Christophe COTTET Responsable de l'argentique Coralie BOULAY Stagiaires Nicolas NICOLE Gaël EXILIE Déborah GOIGOUX Équipe Allemagne ProducteurArne MEERKAMP VAN EMBDEN Directeur de production Marc GREWE Administratrice de production Eva NEUFAHRT Assistante de productionClaudiaDUMMER-MANASSE Secrétaire de production Karen MITREGA 2assistant à la réalisationDinah RAUENBUSCH ChefdécorateurVolker SCHAEFER"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 9068,
+                    "ocr_text": "Nicolas PELE Alexandre JEANNERET Jransfert vidéo Christophe COTTET Responsable de l'argentique Coralie BOULAY Stagiaires Nicolas NICOLE Gaël EXILIE Déborah GOIGOUX Équipe Allemagne ProducteurArne MEERKAMP VAN EMBDEN Directeur de production Marc GREWE Administratrice de production Eva NEUFAHRT Assistante de productionClaudiaDUMMER-MANASSE Secrétaire de production Karen MITREGA 2assistant à la réalisationDinah RAUENBUSCH ChefdécorateurVolker SCHAEFER",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_081_second_half_frame_9068_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 82,
+            "original_start_frame": 9142,
+            "original_end_frame": 9181,
+            "original_start_timecode": "00:06:20.986",
+            "original_end_timecode": "00:06:22.611",
+            "duration_frames": 39,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Équipe Allemagne Producteur Arne MEERKAMP VAN EMBDEN Directeur de production Marc GREWE Administratrice de production Eva NEUFAHRT Assistante deproductionClaudia DUMMER-MANASSE Secrétaire de production Karen MITREGA 2assistantà la réalisation Dinah RAUENBUSCH Chef décorateur Volker SCHAEFER Assistants décorateursThorstenSABEL Petra KLIMEK Daniel KOLAROV Dagmar WESSEL ChefConstructeurStefan QUENTIN ConstructeursJohn RAWSTHORN Wolfaanq GOBSBERG"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 9143,
+                    "ocr_text": "Équipe Allemagne Producteur Arne MEERKAMP VAN EMBDEN Directeur de production Marc GREWE Administratrice de production Eva NEUFAHRT Assistante deproductionClaudia DUMMER-MANASSE Secrétaire de production Karen MITREGA 2assistantà la réalisation Dinah RAUENBUSCH Chef décorateur Volker SCHAEFER Assistants décorateursThorstenSABEL Petra KLIMEK Daniel KOLAROV Dagmar WESSEL ChefConstructeurStefan QUENTIN ConstructeursJohn RAWSTHORN Wolfaanq GOBSBERG",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_082_second_half_frame_9143_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 83,
+            "original_start_frame": 9181,
+            "original_end_frame": 9496,
+            "original_start_timecode": "00:06:22.611",
+            "original_end_timecode": "00:06:35.738",
+            "duration_frames": 315,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Assistante de productionClaudia DUMMER-MANASSE Secrétaire de production Karen MiTREGA 2assistant à la réalisationDinah RAUENBUSCH Chef décorateurVolker SCHAEFER Assistants décorateursThorsten SABEL Petra KLIMEK Daniel KOLAROV DagmarWESSEL Chef ConstructeurStefan QUENTIN ConstructeursJohn RAWSTHORN Wolfgang GOBSBERG Onkel TUKA Gregor HEES Assistante accessoiriste Kerstin KRÖTZ Accessoiristes de plateau Jorg BERGEN DaIf SCHWAMRODN"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 9196,
+                    "ocr_text": "Assistante de productionClaudia DUMMER-MANASSE Secrétaire de production Karen MiTREGA 2assistant à la réalisationDinah RAUENBUSCH Chef décorateurVolker SCHAEFER Assistants décorateursThorsten SABEL Petra KLIMEK Daniel KOLAROV DagmarWESSEL Chef ConstructeurStefan QUENTIN ConstructeursJohn RAWSTHORN Wolfgang GOBSBERG Onkel TUKA Gregor HEES Assistante accessoiriste Kerstin KRÖTZ Accessoiristes de plateau Jorg BERGEN DaIf SCHWAMRODN",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_083_second_half_frame_9196_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 84,
+            "original_start_frame": 9496,
+            "original_end_frame": 9747,
+            "original_start_timecode": "00:06:35.738",
+            "original_end_timecode": "00:06:46.198",
+            "duration_frames": 251,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Frank NIERMANN Mark VOIT Robert SPIKA Cameras et ObjectifsTECHNOVISION Pellicule KODAK Jélécinéma DURAN Laboratoire ECLAIR AuditoriumAUDITORIUMS DE BOULOGNE Matériel électrique TRANSPALUX Matériel machinerie CAR GRIP Matériel machinerie PANAVISION ALGA Matériel machinerieCINESYL Matériel son — Repiquage DCA Banc-titre ERCIDAN Location véhicules techniques PLS LogesERIC LE MOUEL Studio FranceCOSMOS -Studio SETS Photomatons PHOTOMATON S.A."
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 9508,
+                    "ocr_text": "Frank NIERMANN Mark VOIT Robert SPIKA Cameras et ObjectifsTECHNOVISION Pellicule KODAK Jélécinéma DURAN Laboratoire ECLAIR AuditoriumAUDITORIUMS DE BOULOGNE Matériel électrique TRANSPALUX Matériel machinerie CAR GRIP Matériel machinerie PANAVISION ALGA Matériel machinerieCINESYL Matériel son — Repiquage DCA Banc-titre ERCIDAN Location véhicules techniques PLS LogesERIC LE MOUEL Studio FranceCOSMOS -Studio SETS Photomatons PHOTOMATON S.A.",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_084_second_half_frame_9508_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 85,
+            "original_start_frame": 9747,
+            "original_end_frame": 9764,
+            "original_start_timecode": "00:06:46.198",
+            "original_end_timecode": "00:06:46.907",
+            "duration_frames": 17,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "AssurancesSGAC BELLAN Stock-shots PATHÉ IMAGES BANK - FRANCE 2 TELEVISION ARKEION  LOBSTER I.N.A.  DAVENPORT FILMS extrait de : \"born for hard luck\" avec Peg Leg Sam Jackson disponible sur www.davenportfilms.com MK2 -LES FILMS DU CARROSSE - CHERTOK ASSOCIATES - BBC FILM IMAGES  APRIL— PRESSE SPORT  TRANS WORLD INTERNATIONAL, INC. Tous les morceaux sont composés & interprétés par Yann TIERSEN (P) Ici d'ailleurs - Labels/Virgin France Sauf \"LES JOURS TRISTES\"\"NAOMI\""
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 9747,
+                    "ocr_text": "AssurancesSGAC BELLAN Stock-shots PATHÉ IMAGES BANK - FRANCE 2 TELEVISION ARKEION  LOBSTER I.N.A.  DAVENPORT FILMS extrait de : \"born for hard luck\" avec Peg Leg Sam Jackson disponible sur www.davenportfilms.com MK2 -LES FILMS DU CARROSSE - CHERTOK ASSOCIATES - BBC FILM IMAGES  APRIL— PRESSE SPORT  TRANS WORLD INTERNATIONAL, INC. Tous les morceaux sont composés & interprétés par Yann TIERSEN (P) Ici d'ailleurs - Labels/Virgin France Sauf \"LES JOURS TRISTES\"\"NAOMI\"",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_085_second_half_frame_9747_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 86,
+            "original_start_frame": 9764,
+            "original_end_frame": 9861,
+            "original_start_timecode": "00:06:46.907",
+            "original_end_timecode": "00:06:50.949",
+            "duration_frames": 97,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Stock-shots PATHÉ-IMAGES BANK - FRANCE 2 TELEVISION ARKEION- LOBSTERI.N.A.  DAVENPORT FILMS extrait de : \"born for hard luck\"avec Peg Leg Sam Jackson disponible sur www.davenportfilms.com MK2 - LES FILMS DU CARROSSE - CHERTOK ASSOCIATES - BBC FILM IMAGES - APRIL- PRESSE SPORT - TRANS WORLD INTERNATIONAL, INC. Tous les morceaux sont composés & interprétés par Yann TIERSEN (P) Ici d'ailleurs - Labels/Virgin France Sauf \"LES JOURS TRISTES\"\"NAOMI\" (n.Hamon -y.Jiersen) (A.Ginsberg — y.Jiersen) Éditions C.BOURGEOIS/Ici d'ailleurs/BMG Music Publishing France"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 9768,
+                    "ocr_text": "Stock-shots PATHÉ-IMAGES BANK - FRANCE 2 TELEVISION ARKEION- LOBSTERI.N.A.  DAVENPORT FILMS extrait de : \"born for hard luck\"avec Peg Leg Sam Jackson disponible sur www.davenportfilms.com MK2 - LES FILMS DU CARROSSE - CHERTOK ASSOCIATES - BBC FILM IMAGES - APRIL- PRESSE SPORT - TRANS WORLD INTERNATIONAL, INC. Tous les morceaux sont composés & interprétés par Yann TIERSEN (P) Ici d'ailleurs - Labels/Virgin France Sauf \"LES JOURS TRISTES\"\"NAOMI\" (n.Hamon -y.Jiersen) (A.Ginsberg — y.Jiersen) Éditions C.BOURGEOIS/Ici d'ailleurs/BMG Music Publishing France",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_086_second_half_frame_9768_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 87,
+            "original_start_frame": 9861,
+            "original_end_frame": 9881,
+            "original_start_timecode": "00:06:50.949",
+            "original_end_timecode": "00:06:51.783",
+            "duration_frames": 20,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Tous les morceaux sont composés & interprétés par Yann TIERSEN (P) Ici d'ailleurs - Labels/Virgin France Sauf \"LES JOURS TRISTES\"\"NAOMI\" (n.Hamon -y.Jiersen) (A.Ginsberg— y.Jiersen) Éditions C.BOURGEOIS/Ici d'ailleurs/BMG Music Publishing France Editions : Ici d'ailleurs/BMG Music Publishing France Sauf 'QUIMPER 94\", \"LA VALSE DES MONSTRES\" et \"LE BANQUET\" Sony ATV Publishing France Musique originale enregistrée par Stéphane KRAMER et Didier LIZé, mixée par Didier LIZE (P) 2000 Victoires Productions Editions : Ici d'ailleurs/BMG Music Publishina France"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 9862,
+                    "ocr_text": "Tous les morceaux sont composés & interprétés par Yann TIERSEN (P) Ici d'ailleurs - Labels/Virgin France Sauf \"LES JOURS TRISTES\"\"NAOMI\" (n.Hamon -y.Jiersen) (A.Ginsberg— y.Jiersen) Éditions C.BOURGEOIS/Ici d'ailleurs/BMG Music Publishing France Editions : Ici d'ailleurs/BMG Music Publishing France Sauf 'QUIMPER 94\", \"LA VALSE DES MONSTRES\" et \"LE BANQUET\" Sony ATV Publishing France Musique originale enregistrée par Stéphane KRAMER et Didier LIZé, mixée par Didier LIZE (P) 2000 Victoires Productions Editions : Ici d'ailleurs/BMG Music Publishina France",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_087_second_half_frame_9862_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 88,
+            "original_start_frame": 9881,
+            "original_end_frame": 9903,
+            "original_start_timecode": "00:06:51.783",
+            "original_end_timecode": "00:06:52.700",
+            "duration_frames": 22,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "(P) Ici d'ailleurs  Labels/Virgin France Sauf \"LES JOURS TRISTES\"\"NAOMI\" (n.Hamon -y.Jiersen) (A.Ginsberg-y.Jiersen) Éditions C.BOURGEOIS/Ici d'ailleurs/BMG Music Publishing France Editions : Ici d'ailleurs/BMG Music Publishing France Sauf \"QUIMPER 94\", \"LA VALSE DES MONSTRES\" et \"LE BANQUET\" Sony ATV Publishing France Musique originale enregistrée par Stéphane KRAMER et Didier LIZÉ, mixée par Didier LIZé (P) 2000 Victoires Productions Éditions : Ici d'ailleurs/BMG Music Publishing France"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 9882,
+                    "ocr_text": "(P) Ici d'ailleurs  Labels/Virgin France Sauf \"LES JOURS TRISTES\"\"NAOMI\" (n.Hamon -y.Jiersen) (A.Ginsberg-y.Jiersen) Éditions C.BOURGEOIS/Ici d'ailleurs/BMG Music Publishing France Editions : Ici d'ailleurs/BMG Music Publishing France Sauf \"QUIMPER 94\", \"LA VALSE DES MONSTRES\" et \"LE BANQUET\" Sony ATV Publishing France Musique originale enregistrée par Stéphane KRAMER et Didier LIZÉ, mixée par Didier LIZé (P) 2000 Victoires Productions Éditions : Ici d'ailleurs/BMG Music Publishing France",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_088_second_half_frame_9882_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 89,
+            "original_start_frame": 9903,
+            "original_end_frame": 9967,
+            "original_start_timecode": "00:06:52.700",
+            "original_end_timecode": "00:06:55.367",
+            "duration_frames": 64,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Sauf \"LES JOURS TRISTES\"\"NAOMI\" (n.Hamon - y.Jiersen) (A.Ginsberg - y.Jiersen) Editions C.BOURGEOIS/Ici d'ailleurs/BMG Music Publishing France Éditions : Ici d'ailleurs/BMG Music Publishing France Sauf \"QUIMPER 94\", \"LA VALSE DES MONSTRES\" et \"LE BANQUET\" Sony ATV Publishing France Musique originale enregistrée par Stéphane KRAMER et Didier LIZé, mixée par Didier LIZE (P) 2000 Victoires Productions Editions : Ici d'ailleurs/BMG Music Publishing France Musiques additionnelles \"WHISPERING\"\"ADAGIO POUR CORDES\""
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 9906,
+                    "ocr_text": "Sauf \"LES JOURS TRISTES\"\"NAOMI\" (n.Hamon - y.Jiersen) (A.Ginsberg - y.Jiersen) Editions C.BOURGEOIS/Ici d'ailleurs/BMG Music Publishing France Éditions : Ici d'ailleurs/BMG Music Publishing France Sauf \"QUIMPER 94\", \"LA VALSE DES MONSTRES\" et \"LE BANQUET\" Sony ATV Publishing France Musique originale enregistrée par Stéphane KRAMER et Didier LIZé, mixée par Didier LIZE (P) 2000 Victoires Productions Editions : Ici d'ailleurs/BMG Music Publishing France Musiques additionnelles \"WHISPERING\"\"ADAGIO POUR CORDES\"",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_089_second_half_frame_9906_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 90,
+            "original_start_frame": 9967,
+            "original_end_frame": 10448,
+            "original_start_timecode": "00:06:55.367",
+            "original_end_timecode": "00:07:15.412",
+            "duration_frames": 481,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Sony ATV Publishing France Musique originale enregistrée par Stéphane KRAMER et Didier LIZÉ, mixée par Didier LIZé (P) 2000 VictoiresProductions Editions : Ici d'ailleurs/BMG Music Publishing France Musiques additionnelles \"WHISPERING\"\"ADAGIO POUR CORDES\" (M.Schonberger/2.Schonberger) (S.Barber) ©Sherman Clay (Miller Music) Capella Istropolitana Avec Laimable autoristaion de BmG Music Vision K Musik/Naxos Par accord spécial entre Kapagama et HnH International Distribution : Naive \"WITH A SONG IN MY HEART\"\"GUILTY\" (Richard Rodgers/Loren2 Hart) (G.Kahn/R.A. Whiting - H.Akst) ©Harms Jnc (droits pour la France et territoires Sacem, Publishing 1931 by Em3 Catalogue Partnership"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 9991,
+                    "ocr_text": "Sony ATV Publishing France Musique originale enregistrée par Stéphane KRAMER et Didier LIZÉ, mixée par Didier LIZé (P) 2000 VictoiresProductions Editions : Ici d'ailleurs/BMG Music Publishing France Musiques additionnelles \"WHISPERING\"\"ADAGIO POUR CORDES\" (M.Schonberger/2.Schonberger) (S.Barber) ©Sherman Clay (Miller Music) Capella Istropolitana Avec Laimable autoristaion de BmG Music Vision K Musik/Naxos Par accord spécial entre Kapagama et HnH International Distribution : Naive \"WITH A SONG IN MY HEART\"\"GUILTY\" (Richard Rodgers/Loren2 Hart) (G.Kahn/R.A. Whiting - H.Akst) ©Harms Jnc (droits pour la France et territoires Sacem, Publishing 1931 by Em3 Catalogue Partnership",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_090_second_half_frame_9991_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 91,
+            "original_start_frame": 10448,
+            "original_end_frame": 10490,
+            "original_start_timecode": "00:07:15.412",
+            "original_end_timecode": "00:07:17.162",
+            "duration_frames": 42,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Avec L'aimable autorisation de Bmg Music Vision Alex Gopher \"THE CHILD\" (B. Holiday/A Herzog Jr/Alexis Latrobe) Edward B Marks/Jong Publishing : Jong (p) 1999 Disques Solid Courtesy of U2 Music and Disques Solid \"The Child\" contains a sample of \"God Bless The Child\" written by Billie Holiday and Arthur Herzog Jr and performed by Billie Holiday. used courtesy of Edward B.Marks Music Inc and MCA Records under license from Universal Music Special projects France Musigue originale disponible en CD chez Labels Lobels avec le concours du BUREAU PARISIEN DU FILM - MAIRIE DE PARIS"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 10450,
+                    "ocr_text": "Avec L'aimable autorisation de Bmg Music Vision Alex Gopher \"THE CHILD\" (B. Holiday/A Herzog Jr/Alexis Latrobe) Edward B Marks/Jong Publishing : Jong (p) 1999 Disques Solid Courtesy of U2 Music and Disques Solid \"The Child\" contains a sample of \"God Bless The Child\" written by Billie Holiday and Arthur Herzog Jr and performed by Billie Holiday. used courtesy of Edward B.Marks Music Inc and MCA Records under license from Universal Music Special projects France Musigue originale disponible en CD chez Labels Lobels avec le concours du BUREAU PARISIEN DU FILM - MAIRIE DE PARIS",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_091_second_half_frame_10450_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 92,
+            "original_start_frame": 10490,
+            "original_end_frame": 10534,
+            "original_start_timecode": "00:07:17.162",
+            "original_end_timecode": "00:07:18.996",
+            "duration_frames": 44,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "©Edward B Marks/Jong Publishing : Jong (p) 1999 Disques Solid Courtesy of V2 Music and Disques Solid \"The Child\" contains a sample of \"God \"Bless Jhe Child\" written by Billie Holiday and Arthur Herzog Jr and performed by Billie Holiday. used courtesy of Edward B.Marks Music Inc and MCA Records under license from Universal Music Special projects France Musique originale disponible en CD chez Labels Lobels avec le concours du BUREAU PARISIEN DU FILM - MAIRIE DE PARIS Nous remercions particuliérement Christian MARGUERIE Juarez MACHADO"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 10492,
+                    "ocr_text": "©Edward B Marks/Jong Publishing : Jong (p) 1999 Disques Solid Courtesy of V2 Music and Disques Solid \"The Child\" contains a sample of \"God \"Bless Jhe Child\" written by Billie Holiday and Arthur Herzog Jr and performed by Billie Holiday. used courtesy of Edward B.Marks Music Inc and MCA Records under license from Universal Music Special projects France Musique originale disponible en CD chez Labels Lobels avec le concours du BUREAU PARISIEN DU FILM - MAIRIE DE PARIS Nous remercions particuliérement Christian MARGUERIE Juarez MACHADO",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_092_second_half_frame_10492_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 93,
+            "original_start_frame": 10534,
+            "original_end_frame": 10551,
+            "original_start_timecode": "00:07:18.996",
+            "original_end_timecode": "00:07:19.704",
+            "duration_frames": 17,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "written by Billie Holiday and Arthur Herzog Jr and performed by Billie Holiday. used courtesy of Edward B.Marks Music Inc and MCA Records under license from Universal Music Special projects France Musique originale disponible en CD chez Labels Lobels avec le concours du BUREAU PARISIEN DU FILM - MAIRIE DE PARIS Nous remercions particuliérement Christian MARGUERIE Juarez MACHADO Frédérique GIBERT Rudy GALINDO Michael A. ROSENBERG LA PRÉFECTURE DE POLICE DE PARIS - LE COMMISSARIAT CENTRAL DU XVIIIe et M. ANICET"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 10534,
+                    "ocr_text": "written by Billie Holiday and Arthur Herzog Jr and performed by Billie Holiday. used courtesy of Edward B.Marks Music Inc and MCA Records under license from Universal Music Special projects France Musique originale disponible en CD chez Labels Lobels avec le concours du BUREAU PARISIEN DU FILM - MAIRIE DE PARIS Nous remercions particuliérement Christian MARGUERIE Juarez MACHADO Frédérique GIBERT Rudy GALINDO Michael A. ROSENBERG LA PRÉFECTURE DE POLICE DE PARIS - LE COMMISSARIAT CENTRAL DU XVIIIe et M. ANICET",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_093_second_half_frame_10534_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 94,
+            "original_start_frame": 10551,
+            "original_end_frame": 10780,
+            "original_start_timecode": "00:07:19.704",
+            "original_end_timecode": "00:07:29.248",
+            "duration_frames": 229,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Musique originale disponible en CD chez Labels Lobels avec le concours du BUREAU PARISIEN DU FILM- MAIRIE DE PARIS Nous remercions particuliérement Christian MARGUERIE Juarez MACHADO Frédérique GIBERT Rudy GALINDO Michael A. ROSENBERG LA PRÉFECTURE DE POLICE DE PARIS - LE COMMISSARIAT CENTRAL DU XVIIe et M. ANICET FRANCE TELECOM MOBILES - R.A.T.P. - TOTHEME 54, Mme HO, Mme NONIN et M. CROS FraNCe RAIL PUBLICITE et M. HAUBENSACK - LA GARE DE L'EST, M. SOUVERAIN ET M. FORTE LA GARE DU NORD. M. HAINS et CHAMOULAUD - M. et Mme DELATTRE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 10562,
+                    "ocr_text": "Musique originale disponible en CD chez Labels Lobels avec le concours du BUREAU PARISIEN DU FILM- MAIRIE DE PARIS Nous remercions particuliérement Christian MARGUERIE Juarez MACHADO Frédérique GIBERT Rudy GALINDO Michael A. ROSENBERG LA PRÉFECTURE DE POLICE DE PARIS - LE COMMISSARIAT CENTRAL DU XVIIe et M. ANICET FRANCE TELECOM MOBILES - R.A.T.P. - TOTHEME 54, Mme HO, Mme NONIN et M. CROS FraNCe RAIL PUBLICITE et M. HAUBENSACK - LA GARE DE L'EST, M. SOUVERAIN ET M. FORTE LA GARE DU NORD. M. HAINS et CHAMOULAUD - M. et Mme DELATTRE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_094_second_half_frame_10562_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 95,
+            "original_start_frame": 10780,
+            "original_end_frame": 11238,
+            "original_start_timecode": "00:07:29.248",
+            "original_end_timecode": "00:07:48.335",
+            "duration_frames": 458,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Ventes internationales UGC INTERNATIONAL Coproduction MMC Independent GmbH VICTOIRES PRODUCTIONS TAPIOCA FILMS FRANCE 3 CINEMA DIGITAL TECHNO DUBOICOLOR ECLAIR DUBOI Andis DOLBY dts IGITA SOUND ©VICTOIRES PRODUCTION TAPIOCA FILMS  FRANCE 3 CINEMA Jous droits réservés - visa d'exploitation n\" 98 481"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 10802,
+                    "ocr_text": "Ventes internationales UGC INTERNATIONAL Coproduction MMC Independent GmbH VICTOIRES PRODUCTIONS TAPIOCA FILMS FRANCE 3 CINEMA DIGITAL TECHNO DUBOICOLOR ECLAIR DUBOI Andis DOLBY dts IGITA SOUND ©VICTOIRES PRODUCTION TAPIOCA FILMS  FRANCE 3 CINEMA Jous droits réservés - visa d'exploitation n\" 98 481",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_095_second_half_frame_10802_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 24,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:01.000",
+            "duration_frames": 24,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 24,
+            "end_frame": 65,
+            "start_timecode": "00:00:01.000",
+            "end_timecode": "00:00:02.709",
+            "duration_frames": 41,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 65,
+            "end_frame": 385,
+            "start_timecode": "00:00:02.709",
+            "end_timecode": "00:00:16.045",
+            "duration_frames": 320,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 385,
+            "end_frame": 428,
+            "start_timecode": "00:00:16.045",
+            "end_timecode": "00:00:17.837",
+            "duration_frames": 43,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 428,
+            "end_frame": 466,
+            "start_timecode": "00:00:17.837",
+            "end_timecode": "00:00:19.420",
+            "duration_frames": 38,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 466,
+            "end_frame": 546,
+            "start_timecode": "00:00:19.420",
+            "end_timecode": "00:00:22.754",
+            "duration_frames": 80,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 6,
+            "start_frame": 546,
+            "end_frame": 651,
+            "start_timecode": "00:00:22.754",
+            "end_timecode": "00:00:27.130",
+            "duration_frames": 105,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 7,
+            "start_frame": 651,
+            "end_frame": 878,
+            "start_timecode": "00:00:27.130",
+            "end_timecode": "00:00:36.590",
+            "duration_frames": 227,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 8,
+            "start_frame": 878,
+            "end_frame": 896,
+            "start_timecode": "00:00:36.590",
+            "end_timecode": "00:00:37.340",
+            "duration_frames": 18,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 9,
+            "start_frame": 896,
+            "end_frame": 909,
+            "start_timecode": "00:00:37.340",
+            "end_timecode": "00:00:37.882",
+            "duration_frames": 13,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 10,
+            "start_frame": 909,
+            "end_frame": 1310,
+            "start_timecode": "00:00:37.882",
+            "end_timecode": "00:00:54.593",
+            "duration_frames": 401,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 11,
+            "start_frame": 1310,
+            "end_frame": 1559,
+            "start_timecode": "00:00:54.593",
+            "end_timecode": "00:01:04.970",
+            "duration_frames": 249,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 12,
+            "start_frame": 1559,
+            "end_frame": 1813,
+            "start_timecode": "00:01:04.970",
+            "end_timecode": "00:01:15.555",
+            "duration_frames": 254,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 13,
+            "start_frame": 1813,
+            "end_frame": 1906,
+            "start_timecode": "00:01:15.555",
+            "end_timecode": "00:01:19.431",
+            "duration_frames": 93,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 14,
+            "start_frame": 1906,
+            "end_frame": 1970,
+            "start_timecode": "00:01:19.431",
+            "end_timecode": "00:01:22.098",
+            "duration_frames": 64,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 15,
+            "start_frame": 1970,
+            "end_frame": 2126,
+            "start_timecode": "00:01:22.098",
+            "end_timecode": "00:01:28.599",
+            "duration_frames": 156,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 16,
+            "start_frame": 2126,
+            "end_frame": 2183,
+            "start_timecode": "00:01:28.599",
+            "end_timecode": "00:01:30.975",
+            "duration_frames": 57,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 17,
+            "start_frame": 2183,
+            "end_frame": 2224,
+            "start_timecode": "00:01:30.975",
+            "end_timecode": "00:01:32.683",
+            "duration_frames": 41,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 18,
+            "start_frame": 2224,
+            "end_frame": 2275,
+            "start_timecode": "00:01:32.683",
+            "end_timecode": "00:01:34.809",
+            "duration_frames": 51,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 19,
+            "start_frame": 2275,
+            "end_frame": 2304,
+            "start_timecode": "00:01:34.809",
+            "end_timecode": "00:01:36.017",
+            "duration_frames": 29,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 20,
+            "start_frame": 2304,
+            "end_frame": 2337,
+            "start_timecode": "00:01:36.017",
+            "end_timecode": "00:01:37.393",
+            "duration_frames": 33,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 21,
+            "start_frame": 2337,
+            "end_frame": 2380,
+            "start_timecode": "00:01:37.393",
+            "end_timecode": "00:01:39.185",
+            "duration_frames": 43,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 22,
+            "start_frame": 2380,
+            "end_frame": 2445,
+            "start_timecode": "00:01:39.185",
+            "end_timecode": "00:01:41.893",
+            "duration_frames": 65,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 23,
+            "start_frame": 2445,
+            "end_frame": 2520,
+            "start_timecode": "00:01:41.893",
+            "end_timecode": "00:01:45.019",
+            "duration_frames": 75,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 24,
+            "start_frame": 2520,
+            "end_frame": 2550,
+            "start_timecode": "00:01:45.019",
+            "end_timecode": "00:01:46.269",
+            "duration_frames": 30,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 25,
+            "start_frame": 2550,
+            "end_frame": 2570,
+            "start_timecode": "00:01:46.269",
+            "end_timecode": "00:01:47.103",
+            "duration_frames": 20,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 26,
+            "start_frame": 2570,
+            "end_frame": 2688,
+            "start_timecode": "00:01:47.103",
+            "end_timecode": "00:01:52.020",
+            "duration_frames": 118,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 27,
+            "start_frame": 2688,
+            "end_frame": 2768,
+            "start_timecode": "00:01:52.020",
+            "end_timecode": "00:01:55.354",
+            "duration_frames": 80,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 28,
+            "start_frame": 2768,
+            "end_frame": 2837,
+            "start_timecode": "00:01:55.354",
+            "end_timecode": "00:01:58.230",
+            "duration_frames": 69,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 29,
+            "start_frame": 2837,
+            "end_frame": 2868,
+            "start_timecode": "00:01:58.230",
+            "end_timecode": "00:01:59.522",
+            "duration_frames": 31,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 30,
+            "start_frame": 2868,
+            "end_frame": 2926,
+            "start_timecode": "00:01:59.522",
+            "end_timecode": "00:02:01.939",
+            "duration_frames": 58,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 31,
+            "start_frame": 2926,
+            "end_frame": 2969,
+            "start_timecode": "00:02:01.939",
+            "end_timecode": "00:02:03.731",
+            "duration_frames": 43,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 32,
+            "start_frame": 2969,
+            "end_frame": 2992,
+            "start_timecode": "00:02:03.731",
+            "end_timecode": "00:02:04.689",
+            "duration_frames": 23,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 33,
+            "start_frame": 2992,
+            "end_frame": 3067,
+            "start_timecode": "00:02:04.689",
+            "end_timecode": "00:02:07.815",
+            "duration_frames": 75,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 34,
+            "start_frame": 3067,
+            "end_frame": 3082,
+            "start_timecode": "00:02:07.815",
+            "end_timecode": "00:02:08.440",
+            "duration_frames": 15,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 35,
+            "start_frame": 3082,
+            "end_frame": 3197,
+            "start_timecode": "00:02:08.440",
+            "end_timecode": "00:02:13.232",
+            "duration_frames": 115,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 36,
+            "start_frame": 3197,
+            "end_frame": 3274,
+            "start_timecode": "00:02:13.232",
+            "end_timecode": "00:02:16.441",
+            "duration_frames": 77,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 37,
+            "start_frame": 3274,
+            "end_frame": 3297,
+            "start_timecode": "00:02:16.441",
+            "end_timecode": "00:02:17.400",
+            "duration_frames": 23,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 38,
+            "start_frame": 3297,
+            "end_frame": 3395,
+            "start_timecode": "00:02:17.400",
+            "end_timecode": "00:02:21.484",
+            "duration_frames": 98,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 39,
+            "start_frame": 3395,
+            "end_frame": 3467,
+            "start_timecode": "00:02:21.484",
+            "end_timecode": "00:02:24.484",
+            "duration_frames": 72,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 40,
+            "start_frame": 3467,
+            "end_frame": 3506,
+            "start_timecode": "00:02:24.484",
+            "end_timecode": "00:02:26.110",
+            "duration_frames": 39,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 41,
+            "start_frame": 3506,
+            "end_frame": 3575,
+            "start_timecode": "00:02:26.110",
+            "end_timecode": "00:02:28.985",
+            "duration_frames": 69,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 42,
+            "start_frame": 3575,
+            "end_frame": 3599,
+            "start_timecode": "00:02:28.985",
+            "end_timecode": "00:02:29.985",
+            "duration_frames": 24,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 43,
+            "start_frame": 3599,
+            "end_frame": 3670,
+            "start_timecode": "00:02:29.985",
+            "end_timecode": "00:02:32.944",
+            "duration_frames": 71,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 44,
+            "start_frame": 3670,
+            "end_frame": 3690,
+            "start_timecode": "00:02:32.944",
+            "end_timecode": "00:02:33.778",
+            "duration_frames": 20,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 45,
+            "start_frame": 3690,
+            "end_frame": 3735,
+            "start_timecode": "00:02:33.778",
+            "end_timecode": "00:02:35.653",
+            "duration_frames": 45,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 46,
+            "start_frame": 3735,
+            "end_frame": 3794,
+            "start_timecode": "00:02:35.653",
+            "end_timecode": "00:02:38.112",
+            "duration_frames": 59,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 47,
+            "start_frame": 3794,
+            "end_frame": 3836,
+            "start_timecode": "00:02:38.112",
+            "end_timecode": "00:02:39.862",
+            "duration_frames": 42,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 48,
+            "start_frame": 3836,
+            "end_frame": 3910,
+            "start_timecode": "00:02:39.862",
+            "end_timecode": "00:02:42.946",
+            "duration_frames": 74,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 49,
+            "start_frame": 3910,
+            "end_frame": 3943,
+            "start_timecode": "00:02:42.946",
+            "end_timecode": "00:02:44.321",
+            "duration_frames": 33,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 50,
+            "start_frame": 3943,
+            "end_frame": 4011,
+            "start_timecode": "00:02:44.321",
+            "end_timecode": "00:02:47.155",
+            "duration_frames": 68,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 51,
+            "start_frame": 4011,
+            "end_frame": 4159,
+            "start_timecode": "00:02:47.155",
+            "end_timecode": "00:02:53.323",
+            "duration_frames": 148,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 52,
+            "start_frame": 4159,
+            "end_frame": 4179,
+            "start_timecode": "00:02:53.323",
+            "end_timecode": "00:02:54.156",
+            "duration_frames": 20,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 53,
+            "start_frame": 4179,
+            "end_frame": 4271,
+            "start_timecode": "00:02:54.156",
+            "end_timecode": "00:02:57.991",
+            "duration_frames": 92,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 54,
+            "start_frame": 4271,
+            "end_frame": 4335,
+            "start_timecode": "00:02:57.991",
+            "end_timecode": "00:03:00.658",
+            "duration_frames": 64,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 55,
+            "start_frame": 4335,
+            "end_frame": 4384,
+            "start_timecode": "00:03:00.658",
+            "end_timecode": "00:03:02.700",
+            "duration_frames": 49,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 56,
+            "start_frame": 4384,
+            "end_frame": 4400,
+            "start_timecode": "00:03:02.700",
+            "end_timecode": "00:03:03.366",
+            "duration_frames": 16,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 57,
+            "start_frame": 4400,
+            "end_frame": 4453,
+            "start_timecode": "00:03:03.366",
+            "end_timecode": "00:03:05.575",
+            "duration_frames": 53,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 58,
+            "start_frame": 4453,
+            "end_frame": 4639,
+            "start_timecode": "00:03:05.575",
+            "end_timecode": "00:03:13.327",
+            "duration_frames": 186,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 59,
+            "start_frame": 4639,
+            "end_frame": 4671,
+            "start_timecode": "00:03:13.327",
+            "end_timecode": "00:03:14.660",
+            "duration_frames": 32,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 60,
+            "start_frame": 4671,
+            "end_frame": 4751,
+            "start_timecode": "00:03:14.660",
+            "end_timecode": "00:03:17.994",
+            "duration_frames": 80,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 61,
+            "start_frame": 4751,
+            "end_frame": 4822,
+            "start_timecode": "00:03:17.994",
+            "end_timecode": "00:03:20.953",
+            "duration_frames": 71,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 62,
+            "start_frame": 4822,
+            "end_frame": 4880,
+            "start_timecode": "00:03:20.953",
+            "end_timecode": "00:03:23.370",
+            "duration_frames": 58,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 63,
+            "start_frame": 4880,
+            "end_frame": 5993,
+            "start_timecode": "00:03:23.370",
+            "end_timecode": "00:04:09.753",
+            "duration_frames": 1113,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 64,
+            "start_frame": 5993,
+            "end_frame": 6028,
+            "start_timecode": "00:04:09.753",
+            "end_timecode": "00:04:11.212",
+            "duration_frames": 35,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 65,
+            "start_frame": 6028,
+            "end_frame": 6065,
+            "start_timecode": "00:04:11.212",
+            "end_timecode": "00:04:12.754",
+            "duration_frames": 37,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 66,
+            "start_frame": 6065,
+            "end_frame": 6152,
+            "start_timecode": "00:04:12.754",
+            "end_timecode": "00:04:16.380",
+            "duration_frames": 87,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 67,
+            "start_frame": 6152,
+            "end_frame": 6580,
+            "start_timecode": "00:04:16.380",
+            "end_timecode": "00:04:34.216",
+            "duration_frames": 428,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 68,
+            "start_frame": 6580,
+            "end_frame": 6760,
+            "start_timecode": "00:04:34.216",
+            "end_timecode": "00:04:41.718",
+            "duration_frames": 180,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 69,
+            "start_frame": 6760,
+            "end_frame": 8442,
+            "start_timecode": "00:04:41.718",
+            "end_timecode": "00:05:51.814",
+            "duration_frames": 1682,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 70,
+            "start_frame": 8442,
+            "end_frame": 8483,
+            "start_timecode": "00:05:51.814",
+            "end_timecode": "00:05:53.522",
+            "duration_frames": 41,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 71,
+            "start_frame": 8483,
+            "end_frame": 8500,
+            "start_timecode": "00:05:53.522",
+            "end_timecode": "00:05:54.231",
+            "duration_frames": 17,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 72,
+            "start_frame": 8500,
+            "end_frame": 8569,
+            "start_timecode": "00:05:54.231",
+            "end_timecode": "00:05:57.106",
+            "duration_frames": 69,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 73,
+            "start_frame": 8569,
+            "end_frame": 8648,
+            "start_timecode": "00:05:57.106",
+            "end_timecode": "00:06:00.398",
+            "duration_frames": 79,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 74,
+            "start_frame": 8648,
+            "end_frame": 8672,
+            "start_timecode": "00:06:00.398",
+            "end_timecode": "00:06:01.399",
+            "duration_frames": 24,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 75,
+            "start_frame": 8672,
+            "end_frame": 8690,
+            "start_timecode": "00:06:01.399",
+            "end_timecode": "00:06:02.149",
+            "duration_frames": 18,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 76,
+            "start_frame": 8690,
+            "end_frame": 8718,
+            "start_timecode": "00:06:02.149",
+            "end_timecode": "00:06:03.316",
+            "duration_frames": 28,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 77,
+            "start_frame": 8718,
+            "end_frame": 8943,
+            "start_timecode": "00:06:03.316",
+            "end_timecode": "00:06:12.692",
+            "duration_frames": 225,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 78,
+            "start_frame": 8943,
+            "end_frame": 9021,
+            "start_timecode": "00:06:12.692",
+            "end_timecode": "00:06:15.943",
+            "duration_frames": 78,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 79,
+            "start_frame": 9021,
+            "end_frame": 9038,
+            "start_timecode": "00:06:15.943",
+            "end_timecode": "00:06:16.651",
+            "duration_frames": 17,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 80,
+            "start_frame": 9038,
+            "end_frame": 9065,
+            "start_timecode": "00:06:16.651",
+            "end_timecode": "00:06:17.777",
+            "duration_frames": 27,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 81,
+            "start_frame": 9065,
+            "end_frame": 9142,
+            "start_timecode": "00:06:17.777",
+            "end_timecode": "00:06:20.986",
+            "duration_frames": 77,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 82,
+            "start_frame": 9142,
+            "end_frame": 9181,
+            "start_timecode": "00:06:20.986",
+            "end_timecode": "00:06:22.611",
+            "duration_frames": 39,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 83,
+            "start_frame": 9181,
+            "end_frame": 9496,
+            "start_timecode": "00:06:22.611",
+            "end_timecode": "00:06:35.738",
+            "duration_frames": 315,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 84,
+            "start_frame": 9496,
+            "end_frame": 9747,
+            "start_timecode": "00:06:35.738",
+            "end_timecode": "00:06:46.198",
+            "duration_frames": 251,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 85,
+            "start_frame": 9747,
+            "end_frame": 9764,
+            "start_timecode": "00:06:46.198",
+            "end_timecode": "00:06:46.907",
+            "duration_frames": 17,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 86,
+            "start_frame": 9764,
+            "end_frame": 9861,
+            "start_timecode": "00:06:46.907",
+            "end_timecode": "00:06:50.949",
+            "duration_frames": 97,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 87,
+            "start_frame": 9861,
+            "end_frame": 9881,
+            "start_timecode": "00:06:50.949",
+            "end_timecode": "00:06:51.783",
+            "duration_frames": 20,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 88,
+            "start_frame": 9881,
+            "end_frame": 9903,
+            "start_timecode": "00:06:51.783",
+            "end_timecode": "00:06:52.700",
+            "duration_frames": 22,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 89,
+            "start_frame": 9903,
+            "end_frame": 9967,
+            "start_timecode": "00:06:52.700",
+            "end_timecode": "00:06:55.367",
+            "duration_frames": 64,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 90,
+            "start_frame": 9967,
+            "end_frame": 10448,
+            "start_timecode": "00:06:55.367",
+            "end_timecode": "00:07:15.412",
+            "duration_frames": 481,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 91,
+            "start_frame": 10448,
+            "end_frame": 10490,
+            "start_timecode": "00:07:15.412",
+            "end_timecode": "00:07:17.162",
+            "duration_frames": 42,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 92,
+            "start_frame": 10490,
+            "end_frame": 10534,
+            "start_timecode": "00:07:17.162",
+            "end_timecode": "00:07:18.996",
+            "duration_frames": 44,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 93,
+            "start_frame": 10534,
+            "end_frame": 10551,
+            "start_timecode": "00:07:18.996",
+            "end_timecode": "00:07:19.704",
+            "duration_frames": 17,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 94,
+            "start_frame": 10551,
+            "end_frame": 10780,
+            "start_timecode": "00:07:19.704",
+            "end_timecode": "00:07:29.248",
+            "duration_frames": 229,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 95,
+            "start_frame": 10780,
+            "end_frame": 11238,
+            "start_timecode": "00:07:29.248",
+            "end_timecode": "00:07:48.335",
+            "duration_frames": 458,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:28:14.919532"
+}

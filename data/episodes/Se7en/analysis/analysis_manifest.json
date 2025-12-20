@@ -1,0 +1,3693 @@
+{
+  "scenes": {
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_002_static_000_num00246_sim0.jpg",
+          "frame_num": 246,
+          "ocr_text": "MEN LINE CINEMA PRESENTS",
+          "ocr_bbox": [
+            800,
+            330,
+            1038,
+            437
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.16012993454933167,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.13969416916370392,
+      "roi_percentile_flow": 0.16012993454933167,
+      "scroll_direction": null
+    },
+    "scene_3": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_003_static_000_num00312_sim39.jpg",
+          "frame_num": 312,
+          "ocr_text": "AN Arnold Kopelson PRODUCTION",
+          "ocr_bbox": [
+            239,
+            69,
+            724,
+            160
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.3457939028739929,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.20940478146076202,
+      "roi_percentile_flow": 0.3457939028739929,
+      "scroll_direction": null
+    },
+    "scene_4": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_004_static_000_num00394_sim24.jpg",
+          "frame_num": 394,
+          "ocr_text": "David Fincher",
+          "ocr_bbox": [
+            -613,
+            294,
+            -322,
+            365
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_004_static_001_num00430_sim81.jpg",
+          "frame_num": 430,
+          "ocr_text": "FRILM David Fincher",
+          "ocr_bbox": [
+            668,
+            131,
+            1140,
+            238
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_004_static_002_num00451_sim38.jpg",
+          "frame_num": 451,
+          "ocr_text": "URGICAL STFEI",
+          "ocr_bbox": [
+            814,
+            0,
+            1278,
+            85
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.15624062716960907,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1634572297334671,
+      "roi_percentile_flow": 0.15624062716960907,
+      "scroll_direction": null
+    },
+    "scene_5": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_005_scroll_000_num00452_sim0.jpg",
+          "frame_num": 452,
+          "ocr_text": "URGICAL JMON",
+          "ocr_bbox": [
+            847,
+            5,
+            1270,
+            277
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.301541566848755,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.3210827112197876,
+      "roi_percentile_flow": 2.301541566848755,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 208,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_6": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.171646386384964,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.17555996775627136,
+      "roi_percentile_flow": 0.171646386384964,
+      "scroll_direction": null
+    },
+    "scene_7": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_007_static_000_num00500_sim12.jpg",
+          "frame_num": 500,
+          "ocr_text": "Bfad",
+          "ocr_bbox": [
+            295,
+            82,
+            421,
+            187
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_007_static_001_num00512_sim33.jpg",
+          "frame_num": 512,
+          "ocr_text": "Att Brod",
+          "ocr_bbox": [
+            298,
+            97,
+            659,
+            187
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_007_static_002_num00519_sim35.jpg",
+          "frame_num": 519,
+          "ocr_text": "Pitt Brad",
+          "ocr_bbox": [
+            299,
+            99,
+            658,
+            186
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.46897512674331665,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.27378329634666443,
+      "roi_percentile_flow": 0.46897512674331665,
+      "scroll_direction": null
+    },
+    "scene_8": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_008_scroll_000_num00521_sim0.jpg",
+          "frame_num": 521,
+          "ocr_text": "Pitt Brad",
+          "ocr_bbox": [
+            298,
+            98,
+            659,
+            186
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 1.0320836305618286,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.0354163646697998,
+      "roi_percentile_flow": 1.0320836305618286,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 464,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_9": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.06377127766609192,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.9188780784606934,
+      "roi_percentile_flow": 0.06377127766609192,
+      "scroll_direction": null
+    },
+    "scene_10": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.1877848356962204,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.19733739644289017,
+      "roi_percentile_flow": 0.1877848356962204,
+      "scroll_direction": null
+    },
+    "scene_11": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_011_static_000_num00614_sim26.jpg",
+          "frame_num": 614,
+          "ocr_text": "Freeman Morgan",
+          "ocr_bbox": [
+            291,
+            108,
+            632,
+            215
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.2579992711544037,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2235819399356842,
+      "roi_percentile_flow": 0.2579992711544037,
+      "scroll_direction": null
+    },
+    "scene_13": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.39431947469711304,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.37377864122390747,
+      "roi_percentile_flow": 0.39431947469711304,
+      "scroll_direction": null
+    },
+    "scene_14": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.5928987264633179,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.44803673028945923,
+      "roi_percentile_flow": 0.5928987264633179,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 808,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_15": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_015_static_000_num00750_sim32.jpg",
+          "frame_num": 750,
+          "ocr_text": "SE7EN",
+          "ocr_bbox": [
+            -514,
+            326,
+            -313,
+            407
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_015_static_001_num00774_sim80.jpg",
+          "frame_num": 774,
+          "ocr_text": "SETEN",
+          "ocr_bbox": [
+            800,
+            128,
+            977,
+            182
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.14964500069618225,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1986171305179596,
+      "roi_percentile_flow": 0.14964500069618225,
+      "scroll_direction": null
+    },
+    "scene_16": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.32647091150283813,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2819828689098358,
+      "roi_percentile_flow": 0.32647091150283813,
+      "scroll_direction": null
+    },
+    "scene_17": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_017_static_000_num00837_sim12.jpg",
+          "frame_num": 837,
+          "ocr_text": "94x7/2in/24.7x190cm",
+          "ocr_bbox": [
+            411,
+            50,
+            744,
+            100
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.3715358376502991,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.38725222647190094,
+      "roi_percentile_flow": 0.3715358376502991,
+      "scroll_direction": null
+    },
+    "scene_18": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_018_static_000_num00870_sim8.jpg",
+          "frame_num": 870,
+          "ocr_text": "Gwyneth Paltrow",
+          "ocr_bbox": [
+            691,
+            334,
+            983,
+            433
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.11135940998792648,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.1304224282503128,
+      "roi_percentile_flow": 0.11135940998792648,
+      "scroll_direction": null
+    },
+    "scene_19": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.37171292304992676,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.34162577986717224,
+      "roi_percentile_flow": 0.37171292304992676,
+      "scroll_direction": null
+    },
+    "scene_20": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.11692894995212555,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0609363354742527,
+      "roi_percentile_flow": 0.11692894995212555,
+      "scroll_direction": null
+    },
+    "scene_21": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_021_static_000_num00949_sim28.jpg",
+          "frame_num": 949,
+          "ocr_text": "Richard Roundtree",
+          "ocr_bbox": [
+            752,
+            67,
+            1085,
+            149
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_021_static_001_num01021_sim21.jpg",
+          "frame_num": 1021,
+          "ocr_text": "GRIPPING MNUNESS A FROM WHAL PSIANCE VENINMODERNMANS?. ALL MANUINO THAT ATELY DERMALN",
+          "ocr_bbox": [
+            0,
+            8,
+            1280,
+            529
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_021_static_002_num01022_sim66.jpg",
+          "frame_num": 1022,
+          "ocr_text": "GRIPPING NOUTNESS A FROMWHAT DISTANCE VEN IAMODERN MANS ALC MANKINO THAT ATELY DERMALN",
+          "ocr_bbox": [
+            0,
+            7,
+            1280,
+            531
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.2731039226055145,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3673028349876404,
+      "roi_percentile_flow": 0.2731039226055145,
+      "scroll_direction": null
+    },
+    "scene_22": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.2534634470939636,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.19322985410690308,
+      "roi_percentile_flow": 0.2534634470939636,
+      "scroll_direction": null
+    },
+    "scene_23": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 1.2937490940093994,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.1266767382621765,
+      "roi_percentile_flow": 1.2937490940093994,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 370,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_24": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_024_static_000_num01075_sim16.jpg",
+          "frame_num": 1075,
+          "ocr_text": "R. Lee Ermey",
+          "ocr_bbox": [
+            685,
+            300,
+            951,
+            405
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.15821386873722076,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.14340361952781677,
+      "roi_percentile_flow": 0.15821386873722076,
+      "scroll_direction": null
+    },
+    "scene_25": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_025_static_000_num01125_sim20.jpg",
+          "frame_num": 1125,
+          "ocr_text": "A as ight Ily ow Is",
+          "ocr_bbox": [
+            557,
+            116,
+            772,
+            380
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.14482474327087402,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3106811046600342,
+      "roi_percentile_flow": 0.14482474327087402,
+      "scroll_direction": null
+    },
+    "scene_26": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_026_static_000_num01126_sim41.jpg",
+          "frame_num": 1126,
+          "ocr_text": "aght scally humsoll tes to be us com- sidenti- alty",
+          "ocr_bbox": [
+            461,
+            146,
+            617,
+            532
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_026_static_001_num01138_sim11.jpg",
+          "frame_num": 1138,
+          "ocr_text": "male erection. While the tra do rather than a libido that re in fact, he despises his crections, arbate and he doesn't want any genitals and does nat want to use. tot want to have set with horo sxual men. rand would be offended if relerred is thought of himself as a girl A whs oit his life, he has behaved as way in which he was brought mal. hormonally normal, physically theh hee were a git vay the transsexual looks at himself. mn the very but who is trapped inside the body in every respect, who desires to be ual who thinks of hinself as com- ost extreme type of sexual misidenti- pletely and totally a with ation. Imagine an Transsexualism is ferent from a on sexual? Transsexw a d How Is",
+          "ocr_bbox": [
+            384,
+            0,
+            1112,
+            421
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_026_static_002_num01158_sim4.jpg",
+          "frame_num": 1158,
+          "ocr_text": "John C. McGinley",
+          "ocr_bbox": [
+            779,
+            300,
+            1081,
+            365
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.281293660402298,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.20410752296447754,
+      "roi_percentile_flow": 0.281293660402298,
+      "scroll_direction": null
+    },
+    "scene_27": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_027_scroll_000_num01159_sim0.jpg",
+          "frame_num": 1159,
+          "ocr_text": "John C. Mc Ginley",
+          "ocr_bbox": [
+            781,
+            296,
+            1078,
+            360
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.5290026664733887,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.7329621315002441,
+      "roi_percentile_flow": 0.5290026664733887,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 905,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_28": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_028_static_000_num01206_sim29.jpg",
+          "frame_num": 1206,
+          "ocr_text": "or be",
+          "ocr_bbox": [
+            187,
+            24,
+            257,
+            77
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.196748286485672,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.416598916053772,
+      "roi_percentile_flow": 0.196748286485672,
+      "scroll_direction": null
+    },
+    "scene_29": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_029_static_000_num01223_sim25.jpg",
+          "frame_num": 1223,
+          "ocr_text": "T be R GON EMA CAHOUR ANCOS OTIL TK",
+          "ocr_bbox": [
+            189,
+            31,
+            798,
+            374
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_029_static_001_num01235_sim36.jpg",
+          "frame_num": 1235,
+          "ocr_text": "NEROLESS OLS MIET THL VD CAN HESOUL .CAVONS 1GONCE \"L AND SHOTGRUN INPUCTLO 4 Noncb: BYTHE A CAHOHR ANSCE'S OTICSPACE what wiin y lefinitly 621",
+          "ocr_bbox": [
+            475,
+            4,
+            861,
+            532
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.2984975576400757,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.28715503215789795,
+      "roi_percentile_flow": 0.2984975576400757,
+      "scroll_direction": null
+    },
+    "scene_30": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_030_static_000_num01252_sim25.jpg",
+          "frame_num": 1252,
+          "ocr_text": "Julie Araskog Mark Boone Junior",
+          "ocr_bbox": [
+            414,
+            344,
+            1044,
+            434
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.22766372561454773,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.22766372561454773,
+      "roi_percentile_flow": 0.22766372561454773,
+      "scroll_direction": null
+    },
+    "scene_31": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_031_scroll_000_num01261_sim0.jpg",
+          "frame_num": 1261,
+          "ocr_text": "Julie Araskog Mark Boone Junior",
+          "ocr_bbox": [
+            415,
+            342,
+            1042,
+            432
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.9262802600860596,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.182124525308609,
+      "roi_percentile_flow": 0.9262802600860596,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 517,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_32": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_032_static_000_num01303_sim55.jpg",
+          "frame_num": 1303,
+          "ocr_text": "Julie Araskag",
+          "ocr_bbox": [
+            410,
+            340,
+            655,
+            435
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_032_static_001_num01315_sim55.jpg",
+          "frame_num": 1315,
+          "ocr_text": "Julie Araskog Mark Boone Junior",
+          "ocr_bbox": [
+            412,
+            340,
+            1042,
+            428
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.22369462251663208,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2780098617076874,
+      "roi_percentile_flow": 0.22369462251663208,
+      "scroll_direction": null
+    },
+    "scene_33": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.14105306565761566,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.1418725550174713,
+      "roi_percentile_flow": -0.14105306565761566,
+      "scroll_direction": null
+    },
+    "scene_34": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_034_scroll_000_num01431_sim0.jpg",
+          "frame_num": 1431,
+          "ocr_text": "John Cassini Reginald E. Cathey Peter Crombie",
+          "ocr_bbox": [
+            307,
+            209,
+            1088,
+            368
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 7.13524055480957,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 3.9607698917388916,
+      "roi_percentile_flow": 7.13524055480957,
+      "scroll_direction": "downward",
+      "save_interval_frames": 67,
+      "save_interval_frames_uncapped": 67,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_35": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_035_static_000_num01479_sim100.jpg",
+          "frame_num": 1479,
+          "ocr_text": "John Cassini Reginald E. Cathey Peter Crombie",
+          "ocr_bbox": [
+            301,
+            208,
+            1079,
+            355
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_035_static_001_num01484_sim41.jpg",
+          "frame_num": 1484,
+          "ocr_text": "Hawthorne James Michael Mase andser",
+          "ocr_bbox": [
+            386,
+            55,
+            1076,
+            253
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.3274868428707123,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2615815997123718,
+      "roi_percentile_flow": 0.3274868428707123,
+      "scroll_direction": null
+    },
+    "scene_36": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_036_static_000_num01485_sim41.jpg",
+          "frame_num": 1485,
+          "ocr_text": "John Cassini Reginald E. Cathey Peter Crombie",
+          "ocr_bbox": [
+            297,
+            211,
+            1071,
+            364
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.1274411827325821,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.22846677899360657,
+      "roi_percentile_flow": -0.1274411827325821,
+      "scroll_direction": null
+    },
+    "scene_37": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_037_scroll_000_num01497_sim0.jpg",
+          "frame_num": 1497,
+          "ocr_text": "John Cassini Reginald E. Cathey Peter Crombie",
+          "ocr_bbox": [
+            297,
+            211,
+            1074,
+            369
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.6237389445304871,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.5291823148727417,
+      "roi_percentile_flow": 0.6237389445304871,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 768,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_38": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_038_static_000_num01530_sim37.jpg",
+          "frame_num": 1530,
+          "ocr_text": "Hawthorne James Michael Masre Leland Oreer",
+          "ocr_bbox": [
+            419,
+            56,
+            1101,
+            240
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.07146552205085754,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 2.4140751361846924,
+      "roi_percentile_flow": -0.07146552205085754,
+      "scroll_direction": null
+    },
+    "scene_39": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_039_scroll_000_num01535_sim0.jpg",
+          "frame_num": 1535,
+          "ocr_text": "Hawthorne James Michael Masse Lelond Orser",
+          "ocr_bbox": [
+            408,
+            50,
+            1098,
+            250
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.8223084211349487,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.5596157312393188,
+      "roi_percentile_flow": 0.8223084211349487,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 582,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_40": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_040_static_000_num01591_sim37.jpg",
+          "frame_num": 1591,
+          "ocr_text": "CATALOCGE UPEOF ARRING FE OFT",
+          "ocr_bbox": [
+            0,
+            748,
+            806,
+            1101
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_040_static_001_num01603_sim47.jpg",
+          "frame_num": 1603,
+          "ocr_text": "THE RING CATALOUGEDANO",
+          "ocr_bbox": [
+            52,
+            180,
+            1137,
+            527
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_040_static_002_num01615_sim10.jpg",
+          "frame_num": 1615,
+          "ocr_text": "WHENI YOU'RE PREGNANT, YOUR S smell becomes capricious-odors that may been appealing suddenly become offensive. Res ers at the Monell Chemical Senses Center in Philadelphia lyzed the smell response of 14, ,000 and near 300,000 The pre age. nant women identified all but two of the six test odors mor accurately than nonp The were also more likely I odors unpleasant and less likely associate them wit hing edible. Researchers theoriz",
+          "ocr_bbox": [
+            26,
+            23,
+            1280,
+            525
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.18170492351055145,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1635558307170868,
+      "roi_percentile_flow": 0.18170492351055145,
+      "scroll_direction": null
+    },
+    "scene_41": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_041_static_000_num01649_sim59.jpg",
+          "frame_num": 1649,
+          "ocr_text": "WHEN YOU'RE YOU smell becomes us-odors that been appeali come ers at the Monell lyzed the smell res and 300,000 age. nant women ider est odors mor accurately than were also mor SS likely associate th",
+          "ocr_bbox": [
+            24,
+            22,
+            1272,
+            500
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.12925662100315094,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.12650533020496368,
+      "roi_percentile_flow": 0.12925662100315094,
+      "scroll_direction": null
+    },
+    "scene_42": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_042_static_000_num01676_sim23.jpg",
+          "frame_num": 1676,
+          "ocr_text": "Richard Portnow Pamala Tyson Richard Schiff",
+          "ocr_bbox": [
+            265,
+            205,
+            1002,
+            355
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.202421173453331,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.26513493061065674,
+      "roi_percentile_flow": 0.202421173453331,
+      "scroll_direction": null
+    },
+    "scene_43": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_043_static_000_num01751_sim100.jpg",
+          "frame_num": 1751,
+          "ocr_text": "Richard Portnow Pamala Schiff Tyson Richard",
+          "ocr_bbox": [
+            307,
+            230,
+            1035,
+            369
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.27015548944473267,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.36360085010528564,
+      "roi_percentile_flow": 0.27015548944473267,
+      "scroll_direction": null
+    },
+    "scene_44": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_044_scroll_000_num01753_sim0.jpg",
+          "frame_num": 1753,
+          "ocr_text": "Richard Portnow Pamala Schiff Tyson Richard",
+          "ocr_bbox": [
+            308,
+            234,
+            1033,
+            370
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 1.4344825744628906,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.2407517433166504,
+      "roi_percentile_flow": 1.4344825744628906,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 334,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_45": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_045_scroll_000_num01778_sim0.jpg",
+          "frame_num": 1778,
+          "ocr_text": "gothroug because by imagining him. Many ceivable, one and children. The only way a not much diprent from a hor exual man w ing to be emale, but rather ualint seems a te ext",
+          "ocr_bbox": [
+            0,
+            0,
+            1280,
+            532
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.5159863829612732,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.45105934143066406,
+      "roi_percentile_flow": 0.5159863829612732,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 928,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_46": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_046_static_000_num01838_sim28.jpg",
+          "frame_num": 1838,
+          "ocr_text": "CASTING BY Billy Hopkins. Suzanne Smith Kerry Borden",
+          "ocr_bbox": [
+            205,
+            215,
+            1032,
+            437
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.1698334962129593,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.17465956509113312,
+      "roi_percentile_flow": 0.1698334962129593,
+      "scroll_direction": null
+    },
+    "scene_47": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.19831591844558716,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.17744407057762146,
+      "roi_percentile_flow": 0.19831591844558716,
+      "scroll_direction": null
+    },
+    "scene_48": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.17336565256118774,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.22816535830497742,
+      "roi_percentile_flow": 0.17336565256118774,
+      "scroll_direction": null
+    },
+    "scene_49": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_049_static_000_num01938_sim26.jpg",
+          "frame_num": 1938,
+          "ocr_text": "THE EUINIA",
+          "ocr_bbox": [
+            -198,
+            153,
+            532,
+            438
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_049_static_001_num01945_sim72.jpg",
+          "frame_num": 1945,
+          "ocr_text": "RANG EMINIA THE",
+          "ocr_bbox": [
+            0,
+            0,
+            820,
+            378
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.289898544549942,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2590706944465637,
+      "roi_percentile_flow": 0.289898544549942,
+      "scroll_direction": null
+    },
+    "scene_50": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_050_static_000_num01958_sim55.jpg",
+          "frame_num": 1958,
+          "ocr_text": "TRANYY EUININ THET",
+          "ocr_bbox": [
+            0,
+            0,
+            929,
+            384
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_050_static_001_num01970_sim48.jpg",
+          "frame_num": 1970,
+          "ocr_text": "P THE NINIV3",
+          "ocr_bbox": [
+            525,
+            864,
+            1280,
+            1182
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_050_static_002_num01982_sim25.jpg",
+          "frame_num": 1982,
+          "ocr_text": "MUSIC BY Howard Shore",
+          "ocr_bbox": [
+            673,
+            84,
+            1063,
+            189
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.34796807169914246,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.22408249974250793,
+      "roi_percentile_flow": 0.34796807169914246,
+      "scroll_direction": null
+    },
+    "scene_51": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_051_static_000_num02022_sim38.jpg",
+          "frame_num": 2022,
+          "ocr_text": "MUSiC",
+          "ocr_bbox": [
+            0,
+            0,
+            1230,
+            532
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_051_static_001_num02034_sim38.jpg",
+          "frame_num": 2034,
+          "ocr_text": "MUSIC BY Howard Shore",
+          "ocr_bbox": [
+            673,
+            81,
+            1061,
+            185
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.18032346665859222,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.16955214738845825,
+      "roi_percentile_flow": 0.18032346665859222,
+      "scroll_direction": null
+    },
+    "scene_52": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_052_static_000_num02062_sim39.jpg",
+          "frame_num": 2062,
+          "ocr_text": "sides of the hhe ins",
+          "ocr_bbox": [
+            264,
+            798,
+            472,
+            884
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_052_static_001_num02065_sim36.jpg",
+          "frame_num": 2065,
+          "ocr_text": "woliferation oe tihe catirsuurince The long extunibgs ait the the sides of the bothe is",
+          "ocr_bbox": [
+            764,
+            244,
+            1048,
+            478
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -0.12725183367729187,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.1191844567656517,
+      "roi_percentile_flow": -0.12725183367729187,
+      "scroll_direction": null
+    },
+    "scene_53": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_053_static_000_num02078_sim41.jpg",
+          "frame_num": 2078,
+          "ocr_text": "Nirlie the proliferation on the alesaudne",
+          "ocr_bbox": [
+            680,
+            214,
+            1050,
+            344
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_053_static_001_num02090_sim70.jpg",
+          "frame_num": 2090,
+          "ocr_text": "\"Death o Niue the proliferation ou the chirsp/not",
+          "ocr_bbox": [
+            153,
+            214,
+            1050,
+            346
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_053_static_002_num02102_sim41.jpg",
+          "frame_num": 2102,
+          "ocr_text": "COSTUMES DESIGNED Michael Kaplan",
+          "ocr_bbox": [
+            353,
+            335,
+            953,
+            440
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_053_static_003_num02111_sim96.jpg",
+          "frame_num": 2111,
+          "ocr_text": "COSTUMES DESIGNED BY Michael Kaplan",
+          "ocr_bbox": [
+            353,
+            334,
+            954,
+            439
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.12701541185379028,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.10097745805978775,
+      "roi_percentile_flow": 0.12701541185379028,
+      "scroll_direction": null
+    },
+    "scene_54": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.12438377737998962,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.05386926233768463,
+      "roi_percentile_flow": 0.12438377737998962,
+      "scroll_direction": null
+    },
+    "scene_55": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.0007973387837409973,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10995543748140335,
+      "roi_percentile_flow": 0.0007973387837409973,
+      "scroll_direction": null
+    },
+    "scene_56": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_056_static_000_num02162_sim28.jpg",
+          "frame_num": 2162,
+          "ocr_text": "Rchard frs-Bruce",
+          "ocr_bbox": [
+            -403,
+            160,
+            41,
+            309
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_056_static_001_num02174_sim52.jpg",
+          "frame_num": 2174,
+          "ocr_text": "EDITED BY Richard Francis - Bruce",
+          "ocr_bbox": [
+            429,
+            231,
+            920,
+            337
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.21810421347618103,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.4335104823112488,
+      "roi_percentile_flow": 0.21810421347618103,
+      "scroll_direction": null
+    },
+    "scene_57": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_057_static_000_num02211_sim47.jpg",
+          "frame_num": 2211,
+          "ocr_text": "PRODUCTION DESIGNED BY Arlhur Max",
+          "ocr_bbox": [
+            259,
+            295,
+            966,
+            377
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.2564292252063751,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.4833466708660126,
+      "roi_percentile_flow": 0.2564292252063751,
+      "scroll_direction": null
+    },
+    "scene_58": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.5223127007484436,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.6631408929824829,
+      "roi_percentile_flow": 0.5223127007484436,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 917,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_59": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_059_scroll_000_num02228_sim0.jpg",
+          "frame_num": 2228,
+          "ocr_text": "PROBUCTION DESIGNED BY Arthur Max",
+          "ocr_bbox": [
+            252,
+            291,
+            966,
+            375
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.5404878854751587,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.40581682324409485,
+      "roi_percentile_flow": 0.5404878854751587,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 886,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_60": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_060_static_000_num02263_sim96.jpg",
+          "frame_num": 2263,
+          "ocr_text": "PRODUCTION DESIGNEED BY Arthur Max",
+          "ocr_bbox": [
+            250,
+            289,
+            966,
+            377
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.4839593172073364,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3310272991657257,
+      "roi_percentile_flow": 0.4839593172073364,
+      "scroll_direction": null
+    },
+    "scene_61": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.05176389217376709,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.37759801745414734,
+      "roi_percentile_flow": 0.05176389217376709,
+      "scroll_direction": null
+    },
+    "scene_62": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_062_static_000_num02297_sim29.jpg",
+          "frame_num": 2297,
+          "ocr_text": "OR AM AD",
+          "ocr_bbox": [
+            374,
+            748,
+            765,
+            866
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.11355110257863998,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.18299520015716553,
+      "roi_percentile_flow": -0.11355110257863998,
+      "scroll_direction": null
+    },
+    "scene_64": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.11155218631029129,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1349288821220398,
+      "roi_percentile_flow": 0.11155218631029129,
+      "scroll_direction": null
+    },
+    "scene_65": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_065_static_000_num02421_sim28.jpg",
+          "frame_num": 2421,
+          "ocr_text": "DIDRECTORR OF Darius Khondji",
+          "ocr_bbox": [
+            282,
+            10,
+            1022,
+            133
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_065_static_001_num02430_sim79.jpg",
+          "frame_num": 2430,
+          "ocr_text": "DIRECTOR PHOTOGRAPHY Darius Khondji",
+          "ocr_bbox": [
+            282,
+            331,
+            1006,
+            457
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.23139439523220062,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.22344614565372467,
+      "roi_percentile_flow": 0.23139439523220062,
+      "scroll_direction": null
+    },
+    "scene_66": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_066_scroll_000_num02437_sim0.jpg",
+          "frame_num": 2437,
+          "ocr_text": "Darius Khondji",
+          "ocr_bbox": [
+            677,
+            327,
+            1011,
+            464
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.544970691204071,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.311016708612442,
+      "roi_percentile_flow": 0.544970691204071,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 879,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_67": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_067_scroll_000_num02457_sim0.jpg",
+          "frame_num": 2457,
+          "ocr_text": "DIDIRECTOR OF PHIQTQGRAPHY Darius Khondji",
+          "ocr_bbox": [
+            249,
+            325,
+            999,
+            448
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.8734040260314941,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.9528065919876099,
+      "roi_percentile_flow": 0.8734040260314941,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 548,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_68": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.10530507564544678,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.15247410535812378,
+      "roi_percentile_flow": -0.10530507564544678,
+      "scroll_direction": null
+    },
+    "scene_69": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_069_scroll_000_num02498_sim0.jpg",
+          "frame_num": 2498,
+          "ocr_text": "ao ynord of store",
+          "ocr_bbox": [
+            -358,
+            0,
+            -12,
+            191
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.813185930252075,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 3.0901942253112793,
+      "roi_percentile_flow": 2.813185930252075,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 170,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_70": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_070_static_000_num02526_sim40.jpg",
+          "frame_num": 2526,
+          "ocr_text": "Stephen Brown",
+          "ocr_bbox": [
+            539,
+            431,
+            817,
+            518
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.033076681196689606,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3154464662075043,
+      "roi_percentile_flow": -0.033076681196689606,
+      "scroll_direction": null
+    },
+    "scene_71": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_071_static_000_num02548_sim38.jpg",
+          "frame_num": 2548,
+          "ocr_text": "CO-PRODUCERs Stephen Brown Nana Greenwald Sanford Panitch",
+          "ocr_bbox": [
+            269,
+            174,
+            1059,
+            389
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.2718775272369385,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2259417474269867,
+      "roi_percentile_flow": 0.2718775272369385,
+      "scroll_direction": null
+    },
+    "scene_72": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_072_static_000_num02601_sim36.jpg",
+          "frame_num": 2601,
+          "ocr_text": "a CONTACT OF THG 6 you to shees at and m N-TOD AUL",
+          "ocr_bbox": [
+            57,
+            194,
+            891,
+            532
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.15656596422195435,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1600971668958664,
+      "roi_percentile_flow": 0.15656596422195435,
+      "scroll_direction": null
+    },
+    "scene_73": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_073_static_000_num02627_sim30.jpg",
+          "frame_num": 2627,
+          "ocr_text": "CO-EXECUTIVE PRODUCEAS Lynn Harris Richard Saperstein",
+          "ocr_bbox": [
+            259,
+            190,
+            1117,
+            356
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.30422136187553406,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2251342386007309,
+      "roi_percentile_flow": 0.30422136187553406,
+      "scroll_direction": null
+    },
+    "scene_74": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_074_scroll_000_num02638_sim0.jpg",
+          "frame_num": 2638,
+          "ocr_text": "CO-EXECUTIVE PRODUCERS Lynn Harris Richard Saperstein",
+          "ocr_bbox": [
+            254,
+            190,
+            1113,
+            364
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.5329692959785461,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.38508111238479614,
+      "roi_percentile_flow": 0.5329692959785461,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 898,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_75": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 1.7009880542755127,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.65620756149292,
+      "roi_percentile_flow": 1.7009880542755127,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 281,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_76": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_076_static_000_num02710_sim11.jpg",
+          "frame_num": 2710,
+          "ocr_text": "UNTOF",
+          "ocr_bbox": [
+            693,
+            457,
+            908,
+            532
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_076_static_001_num02722_sim22.jpg",
+          "frame_num": 2722,
+          "ocr_text": "NESS",
+          "ocr_bbox": [
+            617,
+            804,
+            787,
+            870
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_076_static_002_num02734_sim18.jpg",
+          "frame_num": 2734,
+          "ocr_text": "FORGIUNESS AMOUNTOF MRUST STRETSTT AND FORGI",
+          "ocr_bbox": [
+            406,
+            369,
+            1052,
+            532
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_076_static_003_num02746_sim51.jpg",
+          "frame_num": 2746,
+          "ocr_text": "58 SEX LA FORGIUNESSOFALCSISNELJ THRUST AND",
+          "ocr_bbox": [
+            85,
+            382,
+            1069,
+            532
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_076_static_004_num02751_sim50.jpg",
+          "frame_num": 2751,
+          "ocr_text": "58 SEX RGIUNESS AMOINTOF COFALLSIN NECJ",
+          "ocr_bbox": [
+            92,
+            382,
+            1036,
+            532
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": 0.34733831882476807,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.37838059663772583,
+      "roi_percentile_flow": 0.34733831882476807,
+      "scroll_direction": null
+    },
+    "scene_77": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_077_scroll_000_num02752_sim0.jpg",
+          "frame_num": 2752,
+          "ocr_text": "58 SEX NESS UTOF THUST AND",
+          "ocr_bbox": [
+            499,
+            385,
+            1074,
+            532
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.5830388069152832,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.4707600474357605,
+      "roi_percentile_flow": 0.5830388069152832,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 821,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_78": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_078_static_000_num02796_sim31.jpg",
+          "frame_num": 2796,
+          "ocr_text": "EXECUTIVE Gianni Nunnari PRODUCERS Dan Kolsrud Anne Kopelson",
+          "ocr_bbox": [
+            150,
+            155,
+            1154,
+            379
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_078_static_001_num02820_sim29.jpg",
+          "frame_num": 2820,
+          "ocr_text": "Den Kodard",
+          "ocr_bbox": [
+            540,
+            292,
+            792,
+            363
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_078_static_002_num02827_sim29.jpg",
+          "frame_num": 2827,
+          "ocr_text": "EXEGUTIVE Gianni Nunnari PRODUCERS Dan Kolsrud Anne Kopelson",
+          "ocr_bbox": [
+            154,
+            152,
+            1155,
+            377
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.38878241181373596,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3251853585243225,
+      "roi_percentile_flow": 0.38878241181373596,
+      "scroll_direction": null
+    },
+    "scene_79": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.10751169919967651,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.23292380571365356,
+      "roi_percentile_flow": -0.10751169919967651,
+      "scroll_direction": null
+    },
+    "scene_80": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_080_static_000_num02864_sim38.jpg",
+          "frame_num": 2864,
+          "ocr_text": "Andrew Kevin Walker WRITTEN BY",
+          "ocr_bbox": [
+            436,
+            272,
+            1048,
+            423
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_080_static_001_num02869_sim100.jpg",
+          "frame_num": 2869,
+          "ocr_text": "Andrew Kevin Walker WRITTEN BY",
+          "ocr_bbox": [
+            436,
+            272,
+            1060,
+            428
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.11569295823574066,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.187922865152359,
+      "roi_percentile_flow": 0.11569295823574066,
+      "scroll_direction": null
+    },
+    "scene_81": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.2397160828113556,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3289828896522522,
+      "roi_percentile_flow": 0.2397160828113556,
+      "scroll_direction": null
+    },
+    "scene_82": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_082_static_000_num02949_sim12.jpg",
+          "frame_num": 2949,
+          "ocr_text": "vusr",
+          "ocr_bbox": [
+            1054,
+            475,
+            1115,
+            509
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.17967450618743896,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.13179484009742737,
+      "roi_percentile_flow": 0.17967450618743896,
+      "scroll_direction": null
+    },
+    "scene_83": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_083_static_000_num02962_sim22.jpg",
+          "frame_num": 2962,
+          "ocr_text": "SETEN",
+          "ocr_bbox": [
+            543,
+            208,
+            795,
+            299
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_083_static_001_num02986_sim17.jpg",
+          "frame_num": 2986,
+          "ocr_text": "HOOUCED",
+          "ocr_bbox": [
+            615,
+            210,
+            780,
+            238
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_083_static_002_num02995_sim24.jpg",
+          "frame_num": 2995,
+          "ocr_text": "PRODUCED BY Arnold Kopelson Phyllis Carlyle",
+          "ocr_bbox": [
+            312,
+            207,
+            946,
+            400
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": -0.24964480102062225,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1596616506576538,
+      "roi_percentile_flow": -0.24964480102062225,
+      "scroll_direction": null
+    },
+    "scene_84": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_084_static_000_num03008_sim82.jpg",
+          "frame_num": 3008,
+          "ocr_text": "PRODUCED Arnold Kopelson Phyllis orlyle BY",
+          "ocr_bbox": [
+            259,
+            98,
+            1225,
+            425
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.34573066234588623,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2696399390697479,
+      "roi_percentile_flow": 0.34573066234588623,
+      "scroll_direction": null
+    },
+    "scene_85": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_085_scroll_000_num03022_sim0.jpg",
+          "frame_num": 3022,
+          "ocr_text": "PRODUCED BY Arnold Kopelson Phyllis Carlyle",
+          "ocr_bbox": [
+            306,
+            203,
+            941,
+            401
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.5347402095794678,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2788715362548828,
+      "roi_percentile_flow": 0.5347402095794678,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 895,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_86": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.16061465442180634,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.12198275327682495,
+      "roi_percentile_flow": -0.16061465442180634,
+      "scroll_direction": null
+    },
+    "scene_87": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_087_static_000_num03074_sim8.jpg",
+          "frame_num": 3074,
+          "ocr_text": "GODVT",
+          "ocr_bbox": [
+            -95,
+            0,
+            532,
+            356
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.4724169671535492,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.5008519887924194,
+      "roi_percentile_flow": 0.4724169671535492,
+      "scroll_direction": null
+    },
+    "scene_88": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.8642871379852295,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.7328739762306213,
+      "roi_percentile_flow": 0.8642871379852295,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 554,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_89": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_089_static_000_num03143_sim12.jpg",
+          "frame_num": 3143,
+          "ocr_text": "Dand Fincher",
+          "ocr_bbox": [
+            421,
+            362,
+            748,
+            476
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_089_static_001_num03145_sim59.jpg",
+          "frame_num": 3145,
+          "ocr_text": "DIRECTED BY David Fincher",
+          "ocr_bbox": [
+            168,
+            338,
+            744,
+            468
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.17083120346069336,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.22891415655612946,
+      "roi_percentile_flow": 0.17083120346069336,
+      "scroll_direction": null
+    },
+    "scene_90": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_090_scroll_000_num03146_sim0.jpg",
+          "frame_num": 3146,
+          "ocr_text": "DIRECTED BY David Fincher",
+          "ocr_bbox": [
+            168,
+            339,
+            744,
+            467
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.5031410455703735,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.22713176906108856,
+      "roi_percentile_flow": 0.5031410455703735,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 952,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_91": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_091_scroll_000_num03159_sim0.jpg",
+          "frame_num": 3159,
+          "ocr_text": "DIRECTED David Fincher",
+          "ocr_bbox": [
+            173,
+            346,
+            744,
+            467
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 1.8081833124160767,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.5419715642929077,
+      "roi_percentile_flow": 1.8081833124160767,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 265,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_92": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.8821424245834351,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.15480417385697365,
+      "roi_percentile_flow": 0.8821424245834351,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 543,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_94": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_094_static_000_num03437_sim39.jpg",
+          "frame_num": 3437,
+          "ocr_text": "KEVIN SPACEY AS JOHN DOE",
+          "ocr_bbox": [
+            367,
+            229,
+            706,
+            263
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_094_static_001_num03521_sim63.jpg",
+          "frame_num": 3521,
+          "ocr_text": "CAST IN ORDER OF APPEARANCE KEVIN SPACEY AS JOHN DOE",
+          "ocr_bbox": [
+            369,
+            2,
+            708,
+            313
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_094_static_002_num03533_sim81.jpg",
+          "frame_num": 3533,
+          "ocr_text": "SOMERSET MORGAN FREEMAN CAST IN ORDER OF APPEARANCE KEVIN SPACEY AS JOHN DOE",
+          "ocr_bbox": [
+            369,
+            0,
+            728,
+            343
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_094_static_003_num03545_sim83.jpg",
+          "frame_num": 3545,
+          "ocr_text": "DEAD MAN AT 1ST CRIME SCENEANDY WALKER SOMERSET MORGAN FREEMAN CAST IN ORDER OF APPEARANCE KEVIN SPACEY AS JOHN DOE",
+          "ocr_bbox": [
+            370,
+            0,
+            891,
+            377
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_094_static_004_num03557_sim79.jpg",
+          "frame_num": 3557,
+          "ocr_text": "DETECTIVE TAYLOR AT FIRST MURDER DANTEL ZACAPA DEAD MAN AT 1ST CRIME SCENE ANDY WALKER SOMERSET MORGAN FREEMAN CAST IN ORDER OF APPEARANCE KEVIN SPACEY AS JOHN DOE",
+          "ocr_bbox": [
+            369,
+            1,
+            917,
+            412
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_094_static_005_num03569_sim97.jpg",
+          "frame_num": 3569,
+          "ocr_text": "MILLSBRA DETECTIVE TAYLOR AT FIRST MURDER DANTEL ZACAPA DEAD MAN AT 1ST CRIME SCENE ANDY WALKER SOMERSET MORGAN FREEMAN CAST IN ORDER OF APPEARANCE KEVIN SPACEY AS JOHN DOE",
+          "ocr_bbox": [
+            369,
+            1,
+            918,
+            446
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_094_static_006_num03581_sim92.jpg",
+          "frame_num": 3581,
+          "ocr_text": "TRACYGWYNEIH MILLS BRAD PITT DANIEL ZACAPA DETECTIVE TAYLOR AT FIRST MURDER DEAD MAN AT 1ST CRIME SCENE ANDY WALKER MORGAN FREEMAN SOMERSET CAST IN ORDER OF APPEARANCE KEVIN SPACEY AS JOHN DOE",
+          "ocr_bbox": [
+            369,
+            0,
+            919,
+            480
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_094_static_007_num03593_sim94.jpg",
+          "frame_num": 3593,
+          "ocr_text": "GWYNETH PALTROW TRACY MILLS BRAD PITT DETECTIVE TAYLOR AT FIRST MURDER DANIEL ZACAPA DEAD MAN AT 1ST CRIME SCENE ANDY WALKER SOMERSET MORGAN FREEMAN CAST IN ORDER OF APPEARANCE KEVIN SPACEY AS JOHN DOE",
+          "ocr_bbox": [
+            368,
+            24,
+            919,
+            513
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_094_static_008_num03605_sim90.jpg",
+          "frame_num": 3605,
+          "ocr_text": "OFFICER DAVIS JOHNCASSINI TRACY GWYNETH PALTROW BRAD PITT MILLS DETECTIVE TAYLOR AT FIRST MURDER DANIEL ZACAPA DEAD MAN AT 1ST CRIME SCENE ANDY WALKER SOMERSET MORGAN FREEMAN CAST IN ORDER OF APPEARANCE",
+          "ocr_bbox": [
+            369,
+            18,
+            919,
+            258
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_094_static_009_num03613_sim91.jpg",
+          "frame_num": 3613,
+          "ocr_text": "GLUTTONYVICTIM BOB MACK JOHN CASSINI OFFICER DAVIS TRACY GWYNETH PALTROW BRAD PITT MILLS DETECTIVE TAYLOR AT FIRST MURDER DANIEL ZACAPA DEAD MAN AT 1ST CRIME SCENE ANDY WALKER MORGAN FREEMAN SOMERSET CAST IN ORDER OF APPEARANCE",
+          "ocr_bbox": [
+            369,
+            6,
+            919,
+            281
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 10,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 2.631121814250946,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_95": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_095_scroll_000_num03614_sim0.jpg",
+          "frame_num": 3614,
+          "ocr_text": "GLUTTONYVICTIM BOB MACK OFFICER DAVIS JOHN CASSINI TRACY GWYNETH PALTROW MILLS BRAD PITT DANIEL ZACAPA DETECTIVE TAYLOR AT FIRST MURDER DEAD MAN AT 1ST CRIME SCENE ANDY WALKER SOMERSET MORGAN FREEMAN CAST IN ORDER OF APPEARANCE",
+          "ocr_bbox": [
+            370,
+            7,
+            919,
+            283
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_095_scroll_001_num03764_sim0.jpg",
+          "frame_num": 3764,
+          "ocr_text": "NEWS REPORTER DOMINIQUE JENNINGS NEWS REPORTER CHARLINE SU TALBOT RICHARD ROUNDTREE LIBRARY JANITOR JIMMY DALE HARTSELL AT THE LIBRARY BOBCOLLINS SECOND GUARD FIRST GUARD AT THE LIBRARY ROSCOE DAVIDSON GEORGE THE NIGHT GUARD AT THE LIBRARY HAWTHORNE JAMES CAB DRIVER ENDRE HULES WORKMAN AT DOOR OF SOMERSET'S OFFICE GEORGE CHRISTY CAPTAIN R. LEE ERMEY POLICE DR. SANTIAGO REG E. CATHEY PETER CROMBIE DR. O'NEILL GLUTTONY'VICTIM BOB MACK OFFICER DAVIS JOHN CASSINI TRACY GWYNETH PALTROW",
+          "ocr_bbox": [
+            370,
+            8,
+            1027,
+            532
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_095_scroll_002_num03914_sim0.jpg",
+          "frame_num": 3914,
+          "ocr_text": "COUPON MAN OUTSIDE PIZZA PARLOR TUDOR SHERRARD DR. BEARDSLEY RICHARD PORTNOW JOHN DOE KEVIN SPACEY VICTOR-SLOTH VICIIM,MICHAEL REID MACKAY COPS ON SWAT TEAM HARRISON WHITE/ROBERT STEPHENSON CALIFORNIA JOHN C. MCGINLEY FINGERPRINT ALFONSO FREEMAN TECHNICIAN FINGERPRINT FORENSIC MAN IN LAW OFFICE MARIO DI DONATO ARASKOG MRS. GOULDJULIE ELI GOULD-GREED VICTIM GENE BORKAN TV. ANCHOR WOMAN BEVERLY BURKE FIRST FORENSIC ALLAN KOLMAN MAN IN THE LAW OFFICE NEWS REPORTER DOMINIQUE JENNINGS CHARLINE SU NEWS REPORTER TALBOT RICHARD ROUNDTREE",
+          "ocr_bbox": [
+            310,
+            6,
+            1055,
+            531
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 2.9795732498168945,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 2.9945900440216064,
+      "roi_percentile_flow": 2.9795732498168945,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 161,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_96": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_096_scroll_000_num03919_sim0.jpg",
+          "frame_num": 3919,
+          "ocr_text": "COUPON MAN OUTSIDE PIZZA PARLOR TUDOR SHERRARD DR. BEARDSLEY RICHARD PORTNOW JOHN DOE KEVIN SPACEY VICTOR-SLOTH VICIIM,MICHAEL REID MACKAY COPS ON SWAT TEAM HARRISON WHITE/ROBERT STEPHENSON CALIFORNIA JOHN C. MCGINLEY FINGERPRINT TECHNICIAN ALFONSO FREEMAN MARIO DI DONATO FINGERPRINT FORENSIC MAN IN LAW OFFICE MRS. GOULDJULIE ARASKOG ELI GOULD-GREED VICTIM GENE BORKAN TV ANCHOR WOMAN BEVERLY BURKE FIRST FORENSIC MAN IN THE LAW OFFICE ALLAN KOLMAN NEWS REPORTER DOMINIQUE JENNINGS NEWS REPORTER CHARLINE SU",
+          "ocr_bbox": [
+            310,
+            19,
+            1055,
+            510
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 3.106123447418213,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 3.076380491256714,
+      "roi_percentile_flow": 3.106123447418213,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 154,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_97": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_097_scroll_000_num03969_sim0.jpg",
+          "frame_num": 3969,
+          "ocr_text": "DETECTIVE SARA AT JUHN DUE S APARTMENT EMTL POLICE SKETCH ARTIST SARAH HALE REINHARDT POLICEMAN WHO TAKES STATEMENT FROM VAGRANTLENNIE LOFTIN THIN VAGRANT BY JOHN DOE'S APARTMENT PAMALA TYSON GR\u00c9ASY F.B.I. MAN MARK BOONE JUNIOR COUPON MAN OUTSIDE PIZZA PARLOR TUDORSHERRARD DR. BEARDSLEY RICHARD PORTNOW JOHN DOE KEVIN SPACEY VICTOR-SLOTH VICIIM,MICHAEL REID MACKAY HARRISON WHITE/ROBERT STEPHENSON COPS ON SWAT TEAM CALIFORNIA JOHN C. MCGINLEY FINGERPRINT TECHNICIAN ALFONSO FREEMAN FINGERPRINT FORENSIC MAN IN LAW OFFICE MARIO DI DONATO MRS. GOULDJULIE ARASKOG ELI GOULD-GREED GENE BORKAN VICTIM",
+          "ocr_bbox": [
+            306,
+            1,
+            1055,
+            519
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 3.013000011444092,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 2.99682879447937,
+      "roi_percentile_flow": 3.013000011444092,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 159,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_98": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_098_scroll_000_num04087_sim0.jpg",
+          "frame_num": 4087,
+          "ocr_text": "911 OPERATOR HARRIS SAVIDES PARAMEDICS AT MASSAGE PARLOR EVAN MIRANDA/PAUL S. ECKSTEIN SWEATING COP AT MASSAGE PARLOR LEXIE BIGHAM CRAZED MAN IN MASSAGE PARLOR LELAND ORSER LUST vICTIM CATMUELLER SECOND COP AT MASSAGE PARLOR RON BLAIR FIRST COP AT MASSAGE PARLOR DAVID CORREIA MAN IN BOOTH AT MASSAGE PARLOR MICHAEL MASSEE WILD BILL MARTIN SERENE DETECTIVE SARA AT JOHN DOE'S APARTMENT EMILY WAGNER POLICE SKETCH ARTIST SARAH HALE REINHARDT POLICEMAN WHO TAKES STATEMENT FROM VAGRANT LENNIE LOFTIN THIN VAGRANT BY JOHN DOE'S APARTMENT PAMALA TYSON GREASY F.B.I. MAN MARK BOONE JUNIOR COUPON MAN OUTSIDE PIZZA PARLOR TUDOR SHERRARD",
+          "ocr_bbox": [
+            198,
+            5,
+            1050,
+            532
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.864027976989746,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 2.875406265258789,
+      "roi_percentile_flow": 2.864027976989746,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 167,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_99": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_099_scroll_000_num04159_sim0.jpg",
+          "frame_num": 4159,
+          "ocr_text": "HELICOPTER PILOTS JTM DEETH7JOHN SA MARK SWARR RICHARD SCHIFF WOMAN COP BEHIND DESK SHANNON WILCOX BRIAN EVERS DUTY SERGEANT PRIDE VICTIM HEIDI SCHANZ 1911 RACHEL SCHADT ADDITIONAL OPERATOR 911 OPERATOR HARRIS SAVIDES PARAMEDICS AT MASSAGE PARLOR EVAN MIRANDA/PAUL S. ECKSTEIN SWEATING COP AT MASSAGE PARLOR LEXIE BIGHAM CRAZED MAN IN MASSAGE PARLOR LELAND ORSER LUST vICTIM CATMUELLER SECOND COP AT MASSAGE PARLOR RON BLAIR DAVID CORREIA FIRST COP AT MASSAGE PARLOR MAN IN BOOTH AT MASSAGE PARLOR MICHAEL MASSEE WILD BILLMARTIN SERENE",
+          "ocr_bbox": [
+            202,
+            0,
+            1048,
+            519
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_099_scroll_001_num04309_sim0.jpg",
+          "frame_num": 4309,
+          "ocr_text": "UNIT PRODUCTION MANAGER ALLAN WERTHEIM MARKSMAN IN HELICOPTER DUFFY GAVER DELIVERY MAN RICHMOND ARQUETTE SWAT HELICOPTER PILOT CHARLES TAMBURRO PILOTS JIM DEETH/JOHN SANTIN HELICOPTER RICHARD SCHIFF MARK SWARR WOMAN COP BEHIND DESK SHANNON WILCOX",
+          "ocr_bbox": [
+            372,
+            0,
+            903,
+            525
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 3.005619764328003,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 3.0399997234344482,
+      "roi_percentile_flow": 3.005619764328003,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 159,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_100": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_100_scroll_000_num04363_sim0.jpg",
+          "frame_num": 4363,
+          "ocr_text": "UNIT PRODUCTION MANAGER ROBERT S. MENDELSOHN UNIT PRODUCTION MANAGER ALLAN WERTHEIM MARKSMAN IN HELICOPTER DUFFY GAVER DELIVERY MAN RICHMOND ARQUETTE",
+          "ocr_bbox": [
+            374,
+            107,
+            980,
+            528
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_100_scroll_001_num04513_sim0.jpg",
+          "frame_num": 4513,
+          "ocr_text": "2ND ASSISTANT DIRECTOR FRANKDAVIS FIRST ASSISTANT DIRECTOR MICHAEL ALAN KAHN' FIRST ASSISTANT DIRECTOR INILO OTERO",
+          "ocr_bbox": [
+            375,
+            141,
+            935,
+            317
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 2.9967610836029053,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 2.9910802841186523,
+      "roi_percentile_flow": 2.9967610836029053,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 160,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_101": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_101_scroll_000_num04628_sim0.jpg",
+          "frame_num": 4628,
+          "ocr_text": "BARRY ASSISTANT ART DIRECTOR CHUSID ART DIRECTOR GARY WISSNER POST PRODUCTION SUPERVISOR RIC KEELEY ASSOCIATE PRODUCER MICHELE PLATT SUPERVISING PRODUCTION EXECUTIVE CARLA FRY EXECUTIVE IN JOE CHARGE OF POST PRODUCTION FINEMAN EXECUTIVE IN CHARGE OF PRODUCTION TED ZACHARY 2ND ASSISTANT DIRECTOR FRANK DAVIS",
+          "ocr_bbox": [
+            378,
+            14,
+            965,
+            509
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.806283473968506,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 2.877728223800659,
+      "roi_percentile_flow": 2.806283473968506,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 171,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_102": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_102_scroll_000_num04647_sim0.jpg",
+          "frame_num": 4647,
+          "ocr_text": "SET DESIGNERS ASSISTANT ART DIRECTOR BARRY CHUSID GARY WISSNER ART DIRECTOR POST PRODUCTION SUPERVISOR RIC KEELEY MICHELE PLATT ASSOCIATE PRODUCER SUPERVISING PRODUCTION EXECUTIVE CARLA FRY EXECUTIVE IN CHARGE OF POST PRODUCTION JOE FINEMAN EXECUTIVE IN CHARGE OF TED ZACHARY PRODUCTION",
+          "ocr_bbox": [
+            386,
+            34,
+            965,
+            306
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 3.0538055896759033,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 3.0517611503601074,
+      "roi_percentile_flow": 3.0538055896759033,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 157,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_103": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_103_scroll_000_num04662_sim0.jpg",
+          "frame_num": 4662,
+          "ocr_text": "ILLUSTRATORS ELIZABETH LAPP/LORI ROWBATHOM/HUGO SANTIAGO SET DESIGNERS ASSISTANT ART DIRECTOR BARRY CHUSID ART DIRECTOR GARY WISSNER POST PRODUCTION RIC KEELEY SUPERVISOR ASSOCIATE PRODUCER MICHELE PLATT SUPERVISING PRODUCTION EXECUTIVE CARLA FRY EXECUTIVE IN CHARGE OF POST PRODUCTION JOE FINEMAN EXECUTIVE IN CHARGE OF PRODUCTION TED ZACHARY",
+          "ocr_bbox": [
+            329,
+            9,
+            1066,
+            350
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_103_scroll_001_num04812_sim0.jpg",
+          "frame_num": 4812,
+          "ocr_text": "PRODUCTION ACCOUNTANTROBERT J. GRINDROD [LOCATION SCOUT RICHARD SCHULER FJOSEPH JOHNSTON. JR. LOCATION ASSISTANT ASSISTANT LOCATION MANAGER FLINT MALONEY LOCATION MANAGER PAUL HARGRAVE ASSISTANT SET DECORATOR BRANA MICHELLE ROSENFELD LEAD MAN CHRIS GIBBIN SET DECORATOR RCLAY A. GRIFFITH ART DEPARTMENT COORDINATOR JAN O'CONNELL STORYBOARD ARTIST JACQUES REY SEAN HARGREAVES/DAREN  DOCHTERMAN PATRICK TATOPOULOS/THOMAS LAY ILLUSTRATORS ELIZABETH LAPP/LORI ROWBATHOM/HUGO SANTIAGO SET DESIGNERS",
+          "ocr_bbox": [
+            251,
+            0,
+            1090,
+            521
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 3.0008654594421387,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 3.00532865524292,
+      "roi_percentile_flow": 3.0008654594421387,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 160,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_104": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_104_scroll_000_num04879_sim0.jpg",
+          "frame_num": 4879,
+          "ocr_text": "CONSI ACCOUNTING ASSISTANTHEDI EL KHOLTI PAYROLLACCOUNTANT BRAD DAVIS ASSISTANT PRODUCTION COORDINATOR JOHN L. ANDERSON PRODUCTION COORDINATOIWENDY COX |1ST ASSISTANT ACCOUNTANT JERRI WHITEMAN PRODUCTION ACCOUNTANTROBERT J. GRINDROD LOCATION SCOUT RICHARD SCHULER FJOSEPH JOHNSTON, JR. LOCATION ASSISTANT ASSISTANT LOCATION MANAGER FLTNT MALONEY LOCATION MANAGER PAUL HARGRAVE ASSISTANT SET DECORATOR BRANA MICHELLE ROSENFELD CHRIS GIBBIN LEAD MAN SET DECORATOR CLAY A. GRIFFITH ART DEPARTMENT COORDINATOR JAN O'CONNELL",
+          "ocr_bbox": [
+            253,
+            1,
+            1023,
+            511
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_104_scroll_001_num05029_sim0.jpg",
+          "frame_num": 5029,
+          "ocr_text": "2ND ASSISTANT T CAMERA PAUL PRINCE 1ST ASSISTANT CAMERA BRAD EDMISTON OPERATOR MICHAEL CHAVEZ B CAMERA A CAMERA OPERATOR CONRAD W. HALL SCRIPT SUPERVISOR CORI GLAZER BASIL GRILLO/ANNA RITA NUNNARI DELL'ATTE OFFICE STAFF ASSISTANTS PRODUCTION SECRETARY JANET STIRNER ASSISTANT TO MR. FREEMAN QUENTIN PIERRE ASSISTANT TO MR. FINCHERRACHEL SCHADT ASSISTANT TO MR. KOPELSON MARIA NORMAN CONSTRUCTION,ESTIMATORIROXANNE REAVER ACCOUNTING ASSISTANTHEDI EL KHOLTI PAYROLLACCOUNTANTBRAD DAVIS",
+          "ocr_bbox": [
+            205,
+            20,
+            1047,
+            510
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_104_scroll_002_num05179_sim0.jpg",
+          "frame_num": 5179,
+          "ocr_text": "BEST BOY GRIP WILLIAM E. FITCH KEY GRIP MICHAEL COO ADAM GLICK/ED MEDIN/CHRIS FRANCO MONTY WOODARD/MIKEBONNAUD/ WILLIAM TRAVIS MCKANE/JEFF STRONG ELECTRICIANS ELECTRICS COORDINATOR PETER DAVIDIAN CHIEF LIGHTING TECHNICIAN CHRIS STRONG STILL PHOTOGRAPHER PETER SOREL STEADICAMO ASSISTANT DALE MYRAND STEADICAMO OPERATOR DAVID EMMERICHS CAMERA LOADER DAVID SANCHEZ 2ND ASSISTANT CAMERA PAUL PRINCE 1ST ASSISTANT CAMERA BRAD EDMISTON",
+          "ocr_bbox": [
+            224,
+            20,
+            988,
+            510
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_104_scroll_003_num05329_sim0.jpg",
+          "frame_num": 5329,
+          "ocr_text": "COSTUMERS MARSHA BOZEMAN/LAWRENCE VELASCO COSTUME SUPERVISOR ELINOR C. BARDACH VIDEO ENGINEER TOM \"CHICK MAGNET\" LOEWY UTILITY SOUND TECHNICIAN ROBERT W. HARRIS BOOM OPERATOR MARVIN E. LEWIS PRODUCTION SOUND MIXER WILLIE D. BURTON, C.A.S. JOE GRAHAM/ANTHONY PETRILLA DENNISMCLEAN/JOHNMCGRAHAM RIGGING GRIPS KEY RIGGING GRIP LARRY AUBE GRIPS NICO BALLY/DANIEL COOK/BILLY BOB LESLIE DOLLY GRIP MICHAEL BRENNAN BEST BOY GRIP WILLIAM E. FITCH KEY GRIP MICHAEL COO",
+          "ocr_bbox": [
+            268,
+            16,
+            1085,
+            508
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 2.9520115852355957,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 2.9472241401672363,
+      "roi_percentile_flow": 2.9520115852355957,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 162,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_105": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_105_scroll_000_num05359_sim0.jpg",
+          "frame_num": 5359,
+          "ocr_text": "SUPERVISING HATR & MAKE-UP ARTIST MICHAEL MR. FREEMAN'S MAKE-UP ARTIST MICHAEL A. HANCOCK MAKE-UP SUPERVISOR JEAN BLACK COSTUMERS MARSHA BOZEMAN/LAWRENCE VELASCO COSTUME SUPERVISOR ELINOR C. BARDACH VIDEO ENGINEER TOM \"CHICK MAGNET\" LOEWY UTILITY SOUND TECHNICIAN ROBERT W. HARRIS BOOM OPERATOR MARVIN E. LEWIS PRODUCTION SOUND MIXER WILLIE D. BURTON. C.A.S. JOE GRAHAM/ANTHONY PETRILLA DENNISMCLEAN/JOHNMCGRAHAM RIGGING GRIPS KEY RIGGING GRIP LARRY AUBE GRIPS NICO BALLY/DANIEL COOK/BILLY BOB LESLIE DOLLY GRIP MICHAEL BRENNAN",
+          "ocr_bbox": [
+            268,
+            0,
+            1084,
+            516
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 3.5767407417297363,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 3.2899160385131836,
+      "roi_percentile_flow": 3.5767407417297363,
+      "scroll_direction": "downward",
+      "save_interval_frames": 134,
+      "save_interval_frames_uncapped": 134,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_106": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_106_scroll_000_num05388_sim0.jpg",
+          "frame_num": 5388,
+          "ocr_text": "MAKE-UP ARTIST MONTY WESTMORE SUPERVISING HAIR & MAKE-UP ARTIST MICHAEL WHITE MR. FREEMAN'S MAKE-UP ARTIST MICHAEL A. HANCOCK MAKE-UP SUPERVISOR JEAN BLACK COSTUMERS MARSHA BOZEMAN/LAWRENCE VELASCO COSTUME SUPERVISOR ELINOR C. BARDACH VIDEO ENGINEER TOM \"CHICK MAGNET\" LOEWY UTILITY SOUND TECHNICIAN ROBERT W. HARRIS BOOM OPERATOR MARVIN E. LEWIS PRODUCTION SOUND MIXER WILLIE D. BURTON, C.A.S. JOE GRAHAM/ANTHONY PETRILLA DENNISMCLEAN/JOHNMCGRAHAM RIGGING GRIPS KEY RIGGING GRIP LARRY AUBE",
+          "ocr_bbox": [
+            268,
+            40,
+            1004,
+            531
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.981156826019287,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.9886465072631836,
+      "roi_percentile_flow": 2.981156826019287,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 161,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_107": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_107_scroll_000_num05474_sim0.jpg",
+          "frame_num": 5474,
+          "ocr_text": "MAKE-UP ARTIST MONTY WESTMORE SUPERVISING HAIR & MAKE-UP ARTIST MICHAEL WHITE MR. FREEMAN'S MAKE-UP ARTIST MICHAEL A. HANCOCK MAKE-UP SUPERVISOR JEAN BLACK COSTUMERS MARSHA BOZEMAN/LAWRENCE VELASCO COSTUME SUPERVISOR ELINOR C. BARDACH VIDEO ENGINEER TOM \"CHICK MAGNET\" LOEWY",
+          "ocr_bbox": [
+            267,
+            286,
+            1003,
+            531
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_107_scroll_001_num05624_sim0.jpg",
+          "frame_num": 5624,
+          "ocr_text": "PROJECT COORDINATOR DAWN SEVERDIA JUDGMENT FX PRODUCER FERNANDO FAVILA ROB BOTTIN PRODUCTION CREW SPECIAL MAKE-UP EFFECTS BY ROB BOTTIN",
+          "ocr_bbox": [
+            357,
+            2,
+            1017,
+            385
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 2.9436585903167725,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.944196939468384,
+      "roi_percentile_flow": 2.9436585903167725,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 163,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_108": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_108_scroll_000_num05660_sim0.jpg",
+          "frame_num": 5660,
+          "ocr_text": "CONCEPTUAL ARTIST JAMES FELDMAN ASIBAS ART PINEMTEL MODEL/MOLDMAKER SCULPTOR MOTOYOSHI HATA PROJECT COORDINATOR DAWN SEVERDIA JUDGMENT FX PRODUCER FERNANDO FAVILA ROB BOTTIN PRODUCTION CREW SPECIAL MAKE-UP EFFECTS BY ROB BOTTIN",
+          "ocr_bbox": [
+            358,
+            0,
+            1017,
+            489
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_108_scroll_001_num05810_sim0.jpg",
+          "frame_num": 5810,
+          "ocr_text": "SWING GANG SET DECORATING BUYER ELIZABETH RAGAGLI ON SET DRESSER JOHN H. MAXWELL SAM SAINZ/EVA MARIE DENST ANTHONY BARLOW/GREG SOLOMON/DAVE SMITH JACK BRICKER/RYAN PETERSON/ROBIN MCDONALD LINDA FROBOS/TODD WESLOW KEY ARTISTS ANETTE HAELLMIGK FX PHOTOGRAPHER PAINTER THOMAS FLOUTZ BECKY OCHOA HAIR DESIGN MAKE-UP ARTIST MARGARET PRENTICE see CONCEPTUAL ARTIST JAMES FELDMAN ASIBAS MODEL/MOLDMAKER ART PINEMTEL SCULPTOR MOTOYOSHI HATA",
+          "ocr_bbox": [
+            271,
+            0,
+            1103,
+            522
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_108_scroll_002_num05960_sim0.jpg",
+          "frame_num": 5960,
+          "ocr_text": "VISUAL EFFECTS AND MAIN TITLE SEQUENCE RATLIFF/LAMBERT WHITEY CRUMB/RICH POWELL WILLIAM B. DOANE/ERIC DRESSER/ROBERT A. PHILLIPS SPECIAL EFFECTS SUPERVISOR DANNY CANGEMI SPECIAL EFFECTS SPECIAL EFFECTS COORDINATOR PETER ALBIEZ PROP ASSISTANTS MIKE CUNNINGHAM PROPS MASTER ROY BUCKY\" MOORE DRAPER ERICH BAUMANN CHRIS PASCUZZO/BRUCE BELLAMY GREGORY J. WILKINSON/JAMES BOWEN JR SWING GANG SET DECORATING BUYER ELIZABETH RAGAGLI ON SET DRESSER JOHN H. MAXWELL",
+          "ocr_bbox": [
+            271,
+            0,
+            1060,
+            519
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 2.9589319229125977,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.9726366996765137,
+      "roi_percentile_flow": 2.9589319229125977,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 162,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_109": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_109_scroll_000_num06105_sim0.jpg",
+          "frame_num": 6105,
+          "ocr_text": "MAIN TITLE OPTICALS BY PACIFIC TITLE SPECIAL IMAGEENGINEER FINDLAY BUNTING THOMPSON VISUAL EFFECTS COORDINATOR TIM VISUAL EFFECTS SUPERVISOR GREG KIMBLE PETER FRANKFURT STEVEN T PURI VISUAL EFFECTS AND MAIN TITLE PRODUCERS MAIN AND END TITLES DESIGNED AND EXECNLEDBY KYLECOOPER A DIVISION OF R/GA DIGITAL STUDIOS BY R/GREENBERG ASSOCIATES WEST, INC. DIGITAL VISUAL EFFECTS AND MAIN TITLE SEQUENCE WHITEY CRUMB/RICH RATLIFF/LAMBERT POWELL DOANE/ERICDRESSER/ROBERT PHILLIPS",
+          "ocr_bbox": [
+            280,
+            8,
+            1058,
+            530
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_109_scroll_001_num06255_sim0.jpg",
+          "frame_num": 6255,
+          "ocr_text": "MEDICAL CONSULTANTDR. ROBERT M. REY, MD EXTRAS CASTING CENTRAL CASTING JENNIFER MCNAMARA CASTING ASSISTANT. N.Y. KIM CASTING ASSISTANT, L.A. COLEMAN CASTING ASSOCIATE AISHA COLEY SET PRODUCTION ASSISTANTS ADAM M. STONE/KENNETH FRITH EMILY GLATTER IN-HOUSE PRODUCTION COORDINATOR PRODUCT PLACEMENT TONY HOFFMAN GINNY MARTINO/ LIZ AMSDEN BUSINESS AFFAIRS LIAISONS PRODUCTION ATTORNEYS PHILLIP ROSEN/AVY ESCHENASY PROKOP PRODUCTION CONTROLLER PAUL CINEMA RESEARCH OPTICALS BY PACIFIC TITLE MAIN TITLE OPTICALSBY SPECIAL IMAGE ENGINEER FINDLAY BUNTING ATOR TIM THOMPSOIN",
+          "ocr_bbox": [
+            224,
+            2,
+            1007,
+            531
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 2.9682693481445312,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.931760549545288,
+      "roi_percentile_flow": 2.9682693481445312,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 161,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_110": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_110_scroll_000_num06273_sim0.jpg",
+          "frame_num": 6273,
+          "ocr_text": "SECOND SECOND ASSISTANT DIRECTORS DODI RUBENSTEIN/CRAIG PINCKES MEDICAL CONSULTANTDR. ROBERT M. REY, MD EXTRAS CASTING CENTRAL CASTING CASTING ASSISTANT. N.Y,JENNIFER MCNAMARA CASTING ASSISTANT. L.A. KIM COLEMAN CASTING ASSOCIATE AISHA COLEY SET PRODUCTION ASSISTANTS ADAM M. STONE/KENNETH FRITH IN-HOUSE PRODUCTION COORDINATOR EMILY GLATTER PRODUCT PLACEMENT TONY HOFFMAN BUSINESS AFFAIRS LIAISONS GINNY MARTINO/LIZ AMSDEN ATTORNEYS PHILLIP ROSEN/AVY ESCHENASY PRODUCTION PRODUCTION CONTROLLER PAUL PROKOP CINEMA RESEARCH OPTICALS BY PACIFIC TITLE MAIN TITLE OPTICALSBY",
+          "ocr_bbox": [
+            215,
+            17,
+            1079,
+            520
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_110_scroll_001_num06423_sim0.jpg",
+          "frame_num": 6423,
+          "ocr_text": "ASSISTANT DAVID REALE AVID CAROL FOLGATE/TOM BARRETT LINDSAY MOFFORD/LAURA P. KRASNOW ASSISTANT EDITORS DAVIS 2ND ASSISTANT EDITOR HOWARD 1ST ASSISTANT EDITORROBERT CHARLES LUSTED EDITOR WILLIAM HOY POST PRODUCTION COORDINATOR IMARK GRAZIANO INTERNATIONAL PUBLIC RELATIONS DENNIS DAVIDSON ASSOCIATES UNIT SUSAN STEINLAUF PUBLICIST ADDITIONAL SECOND ASSISTANT DIRECTORS LEONARD M. BRAM/DAVID TICOTIN TYRONE DGA TRAINEE WALKER SECOND SECOND ASSISTANT DIRECTORS DODI RUBENSTEIN/CRAIG PINCKES MEDICAL CONSULTANTDR. ROBERT M. REY. MD",
+          "ocr_bbox": [
+            217,
+            21,
+            1090,
+            514
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 2.9749488830566406,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.940291166305542,
+      "roi_percentile_flow": 2.9749488830566406,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 161,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_111": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_111_scroll_000_num06455_sim0.jpg",
+          "frame_num": 6455,
+          "ocr_text": "MUSIC EDITORSELLEN SEGAL/ANGIE RUBIN POST PRODUCTION PA IAN CROCKETT ASSISTANTDAVID REALE AVID CAROL FOLGATE/TOM BARRETT LINDSAY MOFFORD/LAURA P. KRASNOW ASSISTANT EDITORS 2ND ASSISTANT EDITOR HOWARD DAVIS 1ST ASSISTANT EDITORROBERT CHARLES LUSTED EDITOR WILLIAM HOY POST PRODUCTION COORDINATOR MARK GRAZIANO INTERNATIONAL PUBLIC RELATIONS DENNIS DAVIDSON ASSOCIATES UNIT PUBLICIST SUSAN STEINLAUF ADDITIONAL SECOND ASSISTANT DIRECTORS LEONARD M. BRAM/DAVID TICOTIN TYRONE WALKER DGA TRAINEE",
+          "ocr_bbox": [
+            217,
+            37,
+            1089,
+            532
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_111_scroll_001_num06605_sim0.jpg",
+          "frame_num": 6605,
+          "ocr_text": "SOUND DESIGNER/EFFECTS SUPERVISOR REN KLYCE MUSIC EDITORSELLEN SEGAL/ANGIE RUBIN POST PRODUCTION PA IAN CROCKETT",
+          "ocr_bbox": [
+            332,
+            134,
+            903,
+            525
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 2.9314422607421875,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.9497451782226562,
+      "roi_percentile_flow": 2.9314422607421875,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 163,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_112": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_112_scroll_000_num06741_sim0.jpg",
+          "frame_num": 6741,
+          "ocr_text": "ASSISTANT SFX EDITORS KIM B. CHRISTENSEN/REN KLYCE/JENNIFER WARE SOUND EFFECTS EDITORS ASSISTANT DIALOGUE EDITOR ERIK KRABER NUTT/FRANCESCA DODD DIALOGUE EDITORS JOHN ASSISTANT SOUND SUPERVISOR YIN CANTOR SUPERVISING SOUND EDITOR PATRICK DODD",
+          "ocr_bbox": [
+            328,
+            0,
+            1108,
+            239
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.9332427978515625,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.8570146560668945,
+      "roi_percentile_flow": 2.9332427978515625,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 163,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_113": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_113_scroll_000_num06757_sim0.jpg",
+          "frame_num": 6757,
+          "ocr_text": "JEFFREY KROEBER/STEVE BOEDDEKER ASSISTANT SFX EDITORS KIM B. CHRISTENSEN/REN KLYCE/JENNIFER WARE SOUND EFFECTS EDITORS ASSISTANT ERIK KRABER DIALOGUE EDITOR DODD DIALOGUE EDITORS JOHN NUTT/FRANCESCA YIN CANTOR ASSISTANT SOUND SUPERVISOR SUPERVISING SOUND EDITORPATRICK DODD",
+          "ocr_bbox": [
+            327,
+            6,
+            1107,
+            285
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.982907772064209,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.960495710372925,
+      "roi_percentile_flow": 2.982907772064209,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 161,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_114": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_114_scroll_000_num06858_sim0.jpg",
+          "frame_num": 6858,
+          "ocr_text": "FOLEY ARTISTS FOLEY MIXERS RICHARD DUARTE/JEREMY MOLAD FOLEY EDITOR/SUPERVISOR MALCOLM FIFE CONFORMING EDITORRICH QUINN JEFF WATTS/JOAN ADR EDITORS CHAPMAN/MARK LEVINSON ADR SUPERVISOR PATRICK DODD APPRENTICE SFX EDITORS CHRIS HALSTEAD/SARAHFELPES SEAN CALLERY/NANCY JENCKS/ JEFFREY KROEBER/STEVE BOEDDEKER ASSISTANT SFX EDITORS KIM B. CHRISTENSEN/REN KLYCE/JENNIFER WARE SOUND EFFECTS EDITORS ASSISTANT ERIK KRABER DIALOGUE EDITOR DIALOGUE EDITORS JOHN NUTT/FRANCESCA DODD ASSIST YIN CANTOR",
+          "ocr_bbox": [
+            328,
+            12,
+            1106,
+            530
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_114_scroll_001_num07008_sim0.jpg",
+          "frame_num": 7008,
+          "ocr_text": "MIXING ENGINEER JOHN RICHARDS MUSIC SCORING MIXER JOHN KURLANDER MUSIC CONSULTANTS FOR DAVID FINCHER RACHEL SCHADT/REN KLYCE MARK KAUFMAN MUSIC COORDINATOR MUSIC EXECUTIVE DANA SANO EXECUTIVE IN CHARGE OF MUSICTOBY EMMERICH ADR RECORDIST RICK CANELLI ADR MIXERTHOMAS J. O'CONNELL RECORDISTS JACK KELLER DAVID BEHLE ROBERT J. LITT/ELLIOT TYSON/RICK HART RE-RECORDING MIXERS MARGIE O'MALLEY/MARNIE MOORE FOLEY ARTISTS FOLEY MIXERS RICHARD DUARTE/JEREMY MOLAD FOLEY EDITOR/SUPERVISORMALCOLM FIFE",
+          "ocr_bbox": [
+            218,
+            3,
+            1084,
+            532
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 2.912588119506836,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.9393441677093506,
+      "roi_percentile_flow": 2.912588119506836,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 164,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_115": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_115_scroll_000_num07081_sim0.jpg",
+          "frame_num": 7081,
+          "ocr_text": "SCORE CONDUCTOR LUCAS RICHMAN MUSIC PREPARATION' JANICE HAYEN MUSIC CONTRACTORSANDY DECRESCENT ASSISTANT TO HOWARD SHOREROBERT C. COTNOIR BERT DOVOAND JOHN LISSAUER ORCHESTRATIONS BY MUSIC RECORDED ATSONY STUDIOS MIXING ENGINEER JOHN RICHARDS MUSIC SCORING MIXER JOHN KURLANDER MUSIC CONSULTANTS FOR DAVID FINCHER RACHEL SCHADT/REN KLYCE MUSIC COORDINATORMARK KAUFMAN MUSIC EXECUTIVE IDANA SANO IN CHARGE EXECUTIVE OF MUSICTOBY EMMERICH ADR RECORDISTRICK CANELLI ADR MIXERTHOMAS J. O'CONNELL RECORDISTSJACK KELLER DAVID BEHLE",
+          "ocr_bbox": [
+            219,
+            0,
+            1081,
+            526
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.998373508453369,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.999542236328125,
+      "roi_percentile_flow": 2.998373508453369,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 160,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_116": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_116_scroll_000_num07146_sim0.jpg",
+          "frame_num": 7146,
+          "ocr_text": "MILLS' DOGS TODD POTTER TRAINER PAUL CALABRIA ANIMAL ANIMALS SUPPLIED BYSTUDIO ANIMAL SERVICE JEFFREY STEVENS FIRST AID COMPUTER MUSIC PROGRAMMING SIMON FRANGLEN SCORE CONDUCTORLUCAS RICHMAN MUSIC PREPARATIONJANICE HAYEN MUSIC CONTRACTORSANDY DECRESCENT C. COTNOIR ASSISTANT TO HOWARD SHOREROBERT ORCHESTRATIONS BY BERT DOVOAND JOHN LISSAUER MUSIC RECORDEDATSONY STUDIOS MIXING ENGINEER JOHN RICHARDS MUSIC SCORING MIXER JOHN KURLANDER |RACHEL SCHADT/REN KLYCE DAVID FINCHER MUSIC COORDINATORMARK KAUFMAN",
+          "ocr_bbox": [
+            324,
+            0,
+            1058,
+            532
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.984236717224121,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 3.0143826007843018,
+      "roi_percentile_flow": 2.984236717224121,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 160,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_117": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_117_scroll_000_num07219_sim0.jpg",
+          "frame_num": 7219,
+          "ocr_text": "CONSTRUCTION FOREMEN ASSISTANT CONSTRUCTION COORDINATOR TODD A. YOUNG CONSTRUCTION COORDINATORROBERT BONINO SOUPLADYSUZANNE STEPTOE CRAFT SERVICERON HAIRSTON PURDY/SEXY SAUDII MILLS' DOGS TODD POTTER TRAINER PAUL CALABRIA ANIMAL ANIMALS SUPPLIED BYSTUDIO ANIMAL SERVICE STEVENS FIRST AID JEFFREY SCORE CONDUCTORLUCAS RICHMAN MUSIC PREPARATION JANICE HAYEN MUSIC CONTRACTORSANDY DECRESCENT ROBERT C. COTNOIR ASSISTANT TO HOWARD SHORE",
+          "ocr_bbox": [
+            319,
+            7,
+            1059,
+            527
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 3.0536396503448486,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 3.0246171951293945,
+      "roi_percentile_flow": 3.0536396503448486,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 157,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_118": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_118_scroll_000_num07279_sim0.jpg",
+          "frame_num": 7279,
+          "ocr_text": "PLASTER FOREMAN MI SANCHEZ PAINT ASSISTANT FOREMAN MAUREEN KROPF PAINT FOREMAN GERALD J. GATES BRIAN J. GEARY/TODD MCKIBBEN EDWARD H. WOUTERS/WILLIAM ROSCOE DAVIDSON CONSTRUCTION FOREMEN ASSISTANT CONSTRUCTION COORDINATOR TODD A. YOUNG CONSTRUCTION COORDINATORROBERT BONINO SOUPLADYSUZANNE STEPTOE CRAFT SERVICERON HAIRSTON PURDY/SEXY SAUDI MILLS' DOGS TODD POTTER TRAINER PAUL CALABRIA ANIMAL ANIMALS SUPPLIED BYSTUDIO ANIMAL SERVICE FIRST AID JEFFREY STEVENS",
+          "ocr_bbox": [
+            319,
+            0,
+            1065,
+            525
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.933976888656616,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.9969897270202637,
+      "roi_percentile_flow": 2.933976888656616,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 163,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_119": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_119_scroll_000_num07367_sim0.jpg",
+          "frame_num": 7367,
+          "ocr_text": "AN SANTELLI/MICHAEL MIKITA. JR. PAINTER DECORATOR GANG BOSSES DONALD REDOGLIA/MICHAEL S. O'NEAL JOE VALENTINO/EARL BETTS/DALE SAIGER GANGBO'SSES PROPMAKER THOMAS SAHLI/D. RAY REID/KELLY BIRRER LABOR FOREMEN MAUREEN KROPF PAINT ASSISTANT FOREMAN PAINT FOREMAN GERALD J. GATES BRIAN J. GEARY/TODD MCKIBBEN EDWARD H. WOUTERS/WILLIAM ROSCOE DAVIDSON CONSTRUCTION FOREMEN ASSISTANT CONSTRUCTION COORDINATOR TODDA. YOUNG CONSTRUCTION COORDINATORROBERT BONINO",
+          "ocr_bbox": [
+            201,
+            0,
+            1066,
+            526
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 3.020827531814575,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.990658760070801,
+      "roi_percentile_flow": 3.020827531814575,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 158,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_120": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_120_scroll_000_num07427_sim0.jpg",
+          "frame_num": 7427,
+          "ocr_text": "DON YAKLIN/DENNY L. WHITE/ROGER REESE PROPMAKERS LABORGANG BOSSES VAN JEWELL/ERIC SHERMAN CHARLES LUNGREN/MITCHELL SIMMONS/MICHAEL MIKITA. SR. ANTONIO SANTELLI/MICHAEL MIKITA. JR. PAINTER DECORATOR GANG BOSSES DONALD REDOGLIA/MICHAEL S. O'NEAL JOE VALENTINO/EARL BETTS/DALE SAIGER GANGBO'S'SES PROPMAKER THOMAS SAHLI/D. RAY REID/KELLY BIRRER LABOR FOREMEN PLASTER FOREMAN MICHAEL SANCHEZ MAUREEN PAINT ASSISTANT FOREMAN KROPF GERALD J. GATES PAINT FOREMAN",
+          "ocr_bbox": [
+            199,
+            22,
+            1072,
+            516
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.9785726070404053,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 3.0177321434020996,
+      "roi_percentile_flow": 2.9785726070404053,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 161,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_121": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_121_scroll_000_num07446_sim0.jpg",
+          "frame_num": 7446,
+          "ocr_text": "KEVIN MCCOWN/JOHN BISTAGNE/JOSEPH GILMORE DEVLIN LEREW/MICHAELSULLIVAN/JAY HARRIS DON YAKLIN/DENNY L. WHITE/ROGER REESE PROPMAKERS BOSSES VAN JEWELL/ERIC SHERMAN LABORGANG CHARLES LUNGREN/MITCHELL SIMMONS/MICHAEL MIKITA, SR. ANTONIO SANTELLI/MICHAEL MIKITA. JR. PAINTER DECORATOR GANG BOSSES DONALD REDOGLIA/MICHAEL S. O'NEAL JOE VALENTINO/EARL BETTS/DALE SAIGER PROPMAKER GANGBO'S'SES THOMAS SAHLI/D. RAY REID/KELLY BIRRER LABOR FOREMEN MICHAEL SANCHEZ PLASTER FOREMAN PAINT ASSISTANT FOREMAN MAUREEN KROPF",
+          "ocr_bbox": [
+            199,
+            6,
+            1071,
+            532
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_121_scroll_001_num07596_sim0.jpg",
+          "frame_num": 7596,
+          "ocr_text": "RUSSEL HARVEY/SHAWN ALBRO/TIM STADLER PAINTER DECORATORS LEO MOUNEU. SR./DAVID RODRIGUEZ SALVADOR SANCHEZ/ERNEST QUINTERO PLASTERS EARL FORKRUD/DALE HART/SASHA MADZAR LASZLO VESZPELLER/NICHOLAS STEWART/THOMAS EARLY GEORGE HARRIS/GEORGE STEWART/ALEX TEMME CALEB HARRIS/ROBBIE WATTS/GREGORY HAMLIN HEINZ STRUNK/BARRY BERNSON/JOSEPH J. LAGOIA PHILLIP A. HENRY/RAULL BUTCHER/DAVID REYES RICHARD WHEELER/RICHARDE.ROSS/ALAN ALVARADO KEVIN MCCOWN/JOHNBISTAGNE/JOSEPH GILMORE DEVLIN LEREW/MICHAELSULLIVAN/JAY HARRIS DON YAKLIN/DENNY L. WHITE/ROGER REESE",
+          "ocr_bbox": [
+            260,
+            7,
+            1085,
+            530
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_121_scroll_002_num07746_sim0.jpg",
+          "frame_num": 7746,
+          "ocr_text": "BILL SCHOLL/MITCHELL THOMPSON/ROBERT SCHMECK STUART GATES/LEOPOLD MOUNEAU, JR. EDWARD ALVARADO, JR./ROBERT FLORES/ALAD SAFDEYE ROBERT RODRIGUEZ/JAMES DONOHUE/ARMAND/GONZALEZ JESSE ROSENFELD/THAYNE SCOTT REOS LABORERS LABOR TOOLROOM KEEPERSVIRGIL ROSS/DAVID A. BONINO ELI JIMINEZ LABOR HOD WILLIAM WALRNER/DAREN CORNELL MONTY MCCRAE/JON MAASO/ED CORNELL JOANNE DAVIS/RAFAEL LOPEZ/JAY SCHMIDDT RUSSEL HARVEY/SHAWN ALBRO/TIM STADLER PAINTER DECORATORS LEO MOUNEU, SR./DAVID RODRIGUEZ",
+          "ocr_bbox": [
+            257,
+            6,
+            1145,
+            532
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_121_scroll_003_num07896_sim0.jpg",
+          "frame_num": 7896,
+          "ocr_text": "AL KAMINSKY/GASTON TOUCHARD/BOB LIMON STEVE SURABIAN/GARY J.JOHNSON/RANDY L. THIEDEMAN ROBERT A. GASKILL/KEITH STEARNS/JEFF J. HATTEM SCOTT PIERSON/BO FALCK/DEWEY A. REED JOSEPH CAMPISE/SERGIO OROSCO/PATRICK L. ELMENDORF ALAN MYERS/ALEXALGOZZINO/JERRY A. OLIVERI BONNIE ALDEN/MICHAEL R. MCENTYRE/GEORGE ALDEN DRIVERS TRANSPORTATION CAPTAIN WAYNE STONE TRANSPORTATION COORDINATOR RUSSELL MCENTYRE STAND-BY PAINTER/NICHOLAS C. JOHN GRAFFITTI ARTIST ERNEST VALES BILL SCHOLL/MITCHELL THOMPSON/ROBERT SCHMECK STUART GATES/LEOPOLD MOUNEAU, JR. EDWARD ALVARADO. JR./ROBERT FLORES/ALAD SAFDEYE",
+          "ocr_bbox": [
+            196,
+            5,
+            1094,
+            532
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_121_scroll_004_num08046_sim0.jpg",
+          "frame_num": 8046,
+          "ocr_text": "ANDRE GIBBS/SCOTT WILDER/KENNY ENDOSO PHILLIP J. ROMANO/TIM DAVISON/PAT ROMANO ALAN OLINEY/GARY PRICE/CINDY DANIELS STEVE PICERNI/BOB BROWN/CHARLES PICERNI, JR. JANET BRADY/JOHNNY MARTIN/LAFAYE BAKER HENRY KINGI/SANDY BERUMEN/KANEHODDER STUNTS STUNT COORDINATOR CHARLES PICERNI, JR. BRIANMCENTYRE/TONY ZAHN/JIM MCENTYRE EMMETT L,WILLIS/MICHAEL W. MCCLURE/EDDIE WIRTH JAMES A.(LUNDIN/ROBERT T. WHITE/LARRY MARKET RAYMOND VAN HOLTEN/JUAN LOPEZ/TOM WHELPLEY AL KAMINSKY/GASTON TOUCHARD/BOB LIMON STEVE SURABIAN/GARY J. JOHNSON/RANDY L. THIEDEMAN ROBERT A. GASKILL/KEITHSTEARNS/JEFF J. HATTEM",
+          "ocr_bbox": [
+            270,
+            0,
+            1090,
+            530
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": 3.005650043487549,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 3.0012824535369873,
+      "roi_percentile_flow": 3.005650043487549,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 159,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_122": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_122_scroll_000_num08113_sim0.jpg",
+          "frame_num": 8113,
+          "ocr_text": "BRAD PITT'S STAND-IN THOMAS BRADER KEVIN SPACEY'S DQUBLEPATRICK BARNETT BRAD PITT'S DOUBLE RICHIE VARGA MORGAN FREEMAN'S YDOUBLE DUWAYNE R. SHEPARD. SR. BILL YOUNG S PRECISION DRIVING TEAM ANDRE GIBBS/SCOTT WILDER/KENNY ENDOSO PHILLIP J. ROMANO/TIM DAVISON/PAT ROMANO ALAN OLINEY/GARY PRICE/CINDY DANIELS STEVE PICERNI/BOB BROWN/CHARLES PICERNI, JR. JANET BRADY/JOHNNY MARTIN/LAFAYE BAKER HENRY KINGI/SANDY BERUMEN/KANE HODDER STUNTS STUNT COORDINATOR CHARLES PICERNI. JR. BRIANMCENTYRE/TONY ZAHN/JIM 1MCENTYRE",
+          "ocr_bbox": [
+            270,
+            6,
+            1037,
+            509
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_122_scroll_001_num08263_sim0.jpg",
+          "frame_num": 8263,
+          "ocr_text": "VIDEO HAWKS VIDEO EQUIPMENT BY PAUL TAGLIANETTI/DEMIAN ROSENBLATT/PETE MARTINEZ SEVEN GRAPHIC DISPLAYS BY VIDEO IMAGE JOHN DOE'S PHOTOGRAPHS BY MELODIE MCDANIEL COPYRIGHT CLEARANCES CLEARVISION/LANA HALE ED ARNESON/MARK ARNESON/RANDY WALKER POLICE ADVISORS CALL THE COPS CHEF MAREOMOJICA/I/ BENJAMIN PADILLA CHEF JOSE MAJICA CATERER MICHELSON'S FOOD SERVICE MORGAN FREEMAN'S STAND-IN BOBCOLLINS BRAD PITT'S STAND-IN THOMAS BRADER KEVIN SPACEY'S DQUBLE PATRICK BARNETT BRAD PITT'S DOUBLE RICHIE VARGA",
+          "ocr_bbox": [
+            198,
+            43,
+            1063,
+            532
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_122_scroll_002_num08413_sim0.jpg",
+          "frame_num": 8413,
+          "ocr_text": "LOCATION SCOUT RICK SCHNIER FLINT MALONEY LOCATION MANAGER DANIEL RAY PEMBERTON CONSTRUCTION COORDINATOR VINCENT REYNAUD ART DIRECTOR ACCOUNTANT FRED GROSSMAN ADDITIONAL SCRIPT SUPERVISOR JANE GOLDSMITH MICHAEL CUTLER OFFICE STAFF ASSISTANT REBECCA STRICKLAND DIRECTOR SECOND SECOND ASSISTANT FORTMULLER SCOTT HARRIS GEORGE KEY SECOND ASSISTANT DIRECTOR WILLIAM C. GERRITY LINE PRODUCER VIDEO EQUIPMENT BY VIDEO HAWKS PAUL TAGLIANETTI/DEMIAN ROSENBLATT/PETE MARTINEZ",
+          "ocr_bbox": [
+            257,
+            7,
+            1103,
+            531
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_122_scroll_003_num08563_sim0.jpg",
+          "frame_num": 8563,
+          "ocr_text": "KEY GRIP MIKE POPOVICH DON MORGAN AERIAL CAMERAMAN AERIAL COORDINATOR CHUCK TAMBURRO DENNIS ALPERT PRECISION DRIVER COORDINATOR COORDINATOR CHARLES PIC\u00c9RNI JR. STUNT GYROSPHERE OPERATOR MICHAEL KELEM BRENT BEAL CAMERA SECOND ASSISTANT CAMERA FIRST ASSISTANT GREG SCHMIDT B MITCH DUBIN B CAMERA OPERATOR SECOND ASSISTANT CAMERA STEVE MATZINGER FIRST ASSISTANT CAMERA JULIAN WHATLEY CAMERA OPERATOR JEFF CRONENWETH LOCATION SCOuT RICK SCHNIER FLINT MALONEY LOCATION MANAGER DANIEL RAY PEMBERTON",
+          "ocr_bbox": [
+            252,
+            7,
+            947,
+            531
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_122_scroll_004_num08713_sim0.jpg",
+          "frame_num": 8713,
+          "ocr_text": "FIRST AIDALEX BARNOYA TRANSPORTATION COORDINATOR AL KAMINSKY WESCAM TECHNICIAN MICHAEL CHARBONNET WESCAM OPERATOR STAN MCCLAIN WESCAM PROVIDED BY WESCAM, INC. ELECTRIC SHAWN GOLDSTEIN ELECTRIC MIKE ADLER MALONEY BEST BOY GAFFER EDDIE GAFFER CLAUDIO MIRANDA 2ND DOLLY GRIP TOMMY RUFFNER MARK MYERS DOLLY GRIP BEST BOY GRIP TOM GIBSON MIKE KEY GRIP POPOVICH AERIAL CAMERAMAN DON MORGAN AERIAL COORDINATOR CHUCK TAMBURRO",
+          "ocr_bbox": [
+            313,
+            0,
+            1039,
+            527
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_122_scroll_005_num08863_sim0.jpg",
+          "frame_num": 8863,
+          "ocr_text": "COURTESY OF NOTHING/TVT/INTERSCOPE RECORDS WRITTEN BY TRENT REZNOR / PERFORMED BY NINE INCH NAILS RECORDS CLOSER SOUNDTRACK ALBUM AVAILABLE ON TVT RECORDS TUCKER PREVIEW TECHNICAL SUPERVISOR LEE NEGATIVE! 'CUTTING KONA CUTTING/GARY BURRITT TORONTO PRINTS BY DELUXE DEL UXE LOS ANGELES COLOR BY COLOR TIMER DALE CALDWELL YVON LUCAS SPECIAL COLOR CONSULTANT CRAFT SERVICE BUZ KRAMER FIRST AIDALEX BARNOYA TRANSPORTATION COORDINATOR AL KAMINSKY WESCAM TECHNICIAN MICHAEL CHARBONNET",
+          "ocr_bbox": [
+            185,
+            45,
+            1039,
+            528
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_122_scroll_006_num09013_sim0.jpg",
+          "frame_num": 9013,
+          "ocr_text": "COURTESY OF MOTOWN RECORDS. A DIVISION OF POLYGRAM PERFORMED BY MARVIN GAYE WRITTEN BY MARVIN GAYE TROUBLE MAN A DIVISION OF POLYGRAM COURTESY OF THE DECCA RECORD COMPANY LTD. PERFORMED BY STUTTGARTER KAMMERORCHESTER/KARL MUCHINGER WRITTEN BY J.S. BACH AIR SUITE NO.3IN D MAJOR, BWV 1068 COURTESY OF DISCOS DOS CORONAS EPEC WRITTEN BY DEMETRIO FARIAS EL MICHOACANO BY ARRANGEMENT WITH WARNER SPECIAL PRODUCTS AND TVT RECORDS COURTESY OF NOTHING/TVT/INTERSCOPE RECORDS RECORDS WRITTEN BY TRENT REZNOR / PERFORMED BY NINE INCH NAILS",
+          "ocr_bbox": [
+            193,
+            7,
+            954,
+            528
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_122_scroll_007_num09163_sim0.jpg",
+          "frame_num": 9163,
+          "ocr_text": "LOVE PLUS ONE COURTESY OF APM WRITTEN BY J. LEACH AND G. FENTON THEFOURTH MAN COURTESY OF APM WRITTEN BY J. LEACH AND G. FENTON GYPSY CSARDAS BY ARRANGEMENT WITH COURTESY OF CAPITOL RECORDS. INC. PERFORMED BY CHARLIE PARKER WRITTEN BY CHARLIE PARKER NOW'S THE TIME BY ARRANGEMENT WITH SONY MUSIC LICENSING COURTESY OF COLUMBIA RECORDS PERFORMED BY THELONIUS MONK WRITTEN BY THELONIUS MONK STRAIGHT NO CHASER COURTESY OF MOTOWN RECORDS, A DIVISION OF POLYGRAM PERFORMED BY MARVIN GAYE WRITTEN BY MARVIN GAYE TROUBLE MAN",
+          "ocr_bbox": [
+            254,
+            0,
+            1033,
+            525
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 8,
+      "median_flow_px_per_frame": 3.0094714164733887,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 3.0043115615844727,
+      "roi_percentile_flow": 3.0094714164733887,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 159,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_123": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_123_scroll_000_num09199_sim0.jpg",
+          "frame_num": 9199,
+          "ocr_text": "-COVER-THEWATERFRONT COURTESY OF BMG RECORDS/(UK)LTD./ARISTA RECORDS. INC. PERFORMED BY HAIRCUT 10O WRITTEN BYNICK HEYWARD LOVE PLUS ONE COURTESY OF APM WRITTEN BY J. LEACH AND G. FENTON THE FOURTH MAN COURTESY OF APM WRITTEN BY J. LEACH AND G. FENTON GYPSY CSARDAS BY ARRANGEMENT WITH CEMA SPECIAL MARKETS COURTESY OF CAPITOL RECORDS. INC. PERFORMED BY CHARLIE PARKER WRITTEN BY CHARLIE PARKER NOW'S THE TIME BY ARRANGEMENT WITH SONY MUSIC LICENSING COURTESY OF COLUMBIA RECORDS PERFORMED BY THELONIUS MONK WRITTEN BY THELONIUS MONK STRAIGHT NO CHASER",
+          "ocr_bbox": [
+            255,
+            0,
+            1031,
+            521
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 3.9276814460754395,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 3.1772170066833496,
+      "roi_percentile_flow": 3.9276814460754395,
+      "scroll_direction": "downward",
+      "save_interval_frames": 122,
+      "save_interval_frames_uncapped": 122,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_124": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_124_scroll_000_num09234_sim0.jpg",
+          "frame_num": 9234,
+          "ocr_text": "COURTESY OF DRIVE ENTERTAINMENT PERFORMED BY BILLIE HOLIDAY WRITTEN BY JOHN W. GREEN AND EDWARD HEYMAN I-COVER-THE-WATERFRONT COURTESY OF BMG RECORDS/(UK)LTD./ARISTA RECORDS. INC. NICK HEYWARD PERFORMED BYHAIRCUT 1OO WRITTEN BY LOVE PLUS ONE COURTESY OF APM WRITTEN BY J. LEACH AND G. FENTON THE FOURTH MAN LEACHAND G. FENTON COURTESY OF APM WRITTEN BY J. GYPSY CSARDAS BY ARRANGEMENT WITH CEMA SPECIAL MARKETS COURTESY OF BLUE CAPITOL RECORDS. INC. PERFORMED BY CHARLIE PARKER WRITTEN BY CHARLIE PARKER NOW'S THE TIME",
+          "ocr_bbox": [
+            256,
+            0,
+            1033,
+            518
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_124_scroll_001_num09384_sim0.jpg",
+          "frame_num": 9384,
+          "ocr_text": "PERFORMED BY GRAVITY KILLS WRITTEN BY GRAVITY KILLS GUILTY A DIVISION OF POLYGRAM COURTESY OF MERCURY RECORDS NASHVILLE PERFORMED BY THE STATLER BROTHERS WRITTEN BY DORCAS COCHRAN. KAY TWOMEY, BEN WEISMAN. FRED WISE IN THE BEGINNING WRITTEN AND PERFORMED BY REN KLYCE AND STEVE BOEDEKKER LLUST COURTESY OF DRIVE ENTERTAINMENT PERFORMED BY BILLIE HOLIDAY WRITTEN BY JOHN W. GREEN AND EDWARD HEYMAN",
+          "ocr_bbox": [
+            320,
+            25,
+            1054,
+            516
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_124_scroll_002_num09534_sim0.jpg",
+          "frame_num": 9534,
+          "ocr_text": "ROFUSBORNHAM CEAN CHAFFIN SPECIAL THANKS TO COURTESY OF VIRGIN RECORDS AMERICA. INC. PERFORMED BY DAVID BOWIE ERDAL KIZILCAY AND STERLING CAMPBELL WRITTEN BY DAVID BOWIE. BRIAN ENO. REEVES GABRELS, MIKE GARSON. THE HEARTS FILTHY LESSON BLACK PATCH COURTESY OF PRODUCTIONS PERFORMED BY GLORIA LYNNE WRITTEN BY JIMMY RADCLIFFE AND BUDDY SCOTT SPEAKING OFHAPPINESS COURTESY OF TVT RECORDS PERFORMED BY GRAVITY KILLS WRITTEN BY GRAVITY KILLS",
+          "ocr_bbox": [
+            146,
+            0,
+            931,
+            521
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Se7en\\analysis\\frames\\scene_124_scroll_003_num09684_sim0.jpg",
+          "frame_num": 9684,
+          "ocr_text": "R.G.H.PUBLISHING REED REFERENCE PUBLISHING GOLD TOOTH BY GARY ARCHER CONDE NAST PUBLICATIONS INC. CAR FRESHNEROCORPORATION BEKINS MOVING & STORAGE CO. ANGUS WALL ROCK PAPERSCISSORS JOHNA. MALM, JR. JACK SILBERG sho koiwn the stom PHOTO IMPACT an antique ittacke PH.D VINCE LANDAY, RUFUS BURNHAM CEAN CHAFFIN SPECIAL THANKS TO",
+          "ocr_bbox": [
+            103,
+            0,
+            990,
+            526
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 2.9964404106140137,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.999227523803711,
+      "roi_percentile_flow": 2.9964404106140137,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 160,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_125": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_125_scroll_000_num09817_sim0.jpg",
+          "frame_num": 9817,
+          "ocr_text": "AVID PROVIDED BY RUNWAY VIDEO EDITING SERVICES CAMERA CRANES ANDDOLLIES BY CHAPMAN LENSES AND PANAFLEX CAMERA BY PANAVISION STUDIO FACILITIES FURNISHED BY WARNER HOLLYWOOD STUDIOS IN HOLLYWOOD INSURANCE PROVIDED BY ENTERTAINMENT BROKERS INTERNATIONAL JAY RENFROE AND BRIAN GADINSKY MATTHEW PAPISH, DAVID GARFINKLE. COURTESY OFGADCOM/GOLDCOAST TELEVISION ENTERTAINMENT, INC. AUDIO CLIP FROM CATCH ACROOK R.G.H. PUBLISHING REED REFERENCE PUBLISHING GOLD TOOTH BY GARY ARCHER CONDE NAST PUBLICATIONS INC. CAR ERESHNERRCORPORATION",
+          "ocr_bbox": [
+            206,
+            44,
+            1040,
+            532
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.968337059020996,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.9604663848876953,
+      "roi_percentile_flow": 2.968337059020996,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 161,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_126": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_126_scroll_000_num09889_sim0.jpg",
+          "frame_num": 9889,
+          "ocr_text": "NEW LINE PRODUCTIONS, INC.ALL RIGHTS RESERVED COPYRIGHT MCMXCV IN THE MAKING OF THIS FILM. HARMED NO ANIMAL WAS AMERICAN HUMANE WERE USED IN SOME SCENES. PROSTHETIC ANIMALS ASSOCIATION ANIMAL ACTION WAS MONITORED BY THE AMERICAN HUMANE ASSOCIATION. AVID PROVIDED BY RUNWAY VIDEOEDITING SERVICES CAMERA CRANES ANDDOLLIES BY CHAPMAN LENSES AND PANAFLEX|  CAMERA BY PANAVISION STUDIO FACILITIES FURNISHED BY WARNER HOLLYWOOD STUDIOS IN HOLLYWOOD INSURANCE PROVIDED BY ENTERTAINMENT BROKERS INTERNATIONAL JAY RENFROE AND BRIAN GADINSKY MATTHEW PAPISH, DAVID GARFINKLE. COURTESY OF GADCOM/GOLDCOAST TELEVISION ENTERTAINMENT, INC.",
+          "ocr_bbox": [
+            206,
+            3,
+            1127,
+            532
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.92075777053833,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.9259634017944336,
+      "roi_percentile_flow": 2.92075777053833,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 164,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_127": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_127_scroll_000_num10039_sim0.jpg",
+          "frame_num": 10039,
+          "ocr_text": "A NEW LINE CINEMA IN SELECTED THEATRED MPAA (#33601) CRIMINAL PROSECUTION AS WELL AS 5 CIVIL LIABILITY APPLICABLE LAWS AND ANY UNAUTHORIZED-DUPLICATION. OWNERSHIP OF THIS MOTION PICTURE IS PROTECTED BY COPYRIGHT AND OTHER OF ANY PERSON IS ENTIRELY COINCIDENTAL AND UNINTENTIONAL. ARE\\FICTITIOUS NEW LINE PRODUCTIONS, INC.ALL RIGHTS RESERVED COPYRIGHT \u00a9 MCMXCV IN THE MAKING OF THIS FILM.",
+          "ocr_bbox": [
+            207,
+            37,
+            1011,
+            528
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.947183609008789,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.948263168334961,
+      "roi_percentile_flow": 2.947183609008789,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 162,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_128": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Se7en\\analysis\\frames\\scene_128_scroll_000_num10131_sim0.jpg",
+          "frame_num": 10131,
+          "ocr_text": "RELEASE A NEW LINE CINEMA DIGITAL dts DOLBY IN BELECTED THEATRES SOUND MPAA(#33601) CRIMINAL PROSECUTION AS WELL ASCIVIL LIABILITY. DISTRIBUTIONJOR EXHIBITION OF THIS MOTION PICTURE COULD RESULT IN",
+          "ocr_bbox": [
+            255,
+            277,
+            934,
+            504
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.845606029033661,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 2.843526601791382,
+      "roi_percentile_flow": 2.845606029033661,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 168,
+      "target_scroll_ratio": 0.9
+    }
+  }
+}

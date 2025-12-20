@@ -1,0 +1,1082 @@
+{
+  "scenes": {
+    "scene_1": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_001_static_000_num00616_sim0.jpg",
+          "frame_num": 616,
+          "ocr_text": "OM PE mbulation",
+          "ocr_bbox": [
+            604,
+            450,
+            736,
+            549
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_001_static_001_num00628_sim56.jpg",
+          "frame_num": 628,
+          "ocr_text": "WN PEAKS 2epulation s120",
+          "ocr_bbox": [
+            582,
+            485,
+            777,
+            554
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_001_static_002_num00640_sim46.jpg",
+          "frame_num": 640,
+          "ocr_text": "WELLOME TWIN PEARS Population 51201",
+          "ocr_bbox": [
+            574,
+            443,
+            779,
+            555
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_001_static_003_num00664_sim92.jpg",
+          "frame_num": 664,
+          "ocr_text": "WELCOME TWIN PEAKS Population 51201",
+          "ocr_bbox": [
+            572,
+            445,
+            779,
+            557
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_001_static_004_num00676_sim100.jpg",
+          "frame_num": 676,
+          "ocr_text": "WELCOME TWIN PEAKS Population 51,201",
+          "ocr_bbox": [
+            572,
+            445,
+            780,
+            557
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_001_static_005_num00700_sim84.jpg",
+          "frame_num": 700,
+          "ocr_text": "TWIN PEAKS WELCOME TWIN PEAKS Population 51201",
+          "ocr_bbox": [
+            134,
+            301,
+            820,
+            556
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_001_static_006_num00880_sim69.jpg",
+          "frame_num": 880,
+          "ocr_text": "Starring KYLE MACLACWL.ON TWIN PEAKS Population 51,201",
+          "ocr_bbox": [
+            211,
+            341,
+            777,
+            556
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_001_static_007_num01084_sim42.jpg",
+          "frame_num": 1084,
+          "ocr_text": "TWIMPIARS Poptilation s12o",
+          "ocr_bbox": [
+            574,
+            487,
+            785,
+            554
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_001_static_008_num01127_sim27.jpg",
+          "frame_num": 1127,
+          "ocr_text": "MADCHEN AMICK",
+          "ocr_bbox": [
+            236,
+            321,
+            723,
+            394
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 9,
+      "median_flow_px_per_frame": 0.14686909317970276,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1399674266576767,
+      "roi_percentile_flow": 0.14686909317970276,
+      "scroll_direction": null
+    },
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_002_static_000_num01128_sim93.jpg",
+          "frame_num": 1128,
+          "ocr_text": "MADCHEN N AMICK",
+          "ocr_bbox": [
+            239,
+            325,
+            722,
+            392
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_002_static_001_num01188_sim36.jpg",
+          "frame_num": 1188,
+          "ocr_text": "DANA ASHBROOK",
+          "ocr_bbox": [
+            250,
+            325,
+            726,
+            392
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_002_static_002_num01260_sim30.jpg",
+          "frame_num": 1260,
+          "ocr_text": "RICHARD BEYMER",
+          "ocr_bbox": [
+            230,
+            326,
+            724,
+            393
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_002_static_003_num01332_sim40.jpg",
+          "frame_num": 1332,
+          "ocr_text": "LARA FLYNN BOYLE",
+          "ocr_bbox": [
+            209,
+            322,
+            744,
+            395
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_002_static_004_num01392_sim34.jpg",
+          "frame_num": 1392,
+          "ocr_text": "SHERILYN FENN",
+          "ocr_bbox": [
+            264,
+            325,
+            703,
+            392
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_002_static_005_num01476_sim32.jpg",
+          "frame_num": 1476,
+          "ocr_text": "WARREN FROST",
+          "ocr_bbox": [
+            258,
+            322,
+            704,
+            392
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_002_static_006_num01548_sim25.jpg",
+          "frame_num": 1548,
+          "ocr_text": "PEGGY LIPTON",
+          "ocr_bbox": [
+            279,
+            325,
+            682,
+            392
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_002_static_007_num01572_sim100.jpg",
+          "frame_num": 1572,
+          "ocr_text": "PEGGY LIPTON",
+          "ocr_bbox": [
+            279,
+            325,
+            681,
+            392
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_002_static_008_num01620_sim8.jpg",
+          "frame_num": 1620,
+          "ocr_text": "JAMES MARSHALL",
+          "ocr_bbox": [
+            225,
+            322,
+            736,
+            396
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_002_static_009_num01692_sim36.jpg",
+          "frame_num": 1692,
+          "ocr_text": "EVERETT McGILL",
+          "ocr_bbox": [
+            249,
+            323,
+            713,
+            393
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_002_static_010_num01764_sim17.jpg",
+          "frame_num": 1764,
+          "ocr_text": "JACK NANCE",
+          "ocr_bbox": [
+            295,
+            321,
+            662,
+            392
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_002_static_011_num01836_sim33.jpg",
+          "frame_num": 1836,
+          "ocr_text": "RAY WISE",
+          "ocr_bbox": [
+            343,
+            320,
+            618,
+            392
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_002_static_012_num01908_sim17.jpg",
+          "frame_num": 1908,
+          "ocr_text": "JOAN CHEN as Jocelyn Packard",
+          "ocr_bbox": [
+            303,
+            268,
+            654,
+            430
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_002_static_013_num01992_sim46.jpg",
+          "frame_num": 1992,
+          "ocr_text": "and PIPER LAURIE as Catherine Martell",
+          "ocr_bbox": [
+            280,
+            235,
+            674,
+            438
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_002_static_014_num02076_sim37.jpg",
+          "frame_num": 2076,
+          "ocr_text": "Creuted by MARK FROST DAVID LYNCH",
+          "ocr_bbox": [
+            292,
+            233,
+            663,
+            447
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 15,
+      "median_flow_px_per_frame": -0.12143048644065857,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10969353094696999,
+      "roi_percentile_flow": -0.12143048644065857,
+      "scroll_direction": null
+    },
+    "scene_5": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_000_num02310_sim35.jpg",
+          "frame_num": 2310,
+          "ocr_text": "Starring ERIC DA RE",
+          "ocr_bbox": [
+            321,
+            289,
+            636,
+            420
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_001_num02382_sim36.jpg",
+          "frame_num": 2382,
+          "ocr_text": "HARRTGOAZ",
+          "ocr_bbox": [
+            294,
+            322,
+            663,
+            400
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_002_num02394_sim42.jpg",
+          "frame_num": 2394,
+          "ocr_text": "HARRY GOAZ",
+          "ocr_bbox": [
+            299,
+            326,
+            661,
+            393
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_003_num02466_sim35.jpg",
+          "frame_num": 2466,
+          "ocr_text": "MICHAEL HORSE",
+          "ocr_bbox": [
+            252,
+            324,
+            709,
+            387
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_004_num02526_sim43.jpg",
+          "frame_num": 2526,
+          "ocr_text": "MOHKEHORSE",
+          "ocr_bbox": [
+            250,
+            323,
+            712,
+            389
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_005_num02550_sim30.jpg",
+          "frame_num": 2550,
+          "ocr_text": "SHERYL LEE",
+          "ocr_bbox": [
+            305,
+            322,
+            652,
+            394
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_006_num02622_sim26.jpg",
+          "frame_num": 2622,
+          "ocr_text": "pun RUSSABLYN",
+          "ocr_bbox": [
+            236,
+            258,
+            692,
+            372
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_007_num02634_sim57.jpg",
+          "frame_num": 2634,
+          "ocr_text": "pUD RUSS TAMBLYN as Dr. Jdcoby",
+          "ocr_bbox": [
+            266,
+            256,
+            686,
+            428
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_008_num02706_sim31.jpg",
+          "frame_num": 2706,
+          "ocr_text": "GuestiStarring GRACE ZABRISKIE",
+          "ocr_bbox": [
+            231,
+            285,
+            731,
+            408
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_009_num02718_sim98.jpg",
+          "frame_num": 2718,
+          "ocr_text": "Guest iStarring GRACE ZABRISKIE",
+          "ocr_bbox": [
+            230,
+            284,
+            732,
+            410
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_010_num02766_sim55.jpg",
+          "frame_num": 2766,
+          "ocr_text": "GRAESZAPRSKIE",
+          "ocr_bbox": [
+            234,
+            344,
+            726,
+            407
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_011_num02790_sim31.jpg",
+          "frame_num": 2790,
+          "ocr_text": "DAVID PATRICK KELLY",
+          "ocr_bbox": [
+            174,
+            330,
+            784,
+            397
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_012_num02862_sim26.jpg",
+          "frame_num": 2862,
+          "ocr_text": "MIGUELFERRER",
+          "ocr_bbox": [
+            257,
+            332,
+            703,
+            392
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_013_num02874_sim48.jpg",
+          "frame_num": 2874,
+          "ocr_text": "MIGUEL FERRER",
+          "ocr_bbox": [
+            257,
+            329,
+            706,
+            395
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_014_num02922_sim46.jpg",
+          "frame_num": 2922,
+          "ocr_text": "MIGUEL TERRER",
+          "ocr_bbox": [
+            256,
+            328,
+            704,
+            394
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_015_num02946_sim25.jpg",
+          "frame_num": 2946,
+          "ocr_text": "VICTORIA CATLIN WENDY ROBIE KIMMY ROBERTSON",
+          "ocr_bbox": [
+            207,
+            211,
+            749,
+            519
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_016_num02958_sim98.jpg",
+          "frame_num": 2958,
+          "ocr_text": "VICTORIA CATLIN ROBIE WENDY F KIMMY ROBERTSON",
+          "ocr_bbox": [
+            207,
+            211,
+            749,
+            520
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_017_num03042_sim37.jpg",
+          "frame_num": 3042,
+          "ocr_text": "MANEDARGY GARY HERSHBERGER",
+          "ocr_bbox": [
+            183,
+            193,
+            766,
+            508
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_018_num03054_sim63.jpg",
+          "frame_num": 3054,
+          "ocr_text": "JAN D'ARCY MARY JO DESCHANEL GARY HERSHBERGER",
+          "ocr_bbox": [
+            179,
+            192,
+            787,
+            507
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_019_num03150_sim23.jpg",
+          "frame_num": 3150,
+          "ocr_text": "Music Composed & ANSPLO",
+          "ocr_bbox": [
+            165,
+            272,
+            665,
+            426
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_020_num03162_sim52.jpg",
+          "frame_num": 3162,
+          "ocr_text": "Music Composed & Conducted by ANGELO BADALAMENTI",
+          "ocr_bbox": [
+            162,
+            268,
+            796,
+            431
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_021_num03246_sim32.jpg",
+          "frame_num": 3246,
+          "ocr_text": "Produced by GREGG FIENBERG",
+          "ocr_bbox": [
+            230,
+            292,
+            728,
+            411
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_005_static_022_num03330_sim34.jpg",
+          "frame_num": 3330,
+          "ocr_text": "Written by MARK FROST DAVID LYNCH",
+          "ocr_bbox": [
+            291,
+            224,
+            671,
+            456
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 23,
+      "median_flow_px_per_frame": 0.13870541751384735,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1365428864955902,
+      "roi_percentile_flow": 0.13870541751384735,
+      "scroll_direction": null
+    },
+    "scene_9": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_009_static_000_num03846_sim67.jpg",
+          "frame_num": 3846,
+          "ocr_text": "Executive Producers MARK FROST DAVID LYNCH",
+          "ocr_bbox": [
+            297,
+            263,
+            663,
+            429
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_009_static_001_num03990_sim44.jpg",
+          "frame_num": 3990,
+          "ocr_text": "Associate Producer PHILIP NEEL",
+          "ocr_bbox": [
+            289,
+            289,
+            673,
+            415
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.10187707096338272,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.10187707096338272,
+      "scroll_direction": null
+    },
+    "scene_10": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_000_num04021_sim31.jpg",
+          "frame_num": 4021,
+          "ocr_text": "Directorof Photography FRANK BYERS",
+          "ocr_bbox": [
+            236,
+            289,
+            712,
+            414
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_001_num04033_sim93.jpg",
+          "frame_num": 4033,
+          "ocr_text": "Director of Photography FRANK BYERS",
+          "ocr_bbox": [
+            237,
+            290,
+            711,
+            415
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_002_num04057_sim41.jpg",
+          "frame_num": 4057,
+          "ocr_text": "Production Designer RICHARD HOOVER",
+          "ocr_bbox": [
+            228,
+            291,
+            724,
+            411
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_003_num04093_sim39.jpg",
+          "frame_num": 4093,
+          "ocr_text": "Editor JONATHAN P. SHAW",
+          "ocr_bbox": [
+            203,
+            290,
+            759,
+            418
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_004_num04129_sim34.jpg",
+          "frame_num": 4129,
+          "ocr_text": "Original & Series s Casting by JOHANNA RAY C.S.A.",
+          "ocr_bbox": [
+            194,
+            282,
+            760,
+            460
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_005_num04177_sim35.jpg",
+          "frame_num": 4177,
+          "ocr_text": "DREAM SEQUENCE Director of Photography RON GARCIA Production Designer Costume Designer PATRICIA NORRIS",
+          "ocr_bbox": [
+            97,
+            186,
+            858,
+            542
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_006_num04213_sim37.jpg",
+          "frame_num": 4213,
+          "ocr_text": "Featuring MICHAEL J. A ANDERSON Man From Another Place ROBERT BAUER Horne Johnny KIM LENTZ Bartender FRANK SILVA Killer Bob CHARLIE SPRADLING Swabbie AL STROBEL One-Armed Man",
+          "ocr_bbox": [
+            98,
+            74,
+            858,
+            648
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_007_num04285_sim35.jpg",
+          "frame_num": 4285,
+          "ocr_text": "Production Manager GREGG FIENBERG Unit Production Manager ROBERT D. SIMON",
+          "ocr_bbox": [
+            98,
+            245,
+            852,
+            505
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_008_num04321_sim37.jpg",
+          "frame_num": 4321,
+          "ocr_text": "1 st Assistant Director SCOTTCAMERON 2nd Assistant Directors CHRISTOPHER T. GERRITY DEEPAK NAYAR",
+          "ocr_bbox": [
+            100,
+            243,
+            863,
+            556
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_009_num04333_sim92.jpg",
+          "frame_num": 4333,
+          "ocr_text": "1st Assistant Director SCOTT CAMERON 2nd Assistant Directors CHRISTOPHER T. GERRITY DEEPAK NAYAR",
+          "ocr_bbox": [
+            98,
+            242,
+            861,
+            556
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_010_num04369_sim58.jpg",
+          "frame_num": 4369,
+          "ocr_text": "Production Supervisor TIM HARBERT 1 st Assistant Camera RUDY FENENGA JR. 2nd Assistant Camera BETH COTTER",
+          "ocr_bbox": [
+            95,
+            199,
+            858,
+            556
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_011_num04405_sim41.jpg",
+          "frame_num": 4405,
+          "ocr_text": "Art Director OKOWITA Set Decorator BRIAN KASCH Construction Coordinator KEITH COX Property Master DAVE ROBINSON",
+          "ocr_bbox": [
+            98,
+            165,
+            854,
+            565
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_012_num04441_sim44.jpg",
+          "frame_num": 4441,
+          "ocr_text": "Costume Designer SARA MARKOWITZ Costume Supervisor LAURIE L. HUDSON Make-Up CARLA ROSETO FABRIZI Hair ANNETTE E. FABRIZI Make-Up/Hair Assistant LINDA A. VALLEJO",
+          "ocr_bbox": [
+            94,
+            128,
+            857,
+            627
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_013_num04453_sim99.jpg",
+          "frame_num": 4453,
+          "ocr_text": "Costume Designer SARA MARKOWITZ LAURIE Costume Supervisor L. I HUDSON Make-Up CARLA ROSETO FABRIZI Hair ANNETTE E.F FABRIZI Make-Up/Hair Assistant LINDA A. VALLEJO",
+          "ocr_bbox": [
+            93,
+            128,
+            857,
+            627
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_014_num04489_sim39.jpg",
+          "frame_num": 4489,
+          "ocr_text": "Gaffer ROBERT FERRARA Key Grip JOSEPH  A. KELLY Sound Mixer WALTER HOYLMAN Boom Operator WALTER CHARLES GOREY",
+          "ocr_bbox": [
+            93,
+            141,
+            855,
+            612
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_015_num04501_sim99.jpg",
+          "frame_num": 4501,
+          "ocr_text": "Gaffer ROBERT FERRARA Key Grip JOSEPH I A. KELLY Sound Mixer WALTER HOYLMAN Boom Operator WALTER CHARLES GOREY",
+          "ocr_bbox": [
+            93,
+            140,
+            856,
+            612
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_016_num04525_sim40.jpg",
+          "frame_num": 4525,
+          "ocr_text": "Transportation Coordinator STEVE BOYD Transportation Captain GREG VAN DYKE Location Manager STEVE SHARE Casting Assistant ELAINE J. HUZZAR",
+          "ocr_bbox": [
+            98,
+            175,
+            855,
+            591
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_017_num04573_sim41.jpg",
+          "frame_num": 4573,
+          "ocr_text": "Production Controller NOWELL B. GROSSMAN Production Coordinator JOSEPH MONTRONE Production Secretary LORI TULLI-MITCHELL JANE GOLDSMITH Script Supervisor",
+          "ocr_bbox": [
+            99,
+            101,
+            857,
+            598
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_018_num04609_sim41.jpg",
+          "frame_num": 4609,
+          "ocr_text": "Orchestrations ANGELO BADALAMENTI Assistant to Mark Frost PAULA K. SHIMATSU-U Assistant to David Lynch DEBBY T TRUTNIK Assistant to Gregg Fienberg SUZANNE HARGROVE Post Production Assistant CHRIS BROWN",
+          "ocr_bbox": [
+            101,
+            78,
+            855,
+            643
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_019_num04657_sim51.jpg",
+          "frame_num": 4657,
+          "ocr_text": "Post Production Coordinator JOHN WENTWORTH Music Editor LORI L. ESCHLER Assistant Music Editor ALEXIS SEYMOUR Assistant Editors KEN BLACKWELL PAMELA REISENLEITER",
+          "ocr_bbox": [
+            100,
+            104,
+            858,
+            627
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_020_num04693_sim43.jpg",
+          "frame_num": 4693,
+          "ocr_text": "Supervising Sound Editor MATTHEW SAWELSON Sound Effects Editor JOHN HAENY Re-recording Mixers GARY ALEXANDER ADAM JENKINS",
+          "ocr_bbox": [
+            99,
+            123,
+            856,
+            571
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_021_num04741_sim40.jpg",
+          "frame_num": 4741,
+          "ocr_text": "Assorted wardrobep provided by THE GREIF COMPANIES SHEPLERS Extras Casting SUPERIOR CASTING, INC. Marine Coordination by MOTION PICTURE MARINE",
+          "ocr_bbox": [
+            94,
+            168,
+            859,
+            576
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_022_num04765_sim99.jpg",
+          "frame_num": 4765,
+          "ocr_text": "Assorted wardrobe p provided by COMPANIES THE GREIF SHEPLERS Extras Casting SUPERIOR CASTING, INC. Marine Coordination by MOTION PICTURE MARINE",
+          "ocr_bbox": [
+            96,
+            170,
+            856,
+            575
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_023_num04777_sim40.jpg",
+          "frame_num": 4777,
+          "ocr_text": "Titles & Opticals by PACIFIC TITLE Color by de luxe Telecineand Electronic Post Production ENCORE VIDEO Telecine Colorist DREW MARSH Post Production Sound Sound Effects by TODD-AO/GLEN GLENNS STUDIOS",
+          "ocr_bbox": [
+            99,
+            113,
+            861,
+            643
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_024_num04789_sim94.jpg",
+          "frame_num": 4789,
+          "ocr_text": "Titles & Opticals by PACIFIC TITLE Color by de luxe Telecine and Electronic Post Production ENCORE VIDEO Telecine eColorist DREW MARSH Post Production Sound Sound Effects by TODD-AO/GLEN GLENNS STUDIOS",
+          "ocr_bbox": [
+            96,
+            112,
+            860,
+            642
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_025_num04813_sim42.jpg",
+          "frame_num": 4813,
+          "ocr_text": "COPYRIGHT MCMXC BY LYNCH/FROST PRODUCTIONS, INC. ALL RIGHTS RESERVED THE PERSONS AND EVENTS PORTRAYED ARE INTENDED TO BE ENTIRELY FICTIONAL AND ANY RESEMBLANCE TO ACTUAL PERSONS OR EVENTS IS MERELY COINCIDENTAL. THIS MOTION PICTURE IS PROTECTED UNDER LAWS OF THE UNITED STATES AND OTHER COUNTRIES. UNAUTHORIZED DUPLICATION, DISTRIBUTION OR EXHIBITION MAY RESULT IN CIVIL LIABILITY AND CRIMINAL PROSECUTION.",
+          "ocr_bbox": [
+            163,
+            170,
+            792,
+            571
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_026_num04849_sim15.jpg",
+          "frame_num": 4849,
+          "ocr_text": "In association with PROPAGANDA FILMS",
+          "ocr_bbox": [
+            205,
+            302,
+            756,
+            419
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_010_static_027_num04897_sim31.jpg",
+          "frame_num": 4897,
+          "ocr_text": "LYNCH/FROST PRODUCTIONS",
+          "ocr_bbox": [
+            69,
+            220,
+            878,
+            490
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 28,
+      "median_flow_px_per_frame": 0.12901246547698975,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.1295677274465561,
+      "roi_percentile_flow": 0.12901246547698975,
+      "scroll_direction": null
+    },
+    "scene_11": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.3147670030593872,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.40674081444740295,
+      "roi_percentile_flow": 0.3147670030593872,
+      "scroll_direction": null
+    },
+    "scene_12": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.38310086727142334,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.31359243392944336,
+      "roi_percentile_flow": 0.38310086727142334,
+      "scroll_direction": null
+    },
+    "scene_13": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_013_static_000_num05014_sim36.jpg",
+          "frame_num": 5014,
+          "ocr_text": "TELEVISION OCBS DISTRIBUTION",
+          "ocr_bbox": [
+            208,
+            302,
+            844,
+            416
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.2565333843231201,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.19662508368492126,
+      "roi_percentile_flow": 0.2565333843231201,
+      "scroll_direction": null
+    },
+    "scene_14": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_014_static_000_num05020_sim100.jpg",
+          "frame_num": 5020,
+          "ocr_text": "TELEVISION OCBS DISTRIBUTION",
+          "ocr_bbox": [
+            212,
+            303,
+            838,
+            416
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.13198350369930267,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.14797580242156982,
+      "roi_percentile_flow": 0.13198350369930267,
+      "scroll_direction": null
+    },
+    "scene_15": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Twin_Peaks_1x3\\analysis\\frames\\scene_015_static_000_num05061_sim92.jpg",
+          "frame_num": 5061,
+          "ocr_text": "TELEVISION OCBS DISTRIBUTION OCBA",
+          "ocr_bbox": [
+            179,
+            305,
+            829,
+            623
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.10341957211494446,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.12362063489854336,
+      "roi_percentile_flow": 0.10341957211494446,
+      "scroll_direction": null
+    }
+  }
+}

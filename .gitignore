@@ -10,14 +10,12 @@ ENV/
 .venv
 
 # Project specific
-data/episodes/
 data/raw/*.mp4
 data/raw/*.mkv
 data/raw/*.avi
 data/raw/*.mov
-db/*.db
+
 *.log
-user_ocr_stopwords.txt
 
 # IDE
 .vscode/
@@ -39,10 +37,6 @@ htmlcov/
 # Environment
 .env
 .env.local
-db/imdb.sqlite
-db/name.basics.tsv.gz
-db/imdb.sqlite
-db/name.basics.tsv.gz
 *.tsv
 *.parquet
 
@@ -52,12 +46,9 @@ dist/
 *.log*
 
 
-
-
-
-!TEST.mp4
-*.db*
 cleanup_database.py
-exports/*
-exports/
+
+frames_count*
 chapter.md
+
+fuzzy_corrections*

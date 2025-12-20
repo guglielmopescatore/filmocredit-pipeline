@@ -276,8 +276,8 @@ Examples:
         if args.table:
             tables_to_export = [args.table]
         else:
-            # Export main tables by default
-            tables_to_export = ['episodes', 'credits', 'progressive_codes']
+            # Export only credits table by default
+            tables_to_export = ['credits']
         
         # Export tables
         print(f"\n🔄 Exporting database to CSV...")
@@ -287,27 +287,29 @@ Examples:
         exported_files = []
         for table in tables_to_export:
             try:
-                # Define specific columns for credits table to export all relevant fields
+                # Define all columns for credits table
                 columns = None
                 if table == 'credits':
-                    # Export all important columns including new imdb_name field
+                    # Export ALL columns from credits table
                     columns = [
                         'id',
                         'episode_id',
                         'source_frame',
                         'role_group',
-                        'role_group_normalized',
-                        'role_detail',
+                        'secondary_role_group',
                         'name',
-                        'imdb_name',
-                        'normalized_name',
+                        'role_detail',
+                        'role_group_normalized',
+                        'role_group_corrected',
+                        'scene_position',
+                        'original_frame_number',
+                        'reviewed_status',
                         'is_person',
+                        'normalized_name',
                         'assigned_code',
                         'code_assignment_status',
                         'imdb_matches',
-                        'scene_position',
-                        'original_frame_number',
-                        'reviewed_status'
+                        'imdb_name'
                     ]
                 
                 output_path = export_table_to_csv(

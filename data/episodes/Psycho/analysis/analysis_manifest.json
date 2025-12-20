@@ -1,0 +1,705 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Psycho\\analysis\\frames\\scene_000_static_000_num00000_sim0.jpg",
+          "frame_num": 0,
+          "ocr_text": "elease",
+          "ocr_bbox": [
+            819,
+            760,
+            1439,
+            983
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_000_static_001_num00015_sim55.jpg",
+          "frame_num": 15,
+          "ocr_text": "aramount Release*",
+          "ocr_bbox": [
+            656,
+            370,
+            1477,
+            1035
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_000_static_002_num00075_sim97.jpg",
+          "frame_num": 75,
+          "ocr_text": "* Paramount Release",
+          "ocr_bbox": [
+            503,
+            27,
+            1406,
+            1069
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.21312536299228668,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.27362769842147827,
+      "roi_percentile_flow": 0.21312536299228668,
+      "scroll_direction": null
+    },
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Psycho\\analysis\\frames\\scene_002_static_000_num00322_sim24.jpg",
+          "frame_num": 322,
+          "ocr_text": "HITCHCOCK'S ALFRED",
+          "ocr_bbox": [
+            440,
+            436,
+            1530,
+            549
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.16302259266376495,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.147724449634552,
+      "roi_percentile_flow": 0.16302259266376495,
+      "scroll_direction": null
+    },
+    "scene_3": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Psycho\\analysis\\frames\\scene_003_static_000_num00456_sim28.jpg",
+          "frame_num": 456,
+          "ocr_text": "PSYCHO \"PSYCO\"",
+          "ocr_bbox": [
+            613,
+            455,
+            1365,
+            910
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_003_static_001_num00531_sim42.jpg",
+          "frame_num": 531,
+          "ocr_text": "PSXOHIC",
+          "ocr_bbox": [
+            573,
+            449,
+            1361,
+            579
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.32758036255836487,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2043924331665039,
+      "roi_percentile_flow": 0.32758036255836487,
+      "scroll_direction": null
+    },
+    "scene_5": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Psycho\\analysis\\frames\\scene_005_static_000_num00658_sim19.jpg",
+          "frame_num": 658,
+          "ocr_text": "PERKINS ANTHONY STARRING",
+          "ocr_bbox": [
+            402,
+            454,
+            1559,
+            555
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.3054502606391907,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.28518736362457275,
+      "roi_percentile_flow": 0.3054502606391907,
+      "scroll_direction": null
+    },
+    "scene_6": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 5.204168319702148,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.5481284856796265,
+      "roi_percentile_flow": 5.204168319702148,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 187,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_7": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Psycho\\analysis\\frames\\scene_007_scroll_000_num00832_sim0.jpg",
+          "frame_num": 832,
+          "ocr_text": "IEFAIAILS",
+          "ocr_bbox": [
+            646,
+            95,
+            1283,
+            244
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 1.2044034004211426,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.4596936106681824,
+      "roi_percentile_flow": 1.2044034004211426,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 807,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_8": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Psycho\\analysis\\frames\\scene_008_static_000_num00977_sim20.jpg",
+          "frame_num": 977,
+          "ocr_text": "CO STARRING",
+          "ocr_bbox": [
+            164,
+            472,
+            392,
+            513
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_008_static_001_num01007_sim41.jpg",
+          "frame_num": 1007,
+          "ocr_text": "McINTIRE MARTIN BALSAM & JOHN CO-STARRING",
+          "ocr_bbox": [
+            169,
+            448,
+            1545,
+            506
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_008_static_002_num01052_sim97.jpg",
+          "frame_num": 1052,
+          "ocr_text": "McINTIRE MARTIN BALSAM 8 JOHN CO-STARRING",
+          "ocr_bbox": [
+            171,
+            448,
+            1357,
+            503
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_008_static_003_num01082_sim79.jpg",
+          "frame_num": 1082,
+          "ocr_text": "McINTIRE MARTIN BALSAM 8 JOHN CO STARRING",
+          "ocr_bbox": [
+            171,
+            450,
+            1358,
+            504
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_008_static_004_num01097_sim58.jpg",
+          "frame_num": 1097,
+          "ocr_text": "MARTIN BALSAM & JOHI",
+          "ocr_bbox": [
+            1237,
+            448,
+            1883,
+            499
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": 0.4393351078033447,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2119203731417656,
+      "roi_percentile_flow": 0.4393351078033447,
+      "scroll_direction": null
+    },
+    "scene_10": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Psycho\\analysis\\frames\\scene_010_static_000_num01181_sim28.jpg",
+          "frame_num": 1181,
+          "ocr_text": "ION OAKLAND VAUGHN TAYLOR K ALBERTSON LURENE TUTTLE T HITCHCOCK JOHN ANDERSON MORT MILLS",
+          "ocr_bbox": [
+            48,
+            697,
+            723,
+            981
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_010_static_001_num01196_sim87.jpg",
+          "frame_num": 1196,
+          "ocr_text": "WITH OAKLAND VAUGHN TAYLOR SIMON FRANK ALBERTSON LURENE TUTTLE PAT HITCHCOCK JOHN ANDERSON MORT MILLS",
+          "ocr_bbox": [
+            551,
+            623,
+            1336,
+            980
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.416986882686615,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3340483829379082,
+      "roi_percentile_flow": 0.416986882686615,
+      "scroll_direction": null
+    },
+    "scene_11": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Psycho\\analysis\\frames\\scene_011_static_000_num01418_sim9.jpg",
+          "frame_num": 1418,
+          "ocr_text": "Illull",
+          "ocr_bbox": [
+            6,
+            396,
+            347,
+            975
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_011_static_001_num01493_sim5.jpg",
+          "frame_num": 1493,
+          "ocr_text": "JANET LEIGH MARION CRANE AND AS",
+          "ocr_bbox": [
+            221,
+            466,
+            1320,
+            570
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.3218587636947632,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2046084925532341,
+      "roi_percentile_flow": 0.3218587636947632,
+      "scroll_direction": null
+    },
+    "scene_12": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Psycho\\analysis\\frames\\scene_012_static_000_num01675_sim31.jpg",
+          "frame_num": 1675,
+          "ocr_text": "NO THE N",
+          "ocr_bbox": [
+            1690,
+            760,
+            1885,
+            795
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_012_static_001_num01690_sim35.jpg",
+          "frame_num": 1690,
+          "ocr_text": "JOSEPH NO",
+          "ocr_bbox": [
+            817,
+            669,
+            1132,
+            793
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_012_static_002_num01705_sim56.jpg",
+          "frame_num": 1705,
+          "ocr_text": "A8 JOSEPH STEFANO NO A8",
+          "ocr_bbox": [
+            1073,
+            671,
+            1759,
+            794
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_012_static_003_num01720_sim36.jpg",
+          "frame_num": 1720,
+          "ocr_text": "NO A8",
+          "ocr_bbox": [
+            1072,
+            759,
+            1437,
+            796
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_012_static_004_num01735_sim48.jpg",
+          "frame_num": 1735,
+          "ocr_text": "SCREENPLAY NO A8",
+          "ocr_bbox": [
+            942,
+            682,
+            1435,
+            793
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_012_static_005_num01765_sim48.jpg",
+          "frame_num": 1765,
+          "ocr_text": "NO A8",
+          "ocr_bbox": [
+            1072,
+            761,
+            1435,
+            793
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_012_static_006_num01780_sim59.jpg",
+          "frame_num": 1780,
+          "ocr_text": "JOSEPH NO A8",
+          "ocr_bbox": [
+            1073,
+            673,
+            1492,
+            795
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_012_static_007_num01795_sim57.jpg",
+          "frame_num": 1795,
+          "ocr_text": "A8 STEFANO NO A8",
+          "ocr_bbox": [
+            1072,
+            673,
+            1759,
+            794
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_012_static_008_num01810_sim48.jpg",
+          "frame_num": 1810,
+          "ocr_text": "NO A8",
+          "ocr_bbox": [
+            1072,
+            760,
+            1435,
+            794
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_012_static_009_num01825_sim20.jpg",
+          "frame_num": 1825,
+          "ocr_text": "SCREENPLAY BY JOSEPH s NO",
+          "ocr_bbox": [
+            1261,
+            672,
+            1881,
+            795
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 10,
+      "median_flow_px_per_frame": 0.34139662981033325,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.26682478189468384,
+      "roi_percentile_flow": 0.34139662981033325,
+      "scroll_direction": null
+    },
+    "scene_14": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Psycho\\analysis\\frames\\scene_014_static_000_num01924_sim34.jpg",
+          "frame_num": 1924,
+          "ocr_text": "NHOr RUSSELL, ) S V PHOTOGRAPHY",
+          "ocr_bbox": [
+            441,
+            65,
+            1880,
+            104
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_014_static_001_num01939_sim28.jpg",
+          "frame_num": 1939,
+          "ocr_text": "DIRECTOR OF PHOTOGRAPHY JOHN L. RUSSELL, A. S. C. ART DIRECTION JOSEPH HURLEY ROBERT CLATWORTHY SET DECORATOR GEORGE MILO UNIT LEW LEARY MANAGER TITLES DESIGNED BY SAUL BASS",
+          "ocr_bbox": [
+            162,
+            61,
+            1635,
+            346
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_014_static_002_num02179_sim7.jpg",
+          "frame_num": 2179,
+          "ocr_text": "PHOTOGRAI UNO",
+          "ocr_bbox": [
+            1647,
+            72,
+            1881,
+            285
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_014_static_003_num02239_sim8.jpg",
+          "frame_num": 2239,
+          "ocr_text": "EDITED BY GEORGE TC COSTUME SUPERVISOR HELEN COL MAKE-UP SUPERVISION JACK BARR ICE BUSH ICE CHAMPAGNE WATSON WILLIAM RUSSELL",
+          "ocr_bbox": [
+            47,
+            538,
+            1885,
+            866
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_014_static_004_num02254_sim67.jpg",
+          "frame_num": 2254,
+          "ocr_text": "EDITED BY GEORGE TOMASINI. A.C.E COSTUME SUPERVISOR HELEN COLVIG MAKE-UP SUPERVISION JACK BARRON ROBERT DAWN HAIRSTYLIST FLORENCE BUSH SPECIAL EFFECTS CLARENCE CHAMPAGNE SOUND RECORDING BY WALDON o WATSON WILLIAM RUSSELL",
+          "ocr_bbox": [
+            269,
+            537,
+            1602,
+            867
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_014_static_005_num02299_sim80.jpg",
+          "frame_num": 2299,
+          "ocr_text": "EDITED BY GEORGE TOMASINI A.C.E SUPERVISOR COSTUME HELEN COLVIG MAKE-UP SUPERVISION JACK BARRON ROBERT DAWN HAIRSTYLIST FLORENCE BUSH SPECIAL EFFECTS CLARENCE CHAMPAGNE SOUND RECORDING BY WALDON WATSON WILLIAM RUSSELL COPYRIGHT 01960 BY SHAMLEY PRODUCTIONS INC ALI RIGHTS RESERVEO APPROVED CERTIFICATE NO 19564 WESTREX RECORDING SYSTEM",
+          "ocr_bbox": [
+            259,
+            538,
+            1601,
+            1016
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_014_static_006_num02314_sim98.jpg",
+          "frame_num": 2314,
+          "ocr_text": "EDITED BY GEORGE TOMASINI, A.C.E. COSTUME HELEN SUPERVISOR COLVIG MAKE-UP SUPERVISION JACK ROBERT DAWN BARRON HAIRSTYLIST FLORENCE BUSH SPECIAL EFFECTS CLARENCE CHAMPAGNE SOUND RECORDING BY WALDON WATSON WILLIAM RUSSELL COPYRIGHT 01960 BY SHAMLEY PRODUCTIONS INC ALL RIGHTS RESERVEO APPROVED CERTIFICATE NO 19564 WESTEEL RECORDINO SYSTEN",
+          "ocr_bbox": [
+            259,
+            537,
+            1602,
+            1016
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_014_static_007_num02359_sim97.jpg",
+          "frame_num": 2359,
+          "ocr_text": "EDITED BY GEORGE TOMASINI. A. C. E. COSTUME SUPERVISOR HELEN COLVIG MAKE-UP SUPERVISION JACK BARRON ROBERT DAWN HAIRSTYLIST FLORENCE BUSH SPECIAL EFFECTS CLARENCE CHAMPAGNE SOUND RECORDING BY WALDON O. WATSON WILLIAM RUSSELL APPROVED COPYRIGHT 01960 BY SHAMLEY PRODUCTIONS INC ALL RIGHTS RESERVED CERTIFICATE NO 19564 WESTREN RECORDINC SYSTEM",
+          "ocr_bbox": [
+            259,
+            538,
+            1600,
+            1016
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_014_static_008_num02389_sim99.jpg",
+          "frame_num": 2389,
+          "ocr_text": "BY EDITED GEORGE TOMASINI. A. C. E. COSTUME SUPERVISOR HELEN COLVIG MAKE-UP SUPERVISION JACK BARRON ROBERT T DAWN HAIRSTYLIST FLORENCE BUSH SPECIAL EFFECTS CLARENCE CHAMPAGNE SOUND RECORDING BY WALDON o. WATSON WILLIAM RUSSELL COPYRIGHT APPROVED 01960 BY SHAMLEY PRODUCTIONS INC ALL RIGHTS RESERVED CERTIFICATE NO 19564 WESTREH RECORDINC SYSTEM",
+          "ocr_bbox": [
+            259,
+            538,
+            1601,
+            1015
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 9,
+      "median_flow_px_per_frame": 0.26811179518699646,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.29957038164138794,
+      "roi_percentile_flow": 0.26811179518699646,
+      "scroll_direction": null
+    },
+    "scene_15": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Psycho\\analysis\\frames\\scene_015_static_000_num02559_sim2.jpg",
+          "frame_num": 2559,
+          "ocr_text": "IIII",
+          "ocr_bbox": [
+            60,
+            431,
+            326,
+            834
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_015_static_001_num02589_sim19.jpg",
+          "frame_num": 2589,
+          "ocr_text": "ASSISTANT HILTON A. DIRECTOR",
+          "ocr_bbox": [
+            1159,
+            426,
+            1874,
+            474
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_015_static_002_num02604_sim77.jpg",
+          "frame_num": 2604,
+          "ocr_text": "ASSISTANT HILTON A. GREEN DIRECTOR SAUL BASS",
+          "ocr_bbox": [
+            84,
+            424,
+            1433,
+            567
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_015_static_003_num02619_sim80.jpg",
+          "frame_num": 2619,
+          "ocr_text": "ASSISTANT HILTON A. GREEN DIRECTOR SAUL BASS PICTORIAL CONSULTANT",
+          "ocr_bbox": [
+            519,
+            422,
+            1604,
+            570
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_015_static_004_num02769_sim48.jpg",
+          "frame_num": 2769,
+          "ocr_text": "PICTORIAL CONSULTANT",
+          "ocr_bbox": [
+            1044,
+            540,
+            1506,
+            570
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": 0.31067532300949097,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.17994528263807297,
+      "roi_percentile_flow": 0.31067532300949097,
+      "scroll_direction": null
+    },
+    "scene_16": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Psycho\\analysis\\frames\\scene_016_static_000_num02869_sim27.jpg",
+          "frame_num": 2869,
+          "ocr_text": "BERNARD HERRMANN MUSIC BY",
+          "ocr_bbox": [
+            299,
+            470,
+            1628,
+            569
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.2488020956516266,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.2122660130262375,
+      "roi_percentile_flow": 0.2488020956516266,
+      "scroll_direction": null
+    },
+    "scene_18": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Psycho\\analysis\\frames\\scene_018_static_000_num03042_sim42.jpg",
+          "frame_num": 3042,
+          "ocr_text": "HITCHCOCK ALFRED DIRECTED BY",
+          "ocr_bbox": [
+            282,
+            473,
+            1652,
+            575
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Psycho\\analysis\\frames\\scene_018_static_001_num03132_sim35.jpg",
+          "frame_num": 3132,
+          "ocr_text": "ALFRED",
+          "ocr_bbox": [
+            562,
+            475,
+            990,
+            579
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.27150464057922363,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.2678302526473999,
+      "roi_percentile_flow": 0.27150464057922363,
+      "scroll_direction": null
+    }
+  }
+}

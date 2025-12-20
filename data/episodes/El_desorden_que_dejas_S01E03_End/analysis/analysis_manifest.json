@@ -1,0 +1,772 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_000_num00585_sim0.jpg",
+          "frame_num": 585,
+          "ocr_text": "Directora de Producci\u00f3n ESPE GRACIA Supervisora de Producci\u00f3n F\u00c1TIMA DAPENA",
+          "ocr_bbox": [
+            531,
+            297,
+            748,
+            420
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_001_num00705_sim39.jpg",
+          "frame_num": 705,
+          "ocr_text": "Maquillaje y Peluquer\u00eda SUSANA VEIRA BEATRIZ ANTELO Vestuario EVA CAMINO",
+          "ocr_bbox": [
+            543,
+            282,
+            735,
+            430
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_002_num00765_sim41.jpg",
+          "frame_num": 765,
+          "ocr_text": "Sonido Directo DAVID MACHADO Supervisor de Sonido ALEJANDRO L\u00d3PEZ",
+          "ocr_bbox": [
+            549,
+            296,
+            728,
+            417
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_003_num00825_sim39.jpg",
+          "frame_num": 825,
+          "ocr_text": "Coordinador de Direcci\u00f3n INAKI BERAZA Jefes de Producci\u00f3n ENRIQUE BATET MIRIAM DEVESA BOTANA",
+          "ocr_bbox": [
+            532,
+            279,
+            747,
+            432
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_004_num00945_sim41.jpg",
+          "frame_num": 945,
+          "ocr_text": "HAN INTERVENIDO XOS\u00c9 EIR\u00cdN EDUARDO ROSA MONICA CAMANO AXEL FERN\u00c1NDEZ MIRO MARGARINOS MARI\u00d1A SAMPEDRO PEPO SUEVOS PABLO ALONSO TITO AZAR IRENE BERCIANO NOEM\u00cd BLANCO XACOBE SANZ",
+          "ocr_bbox": [
+            570,
+            194,
+            709,
+            521
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_005_num00960_sim100.jpg",
+          "frame_num": 960,
+          "ocr_text": "HAN INTERVENIDO XOS\u00c9 EIR\u00cdN EDUARDO ROSA MONICA CAMANO AXEL FERN\u00c1NDEZ MIRO MARGARINOS MARINA SAMPEDRO PEPO SUEVOS PABLO ALONSO TITO AZAR IRENE BERCIANO NOEM\u00cd BLANCO XACOBE SANZ",
+          "ocr_bbox": [
+            569,
+            194,
+            708,
+            519
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_006_num01005_sim44.jpg",
+          "frame_num": 1005,
+          "ocr_text": "CRISTIAN CASTRO CARLOS MIGUEL JIM\u00c9NEZ JAVIER GALEGO SOF\u00cdA IGLESIAS JAVIER EST\u00c9VEZ GUILLERMO LOPEZ ALBERTO MEDEIROS NURIA MONTERO MIGUEL MORENO PIA NICOLETTI ANXO OUTUMURO",
+          "ocr_bbox": [
+            551,
+            222,
+            726,
+            493
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_007_num01065_sim43.jpg",
+          "frame_num": 1065,
+          "ocr_text": "FRAN PAREDES FRAN PAZ ISMAEL RODRIGUEZ PEDRO RUDOLPHI MIGUEL SAA ANA S\u00c1NCHEZ BEATRIZ SER\u00c9N ALEJANDRO DA SILVA",
+          "ocr_bbox": [
+            565,
+            256,
+            713,
+            458
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_008_num01080_sim89.jpg",
+          "frame_num": 1080,
+          "ocr_text": "FRAN PAREDES ISMAEL RODRIGUEZ PEDRO RUDOLPHI MIGUEL SAA MACHI SALGADO ANA S\u00c1NCHEZ BEATRIZ SER\u00c9N ALEJANDRO DA SILVA",
+          "ocr_bbox": [
+            565,
+            256,
+            713,
+            458
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_009_num01125_sim44.jpg",
+          "frame_num": 1125,
+          "ocr_text": "JUAN M\u00b2 SILVAR ALBERTO DA SINDA RUBEN SOTELO LUISA TREVI\u00d1O DANI TRILLO DAVID VARELA DIEGO V\u00c1ZQUEZ LUC\u00cdA VEIGA BRAIS YANEK",
+          "ocr_bbox": [
+            572,
+            256,
+            708,
+            459
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_010_num01185_sim29.jpg",
+          "frame_num": 1185,
+          "ocr_text": "1 Ayudantes de Direcci\u00f3n CONCHI IGLESIAS ITAT\u00cd MOYANO INAKI BERAZA 2\u00b0 Ayudantes de Direcci\u00f3n SONIA MART\u00edNEZ JACOBO S-D ROS\u00d3N JOSE BANOS Script TANIA MUINELO Auxiliares de Direcci\u00f3n SIBILA SOUTO UMBERTO C. PRIETO Coordinador de Figuraci\u00f3n JORGE PRIETO P\u00c9REZ Ayudantes de Figuraci\u00f3n CRIS DIESTE Ling\u00fcista CARLOS MEIXIDE ANA TRI\u00d1ANES Coach ANTONIO MOURELOS CONCHI IGLESIAS Meritorios de Direcci\u00f3n H\u00c9CTOR RODR\u00cdGUEZ \u00c1LVARO VEIGA",
+          "ocr_bbox": [
+            452,
+            163,
+            799,
+            553
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_011_num01245_sim51.jpg",
+          "frame_num": 1245,
+          "ocr_text": "Coordinadoras de Producci\u00f3n ERIKA ALONSO NATI JUNCAL PORTAS Ayudantes de Producci\u00f3n VERO PAN ANDR\u00c9S SEIJO JOS\u00c9 SALGUEIRO Localizadores MART\u00cdN RAMUDO ANDR\u00c9S NADAL BORJA C. VARELA VANESA CID Auxiliares de Producci\u00f3n EMILIO M. BARREIRO ANDREA PENA CRIS BASANTA Contable ALEJANDRO QUEIRO Meritorias de Producci\u00f3n YOHANA SILVA ALICIA OURO NOA GARCIA LUIZA THEREZO DANIEL SANMART\u00cdN LAURA GARC\u00cdA",
+          "ocr_bbox": [
+            435,
+            137,
+            798,
+            576
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_012_num01305_sim46.jpg",
+          "frame_num": 1305,
+          "ocr_text": "Operadores C\u00e1mara JAIME P\u00c9REZ GUILLERMO MORENO Foquista A ALBERTE V\u00c1ZQUEZ Foquista B V\u00cdCTOR RODR\u00cdGUEZ S\u00c1NCHEZ Auxiliares de C\u00e1mara IN\u00c9S NUNO DEL BARRIO JUAN RAMIL DIT JAVIER R\u00cdOS RODR\u00cdGUEZ Video Assist ILLANA COSS\u00cdO Making Of JAIRO IGLESIAS Foto Fija JAIME OLMEDO Conductor Cami\u00f3n CHEMA CASAL Meritoria C\u00e1mara GEMMA CASTELO",
+          "ocr_bbox": [
+            489,
+            222,
+            855,
+            496
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_013_num01320_sim99.jpg",
+          "frame_num": 1320,
+          "ocr_text": "Operadores C\u00e1mara JAIME P\u00c9REZ GUILLERMO MORENO Foquista A ALBERTE V\u00c1ZQUEZ Foquista B V\u00cdCTOR RODR\u00cdGUEZ S\u00c1NCHEZ Auxiliares de C\u00e1mara IN\u00c9S NUNO DEL BARRIO JUAN RAMIL DIT JAVIER RIOS RODR\u00cdGUEZ Video Assist ILLANA COSS\u00cdO Making Of JAIRO IGLESIAS Foto Fija JAIME OLMEDO Conductor Cami\u00f3n CHEMA CASAL Meritoria C\u00e1mara GEMMA CASTELO",
+          "ocr_bbox": [
+            489,
+            222,
+            855,
+            496
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_014_num01365_sim46.jpg",
+          "frame_num": 1365,
+          "ocr_text": "Directora de Arte ALEJANDRA LOISEAU Ambientadora ALEXANDRA FERN\u00c1NDEZ Ayudante de Decoraci\u00f3n ANA S\u00c1NCHEZ Regidora EVE MART\u00cdNEZ Atrecistas de Rodaje ANA \u00c1LVAREZ NADIA TORRIJOS Atrecistas de Avance ROBERTO COLLANTES JAVIER BELLO ANT\u00d3N PENA AUGE JOS\u00c9 MANUEL MOLINOS (MOLI) Ayudante de Regiduria OLGA PAIS Auxiliar de Arte LAUTARO SANDE RUSCONI",
+          "ocr_bbox": [
+            467,
+            221,
+            866,
+            496
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_015_num01425_sim52.jpg",
+          "frame_num": 1425,
+          "ocr_text": "Ayudantes de Maquillaje NATALIA ARCAY Ayudante de Peluquer\u00eda NOELIA ARCAY ALBA AGUIAR RODR\u00cdGUEZ Ayudantes de Vestuario IVONNE FUENTES Auxiliares de Vestuario LAURA IGLESIAS TANIA SANTOS Meritorias de Vestuario ANDREA LAGE MAR\u00cdA CARRENO",
+          "ocr_bbox": [
+            467,
+            280,
+            828,
+            461
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_016_num01485_sim49.jpg",
+          "frame_num": 1485,
+          "ocr_text": "Microfonistas DANIEL FERN\u00c1NDEZ DUR\u00c1N MARTINO LOIS Jefe de Maquinistas ALFREDO ARCOS \"UNCHI\" El\u00e9ctricos P\u00edO IV\u00c1N BELLO SERGIO ABAD ANA ALDREY MIGUEL NOVAL JUAN FIGUEIRAS MANU ROMANIEGA Maquinista",
+          "ocr_bbox": [
+            497,
+            244,
+            843,
+            475
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_017_num01545_sim38.jpg",
+          "frame_num": 1545,
+          "ocr_text": "Coordinadores de Especialistas \u00d3SCAR FRANCO FANY VEIGA Especialistas PABLO ANTEPAZO IB\u00c1N CAS\u00c1S BAMIO MANUEL CHURRAS JOSU\u00c9 P\u00c9REZ FERN\u00c1NDEZ ANXO RIVERA DAVID TRON BEA VEIGA PEDRO VEIGA SFX SERIFOR Coordinador SFX - In Extremis Film Services ALBERT MART\u00cdNEZ ADELL \u00c1LEX ANDR\u00c9S PELAEZ T\u00e9cnicos FX - In Extremis Film Services JUAN ANTONIO BALLESTEROS MORIES \"TOTE\" MART\u00cdN BARBA MART\u00cdNEZ MART\u00cd BARTRA VIDAL PEP CLARET FERN\u00c1NDEZ JUAN CARLOS D\u00c1VILA RAMOS YURIV MACHOGAN JARKOVSKI XAVI MOLAS HERN\u00c1NDEZ ERIC NIETO DE SANDE",
+          "ocr_bbox": [
+            343,
+            117,
+            913,
+            599
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_018_num01605_sim48.jpg",
+          "frame_num": 1605,
+          "ocr_text": "SEGUNDA UNIDAD Direcci\u00f3n JUAN GALI\u00d1ANES Director de Fotografia JESUS BELLO Script CARLA P\u00c9REZ FRANCESC JIM\u00c9NEZ Ayudante de Direcci\u00f3n JACOBO S-D ROS\u00d3N Auxiliar de Direcci\u00f3n MARCOS RODR\u00cdGUEZ L\u00d3PEZ Producci\u00f3n MARTIN RAMUDO Foquista ISABEL REGA Auxiliar de C\u00e1mara YAIZA GONZ\u00c1LEZ Gaffer JUAN FIGUEIRAS DIT VICTOR MANUEL VIGO PRIETO Video Assist SARA HERMO Sonido JUAN GAY XAVI SOUTO DANIEL FERN\u00c1NDEZ",
+          "ocr_bbox": [
+            479,
+            159,
+            856,
+            556
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_019_num01620_sim100.jpg",
+          "frame_num": 1620,
+          "ocr_text": "SEGUNDA UNIDAD Direcci\u00f3n JUAN GALINANES Director de Fotografia JESUS BELLO Script CARLA P\u00c9REZ FRANCESC JIM\u00c9NEZ Ayudante de Direcci\u00f3n JACOBO S-D ROS\u00d3N Auxiliar de Direcci\u00f3n MARCOS RODR\u00cdGUEZ L\u00d3PEZ Producci\u00f3n MARTIN RAMUDO Foquista ISABEL REGA Auxiliar de C\u00e1mara YAIZA GONZ\u00c1LEZ Gaffer JUAN FIGUEIRAS DIT VICTOR MANUEL VIGO PRIETO Video Assist SARA HERMO Sonido JUAN GAY XAVI SOUTO DANIEL FERN\u00c1NDEZ",
+          "ocr_bbox": [
+            479,
+            159,
+            856,
+            556
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_020_num01665_sim53.jpg",
+          "frame_num": 1665,
+          "ocr_text": "REFUERZOS FRANCESC JIM\u00c9NEZ Direcci\u00f3n GUSTAVO BALZA CARLA GUTI\u00c9RREZ RODAL Producci\u00f3n SILVIA IGLESIAS AAR\u00d3N SABURIDO REPRESA RUB\u00c9N MARINO SEBASTI\u00c1N GABIN VIDELA JOS\u00c9 D\u00cdAZ EL\u00cdAS RODR\u00cdGUEZ POMBAR PABLO VALENCIANO PABLO S\u00c1NCHEZ CABALEIRO ALBERTO REGUEIRA FUERTES DANIEL VIUDEZ Video Assist ELENA BAHAMONDE Maquillaje y Peluquer\u00eda EREA P\u00c9REZ LOLA NAVEIRA SONIA RODR\u00cdGUEZ GARC\u00cdA Sonido CHEMA SILVA CHOR\u00c9N XAVIER SOUTO",
+          "ocr_bbox": [
+            476,
+            115,
+            848,
+            602
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_021_num01725_sim50.jpg",
+          "frame_num": 1725,
+          "ocr_text": "REFUERZOS Arte CRISTINA JUNQUERA M\u00c9NDEZ MARIOLA ROMERO GALLARDO PAU ALBIN KOPECKY JOSE MANUEL MOLINOS (MOLI) Vestuario OLALLA TESOURO CRISTINA POMBO JULIA RODR\u00cdGUEZ LETICIA DELGADO YOLANDA PE\u00d3N SARA CASTRO GAL\u00c1N V\u00cdCTOR MANANA El\u00e9ctricos y Maquinistas LU\u00cdS RAM\u00cdREZ SALGADO PABLO D\u00cdAZ SERGIO ABAD PABLO PORTELA JM. RUBIDO (CARINO) DAVID OTERO IRIA VARELA JORGE CASTRO L\u00d3PEZ M.A. BARRI Conductor RUB\u00c9N MARI\u00d1O",
+          "ocr_bbox": [
+            472,
+            92,
+            865,
+            629
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_022_num01740_sim100.jpg",
+          "frame_num": 1740,
+          "ocr_text": "REFUERZOS Arte CRISTINA JUNQUERA M\u00c9NDEZ MARIOLA ROMERO GALLARDO PAU ALBIN KOPECKY JOSE MANUEL MOLINOS (MOLI) Vestuario OLALLA TESOURO CRISTINA POMBO JULIA RODR\u00cdGUEZ LETICIA DELGADO YOLANDA PEON SARA CASTRO GAL\u00c1N V\u00cdCTOR MANANA El\u00e9ctricos y Maquinistas LU\u00cdS RAM\u00cdREZ SALGADO PABLO D\u00cdAZ SERGIO ABAD PABLO PORTELA JM. RUBIDO (CARINO) DAVID OTERO IRIA VARELA JORGE CASTRO L\u00d3PEZ M.A. BARRI Conductor RUB\u00c9N MARINO",
+          "ocr_bbox": [
+            473,
+            92,
+            865,
+            629
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_023_num01785_sim50.jpg",
+          "frame_num": 1785,
+          "ocr_text": "PEONES Y VIGILANTES Producci\u00f3n C\u00c9SAR PENEDO WILFREDO PI\u00d1A PABLO VALENCIANO ANTONIO LABANDEIRA JUAN SOTELO LORENZO \u00d3SCAR SOTELO ROJO JAIRO MAHUGO MONTILLA NOELIA RODR\u00cdGUEZ COSTA IV\u00c1N FERN\u00c1NDEZ \u00c1LVAREZ TEO ARCOS TAXES JOS\u00c9 CORUXO Arte JON\u00c1S SOUTO IGNACIO FERN\u00c1NDEZ RAMIRO RODRIGUEZ DOS SANTOS BENI BERNARDINO IGLESIAS",
+          "ocr_bbox": [
+            553,
+            150,
+            883,
+            569
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_024_num01800_sim100.jpg",
+          "frame_num": 1800,
+          "ocr_text": "PEONES Y VIGILANTES Producci\u00f3n C\u00c9SAR PENEDO WILFREDO PINA PABLO VALENCIANO ANTONIO LABANDEIRA JUAN SOTELO LORENZO \u00d3SCAR SOTELO ROJO JAIRO MAHUGO MONTILLA NOELIA RODR\u00cdGUEZ COSTA IV\u00c1N FERN\u00c1NDEZ \u00c1LVAREZ TEO ARCOS TAXES JOS\u00c9 CORUXO Arte JON\u00c1S SOUTO IGNACIO FERN\u00c1NDEZ RAMIRO RODRIGUEZ DOS SANTOS BENI BERNARDINO IGLESIAS",
+          "ocr_bbox": [
+            553,
+            150,
+            883,
+            569
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_025_num01845_sim44.jpg",
+          "frame_num": 1845,
+          "ocr_text": "EQUIPO VACA FILMS Coordinadora de Producci\u00f3n CRISTINA MORALES RAQUEL HERMO BEADE Cost-controller Directora Financiera TELLY M. LAMIGUEIRO Desarrollo de Proyectos H\u00c9BER FERN\u00c1NDEZ Prensa y Comunicaci\u00f3n ROSA GARC\u00cdA (FEATURENT) EQUIPO EL DESORDEN CREA Director CARLOS MONTERO Director de Producci\u00f3n XACOBE SANZ Desarrollo Creativo EL DESORDEN CREA",
+          "ocr_bbox": [
+            440,
+            192,
+            838,
+            523
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_026_num01905_sim50.jpg",
+          "frame_num": 1905,
+          "ocr_text": "LOLI IGLESIAS Coordinadora de Postproducci\u00f3n Ayudante de Montaje VANESSA GARC\u00cdA Estudio de Postproducci\u00f3n DELUXE SPAIN Director de Operaciones JUANJO CARRETERO INMA FERN\u00c1NDEZ-MONTES Coordinaci\u00f3n de Postproducci\u00f3n PAULA LID\u00d3N CANADA Directora Comercial VANESSA RUIZ-LARREA DIEGO GARC\u00cdA Director de Ventas Media Services Conformado MARIO MARTINEZ DUQUE Color CHEMA ALBA ANDR\u00c9S LOPETEGUI Grafismo NACHO PLATERO RUB\u00c9N RIVAS FUMIAKI KOBAYASHI M\u00c1RQUEZ ASTRID MAYOR RAMIS MANEX ZABALA DIANA LABRADOR Coordinadora de Subt\u00edtulos Subt\u00edtulos MAR\u00cdA ARJONA-PUJALS EVA DE MARIA ALONSO",
+          "ocr_bbox": [
+            406,
+            117,
+            863,
+            599
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_027_num01965_sim40.jpg",
+          "frame_num": 1965,
+          "ocr_text": "Mastering PABLO POLO ELENA ARACO ESTER PERICAS LUIS ESCALADA Masterizaci\u00f3n VOD RAFA FLORIDO RODRIGO WALLACE JUANJO RODRIGUEZ INIGO G\u00d3MEZ Data Management RICARDO LEAL FERNANDO GONZ\u00c1LEZ DAVID GARC\u00cdA DEL POZO \u00c1LVARO GARC\u00edA MANUEL V\u00c1ZQUEZ JESUS CANO",
+          "ocr_bbox": [
+            502,
+            196,
+            822,
+            518
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_028_num02025_sim40.jpg",
+          "frame_num": 2025,
+          "ocr_text": "Supervisor Departamento de Sonido MARC ORTS Montaje y Mezclas ALEJANDRO L\u00d3PEZ Montadora de Di\u00e1logos ANNA HARRINGTON Montadores de Efectos LAIA CASANOVAS BOI MARTINEZ Ayundantes de Montaje de Sonido JUAN RUBIO REBECA LINDERFELD Efectos de Sala MARC GONELL T\u00e9cnico de Grabaci\u00f3n de Efectos MARTA VICENTE CURRO MUNOZ Supervisor Departamento VFX Producci\u00f3n VFX DARIO BASILE Coordinadora VFX LARA G\u00d3MEZ DEL PULGAR Supervisor VFX RICARDO G. ELIPE Asistencia Supervisi\u00f3n VFX PABLO LAMOSA ESTEBAN RODR\u00cdGUEZ Editor VFX V\u00cdCTOR GARC\u00edA Artistas VFX AS\u00cdS G\u00d3MEZ FERNANDO GONZ\u00c1LEZ BOUZA PEDRO LARA BORIS RODR\u00cdGUEZ ION SANZ",
+          "ocr_bbox": [
+            389,
+            114,
+            861,
+            599
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_029_num02040_sim100.jpg",
+          "frame_num": 2040,
+          "ocr_text": "Supervisor Departamento de Sonido MARC ORTS Montaje y Mezclas ALEJANDRO L\u00d3PEZ Montadora de Di\u00e1logos ANNA HARRINGTON Montadores de Efectos LAIA CASANOVAS BOI MARTINEZ Ayundantes de Montaje de Sonido JUAN RUBIO REBECA LINDERFELD Efectos de Sala MARC GONELL T\u00e9cnico de Grabaci\u00f3n de Efectos MARTA VICENTE CURRO MUNOZ Supervisor Departamento VFX Producci\u00f3n VFX DARIO BASILE Coordinadora VFX LARA G\u00d3MEZ DEL PULGAR Supervisor VFX RICARDO G. ELIPE Asistencia Supervisi\u00f3n VFX PABLO LAMOSA ESTEBAN RODR\u00cdGUEZ Editor VFX V\u00cdCTOR GARC\u00edA Artistas VFX AS\u00cdS G\u00d3MEZ FERNANDO GONZ\u00c1LEZ BOUZA PEDRO LARA BORIS RODRIGUEZ ION SANZ",
+          "ocr_bbox": [
+            389,
+            115,
+            861,
+            599
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_030_num02085_sim37.jpg",
+          "frame_num": 2085,
+          "ocr_text": "CABECERA Dise\u00f1o de la Cabecera USER T38 Realizaci\u00f3n NATALIA MONTES Dise\u00f1o RAUL MONGE ALBERTO S\u00c1NCHEZ NOA RODR\u00cdGUEZ Composici\u00f3n 2D LAURA CAVIA JOAQUIN GUTI\u00c9RREZ Animaci\u00f3n Logo MARINA ALBERCH Producci\u00f3n NURIA MATEOS \u00d3SCAR VILLAGR\u00c1N BURAGLIA",
+          "ocr_bbox": [
+            480,
+            231,
+            854,
+            510
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_031_num02145_sim23.jpg",
+          "frame_num": 2145,
+          "ocr_text": "TEMAS MUSICALES LA ESPINA DE LA FLOR EN TU COSTADO STAY THE SAME Escrito por Xoel L\u00f3pez Garcia Cabez\u00f3n Escrito Joseph Moore y Madeline Mae Interpretado por Xoel L\u00f3pez Interpretado por Maddie Mae Cortesia de Esmerarte Industrias Creativas SL para todo el mundc Cortes\u00eda de Elefant Records Todos los derechos reservados Todos los derechos reservados PLASTIC LOVE IVY MIKE Escrito por Luis Rozalen y Juan Carlos Ord\u00f3\u00f1ez Escrito por Guille Milkyway Interpretada por Discod\u00e9 Interpretado por La Casa Azul Cortes\u00eda de Elefant Records Cortes\u00eda de Elefant Records Todos los derechos reservados Todos los derechos reservados YOUNG ABSTINENCIA (Reworked by Apenino) Escrito por James Thomas Escrito por Iv\u00e1n Gonz\u00e1lez, Eva L\u00f3pez y Bruno Mosquera Interpretada por Rush Week Interpretado por Linda Guilala Cortes\u00eda de Elefant Records Cortes\u00eda de Elefant Records Todos los derechos reservados Todos los derechos reservados PARKINEO ESTARIBEL Escrito por Chenta Tsai Tseng Escrito e interpretado por Alejandro L\u00f3pez Interpretado por Putochinomaric\u00f3n Cortes\u00eda de Alejandro L\u00f3pez Cortes\u00eda de Elefant Records Todos los derechos reservados Todos los derechos reservados JUMP CUTS Escrito e interpretado por Alejandro L\u00f3pez Cortes\u00eda de Alejandro L\u00f3pez Todos los derechos reservados",
+          "ocr_bbox": [
+            179,
+            82,
+            1068,
+            634
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_032_num02205_sim47.jpg",
+          "frame_num": 2205,
+          "ocr_text": "PROVEEDORES Material de Producci\u00f3n BANALE / VACA FILMS C\u00e1mara y Walkies TOBOGGAN Splashbag y Luz Subacu\u00e1tica BLUESCREEN Maquinaria y Gr\u00faas SooS C\u00e1mara Car FR SPORT Grip GRIP CREW Dron OCTOCAMVISION FILAMENTO Iluminaci\u00f3n y Grupo Electr\u00f3geno Grupo Electr\u00f3geno CABAGER Material de Sonido LA PANIFICADORA Material Efectos Especiales y Armeria IN EXTREMIS FILM SERVICES / SERIFOR Maestro Armero JESUS LESTA Construcci\u00f3n ESCENOSET GIG ELECTRIFICACIONES ESCENOGR\u00c1FICAS JOSE FRANCISCO GUDGE (EL PINTOR DE LA CASA) Impresiones Gr\u00e1ficas L\u00cdNEA GR\u00c1FICA / SUTEGA Alquiler Mobiliario y Ambientaci\u00f3n MANEL DECORACI\u00d3N / PALACIO DE CONGRESOS SANTIAGO / ISADORA / STERIS IBERIA / EXPOCORUNIA VIVEROS BRANDARIZ / MADRESELVA FLORES ASOCIACI\u00d3N RETO Compras Mobiliario y Ambientaci\u00f3n RENDUELES SUMINISTROS / BERTHA HOGAR EL MUNDO DEL PAPEL PINTADO / FLORES PATI\u00d1O M\u00b0 \u00c1NGELES S\u00c1NCHEZ FANDI\u00d1O Compras Fungibles y Varios Construcci\u00f3n PINTURAS ISAVAL / MADELAS LAMELAS TORRES Y SAEZ / RUIZ Y PENADES Alquiler Cami\u00f3n C\u00e1mara DEMETRIO Alquiler Vehiculos AUTOS BREA / IMPULSA / SERVILUGO / FR SPORT LUIS CABEZAL / CAR RENT MILLADOIRO / CLEAN CAR LUGO / MANELL MOTOR A CORU\u00d1A AUTOCASI\u00d3N NOROESTE / SIXT RENT A CART",
+          "ocr_bbox": [
+            392,
+            71,
+            971,
+            649
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_033_num02220_sim100.jpg",
+          "frame_num": 2220,
+          "ocr_text": "PROVEEDORES Material de Producci\u00f3n BANALE / VACA FILMS C\u00e1mara y Walkies TOBOGGAN Splashbag y Luz Subacu\u00e1tica BLUESCREEN Maquinaria y Gr\u00faas SooS C\u00e1mara Car FR SPORT Grip GRIP CREW Dron OCTOCAMVISION FILAMENTO Iluminaci\u00f3n y Grupo Electr\u00f3geno Grupo Electr\u00f3geno CABAGER Material de Sonido LA PANIFICADORA Material Efectos Especiales y Armeria IN EXTREMIS FILM SERVICES / SERIFOR Maestro Armero JESUS LESTA Construcci\u00f3n ESCENOSET GIG ELECTRIFICACIONES ESCENOGR\u00c1FICAS JOSE FRANCISCO GUDGE (EL PINTOR DE LA CASA) Impresiones Gr\u00e1ficas L\u00cdNEA GR\u00c1FICA / SUTEGA Alquiler Mobiliario y Ambientaci\u00f3n MANEL DECORACI\u00d3N / PALACIO DE CONGRESOS SANTIAGO / ISADORA / STERIS IBERIA / EXPOCORUNIA VIVEROS BRANDARIZ / MADRESELVA FLORES ASOCIACI\u00d3N RETO Compras Mobiliario y Ambientaci\u00f3n RENDUELES SUMINISTROS / BERTHA HOGAR EL MUNDO DEL PAPEL PINTADO / FLORES PATI\u00d1O M* \u00c1NGELES S\u00c1NCHEZ FANDINO Compras Fungibles y Varios Construcci\u00f3n PINTURAS ISAVAL / MADELAS LAMELAS TORRES Y SAEZ / RUIZ Y PENADES Alquiler Cami\u00f3n C\u00e1mara DEMETRIO Alquiler Vehiculos AUTOS BREA / IMPULSA / SERVILUGO / FR SPORT LUIS CABEZAL / CAR RENT MILLADOIRO / CLEAN CAR LUGO / MANELL MOTOR A CORU\u00d1A AUTOCASI\u00d3N NOROESTE / SIXT RENT A CART",
+          "ocr_bbox": [
+            392,
+            71,
+            971,
+            649
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_034_num02265_sim48.jpg",
+          "frame_num": 2265,
+          "ocr_text": "PROVEEDORES ETT Figuraci\u00f3n FASTER Catering O XARDIN DE \u00c1RBORE Discos Duros y Back Up ALFONSIN DIGITAL LAB / NEOVIDEO Postproducci\u00f3n de Imagen DELUXE SPAIN Estudio Efectos Visuales DELUXE SPAIN Postproducci\u00f3n de Sonido DELUXE SPAIN Estudios de Doblaje DELUXE 103 Subtitulado DELUXE SPAIN Alojamientos HOTEL CELANOVA HOTEL FRANCISCO II HOTEL BARCEL\u00d3 OURENSE HOTEL ALTIANA HOTEL AVENIDA HOTEL PLAZA RECTORAL DE ANSEMIL JARDINES PAZO A F\u00c1BRICA HOTEL MIRAVALLE HOTEL RIAZOR GRAN HOTEL DE LUGO Prevenci\u00f3n Riesgos Laborales TAPREGA AON Seguro de Rodaje Limpieza FLOOR CLEANING / REMIRO LIMPIEZAS Agencia de Viajes GLOBALIA CORPORATE TRAVEL Asesoria ASESOR\u00cdA CRISTINA MARTINEZ GARRIGUES / JAVIER V\u00c1ZQUEZ Servicios Legales Servicios Financieros CAIXABANK Traducciones Ingl\u00e9s NICOLAS AIKIN / DANIELLE SCHLEIF Storyboard JOS\u00c9 \u00c1NGEL ARES Grafista FERNANDO DEL POZO Dibujante LORENZO DOMINGUEZ GARC\u00cdA",
+          "ocr_bbox": [
+            435,
+            71,
+            914,
+            651
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_035_num02325_sim39.jpg",
+          "frame_num": 2325,
+          "ocr_text": "AGRADECIMIENTOS Concello de A Coru\u00f1a Concello de Carral Sandro Concello de Coir\u00f3s Escuela Oficial de Idiomas de A Coru\u00f1a Selmark Concello de Celanova Concello de Culleredo Swatch IES Celso Emilio Ferreiro Celanova Concello de Oleiros \u00c9poca Autoridad Portuaria de A Coru\u00f1a Concello de Oroso Un burro de cine Jefatura Provincial de Tr\u00e1fico de A Coru\u00f1a Concello de Mi\u00f1o Cuarto Ropero Polic\u00eda Municipal de A Coru\u00f1a Concello de Santiago de Compostela Hotel Plaza Casa Cartilla La Mancha de A Coru\u00f1a Concello de Sober Hotel Riazor Hop! Estudio Jefatura Provincial de Tr\u00e1fico de Lugo Escola de Imaxe e Son de Vigo Parroquia de Santa Eulalia de Li\u00e1ns Complexo Hospitalario Universitario de Ferrol Escola de Imaxe e Son de A Coru\u00f1a Universidade da Coru\u00f1a Naturgy Toyota Espa\u00f1a Centro Universitario de Riazor ESADG DS Autom\u00f3biles Espa\u00f1a La Normal Conseller\u00eda de Educaci\u00f3n, Universidade Direcci\u00f3n General de la Guardia Civil Escuela T\u00e9cnica Superior de N\u00e1utica e Formaci\u00f3n Profesional BQ Espa\u00f1a Conseller\u00eda de Pol\u00edtica Social M\u00e1quinas de A Coru\u00f1a Power Case Ib\u00e9rica (Vant) Hospital del Socorro Conseller\u00eda de Sanidade e Servicio Galego de Saude Duravit Espa\u00f1a Aspronaga Conseller\u00eda de Medioambiente, Territorio e Vivenda Chicon Medical CEE Nuestra Se\u00f1ora de Lourdes Augas de Galicia Primux trading Polic\u00eda Municipal de Celanova Fede P\u00e9rez Kaotiko Centro Sociocultural de Celanova - Xunta de Galicia Jorge Souto Eme Mode Caf\u00e9 Bar Bohemia Ramisa Projects & Fun Paco y Lola Adega e Vi\u00f1edos Concello de Ribadavia Gadis HGA Bodegas y Vi\u00f1edos de Altura Protecci\u00f3n Civil de Ribadavia Luis Tour\u00f3n (Unique) Mabo Farma Centro Sociocultural de Ribadavia - Xunta de Galicia Adolfo Dom\u00ednguez Marquide licores Confederaci\u00f3n Hidrogr\u00e1fica Mi\u00f1o-Sil Lenda Pet Food Andr\u00e9s Machado Concello de Bande Cecilia de Rafael SAMBURU Piensos Lobo Azul Protecci\u00f3n Civil de Bande Certina Ata\u00fades Gallego Fundaci\u00f3n Aquae Querquennae Via Nova Eme Luis Cabezal Prevenci\u00f3n Concello de A Capela GAPO La vida es Huella Concello de A Laracha Merc Comunicaci\u00f3n Complexo Hospitalario de Santiago Protecci\u00f3n Civil A Laracha Mira para min Librer\u00eda COnde Concello de Betanzos Oky P\u00e1rrocos de Adigna (Sanxenxo) y Simes (Mea\u00f1o) Concello de Cambre Punto Blanco Juan Carlos N\u00fa\u00f1ez Taxidermia",
+          "ocr_bbox": [
+            126,
+            72,
+            1154,
+            650
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_036_num02385_sim21.jpg",
+          "frame_num": 2385,
+          "ocr_text": "Una producci\u00f3n de Vaca Net TV. Producci\u00f3n acogida a incentivo fiscal con la Colaboraci\u00f3n del Gobierno de Espa\u00f1a Rodada en A Coru\u00f1a, A Capela, A Laracha, Betanzos, Cambre, Carral, Coir\u00f3s, Culleredo, Oleiros, Oroso, Mi\u00f1o, Santiago (A Coru\u00f1a), Celanova, Ribadavia, Bande, Sober (Ourense) y Lugo.",
+          "ocr_bbox": [
+            194,
+            268,
+            1083,
+            449
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_000_static_037_num02445_sim28.jpg",
+          "frame_num": 2445,
+          "ocr_text": "\u00a9 2020, Netflix Worldwide Entertainment, LLC. Todos los derechos reservados.",
+          "ocr_bbox": [
+            320,
+            348,
+            957,
+            365
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 38,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_000_num02703_sim25.jpg",
+          "frame_num": 2703,
+          "ocr_text": "Deutsch Studio Eclair Studios Germany \u00dcbersetzung Ilse Layer Dialogbuch Dr. Michael Nowka Dialogregie Dr. Michael Nowka Aufnahme Christian Voigt Schnitt Rabea Matthies Schnitt Nico Hohlfeld Aufnahmeleitung Juliane Kiesel Mischung Matthias Schwab Produktionsleitung Maximilian Fleming christa kistner INTERNATIONAL NETFLIX eclairSTUDIOS DUBBING",
+          "ocr_bbox": [
+            465,
+            117,
+            920,
+            598
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_001_num02763_sim52.jpg",
+          "frame_num": 2763,
+          "ocr_text": "Besetzung Raquel Kaya M\u00f6ller Viruca Manja Doering Germ\u00e1n Jannik Endemann lago Amadeus Strobl Roi Max Felder Mauro Oliver Siebeck Nerea Alice Bauer Tomas Hanns J\u00f6rg Krumpholz christa kistner INTERNATIONAL NETFLIX eclairSTUDIOS DUBING",
+          "ocr_bbox": [
+            466,
+            143,
+            921,
+            571
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_002_num02793_sim100.jpg",
+          "frame_num": 2793,
+          "ocr_text": "Besetzung Raquel Kaya M\u00f6ller Viruca Manja Doering Germ\u00e1n Jannik Endemann lago Amadeus Strobl Roi Max Felder Mauro Oliver Siebeck Nerea Alice Bauer Tomas Hanns J\u00f6rg Krumpholz christa kistner INTERNATIONAL NETFLIX eclairSTUDIOS DUBBING",
+          "ocr_bbox": [
+            467,
+            143,
+            921,
+            570
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_003_num02823_sim56.jpg",
+          "frame_num": 2823,
+          "ocr_text": "Besetzung Gabriel Gerrit Schmidt-FoB Tere Philippa Jarke Demetrio Bernhard V\u00f6lger Claudia Sabina Trooger Sim\u00f3n Daniel G\u00e4rtner Isa Ilka Teichm\u00fcller Ilona Schulz Carmina Virucas's Father Hans Bayer christa kistner INTERNATIONAL NETFLIX eclairSTUDIOS DUBBING",
+          "ocr_bbox": [
+            466,
+            144,
+            920,
+            571
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_004_num02883_sim51.jpg",
+          "frame_num": 2883,
+          "ocr_text": "Nebenbesetzung Sascha Werginz Mario Klischies Armin Schlagwein Stephan Baumecker Betty F\u00f6rster Tilmar Kuhn Annika Tenter Stefan Br\u00e4uler Franziska Endres Harriet Kracht Alexander Gaida Anni C. Salander Nando Schmitz Georgios Tzitzikos Dennis Sandmann christa kistner INTERNATIONAL NETFLIX eclairSTUDIOS DUBBING",
+          "ocr_bbox": [
+            393,
+            142,
+            901,
+            570
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_005_num02943_sim44.jpg",
+          "frame_num": 2943,
+          "ocr_text": "English Version Studio Igloo Music Production Supervisor Timothy Cubbison Project Manager Austin Snyder Garrett Hanson Adapter Mixer Walter Ledesma Dubbing Casting Lead Timothy Cubbison Dubbing Director Gloria Iseli Dubbing Director Christina Diamantara Assistant Director Gabriele Di Sazio Assistant Director Alex B. Kim Assistant Director Samuel Jay Richardson NETFLIX INTERNATIONAL DUBBING",
+          "ocr_bbox": [
+            451,
+            101,
+            835,
+            610
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_006_num03003_sim52.jpg",
+          "frame_num": 3003,
+          "ocr_text": "English Version Recordist Josh Greenfield Recordist Yoav Litman Recordist Mateo Barragan Recordist Erich Talaba Editor Josh Greenfield Editor Simon Guevara Editor Noah Hubbell Editor Lok-I Lu Dubbing Assistant Katie Byrne Dubbing Assistant Ronni Mardor INTERNATIONAL NETFLIX DUBBING",
+          "ocr_bbox": [
+            481,
+            117,
+            780,
+            595
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_007_num03063_sim45.jpg",
+          "frame_num": 3063,
+          "ocr_text": "Cast Raquel Olivia Baptista Germ\u00e1n Paul Galliano Viruca Sarah Elmaleh Roi Josh Aikin lago Sasha Jordan Mauro Peter Jessop Tere Freckle NETFLIX INTERNATIONAL DUBBING",
+          "ocr_bbox": [
+            510,
+            152,
+            770,
+            554
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_008_num03123_sim48.jpg",
+          "frame_num": 3123,
+          "ocr_text": "Cast Gabriel Garrett Wagner Amber Brooke Nerea Sim\u00f3n David Haack Carmina Catherine Cavadini Demetrio Mark Englehardt Tomas Richard Cansino Isa Susan Papa NETFLIX | INTERNATIONAL DUBBING",
+          "ocr_bbox": [
+            511,
+            154,
+            802,
+            553
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_009_num03183_sim45.jpg",
+          "frame_num": 3183,
+          "ocr_text": "Additional Cast Brandon Bales Marley Estrada Julie Nathanson Jordan Tortorello Matt Anspach John Bobek Riley Beres Jolene Andersen INTERNATIONAL NETFLIX I DUBBING",
+          "ocr_bbox": [
+            512,
+            144,
+            771,
+            569
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_010_num03243_sim38.jpg",
+          "frame_num": 3243,
+          "ocr_text": "Version fran\u00e7aise El desorden que dejas: Season 1: \"Cuenta hasta tres\" Studio de Doublage Hiventy Adaptation Romain Hammelburg Directeur Artistique Mathieu Richer Preneur de son Damien Sauvestre Mixage St\u00e9phane Pottier R\u00f4le Voix Raquel Clho\u00e9 Renaud German Benjamin Lhommas Viruca Myrtille Bakouche Mauro Jo\u00ebl Zaffarano Tere Sandrine Moaligou Gabriel Tanguy Goasdoue Donald Reignoux lago",
+          "ocr_bbox": [
+            182,
+            91,
+            1102,
+            629
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_011_num03303_sim38.jpg",
+          "frame_num": 3303,
+          "ocr_text": "Versione in italiano Doppiaggio Italiano e Sonorizzazione SDI MEDIA Direzione del doppiaggio Daniela Inserra Dialoghi italiani Marco Liguori INTERNATIONAL NETFLIX | DUBING",
+          "ocr_bbox": [
+            340,
+            218,
+            771,
+            497
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_012_num03333_sim100.jpg",
+          "frame_num": 3333,
+          "ocr_text": "Versione in italiano Doppiaggio Italiano e Sonorizzazione SDI MEDIA Direzione del doppiaggio Daniela Inserra Dialoghi italiani Marco Liguori INTERNATIONAL NETFLIX | DUUBING",
+          "ocr_bbox": [
+            341,
+            218,
+            771,
+            497
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_013_num03363_sim51.jpg",
+          "frame_num": 3363,
+          "ocr_text": "Cast Raquel Francesca Manicone Viruca Federica De Bortoli Germ\u00e1n Massimo Triggiani lago Alessio Nissolino Roi Manuel Meli Nerea Lucrezia Marricchi Mauro Andrea Lavagnino NETFLIX | INTERNATIONAL DUBBING",
+          "ocr_bbox": [
+            511,
+            152,
+            814,
+            553
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_014_num03423_sim47.jpg",
+          "frame_num": 3423,
+          "ocr_text": "Cast Demetrio Alessandro Budroni Isa Carolina Zaccarini Tom\u00e1s Gianni Giuliano Sim\u00f3n Raffaele Carpentieri Carmina Mirta Pepe Gabriel Acebedo Daniele Raffaeli INTERNATIONAL NETFLIX DUUBING",
+          "ocr_bbox": [
+            494,
+            171,
+            812,
+            540
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_015_num03483_sim42.jpg",
+          "frame_num": 3483,
+          "ocr_text": "Wersja polska Wersja polska SDI Media Dialogi Magdalena Bartkiewicz Lektor Piotr Makowski Koordynacja projektu Agata Dabrowska sdi INTERNATIONAL NETFLIX  EDIA DUBBING",
+          "ocr_bbox": [
+            459,
+            202,
+            919,
+            509
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_016_num03558_sim47.jpg",
+          "frame_num": 3558,
+          "ocr_text": "Vers\u00e2o em portugu\u00eas brasileiro Est\u00fadio Audio Corp Dire\u00e7\u00e2o de dublagem M\u00e1rio Cardoso Tradu\u00e7\u00e4o Cristina Nastasi Mixagem Filipe Rodrigues Adapta\u00e7\u00e3o Georges Ribeiro Audio Corp. INTERNATIONAL NETFLIX DUBBING",
+          "ocr_bbox": [
+            432,
+            189,
+            919,
+            524
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_017_num03618_sim52.jpg",
+          "frame_num": 3618,
+          "ocr_text": "Elenco Raquel Evie Saide Mauro Ronaldo J\u00falio Viruca Carol Crespo McKeidy Lisita Germ\u00e1n Carmen Isabela Quadros Tere Lina Rossana Roi Pedro Crispim Nerea Ana Elena lago Italo Luiz Demetrio M\u00e1rio Cardoso Claudia Sheila Dorfman NETFLIX I INTERNATIONAL DUBBING",
+          "ocr_bbox": [
+            550,
+            98,
+            919,
+            610
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_018_num03633_sim98.jpg",
+          "frame_num": 3633,
+          "ocr_text": "Elenco Raquel Evie Saide Mauro Ronaldo J\u00falio Viruca Carol Crespo Germ\u00e1n McKeidy Lisita Carmen Isabela Quadros Tere Lina Rossana Roi Pedro Crispim Nerea Ana Elena lago Italo Luiz Demetrio M\u00e1rio Cardoso Claudia Sheila Dorfman Audio orp NETFLIX | INTERNATIONAL DUBBING",
+          "ocr_bbox": [
+            510,
+            98,
+            919,
+            610
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_019_num03678_sim57.jpg",
+          "frame_num": 3678,
+          "ocr_text": "Elenco Concha V\u00e2nia Alexandre Ram\u00f3n Renato Rosenberg Iria Isabel Lira Marga Rita Lopes Isa M\u00e1rcia Morelli Treinador Marcus J\u00fanior Pai da Viruca Walmir Barbosa Melise Maia Carmina Gabriel Acebedo Marcus J\u00fanior Tom\u00e1s Ricardo Rossatto Audio Corp. INTERNATIONAL NETFLIX | DUBBING",
+          "ocr_bbox": [
+            494,
+            113,
+            920,
+            596
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_020_num03738_sim45.jpg",
+          "frame_num": 3738,
+          "ocr_text": "T\u00fcrk\u00e7e Versiyonu St\u00fcdyo Ak'la Kara St\u00fcdyolari Proje Y\u00f6neticisi Merve \u00d6zberk Cevirmen Orta\u00e7 Besi Ses Kayit\u00e7isI Mahmut Bura Yeni\u00e7eri Ses Miksaj Mustafa Dikkol AK'LA KARA INTERNATIONAL NETFLIX DUBBING ST\u00dcDYOLARI",
+          "ocr_bbox": [
+            503,
+            187,
+            919,
+            530
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_021_num03798_sim47.jpg",
+          "frame_num": 3798,
+          "ocr_text": "Oyuncu Kadrosu Raquel Esra Akkaya Germ\u00e1n Fatih G\u00fclnar Viruca Elif Acehan Mauro Cem Kurtolu Roi ilker G\u00fcler lago Harun Can Tere Seyhan Arman Gabriel Acebedo ilham Erdoan Sim\u00f3n Tugay Erverdi AK'LA KARA NETFLIX INTERNATIONAL DUBBING STUDYOLARI",
+          "ocr_bbox": [
+            494,
+            127,
+            919,
+            588
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_022_num03813_sim100.jpg",
+          "frame_num": 3813,
+          "ocr_text": "Oyuncu Kadrosu Raquel Esra Akkaya Germ\u00e1n Fatih G\u00fclnar Viruca Elif Acehan Mauro Cem Kurtolu Roi ilker G\u00fcler lago Harun Can Tere Seyhan Arman Gabriel Acebedo ilham Erdoan Sim\u00f3n Tugay Erverdi AK'LA KARA NETFLIX I INTERNATIONAL DUBBING STUDYOLARI",
+          "ocr_bbox": [
+            494,
+            131,
+            920,
+            589
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "El_desorden_que_dejas_S01E03_End\\analysis\\frames\\scene_002_static_023_num03858_sim53.jpg",
+          "frame_num": 3858,
+          "ocr_text": "Dier Oyuncular Ouz Toydemir Canan Ciftel \u00d6zge Ce\u00e7en Elif Erdal Ali Hocaolu Burak Karaman Bari \u00dcnsal Selin T\u00fcrkmen Memetcan Diper Simge Nalbant Ceren Gedikali Sait Se\u00e7kin AK'LA KARA INTERNATIONAL NETFLIX ST\u00dcDYOLARI DUBBING",
+          "ocr_bbox": [
+            530,
+            87,
+            901,
+            629
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 24,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    }
+  }
+}

@@ -1,0 +1,2219 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_000_static_000_num00000_sim0.jpg",
+          "frame_num": 0,
+          "ocr_text": "JAPREY.COM",
+          "ocr_bbox": [
+            -991,
+            8,
+            -864,
+            52
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_000_static_001_num00049_sim91.jpg",
+          "frame_num": 49,
+          "ocr_text": "APREY.COM",
+          "ocr_bbox": [
+            -990,
+            9,
+            -870,
+            46
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.02993290312588215,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.02993290312588215,
+      "scroll_direction": null
+    },
+    "scene_1": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_000_num00050_sim83.jpg",
+          "frame_num": 50,
+          "ocr_text": "IJAPREY.COM",
+          "ocr_bbox": [
+            -991,
+            8,
+            -847,
+            48
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_001_num00062_sim47.jpg",
+          "frame_num": 62,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1539,
+            664,
+            1713,
+            709
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_002_num00158_sim85.jpg",
+          "frame_num": 158,
+          "ocr_text": "CENTURY DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            543,
+            204,
+            1712,
+            706
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_003_num00194_sim97.jpg",
+          "frame_num": 194,
+          "ocr_text": "20 CENTURY FOX DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            555,
+            0,
+            1713,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_004_num00218_sim90.jpg",
+          "frame_num": 218,
+          "ocr_text": "CENTURY WOOD DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            577,
+            290,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_005_num00434_sim69.jpg",
+          "frame_num": 434,
+          "ocr_text": "20 th CENTURY A NeWS CorPoraTioN CoMPANY DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            570,
+            47,
+            1711,
+            706
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_006_num00554_sim26.jpg",
+          "frame_num": 554,
+          "ocr_text": "NAIJAPREY.COM",
+          "ocr_bbox": [
+            -992,
+            9,
+            -829,
+            48
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_007_num00566_sim88.jpg",
+          "frame_num": 566,
+          "ocr_text": "IJAPREY.COM",
+          "ocr_bbox": [
+            -992,
+            9,
+            -851,
+            49
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_008_num00578_sim30.jpg",
+          "frame_num": 578,
+          "ocr_text": "DOWNLOAD MORE.",
+          "ocr_bbox": [
+            1538,
+            663,
+            1655,
+            683
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_009_num00590_sim29.jpg",
+          "frame_num": 590,
+          "ocr_text": "AIJAPREY.COM",
+          "ocr_bbox": [
+            -992,
+            9,
+            -833,
+            48
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_010_num00602_sim29.jpg",
+          "frame_num": 602,
+          "ocr_text": "DOWNLOAD MORE.",
+          "ocr_bbox": [
+            1538,
+            662,
+            1656,
+            684
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_011_num00626_sim72.jpg",
+          "frame_num": 626,
+          "ocr_text": "DOWNLOAD MORE NAIJAPREY.COM",
+          "ocr_bbox": [
+            1538,
+            663,
+            1713,
+            709
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_012_num00686_sim96.jpg",
+          "frame_num": 686,
+          "ocr_text": "N DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            506,
+            124,
+            1713,
+            709
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_013_num00722_sim85.jpg",
+          "frame_num": 722,
+          "ocr_text": "RBGBI DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            215,
+            566,
+            1712,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_014_num00758_sim87.jpg",
+          "frame_num": 758,
+          "ocr_text": "REGEN 0 DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            238,
+            559,
+            1713,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_015_num00794_sim23.jpg",
+          "frame_num": 794,
+          "ocr_text": "D RE",
+          "ocr_bbox": [
+            967,
+            1092,
+            1495,
+            1176
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_016_num00806_sim24.jpg",
+          "frame_num": 806,
+          "ocr_text": "RBGEN DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            236,
+            557,
+            1712,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_017_num00818_sim34.jpg",
+          "frame_num": 818,
+          "ocr_text": "JAPREY.COM",
+          "ocr_bbox": [
+            -991,
+            8,
+            -864,
+            48
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_018_num00914_sim92.jpg",
+          "frame_num": 914,
+          "ocr_text": "IJAPREY.COM",
+          "ocr_bbox": [
+            -991,
+            9,
+            -845,
+            47
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_019_num00938_sim33.jpg",
+          "frame_num": 938,
+          "ocr_text": "AND PRESENT DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            506,
+            358,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_020_num00950_sim74.jpg",
+          "frame_num": 950,
+          "ocr_text": "RECENPENfEHPFISES DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            580,
+            282,
+            1712,
+            709
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_021_num00998_sim29.jpg",
+          "frame_num": 998,
+          "ocr_text": "IJAPREY.COM",
+          "ocr_bbox": [
+            -991,
+            11,
+            -849,
+            44
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_022_num01010_sim93.jpg",
+          "frame_num": 1010,
+          "ocr_text": "AIJAPREY.COM",
+          "ocr_bbox": [
+            -992,
+            8,
+            -843,
+            47
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_023_num01022_sim30.jpg",
+          "frame_num": 1022,
+          "ocr_text": "NOSNIT  FILMS PROUCTION DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            602,
+            319,
+            1712,
+            709
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_024_num01046_sim44.jpg",
+          "frame_num": 1046,
+          "ocr_text": "DOWNLOAD MORE.",
+          "ocr_bbox": [
+            1537,
+            662,
+            1656,
+            684
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_025_num01058_sim72.jpg",
+          "frame_num": 1058,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1537,
+            662,
+            1712,
+            709
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_026_num01070_sim41.jpg",
+          "frame_num": 1070,
+          "ocr_text": "JAPREY.COM",
+          "ocr_bbox": [
+            -991,
+            9,
+            -862,
+            47
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_027_num01082_sim25.jpg",
+          "frame_num": 1082,
+          "ocr_text": "DAVI7 FINCHER FILM DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            616,
+            308,
+            1712,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_028_num01094_sim98.jpg",
+          "frame_num": 1094,
+          "ocr_text": "DAVID FINCHER FILM DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            633,
+            317,
+            1712,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_029_num01106_sim96.jpg",
+          "frame_num": 1106,
+          "ocr_text": "ADAVI7 FINCHER FILM DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            609,
+            325,
+            1712,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_030_num01190_sim35.jpg",
+          "frame_num": 1190,
+          "ocr_text": "NAIJAPREY.COM",
+          "ocr_bbox": [
+            -992,
+            7,
+            -829,
+            48
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_031_num01202_sim56.jpg",
+          "frame_num": 1202,
+          "ocr_text": "DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1539,
+            664,
+            1712,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_001_static_032_num01209_sim100.jpg",
+          "frame_num": 1209,
+          "ocr_text": "DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            1538,
+            662,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 33,
+      "median_flow_px_per_frame": 0.13671593740582466,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2824297994375229,
+      "roi_percentile_flow": 0.13671593740582466,
+      "scroll_direction": null
+    },
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.17470063269138336,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.31799882650375366,
+      "roi_percentile_flow": 0.17470063269138336,
+      "scroll_direction": null
+    },
+    "scene_3": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_003_static_000_num01288_sim87.jpg",
+          "frame_num": 1288,
+          "ocr_text": "NOWAON DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            669,
+            229,
+            1713,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_003_static_001_num01300_sim32.jpg",
+          "frame_num": 1300,
+          "ocr_text": "NOWATON",
+          "ocr_bbox": [
+            701,
+            1293,
+            1045,
+            1486
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_003_static_002_num01312_sim33.jpg",
+          "frame_num": 1312,
+          "ocr_text": "DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1539,
+            664,
+            1713,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_003_static_003_num01350_sim100.jpg",
+          "frame_num": 1350,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1538,
+            662,
+            1713,
+            709
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.10398411750793457,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.13695213198661804,
+      "roi_percentile_flow": 0.10398411750793457,
+      "scroll_direction": null
+    },
+    "scene_4": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_004_static_000_num01363_sim87.jpg",
+          "frame_num": 1363,
+          "ocr_text": "HELENA DOWNLOAD MORE NAIJAPREY.COM",
+          "ocr_bbox": [
+            767,
+            261,
+            1712,
+            709
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.15290415287017822,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.16861100494861603,
+      "roi_percentile_flow": 0.15290415287017822,
+      "scroll_direction": null
+    },
+    "scene_5": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_005_static_000_num01508_sim60.jpg",
+          "frame_num": 1508,
+          "ocr_text": "DOWNLOAD MORE",
+          "ocr_bbox": [
+            -933,
+            37,
+            -820,
+            57
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_005_static_001_num01532_sim72.jpg",
+          "frame_num": 1532,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1538,
+            664,
+            1712,
+            709
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_005_static_002_num01556_sim100.jpg",
+          "frame_num": 1556,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1537,
+            663,
+            1712,
+            708
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.22479012608528137,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3297301232814789,
+      "roi_percentile_flow": 0.22479012608528137,
+      "scroll_direction": null
+    },
+    "scene_6": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_006_static_000_num01582_sim90.jpg",
+          "frame_num": 1582,
+          "ocr_text": "LGAF DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            777,
+            301,
+            1713,
+            709
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.2828075885772705,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.27212822437286377,
+      "roi_percentile_flow": 0.2828075885772705,
+      "scroll_direction": null
+    },
+    "scene_7": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_007_static_000_num01689_sim63.jpg",
+          "frame_num": 1689,
+          "ocr_text": "DOWNLOAD MORE",
+          "ocr_bbox": [
+            1537,
+            663,
+            1653,
+            683
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.1796012669801712,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.19352036714553833,
+      "roi_percentile_flow": 0.1796012669801712,
+      "scroll_direction": null
+    },
+    "scene_8": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_008_static_000_num01702_sim72.jpg",
+          "frame_num": 1702,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1539,
+            664,
+            1713,
+            709
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.1982470154762268,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.30509039759635925,
+      "roi_percentile_flow": 0.1982470154762268,
+      "scroll_direction": null
+    },
+    "scene_9": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_009_static_000_num01765_sim88.jpg",
+          "frame_num": 1765,
+          "ocr_text": "LARAY' DOWNLOAD MORE NAIJAPREY.COM",
+          "ocr_bbox": [
+            583,
+            303,
+            1713,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_009_static_001_num01777_sim87.jpg",
+          "frame_num": 1777,
+          "ocr_text": "LARAY TMAYFIEL DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            587,
+            269,
+            1713,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_009_static_002_num01837_sim54.jpg",
+          "frame_num": 1837,
+          "ocr_text": "MICHAEL DOWNLOAD MORE.",
+          "ocr_bbox": [
+            567,
+            277,
+            1655,
+            683
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.1777847558259964,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.18875505030155182,
+      "roi_percentile_flow": 0.1777847558259964,
+      "scroll_direction": null
+    },
+    "scene_10": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_010_static_000_num01851_sim81.jpg",
+          "frame_num": 1851,
+          "ocr_text": "MICHAEL DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            592,
+            292,
+            1713,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_010_static_001_num01859_sim49.jpg",
+          "frame_num": 1859,
+          "ocr_text": ".COM MICHAEE RAPEAN",
+          "ocr_bbox": [
+            17,
+            1021,
+            1122,
+            1425
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.23630847036838531,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.23107585310935974,
+      "roi_percentile_flow": 0.23630847036838531,
+      "scroll_direction": null
+    },
+    "scene_11": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_011_static_000_num01860_sim69.jpg",
+          "frame_num": 1860,
+          "ocr_text": "JAPREY.COM MICHAEL RAMEAN",
+          "ocr_bbox": [
+            13,
+            1018,
+            1123,
+            1426
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_011_static_001_num01872_sim36.jpg",
+          "frame_num": 1872,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1538,
+            662,
+            1713,
+            709
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.13085408508777618,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.15605027973651886,
+      "roi_percentile_flow": 0.13085408508777618,
+      "scroll_direction": null
+    },
+    "scene_12": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.24386629834771156,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.6056305170059204,
+      "roi_percentile_flow": 0.24386629834771156,
+      "scroll_direction": null
+    },
+    "scene_13": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_013_scroll_000_num01973_sim0.jpg",
+          "frame_num": 1973,
+          "ocr_text": "DOWHLDAD MORE NAIJAPREY.COM",
+          "ocr_bbox": [
+            1539,
+            662,
+            1713,
+            709
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.5912466049194336,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.5323354005813599,
+      "roi_percentile_flow": 0.5912466049194336,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 1096,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_14": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_014_static_000_num02047_sim76.jpg",
+          "frame_num": 2047,
+          "ocr_text": "THE DUST DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            549,
+            317,
+            1712,
+            709
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_014_static_001_num02059_sim88.jpg",
+          "frame_num": 2059,
+          "ocr_text": "THE DUST SAOTHERS DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            554,
+            284,
+            1712,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_014_static_002_num02095_sim33.jpg",
+          "frame_num": 2095,
+          "ocr_text": "AIJAPREY.COM",
+          "ocr_bbox": [
+            -991,
+            11,
+            -832,
+            43
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.29362863302230835,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3682928681373596,
+      "roi_percentile_flow": 0.29362863302230835,
+      "scroll_direction": null
+    },
+    "scene_15": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_015_static_000_num02113_sim52.jpg",
+          "frame_num": 2113,
+          "ocr_text": "NAIJAPREY.COM DOWHLDAD MORE.",
+          "ocr_bbox": [
+            -992,
+            11,
+            -819,
+            59
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_015_static_001_num02137_sim81.jpg",
+          "frame_num": 2137,
+          "ocr_text": "JAMES DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            635,
+            333,
+            1713,
+            708
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.34661900997161865,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3910503387451172,
+      "roi_percentile_flow": 0.34661900997161865,
+      "scroll_direction": null
+    },
+    "scene_16": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_016_static_000_num02209_sim73.jpg",
+          "frame_num": 2209,
+          "ocr_text": "ALEXTOWELL DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            624,
+            306,
+            1712,
+            709
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.19994798302650452,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2601485103368759,
+      "roi_percentile_flow": 0.19994798302650452,
+      "scroll_direction": null
+    },
+    "scene_17": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_017_static_000_num02253_sim63.jpg",
+          "frame_num": 2253,
+          "ocr_text": "IEFF PRONENWETH DOWNLOAD MORE NAIJAPREY.COM",
+          "ocr_bbox": [
+            549,
+            279,
+            1713,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_017_static_001_num02265_sim94.jpg",
+          "frame_num": 2265,
+          "ocr_text": "JEFF TCRONENWETH DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            575,
+            295,
+            1713,
+            709
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_017_static_002_num02289_sim42.jpg",
+          "frame_num": 2289,
+          "ocr_text": "AIJAPREY.COM DOWNLOAD MORE",
+          "ocr_bbox": [
+            -992,
+            8,
+            -816,
+            57
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_017_static_003_num02313_sim58.jpg",
+          "frame_num": 2313,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1538,
+            664,
+            1713,
+            709
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_017_static_004_num02325_sim75.jpg",
+          "frame_num": 2325,
+          "ocr_text": "ARNON'MILCHAN DOWNLDAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            585,
+            287,
+            1713,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_017_static_005_num02326_sim77.jpg",
+          "frame_num": 2326,
+          "ocr_text": "ARNON 'MILCHAN DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            587,
+            287,
+            1712,
+            708
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 6,
+      "median_flow_px_per_frame": -0.14002633094787598,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.11746251583099365,
+      "roi_percentile_flow": -0.14002633094787598,
+      "scroll_direction": null
+    },
+    "scene_18": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_018_static_000_num02375_sim24.jpg",
+          "frame_num": 2375,
+          "ocr_text": "APREY.COM",
+          "ocr_bbox": [
+            -991,
+            12,
+            -875,
+            41
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_018_static_001_num02391_sim83.jpg",
+          "frame_num": 2391,
+          "ocr_text": "IJAPREY",
+          "ocr_bbox": [
+            72,
+            1026,
+            159,
+            1052
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.17632755637168884,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.5019697546958923,
+      "roi_percentile_flow": 0.17632755637168884,
+      "scroll_direction": null
+    },
+    "scene_19": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_019_static_000_num02392_sim47.jpg",
+          "frame_num": 2392,
+          "ocr_text": "OOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1538,
+            664,
+            1712,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_019_static_001_num02404_sim46.jpg",
+          "frame_num": 2404,
+          "ocr_text": "CROCK'TAEAHNIUK DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            574,
+            290,
+            1713,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_019_static_002_num02428_sim51.jpg",
+          "frame_num": 2428,
+          "ocr_text": "DOWNLOAD MORE.",
+          "ocr_bbox": [
+            1539,
+            664,
+            1656,
+            683
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_019_static_003_num02452_sim72.jpg",
+          "frame_num": 2452,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1537,
+            662,
+            1713,
+            709
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.15881696343421936,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.18533214926719666,
+      "roi_percentile_flow": 0.15881696343421936,
+      "scroll_direction": null
+    },
+    "scene_20": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_020_scroll_000_num02462_sim0.jpg",
+          "frame_num": 2462,
+          "ocr_text": "DOWNLOAD MORE.",
+          "ocr_bbox": [
+            73,
+            1047,
+            187,
+            1064
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.7110108733177185,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.6372537612915039,
+      "roi_percentile_flow": 0.7110108733177185,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 911,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_21": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_021_static_000_num02506_sim72.jpg",
+          "frame_num": 2506,
+          "ocr_text": "NAIJAPREY.COM DOWNLOAD MORE.",
+          "ocr_bbox": [
+            -992,
+            8,
+            -815,
+            57
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_021_static_001_num02602_sim100.jpg",
+          "frame_num": 2602,
+          "ocr_text": "NAIJAPREY.COM DOWNLOAD MORE.",
+          "ocr_bbox": [
+            -991,
+            11,
+            -819,
+            57
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_021_static_002_num02614_sim52.jpg",
+          "frame_num": 2614,
+          "ocr_text": "AIJAPREY.COM",
+          "ocr_bbox": [
+            15,
+            1020,
+            179,
+            1054
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_021_static_003_num02626_sim52.jpg",
+          "frame_num": 2626,
+          "ocr_text": "NAIJAPREY.COM DOWNLOAD MORE.",
+          "ocr_bbox": [
+            -992,
+            9,
+            -816,
+            56
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_021_static_004_num02662_sim100.jpg",
+          "frame_num": 2662,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1539,
+            664,
+            1712,
+            708
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": 0.11482510715723038,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10672381892800331,
+      "roi_percentile_flow": 0.11482510715723038,
+      "scroll_direction": null
+    },
+    "scene_22": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_022_static_000_num02742_sim57.jpg",
+          "frame_num": 2742,
+          "ocr_text": "ART CEAN CHAFFIN ROSS GRAYSON BELL DOWNLOAD MORE NAIJAPREY.COM",
+          "ocr_bbox": [
+            544,
+            234,
+            1711,
+            706
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_022_static_001_num02754_sim94.jpg",
+          "frame_num": 2754,
+          "ocr_text": "ART LINSON CEAN CHAFFIN ROSS GRAYSON BELL DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            554,
+            202,
+            1713,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_022_static_002_num02802_sim52.jpg",
+          "frame_num": 2802,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1539,
+            664,
+            1712,
+            708
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.14445864781737328,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2576967552304268,
+      "roi_percentile_flow": 0.14445864781737328,
+      "scroll_direction": null
+    },
+    "scene_23": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_023_scroll_000_num02883_sim0.jpg",
+          "frame_num": 2883,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1540,
+            664,
+            1713,
+            707
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.7717114686965942,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.41786375641822815,
+      "roi_percentile_flow": 0.7717114686965942,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 840,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_24": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_000_num02926_sim52.jpg",
+          "frame_num": 2926,
+          "ocr_text": "AIJAPREY.COM",
+          "ocr_bbox": [
+            -991,
+            7,
+            -844,
+            53
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_001_num02938_sim94.jpg",
+          "frame_num": 2938,
+          "ocr_text": "NAIJAPREY.COM",
+          "ocr_bbox": [
+            -992,
+            7,
+            -821,
+            52
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_002_num02962_sim26.jpg",
+          "frame_num": 2962,
+          "ocr_text": "Unit Production Manager HELEN POLLAK DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            470,
+            317,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_003_num03034_sim45.jpg",
+          "frame_num": 3034,
+          "ocr_text": "First Assistant Director MIKE TOPOOZIAN Second Assistant Director BOB WAGNER DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            457,
+            234,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_004_num03118_sim29.jpg",
+          "frame_num": 3118,
+          "ocr_text": "CAST (In order of appearance) EDWARD NORTON Narrator Tyler Durden BRAD PITT Robert Paulsen MEAT LOAF ADAY Richard Chesler (Regional Manager) ZACH GRENIER RICHMOND Intern at Hospital ARQUETTE Thomas at Remaining Men Together DAVID ANDREWS Group Leader -Remaining Men Together GEORGE MAGUIRE Upward EUGENIE BONDURANT Weeping Woman - Onward and Leader - Partners In Positivity CHRISTINA CABOT DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            249,
+            83,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_005_num03202_sim45.jpg",
+          "frame_num": 3202,
+          "ocr_text": "Marla Singer HELENA BONHAM CARTER Speaker -Free and Clear SYDNEY \"BIG DAWG\" COLSTON Chloe RACHEL SINGER Airline Check-In Attendant CHRISTIE CRONENWETH Federated Motor Co. Inspector Bird TIM deZARN Federated Motor Co Inspector Dent EZRA BUZZINGTON DIERDRE DOWNING-JACKSON Business Woman on Plane Airport Security Officer ROBERT J. STEPHENSON Doorman at Pearson Towers CHARLIE DELL Man in Suit ROB LANZA DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            318,
+            88,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_006_num03298_sim47.jpg",
+          "frame_num": 3298,
+          "ocr_text": "Walter DAVID LEE SMITH The Mechanic HOLT McCALLANY JOEL BISSONNETTE Food Court Maitre d Ricky EION BAILEY Steph EVAN MIRAND Next Month's Opponent ROBBY ROBINSON LOU BEATTY, JR Cop at Marla's Building Detective Stern THOM GOSSOM JR Cosmetics Buyer VALERIE BICKFORD JARED LETO Angel Face DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            494,
+            89,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_007_num03310_sim100.jpg",
+          "frame_num": 3310,
+          "ocr_text": "Walter DAVID LEE SMITH The Mechanic HOLT MCCALLANY JOEL BISSONNETTE Food Court Maitre d Ricky EION BAILEY Steph EVAN MIRAND Next Month's Opponent ROBBY ROBINSON LOUB Cop at Marla's Building BEATTY. JR. Detective Stern THOM GOSSOM JR Cosmetics Buyer VALERIE BICKFORD JARED Angel Face LETO DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            491,
+            89,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_008_num03382_sim49.jpg",
+          "frame_num": 3382,
+          "ocr_text": "Lou PETER IACANGELO Lou's Body Guard CARL N. CIARFALIO STUART BLUMBERG Car Salesman First Man at Auto Shop TODD PEIRCE Second Man at Auto Shop MARK FITE Seminary Student MATT WINSTON Raymond K. Hessel JOON B. KIM Bus Driver with Broken Nose BENNIE E. MOORE. JR Channel 4 Reporter W. LAUREN SANCHEZ PAT MCNAMARA Commissioner Jacobs DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            421,
+            90,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_009_num03478_sim51.jpg",
+          "frame_num": 3478,
+          "ocr_text": "TYRONE-R. LIVINGSTON Banquet Speaker Airport Valet OWEN MASTERSON Policeman DAVID JEAN-THOMAS Bartender PAUL CARAFOTES Salvator - Winking Proprietor ot Dry Cleaners CHRISTOPHER JOHN FIELDS Bruised Bar Patron #1 ANDERSON BOURELL Bruised Bar Patron #2 SCOTCH ELLIS LORING Bartender In MICHAEL SHAMUS WILES Halo ANDI Hotel Desk Clerk CARNICK Waiter at Clifton's EDWARD KOWALCZYK DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            412,
+            88,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_010_num03562_sim45.jpg",
+          "frame_num": 3562,
+          "ocr_text": "Desk Sergeant LEONARD TERMO Detective Andrew VAN QUATTRO MARKUS REDMOND Detective Kevin Detective Walker MICHAEL GIRARDIN Stunt Coordinator MICHAEL RUNYARD DAMON CARO Stunt Players JEFF IMADA DAVID LEITCH JIMMY NICKERSON DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            583,
+            140,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_011_num03646_sim45.jpg",
+          "frame_num": 3646,
+          "ocr_text": "CREW Associate Producer JOHN S. DORSEY Art Director CHRIS GORAK Set Decorator JAY R. HART CONRAD W. Camera Operator HALL First Assistant Camera JOHN CONNOR Second Assistant Camera LISA \"COCONUT\" GUERRIERO CHRIS Steadicam Operator HAARHOFF Camera Loader GARY KANNER DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            470,
+            110,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_012_num03742_sim49.jpg",
+          "frame_num": 3742,
+          "ocr_text": "Post Production Supervisor PETER MAVROMATES JULIEM. ANDERSON Production Supervisor ROBB EARNEST Production Coordinator Assistant Production Coordinator DAVID McKIMMIE Script Supervisor DINA WAXMAN RICK SCHULER Location Managers FLINT MALONEY ALLEN KUPETSKY Second Second Assistant Directors MICHAEL A MCCUE Sound Mixer JEFF WEXLER Boom Operator DON COUFAL DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            337,
+            85,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_013_num03754_sim100.jpg",
+          "frame_num": 3754,
+          "ocr_text": "Post Production Supervisor PETER MAVROMATES JULIE M. ANDERSON Production Supervisor ROBB EARNEST Production Coordinator Assistant Production Coordinator DAVID McKIMMIE Script Supervisor DINA WAXMAN RICK SCHULER Location Managers FLINT MALONEY ALLEN KUPETSKY Second Second Assistant Directors MICHAEL A. MCCUE Sound Mixer JEFF WEXLER Boom Operator DON COUFAL DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            336,
+            84,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_014_num03814_sim99.jpg",
+          "frame_num": 3814,
+          "ocr_text": "Post Production Supervisor PETER MAVROMATES JULIEM. ANDERSON Production Supervisor ROBB EARNEST Production Coordinator Assistant Production Coordinator DAVID McKIMMIE Script S Supervisor DINA WAXMAN RICK SCHULER Location Managers FLINT MALONEY ALLEN KUPETSKY Second Second Assistant Directors MICHAEL A. McCUE Sound Mixer JEFF WEXLER Boom Operator DON COUFAL DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            337,
+            84,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_015_num03826_sim45.jpg",
+          "frame_num": 3826,
+          "ocr_text": "Sound Technician MARK C. GRECH Gatter CLAUDIO MIRANDA EDDY MALONEY Best Boy Electric MIKE ARVANITIS Fox Best Boy Electric MARTY BOSWORTH Rigging Gatter DAVE DIAMOND Rigging Best Boy Electric Company Electricians ANTHONY VAN DYKE CLIVERICHARDS HAROLD J. SKINNER TOM SUGG JAMES NOBLE DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            463,
+            101,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_016_num03850_sim97.jpg",
+          "frame_num": 3850,
+          "ocr_text": "Sound Technician MARK C. GRECH Gatter CLAUDIO MIRANDA EDDY MALONEY Best Boy Electric MIKE ARVANITIS Fox Best Boy Electric MARTY BOSWORTH Rigging Gatter DAVE DIAMOND Rigging Best Boy Electric Company Electricians ANTHONY VAN DYKE CLIVE RICHARDS HAROLD J SKINNER TOM SUGG JAMES NOBLE DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            463,
+            99,
+            1712,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_024_static_017_num03922_sim53.jpg",
+          "frame_num": 3922,
+          "ocr_text": "Key Grip MICHAEL J. COO CRAIG KOHTALA Best Boy Grip RHETT WOODEN Fox Best Boy Grip Dolly Grip MICHAEL BRENNAN Rigging Key Grip LARRY AUBE MICHAEL SANTORO ROBERT J. REILLY Rigging Best Boy Grips Company Grips NICO BALLY JOHN P. CLEVELAND KEN COTTENGIM. JR JULIE PEARCE Key Make-Up Artist Make-Up Artists RANDY S. WESTGATE MARGARET PRENTICE DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            497,
+            79,
+            1711,
+            706
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 18,
+      "median_flow_px_per_frame": 0.10803229734301567,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10697997361421585,
+      "roi_percentile_flow": 0.10803229734301567,
+      "scroll_direction": null
+    },
+    "scene_25": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_025_static_000_num04002_sim46.jpg",
+          "frame_num": 4002,
+          "ocr_text": "Mr. Pitt's Make-Up Artist JEAN A. BLACK ROB BOTTIN Special Make-Up Ettects PRODUCTIONS, INC. CHRISTOPHER HEETER Production Manager Illustrator/Sculptor TAISHIRO KIYA Sculptors MOTOYOSHI HATA GLEN HANZ Mold Maker ARTHUR PIMENTEL Prosthetic Technician GREG SOLOMON Key Hair Stylist FRIDA ARADOTTIR Hair Stylist PATTY MILLER REBECCA DELEO Mr. Pitt's Hair Consultant RICK GLASSMAN. D.D.S. Special Dental Ettects DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            468,
+            91,
+            1711,
+            706
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_025_static_001_num04098_sim47.jpg",
+          "frame_num": 4098,
+          "ocr_text": "ROY \"BUCKY\" MOORE Property Master BRYAN DUFF Assistant Property Masters BRYCE-MOORE Assistant Art Director SETH REED Graphic Designer ERIC ROSENBERG ELINOR Costume Supervisor BARDACH RHONA Key Costumers MEYERS WENDY GREINER Set Costumers TERRY ANDERSON WENDY M. CRAIG AMANDA FRIEDLAND Bob Suit Keyperson CAMILLA HENNEMAN DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            449,
+            84,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_025_static_002_num04146_sim98.jpg",
+          "frame_num": 4146,
+          "ocr_text": "ROY \"BUCKY\" MOORE Property Master BRYAN DUFF Assistant Property Masters BRYCE MOORE Assistant Art Director SETH REED Graphic Designer ERIC ROSENBERG Costume Supervisor ELINOR BARDACH RHONA Key Costumers MEYERS WENDY GREINER Set Costumers TERRY ANDERSON WENDY M. CRAIG AMANDA FRIEDLAND Bob Suit Keyperson CAMILLA HENNEMAN DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            449,
+            83,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.10839851014316082,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.1106414794921875,
+      "roi_percentile_flow": 0.10839851014316082,
+      "scroll_direction": null
+    },
+    "scene_26": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_026_static_000_num04180_sim48.jpg",
+          "frame_num": 4180,
+          "ocr_text": "Special Elfects Coordinator CLIFF WENGER ERIC ROBERTS Special Effects Foreman DERRELL SHAWN\" ROBERTS Special Effects DERRICK CRANE KEVIN PIKE Production Accountant JIM DAVIDSON 1st Assistant Accountant JOE HARTWICK, JR. JULIE ANN 2nd Assistant Accountants SNOW EILEEN M. DENNIS Construction Accountant CARRIE BEST Payroll Accountant CINDY NEVINS KAREN Post-Production Accountant CHALK WHEELER DAVID J. COFINI Accounting Assistant DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            439,
+            82,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_026_static_001_num04204_sim98.jpg",
+          "frame_num": 4204,
+          "ocr_text": "Special Effects Coordinator CLIFF WENGER ERIC ROBERTS Special Etfects Foreman Special Effects DERRELL SHAWN' ROBERTS DERRICK CRANE KEVIN PIKE Production Accountant JIM C DAVIDSON 1st Assistant Accountant JOE HARTWICK JR JULIE ANN SNOW 2nd Assistant Accountants EILEEN M. DENNIS Construction Accountant CARRIE BEST Payroll Accountant CINDY NEVINS KAREN CHALK Post-Production Accountant WHEELER Accounting Assistant DAVID J. COFINI DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            440,
+            82,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.10420672222971916,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10198864340782166,
+      "roi_percentile_flow": 0.10420672222971916,
+      "scroll_direction": null
+    },
+    "scene_27": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_027_static_000_num04269_sim45.jpg",
+          "frame_num": 4269,
+          "ocr_text": "JEFF PASSANANTE Paint Construction Coordinator LARRY LAURENT Foremen Construction Foreman TIM LAFFERTY ANDY SCUDIER Head Paint Foreman TOM BROWN PAUL MILTON ROHRBAUGH III Standby Painter BILL \"KAUHANE\" HOYT BRUCE G. SMITH DAVID BRENNER Propmaker Foremen CLINT TAYLOR Labor NEIL GAHM Foremen JOHN LEONE SAM AGUILAR TIMOTHY VIERRA MANNY VALENZUELA BUTCH\" MONTGOMERY GEORGE W. STOKES JR. STEPHEN ROLL DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            189,
+            122,
+            1711,
+            706
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.05058954283595085,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10398543998599052,
+      "roi_percentile_flow": 0.05058954283595085,
+      "scroll_direction": null
+    },
+    "scene_28": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_028_static_000_num04358_sim46.jpg",
+          "frame_num": 4358,
+          "ocr_text": "Art Department Coordinator QUINN Art Department Assistant DIANNECHADWICK PETER RAMSEY Storyboard Artist Set Designers LUIS G. HOYOS HUGO SANTIAGO DOMENIC H. PETER J. KELLY SILVESTRI JULIA LEVINE Illustrators RICK K. BUOEN TANI KUNITAKE Model Maker FAN\u00c9E AARON SCOTT BAILEY Leadman On Set Dresser GREGORY N. ROCCO Set Dressing Buyer DANIELLE M. SIMPSON DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            442,
+            77,
+            1712,
+            708
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_028_static_001_num04418_sim98.jpg",
+          "frame_num": 4418,
+          "ocr_text": "Art Department Coordinator QUINN Art Department Assistant DIANNE CHADWICK Storyboard Artist PETER RAMSEY Set Designers LUIS G. HOYOS HUGO SANTIAGO PETER J. KELLY DOMENIC H. SILVESTRI JULIA LEVINE Illustrators RICK K. BUOEN TANI KUNITAKE Model Maker FAN\u00c9E AARON SCOTT BAILEY Leadman On Set Dresser GREGORY N. ROCCO Set Dressing Buyer DANIELLE M. SIMPSON DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            441,
+            77,
+            1712,
+            708
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.11754094809293747,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.11697808653116226,
+      "roi_percentile_flow": 0.11754094809293747,
+      "scroll_direction": null
+    },
+    "scene_29": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_029_static_000_num04447_sim49.jpg",
+          "frame_num": 4447,
+          "ocr_text": "Casting Associate KAREN MIESELS Set Dressers CHARLES W. BELISLE CHRISTIE CEAN GEORGE Casting Assistant DOUG SIECK BILL DANCE CASTING Extras Casting MAX E. BREHME Video Assist WAYNE R. TIDWELL TIM WILES WILLIAM ANDREW Transportation JOHN GRANT Coordinator DAVE ROBLING ADAM PEARLMAN Transportation CHRIS GRANTZ Captains THOMAS F. MARSHALL KAI BLOMBERG FRANK ROUGHAN TYLER PATTON JIM ALFONSO DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            219,
+            138,
+            1712,
+            708
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.1097499243915081,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10635263472795486,
+      "roi_percentile_flow": 0.1097499243915081,
+      "scroll_direction": null
+    },
+    "scene_30": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_030_static_000_num04536_sim49.jpg",
+          "frame_num": 4536,
+          "ocr_text": "Transportation GALA CATERING Office Asst MARILYN TASSO Caterer RAYMOND BULINSKI Set Production Craft Service Assistants BUZ PRESOCK SUSAN B. KREUTZ MICHAEL HERRON Still MARIA MANTIA Photographer MERRICK MORTON Production Assistants JEFFREY RODERICK WOODS PATRICK THORNHILL KIERON ESTRADA BRANDON M COX DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            246,
+            121,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.11025536432862282,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10396965220570564,
+      "roi_percentile_flow": 0.11025536432862282,
+      "scroll_direction": null
+    },
+    "scene_31": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_031_static_000_num04625_sim45.jpg",
+          "frame_num": 4625,
+          "ocr_text": "SHAUNA BEAL, HASINA DEARY Assistants to Mr. Milchan Mr. Linson's Associate PATTI ROBERTS NELSON Assistant to Ms. Chaffin ALISON ABROHAMS Assistant to Mr. Norton JULIA P. PITT RICH MALCHAR Assistant to Mr. Pitt Dialect Coach FRANCIE-BROWN Editorial Consultant ANGUS WALL First Assistant Editors ALEX OLIVARES MICHAEL MATZDORFF Second Assistant Editors MICHELLEMENDENHALL BABETTEDICKERSON MARTHAANNEFRANCIS Apprentice Editor ROBERT LONGSTREET WHEELER DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            467,
+            86,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_031_static_001_num04637_sim97.jpg",
+          "frame_num": 4637,
+          "ocr_text": "SHAUNA BEAL, HASINA DEARY Assistants to Mr. Milchan Mr. Linson's Associate PATTI ROBERTS NELSON Assistant to Ms. Chaffin ALISON ABROHAMS Assistant to Mr. Norton JULIA P. PITT RICH MALCHAR Assistant to Mr. Pitt FRANCIE BROWN Dialect Coach Editorial Consultant ANGUS WALL First Assistant Editors ALEX OLIVARES MICHAEL MATZDORFF Second Assistant Editors MICHELLEMENDENHALL BABETTEDICKERSON MARTHA ANNE FRANCIS Apprentice Editor ROBERT LONGSTREET WHEELER DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            467,
+            86,
+            1712,
+            708
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.11802386119961739,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.11455236189067364,
+      "roi_percentile_flow": 0.11802386119961739,
+      "scroll_direction": null
+    },
+    "scene_32": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_032_static_000_num04714_sim33.jpg",
+          "frame_num": 4714,
+          "ocr_text": "Post Production Sound Services provided by SKYWALKER SOUND a division of Lucas Digital Ltd. Marin County Calitornia DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            626,
+            235,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_032_static_001_num04810_sim39.jpg",
+          "frame_num": 4810,
+          "ocr_text": "RICHARD HYMNS Sound Supervisor DAVID PARKER Re-recording Mixers MICHAEL SEMANICK TODD BOEKELHEIDE DAVID GLEESON Additional Mixing MALCOLM FIFE Supervising Foley Editor Sound Elfects Editors DAVID HUGHES STEVE BOEDDEKER Dialogue Editors EWA SZTOMPKE-OATFIELD RICH OUINN ADR Supervisor GWENDOLYN YATES WHITTLE ADR Editor TOM BELLFORT DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            484,
+            88,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_032_static_002_num04858_sim100.jpg",
+          "frame_num": 4858,
+          "ocr_text": "RICHARD HYMNS Sound Supervisor DAVID PARKER Re-recording Mixers MICHAEL SEMANICK TODD BOEKELHEIDE DAVID GLEESON Additional Mixing MALCOLM FIFE Supervising Foley Editor Sound Elfects Editors DAVID C HUGHES STEVE BOEDDEKER Dialogue Editors EWA SZTOMPKE-OATFIELD RICH OUINN ADR Supervisor GWENDOLYN YATES WHITTLE ADR Editor TOM BELLFORT DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            483,
+            86,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_032_static_003_num04894_sim52.jpg",
+          "frame_num": 4894,
+          "ocr_text": "Contorming Sound Editors LARRY OATFIELD LINDAKAY BROWN KYRSTEN COMOGLIO LISA CHINO Asst. Supervising Sound Editor Asst Sound Designer MISA KAGEYAMA Asst. Sound Editors JESSICA BELLFORT SARAH HEGARTY ANDRE FENLEY LARRY SCHALIT Sound Apprentice DOUG WINNINGHAM Mix Technicians JURGEN SCHARPF BRANDON PROCTOR DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            387,
+            92,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_032_static_004_num04990_sim48.jpg",
+          "frame_num": 4990,
+          "ocr_text": "Foley Artists JOHN ROESCH HILDA HODGES MARYJO LANG Foley Mixer Foley Recordist CAROLYN TAPP ADR Mixers DOC KANE CHARLEEN RICHARDS DAVID BOULTON Music Editor BRIAN RICHARDS THE DUST BROTHERS Score Arranged. Recorded and Mixed by Michael Simpson and John King) Score Co-Produced by THE OTHER BROTHERS Art Hodge and Charles Goodan) Score Recorded & Mixed at P.C.P. LABS -L.A. DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            249,
+            90,
+            1712,
+            708
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_032_static_005_num05074_sim45.jpg",
+          "frame_num": 5074,
+          "ocr_text": "MICKIE-MCGOWAN Voice Casting Negative Cutter KONA CUTTING Color Timer DAVID ORR Main Title Design MAKELA End Credits SCARLET LETTERS CUSTOM FILM EFFECTS POP FILM Digital Transitions by Stock Footage NICKERSON RESEARCH Airline Interiors AERO MOCK-UPS, INC DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            523,
+            125,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_032_static_006_num05170_sim31.jpg",
+          "frame_num": 5170,
+          "ocr_text": "Visual Etfects Supervisor KEVIN TOD HAUG DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            663,
+            304,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_032_static_007_num05254_sim25.jpg",
+          "frame_num": 5254,
+          "ocr_text": "Visual Etfects Producer ROBIN D'ARCY Visual Etfects Post Producer CAREY LEN SMITH Visual Effects Assistant LESLIEMCMINN MICHAEL DOUGLAS MIDDELTON Visual Effects Still Photographer Medical Artist KATHERINE JONES Translite Photography by RICHARD LUND Matte SUZANNE MITUS Translite Painter Special Visual Effects and Digital Animation BLUE SKY STUDIOS by CARLOS SALDANHA Animation Supervisor DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            370,
+            98,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 8,
+      "median_flow_px_per_frame": 0.10835179686546326,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10803413018584251,
+      "roi_percentile_flow": 0.10835179686546326,
+      "scroll_direction": null
+    },
+    "scene_33": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_033_static_000_num05337_sim51.jpg",
+          "frame_num": 5337,
+          "ocr_text": "DAVE WALVOORD Senior Lighting & Etfects Artist Senior Digital Etfects Producer CHRISTOPHER SCOLLARD Digital Etfects Coordinator IRKA B. SENG Senior Digital Artist JOHN SICZEWICZ ALEXANDER Modeler LEVENSON Animators JAIME ANDRES CASTANEDA MIKE THURMEIER Rotoscoper CHRISTOPHER M BURROWS Digital Etfects Editor FRITZ ARCHER DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            388,
+            127,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_033_static_001_num05433_sim51.jpg",
+          "frame_num": 5433,
+          "ocr_text": "Special Visual Effects and Digital Animation by BUF INC. CG Supervisors YANN BLONDEL GEOFFREY NIQUET DUPUIS STEPHANE CHRISTOPHE-OLIVIER NAZE DAVID VERBEKE Digital Artists OLIVIER ERIC DELTOUR CAUWET FRANCOISBOUDAILLE PATRICK LACHAUX PEN\u00c9LOPE VANDECAVE SEVERINE GARNIER DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            349,
+            136,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_033_static_002_num05445_sim97.jpg",
+          "frame_num": 5445,
+          "ocr_text": "Special Visual Effects and Digital Animation by BUF INC. CG Supervisors YANN BLONDEL GEOFFREY NIQUET CHRISTOPHE-OLIVIER DUPUIS STEPHANE NAZE DAVID VERBEKE Digital Artists OLIVIER ERIC DELTOUR CAUWET FRANCOIS BOUDAILLE PATRICK LACHAUX PEN\u00c9LOPE VANDECAVE SEVERINE GARNIER DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            349,
+            136,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_033_static_003_num05457_sim100.jpg",
+          "frame_num": 5457,
+          "ocr_text": "Special Visual Effects and Digital Animation by BUF INC. CG Supervisors YANN BLONDEL GEOFFREY NIQUET DUPUIS STEPHANE CHRISTOPHE-OLIVIER NAZE DAVID VERBEKE Digital Artists OLIVIER ERIC DELTOUR CAUWET FRANCOIS BOUDAILLE PATRICK LACHAUX PENELOPE VANDECAVE SEVERINE GARNIER DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            350,
+            135,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.10287038050591946,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10764650255441666,
+      "roi_percentile_flow": 0.10287038050591946,
+      "scroll_direction": null
+    },
+    "scene_34": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_034_static_000_num05515_sim54.jpg",
+          "frame_num": 5515,
+          "ocr_text": "Software Development XAVIER BEC LAURENT SOUDRIE ISABELLE HAULIN Production PATRICIA BOULOGNE FRANCESCO GRISI PATRICK SHEARN Digital Visual Effects and Digital Film Scanning by COMMAND POST TOYBOX, TORONTO Visual Effects DENNIS BERARDI Supervisor JEFF CAMPBELL Digital Effects Compositor Digital Film Supervisor MIKE ELLIS 3D Animator JIM RUTHERFORD DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            309,
+            116,
+            1712,
+            708
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.10680704191327095,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0004674699157476425,
+      "roi_percentile_flow": 0.10680704191327095,
+      "scroll_direction": null
+    },
+    "scene_35": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_035_static_000_num05604_sim61.jpg",
+          "frame_num": 5604,
+          "ocr_text": "Special Visual Effects and Digital Animation by DIGITAL DOMAIN Visual Etfects Supervisor KEVIN MACK Visual Effects Producer EILEEN MORAN CG Supervisor MATTHEW BUTLER Digital Compositing Supervisor CAREY VILLEGAS DAVID W. PRESCOTT Opening Sequence Team Leads JUDITH CROW Digital Compositors DARREN M. POE RACHEL DUNN DAVID STERN Visual Etfects Coordinator LAUREN LITTLETON DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            386,
+            94,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_035_static_001_num05700_sim51.jpg",
+          "frame_num": 5700,
+          "ocr_text": "Digital Artists DANIEL LEMMON SEAN ANDREW FADEN VERNON R. WILBERT JR BRAD PARKER MICHAEL EDLAND ZACHARY TUCKER Y YANG CHRIS Digital Paint Artists PAOLO J. de GUZMAN MARTHA SNOW MACK Software Engineers DARIN K. GRANT LUCIO I. FLORES Film Imaging Supervisor MICHAEL D. KANFER Scanning & Recording by EFILM DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            424,
+            117,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_035_static_002_num05784_sim54.jpg",
+          "frame_num": 5784,
+          "ocr_text": "Special Visual Etfects by GRAY MATTER FX GRAY MARSHALL Visual Etfects Supervisor/Lead Compositor Visual Etfects Producer MARGAUX MACKAY Compositor/Roto Artist DAVE LOCKWOOD Matte Painter DAVID BAILEY Special Visual Effects and Digital Animation by IMAGE SAVANT Digital Animation Supervisor/Producer RICHARD DR.\" BAILY Custom Software JOSH ALLER MARK Digital Animation Assistant JOINER DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            245,
+            102,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_035_static_003_num05880_sim48.jpg",
+          "frame_num": 5880,
+          "ocr_text": "Pre-Visualization by PIXEL LIBERATION FRONT RON FRANKEL Pre-Visualization Supervisor COLIN GREEN Shot Designers JAMES BATTERSBY Digital Compositing NICHOLAS BROOKS Miniature Pyrotechnics by STIRBER VISUAL NETWORK, INC. Supervisor JOHN K STIRBER RICHARD LEA Model Foremen JEFF S. PYLE Electrical STEVE HUMPHREY Pyro Foreman ROY DOWNEY DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            428,
+            95,
+            1712,
+            708
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_035_static_004_num05964_sim33.jpg",
+          "frame_num": 5964,
+          "ocr_text": "Original Music Composed THE DUST BROTHERS (Michael Simpson and John King) DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            651,
+            269,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_035_static_005_num05976_sim98.jpg",
+          "frame_num": 5976,
+          "ocr_text": "Original Music Composed by THE DUST BROTHERS (Michael Simpson and John King) DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            650,
+            267,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_035_static_006_num06060_sim29.jpg",
+          "frame_num": 6060,
+          "ocr_text": "\"SVARGA COFFEE STORE ZAK Composed by Rolte Kent Composed by Azam Ali. Greg Ellis Courtesy of Twentieth Century Fox Performed by Vas Film Corporation Courtesy of Narada Productions, Inc. GIRL FROM YPSILANT! CAFETERIA Written and Performed by Daniel May Written by Christian Poulet Courtesy of Marc Ferrari/MasterSource Performed by Cezame Argile Courtesy of Koka Media/Killer Tracks DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            243,
+            153,
+            1712,
+            708
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_035_static_007_num06072_sim100.jpg",
+          "frame_num": 6072,
+          "ocr_text": "COFFEE STORE ZAK \"SVARGA Composed by Rolte Kent Composed by Azam Ali. Greg Ellis Courtesy of Twentieth Century Fox Performed by Vas Film Corporation Courtesy of Narada Productions, Inc. GIRL FROM YPSILANTI CAFETERIA Written and Performed by Daniel May Written by Christian Poulet Courtesy of Marc Ferrari/MasterSource Performed by Cezame Argile Courtesy of Koka Media/Killer Tracks DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            243,
+            153,
+            1712,
+            708
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_035_static_008_num06096_sim99.jpg",
+          "frame_num": 6096,
+          "ocr_text": "SVARGA COFFEE STORE ZAK Composed d by Rolfe Kent Composed by Azam Ali Greg Ellis Courtesy of Twentieth Century Fox Performed by Vas Film Corporation Courtesy of Narada Productions, Inc. GIRL FROM YPSILANTI CAFETERIA Written and Performed by Daniel May Written by Christian Poulet Courtesy of Marc Ferrari/MasterSource Performed by Cezame Argile Courtesy of Koka Media/Killer Tracks DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            243,
+            153,
+            1711,
+            706
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_035_static_009_num06108_sim100.jpg",
+          "frame_num": 6108,
+          "ocr_text": "SVARGA COFFEE STORE ZAK Composed d by Rolfe Kent Composed by Azam Ali Greg Ellis Courtesy of Twentieth Century Fox Performed by Vas Film Corporation Courtesy of Narada Productions, Inc. GIRL FROM YPSILANTI CAFETERIA Written and Performed d by Daniel May Written by Christian Poulet Courtesy of Marc Ferrari/MasterSource Performed by Cezame Argile Courtesy of Koka Media/Killer Tracks DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            243,
+            153,
+            1711,
+            706
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_035_static_010_num06144_sim52.jpg",
+          "frame_num": 6144,
+          "ocr_text": "\"SMOKE STACK FORBIDDEN TO LOVE\" Written by Franki Hulme, Kenton Hulme Music by Guy Moon John Wolfenden and Melle Steagall Lyric by Bob Garret Performed by Junk Ferry Arrangement by Jeft Haskell Produced by Guy Moon EASY SMACK IT UP\" Written by M. Petrie and K. Moo SPLENDID & 4M15 Performed by The Odditorium Composed by Courtesy of Hi-Ho Records Kenneth \"Babyface\" Edmonds DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            240,
+            151,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_035_static_011_num06228_sim52.jpg",
+          "frame_num": 6228,
+          "ocr_text": "\"GO'IN OUT WEST\" \"NO LOVE. NO NOTHIN\" Waits. Kathleen Brennan Written by Tom Composed by Leo Robin and Performed by Tom Waits Harry Warren Courtesy of Island Records. Inc. Performed by Marlene Dietrich Under License From Courtesy of Columbia Records for the U.S. and Canada M. Dietrich Universal Music Special Markets Inc for the rest of the Universe Theme From VALLEY OF THE DOLLS KDFW News Theme Words and Music by Composed by Stephen Arnold Dory and Andre Previn DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            244,
+            112,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 12,
+      "median_flow_px_per_frame": 0.10514544881880283,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10765567794442177,
+      "roi_percentile_flow": 0.10514544881880283,
+      "scroll_direction": null
+    },
+    "scene_36": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_036_static_000_num06316_sim49.jpg",
+          "frame_num": 6316,
+          "ocr_text": "WHERE IS MY MIND\" \"TZIGANY WALTZ\" Written by George Fenton Written by Black Francis and John Leach Performed by The Pixies Courtesy of Courtesy of Associated Production Music Elektra Entertainment Group/4AD By arrangement with Warner Special Products DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            299,
+            175,
+            1712,
+            708
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_036_static_001_num06412_sim16.jpg",
+          "frame_num": 6412,
+          "ocr_text": "DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            1539,
+            664,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_036_static_002_num06496_sim47.jpg",
+          "frame_num": 6496,
+          "ocr_text": "In memory ot Raymond Bongiovanni and P. Scott Makela DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            664,
+            228,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_036_static_003_num06592_sim52.jpg",
+          "frame_num": 6592,
+          "ocr_text": "FILMED WITH Color by R KODAK PANAVISION TECHNICOLOR Film Stock CAMERAS & LENSES DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            342,
+            292,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.10221087373793125,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10585661232471466,
+      "roi_percentile_flow": 0.10221087373793125,
+      "scroll_direction": null
+    },
+    "scene_37": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_037_static_000_num06672_sim20.jpg",
+          "frame_num": 6672,
+          "ocr_text": "THIS PICTURE MADE UNDER APPROVED NO. 36857 THE JURISDICTION OF DOLBY IN SELECTED THEATRES AFFILIATED WITH MOTION PICTURE ASSOCIATION OF AMERICA A.F.L.-C.I.O.-C.L.C. Copyright \u00a91999 by Twentieth Century Fox Film Corporation, Monarchy Enterprises B.V. and Regency Entertainment (usA). Inc. All Rights Reserved. The events. characters and tirms depicted in this photoplay are fictitious. Any similarity to actual persons. living or dead, or to actual events or firms is purely coincidental. Ownership ot this motion picture is protected by copyright and other applicable laws, and any unauthorized duplication. distribution or exhibition of this motion picture could result in criminal prosecution as well as civil liabitity DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            238,
+            79,
+            1712,
+            708
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.11758691444993019,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.11373710446059704,
+      "roi_percentile_flow": 0.11758691444993019,
+      "scroll_direction": null
+    },
+    "scene_38": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_038_static_000_num06761_sim14.jpg",
+          "frame_num": 6761,
+          "ocr_text": "IN ASSOCIATION WITH TAURUS FILM DOWNLOAD MORE... NAIJAPREY.COM",
+          "ocr_bbox": [
+            664,
+            297,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_038_static_001_num06857_sim60.jpg",
+          "frame_num": 6857,
+          "ocr_text": "PRODUCED AND RELEASED BY CENTURY TWENTIETH FOX DOWNLOAD MORE.. NAIJAPREY.COM",
+          "ocr_bbox": [
+            599,
+            303,
+            1712,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Fight_Club\\analysis\\frames\\scene_038_static_002_num06965_sim14.jpg",
+          "frame_num": 6965,
+          "ocr_text": "APREY.COM",
+          "ocr_bbox": [
+            -990,
+            9,
+            -865,
+            49
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.11397285014390945,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10234720073640347,
+      "roi_percentile_flow": 0.11397285014390945,
+      "scroll_direction": null
+    }
+  }
+}

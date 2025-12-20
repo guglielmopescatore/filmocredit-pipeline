@@ -1,0 +1,259 @@
+[
+  {
+    "role_detail": null,
+    "name": "Bárbara Lennie",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_048_static_000_num06475_sim21.jpg"
+    ],
+    "original_frame_number": [
+      6475
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Tamar Novas",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_048_static_004_num06655_sim85.jpg"
+    ],
+    "original_frame_number": [
+      6655
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Arón Piper",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_048_static_004_num06655_sim85.jpg"
+    ],
+    "original_frame_number": [
+      6655
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Roberto Enríquez",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_048_static_005_num06715_sim59.jpg"
+    ],
+    "original_frame_number": [
+      6715
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Roque Ruíz",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_049_static_000_num06763_sim31.jpg"
+    ],
+    "original_frame_number": [
+      6763
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Isabel Garrido",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_049_static_000_num06763_sim31.jpg"
+    ],
+    "original_frame_number": [
+      6763
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Fede Pérez",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_049_static_002_num06928_sim99.jpg"
+    ],
+    "original_frame_number": [
+      6928
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Alfonso Agra",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_049_static_002_num06928_sim99.jpg"
+    ],
+    "original_frame_number": [
+      6928
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Susana Dans",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_049_static_002_num06928_sim99.jpg"
+    ],
+    "original_frame_number": [
+      6928
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Música Original",
+    "name": "Lucio Godoy",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_049_static_003_num07018_sim29.jpg"
+    ],
+    "original_frame_number": [
+      7018
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Música Original",
+    "name": "Ricardo Curto",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_049_static_003_num07018_sim29.jpg"
+    ],
+    "original_frame_number": [
+      7018
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Productores Ejecutivos",
+    "name": "Emma Lustres",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_050_static_000_num07118_sim40.jpg"
+    ],
+    "original_frame_number": [
+      7118
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Productores Ejecutivos",
+    "name": "Carlos Montero",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_050_static_000_num07118_sim40.jpg"
+    ],
+    "original_frame_number": [
+      7118
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Productores Ejecutivos",
+    "name": "Borja Pena",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_050_static_000_num07118_sim40.jpg"
+    ],
+    "original_frame_number": [
+      7118
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Basada en el libro",
+    "name": "Carlos Montero",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_050_static_001_num07373_sim50.jpg"
+    ],
+    "original_frame_number": [
+      7373
+    ],
+    "scene_position": "second_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Escrito por",
+    "name": "Javier Holgado Vicente",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_053_static_001_num08015_sim41.jpg"
+    ],
+    "original_frame_number": [
+      8015
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Dirigida por",
+    "name": "Silvia Quer",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_055_static_001_num08234_sim94.jpg"
+    ],
+    "original_frame_number": [
+      8234
+    ],
+    "scene_position": "second_half"
+  }
+]

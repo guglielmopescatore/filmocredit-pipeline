@@ -79,7 +79,8 @@ def tsv_to_parquet_imdb_normalization():
             sep='\t', 
             dtype=str, 
             na_values='\\N',
-            low_memory=False
+            low_memory=False,
+            encoding='utf-8'
         )
         print(f"✅ Loaded {len(df):,} records")
     except Exception as e:
@@ -93,7 +94,8 @@ def tsv_to_parquet_imdb_normalization():
                 dtype=str,
                 na_values='\\N',
                 engine='python',
-                on_bad_lines='skip'
+                on_bad_lines='skip',
+                encoding='utf-8'
             )
             print(f"✅ Loaded {len(df):,} records (some malformed lines may have been skipped)")
         except Exception as py_error:

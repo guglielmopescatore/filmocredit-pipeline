@@ -28,10 +28,12 @@ except ImportError:
     logging.warning("Anthropic library not found. Claude VLM processing will not be available.")
 
 from scripts_v3 import config, utils
+# Note: Role corrections are now applied after DB save via utils.apply_role_group_corrections_to_database()
 
 # Exponential backoff settings for Azure API retries
+# 429 (NoCapacity) errors require longer waits during peak load
 MAX_API_RETRIES = 3
-BACKOFF_FACTOR = 2.0
+BACKOFF_FACTOR = 4.0
 
 
 @dataclass
@@ -65,7 +67,7 @@ def local_image_to_data_url(image_path: Path) -> Optional[str]:
 
 
 def run_azure_vlm_ocr_on_frames(
-    episode_id: str, max_new_tokens: int, vlm_provider: str = "auto"
+    episode_id: str, max_new_tokens: int, vlm_provider: str = "auto", enable_role_correction: bool = True, include_previous_frame: bool = True
 ) -> Tuple[int, str, Optional[str]]:
     """
     Runs VLM OCR on selected frames for an episode, one frame at a time,
@@ -75,6 +77,8 @@ def run_azure_vlm_ocr_on_frames(
         episode_id: The ID of the episode.
         max_new_tokens: The maximum number of new tokens for generation.
         vlm_provider: VLM provider to use ('auto', 'claude', 'azure'). Default: 'auto'
+        enable_role_correction: Whether to apply role group corrections. Default: True
+        include_previous_frame: Whether to include previous frame as visual context. Default: True
 
     Returns:
         A tuple containing:
@@ -253,7 +257,7 @@ def run_azure_vlm_ocr_on_frames(
         gpt4_endpoint = os.getenv(config.AzureConfig.GPT4_ENDPOINT_ENV) or os.getenv(config.AzureConfig.ENDPOINT_ENV)
         gpt4_deployment = os.getenv(config.AzureConfig.GPT4_DEPLOYMENT_NAME_ENV) or os.getenv(config.AzureConfig.DEPLOYMENT_NAME_ENV)
         
-        # GPT 5.1
+        # GPT 5
         gpt5_endpoint = os.getenv(config.AzureConfig.GPT5_ENDPOINT_ENV)
         gpt5_deployment = os.getenv(config.AzureConfig.GPT5_DEPLOYMENT_NAME_ENV)
         
@@ -266,7 +270,7 @@ def run_azure_vlm_ocr_on_frames(
         logging.debug(f"[{episode_id}] VLM Availability Check:")
         logging.debug(f"  Claude: {claude_available} (Key: {bool(claude_api_key)}, Endpoint: {bool(claude_endpoint)}, Model: {bool(claude_model)}, Lib: {bool(AnthropicFoundry)})")
         logging.debug(f"  GPT-4.1: {gpt4_available} (Key: {bool(azure_api_key)}, Endpoint: {bool(gpt4_endpoint)}, Model: {bool(gpt4_deployment)}, Lib: {bool(AzureOpenAI)})")
-        logging.debug(f"  GPT-5.1: {gpt5_available} (Key: {bool(azure_api_key)}, Endpoint: {bool(gpt5_endpoint)}, Model: {bool(gpt5_deployment)}, Lib: {bool(OpenAI)})")
+        logging.debug(f"  GPT_5: {gpt5_available} (Key: {bool(azure_api_key)}, Endpoint: {bool(gpt5_endpoint)}, Model: {bool(gpt5_deployment)}, Lib: {bool(OpenAI)})")
         
         # Select provider based on preference
         selected_provider = None
@@ -279,10 +283,10 @@ def run_azure_vlm_ocr_on_frames(
             if not gpt5_available:
                 missing = []
                 if not azure_api_key: missing.append("AZURE_OPENAI_KEY")
-                if not gpt5_endpoint: missing.append("GPT_5_1_AZURE_OPENAI_ENDPOINT")
-                if not gpt5_deployment: missing.append("GPT_5_1_AZURE_OPENAI_DEPLOYMENT_NAME")
+                if not gpt5_endpoint: missing.append("GPT_5_AZURE_OPENAI_ENDPOINT")
+                if not gpt5_deployment: missing.append("GPT_5_AZURE_OPENAI_DEPLOYMENT_NAME")
                 if not OpenAI: missing.append("openai library (OpenAI class)")
-                raise ValueError(f"Azure GPT-5.1 provider requested but credentials not available or library not installed. Missing: {', '.join(missing)}")
+                raise ValueError(f"Azure GPT_5 provider requested but credentials not available or library not installed. Missing: {', '.join(missing)}")
             selected_provider = "azure_gpt5"
         elif vlm_provider == "azure_gpt4":
             if not gpt4_available:
@@ -294,7 +298,7 @@ def run_azure_vlm_ocr_on_frames(
              elif gpt4_available:
                  selected_provider = "azure_gpt4"
              else:
-                 raise ValueError("Azure provider requested but neither GPT-5.1 nor GPT-4.1 credentials available")
+                 raise ValueError("Azure provider requested but neither GPT_5 nor GPT-4.1 credentials available")
         else:  # auto
             if claude_available:
                 selected_provider = "claude"
@@ -313,8 +317,8 @@ def run_azure_vlm_ocr_on_frames(
             vlm_provider = "claude"
             
         elif selected_provider == "azure_gpt5":
-            logging.info(f"[{episode_id}] Using Azure GPT-5.1 model: {gpt5_deployment}")
-            # GPT-5.1 uses OpenAI client with base_url
+            logging.info(f"[{episode_id}] Using Azure GPT_5 model: {gpt5_deployment}")
+            # GPT_5 uses OpenAI client with base_url
             client = OpenAI(api_key=azure_api_key, base_url=gpt5_endpoint)
             deployment_name = gpt5_deployment
             vlm_provider = "azure_gpt5"
@@ -354,6 +358,9 @@ def run_azure_vlm_ocr_on_frames(
         output_files = scene_result.get("output_files", [])
 
         scene_position = scene_result.get("position", "unknown")
+        
+        # Extract scroll direction from SCENE metadata (not frame metadata)
+        scene_scroll_direction = scene_result.get("scroll_direction", None)
 
         for frame_info_manifest in output_files:
             relative_path_str = frame_info_manifest.get("path")
@@ -376,13 +383,14 @@ def run_azure_vlm_ocr_on_frames(
                     f"[{episode_id}] Frame already processed based on existing output, skipping: {frame_filename}"
                 )
                 continue
-
+            
             frames_to_process.append(
                 {
                     "path": full_image_path,
                     "filename": frame_filename,
                     "frame_num": frame_num,
                     "scene_position": scene_position,
+                    "scroll_direction": scene_scroll_direction,  # Use scene-level scroll direction
                 }
             )
 
@@ -423,52 +431,145 @@ def run_azure_vlm_ocr_on_frames(
             if not data_url:
                 logging.warning(f"[{episode_id}] Failed to encode image {frame_path} to data URL. Skipping frame.")
                 continue
+            
+            # Get previous frame for visual context (if enabled and available)
+            previous_frame_path = None
+            previous_frame_data_url = None
+            if include_previous_frame and frame_idx > 0:
+                previous_frame_path = frames_to_process[frame_idx - 1]["path"]
+                previous_frame_data_url = local_image_to_data_url(previous_frame_path)
+                if not previous_frame_data_url:
+                    logging.warning(f"[{episode_id}] Failed to encode previous frame {previous_frame_path} to data URL. Proceeding without it.")
+                    previous_frame_path = None
 
             try:
-                prompt_text = prompt_template.format(previous_credits_json=previous_llm_output_json_str)
-                logging.debug(f"[{episode_id}] Using prompt for frame {frame_idx}: {frame_data['filename']}...")
+                # Add scroll direction note only for DOWNWARD scrolling
+                # In downward scroll, role titles appear BELOW the names (reversed order)
+                scroll_note = ""
+                scroll_direction = frame_data.get("scroll_direction")
+                
+                if scroll_direction == "downward":
+                    scroll_note = "\n\nIMPORTANT: These credits are scrolling DOWNWARD (from top to bottom). The role title appears BELOW the names belonging to that role. For example, if you see names first and then 'Director' below them, those names are the directors.\n"
+                # For upward or static credits, no special note needed (normal reading order)
+                
+                prompt_text = prompt_template.format(previous_credits_json=previous_llm_output_json_str) + scroll_note
+                logging.debug(f"[{episode_id}] Using prompt for frame {frame_idx}: {frame_data['filename']} (scroll: {scroll_direction})...")
 
                 # Prepare messages based on provider
                 if vlm_provider == "claude":
-                    # Claude format with base64 image
+                    # Claude format with base64 image and prompt caching
                     with open(frame_path, "rb") as image_file:
                         image_data = base64.b64encode(image_file.read()).decode("utf-8")
+                    
+                    # Build system message with the static prompt template for caching
+                    # The prompt template is static across all frames and should be cached
+                    system_message = [
+                        {
+                            "type": "text",
+                            "text": prompt_template,
+                            "cache_control": {"type": "ephemeral", "ttl": "1h"}  # Cache the static prompt
+                        }
+                    ]
+                    
+                    content_parts = []
+                    
+                    # Add previous frame context if available
+                    if previous_frame_path and previous_frame_data_url:
+                        with open(previous_frame_path, "rb") as prev_image_file:
+                            prev_image_data = base64.b64encode(prev_image_file.read()).decode("utf-8")
+                        
+                        content_parts.append({
+                            "type": "text",
+                            "text": "CONTEXT: This is the PREVIOUS frame for reference (you already processed this one):"
+                        })
+                        content_parts.append({
+                            "type": "image",
+                            "source": {
+                                "type": "base64",
+                                "media_type": "image/jpeg",
+                                "data": prev_image_data,
+                            },
+                            "cache_control": {"type": "ephemeral"}  # Cache previous frame
+                        })
+                        content_parts.append({
+                            "type": "text",
+                            "text": "---\n\nNow analyze the CURRENT frame below and extract NEW credits:\n"
+                        })
+                    
+                    # Add current frame (not cached - changes every request)
+                    content_parts.append({
+                        "type": "image",
+                        "source": {
+                            "type": "base64",
+                            "media_type": "image/jpeg",
+                            "data": image_data,
+                        },
+                    })
+                    
+                    # Add dynamic parts: previous credits JSON and scroll note
+                    dynamic_prompt = f"previous_credits_json: {previous_llm_output_json_str}{scroll_note}"
+                    content_parts.append({
+                        "type": "text",
+                        "text": dynamic_prompt
+                    })
                     
                     messages = [
                         {
                             "role": "user",
-                            "content": [
-                                {
-                                    "type": "image",
-                                    "source": {
-                                        "type": "base64",
-                                        "media_type": "image/jpeg",
-                                        "data": image_data,
-                                    },
-                                },
-                                {
-                                    "type": "text",
-                                    "text": prompt_text
-                                }
-                            ],
+                            "content": content_parts,
                         }
                     ]
                 else:
                     # Azure OpenAI / GPT-5 format with data URL
+                    # For prompt caching: put STATIC content first (minimum 1024 tokens)
+                    # The static prompt template stays at the beginning for automatic caching
+                    content_parts = []
+                    
+                    # STATIC: Add the base prompt template first (gets cached automatically if >1024 tokens)
+                    content_parts.append({
+                        "type": "text",
+                        "text": prompt_template
+                    })
+                    
+                    # STATIC: Add previous frame context if available (also cacheable)
+                    if previous_frame_path and previous_frame_data_url:
+                        content_parts.append({
+                            "type": "text",
+                            "text": "\n\nCONTEXT: This is the PREVIOUS frame for reference (you already processed this one):"
+                        })
+                        content_parts.append({
+                            "type": "image_url", 
+                            "image_url": {
+                                "url": previous_frame_data_url,
+                                "detail": "high"
+                            }
+                        })
+                        content_parts.append({
+                            "type": "text",
+                            "text": "---\n\nNow analyze the CURRENT frame below and extract NEW credits:\n"
+                        })
+                    
+                    # DYNAMIC: Add current frame (changes every request, not cached)
+                    content_parts.append({
+                        "type": "image_url", 
+                        "image_url": {
+                            "url": data_url,
+                            "detail": "high"
+                        }
+                    })
+                    
+                    # DYNAMIC: Add variable parts (previous credits JSON and scroll note)
+                    dynamic_prompt = f"\n\nprevious_credits_json: {previous_llm_output_json_str}{scroll_note}"
+                    content_parts.append({
+                        "type": "text",
+                        "text": dynamic_prompt
+                    })
+                    
                     # Note: data_url already contains "data:image/jpeg;base64," prefix from local_image_to_data_url
                     messages = [
                         {
                             "role": "user",
-                            "content": [
-                                {
-                                    "type": "image_url", 
-                                    "image_url": {
-                                        "url": data_url,
-                                        "detail": "high"
-                                    }
-                                },
-                                {"type": "text", "text": prompt_text},
-                            ],
+                            "content": content_parts,
                         }
                     ]
 
@@ -479,12 +580,25 @@ def run_azure_vlm_ocr_on_frames(
                 for attempt in range(1, MAX_API_RETRIES + 1):
                     try:
                         if vlm_provider == "claude":
-                            # Claude API call
+                            # Claude API call with prompt caching support
                             response = client.messages.create(
                                 model=deployment_name,
+                                system=system_message,  # System message with cached prompt template
                                 messages=messages,
                                 max_tokens=max_new_tokens
                             )
+                            
+                            # Log cache usage metrics if available
+                            if hasattr(response, 'usage'):
+                                usage = response.usage
+                                cache_creation_tokens = getattr(usage, 'cache_creation_input_tokens', 0)
+                                cache_read_tokens = getattr(usage, 'cache_read_input_tokens', 0)
+                                if cache_creation_tokens > 0 or cache_read_tokens > 0:
+                                    logging.info(
+                                        f"[{episode_id}] Frame {frame_idx} cache metrics: "
+                                        f"created={cache_creation_tokens}, read={cache_read_tokens}"
+                                    )
+                            
                             # Extract content from Claude response (it's a list of TextBlock)
                             if response.content and len(response.content) > 0:
                                 generated_text = response.content[0].text.strip()
@@ -492,20 +606,34 @@ def run_azure_vlm_ocr_on_frames(
                                 generated_text = ""
                         else:
                             # Azure OpenAI / GPT-5 API call
-                            # Both use client.chat.completions.create with same signature
+                            # Automatic prompt caching: static content at the beginning gets cached
                             
                             completion_kwargs = {
                                 "model": deployment_name,
                                 "messages": messages
                             }
                             
-                            # GPT-5.1 and GPT-4.1 (Preview) do not support max_tokens or temperature
+                            # GPT_5 and GPT-4.1 (Preview) do not support max_tokens or temperature
                             if vlm_provider not in ["azure_gpt5", "azure_gpt4"]:
                                 completion_kwargs["max_tokens"] = max_new_tokens
                                 completion_kwargs["temperature"] = 0.0
                                 
                             response = client.chat.completions.create(**completion_kwargs)
                             generated_text = response.choices[0].message.content.strip()
+                            
+                            # Log cache usage metrics if available (Azure OpenAI Prompt Caching)
+                            if hasattr(response, 'usage'):
+                                usage = response.usage
+                                cached_tokens = 0
+                                if hasattr(usage, 'prompt_tokens_details'):
+                                    details = usage.prompt_tokens_details
+                                    if hasattr(details, 'cached_tokens'):
+                                        cached_tokens = details.cached_tokens
+                                if cached_tokens > 0:
+                                    logging.info(
+                                        f"[{episode_id}] Frame {frame_idx} Azure cache: "
+                                        f"cached={cached_tokens} tokens (50% discount applied)"
+                                    )
                         break
                     except (APIConnectionError, APIStatusError) as api_err:
                         logging.warning(
@@ -545,6 +673,9 @@ def run_azure_vlm_ocr_on_frames(
                 current_frame_parsed_credits = utils.parse_vlm_json(
                     cleaned_json_str, frame_data['filename'], name_key="name"
                 )
+
+                # Note: Role group corrections are applied AFTER saving to DB
+                # via apply_role_group_corrections_to_database() in utils.py
 
                 if current_frame_parsed_credits:
                     for credit_entry in current_frame_parsed_credits:

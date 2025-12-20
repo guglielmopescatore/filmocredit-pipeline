@@ -1,0 +1,148 @@
+{
+    "episode_id": "The_World_At_War_S01E03_End",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 1740,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:00:58.054",
+            "duration_frames": 1740,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Film Editor ALANAFRIAT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 87,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 174,
+                    "ocr_text": "Film Editor ALANAFRIAT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_174_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 87: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 1,
+            "original_start_frame": 1740,
+            "original_end_frame": 1770,
+            "original_start_timecode": "00:00:58.054",
+            "original_end_timecode": "00:00:59.055",
+            "duration_frames": 30,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "THE WORLD AT WAR Produced JEREMY ISAACS"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1741,
+                    "ocr_text": "THE WORLD AT WAR Produced JEREMY ISAACS",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_second_half_frame_1741_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 1771,
+            "original_end_frame": 2298,
+            "original_start_timecode": "00:00:59.088",
+            "original_end_timecode": "00:01:16.671",
+            "duration_frames": 527,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "THAMES COLOUR PRODUCTION"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1797,
+                    "ocr_text": "THAMES COLOUR PRODUCTION",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_second_half_frame_1797_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 1740,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:58.054",
+            "duration_frames": 1740,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 1740,
+            "end_frame": 1770,
+            "start_timecode": "00:00:58.054",
+            "end_timecode": "00:00:59.055",
+            "duration_frames": 30,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 1770,
+            "end_frame": 1771,
+            "start_timecode": "00:00:59.055",
+            "end_timecode": "00:00:59.088",
+            "duration_frames": 1,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 1771,
+            "end_frame": 2298,
+            "start_timecode": "00:00:59.088",
+            "end_timecode": "00:01:16.671",
+            "duration_frames": 527,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 2298,
+            "end_frame": 2331,
+            "start_timecode": "00:01:16.671",
+            "end_timecode": "00:01:17.772",
+            "duration_frames": 33,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:43:31.187330"
+}

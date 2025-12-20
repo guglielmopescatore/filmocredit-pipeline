@@ -1,0 +1,274 @@
+{
+  "scenes": {
+    "scene_1": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_001_scroll_000_num00206_sim0.jpg",
+          "frame_num": 206,
+          "ocr_text": "Producer Mark Linfield",
+          "ocr_bbox": [
+            718,
+            525,
+            1193,
+            650
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_001_scroll_001_num00314_sim0.jpg",
+          "frame_num": 314,
+          "ocr_text": "Photography Barrie Britton Richard Burton Rod Clarke Martyn Colbeck Steve Downer Jeff Hogan Michael Kelem Justin Maguire Michael Male David McKay",
+          "ocr_bbox": [
+            677,
+            344,
+            1229,
+            1080
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_001_scroll_002_num00422_sim0.jpg",
+          "frame_num": 422,
+          "ocr_text": "Andrew Shillabeer Tim Shepherd Warwick Sloss John Waters Ed itor Jill Garrett Online Edltor Chas Francis",
+          "ocr_bbox": [
+            636,
+            3,
+            1273,
+            871
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_001_scroll_003_num00530_sim0.jpg",
+          "frame_num": 530,
+          "ocr_text": "Tim Owens Dubbing Mixer Andrew Wilson Colourist Luke Rainey Graphic Design Burrell Durrant Hifle",
+          "ocr_bbox": [
+            591,
+            5,
+            1322,
+            967
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_001_scroll_004_num00638_sim0.jpg",
+          "frame_num": 638,
+          "ocr_text": "Music Composed by George Fenton Music Performed by BBC Concert Orchestra Assistant Producer Penny Allen Researchers Tom Clarke",
+          "ocr_bbox": [
+            555,
+            51,
+            1355,
+            1075
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_001_scroll_005_num00746_sim0.jpg",
+          "frame_num": 746,
+          "ocr_text": "Conrad Maute Emma Peace FleldAsslstants Roland Hilgartner John Pike Emilio White Jeff Wilson Production Co-ordinators Susan Aartse-Tuyn Amanda Hutchinson Sue Storey",
+          "ocr_bbox": [
+            610,
+            0,
+            1302,
+            1076
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 6,
+      "median_flow_px_per_frame": -8.967643737792969,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -7.808165073394775,
+      "roi_percentile_flow": -8.967643737792969,
+      "scroll_direction": "upward",
+      "save_interval_frames": 108,
+      "save_interval_frames_uncapped": 108,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_2": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_002_scroll_000_num00797_sim0.jpg",
+          "frame_num": 797,
+          "ocr_text": "Emilio White Jeff V Wilson Production Co-ordinators Susan Aartse-Tuyn Amanda Hutchinson Sue Storey Productlon Team Asslstant Samantha Davis",
+          "ocr_bbox": [
+            611,
+            2,
+            1300,
+            864
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_002_scroll_001_num00905_sim0.jpg",
+          "frame_num": 905,
+          "ocr_text": "Mandy Knight Planet Earth Dlary Cameraman Matt Norman Editor Andrew Chastney The BBC wisheg to thank Rob McCall Zygmunt Gizejewski Dany Cleyet-Marrel",
+          "ocr_bbox": [
+            647,
+            3,
+            1263,
+            1051
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -8.999189376831055,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -8.979153633117676,
+      "roi_percentile_flow": -8.999189376831055,
+      "scroll_direction": "upward",
+      "save_interval_frames": 108,
+      "save_interval_frames_uncapped": 108,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_3": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_003_static_000_num00949_sim58.jpg",
+          "frame_num": 949,
+          "ocr_text": "Editor Andrew Chastney The BBC wishes to thank Rob McCall Zygmunt Gizejewski Dany Cleyet-Marrel Office National des For\u00e9ts Peter Ros\u00e9n MICET- Madagascar CFPF-Madagascar Conservatoire Vivant d'Analabe Deutschen Primatenzentrums (DPZ) Saharah Moon Chapotin Prof Peter Kappeler",
+          "ocr_bbox": [
+            481,
+            73,
+            1425,
+            1059
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_003_static_001_num00964_sim86.jpg",
+          "frame_num": 964,
+          "ocr_text": "Anurew Cliasunuy The BBC wishes to thank Rob McCall Zygmunt Gizejewski Dany Cleyet-Marrel Office National des For\u00eats Peter Ros\u00e9n MICET- Madagascar CFPF-Madagascar Conservatoire Vivant d'Analabe Deutschen Primatenzentrums (DPZ) Saharah Moon Chapotin Prof Peter Kappeler Kirindy Forest Reserve Bialowieza National Park Dan Eatherley",
+          "ocr_bbox": [
+            484,
+            0,
+            1422,
+            1077
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_003_static_002_num00979_sim89.jpg",
+          "frame_num": 979,
+          "ocr_text": "The BBC wishes to thank Rob McCall Zygmunt Gizejewski Dany Cleyet-Marrel Office National des For\u00e9ts Peter Rosen MICET-Madagascar CFPF-Madagascar Conservatoire Vivant d'Analabe Deutschen Primatenzentrums (DPZ) Saharah Moon Chapotin Prof Peter Kappeler Kirindy Forest Reserve Bialowieza National Park Dan Eatherley Brian Stone Jari Peltomaki Craia Benkmar",
+          "ocr_bbox": [
+            482,
+            68,
+            1424,
+            1078
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_003_static_003_num01024_sim70.jpg",
+          "frame_num": 1024,
+          "ocr_text": "CFPF-Madagascar Conservatoire Vivant d'Analabe Deutschen Primatenzentrums (DPZ) Saharah Moon Chapotin Prof Peter Kappeler Kirindy Forest Reserve Bialowieza National Park Dan Eatherley Brian Stone Jari Peltomaki Craig Benkman Steve Sillett Jim Spickler Tim Fogg Nigel Dunstone Fernando Vidal Helena Bylund Redwood National & State Parks Anatoly Potrov",
+          "ocr_bbox": [
+            485,
+            6,
+            1423,
+            1079
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_003_static_004_num01084_sim58.jpg",
+          "frame_num": 1084,
+          "ocr_text": "Steve Sillett Jim Spickler Tim Fogg Nigel Dunstone Fernando Vidal Helena Bylund Redwood National & State Parks Anatoly Petrov Dan Hartman Chief Wildlife Warden, Madhya Pradesh Ken Robertson Keith Clay QuickBird@DigitalGlobe/Eurimage A BBC/Discovery Channel/NHK Co-Production",
+          "ocr_bbox": [
+            432,
+            27,
+            1477,
+            936
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_003_static_005_num01204_sim25.jpg",
+          "frame_num": 1204,
+          "ocr_text": "Series Producer Alastair Fothergill B B Bristol BBC MMVI bbc.co.uk/planetearth",
+          "ocr_bbox": [
+            568,
+            569,
+            1335,
+            995
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_003_static_006_num01219_sim100.jpg",
+          "frame_num": 1219,
+          "ocr_text": "Series Producer Alastair Fothergill B B Bristol BBC MMVI bbc.co.uk/planetearth",
+          "ocr_bbox": [
+            576,
+            573,
+            1333,
+            996
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_003_static_007_num01234_sim98.jpg",
+          "frame_num": 1234,
+          "ocr_text": "Series Producer Alastair Fothergill B B c Bristol BBC MMVI bbc.co.uk/planetearth",
+          "ocr_bbox": [
+            575,
+            571,
+            1333,
+            997
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_003_static_008_num01294_sim93.jpg",
+          "frame_num": 1294,
+          "ocr_text": "planet Series Producer Alastair Fothergill B B Bristol BBC MMVI bbc.co.uk/planetearth",
+          "ocr_bbox": [
+            377,
+            177,
+            1332,
+            996
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_003_static_009_num01309_sim96.jpg",
+          "frame_num": 1309,
+          "ocr_text": "planet eart Series Producer Alastair Fothergill B B Bristol BBC MMVI bbc.co.uk/planetearth",
+          "ocr_bbox": [
+            379,
+            172,
+            1508,
+            996
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Planet_Earth_S01E10\\analysis\\frames\\scene_003_static_010_num01324_sim98.jpg",
+          "frame_num": 1324,
+          "ocr_text": "planet earth Series Producer Alastair Fothergill B B c Bristol BBC MMVI bbc.co.uk/planetearth",
+          "ocr_bbox": [
+            379,
+            172,
+            1541,
+            996
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 11,
+      "median_flow_px_per_frame": 0.10780635289847851,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10446163639426231,
+      "roi_percentile_flow": 0.10780635289847851,
+      "scroll_direction": null
+    }
+  }
+}

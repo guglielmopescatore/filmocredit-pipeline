@@ -1,0 +1,603 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_000_num00120_sim0.jpg",
+          "frame_num": 120,
+          "ocr_text": "to RIAI",
+          "ocr_bbox": [
+            1042,
+            441,
+            1286,
+            650
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_001_num00135_sim50.jpg",
+          "frame_num": 135,
+          "ocr_text": "Editor ALANAFRIAT",
+          "ocr_bbox": [
+            611,
+            438,
+            1313,
+            650
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_002_num00150_sim89.jpg",
+          "frame_num": 150,
+          "ocr_text": "FilmEditor ALANAFRIAT",
+          "ocr_bbox": [
+            603,
+            417,
+            1313,
+            641
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_003_num00165_sim79.jpg",
+          "frame_num": 165,
+          "ocr_text": "Film Editor ALANAFRIAT",
+          "ocr_bbox": [
+            602,
+            411,
+            1312,
+            637
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_004_num00195_sim80.jpg",
+          "frame_num": 195,
+          "ocr_text": "Film Editor ALAN AFRIAT",
+          "ocr_bbox": [
+            599,
+            415,
+            1312,
+            643
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_005_num00255_sim25.jpg",
+          "frame_num": 255,
+          "ocr_text": "arch. ROWE",
+          "ocr_bbox": [
+            1004,
+            436,
+            1363,
+            664
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_006_num00270_sim82.jpg",
+          "frame_num": 270,
+          "ocr_text": "Research ROWE",
+          "ocr_bbox": [
+            878,
+            428,
+            1348,
+            642
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_007_num00285_sim76.jpg",
+          "frame_num": 285,
+          "ocr_text": "FilmResearch JOHNROWE",
+          "ocr_bbox": [
+            602,
+            414,
+            1354,
+            648
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_008_num00330_sim98.jpg",
+          "frame_num": 330,
+          "ocr_text": "FilmResearch JOHN ROWE",
+          "ocr_bbox": [
+            606,
+            413,
+            1351,
+            648
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_009_num00390_sim34.jpg",
+          "frame_num": 390,
+          "ocr_text": "ISOB ANRESTLE,",
+          "ocr_bbox": [
+            365,
+            411,
+            1312,
+            768
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_010_num00405_sim42.jpg",
+          "frame_num": 405,
+          "ocr_text": "ISOBEL HINSHEL IAN KESTLE",
+          "ocr_bbox": [
+            360,
+            397,
+            1290,
+            755
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_011_num00420_sim68.jpg",
+          "frame_num": 420,
+          "ocr_text": "Stills Res ISOBEL HINSHELWOOD rapnics IAN KESTLE",
+          "ocr_bbox": [
+            359,
+            311,
+            1566,
+            756
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_012_num00435_sim69.jpg",
+          "frame_num": 435,
+          "ocr_text": "Stills Research ISOBEL HINSHELWOOD Graphics? IANKESTLE",
+          "ocr_bbox": [
+            358,
+            304,
+            1568,
+            758
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_013_num00480_sim88.jpg",
+          "frame_num": 480,
+          "ocr_text": "Stills  Research ISOBEL HINSHELWOOD Graphics IAN KESTLE",
+          "ocr_bbox": [
+            358,
+            300,
+            1558,
+            760
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_014_num00495_sim44.jpg",
+          "frame_num": 495,
+          "ocr_text": "ISOBEL HELWOOD ANKESTLE,",
+          "ocr_bbox": [
+            367,
+            396,
+            1550,
+            759
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_015_num00525_sim22.jpg",
+          "frame_num": 525,
+          "ocr_text": "LADE",
+          "ocr_bbox": [
+            1059,
+            506,
+            1381,
+            650
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_016_num00540_sim33.jpg",
+          "frame_num": 540,
+          "ocr_text": "Dubbin FREDDIE SLADE",
+          "ocr_bbox": [
+            537,
+            435,
+            1373,
+            642
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_017_num00570_sim85.jpg",
+          "frame_num": 570,
+          "ocr_text": "Dubbing Mixer FREDDIE SLADE",
+          "ocr_bbox": [
+            539,
+            435,
+            1373,
+            647
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_018_num00600_sim98.jpg",
+          "frame_num": 600,
+          "ocr_text": "Dubbing Mixere FREDDIE SLADE",
+          "ocr_bbox": [
+            542,
+            427,
+            1378,
+            641
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_019_num00630_sim30.jpg",
+          "frame_num": 630,
+          "ocr_text": "SLADE",
+          "ocr_bbox": [
+            1029,
+            515,
+            1383,
+            653
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_020_num00675_sim27.jpg",
+          "frame_num": 675,
+          "ocr_text": "CARL DAVIS",
+          "ocr_bbox": [
+            649,
+            508,
+            1285,
+            649
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_021_num00795_sim23.jpg",
+          "frame_num": 795,
+          "ocr_text": "Itory Liat ROC UEHL nit Manager SUTHERLAND",
+          "ocr_bbox": [
+            546,
+            189,
+            1403,
+            872
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_022_num00810_sim60.jpg",
+          "frame_num": 810,
+          "ocr_text": "Laboratory Liaison ROGER CHINERY prAssociate. EROMEKUEHL Unit Manager SUTHERLAND",
+          "ocr_bbox": [
+            467,
+            206,
+            1445,
+            869
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_023_num00825_sim83.jpg",
+          "frame_num": 825,
+          "ocr_text": "Laboratory Liaison ROGER CHINERY 5tAssociate JEROME KUEHL Unit Manager L1Z SUTHERLAND",
+          "ocr_bbox": [
+            464,
+            208,
+            1446,
+            884
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_024_num00840_sim87.jpg",
+          "frame_num": 840,
+          "ocr_text": "Laboratory Liaison ROGER CHINERY ScriptAssociate. JEROME KUEHL Unit Manager L1Z SUTHERLAND",
+          "ocr_bbox": [
+            460,
+            193,
+            1450,
+            879
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_025_num00855_sim99.jpg",
+          "frame_num": 855,
+          "ocr_text": "Laboratory Liaison ROGER CHINERY ScriptAssociate. JEROME KUEHL Unit Manager LIZ SUTHERLAND",
+          "ocr_bbox": [
+            457,
+            189,
+            1447,
+            878
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_026_num00960_sim12.jpg",
+          "frame_num": 960,
+          "ocr_text": "NOB LAND",
+          "ocr_bbox": [
+            429,
+            511,
+            1485,
+            650
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_027_num00975_sim38.jpg",
+          "frame_num": 975,
+          "ocr_text": "Historical Adviser NOBLE FRANKLAND",
+          "ocr_bbox": [
+            428,
+            421,
+            1492,
+            645
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_028_num01065_sim29.jpg",
+          "frame_num": 1065,
+          "ocr_text": "SIH AND",
+          "ocr_bbox": [
+            503,
+            436,
+            1486,
+            638
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_029_num01095_sim16.jpg",
+          "frame_num": 1095,
+          "ocr_text": "hlve inos BUNDESARCHIV E.CINEMA VISNEWS HUMPHRIES LABORATORIES",
+          "ocr_bbox": [
+            374,
+            135,
+            1646,
+            898
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_030_num01110_sim60.jpg",
+          "frame_num": 1110,
+          "ocr_text": "Archive Sour BUNDESARCHIV-KOBLENZ E.C.PA FRANCE OVIETONE PATHE CINEMA VISNEWS Processing HUMPHRIES LABORATORIES",
+          "ocr_bbox": [
+            259,
+            143,
+            1645,
+            908
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_031_num01140_sim93.jpg",
+          "frame_num": 1140,
+          "ocr_text": "Archive Sources. BUNDESARCHIV-KOBLENZ E.C.P.A FRANCE EMIPATHE OVIETONE PATHE.CINEMA VISNEWS Processing by HUMPHRIES LABORATORIES",
+          "ocr_bbox": [
+            265,
+            150,
+            1645,
+            907
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_032_num01230_sim90.jpg",
+          "frame_num": 1230,
+          "ocr_text": "Archive Sources BUNDESARCHIV-KOBLENZ E.C.PA. FRANCE E.MI PATHE IOVIETONE PATHE CINEMA VISNEWS HUMPHRIES Processing by LABORATORIES",
+          "ocr_bbox": [
+            250,
+            149,
+            1646,
+            907
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_033_num01320_sim25.jpg",
+          "frame_num": 1320,
+          "ocr_text": "ionwith THE IMP AR MUSEUM",
+          "ocr_bbox": [
+            181,
+            411,
+            1712,
+            661
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_034_num01335_sim56.jpg",
+          "frame_num": 1335,
+          "ocr_text": "In co-operation with THE IMPERIAL WAR MUSEUM",
+          "ocr_bbox": [
+            180,
+            413,
+            1711,
+            656
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_035_num01350_sim57.jpg",
+          "frame_num": 1350,
+          "ocr_text": "O-operationwith THE IMPERIAL WAR MUSEUM",
+          "ocr_bbox": [
+            182,
+            420,
+            1709,
+            655
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_036_num01365_sim57.jpg",
+          "frame_num": 1365,
+          "ocr_text": "In co-operation-with THE IMPERIAL WAR MUSEUM",
+          "ocr_bbox": [
+            203,
+            419,
+            1711,
+            659
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_037_num01395_sim89.jpg",
+          "frame_num": 1395,
+          "ocr_text": "In co-operation with THE IMPERIAL WAR MUSEUM",
+          "ocr_bbox": [
+            208,
+            422,
+            1710,
+            655
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_038_num01425_sim47.jpg",
+          "frame_num": 1425,
+          "ocr_text": "tionwith ARMUSEUM",
+          "ocr_bbox": [
+            1058,
+            411,
+            1760,
+            656
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_039_num01485_sim29.jpg",
+          "frame_num": 1485,
+          "ocr_text": "Produced by ISAACS EREMY",
+          "ocr_bbox": [
+            608,
+            822,
+            1341,
+            1051
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_040_num01500_sim63.jpg",
+          "frame_num": 1500,
+          "ocr_text": "THE WAR Produced by ISAACS JEREMY",
+          "ocr_bbox": [
+            568,
+            68,
+            1339,
+            1047
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_041_num01560_sim94.jpg",
+          "frame_num": 1560,
+          "ocr_text": "THE WOR WAR Produced by ISAACS JEREMY",
+          "ocr_bbox": [
+            560,
+            71,
+            1336,
+            1048
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_042_num01680_sim96.jpg",
+          "frame_num": 1680,
+          "ocr_text": "THE WORL I WAR Produced by ISAACS JEREMY",
+          "ocr_bbox": [
+            559,
+            70,
+            1337,
+            1049
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_000_static_043_num01739_sim93.jpg",
+          "frame_num": 1739,
+          "ocr_text": "THE WORLD AT WAR Produced by JEREMY ISAACS",
+          "ocr_bbox": [
+            560,
+            81,
+            1334,
+            1044
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 44,
+      "median_flow_px_per_frame": 0.22059014439582825,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.21788005530834198,
+      "roi_percentile_flow": 0.22059014439582825,
+      "scroll_direction": null
+    },
+    "scene_1": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_002_static_000_num01771_sim39.jpg",
+          "frame_num": 1771,
+          "ocr_text": "THAMES COLOUR PRODUCTION",
+          "ocr_bbox": [
+            295,
+            342,
+            1588,
+            775
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_002_static_001_num01786_sim100.jpg",
+          "frame_num": 1786,
+          "ocr_text": "THAMES COLOUR PRODUCTION",
+          "ocr_bbox": [
+            0,
+            269,
+            1618,
+            772
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_End\\analysis\\frames\\scene_002_static_002_num01801_sim100.jpg",
+          "frame_num": 1801,
+          "ocr_text": "THAMES COLOUR PRODUCTION",
+          "ocr_bbox": [
+            0,
+            303,
+            1606,
+            773
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.15085893869400024,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.16014117002487183,
+      "roi_percentile_flow": 0.15085893869400024,
+      "scroll_direction": null
+    }
+  }
+}

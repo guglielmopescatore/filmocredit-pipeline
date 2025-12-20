@@ -1,0 +1,1366 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_000_static_000_num00000_sim0.jpg",
+          "frame_num": 0,
+          "ocr_text": "< Back VEED MESA PRODUCTIONS pr\u00e9sente 00:00 95:54",
+          "ocr_bbox": [
+            36,
+            15,
+            1261,
+            670
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_000_static_001_num00105_sim18.jpg",
+          "frame_num": 105,
+          "ocr_text": "ED E",
+          "ocr_bbox": [
+            -537,
+            648,
+            -367,
+            698
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_000_static_002_num00134_sim6.jpg",
+          "frame_num": 134,
+          "ocr_text": "VEED une co-production DUNE TELEVISION SUISSE ROMANDE RTBF TELEVISION BELGE AVEC LA PARTICIPATION DE ANTENNE 2 ET DE LA CINQ",
+          "ocr_bbox": [
+            219,
+            14,
+            1270,
+            644
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_1": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_001_static_000_num00150_sim100.jpg",
+          "frame_num": 150,
+          "ocr_text": "VEED une co-production DUNE TELEVISION SUISSE ROMANDE RTBF TELEVISION BELGE AVEC LA PARTICIPATION DE ANTENNE 2 ET DE LA CINQ",
+          "ocr_bbox": [
+            21,
+            16,
+            1064,
+            644
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_001_static_001_num00285_sim6.jpg",
+          "frame_num": 285,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            21,
+            16,
+            259,
+            74
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_001_static_002_num00315_sim100.jpg",
+          "frame_num": 315,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            21,
+            16,
+            259,
+            74
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.11728617548942566,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1217336356639862,
+      "roi_percentile_flow": 0.11728617548942566,
+      "scroll_direction": null
+    },
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.11285052448511124,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.11463271081447601,
+      "roi_percentile_flow": -0.11285052448511124,
+      "scroll_direction": null
+    },
+    "scene_3": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.19197197258472443,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.15357300639152527,
+      "roi_percentile_flow": 0.19197197258472443,
+      "scroll_direction": null
+    },
+    "scene_4": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_004_static_000_num00542_sim100.jpg",
+          "frame_num": 542,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            19,
+            15,
+            260,
+            76
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.19877177476882935,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.18687394261360168,
+      "roi_percentile_flow": 0.19877177476882935,
+      "scroll_direction": null
+    },
+    "scene_5": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.17464759945869446,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.18648124486207962,
+      "roi_percentile_flow": 0.17464759945869446,
+      "scroll_direction": null
+    },
+    "scene_6": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_006_scroll_000_num00721_sim0.jpg",
+          "frame_num": 721,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            22,
+            15,
+            260,
+            75
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.625858783721924,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.23529230058193207,
+      "roi_percentile_flow": 2.625858783721924,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 247,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_7": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_007_static_000_num00777_sim100.jpg",
+          "frame_num": 777,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            459,
+            644,
+            702,
+            708
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.2429656684398651,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.23925235867500305,
+      "roi_percentile_flow": -0.2429656684398651,
+      "scroll_direction": null
+    },
+    "scene_8": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_008_static_000_num00841_sim44.jpg",
+          "frame_num": 841,
+          "ocr_text": "VEED BRUNO CREMER",
+          "ocr_bbox": [
+            19,
+            15,
+            1117,
+            652
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_008_static_001_num00848_sim100.jpg",
+          "frame_num": 848,
+          "ocr_text": "BRUNO CREMER VEED",
+          "ocr_bbox": [
+            159,
+            625,
+            1265,
+            1274
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.2537035644054413,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.17872238159179688,
+      "roi_percentile_flow": 0.2537035644054413,
+      "scroll_direction": null
+    },
+    "scene_9": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_009_scroll_000_num00849_sim0.jpg",
+          "frame_num": 849,
+          "ocr_text": "BRUNO CREMER VEED",
+          "ocr_bbox": [
+            159,
+            624,
+            1263,
+            1272
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.5039894580841064,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2367643117904663,
+      "roi_percentile_flow": 0.5039894580841064,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 1286,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_10": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_010_static_000_num00918_sim100.jpg",
+          "frame_num": 918,
+          "ocr_text": "VEED BRUNO CREMER",
+          "ocr_bbox": [
+            21,
+            14,
+            1119,
+            657
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_010_static_001_num01023_sim100.jpg",
+          "frame_num": 1023,
+          "ocr_text": "VEED BRUNO CREMER",
+          "ocr_bbox": [
+            17,
+            12,
+            1114,
+            650
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_010_static_002_num01053_sim44.jpg",
+          "frame_num": 1053,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            1023,
+            646,
+            1261,
+            704
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_010_static_003_num01069_sim80.jpg",
+          "frame_num": 1069,
+          "ocr_text": "R VEED",
+          "ocr_bbox": [
+            486,
+            113,
+            1264,
+            707
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.2990064024925232,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3034173250198364,
+      "roi_percentile_flow": 0.2990064024925232,
+      "scroll_direction": null
+    },
+    "scene_11": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.18380308151245117,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.10417188704013824,
+      "roi_percentile_flow": 0.18380308151245117,
+      "scroll_direction": null
+    },
+    "scene_12": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.10782599449157715,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.11486032605171204,
+      "roi_percentile_flow": -0.10782599449157715,
+      "scroll_direction": null
+    },
+    "scene_13": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_013_static_000_num01255_sim67.jpg",
+          "frame_num": 1255,
+          "ocr_text": "MAIGRET VEED",
+          "ocr_bbox": [
+            97,
+            377,
+            1265,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_013_static_001_num01270_sim61.jpg",
+          "frame_num": 1270,
+          "ocr_text": "EED MAIGRET",
+          "ocr_bbox": [
+            18,
+            576,
+            1191,
+            931
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_013_static_002_num01285_sim61.jpg",
+          "frame_num": 1285,
+          "ocr_text": "VEED MAIGRET",
+          "ocr_bbox": [
+            14,
+            573,
+            1196,
+            933
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_013_static_003_num01390_sim55.jpg",
+          "frame_num": 1390,
+          "ocr_text": "'EED 4 MAIGRE",
+          "ocr_bbox": [
+            21,
+            575,
+            1194,
+            934
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_013_static_004_num01405_sim57.jpg",
+          "frame_num": 1405,
+          "ocr_text": "VEED MAIGRE",
+          "ocr_bbox": [
+            16,
+            572,
+            1193,
+            929
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_013_static_005_num01480_sim96.jpg",
+          "frame_num": 1480,
+          "ocr_text": "MAIGRET VEED",
+          "ocr_bbox": [
+            98,
+            375,
+            1264,
+            707
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 6,
+      "median_flow_px_per_frame": 0.24370670318603516,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1812925636768341,
+      "roi_percentile_flow": 0.24370670318603516,
+      "scroll_direction": null
+    },
+    "scene_14": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_014_static_000_num01508_sim50.jpg",
+          "frame_num": 1508,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            -557,
+            2,
+            -293,
+            127
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.002758026123046875,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10477696359157562,
+      "roi_percentile_flow": 0.002758026123046875,
+      "scroll_direction": null
+    },
+    "scene_15": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_000_num01534_sim100.jpg",
+          "frame_num": 1534,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            14,
+            574,
+            259,
+            636
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_001_num01564_sim57.jpg",
+          "frame_num": 1564,
+          "ocr_text": "VEED STLS.U",
+          "ocr_bbox": [
+            -545,
+            14,
+            499,
+            161
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_002_num01579_sim57.jpg",
+          "frame_num": 1579,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            -544,
+            14,
+            -303,
+            76
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_003_num01609_sim57.jpg",
+          "frame_num": 1609,
+          "ocr_text": "HOTEL VEED",
+          "ocr_bbox": [
+            1021,
+            310,
+            1264,
+            706
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_004_num01624_sim87.jpg",
+          "frame_num": 1624,
+          "ocr_text": "HOTEL 88 VEED",
+          "ocr_bbox": [
+            1020,
+            286,
+            1264,
+            706
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_005_num01639_sim47.jpg",
+          "frame_num": 1639,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            -545,
+            14,
+            -305,
+            76
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_006_num01654_sim47.jpg",
+          "frame_num": 1654,
+          "ocr_text": "HOTEL B8 VEED",
+          "ocr_bbox": [
+            1023,
+            249,
+            1264,
+            705
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_007_num01669_sim47.jpg",
+          "frame_num": 1669,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            -545,
+            15,
+            -302,
+            76
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_008_num01759_sim24.jpg",
+          "frame_num": 1759,
+          "ocr_text": "Un film de Claude GORETTA VEED",
+          "ocr_bbox": [
+            282,
+            441,
+            1265,
+            706
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_009_num01819_sim100.jpg",
+          "frame_num": 1819,
+          "ocr_text": "Un film de Claude GORETTA VEED",
+          "ocr_bbox": [
+            282,
+            443,
+            1264,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_010_num01879_sim24.jpg",
+          "frame_num": 1879,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            1026,
+            647,
+            1264,
+            705
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_011_num02014_sim47.jpg",
+          "frame_num": 2014,
+          "ocr_text": "HOTEL 88 VEED",
+          "ocr_bbox": [
+            20,
+            23,
+            1260,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_012_num02044_sim80.jpg",
+          "frame_num": 2044,
+          "ocr_text": "MOTEL BAR 88 VEED",
+          "ocr_bbox": [
+            20,
+            23,
+            1258,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_013_num02119_sim24.jpg",
+          "frame_num": 2119,
+          "ocr_text": "MAIGRET et Les Caves du Majestic DUNE/ E.C. T\u00e9l\u00e9vision Paris / FRANCE 2/ RTBF T\u00e9l\u00e9vision Suisse Romande 1992 VEED",
+          "ocr_bbox": [
+            21,
+            127,
+            1167,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_014_num02134_sim99.jpg",
+          "frame_num": 2134,
+          "ocr_text": "MAIGRET et Les Caves duN Majestic DUNE/ E.C. T\u00e9l\u00e9vision Paris / FRANCE 2/ RTBF T\u00e9l\u00e9vision Suisse Romande 1992 VEED",
+          "ocr_bbox": [
+            20,
+            128,
+            1163,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_015_num02179_sim99.jpg",
+          "frame_num": 2179,
+          "ocr_text": "MAIGRET et Les Caves du N Majestic DUNE/ E.C. T\u00e9l\u00e9vision Paris / FRANCE 2/ RTBF T\u00e9l\u00e9vision Suisse Romande 1992 VEED",
+          "ocr_bbox": [
+            20,
+            127,
+            1159,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_016_num02254_sim8.jpg",
+          "frame_num": 2254,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            20,
+            645,
+            261,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_017_num02269_sim73.jpg",
+          "frame_num": 2269,
+          "ocr_text": "86 VEED",
+          "ocr_bbox": [
+            20,
+            59,
+            1280,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_018_num02344_sim78.jpg",
+          "frame_num": 2344,
+          "ocr_text": "86 and VEED",
+          "ocr_bbox": [
+            20,
+            39,
+            1022,
+            706
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_019_num02419_sim59.jpg",
+          "frame_num": 2419,
+          "ocr_text": "86 NENUIGINE KATUL VEED",
+          "ocr_bbox": [
+            19,
+            39,
+            1147,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_020_num02434_sim47.jpg",
+          "frame_num": 2434,
+          "ocr_text": "86 VEED",
+          "ocr_bbox": [
+            19,
+            40,
+            973,
+            706
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_021_num02449_sim50.jpg",
+          "frame_num": 2449,
+          "ocr_text": "86 BEMUOINE LATY VEED",
+          "ocr_bbox": [
+            20,
+            41,
+            1032,
+            705
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_022_num02464_sim50.jpg",
+          "frame_num": 2464,
+          "ocr_text": "86 VEED",
+          "ocr_bbox": [
+            19,
+            40,
+            844,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_023_num02509_sim40.jpg",
+          "frame_num": 2509,
+          "ocr_text": "86 Avec DESCHAMPS J\u00e9rome VEED",
+          "ocr_bbox": [
+            20,
+            76,
+            1040,
+            708
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_024_num02629_sim48.jpg",
+          "frame_num": 2629,
+          "ocr_text": "Michel CACCIA Maryvonne-SCHILTZ VEED",
+          "ocr_bbox": [
+            21,
+            419,
+            1039,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_025_num02644_sim79.jpg",
+          "frame_num": 2644,
+          "ocr_text": "Michel CACCIA Maryvonne SCHILTZ VEED",
+          "ocr_bbox": [
+            21,
+            424,
+            1033,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_015_static_026_num02749_sim20.jpg",
+          "frame_num": 2749,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            20,
+            645,
+            261,
+            707
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 27,
+      "median_flow_px_per_frame": -0.11093199998140335,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1140628308057785,
+      "roi_percentile_flow": -0.11093199998140335,
+      "scroll_direction": null
+    },
+    "scene_16": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_000_num02824_sim21.jpg",
+          "frame_num": 2824,
+          "ocr_text": "Marilu MARINI Eric DESMARESTZ VEED",
+          "ocr_bbox": [
+            21,
+            423,
+            986,
+            705
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_001_num02854_sim100.jpg",
+          "frame_num": 2854,
+          "ocr_text": "VEED Marilu MARINI DESMARESTZ Eric",
+          "ocr_bbox": [
+            291,
+            16,
+            1264,
+            619
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_002_num02914_sim21.jpg",
+          "frame_num": 2914,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            1025,
+            14,
+            1264,
+            75
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_003_num03004_sim19.jpg",
+          "frame_num": 3004,
+          "ocr_text": "VEED Jean-Claude FRISSUNG Jean-Pierre GOS",
+          "ocr_bbox": [
+            193,
+            13,
+            1264,
+            618
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_004_num03019_sim100.jpg",
+          "frame_num": 3019,
+          "ocr_text": "VEED Jean-Claude FRISSUNG Jean-Pierre GOS",
+          "ocr_bbox": [
+            192,
+            16,
+            1263,
+            618
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_005_num03094_sim19.jpg",
+          "frame_num": 3094,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            1024,
+            13,
+            1264,
+            74
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_006_num03109_sim100.jpg",
+          "frame_num": 3109,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            1022,
+            11,
+            1265,
+            75
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_007_num03139_sim32.jpg",
+          "frame_num": 3139,
+          "ocr_text": "VEED PADT eFORD ACUED",
+          "ocr_bbox": [
+            533,
+            14,
+            1264,
+            515
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_008_num03154_sim42.jpg",
+          "frame_num": 3154,
+          "ocr_text": "VEED Terence FORD Veronike RYKE",
+          "ocr_bbox": [
+            344,
+            15,
+            1263,
+            617
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_009_num03184_sim74.jpg",
+          "frame_num": 3184,
+          "ocr_text": "VEED BAR AUN BAI POI Terence FORD TOIDE Veronike RYKE",
+          "ocr_bbox": [
+            344,
+            16,
+            1263,
+            616
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_010_num03214_sim81.jpg",
+          "frame_num": 3214,
+          "ocr_text": "VEED BALCONS BAR AUX POUR MO Terence FORD Veronike RYKE",
+          "ocr_bbox": [
+            345,
+            14,
+            1265,
+            617
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_011_num03244_sim33.jpg",
+          "frame_num": 3244,
+          "ocr_text": "VEED LALCONS",
+          "ocr_bbox": [
+            554,
+            13,
+            1265,
+            149
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_012_num03259_sim60.jpg",
+          "frame_num": 3259,
+          "ocr_text": "VEED noa",
+          "ocr_bbox": [
+            620,
+            13,
+            1265,
+            484
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_013_num03274_sim35.jpg",
+          "frame_num": 3274,
+          "ocr_text": "VEED BAR AUX BALCONS PADT POUR VACUE T",
+          "ocr_bbox": [
+            451,
+            12,
+            1264,
+            508
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_014_num03304_sim54.jpg",
+          "frame_num": 3304,
+          "ocr_text": "VEED LCONS PAD",
+          "ocr_bbox": [
+            551,
+            13,
+            1264,
+            458
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_015_num03319_sim40.jpg",
+          "frame_num": 3319,
+          "ocr_text": "VEED POUR PART TOUR POU VACUED TOIRS",
+          "ocr_bbox": [
+            544,
+            13,
+            1265,
+            526
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_016_static_016_num03323_sim32.jpg",
+          "frame_num": 3323,
+          "ocr_text": "VEED nod",
+          "ocr_bbox": [
+            615,
+            15,
+            1263,
+            488
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 17,
+      "median_flow_px_per_frame": 0.2574751377105713,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2426191121339798,
+      "roi_percentile_flow": 0.2574751377105713,
+      "scroll_direction": null
+    },
+    "scene_17": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_017_static_000_num03474_sim29.jpg",
+          "frame_num": 3474,
+          "ocr_text": "VEED Charlotte MAURY CIRON Jacques",
+          "ocr_bbox": [
+            287,
+            16,
+            1264,
+            634
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_017_static_001_num03489_sim100.jpg",
+          "frame_num": 3489,
+          "ocr_text": "VEED Charlotte MAURY Jacques CIRON",
+          "ocr_bbox": [
+            287,
+            12,
+            1265,
+            633
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_017_static_002_num03564_sim21.jpg",
+          "frame_num": 3564,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            1023,
+            15,
+            1265,
+            76
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.10974712669849396,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -0.10743587464094162,
+      "roi_percentile_flow": 0.10974712669849396,
+      "scroll_direction": null
+    },
+    "scene_18": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.21726861596107483,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -0.13110128045082092,
+      "roi_percentile_flow": -0.21726861596107483,
+      "scroll_direction": null
+    },
+    "scene_19": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_019_scroll_000_num03660_sim0.jpg",
+          "frame_num": 3660,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            1024,
+            15,
+            1264,
+            76
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.8678522109985352,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.6589872241020203,
+      "roi_percentile_flow": 0.8678522109985352,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 747,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_20": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_020_scroll_000_num03805_sim0.jpg",
+          "frame_num": 3805,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            19,
+            14,
+            259,
+            71
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_020_scroll_001_num03955_sim0.jpg",
+          "frame_num": 3955,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            18,
+            14,
+            259,
+            72
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_020_scroll_002_num04105_sim0.jpg",
+          "frame_num": 4105,
+          "ocr_text": "VEED Montage Eliane GUIGNET",
+          "ocr_bbox": [
+            22,
+            16,
+            957,
+            616
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_020_scroll_003_num04255_sim0.jpg",
+          "frame_num": 4255,
+          "ocr_text": "VEED D\u00e9cors ETTER Serge BRENGUIER Laurence",
+          "ocr_bbox": [
+            22,
+            14,
+            1055,
+            638
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 1.344759464263916,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 1.0084342956542969,
+      "roi_percentile_flow": 1.344759464263916,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 482,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_21": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_021_static_000_num04344_sim18.jpg",
+          "frame_num": 4344,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            20,
+            14,
+            260,
+            77
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_021_static_001_num04389_sim12.jpg",
+          "frame_num": 4389,
+          "ocr_text": "VEED Adaptation et Dialogues AMIGORENA Santiago Claude GORETTA",
+          "ocr_bbox": [
+            21,
+            15,
+            1042,
+            627
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_021_static_002_num04404_sim98.jpg",
+          "frame_num": 4404,
+          "ocr_text": "VEED Adaptation n et Dialogues AMIGORENA Santiago Claude GORETTA",
+          "ocr_bbox": [
+            21,
+            15,
+            1041,
+            626
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_021_static_003_num04509_sim12.jpg",
+          "frame_num": 4509,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            21,
+            14,
+            260,
+            74
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_021_static_004_num04539_sim19.jpg",
+          "frame_num": 4539,
+          "ocr_text": "VEED D'apres le de roman SIMENON Georges",
+          "ocr_bbox": [
+            21,
+            14,
+            1049,
+            627
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_021_static_005_num04659_sim19.jpg",
+          "frame_num": 4659,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            1024,
+            645,
+            1265,
+            706
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_021_static_006_num04809_sim62.jpg",
+          "frame_num": 4809,
+          "ocr_text": "5 TAXI VEED",
+          "ocr_bbox": [
+            253,
+            83,
+            1264,
+            707
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 7,
+      "median_flow_px_per_frame": 0.27004939317703247,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.15368585288524628,
+      "roi_percentile_flow": 0.27004939317703247,
+      "scroll_direction": null
+    },
+    "scene_22": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_022_static_000_num05042_sim36.jpg",
+          "frame_num": 5042,
+          "ocr_text": "Producteur Ex\u00e9cutif Alain BLOCH VEED",
+          "ocr_bbox": [
+            326,
+            433,
+            1264,
+            704
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.12390309572219849,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.1427217274904251,
+      "roi_percentile_flow": 0.12390309572219849,
+      "scroll_direction": null
+    },
+    "scene_23": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_023_static_000_num05061_sim100.jpg",
+          "frame_num": 5061,
+          "ocr_text": "Producteur Ex\u00e9cutif Alain BLOCH VEED",
+          "ocr_bbox": [
+            325,
+            433,
+            1264,
+            705
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_023_static_001_num05135_sim21.jpg",
+          "frame_num": 5135,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            14,
+            574,
+            261,
+            635
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -0.10871153324842453,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10947404056787491,
+      "roi_percentile_flow": -0.10871153324842453,
+      "scroll_direction": null
+    },
+    "scene_24": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_024_static_000_num05151_sim100.jpg",
+          "frame_num": 5151,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            1024,
+            645,
+            1265,
+            706
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_024_static_001_num05211_sim12.jpg",
+          "frame_num": 5211,
+          "ocr_text": "Producteurs d\u00e9l\u00e9gu\u00e9s Eve VERCEL Robert NADOR et HAWES Steve VEED",
+          "ocr_bbox": [
+            296,
+            115,
+            1265,
+            707
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_Opening\\analysis\\frames\\scene_024_static_002_num05361_sim12.jpg",
+          "frame_num": 5361,
+          "ocr_text": "VEED",
+          "ocr_bbox": [
+            1023,
+            645,
+            1265,
+            706
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.1705637127161026,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.1825004369020462,
+      "roi_percentile_flow": 0.1705637127161026,
+      "scroll_direction": null
+    }
+  }
+}

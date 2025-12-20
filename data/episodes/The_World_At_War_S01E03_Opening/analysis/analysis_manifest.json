@@ -1,0 +1,172 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "The_World_At_War_S01E03_Opening\\analysis\\frames\\scene_000_static_000_num00015_sim0.jpg",
+          "frame_num": 15,
+          "ocr_text": "THEN WORL",
+          "ocr_bbox": [
+            356,
+            146,
+            1547,
+            580
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_Opening\\analysis\\frames\\scene_000_static_001_num00540_sim19.jpg",
+          "frame_num": 540,
+          "ocr_text": "3. FRANCE FALLS",
+          "ocr_bbox": [
+            424,
+            745,
+            1425,
+            864
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_Opening\\analysis\\frames\\scene_000_static_002_num00570_sim100.jpg",
+          "frame_num": 570,
+          "ocr_text": "3. FRANCE FALLS",
+          "ocr_bbox": [
+            425,
+            743,
+            1425,
+            864
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_Opening\\analysis\\frames\\scene_000_static_003_num00645_sim100.jpg",
+          "frame_num": 645,
+          "ocr_text": "3. FRANCE FALLS",
+          "ocr_bbox": [
+            426,
+            746,
+            1424,
+            866
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_Opening\\analysis\\frames\\scene_000_static_004_num00750_sim37.jpg",
+          "frame_num": 750,
+          "ocr_text": "3MERANCTeFISLICS",
+          "ocr_bbox": [
+            426,
+            746,
+            1425,
+            871
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_Opening\\analysis\\frames\\scene_000_static_005_num00765_sim31.jpg",
+          "frame_num": 765,
+          "ocr_text": "MayAJune 11940",
+          "ocr_bbox": [
+            425,
+            742,
+            1426,
+            868
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_Opening\\analysis\\frames\\scene_000_static_006_num00825_sim95.jpg",
+          "frame_num": 825,
+          "ocr_text": "May-June 1940",
+          "ocr_bbox": [
+            463,
+            740,
+            1413,
+            880
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_Opening\\analysis\\frames\\scene_000_static_007_num00990_sim87.jpg",
+          "frame_num": 990,
+          "ocr_text": "LO May-June 1940",
+          "ocr_bbox": [
+            190,
+            166,
+            1402,
+            875
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_Opening\\analysis\\frames\\scene_000_static_008_num01320_sim18.jpg",
+          "frame_num": 1320,
+          "ocr_text": "Written &Produced by PETER BATTY",
+          "ocr_bbox": [
+            275,
+            751,
+            1594,
+            991
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_Opening\\analysis\\frames\\scene_000_static_009_num01335_sim100.jpg",
+          "frame_num": 1335,
+          "ocr_text": "Written &Produced by PETER BATTY",
+          "ocr_bbox": [
+            283,
+            749,
+            1598,
+            992
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_Opening\\analysis\\frames\\scene_000_static_010_num01425_sim52.jpg",
+          "frame_num": 1425,
+          "ocr_text": "Written&Produced by LAPETERIBATTYER",
+          "ocr_bbox": [
+            277,
+            751,
+            1607,
+            991
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_Opening\\analysis\\frames\\scene_000_static_011_num01440_sim56.jpg",
+          "frame_num": 1440,
+          "ocr_text": "WrittNarratedIbyed by LAURENCBOLIVIER",
+          "ocr_bbox": [
+            280,
+            752,
+            1595,
+            991
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "The_World_At_War_S01E03_Opening\\analysis\\frames\\scene_000_static_012_num01590_sim23.jpg",
+          "frame_num": 1590,
+          "ocr_text": "JURENC",
+          "ocr_bbox": [
+            405,
+            857,
+            1035,
+            1017
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 13,
+      "median_flow_px_per_frame": 0.18809348344802856,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1435922086238861,
+      "roi_percentile_flow": 0.18809348344802856,
+      "scroll_direction": null
+    }
+  }
+}

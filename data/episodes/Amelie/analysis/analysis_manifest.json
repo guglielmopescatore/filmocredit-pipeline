@@ -1,0 +1,2485 @@
+{
+  "scenes": {
+    "scene_6": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_006_static_000_num00570_sim0.jpg",
+          "frame_num": 570,
+          "ocr_text": "CLAUDIE OSSARD  UCC presentent",
+          "ocr_bbox": [
+            349,
+            145,
+            926,
+            351
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_006_static_001_num00582_sim97.jpg",
+          "frame_num": 582,
+          "ocr_text": "CLAUDIE OSSARD  UGC presentent",
+          "ocr_bbox": [
+            347,
+            142,
+            927,
+            351
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_006_static_002_num00642_sim31.jpg",
+          "frame_num": 642,
+          "ocr_text": "Une coproduction VICTOIRES PRODUCTIONS TAPIOCA FILMS FRANCE CINEMA MMC GMBH INDEPENDENT",
+          "ocr_bbox": [
+            306,
+            93,
+            966,
+            409
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_006_static_003_num00650_sim100.jpg",
+          "frame_num": 650,
+          "ocr_text": "Une coproduction VICTOIRES PRODUCTIONS TAPIOCA FILMS FRANCE CINEMA MMC GMBH INDEPENDENT",
+          "ocr_bbox": [
+            304,
+            95,
+            965,
+            409
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.12099708616733551,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10808332823216915,
+      "roi_percentile_flow": 0.12099708616733551,
+      "scroll_direction": null
+    },
+    "scene_7": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_007_static_000_num00663_sim100.jpg",
+          "frame_num": 663,
+          "ocr_text": "Une coproduction VICTOIRES PRODUCTIONS TAPIOCA FILMS FRANCE 3 CINEMA MMC GMBH INDEPENDENT",
+          "ocr_bbox": [
+            306,
+            96,
+            969,
+            408
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_007_static_001_num00711_sim96.jpg",
+          "frame_num": 711,
+          "ocr_text": "Une coproduction VICTOIRES PRODUCTIONS TAPIOCA FILMS FRANCE CINMA MMC GMBH INDEPENDENT",
+          "ocr_bbox": [
+            307,
+            93,
+            966,
+            409
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_007_static_002_num00735_sim43.jpg",
+          "frame_num": 735,
+          "ocr_text": "avee la collaboration de la Sofica SOFINERGIE 5 et le soutien de la FILMSTIFTUNG NRW GmbH",
+          "ocr_bbox": [
+            326,
+            99,
+            941,
+            400
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_007_static_003_num00747_sim99.jpg",
+          "frame_num": 747,
+          "ocr_text": "avec la collaboration de la Sofica SOFINERGIE 5 et le soutien de la FILMSTIFTUNG NRW GmbH",
+          "ocr_bbox": [
+            328,
+            102,
+            941,
+            398
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_007_static_004_num00831_sim34.jpg",
+          "frame_num": 831,
+          "ocr_text": "avec la participation de",
+          "ocr_bbox": [
+            415,
+            205,
+            855,
+            258
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": 0.10323290526866913,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10776346176862717,
+      "roi_percentile_flow": 0.10323290526866913,
+      "scroll_direction": null
+    },
+    "scene_13": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_013_static_000_num01825_sim12.jpg",
+          "frame_num": 1825,
+          "ocr_text": "Tel:272 35 65 FERON Tel:237 2530 Gustave GUErE Tel:4399350 e RANGEVALTel:331 6727 Engene RicHaRD Tol73320 Tre 475$103 David SEVRAL EMAGINOT Tel:427 7357 Tel=656202 Franck DUFAiC Tel=62017 Mancial Larrions Tel=51604. Tel.887 5948 dous Escorrice Emesd MALOicHTel-633 20 21 Tel=27735 Pascal BeUNET Julien DaNiEL Tel38620 Tel:560 Pichand Lora Tel=53362 HuleCt PERLON SKY Tel: 633 20",
+          "ocr_bbox": [
+            70,
+            47,
+            1182,
+            544
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_013_static_001_num01837_sim79.jpg",
+          "frame_num": 1837,
+          "ocr_text": "Tel:272 3565 el FERON Tel:2372530 Gustave GuEre Tel:4399356 ale RAiNGEVALTel:331 6727 Engene RicHaeD Tol73320 David SEVEAL Tel=656202 ? MAGINOT Te-427 7357 Franck DUFAiL Stephane BAiLTel147 33 27 Tel=62017 Mancial Larrions Julet JAvts Tel-88t 59 48 Tel=51604. dous Escorrite Tel=27735 Pascal BeUNET Julien DANiEL Tel38620 Tel:560 Pichand dora Tel=53362 Huet PERLON SKY Te: 633 20",
+          "ocr_bbox": [
+            71,
+            53,
+            1182,
+            544
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.338171124458313,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3024701178073883,
+      "roi_percentile_flow": 0.338171124458313,
+      "scroll_direction": null
+    },
+    "scene_21": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_021_static_000_num02337_sim11.jpg",
+          "frame_num": 2337,
+          "ocr_text": "Mathiou Tautou Kassovitz",
+          "ocr_bbox": [
+            100,
+            45,
+            1167,
+            397
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_021_static_001_num02349_sim87.jpg",
+          "frame_num": 2349,
+          "ocr_text": "Awdrby Mathiou Tautou Kassovitz",
+          "ocr_bbox": [
+            100,
+            40,
+            1166,
+            397
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.1270102858543396,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.13856004178524017,
+      "roi_percentile_flow": 0.1270102858543396,
+      "scroll_direction": null
+    },
+    "scene_22": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_022_static_000_num02416_sim90.jpg",
+          "frame_num": 2416,
+          "ocr_text": "Mathiou Audrby Tautou Kassovitz daus",
+          "ocr_bbox": [
+            101,
+            47,
+            1160,
+            506
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.15316984057426453,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.14089512825012207,
+      "roi_percentile_flow": 0.15316984057426453,
+      "scroll_direction": null
+    },
+    "scene_23": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_023_static_000_num02457_sim31.jpg",
+          "frame_num": 2457,
+          "ocr_text": "Le Fabuleux Destin D'Amelie Poulain",
+          "ocr_bbox": [
+            100,
+            84,
+            1161,
+            448
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.12241696566343307,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.14735479652881622,
+      "roi_percentile_flow": 0.12241696566343307,
+      "scroll_direction": null
+    },
+    "scene_24": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.15405172109603882,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1280367374420166,
+      "roi_percentile_flow": 0.15405172109603882,
+      "scroll_direction": null
+    },
+    "scene_26": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_026_static_000_num02606_sim38.jpg",
+          "frame_num": 2606,
+          "ocr_text": "Scenario GUILLAUME LAURANT JEAN-PIERRE JEUNET",
+          "ocr_bbox": [
+            712,
+            232,
+            1181,
+            503
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_026_static_001_num02642_sim100.jpg",
+          "frame_num": 2642,
+          "ocr_text": "Scenario GUILLAUME LAURANT JEAN-PIERRE JEUNET",
+          "ocr_bbox": [
+            715,
+            232,
+            1182,
+            504
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.36745685338974,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.4540928900241852,
+      "roi_percentile_flow": 0.36745685338974,
+      "scroll_direction": null
+    },
+    "scene_27": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_027_static_000_num02724_sim48.jpg",
+          "frame_num": 2724,
+          "ocr_text": "Diabogues GUILLAUME LAURANT",
+          "ocr_bbox": [
+            131,
+            103,
+            587,
+            274
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_027_static_001_num02748_sim63.jpg",
+          "frame_num": 2748,
+          "ocr_text": "Dialogues CUILLAUME LAURANT",
+          "ocr_bbox": [
+            131,
+            100,
+            588,
+            276
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.25700700283050537,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2315610647201538,
+      "roi_percentile_flow": 0.25700700283050537,
+      "scroll_direction": null
+    },
+    "scene_28": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_028_static_000_num02780_sim59.jpg",
+          "frame_num": 2780,
+          "ocr_text": "Dialoguss GUILLAUME LAURANT",
+          "ocr_bbox": [
+            133,
+            101,
+            588,
+            279
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.13297440111637115,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.21933089196681976,
+      "roi_percentile_flow": 0.13297440111637115,
+      "scroll_direction": null
+    },
+    "scene_30": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_030_static_000_num02880_sim34.jpg",
+          "frame_num": 2880,
+          "ocr_text": "Casting PIERRE E-JACQUES BENICHOU",
+          "ocr_bbox": [
+            175,
+            67,
+            513,
+            328
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_030_static_001_num02925_sim100.jpg",
+          "frame_num": 2925,
+          "ocr_text": "Casting PIERRE E-JACQUES BENICHOU",
+          "ocr_bbox": [
+            177,
+            67,
+            512,
+            328
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.38281434774398804,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.27103009819984436,
+      "roi_percentile_flow": 0.38281434774398804,
+      "scroll_direction": null
+    },
+    "scene_33": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.6051167249679565,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.22825248539447784,
+      "roi_percentile_flow": 0.6051167249679565,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 809,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_35": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_035_static_000_num03130_sim31.jpg",
+          "frame_num": 3130,
+          "ocr_text": "ALINE BONETTO Decor",
+          "ocr_bbox": [
+            -637,
+            324,
+            -299,
+            498
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_035_static_001_num03154_sim42.jpg",
+          "frame_num": 3154,
+          "ocr_text": "Decor",
+          "ocr_bbox": [
+            -546,
+            423,
+            -395,
+            498
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_035_static_002_num03166_sim42.jpg",
+          "frame_num": 3166,
+          "ocr_text": "ALINE BONETTO Decor",
+          "ocr_bbox": [
+            -637,
+            324,
+            -300,
+            497
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_035_static_003_num03178_sim42.jpg",
+          "frame_num": 3178,
+          "ocr_text": "Decor",
+          "ocr_bbox": [
+            191,
+            1161,
+            340,
+            1231
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.13828258216381073,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.37885820865631104,
+      "roi_percentile_flow": 0.13828258216381073,
+      "scroll_direction": null
+    },
+    "scene_36": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_036_scroll_000_num03197_sim0.jpg",
+          "frame_num": 3197,
+          "ocr_text": "Directeur la photographie BRUNO DELBONNEL",
+          "ocr_bbox": [
+            731,
+            32,
+            1142,
+            266
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.7076714634895325,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.7055860757827759,
+      "roi_percentile_flow": 0.7076714634895325,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 692,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_37": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_037_scroll_000_num03274_sim0.jpg",
+          "frame_num": 3274,
+          "ocr_text": "BRUNO DELBONNEL de la photographie Directeur",
+          "ocr_bbox": [
+            -599,
+            281,
+            -187,
+            519
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.402158260345459,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.030743807554244995,
+      "roi_percentile_flow": -2.402158260345459,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 204,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_38": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_038_scroll_000_num03297_sim0.jpg",
+          "frame_num": 3297,
+          "ocr_text": "Maquillage NTHALIE TISSIER",
+          "ocr_bbox": [
+            178,
+            38,
+            577,
+            212
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_038_scroll_001_num03391_sim0.jpg",
+          "frame_num": 3391,
+          "ocr_text": "Coiffure JoHN NoLlet VERONIQUE BOIToUT",
+          "ocr_bbox": [
+            146,
+            180,
+            532,
+            448
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 5.183244228363037,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 2.6541574001312256,
+      "roi_percentile_flow": 5.183244228363037,
+      "scroll_direction": "downward",
+      "save_interval_frames": 94,
+      "save_interval_frames_uncapped": 94,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_39": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_039_scroll_000_num03395_sim0.jpg",
+          "frame_num": 3395,
+          "ocr_text": "Coiffure JoHN NoLlet VERONIQUE DE BOITOUT",
+          "ocr_bbox": [
+            151,
+            179,
+            529,
+            445
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 3.2111828327178955,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.867558479309082,
+      "roi_percentile_flow": 3.2111828327178955,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 152,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_41": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.7777121067047119,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.9479933381080627,
+      "roi_percentile_flow": 0.7777121067047119,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 630,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_43": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_043_static_000_num03599_sim37.jpg",
+          "frame_num": 3599,
+          "ocr_text": "Son JEAN UMANSKY SOPHIE CHIABAUT",
+          "ocr_bbox": [
+            778,
+            187,
+            1120,
+            448
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.328139990568161,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.6466792225837708,
+      "roi_percentile_flow": 0.328139990568161,
+      "scroll_direction": null
+    },
+    "scene_45": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_045_static_000_num03734_sim40.jpg",
+          "frame_num": 3734,
+          "ocr_text": "Montage HERVE SCHINEID A.C.E",
+          "ocr_bbox": [
+            85,
+            35,
+            519,
+            214
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.39883023500442505,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.5920300483703613,
+      "roi_percentile_flow": 0.39883023500442505,
+      "scroll_direction": null
+    },
+    "scene_46": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_046_static_000_num03735_sim100.jpg",
+          "frame_num": 3735,
+          "ocr_text": "Montage HERVE SCHINEID A.C.E",
+          "ocr_bbox": [
+            84,
+            35,
+            518,
+            214
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_046_static_001_num03793_sim42.jpg",
+          "frame_num": 3793,
+          "ocr_text": "Montage",
+          "ocr_bbox": [
+            126,
+            419,
+            351,
+            514
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -0.020183198153972626,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.7017087936401367,
+      "roi_percentile_flow": -0.020183198153972626,
+      "scroll_direction": null
+    },
+    "scene_48": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.5918103456497192,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.44868168234825134,
+      "roi_percentile_flow": 0.5918103456497192,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 827,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_49": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_049_static_000_num03910_sim30.jpg",
+          "frame_num": 3910,
+          "ocr_text": "Effets sonores CERARD  HARDY Montage son",
+          "ocr_bbox": [
+            471,
+            889,
+            815,
+            1213
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_049_static_001_num03922_sim66.jpg",
+          "frame_num": 3922,
+          "ocr_text": "Montage son GERARD HADY Effets sonores LAURENT  KOSSAYAN",
+          "ocr_bbox": [
+            459,
+            66,
+            819,
+            461
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.24663299322128296,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.423389732837677,
+      "roi_percentile_flow": 0.24663299322128296,
+      "scroll_direction": null
+    },
+    "scene_50": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.7940853834152222,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 2.7884340286254883,
+      "roi_percentile_flow": 0.7940853834152222,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 617,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_51": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_051_static_000_num04035_sim35.jpg",
+          "frame_num": 4035,
+          "ocr_text": "Premier assistant CHRISTOPHE VASSORT",
+          "ocr_bbox": [
+            700,
+            243,
+            1185,
+            417
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_051_static_001_num04095_sim47.jpg",
+          "frame_num": 4095,
+          "ocr_text": "Scripte ANNE WERMELINGER",
+          "ocr_bbox": [
+            711,
+            234,
+            1161,
+            413
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.3496429920196533,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3807704448699951,
+      "roi_percentile_flow": 0.3496429920196533,
+      "scroll_direction": null
+    },
+    "scene_53": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.5365830063819885,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.8520005941390991,
+      "roi_percentile_flow": 0.5365830063819885,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 912,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_55": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_055_static_000_num04359_sim39.jpg",
+          "frame_num": 4359,
+          "ocr_text": "Directeur de production JEAN-MARC DESCHAMPS Rigie",
+          "ocr_bbox": [
+            118,
+            30,
+            1014,
+            422
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_055_static_001_num04371_sim83.jpg",
+          "frame_num": 4371,
+          "ocr_text": "Directeuz production JEAN-MARC DESCHAMPS Rigie ALAIN MOUGENOT",
+          "ocr_bbox": [
+            117,
+            29,
+            1122,
+            504
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_055_static_002_num04383_sim94.jpg",
+          "frame_num": 4383,
+          "ocr_text": "Directeur de production JEAN-MARC DESCHAMPS Rigie ALAIN MOUGENDT",
+          "ocr_bbox": [
+            117,
+            30,
+            1119,
+            509
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": -0.009356684982776642,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.24171379208564758,
+      "roi_percentile_flow": -0.009356684982776642,
+      "scroll_direction": null
+    },
+    "scene_56": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_056_static_000_num04396_sim86.jpg",
+          "frame_num": 4396,
+          "ocr_text": "Directeur de production JEAN-MARC DESCHAMPS Rigie",
+          "ocr_bbox": [
+            117,
+            28,
+            1017,
+            426
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_056_static_001_num04399_sim85.jpg",
+          "frame_num": 4399,
+          "ocr_text": "Directeur de production JEAN-MARC DESCHAMPS Regie ALAIN MOUGENOT",
+          "ocr_bbox": [
+            117,
+            31,
+            1118,
+            504
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.2372884601354599,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2039150893688202,
+      "roi_percentile_flow": 0.2372884601354599,
+      "scroll_direction": null
+    },
+    "scene_57": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_057_scroll_000_num04400_sim0.jpg",
+          "frame_num": 4400,
+          "ocr_text": "Directeur de production JEAN-MARC DESCHAMPS Rigie",
+          "ocr_bbox": [
+            119,
+            31,
+            1016,
+            425
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.5023779273033142,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.5686633586883545,
+      "roi_percentile_flow": 0.5023779273033142,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 975,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_58": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_058_scroll_000_num04603_sim0.jpg",
+          "frame_num": 4603,
+          "ocr_text": "Produit par CLAUDIE OSSARD",
+          "ocr_bbox": [
+            751,
+            77,
+            1126,
+            244
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.65364670753479,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.7559552192687988,
+      "roi_percentile_flow": 0.65364670753479,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 749,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_60": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_060_static_000_num04695_sim25.jpg",
+          "frame_num": 4695,
+          "ocr_text": "Un film JEUNET",
+          "ocr_bbox": [
+            515,
+            141,
+            877,
+            317
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_060_static_001_num04707_sim68.jpg",
+          "frame_num": 4707,
+          "ocr_text": "Un Film JEAN-PIERRE E JEUNET",
+          "ocr_bbox": [
+            403,
+            141,
+            877,
+            318
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_060_static_002_num04719_sim98.jpg",
+          "frame_num": 4719,
+          "ocr_text": "Un Film de JEAN-PIERRE JEUNET",
+          "ocr_bbox": [
+            403,
+            141,
+            874,
+            317
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": -0.1488102823495865,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2137959897518158,
+      "roi_percentile_flow": -0.1488102823495865,
+      "scroll_direction": null
+    },
+    "scene_61": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_061_static_000_num04775_sim98.jpg",
+          "frame_num": 4775,
+          "ocr_text": "Un film de JeaAN-PIERRE JEUNET",
+          "ocr_bbox": [
+            397,
+            141,
+            885,
+            326
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.11323519796133041,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10505653917789459,
+      "roi_percentile_flow": 0.11323519796133041,
+      "scroll_direction": null
+    },
+    "scene_63": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_000_num04928_sim12.jpg",
+          "frame_num": 4928,
+          "ocr_text": "Avec",
+          "ocr_bbox": [
+            541,
+            212,
+            796,
+            340
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_001_num04988_sim24.jpg",
+          "frame_num": 4988,
+          "ocr_text": "TAUTOU Audrey",
+          "ocr_bbox": [
+            242,
+            217,
+            1057,
+            346
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_002_num05060_sim33.jpg",
+          "frame_num": 5060,
+          "ocr_text": "Mathieu KASSOVITZ TIVOX",
+          "ocr_bbox": [
+            362,
+            195,
+            847,
+            475
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_003_num05120_sim31.jpg",
+          "frame_num": 5120,
+          "ocr_text": "Lorella CRAVOTTA",
+          "ocr_bbox": [
+            883,
+            337,
+            1125,
+            446
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_004_num05132_sim84.jpg",
+          "frame_num": 5132,
+          "ocr_text": "Lorella RUFUS CRAVOTTA",
+          "ocr_bbox": [
+            457,
+            345,
+            1125,
+            450
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_005_num05192_sim29.jpg",
+          "frame_num": 5192,
+          "ocr_text": "Serge MERLIN Jamel DEBBOUZE",
+          "ocr_bbox": [
+            369,
+            190,
+            1079,
+            461
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_006_num05264_sim36.jpg",
+          "frame_num": 5264,
+          "ocr_text": "lotilde MOLLET Claire MAURIER",
+          "ocr_bbox": [
+            214,
+            187,
+            1171,
+            437
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_007_num05276_sim98.jpg",
+          "frame_num": 5276,
+          "ocr_text": "Clotilde MOLLET Claire MAURIER",
+          "ocr_bbox": [
+            191,
+            188,
+            1172,
+            437
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_008_num05336_sim42.jpg",
+          "frame_num": 5336,
+          "ocr_text": "MOLLET Dominigue PINON",
+          "ocr_bbox": [
+            127,
+            252,
+            1169,
+            452
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_009_num05348_sim73.jpg",
+          "frame_num": 5348,
+          "ocr_text": "Dominique Isabelle NANTY PINON",
+          "ocr_bbox": [
+            184,
+            338,
+            1170,
+            447
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_010_num05420_sim32.jpg",
+          "frame_num": 5420,
+          "ocr_text": "MOREAU yolande",
+          "ocr_bbox": [
+            687,
+            343,
+            1115,
+            460
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_011_num05432_sim61.jpg",
+          "frame_num": 5432,
+          "ocr_text": "MOREAU yolande Artus PENGUERN de",
+          "ocr_bbox": [
+            273,
+            339,
+            1115,
+            514
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_012_num05504_sim37.jpg",
+          "frame_num": 5504,
+          "ocr_text": "Maurice Urbain BENICHOU CANCELIER",
+          "ocr_bbox": [
+            197,
+            387,
+            1094,
+            527
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_013_num05588_sim48.jpg",
+          "frame_num": 5588,
+          "ocr_text": "Michel Andr\u00e9e ROBIN DAMANT",
+          "ocr_bbox": [
+            399,
+            280,
+            976,
+            432
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_014_num05600_sim98.jpg",
+          "frame_num": 5600,
+          "ocr_text": "Michel Andree ROBIN DAMANT",
+          "ocr_bbox": [
+            399,
+            281,
+            974,
+            433
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_015_num05648_sim54.jpg",
+          "frame_num": 5648,
+          "ocr_text": "Micha ROBIN",
+          "ocr_bbox": [
+            301,
+            288,
+            444,
+            432
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_016_num05660_sim44.jpg",
+          "frame_num": 5660,
+          "ocr_text": "claude PERRON ARMELLE",
+          "ocr_bbox": [
+            248,
+            54,
+            1167,
+            289
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_017_num05744_sim41.jpg",
+          "frame_num": 5744,
+          "ocr_text": "avec la participation de HOLGADO Tichy",
+          "ocr_bbox": [
+            470,
+            137,
+            874,
+            374
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_018_num05816_sim27.jpg",
+          "frame_num": 5816,
+          "ocr_text": "Feora ES Amaury BABAULT GUIET",
+          "ocr_bbox": [
+            512,
+            85,
+            1225,
+            448
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_019_num05828_sim46.jpg",
+          "frame_num": 5828,
+          "ocr_text": "Feera FERNANDES Kevin GUIET",
+          "ocr_bbox": [
+            193,
+            87,
+            790,
+            448
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_020_num05840_sim90.jpg",
+          "frame_num": 5840,
+          "ocr_text": "Feora rad FERNANDES Kevin GUIET",
+          "ocr_bbox": [
+            193,
+            88,
+            1074,
+            452
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_021_num05852_sim63.jpg",
+          "frame_num": 5852,
+          "ocr_text": "Feora FERNANDES Amaury BABAULT GUIET",
+          "ocr_bbox": [
+            330,
+            88,
+            1223,
+            452
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_022_num05864_sim72.jpg",
+          "frame_num": 5864,
+          "ocr_text": "Flora Kevin TERNANDES Amaury BABAULT GUIET",
+          "ocr_bbox": [
+            183,
+            92,
+            1222,
+            454
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_023_num05888_sim51.jpg",
+          "frame_num": 5888,
+          "ocr_text": "Flaa FERNAMDES Kevn GUIET",
+          "ocr_bbox": [
+            162,
+            50,
+            671,
+            511
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_024_num05900_sim35.jpg",
+          "frame_num": 5900,
+          "ocr_text": "Avec la de Andr\u00e9 DUSSOLLIER",
+          "ocr_bbox": [
+            509,
+            223,
+            981,
+            375
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_063_static_025_num05912_sim88.jpg",
+          "frame_num": 5912,
+          "ocr_text": "Avec la voixc de Andre DUSSOLLIER",
+          "ocr_bbox": [
+            511,
+            225,
+            979,
+            370
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 26,
+      "median_flow_px_per_frame": 0.15419745445251465,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1692751683294773,
+      "roi_percentile_flow": 0.15419745445251465,
+      "scroll_direction": null
+    },
+    "scene_64": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_064_static_000_num06027_sim40.jpg",
+          "frame_num": 6027,
+          "ocr_text": "avec EUGENE BERTHIER Eua\u00e8Ne Koler",
+          "ocr_bbox": [
+            443,
+            481,
+            761,
+            544
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_65": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_065_scroll_000_num06028_sim0.jpg",
+          "frame_num": 6028,
+          "ocr_text": "avec EUGENE BERTHIER Eug\u00e8Ne Koler",
+          "ocr_bbox": [
+            445,
+            478,
+            764,
+            544
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.910208225250244,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.8848977088928223,
+      "roi_percentile_flow": -2.910208225250244,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 168,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_66": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_066_scroll_000_num06065_sim0.jpg",
+          "frame_num": 6065,
+          "ocr_text": "avec EUG\u00c8NE BERTHIER Eug\u00e8ne Koler MARION PRESSBURGERpetites mains du g\u00e9n\u00e9rique CHARLES-ROGER BOURl'homme \u00e0 La vespasienne LUC PALUN l'\u00e9picier d'Amandine",
+          "ocr_bbox": [
+            395,
+            370,
+            900,
+            538
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.898066759109497,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.898763656616211,
+      "roi_percentile_flow": -2.898066759109497,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_67": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_067_scroll_000_num06152_sim0.jpg",
+          "frame_num": 6152,
+          "ocr_text": "avec EUG\u00c8NE BERTHIER Eug\u00e8ne Koler MARION PRESSBURGERpetites mains du g\u00e9n\u00e9rique CHARLES-ROGER BOUR l'homme \u00e0 La vespasienne LUC PALUN l'\u00e9picier d'Amandine FABIENNE CHAUDATla femme dans le coma DOMINIQUE BETTENFELDle voisin d'Am\u00e9lie JACQUES VIALA le clientqui humilie son ami FABIEN BEHAR le client humili\u00e9 JONATHAN JOSS le fils du client humili\u00e9 JEAN-PIERRE BECKER le clochard JEAN DARIE l'aveugle THIERRY GIBAULT le client aux endives",
+          "ocr_bbox": [
+            389,
+            115,
+            924,
+            541
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_067_scroll_001_num06302_sim0.jpg",
+          "frame_num": 6302,
+          "ocr_text": "JEAN-PIERRE BECKER te clochard JEAN DARIE l'aveugle THIERRY GIBAULT le clientaux endives FRANCOIS BERCOVICIsON copain FRANCK MONIER Dominique Bredoteau jeune GUILLAUME VIRYLe S.D.J. VAL\u00c9RIE ZARROUK Dominique Bredoteau femme MARIE-LAURE DESCOUREAUX la concierge du mort SOPHIE TELLIER la Jante Josette GERALD WEINGAND (\"instituteur FRANCOIS VIAUR le patron du bistrot PAULE DARE son employ\u00e9e MARC AMYOT t'inconnu des photomatons MYRIAM LABBE la cliente du tabac JEAN RUPERT lop\u00e9r\u00e9 des cloisons nasales FRANKIE PAIN la marchande de journaux",
+          "ocr_bbox": [
+            346,
+            11,
+            923,
+            531
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_067_scroll_002_num06452_sim0.jpg",
+          "frame_num": 6452,
+          "ocr_text": "MYRIAM LABBE la cliente du tabac JEAN RUPERT lop\u00e9r\u00e9 des cloisons nasales FRANKIE PAIN la marchande de journaux JULIANNA KOVACSune cliente de l'\u00e9picerie PHILIPPE PAIMBLANC le contrleur du train MADY ET MONETTE MALROUX les jumelles ROBERT GENDREU te client du caf\u00e9 VALERIANE DE VILLENEUVE la feMMe qui rit ISIS PEYRADESamantha RAYMONDE HEUDELINE la caissi\u00e8re du trainfantme CHRISTIANE BOPPla femme pr\u00e8s du man\u00e8ge THIERRY ARFEUILLERES l'homMe statue JERRY LUCAS le petit gar\u00e7on du Sacr\u00e9-C\u00e6ur PATRICK PAROUX le souffleur de rue FRANCOIS AUBINEAU le facteur de la concierge PHILIPPE BEAUTIER le facteur de Poulain KARINE ASURE la inlie tille du cendeanuny",
+          "ocr_bbox": [
+            340,
+            2,
+            932,
+            542
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": -2.9032206535339355,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.900928497314453,
+      "roi_percentile_flow": -2.9032206535339355,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_68": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_068_scroll_000_num06580_sim0.jpg",
+          "frame_num": 6580,
+          "ocr_text": "RRT ARrEuilLERES t nomme statue JERRY LUCAS le petit gar\u00e7on du Sacr\u00e9-Caur PATRICK PAROUX le souffleur de rue FRANCOIS AUBINEAU le facteur de la concierge PHILIPPE BEAUTIER le facteur de Poulain KARINE ASURE la jolie fille du rendez-vous REGIS IACONOF\u00e9lix 'Herbier voix off FRANCK-OLIVIER BONNET Palace Video ALAIN FLORET le mari de la concierge JEAN-POL BRISSARTPacques Grosiean Merci \u00e0 Fr\u00e9d\u00e9ric MITTERAND Directeur de post-production Lionel KOPP (Lumi\u00e8re Unique)",
+          "ocr_bbox": [
+            331,
+            0,
+            931,
+            542
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_068_scroll_001_num06730_sim0.jpg",
+          "frame_num": 6730,
+          "ocr_text": "Fr\u00e9d\u00e9ric MITTERAND Directeur de post-productionLionel KOPp (Lumi\u00e8re Unique) Avec la collaboration deSophie VERMERSCH C\u00e9line de SEYNES Deuxi\u00e8me assistant \u00e0 la r\u00e9alisation Pascal ROy Stagiaires Thomas PARNET JulietteBINAUD Rep\u00e9rages Aude LEMERCIER Jos\u00e9 SAKO PhotographeFran\u00e7ois PAUMARD Cr\u00e9ateur des personnages anim\u00e9s Michael SOWA Attach\u00e9e dePresse Isabelle SAUVANON Documentaliste V\u00e9roniaue IAMBFRT de GlIISF",
+          "ocr_bbox": [
+            262,
+            0,
+            907,
+            544
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -2.888974905014038,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.8949732780456543,
+      "roi_percentile_flow": -2.888974905014038,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_69": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_069_scroll_000_num06760_sim0.jpg",
+          "frame_num": 6760,
+          "ocr_text": "Uirecteur ae post-proaucrion Lionei KUpp (Lumiere Unique) Avec la collaboration de Sophie VERMERSCH C\u00e9line de SEYNES Deuxi\u00e8me assistant \u00e0 la r\u00e9alisation Pascal ROy Stagiaires ThomasPARNET Juliette BINAUD Rep\u00e9ragesAude LEMERCIER Jos\u00e9 SAKO PhotographeFran\u00e7ois PAUMARD Cr\u00e9ateur des personnages anim\u00e9s Michael SOWA Attach\u00e9e de Presse Isabelle SAUVANON DocumentalisteV\u00e9ronique LAMBERT de GUISE Album de Photomatons Ludovic LECOuTEUX D'apr\u00e8s la collection originale de Michel FOLCO",
+          "ocr_bbox": [
+            263,
+            0,
+            905,
+            542
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_069_scroll_001_num06910_sim0.jpg",
+          "frame_num": 6910,
+          "ocr_text": "Documentaliste V\u00e9ronique LAMBERT de GUISE Album de Photomatons Ludovic LECOuTEUX D'apr\u00e8s la collection originale de Michel FOLCO Affiches murales THERY StoryboardLuc DESPORTES Animatiers Patrick PITAvINO Valentine AUPETIT Casting Figuration Alberte GARO Enfants Val\u00e9rie ESPAGNE Assistante enfants Patricia VAN Cascades Cascades physiquesPatrick CAUDERLIER",
+          "ocr_bbox": [
+            283,
+            0,
+            903,
+            542
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_069_scroll_002_num07060_sim0.jpg",
+          "frame_num": 7060,
+          "ocr_text": "Cascades Cascades physiques Patrick CAUDERLIER R\u00e9mi CANAPLE Pascaline GIRARDOT Cascades voitures Jean-ClaudeLAGNIEZ S\u00e9bastienLAGNIEZ S\u00e9bastien SEVEAU Jechnicien Photomaton S\u00e9bastien GUYOMARD Directeurfinancier Gilles CAUSSADE Administratrice de production Nicole HEITZMANN Secr\u00e9taire de productionMarie-Laure COMPAIN R\u00e9gisseurs adjoints NicolasDAVy Fric DUCHENE",
+          "ocr_bbox": [
+            321,
+            40,
+            838,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_069_scroll_003_num07210_sim0.jpg",
+          "frame_num": 7210,
+          "ocr_text": "Secr\u00e9taire de production Marie-LaureCOMPAIN R\u00e9gisseurs adjoints Nicolas DAVY Eric DUCHENE R\u00e9gisseur de plateauChristophe ANTONIN StagiairesNadia LE BAYON Zuzanna NOIRBERT St\u00e9phane LEFEBVRE Christophe HENRY Cyril DUSSEAUX Photographe de plateau Bruno CALVO Assistants \u00e0 la cam\u00e9ra 1\"assistant Matthieu BASTID 2assistantChristophe PEROTIN Assistant vid\u00e9oLudovic SIMEON Renforts B\u00e9atrice MIZRAHI",
+          "ocr_bbox": [
+            377,
+            2,
+            837,
+            541
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_069_scroll_004_num07360_sim0.jpg",
+          "frame_num": 7360,
+          "ocr_text": "assistantMatthieu BASiID 2assistantChristophe PEROTIN Assistant vid\u00e9oLudovic SIMEON Renforts Beatrice MIZRAHI Assist\u00e9e deGeorgi LAZAREVSKY Cameraman manivelle Dominique COLIN Assist\u00e9e de ThierryTRONCHET Steadycam Patrick de RANTER Renfort Jorg WIDMER ChefmachinisteBruno DUBET MachinistesRobert DONA Dominique LEPAGE Laurent THIERY Renfort Thomas SIDOPOULOS Chefs \u00e9lectriciensJim HOWE Michel SABOURDY \u00c9lectriciens Olivier CAZZITTI",
+          "ocr_bbox": [
+            391,
+            0,
+            826,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_069_scroll_005_num07510_sim0.jpg",
+          "frame_num": 7510,
+          "ocr_text": "Chefs \u00e9lectriciens Jim HOWE Michel SABOURDY \u00c9lectriciens Olivier CAZZITTI Yves QUEHEC Yves KOHEN Jo\u00ebl SPINOLA Jean-Christophe DUWEZ StagiaireSophieMOlLARD Groupiste Eric DUPRESSOIR Costumes Costumi\u00e8res Emma LEBAIL Assistantes V\u00e9roniqueELISE Sylvie BELLO Stagiaire Cl\u00e9mentineDARROS Renforts maquillage Dominique GALICHET",
+          "ocr_bbox": [
+            410,
+            26,
+            855,
+            535
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_069_scroll_006_num07660_sim0.jpg",
+          "frame_num": 7660,
+          "ocr_text": "Svivie DtLto Stagiaire Cl\u00e9mentine DARROS Renforts maquillageDominique GALICHET Karina GRUAIS Vesna ESTORD Renforts coiffure Virginie DURANTEAU Myriam ROGER Reynald DESBANT Lorenzo BELLIOT D\u00e9coration 1\"assistant Mathieu JUNOT 1assistante AllemagneDelphine MABED Ensembli\u00e8reMarie-Laure VALLA R\u00e9gisseurs d'ext\u00e9rieursJacques PELISSIER MarcLEHINGRAT RippeurMarc ROVeRE Staninice H\u00e9l\u00e8ne RFY",
+          "ocr_bbox": [
+            375,
+            0,
+            825,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_069_scroll_007_num07810_sim0.jpg",
+          "frame_num": 7810,
+          "ocr_text": "R\u00e9gisseurs d'ext\u00e9rieurs Jacques PELISSIER Marc LEHINGRAT Rippeur Marc ROVERE Stagiaire H\u00e9l\u00e8neREY Chef constructeur Alain GUAIS Chef menuisierDaniel FERET Menuisiers LaurentCOLET Olivier DELPY Stagiaire Olivier CHALIFOUR SculpteurSt\u00e9phane CHAUVET Chef peintre Fabrice MAUX Peintres patineurs Jean-Marc AURIOL Martine VEILLE Didier GUYARD",
+          "ocr_bbox": [
+            396,
+            3,
+            806,
+            530
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_069_scroll_008_num07960_sim0.jpg",
+          "frame_num": 7960,
+          "ocr_text": "Peintres patineursJean-Marc AURiOL Martine VEILLE DidierGUYARD Peintres du \"D\u00e9jeuner des Canotiers\" de Renoir Mich\u00e8le BATAILLE  Pascale BOILLOT  Delphine MABED Accessoiriste Fran\u00e7ois BORGEAUD Effets sp\u00e9ciaux LES VERSAILLAIS Jean-Baptiste BONETTO No\u00ebl CHAINBAUX Yves DOMENJOUD Olivier GLEYZE Daniel LENOIR Thierry ReyMONENQ FacticesDenis GASTOU Jean-Christophe SPADACCINI llers armes Christophe MARATIER",
+          "ocr_bbox": [
+            350,
+            10,
+            897,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_069_scroll_009_num08110_sim0.jpg",
+          "frame_num": 8110,
+          "ocr_text": "FacticesDenis GASTOU Jean-Christophe SPADACCINI Conseillers armesChristophe MARATIER St\u00e9phane BOURDON Production Administratrice adjointe Corinne SAGLIO Secr\u00e9taire de production Chantal BEGASSE Assistante de productionSvetlana NOvAK Chauffeur de production Patrick HERBIL Organisateur de ftes Fr\u00e9d\u00e9ric DAUGERON Montage image Assistante monteurC\u00e9line KELEPIKIS StagiaireAmandine MAROU Pr\u00e9montage archivesYann MALCOR",
+          "ocr_bbox": [
+            373,
+            0,
+            897,
+            518
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_069_scroll_010_num08260_sim0.jpg",
+          "frame_num": 8260,
+          "ocr_text": "Assistante monteur C\u00e9line KELEPIKIS StagiaireAmandine MAROU Pr\u00e9montage archives Yann MALCOR \u00c9talonnage Coloriste num\u00e9riqueDidierLEFOUEST Consultant couleurYvan LUCAS Assistant J\u00e9l\u00e9cin\u00e9ma Michael BELIN Son Monteur dialogues Alexandre WIDMER Co-MixeurGuillaume LERICHE Bruiteur Jean-Pierre LELONG Assistant bruiteurMario MELCHIORRI Assistante monteur son Marilena CAVOLA HARDY",
+          "ocr_bbox": [
+            387,
+            0,
+            861,
+            543
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_069_scroll_011_num08410_sim0.jpg",
+          "frame_num": 8410,
+          "ocr_text": "BruiteurJean-Pierre LELONG Assistant bruiteurMario MELCHIORRI Assistante monteur son Marilena CAVOLA HARDY Assistant cr\u00e9ateur sonore Igor THOMAs GERARD Repiquage Franck METTRE Post-synchroMichel FILIPPI Assistants Jean-Philippe ANGELINI St\u00e9phane de ROCQUIGNY PerchmanJean-Louis LE BRAS Producteur ex\u00e9cutif musique Cavalier Bleu - Jacques SMERLAK Consultant musical Edouard DUBOiS Effets sp\u00e9ciaux num\u00e9riques DUBOI",
+          "ocr_bbox": [
+            335,
+            0,
+            941,
+            533
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 12,
+      "median_flow_px_per_frame": -2.8953189849853516,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.8931684494018555,
+      "roi_percentile_flow": -2.8953189849853516,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_70": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_070_scroll_000_num08442_sim0.jpg",
+          "frame_num": 8442,
+          "ocr_text": "Assistant cr\u00e9ateur sonore Igor THOMAS GERARD Repiquage Franck METTRE Post-synchro Michel FILIPPI AssistantsJean-Philippe ANGELINI St\u00e9phane de ROCQUIGNY Perchman Jean-Louis LE BRAS Producteur ex\u00e9cutifmusique Cavalier Bleu - Jacques SMERLAK Consultant musicalEdouard DUBOiS Effets sp\u00e9ciaux num\u00e9riques DUBOI Producteur ex\u00e9cutifAntoine SIMKINE Superviseur tournageThomas DUVAL Directeur de production Edouard VALTON Charn\u00e9es de neniels Delnhine IE ROCH",
+          "ocr_bbox": [
+            336,
+            15,
+            941,
+            544
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.9120938777923584,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.901902198791504,
+      "roi_percentile_flow": -2.9120938777923584,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 168,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_71": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_071_scroll_000_num08483_sim0.jpg",
+          "frame_num": 8483,
+          "ocr_text": "Post-synchro Michel FILIPPI Assistants Jean-Philippe ANGELINI St\u00e9phane de ROCQUIGNY Perchman Jean-Louis LE BRAS Producteur ex\u00e9cutifmusique Cavalier Bleu - Jacques SMERLAK Consultant musical Edouard DUBOIS Effets sp\u00e9ciaux num\u00e9riques DUBOI Producteur ex\u00e9cutif Antoine SIMKINE Superviseur tournageThomasDUVAL Directeur de productionEdouard VAlTON Charg\u00e9es de projets Delphine LE ROCH S\u00e9verine de WEVER Chef de projet compositingXavier FOURMOND Chef de projet 3D Jean-Paul ROVELA",
+          "ocr_bbox": [
+            337,
+            4,
+            940,
+            540
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.9042232036590576,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.901559829711914,
+      "roi_percentile_flow": -2.9042232036590576,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_72": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_072_scroll_000_num08500_sim0.jpg",
+          "frame_num": 8500,
+          "ocr_text": "St\u00e9phane de ROCQUIGNY Perchman Jean-Louis LE BRAS Producteur ex\u00e9cutif musique Cavalier Bleu - Jacques SMERLAK Consultant musicalEdouard DUBOIS Effets sp\u00e9ciaux num\u00e9riques DUBOI Producteur ex\u00e9cutif Antoine SIMKINE SuperviseurtournageThomasDUVAL Directeur de production Edouard VALTON Chargees de projets Delphine LE ROCH S\u00e9verine deWEVER Chef de projet compositing Xavier FOURMOND Chef deprojet 3D Jean-Paul ROVELA Retouches Matador Marco PAccoSi",
+          "ocr_bbox": [
+            335,
+            10,
+            941,
+            544
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.9033432006835938,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.901496410369873,
+      "roi_percentile_flow": -2.9033432006835938,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_73": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_073_scroll_000_num08569_sim0.jpg",
+          "frame_num": 8569,
+          "ocr_text": "Effets sp\u00e9ciaux num\u00e9riques DUBOI Producteur ex\u00e9cutif Antoine SIMKINE Superviseur tournage ThomasDUVAL Directeur de productionEdouard VALTON Charg\u00e9es de projets Delphine LE ROCH S\u00e9verine de WEVER Chef de projet compositing Xavier FOURMOND Chef de projet 3D Jean-Paul ROVELA Retouches Matador Marco PACCOSI SolennCOLLIGNON Graphistes compositing \"Dutruc\" Lo\u00e3c BOUINEAUAndr\u00e9 BRIZARD Thierry DELOBEL St\u00e9phane DITTOO Alexandre KOLASINSKI JeremyLE ROUX Patricia MEDIAHED Georges TORNERO",
+          "ocr_bbox": [
+            353,
+            6,
+            808,
+            542
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.906068801879883,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.901644468307495,
+      "roi_percentile_flow": -2.906068801879883,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 168,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_74": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_074_scroll_000_num08648_sim0.jpg",
+          "frame_num": 8648,
+          "ocr_text": "Chef de projet compositing Xavier FOURMOND Chef de projet 3D Jean-Paul ROVELA Retouches Matador MarcoPACCOSI SolennCOLLIGNON Graphistes compositing \"Dutruc\" Lo\u00e3c BOUINEAUAndr\u00e9 BRIZARD Thierry DELOBEL St\u00e9phane DITTOO Alexandre KOLASINSKI JeremyLE ROUX Patricia MEDJAHED Georges TORNERO Daniel TRUJILLO CHINCHINA Assistes de Lucie BORIES Le\u00efla DIXMIR Yann GONSARDMathieu LE MEUR Graphistes 3D Matte painting Bruno LE PROvOST Jean-Marie VIVES Olivier REVIlION St\u00e9nhanie DARGENT",
+          "ocr_bbox": [
+            353,
+            2,
+            885,
+            544
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.904808521270752,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.8964133262634277,
+      "roi_percentile_flow": -2.904808521270752,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_75": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_075_scroll_000_num08672_sim0.jpg",
+          "frame_num": 8672,
+          "ocr_text": "Retouches Matador Marco PACCOSI Solenn COLLIGNON Graphistes compositing \"Dutruc\" Lo\u00e3c BOUINEAUAndr\u00e9 BRIZARD Thierry DELOBEL St\u00e9phane DITTOO Alexandre KOLASINSKI JeremyLE ROUX Patricia MEDJAHED Georges TORNERO Daniel TRUJILLO CHINCHINA Assist\u00e9s de Lucie BORIES Le\u00efla DIXMIR Yann GONSARD Mathieu LE MEUR Graphistes 30 Matte painting Bruno LE PROVOST Jean-Marie VIVES Olivier REVILLON St\u00e9phanie DARGENT Morgann SAGEL V\u00e9ronique ZILBERFAIN Pierre VILLETTE",
+          "ocr_bbox": [
+            387,
+            19,
+            886,
+            534
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.892402172088623,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.8956997394561768,
+      "roi_percentile_flow": -2.892402172088623,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_76": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_076_scroll_000_num08690_sim0.jpg",
+          "frame_num": 8690,
+          "ocr_text": "Solenn COLLIGNON Graphistes compositing \"Dutruc\" Loic BOUINEAU Andr\u00e9 BRIZARD Thierry DELOBEL St\u00e9phane DITTOO Alexandre KOLASINSKI JeremyLE ROUX Patricia MEDJAHED Georges TORNERO Daniel TRUJILLO CHINCHINA Assistes de Lucie BORIES Le\u00efla DIXMIR Yann GONSARD Mathieu LE MEUR Graphistes 3D Matte painting VIVES Bruno LE PROVOST Jean-Marie Olivier REVILLON DARGENT St\u00e9phanie Morgann SAGEL V\u00e9ronique ZILBERFAIN Pierre VILLETTE Recherche et d\u00e9veloppement St\u00e9phane DEVERLY",
+          "ocr_bbox": [
+            338,
+            0,
+            884,
+            541
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.890127182006836,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.8835031986236572,
+      "roi_percentile_flow": -2.890127182006836,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_77": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_077_scroll_000_num08718_sim0.jpg",
+          "frame_num": 8718,
+          "ocr_text": "Lo\u00e3c BOUINEAUAndr\u00e9 BRIZARD Thierry DELOBEL St\u00e9phane DITTOO Alexandre KOLASINSKI JeremyLE ROUX Patricia MEDJAHEDGeorges TORNERO Daniel TRUJILLO CHINCHINA Assistes de Lucie BORIES SLe\u00efla DIXMIR Yann GONSARD Mathieu LE MEUR Graphistes 3D Matte painting Bruno Jean-Marie VIVES LE PROVOST Olivier REVILLON St\u00e9phanie DARGENT Morgann SAGEL V\u00e9ronique ZILBERFAIN Pierre VILLETTE Recherche et d\u00e9veloppement St\u00e9phane DEVERLY Olivier TUBACH Laurent CLAVIER",
+          "ocr_bbox": [
+            338,
+            5,
+            886,
+            512
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_077_scroll_001_num08868_sim0.jpg",
+          "frame_num": 8868,
+          "ocr_text": "Recherche et d\u00e9veloppement Stephane DtVERLY Olivier TUBACH Laurent CLAVIER Jypo Marc BRUCKERT Julien JANISZEWSKI Laboratoire numerique DUBOICOLOR Directeur technique Rip HAMPTON O'NEIL Directeur des productionsTommaso VERGALLO Assist\u00e9 de Aurore ADER Laure FOURMENTAL Coordinateur du projet J\u00e9r\u00f4me ARTHUIS Num\u00e9risation et conformation Christophe BELENA Tina LIN Guillaume UGUET",
+          "ocr_bbox": [
+            320,
+            1,
+            826,
+            530
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -2.888566493988037,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.8897674083709717,
+      "roi_percentile_flow": -2.888566493988037,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_78": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_078_scroll_000_num08943_sim0.jpg",
+          "frame_num": 8943,
+          "ocr_text": "Laboratoire num\u00e9rique DUBOICOLOR Directeur techniqueRip HAMPTON O'NEIL Directeur des productions Tommaso VERGALLO Assist\u00e9 de Aurore ADER Laure FOURMENTAL Coordinateur du projet J\u00e9r\u00f2me ARTHUIS Num\u00e9risation et conformation Christophe BELENA Tina LIN Guillaume UGUET Jraitement num\u00e9rique Fran\u00e7oisDUPUY Abdel Ali KASSOU Nicolas PELE Alexandre JEANNERET Jransfert vid\u00e9o Christophe COTTET Responsable de l'argentique Coralie BOULAY Stagiaires Nicolas NICOLE Ga\u00ebl EXILIE",
+          "ocr_bbox": [
+            320,
+            0,
+            831,
+            534
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.9069058895111084,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.8970117568969727,
+      "roi_percentile_flow": -2.9069058895111084,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 168,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_79": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_079_scroll_000_num09021_sim0.jpg",
+          "frame_num": 9021,
+          "ocr_text": "Num\u00e9risation et conformation Christophe BELENA Tina LIN Guillaume UGUET Jraitement num\u00e9rique Fran\u00e7ois DUPUY Abdel Ali KASSOU Nicolas PELE Alexandre JEANNERET Jransfert vid\u00e9o Christophe COTTET Responsable de l'argentique Coralie BOULAY StagiairesNicolas NICOLE Ga\u00ebl EXILIE D\u00e9borah GOIGOUX \u00c9quipe Allemagne Producteur Arne MEERKAMP VAN EMBDEN Directeur de production Marc GREWE Administratrice de production Eva NEUFAHRT Assistante de production Claudia DUMMER-MANASSE",
+          "ocr_bbox": [
+            319,
+            0,
+            912,
+            537
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.9048666954040527,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.9109201431274414,
+      "roi_percentile_flow": -2.9048666954040527,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_80": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_080_scroll_000_num09038_sim0.jpg",
+          "frame_num": 9038,
+          "ocr_text": "Guillaume UGUET Jraitement num\u00e9riqueFran\u00e7oisDUPUY Abdel Ali KASSOU Nicolas PELE Alexandre JEANNERET Jransfert vid\u00e9o Christophe COTTET Responsable de L'argentique Coralie BOULAY Stagiaires Nicolas NICOLE Ga\u00ebl EXILIE D\u00e9borah GOIGOUX \u00c9quipe Allemagne Producteur Arne MEERKAMP VAN EMBDEN Directeur de production Marc GREWE Administratrice de productionEva NEUFAHRT Assistante de production Claudia DUMMER-MANASSE Secr\u00e9taire de production Karen MiTREGA",
+          "ocr_bbox": [
+            321,
+            11,
+            914,
+            517
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.9038450717926025,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.8983678817749023,
+      "roi_percentile_flow": -2.9038450717926025,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_81": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_081_scroll_000_num09065_sim0.jpg",
+          "frame_num": 9065,
+          "ocr_text": "Nicolas PELE Alexandre JEANNERET Jransfert vid\u00e9o Christophe COTTET Responsable de l'argentiqueCoralie BOULAY Stagiaires Nicolas NICOLE Ga\u00ebl EXILIE D\u00e9borah GOIGOUX \u00c9quipe Allemagne ProducteurArne MEERKAMP VAN EMBDEN Directeur de production Marc GREWE Administratrice de production EvaNEUFAHRT Assistante de productionClaudia DUMMER-MANASSE Secr\u00e9taire de production Karen MiTREGA 2assistant \u00e0 la r\u00e9alisation Dinah RAUENBUSCH Chel d\u00e9eorateus Volker SCHAFFER",
+          "ocr_bbox": [
+            320,
+            14,
+            914,
+            544
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.897089958190918,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.892944812774658,
+      "roi_percentile_flow": -2.897089958190918,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_82": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_082_scroll_000_num09142_sim0.jpg",
+          "frame_num": 9142,
+          "ocr_text": "\u00c9quipe Allemagne Producteur Arne MEERKAMP VAN EMBDEN Directeur de production Marc GREWE Administratrice de production Eva NEUFAHRT Assistante de production Claudia DUMMER-MANASSE Secr\u00e9taire de production Karen MITREGA 2 assistant \u00e0 la r\u00e9alisation Dinah RAUENBUSCH Chef d\u00e9corateur Volker SCHAEFER Assistants d\u00e9corateurs ThorstenSABEL Petra KLIMEK Daniel KOLAROV Dagmar WESSEL Chef ConstructeurStefan QUENTIN ConstructeursJohn RAWSTHORN Wolfaana GOBSBFRG",
+          "ocr_bbox": [
+            319,
+            35,
+            914,
+            543
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.905801773071289,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.8896713256835938,
+      "roi_percentile_flow": -2.905801773071289,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 168,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_83": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_083_scroll_000_num09181_sim0.jpg",
+          "frame_num": 9181,
+          "ocr_text": "Uirecreur ae proaucrion maic URem Administratrice de production Eva NEUFAHRT Assistante de productionClaudia DUMMER-MANASSE Secr\u00e9taire de production Karen MITREGA 2assistant \u00e0 la r\u00e9alisationDinah RAUENBUSCH Chef d\u00e9corateurVolker SCHAEFER Assistants d\u00e9corateursThorsten SABEL Petra KLIMEK Daniel KOLAROV DagmarWESSEL Chef Constructeur Stefan QUENTIN ConstructeursJohn RAWSTHORN Wolfgang GOBSBERG Onkel TUKA Gregor HEES Assistante accessoiriste Kerstin KR\u00d6TZ",
+          "ocr_bbox": [
+            320,
+            0,
+            886,
+            542
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_083_scroll_001_num09331_sim0.jpg",
+          "frame_num": 9331,
+          "ocr_text": "Onkel TUKA Gregor HEES Assistante accessoiriste Kerstin KR\u00d6TZ Accessoiristes de plateau Jorg BERGEN Ralf SCHWAMBORN Assistants cam\u00e9ra Sandra OuMAR Stefan DE LEUW \u00c9lectriciens ThomasBR\u00fcCGE Timo VON BURGSDORF Vlasta KOSTIC Marc VON KUK Machinistes KennethCORNILSE Tim LIEHR Stagiaires Torsten SCHNEIDER Frank NIFRMANN",
+          "ocr_bbox": [
+            371,
+            0,
+            839,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_083_scroll_002_num09481_sim0.jpg",
+          "frame_num": 9481,
+          "ocr_text": "Tim LIEHR Stagiaires Torsten SCHNEIDER Frank NIERMANN Mark VOIT Robert SPIKA Cam\u00e9ras et ObjectifsTECHNOVISION Pellicule KODAK J\u00e9l\u00e9cin\u00e9ma DURAN Laboratoire ECLAIR AuditoriumAUDITORIUMS DE BOULOGNE Mat\u00e9riel \u00e9lectriqueTRANSPALUX Mat\u00e9rielmachinerie CAR GRIP Mat\u00e9riel machineriePANAVISION ALGA Mat\u00e9rielmachinerieCINESYL Mat\u00e9riel son - Repiquage DCA Banc-titre ERCIDAN Location v\u00e9hicules techniques PL S EDIC LE MOUEI",
+          "ocr_bbox": [
+            321,
+            1,
+            895,
+            543
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": -2.9024791717529297,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.900874614715576,
+      "roi_percentile_flow": -2.9024791717529297,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_84": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_084_scroll_000_num09496_sim0.jpg",
+          "frame_num": 9496,
+          "ocr_text": "Stagiaires TorstenSCHNEIDER Frank NIERMANN Mark VOIT Robert SPIKA Cam\u00e9ras et ObjectifsTECHNOVISION Pellicule KODAK J\u00e9l\u00e9cin\u00e9ma DURAN Laboratoire ECLAIR AuditoriumAUDITORIUMS DE BOULOGNE Mat\u00e9riel\u00e9lectrique TRANSPALUX Mat\u00e9rielmachinerie CAR GRIP Mat\u00e9riel machineriePANAVISION ALGA Mat\u00e9rielmachinerieCINESYL Mat\u00e9riel son - Repiquage DCA Banc-titreERCIDAN Location v\u00e9hicules techniques PLS LogesERIC LE MOUEL Studio FranceCOSMOS -Studio SETS",
+          "ocr_bbox": [
+            319,
+            14,
+            895,
+            540
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_084_scroll_001_num09646_sim0.jpg",
+          "frame_num": 9646,
+          "ocr_text": "Banc-titre ERCIDAN Location v\u00e9hicules techniques PLS Loges \u00c9RIC LE MOUEL Studio France COsMOS - Studio SETS Photomatons PHOTOMATON S.A. Casting STUDIOS LA COUR Mat\u00e9riel vid\u00e9o TATOU LOCATION - MANGANELLI Mat\u00e9riel montage image ARTISTIC PALACE - LUMIERE UNIQUE Projecteur num\u00e9riqueCHRISTIE Publicit\u00e9 MARQUES ET FILMS CantineLOCAFETE Assurances SGAC BELLAN Stock-shots PATH\u00c9 - IMAGES BANK - FRANCE 2 TELEVISION ARKEION  LOBSTER I.N.A. - DAVENPORT FILMS extrait de : \"born for hard luck\" avec Peg Leg Sam Jackson disponible sur www.davenportfilms.com MK2 - LES FILMS DU CARROSSE - CHERTOK ASSOCIATES - BBC",
+          "ocr_bbox": [
+            320,
+            0,
+            958,
+            527
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -2.8984570503234863,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.8998093605041504,
+      "roi_percentile_flow": -2.8984570503234863,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_85": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_085_scroll_000_num09747_sim0.jpg",
+          "frame_num": 9747,
+          "ocr_text": "AssurancesSGAC BELLAN Stock-shots PATH\u00c9 IMAGES BANK - FRANCE 2 TELEVISION ARKEION  LOBSTER I.N.A.  DAVENPORT FILMS extrait de : \"born for hard luck\" avec Peg Leg Sam Jackson disponible sur www.davenportfilms.com MK2 -LES FILMS DU CARROSSE - CHERTOK ASSOCIATES - BBC FILM IMAGES  APRIL\u2014 PRESSE SPORT  TRANS WORLD INTERNATIONAL, INC. Tous les morceaux sont compos\u00e9s & interpr\u00e9t\u00e9s par Yann TIERSEN (P) Ici d'ailleurs - Labels/Virgin France Sauf \"LES JOURS TRISTES\"\"NAOMI\"",
+          "ocr_bbox": [
+            259,
+            1,
+            970,
+            520
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.91965389251709,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.913776397705078,
+      "roi_percentile_flow": -2.91965389251709,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 168,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_86": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_086_scroll_000_num09764_sim0.jpg",
+          "frame_num": 9764,
+          "ocr_text": "Stock-shots PATH\u00c9IMAGES BANK - FRANCE 2 TELEVISION ARKEION  LOBSTER  I.N.A.  DAVENPORT FILMS extrait de : \"born for hard luck\"avec Peg Leg Sam Jackson disponible sur www.davenportfilms.com MK2 - LES FILMS DU CARROSSE  CHERTOK ASSOCIATES - BBC FILM IMAGES - APRIL PRESSE SPORT  TRANS WORLD INTERNATIONAL, INC. Tous les morceaux sont compos\u00e9s & interpr\u00e9t\u00e9s par Yann TIERSEN (P) Ici d'ailleurs  Labels/Virgin France Sauf \"LES JOURS TRISTES\"\"NAOMI\" (n.Hamon - y.Jiersen) (A.Ginsberg - y.Jiersen)",
+          "ocr_bbox": [
+            261,
+            7,
+            970,
+            501
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.894179344177246,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.896886110305786,
+      "roi_percentile_flow": -2.894179344177246,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_87": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_087_scroll_000_num09861_sim0.jpg",
+          "frame_num": 9861,
+          "ocr_text": "Tous les morceaux sont compos\u00e9s & interpr\u00e9t\u00e9s par Yann TIERSEN (P) Ici d'ailleurs - Labels/Virgin France Sauf \"LES JOURS TRISTES\"\"NAOMI\" (N.Hamon - y.Jiersen)  (A.Ginsberg\u2014 y.Jiersen) \u00c9ditions C.BOURGEOIS/Ici d'ailleurs/BMG Music Publishing France \u00c9ditions : Ici d'ailleurs/BMG Music Publishing France Sauf \"QUIMPER 94\", \"LA VALSE DES MONSTRES\" et \"LE BANQUET\" Sony ATV Publishing France Musique originale enregistr\u00e9e par St\u00e9phane KRAMER et Didier LIZ\u00e9, mix\u00e9e par Didier LIZE (P) 2000 Victoires Productions Editions : Iri d'ailleurs/RMG Musir Puhlichina France",
+          "ocr_bbox": [
+            192,
+            23,
+            1037,
+            544
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.886148452758789,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.883704423904419,
+      "roi_percentile_flow": -2.886148452758789,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 170,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_88": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_088_scroll_000_num09881_sim0.jpg",
+          "frame_num": 9881,
+          "ocr_text": "Yann TIERSEN (P) Ici d'ailleurs -Labels/Virgin France Sauf \"LES JOURS TRISTES\"\"NAOMI\" (n.Hamon - y.Jiersen) (A.Ginsberg \u2014 y.Jiersen) \u00c9ditions C.BOURGEOIS/Ici d'ailleurs/BMG Music Publishing France Editions : Ici d'ailleurs/BMG Music Publishing France Sauf \"QUIMPER 94\", \"LA VALSE DES MONSTRES\" et \"LE BANQUET\" Sony ATV Publishing France Musique originale enregistr\u00e9e par St\u00e9phane KRAMER et Didier LIZ\u00c9, mix\u00e9e par Didier LIZE (P) 2000 Victoires Productions Editions : Ici d'ailleurs/BMG Music Publishing France",
+          "ocr_bbox": [
+            193,
+            0,
+            1036,
+            493
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.8953497409820557,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.9043309688568115,
+      "roi_percentile_flow": -2.8953497409820557,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_89": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_089_scroll_000_num09903_sim0.jpg",
+          "frame_num": 9903,
+          "ocr_text": "Sauf \"LES JOURS TRISTES\"\"NAOM!\" (N.Hamon - y.Jiersen) (A.Ginsberg - y.Jiersen) \u00c9ditions C.BOURGEOIS/Ici d'ailleurs/BMG Music Publishing France Editions : Ici d'ailleurs/BMG Music Publishing France Sauf \"QUIMPER 94\", \"LA VALSE DES MONSTRES\" et \"LE BANQUET\" Sony ATV Publishing France Musique originale enregistr\u00e9e par St\u00e9phane KRAMER et Didier LIZ\u00c9, mix\u00e9e par Didier LIZE (P) 2000 Victoires Productions \u00c9ditions : Ici d'ailleurs/BMG Music Publishing France Musiques additionnelles \"WHISPFRING\"\"ADAGIO POUR CORDES\"",
+          "ocr_bbox": [
+            194,
+            9,
+            1036,
+            543
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.902362823486328,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.9037275314331055,
+      "roi_percentile_flow": -2.902362823486328,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_90": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_090_scroll_000_num09967_sim0.jpg",
+          "frame_num": 9967,
+          "ocr_text": "Sauf \"QUIMPER 94\", \"LA VALSE DES MONSTRES\" et \"LE BANQUET\" Sony ATV Publishing France Musique originale enregistr\u00e9e par St\u00e9phane KRAMER et Didier LIZ\u00c9, mix\u00e9e par Didier LIZE (P) 2000 Victoires Productions Editions : Ici d'ailleurs/BMG Music Publishing France Musiques additionnelles \"WHISPERING\"\"ADAGIO POUR CORDES\" (M.Schonberger/7.Schonberger) (S.Batber) \u00a9Sherman Clay (Miller Music)Capella Istropolitana Avec L'aimable autoristaion de BmG Music Vision K Musik/Naxos Par accord sp\u00e9cial entre Kapagama et Hnh International Distribution : Na\u00efve",
+          "ocr_bbox": [
+            195,
+            16,
+            1105,
+            502
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_090_scroll_001_num10117_sim0.jpg",
+          "frame_num": 10117,
+          "ocr_text": "Par accord sp\u00e9cial entre Kapagama et HnH International Distribution : Naive \"WITH A SONG IN MY HEART\"\"GUILTY\" (Richard Rodgers/Lorenz Hart) (G.Kahn/R.A. Whiting - H.Akst) \u00a9Harms Jnc (droits pour la France et territoires Sacem. Publishing 1931 by Em3 Catalogue Partnership Europe n\u00b01 et RJL programmes fran\u00e7ais : EMJ Feist Catalogue inc. Warner Chappell Music France S.A. clo EM3 Music Publishing France s.a. \"SWEET AND LOVELY\"\"DANCING IN THE DARK\" (C.Daniels-H.Jobias-G.Arnheim)(Howard Diet2/Arthur Shwartz) Publishing 1931 by EM3 Catalogue Partnership \u00a9Harms Jnc (droits pour la France et ferritoires Sacem. EM3 Robbins Catalogue Jnc. Europe n\u00b01 et RJL programmes fran\u00e7ais : Warner Chappell Music France s.a. \"CIRIBIRIBIN\" (Trad. Arrt : R.Wootton)\"FIRE\" (J.SHAINDLIN) \u00c9ditions : Carlin Music \u00c9ditions : Cinemusic/Metropark Music K Musik/Carlin K Musik/Cine Music",
+          "ocr_bbox": [
+            166,
+            11,
+            1104,
+            500
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_090_scroll_002_num10267_sim0.jpg",
+          "frame_num": 10267,
+          "ocr_text": "\u00c9ditions : Carlin Music \u00c9ditions : Cinemusic/Metropark Music K Musik/Carlin K Musik/Cine Music \"BROUILLARD\"\"GOT A DATE WITH AN ANGEL\" (Musique de Georges Delerue) (Clifford Grey/Sonny Miller/Joseph Junbridge/Jack Waller) Fran\u00e7ois Jruffaut \"Jules et Jim\" \u00a9Chappell Music Ltd \u00a91962 \u00c9ditions Musicales Juti (droits pour la France et territoires SACEm. Luxembourg) droits transf\u00e9r\u00e9s \u00e0 Warner Chapell Music France s.a. Europe n\u00b01 et RJL programmes fran\u00e7ais Warner Chappell Music France s.a. \"FATHER LITTLE DIVENDED\"\"ROSE DU SUD\" (J.STRAUSS / Arrt : R.WoOttOn) (A.Sendrey) \u00c9ditions: Carlin Music Publishing 1951 by EM3 Catalogue Partnership K Musik/Carlin Em3 Robbins Catalogue Jnc. clo Em3 Catalogue Partnership France \"SI TU N'\u00c9TAIS PAS L\u00c0\"G\u00c9N\u00c9RIQUE JOURNAL T\u00c9L\u00c9VISE (P.Bayle/G.Claret)\u00c9ditions : Music 2/15-30 Music \u00a91934 Editions Salabert",
+          "ocr_bbox": [
+            189,
+            9,
+            1115,
+            538
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_090_scroll_003_num10417_sim0.jpg",
+          "frame_num": 10417,
+          "ocr_text": "\"SI TU N'\u00c9TAIS PAS L\u00c0\"G\u00c9N\u00c9RIQUE JOURNAL T\u00c9L\u00c9VISE (P.Bayle/G.Claret) \u00c9ditions : Music 2/15-30 Music \u00a91934 Editions Salabert Avec L'aimable autorisation de Bmg Music Vision Alex Gopher \"THE CHILD\" (1B. Holiday/A Herzog Jr/Alexis Latrobe) \u00a9Edward B Marks/Jong Publishing : Jong (p) 1999 Disques Solid Courtesy of U2 Music and Disques Solid \"The Child\" contains a sample of \"God Bless Jhe Child\" written by Billie Holiday and Arthur Herzog Jr and performed by Billie Holiday. used courtesy of Edward B.Marks Music Inc and MCA Records under license from Universal Music Special projects France Musique originale disponible en CD chez Labels Lobels",
+          "ocr_bbox": [
+            205,
+            13,
+            948,
+            542
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": -2.8990137577056885,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.8999128341674805,
+      "roi_percentile_flow": -2.8990137577056885,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_91": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_091_scroll_000_num10448_sim0.jpg",
+          "frame_num": 10448,
+          "ocr_text": "Avec Laimable autorisation de Bmg Music Vision Alex Gopher \"THE CHILD\" (B. Holiday/A Herzog Jr/Alexis Latrobe) Edward B Marks/Jong Publishing : Jong (p) 1999 Disques Solid Courtesy of V2 Music and Disques Solid \"The Child\" contains a sample of \"God Bless Jhe Child\" written by Billie Holiday and Arthur Herzog Jr and performed by Billie Holiday. used courtesy of Edward B.Marks Music Inc and MCA Records under license from Universal Music Special projects France Musique originale disponible en CD chez Labels Lobels avec le concours du BUREAU PARISIEN DU FILM - MAIRIE DE PARIS",
+          "ocr_bbox": [
+            204,
+            12,
+            948,
+            532
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.8950343132019043,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.895923614501953,
+      "roi_percentile_flow": -2.8950343132019043,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_92": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_092_scroll_000_num10490_sim0.jpg",
+          "frame_num": 10490,
+          "ocr_text": "(is. Holidayrf Herzog diiHlexis Latrote) \u00a9Edward B Marks/Jong Publishing : Jong (p) 1999 Disques Solid Courtesy of V2 Music and Disques Solid \"The Child\" contains a sample of \"God Bless Jhe Child\" written by Billie Holiday and Arthur Herzog Jr and performed by Billie Holiday. used courtesy of Edward B.Marks Music Inc and MCA Records under license from Universal Music Special projects France Musique originale disponible en CD chez Labels Lobels avec le concours du BUREAU PARISIEN DU FILM - MAIRIE DE PARIS Nous remercions particuli\u00e9rement Christian MARGUERIE Juarez MACHADO",
+          "ocr_bbox": [
+            277,
+            0,
+            947,
+            532
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.909153938293457,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.9061646461486816,
+      "roi_percentile_flow": -2.909153938293457,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 168,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_93": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_093_scroll_000_num10534_sim0.jpg",
+          "frame_num": 10534,
+          "ocr_text": "written by Billie Holiday and Arthur Herzog Jr and performed by Billie Holiday. used courtesy of Edward B.Marks Music Inc and MCA Records under license from Universal Music Special projects France Musique originale disponible en CD chez Labels Lobels avec le concours du BUREAU PARISIEN DU FILM - MAIRIE DE PARIS Nous remercions particuli\u00e9rement Christian MARGUERIE Juarez MACHADO Fr\u00e9d\u00e9rique GIBERT Rudy GALINDO Michael A. ROSENBERG LA PR\u00c9FECTURE DE POLICE DE PARIS - LE COMMISSARIAT CENTRAL DU XVIIIe et M. ANICET",
+          "ocr_bbox": [
+            225,
+            0,
+            1046,
+            541
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -2.888430595397949,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.9016642570495605,
+      "roi_percentile_flow": -2.888430595397949,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 170,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_94": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_094_scroll_000_num10551_sim0.jpg",
+          "frame_num": 10551,
+          "ocr_text": "under license from Universal friusic Speciat projects srance Musique originale disponible en CD chez Labels Lobels avec le concours du BUREAU PARISIEN DU FILM - MAIRIE DE PARIS Nous remercions particuli\u00e9rement Christian MARGUERIE Juarez MACHADO Fr\u00e9d\u00e9rique GIBERT Rudy GALINDO Michael A. ROSENBERG LA PR\u00c9FECTURE DE POLICE DE PARIS  LE COMMISSARIAT CENTRAL DU XVIIIe et M. ANICET FRANCE TELECOM MOBILES - R.A.T.P. -TOTHEME 54, Mme HO, Mme NONIN et M. CROS FraNCe RAII PIIRIICITE et M. HAUIBFNSACK - IA GARF DF I'FST. M. SOIIVERAIN FT M. FORTE",
+          "ocr_bbox": [
+            222,
+            0,
+            1051,
+            544
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_094_scroll_001_num10701_sim0.jpg",
+          "frame_num": 10701,
+          "ocr_text": "LA PR\u00c9FECTURE DE POLICE DE PARIS LE COMMISSARIAT CENTRAL DU XVIIIe et M. ANICET FRANCE TELECOM MOBILES - R.A.T.P. -TOTHEME 54, Mme HO, Mme NONIN et M. CROS FranCe RAIL PUBLICITE et M. HAUBENSACK- LA GARE DE L'EST, M. SOUVERAIN ET M. FORTE LA GARE DU NORD, M. HAINS et CHAMOULAUD- M. et Mme DELATTRE LES DEUX MOULINS, M. et Mme LABBE - M. LANGLOIS et L'ASSOCIATION DES COMMERCANTS DE LA RUE LEPIC COSTUMES ET COSTUMES - \"LE VERRE A PIED\", M. DERRIEN - \"AU MARCH\u00c9 DE LA BUTTE\", M. MDOUGHY Cabinet JEAN CHARPENTIER-MaiSon SAINT PHILIPPE - F&M ASSOCI\u00c9S -CORINNE SARRUT I.D.C. \"Internationnal Design Creation\"- SOCI\u00c9T\u00c9 CASTRES-DONABEDIAN SOCI\u00c9T\u00c9 OMEGA Ventes internationales UGC INTERNATIONAL Coproduction MMC Independent GmbH VICTOIRES PRODUCTIONS TAPIOCA FILMS FRANCE 3 CINEMA",
+          "ocr_bbox": [
+            136,
+            27,
+            1134,
+            526
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -2.899169445037842,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -2.9016966819763184,
+      "roi_percentile_flow": -2.899169445037842,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_95": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Amelie\\analysis\\frames\\scene_095_static_000_num10780_sim48.jpg",
+          "frame_num": 10780,
+          "ocr_text": "I.D.C. \"Internationnal Design Creation\" SOCIEIE CASTRES-DONABEDIAN SOCI\u00c9T\u00c9 OMEGA Ventes internationales UGC INTERNATIONAL Coproduction MMC Independent GmbH VICTOIRES PRODUCTIONS TAPIOCA FILMS FRANCE 3 CINEMA DIGITAL DOLBY TECHNO VISION' DUBOICOLOR ECLAIRDUBOI Andis dts IGITA SOUND \u00a9VICTOIRES PRODUCTION  TAPIOCA FILMS FRANCE 3 CINEMA 98 481",
+          "ocr_bbox": [
+            210,
+            0,
+            1008,
+            542
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_095_static_001_num10888_sim58.jpg",
+          "frame_num": 10888,
+          "ocr_text": "TECHNO VISION DUBOICOLOR ECLAIR DUBOI Andis DOLBY dts DIGITAL SOUND \u00a9VICTOIRES PRODUCTION - TAPIOCA FILMS  FRANCE 3 CINEMA Jous droits r\u00e9serv\u00e9s - visa d'exploitation n' 98 481",
+          "ocr_bbox": [
+            210,
+            35,
+            1008,
+            232
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Amelie\\analysis\\frames\\scene_095_static_002_num10948_sim44.jpg",
+          "frame_num": 10948,
+          "ocr_text": "Jous droits r\u00e9serv\u00e9s \u2014 visa d'exploitation n' 98 481",
+          "ocr_bbox": [
+            450,
+            36,
+            821,
+            58
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    }
+  }
+}

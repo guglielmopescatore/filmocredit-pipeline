@@ -1,0 +1,31 @@
+{
+  "total_frames": 1449,
+  "fps": 29.99006540276513,
+  "timestamp": "2025-12-04T14:37:54.663865",
+  "scenes": [
+    {
+      "start_frame": 0,
+      "end_frame": 98,
+      "start_timecode": "00:00:00.000",
+      "end_timecode": "00:00:03.268"
+    },
+    {
+      "start_frame": 98,
+      "end_frame": 797,
+      "start_timecode": "00:00:03.268",
+      "end_timecode": "00:00:26.575"
+    },
+    {
+      "start_frame": 797,
+      "end_frame": 949,
+      "start_timecode": "00:00:26.575",
+      "end_timecode": "00:00:31.644"
+    },
+    {
+      "start_frame": 949,
+      "end_frame": 1449,
+      "start_timecode": "00:00:31.644",
+      "end_timecode": "00:00:48.316"
+    }
+  ]
+}

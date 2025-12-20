@@ -1,0 +1,508 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_000_static_000_num00000_sim0.jpg",
+          "frame_num": 0,
+          "ocr_text": "< Back VEED MAIGRET SERIES StE2 Moigrat ondthe callarsatthe-Majestic The wlle olanon Amencan indusrialist is found dedd in the dasement ot the Mdjesnc u Ponsion paloce hotel Malgrat looks a! whaf escb of the liotel's'empfoyees wos dolng and ut whiot time. Hs 94:15 95:54 II (",
+          "ocr_bbox": [
+            35,
+            14,
+            1262,
+            705
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_000_static_001_num00015_sim10.jpg",
+          "frame_num": 15,
+          "ocr_text": "< Back VEED 94:15 95:54",
+          "ocr_bbox": [
+            35,
+            15,
+            1264,
+            670
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.11463098227977753,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10280724614858627,
+      "roi_percentile_flow": 0.11463098227977753,
+      "scroll_direction": null
+    },
+    "scene_1": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_001_scroll_000_num00020_sim0.jpg",
+          "frame_num": 20,
+          "ocr_text": "< Back VEED 94:15 95:54 II",
+          "ocr_bbox": [
+            35,
+            13,
+            1264,
+            703
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_001_scroll_001_num00170_sim0.jpg",
+          "frame_num": 170,
+          "ocr_text": "VEED Jules Maigret Bruno CREMER Prosper J\u00e9r\u00f4me DESCHAMPS Ramuel Michel CACCIA Charlotte Maryvonne SCHILTZ Gigi Maril\u00f9 MARINI Juge Benneau Erick DESMARESTZ",
+          "ocr_bbox": [
+            21,
+            12,
+            1007,
+            712
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -3.280548647046089,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -3.7452292442321777,
+      "roi_percentile_flow": -3.280548647046089,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 198,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_2": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_002_scroll_000_num00250_sim0.jpg",
+          "frame_num": 250,
+          "ocr_text": "J\u00e9r\u00f4me DESCHAMPS VEED Ramuel Michel CACCIA Charlotte Maryvonne SCHILTZ Gigi Marilu MARINI Erick DESMARESTZ Juge Benneau Janvier Jean-Claude FRISSUNG Lucas Jean-Pierre GOS Michael Clark Terence FORD",
+          "ocr_bbox": [
+            22,
+            8,
+            1043,
+            707
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_002_scroll_001_num00400_sim0.jpg",
+          "frame_num": 400,
+          "ocr_text": "VEED Jean-Pierre GOS Michael Clark Terence FORD Ellen Darroman V\u00e9ronike RYKE Marie Deliaeard Charlotte MAURY Directeur du Majestic Jacques CIRON Monsieur Jean Pierre JULIEN Euzebio Pablo VERON",
+          "ocr_bbox": [
+            22,
+            14,
+            956,
+            651
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -4.180471420288086,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -4.17484188079834,
+      "roi_percentile_flow": -4.180471420288086,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 155,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_3": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_003_scroll_000_num00500_sim0.jpg",
+          "frame_num": 500,
+          "ocr_text": "VEED Directeur du Majestic Jacques CIRON Monsieur Jean Pierre JULIEN Euzebio Pablo VERON Jolivet Roger BURCKHARDT Gardel Michel CASSAGNE D\u00e9sir\u00e9 Francis COFFINET Patron Brasserie de I'horloge Pierre BANDERET",
+          "ocr_bbox": [
+            23,
+            15,
+            1002,
+            679
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_003_scroll_001_num00650_sim0.jpg",
+          "frame_num": 650,
+          "ocr_text": "Francis COFFINET VEED Patron Brasserie de I'horloge Pierre BANDERET M\u00e9decin du Majestic Nicolas  BRIDEL Mlle Borms Judith BURNETT Avocat de Clark Brian RICHARDS Monsieur Charles Nader FARMAN L'interpr\u00e8te Patten NIGEL Patron du Pelican Jean-Marie DAUNAS",
+          "ocr_bbox": [
+            22,
+            13,
+            1001,
+            719
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -4.169066429138184,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -4.16444206237793,
+      "roi_percentile_flow": -4.169066429138184,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 155,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_4": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_004_scroll_000_num00750_sim0.jpg",
+          "frame_num": 750,
+          "ocr_text": "VEED de Clark Brian RICHARDS Monsieur Charles Nader  FARMAN L'interpr\u00e8te Patten NIGEL Patron du Pelican Jean-Marie DAUNAS Maitre d'h\u00f6tel du Majestic Arnold WALTHER Concierge du Majestic Gil LAUBERT Concierge rue R\u00e9aumur Bernard ROBIN",
+          "ocr_bbox": [
+            24,
+            15,
+            998,
+            650
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_004_scroll_001_num00900_sim0.jpg",
+          "frame_num": 900,
+          "ocr_text": "Concrerge du Mafestic GILAODER VEED Concierge rue R\u00e9aumur Bernard ROBIN Contr\u00f4leur du train MarCo CALAMANDREI Chef de cuisine Jack MOHNSAM L'\u00e9picier Jacques DISSES Le fils de Prosper Arthur DESCHAMPS La danseuse du cabaret Danielle NEGRE Le voyou Philippe MAYMAT",
+          "ocr_bbox": [
+            22,
+            0,
+            1018,
+            691
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -4.176161766052246,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -4.168298244476318,
+      "roi_percentile_flow": -4.176161766052246,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 155,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_5": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_005_scroll_000_num01000_sim0.jpg",
+          "frame_num": 1000,
+          "ocr_text": "Jacques DISSES VEED'r Le fils de Prosper Arthur DESCHAMPS La danseuse du cabaret Danielle NEGRE Le voyou Philippe MAYMAT Casting G\u00e9rard MOULEVRIER Assistantes de r\u00e9alisation Anne-Marie FALLOT",
+          "ocr_bbox": [
+            21,
+            10,
+            1005,
+            714
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_005_scroll_001_num01150_sim0.jpg",
+          "frame_num": 1150,
+          "ocr_text": "Assistantes de r\u00e9alisation Anne-Marie FALLOT Anne DELUZ Scripte Colette PITTIER Cadreur Michel SIEBENMANN Accessoiriste recherche Sylvie GOY Accessoiriste Plateau Val\u00e9rie EVANS ZAHND VEED Perchiste Michel CASANG",
+          "ocr_bbox": [
+            155,
+            150,
+            1262,
+            706
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -4.186025500297546,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -4.176557540893555,
+      "roi_percentile_flow": -4.186025500297546,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 155,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_6": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_006_scroll_000_num01250_sim0.jpg",
+          "frame_num": 1250,
+          "ocr_text": "Cadreur Michel SIEBENMANN Accessoiriste recherche Sylvie GOY Accessoiriste Plateau Val\u00e9rie EVANS ZAHND Perchiste Michel CASANG Assistant cadreur Michel ISRAELIAN Costumi\u00e8re Mireille CHAUVEL Maquilleuse Laurence RIEUX VEED Coiffeuse erine RIOTTON",
+          "ocr_bbox": [
+            158,
+            25,
+            1262,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_006_scroll_001_num01400_sim0.jpg",
+          "frame_num": 1400,
+          "ocr_text": "Maquilleuse Laurence RIEUX Coiffeuse Catherine RIOTTON Habilleuse Genevi\u00e8ve MAULINI Benoit COLLIARD Chef Electricien Electriciens Ramon DOUTAZ FERNAND TAUXE Denis GUEX Alain CHEVAILLAZ VEED C\u00e9sar KLEBER",
+          "ocr_bbox": [
+            156,
+            68,
+            1261,
+            720
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -4.175154685974121,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -4.1722612380981445,
+      "roi_percentile_flow": -4.175154685974121,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 155,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_7": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_007_scroll_000_num01500_sim0.jpg",
+          "frame_num": 1500,
+          "ocr_text": "Chef Electricien Benot COLLIARD Electriciens Ramon DOUTAZ FERNAND TAUXE Denis GUEX Alain CHEVAILLAZ Machinistes C\u00e9sar KLEBER Jo\u00ebl FLAKS Mathieu MILHAUD FERNANDEZ Ramon 2eme Assistant de r\u00e9alisation St\u00e9phane BRASEY VEED 3eme Assistant de r\u00e9alisation Olivier PAUL",
+          "ocr_bbox": [
+            157,
+            0,
+            1262,
+            705
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_007_scroll_001_num01650_sim0.jpg",
+          "frame_num": 1650,
+          "ocr_text": "2eme Assistant de r\u00e9alisation St\u00e9phane BRASEY 3eme Assistant de r\u00e9alisation Olivier PAUL R\u00e9gisseur g\u00e9n\u00e9ral Francine LUSSER R\u00e9gisseurs Paris Thierry MAUVOISIN Bruno BERNARD Secr\u00e9taires de production Nathalie CRUCHON Agn\u00e8s CHARRETON Carolien van den BERG Chauffeur de production Marc MAEDER VEED",
+          "ocr_bbox": [
+            156,
+            41,
+            1262,
+            705
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -4.187419414520264,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -4.1835126876831055,
+      "roi_percentile_flow": -4.187419414520264,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 155,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_8": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_008_scroll_000_num01750_sim0.jpg",
+          "frame_num": 1750,
+          "ocr_text": "Bruno BERNARD Secr\u00e9taires de production Nathalie CRUCHON Agn\u00e8s CHARRETON Carolien van den BERG Chauffeur de production Marc MAEDER Assistants au montage Fr\u00e9deric BERNEY Khalarath BLOESCH SEK Monteur son Claire MEURINE Dominique DELGUSTE VEED Mixeur SIMONET Philippe",
+          "ocr_bbox": [
+            158,
+            21,
+            1262,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_008_scroll_001_num01900_sim0.jpg",
+          "frame_num": 1900,
+          "ocr_text": "MEURINE Monteur son Claire DELGUSTE Dominique Mixeur Philippe SIMONET Bruitage Marie Jeanne WYCKMANS Etalonnage Jean-Pierre HECQUET G\u00e9n\u00e9rique Edmond LIECHTI Hermann WETTER Trucages Administration Hoang Le VAN VEED Val\u00e9rie MEISSONNIER",
+          "ocr_bbox": [
+            156,
+            10,
+            1263,
+            710
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -4.1824949979782104,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -4.182676792144775,
+      "roi_percentile_flow": -4.1824949979782104,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 155,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_9": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_009_scroll_000_num02000_sim0.jpg",
+          "frame_num": 2000,
+          "ocr_text": "Etalonnage Jean-Pierre HECQUEl G\u00e9n\u00e9rique Edmond LIECHTI Trucages Hermann WETTER Administration Hoang Le VAN Val\u00e9rie MEISSONNIER Eliane COUPRIE Photographe de plateau Sipa Press V\u00e9hicules d'\u00e9poque Germain Location VEED brium musique Studio MAUNOIR",
+          "ocr_bbox": [
+            23,
+            0,
+            1024,
+            704
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_009_scroll_001_num02150_sim0.jpg",
+          "frame_num": 2150,
+          "ocr_text": "V\u00e9hicules d'\u00e9poque Germain Location Auditorium musique Studio MAUNOIR Laboratoire Laboratoire de Bry sur Marne Post production num\u00e9rique V.d.m Montage audio num\u00e9rique Digison Auditorium Auditel Gerling nces Media Assurance France VEED",
+          "ocr_bbox": [
+            21,
+            24,
+            1133,
+            706
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -4.17380952835083,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -4.172272682189941,
+      "roi_percentile_flow": -4.17380952835083,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 155,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_10": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_010_scroll_000_num02250_sim0.jpg",
+          "frame_num": 2250,
+          "ocr_text": "Montage audio num\u00e9rique Digison Auditorium Auditel Gerling Assurances Media Assurance France Musique g\u00e9n\u00e9rique Laurent PETITGIRARD Interpr\u00e9t\u00e9e par L'orchestre Symphonique Fran\u00e7ais Edition O.S.F. Euterpe/ Jereronimo VEED",
+          "ocr_bbox": [
+            22,
+            52,
+            1076,
+            705
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_010_scroll_001_num02400_sim0.jpg",
+          "frame_num": 2400,
+          "ocr_text": "Fran\u00e7ais Edition O.S.F. Euterpe/ Jereronimo Relations publiques Alain Hardel Direction litt\u00e9raire T.S.R. Ariane HEYRAUD Producteur ex\u00e9cutif de la collection Daniel DESCHAMPS VEED",
+          "ocr_bbox": [
+            22,
+            0,
+            1031,
+            705
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -4.183134078979492,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -4.179295539855957,
+      "roi_percentile_flow": -4.183134078979492,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 155,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_11": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_011_scroll_000_num02500_sim0.jpg",
+          "frame_num": 2500,
+          "ocr_text": "Ariane HEYRAUD Producteur ex\u00e9cutif de la collection Daniel DESCHAMPS Producteurs Eve VERCEL Robert NADOR et Steve HAWES VEED R\u00e9alisation",
+          "ocr_bbox": [
+            22,
+            17,
+            899,
+            718
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_011_scroll_001_num02650_sim0.jpg",
+          "frame_num": 2650,
+          "ocr_text": "Steve HAWES R\u00e9alisation Claude GORETTA Une production LA TELEVISION SUISSE ROMANDE DUNE E.C. T\u00e9l\u00e9vision Paris FRANCE 2 VEED",
+          "ocr_bbox": [
+            22,
+            4,
+            884,
+            705
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -4.177175521850586,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -4.182112216949463,
+      "roi_percentile_flow": -4.177175521850586,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 155,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_12": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_012_scroll_000_num02750_sim0.jpg",
+          "frame_num": 2750,
+          "ocr_text": "proauctron LA TELEVISION SUISSE ROMANDE DUNE E.C. T\u00e9l\u00e9vision Paris FRANCE 2 en co-production avec LA RTBF T\u00e9l\u00e9vision Belge NEXT EPISODE IN 7S avec la participation du VEED",
+          "ocr_bbox": [
+            22,
+            0,
+            1207,
+            705
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Maigret_S03E01_End\\analysis\\frames\\scene_012_scroll_001_num02900_sim0.jpg",
+          "frame_num": 2900,
+          "ocr_text": "VEED avec la participation du Centre National de la Cin\u00e9matographie NEXT EPISODE IN 2S",
+          "ocr_bbox": [
+            345,
+            15,
+            1262,
+            596
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -4.182599782943726,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -4.175365209579468,
+      "roi_percentile_flow": -4.182599782943726,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 155,
+      "target_scroll_ratio": 0.9
+    }
+  }
+}

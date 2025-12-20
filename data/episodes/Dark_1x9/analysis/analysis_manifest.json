@@ -1,0 +1,1260 @@
+{
+  "scenes": {
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_002_static_000_num00117_sim0.jpg",
+          "frame_num": 117,
+          "ocr_text": "NETFLIX PRESENTS",
+          "ocr_bbox": [
+            551,
+            514,
+            728,
+            528
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.21664826571941376,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.1536342054605484,
+      "roi_percentile_flow": -0.21664826571941376,
+      "scroll_direction": null
+    },
+    "scene_3": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_003_static_000_num00132_sim100.jpg",
+          "frame_num": 132,
+          "ocr_text": "NETFLIX PRESENTS",
+          "ocr_bbox": [
+            551,
+            514,
+            728,
+            528
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_003_static_001_num00156_sim59.jpg",
+          "frame_num": 156,
+          "ocr_text": "A NETFLIX ORIGINAL SERIES",
+          "ocr_bbox": [
+            508,
+            514,
+            771,
+            528
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.10862374305725098,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2521631419658661,
+      "roi_percentile_flow": 0.10862374305725098,
+      "scroll_direction": null
+    },
+    "scene_4": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.11768408119678497,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.10648223012685776,
+      "roi_percentile_flow": -0.11768408119678497,
+      "scroll_direction": null
+    },
+    "scene_5": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_005_static_000_num00224_sim36.jpg",
+          "frame_num": 224,
+          "ocr_text": "A WIEDEMANN & BERG TELEVISION PRODUCTION",
+          "ocr_bbox": [
+            414,
+            515,
+            865,
+            528
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.10896694660186768,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.111667200922966,
+      "roi_percentile_flow": -0.10896694660186768,
+      "scroll_direction": null
+    },
+    "scene_6": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_006_static_000_num00291_sim30.jpg",
+          "frame_num": 291,
+          "ocr_text": "DIRECTOR OF PHOTOGRAPHY NIKOLAUS SUMMERER",
+          "ocr_bbox": [
+            401,
+            512,
+            878,
+            530
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.09615441411733627,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.15388616919517517,
+      "roi_percentile_flow": 0.09615441411733627,
+      "scroll_direction": null
+    },
+    "scene_7": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_007_static_000_num00312_sim100.jpg",
+          "frame_num": 312,
+          "ocr_text": "DIRECTOR OF PHOTOGRAPHY NIKOLAUS SUMMERER",
+          "ocr_bbox": [
+            402,
+            514,
+            878,
+            528
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.008363693952560425,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.5568145513534546,
+      "roi_percentile_flow": -0.008363693952560425,
+      "scroll_direction": null
+    },
+    "scene_8": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_008_static_000_num00353_sim39.jpg",
+          "frame_num": 353,
+          "ocr_text": "PRODUCTION DESIGNER UDO KRAMER",
+          "ocr_bbox": [
+            465,
+            515,
+            814,
+            528
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.12539410591125488,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.0008002668619155884,
+      "roi_percentile_flow": -0.12539410591125488,
+      "scroll_direction": null
+    },
+    "scene_9": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_009_static_000_num00389_sim100.jpg",
+          "frame_num": 389,
+          "ocr_text": "PRODUCTION DESIGNER UDO KRAMER",
+          "ocr_bbox": [
+            466,
+            514,
+            814,
+            528
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_009_static_001_num00397_sim100.jpg",
+          "frame_num": 397,
+          "ocr_text": "PRODUCTION DESIGNER UDO KRAMER",
+          "ocr_bbox": [
+            466,
+            514,
+            814,
+            528
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -0.10809613019227982,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.20172394812107086,
+      "roi_percentile_flow": -0.10809613019227982,
+      "scroll_direction": null
+    },
+    "scene_10": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_010_static_000_num00422_sim37.jpg",
+          "frame_num": 422,
+          "ocr_text": "COSTUME DESIGNER ANETTE GUTHER",
+          "ocr_bbox": [
+            480,
+            514,
+            824,
+            528
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.25943225622177124,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.24933919310569763,
+      "roi_percentile_flow": 0.25943225622177124,
+      "scroll_direction": null
+    },
+    "scene_11": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.2660216987133026,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2752609848976135,
+      "roi_percentile_flow": 0.2660216987133026,
+      "scroll_direction": null
+    },
+    "scene_12": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_012_static_000_num00510_sim37.jpg",
+          "frame_num": 510,
+          "ocr_text": "MAKE UP ARTIST MONIKA MUNNICH",
+          "ocr_bbox": [
+            486,
+            349,
+            815,
+            367
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_012_static_001_num00630_sim36.jpg",
+          "frame_num": 630,
+          "ocr_text": "CASTING BY SIMONE B\u00c4R ASSOCIATE CASTING ALEXANDRA MONTAG",
+          "ocr_bbox": [
+            316,
+            350,
+            964,
+            367
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_012_static_002_num00678_sim99.jpg",
+          "frame_num": 678,
+          "ocr_text": "CASTING BY SIMONE BAR ASSOCIATE CASTING ALEXANDRA MONTAG",
+          "ocr_bbox": [
+            317,
+            352,
+            962,
+            366
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.28531748056411743,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3892112970352173,
+      "roi_percentile_flow": 0.28531748056411743,
+      "scroll_direction": null
+    },
+    "scene_13": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.42512500286102295,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.33974188566207886,
+      "roi_percentile_flow": 0.42512500286102295,
+      "scroll_direction": null
+    },
+    "scene_15": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -2.5718960762023926,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.837161123752594,
+      "roi_percentile_flow": -2.5718960762023926,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 224,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_16": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_016_static_000_num00851_sim33.jpg",
+          "frame_num": 851,
+          "ocr_text": "EDITOR SVEN BUDELMANN ROBERTRZESACZ",
+          "ocr_bbox": [
+            422,
+            541,
+            850,
+            556
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_016_static_001_num00863_sim99.jpg",
+          "frame_num": 863,
+          "ocr_text": "EDITOR SVEN BUDELMANN ROBERT RZESACZ",
+          "ocr_bbox": [
+            423,
+            541,
+            850,
+            555
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.12791171669960022,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.12907543778419495,
+      "roi_percentile_flow": 0.12791171669960022,
+      "scroll_direction": null
+    },
+    "scene_17": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_017_static_000_num00999_sim41.jpg",
+          "frame_num": 999,
+          "ocr_text": "ORIGINAL MUSIC BY BEN FROST",
+          "ocr_bbox": [
+            704,
+            464,
+            1001,
+            482
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.15484125912189484,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1613263636827469,
+      "roi_percentile_flow": 0.15484125912189484,
+      "scroll_direction": null
+    },
+    "scene_18": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_018_static_000_num01017_sim100.jpg",
+          "frame_num": 1017,
+          "ocr_text": "ORIGINAL MUSIC BY BEN FROST",
+          "ocr_bbox": [
+            705,
+            465,
+            1000,
+            482
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.48621463775634766,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.6693416833877563,
+      "roi_percentile_flow": 0.48621463775634766,
+      "scroll_direction": null
+    },
+    "scene_19": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.1553443968296051,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10705028474330902,
+      "roi_percentile_flow": -0.1553443968296051,
+      "scroll_direction": null
+    },
+    "scene_20": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 1.4593414068222046,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.494887351989746,
+      "roi_percentile_flow": 1.4593414068222046,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 395,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_21": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_021_static_000_num01119_sim33.jpg",
+          "frame_num": 1119,
+          "ocr_text": "LINE PRODUCER ARNO NEUBAUER",
+          "ocr_bbox": [
+            696,
+            467,
+            1010,
+            481
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_021_static_001_num01150_sim57.jpg",
+          "frame_num": 1150,
+          "ocr_text": "EXECUTIVE PRODUCERS JANTJE FRIESE BARAN BO ODAR",
+          "ocr_bbox": [
+            579,
+            467,
+            1127,
+            481
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.10558910667896271,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10830044746398926,
+      "roi_percentile_flow": 0.10558910667896271,
+      "scroll_direction": null
+    },
+    "scene_22": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_022_static_000_num01219_sim50.jpg",
+          "frame_num": 1219,
+          "ocr_text": "EXECUTIVE PRODUCERS QUIRIN BERG MAX WIEDEMANN JUSTYNA MUESCH",
+          "ocr_bbox": [
+            283,
+            471,
+            997,
+            485
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.11470462381839752,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.12346681952476501,
+      "roi_percentile_flow": 0.11470462381839752,
+      "scroll_direction": null
+    },
+    "scene_23": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_023_static_000_num01252_sim100.jpg",
+          "frame_num": 1252,
+          "ocr_text": "EXECUTIVE PRODUCERS QUIRIN BERG MAX WIEDEMANN JUSTYNA MUESCH",
+          "ocr_bbox": [
+            283,
+            471,
+            996,
+            485
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.2568071782588959,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2526666522026062,
+      "roi_percentile_flow": 0.2568071782588959,
+      "scroll_direction": null
+    },
+    "scene_24": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_024_scroll_000_num01260_sim0.jpg",
+          "frame_num": 1260,
+          "ocr_text": "EXECUTIVE PRODUCERS QUIRIN BERG MAX WIEDEMANN JUSTYNA MUESCH",
+          "ocr_bbox": [
+            283,
+            471,
+            997,
+            485
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -1.448140025138855,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.15578888356685638,
+      "roi_percentile_flow": -1.448140025138855,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 398,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_25": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.005806773900985718,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.12152854353189468,
+      "roi_percentile_flow": 0.005806773900985718,
+      "scroll_direction": null
+    },
+    "scene_27": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.6616995334625244,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.4713502526283264,
+      "roi_percentile_flow": 0.6616995334625244,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 870,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_28": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_028_static_000_num01420_sim50.jpg",
+          "frame_num": 1420,
+          "ocr_text": "EXECUTIVE PRODUCERS KELLY LUEGENBIEHL AMANDA KRENTZMAN ERIK BARMACK",
+          "ocr_bbox": [
+            242,
+            258,
+            1038,
+            273
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_028_static_001_num01444_sim86.jpg",
+          "frame_num": 1444,
+          "ocr_text": "KELLY LUEGENBIEHL AMANDA KRENTZMAN ERIK BARMACK EXECUTIVEPRODUCERS",
+          "ocr_bbox": [
+            242,
+            258,
+            1038,
+            272
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_028_static_002_num01447_sim86.jpg",
+          "frame_num": 1447,
+          "ocr_text": "AMANDA KRENTZMAN ERIK BARMACK EXECUTIVE PRODUCERS KELLY LUEGENBIEHL",
+          "ocr_bbox": [
+            242,
+            258,
+            1038,
+            272
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.07454895973205566,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.5398365259170532,
+      "roi_percentile_flow": 0.07454895973205566,
+      "scroll_direction": null
+    },
+    "scene_29": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_029_scroll_000_num01448_sim0.jpg",
+          "frame_num": 1448,
+          "ocr_text": "EXECUTIVE PRODUCERS AMANDA KRENTZMAN ERIK BARMACK KELLY LUEGENBIEHL",
+          "ocr_bbox": [
+            243,
+            258,
+            1037,
+            272
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.5593197345733643,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.8989552855491638,
+      "roi_percentile_flow": 2.5593197345733643,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 225,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_30": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_030_static_000_num01473_sim100.jpg",
+          "frame_num": 1473,
+          "ocr_text": "AMANDA KRENTZMAN ERIK BARMACK EXECUTIVE PRODUCERS KELLY LUEGENBIEHL",
+          "ocr_bbox": [
+            243,
+            258,
+            1038,
+            272
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.11120143532752991,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.11966149508953094,
+      "roi_percentile_flow": 0.11120143532752991,
+      "scroll_direction": null
+    },
+    "scene_31": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_031_static_000_num01513_sim44.jpg",
+          "frame_num": 1513,
+          "ocr_text": "CREATED BY BARAN BO ODAR AND JANTJE FRIESE",
+          "ocr_bbox": [
+            190,
+            313,
+            668,
+            335
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.10139796137809753,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10451968014240265,
+      "roi_percentile_flow": -0.10139796137809753,
+      "scroll_direction": null
+    },
+    "scene_32": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.1217804104089737,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1184697300195694,
+      "roi_percentile_flow": 0.1217804104089737,
+      "scroll_direction": null
+    },
+    "scene_33": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_033_static_000_num01614_sim49.jpg",
+          "frame_num": 1614,
+          "ocr_text": "WRITTEN BY JANTJE FRIESE MARC O. SENG",
+          "ocr_bbox": [
+            646,
+            317,
+            1060,
+            334
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.11278413236141205,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10761383175849915,
+      "roi_percentile_flow": -0.11278413236141205,
+      "scroll_direction": null
+    },
+    "scene_34": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_034_static_000_num01658_sim100.jpg",
+          "frame_num": 1658,
+          "ocr_text": "WRITTEN BY JANTJE FRIESE MARC O. SENG",
+          "ocr_bbox": [
+            647,
+            319,
+            1060,
+            332
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.10533130168914795,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10572590678930283,
+      "roi_percentile_flow": 0.10533130168914795,
+      "scroll_direction": null
+    },
+    "scene_35": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_035_static_000_num01776_sim36.jpg",
+          "frame_num": 1776,
+          "ocr_text": "DIRECTED BY BARAN BO ODAR",
+          "ocr_bbox": [
+            710,
+            316,
+            997,
+            334
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_36": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_036_static_000_num01779_sim100.jpg",
+          "frame_num": 1779,
+          "ocr_text": "DIRECTED BY BARAN BO ODAR",
+          "ocr_bbox": [
+            711,
+            318,
+            996,
+            332
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.2874450087547302,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.2722395658493042,
+      "roi_percentile_flow": -0.2874450087547302,
+      "scroll_direction": null
+    },
+    "scene_37": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -0.17686361074447632,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.13491521775722504,
+      "roi_percentile_flow": -0.17686361074447632,
+      "scroll_direction": null
+    },
+    "scene_38": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_038_static_000_num01971_sim21.jpg",
+          "frame_num": 1971,
+          "ocr_text": "DARK",
+          "ocr_bbox": [
+            748,
+            247,
+            959,
+            275
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_038_static_001_num02019_sim89.jpg",
+          "frame_num": 2019,
+          "ocr_text": "DAR K",
+          "ocr_bbox": [
+            734,
+            247,
+            972,
+            275
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.13439655303955078,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.13495561480522156,
+      "roi_percentile_flow": 0.13439655303955078,
+      "scroll_direction": null
+    },
+    "scene_39": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_000_num02677_sim0.jpg",
+          "frame_num": 2677,
+          "ocr_text": "HELGE DOPPLER 1953 STOM PHILIPP HELGE DOPPLER 1986 PETER SCHNEIDER HELGE DOPPLER HERMANN BEYER",
+          "ocr_bbox": [
+            426,
+            258,
+            823,
+            382
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_001_num03127_sim0.jpg",
+          "frame_num": 3127,
+          "ocr_text": "MICHAEL KAHNWALD SEBASTIAN RUDOLPH DANIEL KAHNWALD FLORIAN PANZNER SECRETARY JASMIN TREWEN LEA WILLKOWSKY TORBEN W\u00d6LLER LEOPOLD HORNUNG BENNI/BERNADETTE ANTON RUBTSOV",
+          "ocr_bbox": [
+            360,
+            223,
+            851,
+            419
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_002_num03277_sim0.jpg",
+          "frame_num": 3277,
+          "ocr_text": "UNIT PRODUCTION MANAGER ARNO NEUBAUER LARS GMEHLING UNIT MANAGER JAN ENDERLEIN LOCATION MANAGER MATTHIAS BRAUN ASSISTANT LOCATION MANAGERS MICHAELA HAUPT VOLKER ZOBELT PRODUCTION COORDINATOR REGINE OTTO-RODRIGUEZ ASSISTANT PRODUCTION COORDINATOR ANDREAS HEIDEN PRODUCTION SECRETARY ANIKA JULIEN SSISTANTTOLINE PRODLICEE",
+          "ocr_bbox": [
+            296,
+            465,
+            867,
+            640
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_003_num03427_sim0.jpg",
+          "frame_num": 3427,
+          "ocr_text": "UNIT PRODUCTION MANAGER ARNO NEUBAUER LARS GMEHLING UNIT MANAGER JAN ENDERLEIN LOCATION MANAGER MATTHIAS BRAUN ASSISTANT LOCATION MANAGERS MICHAELA HAUPT VOLKER ZOBELT REGINE OTTO-RODRIGUEZ PRODUCTION COORDINATOR ASSISTANT PRODUCTION COORDINATOR ANDREAS HEIDEN PRODUCTION SECRETARY ANIKA JULIEN ASSISTANT TO LINE PRODUCER AHLEM BATSI ASSISTANT PRODUCER NORA E. MARKWALD PRODUCTION ACCOUNTANT BETTINA BRENNER ASSISTANT PRODUCTION ACCOUNTANT MUN-JU KIM FABIAN FUCHS SET MANAGERS ANIKA DOMBROWSKY BADR ZOUHIR ASSISTANT SET MANAGERS MORITZ MELMS BENJAMIN LOBBERT STEFFEN GREGOROWIUS JOHANNES GRELLMANN KEY SET PA DANIELA GARKOV SET RUNNERS FERDINAND DIEPENBROCK ANDREAS REINHARDT FLORENCE FORSTER ANETT HANNEMANN DAVID K\u00dcHN JENNY JARUS ANTONIA NOVAK MOVE COORDINATORS NILS BRILLAT ENRICO REINECKE SEBASTIAN LUCK DRIVERS CHRISTOPH STANGIER MICHAEL FISCHER",
+          "ocr_bbox": [
+            255,
+            137,
+            967,
+            634
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_004_num03577_sim0.jpg",
+          "frame_num": 3577,
+          "ocr_text": "PRODUCTION ACCOUNTANT BETTINA BRENNER ASSISTANT PRODUCTION ACCOUNTANT MUN-JU KIM CASHIER FABIAN FUCHS SET MANAGERS ANIKA DOMBROWSKY BADR ZOUHIR ASSISTANT SET MANAGERS MORITZ MELMS BENJAMIN LOBBERT STEFFEN GREGOROWIUS JOHANNES GRELLMANN KEY SET PA DANIELA GARKOV SET RUNNERS FERDINAND DIEPENBROCK ANDREAS REINHARDT FLORENCE F\u00d6RSTER ANETT HANNEMANN DAVID K\u00dcHN JENNY JARUS ANTONIA NOVAK MOVE COORDINATORS NILS BRILLAT ENRICO REINECKE SEBASTIAN LUCK DRIVERS CHRISTOPH STANGIER MICHAEL FISCHER REN\u00c9 JANICKE FELIX HERMANN DAILY DRIVERS ERIC VON MUTIUS DAVID FLEMMING ALEXANDER LEHMANN MIKLAS WITTMANN 2ND AD'S TINA REXILIUS FREDERIKE KARSCH CROWD AD STEPHAN RYLL BASE PA LYDIA PAKEBUSCH AD PA DAVID HACKE CHAPERONE MARIE AHRENDT DAILY AD'S JAN BOHME VANESSA SCHREIBER ANNA AVRAMENKO KHALIL HAREB ISABELL CISSARZ SIGN LANGUAGE COACH THOMAS ZANDER SCRIPT /CONTINUITY SONJA ZOE SIMIJONOVIC JUTTA DICKEL EXTRAS CASTING AGENTUR FILMGESICHTER",
+          "ocr_bbox": [
+            255,
+            5,
+            968,
+            630
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_005_num03727_sim0.jpg",
+          "frame_num": 3727,
+          "ocr_text": "FELIXAERMANN DAILY DRIVERS ERIC VON MUTIUS DAVID FLEMMING ALEXANDER LEHMANN MIKLAS WITTMANN 2ND AD'S TINA REXILIUS FREDERIKE KARSCH CROWD AD STEPHAN RYLL LYDIA PAKEBUSCH BASE PA AD PA DAVID HACKE CHAPERONE MARIE AHRENDT DAILY AD'S JAN BOHME VANESSA SCHREIBER ANNA AVRAMENKO KHALIL HAREB ISABELL CISSARZ SIGN LANGUAGE COACH THOMAS ZANDER SCRIPT / CONTINUITY SONJA ZOE SIMIJONOVIC JUTTA DICKEL EXTRAS CASTING AGENTUR FILMGESICHTER B-CAMERA / STEADICAM OPERATOR YOSHUA BERKOWITZ 1ST ASSISTANT A-CAMERA LARS RICHTER 2ND ASSISTANT A-CAMERA FLORIAN SCHWARZ 1ST ASSISTANT B-CAMERA YVONNE GEILER 2ND ASSISTANT B-CAMERA HANNES ENGLER C-CAMERA OPERATOR KATHARINA DIESSNER DAILY CAMERA ASSISTANTS YOUNES LABDI JAN-FREDERIK WOCKENFUSS VALENTIN SCHWEIGER CHRISTIN JAHRMARKER NADINE REICHERT DIT'S RICHARD MULLER CHRISTIAN KUSS DIT / CAMERA ASSISTANT MILIAN SYMANEK VIDEO OPERATOR TOBIAS SEMMELMANN ASSISTANT VIDEO OPERATORS LARS RENNERT MARTIN-CHRISTOPHER BODE FABIO SEYDING CLEMENS SZELIES CAMERA TRAINEES STEFAN BALTZ VICKY MULLER STILLS PHOTOGRAPHERS JULIA TERJUNG STEFAN ERHARD",
+          "ocr_bbox": [
+            280,
+            0,
+            985,
+            632
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_006_num03877_sim0.jpg",
+          "frame_num": 3877,
+          "ocr_text": "2ND ASSISTANT A-CAMERA FLORIAN SCHWARZ 1ST ASSISTANT B-CAMERA YVONNE GEILER 2ND ASSISTANT B-CAMERA HANNES ENGLER C-CAMERA OPERATOR KATHARINA DIESSNER DAILY CAMERA ASSISTANTS JAN-FREDERIK WOCKENFUSS YOUNES LABDI VALENTIN SCHWEIGER CHRISTIN JAHRMARKER NADINE REICHERT DIT'S RICHARD MULLER CHRISTIAN KUSS DIT / CAMERA ASSISTANT MILIAN SYMANEK VIDEO OPERATOR TOBIAS SEMMELMANN ASSISTANT VIDEO OPERATORS LARS RENNERT MARTIN-CHRISTOPHER BODE FABIO SEYDING CLEMENS SZELIES CAMERA TRAINEES STEFAN BALTZ VICKY MULLER STILLS PHOTOGRAPHERS JULIA TERJUNG STEFAN ERHARD DAILY PHOTOGRAPHER JAN RASMUS VOSS PHOTO PRE-PRODUCTION BRITTA KREHL GAFFER BJORN SUSEN BEST BOY MARTIN LIECKFELD ELECTRICIANS ALEXANDER JUNG OLIVER KUHNE MATTHIAS HILDEBRAND DAN JUNG ANDR\u00c9 SCHMIDT DAILY ELECTRICIANS EDGAR FISCHNALLER VOLKER LANGHOLZ SASCHA SEEGER ALEXANDER MARTIN OLAF RICHTER PETJA GOHR RALF PROKOPP CHRISTIAN RYBKA KEY GRIP GLENN KONIG BEST BOY GRIP PHILIPP RATH B-DOLLY ELMAR SUSKA GRIP BEN EDLICH DAILY GRIP BAT GANKHUYAG ANDREI BADESCU SOUND MIXER MATTHIAS RICHTER",
+          "ocr_bbox": [
+            279,
+            5,
+            994,
+            629
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_007_num04027_sim0.jpg",
+          "frame_num": 4027,
+          "ocr_text": "GAFFER BJORN SUSEN BEST BOY MARTIN LIECKFELD ELECTRICIANS ALEXANDER JUNG OLIVER K\u00dcHNE MATTHIAS HILDEBRAND DAN JUNG ANDR\u00c9 SCHMIDT DAILY ELECTRICIANS EDGAR FISCHNALLER VOLKER LANGHOLZ SASCHA SEEGER ALEXANDER MARTIN OLAF RICHTER PETJA GOHR RALF PROKOPP CHRISTIAN RYBKA KEY GRIP GLENN KONIG BEST BOY GRIP PHILIPP RATH B-DOLLY ELMAR SUSKA GRIP BEN EDLICH DAILY GRIP BAT GANKHUYAG ANDREI BADESCU SOUND MIXER MATTHIAS RICHTER BOOM OPERATOR BENJAMIN DUNKER ART DIRECTOR STEFAN CLAUS HAUCK ART DEPT. COORDINATOR GESA REHREN ART DEPT. TRAINEE MARLEEN STURM ART DEPT. ASSISTANT STEFANIE UBELHOR SET DESIGNERS MICHAEL FISSNEIDER INES KRAMER GRAPHIC ARTISTS ANNIKA \"NINA\" KIEL NELE-TABEA REINEKE TOMOKO OKADA SET DECORATORS HEIKE WOLF-AURY KATHARINA BIRKENFELD SET DECORATOR ASSISTANTS MERLE VIERCK CHRISTINA HEIDELMEIER KATHARINA KLUGE SET DEC BUYERS STEFAN SCHEURICH NICOLE EMRICH DAILY SET DEC BUYERS VERA ROTH LISA TIGGES ELENA GOSCH",
+          "ocr_bbox": [
+            298,
+            21,
+            994,
+            630
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_008_num04177_sim0.jpg",
+          "frame_num": 4177,
+          "ocr_text": "ART DIRECTOR STEFAN CLAUS HAUCK ART DEPT. COORDINATOR GESA REHREN ART DEPT. TRAINEE MARLEEN STURM ART DEPT. ASSISTANT STEFANIE UBELH\u00d6R SET DESIGNERS MICHAEL FISSNEIDER INES KRAMER GRAPHIC ARTISTS ANNIKA \"NINA\" KIEL NELE-TABEA REINEKE TOMOKO OKADA SET DECORATORS HEIKE WOLF-AURY KATHARINA BIRKENFELD SET DECORATOR ASSISTANTS MERLE VIERCK CHRISTINA HEIDELMEIER KATHARINA KLUGE SET DEC BUYERS STEFAN SCHEURICH NICOLE EMRICH VERA ROTH DAILY SET DEC BUYERS LISA TIGGES ELENA GOSCH JASMIN OTT STORE MANAGER YVES BOCZEK SET DEC DRIVERS ANDREAS ULRICH OLIVER HOLLSTEIN TIM LEMKE DAILY SET DEC DRIVERS MALTE MANN TOM KIRSTEN MIRKO REICHWALD SET DEC PA KATHARINA WREDE SET DRESSERS HEIKE PAUKETAT STEFAN BURISCHEK CHRISTIAN DAHLMANN JAN ZEGENHAGEN TORSTEN HAUBOLD ANDREAS NAUJOKS NINA PUTZ FRANZ HOFNER DAILY SET DRESSERS HUBERT B\u00d6CK FLORIAN RADLOFF ANNA EPPSTEIN JENS GAUBE HOLGER HANSKE RALF CHURF\u00dcRST PROP MASTERS ALEXIS TELLER MICHAEL FECHNER ASSISTANT PROP MASTER ISABEL FUCHS PROP BUYER / PICTURE CAR COORDINATOR DANIEL SANDBERG DAILY PROP BUYERS VERA ROTH",
+          "ocr_bbox": [
+            266,
+            2,
+            987,
+            640
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_009_num04327_sim0.jpg",
+          "frame_num": 4327,
+          "ocr_text": "SET DEC DRIVERS ANDREAS ULRICH OLIVER HOLLSTEIN TIM LEMKE DAILY SET DEC DRIVERS MALTE MANN TOM KIRSTEN MIRKO REICHWALD SET DEC PA KATHARINA WREDE SETDRESSERS HEIKE PAUKETAT STEFAN BURISCHEK CHRISTIAN DAHLMANN JAN ZEGENHAGEN TORSTEN HAUBOLD ANDREAS NAUJOKS NINA PUTZ FRANZ H\u00d6FNER DAILY SET DRESSERS HUBERT B\u00d6CK FLORIAN RADLOFF ANNA EPPSTEIN JENS GAUBE HOLGER HANSKE RALF CHURF\u00dcRST PROP MASTERS ALEXIS TELLER MICHAEL FECHNER ASSISTANT PROP MASTER ISABEL FUCHS PROP BUYER / PICTURE CAR COORDINATOR DANIEL SANDBERG DAILY PROP BUYERS VERA ROTH KRISTINA LONERGAN STAND-BY PROPS ON SET ANDREAS HUSCHKE ASST. STAND-BY PROPS ON SET SARAH RONTGEN DAILY STAND-BY PROPS ON SET ULI PASSAUER DAILY ASST. STAND-BY PROPS ON SET HANNAH ROOLF PROP DRIVERS CHRISTIAN MEINHERZ THOMAS SCHLEGEL CONSTRUCTION COMPANIES SPREEKULISSEN ART DEPARTMENT STUDIO BABELSBERG HOD PAINTER WOLFGANG WREDE SCENE PAINTER FRANK BORN S/BY CARPENTER MATTHIAS PRANGE CARPENTERS CHRIS BAUMSTIEGER OLAF VON FRIDERICI MATTHIAS RODER DAILY CARPENTERS FRANK NOAK KARSTEN CIZMOWSKI FELIX MATHIAS OTT ASSISTANT COSTUME DESIGNERS ANETTE TIRLER",
+          "ocr_bbox": [
+            266,
+            6,
+            987,
+            640
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_010_num04477_sim0.jpg",
+          "frame_num": 4477,
+          "ocr_text": "STAND-BY PROPS ON SET ANDREAS HUSCHKE ASST. STAND-BY PROPS ON SET SARAH RONTGEN DAILY STAND-BY PROPS ON SET ULI PASSAUER DAILY ASST. STAND-BY PROPS ON SET HANNAH ROOLF PROP DRIVERS CHRISTIAN MEINHERZ THOMAS SCHLEGEL CONSTRUCTION COMPANIES SPREEKULISSEN ART DEPARTMENT STUDIO BABELSBERG HOD PAINTER WOLFGANG WREDE SCENE PAINTER FRANK BORN S/BY CARPENTER MATTHIAS PRANGE CARPENTERS CHRIS BAUMSTIEGER OLAF VON FRIDERICI MATTHIAS RODER DAILY CARPENTERS FRANK NOAK KARSTEN CIZMOWSKI FELIX MATHIAS OTT ASSISTANT COSTUME DESIGNERS ANETTE TIRLER ANNA SCHOLICH ANJA CHARLOTT SAWATZKI KEY COSTUMER LISA SCHRIMPF COSTUMER VERONICA SANTOS RUIZ JUNIOR COSTUMER CORNELIA ANNA SOBIK COSTUME ASSISTANTS REBEKKA STANGE KERSTIN FELDMANN COSTUME TRAINEES MARIE FISCHER MICHELE TONTELING SEAMSTRESS NICOLA GEBHARD DAILY COSTUMERS JULIA HUEBENER THERESE RODER KATRIN BERTHOLD YOU-JIN SEO SYLKA SCHADLICH KERSTINA SCHEMMEL ELSA FABIAN ELENI GROSZER AGER / DYER KARIN FALTLHAUSER CAROLIN SCHOGS MAKE UP & HAIR ARTISTS CHRISTINA WAGNER ANDREA PIRCHNER MAKE UP & HAIR TRAINEE ASTRID STEBICH",
+          "ocr_bbox": [
+            312,
+            2,
+            980,
+            621
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_011_num04627_sim0.jpg",
+          "frame_num": 4627,
+          "ocr_text": "ANJA CHARLOTT SAWATZKI KEY COSTUMER LISA SCHRIMPE COSTUMER VERONICA SANTOS RUIZ JUNIOR COSTUMER CORNELIA ANNA SOBIK COSTUME ASSISTANTS REBEKKA STANGE KERSTIN FELDMANN COSTUME TRAINEES MARIE FISCHER MICH\u00c9LE TONTELING SEAMSTRESS NICOLA GEBHARD DAILY COSTUMERS KATRIN BERTHOLD JULIA HUEBENER THERESE R\u00d6ODER YOU-JIN SEO SYLKA SCHADLICH KERSTINA SCHEMMEL ELSA FABIAN ELENI GROSZER AGER /DYER KARIN FALTLHAUSER CAROLIN SCHOGS MAKE UP & HAIR ARTISTS CHRISTINA WAGNER ANDREA PIRCHNER MAKE UP & HAIR TRAINEE ASTRID STEBICH DAILY MAKE-UP & HAIR ANJA DAUM VALESKA SCHITTHELM PARUL BANERJEE MONIKA LIENIG MILENA PFLEIDERER MARKUS HOLLINGER BARBARA ZSCHETZSCHE WIEBKE MADLOCH INGA ROSS JULIA BAUMANN STUNT COORDINATOR VOLKHART BUFF SFX COORDINATOR ADOLF WOJTINEK OFFICE COORDINATOR MICHAEL APLING SFX SET SUPERVISOR BERND WILDAU SFX ARMORER MARIO UY SFX TECHNICIANS SVEN HUBNER JORG RICHTER UWE LEHMANN DAVID OPATZ MAXIM KNEFELI THOMAS TROCHA THORSTEN HINTZE LARS HINTZE SOLON LUIGI 2ND UNIT DIRECTOR PHILIP HAUCKE 2ND UNIT 1ST AD BEN BISCHOF 2ND UNIT DAILY AD'S RONNY SCHRODER JAN BOHME BENNET WEIDEMANN",
+          "ocr_bbox": [
+            271,
+            1,
+            976,
+            633
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_012_num04777_sim0.jpg",
+          "frame_num": 4777,
+          "ocr_text": "MONIKA LIENIG MILENA PFLEIDERER MARKUS HOLLINGER BARBARA ZSCHETZSCHE WIEBKE MADLOCH INGA ROSS JULIA BAUMANN STUNT COORDINATOR VOLKHART BUFF SFX COORDINATOR ADOLF WOJTINEK OFFICE COORDINATOR MICHAEL APLING SFX SET SUPERVISOR BERND WILDAU SFX ARMORER MARIO UY SFX TECHNICIANS SVEN H\u00dcBNER JORG RICHTER UWE LEHMANN DAVID OPATZ MAXIM KNEFELI THOMAS TROCHA THORSTEN HINTZE LARS HINTZE SOLON LUIGI 2ND UNIT DIRECTOR PHILIP HAUCKE 2ND UNIT 1ST AD BEN BISCHOF 2ND UNIT DAILY AD'S RONNY SCHRODER JAN BOHME BENNET WEIDEMANN CLARA VON ARNIM MARIAN MACHLER BENJAMIN ROEPCKE DANIEL BOROVKOV SIMON ADEGBENRO 2ND UNIT DOP'S TILMAN B\u00dcTTNER JORG WIDMER FLORIAN EMMERICH STEN MENDE 2ND UNIT 1ST ASSISTANTS CAMERA PATRICK GOETZ ALEX SEIDL KARIM RAHMANI FLORIAN REEH 2ND UNIT 2ND ASSISTANTS CAMERA PHILIPP HOCH JULIAN FELGITSCH SHAY BEINWOLL 2ND UNIT C-CAMERA ASSISTANT CAMERA KAI LACHMANN 2ND UNIT VIDEO OPERATORS KRISCHAN HINTZ ANGELA FELLENBERG 2ND UNIT SCRIPT / CONTINUITY LAURA RITTER GABRIELLA GOBBER BJORN S. BERGER SILKE ENGELHARDT VANESSA SCHREIBER DAILY 2ND UNIT COSTUMERS LUTZ ERKENS ELISABETH SCHMIDT",
+          "ocr_bbox": [
+            271,
+            6,
+            974,
+            634
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_013_num04927_sim0.jpg",
+          "frame_num": 4927,
+          "ocr_text": "2ND UNIT DOP'S TILMAN BUTTNER J\u00d6RG WIDMER FLORIAN EMMERICH STEN MENDE 2ND UNIT 1ST ASSISTANTS CAMERA PATRICK GOETZ ALEX SEIDL KARIM RAHMANI FLORIAN REEH 2ND UNIT 2ND ASSISTANTS CAMERA PHILIPP HOCH JULIAN FELGITSCH SHAY BEINWOLL 2ND UNIT C-CAMERA ASSISTANT CAMERA KAI LACHMANN 2ND UNIT VIDEO OPERATORS KRISCHAN HINTZ ANGELA FELLENBERG 2ND UNIT SCRIPT / CONTINUITY LAURA RITTER GABRIELLA GOBBER BJ\u00d6RN S. BERGER SILKE ENGELHARDT VANESSA SCHREIBER DAILY 2ND UNIT COSTUMERS LUTZ ERKENS ELISABETH SCHMIDT ANNE GORKE 2ND UNIT SET MANAGER MARC DROBNY 2ND UNIT SET RUNNERS DENNY HAHNFELDT ROCCO ARNDT 2ND UNIT GAFFERS LARS VOIGTLANDER DIETMAR HAUPT PETER FRITSCHER 2ND UNIT ELECTRICIANS FLOW JEAN-LOUIS MARTIN ROTH MARC WIESENTHAL OLIVER JOEST DAVID ROSCHKE HOLGER OHLHUS HOLGER LEHNAU MATTHIAS EDINGER DIRK SIEHLMANN ANDREAS RICHTER PATRICK WACHTER 2ND UNIT KEY GRIP JAN RASKIN 2ND UNIT GRIP ELIAS HEIDUK 2ND UNIT SOUND MIXERS BERTIN MOLZ CASPAR SACHSSE DAILY 2ND UNIT SOUND MIXERS SIMON JOHANNES PETER THOMAS DIESEL 2ND UNIT BOOM OPERATORS DAVID JUNG RON KLOBER",
+          "ocr_bbox": [
+            285,
+            10,
+            974,
+            639
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_014_num05077_sim0.jpg",
+          "frame_num": 5077,
+          "ocr_text": "UNIISETMANAGER MARCDROBNY 2ND UNIT SET RUNNERS DENNY HAHNFELDT ROCCO ARNDT 2ND UNIT GAFFERS LARS VOIGTLANDER DIETMAR HAUPT PETER FRITSCHER 2ND UNIT ELECTRICIANS MARC WIESENTHAL FLOW JEAN-LOUIS MARTIN ROTH OLIVER JOEST DAVID ROSCHKE HOLGER OHLHUS HOLGER LEHNAU DIRK SIEHLMANN MATTHIAS EDINGER ANDREAS RICHTER PATRICK WACHTER 2ND UNIT KEY GRIP JAN RASKIN 2ND UNIT GRIP ELIAS HEIDUK 2ND UNIT SOUND MIXERS BERTIN MOLZ CASPAR SACHSSE DAILY 2ND UNIT SOUND MIXERS SIMON JOHANNES PETER THOMAS DIESEL 2ND UNIT BOOM OPERATORS DAVID JUNG RON KLOBER GERO RENNER HANNES FR\u00dcH 2ND UNIT STANDBY PROP 2ND UNIT DRIVERS SEBASTIAN ENNEN TORSTEN PATEROK JAN LUO POST-PRODUCTION SUPERVISOR SVEN NURI ASSISTANT EDITORS MATTIFALKENBERG ZWI ZAUSCH DAVID MARIA VOGEL ASCANIUS BOTTGER MUSIC EDITOR LEWIS MORISON MUSIC SUPERVISION BY LYNN FAINCHTEIN ORIGINAL SCORE PERFORMANCE BY SINFIONIETTTA CRACOVIA ORCHESTRA TITLE AND GRAPHICS DESIGN BY LUTZ LEMKE",
+          "ocr_bbox": [
+            318,
+            0,
+            972,
+            633
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_015_num05227_sim0.jpg",
+          "frame_num": 5227,
+          "ocr_text": "2ND UNIT STANDBY PROP HANNES FRUH 2ND UNIT DRIVERS SEBASTIAN ENNEN TORSTEN PATEROK JAN LUO POST-PRODUCTION SUPERVISOR SVEN NURI ASSISTANT EDITORS MATTIFALKENBERG ZWI ZAUSCH DAVID MARIA VOGEL ASCANIUS B\u00d6TTGER MUSIC EDITOR LEWIS MORISON MUSIC SUPERVISION BY LYNN FAINCHTEIN ORIGINAL SCORE PERFORMANCE BY SINFIONIETTTA CRACOVIA ORCHESTRA TITLE AND GRAPHICS DESIGN BY LUTZ LEMKE HEAD OF POSTPRODUCTION FRIEDA OBERLIN, ARRI MEDIA DAILIES SUPERVISOR CLEMENS SCHMID DAILIES COORDINATOR LISSY KNAUER DATA IO THOMAS WECKENMANN DI SUPERVISOR LOLA KNOBLACH DIGITAL COLORISTS STEFFEN PAUL BERNIE GREINER TECHNICAL DIRECTOR ALEXANDER FALK ONLINE & FINISHING ARTISTS CHRISTIAN TROGER MATHILDA BARCHMANN DI ENGINEERS KAY-UWE SCHUCHERT JOHANNES ROCKL POSTPRODUCTION PRODUCER SOUND MICHAEL HUBER TECHNICAL SUPERVISOR SIEGFRIED OBLINGER RE-RECORDING MIXERS ANSGAR FRERICH, BASIS CHRISTIAN BISCHOFF MATHIAS MAYDL BENJAMIN A. ROSENKIND SUPERVISING SOUND EDITOR ALEXANDER W\u00dcRTZ SOUND EDITORS ACHIM HOFMANN",
+          "ocr_bbox": [
+            318,
+            0,
+            971,
+            633
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_016_num05377_sim0.jpg",
+          "frame_num": 5377,
+          "ocr_text": "DAILIES SUPERVISOR CLEMENS SCHMID DAILIES COORDINATOR LISSY KNAUER DATA IO THOMAS WECKENMANN DI SUPERVISOR LOLA KNOBLACH DIGITAL COLORISTS STEFFEN PAUL BERNIE GREINER TECHNICAL DIRECTOR ALEXANDER FALK ONLINE & FINISHING ARTISTS CHRISTIAN TROGER MATHILDA BARCHMANN DI ENGINEERS KAY-UWE SCHUCHERT JOHANNES ROCKL OSTPRODUCTION PRODUCER SOUND MICHAEL HUBER TECHNICAL SUPERVISOR SIEGFRIED OBLINGER RE-RECORDING MIXERS ANSGAR FRERICH, BASIS CHRISTIAN BISCHOFF MATHIAS MAYDL BENJAMIN A. ROSENKIND SUPERVISING SOUND EDITOR ALEXANDER W\u00dcRTZ SOUND EDITORS ACHIM HOFMANN JORG ELSNER PRODUCTION SOUND EDITOR THOMAS KALB\u00c9R FOLEY ARTIST MICHAEL STANCYK FOLEY EDITOR WOLFI M\u00dcLLER FOLEY RECORDING ENGINEER BERNHARD MAURER HEAD OF ARRI SOUND DANIEL VOGL TECHNICAL MANAGER BERND CLAUSS ADR SUPERVISOR STEPHAN FANDRYCH ADR EDITOR BENJAMIN SCHAFER VISUAL EFFECTS SUPERVISOR SVEN PANNICKE, RISE VISUAL EFFECTS PRODUCERS HELENA WEGMANN REN\u00c9 GRASSER VISUAL EFFECTS COORDINATORS VIKTORIA RUCKER MONIQUE POLLAHNE MONA WIEMER EVA MULARONEK SEBASTIAN NOZON COMPOSITING SUPERVISORS BENJAMIN BURR RAYK SCHROEDER CONCEPT/ MATTE PAINTING BJORN KAHLER",
+          "ocr_bbox": [
+            325,
+            5,
+            861,
+            634
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_017_num05527_sim0.jpg",
+          "frame_num": 5527,
+          "ocr_text": "HOMASKALBER FOLEY ARTIST MICHAEL STANCYK FOLEY EDITOR WOLFI M\u00dcLLER FOLEY RECORDING ENGINEER BERNHARD MAURER HEAD OF ARRI SOUND DANIEL VOGL TECHNICAL MANAGER BERND CLAUSS ADR SUPERVISOR STEPHAN FANDRYCH ADR EDITOR BENJAMIN SCHAFER VISUAL EFFECTS SUPERVISOR SVEN PANNICKE, RISE VISUAL EFFECTS PRODUCERS HELENA WEGMANN RENE GRASSER VISUAL EFFECTS COORDINATORS VIKTORIA RUCKER MONIQUE POLLAHNE MONA WIEMER EVA MULARONEK SEBASTIAN NOZON COMPOSITING SUPERVISORS BENJAMIN BURR RAYK SCHROEDER CONCEPT / MATTE PAINTING BJORN KAHLER CG ARTISTS MICHAEL HAUPT DANIEL RATH VINCENT LANGER DANIEL WITT HEIKO SCHNECK PASCAL XANDER SASKIA CAROLAN ALEXANDER SCHUMANN JAN ROTH DAVID SALAMON MERTEN TREMER FX ARTISTS DOMINIK POTT ANDREAS GIESEN KORBINIAN HOPFNER VOLKER HEISTERBERG LOA MAYRA DUMONG COMPOSITORS ANDREAS NEHLS LEON SCHMIDL DAVID BOBICHON DANIEL HARTLEHNERT LUKAS SCHWABE NICOLAS ROLKE MATTHIAS BAUERLE EMIL PFEIFER PHILIPP MEKUS VFX PRODUCER KATJA MULLER, ARRI VFX SUPERVISOR STEFAN TISCHNER SENIOR COMPOSITING ARTISTS DAVID LAUBSCH JOHANNES BOGENHAUSER PRIYA SHORT INES KR\u00dcGER ARIA HEIDARI MARTIN ROSENKRANZ MIN TESCH ELMAR POHL SERASTLANMIETZNER ELAME ARTISTS",
+          "ocr_bbox": [
+            288,
+            0,
+            982,
+            640
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_018_num05677_sim0.jpg",
+          "frame_num": 5677,
+          "ocr_text": "MICHAEL HAUPT DANIEL RATH VINCENT LANGER DANIEL WITT HEIKO SCHNECK PASCAL XANDER SASKIA CAROLAN ALEXANDER SCHUMANN JAN ROTH DAVID SALAMON MERTEN TREMER FX ARTISTS ANDREAS GIESEN DOMINIK POTT KORBINIAN HOPFNER VOLKER HEISTERBERG LOA MAYRA DUMONG COMPOSITORS ANDREAS NEHLS LEON SCHMIDL DAVID BOBICHON DANIEL HARTLEHNERT LUKAS SCHWABE NICOLAS ROLKE MATTHIAS BAUERLE EMIL PFEIFER PHILIPP MEKUS VFX PRODUCER KATJA MULLER, ARRI VFX SUPERVISOR STEFAN TISCHNER SENIOR COMPOSITING ARTISTS DAVID LAUBSCH JOHANNES BOGENHAUSER PRIYA SHORT INES KR\u00dcGER ARIA HEIDARI MARTIN ROSENKRANZ MIN TESCH ELMAR POHL FLAME ARTISTS SEBASTIAN MIETZNER ERIC SCHAECHTER COMPOSITING ARTISTS TIM EMEIS ALEXANDER SCHERFFIG JUNIOR COMPOSITING ARTISTS PETER HOFMEISTER KATHARINA LEBEGERN CG ARTIST THORSTEN GATZ WIEDEMANN & BERG TELEVISION LINE PRODUCER SOFIE SCHERZ ASSISTANTS TO LINE PRODUCER SAMIRA WOLF JULIA LENZINGER HEAD OF ACCOUNTING TAMARA WEISS-MOHR ACCOUNTANT INA STAHNSDORF-NOVOTNY LEGAL & BUSINESS AFFAIRS HENDRIK SCHIERLOH FLORIAN DOERDELMANN JANA THEIS NETFLIX PHYSICAL PRODUCTION CAROL TURNER",
+          "ocr_bbox": [
+            288,
+            1,
+            981,
+            631
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_019_num05827_sim0.jpg",
+          "frame_num": 5827,
+          "ocr_text": "COMPOSITING ARTISTS TIM EMEIS ALEXANDER SCHERFFIG JUNIOR COMPOSITING ARTISTS PETER HOFMEISTER KATHARINA LEBEGERN CG ARTIST THORSTEN G\u00c4TZ WIEDEMANN & BERG TELEVISION LINE PRODUCER SOFIE SCHERZ ASSISTANTS TO LINE PRODUCER SAMIRA WOLF JULIA LENZINGER HEAD OF ACCOUNTING TAMARA WEISS-MOHR ACCOUNTANT INA STAHNSDORF-NOVOTNY LEGAL & BUSINESS AFFAIRS HENDRIK SCHIERLOH FLORIAN DOERDELMANN JANA THEIS NETFLIX PHYSICAL PRODUCTION CAROL TURNER BUSINESS DEVELOPMENT BRIAN PEARSON PRODUCTION FINANCE HUBERT BURKHARDT EXECUTIVE ASSISTANTS PAOLA CORREA ASHLIN YU POST PRODUCTION DAVID OH BUSINESS AND LEGAL AFFAIRS PAYTRE TOPP NATALIE GUTTERIDGE CLARE WALKER CAMERA EQUIPMENT RENTAL ARRI RENTAL BERLIN CATERING MAMA FILMCATERING KAYFU CATERING STAGES CCC FILMSTUDIOS MANN & BERG",
+          "ocr_bbox": [
+            358,
+            4,
+            882,
+            638
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_020_num05977_sim0.jpg",
+          "frame_num": 5977,
+          "ocr_text": "EXECUTIVE ASSISTANTS PAOLA CORREA ASHLIN YU POST PRODUCTION DAVID OH BUSINESS AND LEGAL AFFAIRS PAYTRE TOPP NATALIE GUTTERIDGE CLARE WALKER CAMERA EQUIPMENT RENTAL ARRI RENTAL BERLIN CATERING MAMA FILMCATERING KAYFU CATERING STAGES CCC FILMSTUDIOS WIEDEMANN & BERG NETFLIX PRODUCED WITH THE SUPPORT OF Supported by: GERMAN Federal Ministry for Economic Affairs and Energy MOTION PICTURE FUND on the basis of a decision by the German Bundestag",
+          "ocr_bbox": [
+            369,
+            5,
+            833,
+            629
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_021_num06127_sim0.jpg",
+          "frame_num": 6127,
+          "ocr_text": "NETFLIX PRODUCED WITH THE SUPPORT OF Supported by: Federal Ministry GERMAN for Economic Affairs MOTION and Energy PICTURE FUND on the basis of a decision by the German Bundestag COPYRIGHT \u00a9 2O17, NETFLIX STUDIOS, LLC. ALL RIGHTS RESERVED. THIS SERIES IS PROTECTED UNDER THE LAWS OF THE UNITED STATES AND OTHER COUNTRIES. UNAUTHORIZED DUPLICATION, DISTRIBUTION OR EXHIBITION MAY RESULT IN CIVIL LIABILITY AND CRIMINAL PROSECUTION.",
+          "ocr_bbox": [
+            137,
+            27,
+            1142,
+            438
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_039_scroll_022_num06277_sim0.jpg",
+          "frame_num": 6277,
+          "ocr_text": "COPYRIGHT \u00a9 2O17, NETFLIX STUDIOS, LLC. ALL RIGHTS RESERVED T HIS SSERIES IS PROTECTED UNDER THE LAWS OF THE UNITED STATES AND OTHER COUNTRIES. UNAUTHORIZED DUPLICATION, DISTRIBUTION OR EXHIBITION MAY RESULT IN CIVIL LIABILITY AND CRIMINAL PROSECUTION.",
+          "ocr_bbox": [
+            137,
+            278,
+            1143,
+            358
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 23,
+      "median_flow_px_per_frame": -2.192375659942627,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": -2.192375659942627,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 263,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_40": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_040_static_000_num06317_sim6.jpg",
+          "frame_num": 6317,
+          "ocr_text": "NETFLIX",
+          "ocr_bbox": [
+            327,
+            205,
+            945,
+            408
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_040_static_001_num06329_sim100.jpg",
+          "frame_num": 6329,
+          "ocr_text": "NETFLIX",
+          "ocr_bbox": [
+            390,
+            232,
+            891,
+            392
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.1377483606338501,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.1472955346107483,
+      "roi_percentile_flow": 0.1377483606338501,
+      "scroll_direction": null
+    },
+    "scene_41": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_041_static_000_num06461_sim2.jpg",
+          "frame_num": 6461,
+          "ocr_text": "Noah Assaf Cohen Hannah Kahnwald (2019) Shani Atias Egon Tiedemann (1953) Bernhard Forcher Clauda Tiedemann (1986) Natalia Castellanos Katharina Nielsen (1986) Madeline Baugh Claudia Tiedemann (2019) Donna Pieroni Martha Nielsen (2019) Ariel Barber Bernd Doppler (1986) Richard Steinmetz Greta Doppler (1953) Erin Coker Regina Tiedemann (1986) Tamar Pelzig Jonas Kahnwald (2019) Bradley Painter Helge Doppler (1986) Don Stark Ulrich Nielsen (2019) Jeffrey Pierce Adaptors Michael Sorich & Jack Maeby Director Christian Torsten Voges Casting Director Dorit Simone Kashi Recording Engineer Jonathan Abarca Sound Mixers Oscar Garcia, Edgar Maldonado & Greg Faust Dubbing Studio Los Angeles",
+          "ocr_bbox": [
+            325,
+            61,
+            1008,
+            567
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_041_static_001_num06509_sim50.jpg",
+          "frame_num": 6509,
+          "ocr_text": "Versi\u00f3n Espa\u00f1ol Latinoamericano Ulrich 2019: Gustavo Dard\u00e9s Katharina 2019: Luciana Falc\u00f3n Katharina 1986: Constanza Faraggi Egon 1953: Sebasti\u00e1n Castro Saavedra Jonas: Alejandro Grave Martha: Agustina Cirulnik Regina 1986: \u00c1ngeles Lescano Hannah 2019: Agostina Longo Aleksander 1986: Santiago Maurig Noah: Javier G\u00f3mez Claudia 1986: Mara Campanelli Bernd 53 / 86: Rene Sagastume Director de doblaje: Gonzalo Latorraca Traducci\u00f3n y adaptaci\u00f3n: Daniela Gussoni Voice & Script International",
+          "ocr_bbox": [
+            326,
+            27,
+            976,
+            609
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_041_static_002_num06557_sim43.jpg",
+          "frame_num": 6557,
+          "ocr_text": "VERSI\u00d3N ESPANOLA CHARLOTTE Anna Pallej\u00e1 JONAS Marcel Navarro KATHERINA Teresa Manresa MARTHA Irene Miras ULRICH Alfonso Vall\u00e9s DIRECTOR \u00c1ngel de Gracia TRADUCTOR Maria Sieso SONYGRAF",
+          "ocr_bbox": [
+            396,
+            34,
+            879,
+            603
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_041_static_003_num06605_sim46.jpg",
+          "frame_num": 6605,
+          "ocr_text": "Version fran\u00e7aise : Paris - CHINKEL S.A. Direction artistique : Benoit DU PAC Avec les voix de : Charlotte : Laura BLANC Ulrich : Yann GUILLEMOT Franziska : Emilie MARIE Katharina : Vanina PRADIER Emilie RAULT Martha : Jonas : Benjamin BOLLEN Brice OURNAC Magnus : Adaptation : Sylvie ANDR\u00c9 Ing\u00e9nieur du son record : Ma\u00ebl DUPON Ing\u00e9nieur du son montage : Jean-Fran\u00e7ois ANNE Ing\u00e9nieur du son mixage : Jonathan LERICHE",
+          "ocr_bbox": [
+            329,
+            33,
+            883,
+            584
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_041_static_004_num06653_sim53.jpg",
+          "frame_num": 6653,
+          "ocr_text": "Versione Italiana Ulrich Massimo Lodolo Katharina Sabrina Duranti Mikkel Gabriele Meoni Martha Veronica Puccio Magnus Simone Veltroni Aleksander Pasquale Anselmo Regina Emilia Costa Bartosz Davide Capone Charlotte Roberta Pellini Peter Stefano Benassi Franziska Emanuela lonica Orologiaio Giorgio Lopez Dialoghi italiani Ludovica Doni Direzione del doppiaggio Rachele Paolelli Mix Fabio Pieri ROME",
+          "ocr_bbox": [
+            294,
+            31,
+            945,
+            599
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_041_static_005_num06701_sim27.jpg",
+          "frame_num": 6701,
+          "ocr_text": "VSI & Master Wersja polska Lektor Marek Ciunel Michal Pyka Tlumacz Dwiek i montaz Marta Kedziora",
+          "ocr_bbox": [
+            286,
+            187,
+            884,
+            363
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Dark_1x9\\analysis\\frames\\scene_041_static_006_num06749_sim18.jpg",
+          "frame_num": 6749,
+          "ocr_text": "VERS\u00c3\u00c4O BRASILEIRA DARK - 109 ESTUDIO : VOXMUNDI AUDIOVISUAL - VSI DIRECAO : LUCIA HELENA TRADUC\u00c4O: TANJA RUNK PR\u00c9-MIXAGEM: ROSANA STEFANONI PERSONAGEM: INTERPRETADO POR: Aleksander jovem Diego Lima Hannah Eleonora Prado Noah Ettore Zuim Claudia Lucia Helena Katharina Adriana Pissardini Katharina jovem Fernanda Bullara Egon jovem Cesar Marchetti Helge jovem Wellington Lima Martha Samira Fernandes Vozes Adicionais Isaura Gomes, Leonardo Jos\u00e9, Alfredo Rollo Agatha Paulita, Mabel Cezar, Caio Albieri Tata Guarnieri, Vagner Fagundes, Renata Villa\u00e7a Leonardo Camillo, Lucas Gama, Daniel Garcia Leticia Quinto, Raquel Marinho, Silvia Goiabeira Robson Kumode, Flora Paulita, Carlos Silveira Andre Sauer, Carol Sodr\u00e9, Cesar Emilio Isabella Guarnieri, Cassius Romero, Carlos Campanille",
+          "ocr_bbox": [
+            395,
+            32,
+            1121,
+            567
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 7,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    }
+  }
+}

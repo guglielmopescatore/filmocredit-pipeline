@@ -1,0 +1,979 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_000_num00150_sim0.jpg",
+          "frame_num": 150,
+          "ocr_text": "Organizzatore Generale Sandra Bonacchi",
+          "ocr_bbox": [
+            491,
+            297,
+            788,
+            418
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_001_num00240_sim46.jpg",
+          "frame_num": 240,
+          "ocr_text": "Fotografia Paolo Carnera (A.C)",
+          "ocr_bbox": [
+            505,
+            292,
+            774,
+            424
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_002_num00315_sim44.jpg",
+          "frame_num": 315,
+          "ocr_text": "Montaggio Patrizio Marone Collaborazione al Montaggio Lorenzo Peluso",
+          "ocr_bbox": [
+            459,
+            197,
+            818,
+            521
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_003_num00405_sim31.jpg",
+          "frame_num": 405,
+          "ocr_text": "Musiche di Pasquale Catalano",
+          "ocr_bbox": [
+            521,
+            296,
+            760,
+            421
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_004_num00495_sim36.jpg",
+          "frame_num": 495,
+          "ocr_text": "Sigla realizzata da RED BEE MEDIA Con musica di Stefano Fresi",
+          "ocr_bbox": [
+            465,
+            267,
+            816,
+            450
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_005_num00570_sim47.jpg",
+          "frame_num": 570,
+          "ocr_text": "Suono in Presa Diretta Maricetta Lombardo Microfonista Alessandro Molaioli(.S.)",
+          "ocr_bbox": [
+            475,
+            200,
+            806,
+            519
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_006_num00660_sim30.jpg",
+          "frame_num": 660,
+          "ocr_text": "Scenografia Paola Comencini",
+          "ocr_bbox": [
+            528,
+            293,
+            748,
+            421
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_007_num00750_sim45.jpg",
+          "frame_num": 750,
+          "ocr_text": "Costumi Nicoletta Taranta",
+          "ocr_bbox": [
+            528,
+            295,
+            750,
+            423
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_008_num00825_sim28.jpg",
+          "frame_num": 825,
+          "ocr_text": "Arredatore Operatore di Macchina Maurizio Leonardi Ivan Casalgrandi",
+          "ocr_bbox": [
+            343,
+            295,
+            995,
+            422
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_009_num00915_sim44.jpg",
+          "frame_num": 915,
+          "ocr_text": "Direttore Di Produzione Aiuto Regista Milena Cocozza Alberto Sammarco",
+          "ocr_bbox": [
+            363,
+            292,
+            1001,
+            424
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_010_num01005_sim40.jpg",
+          "frame_num": 1005,
+          "ocr_text": "Casting Laura Muccino (U.C.) Anna Maria Sambucco (.C.)",
+          "ocr_bbox": [
+            464,
+            218,
+            816,
+            470
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_011_num01110_sim40.jpg",
+          "frame_num": 1110,
+          "ocr_text": "Enrico Gemito Alberto Gasbarri Maurizio Gemito Simone Mori",
+          "ocr_bbox": [
+            496,
+            641,
+            790,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_012_num01125_sim82.jpg",
+          "frame_num": 1125,
+          "ocr_text": "Enrico Gemito Alberto Gasbarri Maurizio Gemito Simone Mori Gigio Alessandro Marverti",
+          "ocr_bbox": [
+            494,
+            586,
+            823,
+            713
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_013_num01140_sim82.jpg",
+          "frame_num": 1140,
+          "ocr_text": "Enrico Gemito Alberto Gasbarri Maurizio Gemito Simone Mori Gigio Alessandro Marverti Satana Roberto Latini Sordo Antenio",
+          "ocr_bbox": [
+            494,
+            531,
+            822,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_014_num01155_sim81.jpg",
+          "frame_num": 1155,
+          "ocr_text": "Enrico Gemito Alberto Gasbarri Maurizio Gemito Simone Mori Gigio Alessandro Marverti Satana Roberto Latini Sardo Antonio Gerardi Padre Freddo Lorenzo Gioielli",
+          "ocr_bbox": [
+            494,
+            473,
+            822,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_015_num01170_sim90.jpg",
+          "frame_num": 1170,
+          "ocr_text": "Enrico Gemito Alberto Gasbarri Maurizio Gemito Simone Mori Gigio Alessandro Marverti Satana Roberto Latini Sardo Antonio Gerardi Padre Freddo Lorenzo Gioielli Neofascista Giuseppe 1 Emanuele Bosi",
+          "ocr_bbox": [
+            433,
+            421,
+            822,
+            716
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_016_num01185_sim89.jpg",
+          "frame_num": 1185,
+          "ocr_text": "Enrico Gemito Alberto Gasbarri Maurizio Gemito Simone Mori Gigio Alessandro Marverti Satana Roberto Latini Sardo Antonio Gerardi Padre Freddo Lorenzo Gioielli Neofascista Giuseppe 1 Emanuele Bosi Angelina Greta Scarano Vanocoa Varenioe Contil:",
+          "ocr_bbox": [
+            435,
+            364,
+            822,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_017_num01200_sim89.jpg",
+          "frame_num": 1200,
+          "ocr_text": "Enrico Gemito Alberto Gasbarri Maurizio Gemito Simone Mori Gigio Alessandro Marverti Satana Roberto Latini Sardo Antonio Gerardi Padre Freddo Lorenzo Gioielli Neofascista Giuseppe 1 Emanuele Bosi Greta Scarano Angelina Vanessa Veronica Gentili Fabio Santini Luca Venantini",
+          "ocr_bbox": [
+            435,
+            310,
+            822,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_018_num01215_sim96.jpg",
+          "frame_num": 1215,
+          "ocr_text": "Enrico Gemito Alberto Gasbarri Maurizio Gemito Simone Mori Gigio Alessandro Marverti Satana Roberto Latini Sardo Antonio Gerardi Padre Freddo Lorenzo Gioielli Neofascista Giuseppe 1 Emanuele Bosi Angelina Greta Scarano Vanessa Veronica Gentili Fabio Santini Luca Venantini Secco Vincenzo Tanassi",
+          "ocr_bbox": [
+            434,
+            253,
+            822,
+            713
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_019_num01230_sim96.jpg",
+          "frame_num": 1230,
+          "ocr_text": "Enrico Gemito Alberto Gasbarri Maurizio Gemito Simone Mori Gigio Alessandro Marverti Satana Roberto Latini Sardo Antonio Gerardi Padre Freddo Lorenzo Gioielli Neofascista Giuseppe 1 Emanuele Bosi Angelina Greta Scarano Vanessa Veronica Gentili Fabio Santini Luca Venantini Secco Vincenzo Tanassi Mancuso Giovanni Guardiano",
+          "ocr_bbox": [
+            434,
+            198,
+            824,
+            703
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_020_num01245_sim92.jpg",
+          "frame_num": 1245,
+          "ocr_text": "Enrico Gemito Alberto Gasbarri Maurizio Gemito Simone Mori Gigio Alessandro Marverti Satana Roberto Latini Sardo Antonio Gerardi Padre Freddo Lorenzo Gioielli Neofascista Giuseppe 1 Emanuele Bosi Angelina Greta Scarano Vanessa Veronica Gentili Fabio Santini Luca Venantini Secco Vincenzo Tanassi Mancuso Giovanni Guardiano Piccoletto Valerio Morigi Uomo 50 Anni Mauro Cremonini",
+          "ocr_bbox": [
+            434,
+            141,
+            823,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_021_num01260_sim96.jpg",
+          "frame_num": 1260,
+          "ocr_text": "Enrico Gemito Alberto Gasbarri Maurizio Gemito Simone Mori Gigio Alessandro Marverti Satana Roberto Latini Sardo Antonio Gerardi Padre Freddo Lorenzo Gioielli Neofascista Giuseppe 1 Emanuele Bosi Angelina Greta Scarano Vanessa Veronica Gentili Fabio Santini Luca Venantini Secco Vincenzo Tanassi Mancuso Giovanni Guardiano Piccoletto Valerio Morigi Uomo 50 Anni Mauro Cremonini Sandra Valentina Calandriello",
+          "ocr_bbox": [
+            434,
+            88,
+            839,
+            718
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_022_num01275_sim95.jpg",
+          "frame_num": 1275,
+          "ocr_text": "Enrico Gemito Alberto Gasbarri Maurizio Gemito Simone Mori Gigio Alessandro Marverti Satana Roberto Latini Sardo Antonio Gerardi Padre Freddo Lorenzo Gioieli Neofascista Giuseppe 1 Emanuele Bosi Greta Scarano Angelina Vanessa Veronica Gentili Fabio Santini Luca Venantini Secco Vincenzo Tanassi Mancuso Giovanni Guardiano Piccoletto Valerio Morigi Uomo 50 Anni Mauro Cremonini Sandra Valentina Calandriello Giulio Brega Stefano Ambrogi Vito Meori",
+          "ocr_bbox": [
+            434,
+            30,
+            839,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_023_num01290_sim91.jpg",
+          "frame_num": 1290,
+          "ocr_text": "Albel io dasbaln Maurizio Gemito Simone Mori Gigio Alessandro Marverti Satana Roberto Latini Sardo Antonio Gerardi Padre Freddo Lorenzo Gioielli Neofascista Giuseppe 1 Emanuele Bosi Angelina Greta Scarano Vanessa Veronica Gentili Fabio Santini Luca Venantini Secco Vincenzo Tanassi Mancuso Giovanni Guardiano Piccoletto Valerio Morigi Uomo 50 Anni Mauro Cremonini Sandra Valentina Calandriello Giulio Brega Stefano Ambrogi Vito Macri' Rocco Barbaro Rizzo Eulvin Pene",
+          "ocr_bbox": [
+            434,
+            0,
+            838,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_024_num01335_sim80.jpg",
+          "frame_num": 1335,
+          "ocr_text": "OnIDO Alolo delard Padre Freddo Lorenzo Gioielli Neofascista Giuseppe 1 Emanuele Bosi Angelina Greta Scarano Vanessa Veronica Gentili Fabio Santini Luca Venantini Secco Vincenzo Tanassi Mancuso Giovanni Guardiano Piccoletto Valerio Morigi Uomo 50 Anni Mauro Cremonini Sandra Valentina Calandriello Giulio Brega Stefano Ambrogi Vito Macri' Rocco Barbaro Rizzo Fulvio Pepe Padre Angelina Bruno Pavoncello Cannizzaro 4 Simone Sabani Neofascista 2 Adriano Saleri Angioletto Maurn Santonietro",
+          "ocr_bbox": [
+            434,
+            0,
+            838,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_025_num01425_sim68.jpg",
+          "frame_num": 1425,
+          "ocr_text": "Piccoleno Valero Morigi Uomo 50 Anni Mauro Cremonini Sandra Valentina Calandriello Giulio Brega Stefano Ambrogi Vito Macri' Rocco Barbaro Rizzo Fulvio Pepe Padre Angelina Bruno Pavoncello Cannizzaro 4 Simone Sabani Neofascista 2 Adriano Saleri Angioletto Mauro Santopietro Persichetti Andrea Lolli Enrico Bordini Alberto Bognanni Gianni Bordini Alberto Buccolini Serena Anna Bellato llaria Chiara Francini Amante Padre Freddo Alessandra Roca Mazzocchio Bruno Buzzi  Mimmo O' Ragioniere Eederico Torre",
+          "ocr_bbox": [
+            441,
+            0,
+            839,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_026_num01560_sim60.jpg",
+          "frame_num": 1560,
+          "ocr_text": "Gianni Bordini Alberto Buccolini Serena Anna Bellato llaria Chiara Francini Amante Padre Freddo Alessandra Roca Mazzocchio Bruno Buzzi Don Mimmo O' Ragioniere Federico Torre Freddo 15 Anni Umberto Morelli e con in ordine alfabetico Barone Rosellini Aldo Abbate Contrabbandiere Stefano Adami Tecnico Scientifica Cesare Apolito Spacciatore Testaccio Giovanni Balestra Detenuto Ventenne Alessandro Bardani Dirgttore Riformatoria Enricn Rollicari",
+          "ocr_bbox": [
+            411,
+            0,
+            816,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_027_num01605_sim81.jpg",
+          "frame_num": 1605,
+          "ocr_text": "Mazzocchio Bruno Buzzi Don Mimmo O' Ragioniere Federico Trre Freddo 15 Anni Umberto Morelli e con in ordine alfabetico Barone Rosellini Aldo Abbate Contrabbandiere Stefano Adami Tecnico Scientifica Cesare Apolito Giovanni Balestra Spacciatore Testaccio Detenuto Ventenne Alessandro Bardani Direttore Riformatorio Enrico Bellisari Fabio Corbucci Franco Bottone Franco Solenghi Paolo Buglioni Cassiera Bar Questura Tiziana Buldini lin Pin Linda Chang",
+          "ocr_bbox": [
+            413,
+            0,
+            813,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_028_num01650_sim83.jpg",
+          "frame_num": 1650,
+          "ocr_text": "e con in ordine alfabetico Barone Rosellini Aldo Abbate Contrabbandiere Stefano Adami Tecnico Scientifica Cesare Apolito Spacciatore Testaccio Giovanni Balestra Detenuto Ventenne Alessandro Bardani Direttore Riformatorio Enrico Bellisari Fabio Corbucci Franco Bottone Paolo Buglioni Franco Solenghi Cassiera Bar Questura Tiziana Buldini Lin Pin Linda Chang Cannizzaro 2 Umberto De Luca Attricetta Elisa Della Valentina Marco Di Folco Spacciatore Terribile Moglie Gerardo Germana Di Giannicola",
+          "ocr_bbox": [
+            446,
+            48,
+            837,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_000_static_029_num01665_sim96.jpg",
+          "frame_num": 1665,
+          "ocr_text": "e con in ordine alfabetico Barone Rosellini Aldo Abbate Contrabbandiere Stefano Adami Tecnico Scientifica Cesare Apolito Spacciatore Testaccio Giovanni Balestra Detenuto Ventenne Alessandro Bardani Direttore Riformatorio Enrico Bellisari Fabio Corbucci Franco Bottone Franco Solenghi Paolo Buglioni Cassiera Bar Questura Tiziana Buldini Lin Pin Linda Chang Cannizzaro 2 Umberto De Luca Attricetta Elisa Della Valentina Spacciatore Terribile Marco Di Folco Moglie Gerardo Germana Di Giannicola Voce Ragazza Radio Angelica Di Majo",
+          "ocr_bbox": [
+            446,
+            0,
+            840,
+            720
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 30,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_1": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_001_scroll_000_num01672_sim0.jpg",
+          "frame_num": 1672,
+          "ocr_text": "in ordine alfabetico Barone Rosellini Aldo Abbate Contrabbandiere Stefano Adami Tecnico Scientifica Cesare Apolito Spacciatore Testaccio Giovanni Balestra Detenuto Ventenne Alessandro Bardani Direttore Riformatorio Enrico Bellisari Fabio Corbucci Franco Bottone Paolo Buglioni Franco Solenghi Cassiera Bar Questura Tiziana Buldini Lin Pin Linda Chang Cannizzaro 2 Umberto De Luca Attricetta Elisa Della Valentina Marco Di Folco Spacciatore Terribile Moglie Gerardo Germana Di Giannicola Voce Ragazza Radio Angelica Di Majo  Detanuto Menes",
+          "ocr_bbox": [
+            446,
+            6,
+            840,
+            719
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_001_scroll_001_num01820_sim0.jpg",
+          "frame_num": 1820,
+          "ocr_text": "Affriceffa Elisa Della Valenfina Spacciatore Terribile Marco Di Folco Moglie Gerardo Germana Di Giannicola Voce Ragazza Radio Angelica Di Majo Primo Detenuto Mensa Flavio Domenici Chantal Sueli Odila Ferreira Venditore Porsche Maurizio Ghedin Barbiere Modenese Romano Ghini Cannizzaro 1 Gaetano Giordano Francesco Gisotti Assistente Borgia Luigi Montesi Alberto Goldoni Contadino Checco Giancarlo Gori Donatella Moglie Angioletto Gaia Insenga Speaker2 Radio Giovanni La Gorga Luz Beatriz Lattanzi Angela Donna Puma Speaker Radio Libera Marco Laurenzano Commissario Capo Alfonso Liguri",
+          "ocr_bbox": [
+            403,
+            0,
+            839,
+            703
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -4.383167743682861,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -4.378664970397949,
+      "roi_percentile_flow": -4.383167743682861,
+      "scroll_direction": "upward",
+      "save_interval_frames": 148,
+      "save_interval_frames_uncapped": 148,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_2": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_002_scroll_000_num01967_sim0.jpg",
+          "frame_num": 1967,
+          "ocr_text": "Speaker 2 Radio Giovanni La Gorga Angela Donna Puma Luz Beatriz Lattanzi Speaker Radio Libera Marco Laurenzano Commissario Capo Alfonso Liguori Patologo Toni Malco Poliziotto Olivetti Fabio Mancini Speaker 1 Radio/Video Tg Gino Manfredi Treccia Alessio Manuali Cameriere Ristorante Bufalo Francesco Marino Vice Questore Saverio Mattei Secondino Grasso Paolo Mellucci Speaker 2 Radio/Video Tg Stefano Mondini Fringuello Maurizio Mosetti Carabiniere Posto Di Blocco Antonio Nobili Agente Di Viaggi Paolo Orlandelli Sergio Garzone Bar '66 Luca Paniconi Prete Alcide Pasquini",
+          "ocr_bbox": [
+            400,
+            0,
+            813,
+            702
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -4.385091781616211,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -4.3526411056518555,
+      "roi_percentile_flow": -4.385091781616211,
+      "scroll_direction": "upward",
+      "save_interval_frames": 148,
+      "save_interval_frames_uncapped": 148,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_3": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_003_scroll_000_num01989_sim0.jpg",
+          "frame_num": 1989,
+          "ocr_text": "Speaker Radio Libera Marco Laurenzano Commissario Capo Alfonso Liguori Patologo Toni Malco Poliziotto Olivetti Fabio Mancini Speaker 1 Radio/Video Tg Gino Manfredi Treccia Alessio Manuali Cameriere Ristorante Bufalo Francesco Marino Vice Questore Saverio Mattei Secondino Grasso Paolo Mellucci Speaker 2 Radio/Video Tg Stefano Mondini Fringuello Maurizio Mosetti Carabiniere Posto Di Blocco Antonio Nobili Agente Di Viaggi Paolo Orlandelli Sergio Garzone Bar '66 Luca Paniconi Prete Alcide Pasquini Propietario Ristorante Ostia Romolo Passini Fabio Franchi Lucio Patane'",
+          "ocr_bbox": [
+            400,
+            0,
+            805,
+            703
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -4.412542819976807,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -4.40454626083374,
+      "roi_percentile_flow": -4.412542819976807,
+      "scroll_direction": "upward",
+      "save_interval_frames": 147,
+      "save_interval_frames_uncapped": 147,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_4": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_004_scroll_000_num02012_sim0.jpg",
+          "frame_num": 2012,
+          "ocr_text": "loni Malco Patologo Poliziotto Olivetti Fabio Mancini Speaker 1 Radio /Video Tg Gino Manfredi Treccia Alessio Manuali Cameriere Ristorante Bufalo Francesco Marino Vice Questore Saverio Mattei Secondino Grasso Paolo Mellucci Speaker 2 Radio/Video Tg Stefano Mondini Fringuello Maurizio Mosetti Antonio Nobili Carabiniere Posto Di Blocco Agente Di Viaggi Paolo Orlandelli Sergio Garzone Bar '66 Luca Paniconi Prete Alcide Pasquini Romolo Passini Propietario Ristorante Ostia Fabio Franchi Lucio Patane' Barista Roberta Alberto Patelli Dandi 12 anni Marco Puglia",
+          "ocr_bbox": [
+            399,
+            0,
+            801,
+            702
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_004_scroll_001_num02160_sim0.jpg",
+          "frame_num": 2160,
+          "ocr_text": "Propiefario Ristorante Ustia Romolo Passini Fabio Franchi Lucio Patane' Barista Roberta Alberto Patelli Dandi 12 anni Marco Puglia Cannizzaro 3 Orlando Ragusa Madre Freddo Monica Rametta Propietario Sfascio Fabrizio Rendina Secondino Amico Carlo Rossi Carolina Rubino Commessa Boutique Lingerie Medico Legale Modena Massimiliano Sassi Nicola Costantini Leonardo Sbragia Prostituta 1 Sonia Signorelli Anna Maria Moresi Liliana Stanziani Braccio Destro Macri' Pino Torcasio Accompagnatore Aftricefta Roberto Verrocchi Prostituta Slava Katrin Vitrova Prostituta 2 Manuela Zero",
+          "ocr_bbox": [
+            392,
+            0,
+            814,
+            702
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_004_scroll_002_num02308_sim0.jpg",
+          "frame_num": 2308,
+          "ocr_text": "Braccio Destro Macri' Pino lorcasio Accompagnatore Afttricetta Roberto Verrocchi Prostituta Slava Katrin Vitrova Prostituta 2 Manuela Zero Commissario Rava Paolo Zuccari Responsabile Post Produzione Simona De Laurentiis Responsabile Edizioni Musicali Joshua Berman Business & Legal Affairs Nathanael Poupin Responsabile Marketing Karen Hassan Marketing Giada Giannechini Responsabile Amminisrativo Cattleya Firminio Pasquali Antonella lovino Organizzafore roduzioneCatta Post Produzione Eleonora Piemontese Coordinamento Produzione Esecutiva Silvia Polato Ufficio Stampa Sky v Marzia Kronauer Assistente Roberta Chiarenza",
+          "ocr_bbox": [
+            319,
+            0,
+            828,
+            701
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_004_scroll_003_num02456_sim0.jpg",
+          "frame_num": 2456,
+          "ocr_text": "Post Produzione Eleonora Piemontese Coordinamento Produzione Esecutiva Silvia Polato Ufficio Stampa Sky Tv Marzia Kronauer Assistente Roberta Chiarenza Regia l Unita Enrico Rosati Regiall Unita Massimiliano Camaiti Assistente al Montaggio Laura Gallo Segretarie di Edizione Melissa Strizzi Fiorella Di Mambro Assistente alla Regia Andrea Rebuzzi Acting Coach Mario Pizzuti Segretaria Edizione I Uni llary Rossi Assistente Gabriella Giannattasio Ispettori di Produzione Riccardo Borni Simone Sterpetti Coordinatrice di Produzione Giorgia Pellegrini Coordinatrice di Produzione Set Alice Marchitelli iuti Degreteri Fohio Corle",
+          "ocr_bbox": [
+            329,
+            0,
+            838,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_004_scroll_004_num02604_sim0.jpg",
+          "frame_num": 2604,
+          "ocr_text": "Kiccardo Borni Simone Sterpetti Coordinatrice di Produzione Giorgia Pellegrini Coordinatrice di Produzione Set Alice Marchitelli Aui Segretari i Produzione Fabio Carla' Benedetta Anza' Lorenzo Battisti Riccardo Carletti Giuseppe Balzano Arianna Brambilla Lino Vittozzi Assistente Coordinatrice di Produzione Anna Lisa Serafini II Assistente alla Regia Francesca Aschettino Amministratore Carlo Gagliardi Cassiera Piera Giaccherini Aiuto Cassiera Silvana Carnevale I Operatore di Macchina Paolo Carnera",
+          "ocr_bbox": [
+            317,
+            0,
+            831,
+            702
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": -4.391742706298828,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -4.3873443603515625,
+      "roi_percentile_flow": -4.391742706298828,
+      "scroll_direction": "upward",
+      "save_interval_frames": 148,
+      "save_interval_frames_uncapped": 148,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_5": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_005_scroll_000_num02626_sim0.jpg",
+          "frame_num": 2626,
+          "ocr_text": "Coordinafrice di Produzione Giorgia Pellegrin Coordinatrice di Produzione Set Alice Marchitelli Aiuti Segretari di Produzione Fabio Carla' Benedetta Anza Lorenzo Battisti Riccardo Carletti Giuseppe Balzano Arianna Brambilla Lino Vittozzi Assistente Coordinatice di Produzione Anna Lisa Serafini II Assistente alla Regia Francesca Aschettino Amministratore Carlo Gagliardi Cassiera Piera Giaccherini Aiuto Cassiera Silvana Carnevale Paolo Carnera II Operatore di Macchina Assistente Operatore Massimiliano Ricci II Assistente Operatore Giorgio Abbruzzetti Livi. Dinrion",
+          "ocr_bbox": [
+            315,
+            0,
+            831,
+            719
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -4.41520881652832,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -4.394448757171631,
+      "roi_percentile_flow": -4.41520881652832,
+      "scroll_direction": "upward",
+      "save_interval_frames": 147,
+      "save_interval_frames_uncapped": 147,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_6": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_006_scroll_000_num02665_sim0.jpg",
+          "frame_num": 2665,
+          "ocr_text": "Lorenzo Battisti Riccardo Carletti Giuseppe Balzano Arianna Brambilla Lino Vittozzi Assistente Coordinatice Produzione Anna Lisa Serafini Francesca Aschettino II Assisente alla Regia Amministratore Carlo Gagliardi Cassiera Piera Giaccherini Aiuto Cassiera Silvana Carnevale II Operatore di Macchina Paolo Carnera Assistente Operatore Massimiliano Ricci II Assistente Operatore Giorgio Abbruzzeti Aiuto Operatore Liviu Ciprian Suhar Video Assistant Andrea Grossi Fotografo di Scena Emanuela Scarpa Direttore Fotografia Il Unita Ivan Casalgrandi",
+          "ocr_bbox": [
+            315,
+            13,
+            831,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_006_scroll_001_num02813_sim0.jpg",
+          "frame_num": 2813,
+          "ocr_text": "Aiuto Operatore Liviu Ciprian Suhar Video Assistant Andrea Grossi Fotografo di Scena Emanuela Scarpa Direttore Fotografia I U Ivan Casalgrandi Operatore iMacchina  Giovanni Galasso Operatore i Macchina  Vittorio Omodei Zorini Operatore i Macchina Aggiunto Carlo Passari Simone Ginanneschi Assistenti Operatori Aggiuni Cristina Capone Assistenti Operatore I Unita Gianluca Bombardone Gianluca Pennestri Capo Truccatore Alberto Blasi Capo Parrucchiera Nadia Rosati Fonico Il Unita Alessandro Bianchi Microfonista Il Unita Giovanni Paris Fonico Aggiunto Luca Novelli Aiuto Scenografo Alberto Duelli",
+          "ocr_bbox": [
+            369,
+            8,
+            832,
+            719
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_006_scroll_002_num02961_sim0.jpg",
+          "frame_num": 2961,
+          "ocr_text": "Fonico Il Unita Alessandro Bianchi Microfonista Il Unita Giovanni Paris Luca Novelli Fonico Aggiunto Alberto Duelli Aiuto Scenografo Assistente Arredatore Andrea Audino Assistente Scenografo Rosalia Maria Canino Aiuto Scenografo Delia Tiare De Laurentis Attrezzista di Scena Massimo Papini Aiuto Attrezzista di Scena Daniele Neroni Attrezzista di Preparazione Giancarlo Carbonaro I Attrezzista di Preparazione Marco Aureli Aiuto Attrezzist i Preparazione Massimo Tola Davide De loannon Attrezzista l Unita Angelo Parisi Pittori Mauro Bomba Alessio Bomba I Assistente Costumista Cristiana Ricceri",
+          "ocr_bbox": [
+            368,
+            9,
+            852,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_006_scroll_003_num03109_sim0.jpg",
+          "frame_num": 3109,
+          "ocr_text": "Attrezzista l Unita Angelo Parisi Pittori Mauro Bomba Alessio Bomba I Assistente Costumista Cristiana Ricceri Il Assistente Costumista Fulvia Roverselli Magdalena Paula Grassi Sarta Francesca Campanella Aiuto ai Costumi Roberta Orlando Gaia Mandarano Truccatrice Stefania Trani Truccatore Aggiunto Mario Michisanti Parrucchieri Maurizio Lupi Fulvio Zucconi Parrucchiere Aggiunto Francesco Scaramella Capo Squadra Elettricista Virgilio Palone Elettricisti Giuseppe Antonelli Loris Felici",
+          "ocr_bbox": [
+            421,
+            6,
+            852,
+            717
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_006_scroll_004_num03257_sim0.jpg",
+          "frame_num": 3257,
+          "ocr_text": "Parrucchiere Aggiunto Francesco Scaramella Capo Squadra Elettricista Virgilio Palone Elettricisti Giuseppe Antonelli Loris Felici Dario Tosti Michele Pellegrini Gruppista Giovanni Battista Squillace Capi Squadra Macchinisti Marco Moroni Cesare Guarino Macchinisti Massimo Diamanti Roberto Torsellini Claudio Ricci Massimo Gattobigio Capo Trasporti Ivano Poveromo Autisti Luigi Fileni Giovanni Bove Fabrizio Peduzzi",
+          "ocr_bbox": [
+            419,
+            9,
+            880,
+            718
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_006_scroll_005_num03405_sim0.jpg",
+          "frame_num": 3405,
+          "ocr_text": "Capo Trasporti Ivano Poveromo Autisti Luigi Fileni Giovanni Bove Fabrizio Peduzzi Mario Fileni Coordinatore Effet Speciali Francesco Sabelli Effetti Speciali Carlo Quattrone Scenotecnico Roberto Ricci Coordinatore Stunt Alessandro Borgese Stunt Driver Giampiero Comanducci Ottaviano Dell'Acqua Stuntmen Riccardo Mioni Stefano Maria Mioni Viet Daniele Nguyen - Hung Paolo Antonini Massimiliano Ubaldi Giorgio Antonini",
+          "ocr_bbox": [
+            399,
+            1,
+            874,
+            719
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_006_scroll_006_num03553_sim0.jpg",
+          "frame_num": 3553,
+          "ocr_text": "Viet Daniele Nguyen - Hung Paolo Antonini Massimiliano Ubaldi Giorgio Antonini Emiliano Novelli Permessi O.S. Antonio Letterio Serena Letterio Aiuto Attrezzisti Luca Chiarini Petrelli Alessandro Randone Aldo Rizzieri A.O.S.M. Silvano Spoletini Antonio Chiffi Gianfilippo Spoletini Permessi Minori Maurizia Tranchina Location Manager Valentina Cafagna",
+          "ocr_bbox": [
+            482,
+            2,
+            875,
+            636
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_006_scroll_007_num03701_sim0.jpg",
+          "frame_num": 3701,
+          "ocr_text": "Permessi Minori Maurizia Tranchina Location Manager Valentina Cafagna Team Cattleya Andrea Bartolazzi Irma Basile Marco Bianco Elisa Boltri Inese Briede Giuseppina Cascegna Claudia Croce Arianna De Chiara Viviana Fazzalari",
+          "ocr_bbox": [
+            483,
+            5,
+            810,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_006_scroll_008_num03849_sim0.jpg",
+          "frame_num": 3849,
+          "ocr_text": "Giuseppina Cascegna Claudia Croce Arianna De Chiara Viviana Fazzalari Tiziana Gianfriglia Marina Giorgi Gianluca Leoncini Patrizia Marchi Daniele Massa Cinzia Micozzi Erica Negri Susanna Paganin Claudia Passeri Fabio Peschisolido Roberta Peschisolido Roberto Pompei Serena Sosteani",
+          "ocr_bbox": [
+            549,
+            15,
+            729,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_006_scroll_009_num03997_sim0.jpg",
+          "frame_num": 3997,
+          "ocr_text": "Fabio Peschisolido Roberta Peschisolido Roberto Pompei Serena Sostegni Alessandro Spadea Gabriele Stucchi Sonorizzazione e Post-Produzione Soundart23 Pos production facilities film and iclevision Fonico Doppiaggio Pietro Patriarca Massimo Marino",
+          "ocr_bbox": [
+            504,
+            19,
+            775,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_006_scroll_010_num04145_sim0.jpg",
+          "frame_num": 4145,
+          "ocr_text": "Post production facilities film and tclevision Fonico Doppiaggio Pietro Patriarca Massimo Marino Fonico di Mix Luigi Casale Montaggio Presa Diretta Stefano Di Fiore Tommaso Conti Effetti Sonori Piergiorgio De Luca Mirko Perri Rumorista",
+          "ocr_bbox": [
+            539,
+            1,
+            740,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_006_scroll_011_num04293_sim0.jpg",
+          "frame_num": 4293,
+          "ocr_text": "Piergiorgio De Luca Mirko Perri Rumorista Paolo Frati Doppiaggio CDL Direzione del Doppiaggio Elisabetta Bucciareli Assistente al Doppiaggio Alessia Alessi",
+          "ocr_bbox": [
+            534,
+            16,
+            743,
+            601
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_006_scroll_012_num04441_sim0.jpg",
+          "frame_num": 4441,
+          "ocr_text": "Alessia Alessi Macchine da Presa AMG - Arco Multimedia Group AMG - Arco Multimedia Group Laboratorio Sviluppo e Stampa AUGUSTUSCOLOR S.A.S. Sviluppo Negativo Alessandro Cecchetti Pietro Cantiani Telecinema Giornalieri Erminio Lauri Alessandro Maniccia Luca Proietti On-Line Graziano Falzone Carla De Luca Revival Francesco Spadoni Stefania Pittella Pierfrancesco Fiorenza producer",
+          "ocr_bbox": [
+            383,
+            9,
+            892,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_006_scroll_013_num04589_sim0.jpg",
+          "frame_num": 4589,
+          "ocr_text": "Carla De Luca Revival Francesco Spadoni Stefania Pittella Pierfrancesco Fiorenza Vfx producer Vfx supervisor Raffaele Nappi Vfx compositor Mauro Maccari Rita Torchetti Mauro Albanese Titoli Graziano Falzone Colorist Marco Giliberti Duplicazioni Cinzia D' Ubaldi Dino Lollobrigida Inserimento Audio e Controllo Tecnico Tiziana Di Clemente Pellicola Kodak S.p.A. Effetti Visivi Digitali VISUALOGIE Paola Trisoglio Vfx Coordinator Stefano Marinoni",
+          "ocr_bbox": [
+            325,
+            20,
+            844,
+            720
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 14,
+      "median_flow_px_per_frame": -4.3753334283828735,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -4.377012252807617,
+      "roi_percentile_flow": -4.3753334283828735,
+      "scroll_direction": "upward",
+      "save_interval_frames": 148,
+      "save_interval_frames_uncapped": 148,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_7": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_007_scroll_000_num04667_sim0.jpg",
+          "frame_num": 4667,
+          "ocr_text": "Mauro Albanese Titoli Graziano Falzone Colorist Marco Giliberti Duplicazioni Cinzia D' Ubaldi Dino Lollobrigida Inserimento Audio e Controllo Tecnico Tiziana Di Clemente Pellicola Kodak S.p.A. Effetti Visivi igitali VISUALOGIE Vfx Supervisor & Producer Vfx Supervisor Paola Trisoglio Vifx Coordinator Stefano Marinoni Federica Nisi Digital Artist Amedeo Califano Assicurazione Kent Insurance Broker S.r.l. Chubb Insurance Company Of Europe S.A. Catering Gigi Catering S.r.l. Materiale a Consumo Elettricisti e Nolegio Furgoni 2001 Rainbow S.r.I. Matoriale a Concumo Macchinicti",
+          "ocr_bbox": [
+            209,
+            25,
+            985,
+            719
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_007_scroll_001_num04815_sim0.jpg",
+          "frame_num": 4815,
+          "ocr_text": "Kel lsurallce Drokel S.l. Chubb Insurance Company Of Europe S.A. Catering Gigi Catering S.l. 2001 Rainbow S.r.I. Materiale a Consumo Elettricistie Noleggio Furgoni Materiale a Consumo Macchinisti Icol S.l. Materiale Audio Noleggio Andrea Fiorentini Attrezzeria e Sartoria L'Officina S.a.s. di Alberto Ronci Previsioni Meteo Man Service S.n.C. Eva Nolo S.r.I. Noleggio Piattaforme Aeree Ferramenta Verdile Due S.l. Agenzia Viggi The Freeway Effefti Speciali Trucco R & S Diffusion S.I. Parrucche Rocchetti & Rocchetti S.r.I. Sicurezza sul Lavoro Eco Consult S.r.I. Addestratore Animalil MP Dog Star S.r. Mezzi di Scena Stuntman School di Folco Gianluca 2 RUN S.a.s. di F. Crocini & C. Auto in Posa di Davide Fichera",
+          "ocr_bbox": [
+            210,
+            1,
+            984,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_007_scroll_002_num04963_sim0.jpg",
+          "frame_num": 4963,
+          "ocr_text": "Sicurezza sul Lavoro Addestratore Animalil MP Dog Star S.l. Mezzi di Scena Stuntman School di Folco Gianluca 2 RUN S.a.s. di F. Crocini & C. Au i Posa di Davide Fichera Spedizioni Nazionali Transor International S.r.I. Steadicam Steadimule di Giacometti Sandra Tappezzeria Artigiana Arredatori e Tappezzieri di Bruno Schiavi S.a.s. Costruzioni Arcoscenico Due S.r.I. Galli Costruzioni Scenografiche S.r.I. Stampati Elaborazioni Grafiche Centro Copie Cervialto S.I. Pubblicita In S.r. Linoleum, Moquettes, PVC C.M. Parati S.r. Stucchi Plastiche Resine CineArs S.l. Arredamento Noleggio Cine Art Cine 800 S.I. Arredamenti Cineteatrali GRP di Renato Postiglione",
+          "ocr_bbox": [
+            381,
+            0,
+            1061,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_007_scroll_003_num05111_sim0.jpg",
+          "frame_num": 5111,
+          "ocr_text": "Stucchi Plastiche Resine CineArs S.r.I. Arredamento Noleggio Cine Art Cine 800 S. ArredamenCinetatrali GRP iRenato osiglione & C. Snc Mobil Carta S.l. E. Rancati S.I. WAMA Arredamenti S.I. Arredamento Acquisto Piazza Affari Picc. Soc. Coop.l. Piante e Fiori Piante e FiorRossiell S. Tendaggi Tende.nze Di Simonetta Ceprani Coordinamento Forniture Arredamento Tempi Moderni S.r.I. Di M.G. Cacciamani & F. Cotti Abbigliamento Noleggio Annamode 68 - Roma Sartoria Cine-Teatrale Nori Enzo - Bracciano - Roma Pulitura Costumi Mister Clean S.a.s.",
+          "ocr_bbox": [
+            323,
+            17,
+            1132,
+            687
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": -4.384959697723389,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -4.382073402404785,
+      "roi_percentile_flow": -4.384959697723389,
+      "scroll_direction": "upward",
+      "save_interval_frames": 148,
+      "save_interval_frames_uncapped": 148,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_8": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_008_scroll_000_num05150_sim0.jpg",
+          "frame_num": 5150,
+          "ocr_text": "Arredamenti Cineteatrali GRP i Renato Postiglione & C. Snc Mobil Carta S.r.I. E. Rancati S.I. WAMA Arredamenti S.r.I. Arredamento Acquisto Piazza Affari Picc. Soc. Coop. Piante e Fiori Piante e Fiori Rossiello S.I. Tendaggi Tende.nze Di Simonetta Ceprani Coordinamento FornitureArremento Tempi Moderni S.I. Di M.G. Cacciamani & F. Ciotti\" Abbigliamento Noleggio Annamode 68 - Roma Sartoria Cine-Teatrale Nori Enzo - Bracciano - Roma Pulitura Costumi Mister Clean S.a.s. Musiche composte e orchestrate da Pasquale Catalano Dirette da Pasquale Catalano e Giuseppe Sasso",
+          "ocr_bbox": [
+            321,
+            2,
+            1130,
+            720
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -4.445154190063477,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -4.37840461730957,
+      "roi_percentile_flow": -4.445154190063477,
+      "scroll_direction": "upward",
+      "save_interval_frames": 146,
+      "save_interval_frames_uncapped": 146,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_9": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_009_scroll_000_num05173_sim0.jpg",
+          "frame_num": 5173,
+          "ocr_text": "E. Rancati S.I. WAMA Arredamenti S.r.I. Arredamento Acquisto Piazza Affari Pic. Soc. Coop.I. Piante e Fiori Piante e Fiori Rossiello S.r.I. Tendaggi Tende.nze Di Simonetta Ceprani Coordinamento Forniture Arredamento Tempi Moderi S.l. Di M.G. Cacciamani & F. Ciotti' Abbigliamento Noleggio Annamode 68 - Roma Sartoria Cine-Teatrale Nori Enzo - Bracciano - Roma Pulitura Costumi Mister Clean S.a.s. Musiche composte e orchestrate da Pasquale Catalano Dirette da Pasquale Catalano e Giuseppe Sasso Esequite da Luca Bagagli, Eleonora Bordonaro, Pasguale Catalano",
+          "ocr_bbox": [
+            323,
+            1,
+            914,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_009_scroll_001_num05321_sim0.jpg",
+          "frame_num": 5321,
+          "ocr_text": "Musiche composte e orchestrate da Pasquale Catalano Dirette da Pasquale Catalano e Giuseppe Sasso Eseguite da Luca Bagagli, Eleonora Bordonaro, Pasquale Catalano, Roberto Catucci, Felice de Falco, Andrea Esposito, Melania Esposito Mauro Fagiani, Giuseppe Lucania, Raffaele Pulcrano, Paolo Sasso. Valeria Squillante, Andrea Tarantino. Registrazioni e missaggi Amarcord Studio (NA), E-Left Studio (Roma) Edizioni Musicali Flipper Srl Edizioni Musicali - Radiocattleya Srl Per EMI Music Publishing Italia Srl: Lula Sarchioni, Anna Collabolletta, Valentina lacoacci e Lina Cardillo La Produzione ringrazia:",
+          "ocr_bbox": [
+            225,
+            18,
+            1054,
+            689
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_009_scroll_002_num05469_sim0.jpg",
+          "frame_num": 5469,
+          "ocr_text": "La Produzione ringrazia: Comune di Roma Dipartimento IV Politiche Culturali Il U.O. - Ufficio Cinema Volvo Auto Italia S.p.A. Su concessione del Ministero per i Beni e le Aftivia Culturali Soprintendenza per i Beni Archeologici di Ostia Telecom Italia S.p.A. per I' uso del marchio Olivetti Teatro dell' Opera RCS Libri S.p.A. - Bopiani \"La Nazione\" e \"ll Resto del Carlino' - Societa Poligrafici Editoriale S.p.A. \"Il Messagger\" Le Terrazze del Presidente Ferrovie dello Stato S.P.A. Porti di Roma e del Lazin - Autorita Portuale Civitavecchia Fiumicino Gaeta",
+          "ocr_bbox": [
+            342,
+            106,
+            939,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_009_scroll_003_num05617_sim0.jpg",
+          "frame_num": 5617,
+          "ocr_text": "Le Terrazze del Presidente Ferrovie dello Stato S.P.A. RFI - Rete Ferroviaria Italiana - Gruppo Ferrovie dello Stato Cruise Roma Terminal Magneti Marelli Michelin Italiana S.p.A. Massimiliano Russo per auto di scena Debbie Carmichael Red Bee Media Ltd. AMA S.P.A. - Azienda Municipale Ambiente di Roma Brionvega Artemide Flos Sisal S.p.A. - Milano Basicltalia (K-Way\u00ae) Iovable - Rranded Annarel Italia",
+          "ocr_bbox": [
+            406,
+            21,
+            873,
+            720
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_009_scroll_004_num05765_sim0.jpg",
+          "frame_num": 5765,
+          "ocr_text": "Flos Sisal S.p.A. - Milano Basicltalia (K-Way\u00ae) Lovable - Branded Apparel Italia Museum Ray-Ban Persol Rossetti Atelier Orafo in Roma Teodori+ Zaccaria S.p.A. - Idee e forme tessili per la Sanita Siringrazia Clinique per la fornitura dei prodott di Makeup per i personaggi della serie televisiva 1977 e il 1992'",
+          "ocr_bbox": [
+            249,
+            19,
+            1029,
+            603
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_009_scroll_005_num05913_sim0.jpg",
+          "frame_num": 5913,
+          "ocr_text": "1977 e il 1992' Copyright 2008 Sky Italia Srl. - Cattleya S.p.A. DOLBY cattleya SKY CINEMA AUGUSTUSCOLOR Kodak SURROUND Motion Picture Film",
+          "ocr_bbox": [
+            223,
+            18,
+            1053,
+            330
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 6,
+      "median_flow_px_per_frame": -4.378412842750549,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -4.36737060546875,
+      "roi_percentile_flow": -4.378412842750549,
+      "scroll_direction": "upward",
+      "save_interval_frames": 148,
+      "save_interval_frames_uncapped": 148,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_10": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_010_static_000_num06002_sim10.jpg",
+          "frame_num": 6002,
+          "ocr_text": "slantic",
+          "ocr_bbox": [
+            418,
+            298,
+            769,
+            405
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_010_static_001_num06017_sim80.jpg",
+          "frame_num": 6017,
+          "ocr_text": "atlantic sky",
+          "ocr_bbox": [
+            327,
+            291,
+            933,
+            424
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Romanzo_criminale_S01E01_End\\analysis\\frames\\scene_010_static_002_num06032_sim80.jpg",
+          "frame_num": 6032,
+          "ocr_text": "atlantic sky pie",
+          "ocr_bbox": [
+            321,
+            288,
+            942,
+            519
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.2244899608194828,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.2032375931739807,
+      "roi_percentile_flow": 0.2244899608194828,
+      "scroll_direction": null
+    }
+  }
+}

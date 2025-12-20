@@ -1,0 +1,1080 @@
+{
+    "episode_id": "Eternal_Sunshine_of_the_Spotless_Mind",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 250,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:00:10.418",
+            "duration_frames": 250,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "FOCUS FEATURES presents DOWNLOAD MORE. NAIRO"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 12,
+                    "ocr_text": "FOCUS FEATURES presents DOWNLOAD MORE. NAIRO",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_12_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 1,
+            "original_start_frame": 250,
+            "original_end_frame": 433,
+            "original_start_timecode": "00:00:10.418",
+            "original_end_timecode": "00:00:18.044",
+            "duration_frames": 183,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "in association with THIS IS THAT DOWNLOAD MORE."
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 259,
+                    "ocr_text": "in association with THIS IS THAT DOWNLOAD MORE.",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_first_half_frame_259_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 433,
+            "original_end_frame": 614,
+            "original_start_timecode": "00:00:18.044",
+            "original_end_timecode": "00:00:25.586",
+            "duration_frames": 181,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "KATE WINSLET DOWNLOAD MORE.  AIJARCOM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 442,
+                    "ocr_text": "KATE WINSLET DOWNLOAD MORE.  AIJARCOM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_first_half_frame_442_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 3,
+            "original_start_frame": 614,
+            "original_end_frame": 627,
+            "original_start_timecode": "00:00:25.586",
+            "original_end_timecode": "00:00:26.128",
+            "duration_frames": 13,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "DOWNLOAD MORE. NAIJAPREY.COM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 614,
+                    "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_003_first_half_frame_614_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 4,
+            "original_start_frame": 627,
+            "original_end_frame": 661,
+            "original_start_timecode": "00:00:26.128",
+            "original_end_timecode": "00:00:27.545",
+            "duration_frames": 34,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "ETERNAL SUNSHINE OF THE SPOTLESS MIND DOWNLOAD MORE."
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 628,
+                    "ocr_text": "ETERNAL SUNSHINE OF THE SPOTLESS MIND DOWNLOAD MORE.",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_004_first_half_frame_628_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 5,
+            "original_start_frame": 661,
+            "original_end_frame": 761,
+            "original_start_timecode": "00:00:27.545",
+            "original_end_timecode": "00:00:31.712",
+            "duration_frames": 100,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "ETERNAL SUNSHINE OF THE SPOTLESS MIND DOWNLOAD MORE."
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 666,
+                    "ocr_text": "ETERNAL SUNSHINE OF THE SPOTLESS MIND DOWNLOAD MORE.",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_005_first_half_frame_666_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 6,
+            "original_start_frame": 769,
+            "original_end_frame": 831,
+            "original_start_timecode": "00:00:32.045",
+            "original_end_timecode": "00:00:34.629",
+            "duration_frames": 62,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "SET 5 7 EJECT MARK RUFFALO DOWNLOAD MORE. NAIJAPREY.COM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 772,
+                    "ocr_text": "SET 5 7 EJECT MARK RUFFALO DOWNLOAD MORE. NAIJAPREY.COM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_006_first_half_frame_772_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 7,
+            "original_start_frame": 831,
+            "original_end_frame": 862,
+            "original_start_timecode": "00:00:34.629",
+            "original_end_timecode": "00:00:35.921",
+            "duration_frames": 31,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "MARK RUEEA 7 DOWNLOAD MORE. NAIJAPREY.COM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 832,
+                    "ocr_text": "MARK RUEEA 7 DOWNLOAD MORE. NAIJAPREY.COM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_007_first_half_frame_832_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 8,
+            "original_start_frame": 862,
+            "original_end_frame": 914,
+            "original_start_timecode": "00:00:35.921",
+            "original_end_timecode": "00:00:38.087",
+            "duration_frames": 52,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "ELIJAH WOOD DOWNLOAD MORE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 864,
+                    "ocr_text": "ELIJAH WOOD DOWNLOAD MORE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_008_first_half_frame_864_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 9,
+            "original_start_frame": 914,
+            "original_end_frame": 936,
+            "original_start_timecode": "00:00:38.087",
+            "original_end_timecode": "00:00:39.004",
+            "duration_frames": 22,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "A ELLAH WOO DOWNLOAD MORE. NAIJAPREY.COM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 915,
+                    "ocr_text": "A ELLAH WOO DOWNLOAD MORE. NAIJAPREY.COM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_009_first_half_frame_915_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 10,
+            "original_start_frame": 942,
+            "original_end_frame": 1216,
+            "original_start_timecode": "00:00:39.254",
+            "original_end_timecode": "00:00:50.672",
+            "duration_frames": 274,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "and TOM WILKINSON DOWNLOAD MORE. NAIJAPREY.COM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 955,
+                    "ocr_text": "and TOM WILKINSON DOWNLOAD MORE. NAIJAPREY.COM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_010_first_half_frame_955_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 11,
+            "original_start_frame": 1216,
+            "original_end_frame": 1255,
+            "original_start_timecode": "00:00:50.672",
+            "original_end_timecode": "00:00:52.297",
+            "duration_frames": 39,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "IAIJAPREY.COM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1217,
+                    "ocr_text": "IAIJAPREY.COM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_011_first_half_frame_1217_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 12,
+            "original_start_frame": 1255,
+            "original_end_frame": 1509,
+            "original_start_timecode": "00:00:52.297",
+            "original_end_timecode": "00:01:02.882",
+            "duration_frames": 254,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Kq JEANNE MCCARTHY, CSA DOWNLOAD MORE. NAIJAPREY.COM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1267,
+                    "ocr_text": "Kq JEANNE MCCARTHY, CSA DOWNLOAD MORE. NAIJAPREY.COM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_012_first_half_frame_1267_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 13,
+            "original_start_frame": 1509,
+            "original_end_frame": 1862,
+            "original_start_timecode": "00:01:02.882",
+            "original_end_timecode": "00:01:17.592",
+            "duration_frames": 353,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "DOWNLOAD MORE."
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1526,
+                    "ocr_text": "DOWNLOAD MORE.",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_013_first_half_frame_1526_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 14,
+            "original_start_frame": 1862,
+            "original_end_frame": 2001,
+            "original_start_timecode": "00:01:17.592",
+            "original_end_timecode": "00:01:23.384",
+            "duration_frames": 139,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "director of photographs ELLEN KURAS, AGO DOWNLOAD MORE."
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1868,
+                    "ocr_text": "director of photographs ELLEN KURAS, AGO DOWNLOAD MORE.",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_014_first_half_frame_1868_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 15,
+            "original_start_frame": 2001,
+            "original_end_frame": 2218,
+            "original_start_timecode": "00:01:23.384",
+            "original_end_timecode": "00:01:32.427",
+            "duration_frames": 217,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "DOWNLOAD MORE. NAIJAPREY.COM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2011,
+                    "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_015_first_half_frame_2011_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 16,
+            "original_start_frame": 2218,
+            "original_end_frame": 2448,
+            "original_start_timecode": "00:01:32.427",
+            "original_end_timecode": "00:01:42.011",
+            "duration_frames": 230,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "screenplay by CHARLIE KAUFMAN DOWNLOAD MORE. NAIJAPREY.COM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2229,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2241,
+                    "ocr_text": "screenplay by CHARLIE KAUFMAN DOWNLOAD MORE. NAIJAPREY.COM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_016_first_half_frame_2241_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 2229: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 17,
+            "original_start_frame": 2448,
+            "original_end_frame": 6122,
+            "original_start_timecode": "00:01:42.011",
+            "original_end_timecode": "00:04:15.111",
+            "duration_frames": 3674,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "unit production manager DAVID BUSHELL first assistant director MICHAEL HAUSMAN second assistant director SCOTT FERGUSON assistant unit production manager RAY ANGELIC post production supervisor MICHAEL A. JACKMAN executive in charge of post production JEFF ROTH production coordinator ERICA KAY DOWNLOAD MORE."
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2631,
+                    "ocr_text": "unit production manager DAVID BUSHELL first assistant director MICHAEL HAUSMAN second assistant director SCOTT FERGUSON assistant unit production manager RAY ANGELIC post production supervisor MICHAEL A. JACKMAN executive in charge of post production JEFF ROTH production coordinator ERICA KAY DOWNLOAD MORE.",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_017_first_half_frame_2631_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 18,
+            "original_start_frame": 6122,
+            "original_end_frame": 6137,
+            "original_start_timecode": "00:04:15.111",
+            "original_end_timecode": "00:04:15.736",
+            "duration_frames": 15,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "KAREN BAIRD HEIDI BIVENS GERRY ROBERT BYRNE KEVIN DILLON CYRIL DRABINSKY LAURA KIGHTLINGER DREW KUNIN SUSAN MORSE ELLEN POMPEO VICTOR RASUK AMY ROSEN LEON SILVERMAN JOHN SREDNICKI the producers wish to thank UNIVERSAL/POLYGRAM RECORDS, PEZ, SCHYLLING TOYS JUSTIN BOOTS, ARMANI EXCHANGE, BARBOUR BETSEY JOHNSON, BIRKENSTOCK DOWNLOAD MORE ETRO, JOHN FLUEVOG, FRYE BOOTS, HUE, INGWA; MELERO, IOCKE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6122,
+                    "ocr_text": "KAREN BAIRD HEIDI BIVENS GERRY ROBERT BYRNE KEVIN DILLON CYRIL DRABINSKY LAURA KIGHTLINGER DREW KUNIN SUSAN MORSE ELLEN POMPEO VICTOR RASUK AMY ROSEN LEON SILVERMAN JOHN SREDNICKI the producers wish to thank UNIVERSAL/POLYGRAM RECORDS, PEZ, SCHYLLING TOYS JUSTIN BOOTS, ARMANI EXCHANGE, BARBOUR BETSEY JOHNSON, BIRKENSTOCK DOWNLOAD MORE ETRO, JOHN FLUEVOG, FRYE BOOTS, HUE, INGWA; MELERO, IOCKE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_018_second_half_frame_6122_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 19,
+            "original_start_frame": 6137,
+            "original_end_frame": 6435,
+            "original_start_timecode": "00:04:15.736",
+            "original_end_timecode": "00:04:28.154",
+            "duration_frames": 298,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "KEVIN DILLON CYRIL DRABINSKY JULIE FONG TED HOPE WILL KEENAN LAURA KIGHTLINGER DREW KUNIN SUSAN MORSE ELLEN POMPEO VICTOR RASUK AMY ROSEN LEON SILVERMAN JOHN SREDNICKI DIANA VICTOR THE ZACKS the producers wish to thank RANDOM HOUSE, PENGUIN PUTNAM BOOKS, METRO CONCEPTS, GROVE PRESS UNIVERSAL/POLYGRAM RECORDS, PEZ, SCHYLLING TOYS JUSTIN BOOTS, ARMANI EXCHANGE, BARBOUR BETSEY JOHNSON, BIRKENSTOCK BLUE PLATE, CARHARTT, CLARK'S ENGLAND, COLUMBIA, CONVERSE ETRO, JOHN FLUEVOG, FRYE BOOTS, HUE, INGWA; MELERO, JOCKEY KAREN WALKER, LAURA MADRIGANO, LL BEAN, LIRR OOWNLOAD MORE. NAIJAPREY.COM THE NORTH FACE, ONLY HEARTS, OROBLU ITALIAN HOSIERY, PAUL FRANK"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6151,
+                    "ocr_text": "KEVIN DILLON CYRIL DRABINSKY JULIE FONG TED HOPE WILL KEENAN LAURA KIGHTLINGER DREW KUNIN SUSAN MORSE ELLEN POMPEO VICTOR RASUK AMY ROSEN LEON SILVERMAN JOHN SREDNICKI DIANA VICTOR THE ZACKS the producers wish to thank RANDOM HOUSE, PENGUIN PUTNAM BOOKS, METRO CONCEPTS, GROVE PRESS UNIVERSAL/POLYGRAM RECORDS, PEZ, SCHYLLING TOYS JUSTIN BOOTS, ARMANI EXCHANGE, BARBOUR BETSEY JOHNSON, BIRKENSTOCK BLUE PLATE, CARHARTT, CLARK'S ENGLAND, COLUMBIA, CONVERSE ETRO, JOHN FLUEVOG, FRYE BOOTS, HUE, INGWA; MELERO, JOCKEY KAREN WALKER, LAURA MADRIGANO, LL BEAN, LIRR OOWNLOAD MORE. NAIJAPREY.COM THE NORTH FACE, ONLY HEARTS, OROBLU ITALIAN HOSIERY, PAUL FRANK",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_019_second_half_frame_6151_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 20,
+            "original_start_frame": 6435,
+            "original_end_frame": 6556,
+            "original_start_timecode": "00:04:28.154",
+            "original_end_timecode": "00:04:33.196",
+            "duration_frames": 121,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "MAC, N.V. perricone, md, SESHA COSMECEUTICALS custom skeleton costume designed by FRANKIE STEINZ, nyc select wardrobe provided for MS. WINSLET by EXPRESS select wardrobe courtesy of H&M, nyc SIEMEN'S MEDICAL courtesy of STERN AND ASSOCIATES LEKSELL STEREOTACTIC SYSTEM courtesy of ELEKTA INSTRUMENTS special thanks to HENRY SCHEIN MEDICAL SUPPLIES DR. GWENN SMITH, LONG ISLAND JEWISH MEDICAL CENTER ARC FLASHLIGHTS LLC., tempe, az COPY CAPS, wellfleet, ma mark lariviere painting \"weaving\" courtesy of AVAILABLE ART, nyc 'monster on campus\" and \"the munsters\" courtesy of UNIVERSAL STUDIOS LICENSING, LLLP \"red right hand\", by joel townsley rogers, courtesy of CARROLL & GRAFF PUBLISHERS DOWNLOAD MORE. NAIJAPREY.COM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6441,
+                    "ocr_text": "MAC, N.V. perricone, md, SESHA COSMECEUTICALS custom skeleton costume designed by FRANKIE STEINZ, nyc select wardrobe provided for MS. WINSLET by EXPRESS select wardrobe courtesy of H&M, nyc SIEMEN'S MEDICAL courtesy of STERN AND ASSOCIATES LEKSELL STEREOTACTIC SYSTEM courtesy of ELEKTA INSTRUMENTS special thanks to HENRY SCHEIN MEDICAL SUPPLIES DR. GWENN SMITH, LONG ISLAND JEWISH MEDICAL CENTER ARC FLASHLIGHTS LLC., tempe, az COPY CAPS, wellfleet, ma mark lariviere painting \"weaving\" courtesy of AVAILABLE ART, nyc 'monster on campus\" and \"the munsters\" courtesy of UNIVERSAL STUDIOS LICENSING, LLLP \"red right hand\", by joel townsley rogers, courtesy of CARROLL & GRAFF PUBLISHERS DOWNLOAD MORE. NAIJAPREY.COM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_020_second_half_frame_6441_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 21,
+            "original_start_frame": 6556,
+            "original_end_frame": 6575,
+            "original_start_timecode": "00:04:33.196",
+            "original_end_timecode": "00:04:33.988",
+            "duration_frames": 19,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "mark lariviere painting \"weaving\" courtesy of AVAILABLE ART, nyc \"monster on campus\" and \"the munsters\" courtesy of UNIVERSAL STUDIOS LICENSING, LLLP \"red right hand\", by joel townsley rogers, courtesy of CARROLL & GRAFF PUBLISHERS and a very special thank you to NEW YORK STATE OFFICE OF PARKS RECREATION AND HISTORIC PRESERVATION THE NEW 42ND STREET, INC. and THE NEW VICTORY THEATRE THE NEW YORK CITY MAYOR'S OFFICE FOR FILM, THEATER AND BROADCASTING NYPD MOVIE & TV UNIT THE NEW YORK STATE GOVERNOR'S FILM OFFICE NEW JERSEY FILM COMMISSION MTA/METRO-NORTH RAILROAD COMPANY THE TOWN OF EAST HAMPTON, NIN DOWNLOAD MORE. NAIJAPREY.COM ANNE LOC"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6556,
+                    "ocr_text": "mark lariviere painting \"weaving\" courtesy of AVAILABLE ART, nyc \"monster on campus\" and \"the munsters\" courtesy of UNIVERSAL STUDIOS LICENSING, LLLP \"red right hand\", by joel townsley rogers, courtesy of CARROLL & GRAFF PUBLISHERS and a very special thank you to NEW YORK STATE OFFICE OF PARKS RECREATION AND HISTORIC PRESERVATION THE NEW 42ND STREET, INC. and THE NEW VICTORY THEATRE THE NEW YORK CITY MAYOR'S OFFICE FOR FILM, THEATER AND BROADCASTING NYPD MOVIE & TV UNIT THE NEW YORK STATE GOVERNOR'S FILM OFFICE NEW JERSEY FILM COMMISSION MTA/METRO-NORTH RAILROAD COMPANY THE TOWN OF EAST HAMPTON, NIN DOWNLOAD MORE. NAIJAPREY.COM ANNE LOC",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_021_second_half_frame_6556_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 22,
+            "original_start_frame": 6575,
+            "original_end_frame": 6604,
+            "original_start_timecode": "00:04:33.988",
+            "original_end_timecode": "00:04:35.196",
+            "duration_frames": 29,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "UNIVERSAL STUDIOS LICENSING, LLLP \"red right hand\", by joel townsley rogers, courtesy of CARROLL & GRAFF PUBLISHERS and a very special thank you to NEW YORK STATE OFFICE OF PARKS RECREATION AND HISTORIC PRESERVATION THE NEW VICTORY THEATRE THE NEW YORK CITY MAYOR'S OFFICE FOR FILM, THEATER AND BROADCASTING NYPD MOVIE & TV UNIT THE NEW YORK STATE GOVERNOR'S FILM OFFICE NEW JERSEY FILM COMMISSION MTA/METRO-NORTH RAILROAD COMPANY THE TOWN OF EAST HAMPTON, NY BAYONNE LOCAL REDEVELOPMENT AUTHORITY AMALGAMATED DWELLINGS, INC DOWNLOAD MORE NAIJAPREY.COM VALENTINE MANAGEMENT HE GOIANL FAMII"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6576,
+                    "ocr_text": "UNIVERSAL STUDIOS LICENSING, LLLP \"red right hand\", by joel townsley rogers, courtesy of CARROLL & GRAFF PUBLISHERS and a very special thank you to NEW YORK STATE OFFICE OF PARKS RECREATION AND HISTORIC PRESERVATION THE NEW VICTORY THEATRE THE NEW YORK CITY MAYOR'S OFFICE FOR FILM, THEATER AND BROADCASTING NYPD MOVIE & TV UNIT THE NEW YORK STATE GOVERNOR'S FILM OFFICE NEW JERSEY FILM COMMISSION MTA/METRO-NORTH RAILROAD COMPANY THE TOWN OF EAST HAMPTON, NY BAYONNE LOCAL REDEVELOPMENT AUTHORITY AMALGAMATED DWELLINGS, INC DOWNLOAD MORE NAIJAPREY.COM VALENTINE MANAGEMENT HE GOIANL FAMII",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_022_second_half_frame_6576_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 23,
+            "original_start_frame": 6604,
+            "original_end_frame": 6726,
+            "original_start_timecode": "00:04:35.196",
+            "original_end_timecode": "00:04:40.280",
+            "duration_frames": 122,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "and a very special thank you to NEW YORK STATE OFFICE OF PARKS, RECREATION AND HISTORIC PRESERVATION THE NEW 42ND STREET, INC. and THE NEW VICTORY THEATRE THE NEW YORK CITY MAYOR'S OFFICE FOR FILM, THEATER AND BROADCASTING NEW JERSEY FILM COMMISSION MTA/METRO-NORTH RAILROAD COMPANY THE TOWN OF EAST HAMPTON, NY BAYONNE LOCAL REDEVELOPMENT AUTHORITY AMALGAMATED DWELLINGS, INC VALENTINE MANAGEMENT & THE GOJANI FAMILY DOWNLOAD MORE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6610,
+                    "ocr_text": "and a very special thank you to NEW YORK STATE OFFICE OF PARKS, RECREATION AND HISTORIC PRESERVATION THE NEW 42ND STREET, INC. and THE NEW VICTORY THEATRE THE NEW YORK CITY MAYOR'S OFFICE FOR FILM, THEATER AND BROADCASTING NEW JERSEY FILM COMMISSION MTA/METRO-NORTH RAILROAD COMPANY THE TOWN OF EAST HAMPTON, NY BAYONNE LOCAL REDEVELOPMENT AUTHORITY AMALGAMATED DWELLINGS, INC VALENTINE MANAGEMENT & THE GOJANI FAMILY DOWNLOAD MORE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_023_second_half_frame_6610_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 24,
+            "original_start_frame": 6726,
+            "original_end_frame": 7636,
+            "original_start_timecode": "00:04:40.280",
+            "original_end_timecode": "00:05:18.201",
+            "duration_frames": 910,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "ARRI FUJIFILM D DOLBY dts IN SELECTED THEATRES Color and Prints by EFILM deluxe No. 40598 Anonymous Content DOWNLOAD MORE. NAIJAPREY.COM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6771,
+                    "ocr_text": "ARRI FUJIFILM D DOLBY dts IN SELECTED THEATRES Color and Prints by EFILM deluxe No. 40598 Anonymous Content DOWNLOAD MORE. NAIJAPREY.COM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_024_second_half_frame_6771_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 25,
+            "original_start_frame": 7636,
+            "original_end_frame": 7764,
+            "original_start_timecode": "00:05:18.201",
+            "original_end_timecode": "00:05:23.535",
+            "duration_frames": 128,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "THIS MOTION PICTURE HAS BEEN RATED RESTRICTED R UNDER 17 REQUIRES ACCOMPANYING PARENT OR ADULT GUARDIAN BY THE CLASSIFICATION AND RATING ADMINISTRATION MOTION PICTURE ASSOCIATION OF AMERICA DOWNLOAD MORE. NAIJAPREY.COM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 7642,
+                    "ocr_text": "THIS MOTION PICTURE HAS BEEN RATED RESTRICTED R UNDER 17 REQUIRES ACCOMPANYING PARENT OR ADULT GUARDIAN BY THE CLASSIFICATION AND RATING ADMINISTRATION MOTION PICTURE ASSOCIATION OF AMERICA DOWNLOAD MORE. NAIJAPREY.COM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_025_second_half_frame_7642_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 26,
+            "original_start_frame": 7764,
+            "original_end_frame": 7790,
+            "original_start_timecode": "00:05:23.535",
+            "original_end_timecode": "00:05:24.618",
+            "duration_frames": 26,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "NAIJAPREY.COM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 7765,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 7766,
+                    "ocr_text": "NAIJAPREY.COM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_026_second_half_frame_7766_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 7765: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 27,
+            "original_start_frame": 7790,
+            "original_end_frame": 8016,
+            "original_start_timecode": "00:05:24.618",
+            "original_end_timecode": "00:05:34.036",
+            "duration_frames": 226,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "LE VOCI Joel ROBERTO PEDICINI Clementine CHIARA COLIZZI Mary FEDERICA DE BORTOLI Stan RICCARDO ROSSI DAVIDE PERINO Patrick Mierzwiak MICHELE GAMMINO DOWNLOAD MORE. NAIJAPREY.COM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 7801,
+                    "ocr_text": "LE VOCI Joel ROBERTO PEDICINI Clementine CHIARA COLIZZI Mary FEDERICA DE BORTOLI Stan RICCARDO ROSSI DAVIDE PERINO Patrick Mierzwiak MICHELE GAMMINO DOWNLOAD MORE. NAIJAPREY.COM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_027_second_half_frame_7801_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 250,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:10.418",
+            "duration_frames": 250,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 250,
+            "end_frame": 433,
+            "start_timecode": "00:00:10.418",
+            "end_timecode": "00:00:18.044",
+            "duration_frames": 183,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 433,
+            "end_frame": 614,
+            "start_timecode": "00:00:18.044",
+            "end_timecode": "00:00:25.586",
+            "duration_frames": 181,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 614,
+            "end_frame": 627,
+            "start_timecode": "00:00:25.586",
+            "end_timecode": "00:00:26.128",
+            "duration_frames": 13,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 627,
+            "end_frame": 661,
+            "start_timecode": "00:00:26.128",
+            "end_timecode": "00:00:27.545",
+            "duration_frames": 34,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 661,
+            "end_frame": 761,
+            "start_timecode": "00:00:27.545",
+            "end_timecode": "00:00:31.712",
+            "duration_frames": 100,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 6,
+            "start_frame": 761,
+            "end_frame": 769,
+            "start_timecode": "00:00:31.712",
+            "end_timecode": "00:00:32.045",
+            "duration_frames": 8,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 7,
+            "start_frame": 769,
+            "end_frame": 831,
+            "start_timecode": "00:00:32.045",
+            "end_timecode": "00:00:34.629",
+            "duration_frames": 62,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 8,
+            "start_frame": 831,
+            "end_frame": 862,
+            "start_timecode": "00:00:34.629",
+            "end_timecode": "00:00:35.921",
+            "duration_frames": 31,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 9,
+            "start_frame": 862,
+            "end_frame": 914,
+            "start_timecode": "00:00:35.921",
+            "end_timecode": "00:00:38.087",
+            "duration_frames": 52,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 10,
+            "start_frame": 914,
+            "end_frame": 936,
+            "start_timecode": "00:00:38.087",
+            "end_timecode": "00:00:39.004",
+            "duration_frames": 22,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 11,
+            "start_frame": 936,
+            "end_frame": 942,
+            "start_timecode": "00:00:39.004",
+            "end_timecode": "00:00:39.254",
+            "duration_frames": 6,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 12,
+            "start_frame": 942,
+            "end_frame": 1216,
+            "start_timecode": "00:00:39.254",
+            "end_timecode": "00:00:50.672",
+            "duration_frames": 274,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 13,
+            "start_frame": 1216,
+            "end_frame": 1255,
+            "start_timecode": "00:00:50.672",
+            "end_timecode": "00:00:52.297",
+            "duration_frames": 39,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 14,
+            "start_frame": 1255,
+            "end_frame": 1509,
+            "start_timecode": "00:00:52.297",
+            "end_timecode": "00:01:02.882",
+            "duration_frames": 254,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 15,
+            "start_frame": 1509,
+            "end_frame": 1862,
+            "start_timecode": "00:01:02.882",
+            "end_timecode": "00:01:17.592",
+            "duration_frames": 353,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 16,
+            "start_frame": 1862,
+            "end_frame": 2001,
+            "start_timecode": "00:01:17.592",
+            "end_timecode": "00:01:23.384",
+            "duration_frames": 139,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 17,
+            "start_frame": 2001,
+            "end_frame": 2218,
+            "start_timecode": "00:01:23.384",
+            "end_timecode": "00:01:32.427",
+            "duration_frames": 217,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 18,
+            "start_frame": 2218,
+            "end_frame": 2448,
+            "start_timecode": "00:01:32.427",
+            "end_timecode": "00:01:42.011",
+            "duration_frames": 230,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 19,
+            "start_frame": 2448,
+            "end_frame": 6122,
+            "start_timecode": "00:01:42.011",
+            "end_timecode": "00:04:15.111",
+            "duration_frames": 3674,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 20,
+            "start_frame": 6122,
+            "end_frame": 6137,
+            "start_timecode": "00:04:15.111",
+            "end_timecode": "00:04:15.736",
+            "duration_frames": 15,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 21,
+            "start_frame": 6137,
+            "end_frame": 6435,
+            "start_timecode": "00:04:15.736",
+            "end_timecode": "00:04:28.154",
+            "duration_frames": 298,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 22,
+            "start_frame": 6435,
+            "end_frame": 6556,
+            "start_timecode": "00:04:28.154",
+            "end_timecode": "00:04:33.196",
+            "duration_frames": 121,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 23,
+            "start_frame": 6556,
+            "end_frame": 6575,
+            "start_timecode": "00:04:33.196",
+            "end_timecode": "00:04:33.988",
+            "duration_frames": 19,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 24,
+            "start_frame": 6575,
+            "end_frame": 6604,
+            "start_timecode": "00:04:33.988",
+            "end_timecode": "00:04:35.196",
+            "duration_frames": 29,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 25,
+            "start_frame": 6604,
+            "end_frame": 6726,
+            "start_timecode": "00:04:35.196",
+            "end_timecode": "00:04:40.280",
+            "duration_frames": 122,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 26,
+            "start_frame": 6726,
+            "end_frame": 7636,
+            "start_timecode": "00:04:40.280",
+            "end_timecode": "00:05:18.201",
+            "duration_frames": 910,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 27,
+            "start_frame": 7636,
+            "end_frame": 7764,
+            "start_timecode": "00:05:18.201",
+            "end_timecode": "00:05:23.535",
+            "duration_frames": 128,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 28,
+            "start_frame": 7764,
+            "end_frame": 7790,
+            "start_timecode": "00:05:23.535",
+            "end_timecode": "00:05:24.618",
+            "duration_frames": 26,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 29,
+            "start_frame": 7790,
+            "end_frame": 8016,
+            "start_timecode": "00:05:24.618",
+            "end_timecode": "00:05:34.036",
+            "duration_frames": 226,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:33:49.320072"
+}

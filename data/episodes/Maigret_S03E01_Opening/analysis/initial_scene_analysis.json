@@ -1,0 +1,945 @@
+{
+    "episode_id": "Maigret_S03E01_Opening",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 135,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:00:04.500",
+            "duration_frames": 135,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "< Back VEED MESA PRODUCTIONS présente 00:00 95:54"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 6,
+                    "ocr_text": "< Back VEED MESA PRODUCTIONS présente 00:00 95:54",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_6_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 1,
+            "original_start_frame": 135,
+            "original_end_frame": 371,
+            "original_start_timecode": "00:00:04.500",
+            "original_end_timecode": "00:00:12.367",
+            "duration_frames": 236,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED une co-production DUNE TELEVISION SUISSE ROMANDE RTBF TELEVISION BELGE AVEC LA PARTICIPATION DE ANTENNE 2 ET DE LA CINQ"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 146,
+                    "ocr_text": "VEED une co-production DUNE TELEVISION SUISSE ROMANDE RTBF TELEVISION BELGE AVEC LA PARTICIPATION DE ANTENNE 2 ET DE LA CINQ",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_first_half_frame_146_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 371,
+            "original_end_frame": 401,
+            "original_start_timecode": "00:00:12.367",
+            "original_end_timecode": "00:00:13.367",
+            "duration_frames": 30,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 372,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_first_half_frame_372_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 3,
+            "original_start_frame": 401,
+            "original_end_frame": 542,
+            "original_start_timecode": "00:00:13.367",
+            "original_end_timecode": "00:00:18.067",
+            "duration_frames": 141,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 408,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_003_first_half_frame_408_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 4,
+            "original_start_frame": 542,
+            "original_end_frame": 572,
+            "original_start_timecode": "00:00:18.067",
+            "original_end_timecode": "00:00:19.067",
+            "duration_frames": 30,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 543,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_004_first_half_frame_543_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 5,
+            "original_start_frame": 572,
+            "original_end_frame": 715,
+            "original_start_timecode": "00:00:19.067",
+            "original_end_timecode": "00:00:23.833",
+            "duration_frames": 143,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 579,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_005_first_half_frame_579_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 6,
+            "original_start_frame": 721,
+            "original_end_frame": 777,
+            "original_start_timecode": "00:00:24.033",
+            "original_end_timecode": "00:00:25.900",
+            "duration_frames": 56,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 723,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_006_first_half_frame_723_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 7,
+            "original_start_frame": 777,
+            "original_end_frame": 796,
+            "original_start_timecode": "00:00:25.900",
+            "original_end_timecode": "00:00:26.533",
+            "duration_frames": 19,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 777,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_007_first_half_frame_777_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 8,
+            "original_start_frame": 796,
+            "original_end_frame": 849,
+            "original_start_timecode": "00:00:26.533",
+            "original_end_timecode": "00:00:28.300",
+            "duration_frames": 53,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 798,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_008_first_half_frame_798_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 9,
+            "original_start_frame": 849,
+            "original_end_frame": 903,
+            "original_start_timecode": "00:00:28.300",
+            "original_end_timecode": "00:00:30.100",
+            "duration_frames": 54,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "BRUNO CREMER VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 851,
+                    "ocr_text": "BRUNO CREMER VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_009_first_half_frame_851_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 10,
+            "original_start_frame": 903,
+            "original_end_frame": 1070,
+            "original_start_timecode": "00:00:30.100",
+            "original_end_timecode": "00:00:35.667",
+            "duration_frames": 167,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED BRUNO CREMER"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 911,
+                    "ocr_text": "VEED BRUNO CREMER",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_010_first_half_frame_911_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 11,
+            "original_start_frame": 1070,
+            "original_end_frame": 1084,
+            "original_start_timecode": "00:00:35.667",
+            "original_end_timecode": "00:00:36.133",
+            "duration_frames": 14,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1070,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_011_first_half_frame_1070_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 12,
+            "original_start_frame": 1084,
+            "original_end_frame": 1120,
+            "original_start_timecode": "00:00:36.133",
+            "original_end_timecode": "00:00:37.333",
+            "duration_frames": 36,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1085,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_012_first_half_frame_1085_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 13,
+            "original_start_frame": 1120,
+            "original_end_frame": 1493,
+            "original_start_timecode": "00:00:37.333",
+            "original_end_timecode": "00:00:49.767",
+            "duration_frames": 373,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1138,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_013_first_half_frame_1138_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 14,
+            "original_start_frame": 1493,
+            "original_end_frame": 1519,
+            "original_start_timecode": "00:00:49.767",
+            "original_end_timecode": "00:00:50.633",
+            "duration_frames": 26,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "MAIGRET VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1494,
+                    "ocr_text": "MAIGRET VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_014_first_half_frame_1494_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 15,
+            "original_start_frame": 1519,
+            "original_end_frame": 2779,
+            "original_start_timecode": "00:00:50.633",
+            "original_end_timecode": "00:01:32.633",
+            "duration_frames": 1260,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED 44"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1582,
+                    "ocr_text": "VEED 44",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_015_first_half_frame_1582_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 16,
+            "original_start_frame": 2779,
+            "original_end_frame": 3324,
+            "original_start_timecode": "00:01:32.633",
+            "original_end_timecode": "00:01:50.800",
+            "duration_frames": 545,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2806,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_016_first_half_frame_2806_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 17,
+            "original_start_frame": 3324,
+            "original_end_frame": 3569,
+            "original_start_timecode": "00:01:50.800",
+            "original_end_timecode": "00:01:58.967",
+            "duration_frames": 245,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3336,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_017_second_half_frame_3336_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 18,
+            "original_start_frame": 3569,
+            "original_end_frame": 3660,
+            "original_start_timecode": "00:01:58.967",
+            "original_end_timecode": "00:02:02.000",
+            "duration_frames": 91,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3573,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_018_second_half_frame_3573_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 19,
+            "original_start_frame": 3660,
+            "original_end_frame": 3805,
+            "original_start_timecode": "00:02:02.000",
+            "original_end_timecode": "00:02:06.833",
+            "duration_frames": 145,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3667,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_019_second_half_frame_3667_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 20,
+            "original_start_frame": 3805,
+            "original_end_frame": 4344,
+            "original_start_timecode": "00:02:06.833",
+            "original_end_timecode": "00:02:24.800",
+            "duration_frames": 539,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3831,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_020_second_half_frame_3831_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 21,
+            "original_start_frame": 4344,
+            "original_end_frame": 4982,
+            "original_start_timecode": "00:02:24.800",
+            "original_end_timecode": "00:02:46.067",
+            "duration_frames": 638,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED Santiago AMt Claude CORETT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4375,
+                    "ocr_text": "VEED Santiago AMt Claude CORETT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_021_second_half_frame_4375_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 22,
+            "original_start_frame": 4982,
+            "original_end_frame": 5046,
+            "original_start_timecode": "00:02:46.067",
+            "original_end_timecode": "00:02:48.200",
+            "duration_frames": 64,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4985,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_022_second_half_frame_4985_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 23,
+            "original_start_frame": 5046,
+            "original_end_frame": 5136,
+            "original_start_timecode": "00:02:48.200",
+            "original_end_timecode": "00:02:51.200",
+            "duration_frames": 90,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Producteur Exécutif Alain BLOCH VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 5050,
+                    "ocr_text": "Producteur Exécutif Alain BLOCH VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_023_second_half_frame_5050_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 24,
+            "original_start_frame": 5136,
+            "original_end_frame": 5804,
+            "original_start_timecode": "00:02:51.200",
+            "original_end_timecode": "00:03:13.467",
+            "duration_frames": 668,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VEED"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 5169,
+                    "ocr_text": "VEED",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_024_second_half_frame_5169_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 135,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:04.500",
+            "duration_frames": 135,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 135,
+            "end_frame": 371,
+            "start_timecode": "00:00:04.500",
+            "end_timecode": "00:00:12.367",
+            "duration_frames": 236,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 371,
+            "end_frame": 401,
+            "start_timecode": "00:00:12.367",
+            "end_timecode": "00:00:13.367",
+            "duration_frames": 30,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 401,
+            "end_frame": 542,
+            "start_timecode": "00:00:13.367",
+            "end_timecode": "00:00:18.067",
+            "duration_frames": 141,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 542,
+            "end_frame": 572,
+            "start_timecode": "00:00:18.067",
+            "end_timecode": "00:00:19.067",
+            "duration_frames": 30,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 572,
+            "end_frame": 715,
+            "start_timecode": "00:00:19.067",
+            "end_timecode": "00:00:23.833",
+            "duration_frames": 143,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 6,
+            "start_frame": 715,
+            "end_frame": 721,
+            "start_timecode": "00:00:23.833",
+            "end_timecode": "00:00:24.033",
+            "duration_frames": 6,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 7,
+            "start_frame": 721,
+            "end_frame": 777,
+            "start_timecode": "00:00:24.033",
+            "end_timecode": "00:00:25.900",
+            "duration_frames": 56,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 8,
+            "start_frame": 777,
+            "end_frame": 796,
+            "start_timecode": "00:00:25.900",
+            "end_timecode": "00:00:26.533",
+            "duration_frames": 19,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 9,
+            "start_frame": 796,
+            "end_frame": 849,
+            "start_timecode": "00:00:26.533",
+            "end_timecode": "00:00:28.300",
+            "duration_frames": 53,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 10,
+            "start_frame": 849,
+            "end_frame": 903,
+            "start_timecode": "00:00:28.300",
+            "end_timecode": "00:00:30.100",
+            "duration_frames": 54,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 11,
+            "start_frame": 903,
+            "end_frame": 1070,
+            "start_timecode": "00:00:30.100",
+            "end_timecode": "00:00:35.667",
+            "duration_frames": 167,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 12,
+            "start_frame": 1070,
+            "end_frame": 1084,
+            "start_timecode": "00:00:35.667",
+            "end_timecode": "00:00:36.133",
+            "duration_frames": 14,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 13,
+            "start_frame": 1084,
+            "end_frame": 1120,
+            "start_timecode": "00:00:36.133",
+            "end_timecode": "00:00:37.333",
+            "duration_frames": 36,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 14,
+            "start_frame": 1120,
+            "end_frame": 1493,
+            "start_timecode": "00:00:37.333",
+            "end_timecode": "00:00:49.767",
+            "duration_frames": 373,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 15,
+            "start_frame": 1493,
+            "end_frame": 1519,
+            "start_timecode": "00:00:49.767",
+            "end_timecode": "00:00:50.633",
+            "duration_frames": 26,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 16,
+            "start_frame": 1519,
+            "end_frame": 2779,
+            "start_timecode": "00:00:50.633",
+            "end_timecode": "00:01:32.633",
+            "duration_frames": 1260,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 17,
+            "start_frame": 2779,
+            "end_frame": 3324,
+            "start_timecode": "00:01:32.633",
+            "end_timecode": "00:01:50.800",
+            "duration_frames": 545,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 18,
+            "start_frame": 3324,
+            "end_frame": 3569,
+            "start_timecode": "00:01:50.800",
+            "end_timecode": "00:01:58.967",
+            "duration_frames": 245,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 19,
+            "start_frame": 3569,
+            "end_frame": 3660,
+            "start_timecode": "00:01:58.967",
+            "end_timecode": "00:02:02.000",
+            "duration_frames": 91,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 20,
+            "start_frame": 3660,
+            "end_frame": 3805,
+            "start_timecode": "00:02:02.000",
+            "end_timecode": "00:02:06.833",
+            "duration_frames": 145,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 21,
+            "start_frame": 3805,
+            "end_frame": 4344,
+            "start_timecode": "00:02:06.833",
+            "end_timecode": "00:02:24.800",
+            "duration_frames": 539,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 22,
+            "start_frame": 4344,
+            "end_frame": 4982,
+            "start_timecode": "00:02:24.800",
+            "end_timecode": "00:02:46.067",
+            "duration_frames": 638,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 23,
+            "start_frame": 4982,
+            "end_frame": 5046,
+            "start_timecode": "00:02:46.067",
+            "end_timecode": "00:02:48.200",
+            "duration_frames": 64,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 24,
+            "start_frame": 5046,
+            "end_frame": 5136,
+            "start_timecode": "00:02:48.200",
+            "end_timecode": "00:02:51.200",
+            "duration_frames": 90,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 25,
+            "start_frame": 5136,
+            "end_frame": 5804,
+            "start_timecode": "00:02:51.200",
+            "end_timecode": "00:03:13.467",
+            "duration_frames": 668,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:37:49.445376"
+}

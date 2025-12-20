@@ -1,0 +1,1718 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_000_scroll_000_num00000_sim0.jpg",
+          "frame_num": 0,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1139,
+            644,
+            1268,
+            677
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_000_scroll_001_num00150_sim0.jpg",
+          "frame_num": 150,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1137,
+            644,
+            1267,
+            675
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.6705912947654724,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.46676820516586304,
+      "roi_percentile_flow": 0.6705912947654724,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 923,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_1": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_001_static_000_num00250_sim58.jpg",
+          "frame_num": 250,
+          "ocr_text": "DOWNLOAD MORE. AIJAPREY.COM",
+          "ocr_bbox": [
+            1137,
+            644,
+            1269,
+            678
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_001_static_001_num00262_sim44.jpg",
+          "frame_num": 262,
+          "ocr_text": "in association with THIS IS THAT DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            114,
+            579,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_001_static_002_num00286_sim95.jpg",
+          "frame_num": 286,
+          "ocr_text": "in association with THIS IS THAT DOWNLOAD MORE. NAIR",
+          "ocr_bbox": [
+            113,
+            578,
+            1268,
+            677
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_001_static_003_num00298_sim95.jpg",
+          "frame_num": 298,
+          "ocr_text": "in association with THiS IS THAT DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            113,
+            576,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_001_static_004_num00334_sim58.jpg",
+          "frame_num": 334,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1139,
+            644,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_001_static_005_num00346_sim81.jpg",
+          "frame_num": 346,
+          "ocr_text": "JIM CARREY DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            118,
+            583,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 6,
+      "median_flow_px_per_frame": 0.42352262139320374,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.4559505581855774,
+      "roi_percentile_flow": 0.42352262139320374,
+      "scroll_direction": null
+    },
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_002_static_000_num00457_sim69.jpg",
+          "frame_num": 457,
+          "ocr_text": "KATE WINSLET DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            118,
+            584,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_002_static_001_num00541_sim74.jpg",
+          "frame_num": 541,
+          "ocr_text": "KIRSTEN DUNST DOWNLOAD MORE NAIJAPREY.COM",
+          "ocr_bbox": [
+            118,
+            584,
+            1267,
+            675
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_002_static_002_num00613_sim47.jpg",
+          "frame_num": 613,
+          "ocr_text": "OOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1138,
+            644,
+            1267,
+            675
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.27991315722465515,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2425394207239151,
+      "roi_percentile_flow": 0.27991315722465515,
+      "scroll_direction": null
+    },
+    "scene_3": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_003_scroll_000_num00614_sim0.jpg",
+          "frame_num": 614,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1138,
+            644,
+            1267,
+            675
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 2.1892647743225098,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 1.6515226364135742,
+      "roi_percentile_flow": 2.1892647743225098,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 283,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_4": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_004_static_000_num00627_sim55.jpg",
+          "frame_num": 627,
+          "ocr_text": "ETERNAL SUNSHINE OF THE SPOTLESS MIND DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            117,
+            542,
+            1268,
+            677
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_004_static_001_num00639_sim100.jpg",
+          "frame_num": 639,
+          "ocr_text": "ETERNAL SUNSHINE OF THE SPOTLESS MIND DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            113,
+            541,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.4338119328022003,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.5425785183906555,
+      "roi_percentile_flow": 0.4338119328022003,
+      "scroll_direction": null
+    },
+    "scene_5": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_005_static_000_num00757_sim35.jpg",
+          "frame_num": 757,
+          "ocr_text": "DOWNLOAD MORE",
+          "ocr_bbox": [
+            1139,
+            644,
+            1224,
+            658
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_005_static_001_num00760_sim72.jpg",
+          "frame_num": 760,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1138,
+            644,
+            1270,
+            679
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.16078883409500122,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.1750423014163971,
+      "roi_percentile_flow": 0.16078883409500122,
+      "scroll_direction": null
+    },
+    "scene_6": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_006_static_000_num00769_sim65.jpg",
+          "frame_num": 769,
+          "ocr_text": "SET 7 EJECT MARK RUFFALO DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            119,
+            151,
+            1268,
+            677
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_006_static_001_num00805_sim95.jpg",
+          "frame_num": 805,
+          "ocr_text": "SS? SET EJECT MARK RUFFALO DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            120,
+            0,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.2750769853591919,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.26931333541870117,
+      "roi_percentile_flow": 0.2750769853591919,
+      "scroll_direction": null
+    },
+    "scene_7": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_007_scroll_000_num00831_sim0.jpg",
+          "frame_num": 831,
+          "ocr_text": "MARK RUEEA 7 DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            117,
+            578,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.575993537902832,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.24125473201274872,
+      "roi_percentile_flow": 0.575993537902832,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 1075,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_8": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_008_static_000_num00874_sim52.jpg",
+          "frame_num": 874,
+          "ocr_text": "ELIJAH WOOD DOWNLOAD MORE.",
+          "ocr_bbox": [
+            119,
+            582,
+            1225,
+            658
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_008_static_001_num00886_sim83.jpg",
+          "frame_num": 886,
+          "ocr_text": "ELIJAH WOOD DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            118,
+            582,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.15852588415145874,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.15610140562057495,
+      "roi_percentile_flow": 0.15852588415145874,
+      "scroll_direction": null
+    },
+    "scene_9": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.1509917825460434,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.16779884696006775,
+      "roi_percentile_flow": 0.1509917825460434,
+      "scroll_direction": null
+    },
+    "scene_10": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_010_static_000_num00954_sim68.jpg",
+          "frame_num": 954,
+          "ocr_text": "and TOM WILKINSON DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            117,
+            579,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_010_static_001_num01038_sim60.jpg",
+          "frame_num": 1038,
+          "ocr_text": "JANE ADAMS DAVID CROSS DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            117,
+            539,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_010_static_002_num01134_sim63.jpg",
+          "frame_num": 1134,
+          "ocr_text": "DEIRDRE O'CONNELL DEBBON AYER DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            119,
+            539,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.12510946393013,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2119888961315155,
+      "roi_percentile_flow": 0.12510946393013,
+      "scroll_direction": null
+    },
+    "scene_11": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_011_static_000_num01216_sim24.jpg",
+          "frame_num": 1216,
+          "ocr_text": "AJAPREY.COM",
+          "ocr_bbox": [
+            -577,
+            13,
+            -472,
+            32
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_011_static_001_num01240_sim23.jpg",
+          "frame_num": 1240,
+          "ocr_text": "casting by JEANNE MCCARTHY, CSA DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            117,
+            544,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.3503747582435608,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.37974750995635986,
+      "roi_percentile_flow": 0.3503747582435608,
+      "scroll_direction": null
+    },
+    "scene_12": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_012_static_000_num01267_sim86.jpg",
+          "frame_num": 1267,
+          "ocr_text": "Kq JEANNE MCCARTHY, CSA DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            120,
+            550,
+            1267,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_012_static_001_num01279_sim86.jpg",
+          "frame_num": 1279,
+          "ocr_text": "casting by JEANNE MCCARTHY, CSA DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            119,
+            547,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_012_static_002_num01315_sim17.jpg",
+          "frame_num": 1315,
+          "ocr_text": "APREY.COM",
+          "ocr_bbox": [
+            -575,
+            14,
+            -494,
+            31
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_012_static_003_num01327_sim12.jpg",
+          "frame_num": 1327,
+          "ocr_text": "associate producers LINDA FIELDS HILL MICHAEL A. JACKMAN DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            118,
+            500,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_012_static_004_num01339_sim100.jpg",
+          "frame_num": 1339,
+          "ocr_text": "associate producers LINDA FIELDS HILL MICHAEL A. JACKMAN DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            117,
+            500,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_012_static_005_num01375_sim87.jpg",
+          "frame_num": 1375,
+          "ocr_text": "associate producers LINDA FIELDS HILL MICHAEL A. JACKMAN OOWNLOAD MORE... NAIJAPRE Y.COM",
+          "ocr_bbox": [
+            116,
+            499,
+            1267,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_012_static_006_num01411_sim24.jpg",
+          "frame_num": 1411,
+          "ocr_text": "DOWNLOAD MORE.",
+          "ocr_bbox": [
+            1139,
+            642,
+            1225,
+            659
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_012_static_007_num01423_sim41.jpg",
+          "frame_num": 1423,
+          "ocr_text": "costume designer MELISSA TOTH DOWNLOAD MORE. NAIJARCOM",
+          "ocr_bbox": [
+            119,
+            547,
+            1269,
+            677
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_012_static_008_num01435_sim97.jpg",
+          "frame_num": 1435,
+          "ocr_text": "costume designer MELISSA TOTH DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            119,
+            547,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_012_static_009_num01507_sim39.jpg",
+          "frame_num": 1507,
+          "ocr_text": "DOWNLOAD MORE.",
+          "ocr_bbox": [
+            1139,
+            642,
+            1225,
+            659
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 10,
+      "median_flow_px_per_frame": 0.21840953826904297,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.22437511384487152,
+      "roi_percentile_flow": 0.21840953826904297,
+      "scroll_direction": null
+    },
+    "scene_13": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_000_num01509_sim72.jpg",
+          "frame_num": 1509,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1139,
+            644,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_001_num01545_sim29.jpg",
+          "frame_num": 1545,
+          "ocr_text": "JON BRION music by",
+          "ocr_bbox": [
+            904,
+            652,
+            1161,
+            735
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_002_num01557_sim60.jpg",
+          "frame_num": 1557,
+          "ocr_text": "music by JON BRION DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            117,
+            544,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_003_num01593_sim24.jpg",
+          "frame_num": 1593,
+          "ocr_text": ".COM musicby",
+          "ocr_bbox": [
+            12,
+            605,
+            1162,
+            734
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_004_num01605_sim16.jpg",
+          "frame_num": 1605,
+          "ocr_text": "2 JONOFIO DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            117,
+            111,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_005_num01629_sim56.jpg",
+          "frame_num": 1629,
+          "ocr_text": "editor VALDIS OSKARSDOTTIR DOWNLOAD MORE NAIROM",
+          "ocr_bbox": [
+            119,
+            546,
+            1268,
+            677
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_006_num01641_sim92.jpg",
+          "frame_num": 1641,
+          "ocr_text": "editor VALDIS OSKARSDOTTIR DOWNLOAD MORE.",
+          "ocr_bbox": [
+            119,
+            546,
+            1225,
+            658
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_007_num01653_sim89.jpg",
+          "frame_num": 1653,
+          "ocr_text": "editor VALDIS OSKARSDOTTIR DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            119,
+            546,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_008_num01677_sim100.jpg",
+          "frame_num": 1677,
+          "ocr_text": "editor VALDIS OSKARSDOTTIR DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            118,
+            546,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_009_num01725_sim49.jpg",
+          "frame_num": 1725,
+          "ocr_text": "production designer DAN LEIGH DOWNLOAD MORE.",
+          "ocr_bbox": [
+            117,
+            547,
+            1226,
+            658
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_010_num01749_sim90.jpg",
+          "frame_num": 1749,
+          "ocr_text": ". production designer DAN LEIGH DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            118,
+            337,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_011_num01761_sim94.jpg",
+          "frame_num": 1761,
+          "ocr_text": "production designer DAN LEIGH DOWNLOAD MORE. NAIARCO",
+          "ocr_bbox": [
+            119,
+            546,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_012_num01797_sim41.jpg",
+          "frame_num": 1797,
+          "ocr_text": "DOWNLOAD MORE.",
+          "ocr_bbox": [
+            1139,
+            644,
+            1225,
+            658
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_013_num01809_sim27.jpg",
+          "frame_num": 1809,
+          "ocr_text": "ELLEN KURAS ASC director of photograpl",
+          "ocr_bbox": [
+            714,
+            650,
+            1161,
+            738
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_014_num01821_sim81.jpg",
+          "frame_num": 1821,
+          "ocr_text": "director of photography ELLEN KURAS, ASC DOWNLOAD MORE.",
+          "ocr_bbox": [
+            120,
+            545,
+            1226,
+            658
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_015_num01833_sim91.jpg",
+          "frame_num": 1833,
+          "ocr_text": "director of photography ELLEN KURAS, ASC DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            120,
+            543,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_013_static_016_num01845_sim100.jpg",
+          "frame_num": 1845,
+          "ocr_text": "director of photography ELLEN KURAS, ASC DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            120,
+            541,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 17,
+      "median_flow_px_per_frame": 0.29361143708229065,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2932235598564148,
+      "roi_percentile_flow": 0.29361143708229065,
+      "scroll_direction": null
+    },
+    "scene_14": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_014_static_000_num01898_sim53.jpg",
+          "frame_num": 1898,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1135,
+            644,
+            1267,
+            675
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_014_static_001_num01910_sim33.jpg",
+          "frame_num": 1910,
+          "ocr_text": "executive producers DAVID BUSHELL CHARLIE KAUFMAN GLENN WILLIAMSON BERMANN GEORGES DOWNLOAD MORE. NAIJRO",
+          "ocr_bbox": [
+            118,
+            421,
+            1267,
+            675
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_014_static_002_num01922_sim98.jpg",
+          "frame_num": 1922,
+          "ocr_text": "executive producers DAVID BUSHELL CHARLIE KAUFMAN GLENN WILLIAMSON GEORGES BERMANN DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            120,
+            422,
+            1267,
+            675
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_014_static_003_num01934_sim52.jpg",
+          "frame_num": 1934,
+          "ocr_text": "executive CHARLIE GLENN DOWNLOAD MORE.",
+          "ocr_bbox": [
+            121,
+            427,
+            1225,
+            658
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_014_static_004_num01946_sim52.jpg",
+          "frame_num": 1946,
+          "ocr_text": "executive producers DAVID BUSHELL CHARLIE KAUFMAN GLENN WILLIAMSON GEORGES BERMANN DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            119,
+            421,
+            1269,
+            678
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_014_static_005_num01970_sim73.jpg",
+          "frame_num": 1970,
+          "ocr_text": "DAVIO BUSHELL CHARLIE KAUFIRA GEORGES BERM DOWNLOAD MORE NAIJAPREY.COM",
+          "ocr_bbox": [
+            119,
+            457,
+            1269,
+            679
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_014_static_006_num01982_sim52.jpg",
+          "frame_num": 1982,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1137,
+            642,
+            1270,
+            679
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_014_static_007_num01994_sim56.jpg",
+          "frame_num": 1994,
+          "ocr_text": "NAIJAPREY.COM",
+          "ocr_bbox": [
+            1137,
+            655,
+            1267,
+            675
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_014_static_008_num02000_sim56.jpg",
+          "frame_num": 2000,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1134,
+            644,
+            1267,
+            675
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 9,
+      "median_flow_px_per_frame": 0.2643700838088989,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.2524999678134918,
+      "roi_percentile_flow": 0.2643700838088989,
+      "scroll_direction": null
+    },
+    "scene_15": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_015_static_000_num02025_sim51.jpg",
+          "frame_num": 2025,
+          "ocr_text": "produced by STEVE GOLIN and ANTHONY BREGMAN DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            116,
+            541,
+            1267,
+            675
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_015_static_001_num02097_sim32.jpg",
+          "frame_num": 2097,
+          "ocr_text": "DOWNLOAD MORE",
+          "ocr_bbox": [
+            1139,
+            644,
+            1224,
+            658
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_015_static_002_num02109_sim72.jpg",
+          "frame_num": 2109,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1137,
+            642,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_015_static_003_num02121_sim46.jpg",
+          "frame_num": 2121,
+          "ocr_text": "story by CHARLIE KAUFMAN & MICHEL GONDRY PIERRE BISMUTH & DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            120,
+            460,
+            1267,
+            675
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_015_static_004_num02133_sim97.jpg",
+          "frame_num": 2133,
+          "ocr_text": "story by CHARLIE KAUFMAN MICHEL GONDRY PIERRE BISMUTH DOWNLOAD MORE. NAIJARO",
+          "ocr_bbox": [
+            116,
+            457,
+            1267,
+            675
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_015_static_005_num02145_sim99.jpg",
+          "frame_num": 2145,
+          "ocr_text": "story by CHARLIE KAUFMAN MICHEL GONDRY PIERRE BISMUTH DOWNLOAD MORE. NAAIIJARO",
+          "ocr_bbox": [
+            116,
+            457,
+            1267,
+            675
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_015_static_006_num02205_sim46.jpg",
+          "frame_num": 2205,
+          "ocr_text": "DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            1136,
+            642,
+            1267,
+            675
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 7,
+      "median_flow_px_per_frame": 0.4846782088279724,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.3196210265159607,
+      "roi_percentile_flow": 0.4846782088279724,
+      "scroll_direction": null
+    },
+    "scene_16": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_016_scroll_000_num02218_sim0.jpg",
+          "frame_num": 2218,
+          "ocr_text": "NAIJAPREY.COM",
+          "ocr_bbox": [
+            -583,
+            1,
+            -416,
+            46
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_016_scroll_001_num02368_sim0.jpg",
+          "frame_num": 2368,
+          "ocr_text": "directed by MICHEL GONDRY DOWNLOAD MORE. NAIJARCO",
+          "ocr_bbox": [
+            118,
+            542,
+            1269,
+            678
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.7735618352890015,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.7206007838249207,
+      "roi_percentile_flow": 0.7735618352890015,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 800,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_17": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_000_num02598_sim0.jpg",
+          "frame_num": 2598,
+          "ocr_text": "unit production manager DAVID BUSHELL first assistant director MICHAEL HAUSMAN second assistant director SCOTT FERGUSON stant unit production manager RAY ANGELIC DOWNLOAD MORE. duction supervisor MICHAEL A. IACKMAR NAIJAPREY.COM",
+          "ocr_bbox": [
+            634,
+            195,
+            1268,
+            687
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_001_num02748_sim0.jpg",
+          "frame_num": 2748,
+          "ocr_text": "assistant unit production manager RAY ANGELIC post production supervisor MICHAEL A. JACKMAN executive in charge of post production JEFF ROTH production coordinator ERICA KAY production accountant ANDY WHEELER location manager GAYLE VANGROFSKY second second assistant director PETER THORELL additional editors JAMES HAYGOOD PAUL ZUCKER JEFFREY M. WERNER supervising sound editor PHILIP STOCKTON m.p.s.e. sound designer/re-recording mixer EUGENE GEARTY re-recording mixer REILLY STEELE DOWNLOAD MORE. camera operator CHRIS NOR NAIJAPREY.COM",
+          "ocr_bbox": [
+            549,
+            61,
+            1268,
+            677
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_002_num02898_sim0.jpg",
+          "frame_num": 2898,
+          "ocr_text": "camera operator CHRIS NORR first assistant camera CARLOS GUERRA second assistant camera BRADEN BELMONTE \"b\" camera operator PETER AGLIATA additional camera operator MARK SCHMIDT \"b\" camera first assistant STANLEY FERNANDEZ, JR. \"b\" camera second assistant CHRISTOPHER RAYMOND camera loader ANGELA BELLISIO video playback operator KEVIN McKENNA 24 frame playback supervisor JOE TRAMMELL 24 frame playback DARREN RYAN JAMES DOMORSKI still photographer DAVID C. LEE script supervisor MARY CYBULSKI sound mixer THOMAS NELSON DOWNLOAD MORE. boom operator TOMMY LOUIN NAIJAPREY.COM",
+          "ocr_bbox": [
+            522,
+            74,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_003_num03048_sim0.jpg",
+          "frame_num": 3048,
+          "ocr_text": "script supervisor MARY CYBULSKI sound mixer THOMAS NELSON boom operator TOMMY LOUIE utility sound technician KIRA SMITH art director DAVID STEIN set decorator RON VON BLOMBERG assistant art directors SCOTT P. MURPHY HINJU KIM assistant set decorator NATALIE N. DORSET art department coordinator ADDY McCLELLAND leadperson MIKE LEATHER on set dresser RUTH A. DELEON set dressers ROMAN GRELLER D. SCOTT GAGNON JOHN ROCHE BRIAN BUTEAU assistant production coordinator CHRISTIAN BROCKEY DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            519,
+            0,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_004_num03198_sim0.jpg",
+          "frame_num": 3198,
+          "ocr_text": "BRIAN BUTEAU assistant production coordinator CHRISTIAN BROCKEY production secretary PHILIP DERISE first assistant accountant BRIAN CANTALDI payroll accountant HILLARY R. MEYER accounting assistant KRISTY HAMER assistant location manager CHRISTOPHER MARSH location assistants CURRIE PERSON DAN TRESCA KAT DONAHUE makeup artist for mr. carrey ALLEN WEISINGER hair stylist for mr. carrey FRANCESCA PARIS hair and makeup for ms. winslet NORIKO WATANABE wigs by PETER OWEN key makeup artist KYRA PANCHENKO key hairstylist D. MICHELLE JOHNSON DOWNLOAD MORE. assistant costume designer JILL KLIBERN NAIJAPREY.COM",
+          "ocr_bbox": [
+            519,
+            0,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_005_num03348_sim0.jpg",
+          "frame_num": 3348,
+          "ocr_text": "key makeup artist KYRA PANCHENKO key hairstylist D. MICHELLE JOHNSON assistant costume designer JILL KLIBER wardrobe supervisors LISA FRUCHT DEIRDRE N. WILLIAMS costumer for mr. carrey DAVID PAGE additional costumer CARA CZEKANSKI gaffer JOHN NADEAU new york gaffer JOSEPH QUIRK best boy electric MARK SUMMERS genny operator SAMUEL CHASE board operator KELLY BRITT electrician ANDREA CRONIN-SOUZA rigging gaffer PAUL DALEY best boy rigging electric MARTIN NOWLAN rigging electric RAYMOND FLYNN key grip BOB ANDRES DOWNLOAD MORE. best boy grip CHRIS SKUTCAN",
+          "ocr_bbox": [
+            645,
+            0,
+            1226,
+            675
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_006_num03498_sim0.jpg",
+          "frame_num": 3498,
+          "ocr_text": "dolly grip LAMONT CRAWFORD grips ALISON BARTON TONY CAMPENNI key rigging grip JACK PANUCCIO best boy rigging grip RICHARD YACUK property master KEVIN LADSON props MORGAN PITTS joel barish JIM CARREY clementine kruczynski KATE WINSLET train conductor GERRY ROBERT BYRNE DOWNLOAD MORE patrick ELIJAH WOOW",
+          "ocr_bbox": [
+            686,
+            113,
+            1224,
+            685
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_007_num03648_sim0.jpg",
+          "frame_num": 3648,
+          "ocr_text": "clementine kruczynski KATE WINSLET train conductor GERRY ROBERT BYRNE patrick ELIJAH WOOD frank THOMAS JAY RYAN stan MARK RUFFALO carrie JANE ADAMS mary KIRSTEN DUNST dr. mierzwiak TOM WILKINSON joel's mother DEBBON AYER young bullies AMIR ALI SAID PAUL LITOWSKY young clementine LOLA DAEHLER hollis DEIRDRE O'CONNELL DOWNLOAD MORE. BRIAN SMY",
+          "ocr_bbox": [
+            684,
+            14,
+            1225,
+            688
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_008_num03798_sim0.jpg",
+          "frame_num": 3798,
+          "ocr_text": "young clementine LOLA DAEHLEr hollis DEIRDRE O'CONNELL stunt coordinator BRIAN SMY stunt players BILLY ANAGNOS DANNY AIELLO, III E.J. EVANS JOHN FAVRE STEPHANIE FINOCHIO CORT HESSLER, III ARTIE MALESCI PEE WEE PIEMONTE STEPHEN POPE MIKE RUSSO post production sound facility C5 INC. effects editor PAUL URMSON dialogue editor FRED ROSENBERG adr editor MARISSA LITTLEFIELD supervising foley editor FRANK KERN foley editors KAM CHAN STEVE VISSCHER DOWNLOAD MORE. NAIJAPREY.COM AD",
+          "ocr_bbox": [
+            578,
+            0,
+            1268,
+            685
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_009_num03948_sim0.jpg",
+          "frame_num": 3948,
+          "ocr_text": "supervising foley editor FRANK KERN foley editors KAM CHAN STEVE VISSCHER foley mixer GEORGE LARA foley artists MARKO COSTANZO JAY PECK assistant sound editors CHRIS FIELDER LARRY WINELAND apprentice sound editor ALEXA ZIMMERMAN sound mixing and transfer facility SOUND ONE CORP. music editor ANASTASSIOS FILIPOS assistant editor DAVID A. SMITH post production assistants ANGELA BERESFORD KATRINA WHALEN joel's sketchbook created by PAUL PROCH computer graphics supervisor MARTIN GARNER lead animator BRENT EKSTRAND DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            539,
+            0,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_010_num04098_sim0.jpg",
+          "frame_num": 4098,
+          "ocr_text": "computer graphics supervisor MARTIN GARNER lead animator BRENT EKSTRAND special effects coordinator DREW JIRITANO special effects MARK BERO THOMAS L. VIVIANO visual effects by BUZZ IMAGE GROUP, INC. visual effects supervisor LOUIS MORIN senior inferno artist FRANCOIS M\u00c9TIVIER inferno flame artist ARA KHANIKIAN lead matte painter ROBIN TREMBLAY matte painter PIERRE-SIMON LEBRUN-CHAPUT 3-d animators ALEXANDRE LAFORTUNE FRANCOIS LORD MARTIN PELLETIER GLENN SILVER GABRIEL TREMBLAY coordinators M\u00c9LANIE LARUE ST\u00c9PHANE LOISELL DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            589,
+            13,
+            1267,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_011_num04248_sim0.jpg",
+          "frame_num": 4248,
+          "ocr_text": "GABRIEL TREMBLAY coordinators M\u00c9LANIE LARUE ST\u00c9PHANE LOISELLE visual effects, titles and digital opticals by CUSTOM FILM EFFECTS visual effects supervisor MARK DORNFELD visual effects producer MICHELE FERRONE digital editorial ADAM GASS digital supervisor LAURIE POWERS data wrangler DAVID SMITHSON digital compositors TRICIA BARRETT STEVE CALDWELL RJ HARBOUR MARY C. HOFFER SHAINA HOLMES LORI MILLER AMANI WILLIAMS i/o RYAN BEADLE end titles by TITLE HOUSE DIGITAL assistants to mr. gondry AMRO HAMZAWI NAIJAPREY.COM",
+          "ocr_bbox": [
+            418,
+            1,
+            1267,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_012_num04398_sim0.jpg",
+          "frame_num": 4398,
+          "ocr_text": "end tities by TrTLE assistants to mr. gondry AMRO HAMZAWI ADRIAN SCARTASCINI ARTHUR HUR assistant to mr. kaufman OONA OVERHOLTZER assistant to mr. golin CHRIS PRAPHA assistant to mr. bregman STEFANIE AZPIAZU assistant to mr. bushell JEFF SCHLESINGER assistant to mr. carrey STEPHANIE DETIEGE second assistant to mr. carrey TAYLOR SINGER assistant to ms. winslet RUTH POLLACK dialect coach for ms. winslet SUSAN HEGARTY security for mr. carrey DOTAN BONEN key set production assistant PATRICK McDONALD production assistants NICK BELL DAVID CATALANO BENJAMIN CONABLE TRACY ERSHOW NOAH FOX ANDREW GOODMANN DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            561,
+            0,
+            1267,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_013_num04548_sim0.jpg",
+          "frame_num": 4548,
+          "ocr_text": "NICK BELL DAVID CATALANO BENJAMIN CONABLE TRACY ERSHOW NOAH FOX ANDREW GOODMAN CYNTHIA KAO KATE KARBOWNICZEK MATTHEW G. KING DAVID KOCH ALISON NOROD GARY S. RAKE DEBBIE STAMPFLE interns SEBASTIAN ALMEIDA HILARY BASING FRED BERGER LINDA CHEN LIESEL ELAIN DAVIS LINDSEY JAFFIN VALERIE NOLAN SAGE LEHMAN EUGY SEPTIMO ANDREW ZOPPA ZACHARY ZOPPA ALEX ZOPPA la casting BLYTHE CAPPELLO casting associate NATASHA CUBA la casting assistant JOHN SREDNICKI NAIJAPREY.COM",
+          "ocr_bbox": [
+            560,
+            0,
+            1267,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_014_num04698_sim0.jpg",
+          "frame_num": 4698,
+          "ocr_text": "casting associate NATASHA CUBA la casting assistant JOHN SREDNICKI ny casting assistants SAGE LEHMAN LINDA CHEN extras casting GRANT WILFLEY extras casting assistant KRISTIAN SORGE unit publicist FRANCES FIORE on set medics RICH FELLEGARA KATHY FELLEGARA construction coordinators NICHOLAS R. MILLER BRENT HAYWOOD key shop craftsmen GORDON KRAUSE SEAN ROBINSON foreman shop craftsman ROBERT A. VACCARIELLO key construction grips JONATHAN GRAHAM ZBIGNIEW KOUROS JAMES BONIECE key construction electrics MIGUEL JIMENE DOWNLOAD MORE. NAIJAPREY.COM ROBERTO IIMENE2",
+          "ocr_bbox": [
+            564,
+            5,
+            1267,
+            688
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_015_num04848_sim0.jpg",
+          "frame_num": 4848,
+          "ocr_text": "ZBIGNIEW KOUROS JAMES BONIECE key construction electrics MIGUEL JIMENEZ ROBERTO JIMENEZ shop craftsmen ANDREW M. VELENCHENKO PAUL GEORGE DIVONE MIKE MELCHIOVE RONALD MILLER charge scenic ANNE BEISER HAYWOOD scenic foreman PATRICIA SPROTT shop scenic SAM Z. ROGERS camera scenic HOLLIS JAMES HOFF scenics JULIUS KOZLOWSKI GARF BROWN JAMES DONAHUE MARK LANE-DAVIES ELIZABETH BONAVENTURA EMILY GAUNT transportation captain WILLIAM K. GASKINS transportation cO-captain MICHAEL C. EASTER DOWNLOAD MORE. parking coordinator DEREK PASTURES NAIJAPREY.COM",
+          "ocr_bbox": [
+            493,
+            0,
+            1268,
+            684
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_016_num04998_sim0.jpg",
+          "frame_num": 4998,
+          "ocr_text": "transportation captain WILLIAM K. GASKINS transportation cO-captain MICHAEL C. EASTER parking coordinator DEREK PASTURES mr. carrey's driver JERRY McMULLAN ms. winslet's driver HERB LIEBERZ drivers EDWARD BATTISTA THEODORE A. BROWN SALVATORE CICCONE CHARLES CLARK PETER CLORES THOMAS CREHANM JERRY FEATHERSTONE MOE FITZGERALD WILLIAM GORE, JR. JOSEPH L. JOHNSON DENNIS J. KELLY JAMES F. KELLY SCOTT LIEBERZ ROBERT MARSH TOM MOYER RICHARD NELSON, JR. WILLIAM T. STUART DAVID M. SALISBURY FRANCIS VOLPE TIMOTHY J. WOOD DOWNLOAD MORE. animals provided by DAWN ANIMAL AGENCY NAIJAPREY.COM",
+          "ocr_bbox": [
+            572,
+            17,
+            1267,
+            688
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_017_num05148_sim0.jpg",
+          "frame_num": 5148,
+          "ocr_text": "DAVID M. SALISBURY TIMOTHY J. WOOD animals provided by DAWN ANIMAL AGENCY craft service DAVID DREISHPOON'S caterer FOR STARS CATERING production attorneys SHEPPARD, MULLIN, RICHTER ROBERT DARWELL clearances and product placement by WENDY COHEN PRODUCTION RESOURCES insurance provided by AON/ALBERT G. RUBEN completion guarantors FILM FINANCES MAUREEN DUFFY GREGORY TRATTNER DOWNLOAD MORE. ATORIE",
+          "ocr_bbox": [
+            540,
+            9,
+            1225,
+            687
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_018_num05298_sim0.jpg",
+          "frame_num": 5298,
+          "ocr_text": "MAUREEN DUFFY PAULA SCHMIT GREGORY TRATTNER film processing DELUXE FILM LABORATORIES avids provided by PIVOTAL POST digital dailies streaming provided by MEDIA.NET hi-definition dailies and conforming by LASER PACIFIC ANDRE TREJO CHAD GUNDERSON digital intermediate EFILM MIKE EAVES MIKE KENNEDY LOAN PHAN deluxe color timer KENNY BECKER music guru KATHY NELSON music clearances by CHRISTINE BERGREN music consultant JENNIFER PRAY music conducted and produced by JON BRIOM DOWNLOAD MORE. NAIJAPREY.COM BILLER",
+          "ocr_bbox": [
+            544,
+            0,
+            1268,
+            686
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_019_num05448_sim0.jpg",
+          "frame_num": 5448,
+          "ocr_text": "learances uy Crnls music consultant JENNIFER PRAY music conducted and produced by JON BRION music recorded by TOM BILLER music programming NICK VIDAR assistant to mr. brion BOBB BRUNO additional music engineers PATRICK SPAIN JASON GOSSMAN CHRIS HOLMES STEVEN RHODES DANA BOURKE REED RUDDY music orchestrated by STEVE BARTEK PETER GORDON EDGARDO SIMONE music preparation by ROBERT PUFF MUSIC orchestra contractor SIMON JAMES MUSIC, LLC music recorded at CELLO STUDIOS THE MARC SHAIMAN INSTITUTE BASTYR UNIVERSITY DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            598,
+            0,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_020_num05598_sim0.jpg",
+          "frame_num": 5598,
+          "ocr_text": "BASTYR UNIVERSITY \"EVERYBODY'S GOT TO LEARN SOMETIME\" written by James Warren performed by Beck produced by Beck and Jon Brion \"SOMETHING\" written by Richie Eaton performed by The Willowz \"KEEP ON LOOKING\" written by Richie Eaton performed by The Willowz 'TERE SANG PYAR MAIN' written by Laxmikant Pyarelal and Varma Malik/ DOWNLOAD MORE performed by Lata Mangeshkar",
+          "ocr_bbox": [
+            622,
+            45,
+            1224,
+            688
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_021_num05748_sim0.jpg",
+          "frame_num": 5748,
+          "ocr_text": "TERE SANG PYAR MAIN\" written by Laxmikant Pyarelal and Varma Malik performed by Lata Mangeshkar courtesy of Universal Music India Private Limited (Mumbai) under license from Universal Music Enterprises \"MERE MAN TERA PYASA\" written by S.D. Burman and Neeraj performed by Mohd. Rafi courtesy of Universal Music India Private Limited (Mumbai) under license from Universal Music Enterprises \"CONCERTO NO. 8 IN D MAJOR, OPUS 99\" by Charles-Auguste de Beriot courtesy of Naxos of America \"WADA NA TOD\" written by Rajesh Roshan performed by Lata Mangeshkar courtesy of Universal Music India Private Limited (MumbaiN DOWNLOAD MORE. under license from. Universal Music Enterprises",
+          "ocr_bbox": [
+            503,
+            33,
+            1225,
+            688
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_022_num05898_sim0.jpg",
+          "frame_num": 5898,
+          "ocr_text": "written by Rajesh Roshan performed by Lata Mangeshkar courtesy of Universal Music India Private Limited (Mumbai) under license from Universal Music Enterprises \"SOME KINDA SHUFFLE\" written and performed by Don Nelson courtesy of Too Cool Records \"NOLA'S BOUNCE\" written and performed by Don Nelson courtesy of Too Cool Records \"LIGHT AND DAY/ REACH FOR THE SUN\" written by Timothy DeLaughter performed by The Polyphonic Spree courtesy of Hollywood Records original motion picture soundtrack available on HOLLYWOOD DOWNLOAD MORE. RECORDSV NAIJAPREY.COM",
+          "ocr_bbox": [
+            506,
+            8,
+            1267,
+            678
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_017_scroll_023_num06048_sim0.jpg",
+          "frame_num": 6048,
+          "ocr_text": "original motion picture soundtrack available on HOLLYWOOD RECORDS read the NEWMARKET PRESS SCRIPT book special thanks to KAREN BAIRD HEIDI BIVENS GERRY ROBERT BYRNE ANNE CAREY KEVIN DILLON CYRIL DRABINSKY JULIE FONG TED HOPE WILL KEENAN LAURA KIGHTLINGER DREW KUNIN SUSAN MORSE ELLEN POMPEO VICTOR RASUK AMY ROSEN LEON SILVERMAN JOHN SREDNICKI DIANA VICTOR THE ZACK DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            550,
+            30,
+            1268,
+            676
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 24,
+      "median_flow_px_per_frame": -3.655123710632324,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -3.656109571456909,
+      "roi_percentile_flow": -3.655123710632324,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_18": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_018_scroll_000_num06122_sim0.jpg",
+          "frame_num": 6122,
+          "ocr_text": "KAREN BAIRD HEIDI BIVENS GERRY ROBERT BYRNE KEVIN DILLON CYRIL DRABINSKY LAURA KIGHTLINGER DREW KUNIN SUSAN MORSE ELLEN POMPEO VICTOR RASUK AMY ROSEN LEON SILVERMAN JOHN SREDNICKI the producers wish to thank UNIVERSAL/POLYGRAM RECORDS, PEZ, SCHYLLING TOYS JUSTIN BOOTS, ARMANI EXCHANGE, BARBOUR BETSEY JOHNSON, BIRKENSTOCK DOWNLOAD MORE ETRO, JOHN FLUEVOG, FRYE BOOTS, HUE, INGWA; MELERO, IOCKE",
+          "ocr_bbox": [
+            327,
+            36,
+            1224,
+            688
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -3.708306312561035,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -3.6960573196411133,
+      "roi_percentile_flow": -3.708306312561035,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 167,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_19": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_019_scroll_000_num06137_sim0.jpg",
+          "frame_num": 6137,
+          "ocr_text": "GERRY ROBERT BYRNE KEVIN DILLON CYRIL DRABINSKY LAURA KIGHTLINGER DREW KUNIN SUSAN MORSE ELLEN POMPEO VICTOR RASUK AMY ROSEN LEON SILVERMAN JOHN SREDNICKI THE ZACKS the producers wish to thank JUSTIN BOOTS, ARMANI EXCHANGE, BARBOUR BETSEY JOHNSON, BIRKENSTOCK BLUE PLATE, CARHARTT, CLARK'S ENGLAND, COLUMBIA, CONVERSE ETRO, JOHN FLUEVOG, FRYE BOOTS, HUE, INGWA; MELERO, JOCKEY DOWNLOAD MORE NAIJAPREY.COM",
+          "ocr_bbox": [
+            318,
+            14,
+            1267,
+            678
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_019_scroll_001_num06287_sim0.jpg",
+          "frame_num": 6287,
+          "ocr_text": "BLUE PLATE, CARHARTT, CLARK'S ENGLAND, COLUMBIA, CONVERSE ETRO, JOHN FLUEVOG, FRYE BOOTS, HUE, INGWA; MELERO, JOCKEY KAREN WALKER, LAURA MADRIGANO, LL BEAN, LIRR MAVI JEANS, NYCSUBWAYLINE.COM, NECESSARY OBJECTS, NICOLE MILLER THE NORTH FACE, ONLY HEARTS, OROBLU ITALIAN HOSIERY, PAUL FRANK PAPER DENIM CLOTH, PUMA, SCHOTT BROTHERS USA, SEIZE SUR VINGT STEVE MADDEN, VERY FINE TEES, TED BAKER, THOMAS PINK UGG AUSTRALIA, URBAN OUTFITTERS, WRANGLER CASAURI BAGS AND WALLETS JC PENNY FOR TOWNCRAFT BARNES & NOBLE COLLEGE BOOKSTORE, INC., CONCEPT 2 ROWING PLAYBILL, RUSSELL STOVER CANDY COMPANY BUMBLE & BUMBLE, CHANTECAILLE, DR. HAUSCHKA, FRESH, H\u00b2O PLUS JF LAZARTIGUE, KIEHL'S, MANIC PANIC by SNOOKY & TISH, MARIO BADESCU MOLTON BROWN of london and new york, PAUL DORF, PHYTO TONY & TINE COSMETICS, URBAN DECAY MAC, N.V. perricone, md, SESHA COSMECEUTICALS DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            226,
+            8,
+            1268,
+            677
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -3.6617534160614014,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -3.6703572273254395,
+      "roi_percentile_flow": -3.6617534160614014,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_20": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_020_scroll_000_num06435_sim0.jpg",
+          "frame_num": 6435,
+          "ocr_text": "TONY & TINE COSMETICS, URBAN DECAY MAC, N.V. perricone, md, SESHA COSMECEUTICALS custom skeleton costume designed by FRANKIE STEINZ, nyc select wardrobe provided for MS. WINSLET by EXPRESS select wardrobe courtesy of H&M, nyc SIEMEN'S MEDICAL courtesy of STERN AND ASSOCIATES LEKSELL STEREOTACTIC SYSTEM courtesy of ELEKTA INSTRUMENTS special thanks to HENRY SCHEIN MEDICAL SUPPLIES DR. GWENN SMITH, LONG ISLAND JEWISH MEDICAL CENTER ARC FLASHLIGHTS LLC., tempe, az COPY CAPS, wellfleet, ma mark lariviere painting \"weaving\" courtesy of AVAILABLE ART, nyc 'monster on campus\" and \"the munsters\" courtesy of UNIVERSAL STUDIOS LICENSING, LLLP 'red right hand\", by joel townsley rogers, courtesy of DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            353,
+            3,
+            1268,
+            677
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -3.7155373096466064,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -3.6667685508728027,
+      "roi_percentile_flow": -3.7155373096466064,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 167,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_21": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_021_scroll_000_num06556_sim0.jpg",
+          "frame_num": 6556,
+          "ocr_text": "mark lariviere painting \"weaving\" courtesy of AVAILABLE ART, nyc \"monster on campus\" and \"the munsters\" courtesy of UNIVERSAL STUDIOS LICENSING, LLLP \"red right hand\", by joel townsley rogers, courtesy of CARROLL & GRAFF PUBLISHERS and a very special thank you to NEW YORK STATE OFFICE OF PARKS RECREATION AND HISTORIC PRESERVATION THE NEW 42ND STREET, INC. and THE NEW VICTORY THEATRE THE NEW YORK CITY MAYOR'S OFFICE FOR FILM, THEATER AND BROADCASTING NYPD MOVIE & TV UNIT THE NEW YORK STATE GOVERNOR'S FILM OFFICE NEW JERSEY FILM COMMISSION MTA/METRO-NORTH RAILROAD COMPANY THE TOWN OF EAST HAMPTON, NIN DOWNLOAD MORE. NAIJAPREY.COM ANNE LOC",
+          "ocr_bbox": [
+            543,
+            6,
+            1268,
+            685
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -3.6721081733703613,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -3.607628345489502,
+      "roi_percentile_flow": -3.6721081733703613,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 169,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_22": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_022_scroll_000_num06575_sim0.jpg",
+          "frame_num": 6575,
+          "ocr_text": "UNIVERSAL STUDIOS LICENSING, LLLP 'red right hand\", by joel townsley rogers, courtesy of CARROLL & GRAFF PUBLISHERS and a very special thank you to NEW YORK STATE OFFICE OF PARKS RECREATION AND HISTORIC PRESERVATION THE NEW VICTORY THEATRE THE NEW YORK CITY MAYOR'S OFFICE FOR FILM, THEATER AND BROADCASTING NYPD MOVIE & TV UNIT NEW JERSEY FILM COMMISSION MTA/METRO-NORTH RAILROAD COMPANY THE TOWN OF EAST HAMPTON, NY BAYONNE LOCAL REDEVELOPMENT AUTHORITY AMALGAMATED DWELLINGS, IN DOWNLOAD MORE NLEAMLLY",
+          "ocr_bbox": [
+            554,
+            33,
+            1224,
+            688
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -3.720454216003418,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -3.66349720954895,
+      "roi_percentile_flow": -3.720454216003418,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 166,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_23": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_023_scroll_000_num06604_sim0.jpg",
+          "frame_num": 6604,
+          "ocr_text": "and a very special thank you to NEW YORK STATE OFFICE OF PARKS RECREATION AND HISTORIC PRESERVATION THE NEW 42ND STREET, INC. and THE NEW VICTORY THEATRE THE NEW YORK CITY MAYOR'S OFFICE FOR FILM, THEATER AND BROADCASTING NYPD MOVIE & TV UNIT THE NEW YORK STATE GOVERNOR'S FILM OFFICE NEW JERSEY FILM COMMISSION MTA/METRO-NORTH RAILROAD COMPANY THE TOWN OF EAST HAMPTON, NY BAYONNE LOCAL REDEVELOPMENT AUTHORITY AMALGAMATED DWELLINGS, INC VALENTINE MANAGEMENT & THE GOJANI FAMILY DOWNLOAD MORE NAIJAPREY.COM",
+          "ocr_bbox": [
+            543,
+            78,
+            1267,
+            678
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -3.6865012645721436,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -3.677978038787842,
+      "roi_percentile_flow": -3.6865012645721436,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 168,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_24": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_024_scroll_000_num06726_sim0.jpg",
+          "frame_num": 6726,
+          "ocr_text": "THE TOWN OF EAST HAMPTON. NY BAYONNE LOCAL REDEVELOPMENT AUTHORITY AMALGAMATED DWELLINGS. INC VALENTINE MANAGEMENT & THE GOIANI FAMILY 410 ARRI FUJIFILM DOLBY IN SELECTED THEATHES Color and Prints by deluxe THE CGIWL IEM LANOAION No. 40598 DOWNLOAD MORE. NAIJAROM",
+          "ocr_bbox": [
+            546,
+            0,
+            1268,
+            677
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_024_scroll_001_num06876_sim0.jpg",
+          "frame_num": 6876,
+          "ocr_text": "AM I R MAJE D WT VE Anonymous Content The characters and incidents portrayed and the names herein are fictious and any similarity to the name, character, or history of any actual person living or dead is entirely coincidental and unintentional This motion picture photoplay is protected pursuant to the provisions of the laws of the United States of America and DOWNLOAD MORE. other countries. Any unauthorize",
+          "ocr_bbox": [
+            638,
+            63,
+            1225,
+            672
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_024_scroll_002_num07026_sim0.jpg",
+          "frame_num": 7026,
+          "ocr_text": "protected pursuant to the provisions of the laws of the United States of America and other countries. Any unauthorized duplication, distribution and/or exhibition of this photoplay may result in civil liability and criminal prosecution. This motion picture is being exhibited under specific license and is not for sale. Focus Features, LLC is the author of this motion picture for the purpose of copyright and other laws. COPYRIGHT \u00a9 2004 FOCUS FEATURES, LLC. ALL RIGHTS RESERVED. DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            628,
+            16,
+            1268,
+            676
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_024_scroll_003_num07176_sim0.jpg",
+          "frame_num": 7176,
+          "ocr_text": "ETERNAL SUNSHINE OF THE SPOTLESS MIND DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            397,
+            609,
+            1268,
+            676
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_024_scroll_004_num07326_sim0.jpg",
+          "frame_num": 7326,
+          "ocr_text": "ETERNAL SUNSHINE OF THE SPOTLESS MIND DOWNLOAD MORE. NARO",
+          "ocr_bbox": [
+            393,
+            325,
+            1269,
+            678
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_024_scroll_005_num07476_sim0.jpg",
+          "frame_num": 7476,
+          "ocr_text": "A FOCUS FEATURES RELEASE DOWNLOAD MORE.",
+          "ocr_bbox": [
+            453,
+            245,
+            1225,
+            660
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 6,
+      "median_flow_px_per_frame": -0.7036794126033783,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": -0.7036794126033783,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 880,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_25": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_025_static_000_num07636_sim24.jpg",
+          "frame_num": 7636,
+          "ocr_text": "THIS MOTION PICTURE HAS BEEN RATED RESTRICTED R UNDER 17 REQUIRES ACCOMPANYING PARENT OR ADULT GUARDIAN BY THE CLASSIFICATION AND RATING ADMINISTRATION MOTION PICTURE ASSOCIATION OF AMERICA DOWNLOAD MORE.",
+          "ocr_bbox": [
+            259,
+            173,
+            1225,
+            658
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_025_static_001_num07648_sim98.jpg",
+          "frame_num": 7648,
+          "ocr_text": "THIS MOTION PICTURE HAS BEEN RATED RESTRICTED R UNDER 17 REQUIRES ACCOMPANYING PARENT OR ADULT GUARDIAN BY THE CLASSIFICATION AND RATING ADMINISTRATION MOTION PICTURE ASSOCIATION OF AMERICA DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            258,
+            173,
+            1267,
+            675
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.13041596114635468,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.12975507974624634,
+      "roi_percentile_flow": 0.13041596114635468,
+      "scroll_direction": null
+    },
+    "scene_26": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_27": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_027_static_000_num07790_sim45.jpg",
+          "frame_num": 7790,
+          "ocr_text": "LE VOCI Joel ROBERTO PEDICINI Clementine CHIARA COLIZZI Mary FEDERICA DE BORTOLI Stan RICCARDO ROSSI DAVIDE PERINO Patrick Mierzwiak MICHELE GAMMINO DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            406,
+            174,
+            1268,
+            676
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Eternal_Sunshine_of_the_Spotless_Mind\\analysis\\frames\\scene_027_static_001_num07910_sim46.jpg",
+          "frame_num": 7910,
+          "ocr_text": "EDIZIONE ITALIANA Societ\u00e0 di edizione CDC SEFIT GROUP Adattamento dialoghi e ROBERTO ROSSI Direzione del doppiaggio Assistente al doppiaggio ELENA MASINI Fonico di doppiaggio MARCO MELONI Fonico di mix DANILO MORONI DOWNLOAD MORE. NAIJAPREY.COM",
+          "ocr_bbox": [
+            300,
+            180,
+            1268,
+            676
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    }
+  }
+}

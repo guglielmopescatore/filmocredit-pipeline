@@ -80,23 +80,44 @@ Supported formats: `.mp4`, `.mkv`, `.avi`, `.mov`
 3. **Place**: The extracted `name.basics.tsv` file in **`FilmoCredit/db/`**
 
 #### 3. Azure AI Configuration (Required)
-The system currently works only with Azure AI models. Create a `.env` file in the **`FilmoCredit/`** root folder with your Azure credentials:
+The system supports multiple AI providers: **Azure OpenAI (GPT-4.1, GPT-5)** and **Claude (Anthropic)**. Create a `.env` file in the **`FilmoCredit/`** root folder with your credentials:
 
 ```
 📁 FilmoCredit/
-├── 📄 .env                       # ← Azure AI configuration file
+├── 📄 .env                       # ← AI provider configuration file
 ├── 📁 data/raw/                  # ← Video files
 └── 📁 db/                        # ← IMDB database
     └── name.basics.tsv
 ```
 
-The `.env` file should contain:
+We advise using Claude (Anthropic) as the primary provider due to its cost-effectiveness and performance, while keeping Azure OpenAI as a fallback.
+
+The `.env` file should contain your chosen provider credentials:
+
+##### Azure OpenAI Configuration (GPT-4.1 and GPT-5.2)
 ```env
+# Azure OpenAI Shared Key
 AZURE_OPENAI_KEY=your_azure_openai_key
-AZURE_OPENAI_ENDPOINT=your_azure_endpoint
-AZURE_OPENAI_API_VERSION=2023-12-01-preview
-AZURE_OPENAI_DEPLOYMENT_NAME=your_deployment_name
+AZURE_API_VERSION=2025-03-01-preview
+
+# GPT-4.1 Configuration
+GPT_4_1_AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com/
+GPT_4_1_AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4.1
+
+# GPT-5 Configuration (Optional)
+GPT_5_AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com/openai/v1
+GPT_5_AZURE_OPENAI_DEPLOYMENT_NAME=gpt-5.2
 ```
+
+##### Claude (Anthropic) Configuration
+```env
+# Claude via Anthropic Foundry
+CLAUDE_API_KEY=your_claude_api_key
+CLAUDE_MODEL_DEPLOYMENT_NAME=claude-sonnet-4-5
+CLAUDE_ENDPOINT=https://your-resource.openai.azure.com/anthropic
+```
+
+**Note**: You can configure multiple providers and the system will auto-select the best available option, or you can manually choose in the application settings.
 
 ## 🔄 Updates
 

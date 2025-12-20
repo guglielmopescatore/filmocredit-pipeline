@@ -1,0 +1,76 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Chernobyl_S01E01_Opening\\analysis\\frames\\scene_000_static_000_num00030_sim0.jpg",
+          "frame_num": 30,
+          "ocr_text": "Sky presents",
+          "ocr_bbox": [
+            806,
+            453,
+            1115,
+            516
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_Opening\\analysis\\frames\\scene_000_static_001_num00135_sim19.jpg",
+          "frame_num": 135,
+          "ocr_text": "in association with HBO Miniseries",
+          "ocr_bbox": [
+            555,
+            461,
+            1356,
+            509
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_Opening\\analysis\\frames\\scene_000_static_002_num00195_sim96.jpg",
+          "frame_num": 195,
+          "ocr_text": "in association n with HBO Miniseries",
+          "ocr_bbox": [
+            556,
+            460,
+            1357,
+            508
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_Opening\\analysis\\frames\\scene_000_static_003_num00255_sim41.jpg",
+          "frame_num": 255,
+          "ocr_text": "A Sister Pictures production",
+          "ocr_bbox": [
+            626,
+            454,
+            1284,
+            513
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Chernobyl_S01E01_Opening\\analysis\\frames\\scene_000_static_004_num00375_sim58.jpg",
+          "frame_num": 375,
+          "ocr_text": "A Mighty Mint production",
+          "ocr_bbox": [
+            651,
+            450,
+            1260,
+            521
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    }
+  }
+}

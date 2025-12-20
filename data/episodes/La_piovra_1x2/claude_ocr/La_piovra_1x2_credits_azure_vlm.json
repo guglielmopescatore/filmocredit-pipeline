@@ -1,0 +1,467 @@
+[
+  {
+    "role_detail": "presenta",
+    "name": "La RAI RADIOTELEVISIONE ITALIANA",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_009_static_000_num00297_sim100.jpg"
+    ],
+    "original_frame_number": [
+      297
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "soggetto di",
+    "name": "Nicola Badalucco",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_010_static_000_num00543_sim17.jpg"
+    ],
+    "original_frame_number": [
+      543
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "elaborato da",
+    "name": "Lucio Battistrada",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_010_static_000_num00543_sim17.jpg"
+    ],
+    "original_frame_number": [
+      543
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "elaborato da",
+    "name": "Massimo De Rita",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_010_static_000_num00543_sim17.jpg"
+    ],
+    "original_frame_number": [
+      543
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "sceneggiatura di",
+    "name": "Ennio De Concini",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_010_static_001_num00675_sim37.jpg"
+    ],
+    "original_frame_number": [
+      675
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "con",
+    "name": "Michele Placido",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_002_num00771_sim35.jpg"
+    ],
+    "original_frame_number": [
+      771
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Barbara De Rossi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_004_num00867_sim26.jpg"
+    ],
+    "original_frame_number": [
+      867
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Nicole Jamet",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_005_num00975_sim29.jpg"
+    ],
+    "original_frame_number": [
+      975
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Angelo Infanti",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_006_num01071_sim38.jpg"
+    ],
+    "original_frame_number": [
+      1071
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Pino Colizzi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_007_num01167_sim31.jpg"
+    ],
+    "original_frame_number": [
+      1167
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Renato Mori",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_008_num01275_sim43.jpg"
+    ],
+    "original_frame_number": [
+      1275
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Massimo Bonetti",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_009_num01359_sim38.jpg"
+    ],
+    "original_frame_number": [
+      1359
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Eurilla Del Bono",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_010_num01455_sim28.jpg"
+    ],
+    "original_frame_number": [
+      1455
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Cariddi Nardulli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_010_num01455_sim28.jpg"
+    ],
+    "original_frame_number": [
+      1455
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Michele Abruzzo",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_010_num01455_sim28.jpg"
+    ],
+    "original_frame_number": [
+      1455
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Geoffrey Copleston",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_011_num01563_sim38.jpg"
+    ],
+    "original_frame_number": [
+      1563
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Jacques Dacqmine",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_011_num01563_sim38.jpg"
+    ],
+    "original_frame_number": [
+      1563
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Paul Guers",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_011_num01563_sim38.jpg"
+    ],
+    "original_frame_number": [
+      1563
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "con",
+    "name": "Flavio Bucci",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_014_num01671_sim23.jpg"
+    ],
+    "original_frame_number": [
+      1671
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Olga Camastra",
+    "name": "Florinda Bolkan",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_016_num01767_sim76.jpg"
+    ],
+    "original_frame_number": [
+      1767
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "avv. Terrasini",
+    "name": "François Perier",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_010_static_018_num01887_sim98.jpg"
+    ],
+    "original_frame_number": [
+      1887
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "direttore della fotografia",
+    "name": "Nino Celeste",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_010_static_020_num01971_sim73.jpg"
+    ],
+    "original_frame_number": [
+      1971
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "scenografo",
+    "name": "Umberto Turco",
+    "role_group": "Production Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Designers",
+    "source_frame": [
+      "scene_010_static_021_num02055_sim34.jpg"
+    ],
+    "original_frame_number": [
+      2055
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "montaggio",
+    "name": "Enzo Meniconi",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_010_static_022_num02139_sim42.jpg"
+    ],
+    "original_frame_number": [
+      2139
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "aiuto regista",
+    "name": "Enrico Bergier",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_010_static_023_num02223_sim39.jpg"
+    ],
+    "original_frame_number": [
+      2223
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "direttore di produzione",
+    "name": "Diego Alchimede",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_010_static_025_num02367_sim85.jpg"
+    ],
+    "original_frame_number": [
+      2367
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "musica composta e diretta da",
+    "name": "Riz Ortolani",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_010_static_026_num02391_sim34.jpg"
+    ],
+    "original_frame_number": [
+      2391
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "delegato RAI al programma",
+    "name": "Claudia Aloisi",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_011_static_001_num02706_sim71.jpg"
+    ],
+    "original_frame_number": [
+      2706
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "una produzione",
+    "name": "ESCORT CINE TV",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_011_static_006_num02802_sim100.jpg"
+    ],
+    "original_frame_number": [
+      2802
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "organizzata da",
+    "name": "Bruno Turchetto",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_011_static_006_num02802_sim100.jpg"
+    ],
+    "original_frame_number": [
+      2802
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "regia",
+    "name": "Damiano Damiani",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_012_scroll_000_num02957_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2957
+    ],
+    "scene_position": "second_half"
+  }
+]

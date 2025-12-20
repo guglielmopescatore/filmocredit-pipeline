@@ -1,0 +1,6656 @@
+[
+  {
+    "role_detail": "présentent",
+    "name": "Claude Ossard",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_006_static_001_num00582_sim97.jpg"
+    ],
+    "original_frame_number": [
+      582
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "présentent",
+    "name": "UGC",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_006_static_001_num00582_sim97.jpg"
+    ],
+    "original_frame_number": [
+      582
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Une coproduction",
+    "name": "Victoires Productions",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_007_static_001_num00711_sim96.jpg"
+    ],
+    "original_frame_number": [
+      711
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Une coproduction",
+    "name": "Tapioca Films",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_007_static_001_num00711_sim96.jpg"
+    ],
+    "original_frame_number": [
+      711
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Une coproduction",
+    "name": "France 3 Cinéma",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_007_static_001_num00711_sim96.jpg"
+    ],
+    "original_frame_number": [
+      711
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Une coproduction",
+    "name": "MMC Independent GmbH",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_007_static_001_num00711_sim96.jpg",
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      711,
+      10701
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "avec la collaboration de la Sofica",
+    "name": "Sofinergie 5",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_static_003_num00747_sim99.jpg"
+    ],
+    "original_frame_number": [
+      747
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "et le soutien de la",
+    "name": "Filmstiftung NRW GmbH",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_static_003_num00747_sim99.jpg"
+    ],
+    "original_frame_number": [
+      747
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "avec la participation de",
+    "name": "Canal+",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_static_004_num00831_sim34.jpg"
+    ],
+    "original_frame_number": [
+      831
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Audrey Mathieu",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_022_static_000_num02416_sim90.jpg"
+    ],
+    "original_frame_number": [
+      2416
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Taubon Kassovitz",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_022_static_000_num02416_sim90.jpg"
+    ],
+    "original_frame_number": [
+      2416
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Le Fabuleux Destin d'Amélie Poulain",
+    "name": "Amélie Poulain",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_023_static_000_num02457_sim31.jpg"
+    ],
+    "original_frame_number": [
+      2457
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Scénario",
+    "name": "Guillaume Laurant",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_026_static_001_num02642_sim100.jpg",
+      "scene_027_static_001_num02748_sim63.jpg"
+    ],
+    "original_frame_number": [
+      2642,
+      2748
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Scénario",
+    "name": "Jean-Pierre Jeunet",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_026_static_001_num02642_sim100.jpg"
+    ],
+    "original_frame_number": [
+      2642
+    ],
+    "scene_position": "first_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Casting",
+    "name": "Pierre-Jacques Benichou",
+    "role_group": "Casting Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Directors",
+    "source_frame": [
+      "scene_030_static_001_num02925_sim100.jpg"
+    ],
+    "original_frame_number": [
+      2925
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Décor",
+    "name": "Aline Bonetto",
+    "role_group": "Production Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Designers",
+    "source_frame": [
+      "scene_035_static_000_num03130_sim31.jpg"
+    ],
+    "original_frame_number": [
+      3130
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Directeur de la photographie",
+    "name": "Bruno Delbonnel",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_036_scroll_000_num03197_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3197
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Maquillage",
+    "name": "Nathalie Tissier",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_038_scroll_000_num03297_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3297
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Coiffure",
+    "name": "John Nollet",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_038_scroll_001_num03391_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3391
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Coiffure",
+    "name": "Véronique Boitout",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_038_scroll_001_num03391_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3391
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Son",
+    "name": "Jean Umansky",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_043_static_000_num03599_sim37.jpg"
+    ],
+    "original_frame_number": [
+      3599
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Son",
+    "name": "Sophie Chiabaut",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_043_static_000_num03599_sim37.jpg"
+    ],
+    "original_frame_number": [
+      3599
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Montage",
+    "name": "Hervé Schneid",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_046_static_000_num03735_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3735
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Montage son",
+    "name": "Gérard Hardy",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_049_static_001_num03922_sim66.jpg"
+    ],
+    "original_frame_number": [
+      3922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Effets sonores",
+    "name": "Laurent Kossayan",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_049_static_001_num03922_sim66.jpg"
+    ],
+    "original_frame_number": [
+      3922
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Premier assistant",
+    "name": "Christophe Vassort",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_051_static_000_num04035_sim35.jpg"
+    ],
+    "original_frame_number": [
+      4035
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Scripte",
+    "name": "Anne Wermellinger",
+    "role_group": "Script and Continuity Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Script and Continuity Department",
+    "source_frame": [
+      "scene_051_static_001_num04095_sim47.jpg"
+    ],
+    "original_frame_number": [
+      4095
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Directeur de production",
+    "name": "Jean-Marc Deschamps",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_056_static_001_num04399_sim85.jpg"
+    ],
+    "original_frame_number": [
+      4399
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Régie",
+    "name": "Alain Mougenot",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_056_static_001_num04399_sim85.jpg"
+    ],
+    "original_frame_number": [
+      4399
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Produit par",
+    "name": "Claudie Ossard",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_058_scroll_000_num04603_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4603
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Un film de",
+    "name": "Jean-Pierre Jeunet",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_061_static_000_num04775_sim98.jpg"
+    ],
+    "original_frame_number": [
+      4775
+    ],
+    "scene_position": "first_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": null,
+    "name": "Audrey Tautou",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_001_num04988_sim24.jpg"
+    ],
+    "original_frame_number": [
+      4988
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Mathieu Kassovitz",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_002_num05060_sim33.jpg"
+    ],
+    "original_frame_number": [
+      5060
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Rufus",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_004_num05132_sim84.jpg"
+    ],
+    "original_frame_number": [
+      5132
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Lorella Cravotta",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_004_num05132_sim84.jpg"
+    ],
+    "original_frame_number": [
+      5132
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Serge Merlin",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_005_num05192_sim29.jpg"
+    ],
+    "original_frame_number": [
+      5192
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Jamel Debbouze",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_005_num05192_sim29.jpg"
+    ],
+    "original_frame_number": [
+      5192
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Clotilde Mollet",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_007_num05276_sim98.jpg"
+    ],
+    "original_frame_number": [
+      5276
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Claire Maurier",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_007_num05276_sim98.jpg"
+    ],
+    "original_frame_number": [
+      5276
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Isabelle Nanty",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_009_num05348_sim73.jpg"
+    ],
+    "original_frame_number": [
+      5348
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Dominique Pinon",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_009_num05348_sim73.jpg"
+    ],
+    "original_frame_number": [
+      5348
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Artus de Penguern",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_011_num05432_sim61.jpg"
+    ],
+    "original_frame_number": [
+      5432
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Yolande Moreau",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_011_num05432_sim61.jpg"
+    ],
+    "original_frame_number": [
+      5432
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Urbain Cancelier",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_012_num05504_sim37.jpg"
+    ],
+    "original_frame_number": [
+      5504
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Maurice Bénichou",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_012_num05504_sim37.jpg"
+    ],
+    "original_frame_number": [
+      5504
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Michel Robin",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_014_num05600_sim98.jpg"
+    ],
+    "original_frame_number": [
+      5600
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Andrée Damant",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_014_num05600_sim98.jpg"
+    ],
+    "original_frame_number": [
+      5600
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Claude Perron",
+    "name": "Claude Perron",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_016_num05660_sim44.jpg"
+    ],
+    "original_frame_number": [
+      5660
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Armelle",
+    "name": "Armelle",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_016_num05660_sim44.jpg"
+    ],
+    "original_frame_number": [
+      5660
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "avec la participation de",
+    "name": "Tichy Holgado",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_017_num05744_sim41.jpg"
+    ],
+    "original_frame_number": [
+      5744
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Flora",
+    "name": "Guiet",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_018_num05816_sim27.jpg"
+    ],
+    "original_frame_number": [
+      5816
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Amaury Babault",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_018_num05816_sim27.jpg"
+    ],
+    "original_frame_number": [
+      5816
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Kevin Fernandes",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_022_num05864_sim72.jpg"
+    ],
+    "original_frame_number": [
+      5864
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Avec la voix de",
+    "name": "André Dussollier",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_063_static_025_num05912_sim88.jpg"
+    ],
+    "original_frame_number": [
+      5912
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "avec",
+    "name": "Eugène Berthier",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_064_static_000_num06027_sim40.jpg",
+      "scene_066_scroll_000_num06065_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6027,
+      6065
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "avec",
+    "name": "Eugène Roles",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_064_static_000_num06027_sim40.jpg"
+    ],
+    "original_frame_number": [
+      6027
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "petites mains du générique",
+    "name": "Marion Pressburger",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_066_scroll_000_num06065_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6065
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "l'homme à la vespasienne",
+    "name": "Charles-Roger Bour",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_066_scroll_000_num06065_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6065
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "l'épicier d'Amandine",
+    "name": "Luc Palun",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_066_scroll_000_num06065_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6065
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "la femme dans le coma",
+    "name": "Fabienne Chaudat",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_000_num06152_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6152
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "le voisin d'Amélie",
+    "name": "Dominique Bettenfeld",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_000_num06152_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6152
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "le client qui humilie son ami",
+    "name": "Jacques Viala",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_000_num06152_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6152
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "le client humilié",
+    "name": "Fabien Behar",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_000_num06152_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6152
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "le fils du client humilié",
+    "name": "Jonathan Joss",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_000_num06152_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6152
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "le clochard",
+    "name": "Jean-Pierre Becker",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_000_num06152_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6152
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "l'aveugle",
+    "name": "Jean Darie",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_000_num06152_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6152
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "le client aux endives",
+    "name": "Thierry Gibault",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_000_num06152_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6152
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "son copain",
+    "name": "François Bercovici",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_001_num06302_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6302
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Dominique Bredoteau jeune",
+    "name": "Franck Monier",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_001_num06302_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6302
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "le S.D.F.",
+    "name": "Guillaume Viry",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_001_num06302_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6302
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Dominique Bredoteau femme",
+    "name": "Valérie Zarrouk",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_001_num06302_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6302
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "la concierge du mort",
+    "name": "Marie-Laure Descoureaux",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_001_num06302_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6302
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "la Tante Josette",
+    "name": "Sophie Tellier",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_001_num06302_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6302
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "l'instituteur",
+    "name": "Gerald Weingand",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_001_num06302_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6302
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "le patron du bistrot",
+    "name": "François Viaur",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_001_num06302_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6302
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "son employée",
+    "name": "Paule Dare",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_001_num06302_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6302
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "l'inconnu des photomatons",
+    "name": "Marc Amyot",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_001_num06302_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6302
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "la cliente du tabac",
+    "name": "Myriam Labbé",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_001_num06302_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6302
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "l'opéré des cloisons nasales",
+    "name": "Jean Rupert",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_001_num06302_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6302
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "la marchande de journaux",
+    "name": "Frankie Pain",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_001_num06302_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6302
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "une cliente de l'épicerie",
+    "name": "Julianna Kovacs",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_002_num06452_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6452
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "le contrôleur du train",
+    "name": "Philippe Paimblanc",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_002_num06452_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6452
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "les jumelles",
+    "name": "Mady et Monette Malroux",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_002_num06452_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6452
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "le client du café",
+    "name": "Robert Gendreu",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_002_num06452_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6452
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "la femme qui rit",
+    "name": "Valeriane De Villeneuve",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_002_num06452_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6452
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Samantha",
+    "name": "Isis Peyrade",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_002_num06452_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6452
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "la caissière du train fantôme",
+    "name": "Raymonde Heudeline",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_002_num06452_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6452
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "la femme près du manège",
+    "name": "Christiane Bopp",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_002_num06452_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6452
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "l'homme statue",
+    "name": "Thierry Arfeuilleres",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_002_num06452_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6452
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "le petit garçon du Sacré-Cœur",
+    "name": "Jerry Lucas",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_002_num06452_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6452
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "le souffleur de rue",
+    "name": "Patrick Paroux",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_002_num06452_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6452
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "le facteur de la concierge",
+    "name": "François Aubineau",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_002_num06452_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6452
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "le facteur de Poulain",
+    "name": "Philippe Beautier",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_067_scroll_002_num06452_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6452
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "la jolie fille du rendez-vous",
+    "name": "Karine Asure",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_068_scroll_000_num06580_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6580
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Félix L'Herbier",
+    "name": "Regis Iacono",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_068_scroll_000_num06580_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6580
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Palace Video",
+    "name": "Franck-Olivier Bonnet",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_068_scroll_000_num06580_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6580
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "le mari de la concierge",
+    "name": "Alain Floret",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_068_scroll_000_num06580_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6580
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Jacques Grosjean",
+    "name": "Jean-Pol Brissart",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_068_scroll_000_num06580_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6580
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Frédéric Mitterand",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_068_scroll_000_num06580_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6580
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Directeur de post-production",
+    "name": "Lionel Kopp",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_068_scroll_000_num06580_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6580
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Avec la collaboration de",
+    "name": "Sophie Vermersch",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_068_scroll_001_num06730_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6730
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Avec la collaboration de",
+    "name": "Céline de Seynes",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_068_scroll_001_num06730_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6730
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Deuxième assistant à la réalisation",
+    "name": "Pascal Roy",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_068_scroll_001_num06730_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6730
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaires",
+    "name": "Thomas Parnet",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_068_scroll_001_num06730_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6730
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaires",
+    "name": "Juliette Binaud",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_068_scroll_001_num06730_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6730
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Repérages",
+    "name": "Aude Lemercier",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_068_scroll_001_num06730_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6730
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Repérages",
+    "name": "José Sako",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_068_scroll_001_num06730_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6730
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Photographe",
+    "name": "François Paumard",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_068_scroll_001_num06730_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6730
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Créateur des personnages animés",
+    "name": "Michael Sowa",
+    "role_group": "Animation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Animation Department",
+    "source_frame": [
+      "scene_068_scroll_001_num06730_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6730
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Attachée de Presse",
+    "name": "Isabelle Sauvanon",
+    "role_group": "Publicity",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Publicity",
+    "source_frame": [
+      "scene_068_scroll_001_num06730_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6730
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Documentaliste",
+    "name": "Véronique Lambert de Guise",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_068_scroll_001_num06730_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6730
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Album de Photomatons",
+    "name": "Ludovic Lecouteux",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_000_num06760_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6760
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "D'après la collection originale de",
+    "name": "Michel Folco",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_000_num06760_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6760
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Affiches murales",
+    "name": "Thiery",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_001_num06910_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6910
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Storyboard",
+    "name": "Luc Desportes",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_001_num06910_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6910
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Animaliers",
+    "name": "Patrick Pitavino",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_001_num06910_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6910
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Animaliers",
+    "name": "Valentine Aupetit",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_001_num06910_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6910
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Figuration",
+    "name": "Alberte Garo",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_069_scroll_001_num06910_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6910
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Enfants",
+    "name": "Valérie Espagne",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_069_scroll_001_num06910_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6910
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistante enfants",
+    "name": "Patricia Van",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_069_scroll_001_num06910_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6910
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Cascades physiques",
+    "name": "Patrick Cauderlier",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_069_scroll_001_num06910_sim0.jpg"
+    ],
+    "original_frame_number": [
+      6910
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Cascades physiques",
+    "name": "Rémi Canaple",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_069_scroll_002_num07060_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7060
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Cascades physiques",
+    "name": "Pascaline Girardot",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_069_scroll_002_num07060_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7060
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Cascades voitures",
+    "name": "Jean-Claude Lagniez",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_069_scroll_002_num07060_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7060
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Cascades voitures",
+    "name": "Sébastien Lagniez",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_069_scroll_002_num07060_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7060
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Cascades voitures",
+    "name": "Sébastien Seveau",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_069_scroll_002_num07060_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7060
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Technicien Photomaton",
+    "name": "Sébastien Guyomard",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_002_num07060_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7060
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Directeur financier",
+    "name": "Gilles Caussade",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_069_scroll_002_num07060_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7060
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Administratrice de production",
+    "name": "Nicole Heitzmann",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_069_scroll_002_num07060_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7060
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Secrétaire de production",
+    "name": "Marie-Laure Compain",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_069_scroll_002_num07060_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7060
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Régisseurs adjoints",
+    "name": "Nicolas Davy",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_069_scroll_002_num07060_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7060
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Régisseurs adjoints",
+    "name": "Eric Duchene",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_069_scroll_002_num07060_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7060
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Régisseur de plateau",
+    "name": "Christophe Antonin",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_069_scroll_003_num07210_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7210
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaires",
+    "name": "Nadia Le Bayon",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_003_num07210_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7210
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaires",
+    "name": "Zuzanna Noirbert",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_003_num07210_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7210
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaires",
+    "name": "Stéphane Lefebvre",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_003_num07210_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7210
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaires",
+    "name": "Christophe Henry",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_003_num07210_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7210
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaires",
+    "name": "Cyril Dusseaux",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_003_num07210_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7210
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Photographe de plateau",
+    "name": "Bruno Calvo",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_003_num07210_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7210
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "1er assistant",
+    "name": "Matthieu Bastid",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_003_num07210_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7210
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "2e assistant",
+    "name": "Christophe Perotin",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_003_num07210_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7210
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant vidéo",
+    "name": "Ludovic Simeon",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_003_num07210_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7210
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Renforts",
+    "name": "Béatrice Mizrahi",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_003_num07210_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7210
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistée de",
+    "name": "Georgi Lazarevsky",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_004_num07360_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7360
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Cameraman manivelle",
+    "name": "Dominique Colin",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_004_num07360_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7360
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistée de",
+    "name": "Thierry Tronchet",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_004_num07360_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7360
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Steadycam",
+    "name": "Patrick de Ranter",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_004_num07360_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7360
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Renfort",
+    "name": "Jorg Widmer",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_004_num07360_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7360
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Chef machiniste",
+    "name": "Bruno Dubet",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_004_num07360_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7360
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Machinistes",
+    "name": "Robert Dona",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_004_num07360_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7360
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Machinistes",
+    "name": "Dominique Lepage",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_004_num07360_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7360
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Machinistes",
+    "name": "Laurent Thiery",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_004_num07360_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7360
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Renfort",
+    "name": "Thomas Sidopoulos",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_004_num07360_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7360
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Chefs électriciens",
+    "name": "Jim Howe",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_004_num07360_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7360
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Chefs électriciens",
+    "name": "Michel Sabourdy",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_004_num07360_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7360
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Électriciens",
+    "name": "Olivier Cazzitti",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_004_num07360_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7360
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Électriciens",
+    "name": "Yves Quehec",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_005_num07510_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7510
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Électriciens",
+    "name": "Yves Kohen",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_005_num07510_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7510
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Électriciens",
+    "name": "Joël Spinola",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_005_num07510_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7510
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Électriciens",
+    "name": "Jean-Christophe Duwez",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_005_num07510_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7510
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaire",
+    "name": "Sophie Mollard",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_005_num07510_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7510
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Groupiste",
+    "name": "Éric Dupressoir",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_069_scroll_005_num07510_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7510
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Costumières",
+    "name": "Emma Lebail",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_069_scroll_005_num07510_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7510
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistantes",
+    "name": "Véronique Elise",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_069_scroll_005_num07510_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7510
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistantes",
+    "name": "Sylvie Bello",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_069_scroll_005_num07510_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7510
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaire",
+    "name": "Clémentine Darros",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_005_num07510_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7510
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Renforts maquillage",
+    "name": "Dominique Galichet",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_069_scroll_005_num07510_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7510
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Renforts maquillage",
+    "name": "Karina Gruais",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_069_scroll_006_num07660_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7660
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Renforts maquillage",
+    "name": "Vesna Estord",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_069_scroll_006_num07660_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7660
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Renforts coiffure",
+    "name": "Virginie Duranteau",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_069_scroll_006_num07660_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7660
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Renforts coiffure",
+    "name": "Myriam Roger",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_069_scroll_006_num07660_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7660
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Renforts coiffure",
+    "name": "Reynald Desbant",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_069_scroll_006_num07660_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7660
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Renforts coiffure",
+    "name": "Lorenzo Belliot",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_069_scroll_006_num07660_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7660
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "1er assistant",
+    "name": "Mathieu Junot",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_006_num07660_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7660
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "1e assistante Allemagne",
+    "name": "Delphine Mabed",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_006_num07660_sim0.jpg",
+      "scene_069_scroll_008_num07960_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7660,
+      7960
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Ensemblière",
+    "name": "Marie-Laure Valla",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_006_num07660_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7660
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Régisseurs d'extérieurs",
+    "name": "Jacques Pelissier",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_069_scroll_006_num07660_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7660
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Régisseurs d'extérieurs",
+    "name": "Marc Lehingrat",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_069_scroll_006_num07660_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7660
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Rippeur",
+    "name": "Marc Rovere",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_069_scroll_006_num07660_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7660
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaire",
+    "name": "Hélène Rey",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_006_num07660_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7660
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Chef constructeur",
+    "name": "Alain Guais",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_007_num07810_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7810
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Chef menuisier",
+    "name": "Daniel Feret",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_007_num07810_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7810
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Menuisiers",
+    "name": "Laurent Colet",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_007_num07810_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7810
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Menuisiers",
+    "name": "Olivier Delpy",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_007_num07810_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7810
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaire",
+    "name": "Olivier Chalifour",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_007_num07810_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7810
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Sculpteur",
+    "name": "Stéphane Chauvet",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_007_num07810_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7810
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Chef peintre",
+    "name": "Fabrice Maux",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_007_num07810_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7810
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Peintres patineurs",
+    "name": "Jean-Marc Auriol",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_007_num07810_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7810
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Peintres patineurs",
+    "name": "Martine Veille",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_007_num07810_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7810
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Peintres patineurs",
+    "name": "Didier Guyard",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_007_num07810_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7810
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Peintres du \"Déjeuner des Canotiers\" de Renoir",
+    "name": "Michèle Bataille",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_008_num07960_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7960
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Peintres du \"Déjeuner des Canotiers\" de Renoir",
+    "name": "Pascale Boillot",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_008_num07960_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7960
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Accessoiriste",
+    "name": "François Borgeaud",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_069_scroll_008_num07960_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7960
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Effets spéciaux",
+    "name": "Les Versaillais",
+    "role_group": "Special Effects Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Special Effects Companies",
+    "source_frame": [
+      "scene_069_scroll_008_num07960_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7960
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Effets spéciaux",
+    "name": "Jean-Baptiste Bonetto",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_069_scroll_008_num07960_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7960
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Effets spéciaux",
+    "name": "Noël Chainbaux",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_069_scroll_008_num07960_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7960
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Effets spéciaux",
+    "name": "Yves Domenjoud",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_069_scroll_008_num07960_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7960
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Effets spéciaux",
+    "name": "Olivier Gleyze",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_069_scroll_008_num07960_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7960
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Effets spéciaux",
+    "name": "Daniel Lenoir",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_069_scroll_008_num07960_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7960
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Effets spéciaux",
+    "name": "Thierry Reymonenq",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_069_scroll_008_num07960_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7960
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Factices",
+    "name": "Denis Gastou",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_008_num07960_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7960
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Factices",
+    "name": "Jean-Christophe Spadaccini",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_069_scroll_008_num07960_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7960
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Conseillers armes",
+    "name": "Christophe Maratier",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_069_scroll_008_num07960_sim0.jpg"
+    ],
+    "original_frame_number": [
+      7960
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Conseillers armes",
+    "name": "Stéphane Bourdon",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_069_scroll_009_num08110_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8110
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Administratrice adjointe",
+    "name": "Corinne Saglio",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_069_scroll_009_num08110_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8110
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Secrétaire de production",
+    "name": "Chantal Begasse",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_069_scroll_009_num08110_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8110
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistante de production",
+    "name": "Svetlana Novak",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_069_scroll_009_num08110_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8110
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Chauffeur de production",
+    "name": "Patrick Herbil",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_069_scroll_009_num08110_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8110
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Organisateur de fêtes",
+    "name": "Frédéric Daugeron",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_009_num08110_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8110
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistante monteur",
+    "name": "Céline Kelepikis",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_069_scroll_009_num08110_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8110
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaire",
+    "name": "Amandine Marou",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_069_scroll_009_num08110_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8110
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Prémontage archives",
+    "name": "Yann Malcor",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_069_scroll_009_num08110_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8110
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Coloriste numérique",
+    "name": "Didier Leforest",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "scene_069_scroll_010_num08260_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8260
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Consultant couleur",
+    "name": "Yvan Lucas",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "scene_069_scroll_010_num08260_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8260
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant Télécinéma",
+    "name": "Michael Belin",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_069_scroll_010_num08260_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8260
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Monteur dialogues",
+    "name": "Alexandre Widmer",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_069_scroll_010_num08260_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8260
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Co-Mixeur",
+    "name": "Guillaume Leriche",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_069_scroll_010_num08260_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8260
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Bruiteur",
+    "name": "Jean-Pierre Lelong",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_069_scroll_010_num08260_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8260
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant bruiteur",
+    "name": "Mario Melchiorri",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_069_scroll_010_num08260_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8260
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistante monteur son",
+    "name": "Marilena Cavola Hardy",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_069_scroll_010_num08260_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8260
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistant créateur sonore",
+    "name": "Igor Thomas Gerard",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_069_scroll_011_num08410_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8410
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Repiquage",
+    "name": "Franck Mettre",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_069_scroll_011_num08410_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8410
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Post-synchro",
+    "name": "Michel Filippi",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_069_scroll_011_num08410_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8410
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistants",
+    "name": "Jean-Philippe Angelini",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_069_scroll_011_num08410_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8410
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistants",
+    "name": "Stéphane de Rocquigny",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_069_scroll_011_num08410_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8410
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Perchman",
+    "name": "Jean-Louis Le Bras",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_069_scroll_011_num08410_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8410
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Producteur exécutif musique",
+    "name": "Jacques Smerlak",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_069_scroll_011_num08410_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8410
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Consultant musical",
+    "name": "Édouard Dubois",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_069_scroll_011_num08410_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8410
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Effets spéciaux numériques",
+    "name": "Duboi",
+    "role_group": "Special Effects Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Special Effects Companies",
+    "source_frame": [
+      "scene_069_scroll_011_num08410_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8410
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Producteur exécutif",
+    "name": "Antoine Simkine",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_070_scroll_000_num08442_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8442
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Superviseur tournage",
+    "name": "Thomas Duval",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_070_scroll_000_num08442_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8442
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Directeur de production",
+    "name": "Édouard Valton",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_070_scroll_000_num08442_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8442
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Chargées de projets",
+    "name": "Delphine Le Roch",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_071_scroll_000_num08483_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8483
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Chargées de projets",
+    "name": "Séverine de Wever",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_071_scroll_000_num08483_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8483
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Chef de projet compositing",
+    "name": "Xavier Fourmond",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_071_scroll_000_num08483_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8483
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Chef de projet 3D",
+    "name": "Jean-Paul Rovela",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_071_scroll_000_num08483_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8483
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Retouches Matador",
+    "name": "Marco Paccosi",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_072_scroll_000_num08500_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8500
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Retouches Matador",
+    "name": "Solenn Collignon",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_073_scroll_000_num08569_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8569
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes compositing \"Dubruc\"",
+    "name": "Loïc Bouineau",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_073_scroll_000_num08569_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8569
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes compositing \"Dubruc\"",
+    "name": "André Brizard",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_073_scroll_000_num08569_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8569
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes compositing \"Dubruc\"",
+    "name": "Thierry Delobel",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_073_scroll_000_num08569_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8569
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes compositing \"Dubruc\"",
+    "name": "Stéphane Dittoo",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_073_scroll_000_num08569_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8569
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes compositing \"Dubruc\"",
+    "name": "Alexandre Kolasinski",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_073_scroll_000_num08569_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8569
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes compositing \"Dubruc\"",
+    "name": "Jeremy Le Roux",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_073_scroll_000_num08569_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8569
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes compositing \"Dubruc\"",
+    "name": "Patricia Medjahed",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_074_scroll_000_num08648_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8648
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes compositing \"Dubruc\"",
+    "name": "Georges Tornero",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_074_scroll_000_num08648_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8648
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes compositing \"Dubruc\"",
+    "name": "Daniel Trujillo Chinchina",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_074_scroll_000_num08648_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8648
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistés de",
+    "name": "Lucie Bories",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_074_scroll_000_num08648_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8648
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistés de",
+    "name": "Leïla Dixmir",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_074_scroll_000_num08648_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8648
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistés de",
+    "name": "Yann Gonsard",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_074_scroll_000_num08648_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8648
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistés de",
+    "name": "Mathieu Le Meur",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_074_scroll_000_num08648_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8648
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes 3D Matte painting",
+    "name": "Bruno Le Provost",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_074_scroll_000_num08648_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8648
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes 3D Matte painting",
+    "name": "Jean-Marie Vives",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_074_scroll_000_num08648_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8648
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes 3D Matte painting",
+    "name": "Olivier Bevillon",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_074_scroll_000_num08648_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8648
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes 3D Matte painting",
+    "name": "Stéphanie Dargent",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_074_scroll_000_num08648_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8648
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes 3D Matte painting",
+    "name": "Morgann Sagel",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_075_scroll_000_num08672_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8672
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes 3D Matte painting",
+    "name": "Véronique Zilberfain",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_075_scroll_000_num08672_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8672
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Graphistes 3D Matte painting",
+    "name": "Pierre Villette",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_075_scroll_000_num08672_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8672
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Recherche et développement",
+    "name": "Stéphane Deverly",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_076_scroll_000_num08690_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8690
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Recherche et développement",
+    "name": "Olivier Tubach",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_077_scroll_000_num08718_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8718
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Recherche et développement",
+    "name": "Laurent Clavier",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_077_scroll_000_num08718_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8718
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Typo",
+    "name": "Marc Bruckert",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_077_scroll_001_num08868_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8868
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Typo",
+    "name": "Julien Janiszewski",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_077_scroll_001_num08868_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8868
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Laboratoire numérique",
+    "name": "Duboicolor",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_077_scroll_001_num08868_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8868
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Directeur technique",
+    "name": "Rip Hampton O'Neil",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_077_scroll_001_num08868_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8868
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Directeur des productions",
+    "name": "Tommaso Vergallo",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_077_scroll_001_num08868_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8868
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assisté de",
+    "name": "Aurore Ader",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_077_scroll_001_num08868_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8868
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assisté de",
+    "name": "Laure Fourmental",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_077_scroll_001_num08868_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8868
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Coordinateur du projet",
+    "name": "Jérôme Arthuis",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_077_scroll_001_num08868_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8868
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Numérisation et conformation",
+    "name": "Christophe Belena",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_077_scroll_001_num08868_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8868
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Numérisation et conformation",
+    "name": "Tina Lin",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_077_scroll_001_num08868_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8868
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Numérisation et conformation",
+    "name": "Guillaume Uguet",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_077_scroll_001_num08868_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8868
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Traitement numérique",
+    "name": "François Dupuy",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_078_scroll_000_num08943_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8943
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Traitement numérique",
+    "name": "Abdel Ali Kassou",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_078_scroll_000_num08943_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8943
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Traitement numérique",
+    "name": "Nicolas Pele",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_078_scroll_000_num08943_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8943
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Traitement numérique",
+    "name": "Alexandre Jeanneret",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_078_scroll_000_num08943_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8943
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Transfert vidéo",
+    "name": "Christophe Cottet",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_078_scroll_000_num08943_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8943
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Responsable de l'argentique",
+    "name": "Coralie Boulay",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_078_scroll_000_num08943_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8943
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaires",
+    "name": "Nicolas Nicole",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_078_scroll_000_num08943_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8943
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaires",
+    "name": "Gaël Exilie",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_078_scroll_000_num08943_sim0.jpg"
+    ],
+    "original_frame_number": [
+      8943
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaires",
+    "name": "Déborah Goigoux",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_079_scroll_000_num09021_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9021
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Producteur",
+    "name": "Arne Meerkamp van Embden",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_079_scroll_000_num09021_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9021
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Directeur de production",
+    "name": "Marc Grewe",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_079_scroll_000_num09021_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9021
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Administratrice de production",
+    "name": "Eva Neufahrt",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_079_scroll_000_num09021_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9021
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistante de production",
+    "name": "Claudia Dummer-Manasse",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_079_scroll_000_num09021_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9021
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Secrétaire de production",
+    "name": "Karen Mitrega",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_080_scroll_000_num09038_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9038
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "2ᵉ assistant à la réalisation",
+    "name": "Dinah Rauenbusch",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_081_scroll_000_num09065_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9065
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Chef décorateur",
+    "name": "Volker Schaefer",
+    "role_group": "Production Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Designers",
+    "source_frame": [
+      "scene_081_scroll_000_num09065_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9065
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistants décorateurs",
+    "name": "Thorsten Sabel",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_082_scroll_000_num09142_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9142
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistants décorateurs",
+    "name": "Petra Klimek",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_082_scroll_000_num09142_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9142
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistants décorateurs",
+    "name": "Daniel Kolarov",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_082_scroll_000_num09142_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9142
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistants décorateurs",
+    "name": "Dagmar Wessel",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_082_scroll_000_num09142_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9142
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Chef Constructeur",
+    "name": "Stefan Quentin",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_082_scroll_000_num09142_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9142
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Constructeurs",
+    "name": "John Rawsthorn",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_082_scroll_000_num09142_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9142
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Constructeurs",
+    "name": "Wolfgang Gobsberg",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_082_scroll_000_num09142_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9142
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Constructeurs",
+    "name": "Onkel Tuka",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_083_scroll_000_num09181_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9181
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Constructeurs",
+    "name": "Gregor Hees",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_083_scroll_000_num09181_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9181
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistante accessoiriste",
+    "name": "Kerstin Krötz",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_083_scroll_000_num09181_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9181
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Accessoiristes de plateau",
+    "name": "Jorg Bergen",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_083_scroll_001_num09331_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9331
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Accessoiristes de plateau",
+    "name": "Ralf Schwamborn",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_083_scroll_001_num09331_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9331
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistants caméra",
+    "name": "Sandra Oumar",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_083_scroll_001_num09331_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9331
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assistants caméra",
+    "name": "Stefan De Leuw",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_083_scroll_001_num09331_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9331
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Électriciens",
+    "name": "Thomas Brügge",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_083_scroll_001_num09331_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9331
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Électriciens",
+    "name": "Timo Von Burgsdorf",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_083_scroll_001_num09331_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9331
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Électriciens",
+    "name": "Vlasta Kostic",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_083_scroll_001_num09331_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9331
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Électriciens",
+    "name": "Marc Von Kuk",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_083_scroll_001_num09331_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9331
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Machinistes",
+    "name": "Kenneth Cornilse",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_083_scroll_001_num09331_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9331
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Machinistes",
+    "name": "Tim Liehr",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_083_scroll_001_num09331_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9331
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaires",
+    "name": "Torsten Schneider",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_083_scroll_001_num09331_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9331
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaires",
+    "name": "Frank Niermann",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_083_scroll_001_num09331_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9331
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaires",
+    "name": "Mark Voit",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_083_scroll_002_num09481_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9481
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stagiaires",
+    "name": "Robert Spika",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_083_scroll_002_num09481_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9481
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Caméras et Objectifs",
+    "name": "Technovision",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_083_scroll_002_num09481_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9481
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Pellicule",
+    "name": "Kodak",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_083_scroll_002_num09481_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9481
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Télécinéma",
+    "name": "Duran",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_083_scroll_002_num09481_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9481
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Laboratoire",
+    "name": "Éclair",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_083_scroll_002_num09481_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9481
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Auditorium",
+    "name": "Auditoriums De Boulogne",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_083_scroll_002_num09481_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9481
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Matériel électrique",
+    "name": "Transpalux",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_083_scroll_002_num09481_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9481
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Matériel machinerie",
+    "name": "Car Grip",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_083_scroll_002_num09481_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9481
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Matériel machinerie",
+    "name": "Panavision Alga",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_083_scroll_002_num09481_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9481
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Matériel machinerie",
+    "name": "Cinesyl",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_083_scroll_002_num09481_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9481
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Matériel son - Repiquage",
+    "name": "D C A",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_083_scroll_002_num09481_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9481
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Banc-titre",
+    "name": "Ercidan",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_083_scroll_002_num09481_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9481
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Location véhicules techniques",
+    "name": "P L S",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_083_scroll_002_num09481_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9481
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Loges",
+    "name": "Eric Le Mouel",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_084_scroll_000_num09496_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9496
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Studio France",
+    "name": "Cosmos - Studio Sets",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_084_scroll_000_num09496_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9496
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Photomatons",
+    "name": "Photomaton S.A.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_084_scroll_001_num09646_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9646
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Casting",
+    "name": "Studios La Cour",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_084_scroll_001_num09646_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9646
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Matériel vidéo",
+    "name": "Tatou Location - Manganelli",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_084_scroll_001_num09646_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9646
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Matériel montage image",
+    "name": "Artistic Palace - Lumiere Unique",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_084_scroll_001_num09646_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9646
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Projecteur numérique",
+    "name": "Christie",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_084_scroll_001_num09646_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9646
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Publicité",
+    "name": "Marques Et Films",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_084_scroll_001_num09646_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9646
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Cantine",
+    "name": "Locafete",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_084_scroll_001_num09646_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9646
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Assurances",
+    "name": "SGAC Bellan",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_084_scroll_001_num09646_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9646
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stock-shots",
+    "name": "Pathé - Images Bank - France 2 Television",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_084_scroll_001_num09646_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9646
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stock-shots",
+    "name": "Arkeion - Lobster - I.N.A. - Davenport Films",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_084_scroll_001_num09646_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9646
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stock-shots",
+    "name": "MK2 - Les Films Du Carrosse - Chertok Associates - BBC",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_084_scroll_001_num09646_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9646
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Stock-shots",
+    "name": "Film Images - April - Presse Sport - Trans World International, Inc.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_085_scroll_000_num09747_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9747
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Tous les morceaux sont composés & interprétés par",
+    "name": "Yann Tiersen",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_085_scroll_000_num09747_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9747
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "(P) Ici d'ailleurs - Labels/Virgin France",
+    "name": "Labels/Virgin France",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_085_scroll_000_num09747_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9747
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "LES JOURS TRISTES",
+    "name": "H.Hamon",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_086_scroll_000_num09764_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9764
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "LES JOURS TRISTES",
+    "name": "Y.Tiersen",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_086_scroll_000_num09764_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9764
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "NAOMI",
+    "name": "A.Ginsberg",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_086_scroll_000_num09764_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9764
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "LES JOURS TRISTES",
+    "name": "Éditions C.BOURGEOIS",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_087_scroll_000_num09861_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9861
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "LES JOURS TRISTES",
+    "name": "Ici d'ailleurs",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_087_scroll_000_num09861_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9861
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "LES JOURS TRISTES",
+    "name": "BMG Music Publishing France",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_087_scroll_000_num09861_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9861
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "QUIMPER 94",
+    "name": "Sony ATV Publishing France",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_087_scroll_000_num09861_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9861
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Musique originale enregistrée par",
+    "name": "Stéphane KRAMER",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_087_scroll_000_num09861_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9861
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Musique originale enregistrée par",
+    "name": "Didier LIZÉ",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_087_scroll_000_num09861_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9861
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "2000 Victoires Productions",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_087_scroll_000_num09861_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9861
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WHISPERING",
+    "name": "M. Schonberger",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_000_num09967_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9967
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WHISPERING",
+    "name": "J. Schonberger",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_000_num09967_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9967
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "ADAGIO POUR CORDES",
+    "name": "S. Barber",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_000_num09967_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9967
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WHISPERING",
+    "name": "Sherman Clay",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_000_num09967_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9967
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WHISPERING",
+    "name": "Miller Music",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_000_num09967_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9967
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WHISPERING",
+    "name": "Capella Istropolitana",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_000_num09967_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9967
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WHISPERING / ADAGIO POUR CORDES",
+    "name": "BMG Music Vision",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_000_num09967_sim0.jpg",
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9967,
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WHISPERING / ADAGIO POUR CORDES",
+    "name": "K Musik/Naxos",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_000_num09967_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9967
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Distribution",
+    "name": "Kapagama",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_000_num09967_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9967
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Distribution",
+    "name": "HHH International",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_000_num09967_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9967
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Distribution",
+    "name": "Naive",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_000_num09967_sim0.jpg"
+    ],
+    "original_frame_number": [
+      9967
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WITH A SONG IN MY HEART",
+    "name": "Richard Rodgers",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WITH A SONG IN MY HEART",
+    "name": "Lorenz Hart",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "GUILTY",
+    "name": "G. Kahn",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "GUILTY",
+    "name": "R.A. Whiting",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "GUILTY",
+    "name": "H. Akst",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WITH A SONG IN MY HEART / GUILTY",
+    "name": "EMJ Catalogue Partnership",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg",
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117,
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WITH A SONG IN MY HEART / GUILTY",
+    "name": "EMJ Joist Catalogue Inc.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WITH A SONG IN MY HEART / GUILTY",
+    "name": "Warner Chappell Music France S.A.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "WITH A SONG IN MY HEART / GUILTY",
+    "name": "EMJ Music Publishing France s.a.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "SWEET AND LOVELY",
+    "name": "C. Daniels",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "SWEET AND LOVELY",
+    "name": "H. Tobias",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "SWEET AND LOVELY",
+    "name": "G. Arnheim",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "DANCING IN THE DARK",
+    "name": "Howard Dietz",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "DANCING IN THE DARK",
+    "name": "Arthur Shwartz",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "SWEET AND LOVELY / DANCING IN THE DARK",
+    "name": "EMJ Robbins Catalogue Inc.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg",
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117,
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "SWEET AND LOVELY / DANCING IN THE DARK",
+    "name": "Warner Chappell Music France s.a.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "CIRIBIRIBIN",
+    "name": "R. Wootton",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg",
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117,
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "FIRE",
+    "name": "J. Shaindlin",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "CIRIBIRIBIN / FIRE",
+    "name": "Carlin Music",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg",
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117,
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "CIRIBIRIBIN",
+    "name": "Cinemusic/Metropark Music",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "CIRIBIRIBIN / FIRE",
+    "name": "K Musik/Carlin",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg",
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117,
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "FIRE",
+    "name": "K Musik/Cine Music",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_001_num10117_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10117
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "BROUILLARD",
+    "name": "Georges Delerue",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "GOT A DATE WITH AN ANGEL",
+    "name": "Clifford Grey",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "GOT A DATE WITH AN ANGEL",
+    "name": "Sonny Miller",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "GOT A DATE WITH AN ANGEL",
+    "name": "Joseph Tunbridge",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "GOT A DATE WITH AN ANGEL",
+    "name": "Jack Waller",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "BROUILLARD / GOT A DATE WITH AN ANGEL",
+    "name": "François Truffaut",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "BROUILLARD / GOT A DATE WITH AN ANGEL",
+    "name": "Jules et Jim",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "GOT A DATE WITH AN ANGEL",
+    "name": "Chappell Music Ltd",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "GOT A DATE WITH AN ANGEL",
+    "name": "1962 Éditions Musicales Safi",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "GOT A DATE WITH AN ANGEL",
+    "name": "Warner Chapell Music France s.a.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "FATHER LITTLE DIVENDED",
+    "name": "A. Sendrey",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "ROSE DU SUD",
+    "name": "J. Strauss",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "FATHER LITTLE DIVENDED / ROSE DU SUD",
+    "name": "EMJ Catalogue Partnership France",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "SI TU N'ÉTAIS PAS LÀ",
+    "name": "P. Bayle",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "SI TU N'ÉTAIS PAS LÀ",
+    "name": "G. Claret",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "SI TU N'ÉTAIS PAS LÀ",
+    "name": "Music 2/15-30 Music",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "SI TU N'ÉTAIS PAS LÀ",
+    "name": "1934 Éditions Salabert",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_002_num10267_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10267
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "THE CHILD",
+    "name": "Alex Gophar",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "THE CHILD",
+    "name": "B. Holiday",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "THE CHILD",
+    "name": "A. Herzog Jr",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "THE CHILD",
+    "name": "Alexis Latrobe",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "THE CHILD",
+    "name": "Edward B Marks/Song",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "THE CHILD",
+    "name": "Song",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "THE CHILD",
+    "name": "1999 Disques Solid",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "THE CHILD",
+    "name": "U2 Music",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "THE CHILD",
+    "name": "Disques Solid",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "The Child",
+    "name": "Billie Holiday",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "God Bless The Child",
+    "name": "Arthur Herzog Jr",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "God Bless The Child",
+    "name": "Edward B.Marks Music Inc",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "God Bless The Child",
+    "name": "MCA Records",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "God Bless The Child",
+    "name": "Universal Music Special projects France",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Musique originale disponible en CD chez Labels",
+    "name": "Labels",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_090_scroll_003_num10417_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10417
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "BUREAU PARISIEN DU FILM - MAIRIE DE PARIS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_091_scroll_000_num10448_sim0.jpg",
+      "scene_093_scroll_000_num10534_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10448,
+      10534
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Nous remercions particulièrement",
+    "name": "Christian MARGUERIE",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_092_scroll_000_num10490_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10490
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Nous remercions particulièrement",
+    "name": "Juarez MACHADO",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_092_scroll_000_num10490_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10490
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Nous remercions particulièrement",
+    "name": "Frédérique GIBERT",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_093_scroll_000_num10534_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10534
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Nous remercions particulièrement",
+    "name": "Rudy GALINDO",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_093_scroll_000_num10534_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10534
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Nous remercions particulièrement",
+    "name": "Michael A. ROSENBERG",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_093_scroll_000_num10534_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10534
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "LA PRÉFECTURE DE POLICE DE PARIS - LE COMMISSARIAT CENTRAL DU XVIIIe et M. ANICET",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_093_scroll_000_num10534_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10534
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "FRANCE TELECOM MOBILES - R.A.T.P - TOTHEME 54, Mme HO, Mme NONIN et M. CROS",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_094_scroll_000_num10551_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10551
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "France RAIL PUBLICITE et M. HAUBENSACK - LA GARE DE L'EST, M. SOUVERAIN ET M. FORIÉ",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_094_scroll_000_num10551_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10551
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "LA GARE DU NORD, M. HAINS et CHAMOULAUD",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "M. et Mme DELATTRE",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "LES DEUX MOULINS, M. et Mme LABBE",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "M. LANGLOIS et L'ASSOCIATION DES COMMERÇANTS DE LA RUE LEPIC",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "COSTUMES ET COSTUMES",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "\"LE VERRE A PIED\", M. DERRIEN",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "\"AU MARCHÉ DE LA BUTTE\", M. MDOUGHY",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Cabinet JEAN CHARPENTIER",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Maison SAINT PHILIPPE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "F&M ASSOCIÉS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "CORINNE SARRUT",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "I.D.C. \"Internationnal Design Creation\"",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "SOCIÉTÉ CASTRES-DONABEDIAN",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": null,
+    "name": "SOCIÉTÉ OMEGA",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Ventes internationales",
+    "name": "UGC INTERNATIONAL",
+    "role_group": "Sales Representatives / ISA",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Sales Representatives / ISA",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Coproduction",
+    "name": "VICTOIRES PRODUCTIONS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Coproduction",
+    "name": "TAPIOCA FILMS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  },
+  {
+    "role_detail": "Coproduction",
+    "name": "FRANCE 3 CINEMA",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_094_scroll_001_num10701_sim0.jpg"
+    ],
+    "original_frame_number": [
+      10701
+    ],
+    "scene_position": "second_half"
+  }
+]

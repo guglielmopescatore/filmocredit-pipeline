@@ -1,0 +1,1614 @@
+{
+    "episode_id": "Hill_Street_Blues_1x13",
+    "status": "error",
+    "error": "OpenCV(4.10.0) d:\\a\\opencv-python\\opencv-python\\opencv\\modules\\imgproc\\src\\color.simd_helpers.hpp:94: error: (-2:Unspecified error) in function '__cdecl cv::impl::`anonymous-namespace'::CvtHelper<struct cv::impl::`anonymous namespace'::Set<1,-1,-1>,struct cv::impl::A0x85adec04::Set<3,4,-1>,struct cv::impl::A0x85adec04::Set<0,2,5>,4>::CvtHelper(const class cv::_InputArray &,const class cv::_OutputArray &,int)'\n> Unsupported depth of input image:\n>     'VDepth::contains(depth)'\n> where\n>     'depth' is 6 (CV_64F)\n",
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 16,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:00:00.667",
+            "duration_frames": 16,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "FILL STREET BLUES"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 0,
+                    "ocr_text": "FILL STREET BLUES",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_0_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 1,
+            "original_start_frame": 16,
+            "original_end_frame": 65,
+            "original_start_timecode": "00:00:00.667",
+            "original_end_timecode": "00:00:02.711",
+            "duration_frames": 49,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "HiLl STREET BLUES"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 18,
+                    "ocr_text": "HiLl STREET BLUES",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_first_half_frame_18_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 65,
+            "original_end_frame": 180,
+            "original_start_timecode": "00:00:02.711",
+            "original_end_timecode": "00:00:07.508",
+            "duration_frames": 115,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "HiLl STrEET BLUES"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 70,
+                    "ocr_text": "HiLl STrEET BLUES",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_first_half_frame_70_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 4,
+            "original_start_frame": 309,
+            "original_end_frame": 405,
+            "original_start_timecode": "00:00:12.889",
+            "original_end_timecode": "00:00:16.894",
+            "duration_frames": 96,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Starring DANIEL J. TRAVANTI"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 313,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 318,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 323,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 328,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 333,
+                    "ocr_text": "Starring DANIEL J. TRAVANTI",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_004_first_half_frame_333_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 313: No text found (CLAHE)",
+                "Frame 318: No text found (CLAHE)",
+                "Frame 323: No text found (CLAHE)",
+                "Frame 328: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 5,
+            "original_start_frame": 405,
+            "original_end_frame": 450,
+            "original_start_timecode": "00:00:16.894",
+            "original_end_timecode": "00:00:18.771",
+            "duration_frames": 45,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "LICE WNAREA"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 407,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 409,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 411,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 414,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 416,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 418,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 420,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 423,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 425,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 427,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 429,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 432,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 434,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 436,
+                    "ocr_text": "LICE WNAREA",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_005_first_half_frame_436_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 407: No text found (CLAHE)",
+                "Frame 409: No text found (CLAHE)",
+                "Frame 411: No text found (CLAHE)",
+                "Frame 414: No text found (CLAHE)",
+                "Frame 416: No text found (CLAHE)",
+                "Frame 418: No text found (CLAHE)",
+                "Frame 420: No text found (CLAHE)",
+                "Frame 423: No text found (CLAHE)",
+                "Frame 425: No text found (CLAHE)",
+                "Frame 427: No text found (CLAHE)",
+                "Frame 429: No text found (CLAHE)",
+                "Frame 432: No text found (CLAHE)",
+                "Frame 434: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 6,
+            "original_start_frame": 450,
+            "original_end_frame": 534,
+            "original_start_timecode": "00:00:18.771",
+            "original_end_timecode": "00:00:22.275",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "LICE WNAREA"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 454,
+                    "ocr_text": "LICE WNAREA",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_006_first_half_frame_454_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 8,
+            "original_start_frame": 584,
+            "original_end_frame": 667,
+            "original_start_timecode": "00:00:24.360",
+            "original_end_timecode": "00:00:27.822",
+            "duration_frames": 83,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "MICHAEL WARREN"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 588,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 592,
+                    "ocr_text": "MICHAEL WARREN",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_008_first_half_frame_592_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 588: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 9,
+            "original_start_frame": 667,
+            "original_end_frame": 719,
+            "original_start_timecode": "00:00:27.822",
+            "original_end_timecode": "00:00:29.991",
+            "duration_frames": 52,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Sigir"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 669,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 672,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 674,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 677,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 680,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 682,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 685,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 687,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 690,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 693,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 695,
+                    "ocr_text": "Sigir",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_009_first_half_frame_695_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 669: No text found (CLAHE)",
+                "Frame 672: No text found (CLAHE)",
+                "Frame 674: No text found (CLAHE)",
+                "Frame 677: No text found (CLAHE)",
+                "Frame 680: No text found (CLAHE)",
+                "Frame 682: No text found (CLAHE)",
+                "Frame 685: No text found (CLAHE)",
+                "Frame 687: No text found (CLAHE)",
+                "Frame 690: No text found (CLAHE)",
+                "Frame 693: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 10,
+            "original_start_frame": 719,
+            "original_end_frame": 805,
+            "original_start_timecode": "00:00:29.991",
+            "original_end_timecode": "00:00:33.579",
+            "duration_frames": 86,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "BRUCE WEITZ"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 723,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 727,
+                    "ocr_text": "BRUCE WEITZ",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_010_first_half_frame_727_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 723: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 12,
+            "original_start_frame": 847,
+            "original_end_frame": 930,
+            "original_start_timecode": "00:00:35.331",
+            "original_end_timecode": "00:00:38.793",
+            "duration_frames": 83,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "JAMES B. SIKKING"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 851,
+                    "ocr_text": "JAMES B. SIKKING",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_012_first_half_frame_851_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 13,
+            "original_start_frame": 930,
+            "original_end_frame": 1014,
+            "original_start_timecode": "00:00:38.793",
+            "original_end_timecode": "00:00:42.297",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "JOE SPANO"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 934,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 938,
+                    "ocr_text": "JOE SPANO",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_013_first_half_frame_938_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 934: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 14,
+            "original_start_frame": 1014,
+            "original_end_frame": 1098,
+            "original_start_timecode": "00:00:42.297",
+            "original_end_timecode": "00:00:45.800",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "BARBARA BOSSON"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1018,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1022,
+                    "ocr_text": "BARBARA BOSSON",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_014_first_half_frame_1022_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 1018: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 15,
+            "original_start_frame": 1098,
+            "original_end_frame": 1182,
+            "original_start_timecode": "00:00:45.800",
+            "original_end_timecode": "00:00:49.304",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "RO POLICE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1102,
+                    "ocr_text": "RO POLICE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_015_first_half_frame_1102_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 16,
+            "original_start_frame": 1182,
+            "original_end_frame": 1266,
+            "original_start_timecode": "00:00:49.304",
+            "original_end_timecode": "00:00:52.808",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "KIEL MARTIN"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1186,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1190,
+                    "ocr_text": "KIEL MARTIN",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_016_first_half_frame_1190_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 1186: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 17,
+            "original_start_frame": 1266,
+            "original_end_frame": 1350,
+            "original_start_timecode": "00:00:52.808",
+            "original_end_timecode": "00:00:56.312",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "RENE ENRIQUEZ"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1270,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1274,
+                    "ocr_text": "RENE ENRIQUEZ",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_017_first_half_frame_1274_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 1270: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 18,
+            "original_start_frame": 1350,
+            "original_end_frame": 1426,
+            "original_start_timecode": "00:00:56.312",
+            "original_end_timecode": "00:00:59.482",
+            "duration_frames": 76,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "BETTY THOMAS"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1353,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1357,
+                    "ocr_text": "BETTY THOMAS",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_018_first_half_frame_1357_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 1353: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 19,
+            "original_start_frame": 1426,
+            "original_end_frame": 1510,
+            "original_start_timecode": "00:00:59.482",
+            "original_end_timecode": "00:01:02.986",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "CHARLES HAID AS RENKO"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1430,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1434,
+                    "ocr_text": "CHARLES HAID AS RENKO",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_019_first_half_frame_1434_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 1430: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 20,
+            "original_start_frame": 1510,
+            "original_end_frame": 1611,
+            "original_start_timecode": "00:01:02.986",
+            "original_end_timecode": "00:01:07.199",
+            "duration_frames": 101,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "AND VERONICA HAMEL AS JOYCE DAVENPORT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1515,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1520,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1525,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1530,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1535,
+                    "ocr_text": "AND VERONICA HAMEL AS JOYCE DAVENPORT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_020_first_half_frame_1535_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 1515: No text found (CLAHE)",
+                "Frame 1520: No text found (CLAHE)",
+                "Frame 1525: No text found (CLAHE)",
+                "Frame 1530: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 21,
+            "original_start_frame": 1611,
+            "original_end_frame": 1720,
+            "original_start_timecode": "00:01:07.199",
+            "original_end_timecode": "00:01:11.746",
+            "duration_frames": 109,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "FOLCE METRO"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1616,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1621,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1627,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1632,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1638,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1643,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1649,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1654,
+                    "ocr_text": "FOLCE METRO",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_021_first_half_frame_1654_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 1616: No text found (CLAHE)",
+                "Frame 1621: No text found (CLAHE)",
+                "Frame 1627: No text found (CLAHE)",
+                "Frame 1632: No text found (CLAHE)",
+                "Frame 1638: No text found (CLAHE)",
+                "Frame 1643: No text found (CLAHE)",
+                "Frame 1649: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 24,
+            "original_start_frame": 2389,
+            "original_end_frame": 2802,
+            "original_start_timecode": "00:01:39.652",
+            "original_end_timecode": "00:01:56.879",
+            "duration_frames": 413,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Guest Starring BARBARA BABCOCK"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2409,
+                    "ocr_text": "Guest Starring BARBARA BABCOCK",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_024_second_half_frame_2409_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 31,
+            "original_start_frame": 3350,
+            "original_end_frame": 3371,
+            "original_start_timecode": "00:02:19.737",
+            "original_end_timecode": "00:02:20.613",
+            "duration_frames": 21,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Written ALAN RACHINS"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3351,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3352,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3353,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3354,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3355,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3356,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3357,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3358,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3359,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3360,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3361,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3362,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3363,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3364,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3365,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3366,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 3367,
+                    "ocr_text": "Written ALAN RACHINS",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_031_second_half_frame_3367_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 3351: No text found (CLAHE)",
+                "Frame 3352: No text found (CLAHE)",
+                "Frame 3353: No text found (CLAHE)",
+                "Frame 3354: No text found (CLAHE)",
+                "Frame 3355: No text found (CLAHE)",
+                "Frame 3356: No text found (CLAHE)",
+                "Frame 3357: No text found (CLAHE)",
+                "Frame 3358: No text found (CLAHE)",
+                "Frame 3359: No text found (CLAHE)",
+                "Frame 3360: No text found (CLAHE)",
+                "Frame 3361: No text found (CLAHE)",
+                "Frame 3362: No text found (CLAHE)",
+                "Frame 3363: No text found (CLAHE)",
+                "Frame 3364: No text found (CLAHE)",
+                "Frame 3365: No text found (CLAHE)",
+                "Frame 3366: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 32,
+            "original_start_frame": 3371,
+            "original_end_frame": 3718,
+            "original_start_timecode": "00:02:20.613",
+            "original_end_timecode": "00:02:35.088",
+            "duration_frames": 347,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Written by ALAN RACHINS"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3388,
+                    "ocr_text": "Written by ALAN RACHINS",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_032_second_half_frame_3388_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 33,
+            "original_start_frame": 3718,
+            "original_end_frame": 3779,
+            "original_start_timecode": "00:02:35.088",
+            "original_end_timecode": "00:02:37.632",
+            "duration_frames": 61,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Story Editor ANTHONY YERKOVICH"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3721,
+                    "ocr_text": "Story Editor ANTHONY YERKOVICH",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_033_second_half_frame_3721_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 34,
+            "original_start_frame": 3779,
+            "original_end_frame": 3995,
+            "original_start_timecode": "00:02:37.632",
+            "original_end_timecode": "00:02:46.642",
+            "duration_frames": 216,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Co-Starring GEORGE DICKERSON Swanson IRENADU BARRY Rosa Calletano LYNN WHITFIELD Jill Thomas GELA JACOBSON Debbie Kaplan"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 3789,
+                    "ocr_text": "Co-Starring GEORGE DICKERSON Swanson IRENADU BARRY Rosa Calletano LYNN WHITFIELD Jill Thomas GELA JACOBSON Debbie Kaplan",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_034_second_half_frame_3789_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 35,
+            "original_start_frame": 3995,
+            "original_end_frame": 4135,
+            "original_start_timecode": "00:02:46.642",
+            "original_end_timecode": "00:02:52.482",
+            "duration_frames": 140,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Editors TOMSTEVENS JOSEPH H. TERRILL,A.C.E. Post Production Supervisor TED RICH"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4002,
+                    "ocr_text": "Editors TOMSTEVENS JOSEPH H. TERRILL,A.C.E. Post Production Supervisor TED RICH",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_035_second_half_frame_4002_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 36,
+            "original_start_frame": 4135,
+            "original_end_frame": 4255,
+            "original_start_timecode": "00:02:52.482",
+            "original_end_timecode": "00:02:57.487",
+            "duration_frames": 120,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Set Decorator VAMES G.CANE Men's Costumer BOB HARRIS. JR. KARENHUDSON Women's Costumer Makeop Artist BOB WESTMORELAND Hair Stylist ELLEN POWELL Second Unit Photography -ANDREW M. COSTIKYAN"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4141,
+                    "ocr_text": "Set Decorator VAMES G.CANE Men's Costumer BOB HARRIS. JR. KARENHUDSON Women's Costumer Makeop Artist BOB WESTMORELAND Hair Stylist ELLEN POWELL Second Unit Photography -ANDREW M. COSTIKYAN",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_036_second_half_frame_4141_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 37,
+            "original_start_frame": 4255,
+            "original_end_frame": 4359,
+            "original_start_timecode": "00:02:57.487",
+            "original_end_timecode": "00:03:01.825",
+            "duration_frames": 104,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Assistant Editor LAURA SINGER-WOLF Re-Recording GLEN GLENN SOUND JOHN REITZ Music Editor LA DA PRODUCTIONS ALLAN K. ROSEN JIM WEIDMAN Sound Editor HORTA EDITORIAL SAM HORTA Camera and Lenses by PANAVISION"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4260,
+                    "ocr_text": "Assistant Editor LAURA SINGER-WOLF Re-Recording GLEN GLENN SOUND JOHN REITZ Music Editor LA DA PRODUCTIONS ALLAN K. ROSEN JIM WEIDMAN Sound Editor HORTA EDITORIAL SAM HORTA Camera and Lenses by PANAVISION",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_037_second_half_frame_4260_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 38,
+            "original_start_frame": 4359,
+            "original_end_frame": 4384,
+            "original_start_timecode": "00:03:01.825",
+            "original_end_timecode": "00:03:02.868",
+            "duration_frames": 25,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "T M M"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4360,
+                    "ocr_text": "M M",
+                    "ocr_error": null
+                },
+                {
+                    "frame_number": 4361,
+                    "ocr_text": "T M M",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_038_second_half_frame_4361_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 39,
+            "original_start_frame": 4384,
+            "original_end_frame": 4428,
+            "original_start_timecode": "00:03:02.868",
+            "original_end_timecode": "00:03:04.704",
+            "duration_frames": 44,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "MTM AN MTM ENTERPRISES PRODUCTION"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4386,
+                    "ocr_text": "MTM AN MTM ENTERPRISES PRODUCTION",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_039_second_half_frame_4386_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 16,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:00.667",
+            "duration_frames": 16,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 16,
+            "end_frame": 65,
+            "start_timecode": "00:00:00.667",
+            "end_timecode": "00:00:02.711",
+            "duration_frames": 49,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 65,
+            "end_frame": 180,
+            "start_timecode": "00:00:02.711",
+            "end_timecode": "00:00:07.508",
+            "duration_frames": 115,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 180,
+            "end_frame": 309,
+            "start_timecode": "00:00:07.508",
+            "end_timecode": "00:00:12.889",
+            "duration_frames": 129,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 309,
+            "end_frame": 405,
+            "start_timecode": "00:00:12.889",
+            "end_timecode": "00:00:16.894",
+            "duration_frames": 96,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 405,
+            "end_frame": 450,
+            "start_timecode": "00:00:16.894",
+            "end_timecode": "00:00:18.771",
+            "duration_frames": 45,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 6,
+            "start_frame": 450,
+            "end_frame": 534,
+            "start_timecode": "00:00:18.771",
+            "end_timecode": "00:00:22.275",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 7,
+            "start_frame": 534,
+            "end_frame": 584,
+            "start_timecode": "00:00:22.275",
+            "end_timecode": "00:00:24.360",
+            "duration_frames": 50,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 8,
+            "start_frame": 584,
+            "end_frame": 667,
+            "start_timecode": "00:00:24.360",
+            "end_timecode": "00:00:27.822",
+            "duration_frames": 83,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 9,
+            "start_frame": 667,
+            "end_frame": 719,
+            "start_timecode": "00:00:27.822",
+            "end_timecode": "00:00:29.991",
+            "duration_frames": 52,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 10,
+            "start_frame": 719,
+            "end_frame": 805,
+            "start_timecode": "00:00:29.991",
+            "end_timecode": "00:00:33.579",
+            "duration_frames": 86,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 11,
+            "start_frame": 805,
+            "end_frame": 847,
+            "start_timecode": "00:00:33.579",
+            "end_timecode": "00:00:35.331",
+            "duration_frames": 42,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 12,
+            "start_frame": 847,
+            "end_frame": 930,
+            "start_timecode": "00:00:35.331",
+            "end_timecode": "00:00:38.793",
+            "duration_frames": 83,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 13,
+            "start_frame": 930,
+            "end_frame": 1014,
+            "start_timecode": "00:00:38.793",
+            "end_timecode": "00:00:42.297",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 14,
+            "start_frame": 1014,
+            "end_frame": 1098,
+            "start_timecode": "00:00:42.297",
+            "end_timecode": "00:00:45.800",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 15,
+            "start_frame": 1098,
+            "end_frame": 1182,
+            "start_timecode": "00:00:45.800",
+            "end_timecode": "00:00:49.304",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 16,
+            "start_frame": 1182,
+            "end_frame": 1266,
+            "start_timecode": "00:00:49.304",
+            "end_timecode": "00:00:52.808",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 17,
+            "start_frame": 1266,
+            "end_frame": 1350,
+            "start_timecode": "00:00:52.808",
+            "end_timecode": "00:00:56.312",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 18,
+            "start_frame": 1350,
+            "end_frame": 1426,
+            "start_timecode": "00:00:56.312",
+            "end_timecode": "00:00:59.482",
+            "duration_frames": 76,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 19,
+            "start_frame": 1426,
+            "end_frame": 1510,
+            "start_timecode": "00:00:59.482",
+            "end_timecode": "00:01:02.986",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 20,
+            "start_frame": 1510,
+            "end_frame": 1611,
+            "start_timecode": "00:01:02.986",
+            "end_timecode": "00:01:07.199",
+            "duration_frames": 101,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 21,
+            "start_frame": 1611,
+            "end_frame": 1720,
+            "start_timecode": "00:01:07.199",
+            "end_timecode": "00:01:11.746",
+            "duration_frames": 109,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 22,
+            "start_frame": 1720,
+            "end_frame": 1759,
+            "start_timecode": "00:01:11.746",
+            "end_timecode": "00:01:13.373",
+            "duration_frames": 39,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 23,
+            "start_frame": 1759,
+            "end_frame": 1762,
+            "start_timecode": "00:01:13.373",
+            "end_timecode": "00:01:13.498",
+            "duration_frames": 3,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 24,
+            "start_frame": 1762,
+            "end_frame": 2389,
+            "start_timecode": "00:01:13.498",
+            "end_timecode": "00:01:39.652",
+            "duration_frames": 627,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 25,
+            "start_frame": 2389,
+            "end_frame": 2802,
+            "start_timecode": "00:01:39.652",
+            "end_timecode": "00:01:56.879",
+            "duration_frames": 413,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 26,
+            "start_frame": 2802,
+            "end_frame": 2926,
+            "start_timecode": "00:01:56.879",
+            "end_timecode": "00:02:02.051",
+            "duration_frames": 124,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 27,
+            "start_frame": 2926,
+            "end_frame": 3032,
+            "start_timecode": "00:02:02.051",
+            "end_timecode": "00:02:06.473",
+            "duration_frames": 106,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 28,
+            "start_frame": 3032,
+            "end_frame": 3089,
+            "start_timecode": "00:02:06.473",
+            "end_timecode": "00:02:08.850",
+            "duration_frames": 57,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 29,
+            "start_frame": 3089,
+            "end_frame": 3208,
+            "start_timecode": "00:02:08.850",
+            "end_timecode": "00:02:13.814",
+            "duration_frames": 119,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 30,
+            "start_frame": 3208,
+            "end_frame": 3288,
+            "start_timecode": "00:02:13.814",
+            "end_timecode": "00:02:17.151",
+            "duration_frames": 80,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 31,
+            "start_frame": 3288,
+            "end_frame": 3350,
+            "start_timecode": "00:02:17.151",
+            "end_timecode": "00:02:19.737",
+            "duration_frames": 62,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 32,
+            "start_frame": 3350,
+            "end_frame": 3371,
+            "start_timecode": "00:02:19.737",
+            "end_timecode": "00:02:20.613",
+            "duration_frames": 21,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 33,
+            "start_frame": 3371,
+            "end_frame": 3718,
+            "start_timecode": "00:02:20.613",
+            "end_timecode": "00:02:35.088",
+            "duration_frames": 347,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 34,
+            "start_frame": 3718,
+            "end_frame": 3779,
+            "start_timecode": "00:02:35.088",
+            "end_timecode": "00:02:37.632",
+            "duration_frames": 61,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 35,
+            "start_frame": 3779,
+            "end_frame": 3995,
+            "start_timecode": "00:02:37.632",
+            "end_timecode": "00:02:46.642",
+            "duration_frames": 216,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 36,
+            "start_frame": 3995,
+            "end_frame": 4135,
+            "start_timecode": "00:02:46.642",
+            "end_timecode": "00:02:52.482",
+            "duration_frames": 140,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 37,
+            "start_frame": 4135,
+            "end_frame": 4255,
+            "start_timecode": "00:02:52.482",
+            "end_timecode": "00:02:57.487",
+            "duration_frames": 120,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 38,
+            "start_frame": 4255,
+            "end_frame": 4359,
+            "start_timecode": "00:02:57.487",
+            "end_timecode": "00:03:01.825",
+            "duration_frames": 104,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 39,
+            "start_frame": 4359,
+            "end_frame": 4384,
+            "start_timecode": "00:03:01.825",
+            "end_timecode": "00:03:02.868",
+            "duration_frames": 25,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 40,
+            "start_frame": 4384,
+            "end_frame": 4428,
+            "start_timecode": "00:03:02.868",
+            "end_timecode": "00:03:04.704",
+            "duration_frames": 44,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 41,
+            "start_frame": 4428,
+            "end_frame": 4469,
+            "start_timecode": "00:03:04.704",
+            "end_timecode": "00:03:06.414",
+            "duration_frames": 41,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 42,
+            "start_frame": 4469,
+            "end_frame": 4470,
+            "start_timecode": "00:03:06.414",
+            "end_timecode": "00:03:06.456",
+            "duration_frames": 1,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:35:29.304392"
+}

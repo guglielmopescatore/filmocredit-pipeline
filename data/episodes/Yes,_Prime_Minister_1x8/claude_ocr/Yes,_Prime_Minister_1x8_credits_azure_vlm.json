@@ -1,0 +1,289 @@
+[
+  {
+    "role_detail": "by",
+    "name": "Antony Jay",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_001_static_001_num00246_sim53.jpg"
+    ],
+    "original_frame_number": [
+      246
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "by",
+    "name": "Jonathan Lynn",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_001_static_001_num00246_sim53.jpg"
+    ],
+    "original_frame_number": [
+      246
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Starring",
+    "name": "Paul Eddington",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_003_static_001_num00531_sim94.jpg"
+    ],
+    "original_frame_number": [
+      531
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Nigel Hawthorne",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_003_static_005_num00651_sim77.jpg"
+    ],
+    "original_frame_number": [
+      651
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Derek Fowlds",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_003_static_007_num00759_sim30.jpg"
+    ],
+    "original_frame_number": [
+      759
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "P. Dukes-Mash",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_003_static_008_num00879_sim29.jpg"
+    ],
+    "original_frame_number": [
+      879
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Costume Designer",
+    "name": "Richard Winter",
+    "role_group": "Costume Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume Designers",
+    "source_frame": [
+      "scene_005_static_014_num01399_sim94.jpg"
+    ],
+    "original_frame_number": [
+      1399
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Makeup Designer",
+    "name": "Cheryl Wright",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_005_static_014_num01399_sim94.jpg"
+    ],
+    "original_frame_number": [
+      1399
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Properties Buyer",
+    "name": "Francis Smith",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_005_static_014_num01399_sim94.jpg"
+    ],
+    "original_frame_number": [
+      1399
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Camera Supervisor",
+    "name": "John Dailley",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_005_static_014_num01399_sim94.jpg"
+    ],
+    "original_frame_number": [
+      1399
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Technical Co-Ordinator",
+    "name": "Reg Poulter",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_005_static_014_num01399_sim94.jpg"
+    ],
+    "original_frame_number": [
+      1399
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Assistant Floor Manager",
+    "name": "Christine Crow",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_005_static_020_num01663_sim80.jpg"
+    ],
+    "original_frame_number": [
+      1663
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Production Assistant",
+    "name": "Judy Loe",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_005_static_020_num01663_sim80.jpg"
+    ],
+    "original_frame_number": [
+      1663
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Videotape Editor",
+    "name": "Chris Wadsworth",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_005_static_020_num01663_sim80.jpg"
+    ],
+    "original_frame_number": [
+      1663
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Lighting Director",
+    "name": "Ron Bristow",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_005_static_020_num01663_sim80.jpg"
+    ],
+    "original_frame_number": [
+      1663
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Production Manager",
+    "name": "Brian Jones",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_005_static_020_num01663_sim80.jpg"
+    ],
+    "original_frame_number": [
+      1663
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": null,
+    "name": "Gloria Clayton",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_static_026_num01843_sim69.jpg"
+    ],
+    "original_frame_number": [
+      1843
+    ],
+    "scene_position": "first_half"
+  },
+  {
+    "role_detail": "Produced and Directed by",
+    "name": "Sydney Lotterby",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_005_static_026_num01843_sim69.jpg"
+    ],
+    "original_frame_number": [
+      1843
+    ],
+    "scene_position": "first_half",
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Produced and Directed by",
+    "name": "Sydney Lotterby",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_005_static_026_num01843_sim69.jpg"
+    ],
+    "original_frame_number": [
+      1843
+    ],
+    "scene_position": "first_half",
+    "Need revisioning for deduplication": true
+  }
+]

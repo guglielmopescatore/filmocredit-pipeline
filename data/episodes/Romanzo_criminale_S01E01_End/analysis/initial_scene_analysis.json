@@ -1,0 +1,431 @@
+{
+    "episode_id": "Romanzo_criminale_S01E01_End",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 1672,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:00:55.786",
+            "duration_frames": 1672,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Organizzatore Generale Sandra Bonacchi"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 83,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 167,
+                    "ocr_text": "Organizzatore Generale Sandra Bonacchi",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_167_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 83: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 1,
+            "original_start_frame": 1672,
+            "original_end_frame": 1967,
+            "original_start_timecode": "00:00:55.786",
+            "original_end_timecode": "00:01:05.629",
+            "duration_frames": 295,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Barone Rosellini Aldo Abbate Contrabbandiere Stefano Adami Tecnico Scientifica Cesare Apolito Spacciatore Testaccio Giovanni Balestra Detenuto Ventenne Alessandro Bardani Direttore Riformatorio Enrico Bellisari Fabio Corbucci Franco Bottone Franco Solenghi Paolo Buglioni Cassiera Bar Questura Tiziana Buldini Lin Pin Linda Chang Cannizzaro 2 Umberto De Luca Attricetta Elisa Della Valentina Spacciatore Terribile Marco Di Folco Moglie Gerardo Germana Di Giannicola Voce Ragazza Radio Angelica Di Majo Primo Detenuto Mensa Flavio Domenici Chantal Sueli Odila Ferreira"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1686,
+                    "ocr_text": "Barone Rosellini Aldo Abbate Contrabbandiere Stefano Adami Tecnico Scientifica Cesare Apolito Spacciatore Testaccio Giovanni Balestra Detenuto Ventenne Alessandro Bardani Direttore Riformatorio Enrico Bellisari Fabio Corbucci Franco Bottone Franco Solenghi Paolo Buglioni Cassiera Bar Questura Tiziana Buldini Lin Pin Linda Chang Cannizzaro 2 Umberto De Luca Attricetta Elisa Della Valentina Spacciatore Terribile Marco Di Folco Moglie Gerardo Germana Di Giannicola Voce Ragazza Radio Angelica Di Majo Primo Detenuto Mensa Flavio Domenici Chantal Sueli Odila Ferreira",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_first_half_frame_1686_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 1967,
+            "original_end_frame": 1989,
+            "original_start_timecode": "00:01:05.629",
+            "original_end_timecode": "00:01:06.363",
+            "duration_frames": 22,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Speaker Z Radlo Glovanni La Gorga Luz Beatriz Lattanzi Angela Donna Puma Speaker Radio Libera Marco Laurenzano Commissario Capo Alfonso Liguori Patologo Toni Malco Poliziotto Olivetti Fabio Mancini Gino Manfredi Speaker 1 Radio/Video Tg Treccia Alessio Manuali Cameriere Ristorante Bufalo Francesco Marino Vice Questore Saverio Mattei Secondino Grasso Paolo Mellucci Speaker 2 Radio/Video Tg Stefano Mondini Fringuello Maurizio Mosetti Carabiniere Posto Di Blocco Antonio Nobili Agente Di Viaggi Paolo Orlandelli Sergio Garzone Bar '66 Luca Paniconi Prete Alcide Pasquini ronigtario Rictorante Ostia Romolo Paccini"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1968,
+                    "ocr_text": "Speaker Z Radlo Glovanni La Gorga Luz Beatriz Lattanzi Angela Donna Puma Speaker Radio Libera Marco Laurenzano Commissario Capo Alfonso Liguori Patologo Toni Malco Poliziotto Olivetti Fabio Mancini Gino Manfredi Speaker 1 Radio/Video Tg Treccia Alessio Manuali Cameriere Ristorante Bufalo Francesco Marino Vice Questore Saverio Mattei Secondino Grasso Paolo Mellucci Speaker 2 Radio/Video Tg Stefano Mondini Fringuello Maurizio Mosetti Carabiniere Posto Di Blocco Antonio Nobili Agente Di Viaggi Paolo Orlandelli Sergio Garzone Bar '66 Luca Paniconi Prete Alcide Pasquini ronigtario Rictorante Ostia Romolo Paccini",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_first_half_frame_1968_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 3,
+            "original_start_frame": 1989,
+            "original_end_frame": 2012,
+            "original_start_timecode": "00:01:06.363",
+            "original_end_timecode": "00:01:07.130",
+            "duration_frames": 23,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Speaker Radio Libera Marco Laurenzano Commissario Capo Alfonso Liguori Patologo Toni Malco Poliziotto Olivetti Fabio Mancini Speaker 1 Radio /Video Tg Gino Manfredi Treccia Alessio Manuali Cameriere Ristorante Bufalo Francesco Marino Vice Questore Saverio Mattei Secondino Grasso Paolo Mellucci Stefano Mondini Speaker 2 Radio/Video Tg Fringuello Maurizio Mosetti Carabiniere Posto Di Blocco Antonio Nobili Agente Di Viaggi Paolo Orlandelli Sergio Garzone Bar '66 Luca Paniconi Prete Alcide Pasquini Propietario Ristorante Ostia Romolo Passini Fabio Franchi Lucio Patane' Alberte Detell:"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1990,
+                    "ocr_text": "Speaker Radio Libera Marco Laurenzano Commissario Capo Alfonso Liguori Patologo Toni Malco Poliziotto Olivetti Fabio Mancini Speaker 1 Radio /Video Tg Gino Manfredi Treccia Alessio Manuali Cameriere Ristorante Bufalo Francesco Marino Vice Questore Saverio Mattei Secondino Grasso Paolo Mellucci Stefano Mondini Speaker 2 Radio/Video Tg Fringuello Maurizio Mosetti Carabiniere Posto Di Blocco Antonio Nobili Agente Di Viaggi Paolo Orlandelli Sergio Garzone Bar '66 Luca Paniconi Prete Alcide Pasquini Propietario Ristorante Ostia Romolo Passini Fabio Franchi Lucio Patane' Alberte Detell:",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_003_first_half_frame_1990_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 4,
+            "original_start_frame": 2012,
+            "original_end_frame": 2626,
+            "original_start_timecode": "00:01:07.130",
+            "original_end_timecode": "00:01:27.616",
+            "duration_frames": 614,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Treccia Alessio Manuali Cameriere Ristorante Bufalo Francesco Marino Vice Questore Saverio Mattei Secondino Grasso Paolo Mellucci Speaker 2 Radio/Video Tg Stefano Mondini Fringuello Maurizio Mosetti Carabiniere Posto Di Blocco Antonio Nobili Agente Di Viaggi Paolo Orlandelli Sergio Garzone Bar '66 Luca Paniconi Prete Alcide Pasquini Propietario Ristorante Ostia Romolo Passini Fabio Franchi Lucio Patane' Barista Roberta Alberto Patelli Dandi 12 anni Marco Puglia Cannizzaro 3 Orlando Ragusa Madre Freddo Monica Rametta Fabrizio Rendina Propietario Sfascio"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2042,
+                    "ocr_text": "Treccia Alessio Manuali Cameriere Ristorante Bufalo Francesco Marino Vice Questore Saverio Mattei Secondino Grasso Paolo Mellucci Speaker 2 Radio/Video Tg Stefano Mondini Fringuello Maurizio Mosetti Carabiniere Posto Di Blocco Antonio Nobili Agente Di Viaggi Paolo Orlandelli Sergio Garzone Bar '66 Luca Paniconi Prete Alcide Pasquini Propietario Ristorante Ostia Romolo Passini Fabio Franchi Lucio Patane' Barista Roberta Alberto Patelli Dandi 12 anni Marco Puglia Cannizzaro 3 Orlando Ragusa Madre Freddo Monica Rametta Fabrizio Rendina Propietario Sfascio",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_004_first_half_frame_2042_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 5,
+            "original_start_frame": 2626,
+            "original_end_frame": 2665,
+            "original_start_timecode": "00:01:27.616",
+            "original_end_timecode": "00:01:28.917",
+            "duration_frames": 39,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Coordmairce di Proddzione Glorgia Pellegrin Coordinatrice di Produzione Set Alice Marchitelli Fabio Carla' Aiuti Segretari di Produzione Benedetta Anza' Lorenzo Battisti Riccardo Carletti Giuseppe Balzano Arianna Brambilla Lino Vittozzi Assistente Coordinatrice di Produzione Anna Lisa Serafini II Assisente alla Regia Francesca Aschettino Amministratore Carlo Gagliardi Cassiera Piera Giaccherini Aiuto Cassiera Silvana Carnevale II Operatore di Macchina Paolo Carnera Assistente Operatore Massimiliano Ricci II Assistente Operatore Giorgio Abbruzzetti Aiute Oneratore Liviu Cinrian Suhar"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2627,
+                    "ocr_text": "Coordmairce di Proddzione Glorgia Pellegrin Coordinatrice di Produzione Set Alice Marchitelli Fabio Carla' Aiuti Segretari di Produzione Benedetta Anza' Lorenzo Battisti Riccardo Carletti Giuseppe Balzano Arianna Brambilla Lino Vittozzi Assistente Coordinatrice di Produzione Anna Lisa Serafini II Assisente alla Regia Francesca Aschettino Amministratore Carlo Gagliardi Cassiera Piera Giaccherini Aiuto Cassiera Silvana Carnevale II Operatore di Macchina Paolo Carnera Assistente Operatore Massimiliano Ricci II Assistente Operatore Giorgio Abbruzzetti Aiute Oneratore Liviu Cinrian Suhar",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_005_first_half_frame_2627_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 6,
+            "original_start_frame": 2665,
+            "original_end_frame": 4667,
+            "original_start_timecode": "00:01:28.917",
+            "original_end_timecode": "00:02:35.714",
+            "duration_frames": 2002,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Aiuto Cassiera Silvana Carnevale II Operatore di Macchina Paolo Carnera Assistente Operatore Massimiliano Ricci II Assistente Operatore Giorgio Abbruzztti Aiuto Operatore Liviu Ciprian Suhar Video Assistant Andrea Grossi Fotografo di Scena Emanuela Scarpa Direttore Fotografia Il Un Ivan Casalgrandi Giovanni Galasso Operatore di Macchina Il Unita Operatore di Macchina I Unita Vittorio Omodei Zorini Operatore di Macchina Aggiunto Carlo Passari Assistenti Operatori Aggiuni Simone Ginanneschi Cristina Capone Assistenti Operatore IUni Gianluca Bombardone Gianluca Pennestri Capo Truccatore Alberto Blasi Cano Parrucchiera Nadia Rosati"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2765,
+                    "ocr_text": "Aiuto Cassiera Silvana Carnevale II Operatore di Macchina Paolo Carnera Assistente Operatore Massimiliano Ricci II Assistente Operatore Giorgio Abbruzztti Aiuto Operatore Liviu Ciprian Suhar Video Assistant Andrea Grossi Fotografo di Scena Emanuela Scarpa Direttore Fotografia Il Un Ivan Casalgrandi Giovanni Galasso Operatore di Macchina Il Unita Operatore di Macchina I Unita Vittorio Omodei Zorini Operatore di Macchina Aggiunto Carlo Passari Assistenti Operatori Aggiuni Simone Ginanneschi Cristina Capone Assistenti Operatore IUni Gianluca Bombardone Gianluca Pennestri Capo Truccatore Alberto Blasi Cano Parrucchiera Nadia Rosati",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_006_first_half_frame_2765_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 7,
+            "original_start_frame": 4667,
+            "original_end_frame": 5150,
+            "original_start_timecode": "00:02:35.714",
+            "original_end_timecode": "00:02:51.829",
+            "duration_frames": 483,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Colorist Marco Giliberti Duplicazioni Cinzia D' Ubaldi Dino Lollobrigida Inserimento Audio e Controllo Tecnico Tiziana Di Clemente Pellicola Kodak S.p.A. Effetti Visivi Digitali VISUALOGIE V Spervisor Producer Supei Paola Trisoglio Vfx Coordinator Stefano Marinoni Digital Artist Federica Nisi Amedeo Califano Assicurazione Kent Insurance Broker S.r.I. Chubb Insurance Company Of Europe S.A. Catering Gigi Catering S.l. Materiale a Consumo Elettricist Noleggio Furgoni 2001 Rainbow S.r.I. Materiale a Consumo Macchinisti Icol S.r.l. Materiale Audio Noleggio Andrea Fiorentini Attrezzeria e Sartoria L'Officina S a s di Alberto Ronci"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 4691,
+                    "ocr_text": "Colorist Marco Giliberti Duplicazioni Cinzia D' Ubaldi Dino Lollobrigida Inserimento Audio e Controllo Tecnico Tiziana Di Clemente Pellicola Kodak S.p.A. Effetti Visivi Digitali VISUALOGIE V Spervisor Producer Supei Paola Trisoglio Vfx Coordinator Stefano Marinoni Digital Artist Federica Nisi Amedeo Califano Assicurazione Kent Insurance Broker S.r.I. Chubb Insurance Company Of Europe S.A. Catering Gigi Catering S.l. Materiale a Consumo Elettricist Noleggio Furgoni 2001 Rainbow S.r.I. Materiale a Consumo Macchinisti Icol S.r.l. Materiale Audio Noleggio Andrea Fiorentini Attrezzeria e Sartoria L'Officina S a s di Alberto Ronci",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_007_second_half_frame_4691_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 8,
+            "original_start_frame": 5150,
+            "original_end_frame": 5173,
+            "original_start_timecode": "00:02:51.829",
+            "original_end_timecode": "00:02:52.596",
+            "duration_frames": 23,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Arredamenti Cineteatrali GRP di Renato Postiglione &C. Snc Mobil Carta S.r.I. E. Rancati S.I. WAMA Arredamenti S.I. Arredamento Acquisto Piazza Affari Picc. Soc. Coop. Piante e Fiori Piante e Fiori Rossiello S.r.I. Tendaggi Tende.nze Di Simonetta Ceprani Coordinamento Forniture Arredamento Tempi Moderni S.r.I. Di M.G. Cacciamani & F. Cotti Abbigliamento Noleggio Annamode 68 - Roma Sartoria Cine-Teatrale Nori Enzo Bracciano - Roma Pulitura Costumi Mister Clean S.a.s. Musiche composte e orchestrate da Pasquale Catalano Dirette da Pasquale Catalano e Giuseppe Sasso"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 5151,
+                    "ocr_text": "Arredamenti Cineteatrali GRP di Renato Postiglione &C. Snc Mobil Carta S.r.I. E. Rancati S.I. WAMA Arredamenti S.I. Arredamento Acquisto Piazza Affari Picc. Soc. Coop. Piante e Fiori Piante e Fiori Rossiello S.r.I. Tendaggi Tende.nze Di Simonetta Ceprani Coordinamento Forniture Arredamento Tempi Moderni S.r.I. Di M.G. Cacciamani & F. Cotti Abbigliamento Noleggio Annamode 68 - Roma Sartoria Cine-Teatrale Nori Enzo Bracciano - Roma Pulitura Costumi Mister Clean S.a.s. Musiche composte e orchestrate da Pasquale Catalano Dirette da Pasquale Catalano e Giuseppe Sasso",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_008_second_half_frame_5151_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 9,
+            "original_start_frame": 5173,
+            "original_end_frame": 5987,
+            "original_start_timecode": "00:02:52.596",
+            "original_end_timecode": "00:03:19.755",
+            "duration_frames": 814,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Tendaggi Tende.nze Di Simonetta Ceprani Coordinamento Forniture Arredamento Tempi Moderni S.r.I. Di M.G. Cacciamani & F. Ciotti' Abbigliamento Noleggio Annamode 68 - Roma Sartoria Cine-Teatrale Nori Enzo  Bracciano - Roma Pulitura Costumi Mister Clean S.a.s. Musiche composte e orchestrate da Pasquale Catalano Dirette da Pasquale Catalano e Giuseppe Sasso Eeguite a Luca Bagagli, Eleonora Bordonaro, Pasquale Catalano, MauroFagiani, Giusepe Lucania, Raffaele Pulcrano, Paolo Sasso, Valeria Squillante, Andrea Tarantino."
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 5213,
+                    "ocr_text": "Tendaggi Tende.nze Di Simonetta Ceprani Coordinamento Forniture Arredamento Tempi Moderni S.r.I. Di M.G. Cacciamani & F. Ciotti' Abbigliamento Noleggio Annamode 68 - Roma Sartoria Cine-Teatrale Nori Enzo  Bracciano - Roma Pulitura Costumi Mister Clean S.a.s. Musiche composte e orchestrate da Pasquale Catalano Dirette da Pasquale Catalano e Giuseppe Sasso Eeguite a Luca Bagagli, Eleonora Bordonaro, Pasquale Catalano, MauroFagiani, Giusepe Lucania, Raffaele Pulcrano, Paolo Sasso, Valeria Squillante, Andrea Tarantino.",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_009_second_half_frame_5213_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 10,
+            "original_start_frame": 5987,
+            "original_end_frame": 6137,
+            "original_start_timecode": "00:03:19.755",
+            "original_end_timecode": "00:03:24.760",
+            "duration_frames": 150,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "slantic"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 5994,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 6002,
+                    "ocr_text": "slantic",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_010_second_half_frame_6002_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 5994: No text found (CLAHE)"
+            ],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 1672,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:55.786",
+            "duration_frames": 1672,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 1672,
+            "end_frame": 1967,
+            "start_timecode": "00:00:55.786",
+            "end_timecode": "00:01:05.629",
+            "duration_frames": 295,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 1967,
+            "end_frame": 1989,
+            "start_timecode": "00:01:05.629",
+            "end_timecode": "00:01:06.363",
+            "duration_frames": 22,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 1989,
+            "end_frame": 2012,
+            "start_timecode": "00:01:06.363",
+            "end_timecode": "00:01:07.130",
+            "duration_frames": 23,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 2012,
+            "end_frame": 2626,
+            "start_timecode": "00:01:07.130",
+            "end_timecode": "00:01:27.616",
+            "duration_frames": 614,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 2626,
+            "end_frame": 2665,
+            "start_timecode": "00:01:27.616",
+            "end_timecode": "00:01:28.917",
+            "duration_frames": 39,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 6,
+            "start_frame": 2665,
+            "end_frame": 4667,
+            "start_timecode": "00:01:28.917",
+            "end_timecode": "00:02:35.714",
+            "duration_frames": 2002,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 7,
+            "start_frame": 4667,
+            "end_frame": 5150,
+            "start_timecode": "00:02:35.714",
+            "end_timecode": "00:02:51.829",
+            "duration_frames": 483,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 8,
+            "start_frame": 5150,
+            "end_frame": 5173,
+            "start_timecode": "00:02:51.829",
+            "end_timecode": "00:02:52.596",
+            "duration_frames": 23,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 9,
+            "start_frame": 5173,
+            "end_frame": 5987,
+            "start_timecode": "00:02:52.596",
+            "end_timecode": "00:03:19.755",
+            "duration_frames": 814,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 10,
+            "start_frame": 5987,
+            "end_frame": 6137,
+            "start_timecode": "00:03:19.755",
+            "end_timecode": "00:03:24.760",
+            "duration_frames": 150,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2025-12-04T14:40:44.918799"
+}

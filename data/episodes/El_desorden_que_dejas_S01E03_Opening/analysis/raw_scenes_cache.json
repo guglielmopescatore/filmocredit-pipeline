@@ -1,0 +1,373 @@
+{
+  "total_frames": 8308,
+  "fps": 29.971139971139973,
+  "timestamp": "2025-12-04T14:29:55.555620",
+  "scenes": [
+    {
+      "start_frame": 0,
+      "end_frame": 107,
+      "start_timecode": "00:00:00.000",
+      "end_timecode": "00:00:03.570"
+    },
+    {
+      "start_frame": 107,
+      "end_frame": 110,
+      "start_timecode": "00:00:03.570",
+      "end_timecode": "00:00:03.670"
+    },
+    {
+      "start_frame": 110,
+      "end_frame": 146,
+      "start_timecode": "00:00:03.670",
+      "end_timecode": "00:00:04.871"
+    },
+    {
+      "start_frame": 146,
+      "end_frame": 149,
+      "start_timecode": "00:00:04.871",
+      "end_timecode": "00:00:04.971"
+    },
+    {
+      "start_frame": 149,
+      "end_frame": 360,
+      "start_timecode": "00:00:04.971",
+      "end_timecode": "00:00:12.012"
+    },
+    {
+      "start_frame": 360,
+      "end_frame": 386,
+      "start_timecode": "00:00:12.012",
+      "end_timecode": "00:00:12.879"
+    },
+    {
+      "start_frame": 386,
+      "end_frame": 403,
+      "start_timecode": "00:00:12.879",
+      "end_timecode": "00:00:13.446"
+    },
+    {
+      "start_frame": 403,
+      "end_frame": 554,
+      "start_timecode": "00:00:13.446",
+      "end_timecode": "00:00:18.484"
+    },
+    {
+      "start_frame": 554,
+      "end_frame": 646,
+      "start_timecode": "00:00:18.484",
+      "end_timecode": "00:00:21.554"
+    },
+    {
+      "start_frame": 646,
+      "end_frame": 813,
+      "start_timecode": "00:00:21.554",
+      "end_timecode": "00:00:27.126"
+    },
+    {
+      "start_frame": 813,
+      "end_frame": 1289,
+      "start_timecode": "00:00:27.126",
+      "end_timecode": "00:00:43.008"
+    },
+    {
+      "start_frame": 1289,
+      "end_frame": 1766,
+      "start_timecode": "00:00:43.008",
+      "end_timecode": "00:00:58.923"
+    },
+    {
+      "start_frame": 1766,
+      "end_frame": 1798,
+      "start_timecode": "00:00:58.923",
+      "end_timecode": "00:00:59.991"
+    },
+    {
+      "start_frame": 1798,
+      "end_frame": 1916,
+      "start_timecode": "00:00:59.991",
+      "end_timecode": "00:01:03.928"
+    },
+    {
+      "start_frame": 1916,
+      "end_frame": 1976,
+      "start_timecode": "00:01:03.928",
+      "end_timecode": "00:01:05.930"
+    },
+    {
+      "start_frame": 1976,
+      "end_frame": 2045,
+      "start_timecode": "00:01:05.930",
+      "end_timecode": "00:01:08.232"
+    },
+    {
+      "start_frame": 2045,
+      "end_frame": 2108,
+      "start_timecode": "00:01:08.232",
+      "end_timecode": "00:01:10.334"
+    },
+    {
+      "start_frame": 2108,
+      "end_frame": 2228,
+      "start_timecode": "00:01:10.334",
+      "end_timecode": "00:01:14.338"
+    },
+    {
+      "start_frame": 2228,
+      "end_frame": 2310,
+      "start_timecode": "00:01:14.338",
+      "end_timecode": "00:01:17.074"
+    },
+    {
+      "start_frame": 2310,
+      "end_frame": 2509,
+      "start_timecode": "00:01:17.074",
+      "end_timecode": "00:01:23.714"
+    },
+    {
+      "start_frame": 2509,
+      "end_frame": 2549,
+      "start_timecode": "00:01:23.714",
+      "end_timecode": "00:01:25.048"
+    },
+    {
+      "start_frame": 2549,
+      "end_frame": 2802,
+      "start_timecode": "00:01:25.048",
+      "end_timecode": "00:01:33.490"
+    },
+    {
+      "start_frame": 2802,
+      "end_frame": 2847,
+      "start_timecode": "00:01:33.490",
+      "end_timecode": "00:01:34.991"
+    },
+    {
+      "start_frame": 2847,
+      "end_frame": 2957,
+      "start_timecode": "00:01:34.991",
+      "end_timecode": "00:01:38.662"
+    },
+    {
+      "start_frame": 2957,
+      "end_frame": 3000,
+      "start_timecode": "00:01:38.662",
+      "end_timecode": "00:01:40.096"
+    },
+    {
+      "start_frame": 3000,
+      "end_frame": 3289,
+      "start_timecode": "00:01:40.096",
+      "end_timecode": "00:01:49.739"
+    },
+    {
+      "start_frame": 3289,
+      "end_frame": 3312,
+      "start_timecode": "00:01:49.739",
+      "end_timecode": "00:01:50.506"
+    },
+    {
+      "start_frame": 3312,
+      "end_frame": 3509,
+      "start_timecode": "00:01:50.506",
+      "end_timecode": "00:01:57.079"
+    },
+    {
+      "start_frame": 3509,
+      "end_frame": 3728,
+      "start_timecode": "00:01:57.079",
+      "end_timecode": "00:02:04.386"
+    },
+    {
+      "start_frame": 3728,
+      "end_frame": 3870,
+      "start_timecode": "00:02:04.386",
+      "end_timecode": "00:02:09.124"
+    },
+    {
+      "start_frame": 3870,
+      "end_frame": 4121,
+      "start_timecode": "00:02:09.124",
+      "end_timecode": "00:02:17.499"
+    },
+    {
+      "start_frame": 4121,
+      "end_frame": 4352,
+      "start_timecode": "00:02:17.499",
+      "end_timecode": "00:02:25.206"
+    },
+    {
+      "start_frame": 4352,
+      "end_frame": 4449,
+      "start_timecode": "00:02:25.206",
+      "end_timecode": "00:02:28.443"
+    },
+    {
+      "start_frame": 4449,
+      "end_frame": 4838,
+      "start_timecode": "00:02:28.443",
+      "end_timecode": "00:02:41.422"
+    },
+    {
+      "start_frame": 4838,
+      "end_frame": 4996,
+      "start_timecode": "00:02:41.422",
+      "end_timecode": "00:02:46.694"
+    },
+    {
+      "start_frame": 4996,
+      "end_frame": 5087,
+      "start_timecode": "00:02:46.694",
+      "end_timecode": "00:02:49.730"
+    },
+    {
+      "start_frame": 5087,
+      "end_frame": 5134,
+      "start_timecode": "00:02:49.730",
+      "end_timecode": "00:02:51.298"
+    },
+    {
+      "start_frame": 5134,
+      "end_frame": 5179,
+      "start_timecode": "00:02:51.298",
+      "end_timecode": "00:02:52.800"
+    },
+    {
+      "start_frame": 5179,
+      "end_frame": 5211,
+      "start_timecode": "00:02:52.800",
+      "end_timecode": "00:02:53.867"
+    },
+    {
+      "start_frame": 5211,
+      "end_frame": 5280,
+      "start_timecode": "00:02:53.867",
+      "end_timecode": "00:02:56.169"
+    },
+    {
+      "start_frame": 5280,
+      "end_frame": 5340,
+      "start_timecode": "00:02:56.169",
+      "end_timecode": "00:02:58.171"
+    },
+    {
+      "start_frame": 5340,
+      "end_frame": 5410,
+      "start_timecode": "00:02:58.171",
+      "end_timecode": "00:03:00.507"
+    },
+    {
+      "start_frame": 5410,
+      "end_frame": 5666,
+      "start_timecode": "00:03:00.507",
+      "end_timecode": "00:03:09.049"
+    },
+    {
+      "start_frame": 5666,
+      "end_frame": 5738,
+      "start_timecode": "00:03:09.049",
+      "end_timecode": "00:03:11.451"
+    },
+    {
+      "start_frame": 5738,
+      "end_frame": 5835,
+      "start_timecode": "00:03:11.451",
+      "end_timecode": "00:03:14.687"
+    },
+    {
+      "start_frame": 5835,
+      "end_frame": 5905,
+      "start_timecode": "00:03:14.687",
+      "end_timecode": "00:03:17.023"
+    },
+    {
+      "start_frame": 5905,
+      "end_frame": 5947,
+      "start_timecode": "00:03:17.023",
+      "end_timecode": "00:03:18.424"
+    },
+    {
+      "start_frame": 5947,
+      "end_frame": 6015,
+      "start_timecode": "00:03:18.424",
+      "end_timecode": "00:03:20.693"
+    },
+    {
+      "start_frame": 6015,
+      "end_frame": 6178,
+      "start_timecode": "00:03:20.693",
+      "end_timecode": "00:03:26.132"
+    },
+    {
+      "start_frame": 6178,
+      "end_frame": 6185,
+      "start_timecode": "00:03:26.132",
+      "end_timecode": "00:03:26.365"
+    },
+    {
+      "start_frame": 6185,
+      "end_frame": 6460,
+      "start_timecode": "00:03:26.365",
+      "end_timecode": "00:03:35.541"
+    },
+    {
+      "start_frame": 6460,
+      "end_frame": 6748,
+      "start_timecode": "00:03:35.541",
+      "end_timecode": "00:03:45.150"
+    },
+    {
+      "start_frame": 6748,
+      "end_frame": 7103,
+      "start_timecode": "00:03:45.150",
+      "end_timecode": "00:03:56.995"
+    },
+    {
+      "start_frame": 7103,
+      "end_frame": 7766,
+      "start_timecode": "00:03:56.995",
+      "end_timecode": "00:04:19.116"
+    },
+    {
+      "start_frame": 7766,
+      "end_frame": 7940,
+      "start_timecode": "00:04:19.116",
+      "end_timecode": "00:04:24.922"
+    },
+    {
+      "start_frame": 7940,
+      "end_frame": 8000,
+      "start_timecode": "00:04:24.922",
+      "end_timecode": "00:04:26.923"
+    },
+    {
+      "start_frame": 8000,
+      "end_frame": 8061,
+      "start_timecode": "00:04:26.923",
+      "end_timecode": "00:04:28.959"
+    },
+    {
+      "start_frame": 8061,
+      "end_frame": 8129,
+      "start_timecode": "00:04:28.959",
+      "end_timecode": "00:04:31.228"
+    },
+    {
+      "start_frame": 8129,
+      "end_frame": 8250,
+      "start_timecode": "00:04:31.228",
+      "end_timecode": "00:04:35.265"
+    },
+    {
+      "start_frame": 8250,
+      "end_frame": 8303,
+      "start_timecode": "00:04:35.265",
+      "end_timecode": "00:04:37.033"
+    },
+    {
+      "start_frame": 8303,
+      "end_frame": 8308,
+      "start_timecode": "00:04:37.033",
+      "end_timecode": "00:04:37.200"
+    }
+  ]
+}
