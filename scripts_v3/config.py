@@ -508,30 +508,28 @@ role_group: Choose only from the following predefined categories based on IMDb's
       ]
     }},
     
-    {{
-        "Camera and Electrical Department": {{
-            "description": "All non-cinematographer non-directors camera, electrical, lighting, grip, and on-set video systems roles.",
-            "include": [
-                "Assistant camera, 1st AC, 2nd AC, clapper/loader, focus puller",
-                "Camera operator (when not credited as cinematographer/DoP)",
-                "Data wranglers, digital imaging technicians (DITs)",
-                "Steadicam operator, drone operator, crane operator, jib operator",
-                "Underwater camera operator, underwater photographer",
-                "Digital imaging technician (DIT)",
-                "Video assist operator, video playback operator, 24-frame playback, on-set video engineer",
-                "Gaffer (chief lighting technician), best boy electric (assistant chief lighting technician)",
-                "Electrician, generator operator, cable puller",
-                "Key grip, assistant key grip, grip crew, rigging grips",
-                "Photographs, dailys photographer, still photographer (on-set)",
-                "video operators, Insert Director of Photography",
-                "other languages: gruppista, Machinistes, électriciens, fotógrafo de plató etc. etc.",
-                "In products where there are a lot of 'Photography' credits, these go here unless there is a main cinematographer/DoP credited for the whole production"
-            ],
-            "exclude": [
-                "Cinematographers / Directors of Photography (→ Cinematographers)",
-                "VFX-specific camera roles (→ Visual Effects)"
-            ]
-        }}
+      "Camera and Electrical Department": {{
+          "description": "All non-cinematographer non-directors camera, electrical, lighting, grip, and on-set video systems roles.",
+          "include": [
+              "Assistant camera, 1st AC, 2nd AC, clapper/loader, focus puller",
+              "Camera operator (when not credited as cinematographer/DoP)",
+              "Data wranglers, digital imaging technicians (DITs)",
+              "Steadicam operator, drone operator, crane operator, jib operator",
+              "Underwater camera operator, underwater photographer",
+              "Digital imaging technician (DIT)",
+              "Video assist operator, video playback operator, 24-frame playback, on-set video engineer",
+              "Gaffer (chief lighting technician), best boy electric (assistant chief lighting technician)",
+              "Electrician, generator operator, cable puller",
+              "Key grip, assistant key grip, grip crew, rigging grips",
+              "Photographs, dailys photographer, still photographer (on-set)",
+              "video operators, Insert Director of Photography",
+              "other languages: gruppista, Machinistes, électriciens, fotógrafo de plató etc. etc.",
+              "In products where there are a lot of 'Photography' credits, these go here unless there is a main cinematographer/DoP credited for the whole production"
+          ],
+          "exclude": [
+              "Cinematographers / Directors of Photography (→ Cinematographers)",
+              "VFX-specific camera roles (→ Visual Effects)"
+          ]
     }},
 
     "Choreography": {{
