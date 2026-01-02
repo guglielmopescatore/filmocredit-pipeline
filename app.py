@@ -354,7 +354,7 @@ else:
         st.session_state.current_tab = 0
 
 # Create navigation buttons that look like tabs
-col_tab1, col_tab2, col_tab3 = st.columns(3)
+col_tab1, col_tab2, col_tab3, col_tab4 = st.columns(4)
 
 with col_tab1:
     if st.button("⚙️ Setup & Run Pipeline", key="tab_button_1",
@@ -374,6 +374,13 @@ with col_tab3:
     if st.button("📊 Logs", key="tab_button_3",
                  type="primary" if st.session_state.current_tab == 2 else "secondary"):
         st.session_state.current_tab = 2
+        st.session_state.preserve_review_tab = False  # Clear preservation when manually switching
+        st.rerun()
+
+with col_tab4:
+    if st.button("🔧 Settings", key="tab_button_4",
+                 type="primary" if st.session_state.current_tab == 3 else "secondary"):
+        st.session_state.current_tab = 3
         st.session_state.preserve_review_tab = False  # Clear preservation when manually switching
         st.rerun()
 
@@ -2881,3 +2888,130 @@ elif st.session_state.current_tab == 2:
     st.text_area(
         "Live Logs:", value=st.session_state.get('log_content', ''), height=600, key="log_display_text_area_v3"
     )
+
+elif st.session_state.current_tab == 3:
+    st.header("🔧 Settings & Management")
+    
+    # File Management Section
+    st.subheader("📁 Raw Video Management")
+    st.write(f"Current location: `{config.RAW_VIDEO_DIR}`")
+    
+    # Upload new videos
+    with st.expander("📤 Upload New Videos", expanded=False):
+        uploaded_files = st.file_uploader(
+            "Upload video files",
+            type=['mp4', 'mkv', 'avi', 'mov', 'webm', 'flv', 'wmv'],
+            accept_multiple_files=True,
+            key="video_uploader"
+        )
+        
+        if uploaded_files:
+            if st.button("Save Uploaded Videos", key="save_uploads"):
+                progress = st.progress(0)
+                for idx, uploaded_file in enumerate(uploaded_files):
+                    try:
+                        # Save to raw directory
+                        save_path = config.RAW_VIDEO_DIR / uploaded_file.name
+                        with open(save_path, 'wb') as f:
+                            f.write(uploaded_file.getbuffer())
+                        st.success(f"✅ Saved: {uploaded_file.name}")
+                        logging.info(f"Uploaded video saved: {save_path}")
+                    except Exception as e:
+                        st.error(f"❌ Failed to save {uploaded_file.name}: {e}")
+                        logging.error(f"Failed to save uploaded video {uploaded_file.name}: {e}")
+                    progress.progress((idx + 1) / len(uploaded_files))
+                st.rerun()
+    
+    # Delete existing videos
+    with st.expander("🗑️ Delete Videos from Raw Folder", expanded=False):
+        raw_videos = list(config.RAW_VIDEO_DIR.glob('*'))
+        raw_videos = [v for v in raw_videos if v.is_file() and v.suffix.lower() in ['.mp4', '.mkv', '.avi', '.mov', '.webm', '.flv', '.wmv']]
+        
+        if not raw_videos:
+            st.info("No videos found in raw folder")
+        else:
+            st.write(f"Found {len(raw_videos)} video(s)")
+            videos_to_delete = st.multiselect(
+                "Select videos to delete",
+                options=[v.name for v in raw_videos],
+                key="videos_to_delete_selector"
+            )
+            
+            if videos_to_delete:
+                st.warning(f"⚠️ You are about to delete {len(videos_to_delete)} video(s)")
+                col1, col2 = st.columns(2)
+                with col1:
+                    if st.button("❌ Confirm Delete", key="confirm_delete_videos", type="primary"):
+                        for video_name in videos_to_delete:
+                            try:
+                                video_path = config.RAW_VIDEO_DIR / video_name
+                                video_path.unlink()
+                                st.success(f"✅ Deleted: {video_name}")
+                                logging.info(f"Deleted video: {video_path}")
+                            except Exception as e:
+                                st.error(f"❌ Failed to delete {video_name}: {e}")
+                                logging.error(f"Failed to delete video {video_name}: {e}")
+                        st.rerun()
+                with col2:
+                    if st.button("Cancel", key="cancel_delete_videos"):
+                        st.rerun()
+    
+    st.divider()
+    
+    # Reset System Section
+    st.subheader("🔄 Reset System")
+    st.warning("⚠️ **Danger Zone** - These actions cannot be undone!")
+    
+    with st.expander("🗑️ Reset to Factory Settings", expanded=False):
+        st.write("This will:")
+        st.write("- Delete the entire database")
+        st.write("- Delete all processed episode folders in `data/episodes`")
+        st.write("- Keep videos in `data/raw` folder")
+        st.write("- Keep IMDB database in `db` folder")
+        
+        confirm_text = st.text_input(
+            "Type 'RESET' to confirm:",
+            key="reset_confirmation_text"
+        )
+        
+        if confirm_text == "RESET":
+            if st.button("🔴 RESET ENTIRE SYSTEM", key="reset_system_button", type="primary"):
+                with st.spinner("Resetting system..."):
+                    try:
+                        import shutil
+                        
+                        # Delete database
+                        if config.DB_PATH.exists():
+                            config.DB_PATH.unlink()
+                            st.success("✅ Database deleted")
+                            logging.info("Database deleted during system reset")
+                        
+                        # Delete all episode folders
+                        if config.EPISODES_BASE_DIR.exists():
+                            for episode_dir in config.EPISODES_BASE_DIR.iterdir():
+                                if episode_dir.is_dir():
+                                    shutil.rmtree(episode_dir)
+                                    logging.info(f"Deleted episode folder: {episode_dir}")
+                            st.success(f"✅ All episode folders deleted from {config.EPISODES_BASE_DIR}")
+                        
+                        # Recreate empty database
+                        utils.init_db()
+                        st.success("✅ Fresh database initialized")
+                        
+                        # Clear session state
+                        for key in list(st.session_state.keys()):
+                            if key not in ['current_tab']:
+                                del st.session_state[key]
+                        
+                        st.success("✅ System reset complete!")
+                        logging.info("System reset completed successfully")
+                        
+                        st.balloons()
+                        st.info("Please refresh the page or click 'Setup & Run Pipeline' to start fresh")
+                        
+                    except Exception as e:
+                        st.error(f"❌ Error during reset: {e}")
+                        logging.error(f"Error during system reset: {e}", exc_info=True)
+        else:
+            st.info("Type 'RESET' above to enable the reset button")
+
