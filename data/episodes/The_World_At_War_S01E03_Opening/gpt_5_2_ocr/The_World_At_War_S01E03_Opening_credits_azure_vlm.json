@@ -1,0 +1,86 @@
+[
+  {
+    "role_detail": "Written & Produced by",
+    "name": "PETER BATTY",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_000_static_009_num01335_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1335
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T13:17:21.347002+00:00",
+      "model": "gpt-5.2",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Written & Produced by",
+    "name": "PETER BATTY",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_static_009_num01335_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1335
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T13:17:21.347002+00:00",
+      "model": "gpt-5.2",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Written by",
+    "name": "LAWRENCE OLIVIER",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_000_static_011_num01440_sim56.jpg"
+    ],
+    "original_frame_number": [
+      1440
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T13:17:21.347002+00:00",
+      "model": "gpt-5.2",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Narrated by",
+    "name": "LAWRENCE OLIVIER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_011_num01440_sim56.jpg"
+    ],
+    "original_frame_number": [
+      1440
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T13:17:21.347002+00:00",
+      "model": "gpt-5.2",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  }
+]

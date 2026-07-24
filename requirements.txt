@@ -1,5 +1,4 @@
 # OCR & AI
-transformers
 openai # >>> Add Azure OpenAI library <<<
 python-dotenv # >>> Add dotenv <<<
 imagehash

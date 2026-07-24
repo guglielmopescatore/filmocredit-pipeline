@@ -1,0 +1,426 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_000_num00048_sim0.jpg",
+          "frame_num": 48,
+          "ocr_text": "DIRIGIDO POR DAINA GIANNECCHINI DANI LIBARDI",
+          "ocr_bbox": [
+            257,
+            197,
+            510,
+            253
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_001_num00096_sim43.jpg",
+          "frame_num": 96,
+          "ocr_text": "ESCRITO POR C\u00c1SSIO KOSHIKUMO DENIS NIELSEN IVAN NAKAMURA JOTAGA CREMA",
+          "ocr_bbox": [
+            263,
+            171,
+            505,
+            263
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_002_num00156_sim44.jpg",
+          "frame_num": 156,
+          "ocr_text": "MONTADO POR CRISTIAN CHINEN",
+          "ocr_bbox": [
+            280,
+            197,
+            487,
+            233
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_003_num00216_sim15.jpg",
+          "frame_num": 216,
+          "ocr_text": "ELENCO C\u00c9SAR GOUV\u00c9A LEONARDO GARCEZ CLARISSA KISTE LUCIANA PAES DANI NEFUSSI LUCIANA SCHWINDEN DARCIO DE OLIVEIRA MARIA GAL EDIANA SOUZA PAULO GONCALVES EDUARDO SILVA PEDRO GASPAROTTO GABRIEL CALAMARI RITA BATATA GERALDO RODRIGUES ROG\u00c9RIO BRITO JULIA BERGAMIM THIAGO AMARAL JULIO SILV\u00c9RIO",
+          "ocr_bbox": [
+            162,
+            136,
+            604,
+            294
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_004_num00264_sim50.jpg",
+          "frame_num": 264,
+          "ocr_text": "DIRETORA DE PRODUC\u00c4O LIA RAULINO HILLEL FIGURINISTA CASSIO BRASIL 1\u00b0 ASSISTENTE DE DIREC\u00c4O THIAGO LEAO PREPARADORES DE ELENCO CHRISTIAN DUUVOORT MARINA MEDEIROS CARACTERIZAC\u00c4O ROSEMARY PAIVA PRODUTORES DE ELENCO DIOGO FERREIRA SILVA FELIPE LUZ GUSTAVO TRANQUILIN",
+          "ocr_bbox": [
+            194,
+            134,
+            563,
+            295
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_005_num00324_sim50.jpg",
+          "frame_num": 324,
+          "ocr_text": "COORDENADORAS DE PRODUCAO EXECUTIVA CLAUDIA GONCALVES LARISSA SPADA MARIANE NUNES PRODUTORES ASSOCIADOS LO POLITI ROB\u00c9RIO BRAGA COORDENADORA DE PRODUCAO VANESSA MARTINS COORDENADORES DE CENAS DE ACAO ANDR\u00c9 FRANCO ARIELA GOLDMANN GIULIANO BORTOLUCI ASSISTENTES DE ELENCO GUILHERME FROTA VICKY JUSTINIANO ASSISTENTI BONJARDIM",
+          "ocr_bbox": [
+            86,
+            109,
+            555,
+            317
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_006_num00384_sim51.jpg",
+          "frame_num": 384,
+          "ocr_text": "2\" ASSISTENTES DE DIREC\u00c4O GIOVANNA RUBIM YARA GUZMAN 3 ASSISTENTES DE DIREC\u00c4O BRUNA GRULKE GUILHERME MOTTA MARIA CRISTINA POLETTO PAULA BALIEIRO CONTINUISTA JP TEIXEIRA ASSISTENTE DE CONTINUISTA PEDRO TEIXEIRA PLAT\u00d3 PHELIPE MOREIRA (PH) CONSUI LULI RADFAHRER",
+          "ocr_bbox": [
+            184,
+            125,
+            590,
+            303
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_007_num00444_sim53.jpg",
+          "frame_num": 444,
+          "ocr_text": "ASSISTENTE DE DIRECAO DE ARTE RENATA RUGAI CAMILA FERNANDES GALHARDO PRODUTORA DE ARTE PRODUTOR DE OBJETOS MARIO SURCAN CAROLINA MONTOIA CENOGRAFIA 1' ASSISTENTE DE OBJETOS PHELIPE VITTORELLI DUANNY LIMA 2' ASSISTENTES DE OBJETOS RENATA ZB\u00d3RIL EFEITOS SHYIOZI IZUNO FILHO PINTURA DE ARTE CIDINHO SOUZA (EXTRA) CLAUDIO PARRA PATRICIA CABRAL PAULA SELVA WILSON DOS SANTOS CASTRO",
+          "ocr_bbox": [
+            154,
+            97,
+            637,
+            330
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_008_num00504_sim55.jpg",
+          "frame_num": 504,
+          "ocr_text": "OPERADORES DE CAMERA EDUARDO PIAGGE PEDRO MAFFEI RAFAEL MARTINELLI 1 ASSISTENTE DE CAMERA RICARDO HESSEL (BRANCO) 2 ASSISTENTE DE CAMERA MARCIO MELLO LOGGER GUSTAVO FATTORI NELSON KAO VIDEO ASSIST LUCAS FILHAO CARDOSO 1\u00b0 ASSISTENTE DE CAMERA \u00b7 2\" UNIDADE FELIPE RODRIGUES 2 ASSISTENTES DE CAMERA . 2\u00b0 UNIDADE DANIEL DOMINGUES PAUL BESSA VIDEO ASSIST \u00b7 2 UNIDADE VICTOR HUGO LUZ",
+          "ocr_bbox": [
+            104,
+            106,
+            601,
+            322
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_009_num00564_sim53.jpg",
+          "frame_num": 564,
+          "ocr_text": "CHEFE DE EL\u00c9TRICA MARCELO MARUJO (MELAO) 1\u00b0 ASSISTENTE DE EL\u00c9TRICA DANILO SONCELA 2\u00b0 ASSISTENTE DE ELETRICA ROBERTO MARUJO MAGUINISTA JULIO GONCALVES GARCIA (JULINHO) 1' ASSISTENTE DE MAGUIN\u00c1RIA ALVES 2' ASSISTENTES DE MAQUIN\u00c1RIA ADILSON RODRIGUES DE SOUZA ASSIS AJUDANTE DE EL\u00c9TRICA WELLINGTON AJUDANTE DE MAQUIN\u00c1RIA WILLIAM VIEIRA OPERADOR DE TP ROBERTO JR. (JUNINHO)",
+          "ocr_bbox": [
+            164,
+            121,
+            670,
+            310
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_010_num00612_sim47.jpg",
+          "frame_num": 612,
+          "ocr_text": "ASSISTENTE DE PRODUCAO C\u00c9SAR RAMOS SECRET\u00c1RIA DE PRODUCAO MARIA HELENA MORSE ESTAGIARIA DE PRODUCAO DIANA NUNES ASSISTENTES DE PRODUCAO EXECUTIVA MELISSA VIGA RODAS ROBERTA CUNHA RODRIGO MARQUES",
+          "ocr_bbox": [
+            117,
+            163,
+            566,
+            268
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_011_num00672_sim53.jpg",
+          "frame_num": 672,
+          "ocr_text": "PRODUTOR DE LOCACAO ZECA PAIXAO ASSISTENTE DE PRODUC\u00c4O DE LOCACAO CESAR RIVITTI PRODUTOR DE FRENTE RICARDO AZEVEDO TRU ASSISTENTES DE PLAT\u00d3 JEOVANY ALMEIDA KEVIN SILVA LEANDRO BUENO AJUDANTES DE SET JEFERSON VIANA (JEFF) LAERTE MOACIR",
+          "ocr_bbox": [
+            111,
+            142,
+            574,
+            286
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_012_num00732_sim53.jpg",
+          "frame_num": 732,
+          "ocr_text": "ASSISTENTES DE PRODUCAO DE ARTE GABRIEL OLIVEIRA LOPES GARCIA MARILIA DOURADO PEDRO CARDOSO ROBERTO FERREIRA (PEIXINHO) DESIGNER GR\u00c1FICO RENAN RAMIRO AJUDANTES DE ARTE ATON PEREIRA BOBI MARIANO DIOGO ARAUJO HIGOR LOPES IGOR ISQUI JORGE MIRANDA LAERTE MOACIR PETTER JEFFERSON RENAN CAMPOS WELLINGTON BENFATI WILLIAM ALVES NASCIMENTO",
+          "ocr_bbox": [
+            131,
+            84,
+            643,
+            344
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_013_num00792_sim50.jpg",
+          "frame_num": 792,
+          "ocr_text": "CONTRARREGRAS BOBI MARCOS MARIANO COSTA KENNEDY MARIANO CONTRARREGRA DE FRENTE MARCAO ARAUJO ADERECISTAS JESUS WALKIR TROY E TRIBO DA ARTE ASSISTENTE DE CONTRARREGRA DARIO SANTOS DE MIRANDA SERRALHEIROS GILDO REIS MARCIO PEREZ",
+          "ocr_bbox": [
+            165,
+            144,
+            633,
+            285
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_014_num00852_sim44.jpg",
+          "frame_num": 852,
+          "ocr_text": "PRODUTORA DE FIGURINO PATRICIA SAYURI SATO ASSISTENTES DE FIGURINO ADRIANA RECCHI POLLY LYRA COSTA CAMAREIRAS JACQUELINE VILAR LILI SANTA ROSA REJANE MEIRE GOMES SA COLABORADORES DE FIGURINO ALIPIO GOMES ANTONIA PAIVA FEITOSA MARIA ALDA GONCALVES PIERRE GARCIA SILVIA APARECIDA DE CASTRO ASSISTENTES DE MAQUIAGEM, CABELO E EFEITOS AMANDA MIRAGE GABI SCHEMBECK JULIANA SANTOS LEON GURFEIN MARIA LUCIA GAMA RAMALHO RAGNEL VANDELLI RENATA RODRIGUES",
+          "ocr_bbox": [
+            77,
+            65,
+            624,
+            364
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_015_num00912_sim50.jpg",
+          "frame_num": 912,
+          "ocr_text": "T\u00c9CNICOS DE SOM JULIANO ZOPPI RAGNAR RIBAS T\u00c9CNICO DE SOM \u00b7 2\" UNIDADE REN\u00c9 BRASIL MICROFONISTA UBIRATAN GUIDIO ASSISTENTE DE SOM DANIEL LANDI COORDENADOR DE PROJEC\u00d6ES THIAGO H.STRASSALANO T\u00c9CNICO DE PROJEC\u00c4O RAFAEL BOTTER VIDEO MAPPER FERNANDO ADDED RAFAEL BOTTER THIAGO H. STRASSALANO ASSISTENTE DE PROJEC\u00c4O LEONARDO GUSMAO FERNANDO ADDED ARTES PARA PROJECAO FERNANDO VELASQUEZ NILTON CAVALCANTI THIAGO H. STRASSALANO SUPORTE T\u00c9CNICO PARA PROJEC\u00c4O MAXI AUDIO, LUZ E IMAGEM",
+          "ocr_bbox": [
+            143,
+            70,
+            604,
+            360
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_016_num00960_sim41.jpg",
+          "frame_num": 960,
+          "ocr_text": "COORDENADORA DE P\u00d3S-PRODUCAO ANINHA GONCALVES FINALIZADOR VINICIUS DAL COLLETTO ASSISTENTE DE FINALIZACAO MAYARA NOGUEIRA ASSISTENTES DE MONTAGEM CAMILA CAVALCANTE LEKA ROMAO TAMMIRIS TELLES",
+          "ocr_bbox": [
+            140,
+            163,
+            573,
+            267
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_017_num01020_sim42.jpg",
+          "frame_num": 1020,
+          "ocr_text": "EDITORES DE AMBIENTE E EFEITOS HENRIQUE CHIURCIU JOAO VICTOR COURA S\u00c9RGIO ABDALLA EDITORES DE DIALOGOS CAU\u00c9 SHIMODA MARIANA VIEIRA FELIX BARREIRA RUIDO DE SALA RAUL JOOKEN WILLIAN LOPES MASTERIZAC\u00c4O ARIEL HENRIQUE SUPERVISORES DE SOM DANIEL TURINI FERNANDO HENNA ESTUDIC JFRARIA DE SONS 7 CHARUTOS",
+          "ocr_bbox": [
+            116,
+            110,
+            658,
+            318
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_018_num01080_sim53.jpg",
+          "frame_num": 1080,
+          "ocr_text": "GUILHERME RAMALHO DIRETORES GERAIS \u00b7 GUANTA POST HUGO GURGEL SOFIA FRANCO COORDENADORAS . GUANTA POST MARINA HERRADOR SOPHIA NERY SUPERVISOR DE EFEITOS VISUAIS GUILHERME RAMALHO COORDENADORA DE EFEITOS VISUAIS TATIANA PINHEIRO ASSISTENTE DE COORDENAC\u00c4O \u00b7 QUANTA POST RITA MACHADO DIRETOR DE ARTE RICARDO FERNANDES SUPERVISOR DE 3D VANDER SOUSA 3D DIOVANE ROCHA FABIO CALCIOLARI ORLANDO SOUZA COLORISTA LUISA CAVANAGH",
+          "ocr_bbox": [
+            75,
+            89,
+            560,
+            341
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_019_num01140_sim44.jpg",
+          "frame_num": 1140,
+          "ocr_text": "COMPOSICAO ARTHUR GALLINDO ISABELA FERRARI IURI TAMPOLSKI LUCAS SOUSA MARCELO JAMIUK COIS INTERMEDIAC\u00c4O DIGITAL ANA LiGIA CARRARO FERNANDA SGROGLIA LUDMILA FORNES MOTION DESIGN BERNARDO VAZ DANIELA SEABRA JULIANA ARAUJO RAFAEL LONGO ROGER BEZERRA SUPERVIS\u00c4O DO LABORAT\u00d3RIO DIGITAL ROBSON PEDROSO LABORAT\u00d3RIO DIGITAL GABRIELLE FERREIRA JULIO PELIZER",
+          "ocr_bbox": [
+            125,
+            80,
+            570,
+            349
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_020_num01200_sim25.jpg",
+          "frame_num": 1200,
+          "ocr_text": "MUSICA CANTO MUSICA DE ABERTURA E VOZES ADICIONAIS MARCELO PRETTO",
+          "ocr_bbox": [
+            216,
+            189,
+            549,
+            244
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_021_num01248_sim24.jpg",
+          "frame_num": 1248,
+          "ocr_text": "GERENTE ADMINISTRATIVO E FINANCEIRO AMANDA NUNES CONTROLLER IARA LIAS ASSISTENTES DE CONTROLLER GIOVANNA FERNANDES SABRINA TSUCHIYA SUPERVISORA FINANCEIRO AMANDA MACEDO ASSISTENTES FINANCEIRO CAMILA ROQUE ELAINE MESQUITA VANESSA AMODIO ASSISTENTE ADMINISTRATIVO RANI CAMARGO ESTAGI\u00c1RIO ADM RAFAEL RAMOS ASSESSORIA JURIDICA CAMARGO SOCIEDADE DE ADVOGADOS LARISSA ARAUJO",
+          "ocr_bbox": [
+            111,
+            106,
+            690,
+            321
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_022_num01308_sim45.jpg",
+          "frame_num": 1308,
+          "ocr_text": "MOTORISTAS ALEXANDRE DA CRUZ SANTOS JEOVANY PINTO ALMEIDA ANTONIO CARLOS FERREIRA JOHNATA RUFINO DA SILVA ARLINDO SILVA LUCIANO RODRIGUES CARLOS SCALLA (CH VANS) LUIZAO (TRUCKCINE) CARLOS TEIXEIRA MARCELO ARIENTE DUDU (EDUARDO OLIVEIRA MEDINA) MARCONDES DE LIMA EDSON COELHO OTHON PERDIGAO EDUARDO ANDREANI ROBERVAL SENA ESGUERDINHA (GERADORISTA) SILVEIRA GABRIEL ALEXANDRE TONY PIAUI ISAAC COELHO VICTOR RODRIGUES",
+          "ocr_bbox": [
+            103,
+            127,
+            659,
+            301
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_023_num01368_sim41.jpg",
+          "frame_num": 1368,
+          "ocr_text": "APOIO ARENA CORINTHIANS BNDES SECRETARIA MUNICIPAL DE CULTURA SPCINE AGRADECIMENTOS PRODUCAO CAIQUE MARTINS FERREIRA CAROL TURNER CAROLINA VIANNA EPSON GUSTAVO MELLO KRISHNA BRUNONI PAYTRE TOPP",
+          "ocr_bbox": [
+            180,
+            126,
+            669,
+            303
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_000_static_024_num01428_sim45.jpg",
+          "frame_num": 1428,
+          "ocr_text": "AGRADECIMENTOS ALL SIGNS MII ATELIER ARTE ARTESIAN MILISE CORREIA AT\u00c9LIE NAT PETRY MUNDO DO ENXOVAL BENTO STORE OBJETOS DE CENA CARBONO DESIGN DE LAZZARI - MOBILI\u00c1RIO URBANO POMPEIA PRINT FABIO BASTOS (GUARDE AQUI) S\u00c9RGIO FAHRER E JACK FAHRER KARSTEN SEU JORGE DAS COIFAS LUCIA EID - OLARIA PAULISTANA SP SIGNS LUIS ARANGURI TRAMONTINA MELLI-MELO PRESS TUPPERWARE MEZAS",
+          "ocr_bbox": [
+            78,
+            121,
+            689,
+            308
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 25,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_1": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_001_scroll_000_num01475_sim0.jpg",
+          "frame_num": 1475,
+          "ocr_text": "boutique FLES",
+          "ocr_bbox": [
+            470,
+            265,
+            639,
+            326
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -1.2032983303070068,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -1.0691927671432495,
+      "roi_percentile_flow": -1.2032983303070068,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 323,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_002_static_000_num01517_sim90.jpg",
+          "frame_num": 1517,
+          "ocr_text": "boutique FILMESI",
+          "ocr_bbox": [
+            290,
+            220,
+            572,
+            315
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.10251271724700928,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10612642765045166,
+      "roi_percentile_flow": 0.10251271724700928,
+      "scroll_direction": null
+    },
+    "scene_3": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.10808663815259933,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10632876679301262,
+      "roi_percentile_flow": 0.10808663815259933,
+      "scroll_direction": null
+    },
+    "scene_4": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_004_static_000_num01607_sim35.jpg",
+          "frame_num": 1607,
+          "ocr_text": "NETFLIX",
+          "ocr_bbox": [
+            195,
+            147,
+            577,
+            277
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_004_static_001_num01631_sim100.jpg",
+          "frame_num": 1631,
+          "ocr_text": "NETFLIX",
+          "ocr_bbox": [
+            239,
+            164,
+            527,
+            256
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "3_Percent_S01E06_End\\analysis\\frames\\scene_004_static_002_num01655_sim39.jpg",
+          "frame_num": 1655,
+          "ocr_text": "NETFLIX Tradotto da: Bruno Basile",
+          "ocr_bbox": [
+            238,
+            170,
+            530,
+            420
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.15003111958503723,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.16908568888902664,
+      "roi_percentile_flow": 0.15003111958503723,
+      "scroll_direction": null
+    }
+  }
+}

@@ -1,0 +1,868 @@
+[
+  {
+    "role_detail": null,
+    "name": "SONY PICTURES CLASSICS",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_000_static_000_num00060_sim0.jpg"
+    ],
+    "original_frame_number": [
+      60
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "PRÉSENTE",
+    "name": "2.4.7. FILMS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_000_static_001_num00288_sim43.jpg"
+    ],
+    "original_frame_number": [
+      288
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "D’APRÈS L’OEUVRE ORIGINALE DE",
+    "name": "MARJANE SATRAPI",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_001_static_002_num00558_sim83.jpg"
+    ],
+    "original_frame_number": [
+      558
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PUBLIÉE AUX ÉDITIONS",
+    "name": "L’ASSOCIATION",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_001_static_002_num00558_sim83.jpg"
+    ],
+    "original_frame_number": [
+      558
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EN COPRODUCTION AVEC",
+    "name": "FRANCE 3 CINÉMA",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_002_static_001_num00638_sim98.jpg"
+    ],
+    "original_frame_number": [
+      638
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EN COPRODUCTION AVEC",
+    "name": "THE KENNEDY / MARSHALL COMPANY",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_002_static_001_num00638_sim98.jpg"
+    ],
+    "original_frame_number": [
+      638
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EN COPRODUCTION AVEC",
+    "name": "JE SUIS BIEN CONTENT ANIMATIONS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_002_static_002_num00710_sim39.jpg"
+    ],
+    "original_frame_number": [
+      710
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EN COPRODUCTION AVEC",
+    "name": "DIAPHANA DISTRIBUTION",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_002_static_002_num00710_sim39.jpg"
+    ],
+    "original_frame_number": [
+      710
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EN COPRODUCTION AVEC",
+    "name": "FRANCHE CONNECTION ANIMATIONS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_002_static_003_num00722_sim48.jpg"
+    ],
+    "original_frame_number": [
+      722
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EN ASSOCIATION AVEC",
+    "name": "CELLULOID DREAMS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_002_static_003_num00722_sim48.jpg"
+    ],
+    "original_frame_number": [
+      722
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EN ASSOCIATION AVEC",
+    "name": "SONY PICTURES CLASSICS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_002_static_003_num00722_sim48.jpg"
+    ],
+    "original_frame_number": [
+      722
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "EN ASSOCIATION AVEC",
+    "name": "SOFICA SOFICINEMA ET SOFICA EUROPACORP",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_002_static_003_num00722_sim48.jpg"
+    ],
+    "original_frame_number": [
+      722
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AVEC LA PARTICIPATION",
+    "name": "CENTRE NATIONAL DE LA CINÉMATOGRAPHIE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_002_static_006_num00986_sim95.jpg"
+    ],
+    "original_frame_number": [
+      986
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AVEC LA PARTICIPATION",
+    "name": "RÉGION ÎLE-DE-FRANCE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_002_static_006_num00986_sim95.jpg"
+    ],
+    "original_frame_number": [
+      986
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AVEC LA PARTICIPATION",
+    "name": "FONDATION GROUPAMA GAN POUR LE CINÉMA",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_002_static_006_num00986_sim95.jpg"
+    ],
+    "original_frame_number": [
+      986
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AVEC LA PARTICIPATION",
+    "name": "PROCIREP",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_002_static_006_num00986_sim95.jpg"
+    ],
+    "original_frame_number": [
+      986
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AVEC LA PARTICIPATION",
+    "name": "ANGOA",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_002_static_006_num00986_sim95.jpg"
+    ],
+    "original_frame_number": [
+      986
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "DANIELLE DARRIEUX",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_static_000_num01149_sim39.jpg"
+    ],
+    "original_frame_number": [
+      1149
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "CATHERINE DENEUVE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_static_000_num01149_sim39.jpg"
+    ],
+    "original_frame_number": [
+      1149
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "SIMON ABKARIAN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_005_scroll_000_num01202_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1202
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "STUDIO D'ANIMATION",
+    "name": "PERSEPROD",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_005_scroll_001_num01352_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1352
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "STUDIO D'ANIMATION — UNE ASSOCIATION",
+    "name": "JE SUIS BIEN CONTENT",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_005_scroll_001_num01352_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1352
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "STUDIO D'ANIMATION — UNE ASSOCIATION",
+    "name": "PUMPKIN-3D",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_005_scroll_001_num01352_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1352
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "STUDIO D'ANIMATION",
+    "name": "MARC JOUSSET",
+    "role_group": "Animation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Animation Department",
+    "source_frame": [
+      "scene_005_scroll_001_num01352_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1352
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "STUDIO D'ANIMATION",
+    "name": "PASCAL CHEVÉ",
+    "role_group": "Animation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Animation Department",
+    "source_frame": [
+      "scene_005_scroll_001_num01352_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1352
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "STUDIO D'ANIMATION",
+    "name": "LOUIS VIAU",
+    "role_group": "Animation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Animation Department",
+    "source_frame": [
+      "scene_005_scroll_001_num01352_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1352
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIRECTEUR",
+    "name": "MARC J",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_005_scroll_002_num01502_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1502
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIRECTEUR ARTISTIQUE",
+    "name": "MARC JOUSSET",
+    "role_group": "Art Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Directors",
+    "source_frame": [
+      "scene_006_scroll_000_num01548_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1548
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "DIRECTEUR DE L'ANIMATION",
+    "name": "CHRISTIAN DESMARES",
+    "role_group": "Animation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Animation Department",
+    "source_frame": [
+      "scene_006_scroll_001_num01698_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1698
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CHEF DÉCORATRICE",
+    "name": "MARISA MUSY (ZAZA)",
+    "role_group": "Set Decorators",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Set Decorators",
+    "source_frame": [
+      "scene_006_scroll_001_num01698_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1698
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTANT RÉALISATEUR",
+    "name": "DENIS WALGENWITZ",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_006_scroll_001_num01698_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1698
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COMPOSITING MONTAGE",
+    "name": "STÉPHANE ROCHE",
+    "role_group": "Visual Effects",
+    "secondary_role_group": "Editorial Department",
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_006_scroll_001_num01698_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1698
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SON",
+    "name": "THIERRY LEBON",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_006_scroll_002_num01848_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1848
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIRECTION DE PRODUCTION DE L'ANIMATION",
+    "name": "OLIVIER BIZET",
+    "role_group": "Animation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Animation Department",
+    "source_frame": [
+      "scene_006_scroll_002_num01848_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1848
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CHEF LAY OUT",
+    "name": "JING WANG",
+    "role_group": "Animation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Animation Department",
+    "source_frame": [
+      "scene_006_scroll_002_num01848_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1848
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CHEF TRACEUR",
+    "name": "FRANK MIYET",
+    "role_group": "Animation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Animation Department",
+    "source_frame": [
+      "scene_006_scroll_002_num01848_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1848
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CHEFS ASSISTANT",
+    "name": "THIERRY PÉRÈS",
+    "role_group": "Animation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Animation Department",
+    "source_frame": [
+      "scene_006_scroll_002_num01848_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1848
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CHEFS ASSISTANT",
+    "name": "ALEXIS VENET",
+    "role_group": "Animation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Animation Department",
+    "source_frame": [
+      "scene_006_scroll_002_num01848_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1848
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MUSIQUE COMPOSÉE",
+    "name": "OLIVIER BERNET",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_007_static_001_num01966_sim99.jpg"
+    ],
+    "original_frame_number": [
+      1966
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "DIRIGÉE PAR",
+    "name": "OLIVIER BERNET",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_007_static_001_num01966_sim99.jpg"
+    ],
+    "original_frame_number": [
+      1966
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "PRODUCTRICE ASSOCIÉE",
+    "name": "KATHLEEN KENNEDY",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_007_static_004_num02038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      2038
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUIT PAR",
+    "name": "MARC-ANTOINE ROBERT",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_007_static_005_num02098_sim38.jpg"
+    ],
+    "original_frame_number": [
+      2098
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUIT PAR",
+    "name": "XAVIER RIGAUT",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_007_static_005_num02098_sim38.jpg"
+    ],
+    "original_frame_number": [
+      2098
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-22T19:48:35.173812+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  }
+]

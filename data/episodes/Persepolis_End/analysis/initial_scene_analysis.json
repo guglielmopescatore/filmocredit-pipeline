@@ -1,0 +1,695 @@
+{
+    "episode_id": "Persepolis_End",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 196,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:00:08.175",
+            "duration_frames": 196,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "UN FILM DE MARJANE SATRAPI ET VINCENT PARONNAUD PRODUIT PAR MARC-ANTOIWE ROBERT ET XAVIER RIGAULT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 9,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 19,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 29,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 39,
+                    "ocr_text": "UN FILM DE MARJANE SATRAPI ET VINCENT PARONNAUD PRODUIT PAR MARC-ANTOIWE ROBERT ET XAVIER RIGAULT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_39_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 9: No text found (CLAHE)",
+                "Frame 19: No text found (CLAHE)",
+                "Frame 29: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 1,
+            "original_start_frame": 196,
+            "original_end_frame": 699,
+            "original_start_timecode": "00:00:08.175",
+            "original_end_timecode": "00:00:29.154",
+            "duration_frames": 503,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "PRODUIT PAR MARC-ANTOINE ROBERT ET XAVIER RIGAULT AVEC LES VOIX DE : CHIARA MASTROIANNI MARJANE ADOLESCENTE ET ADULTE CATHERINE DENEUVE LA MERE DANIELLE DARRIEUX LA GRAND-MERE SIMON ABKARIAN LE PERE GABRIELLE LOPES MARJANE ENFANT FRANCOIS JEROSME ONCLE ANOUCHE ET LES VOIX DE : SOPHIE ARTHUYS JEAN-FRANCOIS GALLOTTE ARIE ELMALEH MATHIAS MLEKUZ ET: SACHA ALLIEL LESCELINE HAASE VIRGINIE ANTICO MARC JOUSSET SYLVAIN AUDI NICOLAS LEROY BENEDICTE BATTESTI CANDIDE LOPES HUBERT BENHAMDINE TILLY MANDELBROT NINON BRETECHER JEAN-CHRISTOPHE MENU JEAN-PHILIPPE CALLET CELINE MERRIEN IDITCEBU\"A"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 221,
+                    "ocr_text": "PRODUIT PAR MARC-ANTOINE ROBERT ET XAVIER RIGAULT AVEC LES VOIX DE : CHIARA MASTROIANNI MARJANE ADOLESCENTE ET ADULTE CATHERINE DENEUVE LA MERE DANIELLE DARRIEUX LA GRAND-MERE SIMON ABKARIAN LE PERE GABRIELLE LOPES MARJANE ENFANT FRANCOIS JEROSME ONCLE ANOUCHE ET LES VOIX DE : SOPHIE ARTHUYS JEAN-FRANCOIS GALLOTTE ARIE ELMALEH MATHIAS MLEKUZ ET: SACHA ALLIEL LESCELINE HAASE VIRGINIE ANTICO MARC JOUSSET SYLVAIN AUDI NICOLAS LEROY BENEDICTE BATTESTI CANDIDE LOPES HUBERT BENHAMDINE TILLY MANDELBROT NINON BRETECHER JEAN-CHRISTOPHE MENU JEAN-PHILIPPE CALLET CELINE MERRIEN IDITCEBU\"A",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_first_half_frame_221_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 699,
+            "original_end_frame": 734,
+            "original_start_timecode": "00:00:29.154",
+            "original_end_timecode": "00:00:30.614",
+            "duration_frames": 35,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "ASSISTANT ANIMATIC STAGIAIRE ANIMATIC JOCELYN GALLON MATHIEU ROBERT NICOLAS HAUTE CATHERINE HELMER SUPERVISION RECHERCHES DECORS MARISA MUSY\"ZAZA * RECHERCHES DECORS FREDERIC BONIAUD RECHERCHES DECORS SUPPLEMENTAIRES LYONNEL MATHIEU (DIT CIZO) RECHERCHES PERSONNAGES THIERRY PERES DAMIEN BARRAU BENOIT BAYART NILSEN ROBIN FRANCK BONAY JING WANG ALICE LIA TEST ANIMATION PREPRODUCTION DAMIEN BARRAU ALEXANDRE HESSE FABRICE FOUQUET NILSEN ROBIN"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 700,
+                    "ocr_text": "ASSISTANT ANIMATIC STAGIAIRE ANIMATIC JOCELYN GALLON MATHIEU ROBERT NICOLAS HAUTE CATHERINE HELMER SUPERVISION RECHERCHES DECORS MARISA MUSY\"ZAZA * RECHERCHES DECORS FREDERIC BONIAUD RECHERCHES DECORS SUPPLEMENTAIRES LYONNEL MATHIEU (DIT CIZO) RECHERCHES PERSONNAGES THIERRY PERES DAMIEN BARRAU BENOIT BAYART NILSEN ROBIN FRANCK BONAY JING WANG ALICE LIA TEST ANIMATION PREPRODUCTION DAMIEN BARRAU ALEXANDRE HESSE FABRICE FOUQUET NILSEN ROBIN",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_first_half_frame_700_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 3,
+            "original_start_frame": 734,
+            "original_end_frame": 1092,
+            "original_start_timecode": "00:00:30.614",
+            "original_end_timecode": "00:00:45.545",
+            "duration_frames": 358,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "MARISA MUSY\"ZAZA RECHERCHES DECORS FREDERIC BONIAUD RECHERCHES DECORS SUPPLEMENTAIRES LYONNEL MATHIEU (DIT CIZO) RECHERCHES PERSONNAGES DAMIEN BARRAU THIERRY PERES BENOIT BAYART NILSEN ROBIN FRANCK BONAY JING WANG ALICE LIA * TEST ANIMATION PREPRODUCTION DAMIEN BARRAU ALEXANDRE HESSE FABRICE FOUQUET NILSEN ROBIN CHRISTOPHE FERREIRA JING WANG HABIB LOUATI NICOLAS PAWLOWSKI CASTING DES VOIX SYLVIE PEYRUCQ ASSISTÉE D'EMMANUELLE PRÉVOST"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 751,
+                    "ocr_text": "MARISA MUSY\"ZAZA RECHERCHES DECORS FREDERIC BONIAUD RECHERCHES DECORS SUPPLEMENTAIRES LYONNEL MATHIEU (DIT CIZO) RECHERCHES PERSONNAGES DAMIEN BARRAU THIERRY PERES BENOIT BAYART NILSEN ROBIN FRANCK BONAY JING WANG ALICE LIA * TEST ANIMATION PREPRODUCTION DAMIEN BARRAU ALEXANDRE HESSE FABRICE FOUQUET NILSEN ROBIN CHRISTOPHE FERREIRA JING WANG HABIB LOUATI NICOLAS PAWLOWSKI CASTING DES VOIX SYLVIE PEYRUCQ ASSISTÉE D'EMMANUELLE PRÉVOST",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_003_first_half_frame_751_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 4,
+            "original_start_frame": 1092,
+            "original_end_frame": 1342,
+            "original_start_timecode": "00:00:45.545",
+            "original_end_timecode": "00:00:55.973",
+            "duration_frames": 250,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "LAYOUT SUPPLEMENTAIRE ODILE COMON ALEXIS VENET SUPERVISION DÉCORS MARISA MUSY\"ZAZA\" DECORS PATRICIA GUILMARD THIERRY MILLION SUPERVISION ANIMATION2D CHRISTIAN DESMARES ANIMATION2D DAMIEN BARRAU VIRGINIE HANRIGOU FRANCK BONAY MARIANNE LEBEL JEAN-YVES CASTILLON GREGORY LECOCQ ANAIS CHEVILLARD ALICE LIA PATRICK COHEN CHARLOTTE MAZERAN ODILE COMON BENOIT MEURZEC CÉCILE COULIBEUF DAMIEN MILLEREAU ANTOINE DARTIGE DU FOURNET ADELINE MONIN SANDRA DERVAL NICOLAS PAWLOWSKI SERGE ELISSALDE JULES STROMBONI"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1104,
+                    "ocr_text": "LAYOUT SUPPLEMENTAIRE ODILE COMON ALEXIS VENET SUPERVISION DÉCORS MARISA MUSY\"ZAZA\" DECORS PATRICIA GUILMARD THIERRY MILLION SUPERVISION ANIMATION2D CHRISTIAN DESMARES ANIMATION2D DAMIEN BARRAU VIRGINIE HANRIGOU FRANCK BONAY MARIANNE LEBEL JEAN-YVES CASTILLON GREGORY LECOCQ ANAIS CHEVILLARD ALICE LIA PATRICK COHEN CHARLOTTE MAZERAN ODILE COMON BENOIT MEURZEC CÉCILE COULIBEUF DAMIEN MILLEREAU ANTOINE DARTIGE DU FOURNET ADELINE MONIN SANDRA DERVAL NICOLAS PAWLOWSKI SERGE ELISSALDE JULES STROMBONI",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_004_first_half_frame_1104_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 5,
+            "original_start_frame": 1342,
+            "original_end_frame": 1366,
+            "original_start_timecode": "00:00:55.973",
+            "original_end_timecode": "00:00:56.974",
+            "duration_frames": 24,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "ANIMATION AFTER FX FRANCOIS LEROY ANIMATION SUPPLEMENTAIRE VERONIQUE LANGDON DENIS VAUTRIN PIERRE MINOUX STAGIAIRESANIMATION CECILE DUBOIS-HERRY ETIENNE MATTERA SUPERVISION ANIMATION EFFETS SPÉCIAUX ALEXIS VENET ANIMATION EFFETS SPECIAUX PIERRE MINOUX ADELINE MONIN SUPERVISION ASSISTANAT ANIMATION 2D THIERRY PERES ALEXIS VENET ASSISTANAT ANIMATION 2D KEVIN AUDI-GRIVETTA VERONIQUE LANGDON RICCARDO AUDISIO MARIANNE LEBEL GRÉGORY LECOCQ SOPHIE BARADUC"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1343,
+                    "ocr_text": "ANIMATION AFTER FX FRANCOIS LEROY ANIMATION SUPPLEMENTAIRE VERONIQUE LANGDON DENIS VAUTRIN PIERRE MINOUX STAGIAIRESANIMATION CECILE DUBOIS-HERRY ETIENNE MATTERA SUPERVISION ANIMATION EFFETS SPÉCIAUX ALEXIS VENET ANIMATION EFFETS SPECIAUX PIERRE MINOUX ADELINE MONIN SUPERVISION ASSISTANAT ANIMATION 2D THIERRY PERES ALEXIS VENET ASSISTANAT ANIMATION 2D KEVIN AUDI-GRIVETTA VERONIQUE LANGDON RICCARDO AUDISIO MARIANNE LEBEL GRÉGORY LECOCQ SOPHIE BARADUC",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_005_first_half_frame_1343_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 6,
+            "original_start_frame": 1366,
+            "original_end_frame": 1932,
+            "original_start_timecode": "00:00:56.974",
+            "original_end_timecode": "00:01:20.581",
+            "duration_frames": 566,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "STAGIAIRESANIMATION CÉCILE DUBOIS-HERRY ETIENNE MATTERA SUPERVISION ANIMATION EFFETS SPECIAUX ALEXIS VENET ANIMATION EFFETS SPÉCIAUX PIERRE MINOUX ADELINE MONIN SUPERVISION ASSISTANAT ANIMATION 2D THIERRY PÉRES ALEXIS VENET ASSISTANAT ANIMATION2D KEVIN AUDI-GRIVETTA VÉRONIQUE LANGDON RICCARDO AUDISIO MARIANNE LEBEL SOPHIE BARADUC GRÉGORY LECOCQ FRANCK BONAY GERALDINE LE MOIGNE ANNE CALANDRE ALICE LIA CLÉEMENT CEARD PIERRE MINOUX PHILIPPE CULAS ETIENNE PINAULT ANTOINE DARTIGE DU FOURNET CHRISTOPHE PINTO NICOLE DE BELLEFROID MARIELLE RABOURDIN"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1394,
+                    "ocr_text": "STAGIAIRESANIMATION CÉCILE DUBOIS-HERRY ETIENNE MATTERA SUPERVISION ANIMATION EFFETS SPECIAUX ALEXIS VENET ANIMATION EFFETS SPÉCIAUX PIERRE MINOUX ADELINE MONIN SUPERVISION ASSISTANAT ANIMATION 2D THIERRY PÉRES ALEXIS VENET ASSISTANAT ANIMATION2D KEVIN AUDI-GRIVETTA VÉRONIQUE LANGDON RICCARDO AUDISIO MARIANNE LEBEL SOPHIE BARADUC GRÉGORY LECOCQ FRANCK BONAY GERALDINE LE MOIGNE ANNE CALANDRE ALICE LIA CLÉEMENT CEARD PIERRE MINOUX PHILIPPE CULAS ETIENNE PINAULT ANTOINE DARTIGE DU FOURNET CHRISTOPHE PINTO NICOLE DE BELLEFROID MARIELLE RABOURDIN",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_006_first_half_frame_1394_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 7,
+            "original_start_frame": 1932,
+            "original_end_frame": 1955,
+            "original_start_timecode": "00:01:20.581",
+            "original_end_timecode": "00:01:21.540",
+            "duration_frames": 23,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "OPERATRICES LINETEST YOVANAH RUNGASAWMY BLIAS YANG SUPERVISION SCAN, MISE EN COULEURS & COMPOSITING TOONZ MARION CREPEL OPÉRATEURS SCAN JIMMY\"CAPRON MISE EN COULEURS * LARA BELLINI ARNAUD MORITZ GERALDINE LE MOIGNE COMPOSITING TOONZ SYLVIE ATTORRESI\" TOTO\" FABRICE RENAUDIN SUPERVISION COMPOSITING AFTER EFFECTS STÉPHANE ROCHE COMPOSITING AFTER EFFECTS JEAN- YVES CASTILLON JEAN-PAUL GUIGUE SERGE CRESTE FRANCOIS LEROY DAMIEN GAILLARDON PIERRE MINOUX"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1933,
+                    "ocr_text": "OPERATRICES LINETEST YOVANAH RUNGASAWMY BLIAS YANG SUPERVISION SCAN, MISE EN COULEURS & COMPOSITING TOONZ MARION CREPEL OPÉRATEURS SCAN JIMMY\"CAPRON MISE EN COULEURS * LARA BELLINI ARNAUD MORITZ GERALDINE LE MOIGNE COMPOSITING TOONZ SYLVIE ATTORRESI\" TOTO\" FABRICE RENAUDIN SUPERVISION COMPOSITING AFTER EFFECTS STÉPHANE ROCHE COMPOSITING AFTER EFFECTS JEAN- YVES CASTILLON JEAN-PAUL GUIGUE SERGE CRESTE FRANCOIS LEROY DAMIEN GAILLARDON PIERRE MINOUX",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_007_first_half_frame_1933_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 8,
+            "original_start_frame": 1955,
+            "original_end_frame": 1982,
+            "original_start_timecode": "00:01:21.540",
+            "original_end_timecode": "00:01:22.666",
+            "duration_frames": 27,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "SUPERVISION SCAN, MISE EN COULEURS & COMPOSITING TOONZ MARION CREPEL OPERATEURS SCAN JIMMY\"CAPRON MISE EN COULEURS LARA BELLINI ARNAUD MORITZ GERALDINE LE MOIGNE COMPOSITING TOONZ SYLVIE ATTORRESI\" TOTO\" FABRICE RENAUDIN SUPERVISION COMPOSITING AFTER EFFECTS STÉPHANE ROCHE COMPOSITING AFTER EFFECTS JEAN- YVES CASTILLON JEAN-PAUL GUIGUE SERGE CRESTE FRANCOIS LEROY DAMIEN GAILLARDON PIERRE MINOUX CHEF MONTEUR MONTAGE STÉPHANE ROCHE FRANCOIS NABOS"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1956,
+                    "ocr_text": "SUPERVISION SCAN, MISE EN COULEURS & COMPOSITING TOONZ MARION CREPEL OPERATEURS SCAN JIMMY\"CAPRON MISE EN COULEURS LARA BELLINI ARNAUD MORITZ GERALDINE LE MOIGNE COMPOSITING TOONZ SYLVIE ATTORRESI\" TOTO\" FABRICE RENAUDIN SUPERVISION COMPOSITING AFTER EFFECTS STÉPHANE ROCHE COMPOSITING AFTER EFFECTS JEAN- YVES CASTILLON JEAN-PAUL GUIGUE SERGE CRESTE FRANCOIS LEROY DAMIEN GAILLARDON PIERRE MINOUX CHEF MONTEUR MONTAGE STÉPHANE ROCHE FRANCOIS NABOS",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_008_first_half_frame_1956_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 9,
+            "original_start_frame": 1982,
+            "original_end_frame": 2009,
+            "original_start_timecode": "00:01:22.666",
+            "original_end_timecode": "00:01:23.792",
+            "duration_frames": 27,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "OPERATEURS SCAN JIMMY\"CAPRON MISE EN COULEURS LARA BELLINI ARNAUD MORITZ GERALDINE LE MOIGNE COMPOSITING  TOONZ SYLVIE ATTORRESI\" TOTO\" FABRICE RENAUDIN SUPERVISION COMPOSITING AFTER EFFECTS STÉPHANE ROCHE COMPOSITING AFTER EFFECTS JEAN- YVES CASTILLON JEAN-PAUL GUIGUE SERGE CRESTE FRANCOIS LEROY DAMIEN GAILLARDON PIERRE MINOUX CHEF MONTEUR MONTAGE STÉPHANE ROCHE FRANCOIS NABOS PHOTOGRAPHE FRANCOIS GIRARD"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1983,
+                    "ocr_text": "OPERATEURS SCAN JIMMY\"CAPRON MISE EN COULEURS LARA BELLINI ARNAUD MORITZ GERALDINE LE MOIGNE COMPOSITING  TOONZ SYLVIE ATTORRESI\" TOTO\" FABRICE RENAUDIN SUPERVISION COMPOSITING AFTER EFFECTS STÉPHANE ROCHE COMPOSITING AFTER EFFECTS JEAN- YVES CASTILLON JEAN-PAUL GUIGUE SERGE CRESTE FRANCOIS LEROY DAMIEN GAILLARDON PIERRE MINOUX CHEF MONTEUR MONTAGE STÉPHANE ROCHE FRANCOIS NABOS PHOTOGRAPHE FRANCOIS GIRARD",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_009_first_half_frame_1983_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 10,
+            "original_start_frame": 2009,
+            "original_end_frame": 2252,
+            "original_start_timecode": "00:01:23.792",
+            "original_end_timecode": "00:01:33.927",
+            "duration_frames": 243,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "LARA BELLINI ARNAOD MORITZ GERALDINE  LE MOIGNE COMPOSITING  TOONZ SYLVIE ATTORRESI\" TOTO \" FABRICE RENAUDIN SUPERVISION COMPOSITING AFTER EFFECTS STÉPHANE ROCHE COMPOSITING AFTER EFFECTS JEAN- YVES CASTILLON JEAN-PAUL GUIGUE SERGE CRESTE FRANCOIS LEROY DAMIEN GAILLARDON PIERRE MINOUX CHEF MONTEUR MONTAGE STÉPHANE ROCHE FRANCOIS NABOS PHOTOGRAPHE FRANCOIS GIRARD ASSISTANTE DE PRODUCTION 2,4.7. FILMS LAURENCE MÉOC"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2021,
+                    "ocr_text": "LARA BELLINI ARNAOD MORITZ GERALDINE  LE MOIGNE COMPOSITING  TOONZ SYLVIE ATTORRESI\" TOTO \" FABRICE RENAUDIN SUPERVISION COMPOSITING AFTER EFFECTS STÉPHANE ROCHE COMPOSITING AFTER EFFECTS JEAN- YVES CASTILLON JEAN-PAUL GUIGUE SERGE CRESTE FRANCOIS LEROY DAMIEN GAILLARDON PIERRE MINOUX CHEF MONTEUR MONTAGE STÉPHANE ROCHE FRANCOIS NABOS PHOTOGRAPHE FRANCOIS GIRARD ASSISTANTE DE PRODUCTION 2,4.7. FILMS LAURENCE MÉOC",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_010_first_half_frame_2021_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 11,
+            "original_start_frame": 2252,
+            "original_end_frame": 2321,
+            "original_start_timecode": "00:01:33.927",
+            "original_end_timecode": "00:01:36.805",
+            "duration_frames": 69,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "TRAVAUX SONORES SUPERVISES PAR BOLOGNE ENREGISTREMENT DES VOIX ET (Andis de) MIXAGE REALISES PAR MIXAGE THIERRY LEBON SAMY BARDET MONTAGE SON ERIC CHEVALLIER SAMY BARDET ENREGISTREMENT DES VOIX OPERATEUR AUDITORIUM ERIC CHEVALLIER JEAN-PHILIPPE CALLET JEAN-ALEXANDER VILLEMER BRUITAGES JOHANN NALLET PHILIPPE PENOT JACQUES DEFRANCE MUSIQUE ENREGISTRÉE AU STUDIO amanitarecords"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2255,
+                    "ocr_text": "TRAVAUX SONORES SUPERVISES PAR BOLOGNE ENREGISTREMENT DES VOIX ET (Andis de) MIXAGE REALISES PAR MIXAGE THIERRY LEBON SAMY BARDET MONTAGE SON ERIC CHEVALLIER SAMY BARDET ENREGISTREMENT DES VOIX OPERATEUR AUDITORIUM ERIC CHEVALLIER JEAN-PHILIPPE CALLET JEAN-ALEXANDER VILLEMER BRUITAGES JOHANN NALLET PHILIPPE PENOT JACQUES DEFRANCE MUSIQUE ENREGISTRÉE AU STUDIO amanitarecords",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_011_second_half_frame_2255_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 12,
+            "original_start_frame": 2321,
+            "original_end_frame": 2616,
+            "original_start_timecode": "00:01:36.805",
+            "original_end_timecode": "00:01:49.109",
+            "duration_frames": 295,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "MONTAGE SON ERIC CHEVALLIER SAMY BARDET ENREGISTREMENT DES VOIX OPÉRATEUR AUDITORIUM ERIC CHEVALLIER JEAN-PHILIPPE CALLET JEAN-ALEXANDER VILLEMER BRUITAGES JOHANN NALLET PHILIPPE PENOT JACQUES DEFRANCE MUSIQUE ENREGISTREE AU STUDIO amanitarecords * MUSIQUE ORIGINALE COMPOSEE, ORCHESTREE ET DIRIGEE PAR OLIVIER BERNET MUSIQUES ADDITIONNELLES : \" EYE OF THE TIGER \" JAMES PETERIK / FRANCK SULLIVAN III THREE WISE BOYS MUSIC / ENSIGN MUSIC CORP/ C/O BMG MUSIC PUBUISHING FRANCE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2335,
+                    "ocr_text": "MONTAGE SON ERIC CHEVALLIER SAMY BARDET ENREGISTREMENT DES VOIX OPÉRATEUR AUDITORIUM ERIC CHEVALLIER JEAN-PHILIPPE CALLET JEAN-ALEXANDER VILLEMER BRUITAGES JOHANN NALLET PHILIPPE PENOT JACQUES DEFRANCE MUSIQUE ENREGISTREE AU STUDIO amanitarecords * MUSIQUE ORIGINALE COMPOSEE, ORCHESTREE ET DIRIGEE PAR OLIVIER BERNET MUSIQUES ADDITIONNELLES : \" EYE OF THE TIGER \" JAMES PETERIK / FRANCK SULLIVAN III THREE WISE BOYS MUSIC / ENSIGN MUSIC CORP/ C/O BMG MUSIC PUBUISHING FRANCE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_012_second_half_frame_2335_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 13,
+            "original_start_frame": 2616,
+            "original_end_frame": 2869,
+            "original_start_timecode": "00:01:49.109",
+            "original_end_timecode": "00:01:59.661",
+            "duration_frames": 253,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "ARRANGEMENTS PAR OLIVER BERNET CHANSON DU GENERIQUE DE FW WTERPRETEE PAR MARJANE SATRAPI ORCHESTRATION OLIVIER BERNET PRISE DE SON ET MIXAGE STEPHANE KRIEGER CHRISTIAN ADURIZ MUSICIENS MAITANE SÉBASTIAN VIOLONCELLE, VOIX SOPHIE BOUSQUET : FLÜTE TRAVERSIERE, FLÜTE BASSE MARIANNE EVA LECLER HARPE GILLES RUPERT VIOLON, VIOLON ALTO BENOIT GUERIN : BATTERIE, XYLOPHONE CEDRIC PRIVE : VIOLON GILLES LAHONDA : GUITARE ACOUSTIQUE & ÉLECTRIQUE STÉPHANE GARIN PERCUSSIONS, BATTERIE JUANA ETCHEGOIN FLÜTE PIERRE BLANCHUT DAF, ZARB, SANTUR XAVIER HAYET : CONTREBASSE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2628,
+                    "ocr_text": "ARRANGEMENTS PAR OLIVER BERNET CHANSON DU GENERIQUE DE FW WTERPRETEE PAR MARJANE SATRAPI ORCHESTRATION OLIVIER BERNET PRISE DE SON ET MIXAGE STEPHANE KRIEGER CHRISTIAN ADURIZ MUSICIENS MAITANE SÉBASTIAN VIOLONCELLE, VOIX SOPHIE BOUSQUET : FLÜTE TRAVERSIERE, FLÜTE BASSE MARIANNE EVA LECLER HARPE GILLES RUPERT VIOLON, VIOLON ALTO BENOIT GUERIN : BATTERIE, XYLOPHONE CEDRIC PRIVE : VIOLON GILLES LAHONDA : GUITARE ACOUSTIQUE & ÉLECTRIQUE STÉPHANE GARIN PERCUSSIONS, BATTERIE JUANA ETCHEGOIN FLÜTE PIERRE BLANCHUT DAF, ZARB, SANTUR XAVIER HAYET : CONTREBASSE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_013_second_half_frame_2628_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 14,
+            "original_start_frame": 2869,
+            "original_end_frame": 2908,
+            "original_start_timecode": "00:01:59.661",
+            "original_end_timecode": "00:02:01.288",
+            "duration_frames": 39,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "BARYTON, TAR, BASSE ELECTRIQUE VOIX, PIANO, ORGUE, BATTERIE, ** SYNTHETISEUR ANALOGIQUE, UKULELE LABORATOIRES IMAGES L.T.C SCANLAB ETALONNEUR PHOTOCHIMIQUE SUPERVISION DE POSTPRODUCTION CHRISTIAN DUTAC ANGELIQUE MUGUET CYRIL VONCK * CHARGE DE PROJET LTC SCANLAB OLIVIER GRAVENHORST CHARGES DE PROJET BENOIT HAY ANAI CABANES REPORT OPTIQUE OPERATEURS NUMERIQUE CINE STEREO PIERRE MADROLLES RUDY SIESS MAKING OF MARIE COGNE SIMON SASTRE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2870,
+                    "ocr_text": "BARYTON, TAR, BASSE ELECTRIQUE VOIX, PIANO, ORGUE, BATTERIE, ** SYNTHETISEUR ANALOGIQUE, UKULELE LABORATOIRES IMAGES L.T.C SCANLAB ETALONNEUR PHOTOCHIMIQUE SUPERVISION DE POSTPRODUCTION CHRISTIAN DUTAC ANGELIQUE MUGUET CYRIL VONCK * CHARGE DE PROJET LTC SCANLAB OLIVIER GRAVENHORST CHARGES DE PROJET BENOIT HAY ANAI CABANES REPORT OPTIQUE OPERATEURS NUMERIQUE CINE STEREO PIERRE MADROLLES RUDY SIESS MAKING OF MARIE COGNE SIMON SASTRE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_014_second_half_frame_2870_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 15,
+            "original_start_frame": 2908,
+            "original_end_frame": 2925,
+            "original_start_timecode": "00:02:01.288",
+            "original_end_timecode": "00:02:01.997",
+            "duration_frames": 17,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "LABORATOIRES IMAGES L.T.C ZSCANLAB DE ETALONNEUR PHOTOCHIMIQUE SUPERVISION POSTPRODUCTION CHRISTIAN DUTAC ANGELIQUE MUGUET CYRIL VONCK CHARGE DE PROJET LTC OLIVIER GRAVENHORST CHARGES DE PROJET SCANLAB * BENOIT HAY ANAI CABANES REPORT OPTIQUE OPERATEURS NUMERIQUE CINE STEREO PIERRE MADROLLES RUDY SIESS * MAKING OF MARIE COGNE SIMON SASTRE FRANCHE CONNECTION ANIMATIONS CHEF COMPTABLE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2908,
+                    "ocr_text": "LABORATOIRES IMAGES L.T.C ZSCANLAB DE ETALONNEUR PHOTOCHIMIQUE SUPERVISION POSTPRODUCTION CHRISTIAN DUTAC ANGELIQUE MUGUET CYRIL VONCK CHARGE DE PROJET LTC OLIVIER GRAVENHORST CHARGES DE PROJET SCANLAB * BENOIT HAY ANAI CABANES REPORT OPTIQUE OPERATEURS NUMERIQUE CINE STEREO PIERRE MADROLLES RUDY SIESS * MAKING OF MARIE COGNE SIMON SASTRE FRANCHE CONNECTION ANIMATIONS CHEF COMPTABLE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_015_second_half_frame_2908_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 16,
+            "original_start_frame": 2925,
+            "original_end_frame": 2943,
+            "original_start_timecode": "00:02:01.997",
+            "original_end_timecode": "00:02:02.748",
+            "duration_frames": 18,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "L.T.C SCANLAB ETALONNEUR SUPERVISION DE POSTPRODUCTION PHOTOCHIMIQUE CHRISTIAN DUTAC ANGELIQUE MUGUET CYRIL VONCK * CHARGE DE PROJET LTC OLIVIER GRAVENHORST CHARGES DE PROJET SCANLAB BENOIT HAY ANAI CABANES REPORT OPTIQUE OPERATEURS NUMERIQUE CINE STEREO PIERRE MADROLLES RUDY SIESS MAKING OF MARIE COGNE SIMON SASTRE FRANCHE CONNECTION ANIMATIONS CHEF COMPTABLE DELPHINE PORTHEAULT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2925,
+                    "ocr_text": "L.T.C SCANLAB ETALONNEUR SUPERVISION DE POSTPRODUCTION PHOTOCHIMIQUE CHRISTIAN DUTAC ANGELIQUE MUGUET CYRIL VONCK * CHARGE DE PROJET LTC OLIVIER GRAVENHORST CHARGES DE PROJET SCANLAB BENOIT HAY ANAI CABANES REPORT OPTIQUE OPERATEURS NUMERIQUE CINE STEREO PIERRE MADROLLES RUDY SIESS MAKING OF MARIE COGNE SIMON SASTRE FRANCHE CONNECTION ANIMATIONS CHEF COMPTABLE DELPHINE PORTHEAULT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_016_second_half_frame_2925_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 17,
+            "original_start_frame": 2943,
+            "original_end_frame": 4028,
+            "original_start_timecode": "00:02:02.748",
+            "original_end_timecode": "00:02:48.001",
+            "duration_frames": 1085,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "REPORT OPTIQUE OPERATEURS NUMERIQUE CINE STEREO PIERRE MADROLLES RUDY SIESS MAKING OF MARIE COGNE SIMON SASTRE FRANCHE CONNECTION ANIMATIONS CHEF COMPTABLE DELPHINE PORTHEAULT COMPTABLES AUDREY MONTIS LATIFA BERHILI LAETITIA FERREIRA HATIKA VELASCO DIRECTEUR FINANCIER CONTRÖLE DE GESTION ANTONIO VELASCO BÉATRICE LEUNG ACHATS SYLVAIN LODOME"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2997,
+                    "ocr_text": "REPORT OPTIQUE OPERATEURS NUMERIQUE CINE STEREO PIERRE MADROLLES RUDY SIESS MAKING OF MARIE COGNE SIMON SASTRE FRANCHE CONNECTION ANIMATIONS CHEF COMPTABLE DELPHINE PORTHEAULT COMPTABLES AUDREY MONTIS LATIFA BERHILI LAETITIA FERREIRA HATIKA VELASCO DIRECTEUR FINANCIER CONTRÖLE DE GESTION ANTONIO VELASCO BÉATRICE LEUNG ACHATS SYLVAIN LODOME",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_017_second_half_frame_2997_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 196,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:08.175",
+            "duration_frames": 196,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 196,
+            "end_frame": 699,
+            "start_timecode": "00:00:08.175",
+            "end_timecode": "00:00:29.154",
+            "duration_frames": 503,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 699,
+            "end_frame": 734,
+            "start_timecode": "00:00:29.154",
+            "end_timecode": "00:00:30.614",
+            "duration_frames": 35,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 734,
+            "end_frame": 1092,
+            "start_timecode": "00:00:30.614",
+            "end_timecode": "00:00:45.545",
+            "duration_frames": 358,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 1092,
+            "end_frame": 1342,
+            "start_timecode": "00:00:45.545",
+            "end_timecode": "00:00:55.973",
+            "duration_frames": 250,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 1342,
+            "end_frame": 1366,
+            "start_timecode": "00:00:55.973",
+            "end_timecode": "00:00:56.974",
+            "duration_frames": 24,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 6,
+            "start_frame": 1366,
+            "end_frame": 1932,
+            "start_timecode": "00:00:56.974",
+            "end_timecode": "00:01:20.581",
+            "duration_frames": 566,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 7,
+            "start_frame": 1932,
+            "end_frame": 1955,
+            "start_timecode": "00:01:20.581",
+            "end_timecode": "00:01:21.540",
+            "duration_frames": 23,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 8,
+            "start_frame": 1955,
+            "end_frame": 1982,
+            "start_timecode": "00:01:21.540",
+            "end_timecode": "00:01:22.666",
+            "duration_frames": 27,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 9,
+            "start_frame": 1982,
+            "end_frame": 2009,
+            "start_timecode": "00:01:22.666",
+            "end_timecode": "00:01:23.792",
+            "duration_frames": 27,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 10,
+            "start_frame": 2009,
+            "end_frame": 2252,
+            "start_timecode": "00:01:23.792",
+            "end_timecode": "00:01:33.927",
+            "duration_frames": 243,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 11,
+            "start_frame": 2252,
+            "end_frame": 2321,
+            "start_timecode": "00:01:33.927",
+            "end_timecode": "00:01:36.805",
+            "duration_frames": 69,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 12,
+            "start_frame": 2321,
+            "end_frame": 2616,
+            "start_timecode": "00:01:36.805",
+            "end_timecode": "00:01:49.109",
+            "duration_frames": 295,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 13,
+            "start_frame": 2616,
+            "end_frame": 2869,
+            "start_timecode": "00:01:49.109",
+            "end_timecode": "00:01:59.661",
+            "duration_frames": 253,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 14,
+            "start_frame": 2869,
+            "end_frame": 2908,
+            "start_timecode": "00:01:59.661",
+            "end_timecode": "00:02:01.288",
+            "duration_frames": 39,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 15,
+            "start_frame": 2908,
+            "end_frame": 2925,
+            "start_timecode": "00:02:01.288",
+            "end_timecode": "00:02:01.997",
+            "duration_frames": 17,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 16,
+            "start_frame": 2925,
+            "end_frame": 2943,
+            "start_timecode": "00:02:01.997",
+            "end_timecode": "00:02:02.748",
+            "duration_frames": 18,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 17,
+            "start_frame": 2943,
+            "end_frame": 4028,
+            "start_timecode": "00:02:02.748",
+            "end_timecode": "00:02:48.001",
+            "duration_frames": 1085,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2026-07-22T20:28:53.202280"
+}

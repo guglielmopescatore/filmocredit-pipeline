@@ -1,0 +1,593 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_000_static_000_num00000_sim0.jpg",
+          "frame_num": 0,
+          "ocr_text": "UMA SERIE ORIGINAL NETFLIX UNA SERIE ORIGINALE NETFLIX",
+          "ocr_bbox": [
+            187,
+            203,
+            581,
+            418
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_1": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_001_static_000_num00137_sim18.jpg",
+          "frame_num": 137,
+          "ocr_text": "JOAO MIGUEL",
+          "ocr_bbox": [
+            126,
+            90,
+            282,
+            109
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.3983623683452606,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.3912171721458435,
+      "roi_percentile_flow": -0.3983623683452606,
+      "scroll_direction": null
+    },
+    "scene_2": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_002_scroll_000_num00185_sim0.jpg",
+          "frame_num": 185,
+          "ocr_text": "BIANCA COMRARATO",
+          "ocr_bbox": [
+            447,
+            315,
+            685,
+            332
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.596648633480072,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.6218934655189514,
+      "roi_percentile_flow": 0.596648633480072,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 652,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_3": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_003_static_000_num00264_sim29.jpg",
+          "frame_num": 264,
+          "ocr_text": "MICHEL GOMES RODOLFO VALENTE",
+          "ocr_bbox": [
+            469,
+            79,
+            686,
+            111
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_003_static_001_num00332_sim98.jpg",
+          "frame_num": 332,
+          "ocr_text": "MICHELI GOMES RODOLFO VALENTE",
+          "ocr_bbox": [
+            469,
+            79,
+            686,
+            113
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -0.16308842599391937,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.14255651831626892,
+      "roi_percentile_flow": -0.16308842599391937,
+      "scroll_direction": null
+    },
+    "scene_4": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_004_static_000_num00333_sim42.jpg",
+          "frame_num": 333,
+          "ocr_text": "VANEZA OLIVEIRA RAFAEL LOZANO VIVIANE PORTO",
+          "ocr_bbox": [
+            132,
+            332,
+            328,
+            383
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_004_static_001_num00405_sim100.jpg",
+          "frame_num": 405,
+          "ocr_text": "VANEZA OLIVEIRA RAFAEL LOZANO VIVIANE PORTO",
+          "ocr_bbox": [
+            129,
+            330,
+            330,
+            384
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -0.229387104511261,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.19724294543266296,
+      "roi_percentile_flow": -0.229387104511261,
+      "scroll_direction": null
+    },
+    "scene_5": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_005_static_000_num00418_sim35.jpg",
+          "frame_num": 418,
+          "ocr_text": "ATORES CONVIDADOS MEL FRONCKOWIAK SERGIO MAMBERTI ZEZE MOTTA CELSO FRATESCHI",
+          "ocr_bbox": [
+            433,
+            256,
+            657,
+            337
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.10341640561819077,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.10866549611091614,
+      "roi_percentile_flow": 0.10341640561819077,
+      "scroll_direction": null
+    },
+    "scene_6": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_006_static_000_num00458_sim100.jpg",
+          "frame_num": 458,
+          "ocr_text": "ATORES CONVIDADOS MEL FRONCKOWIAK SERGIO MAMBERTI ZEZE MOTTA CELSO FRATESCHI",
+          "ocr_bbox": [
+            432,
+            255,
+            657,
+            337
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.10563374310731888,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.104153111577034,
+      "roi_percentile_flow": 0.10563374310731888,
+      "scroll_direction": null
+    },
+    "scene_7": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_007_static_000_num00522_sim32.jpg",
+          "frame_num": 522,
+          "ocr_text": "DIRECAO DE ARTE VALDY LOPES JN 51/113",
+          "ocr_bbox": [
+            8,
+            60,
+            276,
+            405
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_007_static_001_num00546_sim92.jpg",
+          "frame_num": 546,
+          "ocr_text": "DIREC\u00c4O DE ARTE VALDY LOPES JN 02.20110 51/1131",
+          "ocr_bbox": [
+            0,
+            59,
+            355,
+            423
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_007_static_002_num00558_sim94.jpg",
+          "frame_num": 558,
+          "ocr_text": "DIRECAO DE ARTE VALDY LOPES JN 02.201/107 51/0131",
+          "ocr_bbox": [
+            0,
+            60,
+            387,
+            429
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_007_static_003_num00570_sim41.jpg",
+          "frame_num": 570,
+          "ocr_text": "02.201201 ANDRE MEHMARI",
+          "ocr_bbox": [
+            0,
+            213,
+            680,
+            334
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_007_static_004_num00594_sim87.jpg",
+          "frame_num": 594,
+          "ocr_text": "ANDRE MEHMARI",
+          "ocr_bbox": [
+            485,
+            315,
+            679,
+            332
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": 0.19209074974060059,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.17693354189395905,
+      "roi_percentile_flow": 0.19209074974060059,
+      "scroll_direction": null
+    },
+    "scene_8": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_008_static_000_num00619_sim33.jpg",
+          "frame_num": 619,
+          "ocr_text": "DIRECAO DE FOTOGRAFIA EDUARDO PIAGGE",
+          "ocr_bbox": [
+            88,
+            330,
+            293,
+            363
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_008_static_001_num00631_sim99.jpg",
+          "frame_num": 631,
+          "ocr_text": "DIREC\u00c4O DE FOTOGRAFIA EDUARDO PIAGGE",
+          "ocr_bbox": [
+            90,
+            332,
+            292,
+            361
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_008_static_002_num00643_sim99.jpg",
+          "frame_num": 643,
+          "ocr_text": "DIRECAO DE FOTOGRAFIA EDUARDO PIAGGE",
+          "ocr_bbox": [
+            90,
+            333,
+            292,
+            361
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_008_static_003_num00667_sim100.jpg",
+          "frame_num": 667,
+          "ocr_text": "EDUARDO PIAGGE DIRECAO DE FOTOGRAFIA",
+          "ocr_bbox": [
+            138,
+            68,
+            343,
+            99
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.2687210440635681,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.5355071425437927,
+      "roi_percentile_flow": 0.2687210440635681,
+      "scroll_direction": null
+    },
+    "scene_9": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_009_static_000_num00689_sim33.jpg",
+          "frame_num": 689,
+          "ocr_text": "ROTEIRISTAS CASSIO KOSHIKUMO DENIS NIELSEN IVAN NAKAMURA JOTAGA CREMA PEDRO AGUILERA",
+          "ocr_bbox": [
+            437,
+            280,
+            670,
+            377
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_009_static_001_num00713_sim86.jpg",
+          "frame_num": 713,
+          "ocr_text": "ASTARISTAS CASSIO KOSHIKUMO DENIS NIELSEN IVAN NAKAMURA JOTAGA CREMA PEDRO AGUILERA",
+          "ocr_bbox": [
+            437,
+            279,
+            670,
+            377
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_009_static_002_num00725_sim96.jpg",
+          "frame_num": 725,
+          "ocr_text": "BOTEIRISTAS CASSIO KOSHIKUMO DENIS NIELSEN IVAN NAKAMURA JOTAGA CREMA PEDRO AGUILERA",
+          "ocr_bbox": [
+            437,
+            280,
+            670,
+            377
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.24673880636692047,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.23169346153736115,
+      "roi_percentile_flow": 0.24673880636692047,
+      "scroll_direction": null
+    },
+    "scene_10": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.14094629883766174,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.11269021034240723,
+      "roi_percentile_flow": 0.14094629883766174,
+      "scroll_direction": null
+    },
+    "scene_11": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_011_static_000_num00770_sim59.jpg",
+          "frame_num": 770,
+          "ocr_text": "CASSIOKOSH DENSNESEN MANNAKAMURA JOTAGA CREMA PEDROAGULE",
+          "ocr_bbox": [
+            439,
+            294,
+            632,
+            379
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_011_static_001_num00794_sim37.jpg",
+          "frame_num": 794,
+          "ocr_text": "PRODUCAO EXECUTIVA ERIK BARMACK KELLY LUEGENBIEHL DIEGO AVALOS",
+          "ocr_bbox": [
+            434,
+            92,
+            662,
+            155
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.13453693687915802,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.13254722952842712,
+      "roi_percentile_flow": 0.13453693687915802,
+      "scroll_direction": null
+    },
+    "scene_12": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_012_static_000_num00856_sim48.jpg",
+          "frame_num": 856,
+          "ocr_text": "PRODUC\u00c4O EXECUTIVA TIAGO MELLO",
+          "ocr_bbox": [
+            118,
+            67,
+            293,
+            99
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_012_static_001_num00868_sim100.jpg",
+          "frame_num": 868,
+          "ocr_text": "PRODUC\u00c4O EXECUTIVA TIAGO MELLO",
+          "ocr_bbox": [
+            119,
+            68,
+            294,
+            97
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_012_static_002_num00892_sim98.jpg",
+          "frame_num": 892,
+          "ocr_text": "PRODUCAO EXECUTIVA TIAGO MELLO",
+          "ocr_bbox": [
+            119,
+            69,
+            294,
+            99
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_012_static_003_num00904_sim98.jpg",
+          "frame_num": 904,
+          "ocr_text": "PRODUC\u00c4O EXECUTIVA TIAGO MELLO",
+          "ocr_bbox": [
+            119,
+            67,
+            292,
+            97
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_012_static_004_num00916_sim98.jpg",
+          "frame_num": 916,
+          "ocr_text": "PRODUCAO EXECUTIVA TIAGO MELLO",
+          "ocr_bbox": [
+            119,
+            68,
+            292,
+            97
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_012_static_005_num00952_sim32.jpg",
+          "frame_num": 952,
+          "ocr_text": "DIRECAO DAINA GIANNECCHINi DANI LIBARDI JOTAGA CREMA",
+          "ocr_bbox": [
+            393,
+            271,
+            632,
+            337
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_012_static_006_num01000_sim100.jpg",
+          "frame_num": 1000,
+          "ocr_text": "DIRECAO DAINA GIANNECCHINI DANI LIBARDI JOTAGA CREMA",
+          "ocr_bbox": [
+            393,
+            271,
+            631,
+            337
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_012_static_007_num01012_sim100.jpg",
+          "frame_num": 1012,
+          "ocr_text": "DIRECAO DAINA GIANNECCHINI DANI LIBARDI JOTAGA CREMA",
+          "ocr_bbox": [
+            393,
+            271,
+            633,
+            337
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 8,
+      "median_flow_px_per_frame": 0.21151825785636902,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.20818102359771729,
+      "roi_percentile_flow": 0.21151825785636902,
+      "scroll_direction": null
+    },
+    "scene_13": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_013_static_000_num01072_sim44.jpg",
+          "frame_num": 1072,
+          "ocr_text": "DIREC\u00c1O GERAL C\u00c9SAR CHARLONE",
+          "ocr_bbox": [
+            98,
+            316,
+            312,
+            348
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_013_static_001_num01120_sim79.jpg",
+          "frame_num": 1120,
+          "ocr_text": "DIREC\u00c1O GERAL CESAR CHARLONE",
+          "ocr_bbox": [
+            97,
+            316,
+            311,
+            351
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "3_Percent_S01E06_Opening\\analysis\\frames\\scene_013_static_002_num01141_sim43.jpg",
+          "frame_num": 1141,
+          "ocr_text": "CRIACAO E ROTEIRO FINAL PEDRO AGUILERA",
+          "ocr_bbox": [
+            477,
+            346,
+            679,
+            376
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.1066819429397583,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.13402076065540314,
+      "roi_percentile_flow": 0.1066819429397583,
+      "scroll_direction": null
+    },
+    "scene_14": {
+      "type": "static_or_slow",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": 0.11136461049318314,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10557360015809536,
+      "roi_percentile_flow": 0.11136461049318314,
+      "scroll_direction": null
+    }
+  }
+}

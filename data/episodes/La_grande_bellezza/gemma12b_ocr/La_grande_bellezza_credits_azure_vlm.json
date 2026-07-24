@@ -1,0 +1,6900 @@
+[
+  {
+    "role_detail": null,
+    "name": "MEDUSA",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_005_static_003_num00423_sim100.jpg"
+    ],
+    "original_frame_number": [
+      423
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "MEDIASET GROUP",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_005_static_003_num00423_sim100.jpg"
+    ],
+    "original_frame_number": [
+      423
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "indigofilm",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_007_static_001_num00764_sim75.jpg"
+    ],
+    "original_frame_number": [
+      764
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "one films",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_010_static_000_num00945_sim53.jpg"
+    ],
+    "original_frame_number": [
+      945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "babe films",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_010_static_002_num01005_sim88.jpg"
+    ],
+    "original_frame_number": [
+      1005
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Banca Popolare di Vicenza",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_010_static_003_num01053_sim26.jpg"
+    ],
+    "original_frame_number": [
+      1053
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "France 2 Cinéma",
+    "name": "France 2 Cinéma",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_014_static_001_num01982_sim38.jpg"
+    ],
+    "original_frame_number": [
+      1982
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "una coproduzione Italia - Francia",
+    "name": "Italia - Francia",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_015_static_000_num02094_sim23.jpg"
+    ],
+    "original_frame_number": [
+      2094
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "sviluppata con il sostegno del Programma MEDIA della Comunità Europea",
+    "name": "Comunità Europea",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_000_num02094_sim23.jpg"
+    ],
+    "original_frame_number": [
+      2094
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "in associazione con",
+    "name": "BANCA POPOLARE DI VICENZA",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_001_num02166_sim42.jpg"
+    ],
+    "original_frame_number": [
+      2166
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ai sensi delle norme sul Flex Credit",
+    "name": "Flex Credit",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_001_num02166_sim42.jpg"
+    ],
+    "original_frame_number": [
+      2166
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "con il supporto di",
+    "name": "EURIMAGES",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_002_num02226_sim33.jpg"
+    ],
+    "original_frame_number": [
+      2226
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "con il contributo del",
+    "name": "Ministero per i Beni e le Attività Culturali",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_006_num02346_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2346
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "opera realizzata con il sostegno della Regione Lazio",
+    "name": "Regione Lazio",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_007_num02382_sim39.jpg"
+    ],
+    "original_frame_number": [
+      2382
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Fondo Regionale per il Cinema e l'Audiovisivo",
+    "name": "Fondo Regionale per il Cinema e l'Audiovisivo",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_007_num02382_sim39.jpg"
+    ],
+    "original_frame_number": [
+      2382
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "in collaborazione con",
+    "name": "MEDIASET PREMIUM",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_008_num02454_sim32.jpg"
+    ],
+    "original_frame_number": [
+      2454
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "con la partecipazione di",
+    "name": "CANAL+",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_010_num02538_sim96.jpg"
+    ],
+    "original_frame_number": [
+      2538
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "con la partecipazione di",
+    "name": "CINE+",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_010_num02538_sim96.jpg"
+    ],
+    "original_frame_number": [
+      2538
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "con la partecipazione di",
+    "name": "FRANCE TÉLÉVISIONS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_014_num02646_sim99.jpg"
+    ],
+    "original_frame_number": [
+      2646
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "coprodotto da",
+    "name": "Fabio Conversi",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_015_static_018_num02754_sim67.jpg"
+    ],
+    "original_frame_number": [
+      2754
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "coprodotto da",
+    "name": "Jérôme Seydoux",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_015_static_019_num02814_sim56.jpg"
+    ],
+    "original_frame_number": [
+      2814
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "produttore esecutivo",
+    "name": "Viola Prestieri",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_015_static_021_num02874_sim55.jpg",
+      "scene_015_static_022_num02910_sim48.jpg"
+    ],
+    "original_frame_number": [
+      2874,
+      2910
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "produttori associati",
+    "name": "Carlotin Gilori",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_015_static_023_num02922_sim21.jpg"
+    ],
+    "original_frame_number": [
+      2922
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "produttori associati",
+    "name": "Giudialina Ponti",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_015_static_023_num02922_sim21.jpg"
+    ],
+    "original_frame_number": [
+      2922
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "produttori associati",
+    "name": "Romain Le Grana",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_015_static_025_num03018_sim84.jpg"
+    ],
+    "original_frame_number": [
+      3018
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "produttori associati",
+    "name": "Vivien Aslanian",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_015_static_025_num03018_sim84.jpg"
+    ],
+    "original_frame_number": [
+      3018
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "produttori associati",
+    "name": "Muriel Sauzay",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_015_static_025_num03018_sim84.jpg"
+    ],
+    "original_frame_number": [
+      3018
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Toni Servillo",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_026_num03102_sim25.jpg"
+    ],
+    "original_frame_number": [
+      3102
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Carlo Verdone",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_027_num03174_sim46.jpg"
+    ],
+    "original_frame_number": [
+      3174
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Sabrina Perilli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_028_num03246_sim36.jpg"
+    ],
+    "original_frame_number": [
+      3246
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Carlo Buccirosso",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_029_num03306_sim26.jpg"
+    ],
+    "original_frame_number": [
+      3306
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Iala Forte",
+    "name": "Iala Forte",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_030_num03378_sim23.jpg"
+    ],
+    "original_frame_number": [
+      3378
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Panela Villoresi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_031_num03522_sim31.jpg"
+    ],
+    "original_frame_number": [
+      3522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Galatea Ranzi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_035_num03630_sim100.jpg"
+    ],
+    "original_frame_number": [
+      3630
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Franco Graziosi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_036_num03666_sim43.jpg"
+    ],
+    "original_frame_number": [
+      3666
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Giorgio Pasotti",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_038_num03750_sim90.jpg"
+    ],
+    "original_frame_number": [
+      3750
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Massimo Popolizio",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_039_num03822_sim38.jpg"
+    ],
+    "original_frame_number": [
+      3822
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Sonia Gessner",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_040_num03906_sim30.jpg"
+    ],
+    "original_frame_number": [
+      3906
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Anna Della Rosa",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_040_num03906_sim30.jpg"
+    ],
+    "original_frame_number": [
+      3906
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Luca Marinelli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_041_num03978_sim46.jpg"
+    ],
+    "original_frame_number": [
+      3978
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Serena Grandi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_041_num03978_sim46.jpg"
+    ],
+    "original_frame_number": [
+      3978
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Ivan Franek",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_042_num04050_sim39.jpg"
+    ],
+    "original_frame_number": [
+      4050
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Vernon Dobtcheff",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_042_num04050_sim39.jpg"
+    ],
+    "original_frame_number": [
+      4050
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Dario Cantarelli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_043_num04122_sim34.jpg"
+    ],
+    "original_frame_number": [
+      4122
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Lillo Petrolo",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_043_num04122_sim34.jpg"
+    ],
+    "original_frame_number": [
+      4122
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Luciano Virgilio",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_044_num04194_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4194
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Aldo Ralli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_044_num04194_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4194
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Giusi Merli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_045_num04266_sim47.jpg"
+    ],
+    "original_frame_number": [
+      4266
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Giovanna Vignola",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_045_num04266_sim47.jpg"
+    ],
+    "original_frame_number": [
+      4266
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Anita Kravos",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_045_num04266_sim47.jpg"
+    ],
+    "original_frame_number": [
+      4266
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Ludovico Caldarera",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_046_num04338_sim35.jpg"
+    ],
+    "original_frame_number": [
+      4338
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Marialaura Rondanini",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_046_num04338_sim35.jpg"
+    ],
+    "original_frame_number": [
+      4338
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Francesca Golia",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_047_num04398_sim38.jpg"
+    ],
+    "original_frame_number": [
+      4398
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Silvia Munguia",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_047_num04398_sim38.jpg"
+    ],
+    "original_frame_number": [
+      4398
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "con",
+    "name": "Massimo De Francovich",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_048_num04470_sim44.jpg"
+    ],
+    "original_frame_number": [
+      4470
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "con",
+    "name": "Roberto Herlitzka",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_050_num04566_sim89.jpg"
+    ],
+    "original_frame_number": [
+      4566
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "e con",
+    "name": "Isabella Ferrari",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_051_num04614_sim47.jpg"
+    ],
+    "original_frame_number": [
+      4614
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "direttore della fotografia",
+    "name": "Luca Bigozzi",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_015_static_052_num04698_sim36.jpg"
+    ],
+    "original_frame_number": [
+      4698
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "montaggio",
+    "name": "Cristiano Travaglioli",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_015_static_053_num04758_sim34.jpg"
+    ],
+    "original_frame_number": [
+      4758
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "musiche",
+    "name": "Lele Marchitelli",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_015_static_055_num04866_sim100.jpg"
+    ],
+    "original_frame_number": [
+      4866
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Edizioni Musicali",
+    "name": "Indigo Film",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_055_num04866_sim100.jpg"
+    ],
+    "original_frame_number": [
+      4866
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "soggetto",
+    "name": "Paolo Sorrentino",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_015_static_059_num04938_sim100.jpg",
+      "scene_015_static_060_num04962_sim57.jpg"
+    ],
+    "original_frame_number": [
+      4938,
+      4962
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "sceneggiatura",
+    "name": "Umberto Contarello",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_015_static_060_num04962_sim57.jpg"
+    ],
+    "original_frame_number": [
+      4962
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "scenografia",
+    "name": "Stefania Cella",
+    "role_group": "Production Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Designers",
+    "source_frame": [
+      "scene_015_static_061_num05034_sim48.jpg"
+    ],
+    "original_frame_number": [
+      5034
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "costumi",
+    "name": "Daniela Ciancio",
+    "role_group": "Costume Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume Designers",
+    "source_frame": [
+      "scene_015_static_062_num05106_sim45.jpg"
+    ],
+    "original_frame_number": [
+      5106
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "montaggio del suono",
+    "name": "Silvia Moraes",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_015_static_064_num05178_sim88.jpg"
+    ],
+    "original_frame_number": [
+      5178
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "suono",
+    "name": "Emanuele Cecere",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_015_static_064_num05178_sim88.jpg"
+    ],
+    "original_frame_number": [
+      5178
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "trucco",
+    "name": "Maurizio Silbi",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_015_static_065_num05238_sim48.jpg"
+    ],
+    "original_frame_number": [
+      5238
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "scenature",
+    "name": "Attilio Signoretti",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_065_num05238_sim48.jpg"
+    ],
+    "original_frame_number": [
+      5238
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Appezzamento",
+    "name": "Gennaro Fortisano",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_015_static_066_num05310_sim36.jpg"
+    ],
+    "original_frame_number": [
+      5310
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "direzione amministrativa",
+    "name": "Stefano d'Avella",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_066_num05310_sim36.jpg"
+    ],
+    "original_frame_number": [
+      5310
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "aiuto regia",
+    "name": "Davide Bertoni",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_015_static_067_num05382_sim33.jpg"
+    ],
+    "original_frame_number": [
+      5382
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "costiny",
+    "name": "Annamaria Scumbecco",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_015_static_068_num05454_sim31.jpg"
+    ],
+    "original_frame_number": [
+      5454
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "supervisioni affari artistici",
+    "name": "Raffaello Vigliari",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_070_num05562_sim85.jpg"
+    ],
+    "original_frame_number": [
+      5562
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "lep giovane",
+    "name": "Flavio Mieli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_081_num06054_sim90.jpg"
+    ],
+    "original_frame_number": [
+      6054
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Figlio Kilo",
+    "name": "Claudio Minutto Turtur",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_081_num06054_sim90.jpg"
+    ],
+    "original_frame_number": [
+      6054
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Prete Kilo",
+    "name": "Daniele Pilli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_081_num06054_sim90.jpg"
+    ],
+    "original_frame_number": [
+      6054
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Madre chiostro",
+    "name": "Monico Fiordello",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_081_num06054_sim90.jpg"
+    ],
+    "original_frame_number": [
+      6054
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Varianti festa",
+    "name": "Laura Aranzu",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_081_num06054_sim90.jpg"
+    ],
+    "original_frame_number": [
+      6054
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Giapponese infiltrato",
+    "name": "Yoon San Ryul",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_081_num06054_sim90.jpg"
+    ],
+    "original_frame_number": [
+      6054
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Pazza bar",
+    "name": "Laura Rossi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_081_num06054_sim90.jpg"
+    ],
+    "original_frame_number": [
+      6054
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "autista pullman",
+    "name": "Massimo Santangelo",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_081_num06054_sim90.jpg"
+    ],
+    "original_frame_number": [
+      6054
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "autista treno",
+    "name": "Carina Santalusso",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_081_num06054_sim90.jpg"
+    ],
+    "original_frame_number": [
+      6054
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Capitan di linea",
+    "name": "Carlo Sorianello",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_081_num06054_sim90.jpg"
+    ],
+    "original_frame_number": [
+      6054
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Ballerina ventilatore",
+    "name": "Elisabetta Ventura",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_081_num06054_sim90.jpg"
+    ],
+    "original_frame_number": [
+      6054
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Capitana pirosca",
+    "name": "Sra. Walayansi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_081_num06054_sim90.jpg"
+    ],
+    "original_frame_number": [
+      6054
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "La voce diadina",
+    "name": "Cristina Aubry",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_081_num06054_sim90.jpg"
+    ],
+    "original_frame_number": [
+      6054
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Ufficio stampa",
+    "name": "Studio PUNTO.VIRCOLA",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_082_num06246_sim45.jpg"
+    ],
+    "original_frame_number": [
+      6246
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Ricerche e documentazione",
+    "name": "Lara Lurebetta",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_015_static_082_num06246_sim45.jpg"
+    ],
+    "original_frame_number": [
+      6246
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Segretaria di produzione",
+    "name": "Samantha Natalucci",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_082_num06246_sim45.jpg"
+    ],
+    "original_frame_number": [
+      6246
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Direttore di produzione",
+    "name": "Giuseppe Di Cangi",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_015_static_082_num06246_sim45.jpg"
+    ],
+    "original_frame_number": [
+      6246
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Impiegatore di produzione",
+    "name": "Raffaello Vignoli",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_082_num06246_sim45.jpg"
+    ],
+    "original_frame_number": [
+      6246
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Coordinatrice di produzione",
+    "name": "Daniela Noramarco",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_082_num06246_sim45.jpg"
+    ],
+    "original_frame_number": [
+      6246
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "location manager",
+    "name": "Giuseppe Nardi",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_015_static_082_num06246_sim45.jpg"
+    ],
+    "original_frame_number": [
+      6246
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "location manager",
+    "name": "Gianluca Introni",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_015_static_082_num06246_sim45.jpg"
+    ],
+    "original_frame_number": [
+      6246
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "location manager",
+    "name": "Daniela S. Simoni",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_015_static_082_num06246_sim45.jpg"
+    ],
+    "original_frame_number": [
+      6246
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti location manager",
+    "name": "Piermicola Pimmoli",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_015_static_082_num06246_sim45.jpg"
+    ],
+    "original_frame_number": [
+      6246
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Segretari di produzione",
+    "name": "Maurizio Porre",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_083_num06438_sim48.jpg"
+    ],
+    "original_frame_number": [
+      6438
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Segretari di produzione",
+    "name": "Lorenzo Rossi Espagnol",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_083_num06438_sim48.jpg"
+    ],
+    "original_frame_number": [
+      6438
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Segretari di produzione",
+    "name": "Alessandro Del Vecchio",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_083_num06438_sim48.jpg"
+    ],
+    "original_frame_number": [
+      6438
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Segretari di produzione",
+    "name": "Nicola Scammarro",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_083_num06438_sim48.jpg"
+    ],
+    "original_frame_number": [
+      6438
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Segretari di produzione",
+    "name": "Lorenzo Distanie",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_083_num06438_sim48.jpg"
+    ],
+    "original_frame_number": [
+      6438
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Segretari di produzione",
+    "name": "Claudio Contenta",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_083_num06438_sim48.jpg"
+    ],
+    "original_frame_number": [
+      6438
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Segretari di produzione",
+    "name": "Giulia Ottardi",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_083_num06438_sim48.jpg"
+    ],
+    "original_frame_number": [
+      6438
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Segretari di produzione",
+    "name": "Benedetta Barroero",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_083_num06438_sim48.jpg"
+    ],
+    "original_frame_number": [
+      6438
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Segretari di produzione",
+    "name": "Zoe Giudice",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_083_num06438_sim48.jpg"
+    ],
+    "original_frame_number": [
+      6438
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Segretari di produzione",
+    "name": "Maria Salleddi Marchi",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_083_num06438_sim48.jpg"
+    ],
+    "original_frame_number": [
+      6438
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuti segr. di produzione",
+    "name": "null",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_083_num06438_sim48.jpg"
+    ],
+    "original_frame_number": [
+      6438
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Stagisti",
+    "name": "null",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_015_static_083_num06438_sim48.jpg"
+    ],
+    "original_frame_number": [
+      6438
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Il Aiuto regista",
+    "name": "Jacopo Bonvicini",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_015_static_088_num06690_sim96.jpg"
+    ],
+    "original_frame_number": [
+      6690
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Il Aiuto regista",
+    "name": "Giorgio Servillo",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_015_static_088_num06690_sim96.jpg"
+    ],
+    "original_frame_number": [
+      6690
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti alla regia",
+    "name": "Paolo De Marco",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_015_static_088_num06690_sim96.jpg"
+    ],
+    "original_frame_number": [
+      6690
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti alla regia",
+    "name": "Paolo Ardan-Conversi",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_015_static_088_num06690_sim96.jpg"
+    ],
+    "original_frame_number": [
+      6690
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti alla regia",
+    "name": "Giulio Cantagiano",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_015_static_088_num06690_sim96.jpg"
+    ],
+    "original_frame_number": [
+      6690
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti alla regia",
+    "name": "Serena Lupo",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_015_static_088_num06690_sim96.jpg"
+    ],
+    "original_frame_number": [
+      6690
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti alla regia",
+    "name": "Marilla Masucci",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_015_static_088_num06690_sim96.jpg"
+    ],
+    "original_frame_number": [
+      6690
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti alla regia",
+    "name": "Girolamo De Pedis",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_015_static_088_num06690_sim96.jpg"
+    ],
+    "original_frame_number": [
+      6690
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti alla regia",
+    "name": "Andrea Armenti",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_015_static_088_num06690_sim96.jpg"
+    ],
+    "original_frame_number": [
+      6690
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti alla regia",
+    "name": "Fabrizio Pronciani",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_015_static_088_num06690_sim96.jpg"
+    ],
+    "original_frame_number": [
+      6690
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Ass. casting",
+    "name": "Manuela De Santis",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_015_static_088_num06690_sim96.jpg"
+    ],
+    "original_frame_number": [
+      6690
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Street casting",
+    "name": "Ardian Nabaviyrol",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_015_static_088_num06690_sim96.jpg"
+    ],
+    "original_frame_number": [
+      6690
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Street casting",
+    "name": "Amanda Scaler",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_015_static_088_num06690_sim96.jpg"
+    ],
+    "original_frame_number": [
+      6690
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Operatore II macchina, Fotografia II unità",
+    "name": "Dario D'Antonio",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Operatore Steadicam",
+    "name": "Alessandra Brambilla",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistente operatore",
+    "name": "Salvatore Boganna",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Il assistente operatore",
+    "name": "Koole Cahero",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti operatore agenti",
+    "name": "Marco Maggi",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti operatore agenti",
+    "name": "Luca Fregoli",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuti operatori",
+    "name": "Luca Umeleo",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuti operatori",
+    "name": "Roberto Rinaldi",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Video Assist",
+    "name": "Elisabetta Di Salvo",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Stagista",
+    "name": "Alberto Meloni",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Fotografo di scena",
+    "name": "Gianni Fiorito",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuto fotografo di scena",
+    "name": "Anna Fantini",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Operatore subacqueo",
+    "name": "Video Bersari",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistente operatore subacqueo",
+    "name": "Maurizio Crescini",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuti operatori subacquei",
+    "name": "Simone Trecca",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuti operatori subacquei",
+    "name": "Emiliano Manhasi",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_094_num07038_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7038
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Coordinatore di postproduzione",
+    "name": "Filippo Pichi",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_015_static_097_num07182_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7182
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistente al montaggio",
+    "name": "Tommaso Gallone",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_015_static_097_num07182_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7182
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Il Assistente montaggio",
+    "name": "Francesco Di Stefano",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_015_static_097_num07182_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7182
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuto al montaggio",
+    "name": "Artian Baba-mejad",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_015_static_097_num07182_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7182
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Microfonisti",
+    "name": "Francesco Sabez",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_015_static_097_num07182_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7182
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Microfonisti",
+    "name": "Marco Sverriano",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_015_static_097_num07182_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7182
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Montaggio audio diretta",
+    "name": "Dario Calvar",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_015_static_097_num07182_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7182
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Laboratorio di sonorizzazione",
+    "name": "Wild Audio Digital International",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_097_num07182_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7182
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Fonico di misce",
+    "name": "Alessandro Checcucci",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_015_static_097_num07182_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7182
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Fonico di doppiaggio",
+    "name": "Fabio Curli",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_015_static_097_num07182_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7182
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Effetti sonori",
+    "name": "Infonet",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_097_num07182_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7182
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Montaggio effetti sonori",
+    "name": "Mirko Gatti",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_015_static_097_num07182_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7182
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Ass. montaggio effetti sonori",
+    "name": "Massimo Crestini",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_015_static_097_num07182_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7182
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Rumoristi di sala",
+    "name": "Marco Exequi",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_015_static_097_num07182_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7182
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Field recordisti",
+    "name": "Matteo Bandinelli",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_015_static_097_num07182_sim100.jpg"
+    ],
+    "original_frame_number": [
+      7182
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistente scenografo",
+    "name": "Ludovico Ferrario",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti arredatore",
+    "name": "Angela Santoni",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti arredatore",
+    "name": "Giulia Balissio",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti arredatore",
+    "name": "Anna Gabriella Kalan",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuto arredatore",
+    "name": "Francesca Esposito",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuto arredatore",
+    "name": "Cristina Vittoria Marazzi",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuto arredatore",
+    "name": "Rossi Cerallo",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuto scenografo",
+    "name": "Marco S.R.",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuto scenografo",
+    "name": "Stefano Pucciarelli",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuto scenografo",
+    "name": "Manuel Antonini",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuto scenografo",
+    "name": "Alessandro Marangolo",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Attrezzista",
+    "name": "Giorgio Arrello",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Attrezzista di produzione",
+    "name": "Fabio Marulli",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuti attrezzista",
+    "name": "Angelica Chiarini",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuti attrezzista",
+    "name": "Daniela Rossa Espagnel",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuti attrezzista",
+    "name": "Fabrizio M.C.",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuti attrezzista",
+    "name": "Stefano Barbieri",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Pittore di scena",
+    "name": "Marangolo",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_099_num07302_sim97.jpg"
+    ],
+    "original_frame_number": [
+      7302
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti costumista",
+    "name": "Chiara Nobile",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_015_static_101_num07554_sim25.jpg"
+    ],
+    "original_frame_number": [
+      7554
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti costumista",
+    "name": "Luca Canfora",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_015_static_101_num07554_sim25.jpg"
+    ],
+    "original_frame_number": [
+      7554
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti costumista",
+    "name": "Olga Michalowska",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_015_static_101_num07554_sim25.jpg"
+    ],
+    "original_frame_number": [
+      7554
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti costumista",
+    "name": "Chiara Babbin",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_015_static_101_num07554_sim25.jpg"
+    ],
+    "original_frame_number": [
+      7554
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti costumista",
+    "name": "Elena Matarazzo",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_015_static_101_num07554_sim25.jpg"
+    ],
+    "original_frame_number": [
+      7554
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assistenti costumista",
+    "name": "Eleonora Medolla",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_015_static_101_num07554_sim25.jpg"
+    ],
+    "original_frame_number": [
+      7554
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aiuto costumista",
+    "name": "Sara Vavignini",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_015_static_101_num07554_sim25.jpg"
+    ],
+    "original_frame_number": [
+      7554
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Stagiste",
+    "name": "Flore Sauton",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_015_static_101_num07554_sim25.jpg"
+    ],
+    "original_frame_number": [
+      7554
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sarta di scena",
+    "name": "Roberta Girani",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_102_num07746_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7746
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sarta",
+    "name": "Giuseppina Dosa",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_102_num07746_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7746
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sarta",
+    "name": "Sabrina Sabitti",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_102_num07746_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7746
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sarta",
+    "name": "Carmelina D'Andrea",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_102_num07746_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7746
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sarta",
+    "name": "Amelia Valentini",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_102_num07746_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7746
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sarta",
+    "name": "Anna Sacco",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_102_num07746_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7746
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sarta",
+    "name": "Antonella Angellini",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_102_num07746_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7746
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sarta",
+    "name": "Giovanna Colla",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_102_num07746_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7746
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sarta",
+    "name": "Chiara Terrazzini",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_102_num07746_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7746
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sarta",
+    "name": "Giulia Caramolla",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_102_num07746_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7746
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sarta",
+    "name": "Adesso Scaroni",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_102_num07746_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7746
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sarta",
+    "name": "Maria Iannucci",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_102_num07746_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7746
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Capo raccoglitore",
+    "name": "Matteo Silei",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_105_num08118_sim100.jpg"
+    ],
+    "original_frame_number": [
+      8118
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Tracciatrice",
+    "name": "Rosella Gregorio",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_105_num08118_sim100.jpg"
+    ],
+    "original_frame_number": [
+      8118
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aggiunti traccio",
+    "name": "Donatella Podano",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_105_num08118_sim100.jpg"
+    ],
+    "original_frame_number": [
+      8118
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aggiunti traccio",
+    "name": "Melissa Mazzecco",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_105_num08118_sim100.jpg"
+    ],
+    "original_frame_number": [
+      8118
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aggiunti traccio",
+    "name": "Simona Ferri",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_105_num08118_sim100.jpg"
+    ],
+    "original_frame_number": [
+      8118
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aggiunti traccio",
+    "name": "Elmo Valentini",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_105_num08118_sim100.jpg"
+    ],
+    "original_frame_number": [
+      8118
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aggiunti traccio",
+    "name": "Giulia Sacco",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_105_num08118_sim100.jpg"
+    ],
+    "original_frame_number": [
+      8118
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aggiunti traccio",
+    "name": "Patrizia Tofani",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_105_num08118_sim100.jpg"
+    ],
+    "original_frame_number": [
+      8118
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aggiunti traccio",
+    "name": "Veronica Luongo",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_105_num08118_sim100.jpg"
+    ],
+    "original_frame_number": [
+      8118
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aggiunti traccio",
+    "name": "Laura Angioletti",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_105_num08118_sim100.jpg"
+    ],
+    "original_frame_number": [
+      8118
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aggiunti traccio",
+    "name": "Amel Ben Solane",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_105_num08118_sim100.jpg"
+    ],
+    "original_frame_number": [
+      8118
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aggiunti traccio",
+    "name": "Giorgia Gregorini",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_105_num08118_sim100.jpg"
+    ],
+    "original_frame_number": [
+      8118
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Capo parrucchiere",
+    "name": "Marco Berna",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_015_static_106_num08190_sim49.jpg"
+    ],
+    "original_frame_number": [
+      8190
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Parrucchiere",
+    "name": "Peter Neustra",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_015_static_106_num08190_sim49.jpg"
+    ],
+    "original_frame_number": [
+      8190
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Parrucchiere",
+    "name": "Checco Di Donato",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_015_static_106_num08190_sim49.jpg"
+    ],
+    "original_frame_number": [
+      8190
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Parrucchiere",
+    "name": "Daniele Di Donato",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_015_static_106_num08190_sim49.jpg"
+    ],
+    "original_frame_number": [
+      8190
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Parrucchiere",
+    "name": "Stefano Nigro",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_015_static_106_num08190_sim49.jpg"
+    ],
+    "original_frame_number": [
+      8190
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Parrucchiere",
+    "name": "Gianmarco Gaeta",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_015_static_106_num08190_sim49.jpg"
+    ],
+    "original_frame_number": [
+      8190
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Parrucchiere",
+    "name": "Fabio Liporino",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_015_static_106_num08190_sim49.jpg"
+    ],
+    "original_frame_number": [
+      8190
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Parrucchiere",
+    "name": "Sharon Sabatini",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_015_static_106_num08190_sim49.jpg"
+    ],
+    "original_frame_number": [
+      8190
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Parrucchiere",
+    "name": "Francesco De Santini",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_015_static_106_num08190_sim49.jpg"
+    ],
+    "original_frame_number": [
+      8190
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Parrucchiere",
+    "name": "Massimo Badilani",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_015_static_106_num08190_sim49.jpg"
+    ],
+    "original_frame_number": [
+      8190
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Parrucchiere",
+    "name": "Stefania Petrini",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_015_static_106_num08190_sim49.jpg"
+    ],
+    "original_frame_number": [
+      8190
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Aggiunti parrucchiere",
+    "name": "Chiara Di Donato",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_015_static_106_num08190_sim49.jpg"
+    ],
+    "original_frame_number": [
+      8190
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Caposquadra elettricisti",
+    "name": "Alessandro Salini",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_107_num08442_sim45.jpg"
+    ],
+    "original_frame_number": [
+      8442
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Elettricisti",
+    "name": "Fabio Policarpo",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_107_num08442_sim45.jpg"
+    ],
+    "original_frame_number": [
+      8442
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Elettricisti",
+    "name": "Francesco Galli",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_107_num08442_sim45.jpg"
+    ],
+    "original_frame_number": [
+      8442
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Elettricisti",
+    "name": "Danieli Rezzoni",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_107_num08442_sim45.jpg"
+    ],
+    "original_frame_number": [
+      8442
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Elettricisti",
+    "name": "Michele Lacerreta",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_107_num08442_sim45.jpg"
+    ],
+    "original_frame_number": [
+      8442
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Elettricisti",
+    "name": "Fabio Revolotto",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_107_num08442_sim45.jpg"
+    ],
+    "original_frame_number": [
+      8442
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Elettricisti",
+    "name": "Mauro Konor",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_107_num08442_sim45.jpg"
+    ],
+    "original_frame_number": [
+      8442
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Elettricisti",
+    "name": "Ali Darvishi",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_107_num08442_sim45.jpg"
+    ],
+    "original_frame_number": [
+      8442
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Caposquadra macchinisti",
+    "name": "Pierrizio Marra",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_109_num08646_sim81.jpg"
+    ],
+    "original_frame_number": [
+      8646
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Macchinisti",
+    "name": "Massimo Barbona",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_109_num08646_sim81.jpg"
+    ],
+    "original_frame_number": [
+      8646
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Macchinisti",
+    "name": "Cristiano Biagioli",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_109_num08646_sim81.jpg"
+    ],
+    "original_frame_number": [
+      8646
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Macchinisti",
+    "name": "Daniele Anziellotti",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_109_num08646_sim81.jpg"
+    ],
+    "original_frame_number": [
+      8646
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Macchinisti",
+    "name": "Cesare Pacarelli",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_109_num08646_sim81.jpg"
+    ],
+    "original_frame_number": [
+      8646
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Macchinisti",
+    "name": "Danilo Marcelli",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_109_num08646_sim81.jpg"
+    ],
+    "original_frame_number": [
+      8646
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Macchinisti",
+    "name": "Stefano Villenmuazzi",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_109_num08646_sim81.jpg"
+    ],
+    "original_frame_number": [
+      8646
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Macchinisti",
+    "name": "Guido Mestre",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_015_static_109_num08646_sim81.jpg"
+    ],
+    "original_frame_number": [
+      8646
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Gruppina",
+    "name": "Gruppina",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_110_num08838_sim47.jpg"
+    ],
+    "original_frame_number": [
+      8838
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Autisti",
+    "name": "Marco Francescon",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_110_num08838_sim47.jpg"
+    ],
+    "original_frame_number": [
+      8838
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Autisti",
+    "name": "Roberto Nesi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_110_num08838_sim47.jpg"
+    ],
+    "original_frame_number": [
+      8838
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Autisti",
+    "name": "Danilo Di Bruzza",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_110_num08838_sim47.jpg"
+    ],
+    "original_frame_number": [
+      8838
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Autisti",
+    "name": "Valentino De Simone",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_110_num08838_sim47.jpg"
+    ],
+    "original_frame_number": [
+      8838
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Autisti",
+    "name": "Giuliano Troiano",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_110_num08838_sim47.jpg"
+    ],
+    "original_frame_number": [
+      8838
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Autisti",
+    "name": "Gabriele Mazzini",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_110_num08838_sim47.jpg"
+    ],
+    "original_frame_number": [
+      8838
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Autisti",
+    "name": "Marco Ferreri",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_110_num08838_sim47.jpg"
+    ],
+    "original_frame_number": [
+      8838
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Autisti",
+    "name": "Stefano Oberesi",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_110_num08838_sim47.jpg"
+    ],
+    "original_frame_number": [
+      8838
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Autisti",
+    "name": "Maurizio Angelli",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_110_num08838_sim47.jpg"
+    ],
+    "original_frame_number": [
+      8838
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Autisti",
+    "name": "Stefano Rosati",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_015_static_110_num08838_sim47.jpg"
+    ],
+    "original_frame_number": [
+      8838
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Scenotecnici",
+    "name": "Luca Ricci",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_110_num08838_sim47.jpg"
+    ],
+    "original_frame_number": [
+      8838
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Scenotecnici",
+    "name": "Tiberio Angeloni",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_110_num08838_sim47.jpg"
+    ],
+    "original_frame_number": [
+      8838
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Scenotecnici",
+    "name": "Franco Galiano",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_110_num08838_sim47.jpg"
+    ],
+    "original_frame_number": [
+      8838
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Scenotecnici",
+    "name": "Massimo Giovanetti",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_110_num08838_sim47.jpg"
+    ],
+    "original_frame_number": [
+      8838
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Coordinamento stuntman-scene subacquee",
+    "name": "Franco Maria Salamon",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_015_static_111_num09102_sim48.jpg"
+    ],
+    "original_frame_number": [
+      9102
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Coordinamento stuntman-scene subacquee",
+    "name": "Jonatha Marzedlla",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_015_static_111_num09102_sim48.jpg"
+    ],
+    "original_frame_number": [
+      9102
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Stuntman",
+    "name": "Rocco Russo",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_015_static_111_num09102_sim48.jpg"
+    ],
+    "original_frame_number": [
+      9102
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Coordinamento stuntman",
+    "name": "Mauro Calerini",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_015_static_111_num09102_sim48.jpg"
+    ],
+    "original_frame_number": [
+      9102
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Voci Roma",
+    "name": "Savino Giralli",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_015_static_111_num09102_sim48.jpg"
+    ],
+    "original_frame_number": [
+      9102
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Voci Roma",
+    "name": "Alessandra Troisi",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_015_static_111_num09102_sim48.jpg"
+    ],
+    "original_frame_number": [
+      9102
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Permessi minori",
+    "name": "Deborah Peizarchi",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_111_num09102_sim48.jpg"
+    ],
+    "original_frame_number": [
+      9102
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Backstage",
+    "name": "Gianluca Ioddi",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_111_num09102_sim48.jpg"
+    ],
+    "original_frame_number": [
+      9102
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Backstage",
+    "name": "Valerio Araldi",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_111_num09102_sim48.jpg"
+    ],
+    "original_frame_number": [
+      9102
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Montaggio backstage",
+    "name": "Andrea Campajola",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_015_static_111_num09102_sim48.jpg"
+    ],
+    "original_frame_number": [
+      9102
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Cineworld",
+    "name": "Cineworld",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_111_num09102_sim48.jpg"
+    ],
+    "original_frame_number": [
+      9102
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Produzione",
+    "name": "Babe Films",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Produzione",
+    "name": "Alex Gerenstein",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Produzione",
+    "name": "Francesco Corsier",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Produzione",
+    "name": "Orazio Battiucelli",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Produzione",
+    "name": "Riccardo Marchegiani",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Produzione",
+    "name": "Giulio Adamiki",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Produzione",
+    "name": "Paffi",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Produzione",
+    "name": "Alice Cohen Pinelof",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Produzione",
+    "name": "Charlotte Vandenbrouck",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Produzione",
+    "name": "Lucile Brun",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Consulenza legale Babe Films",
+    "name": "Isabelle Laratte",
+    "role_group": "Legal Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Legal Department",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Amministrazione per Promos",
+    "name": "Elena Tramontano",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Amministrazione per Promos",
+    "name": "Valentina Viscione",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Amministrazione per Promos",
+    "name": "Emanuela Veronese",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Amministrazione per Promos",
+    "name": "Umberto Dell'Isola",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Amministrazione per Promos",
+    "name": "Carina Pittica",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Amministrazione per Promos",
+    "name": "Antonio Silvestro",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_015_static_114_num09522_sim54.jpg"
+    ],
+    "original_frame_number": [
+      9522
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Macchine da presa",
+    "name": "D. Vision",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_117_num09666_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9666
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Materiale, Elettricità, Macchinisti",
+    "name": "Lexor",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_117_num09666_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9666
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Lampade e gelatine",
+    "name": "BEF",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_117_num09666_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9666
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Trasporti",
+    "name": "C.S. Cinematografica Stiffi",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_117_num09666_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9666
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Auto di scena",
+    "name": "Magic Rent",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_117_num09666_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9666
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Magazine Rent",
+    "name": "Pariser Service",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_117_num09666_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9666
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Assicurazione",
+    "name": "Assistitalia",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_117_num09666_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9666
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sicurezza sul lavoro",
+    "name": "Studio Donati",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_117_num09666_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9666
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Effetti speciali",
+    "name": "Framina",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_117_num09666_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9666
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Piattaforme aeree",
+    "name": "Riesel srl",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_117_num09666_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9666
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Catering",
+    "name": "Jerco Miladi - e Terra Catering",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_117_num09666_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9666
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Arredamento",
+    "name": "Afifa di Di Lusso Mohamed",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_119_num09798_sim93.jpg"
+    ],
+    "original_frame_number": [
+      9798
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Arredamento",
+    "name": "Cinegrafi GPI di Renato Postiglionec",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_119_num09798_sim93.jpg"
+    ],
+    "original_frame_number": [
+      9798
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Arredamento",
+    "name": "Eurogarden",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_119_num09798_sim93.jpg"
+    ],
+    "original_frame_number": [
+      9798
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Arredamento",
+    "name": "Arredalangelo 2008",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_119_num09798_sim93.jpg"
+    ],
+    "original_frame_number": [
+      9798
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Arredamento",
+    "name": "CineLoo",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_119_num09798_sim93.jpg"
+    ],
+    "original_frame_number": [
+      9798
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Arredamento",
+    "name": "Vanzini Ruffi",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_119_num09798_sim93.jpg"
+    ],
+    "original_frame_number": [
+      9798
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Arredamento",
+    "name": "Antiquari",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_119_num09798_sim93.jpg"
+    ],
+    "original_frame_number": [
+      9798
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Arredamento",
+    "name": "2F Ciceroni",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_119_num09798_sim93.jpg"
+    ],
+    "original_frame_number": [
+      9798
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Arredamento",
+    "name": "Elisottie Communications",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_119_num09798_sim93.jpg"
+    ],
+    "original_frame_number": [
+      9798
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Arredamento",
+    "name": "Peroni",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_015_static_119_num09798_sim93.jpg"
+    ],
+    "original_frame_number": [
+      9798
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Costruzioni",
+    "name": "B.T.N. s.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_124_num09990_sim96.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Costruzioni",
+    "name": "Leonardo Cruciano workshop s.r.l.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_124_num09990_sim96.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sartorie",
+    "name": "Anna Maria",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_015_static_124_num09990_sim96.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sartorie",
+    "name": "Sartoria Gine Leandrai Neri Omero Bracciano Roma",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_124_num09990_sim96.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sartorie",
+    "name": "Bottega d'Alice",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_124_num09990_sim96.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sartorie",
+    "name": "Signoreria Grandi Firme",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_124_num09990_sim96.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sartorie",
+    "name": "Fikino",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_124_num09990_sim96.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sartorie",
+    "name": "Pequeno",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_124_num09990_sim96.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sartorie",
+    "name": "Maurizio smoking",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_124_num09990_sim96.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Sartorie",
+    "name": "Maurizio Bazar",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_124_num09990_sim96.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Digital artist",
+    "name": "Luca Della Gratta",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_126_num10194_sim97.jpg"
+    ],
+    "original_frame_number": [
+      10194
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "3D animator",
+    "name": "Alessandro Contenta",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_126_num10194_sim97.jpg"
+    ],
+    "original_frame_number": [
+      10194
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "3D animator",
+    "name": "Giampaolo Fragale",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_126_num10194_sim97.jpg"
+    ],
+    "original_frame_number": [
+      10194
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Compositors",
+    "name": "Stefano Valente",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_126_num10194_sim97.jpg"
+    ],
+    "original_frame_number": [
+      10194
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Compositors",
+    "name": "Roberto Saba",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_126_num10194_sim97.jpg"
+    ],
+    "original_frame_number": [
+      10194
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Compositors",
+    "name": "Marco F. Prodi",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_126_num10194_sim97.jpg"
+    ],
+    "original_frame_number": [
+      10194
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Compositors",
+    "name": "Chiara Milito",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_126_num10194_sim97.jpg"
+    ],
+    "original_frame_number": [
+      10194
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Compositors jr.",
+    "name": "Roberto Ruffino",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_126_num10194_sim97.jpg"
+    ],
+    "original_frame_number": [
+      10194
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Compositors jr.",
+    "name": "Luca Di Gennaro",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_126_num10194_sim97.jpg"
+    ],
+    "original_frame_number": [
+      10194
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Compositors jr.",
+    "name": "Giulia Gadeddu",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_126_num10194_sim97.jpg"
+    ],
+    "original_frame_number": [
+      10194
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Compositors jr.",
+    "name": "Marco Bersani",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_126_num10194_sim97.jpg"
+    ],
+    "original_frame_number": [
+      10194
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Coordinator",
+    "name": "Enrico Barone",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_126_num10194_sim97.jpg"
+    ],
+    "original_frame_number": [
+      10194
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Project Manager",
+    "name": "Marco Orie",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_015_static_127_num10314_sim49.jpg"
+    ],
+    "original_frame_number": [
+      10314
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Costume",
+    "name": "Andrea Gatti",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_015_static_127_num10314_sim49.jpg"
+    ],
+    "original_frame_number": [
+      10314
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Titles supervisor",
+    "name": "Francesca Galli Gambardino",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_127_num10314_sim49.jpg"
+    ],
+    "original_frame_number": [
+      10314
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Titles",
+    "name": "Stefano Meuti",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_127_num10314_sim49.jpg"
+    ],
+    "original_frame_number": [
+      10314
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Titles",
+    "name": "Lorenzo Manca",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_127_num10314_sim49.jpg"
+    ],
+    "original_frame_number": [
+      10314
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Titles",
+    "name": "Antonio Di Mauro",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_015_static_127_num10314_sim49.jpg"
+    ],
+    "original_frame_number": [
+      10314
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Scenografia",
+    "name": "Moreno Moretti",
+    "role_group": "Production Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Designers",
+    "source_frame": [
+      "scene_015_static_127_num10314_sim49.jpg"
+    ],
+    "original_frame_number": [
+      10314
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Scenografia",
+    "name": "Mirko Cammaroloni",
+    "role_group": "Production Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Designers",
+    "source_frame": [
+      "scene_015_static_127_num10314_sim49.jpg"
+    ],
+    "original_frame_number": [
+      10314
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Coloring",
+    "name": "Davide Pasta",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "scene_015_static_127_num10314_sim49.jpg"
+    ],
+    "original_frame_number": [
+      10314
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Digital grading",
+    "name": "Marco Buonsignore",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "scene_015_static_127_num10314_sim49.jpg"
+    ],
+    "original_frame_number": [
+      10314
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Attrezzistica tecnica",
+    "name": "Technobirth",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_015_static_127_num10314_sim49.jpg"
+    ],
+    "original_frame_number": [
+      10314
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "un ringraziamento speciale a",
+    "name": "Roberto De Francesco",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_015_static_128_num10602_sim22.jpg"
+    ],
+    "original_frame_number": [
+      10602
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Distribuzione Francia",
+    "name": "PATHÉ",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_017_static_024_num12886_sim59.jpg"
+    ],
+    "original_frame_number": [
+      12886
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Distribuzione Italia",
+    "name": "CANAL+",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_017_static_024_num12886_sim59.jpg",
+      "scene_017_static_026_num13030_sim57.jpg"
+    ],
+    "original_frame_number": [
+      12886,
+      13030
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Distribuzione Italia",
+    "name": "CINE+",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_017_static_024_num12886_sim59.jpg",
+      "scene_017_static_026_num13030_sim57.jpg"
+    ],
+    "original_frame_number": [
+      12886,
+      13030
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Distribuzione Italia",
+    "name": "cinema",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_017_static_024_num12886_sim59.jpg"
+    ],
+    "original_frame_number": [
+      12886
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Distribuzione Italia",
+    "name": "MEDIA",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_017_static_024_num12886_sim59.jpg"
+    ],
+    "original_frame_number": [
+      12886
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Distribuzione Italia",
+    "name": "HURIMAGES",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_017_static_024_num12886_sim59.jpg"
+    ],
+    "original_frame_number": [
+      12886
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Distribuzione Italia",
+    "name": "L'ORLY",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_017_static_024_num12886_sim59.jpg"
+    ],
+    "original_frame_number": [
+      12886
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Distribuzione Italia",
+    "name": "D.I.I.",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_017_static_024_num12886_sim59.jpg"
+    ],
+    "original_frame_number": [
+      12886
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Distribuzione Italia",
+    "name": "PATHÉ PRODUCTION",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_017_static_024_num12886_sim59.jpg"
+    ],
+    "original_frame_number": [
+      12886
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Distribuzione Italia",
+    "name": "FRANCE 2 CINEMA",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_017_static_024_num12886_sim59.jpg"
+    ],
+    "original_frame_number": [
+      12886
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Distribuzione Italia",
+    "name": "BABE FILMS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_017_static_024_num12886_sim59.jpg",
+      "scene_017_static_025_num12946_sim60.jpg"
+    ],
+    "original_frame_number": [
+      12886,
+      12946
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Distribuzione Italia",
+    "name": "NODO FILM",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_017_static_024_num12886_sim59.jpg",
+      "scene_017_static_025_num12946_sim60.jpg"
+    ],
+    "original_frame_number": [
+      12886,
+      12946
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "© 2013",
+    "name": "PATHÉ PRODUCTION FRANCE",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_017_static_025_num12946_sim60.jpg"
+    ],
+    "original_frame_number": [
+      12946
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "© 2013",
+    "name": "CINEMA",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_017_static_025_num12946_sim60.jpg"
+    ],
+    "original_frame_number": [
+      12946
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "DOLBY",
+    "name": "DOLBY",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_017_static_026_num13030_sim57.jpg"
+    ],
+    "original_frame_number": [
+      13030
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-21T16:58:20.160507+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  }
+]

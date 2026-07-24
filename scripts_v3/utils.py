@@ -607,14 +607,48 @@ def init_db() -> None:
             reviewed_status TEXT DEFAULT 'pending', -- Track review status: 'pending' or 'kept'
             is_person BOOLEAN,          -- Whether the name refers to a person (true) or company (false)
             normalized_name TEXT,       -- Normalized name for IMDB validation
+            normalized_name_with_nickname TEXT, -- Same, but keeping a quoted nickname aside (e.g. 'roy "bucky" moore') instead of stripping it; NULL when the name has no such aside
             assigned_code TEXT,         -- Either IMDB nconst (nm1234567) or internal code (gp1234567)
             code_assignment_status TEXT, -- 'auto_assigned', 'manual_required', 'ambiguous', 'internal_assigned'
             imdb_matches TEXT,          -- JSON string containing potential IMDB matches for ambiguous cases
             imdb_name TEXT,             -- IMDB canonical name (populated when IMDB match found)
+            metadata TEXT,              -- JSON provenance: {"timestamp", "model", "api_version"} of the VLM run that produced this credit
             FOREIGN KEY (episode_id) REFERENCES {config.DB_TABLE_EPISODES} (episode_id)
         )
         """
         )
+
+        # One row per raw VLM call (per frame). Saved for EVERY call, including
+        # frames that yield no names (empty frames), so the call is never lost.
+        cursor.execute(
+            f"""
+        CREATE TABLE IF NOT EXISTS "{config.DB_TABLE_RAW_RESPONSE}" (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            episode_id TEXT NOT NULL,
+            model TEXT,                 -- selected VLM provider/model id (e.g. azure_gpt_sol_standard)
+            source_frame TEXT,          -- frame filename this call was made on
+            raw_response TEXT,          -- JSON: full raw LLM response object
+            recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+        """
+        )
+        logging.info(f"Table '{config.DB_TABLE_RAW_RESPONSE}' checked/created successfully.")
+
+        # Per-phase wall-clock timings for each episode (step1..step4).
+        # step3 rows carry the VLM provider so the same episode can be timed per model.
+        cursor.execute(
+            f"""
+        CREATE TABLE IF NOT EXISTS "{config.DB_TABLE_TIMING}" (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            episode_id TEXT NOT NULL,
+            step TEXT NOT NULL,
+            provider TEXT,
+            seconds REAL NOT NULL,
+            recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+        """
+        )
+        logging.info(f"Table '{config.DB_TABLE_TIMING}' checked/created successfully.")
         
         # Create table for progressive internal code generation
         cursor.execute(
@@ -663,7 +697,19 @@ def init_db() -> None:
         except sqlite3.OperationalError:
             # Column already exists
             pass
-        
+        try:
+            cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN metadata TEXT")
+            logging.info("Added metadata column to credits table")
+        except sqlite3.OperationalError:
+            # Column already exists
+            pass
+        try:
+            cursor.execute(f"ALTER TABLE {config.DB_TABLE_CREDITS} ADD COLUMN normalized_name_with_nickname TEXT")
+            logging.info("Added normalized_name_with_nickname column to credits table")
+        except sqlite3.OperationalError:
+            # Column already exists
+            pass
+
         cursor.execute(
             f"""
         CREATE INDEX IF NOT EXISTS idx_credits_episode_id ON {config.DB_TABLE_CREDITS} (episode_id);
@@ -916,7 +962,28 @@ def save_credits(episode_id: str, credits_data: list[dict]) -> None:
             # Strip honorifics (Mr., Mrs., Dr., etc.) from the original name
             raw_name = credit.get('name', '')
             name = strip_honorifics(raw_name) if raw_name else ''
-            normalized_name = normalize_name(name) if name else None
+            # Togli i nickname tra virgolette (es. 'Carlos "El Rey" Vans'), a meno
+            # che l'intero nome non sia tra virgolette (in quel caso resta cosi' e
+            # le virgolette verranno tolte da normalize_name piu' sotto).
+            name = strip_quoted_asides(name) if name else name
+            # normalized_name usa la pipeline unica is_person-aware: per le
+            # PERSONE toglie anche virgolette/parentesi (es. "John Smith
+            # (uncredited)") cosi' non inquinano il match; per le AZIENDE le
+            # conserva, perche' possono essere cio' che distingue due aziende
+            # altrimenti identiche (es. "RAI" vs "RAI (Roma)"). Il valore grezzo
+            # salvato in `name` resta invariato.
+            normalized_name = normalize_name(raw_name, is_person=bool(is_person)) if raw_name else None
+            # Same source (raw_name, before the display `name` above lost the
+            # nickname to strip_quoted_asides) but KEEPING a quoted nickname
+            # aside canonicalized to "..." - None when raw_name has no such
+            # aside, or is a company (see normalize_name_with_nickname doc).
+            normalized_name_with_nickname = (
+                normalize_name_with_nickname(raw_name, is_person=bool(is_person)) if raw_name else None
+            )
+
+            # Serialize VLM run provenance (timestamp/model/api_version) to JSON, or NULL if absent
+            metadata = credit.get('metadata')
+            metadata_db = json.dumps(metadata, ensure_ascii=False) if metadata is not None else None
 
             insert_data.append(
                 (
@@ -932,6 +999,8 @@ def save_credits(episode_id: str, credits_data: list[dict]) -> None:
                     scene_pos,
                     is_person,
                     normalized_name,
+                    metadata_db,  # NEW: JSON provenance of the VLM run
+                    normalized_name_with_nickname,
                 )
             )
             logging.info(f"[SAVE_CREDITS] Prepared credit {i+1}: {name} (is_person: {is_person}, normalized: {normalized_name})")
@@ -940,8 +1009,8 @@ def save_credits(episode_id: str, credits_data: list[dict]) -> None:
         cursor.executemany(
             f"""
         INSERT INTO {config.DB_TABLE_CREDITS}
-        (episode_id, source_frame, role_group, secondary_role_group, name, role_detail, role_group_normalized, role_group_corrected, original_frame_number, scene_position, is_person, normalized_name)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        (episode_id, source_frame, role_group, secondary_role_group, name, role_detail, role_group_normalized, role_group_corrected, original_frame_number, scene_position, is_person, normalized_name, metadata, normalized_name_with_nickname)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """,
             insert_data,
         )
@@ -973,6 +1042,90 @@ def save_credits(episode_id: str, credits_data: list[dict]) -> None:
     finally:
         if conn:
             logging.info(f"[SAVE_CREDITS] Closing database connection for episode {episode_id}")
+            conn.close()
+
+
+def record_phase_time(episode_id: str, step: str, seconds: float, provider: str | None = None) -> None:
+    """Record the wall-clock time a pipeline phase took for an episode.
+
+    Args:
+        episode_id: Episode the phase ran on.
+        step: One of 'step1'..'step4'.
+        seconds: Elapsed wall-clock seconds.
+        provider: VLM provider (only meaningful for step3, so the same episode can be
+                  timed per model); None for the other steps.
+    """
+    conn = None
+    try:
+        conn = sqlite3.connect(config.DB_PATH)
+        cursor = conn.cursor()
+        cursor.execute(
+            f'INSERT INTO "{config.DB_TABLE_TIMING}" (episode_id, step, provider, seconds) VALUES (?, ?, ?, ?)',
+            (episode_id, step, provider, float(seconds)),
+        )
+        conn.commit()
+        logging.info(
+            f"[TIMING] {episode_id} {step}"
+            f"{f' ({provider})' if provider else ''}: {float(seconds):.2f}s"
+        )
+    except Exception as e:
+        logging.error(f"[TIMING] Failed to record time for {episode_id} {step}: {e}", exc_info=True)
+    finally:
+        if conn:
+            conn.close()
+
+
+def clear_raw_responses_for_model(episode_id: str, model: str) -> None:
+    """Delete previously stored raw VLM calls for this (episode, model), so a
+    re-run of the same model replaces its own rows without touching other models'."""
+    conn = None
+    try:
+        conn = sqlite3.connect(config.DB_PATH)
+        conn.execute(
+            f'DELETE FROM "{config.DB_TABLE_RAW_RESPONSE}" WHERE episode_id = ? AND model = ?',
+            (episode_id, model),
+        )
+        conn.commit()
+    except Exception as e:
+        logging.error(f"[RAW_RESPONSE] Failed to clear rows for {episode_id}/{model}: {e}", exc_info=True)
+    finally:
+        if conn:
+            conn.close()
+
+
+def save_raw_response_llm_call(episode_id: str, model: str, source_frame: str, raw_response: Any) -> None:
+    """Persist a single raw VLM call. Called once per frame, even when the frame
+    yields no names (empty frame), so the call itself is never lost.
+
+    Args:
+        episode_id: Episode the call was made for.
+        model: Selected VLM provider/model id (e.g. 'azure_gpt_sol_standard').
+        source_frame: Frame filename the call was made on.
+        raw_response: Full raw LLM response (dict/list already JSON-able, or str).
+    """
+    if raw_response is None:
+        raw_response_db = None
+    elif isinstance(raw_response, str):
+        raw_response_db = raw_response
+    else:
+        try:
+            raw_response_db = json.dumps(raw_response, ensure_ascii=False, default=str)
+        except Exception:
+            raw_response_db = json.dumps({"repr": str(raw_response)}, ensure_ascii=False)
+
+    conn = None
+    try:
+        conn = sqlite3.connect(config.DB_PATH)
+        conn.execute(
+            f'INSERT INTO "{config.DB_TABLE_RAW_RESPONSE}" (episode_id, model, source_frame, raw_response) '
+            f'VALUES (?, ?, ?, ?)',
+            (episode_id, model, source_frame, raw_response_db),
+        )
+        conn.commit()
+    except Exception as e:
+        logging.error(f"[RAW_RESPONSE] Failed to save call for {episode_id}/{source_frame}: {e}", exc_info=True)
+    finally:
+        if conn:
             conn.close()
 
 
@@ -2380,8 +2533,10 @@ def strip_honorifics(name: str) -> str:
     name = re.sub(r"\b(Sig|Sig\.ra|Sig\.na|Dott|Dott\.ssa|Prof|Prof\.ssa|Ing|Arch|Avv|Geom|Rag|Cav|Comm|On)\.?\s+", "", name, flags=re.IGNORECASE)
     # Spanish titles
     name = re.sub(r"\b(Sr|Sra|Srta|Srs|Dr|Dra|Prof|Profa)\.?\s+", "", name, flags=re.IGNORECASE)
-    # French titles  
-    name = re.sub(r"\b(M|Mme|Mlle|Mons|Pr|Mgr)\.?\s+", "", name, flags=re.IGNORECASE)
+    # French titles - single-letter "M"/"Pr" deliberately excluded: too ambiguous
+    # with a middle-initial abbreviation that can appear anywhere in a real name
+    # (e.g. "Wendy M. Craig", "M. Fabrizio"), unlike the multi-letter forms below.
+    name = re.sub(r"\b(Mme|Mlle|Mons|Mgr)\.?\s+", "", name, flags=re.IGNORECASE)
     # German titles
     name = re.sub(r"\b(Herr|Frau|Fräulein|Dr|Prof)\.?\s+", "", name, flags=re.IGNORECASE)
     # Military/Political titles
@@ -2395,36 +2550,196 @@ def strip_honorifics(name: str) -> str:
     
     if name != original_name:
         logging.debug(f"Stripped honorifics: '{original_name}' -> '{name}'")
-    
+
     return name
 
 
-def normalize_name(name):
+_BRACKET_PAIRS = [("(", ")"), ("[", "]"), ("{", "}")]
+
+
+def _whole_name_is_bracketed(trimmed: str) -> bool:
+    """True when `trimmed` (already .strip()-ed) is itself wrapped
+    start-to-end in a matching bracket pair ((), [], {}) - e.g. a composer
+    credit like "(Giorgio Moroder)" where the ENTIRE name is the
+    parenthetical, not an annotation attached to a real name. Mirrors
+    strip_quoted_asides' _whole_name_is_quoted check: callers should leave
+    this untouched rather than discard it, since the brackets (not the
+    content) are the only thing to remove - normalize_name's later
+    full-punctuation strip handles that, keeping the name itself."""
+    if len(trimmed) < 2:
+        return False
+    return any(trimmed[0] == o and trimmed[-1] == c for o, c in _BRACKET_PAIRS)
+
+
+def strip_parentheticals(name: str) -> str:
+    """Rimuove il testo tra parentesi tonde (e le parentesi stesse) dai nomi
+    - un'annotazione tra parentesi in mezzo al nome - A MENO CHE l'intero
+    nome (una volta tolti gli spazi ai lati) non sia gia' interamente
+    racchiuso tra parentesi (tonde, quadre o graffe): in quel caso e'
+    lasciato invariato qui - stesso trattamento che strip_quoted_asides
+    riserva a un nome interamente tra virgolette - e le parentesi che lo
+    racchiudono vengono rimosse dal successivo normalize_name (che elimina
+    tutta la punteggiatura, mantenendo il contenuto).
+
+    Es: 'Carlos Scalla (CH Vans)' -> 'Carlos Scalla'. Usato per i nomi di PERSONA
+    quando si costruisce normalized_name, cosi' le annotazioni tra parentesi non
+    inquinano il match esatto.
+        '(Giorgio Moroder)' -> '(Giorgio Moroder)' (invariato qui: l'intero
+        nome e' tra parentesi, quindi non e' un'annotazione da eliminare -
+        senza questa eccezione il nome sparirebbe del tutto, parentesi e
+        contenuto insieme)
     """
-    Normalize names by:
-    - Converting to lowercase.
-    - Removing titles.
-    - Removing punctuation.
-    - Removing accents.
-    - Removing extra spaces.
+    if not name or not isinstance(name, str):
+        return name
+    if _whole_name_is_bracketed(name.strip()):
+        return name
+    stripped = re.sub(r"\([^)]*\)", " ", name)
+    return re.sub(r"\s+", " ", stripped).strip()
+
+
+# Double-quote-style characters (straight, curly/curved, guillemets).
+_DOUBLE_QUOTE_CHARS = "\"“”«»"
+
+# Single-quote/apostrophe characters (straight ' and curly '/'). These are NOT
+# treated the same as double quotes: a bare apostrophe is ambiguous with one
+# inside a real name (O'Brien, D'Angelo), so pairing up ANY two apostrophes to
+# strip an "aside" would risk deleting real name text between them. Below,
+# strip_quoted_asides only treats a single-quote pair as an aside to remove
+# when it's isolated by whitespace on both sides (space before the opening
+# quote, space after the closing one) - e.g. "Sydney 'Big Dawg' Colston" - so
+# a quote glued to a letter (no space before it, as in O'Brien/D'Angelo) never
+# matches.
+_SINGLE_QUOTE_CHARS = "'‘’"
+
+# Compiled once and shared between strip_quoted_asides() and
+# _find_nickname_span() so the two can never drift apart on what counts as a
+# quoted "aside" to strip (or keep, for the with-nickname variant).
+_DOUBLE_QUOTE_ASIDE_RE = re.compile(rf"[{_DOUBLE_QUOTE_CHARS}][^{_DOUBLE_QUOTE_CHARS}]*[{_DOUBLE_QUOTE_CHARS}]")
+_SINGLE_QUOTE_ASIDE_RE = re.compile(
+    rf"(?:(?<=\s)|^)[{_SINGLE_QUOTE_CHARS}][^{_SINGLE_QUOTE_CHARS}]*[{_SINGLE_QUOTE_CHARS}](?:(?=\s)|$)"
+)
+
+
+def _whole_name_is_quoted(trimmed: str) -> bool:
+    """True when `trimmed` (already .strip()-ed) is itself wrapped start-to-end
+    in a matching quote pair - that's a fully-aliased credit, not a nickname
+    aside in the middle of a name, so callers should leave it untouched."""
+    if len(trimmed) < 2:
+        return False
+    return (
+        (trimmed[0] in _DOUBLE_QUOTE_CHARS and trimmed[-1] in _DOUBLE_QUOTE_CHARS)
+        or (trimmed[0] in _SINGLE_QUOTE_CHARS and trimmed[-1] in _SINGLE_QUOTE_CHARS)
+    )
+
+
+def _find_nickname_span(name: str):
+    """Returns the re.Match for the first quoted nickname aside in `name`
+    (double quotes anywhere, or single quotes isolated by whitespace - same
+    detection rules strip_quoted_asides uses), or None if there is no such
+    aside, or the whole name is quoted (that's an alias, not a nickname
+    aside in the middle of a name)."""
+    if not name or not isinstance(name, str):
+        return None
+    if _whole_name_is_quoted(name.strip()):
+        return None
+    return _DOUBLE_QUOTE_ASIDE_RE.search(name) or _SINGLE_QUOTE_ASIDE_RE.search(name)
+
+
+def strip_quoted_asides(name: str) -> str:
+    """Rimuove il testo tra virgolette (doppie: dritte/curve/caporali; singole:
+    solo se isolate da spazi su entrambi i lati) e le virgolette stesse dai
+    nomi - es. un nickname tra virgolette in mezzo al nome - A MENO CHE
+    l'intero nome (una volta tolti gli spazi ai lati) non sia gia'
+    interamente racchiuso tra virgolette dello stesso tipo: in quel caso e'
+    lasciato invariato qui, e le virgolette che lo racchiudono vengono
+    rimosse dal successivo normalize_name (che elimina tutta la
+    punteggiatura, incluse le virgolette).
+
+    Es: 'Carlos "El Rey" Vans' -> 'Carlos Vans'
+        "Sydney 'Big Dawg' Colston" -> 'Sydney Colston'
+        "O'Brien" -> "O'Brien" (invariato: l'apice e' attaccato a una parola,
+            non isolato da spazi, quindi non e' un'aside tra virgolette)
+        '"Mario Rossi"' -> '"Mario Rossi"' (invariato: l'intero nome e' tra virgolette)
+    """
+    if not name or not isinstance(name, str):
+        return name
+
+    if _whole_name_is_quoted(name.strip()):
+        return name
+
+    stripped = _DOUBLE_QUOTE_ASIDE_RE.sub(" ", name)
+    stripped = _SINGLE_QUOTE_ASIDE_RE.sub(" ", stripped)
+    return re.sub(r"\s+", " ", stripped).strip()
+
+
+def normalize_name(name, is_person: bool = True):
+    """
+    Single normalization entry point for the whole project - the canonical
+    way to turn a raw credit/IMDB name into a matching key.
+
+    For companies (is_person=False): ONLY lowercasing + Unicode-punctuation
+    removal + whitespace collapse. No honorifics/quoted-aside/parenthetical
+    stripping, and no accent-folding: a company name carries no titles to
+    strip, and any of that content (a "(Roma)" qualifier, a quoted brand
+    aside, an accented letter) can be exactly what distinguishes two
+    otherwise-identical company names (e.g. "RAI" vs "RAI (Roma)") -
+    stripping it would silently merge two different companies under one
+    internal code.
+
+    For persons (is_person=True, the default - also what IMDB name.basics
+    data is), combines every step that used to be chained manually at each
+    call site:
+    - strip_honorifics(), strip_quoted_asides(), strip_parentheticals() - a
+      title, a nickname in quotes, or an "(uncredited)"-style aside is noise
+      for matching, not part of the identity.
+    - Lowercase, strip accents, strip ALL Unicode punctuation, collapse
+      whitespace.
+
+    Passing an explicit is_person at every call site (instead of leaving it
+    at the True default) is required wherever the credit could be a company -
+    getting this wrong for a company re-introduces the "RAI" vs "RAI (Roma)"
+    collision above.
     """
     if not isinstance(name, str):
         name = str(name)
 
+    if not is_person:
+        name = name.lower()
+        name = ''.join(' ' if unicodedata.category(char).startswith('P') else char for char in name)
+        name = re.sub(r"\s+", " ", name).strip()
+        return name
+
+    name = strip_honorifics(name)
+    name = strip_quoted_asides(name)
+    name = strip_parentheticals(name)
+    return _apply_core_normalization(name)
+
+
+def _apply_core_normalization(name: str, preserve_chars: str = "") -> str:
+    """Shared tail of normalize_name(is_person=True) and
+    normalize_name_with_nickname(): lowercase, strip the few titles
+    strip_honorifics doesn't cover, fold accents, strip ALL Unicode
+    punctuation (except any character in `preserve_chars`), collapse
+    whitespace. `preserve_chars` lets normalize_name_with_nickname protect
+    its nickname-quote placeholder from the punctuation strip below."""
     # Convert to lowercase
     name = name.lower()
-    
-    # Remove titles
+
+    # Remove titles not already handled by strip_honorifics above: a few
+    # forms it doesn't cover (Msgr., Em.mo, Eccmo., P.I.). "M."/"Pr." are
+    # deliberately absent here too - same reason as strip_honorifics excludes
+    # them: too ambiguous with a middle-initial abbreviation (e.g. "Wendy M.
+    # Craig", "M. Fabrizio") to strip blindly.
     name = re.sub(
         r"\b("
         r"dr\.|dott\.|dott\.ssa|prof\.|prof\.ssa|ing\.|arch\.|avv\.|sig\.|sig\.ra|sig\.na|"
         r"mr\.|mrs\.|ms\.|mx\.|fr\.|rev\.|hon\.|sen\.|rep\.|gov\.|pres\.|vp\.|"
         r"capt\.|cmdr\.|lt\.|col\.|maj\.|gen\.|adm\.|"
         r"msgr\.|sr\.|sra\.|srta\.|srs\.|"
-        r"mlle\.|mme\.|mons\.|pr\.|amb\.|pm\.|"
+        r"mlle\.|mme\.|mons\.|amb\.|pm\.|"
         r"ph\.?d|m\.?d|esq\.|emo\.|eccmo\.|p\.i|geom\."
         r")\s+",
-        "", 
+        "",
         name,
         flags=re.IGNORECASE
     )
@@ -2433,14 +2748,69 @@ def normalize_name(name):
     name = unicodedata.normalize('NFD', name)
     # Remove diacritical marks (accents)
     name = ''.join(char for char in name if unicodedata.category(char) != 'Mn')
-    
-    # Remove punctuation but preserve spaces
-    name = re.sub(r"[.\-_,'\"]", " ", name)
-    
+
+    # Remove ALL punctuation (Unicode categories Pc/Pd/Ps/Pe/Pi/Pf/Po - this
+    # covers straight AND curly/curved quotes, guillemets, dashes, parentheses,
+    # commas, etc.), replacing each with a space so words don't get glued
+    # together - except any character in preserve_chars.
+    name = ''.join(
+        ' ' if (unicodedata.category(char).startswith('P') and char not in preserve_chars) else char
+        for char in name
+    )
+
     # Remove any extra whitespace and normalize to single spaces
     name = re.sub(r"\s+", " ", name).strip()
-    
+
     return name
+
+
+# Private-use Unicode char (category Co, never Unicode punctuation) used as a
+# temporary stand-in for the nickname's delimiting quote so it survives
+# _apply_core_normalization's punctuation strip; swapped for a canonical "
+# afterwards. Never appears in real-world names, so it's safe as a marker.
+_NICKNAME_QUOTE_PLACEHOLDER = ""
+
+
+def normalize_name_with_nickname(name, is_person: bool = True) -> Optional[str]:
+    """Companion to normalize_name(): for a PERSON name containing a quoted
+    nickname aside (e.g. "Roy 'Bucky' Moore", 'ROY "BUCKY" MOORE'), returns
+    the normalized name with the nickname KEPT instead of stripped, wrapped
+    in a canonical "..." pair regardless of whether the source used '' or ""
+    - both examples above -> 'roy "bucky" moore' - so records that differ
+    only in quote style still compare equal.
+
+    Returns None when there is no quoted nickname aside (nothing to
+    disambiguate with - callers should leave the column null) or for
+    companies (is_person=False - a company name is never expected to carry a
+    person-style nickname aside).
+
+    Exists because a nickname can be the ONLY thing that disambiguates a
+    common name among many IMDB namesakes (e.g. 21 different "Roy Moore"
+    records share the same nickname-stripped normalize_name() result, but
+    only one of them is actually "Roy 'Bucky' Moore") - stripping the
+    nickname unconditionally, as normalize_name does, turns what used to be
+    a unique match into an ambiguous one for names like these. Callers
+    should try an exact match against this value FIRST and fall back to
+    normalize_name()'s nickname-stripped form only if that misses.
+    """
+    if not is_person or not isinstance(name, str):
+        return None
+
+    span = _find_nickname_span(name)
+    if span is None:
+        return None
+
+    inner = span.group(0)[1:-1].strip()
+    marked = (
+        name[:span.start()]
+        + _NICKNAME_QUOTE_PLACEHOLDER + inner + _NICKNAME_QUOTE_PLACEHOLDER
+        + name[span.end():]
+    )
+
+    marked = strip_honorifics(marked)
+    marked = strip_parentheticals(marked)
+    result = _apply_core_normalization(marked, preserve_chars=_NICKNAME_QUOTE_PLACEHOLDER)
+    return result.replace(_NICKNAME_QUOTE_PLACEHOLDER, '"')
 
 
 def get_processed_entities(episode_id: str) -> List[Dict[str, Any]]:

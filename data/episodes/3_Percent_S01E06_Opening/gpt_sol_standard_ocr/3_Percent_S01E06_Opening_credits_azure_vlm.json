@@ -1,0 +1,564 @@
+[
+  {
+    "role_detail": "UMA SÉRIE ORIGINAL",
+    "name": "NETFLIX",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_000_static_000_num00000_sim0.jpg"
+    ],
+    "original_frame_number": [
+      0
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "JOÃO MIGUEL",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_001_static_000_num00137_sim18.jpg"
+    ],
+    "original_frame_number": [
+      137
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "BIANCA COMPARATO",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_002_scroll_000_num00185_sim0.jpg"
+    ],
+    "original_frame_number": [
+      185
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "MICHEL GOMES",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_003_static_001_num00332_sim98.jpg"
+    ],
+    "original_frame_number": [
+      332
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "RODOLFO VALENTE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_003_static_001_num00332_sim98.jpg"
+    ],
+    "original_frame_number": [
+      332
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "VANEZA OLIVEIRA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_static_001_num00405_sim100.jpg"
+    ],
+    "original_frame_number": [
+      405
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "RAFAEL LOZANO",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_static_001_num00405_sim100.jpg"
+    ],
+    "original_frame_number": [
+      405
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "VIVIANE PORTO",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_004_static_001_num00405_sim100.jpg"
+    ],
+    "original_frame_number": [
+      405
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ATORES CONVIDADOS",
+    "name": "MEL FRONCKOWIAK",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_006_static_000_num00458_sim100.jpg"
+    ],
+    "original_frame_number": [
+      458
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ATORES CONVIDADOS",
+    "name": "SÉRGIO MAMBERTI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_006_static_000_num00458_sim100.jpg"
+    ],
+    "original_frame_number": [
+      458
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ATORES CONVIDADOS",
+    "name": "ZEZÉ MOTTA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_006_static_000_num00458_sim100.jpg"
+    ],
+    "original_frame_number": [
+      458
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ATORES CONVIDADOS",
+    "name": "CELSO FRATESCHI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_006_static_000_num00458_sim100.jpg"
+    ],
+    "original_frame_number": [
+      458
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIREÇÃO DE ARTE",
+    "name": "VALDY LOPES JN",
+    "role_group": "Art Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Directors",
+    "source_frame": [
+      "scene_007_static_002_num00558_sim94.jpg"
+    ],
+    "original_frame_number": [
+      558
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MÚSICA",
+    "name": "ANDRÉ MEHMARI",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_007_static_004_num00594_sim87.jpg"
+    ],
+    "original_frame_number": [
+      594
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIREÇÃO DE FOTOGRAFIA",
+    "name": "EDUARDO PIAGGE",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_008_static_003_num00667_sim100.jpg"
+    ],
+    "original_frame_number": [
+      667
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ROTEIRISTAS",
+    "name": "CASSIO KOSHIKUMO",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_009_static_002_num00725_sim96.jpg"
+    ],
+    "original_frame_number": [
+      725
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ROTEIRISTAS",
+    "name": "DENIS NIELSEN",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_009_static_002_num00725_sim96.jpg"
+    ],
+    "original_frame_number": [
+      725
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ROTEIRISTAS",
+    "name": "IVAN NAKAMURA",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_009_static_002_num00725_sim96.jpg"
+    ],
+    "original_frame_number": [
+      725
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ROTEIRISTAS",
+    "name": "JOTAGÁ CREMA",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_009_static_002_num00725_sim96.jpg"
+    ],
+    "original_frame_number": [
+      725
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ROTEIRISTAS",
+    "name": "PEDRO AGUILERA",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_009_static_002_num00725_sim96.jpg",
+      "scene_013_static_002_num01141_sim43.jpg"
+    ],
+    "original_frame_number": [
+      725,
+      1141
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUÇÃO EXECUTIVA",
+    "name": "ERIK BARMACK",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_011_static_001_num00794_sim37.jpg"
+    ],
+    "original_frame_number": [
+      794
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUÇÃO EXECUTIVA",
+    "name": "KELLY LUEGENBIEHL",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_011_static_001_num00794_sim37.jpg"
+    ],
+    "original_frame_number": [
+      794
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUÇÃO EXECUTIVA",
+    "name": "DIEGO AVALOS",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_011_static_001_num00794_sim37.jpg"
+    ],
+    "original_frame_number": [
+      794
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUÇÃO EXECUTIVA",
+    "name": "TIAGO MELLO",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_012_static_004_num00916_sim98.jpg"
+    ],
+    "original_frame_number": [
+      916
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIREÇÃO",
+    "name": "DAINÁ GIANNECCHINI",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_012_static_007_num01012_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1012
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIREÇÃO",
+    "name": "DANI LIBARDI",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_012_static_007_num01012_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1012
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIREÇÃO",
+    "name": "JOTAGA CREMA",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_012_static_007_num01012_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1012
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIREÇÃO GERAL",
+    "name": "CÉSAR CHARLONE",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_013_static_001_num01120_sim79.jpg"
+    ],
+    "original_frame_number": [
+      1120
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:56:35.195616+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  }
+]

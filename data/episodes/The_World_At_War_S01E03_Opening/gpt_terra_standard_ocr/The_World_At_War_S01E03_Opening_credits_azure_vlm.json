@@ -1,0 +1,166 @@
+[
+  {
+    "role_detail": "Title",
+    "name": "THE WORLD AT WAR",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "scene_000_static_000_num00015_sim0.jpg"
+    ],
+    "original_frame_number": [
+      15
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-20T16:37:28.092763+00:00",
+      "model": "gpt-5.6-terra",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Title",
+    "name": "3. FRANCE FALLS",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "scene_000_static_003_num00645_sim100.jpg"
+    ],
+    "original_frame_number": [
+      645
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-20T16:37:28.092763+00:00",
+      "model": "gpt-5.6-terra",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Logo text",
+    "name": "3MERANGE FILMS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_004_num00750_sim37.jpg"
+    ],
+    "original_frame_number": [
+      750
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-20T16:37:28.092763+00:00",
+      "model": "gpt-5.6-terra",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Written by",
+    "name": "PETER BATTY",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_000_static_009_num01335_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1335
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-20T16:37:28.092763+00:00",
+      "model": "gpt-5.6-terra",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Produced by",
+    "name": "PETER BATTY",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_static_009_num01335_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1335
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-20T16:37:28.092763+00:00",
+      "model": "gpt-5.6-terra",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Written by",
+    "name": "LADEFER BATTYIER",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_000_static_010_num01425_sim52.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-20T16:37:28.092763+00:00",
+      "model": "gpt-5.6-terra",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Produced by",
+    "name": "LADEFER BATTYIER",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_static_010_num01425_sim52.jpg"
+    ],
+    "original_frame_number": [
+      1425
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-20T16:37:28.092763+00:00",
+      "model": "gpt-5.6-terra",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Narrated by",
+    "name": "LAURENCE OLIVIER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_011_num01440_sim56.jpg"
+    ],
+    "original_frame_number": [
+      1440
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-20T16:37:28.092763+00:00",
+      "model": "gpt-5.6-terra",
+      "api_version": "2025-04-01-preview"
+    }
+  }
+]

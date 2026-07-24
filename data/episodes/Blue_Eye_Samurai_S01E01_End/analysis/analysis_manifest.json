@@ -1,0 +1,952 @@
+{
+  "scenes": {
+    "scene_1": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_001_static_000_num00050_sim0.jpg",
+          "frame_num": 50,
+          "ocr_text": "WRITTEN BY AMBERI NoizumI & Michael Green",
+          "ocr_bbox": [
+            133,
+            404,
+            1795,
+            592
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_001_static_001_num00146_sim22.jpg",
+          "frame_num": 146,
+          "ocr_text": "Wu JANE",
+          "ocr_bbox": [
+            731,
+            492,
+            1173,
+            603
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.1236247681081295,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.11993871629238129,
+      "roi_percentile_flow": 0.1236247681081295,
+      "scroll_direction": null
+    },
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_002_static_000_num00194_sim21.jpg",
+          "frame_num": 194,
+          "ocr_text": "Executive ProduCER MICHAEL GREEN",
+          "ocr_bbox": [
+            566,
+            405,
+            1353,
+            588
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_002_static_001_num00254_sim58.jpg",
+          "frame_num": 254,
+          "ocr_text": "Executive ProduCER Erwin SToff",
+          "ocr_bbox": [
+            569,
+            404,
+            1350,
+            587
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_002_static_002_num00290_sim28.jpg",
+          "frame_num": 290,
+          "ocr_text": "MAYA Erskine MIZU AS",
+          "ocr_bbox": [
+            601,
+            409,
+            1315,
+            582
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": -0.10986383259296417,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.10913750529289246,
+      "roi_percentile_flow": -0.10986383259296417,
+      "scroll_direction": null
+    },
+    "scene_3": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_003_static_000_num00308_sim55.jpg",
+          "frame_num": 308,
+          "ocr_text": "TAkEI GEORGE AS SeKI",
+          "ocr_bbox": [
+            610,
+            410,
+            1319,
+            585
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_003_static_001_num00332_sim43.jpg",
+          "frame_num": 332,
+          "ocr_text": "MASI OKA As Ringo",
+          "ocr_bbox": [
+            706,
+            409,
+            1201,
+            588
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_003_static_002_num00356_sim39.jpg",
+          "frame_num": 356,
+          "ocr_text": "TAGAWA As The Swordmaker",
+          "ocr_bbox": [
+            568,
+            407,
+            1563,
+            590
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_003_static_003_num00380_sim32.jpg",
+          "frame_num": 380,
+          "ocr_text": "SONG AS AKEMI",
+          "ocr_bbox": [
+            793,
+            413,
+            1286,
+            579
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_003_static_004_num00404_sim34.jpg",
+          "frame_num": 404,
+          "ocr_text": "BARNET TAIGEN AS",
+          "ocr_bbox": [
+            775,
+            416,
+            1354,
+            586
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": 0.1210172027349472,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.11765806376934052,
+      "roi_percentile_flow": 0.1210172027349472,
+      "scroll_direction": null
+    },
+    "scene_4": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_004_static_000_num00428_sim41.jpg",
+          "frame_num": 428,
+          "ocr_text": "RANDALL PARK HEIjI SHINdo AS",
+          "ocr_bbox": [
+            588,
+            413,
+            1322,
+            589
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_004_static_001_num00452_sim33.jpg",
+          "frame_num": 452,
+          "ocr_text": "AND Kenneth FOWLER AS",
+          "ocr_bbox": [
+            481,
+            348,
+            1288,
+            583
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_004_static_002_num00464_sim84.jpg",
+          "frame_num": 464,
+          "ocr_text": "AND Kenneth BrANAGH FOWLER AS",
+          "ocr_bbox": [
+            481,
+            346,
+            1433,
+            584
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_004_static_003_num00476_sim28.jpg",
+          "frame_num": 476,
+          "ocr_text": "SUPERVISING Director/Producer JANE WU",
+          "ocr_bbox": [
+            339,
+            394,
+            1577,
+            606
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_004_static_004_num00512_sim38.jpg",
+          "frame_num": 512,
+          "ocr_text": "ProduCers HAVEN ALEXANDER N ICK R EAD",
+          "ocr_bbox": [
+            488,
+            404,
+            1419,
+            696
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": 0.07503514923155308,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10044722631573677,
+      "roi_percentile_flow": 0.07503514923155308,
+      "scroll_direction": null
+    },
+    "scene_5": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_005_static_000_num00532_sim26.jpg",
+          "frame_num": 532,
+          "ocr_text": "Production",
+          "ocr_bbox": [
+            547,
+            404,
+            1007,
+            471
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_005_static_001_num00544_sim69.jpg",
+          "frame_num": 544,
+          "ocr_text": "Production DesignEr",
+          "ocr_bbox": [
+            548,
+            404,
+            1376,
+            472
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_005_static_002_num00568_sim25.jpg",
+          "frame_num": 568,
+          "ocr_text": "Edited BY LEE",
+          "ocr_bbox": [
+            699,
+            405,
+            1140,
+            590
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_005_static_003_num00592_sim33.jpg",
+          "frame_num": 592,
+          "ocr_text": "C BY AMIE Doherty",
+          "ocr_bbox": [
+            590,
+            415,
+            1332,
+            590
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_005_static_004_num00616_sim24.jpg",
+          "frame_num": 616,
+          "ocr_text": "SOund Designer & Re-Recording MiXer PAUL N.J. Ottosson",
+          "ocr_bbox": [
+            213,
+            399,
+            1710,
+            589
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": -0.12390611320734024,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.1215457022190094,
+      "roi_percentile_flow": -0.12390611320734024,
+      "scroll_direction": null
+    },
+    "scene_6": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_006_static_000_num00644_sim25.jpg",
+          "frame_num": 644,
+          "ocr_text": "LINE COFRANCESCO",
+          "ocr_bbox": [
+            679,
+            404,
+            1557,
+            588
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_006_static_001_num00680_sim31.jpg",
+          "frame_num": 680,
+          "ocr_text": "AssocIaTE ProducER KEVIN HART",
+          "ocr_bbox": [
+            576,
+            405,
+            1348,
+            591
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_006_static_002_num00704_sim37.jpg",
+          "frame_num": 704,
+          "ocr_text": "CASTING BY MARGERY SIMKIn, CSA ORLY SItowitz, CSA",
+          "ocr_bbox": [
+            404,
+            349,
+            1514,
+            650
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": -0.10742895305156708,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.1090850904583931,
+      "roi_percentile_flow": -0.10742895305156708,
+      "scroll_direction": null
+    },
+    "scene_7": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_007_static_000_num00728_sim14.jpg",
+          "frame_num": 728,
+          "ocr_text": "CAST Eric Brittany Ishibashi - Momo, Brawny Samurai, Naked Man Ragged Female Merchant Marcus Choi - Shindo Samurai I, Matt Yang King - Brawniest Samurai Townsperson, Even Brawnier SamuraI Clyde Kusatsu - Elder Domo Holly Chou - ChikI West Liang - Hachi Mark Dacascos - Shindo Samurai 2, ANGRY COOK Daisuke Suzuki - Hulking Teacher Patrick Gallagher - Daichi Gedde Watanabe - Kenzou, Sentry Judah Green - Young Taigen Keone Young - Dojo Master Orli Mariko Green - Young Mizu, Yoshi Ando  Joe CappellettI Junko Goda \u2022 James Taku Leung Takaaki Hirakawa - Tengu Crest YumI MizuI Ryan Moriarty Alpha Takahashi - Additional Voices",
+          "ocr_bbox": [
+            178,
+            72,
+            1766,
+            950
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_007_static_001_num00752_sim99.jpg",
+          "frame_num": 752,
+          "ocr_text": "CAST Eric I Brittany Ishibashi - Momo, Brawny Samurai, Naked Man Ragged Female Merchant Marcus Choi - Shindo Samurai I, Matt Yang King - Brawniest Samurai Townsperson, Even Brawnier Samurai Clyde Kusatsu - Elder Domo Holly Chou - ChikI West Liang - Hachi Mark Dacascos - Shindo Samurai 2, ANGRY COOK Daisuke Suzuki - Hulking Teacher Patrick Gallagher - Daichi Gedde Watanabe - Kenzou, Sentry Judah Green - Young Taigen Keone Young - Dojo Maser Orli Mariko Green - Young Mizu, Yoshi Ando  Joe CappellettI BULLY KID Junko Goda \u2022 James Taku Leung Takaaki Hirakawa - Tengu Crest YumI MizUI Ryan Moriarty Alpha Takahashi - Additional Voices",
+          "ocr_bbox": [
+            178,
+            72,
+            1766,
+            950
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_007_static_002_num00788_sim100.jpg",
+          "frame_num": 788,
+          "ocr_text": "CAST Eric I Brittany Ishibashi - Momo, Brawny Samurai, Naked Man Ragged Female Merchant Marcus Choi - Shindo Samurai I, Matt Yang King - Brawniest Samurai Townsperson, Even Brawnier Samurai Clyde Kusatsu - Elder Domo Holly Chou - ChikI West Liang - Hachi Mark Dacascos - Shindo Samurai 2, ANGRY COOK Daisuke Suzuki - Hulking Teacher Patrick Gallagher - Daichi Gedde Watanabe - Kenzou, Sentry Judah Green - Young Taigen Keone Young - Dojo Master Orli Mariko Green - Young Mizu, Yoshi Ando  Joe CappellettI BULLY KID Junko Goda \u2022 James Taku Leung Takaaki Hirakawa - Tengu Crest YumI MizUI Ryan Moriarty Alpha Takahashi - Additional Voices",
+          "ocr_bbox": [
+            178,
+            72,
+            1766,
+            950
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_8": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_008_static_000_num00800_sim32.jpg",
+          "frame_num": 800,
+          "ocr_text": "Jasmine GutIerrez, CSA  VITALE Vocal Consultant Cultural Consultants Stunt DIRECTOR Carla Meyer SUN Eric Rath STORYBOARDS BY Ian Abando Thomas Nelson Ryan O'Loughlin AlAn Wan",
+          "ocr_bbox": [
+            247,
+            231,
+            1619,
+            923
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_008_static_001_num00836_sim42.jpg",
+          "frame_num": 836,
+          "ocr_text": "Character Designers Naomi Baker JulIa SrednickI MALCOLM WOP\u00c9 Additional Character Design Damon Bard Wayne Johnson CostumE SUTTIRAT LARLARB Associate Costume DESIGNER Assistant Costume Designer MICHAEL MOoNEY Lizzie Donelan",
+          "ocr_bbox": [
+            258,
+            229,
+            1657,
+            1006
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.1220471952110529,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10601112991571426,
+      "roi_percentile_flow": 0.1220471952110529,
+      "scroll_direction": null
+    },
+    "scene_9": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_009_static_000_num00856_sim47.jpg",
+          "frame_num": 856,
+          "ocr_text": "Additional Production Design Additional Art Direction Gerald de Jesus . Emil Mitev . James Wood Wilson Visual Development Artists Damon Bard Wayne Johnson Miho Tomimasu Grace Kum Vaneda Vireak Yun Ling Kenny Vo McCain MIKE Esther Wu Tim Kallok Bill Perkins",
+          "ocr_bbox": [
+            277,
+            110,
+            1697,
+            932
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_009_static_001_num00868_sim96.jpg",
+          "frame_num": 868,
+          "ocr_text": "Additional Production Design JASON WILLIAm SCHeIER Additional Art Direction Gerald de Jesus . Emil Mitev . James Wood Wilson Visual Development Artists Damon Bard Wayne Johnson Miho Tomimasu Grace Kum Vaneda Vireak Yun Ling Kenny Vo McCain MIKE Esther Wu Tim Kallok Bill Perkins",
+          "ocr_bbox": [
+            277,
+            110,
+            1697,
+            934
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_009_static_002_num00880_sim88.jpg",
+          "frame_num": 880,
+          "ocr_text": "Additional Production Design Additional Art Direction Gerald de Jesus . Emil Mitev . James Wood Wilson Visual Development Artists Damon Bard Wayne Johnson Miho Tomimasu Grace Kum Vaneda Vireak Yun Ling Kenny Vo McCain MIKE Esther Wu EnVironmenT Modeler Additional Visual Development Tim Kallok Bill Perkins",
+          "ocr_bbox": [
+            276,
+            110,
+            1697,
+            931
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_009_static_003_num00892_sim44.jpg",
+          "frame_num": 892,
+          "ocr_text": "HEAd of PREVIs MICHAEL GREENHOLT Earl A. Hibbert Assistant Animation Director Previs ModeLeR Boris Maras Benny Vargas Previs Artists Justin Schultz Rocky Curby Nicole Herr JoAnn KanG",
+          "ocr_bbox": [
+            197,
+            287,
+            1593,
+            816
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_10": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_010_static_000_num00912_sim39.jpg",
+          "frame_num": 912,
+          "ocr_text": "Production ManAgEr Production Supervisors Kimberly Siapno Production Coordinatos Darla Chavez Manuel Jesse Nieto Jr. Tiffany Chiu OlIvIa POwers-L1 Jinny ChunG Samuel Taylor Sara Cook Diana Teran Andrea Flores Kimble West Billie Rose Newby",
+          "ocr_bbox": [
+            435,
+            130,
+            1588,
+            833
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_010_static_001_num00924_sim92.jpg",
+          "frame_num": 924,
+          "ocr_text": "ProducTIon MaNAGER Paige Coblentz Production SUPERVISORS Rudisill Kimberly Siapno Production Coordinators Manuel Jesse Nieto Jr. Tiffany Chiu OlIVIA POWerS-L1 Jinny Chung Samuel Taylor Sara COok Diana Teran ANDREA FLORES Kimble West BILLIE Rose Newby",
+          "ocr_bbox": [
+            436,
+            127,
+            1590,
+            834
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_010_static_002_num00948_sim43.jpg",
+          "frame_num": 948,
+          "ocr_text": "Production Assistants YasmeEn Abedifard Matthew ChonG Aaron Farr Devon Ste Marie Rubin Assistants to Michael Green And Amber NoizumI Jennifer Coates Becca Noble Assistants to Erwin Stoff Olivia Mayron",
+          "ocr_bbox": [
+            415,
+            129,
+            1496,
+            823
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_010_static_003_num00972_sim46.jpg",
+          "frame_num": 972,
+          "ocr_text": "COmPOSITING AccountiNG Accountant Visual Development ANDREA BIKLIAN Tomer Rousso Production Accountant Remi Larroque Cameron Scott Assistant Accountant Kasy Stein Meri Adamyan",
+          "ocr_bbox": [
+            313,
+            235,
+            1656,
+            747
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.11216556467115879,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10162677988409996,
+      "roi_percentile_flow": 0.11216556467115879,
+      "scroll_direction": null
+    },
+    "scene_11": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_011_static_000_num00996_sim36.jpg",
+          "frame_num": 996,
+          "ocr_text": "EdItorIal / Post Production Assistant Editor Post Production Post Production Coordinator GEORGE SOTo Edwards Yasmeen Abedifard Post Production Sound SFX Editor Foley Mixer / Foley Editor Foley Artists Vincent Nicastro Loop Group Director Foley Recordist Matt Wallace Joe CappellettI Dialogue Editor DANIEL SAXLID SCore / Music Music Editor Orchestrator / Additional Music Scoring Mixer Iko Kagasoff Ellie CumminG Alvin Wee Orchestra Music Consultant The Budapest Art Orchestra GABE HILFER",
+          "ocr_bbox": [
+            163,
+            74,
+            1795,
+            998
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_011_static_001_num01008_sim97.jpg",
+          "frame_num": 1008,
+          "ocr_text": "EdItorIal / Post Production Assistant Editor Post Production SUPERVISOR Post Production Coordinator GEoRGE SOTo Dee Edwards Yasmeen AbedifArd Post Production Sound SFX Editor Foley Mixer / Foley Editor Foley Artists Leo Marcil Vincent Nicastro Loop Group Director Foley Recordist Matt Wallace Joe CappellettI Dialogue Editor DAnIEL SAXLID SCore / Music Music Editor Orchestrator / Additional Music Scoring Mixer Iko Kagasoff Ellie CumminG Alvin Wee Orchestra Music Consultant The Budapest Art Orchestra GABE HILFER",
+          "ocr_bbox": [
+            163,
+            74,
+            1795,
+            998
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.08979536220431328,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.11523179709911346,
+      "roi_percentile_flow": 0.08979536220431328,
+      "scroll_direction": null
+    },
+    "scene_12": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_012_static_000_num01024_sim51.jpg",
+          "frame_num": 1024,
+          "ocr_text": "Productions CHAIRMAN CEO Head of Production OLIVIER LELARDOUX Eric Jacquot General Head of Studios HEAD STudIo Josselin Ta Heads of Studio Montreal FINANCIAL CONTroLLER EmilIe Gaurier MAUD BIZET Production MaNagers El\u00c9onore  MOrEAU VIRGILE ADministrative/Financial Director Yassir Sadikou PIPELINE AND R&D MaNAGER Mait\u00c9 Besson Production Assistant Administration/Finance Officer Caroline Pires Production Process Manager Laetitia Bernard Production Accountants Eve Chancelle Marie Fam Studio Asistant Marine Breau LAETITIA GOdeC DAVId Munoz",
+          "ocr_bbox": [
+            143,
+            76,
+            1727,
+            956
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_012_static_001_num01060_sim42.jpg",
+          "frame_num": 1060,
+          "ocr_text": "Head of Props/Environments MAXIME E Castejon GUILLAUME Background Artists Props/Environments Supervisor ALESSANDRO MASTANDREA Chlo\u00c9 BarQuin Loline BOngirAud Christelle Dhom\u00c9 William BrAginetz Qiaofu Duan ALEXANDRE LARCHER Nami Lemal JULIANA MACKOWIAK CASSANDRA MARTINEAU Armel Pe Tristan Reyne Kevin St-Amant Constance Vermare",
+          "ocr_bbox": [
+            261,
+            170,
+            1686,
+            882
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_012_static_002_num01084_sim47.jpg",
+          "frame_num": 1084,
+          "ocr_text": "Blue SPirit Productions Head of Layout HEAD RIGGING OF AM\u00c9LIE Moussu POLLET Layout SuPervisors RIGGING MICHAEL Dreno CL\u00c9MENCE S\u00c9VILLE CAMILLA  Debaix-Martin Layout Artists RIGGERS Laurent Chauvet-CamPert GUILLAUME ALAPHILLIPE Laure Drevet HusNa AtchIa TItouan CocaulT TIMOTH\u00c9E KOWALYK Matthieu Dehaies Nadia Leblanc Dorian Forget LorenZo PerroNNAud Denis Gantet Tristan H\u00c9laine Louise Robin Nicolas Seigneur",
+          "ocr_bbox": [
+            208,
+            73,
+            1668,
+            955
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_012_static_003_num01108_sim46.jpg",
+          "frame_num": 1108,
+          "ocr_text": "Blue SPirit ProductIons Head of Character Head of Animation MAXIME BArON Agnes Chevreau Arnaud Caussanel MATTHIEU BARBIER LAURA CHRISTOPHE Menchior GuilLaume Ribera Modeling / TeXturing ANIMATORS Anna Benetton-Boisson Alex Bard Gabriel Jaulin Thibaud Garrigos Fabrice L\u00c9ger Thibault Carte Damien Gretelly Sonia Burtin Marine Lesage Keziah Chambertin FLORIAN GUILBAULT Vincent Carretey Adrien Mahieu Cl\u00c9ment Dubois Valerian Le Bruno Claire Denaux Pierre Navarre Ellie Dutrieux Marion Philippe PHilippe OlIver Dan T\u00c1m Ho-Monteiro Thibaut Pulon Cyrille Ferry Marina Roger Benoit Garnier Marck Tanguy AlessandrO Turi Alexandre Herault",
+          "ocr_bbox": [
+            135,
+            74,
+            1781,
+            975
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_012_static_004_num01120_sim98.jpg",
+          "frame_num": 1120,
+          "ocr_text": "Blue SPirit ProductIons Head of Character Head of Animation MAXIME Agnes Chevreau Arnaud Caussanel MATTHIEU BARBIER LAURA CHrISTOPHE Menchior GuilLaume Ribera Modeling / Texturing ANIMATORS Anna Benetton-Boisson Alex Bard Gabriel Jaulin Thibaud Garrigos Fabrice L\u00c9geR Thibault Carte SOnia Burtin Damien Gretelly Marine Lesage Keziah Chambertin FLORIAN GUILBAULT Vincent Carretey Adrien Mahieu Cl\u00c9ment Dubois Valerian Le Bruno Claire Denaux Pierre Navarre Ellie Dutrieux Marion Philippe PHilippe OlIver Dan T\u00c1m Ho-Monteiro Thibaut Pulon Cyrille Ferry Marina Roger Benoit Garnier LAetiTIa Jalabert Marck Tanguy Alessandro TurI Alexandre Herault",
+          "ocr_bbox": [
+            136,
+            74,
+            1781,
+            975
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_012_static_005_num01132_sim100.jpg",
+          "frame_num": 1132,
+          "ocr_text": "Blue SPirit ProductIons Head of Character Head of Animation MAXIME BARON Agnes Chevreau Arnaud Caussanel MATTHIEU BARBIER LAURA CHrISTOPHE Menchior GuilLaume Ribera Modeling / Texturing ANIMATORS Anna Benetton-Boisson Alex Bard Gabriel Jaulin Thibaud Garrigos Fabrice L\u00c9geR Thibault Carte SOnia Burtin Damien Gretelly Marine Lesage Keziah Chambertin FLORIAN GUILBAULT Vincent Carretey Adrien Mahieu Cl\u00c9ment Dubois Valerian Le Bruno Claire Denaux Pierre Navarre Ellie Dutrieux Marion Philippe PHilippe OlIver Dan T\u00c1m Ho-Monteiro Thibaut Pulon Cyrille Ferry Marina Roger Benoit Garnier LAetiTIa Jalabert Marck Tanguy Alessandro TurI Alexandre Herault",
+          "ocr_bbox": [
+            136,
+            74,
+            1781,
+            975
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 6,
+      "median_flow_px_per_frame": 0.11018848605453968,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10893108695745468,
+      "roi_percentile_flow": 0.11018848605453968,
+      "scroll_direction": null
+    },
+    "scene_13": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_013_static_000_num01136_sim29.jpg",
+          "frame_num": 1136,
+          "ocr_text": "Blue SPirit Productions Head of FX Pawnee Defize RENDERING 3D FX SUPERVISOR LAURENT Aurore Miroslaw 2D & 3D FX SUPERVISOR Thomas Decaens Renaud Guenon GAUTHIER HESBOIS",
+          "ocr_bbox": [
+            312,
+            73,
+            1596,
+            941
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_013_static_001_num01148_sim96.jpg",
+          "frame_num": 1148,
+          "ocr_text": "Blue SPirit Productions Head of FX Pawnee Defize RENdERING 3D FX SUPERVISOR Antoine Maill\u00c9 LAURENT Aurore MiroslaW 2D & 3D FX SUPERVISOR Thomas Decaens Renaud Guenon GAUTHIER HESBOIS",
+          "ocr_bbox": [
+            313,
+            73,
+            1597,
+            941
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -0.11611481010913849,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -0.11618622392416,
+      "roi_percentile_flow": -0.11611481010913849,
+      "scroll_direction": null
+    },
+    "scene_14": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_014_static_000_num01164_sim40.jpg",
+          "frame_num": 1164,
+          "ocr_text": "COMPoSITING 3D FX Artists Manon Berthelot Erwan Baron Victor Burtman Arthur Burtin Alice Chartier ANALLE GIL MAXIME GRENIER Tristan Meuzeret Tristan H\u00c9laine Jean-Christophe Monnier Kc\u00c9nia MarescQ Bertrand PouLain Am\u00c9LIE MessieZ-POchE David Rabouan BASTIEN MOGEOT Olivier Thouseau Estelle Tempier MANAGER OF INTERNATIONAL RELATIONS Eleanor Coleman",
+          "ocr_bbox": [
+            216,
+            224,
+            1637,
+            959
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_014_static_001_num01200_sim45.jpg",
+          "frame_num": 1200,
+          "ocr_text": "Blue SPirit Productions Infrastructure Engineer 2D FX Artists David Carron Staff Engineers FLORIAN GUILBAULT Nans Meyroux Mohand Semroud Hariharan Sriramalu David Van BoXsom Fred TrAvailLeur Legal And Affairs Officer Lucie Louis J\u00c9r\u00c9my CasleR Denis Gantet LAWYER Louise Gouchet Joachim Henrard Vincent Juan Head of BS Lab Yoren Martin Frantz Delbecque No\u00c9mie Pierre-Jean Heads of Pipeline Development PiErRe VandeL Nicolas Finoux JIANQIAO WU",
+          "ocr_bbox": [
+            234,
+            72,
+            1591,
+            1020
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_014_static_002_num01212_sim98.jpg",
+          "frame_num": 1212,
+          "ocr_text": "Blue SPirit Productions Infrastructure Engineer 2D FX Artists Bastien Belvaux David Carron Staff Engineers FLORIAN GUILBAULT Nans Meyroux Mohand Semroud Hariharan Sriramalu David Van BoXsom Fred TrAvailLeur Legal And Affairs Officer Lucie Louis J\u00c9r\u00c9mY CasleR Denis Gantet LAWYER Louise Gouchet Joachim Henrard Vincent Juan Head of BS Lab Yoren Martin Frantz Delbecque No\u00c9mie Pierre-Jean Heads of Pipeline Development PiErRe VandeL Nicolas Finoux JIANQIAO WU",
+          "ocr_bbox": [
+            234,
+            72,
+            1591,
+            1020
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_014_static_003_num01224_sim41.jpg",
+          "frame_num": 1224,
+          "ocr_text": "Titles Designed and Produced by PLUCKY Aoi Yamaguchi Post Production Services Provided by Picture Shop Color Assist Natasha LEONNET Kalvin Johnson Finishing Editor Senior Di Producer Crystal VIlaikeO Jason Saulog DI PRODUCER Project Manager Marlee Forsyth Stunt Visualization Provided by Beijing Eighty SEVEN East Film Technology Co., Ltd",
+          "ocr_bbox": [
+            245,
+            74,
+            1674,
+            1008
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_014_static_004_num01236_sim95.jpg",
+          "frame_num": 1236,
+          "ocr_text": "Titles Designed and Produced by PLUCKY Calligraphy Design Aoi Yamaguchi Post Production Services Provided by Picture Shop Color Assist Natasha LEONNET Kalvin Johnson Finishing Editor Senior Di Producer Jason SauloG DI PRODUCER Project Manager Marlee Forsyth Stunt Visualization Provided by Beijing Eighty Seven T East Film Technology Co., Ltd",
+          "ocr_bbox": [
+            243,
+            74,
+            1674,
+            1008
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 5,
+      "median_flow_px_per_frame": 0.11107178777456284,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.11068510636687279,
+      "roi_percentile_flow": 0.11107178777456284,
+      "scroll_direction": null
+    },
+    "scene_15": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_015_static_000_num01248_sim39.jpg",
+          "frame_num": 1248,
+          "ocr_text": "SPecial Thanks to Homan Chou Aron Eli Coleite Justin Haythe James Liao HIROSHI NoizumI Michael Thorn Yumiko Wilson Production Babies AlberT\u00b7Jack James \u2022 Ibissa ObI\u00b7 TalIA\u00b7 Zo\u00c9",
+          "ocr_bbox": [
+            747,
+            145,
+            1168,
+            883
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_16": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_016_static_000_num01276_sim32.jpg",
+          "frame_num": 1276,
+          "ocr_text": "This film benefited from the French Tax Rebate for International Production. With the Participation of the Province of Ontario production Services Tax Credits. With the Participation of the Canadian Film or Video Production Services Tax Credit. ThiS motion picture IS protected under the LaWS of the United StateS and OTHER COUNTRIES. ANY UNAUTHORIZED USE MAY RESULT IN CIVIL LIABILITY AND CRIMINAL PROSECUTION. \u00a9 2023 NETFLIX SAG\u00b7AFTRA Qu\u00e9bec Production Services Gestion SODEC Tax Credit FILM FRANCE ONTARIO CREATIF CNC The French Film Commission",
+          "ocr_bbox": [
+            236,
+            216,
+            1692,
+            973
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_17": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_017_static_000_num01304_sim11.jpg",
+          "frame_num": 1304,
+          "ocr_text": "CONSTRUCTION J.A. GREEN CORP. SINCE 1941",
+          "ocr_bbox": [
+            332,
+            893,
+            1672,
+            1022
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_017_static_001_num01316_sim92.jpg",
+          "frame_num": 1316,
+          "ocr_text": "LLL I CONSTRUCTION J.A. GREEN CORP SINCE 1941",
+          "ocr_bbox": [
+            330,
+            135,
+            1670,
+            1024
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -0.14866960048675537,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -0.1453815996646881,
+      "roi_percentile_flow": -0.14866960048675537,
+      "scroll_direction": null
+    },
+    "scene_18": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_018_static_000_num01364_sim31.jpg",
+          "frame_num": 1364,
+          "ocr_text": "ARTS ENTERTAINMENT",
+          "ocr_bbox": [
+            636,
+            536,
+            1281,
+            827
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.11342453211545944,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.1090376228094101,
+      "roi_percentile_flow": 0.11342453211545944,
+      "scroll_direction": null
+    },
+    "scene_22": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_022_static_000_num01479_sim26.jpg",
+          "frame_num": 1479,
+          "ocr_text": "ETFLI",
+          "ocr_bbox": [
+            680,
+            1265,
+            1232,
+            1525
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_022_static_001_num01491_sim83.jpg",
+          "frame_num": 1491,
+          "ocr_text": "NETFLIX",
+          "ocr_bbox": [
+            609,
+            422,
+            1341,
+            651
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": 0.12066824734210968,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.11979617178440094,
+      "roi_percentile_flow": 0.12066824734210968,
+      "scroll_direction": null
+    },
+    "scene_23": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Blue_Eye_Samurai_S01E01_End\\analysis\\frames\\scene_023_static_000_num01535_sim12.jpg",
+          "frame_num": 1535,
+          "ocr_text": "SUBSCRIBE",
+          "ocr_bbox": [
+            637,
+            313,
+            908,
+            370
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.10970885306596756,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.10969838500022888,
+      "roi_percentile_flow": 0.10970885306596756,
+      "scroll_direction": null
+    }
+  }
+}

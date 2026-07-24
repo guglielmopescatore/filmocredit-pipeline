@@ -42,7 +42,8 @@ _IMDB_CACHE = {
     "df": None,
     "name_lookup": None,
     "exact_index": {},
-    "token_index": {}
+    "token_index": {},
+    "exact_index_with_nickname": {}
 }
 
 class CodeAssignmentStatus(Enum):
@@ -94,6 +95,7 @@ class IMDBNameValidator:
         # NEW: Indici per velocizzare exact match e fuzzy search
         self._exact_index = {}  # normalizedName -> [row_indices]
         self._token_index = {}  # token -> {row_indices}
+        self._exact_index_with_nickname = {}  # normalizedNameWithNickname -> [row_indices]
         
         # NEW: Cache validation results per (normalized_name, role_group)
         self._validation_cache = {}
@@ -126,6 +128,7 @@ class IMDBNameValidator:
                 self._name_lookup = st.session_state.get("imdb_name_lookup")
                 self._exact_index = st.session_state.get("imdb_exact_index", {})
                 self._token_index = st.session_state.get("imdb_token_index", {})
+                self._exact_index_with_nickname = st.session_state.get("imdb_exact_index_with_nickname", {})
                 if self._imdb_df is not None and self._name_lookup is not None:
                     logging.info("IMDB database loaded from Streamlit cache")
                     return True
@@ -137,6 +140,7 @@ class IMDBNameValidator:
                 self._name_lookup = _IMDB_CACHE["name_lookup"]
                 self._exact_index = _IMDB_CACHE["exact_index"]
                 self._token_index = _IMDB_CACHE["token_index"]
+                self._exact_index_with_nickname = _IMDB_CACHE.get("exact_index_with_nickname", {})
                 if self._imdb_df is not None and self._name_lookup is not None:
                     logging.info("IMDB database loaded from global module cache")
                     return True
@@ -188,15 +192,35 @@ class IMDBNameValidator:
                     logging.warning("normalizedName column not found in Parquet file, creating normalized names")
                     # Import normalize_name locally to avoid circular imports
                     from scripts_v3.utils import normalize_name
-                    
-                    # Fallback to creating normalized names
+
+                    # Fallback to creating normalized names - IMDB name.basics
+                    # data is always people, so is_person=True (the same
+                    # pipeline _create_parquet_from_tsv uses to build this
+                    # column when it's missing entirely).
                     self._imdb_df['normalized_name'] = (
                         self._imdb_df['primaryName']
                         .fillna('')
-                        .apply(normalize_name)
+                        .apply(lambda n: normalize_name(n, is_person=True))
                     )
                     # Use the DataFrame directly
                     self._name_lookup = self._imdb_df
+
+                # Same for the with-nickname companion column (nickname aside
+                # KEPT instead of stripped - see normalize_name_with_nickname
+                # docstring). Older parquet files predate this column, so
+                # fall back to deriving it from primaryName like above.
+                if 'normalizedNameWithNickname' in self._imdb_df.columns:
+                    self._imdb_df = self._imdb_df.rename(
+                        columns={'normalizedNameWithNickname': 'normalized_name_with_nickname'}
+                    )
+                else:
+                    logging.warning("normalizedNameWithNickname column not found in Parquet file, deriving it")
+                    from scripts_v3.utils import normalize_name_with_nickname
+                    self._imdb_df['normalized_name_with_nickname'] = (
+                        self._imdb_df['primaryName']
+                        .apply(lambda n: normalize_name_with_nickname(n, is_person=True) if pd.notna(n) else None)
+                    )
+                self._name_lookup = self._imdb_df
             else:
                 # Load the TSV file (legacy format)
                 self._imdb_df = pd.read_csv(
@@ -213,17 +237,23 @@ class IMDBNameValidator:
                     na_values=['\\N'],
                     encoding='utf-8'
                 )
-                  # Create normalized names using utils.normalize_name
+                  # Create normalized names using utils.normalize_name - IMDB
+                  # name.basics data is always people, so is_person=True.
+                from scripts_v3.utils import normalize_name, normalize_name_with_nickname
                 logging.info("Creating normalized names using normalize_name function")
                 self._imdb_df['normalized_name'] = (
                     self._imdb_df['primaryName']
                     .fillna('')
-                    .apply(normalize_name)
+                    .apply(lambda n: normalize_name(n, is_person=True))
                 )
-                
+                self._imdb_df['normalized_name_with_nickname'] = (
+                    self._imdb_df['primaryName']
+                    .apply(lambda n: normalize_name_with_nickname(n, is_person=True) if pd.notna(n) else None)
+                )
+
                 # Use the DataFrame directly
                 self._name_lookup = self._imdb_df
-            
+
             # Remove empty normalized names
             self._imdb_df = self._imdb_df[self._imdb_df['normalized_name'] != '']
             
@@ -244,12 +274,14 @@ class IMDBNameValidator:
                 st.session_state["imdb_name_lookup"] = self._name_lookup
                 st.session_state["imdb_exact_index"] = self._exact_index
                 st.session_state["imdb_token_index"] = self._token_index
+                st.session_state["imdb_exact_index_with_nickname"] = self._exact_index_with_nickname
             else:
                 _IMDB_CACHE["initialized"] = True
                 _IMDB_CACHE["df"] = self._imdb_df
                 _IMDB_CACHE["name_lookup"] = self._name_lookup
                 _IMDB_CACHE["exact_index"] = self._exact_index
                 _IMDB_CACHE["token_index"] = self._token_index
+                _IMDB_CACHE["exact_index_with_nickname"] = self._exact_index_with_nickname
             
             self._initialized = True
             return True
@@ -272,26 +304,37 @@ class IMDBNameValidator:
         
         self._exact_index = defaultdict(list)
         self._token_index = defaultdict(set)
-        
+        self._exact_index_with_nickname = defaultdict(list)
+
         for idx, norm_name in self._name_lookup['normalized_name'].items():
             if pd.isna(norm_name):
                 continue
             norm_name = str(norm_name).strip()
             if not norm_name:
                 continue
-            
+
             # Exact index
             self._exact_index[norm_name].append(idx)
-            
+
             # Token index
             tokens = norm_name.split()
             for tok in tokens:
                 if tok:
                     self._token_index[tok].add(idx)
-        
+
+        if 'normalized_name_with_nickname' in self._name_lookup.columns:
+            for idx, nick_name in self._name_lookup['normalized_name_with_nickname'].items():
+                if pd.isna(nick_name):
+                    continue
+                nick_name = str(nick_name).strip()
+                if not nick_name:
+                    continue
+                self._exact_index_with_nickname[nick_name].append(idx)
+
         # Convert defaultdict to regular dict for session state storage
         self._exact_index = dict(self._exact_index)
         self._token_index = dict(self._token_index)
+        self._exact_index_with_nickname = dict(self._exact_index_with_nickname)
         
         logging.info(
             f"✅ Indices built: {len(self._exact_index)} unique normalized names, "
@@ -337,30 +380,57 @@ class IMDBNameValidator:
         
         return cleaned
     
-    def validate_name_with_code_assignment(self, name: str, role_group: Optional[str] = None, is_person: Optional[bool] = None) -> ValidationResult:
+    @staticmethod
+    def _resolve_is_person(is_person: Optional[bool], role_group: Optional[str]) -> bool:
+        """Mirror the is_person resolution _validate_name_impl uses (explicit
+        True/False wins; otherwise fall back to role-group-based company
+        detection), so the cache key and every normalize_name() call agree on
+        company vs. person for the same credit."""
+        if is_person is False or is_person == 0:
+            return False
+        if is_person is True or is_person == 1:
+            return True
+        from scripts_v3.utils import is_company_role_group
+        return not is_company_role_group(role_group)
+
+    def validate_name_with_code_assignment(self, name: str, role_group: Optional[str] = None, is_person: Optional[bool] = None,
+                                            normalized_name_with_nickname: Optional[str] = None) -> ValidationResult:
         """
-        Validate a name against IMDB database and assign appropriate code (nconst or internal).
-        
-        Args:
-            name: Name to validate
-            role_group: Role group for profession matching
-            is_person: Explicit flag if name refers to a person (True) or company (False)
-            
-        Returns:
-            ValidationResult with assigned code and status
+        Cached entry point. Caches EVERY result path (not just IMDB matches) by
+        (normalized_name, role_group, is_person, normalized_name_with_nickname),
+        so repeated names — companies, Thanks, non-IMDB people — never re-hit
+        the DB (internal-code lookup/generation). This also lets batch callers
+        defer their credit writes safely: within-run dedup of the SAME
+        (name, role, is_person) no longer relies on per-credit commits.
+
+        normalized_name_with_nickname: pre-computed by the caller from the
+        credit's TRUE raw name (e.g. the DB's normalized_name_with_nickname
+        column, set at save_credits() time) - `name` here has usually
+        already lost any quoted nickname aside by the time it reaches this
+        method (save_credits() strips it before persisting the display
+        name), so this value cannot be recovered from `name` alone and must
+        be passed in by whoever has access to the original credit row.
+        """
+        from scripts_v3.utils import normalize_name
+        norm_name = normalize_name(name, is_person=self._resolve_is_person(is_person, role_group))
+        role_key = role_group.lower() if isinstance(role_group, str) else None
+        cache_key = (norm_name, role_key, is_person, normalized_name_with_nickname)
+        cached = self._validation_cache.get(cache_key)
+        if cached is not None:
+            logging.debug(f"[VALIDATION CACHE HIT] Reusing result for '{name}' + '{role_group}'")
+            return cached
+        result = self._validate_name_impl(name, role_group, is_person, normalized_name_with_nickname)
+        self._validation_cache[cache_key] = result
+        return result
+
+    def _validate_name_impl(self, name: str, role_group: Optional[str] = None, is_person: Optional[bool] = None,
+                             normalized_name_with_nickname: Optional[str] = None) -> ValidationResult:
+        """
+        Uncached implementation of IMDB validation + code assignment.
+        Use validate_name_with_code_assignment() for the cached entry point.
         """
         logging.debug(f"IMDB validation with code assignment for name: '{name}', role_group: '{role_group}', is_person: {is_person}")
-        
-        # OPTIMIZATION: Cache validation results by (normalized_name, role_group)
-        from scripts_v3.utils import normalize_name
-        norm_name = normalize_name(name)
-        role_key = role_group.lower() if isinstance(role_group, str) else None
-        cache_key = (norm_name, role_key, is_person)
-        
-        if cache_key in self._validation_cache:
-            logging.debug(f"[VALIDATION CACHE HIT] Reusing result for '{name}' + '{role_group}'")
-            return self._validation_cache[cache_key]
-        
+
         # Import the helper function for consistent company detection (fallback)
         from scripts_v3.utils import is_company_role_group
         
@@ -368,10 +438,12 @@ class IMDBNameValidator:
         if is_person is False or is_person == 0:
             logging.info(f"Processing company name: '{name}' (is_person={is_person})")
             
-            # First check if we already have an internal code for this company name and role
+            # First check if we already have an internal code for this company name and role.
+            # is_person=False: companies keep quoted/parenthetical content (e.g.
+            # "RAI" vs "RAI (Roma)" must stay distinct), unlike person names.
             from scripts_v3.utils import normalize_name
-            normalized_name = normalize_name(name)
-            
+            normalized_name = normalize_name(name, is_person=False)
+
             if normalized_name and role_group:
                 existing_code = self._check_existing_internal_code(normalized_name, role_group, is_company=True)
                 if existing_code:
@@ -410,10 +482,11 @@ class IMDBNameValidator:
         elif is_person is None and is_company_role_group(role_group):
             logging.info(f"Processing company name: '{name}' (role: '{role_group}', is_person unspecified)")
             
-            # First check if we already have an internal code for this company name and role
+            # First check if we already have an internal code for this company name and role.
+            # is_person=False: keep quoted/parenthetical content (same reasoning as above).
             from scripts_v3.utils import normalize_name
-            normalized_name = normalize_name(name)
-            
+            normalized_name = normalize_name(name, is_person=False)
+
             if normalized_name:
                 existing_code = self._check_existing_internal_code(normalized_name, role_group, is_company=True)
                 if existing_code:
@@ -428,7 +501,7 @@ class IMDBNameValidator:
                         suggestion=None,
                         imdb_matches_json=None
                     )
-            
+
             # If no existing code found, create a new one
             internal_code = generate_next_internal_code(is_company=True)
             return ValidationResult(
@@ -446,10 +519,11 @@ class IMDBNameValidator:
         if role_group and role_group.lower() in ['thanks', 'unknown']:
             logging.info(f"Processing '{name}' (role: '{role_group}' - always internal, no IMDB search)")
             
-            # First check if we already have an internal code for this name and role
+            # First check if we already have an internal code for this name and role.
+            # Reached only when not a company (see checks above), so is_person=True.
             from scripts_v3.utils import normalize_name
-            normalized_name = normalize_name(name)
-            
+            normalized_name = normalize_name(name, is_person=True)
+
             if normalized_name:
                 existing_code = self._check_existing_internal_code(normalized_name, role_group, is_company=False)
                 if existing_code:
@@ -509,10 +583,13 @@ class IMDBNameValidator:
         
         try:
             # Import normalize_name locally to avoid circular imports
-            from scripts_v3.utils import normalize_name
-            
-            # Extract Jr./Sr. suffix BEFORE normalization (look for ", Jr." or ", Sr." pattern)
-            original_name = name
+            from scripts_v3.utils import normalize_name, strip_honorifics, strip_parentheticals, strip_quoted_asides
+
+            # Strip honorifics/quoted nicknames/parenthetical asides first (same
+            # pipeline used everywhere else in the project) - strip_honorifics
+            # deliberately preserves Jr./Sr., so the suffix extraction below still
+            # works on its output.
+            original_name = strip_parentheticals(strip_quoted_asides(strip_honorifics(name)))
             suffix = None
             import re
             suffix_match = re.search(r',\s*(Jr\.?|Sr\.?)\s*$', original_name, re.IGNORECASE)
@@ -524,8 +601,12 @@ class IMDBNameValidator:
             else:
                 name_for_normalization = original_name
             
-            # Normalize the name using the same function used for IMDB data
-            normalized_name = normalize_name(name_for_normalization)
+            # Normalize the name using the same function used for IMDB data.
+            # Reached only for persons (companies returned above), so
+            # is_person=True - redundant with the manual stripping above
+            # (needed there only so the Jr./Sr. suffix regex still sees a
+            # clean name) but harmless, since strip_* are idempotent.
+            normalized_name = normalize_name(name_for_normalization, is_person=True)
             
             if not normalized_name:
                 logging.warning(f"Name '{original_name}' became empty after normalization, assigning internal code")
@@ -556,7 +637,34 @@ class IMDBNameValidator:
                     suggestion=None,
                     imdb_matches_json=None
                 )
-            
+
+            # Nickname-first pass: a quoted nickname aside (e.g. "Roy 'Bucky'
+            # Moore") can be the only thing that disambiguates a common name
+            # among many IMDB namesakes once it's stripped for the regular
+            # normalized_name match below. If the caller supplied the
+            # with-nickname form, try an exact match on THAT first - but only
+            # SHORT-CIRCUIT on it when it resolves decisively (AUTO_ASSIGNED).
+            # An inconclusive nickname-path result (ambiguous / incompatible
+            # profession / no hits at all) must NOT block the broader
+            # nickname-stripped search below, which has a wider candidate
+            # pool and may still resolve cleanly on its own.
+            if normalized_name_with_nickname:
+                nickname_matches = self._exact_match_with_nickname_via_index(normalized_name_with_nickname)
+                if nickname_matches:
+                    nickname_result = self._apply_assignment_logic(original_name, role_group, nickname_matches, is_fuzzy=False)
+                    if nickname_result.assignment_status == CodeAssignmentStatus.AUTO_ASSIGNED:
+                        logging.info(
+                            f"Found {len(nickname_matches)} exact match(es) via with-nickname key "
+                            f"'{normalized_name_with_nickname}' for '{original_name}' -> "
+                            f"auto-assigned {nickname_result.assigned_code}"
+                        )
+                        return nickname_result
+                    logging.info(
+                        f"With-nickname key '{normalized_name_with_nickname}' matched but didn't resolve "
+                        f"decisively ({nickname_result.assignment_status.value}) for '{original_name}' - "
+                        f"falling back to the nickname-stripped flow"
+                    )
+
             # Split normalized name into words for permutation testing
             words = normalized_name.split()
             
@@ -688,10 +796,6 @@ class IMDBNameValidator:
             
             # Now apply the assignment logic based on profession matching
             result = self._apply_assignment_logic(original_name, role_group, found_matches, is_fuzzy_match)
-            
-            # OPTIMIZATION: Cache the result
-            self._validation_cache[cache_key] = result
-            
             return result
             
         except Exception as e:
@@ -871,11 +975,27 @@ class IMDBNameValidator:
         """
         return len(match_professions.intersection(expected_professions)) > 0
     
+    def _exact_match_with_nickname_via_index(self, normalized_name_with_nickname: str) -> List[Dict[str, Any]]:
+        """Fast exact match against the with-nickname index - same shape as
+        _exact_match_via_index, but keyed on normalized_name_with_nickname
+        (nickname aside kept, canonicalized to "..."). Used as a first-pass
+        lookup for names with a nickname, since it can be the only thing
+        that disambiguates a common name among many IMDB namesakes."""
+        if not normalized_name_with_nickname or not self._exact_index_with_nickname:
+            return []
+
+        indices = self._exact_index_with_nickname.get(normalized_name_with_nickname, [])
+        if not indices:
+            return []
+
+        matches = self._name_lookup.iloc[indices]
+        return matches.to_dict('records')
+
     def _exact_match_via_index(self, normalized_name: str) -> List[Dict[str, Any]]:
         """Fast exact match using pre-built index"""
         if not normalized_name or not self._exact_index:
             return []
-        
+
         indices = self._exact_index.get(normalized_name, [])
         if not indices:
             return []
@@ -1215,17 +1335,27 @@ class IMDBNameValidator:
         """
         import pandas as pd
         # Import normalize_name locally to avoid circular imports
-        from scripts_v3.utils import normalize_name
-        
+        from scripts_v3.utils import normalize_name, normalize_name_with_nickname
+
         logging.info(f"Creating Parquet file from TSV: {self.tsv_path} -> {self.parquet_path}")
-        
+
         # Read TSV file
         df = pd.read_csv(self.tsv_path, sep='\t', dtype=str, na_values='\\N', encoding='utf-8')
         logging.info(f"Loaded {len(df)} names from TSV file")
-        
-        # Normalize names using the same function as credits data
-        df['normalizedName'] = df['primaryName'].apply(lambda x: normalize_name(x) if pd.notna(x) else '')
-        
+
+        # Normalize names using the SAME pipeline as credits data - the
+        # reference side must be normalized identically to the query side, or
+        # matches get missed even when both names are really the same person.
+        # IMDB name.basics data is always people, so is_person=True.
+        df['normalizedName'] = df['primaryName'].apply(
+            lambda x: normalize_name(x, is_person=True) if pd.notna(x) else ''
+        )
+        # Companion with-nickname column (nickname aside kept, not stripped) -
+        # None/NaN when primaryName has no quoted nickname aside.
+        df['normalizedNameWithNickname'] = df['primaryName'].apply(
+            lambda x: normalize_name_with_nickname(x, is_person=True) if pd.notna(x) else None
+        )
+
         # Create search_combinations for enhanced fuzzy matching (name + profession combos)
         def create_search_combinations(row):
             """Create all possible name+profession combinations for fuzzy matching."""
@@ -1260,7 +1390,7 @@ class IMDBNameValidator:
         df['search_combinations'] = df.apply(create_search_combinations, axis=1)
         
         # Keep columns needed for matching
-        columns_to_keep = ['nconst', 'normalizedName', 'primaryName', 'primaryProfession', 'birthYear', 'deathYear', 'search_combinations']
+        columns_to_keep = ['nconst', 'normalizedName', 'normalizedNameWithNickname', 'primaryName', 'primaryProfession', 'birthYear', 'deathYear', 'search_combinations']
         # Only keep columns that exist in the DataFrame
         existing_columns = [col for col in columns_to_keep if col in df.columns]
         df_out = df[existing_columns]
@@ -1306,10 +1436,14 @@ class IMDBNameValidator:
             results = cursor.fetchall()
             conn.close()
             
-            # Check each result to see if the normalized name matches
+            # Check each result to see if the normalized name matches. Must use
+            # the same is_person-aware normalization as the caller used to
+            # build `normalized_name`, or a stored company name with a
+            # parenthetical (e.g. "RAI (Roma)") would never match itself again
+            # and would get a duplicate internal code every time.
             for assigned_code, stored_name, stored_role in results:
                 if stored_name:
-                    stored_normalized = normalize_name(stored_name)
+                    stored_normalized = normalize_name(stored_name, is_person=not is_company)
                     if stored_normalized == normalized_name:
                         logging.info(f"Found existing internal code '{assigned_code}' for normalized name '{normalized_name}' in role '{role_group}' (original: '{stored_name}')")
                         return assigned_code

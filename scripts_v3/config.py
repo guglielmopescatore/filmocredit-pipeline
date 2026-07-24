@@ -30,6 +30,25 @@ IMDB_TSV_PATH: Path = PROJECT_ROOT / 'db' / 'name.basics.tsv'
 # Database
 DB_TABLE_CREDITS: Final[str] = "credits"
 DB_TABLE_EPISODES: Final[str] = "episodes"
+# Per-phase wall-clock timings (step1..step4); step3 rows carry the VLM provider.
+DB_TABLE_TIMING: Final[str] = "Time"
+# One row per VLM call (per frame), saved even when the frame yields no names.
+DB_TABLE_RAW_RESPONSE: Final[str] = "raw_response_llm_call"
+
+# VLM OCR output subfolder per provider (inside data/episodes/<episode>/).
+# Each provider reads/writes its own folder so a cached JSON from one provider
+# is never silently reused by another.
+VLM_OCR_DIR_BY_PROVIDER: Final[dict[str, str]] = {
+    "claude": "claude_ocr",
+    "azure_gpt_terra": "gpt_terra_ocr",
+    "azure_gpt_terra_standard": "gpt_terra_standard_ocr",
+    "azure_gpt_sol": "gpt_sol_ocr",
+    "azure_gpt_sol_standard": "gpt_sol_standard_ocr",
+    "azure_gpt5": "gpt_5_2_ocr",
+    "gemma12b": "gemma12b_ocr",
+}
+# Fallback subfolder when the provider cannot be resolved (legacy layout).
+VLM_OCR_DIR_DEFAULT: Final[str] = "ocr"
 
 LOG_FILE_PATH = PROJECT_ROOT / 'filmocredit_pipeline.log'
 
@@ -63,7 +82,7 @@ previous_credits_json: New credits identified in the frame before this one:
 Instructions:
 
 ```
-Parse all visible textual credits (role-name pairs) in the current image. Even if they are blurred or faded, attempt to identify them.
+Parse all visible textual credits (role-name pairs) in the current image. Transcribe names EXACTLY as written, character by character. Never normalize an unusual spelling to a more common one, and never complete a partially legible name with a plausible guess. If individual characters are genuinely illegible, transcribe only what is clearly readable.
 Include restoration credits (e.g., "Restored by", "Restauro a cura di"), logos with text, and technical partners.
 CRITICAL: If no new credits are identified (or none are found at all), output an empty list for "credits". Do not fabricate any information.
 ```
@@ -783,12 +802,10 @@ role_group: Choose only from the following predefined categories based on IMDb's
     "Thanks": {{
       "description": "Acknowledgements, thanks, and dedications (people only).",
       "include": [
-        "\"special thanks\", 'ringraziamenti', 'acknowledgements'",
-        "In memoriam, dedications"
+        "special thanks", "ringraziamenti", "acknowledgements", "In memoriam, dedications", other non-working credits such as 'babies', 'pets', 'caffeine supply')
       ],
       "exclude": [
-        "companies or amorphous groups (→ 'Miscellaneous Companies')",
-        "Production Babies (not handled here)"
+        "companies or amorphous groups (→ 'Miscellaneous Companies')"
       ]
     }},
 
@@ -868,7 +885,7 @@ role_group: Choose only from the following predefined categories based on IMDb's
   }},
   "extraction_rules_and_guidelines": {{
     "formatting_and_entity_extraction": [
-      "Name Cleaning: The 'name' field must contain ONLY the denomination (no 'featuring', 'e con', 'mixato da', titles like 'Dr.', 'Mr.'). Keep 'Jr.'/'Sr.'.",
+      "Name Cleaning: The 'name' field must contain ONLY the denomination (no 'featuring', 'e con', 'mixato da', titles like 'Dr.', 'Mr.'). Keep 'Jr.'/'Sr.'. Strip professional society and guild acronyms following the name (ASC, AIC, BSC, FSF, GBFE, a.m.c., a.i.c., ACE, CSA): 'Vittorio Storaro, AIC-ASC' → name: 'Vittorio Storaro'.",
       "Singular Entities: Only one name per JSON object. If multiple names are listed on one line, create separate objects.",
       "Song Titles: Do not extract song/track titles as entities. Extract only composers and performers.",
       "Context Inference: Consecutive names under the same heading share the same role_group. If no role is visible, infer from previous frame.",
@@ -954,18 +971,31 @@ class AzureConfig:
     # Default API version if not specified in env
     DEFAULT_API_VERSION: str = '2025-03-01-preview'
     
-    # GPT 4.1
-    GPT4_ENDPOINT_ENV: str = 'GPT_4_1_AZURE_OPENAI_ENDPOINT'
-    GPT4_DEPLOYMENT_NAME_ENV: str = 'GPT_4_1_AZURE_OPENAI_DEPLOYMENT_NAME'
-    
-    # GPT 5
+    # GPT 5.2
     GPT5_ENDPOINT_ENV: str = 'GPT_5_AZURE_OPENAI_ENDPOINT'
     GPT5_DEPLOYMENT_NAME_ENV: str = 'GPT_5_AZURE_OPENAI_DEPLOYMENT_NAME'
-    
+
+    # GPT Terra (dedicated key + api_version, unlike GPT 5.2 which shares AZURE_OPENAI_KEY)
+    GPT_TERRA_ENDPOINT_ENV: str = 'GPT_TERRA_AZURE_OPENAI_ENDPOINT'
+    GPT_TERRA_DEPLOYMENT_NAME_ENV: str = 'GPT_TERRA_AZURE_OPENAI_DEPLOYMENT_NAME'
+    GPT_TERRA_API_KEY_ENV: str = 'GPT_TERRA_AZURE_OPENAI_KEY'
+    GPT_TERRA_API_VERSION_ENV: str = 'GPT_TERRA_AZURE_API_VERSION'
+
+    # GPT Sol (gpt-5.6 sibling of Terra: shares Terra's key, endpoint and api_version;
+    # only the deployment name is dedicated)
+    GPT_SOL_DEPLOYMENT_NAME_ENV: str = 'GPT_SOL_AZURE_OPENAI_DEPLOYMENT_NAME'
+
     # Legacy/Fallback (if needed)
     ENDPOINT_ENV: str = 'AZURE_OPENAI_ENDPOINT'
     DEPLOYMENT_NAME_ENV: str = 'AZURE_OPENAI_DEPLOYMENT_NAME'
     API_VERSION_ENV: str = 'AZURE_OPENAI_API_VERSION'
+
+    # gemma12b (local gemma-4-12b vision GGUF run in-process via llama-cpp-python).
+    # Defaults point at the GGUF + mmproj placed in the project's bin/ folder.
+    GEMMA12B_MODEL_GGUF_ENV: str = 'GEMMA12B_MODEL_GGUF'
+    GEMMA12B_MMPROJ_GGUF_ENV: str = 'GEMMA12B_MMPROJ_GGUF'
+    GEMMA12B_N_GPU_LAYERS_ENV: str = 'GEMMA12B_N_GPU_LAYERS'
+    GEMMA12B_N_CTX_ENV: str = 'GEMMA12B_N_CTX'
 
 
 # Ensure critical directories exist (only in development mode)

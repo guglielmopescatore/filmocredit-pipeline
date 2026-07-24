@@ -5,6 +5,7 @@ import os
 import sqlite3
 import time
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from mimetypes import guess_type
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -27,6 +28,18 @@ except ImportError:
     AnthropicFoundry = None
     logging.warning("Anthropic library not found. Claude VLM processing will not be available.")
 
+import importlib.util
+
+# llama_cpp is imported lazily (inside _get_gemma12b_client), not here: importing it
+# eagerly loads its CUDA DLLs (cublas/cudart) into the process, which can shadow the
+# differently-versioned copies PaddleOCR bundles (same DLL basenames, Windows resolves
+# by name against whatever is already loaded) and break PaddleOCR init with WinError 127.
+# find_spec only locates the module without executing it, so availability can still be
+# checked here without paying that cost.
+_LLAMA_CPP_AVAILABLE = importlib.util.find_spec("llama_cpp") is not None
+if not _LLAMA_CPP_AVAILABLE:
+    logging.warning("llama-cpp-python not found. gemma12b (local GGUF) VLM processing will not be available.")
+
 from scripts_v3 import config, utils
 # Note: Role corrections are now applied after DB save via utils.apply_role_group_corrections_to_database()
 
@@ -34,6 +47,103 @@ from scripts_v3 import config, utils
 # 429 (NoCapacity) errors require longer waits during peak load
 MAX_API_RETRIES = 3
 BACKOFF_FACTOR = 4.0
+
+# gemma12b: local gemma-4-12b vision GGUF run in-process via llama-cpp-python.
+# Loading the model is expensive (~15-20s + several GB VRAM), so keep one instance
+# per (model, mmproj, gpu_layers, ctx) alive across episodes in the same process.
+_GEMMA12B_CLIENT_CACHE: Dict[tuple, Any] = {}
+
+
+def _gemma12b_config() -> Tuple[str, str, int, int]:
+    """Resolve gemma12b GGUF paths + runtime knobs from env, defaulting to bin/."""
+    bin_dir = config.PROJECT_ROOT / "bin"
+    model_path = os.getenv(config.AzureConfig.GEMMA12B_MODEL_GGUF_ENV) or str(bin_dir / "gemma-4-12b-it-qat-q4_0.gguf")
+    mmproj_path = os.getenv(config.AzureConfig.GEMMA12B_MMPROJ_GGUF_ENV) or str(bin_dir / "mmproj-gemma-4-12b-it-qat-q4_0.gguf")
+    n_gpu_layers = int(os.getenv(config.AzureConfig.GEMMA12B_N_GPU_LAYERS_ENV) or -1)  # -1 = all layers on GPU
+    # ~11k-token prompt + image + output must fit; keep well above that but small
+    # enough for the KV cache to fit 16 GB VRAM (paired with flash_attn below).
+    n_ctx = int(os.getenv(config.AzureConfig.GEMMA12B_N_CTX_ENV) or 16384)
+    return model_path, mmproj_path, n_gpu_layers, n_ctx
+
+
+def _get_gemma12b_client(model_path: str, mmproj_path: str, n_gpu_layers: int, n_ctx: int):
+    """Build (or reuse a cached) in-process llama.cpp gemma-4-12b vision model."""
+    from llama_cpp import Llama
+    from llama_cpp.llama_chat_format import Gemma4ChatHandler
+
+    key = (model_path, mmproj_path, n_gpu_layers, n_ctx)
+    cached = _GEMMA12B_CLIENT_CACHE.get(key)
+    if cached is not None:
+        return cached
+    chat_handler = Gemma4ChatHandler(clip_model_path=mmproj_path, verbose=False)
+    client = Llama(
+        model_path=model_path,
+        chat_handler=chat_handler,
+        n_ctx=n_ctx,
+        n_gpu_layers=n_gpu_layers,
+        flash_attn=True,  # uses reduced sliding-window KV cache; avoids OOM on 16 GB
+        verbose=False,
+    )
+    _GEMMA12B_CLIENT_CACHE[key] = client
+    return client
+
+# GPT Terra / GPT Sol (gpt-5.6 family) use the Responses API with configurable reasoning.
+# effort: low | medium | high | xhigh | max ; mode "pro" enables the deep-reasoning path,
+# "standard" the lighter one.
+VLM_TERRA_REASONING = {"mode": "pro", "effort": "high"}
+# Lighter reasoning config shared by every "_standard" variant (Terra Standard,
+# Sol Standard): same deployment as the pro/high sibling, default/lighter reasoning.
+VLM_STANDARD_REASONING = {"mode": "standard", "effort": "medium"}
+
+# Providers that talk to the Responses API, and the reasoning config each one uses.
+VLM_REASONING_BY_PROVIDER = {
+    "azure_gpt_terra": VLM_TERRA_REASONING,
+    "azure_gpt_terra_standard": VLM_STANDARD_REASONING,
+    "azure_gpt_sol": VLM_TERRA_REASONING,
+    "azure_gpt_sol_standard": VLM_STANDARD_REASONING,
+}
+RESPONSES_API_PROVIDERS = tuple(VLM_REASONING_BY_PROVIDER.keys())
+
+
+def _response_to_jsonable(response: Any) -> Any:
+    """Best-effort conversion of an SDK response object into a JSON-serializable
+    structure capturing the full payload returned by the LLM."""
+    # llama-cpp-python (gemma12b) already returns a plain dict.
+    if isinstance(response, (dict, list)):
+        return response
+    for attr, kwargs in (("model_dump", {"mode": "json"}), ("to_dict", {}), ("model_dump", {}), ("dict", {})):
+        fn = getattr(response, attr, None)
+        if callable(fn):
+            try:
+                return fn(**kwargs)
+            except TypeError:
+                try:
+                    return fn()
+                except Exception:
+                    continue
+            except Exception:
+                continue
+    dump_json = getattr(response, "model_dump_json", None)
+    if callable(dump_json):
+        try:
+            return json.loads(dump_json())
+        except Exception:
+            pass
+    return {"repr": str(response)}
+
+
+def _chat_part_to_responses_part(part: Dict[str, Any]) -> Dict[str, Any]:
+    """Convert a Chat Completions content part into a Responses API content part."""
+    ptype = part.get("type")
+    if ptype == "text":
+        return {"type": "input_text", "text": part.get("text", "")}
+    if ptype == "image_url":
+        img = part.get("image_url", {}) or {}
+        out = {"type": "input_image", "image_url": img.get("url")}
+        if img.get("detail"):
+            out["detail"] = img["detail"]
+        return out
+    return part
 
 
 @dataclass
@@ -66,6 +176,119 @@ def local_image_to_data_url(image_path: Path) -> Optional[str]:
         return None
 
 
+def resolve_vlm_provider(vlm_provider: str = "auto") -> str:
+    """Resolve a requested VLM provider to a concrete provider id.
+
+    Returns one of 'claude', 'azure_gpt_terra', 'azure_gpt_terra_standard',
+    'azure_gpt_sol', 'azure_gpt_sol_standard', 'azure_gpt5'.
+    Accepts the explicit ids plus 'auto' (preference order:
+    GPT Terra -> GPT Sol -> Claude -> GPT 5.2; the "_standard"
+    reasoning variants are explicit-select only, never picked by auto) and the legacy
+    'azure' alias (GPT 5.2 only). Raises ValueError if the requested provider (or any
+    provider, for 'auto') is not available. This is the single source of truth
+    shared by run_azure_vlm_ocr_on_frames() and the app's folder resolution.
+    """
+    # Credentials
+    claude_endpoint = os.getenv("CLAUDE_ENDPOINT")
+    claude_api_key = os.getenv("CLAUDE_API_KEY")
+    claude_model = os.getenv("CLAUDE_MODEL_DEPLOYMENT_NAME")
+
+    azure_api_key = os.getenv(config.AzureConfig.API_KEY_ENV)
+    gpt5_endpoint = os.getenv(config.AzureConfig.GPT5_ENDPOINT_ENV)
+    gpt5_deployment = os.getenv(config.AzureConfig.GPT5_DEPLOYMENT_NAME_ENV)
+    gpt_terra_endpoint = os.getenv(config.AzureConfig.GPT_TERRA_ENDPOINT_ENV)
+    gpt_terra_deployment = os.getenv(config.AzureConfig.GPT_TERRA_DEPLOYMENT_NAME_ENV)
+    gpt_terra_api_key = os.getenv(config.AzureConfig.GPT_TERRA_API_KEY_ENV)
+    # GPT Sol shares Terra's key/endpoint; only the deployment name is its own
+    gpt_sol_deployment = os.getenv(config.AzureConfig.GPT_SOL_DEPLOYMENT_NAME_ENV)
+
+    # Availability
+    claude_available = bool(claude_endpoint and claude_api_key and claude_model and AnthropicFoundry)
+    gpt5_available = bool(azure_api_key and gpt5_endpoint and gpt5_deployment and OpenAI)
+    gpt_terra_available = bool(gpt_terra_api_key and gpt_terra_endpoint and gpt_terra_deployment and AzureOpenAI)
+    gpt_sol_available = bool(gpt_terra_api_key and gpt_terra_endpoint and gpt_sol_deployment and AzureOpenAI)
+    gemma12b_model_path, gemma12b_mmproj_path, _, _ = _gemma12b_config()
+    gemma12b_available = bool(_LLAMA_CPP_AVAILABLE and os.path.isfile(gemma12b_model_path) and os.path.isfile(gemma12b_mmproj_path))
+
+    if vlm_provider == "claude":
+        if not claude_available:
+            raise ValueError("Claude provider requested but credentials not available or library not installed")
+        return "claude"
+    if vlm_provider == "azure_gpt_terra":
+        if not gpt_terra_available:
+            missing = []
+            if not gpt_terra_api_key: missing.append("GPT_TERRA_AZURE_OPENAI_KEY")
+            if not gpt_terra_endpoint: missing.append("GPT_TERRA_AZURE_OPENAI_ENDPOINT")
+            if not gpt_terra_deployment: missing.append("GPT_TERRA_AZURE_OPENAI_DEPLOYMENT_NAME")
+            if not AzureOpenAI: missing.append("openai library (AzureOpenAI class)")
+            raise ValueError(f"Azure GPT Terra provider requested but credentials not available or library not installed. Missing: {', '.join(missing)}")
+        return "azure_gpt_terra"
+    if vlm_provider == "azure_gpt_terra_standard":
+        if not gpt_terra_available:
+            missing = []
+            if not gpt_terra_api_key: missing.append("GPT_TERRA_AZURE_OPENAI_KEY")
+            if not gpt_terra_endpoint: missing.append("GPT_TERRA_AZURE_OPENAI_ENDPOINT")
+            if not gpt_terra_deployment: missing.append("GPT_TERRA_AZURE_OPENAI_DEPLOYMENT_NAME")
+            if not AzureOpenAI: missing.append("openai library (AzureOpenAI class)")
+            raise ValueError(f"Azure GPT Terra Standard provider requested but credentials not available or library not installed. Missing: {', '.join(missing)}")
+        return "azure_gpt_terra_standard"
+    if vlm_provider == "azure_gpt_sol":
+        if not gpt_sol_available:
+            missing = []
+            if not gpt_terra_api_key: missing.append("GPT_TERRA_AZURE_OPENAI_KEY")
+            if not gpt_terra_endpoint: missing.append("GPT_TERRA_AZURE_OPENAI_ENDPOINT")
+            if not gpt_sol_deployment: missing.append("GPT_SOL_AZURE_OPENAI_DEPLOYMENT_NAME")
+            if not AzureOpenAI: missing.append("openai library (AzureOpenAI class)")
+            raise ValueError(f"Azure GPT Sol provider requested but credentials not available or library not installed. Missing: {', '.join(missing)}")
+        return "azure_gpt_sol"
+    if vlm_provider == "azure_gpt_sol_standard":
+        if not gpt_sol_available:
+            missing = []
+            if not gpt_terra_api_key: missing.append("GPT_TERRA_AZURE_OPENAI_KEY")
+            if not gpt_terra_endpoint: missing.append("GPT_TERRA_AZURE_OPENAI_ENDPOINT")
+            if not gpt_sol_deployment: missing.append("GPT_SOL_AZURE_OPENAI_DEPLOYMENT_NAME")
+            if not AzureOpenAI: missing.append("openai library (AzureOpenAI class)")
+            raise ValueError(f"Azure GPT Sol Standard provider requested but credentials not available or library not installed. Missing: {', '.join(missing)}")
+        return "azure_gpt_sol_standard"
+    if vlm_provider == "azure_gpt5":
+        if not gpt5_available:
+            missing = []
+            if not azure_api_key: missing.append("AZURE_OPENAI_KEY")
+            if not gpt5_endpoint: missing.append("GPT_5_AZURE_OPENAI_ENDPOINT")
+            if not gpt5_deployment: missing.append("GPT_5_AZURE_OPENAI_DEPLOYMENT_NAME")
+            if not OpenAI: missing.append("openai library (OpenAI class)")
+            raise ValueError(f"Azure GPT_5 provider requested but credentials not available or library not installed. Missing: {', '.join(missing)}")
+        return "azure_gpt5"
+    if vlm_provider == "gemma12b":
+        if not gemma12b_available:
+            missing = []
+            if not _LLAMA_CPP_AVAILABLE: missing.append("llama-cpp-python")
+            if not os.path.isfile(gemma12b_model_path): missing.append(f"model GGUF ({gemma12b_model_path})")
+            if not os.path.isfile(gemma12b_mmproj_path): missing.append(f"mmproj GGUF ({gemma12b_mmproj_path})")
+            raise ValueError(f"gemma12b (local GGUF) provider requested but not available. Missing: {', '.join(missing)}")
+        return "gemma12b"
+    if vlm_provider == "azure":  # Legacy/Generic Azure request -> GPT 5.2
+        if gpt5_available:
+            return "azure_gpt5"
+        raise ValueError("Azure provider requested but GPT 5.2 credentials not available")
+    # auto
+    if gpt_terra_available:
+        return "azure_gpt_terra"
+    if gpt_sol_available:
+        return "azure_gpt_sol"
+    if claude_available:
+        return "claude"
+    if gpt5_available:
+        return "azure_gpt5"
+    raise ValueError("No VLM provider available (neither Claude nor Azure credentials set)")
+
+
+def get_vlm_ocr_dir(episode_id: str, provider: str) -> Path:
+    """Return the provider-specific OCR output directory for an episode."""
+    subdir = config.VLM_OCR_DIR_BY_PROVIDER.get(provider, config.VLM_OCR_DIR_DEFAULT)
+    return config.EPISODES_BASE_DIR / episode_id / subdir
+
+
 def run_azure_vlm_ocr_on_frames(
     episode_id: str, max_new_tokens: int, vlm_provider: str = "auto", enable_role_correction: bool = True, include_previous_frame: bool = True
 ) -> Tuple[int, str, Optional[str]]:
@@ -93,7 +316,18 @@ def run_azure_vlm_ocr_on_frames(
 
     logging.info(f"[{episode_id}] Starting Azure VLM OCR processing (Single Frame Mode).")
     episode_dir = config.EPISODES_BASE_DIR / episode_id
-    ocr_dir = episode_dir / 'ocr'
+
+    # Resolve the concrete provider up-front so the OCR folder is provider-specific.
+    # Each provider reads/writes its own folder (no cross-provider JSON reuse).
+    try:
+        selected_provider = resolve_vlm_provider(vlm_provider)
+    except Exception as resolve_err:
+        msg = f"Failed to resolve VLM provider: {resolve_err}"
+        logging.error(f"[{episode_id}] {msg}")
+        return 0, "error_vlm_client_init", msg
+    vlm_provider = selected_provider
+
+    ocr_dir = get_vlm_ocr_dir(episode_id, selected_provider)
     frames_dir = episode_dir / 'analysis' / 'frames'
     output_json_path = ocr_dir / f"{episode_id}_credits_azure_vlm.json"
 
@@ -253,83 +487,99 @@ def run_azure_vlm_ocr_on_frames(
         azure_api_key = os.getenv(config.AzureConfig.API_KEY_ENV)
         azure_api_version = os.getenv(config.AzureConfig.API_VERSION_ENV, config.AzureConfig.DEFAULT_API_VERSION)
         
-        # GPT 4.1
-        gpt4_endpoint = os.getenv(config.AzureConfig.GPT4_ENDPOINT_ENV) or os.getenv(config.AzureConfig.ENDPOINT_ENV)
-        gpt4_deployment = os.getenv(config.AzureConfig.GPT4_DEPLOYMENT_NAME_ENV) or os.getenv(config.AzureConfig.DEPLOYMENT_NAME_ENV)
-        
-        # GPT 5
+        # GPT 5.2
         gpt5_endpoint = os.getenv(config.AzureConfig.GPT5_ENDPOINT_ENV)
         gpt5_deployment = os.getenv(config.AzureConfig.GPT5_DEPLOYMENT_NAME_ENV)
-        
+
+        # GPT Terra (dedicated key + api_version)
+        gpt_terra_endpoint = os.getenv(config.AzureConfig.GPT_TERRA_ENDPOINT_ENV)
+        gpt_terra_deployment = os.getenv(config.AzureConfig.GPT_TERRA_DEPLOYMENT_NAME_ENV)
+        gpt_terra_api_key = os.getenv(config.AzureConfig.GPT_TERRA_API_KEY_ENV)
+        gpt_terra_api_version = os.getenv(config.AzureConfig.GPT_TERRA_API_VERSION_ENV, config.AzureConfig.DEFAULT_API_VERSION)
+
+        # GPT Sol (shares Terra's key/endpoint/api_version; dedicated deployment)
+        gpt_sol_deployment = os.getenv(config.AzureConfig.GPT_SOL_DEPLOYMENT_NAME_ENV)
+
         # Check availability
         claude_available = bool(claude_endpoint and claude_api_key and claude_model and AnthropicFoundry)
-        gpt4_available = bool(azure_api_key and gpt4_endpoint and gpt4_deployment and AzureOpenAI)
         gpt5_available = bool(azure_api_key and gpt5_endpoint and gpt5_deployment and OpenAI)
-        
+        gpt_terra_available = bool(gpt_terra_api_key and gpt_terra_endpoint and gpt_terra_deployment and AzureOpenAI)
+        gpt_sol_available = bool(gpt_terra_api_key and gpt_terra_endpoint and gpt_sol_deployment and AzureOpenAI)
+        gemma12b_model_path, gemma12b_mmproj_path, gemma12b_n_gpu_layers, gemma12b_n_ctx = _gemma12b_config()
+        gemma12b_available = bool(_LLAMA_CPP_AVAILABLE and os.path.isfile(gemma12b_model_path) and os.path.isfile(gemma12b_mmproj_path))
+
         # Debug logging for availability
         logging.debug(f"[{episode_id}] VLM Availability Check:")
         logging.debug(f"  Claude: {claude_available} (Key: {bool(claude_api_key)}, Endpoint: {bool(claude_endpoint)}, Model: {bool(claude_model)}, Lib: {bool(AnthropicFoundry)})")
-        logging.debug(f"  GPT-4.1: {gpt4_available} (Key: {bool(azure_api_key)}, Endpoint: {bool(gpt4_endpoint)}, Model: {bool(gpt4_deployment)}, Lib: {bool(AzureOpenAI)})")
-        logging.debug(f"  GPT_5: {gpt5_available} (Key: {bool(azure_api_key)}, Endpoint: {bool(gpt5_endpoint)}, Model: {bool(gpt5_deployment)}, Lib: {bool(OpenAI)})")
+        logging.debug(f"  GPT 5.2: {gpt5_available} (Key: {bool(azure_api_key)}, Endpoint: {bool(gpt5_endpoint)}, Model: {bool(gpt5_deployment)}, Lib: {bool(OpenAI)})")
+        logging.debug(f"  GPT Terra: {gpt_terra_available} (Key: {bool(gpt_terra_api_key)}, Endpoint: {bool(gpt_terra_endpoint)}, Model: {bool(gpt_terra_deployment)}, Lib: {bool(AzureOpenAI)})")
+        logging.debug(f"  GPT Sol: {gpt_sol_available} (Key: {bool(gpt_terra_api_key)}, Endpoint: {bool(gpt_terra_endpoint)}, Model: {bool(gpt_sol_deployment)}, Lib: {bool(AzureOpenAI)})")
+        logging.debug(f"  gemma12b: {gemma12b_available} (Model: {os.path.isfile(gemma12b_model_path)}, mmproj: {os.path.isfile(gemma12b_mmproj_path)}, Lib: {_LLAMA_CPP_AVAILABLE})")
         
-        # Select provider based on preference
-        selected_provider = None
-        
-        if vlm_provider == "claude":
-            if not claude_available:
-                raise ValueError("Claude provider requested but credentials not available or library not installed")
-            selected_provider = "claude"
-        elif vlm_provider == "azure_gpt5":
-            if not gpt5_available:
-                missing = []
-                if not azure_api_key: missing.append("AZURE_OPENAI_KEY")
-                if not gpt5_endpoint: missing.append("GPT_5_AZURE_OPENAI_ENDPOINT")
-                if not gpt5_deployment: missing.append("GPT_5_AZURE_OPENAI_DEPLOYMENT_NAME")
-                if not OpenAI: missing.append("openai library (OpenAI class)")
-                raise ValueError(f"Azure GPT_5 provider requested but credentials not available or library not installed. Missing: {', '.join(missing)}")
-            selected_provider = "azure_gpt5"
-        elif vlm_provider == "azure_gpt4":
-            if not gpt4_available:
-                raise ValueError("Azure GPT-4.1 provider requested but credentials not available or library not installed")
-            selected_provider = "azure_gpt4"
-        elif vlm_provider == "azure": # Legacy/Generic Azure request -> prefer GPT-5 if available, else GPT-4
-             if gpt5_available:
-                 selected_provider = "azure_gpt5"
-             elif gpt4_available:
-                 selected_provider = "azure_gpt4"
-             else:
-                 raise ValueError("Azure provider requested but neither GPT_5 nor GPT-4.1 credentials available")
-        else:  # auto
-            if claude_available:
-                selected_provider = "claude"
-            elif gpt5_available:
-                selected_provider = "azure_gpt5"
-            elif gpt4_available:
-                selected_provider = "azure_gpt4"
-            else:
-                raise ValueError("No VLM provider available (neither Claude nor Azure credentials set)")
-        
+        # Provider was already resolved via resolve_vlm_provider() above;
+        # build the client for that concrete provider.
+
         # Initialize client
+        # active_api_version is recorded in per-credit metadata (None for clients
+        # that don't take an api_version, e.g. Claude and the GPT-5 base_url client).
+        active_api_version = None
         if selected_provider == "claude":
             logging.info(f"[{episode_id}] Using Claude model: {claude_model}")
             client = AnthropicFoundry(api_key=claude_api_key, base_url=claude_endpoint)
             deployment_name = claude_model
             vlm_provider = "claude"
-            
+
+        elif selected_provider == "azure_gpt_terra":
+            logging.info(f"[{episode_id}] Using Azure GPT Terra model: {gpt_terra_deployment}")
+            # GPT Terra uses AzureOpenAI client with its own dedicated key + api_version
+            client = AzureOpenAI(api_key=gpt_terra_api_key, api_version=gpt_terra_api_version, azure_endpoint=gpt_terra_endpoint)
+            deployment_name = gpt_terra_deployment
+            active_api_version = gpt_terra_api_version
+            vlm_provider = "azure_gpt_terra"
+
+        elif selected_provider == "azure_gpt_terra_standard":
+            logging.info(f"[{episode_id}] Using Azure GPT Terra Standard model: {gpt_terra_deployment} (reasoning standard/medium)")
+            # Same deployment/credentials as GPT Terra, only the reasoning config differs
+            client = AzureOpenAI(api_key=gpt_terra_api_key, api_version=gpt_terra_api_version, azure_endpoint=gpt_terra_endpoint)
+            deployment_name = gpt_terra_deployment
+            active_api_version = gpt_terra_api_version
+            vlm_provider = "azure_gpt_terra_standard"
+
+        elif selected_provider == "azure_gpt_sol":
+            logging.info(f"[{episode_id}] Using Azure GPT Sol model: {gpt_sol_deployment}")
+            # GPT Sol reuses Terra's AzureOpenAI credentials (key/endpoint/api_version)
+            client = AzureOpenAI(api_key=gpt_terra_api_key, api_version=gpt_terra_api_version, azure_endpoint=gpt_terra_endpoint)
+            deployment_name = gpt_sol_deployment
+            active_api_version = gpt_terra_api_version
+            vlm_provider = "azure_gpt_sol"
+
+        elif selected_provider == "azure_gpt_sol_standard":
+            logging.info(f"[{episode_id}] Using Azure GPT Sol Standard model: {gpt_sol_deployment} (reasoning standard/medium)")
+            # Same deployment/credentials as GPT Sol, only the reasoning config differs
+            client = AzureOpenAI(api_key=gpt_terra_api_key, api_version=gpt_terra_api_version, azure_endpoint=gpt_terra_endpoint)
+            deployment_name = gpt_sol_deployment
+            active_api_version = gpt_terra_api_version
+            vlm_provider = "azure_gpt_sol_standard"
+
         elif selected_provider == "azure_gpt5":
-            logging.info(f"[{episode_id}] Using Azure GPT_5 model: {gpt5_deployment}")
-            # GPT_5 uses OpenAI client with base_url
+            logging.info(f"[{episode_id}] Using Azure GPT 5.2 model: {gpt5_deployment}")
+            # GPT 5.2 uses OpenAI client with base_url
             client = OpenAI(api_key=azure_api_key, base_url=gpt5_endpoint)
             deployment_name = gpt5_deployment
             vlm_provider = "azure_gpt5"
-            
-        elif selected_provider == "azure_gpt4":
-            logging.info(f"[{episode_id}] Using Azure GPT-4.1 model: {gpt4_deployment}")
-            # GPT-4.1 uses AzureOpenAI client
-            client = AzureOpenAI(api_key=azure_api_key, api_version=azure_api_version, azure_endpoint=gpt4_endpoint)
-            deployment_name = gpt4_deployment
-            vlm_provider = "azure_gpt4"
-            
+
+        elif selected_provider == "gemma12b":
+            logging.info(
+                f"[{episode_id}] Using local gemma-4-12b GGUF: {gemma12b_model_path} "
+                f"(gpu_layers={gemma12b_n_gpu_layers}, n_ctx={gemma12b_n_ctx})"
+            )
+            # In-process llama.cpp vision model (GGUF + mmproj), cached across episodes.
+            client = _get_gemma12b_client(
+                gemma12b_model_path, gemma12b_mmproj_path, gemma12b_n_gpu_layers, gemma12b_n_ctx
+            )
+            deployment_name = os.path.basename(gemma12b_model_path)
+            vlm_provider = "gemma12b"
+
     except Exception as client_err:
         msg = f"Failed to initialize VLM client: {client_err}"
         logging.error(f"[{episode_id}] {msg}", exc_info=True)
@@ -338,6 +588,15 @@ def run_azure_vlm_ocr_on_frames(
     newly_added_credits_count = 0
     prompt_template = config.BASE_PROMPT_TEMPLATE
     previous_llm_output_json_str = "[]"
+
+    # Provenance metadata attached to every credit extracted in this run.
+    # Rides along in the output JSON so it survives the "reload from JSON" path
+    # and lands in the credits.metadata DB column at save time.
+    run_metadata = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "model": deployment_name,
+        "api_version": active_api_version,
+    }
 
     manifest_path = episode_dir / "analysis" / "analysis_manifest.json"
     manifest_data = {}
@@ -413,6 +672,10 @@ def run_azure_vlm_ocr_on_frames(
     try:
         all_parsed_credits = []
         name_to_role_groups = {}
+
+        # Drop any previous raw calls for THIS model so a re-run replaces its own
+        # rows (other models' calls for the episode are kept for comparison).
+        utils.clear_raw_responses_for_model(episode_id, vlm_provider)
 
         if output_json_path.exists():
             try:
@@ -523,6 +786,8 @@ def run_azure_vlm_ocr_on_frames(
                     # Azure OpenAI / GPT-5 format with data URL
                     # For prompt caching: put STATIC content first (minimum 1024 tokens)
                     # The static prompt template stays at the beginning for automatic caching
+                    # GPT Terra/Sol must request the image with detail "original" (full resolution)
+                    image_detail = "original" if vlm_provider in RESPONSES_API_PROVIDERS else "high"
                     content_parts = []
                     
                     # STATIC: Add the base prompt template first (gets cached automatically if >1024 tokens)
@@ -541,7 +806,7 @@ def run_azure_vlm_ocr_on_frames(
                             "type": "image_url", 
                             "image_url": {
                                 "url": previous_frame_data_url,
-                                "detail": "high"
+                                "detail": image_detail
                             }
                         })
                         content_parts.append({
@@ -554,7 +819,7 @@ def run_azure_vlm_ocr_on_frames(
                         "type": "image_url", 
                         "image_url": {
                             "url": data_url,
-                            "detail": "high"
+                            "detail": image_detail
                         }
                     })
                     
@@ -604,20 +869,56 @@ def run_azure_vlm_ocr_on_frames(
                                 generated_text = response.content[0].text.strip()
                             else:
                                 generated_text = ""
+                        elif vlm_provider in RESPONSES_API_PROVIDERS:
+                            # GPT Terra/Sol (gpt-5.6 family) use the Responses API; the
+                            # reasoning config (pro/high vs standard/medium) is per-provider.
+                            responses_input = [{
+                                "role": "user",
+                                "content": [_chat_part_to_responses_part(pt) for pt in content_parts],
+                            }]
+                            response = client.responses.create(
+                                model=deployment_name,
+                                reasoning=VLM_REASONING_BY_PROVIDER[vlm_provider],
+                                input=responses_input,
+                            )
+                            generated_text = (getattr(response, "output_text", None) or "").strip()
+
+                            # Log usage/cache metrics if available (Responses API)
+                            if hasattr(response, "usage") and response.usage is not None:
+                                _det = getattr(response.usage, "input_tokens_details", None)
+                                _cached = getattr(_det, "cached_tokens", 0) if _det else 0
+                                _odet = getattr(response.usage, "output_tokens_details", None)
+                                _reason = getattr(_odet, "reasoning_tokens", 0) if _odet else 0
+                                if _cached or _reason:
+                                    logging.info(
+                                        f"[{episode_id}] Frame {frame_idx} {vlm_provider} usage: "
+                                        f"cached={_cached}, reasoning={_reason}"
+                                    )
+                        elif vlm_provider == "gemma12b":
+                            # Local gemma-4-12b vision GGUF via llama-cpp-python (in-process,
+                            # GPU). Reuses the OpenAI-style `messages` (data-URL images) built
+                            # above; the response is a plain dict.
+                            response = client.create_chat_completion(
+                                messages=messages,
+                                max_tokens=max_new_tokens,
+                                temperature=0.0,
+                            )
+                            generated_text = (response["choices"][0]["message"].get("content") or "").strip()
                         else:
-                            # Azure OpenAI / GPT-5 API call
+                            # Azure OpenAI / GPT-5 / LM Studio (OpenAI-compatible) API call
                             # Automatic prompt caching: static content at the beginning gets cached
-                            
+
                             completion_kwargs = {
                                 "model": deployment_name,
                                 "messages": messages
                             }
-                            
-                            # GPT_5 and GPT-4.1 (Preview) do not support max_tokens or temperature
-                            if vlm_provider not in ["azure_gpt5", "azure_gpt4"]:
+
+                            # GPT 5.2 does not support max_tokens or temperature.
+                            # LM Studio accepts both.
+                            if vlm_provider != "azure_gpt5":
                                 completion_kwargs["max_tokens"] = max_new_tokens
                                 completion_kwargs["temperature"] = 0.0
-                                
+
                             response = client.chat.completions.create(**completion_kwargs)
                             generated_text = response.choices[0].message.content.strip()
                             
@@ -664,6 +965,18 @@ def run_azure_vlm_ocr_on_frames(
                 if response is None:
                     raise RuntimeError("VLM retry failed, no response received.")
 
+                # Full raw LLM response for this frame (JSON-serializable). Saved as its
+                # own row NOW, before parsing, so the call is persisted even when the
+                # frame is empty and yields no names.
+                try:
+                    frame_raw_response = _response_to_jsonable(response)
+                except Exception as raw_err:
+                    logging.warning(f"[{episode_id}] Could not serialize raw response for frame {frame_idx}: {raw_err}")
+                    frame_raw_response = {"repr": str(response)}
+                utils.save_raw_response_llm_call(
+                    episode_id, vlm_provider, frame_data["filename"], frame_raw_response
+                )
+
                 logging.debug(
                     f"[{episode_id}] VLM Raw Output for frame {frame_idx} ({frame_data['filename']}): {generated_text}"
                 )
@@ -688,6 +1001,9 @@ def run_azure_vlm_ocr_on_frames(
                         credit_entry['original_frame_number'] = [frame_data["frame_num"]]
 
                         credit_entry['scene_position'] = frame_data.get("scene_position", "unknown")
+
+                        # Provenance: which model/api_version/time produced this credit
+                        credit_entry['metadata'] = dict(run_metadata)
 
                         credit_entry.pop("source_image_index", None)
 

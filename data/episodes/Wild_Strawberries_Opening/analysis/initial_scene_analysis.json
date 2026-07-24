@@ -1,0 +1,47 @@
+{
+    "episode_id": "Wild_Strawberries_Opening",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 1679,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:01:10.028",
+            "duration_frames": 1679,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "SVENSK FILMINDUSTRI VISAR"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 83,
+                    "ocr_text": "SVENSK FILMINDUSTRI VISAR",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_83_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 1679,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:01:10.028",
+            "duration_frames": 1679,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2026-07-18T20:24:01.943754"
+}

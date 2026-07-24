@@ -92,7 +92,7 @@ class IMDBBatchValidatorWithCodeAssignment:
             where_clause = "WHERE " + " AND ".join(where_conditions) if where_conditions else ""
             
             query = f"""
-                SELECT id, episode_id, name, normalized_name, role_group, role_group_normalized, role_group_corrected, is_person,
+                SELECT id, episode_id, name, normalized_name, normalized_name_with_nickname, role_group, role_group_normalized, role_group_corrected, is_person,
                        assigned_code, code_assignment_status
                 FROM {config.DB_TABLE_CREDITS}
                 {where_clause}
@@ -184,9 +184,12 @@ class IMDBBatchValidatorWithCodeAssignment:
         
         try:
             validator = self._get_validator()
-            
+
             # Validate and assign code
-            result = validator.validate_name_with_code_assignment(name, role_group, is_person)
+            result = validator.validate_name_with_code_assignment(
+                name, role_group, is_person,
+                normalized_name_with_nickname=credit.get('normalized_name_with_nickname')
+            )
             
             # Track fuzzy corrections if name was corrected
             if result.corrected_name and result.corrected_name != name:
@@ -258,6 +261,143 @@ class IMDBBatchValidatorWithCodeAssignment:
             self.stats['errors'] += 1
             return False
     
+    def _tally_stats(self, result, is_person) -> None:
+        """Update the stats counters for one processed credit."""
+        st = result.assignment_status
+        if st == CodeAssignmentStatus.AUTO_ASSIGNED:
+            if result.assigned_code and result.assigned_code.startswith('nm'):
+                self.stats['auto_assigned_nconst'] += 1
+            else:
+                self.stats['auto_assigned_internal'] += 1
+        elif st == CodeAssignmentStatus.INTERNAL_ASSIGNED:
+            self.stats['auto_assigned_internal'] += 1
+        elif st == CodeAssignmentStatus.MANUAL_REQUIRED:
+            self.stats['manual_required'] += 1
+        elif st == CodeAssignmentStatus.AMBIGUOUS:
+            self.stats['ambiguous'] += 1
+
+        if is_person in [False, 0]:
+            self.stats['companies_processed'] += 1
+        else:
+            self.stats['persons_processed'] += 1
+            if result.matches and len(result.matches) > 0:
+                self.stats['found_in_imdb'] += 1
+            else:
+                self.stats['not_found_in_imdb'] += 1
+
+    def process_credits_fast(self, credits: List[Dict[str, Any]], progress_callback=None,
+                             commit_every: int = 500) -> int:
+        """
+        Fast batch path, split in two phases to avoid SQLite "database is locked"
+        errors:
+
+        Phase 1 - validate every credit. validate_name_with_code_assignment() may,
+        on a cache miss, open ITS OWN short-lived connection to read/write
+        progressive_codes (generate_next_internal_code) or read credits
+        (_check_existing_internal_code) - each such call opens, commits and closes
+        immediately. No connection is held open here.
+
+        Phase 2 - write all results over ONE connection with batched commits.
+        This connection only starts once Phase 1 is fully done, so its open write
+        transaction never overlaps with the short-lived connections from Phase 1.
+        (The earlier single-loop version held this connection's UPDATEs uncommitted
+        across the whole batch while ALSO calling into Phase-1-style code inside the
+        same loop - the two connections would then contend for SQLite's single
+        writer lock, causing repeated "database is locked" errors.)
+
+        Args:
+            credits: credit dicts from get_unprocessed_credits().
+            progress_callback: optional fn(index, total, name) for UI progress.
+            commit_every: flush to disk every N processed credits (Phase 2 only).
+
+        Returns:
+            Number of credits processed.
+        """
+        validator = self._get_validator()
+        total = len(credits)
+        self.stats['total_credits'] = total
+
+        # --- Phase 1: validate (no held-open connection) ---
+        to_write = []  # (credit_id, result)
+        for i, credit in enumerate(credits):
+            name = credit.get('name', '')
+            credit_id = credit.get('id')
+            is_person = credit.get('is_person')
+            episode_id = credit.get('episode_id', '')
+            source_frame = credit.get('source_frame', '')
+            if progress_callback:
+                progress_callback(i, total, name)
+            if not name:
+                continue
+
+            role_group_corrected = credit.get('role_group_corrected')
+            if role_group_corrected is not None:
+                role_group = role_group_corrected
+            else:
+                role_group = credit.get('role_group_normalized') or credit.get('role_group', '')
+
+            try:
+                result = validator.validate_name_with_code_assignment(
+                    name, role_group, is_person,
+                    normalized_name_with_nickname=credit.get('normalized_name_with_nickname')
+                )
+            except Exception as e:
+                logging.error(f"Error validating credit '{name}': {e}")
+                self.stats['errors'] += 1
+                continue
+
+            # Track fuzzy corrections (same rule as the single-credit path)
+            if (result.corrected_name and result.corrected_name != name
+                    and result.validation_method and 'fuzzy' in result.validation_method.lower()):
+                self.fuzzy_corrections.append({
+                    'episode_id': episode_id,
+                    'source_frame': source_frame,
+                    'original_name': name,
+                    'corrected_name': result.corrected_name,
+                    'imdb_code': result.assigned_code,
+                    'role_group': role_group,
+                    'confidence': result.confidence,
+                })
+
+            self._tally_stats(result, is_person)
+            to_write.append((credit_id, result))
+
+        # --- Phase 2: write all results over one connection/transaction ---
+        conn = sqlite3.connect(config.DB_PATH)
+        cursor = conn.cursor()
+        processed = 0
+        try:
+            for credit_id, result in to_write:
+                if result.corrected_name and result.assignment_status == CodeAssignmentStatus.AUTO_ASSIGNED:
+                    cursor.execute(
+                        f"""UPDATE {config.DB_TABLE_CREDITS}
+                            SET assigned_code = ?, code_assignment_status = ?, imdb_matches = ?, imdb_name = ?
+                            WHERE id = ?""",
+                        (result.assigned_code, result.assignment_status.value,
+                         result.imdb_matches_json, result.corrected_name, credit_id),
+                    )
+                else:
+                    cursor.execute(
+                        f"""UPDATE {config.DB_TABLE_CREDITS}
+                            SET assigned_code = ?, code_assignment_status = ?, imdb_matches = ?
+                            WHERE id = ?""",
+                        (result.assigned_code, result.assignment_status.value,
+                         result.imdb_matches_json, credit_id),
+                    )
+                processed += 1
+                if processed % commit_every == 0:
+                    conn.commit()
+
+            conn.commit()
+        except Exception as e:
+            logging.error(f"Error in process_credits_fast (write phase): {e}", exc_info=True)
+            conn.rollback()
+        finally:
+            conn.close()
+
+        logging.info(f"[FAST] Processed {processed}/{total} credits for code assignment")
+        return processed
+
     def process_credits_batch(self, credits: List[Dict[str, Any]], batch_size: int = 100) -> None:
         """
         Process a batch of credits for code assignment.

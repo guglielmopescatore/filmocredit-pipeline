@@ -1,0 +1,222 @@
+{
+    "episode_id": "3_Percent_S01E06_End",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 1475,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:01:01.520",
+            "duration_frames": 1475,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "DIRIGIDO POR DAINA GIANNECCHINI DANI LIBARDI"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 73,
+                    "ocr_text": "DIRIGIDO POR DAINA GIANNECCHINI DANI LIBARDI",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_73_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 1,
+            "original_start_frame": 1475,
+            "original_end_frame": 1505,
+            "original_start_timecode": "00:01:01.520",
+            "original_end_timecode": "00:01:02.771",
+            "duration_frames": 30,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "boutique FLMES"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1476,
+                    "ocr_text": "boutique FLMES",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_second_half_frame_1476_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 1505,
+            "original_end_frame": 1525,
+            "original_start_timecode": "00:01:02.771",
+            "original_end_timecode": "00:01:03.605",
+            "duration_frames": 20,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "boutique FILMESI"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1506,
+                    "ocr_text": "boutique FILMESI",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_second_half_frame_1506_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 3,
+            "original_start_frame": 1527,
+            "original_end_frame": 1595,
+            "original_start_timecode": "00:01:03.689",
+            "original_end_timecode": "00:01:06.525",
+            "duration_frames": 68,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "boutique FILMESI"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1530,
+                    "ocr_text": "boutique FILMESI",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_003_second_half_frame_1530_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 4,
+            "original_start_frame": 1595,
+            "original_end_frame": 1691,
+            "original_start_timecode": "00:01:06.525",
+            "original_end_timecode": "00:01:10.529",
+            "duration_frames": 96,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "NETFL"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1599,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 1604,
+                    "ocr_text": "NETFL",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_004_second_half_frame_1604_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 1599: No text found (CLAHE)"
+            ],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 1475,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:01:01.520",
+            "duration_frames": 1475,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 1475,
+            "end_frame": 1505,
+            "start_timecode": "00:01:01.520",
+            "end_timecode": "00:01:02.771",
+            "duration_frames": 30,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 1505,
+            "end_frame": 1525,
+            "start_timecode": "00:01:02.771",
+            "end_timecode": "00:01:03.605",
+            "duration_frames": 20,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 1525,
+            "end_frame": 1527,
+            "start_timecode": "00:01:03.605",
+            "end_timecode": "00:01:03.689",
+            "duration_frames": 2,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 1527,
+            "end_frame": 1595,
+            "start_timecode": "00:01:03.689",
+            "end_timecode": "00:01:06.525",
+            "duration_frames": 68,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 1595,
+            "end_frame": 1691,
+            "start_timecode": "00:01:06.525",
+            "end_timecode": "00:01:10.529",
+            "duration_frames": 96,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 6,
+            "start_frame": 1691,
+            "end_frame": 1692,
+            "start_timecode": "00:01:10.529",
+            "end_timecode": "00:01:10.570",
+            "duration_frames": 1,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2026-07-18T18:43:09.878995"
+}

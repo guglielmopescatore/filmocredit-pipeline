@@ -1,6 +1,7 @@
 import json
 import logging
 import sqlite3
+import time
 from pathlib import Path
 
 import streamlit as st
@@ -71,9 +72,149 @@ def force_refresh_ocr_reader():
     # Clear the cache_resource cache
     get_cached_ocr_reader.clear()
     logging.info("Cleared cached OCR reader")
-    
+
     # Return new reader with current settings
     return get_ocr_reader()
+
+
+# ---------------------------------------------------------------------------
+# Per-episode phase helpers used by "RUN ALL STEPS". These mirror exactly the
+# logic of the individual Step 1-4 buttons (same real functions and side
+# effects: Step 2 writes analysis_manifest.json, Step 3 saves credits to the DB),
+# so the full pipeline stays in sync with the single-step paths.
+# Each returns (success: bool, message: str).
+# ---------------------------------------------------------------------------
+def _fp_run_step1(video_file, episode_id, ocr_reader, ocr_engine, user_stopwords):
+    method = st.session_state.get('current_detection_method', 'scene_count')
+    kwargs = {}
+    if method == 'whole_episode':
+        kwargs['whole_episode'] = True
+    elif method == 'time_based':
+        kwargs['time_segments'] = (
+            st.session_state.get('scene_start_minutes', 3.0),
+            st.session_state.get('scene_end_minutes', 5.0),
+        )
+    else:
+        kwargs['scene_counts'] = (
+            st.session_state.get('scene_start_count', constants.DEFAULT_START_SCENES_COUNT),
+            st.session_state.get('scene_end_count', constants.DEFAULT_END_SCENES_COUNT),
+        )
+    scenes, status, err = scene_detection.identify_candidate_scenes(
+        video_file, episode_id, ocr_reader, ocr_engine, user_stopwords, **kwargs
+    )
+    if err:
+        return False, err
+    return True, f"{len(scenes)} candidate scenes"
+
+
+def _fp_run_step2(video_file, episode_id, ocr_reader, ocr_engine, user_stopwords):
+    scene_analysis_file = config.EPISODES_BASE_DIR / episode_id / "analysis" / "initial_scene_analysis.json"
+    if not scene_analysis_file.exists():
+        return False, "Step 1 output (initial_scene_analysis.json) not found"
+    with open(scene_analysis_file, 'r', encoding='utf-8') as f:
+        step1_data = json.load(f)
+    all_scenes = step1_data.get("candidate_scenes", [])
+    sel = (st.session_state.get('user_selected_scenes_for_step2') or {}).get(episode_id)
+    scenes = [all_scenes[i] for i in sel if i < len(all_scenes)] if sel else all_scenes
+    if not scenes:
+        return True, "no candidate scenes to process"
+
+    video_stream = open_video(str(video_file))
+    fps = video_stream.frame_rate
+    frame_height = video_stream.frame_size[1]
+    frame_width = video_stream.frame_size[0]
+    episode_saved_texts_cache = []
+    episode_saved_files_cache = []
+    last_text = last_hash = last_bbox = None
+
+    analysis_dir = config.EPISODES_BASE_DIR / episode_id / 'analysis'
+    analysis_dir.mkdir(parents=True, exist_ok=True)
+    manifest_path = analysis_dir / 'analysis_manifest.json'
+
+    n = 0
+    for scene in scenes:
+        if not all(k in scene for k in ['original_start_frame', 'original_end_frame']):
+            continue
+        compatible = {
+            **scene,
+            'start_frame': scene['original_start_frame'],
+            'end_frame': scene['original_end_frame'],
+        }
+        analysis_result, last_text, last_hash, last_bbox = frame_analysis.analyze_candidate_scene_frames(
+            video_path=video_file,
+            episode_id=episode_id,
+            scene_info=compatible,
+            fps=fps,
+            frame_height=frame_height,
+            frame_width=frame_width,
+            ocr_reader=ocr_reader,
+            ocr_engine_type=ocr_engine,
+            user_stopwords=user_stopwords,
+            global_last_saved_ocr_text_input=last_text,
+            global_last_saved_frame_hash_input=last_hash,
+            global_last_saved_ocr_bbox_input=last_bbox,
+            episode_saved_texts_cache=episode_saved_texts_cache,
+            episode_saved_files_cache=episode_saved_files_cache,
+        )
+        if manifest_path.is_file():
+            try:
+                with open(manifest_path, 'r', encoding='utf-8') as mf:
+                    manifest_data = json.load(mf)
+            except Exception:
+                manifest_data = {'scenes': {}}
+        else:
+            manifest_data = {'scenes': {}}
+        scene_index = scene.get('scene_index')
+        scene_key = f"scene_{scene_index}" if scene_index is not None else f"scene_{episode_id}_{n}"
+        manifest_data.setdefault('scenes', {})[scene_key] = analysis_result
+        with open(manifest_path, 'w', encoding='utf-8') as mf:
+            json.dump(manifest_data, mf, indent=2)
+        n += 1
+    return True, f"{n} scenes analyzed"
+
+
+def _fp_run_step3(episode_id, vlm_provider, effective_provider):
+    enable_role_correction = st.session_state.get("enable_role_correction", False)
+    include_previous_frame = st.session_state.get("include_previous_frame_context", True)
+    count, status, err = vlm_processing.run_azure_vlm_ocr_on_frames(
+        episode_id,
+        constants.DEFAULT_VLM_MAX_NEW_TOKENS,
+        vlm_provider,
+        enable_role_correction,
+        include_previous_frame,
+    )
+    if err:
+        return False, err
+    # Persist the produced credits to the DB (the OCR function only writes the JSON file).
+    ocr_dir = vlm_processing.get_vlm_ocr_dir(episode_id, effective_provider)
+    vlm_json_path = ocr_dir / f"{episode_id}_credits_azure_vlm.json"
+    if vlm_json_path.exists():
+        vlm_credits = utils.load_vlm_results_from_jsonl(vlm_json_path)
+        if vlm_credits:
+            ok, db_msg = utils.save_credits(episode_id, vlm_credits)
+            if not ok:
+                return False, f"DB save failed: {db_msg}"
+            if enable_role_correction:
+                utils.apply_role_group_corrections_to_database(episode_id, enabled=True)
+    return True, f"{count} credits"
+
+
+def _fp_run_step4(episode_id):
+    from scripts_v3.imdb_batch_validation import IMDBBatchValidatorWithCodeAssignment
+    fuzzy_enabled = st.session_state.get('fuzzy_matching_enabled', True)
+    fuzzy_threshold = st.session_state.get('fuzzy_matching_threshold', 90)
+    validator = IMDBBatchValidatorWithCodeAssignment(
+        fuzzy_enabled=fuzzy_enabled, fuzzy_threshold=fuzzy_threshold
+    )
+    credits = validator.get_unprocessed_credits(episode_id=episode_id)
+    if not credits:
+        return True, "no credits need code assignment"
+    validator.process_credits_fast(credits)
+    try:
+        validator.save_fuzzy_corrections_to_csv()
+    except Exception as csv_err:
+        logging.warning(f"[FULL PIPELINE] Could not save fuzzy corrections CSV for {episode_id}: {csv_err}")
+    return True, f"{len(credits)} credits processed"
 
 
 utils.setup_logging()
@@ -448,24 +589,38 @@ if st.session_state.current_tab == 0:
         with col_vlm1:
             vlm_provider = st.selectbox(
                 "VLM Provider",
-                options=["auto", "claude", "azure_gpt5", "azure_gpt4"],
+                options=["auto", "azure_gpt_terra", "azure_gpt_terra_standard", "azure_gpt_sol", "azure_gpt_sol_standard", "claude", "azure_gpt5", "gemma12b"],
                 index=0,
                 key="vlm_provider_selection",
-                help="'auto' will use Claude if available, then GPT-5, then GPT-4.1"
+                # Display-only label: show azure_gpt5 as "GPT 5.2" in the dropdown.
+                format_func=lambda p: "GPT 5.2" if p == "azure_gpt5" else p,
+                help="'auto' will use GPT Terra if available, then GPT Sol, then Claude, then GPT 5.2"
             )
-        
+
         with col_vlm2:
-            if vlm_provider == "claude":
+            if vlm_provider == "azure_gpt_terra":
+                st.info("🌍 Using Azure GPT Terra (gpt-5.6, reasoning pro/high)")
+                st.caption("Set GPT_TERRA_AZURE_OPENAI_* variables in .env")
+            elif vlm_provider == "azure_gpt_terra_standard":
+                st.info("🌫️ Using Azure GPT Terra Standard (gpt-5.6, reasoning standard/medium)")
+                st.caption("Same deployment as GPT Terra; reasoning mode=standard, effort=medium")
+            elif vlm_provider == "azure_gpt_sol":
+                st.info("☀️ Using Azure GPT Sol (gpt-5.6, reasoning pro/high)")
+                st.caption("Set GPT_SOL_AZURE_OPENAI_DEPLOYMENT_NAME in .env (key/endpoint/version shared with GPT Terra)")
+            elif vlm_provider == "azure_gpt_sol_standard":
+                st.info("🌤️ Using Azure GPT Sol Standard (gpt-5.6, reasoning standard/medium)")
+                st.caption("Same deployment as GPT Sol; reasoning mode=standard, effort=medium")
+            elif vlm_provider == "claude":
                 st.info("🤖 Using Claude (Anthropic Foundry)")
                 st.caption("Set CLAUDE_* variables in .env")
             elif vlm_provider == "azure_gpt5":
-                st.info("🚀 Using Azure GPT-5 (Preview)")
+                st.info("🚀 Using Azure GPT 5.2")
                 st.caption("Set GPT_5_AZURE_OPENAI_* variables in .env")
-            elif vlm_provider == "azure_gpt4":
-                st.info("☁️ Using Azure GPT-4.1")
-                st.caption("Set GPT_4_1_AZURE_OPENAI_* variables in .env")
+            elif vlm_provider == "gemma12b":
+                st.info("🎮 Using gemma12b (local gemma-4-12b GGUF, in-process, GPU)")
+                st.caption("Runs bin/gemma-4-12b-it-qat-q4_0.gguf + mmproj via llama-cpp-python. Override paths with GEMMA12B_MODEL_GGUF / GEMMA12B_MMPROJ_GGUF in .env")
             else:
-                st.info("🔄 Auto-detect: Claude → GPT-5 → GPT-4.1")
+                st.info("🔄 Auto-detect: GPT Terra → GPT Sol → Claude → GPT 5.2")
                 st.caption("Will use first available provider")
         
         st.divider()
@@ -721,6 +876,7 @@ if st.session_state.current_tab == 0:
                         st.session_state.episode_status[episode_id_proc] = {}
 
                     st.session_state.episode_status[episode_id_proc]['step1_status'] = "running"
+                    _t0_step1 = time.perf_counter()
                     with st.expander(f"Step 1: {episode_id_proc}", expanded=True):
                         st.write(f"Processing Step 1 for {episode_id_proc}...")
                         with st.spinner(f"Identifying scenes for {episode_id_proc}..."):
@@ -783,6 +939,8 @@ if st.session_state.current_tab == 0:
                                 st.session_state.episode_status[episode_id_proc]['step1_error'] = str(e)
                                 st.error(f"Exception in Step 1 ({episode_id_proc}): {e}")
                                 logging.error(f"Exception during Step 1 for {episode_id_proc}: {e}", exc_info=True)
+
+                    utils.record_phase_time(episode_id_proc, "step1", time.perf_counter() - _t0_step1)
 
                 st.success(
                     "Step 1 processing finished for selected videos. Review candidate scenes in '2a. Review Candidate Scenes' section if available."
@@ -923,6 +1081,7 @@ if st.session_state.current_tab == 0:
                     continue
 
                 st.session_state.episode_status[episode_id_proc]['step2_status'] = "running"
+                _t0_step2 = time.perf_counter()
                 with st.expander(f"Step 2: {episode_id_proc}", expanded=True):
                     st.write(
                         f"Processing Step 2 for {episode_id_proc} (using {len(scenes_to_process_for_step2)} selected/loaded scenes)..."
@@ -1057,6 +1216,8 @@ if st.session_state.current_tab == 0:
                             st.error(f"Exception in Step 2 ({episode_id_proc}): {e}")
                             logging.error(f"Exception during Step 2 for {episode_id_proc}: {e}", exc_info=True)
 
+                utils.record_phase_time(episode_id_proc, "step2", time.perf_counter() - _t0_step2)
+
         # Reset the step2_running flag when Step 2 completes
         st.session_state.step2_running = False
         st.info("Step 2 processing finished for selected videos.")
@@ -1073,8 +1234,20 @@ if st.session_state.current_tab == 0:
                 if episode_id_proc not in st.session_state.episode_status:
                     st.session_state.episode_status[episode_id_proc] = {}
 
+                _t0_step3 = time.perf_counter()
+
+                # Resolve the provider-specific OCR folder so each provider reads/writes
+                # its own directory (a cached JSON from another provider is never reused).
+                vlm_provider_choice = st.session_state.get("vlm_provider_selection", "auto")
+                effective_provider = vlm_provider_choice
+                try:
+                    effective_provider = vlm_processing.resolve_vlm_provider(vlm_provider_choice)
+                    ocr_dir = vlm_processing.get_vlm_ocr_dir(episode_id_proc, effective_provider)
+                except Exception as prov_err:
+                    logging.warning(f"[VLM] Could not resolve provider '{vlm_provider_choice}' for {episode_id_proc}: {prov_err}")
+                    ocr_dir = config.EPISODES_BASE_DIR / episode_id_proc / config.VLM_OCR_DIR_DEFAULT
+
                 # Check if VLM JSON already exists - if so, load directly without LLM calls
-                ocr_dir = config.EPISODES_BASE_DIR / episode_id_proc / "ocr"
                 vlm_json_path = ocr_dir / f"{episode_id_proc}_credits_azure_vlm.json"
                 
                 # If VLM file exists, load from file directly (skip LLM calls)
@@ -1112,6 +1285,7 @@ if st.session_state.current_tab == 0:
                         except Exception as load_err:
                             st.error(f"Error loading VLM file: {load_err}")
                             logging.error(f"[VLM_LOAD] Error loading VLM file for {episode_id_proc}: {load_err}", exc_info=True)
+                    utils.record_phase_time(episode_id_proc, "step3", time.perf_counter() - _t0_step3, provider=effective_provider)
                     continue  # Skip to next episode - no LLM calls needed
 
                 # VLM file doesn't exist - proceed with normal LLM processing
@@ -1139,7 +1313,7 @@ if st.session_state.current_tab == 0:
 
                             if status == "completed" and not err_msg:
                                 try:
-                                    ocr_dir = config.EPISODES_BASE_DIR / episode_id_proc / "ocr"
+                                    # Reuse the provider-specific ocr_dir resolved at the top of this loop
                                     vlm_json_path = ocr_dir / f"{episode_id_proc}_credits_azure_vlm.json"
 
                                     if vlm_json_path.exists():
@@ -1193,6 +1367,8 @@ if st.session_state.current_tab == 0:
                             st.error(f"Exception in Step 3 ({episode_id_proc}): {e}")
                             logging.error(f"Exception during Step 3 for {episode_id_proc}: {e}", exc_info=True)
 
+                utils.record_phase_time(episode_id_proc, "step3", time.perf_counter() - _t0_step3, provider=effective_provider)
+
             st.info("Step 3 processing finished for selected videos.")
 
     if run_step4_button:
@@ -1204,32 +1380,38 @@ if st.session_state.current_tab == 0:
             # Import the batch validator
             from scripts_v3.imdb_batch_validation import IMDBBatchValidator
 
+            # Get fuzzy matching settings from session state
+            fuzzy_enabled = st.session_state.get('fuzzy_matching_enabled', True)
+            fuzzy_threshold = st.session_state.get('fuzzy_matching_threshold', 90)
+
+            # ONE validator shared across every selected episode: its internal
+            # _profession_filter_cache and _validation_cache persist across
+            # episodes this way, so a role_group's expensive profession-based
+            # DataFrame filtering (and any repeated name+role validation) is
+            # only ever done once per run, not re-done from scratch for every
+            # single episode as a fresh instance per episode used to force.
+            from scripts_v3.imdb_batch_validation import IMDBBatchValidatorWithCodeAssignment
+            batch_validator = IMDBBatchValidatorWithCodeAssignment(
+                fuzzy_enabled=fuzzy_enabled,
+                fuzzy_threshold=fuzzy_threshold
+            )
+
             for video_path_str_proc in selected_videos_str_paths:
                 video_path_obj = Path(video_path_str_proc)
                 episode_id_proc = video_path_obj.stem
                 if episode_id_proc not in st.session_state.episode_status:
                     st.session_state.episode_status[episode_id_proc] = {}
 
+                _t0_step4 = time.perf_counter()
                 try:
                     with st.expander(f"Step 4 IMDB Validation: {episode_id_proc}", expanded=True):
                         st.write(f"🔍 Validating credits and assigning codes for episode: {episode_id_proc}")
-                        
-                        # Get fuzzy matching settings from session state
-                        fuzzy_enabled = st.session_state.get('fuzzy_matching_enabled', True)
-                        fuzzy_threshold = st.session_state.get('fuzzy_matching_threshold', 90)
-                        
+
                         # Show current settings
                         if fuzzy_enabled and fuzzy_threshold < 100:
                             st.info(f"🔍 Fuzzy matching enabled with {fuzzy_threshold}% threshold")
                         else:
                             st.info("🎯 Exact matching only (fuzzy matching disabled)")
-
-                        # Create batch validator with code assignment and fuzzy settings
-                        from scripts_v3.imdb_batch_validation import IMDBBatchValidatorWithCodeAssignment
-                        batch_validator = IMDBBatchValidatorWithCodeAssignment(
-                            fuzzy_enabled=fuzzy_enabled,
-                            fuzzy_threshold=fuzzy_threshold
-                        )
 
                         # Get credits to process for this episode
                         credits = batch_validator.get_unprocessed_credits(episode_id=episode_id_proc)
@@ -1237,6 +1419,7 @@ if st.session_state.current_tab == 0:
                         if not credits:
                             st.success(f"✅ No credits need code assignment for {episode_id_proc}")
                             st.session_state.episode_status[episode_id_proc]['step4_complete'] = True
+                            utils.record_phase_time(episode_id_proc, "step4", time.perf_counter() - _t0_step4)
                             continue
 
                         st.write(f"📊 Found {len(credits)} credits to process for {episode_id_proc}")
@@ -1246,29 +1429,37 @@ if st.session_state.current_tab == 0:
                         status_text = st.empty()
 
                         total_credits = len(credits)
-                        processed = 0
 
-                        for i, credit in enumerate(credits):
-                            name = credit.get('name', '')
+                        # Fast path: one DB connection + batched commits (throttled UI updates)
+                        def _step4_progress(idx, total, nm):
+                            if idx % 10 == 0 or idx + 1 >= total:
+                                progress_bar.progress((idx + 1) / total)
+                                status_text.text(f"Processing {idx + 1}/{total}: {nm}")
 
-                            # Update progress
-                            progress = (i + 1) / total_credits
-                            progress_bar.progress(progress)
-                            status_text.text(f"Processing {i+1}/{total_credits}: {name}")
+                        # Snapshot before processing: batch_validator.stats and
+                        # .fuzzy_corrections accumulate across the whole shared
+                        # instance (all episodes in this run), so they need to
+                        # be diffed/sliced back down to just THIS episode below.
+                        stats_before = dict(batch_validator.stats)
+                        fuzzy_before_count = len(batch_validator.fuzzy_corrections)
 
-                            # Process credit with code assignment
-                            success = batch_validator.process_credit_with_code_assignment(credit)
-                            if not success:
-                                st.error(f"Failed to process credit: {name}")
-
-                            processed += 1
+                        batch_validator.process_credits_fast(credits, progress_callback=_step4_progress)
 
                         # Show final results
                         progress_bar.progress(1.0)
                         status_text.text("IMDB validation and code assignment complete!")
 
-                        # Display comprehensive statistics
-                        stats = batch_validator.stats
+                        # Display comprehensive statistics for THIS episode only.
+                        # total_credits is OVERWRITTEN (not accumulated) by
+                        # process_credits_fast, so it's already episode-scoped;
+                        # every other counter accumulates via +=, so diff
+                        # against the pre-episode snapshot to isolate this
+                        # episode's contribution from the shared validator's total.
+                        stats = {
+                            k: (batch_validator.stats[k] if k == 'total_credits'
+                                else batch_validator.stats[k] - stats_before[k])
+                            for k in stats_before
+                        }
                         st.subheader("📊 Processing Results")
 
                         col1, col2, col3, col4 = st.columns(4)
@@ -1312,10 +1503,18 @@ if st.session_state.current_tab == 0:
                             auto_rate = (auto_total / total_processed) * 100
                             st.success(f"🚀 Automatic assignment rate: {auto_rate:.1f}%")
                         
-                        # Save fuzzy corrections CSV
-                        fuzzy_csv_path = batch_validator.save_fuzzy_corrections_to_csv()
+                        # Save fuzzy corrections CSV - only this episode's
+                        # slice, not the shared validator's accumulated list
+                        # across every episode processed so far in this run.
+                        episode_fuzzy_corrections = batch_validator.fuzzy_corrections[fuzzy_before_count:]
+                        fuzzy_csv_path = None
+                        if episode_fuzzy_corrections:
+                            _all_fuzzy_corrections = batch_validator.fuzzy_corrections
+                            batch_validator.fuzzy_corrections = episode_fuzzy_corrections
+                            fuzzy_csv_path = batch_validator.save_fuzzy_corrections_to_csv()
+                            batch_validator.fuzzy_corrections = _all_fuzzy_corrections
                         if fuzzy_csv_path:
-                            st.info(f"🔍 Fuzzy corrections saved: {len(batch_validator.fuzzy_corrections)} corrections")
+                            st.info(f"🔍 Fuzzy corrections saved: {len(episode_fuzzy_corrections)} corrections")
                             st.download_button(
                                 label="📥 Download Fuzzy Corrections CSV",
                                 data=open(fuzzy_csv_path, 'rb').read(),
@@ -1330,6 +1529,8 @@ if st.session_state.current_tab == 0:
                     st.session_state.episode_status[episode_id_proc]['step4_error'] = str(e)
                     st.error(f"Exception in Step 4 ({episode_id_proc}): {e}")
                     logging.error(f"Exception during Step 4 for {episode_id_proc}: {e}", exc_info=True)
+
+                utils.record_phase_time(episode_id_proc, "step4", time.perf_counter() - _t0_step4)
 
             st.info("Step 4 IMDB validation finished for selected videos.")
 
@@ -1360,94 +1561,79 @@ if st.session_state.current_tab == 0:
                     status_text.text(f"📹 Step 1/4: Scene detection for {episode_id_base}...")
                     logging.info(f"[FULL PIPELINE] Starting Step 1 for {episode_id_base}")
                     
-                    segment_mode = st.session_state.get('segment_mode', 'time_based')
-                    initial_scenes_count = st.session_state.get('initial_scenes_count', 3)
-                    final_scenes_count = st.session_state.get('final_scenes_count', 3)
-                    
-                    success_s1, msg_s1 = scene_detection.detect_and_save_scenes(
-                        video_file, 
-                        mode=segment_mode,
-                        initial_scenes=initial_scenes_count,
-                        final_scenes=final_scenes_count
-                    )
-                    
+                    ocr_reader = force_refresh_ocr_reader()
+                    ocr_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
+                    user_stopwords = st.session_state.get('user_stopwords', [])
+
+                    _t0 = time.perf_counter()
+                    success_s1, msg_s1 = _fp_run_step1(video_file, episode_id_base, ocr_reader, ocr_engine, user_stopwords)
+                    utils.record_phase_time(episode_id_base, "step1", time.perf_counter() - _t0)
+
                     current_step += 1
                     progress_bar.progress(current_step / total_steps)
-                    
+
                     if not success_s1:
                         st.error(f"❌ Step 1 failed for {episode_id_base}: {msg_s1}")
                         all_success = False
                         continue
-                    
+
                     logging.info(f"[FULL PIPELINE] Step 1 completed for {episode_id_base}")
-                    
+
                     # STEP 2: Frame Analysis
                     status_text.text(f"🖼️ Step 2/4: Frame analysis for {episode_id_base}...")
                     logging.info(f"[FULL PIPELINE] Starting Step 2 for {episode_id_base}")
-                    
-                    ocr_reader = get_ocr_reader()
-                    ocr_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
-                    
-                    success_s2, msg_s2 = frame_analysis.analyze_episode_frames(
-                        episode_id_base,
-                        ocr_reader=ocr_reader,
-                        ocr_engine_type=ocr_engine,
-                        user_stopwords=utils.load_user_stopwords()
-                    )
-                    
+
+                    _t0 = time.perf_counter()
+                    success_s2, msg_s2 = _fp_run_step2(video_file, episode_id_base, ocr_reader, ocr_engine, user_stopwords)
+                    utils.record_phase_time(episode_id_base, "step2", time.perf_counter() - _t0)
+
                     current_step += 1
                     progress_bar.progress(current_step / total_steps)
-                    
+
                     if not success_s2:
                         st.error(f"❌ Step 2 failed for {episode_id_base}: {msg_s2}")
                         all_success = False
                         continue
-                    
+
                     logging.info(f"[FULL PIPELINE] Step 2 completed for {episode_id_base}")
-                    
+
                     # STEP 3: VLM Processing
                     status_text.text(f"🤖 Step 3/4: VLM extraction for {episode_id_base}...")
                     logging.info(f"[FULL PIPELINE] Starting Step 3 for {episode_id_base}")
-                    
+
                     vlm_prov = st.session_state.get('vlm_provider_selection', 'auto')
-                    include_prev_frame = st.session_state.get('include_previous_frame_context', False)
-                    
-                    success_s3, msg_s3 = vlm_processing.run_azure_vlm_ocr_on_frames(
-                        episode_id_base,
-                        vlm_provider=vlm_prov,
-                        include_previous_frame_context=include_prev_frame
-                    )
-                    
+                    try:
+                        effective_provider = vlm_processing.resolve_vlm_provider(vlm_prov)
+                    except Exception as prov_err:
+                        st.error(f"❌ Step 3 failed for {episode_id_base}: {prov_err}")
+                        all_success = False
+                        continue
+
+                    _t0 = time.perf_counter()
+                    success_s3, msg_s3 = _fp_run_step3(episode_id_base, vlm_prov, effective_provider)
+                    utils.record_phase_time(episode_id_base, "step3", time.perf_counter() - _t0, provider=effective_provider)
+
                     current_step += 1
                     progress_bar.progress(current_step / total_steps)
-                    
+
                     if not success_s3:
                         st.error(f"❌ Step 3 failed for {episode_id_base}: {msg_s3}")
                         all_success = False
                         continue
-                    
+
                     logging.info(f"[FULL PIPELINE] Step 3 completed for {episode_id_base}")
-                    
+
                     # STEP 4: IMDB Validation
                     status_text.text(f"🔍 Step 4/4: IMDB validation for {episode_id_base}...")
                     logging.info(f"[FULL PIPELINE] Starting Step 4 for {episode_id_base}")
-                    
-                    from scripts_v3 import imdb_batch_validation
-                    
-                    fuzzy_enabled_val = st.session_state.get('fuzzy_matching_enabled', True)
-                    fuzzy_threshold_val = st.session_state.get('fuzzy_matching_threshold', 90.0)
-                    
-                    disable_fuzzy = (fuzzy_threshold_val >= 100) or (not fuzzy_enabled_val)
-                    
-                    success_s4, msg_s4 = imdb_batch_validation.process_episode(
-                        episode_id_base,
-                        enable_fuzzy=not disable_fuzzy,
-                        fuzzy_threshold=fuzzy_threshold_val
-                    )
-                    
+
+                    _t0 = time.perf_counter()
+                    success_s4, msg_s4 = _fp_run_step4(episode_id_base)
+                    utils.record_phase_time(episode_id_base, "step4", time.perf_counter() - _t0)
+
                     current_step += 1
                     progress_bar.progress(current_step / total_steps)
-                    
+
                     if not success_s4:
                         st.warning(f"⚠️ Step 4 completed with issues for {episode_id_base}: {msg_s4}")
                     else:

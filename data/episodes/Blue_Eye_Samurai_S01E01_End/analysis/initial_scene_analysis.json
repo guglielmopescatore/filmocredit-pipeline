@@ -1,0 +1,820 @@
+{
+    "episode_id": "Blue_Eye_Samurai_S01E01_End",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 1,
+            "original_start_frame": 50,
+            "original_end_frame": 194,
+            "original_start_timecode": "00:00:02.083",
+            "original_end_timecode": "00:00:08.083",
+            "duration_frames": 144,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "WRITTEN BY AMBERI NoizumI & Michael Green"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 57,
+                    "ocr_text": "WRITTEN BY AMBERI NoizumI & Michael Green",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_first_half_frame_57_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 194,
+            "original_end_frame": 308,
+            "original_start_timecode": "00:00:08.083",
+            "original_end_timecode": "00:00:12.833",
+            "duration_frames": 114,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Executive ProduCER MICHAEL GREEN"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 199,
+                    "ocr_text": "Executive ProduCER MICHAEL GREEN",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_first_half_frame_199_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 3,
+            "original_start_frame": 308,
+            "original_end_frame": 428,
+            "original_start_timecode": "00:00:12.833",
+            "original_end_timecode": "00:00:17.833",
+            "duration_frames": 120,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "TAKEI GEORGE AS SeKI"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 314,
+                    "ocr_text": "TAKEI GEORGE AS SeKI",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_003_first_half_frame_314_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 4,
+            "original_start_frame": 428,
+            "original_end_frame": 532,
+            "original_start_timecode": "00:00:17.833",
+            "original_end_timecode": "00:00:22.167",
+            "duration_frames": 104,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "RANDALL PARK SHINDO AS"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 433,
+                    "ocr_text": "RANDALL PARK SHINDO AS",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_004_first_half_frame_433_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 5,
+            "original_start_frame": 532,
+            "original_end_frame": 644,
+            "original_start_timecode": "00:00:22.167",
+            "original_end_timecode": "00:00:26.833",
+            "duration_frames": 112,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "ProducTion DesigNEr"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 537,
+                    "ocr_text": "ProducTion DesigNEr",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_005_first_half_frame_537_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 6,
+            "original_start_frame": 644,
+            "original_end_frame": 728,
+            "original_start_timecode": "00:00:26.833",
+            "original_end_timecode": "00:00:30.333",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "LINE COFRANCESCO"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 648,
+                    "ocr_text": "LINE COFRANCESCO",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_006_first_half_frame_648_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 7,
+            "original_start_frame": 728,
+            "original_end_frame": 800,
+            "original_start_timecode": "00:00:30.333",
+            "original_end_timecode": "00:00:33.333",
+            "duration_frames": 72,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "CAST Eric Brittany Ishibashi - Momo, Brawny Samurai, Naked Man Ragged Female Merchant Marcus Choi - Shindo Samurai I, Matt Yang King - Brawniest Samurai Townsperson, Even Brawnier Samurai Clyde Kusatsu - Elder Domo Holly Chou - ChikI West Liang - Hachi Mark Dacascos - Shindo Samurai 2, ANGRY COOK Daisuke Suzuki - Hulking Teacher Patrick Gallagher - Daichi Gedde Watanabe - Kenzou, Sentry Judah Green - Young Taigen Keone Young - Dojo Master Orli Mariko Green - Young Mizu, Yoshi Ando • Joe CappellettI BULLY KID Junko Goda • James Taku Leung Takaaki Hirakawa - Tengu Crest YumI MizUI Ryan Moriarty Alpha Takahashi - Additional Voices"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 731,
+                    "ocr_text": "CAST Eric Brittany Ishibashi - Momo, Brawny Samurai, Naked Man Ragged Female Merchant Marcus Choi - Shindo Samurai I, Matt Yang King - Brawniest Samurai Townsperson, Even Brawnier Samurai Clyde Kusatsu - Elder Domo Holly Chou - ChikI West Liang - Hachi Mark Dacascos - Shindo Samurai 2, ANGRY COOK Daisuke Suzuki - Hulking Teacher Patrick Gallagher - Daichi Gedde Watanabe - Kenzou, Sentry Judah Green - Young Taigen Keone Young - Dojo Master Orli Mariko Green - Young Mizu, Yoshi Ando • Joe CappellettI BULLY KID Junko Goda • James Taku Leung Takaaki Hirakawa - Tengu Crest YumI MizUI Ryan Moriarty Alpha Takahashi - Additional Voices",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_007_first_half_frame_731_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 8,
+            "original_start_frame": 800,
+            "original_end_frame": 856,
+            "original_start_timecode": "00:00:33.333",
+            "original_end_timecode": "00:00:35.667",
+            "duration_frames": 56,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Jasmine GutIerrez, CSA  VITALE Vocal Consultant Cultural COnsultants Stunt DIRECTOR SUN Eric Rath STORYBOARDS BY Ian Abando Thomas Nelson Ryan O'Loughlin AlAn Wan"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 802,
+                    "ocr_text": "Jasmine GutIerrez, CSA  VITALE Vocal Consultant Cultural COnsultants Stunt DIRECTOR SUN Eric Rath STORYBOARDS BY Ian Abando Thomas Nelson Ryan O'Loughlin AlAn Wan",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_008_first_half_frame_802_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 9,
+            "original_start_frame": 856,
+            "original_end_frame": 912,
+            "original_start_timecode": "00:00:35.667",
+            "original_end_timecode": "00:00:38.000",
+            "duration_frames": 56,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Additional Production Design JASOn WILLIAm SCHeIER Additional Art Direction Gerald de Jesus . Emil Mitev . James Wood Wilson Visual Development Artists Damon Bard Wayne Johnson Miho Tomimasu Grace Kum Vaneda Vireak Yun Ling Kenny Vo McCain MIKE Esther Wu Tim Kallok Bill Perkins"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 858,
+                    "ocr_text": "Additional Production Design JASOn WILLIAm SCHeIER Additional Art Direction Gerald de Jesus . Emil Mitev . James Wood Wilson Visual Development Artists Damon Bard Wayne Johnson Miho Tomimasu Grace Kum Vaneda Vireak Yun Ling Kenny Vo McCain MIKE Esther Wu Tim Kallok Bill Perkins",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_009_first_half_frame_858_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 10,
+            "original_start_frame": 912,
+            "original_end_frame": 996,
+            "original_start_timecode": "00:00:38.000",
+            "original_end_timecode": "00:00:41.500",
+            "duration_frames": 84,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "ProducTIon MaNAGER Paige Coblentz Production SUPERVISORS Rudisill Kimberly Siapno Production Coordinators Manuel Jesse Nieto Jr. Tiffany Chiu OlIVIA POWerS-L1 Jinny Chung Samuel Taylor Sara COok Diana Teran ANDREA FLORES Kimble West BILLIE Rose Newby"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 916,
+                    "ocr_text": "ProducTIon MaNAGER Paige Coblentz Production SUPERVISORS Rudisill Kimberly Siapno Production Coordinators Manuel Jesse Nieto Jr. Tiffany Chiu OlIVIA POWerS-L1 Jinny Chung Samuel Taylor Sara COok Diana Teran ANDREA FLORES Kimble West BILLIE Rose Newby",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_010_second_half_frame_916_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 11,
+            "original_start_frame": 996,
+            "original_end_frame": 1024,
+            "original_start_timecode": "00:00:41.500",
+            "original_end_timecode": "00:00:42.667",
+            "duration_frames": 28,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "EdItorIal / Post Production Assistant Editor Post Production Post Production Coordinator GEORGE SOTo Edwards Yasmeen AbedifArd Post Production Sound SFX Editor Foley Mixer / Foley Editor Foley Artists Leo Marcil Vincent Nicastro Loop Group Director Foley Recordist Matt Wallace Joe CappellettI Dialogue Editor DANIEL SAXLID SCore / Music Music Editor Orchestrator / Additional Music Scoring Mixer Iko Kagasoff Ellie CumminG Alvin Wee Orchestra Music Consultant The Budapest Art Orchestra GABE HILFER"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 997,
+                    "ocr_text": "EdItorIal / Post Production Assistant Editor Post Production Post Production Coordinator GEORGE SOTo Edwards Yasmeen AbedifArd Post Production Sound SFX Editor Foley Mixer / Foley Editor Foley Artists Leo Marcil Vincent Nicastro Loop Group Director Foley Recordist Matt Wallace Joe CappellettI Dialogue Editor DANIEL SAXLID SCore / Music Music Editor Orchestrator / Additional Music Scoring Mixer Iko Kagasoff Ellie CumminG Alvin Wee Orchestra Music Consultant The Budapest Art Orchestra GABE HILFER",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_011_second_half_frame_997_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 12,
+            "original_start_frame": 1024,
+            "original_end_frame": 1136,
+            "original_start_timecode": "00:00:42.667",
+            "original_end_timecode": "00:00:47.333",
+            "duration_frames": 112,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "BLUE SPirIT Productions CHAIRMAN CEO Head of Production OLIVIER LELARDOUX Eric Jacquot General Head of Studios HEAD OF STudIo Josselin Ta Heads of Studio Montreal FINANCIAL CONTroLLER EmiLIe Gaurier MAUD BIZET Production MaNagers ElÉonore  VIRGILE ADministrative/Financial Director Yasir Sadikou PIPELINE AND R&D MANAGER MaitÉ Besson Production Assistant Administration/Finance Officer Caroline Pires Production Process Manager Production Accountants Eve Chancelle Marie Fam Studio Assistant Marine Breau LAeTITIA GOdeC DAVId Munoz"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1029,
+                    "ocr_text": "BLUE SPirIT Productions CHAIRMAN CEO Head of Production OLIVIER LELARDOUX Eric Jacquot General Head of Studios HEAD OF STudIo Josselin Ta Heads of Studio Montreal FINANCIAL CONTroLLER EmiLIe Gaurier MAUD BIZET Production MaNagers ElÉonore  VIRGILE ADministrative/Financial Director Yasir Sadikou PIPELINE AND R&D MANAGER MaitÉ Besson Production Assistant Administration/Finance Officer Caroline Pires Production Process Manager Production Accountants Eve Chancelle Marie Fam Studio Assistant Marine Breau LAeTITIA GOdeC DAVId Munoz",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_012_second_half_frame_1029_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 13,
+            "original_start_frame": 1136,
+            "original_end_frame": 1164,
+            "original_start_timecode": "00:00:47.333",
+            "original_end_timecode": "00:00:48.500",
+            "duration_frames": 28,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Blue SPirit Productions Head of FX Pawnee Defize RENdERING 3D FX SUPERVISOR Antoine MaillÉ LAURENT Aurore Miroslaw 2D & 3D FX SUPERVISOR Thomas Decaens Renaud Guenon GAUTHIER HESBOIS"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1137,
+                    "ocr_text": "Blue SPirit Productions Head of FX Pawnee Defize RENdERING 3D FX SUPERVISOR Antoine MaillÉ LAURENT Aurore Miroslaw 2D & 3D FX SUPERVISOR Thomas Decaens Renaud Guenon GAUTHIER HESBOIS",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_013_second_half_frame_1137_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 14,
+            "original_start_frame": 1164,
+            "original_end_frame": 1248,
+            "original_start_timecode": "00:00:48.500",
+            "original_end_timecode": "00:00:52.000",
+            "duration_frames": 84,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "COMPoSITING 3D FX Artists Manon Berthelot Erwan Baron Victor Burtman Arthur Burtin Alice Chartier ANALLE GIL MAXIME GRENIER Tristan Meuzeret Tristan HÉlaine Jean-Christophe Monnier Kcénia MarescQ Bertrand PouLain AmÉLIE MessieZ-PochE David Rabouan BASTIEN MOGEOT Olivier Thouseau Estelle Tempier MANAGER OF INTERNATIONAL RELATIONS Eleanor Coleman"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1168,
+                    "ocr_text": "COMPoSITING 3D FX Artists Manon Berthelot Erwan Baron Victor Burtman Arthur Burtin Alice Chartier ANALLE GIL MAXIME GRENIER Tristan Meuzeret Tristan HÉlaine Jean-Christophe Monnier Kcénia MarescQ Bertrand PouLain AmÉLIE MessieZ-PochE David Rabouan BASTIEN MOGEOT Olivier Thouseau Estelle Tempier MANAGER OF INTERNATIONAL RELATIONS Eleanor Coleman",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_014_second_half_frame_1168_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 15,
+            "original_start_frame": 1248,
+            "original_end_frame": 1276,
+            "original_start_timecode": "00:00:52.000",
+            "original_end_timecode": "00:00:53.167",
+            "duration_frames": 28,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Homan Chou Aron Eli Coleite Justin Haythe James Liao NoizumI Michael Thorn Yumiko Wilson Production Babies James • Ibissa ObI· TalIA· ZoÉ"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1249,
+                    "ocr_text": "Homan Chou Aron Eli Coleite Justin Haythe James Liao NoizumI Michael Thorn Yumiko Wilson Production Babies James • Ibissa ObI· TalIA· ZoÉ",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_015_second_half_frame_1249_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 16,
+            "original_start_frame": 1276,
+            "original_end_frame": 1304,
+            "original_start_timecode": "00:00:53.167",
+            "original_end_timecode": "00:00:54.333",
+            "duration_frames": 28,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "This film benefited from the French Tax Rebate for International Production. With the Participation of the Province of Ontario production Services Tax Credits. With the participation of the Canadian Film or Video Production Services Tax Credit. ThiS motion picture Is protected under the Laws of the United StateS and OTHER COUNTRIES. ANY UNAUTHORIZED USE MAY RESULT IN CIVIL LIABILITY AND CRIMINAL PROSECUTION. © 2023 NETFLIX SAG·AFTRA Québec Production Services Gestion SODEC Tax Credit FILM FRANCE ONTARIO CREATIF CNC The French Film Commission"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1277,
+                    "ocr_text": "This film benefited from the French Tax Rebate for International Production. With the Participation of the Province of Ontario production Services Tax Credits. With the participation of the Canadian Film or Video Production Services Tax Credit. ThiS motion picture Is protected under the Laws of the United StateS and OTHER COUNTRIES. ANY UNAUTHORIZED USE MAY RESULT IN CIVIL LIABILITY AND CRIMINAL PROSECUTION. © 2023 NETFLIX SAG·AFTRA Québec Production Services Gestion SODEC Tax Credit FILM FRANCE ONTARIO CREATIF CNC The French Film Commission",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_016_second_half_frame_1277_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 17,
+            "original_start_frame": 1304,
+            "original_end_frame": 1364,
+            "original_start_timecode": "00:00:54.333",
+            "original_end_timecode": "00:00:56.833",
+            "duration_frames": 60,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "7777 CONSTRUCTION J.A. GREEN CORP. SINCE 1941"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1307,
+                    "ocr_text": "7777 CONSTRUCTION J.A. GREEN CORP. SINCE 1941",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_017_second_half_frame_1307_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 18,
+            "original_start_frame": 1364,
+            "original_end_frame": 1408,
+            "original_start_timecode": "00:00:56.833",
+            "original_end_timecode": "00:00:58.667",
+            "duration_frames": 44,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "ARTS ENTERTAINMENT"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1366,
+                    "ocr_text": "ARTS ENTERTAINMENT",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_018_second_half_frame_1366_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 22,
+            "original_start_frame": 1479,
+            "original_end_frame": 1521,
+            "original_start_timecode": "00:01:01.625",
+            "original_end_timecode": "00:01:03.375",
+            "duration_frames": 42,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "NETFLI"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1481,
+                    "ocr_text": "NETFLI",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_022_second_half_frame_1481_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 23,
+            "original_start_frame": 1523,
+            "original_end_frame": 1752,
+            "original_start_timecode": "00:01:03.458",
+            "original_end_timecode": "00:01:13.000",
+            "duration_frames": 229,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "SUBSCRIBE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1534,
+                    "ocr_text": "SUBSCRIBE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_023_second_half_frame_1534_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 50,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:02.083",
+            "duration_frames": 50,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 50,
+            "end_frame": 194,
+            "start_timecode": "00:00:02.083",
+            "end_timecode": "00:00:08.083",
+            "duration_frames": 144,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 194,
+            "end_frame": 308,
+            "start_timecode": "00:00:08.083",
+            "end_timecode": "00:00:12.833",
+            "duration_frames": 114,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 308,
+            "end_frame": 428,
+            "start_timecode": "00:00:12.833",
+            "end_timecode": "00:00:17.833",
+            "duration_frames": 120,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 428,
+            "end_frame": 532,
+            "start_timecode": "00:00:17.833",
+            "end_timecode": "00:00:22.167",
+            "duration_frames": 104,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 532,
+            "end_frame": 644,
+            "start_timecode": "00:00:22.167",
+            "end_timecode": "00:00:26.833",
+            "duration_frames": 112,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 6,
+            "start_frame": 644,
+            "end_frame": 728,
+            "start_timecode": "00:00:26.833",
+            "end_timecode": "00:00:30.333",
+            "duration_frames": 84,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 7,
+            "start_frame": 728,
+            "end_frame": 800,
+            "start_timecode": "00:00:30.333",
+            "end_timecode": "00:00:33.333",
+            "duration_frames": 72,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 8,
+            "start_frame": 800,
+            "end_frame": 856,
+            "start_timecode": "00:00:33.333",
+            "end_timecode": "00:00:35.667",
+            "duration_frames": 56,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 9,
+            "start_frame": 856,
+            "end_frame": 912,
+            "start_timecode": "00:00:35.667",
+            "end_timecode": "00:00:38.000",
+            "duration_frames": 56,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 10,
+            "start_frame": 912,
+            "end_frame": 996,
+            "start_timecode": "00:00:38.000",
+            "end_timecode": "00:00:41.500",
+            "duration_frames": 84,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 11,
+            "start_frame": 996,
+            "end_frame": 1024,
+            "start_timecode": "00:00:41.500",
+            "end_timecode": "00:00:42.667",
+            "duration_frames": 28,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 12,
+            "start_frame": 1024,
+            "end_frame": 1136,
+            "start_timecode": "00:00:42.667",
+            "end_timecode": "00:00:47.333",
+            "duration_frames": 112,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 13,
+            "start_frame": 1136,
+            "end_frame": 1164,
+            "start_timecode": "00:00:47.333",
+            "end_timecode": "00:00:48.500",
+            "duration_frames": 28,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 14,
+            "start_frame": 1164,
+            "end_frame": 1248,
+            "start_timecode": "00:00:48.500",
+            "end_timecode": "00:00:52.000",
+            "duration_frames": 84,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 15,
+            "start_frame": 1248,
+            "end_frame": 1276,
+            "start_timecode": "00:00:52.000",
+            "end_timecode": "00:00:53.167",
+            "duration_frames": 28,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 16,
+            "start_frame": 1276,
+            "end_frame": 1304,
+            "start_timecode": "00:00:53.167",
+            "end_timecode": "00:00:54.333",
+            "duration_frames": 28,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 17,
+            "start_frame": 1304,
+            "end_frame": 1364,
+            "start_timecode": "00:00:54.333",
+            "end_timecode": "00:00:56.833",
+            "duration_frames": 60,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 18,
+            "start_frame": 1364,
+            "end_frame": 1408,
+            "start_timecode": "00:00:56.833",
+            "end_timecode": "00:00:58.667",
+            "duration_frames": 44,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 19,
+            "start_frame": 1408,
+            "end_frame": 1413,
+            "start_timecode": "00:00:58.667",
+            "end_timecode": "00:00:58.875",
+            "duration_frames": 5,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 20,
+            "start_frame": 1413,
+            "end_frame": 1429,
+            "start_timecode": "00:00:58.875",
+            "end_timecode": "00:00:59.542",
+            "duration_frames": 16,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 21,
+            "start_frame": 1429,
+            "end_frame": 1445,
+            "start_timecode": "00:00:59.542",
+            "end_timecode": "00:01:00.208",
+            "duration_frames": 16,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 22,
+            "start_frame": 1445,
+            "end_frame": 1448,
+            "start_timecode": "00:01:00.208",
+            "end_timecode": "00:01:00.333",
+            "duration_frames": 3,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 23,
+            "start_frame": 1448,
+            "end_frame": 1479,
+            "start_timecode": "00:01:00.333",
+            "end_timecode": "00:01:01.625",
+            "duration_frames": 31,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 24,
+            "start_frame": 1479,
+            "end_frame": 1521,
+            "start_timecode": "00:01:01.625",
+            "end_timecode": "00:01:03.375",
+            "duration_frames": 42,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 25,
+            "start_frame": 1521,
+            "end_frame": 1523,
+            "start_timecode": "00:01:03.375",
+            "end_timecode": "00:01:03.458",
+            "duration_frames": 2,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 26,
+            "start_frame": 1523,
+            "end_frame": 1752,
+            "start_timecode": "00:01:03.458",
+            "end_timecode": "00:01:13.000",
+            "duration_frames": 229,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2026-07-23T08:28:10.075958"
+}
