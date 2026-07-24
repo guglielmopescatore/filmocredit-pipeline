@@ -1,0 +1,718 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_000_scroll_000_num00150_sim0.jpg",
+          "frame_num": 150,
+          "ocr_text": "UN FILM DE MARJANE SATRAPI ET VINCENT PARONNAUD PRODUIT PAR MARC-ANTOINE ROBERT ET XAVIER RIGAULT AVEC LES VOIX DE : CHIARA MASTROIANNI MARJANE ADOLESCENTE ET ADULTE CATHERINE DENEUVE LA MERE DANIELLE DARRIEUX LA GRAND-MERE SIMON ABKARIAN LE PERE GABRIELLE LOPES MARJANE ENFANT FRANCOIS JEROSME ONCLE ANOUCHE ET LES VOIX DE : SOPHIE ARTHUYS JEAN-FRANCOIS GALLOTTE ARIE ELMALEH MATHIAS MLEKUZ",
+          "ocr_bbox": [
+            536,
+            330,
+            1770,
+            985
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -5.281930923461914,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -5.271655321121216,
+      "roi_percentile_flow": -5.281930923461914,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 177,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_1": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_001_scroll_000_num00196_sim0.jpg",
+          "frame_num": 196,
+          "ocr_text": "UN FILM DE MARJANE SATRAPI ET VINCENT PARONNAUD PRODUIT PAR MARC-ANTOINE ROBERT ET XAVIER RIGAULT AVEC LES VOIX DE CHIARA MASTROIANNI MARJANE ADOLESCENTE ET ADULTE LA MERE CATHERINE DENEUVE DANIELLE DARRIEUX LA GRAND-MERE LE PERE SIMON ABKARIAN GABRIELLE LOPES MARJANE ENFANT FRANCOIS JEROSME ONCLE ANOUCHE ET LES VOIX DE : SOPHIE ARTHUYS JEAN-FRANCOIS GALLOTTE ARIE ELMALEH MATHIAS MLEKUZ ET: SACHA ALLIEL LESCELINE HAASE VIRGINIE ANTICO MARC JOUSSET SYLVAIN AUDI NICOLAS LEROY B\u00c9NEDICTE BATTESTI CANDIDE LOPES",
+          "ocr_bbox": [
+            533,
+            84,
+            1770,
+            1004
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_001_scroll_001_num00346_sim0.jpg",
+          "frame_num": 346,
+          "ocr_text": "SACHA ALLIEL LESCELINE HAASE VIRGINIE ANTICO MARC JOUSSET SYLVAIN AUDI NICOLAS LEROY BENEDICTE BATTESTI CANDIDE LOPES HUBERT BENHAMDINE TILLY MANDELBROT NINON BRETECHER JEAN-CHRISTOPHE MENU JEAN-PHILIPPE CALLET CELINE MERRIEN IDITCEBULA CHARLOTTE MIQUEL CARLOS CHAHINE FARIDA OUCHANI ERIC CHEVALLIER VINCENT PARONNAUD ISABELLE CHIPOT FRANCOISE PAVY JEAN-MARC COUDERC EMMANUEL PAYET FANNY DALLE-RIVE XAVIER RIGAULT FANNY DAURAT GASPARD ROBERT ANNE DELEUZE MARC-ANTOINE ROBERT GILLES DUVAL STEPHANE ROCHE STEPHANE FOENKINOS MARJANE SATRAPI THEO SAMPAIO MARIE GILI-PIERRE FRANCOIS GIRARD DENIS WALGENWITZ DIRECTEUR ARTISTIQUE MER ASSISTANT REALISATEUR MARC JOUSSET DENIS WALGENWITZ",
+          "ocr_bbox": [
+            538,
+            36,
+            1693,
+            1000
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_001_scroll_002_num00496_sim0.jpg",
+          "frame_num": 496,
+          "ocr_text": "FRANCOIS GIRARD DENIS WALGENWITZ DIRECTEUR ARTISTIQUE MER ASSISTANT R\u00c9ALISATEUR MARC JOUSSET DENIS WALGENWITZ COPRODUCTRICE ETATS-UNIS AVEC LA PARTICIPATION DE TARA GRACE TPS STAR PRODUIT AVEC LA COMPLICITE DE REMI BURAH PREPRODUCTION SCENARIMAGE JEAN-CHARLES FINCK ALEXANDRE HESSE ASSISTANT SCENARIMAGE DAVID ETIEN CAROLINE PIOCHON ALICE LIA ALEXIS VENET SCENARIMAGE SUPPLEMENTAIRE BENOIT BAYART ST\u00c9PHANE BEAU ANIMATIC STEPHANE ROCHE",
+          "ocr_bbox": [
+            392,
+            32,
+            1721,
+            1034
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_001_scroll_003_num00646_sim0.jpg",
+          "frame_num": 646,
+          "ocr_text": "SC\u00c9NARIMAGE SUPPL\u00c9MENTAIRE BENOIT BAYART ST\u00c9PHANE BEAU ANIMATIC ST\u00c9PHANE ROCHE ASSISTANT ANIMATIC STAGIAIRE ANIMATIC JOCELYN GALLON MATHIEU ROBERT NICOLAS HAUTE CATHERINE HELMER SUPERVISION RECHERCHES DECORS MARISA MUSY\"ZAZA RECHERCHES DECORS FREDERIC BONIAUD RECHERCHES DECORS SUPPLEMENTAIRES LYONNEL MATHIEU (DIT CIZO) RECHERCHES PERSONNAGES DAMIEN BARRAU THIERRY PERES BENOIT BAYART NILSEN ROBIN",
+          "ocr_bbox": [
+            536,
+            24,
+            1506,
+            1033
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": -5.277986526489258,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -5.278178691864014,
+      "roi_percentile_flow": -5.277986526489258,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 177,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_2": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_002_scroll_000_num00699_sim0.jpg",
+          "frame_num": 699,
+          "ocr_text": "ASSISTANT ANIMATIC STAGIAIRE ANIMATIC JOCELYN GALLON MATHIEU ROBERT NICOLAS HAUTE CATHERINE HELMER SUPERVISION RECHERCHES DECORS MARISAMUSY\"ZAZA * RECHERCHES DECORS FREDERIC BONIAUD RECHERCHES DECORS SUPPLEMENTAIRES LYONNEL MATHIEU (DIT CIZO) RECHERCHES PERSONNAGES DAMIEN BARRAU THIERRY PERES BENOIT BAYART NILSEN ROBIN FRANCK BONAY JING WANG ALICE LIA TEST ANIMATION PREPRODUCTION DAMIEN BARRAU ALEXANDRE HESSE FABRICE FOUQUET NILSEN ROBIN",
+          "ocr_bbox": [
+            187,
+            12,
+            1504,
+            1017
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -5.284212112426758,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -5.275164604187012,
+      "roi_percentile_flow": -5.284212112426758,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 176,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_3": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_003_scroll_000_num00734_sim0.jpg",
+          "frame_num": 734,
+          "ocr_text": "SUPERVISION RECHERCHES DECORS MARISA MUSY\"ZAZA\" RECHERCHES DECORS FREDERIC BONIAUD RECHERCHES DECORS SUPPLEMENTAIRES LYONNEL MATHIEU (DIT CIZO) RECHERCHES PERSONNAGES DAMIEN BARRAU THIERRY PERES BENOIT BAYART NILSEN ROBIN FRANCK BONAY JING WANG ALICE LIA TEST ANIMATION PREPRODUCTION DAMIEN BARRAU ALEXANDRE HESSE FABRICE FOUQUET NILSEN ROBIN CHRISTOPHE FERREIRA JING WANG HABIB LOUATI NICOLAS PAWLOWSKI CASTING DES VOIX",
+          "ocr_bbox": [
+            537,
+            38,
+            1495,
+            1009
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_003_scroll_001_num00884_sim0.jpg",
+          "frame_num": 884,
+          "ocr_text": "FABRICE FOUQUET NILSEN ROBIN CHRISTOPHE FERREIRA JING WANG HABIB LOUATI NICOLAS PAWLOWSKI CASTING DES VOIX SYLVIE PEYRUCQ ASSISTEE D'EMMANUELLE PR\u00c9VOST CONSULTANTE CONSULTANTE PREPRODUCTION CELINE MERRIEN AZIZA GHALILA DETECTION DEPOUILLEMENT SYLVIE GOURGNER JEAN-FRANCOIS RAMOS MINUTAGE TRADUCTION DU SCENARIO GENEVIEVE MABIRE JODI & ANDREW VERITY PRODUCTION DIRECTION DE PRODUCTION SUPERVISION LAYOUT OLIVIER BIZET JING WANG",
+          "ocr_bbox": [
+            390,
+            1,
+            1684,
+            963
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_003_scroll_002_num01034_sim0.jpg",
+          "frame_num": 1034,
+          "ocr_text": "PRODUCTION DIRECTION DE PRODUCTION SUPERVISION LAYOUT OLIVIER BIZET JING WANG LAYOUT DAVID ETIEN GUY QUELQUEJEU FREDERIC MARTIN LAYOUT SUPPLEMENTAIRE ODILE COMON ALEXIS VENET SUPERVISION DECORS MARISA MUSY\"ZAZA DECORS PATRICIA GUILMARD THIERRY MILLION SUPERVISION ANIMATION 2D CHRISTIAN DESMARES ANIMATION 2D DAMIEN BARRAU VIRGINIE HANRIGOU FRANCK BONAY MARIANNE LEBEI",
+          "ocr_bbox": [
+            393,
+            19,
+            1511,
+            1036
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": -5.2806549072265625,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -5.277234077453613,
+      "roi_percentile_flow": -5.2806549072265625,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 177,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_4": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_004_scroll_000_num01092_sim0.jpg",
+          "frame_num": 1092,
+          "ocr_text": "FREDERIC MARTIN LAYOUT SUPPL\u00c9MENTAIRE ODILE COMON ALEXIS VENET SUPERVISION DECORS MARISA MUSY\"ZAZA\" D\u00c9CORS PATRICIA GUILMARD THIERRY MILLION SUPERVISION ANIMATION 2D CHRISTIAN DESMARES ANIMATION2D DAMIEN BARRAU VIRGINIE HANRIGOU FRANCK BONAY MARIANNE LEBEL JEAN-YVES CASTILLON GREGORY LECOCQ ANAIS CHEVILLARD ALICE LIA PATRICK COHEN CHARLOTTE MAZERAN BENOIT MEURZEC ODILE COMON CECILE COULIBEUF DAMIEN MILLEREAU ANTOINE DARTIGE DU FOURNET ADELINE MONIN SANDRA DERVAI NICOL.AS PAWLOWSKI",
+          "ocr_bbox": [
+            537,
+            0,
+            1527,
+            1036
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_004_scroll_001_num01242_sim0.jpg",
+          "frame_num": 1242,
+          "ocr_text": "ANAIS CHEVICCARD ALICE LIA PATRICK COHEN CHARLOTTE MAZERAN ODILE COMON BENOIT MEURZEC C\u00c9CILE COULIBEUF DAMIEN MILLEREAU ANTOINE DARTIGE DU FOURNET ADELINE MONIN SANDRA DERVAL NICOLAS PAWLOWSKI SERGE ELISSALDE JULES STROMBON REMI ZAAROUR FLORIAN FIEBIC EMMANUEL GUILLE ANIMATION FLASH NILSEN ROBIN STEPHANIE DELMAS ANIMATION AFTER FX FRANCOIS LEROY ANIMATION SUPPLEMENTAIRE VERONIQUE LANGDON DENIS VAUTRIN PIERRE MINOUX STAGIAIRES ANIMATION C\u00c9CILE DUBOIS-HERRY ETIENNE MATTERA SUPERVISION ANIMATION EFFETS SP\u00c9CIAUX",
+          "ocr_bbox": [
+            537,
+            0,
+            1528,
+            1035
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -5.28091287612915,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -5.2768988609313965,
+      "roi_percentile_flow": -5.28091287612915,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 177,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_5": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_005_scroll_000_num01342_sim0.jpg",
+          "frame_num": 1342,
+          "ocr_text": "ANIMATION AFTER FX FRANCOIS LEROY * ANIMATION SUPPLEMENTAIRE VERONIQUE LANGDON DENIS VAUTRIN PIERRE MINOUX STAGIAIRES ANIMATION CECILE DUBOIS-HERRY ETIENNE MATTERA SUPERVISION ANIMATION EFFETS SPECIAUX ALEXIS VENET ANIMATION EFFETS SP\u00c9CIAUX PIERRE MINOUX ADELINE MONIN SUPERVISION ASSISTANAT ANIMATION 2D THIERRY PERES ALEXIS VENET ASSISTANATANIMATION 2D KEVIN AUDI-GRIVETTA VERONIQUE LANGDON RICCARDO AUDISIO MARIANNE LEBEL SOPHIE BARADUC GR\u00c9GORY LECOCQ",
+          "ocr_bbox": [
+            234,
+            31,
+            1498,
+            1036
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -5.2769575119018555,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -5.278684616088867,
+      "roi_percentile_flow": -5.2769575119018555,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 177,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_6": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_006_scroll_000_num01366_sim0.jpg",
+          "frame_num": 1366,
+          "ocr_text": "ANIMATION SUPPLEMENTAIRE V\u00c9RONIQUE LANGDON DENIS VAUTRIN PIERRE MINOUX STAGIAIRES ANIMATION CECILE DUBOIS-HERRY ETIENNE MATTERA SUPERVISION ANIMATION EFFETS SP\u00c9CIAUX ALEXIS VENET ANIMATION EFFETS SPECIAUX PIERRE MINOUX ADELINE MONIN SUPERVISION ASSISTANAT ANIMATION 2D THIERRY P\u00c9RES ALEXIS VENET ASSISTANATANIMATION 2D KEVIN AUDI-GRIVETTA V\u00c9RONIQUE LANGDON RICCARDO AUDISIO MARIANNE LEBEL SOPHIE BARADUC GR\u00c9GORY LECOCQ FRANCK BONAY GERALDINE LE MOIGNE ANNE CALANDRE ALICE LIA CLEMENTCEARD PIERRE MINOUX",
+          "ocr_bbox": [
+            537,
+            32,
+            1520,
+            1036
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_006_scroll_001_num01516_sim0.jpg",
+          "frame_num": 1516,
+          "ocr_text": "VERONIQOE CANGDON RICCARDO AUDISIO MARIANNE LEBEL SOPHIE BARADUC GR\u00c9GORY LECOCQ FRANCK BONAY G\u00c9RALDINE LE MOIGNE ANNE CALANDRE ALICE LIA CLEMENT CEARD PIERRE MINOUX PHILIPPE CULAS ETIENNE PINAULT ANTOINE DARTIGE DU FOURNET CHRISTOPHE PINTO * NICOLE DE BELLEFROID MARIELLE RABOURDIN BERNARD DOURDENT MARIE RACCAUD-PERES GR\u00c9GORY DUROY NICOLAS RUEDY DIDIER GOURDIN VAL\u00c9RIE SCHAEFER EMMANUEL GUILLE JULIEN THOMPSON LESCELINE HAASE DENIS VAUTRIN ANNE-MARIE IRLANDE BLIAS YANG ASSISTANAT SUPPLEMENTAIRE JACQUES JARCZYK MIREILLE SARAULT BERTRAND PREVOT SARAH VAN DER BOOM GUILLAUME QUATRAVAUX STAGIAIRES ASSISTANAT SOPHIA CHEVRIER S\u00c9BASTIEN ROUXEL MAEL GOURMELEN",
+          "ocr_bbox": [
+            77,
+            0,
+            1563,
+            1035
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_006_scroll_002_num01666_sim0.jpg",
+          "frame_num": 1666,
+          "ocr_text": "GUILLAUME QUATRAVAUX STAGIAIRES ASSISTANAT SOPHIA CHEVRIER S\u00c9BASTIEN ROUXEL MAEL GOURMELEN SUPERVISION TRACE FRANK MIYET TRACE EMMANUEL BESSON HELENE MERRIEN SALLY BORNOT ANNE-CATHERINE OTT MAUD BUCHWALDER MARYAM PIR VIOLETTA COMPAIN CECILE PRIM AUDREY DELPUECH ARNAUD ROGER ANNIE FAUDEMER NADINE SIDAOUI AURORE GRILLOT SANDRINE STOIANOV LESCELINE HAASE JULIENTHOMPSON GERALDINE LE MOIGNE VIOLETA VASIC JULIETTE LOUBIERES CLAIRE XAVIER ALI MAFAKHERI TRACE SUPPLEMENTAIRE",
+          "ocr_bbox": [
+            536,
+            25,
+            1535,
+            1036
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_006_scroll_003_num01816_sim0.jpg",
+          "frame_num": 1816,
+          "ocr_text": "G\u00c9RALDINE LE MOIGNE VIOLETA VASIC JULIETTE LOUBIERES CLAIRE XAVIER ALI MAFAKHERI TRACE SUPPLEMENTAIRE CYRIL ESTIENNE HOMA NIKNAM SUPERVISION ANIMATION 3D AHMIDOU LYAZIDI ANIMATION 3D DAVID GALANTE NATHALIE MATHE BRUNE-EVALIE HELIE OPERATRICES LINETEST YOVANAH RUNGASAWMY BLIAS YANG SUPERVISION SCAN, MISE EN COULEURS & COMPOSITING TOONZ MARION CREPEL OPERATEURS SCAN \"JIMMY \" CAPRON",
+          "ocr_bbox": [
+            535,
+            21,
+            1654,
+            990
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": -5.279432773590088,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -5.277831077575684,
+      "roi_percentile_flow": -5.279432773590088,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 177,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_7": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_007_scroll_000_num01932_sim0.jpg",
+          "frame_num": 1932,
+          "ocr_text": "OP\u00c9RATRICES LINETEST YOVANAH RUNGASAWMY BLIAS YANG SUPERVISION SCAN, MISE EN COULEURS & COMPOSITING TOONZ MARION CREPEL OPERATEURS SCAN JIMMY\" CAPRON MISE EN COULEURS * LARA BELLINI ARNAUD MORITZ GERALDINE LE MOIGNE COMPOSITING TOONZ SYLVIE ATTORRESI\" TOTO \" FABRICE RENAUDIN SUPERVISION COMPOSITING AFTER EFFECTS ST\u00c9PHANE ROCHE COMPOSITING AFTER EFFECTS JEAN- YVES CASTILLON JEAN-PAUL GUIGUE SERGE CRESTE FRANCOIS LEROY DAMIEN GAILLARDON PIERRE MINOUX",
+          "ocr_bbox": [
+            27,
+            19,
+            1653,
+            1030
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -5.261117935180664,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -5.2708001136779785,
+      "roi_percentile_flow": -5.261117935180664,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 177,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_8": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_008_scroll_000_num01955_sim0.jpg",
+          "frame_num": 1955,
+          "ocr_text": "SUPERVISION SCAN, MISE EN COULEURS & COMPOSITING TOONZ MARION CREPEL OPERATEURS SCAN JIMMY\" CAPRON MISE EN COULEURS LARA BELLINI ARNAUD MORITZ GERALDINE LE MOIGNE COMPOSITING TOONZ SYLVIE ATTORRESI\" TOTO\" FABRICE RENAUDIN SUPERVISION COMPOSITING AFTER EFFECTS * STEPHANE ROCHE COMPOSITING AFTER EFFECTS JEAN- YVES CASTILLON JEAN-PAUL GUIGUE * SERGE CRESTE FRANCOIS LEROY DAMIEN GAILLARDON PIERRE MINOUX CHEF MONTEUR MONTAGE ST\u00c9PHANE ROCHE FRANCOIS NABOS",
+          "ocr_bbox": [
+            0,
+            33,
+            1652,
+            1036
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -5.264760971069336,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -5.26689338684082,
+      "roi_percentile_flow": -5.264760971069336,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 177,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_9": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_009_scroll_000_num01982_sim0.jpg",
+          "frame_num": 1982,
+          "ocr_text": "OPERATEURS SCAN JIMMY \" CAPRON * MISE EN COULEURS LARA BELLINI ARNAUD MORITZ GERALDINE LE MOIGNE COMPOSITING TOONZ SYLVIE ATTORRESI\" TOTO\" FABRICE RENAUDIN SUPERVISION COMPOSITING AFTER EFFECTS ST\u00c9PHANE ROCHE COMPOSITING AFTER EFFECTS JEAN- YVES CASTILLON JEAN-PAUL GUIGUE SERGE CRESTE FRANCOIS LEROY DAMIEN GAILLARDON PIERRE MINOUX CHEF MONTEUR MONTAGE ST\u00c9PHANE ROCHE FRANCOIS NABOS PHOTOGRAPHE FRANCOIS GIRARD",
+          "ocr_bbox": [
+            11,
+            17,
+            1470,
+            1032
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -5.269855976104736,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -5.267705917358398,
+      "roi_percentile_flow": -5.269855976104736,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 177,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_10": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_010_scroll_000_num02009_sim0.jpg",
+          "frame_num": 2009,
+          "ocr_text": "MISE EN COULEURS LARA BELLINI ARNAUD MORITZ G\u00c9RALDINE LE MOIGNE COMPOSITING TOONZ SYLVIE ATTORRESI\" TOTO\" FABRICE RENAUDIN SUPERVISION COMPOSITING AFTER EFFECTS ST\u00c9EPHANE ROCHE COMPOSITING AFTER EFFECTS JEAN- YVES CASTILLON JEAN-PAUL GUIGUE SERGE CRESTE FRANCOIS LEROY DAMIEN GAILLARDON PIERRE MINOUX CHEF MONTEUR MONTAGE STEPHANE ROCHE FRANCOIS NABOS PHOTOGRAPHE FRANCOIS GIRARD ASSISTANTE DE PRODUCTION 2,4.7. FILMS LAURENCE M\u00c9OC",
+          "ocr_bbox": [
+            538,
+            9,
+            1470,
+            1017
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_010_scroll_001_num02159_sim0.jpg",
+          "frame_num": 2159,
+          "ocr_text": "PHOTOGRAPHE FRANCOIS GIRARD ASSISTANTE DE PRODUCTION 2.4.7. FILMS LAURENCE MEOC POSTPRODUCTION DIRECTRICE DE LA POSTPRODUCTION CHRISTINA CRASSARIS ASSIST\u00c9E DE FABIEN GUIGOU TRAVAUX SONORES SUPERVISES PAR BONLOGNE ENREGISTREMENT DES VOIX ET (Andisde) MIXAGE R\u00c9ALISES PAR MIXAGE THIERRY LEBON SAMY BARDET MONTAGE SON",
+          "ocr_bbox": [
+            389,
+            5,
+            1489,
+            1015
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -5.28184700012207,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -5.276321887969971,
+      "roi_percentile_flow": -5.28184700012207,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 177,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_11": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_011_scroll_000_num02252_sim0.jpg",
+          "frame_num": 2252,
+          "ocr_text": "ASSISTEE DE FABIEN GUIGOU TRAVAUX SONORES SUPERVISES PAR BONLOGNE ENREGISTREMENT DES VOIX ET (Andis de MIXAGE REALISES PAR MIXAGE THIERRY LEBON SAMY BARDET MONTAGE SON ERIC CHEVALLIER SAMY BARDET ENREGISTREMENT DES VOIX OPERATEUR AUDITORIUM ERIC CHEVALLIER JEAN-PHILIPPE CALLET JEAN-ALEXANDER VILLEMER BRUITAGES JOHANN NALLET PHILIPPE PENOT JACQUES DEFRANCE MUSIQUE ENREGISTR\u00c9E AU STUDIO",
+          "ocr_bbox": [
+            536,
+            0,
+            1634,
+            975
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -5.296424865722656,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -5.285427093505859,
+      "roi_percentile_flow": -5.296424865722656,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 176,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_12": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_012_scroll_000_num02321_sim0.jpg",
+          "frame_num": 2321,
+          "ocr_text": "THIERRY LEBON SAMY BARDET * MONTAGE SON ERIC CHEVALLIER SAMY BARDET ENREGISTREMENT DES VOIX OPERATEUR AUDITORIUM ERIC CHEVALLIER JEAN-PHILIPPE CALLET JEAN-ALEXANDER VILLEMER BRUITAGES JOHANN NALLET PHILIPPE PENOT JACQUES DEFRANCE MUSIQUE ENREGISTR\u00c9E AU STUDIO X amanitarecords MUSIQUE ORIGINALE COMPOSEE, ORCHESTREE ET DIRIGEE PAR OLIVIER BERNET MUSIQUES ADDITIONNELLES : \" EYE OF THE TIGER \" JAMES PETERIK / FRANCK SUL",
+          "ocr_bbox": [
+            0,
+            9,
+            1767,
+            1036
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_012_scroll_001_num02471_sim0.jpg",
+          "frame_num": 2471,
+          "ocr_text": "MUSIQUES ADDITIONNELLES \" EYE OF THE TIGER JAMES PETERIK / FRANCK SULLIVAN III \u00a9 THREE WISE BOYS MUSIC / ENSIGN MUSIC CORP/ C/O BMG MUSIC PUBUISHING FRANCE \u00a9 WB MUSIC CORP / EASY ACTION MUSIC AVEC L'AUTORISATION DE WARNER CHAPPELL MUSIC FRANCE ET DE BMG MUSIC VISION INTERPRETEE PAR CHIARA MASTROLANNI, ARRANGEMENTS PAR OLINIERBERNET MARCHE PERSANNE * JOHANN STRAUSS ARRANGEMENTS PAR OLIVER BERNET ROSES DU SUD JOHANN STRAUSS ARRANGEMENTSPAR OLIVER BERNET CHANSON DU GENERIQUE DE FIN IWNTERPRETEE PAR MARJANE SATRAPI",
+          "ocr_bbox": [
+            157,
+            48,
+            1766,
+            986
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -5.275783061981201,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -5.276879787445068,
+      "roi_percentile_flow": -5.275783061981201,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 177,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_13": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_013_scroll_000_num02616_sim0.jpg",
+          "frame_num": 2616,
+          "ocr_text": "JOHANN  STRAUSS ARRANGEMENTS PAR OLIVER BERNET CHANSON DU GENERIQUE DE FW INTERPRETEE PAR MARJANE SATRAPI ORCHESTRATION OLIVIER BERNET PRISE DE SON ET MIXAGE STEPHANE KRIEGER CHRISTIAN ADURIZ MUSICIENS MAITANE S\u00c9BASTIAN: VIOLONCELLE, VOIX SOPHIE BOUSQUET : FL\u00dcTE TRAVERSIERE, FLUTE BASSE MARIANNEEVA LECLER HARPE GILLES RUPERT : VIOLON, VIOLON ALTO BENOIT GUERIN : BATTERIE, XYLOPHONE CEDRIC PRIVE: VIOLON GILLES LAHONDA : GUITARE ACOUSTIQUE & \u00c9LECTRIQUE ST\u00c9PHANE GARIN PERCUSSIONS, BATTERIE JUANA ETCHEGOIN FL\u00dcTE PIERRE BLANCHUT DAF, ZARB, SANTUR",
+          "ocr_bbox": [
+            536,
+            17,
+            1761,
+            1032
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_013_scroll_001_num02766_sim0.jpg",
+          "frame_num": 2766,
+          "ocr_text": "CEDRIC PRIVE : VIOLON X GILLES LAHONDA : GUITARE ACOUSTIQUE & \u00c9LECTRIQUE STEPHANE GARIN : PERCUSSIONS, BATTERIE * JUANA ETCHEGOIN : FL\u00dcTE PIERRE BLANCHUT DAF, ZARB, SANTUR XAVIER HAYET : CONTREBASSE ST\u00c9PHANE KRIEGER GUITARE BARITONE VICTOR MARCO : GUITARE \u00c9LECTRIQUE VINCENTPARONNAUD BASSE, VOIX STEVE ARTUR : PROGRAMMATIONS JEAN-CHRISTOPHE POURCEL ORGUE OLIVIER BERNET GUITARE ACOUSTIQUE, \u00c9LECTRIQUE & BARYTON, TAR, BASSE \u00c9LECTRIQUE, VOIX, PIANO, ORGUE, BATTERIE, SYNTHETISEUR ANALOGIQUE, UKULELE LABORATOIRES IMAGES L.T.C SCANLAB ETALONNEUR PHOTOCHIMIQUE SUPERVISION DE POSTPRODUCTION CHRISTIAN DUTAC ANGELIQUE MUGUET",
+          "ocr_bbox": [
+            40,
+            12,
+            1771,
+            1030
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 2,
+      "median_flow_px_per_frame": -5.279012680053711,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -5.2779035568237305,
+      "roi_percentile_flow": -5.279012680053711,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 177,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_14": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_014_scroll_000_num02869_sim0.jpg",
+          "frame_num": 2869,
+          "ocr_text": "BARYTON, TAR, BASSE ELECTRIQUE VOIX, PIANO, ORGUE, BATTERIE, ** SYNTHETISEUR ANALOGIQUE, UKULELE LABORATOIRES IMAGES L.T.C ESCANLAB ETALONNEUR PHOTOCHIMIQUE DE SUPERVISION POSTPRODUCTION CHRISTIAN  DUTAC ANG\u00c9LIQUE MUGUET CYRIL VONCK CHARGE DE PROJET LTC OLIVIER GRAVENHORST CHARGES DE PROJET SCANLAB BENOIT HAY ANAI CABANES REPORT OPTIQUE OPERATEURS NUMERIQUE CINE STEREO PIERRE MADROLLES RUDY SIESS MAKING OF MARIE COGNE SIMON SASTRE",
+          "ocr_bbox": [
+            0,
+            0,
+            1769,
+            1009
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -5.26784610748291,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -5.2600202560424805,
+      "roi_percentile_flow": -5.26784610748291,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 177,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_15": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_015_scroll_000_num02908_sim0.jpg",
+          "frame_num": 2908,
+          "ocr_text": "LABORATOIRES IMAGES L.T.C ZSCANLAB DE ETALONNEUR PHOTOCHIMIQUE SUPERVISION POSTPRODUCTION CHRISTIAN DUTAC ANGELIQUE MUGUET CYRIL VONCK CHARGE DE PROJET LTC OLIVIER GRAVENHORST CHARGES DE PROJET SCANLAB * BENOIT HAY ANAI CABANES REPORT OPTIQUE OPERATEURS NUMERIQUE CINE STEREO PIERRE MADROLLES RUDY SIESS * MAKING OF MARIE COGNE SIMON SASTRE FRANCHE CONNECTION ANIMATIONS CHEF COMPTABLE",
+          "ocr_bbox": [
+            5,
+            14,
+            1766,
+            1021
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -5.275616645812988,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -5.270222187042236,
+      "roi_percentile_flow": -5.275616645812988,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 177,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_16": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_016_scroll_000_num02925_sim0.jpg",
+          "frame_num": 2925,
+          "ocr_text": "L.T.C SCANLAB ETALONNEUR SUPERVISION DE POSTPRODUCTION PHOTOCHIMIQUE CHRISTIAN DUTAC ANGELIQUE MUGUET CYRIL VONCK * CHARGE DE PROJET LTC OLIVIER GRAVENHORST CHARGES DE PROJET SCANLAB BENOIT HAY ANAI CABANES REPORT OPTIQUE OPERATEURS NUMERIQUE CINE STEREO PIERRE MADROLLES RUDY SIESS MAKING OF MARIE COGNE SIMON SASTRE FRANCHE CONNECTION ANIMATIONS CHEF COMPTABLE DELPHINE PORTHEAULT",
+          "ocr_bbox": [
+            203,
+            0,
+            1766,
+            973
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -5.283255577087402,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": -5.274135589599609,
+      "roi_percentile_flow": -5.283255577087402,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 176,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_17": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_017_scroll_000_num02943_sim0.jpg",
+          "frame_num": 2943,
+          "ocr_text": "ETALONNEUR PHOTOCHIMIQUE SUPERVISION DE POSTPRODUCTION CHRISTIAN DUTAC ANGELIQUE MUGUET CYRIL VONCK CHARGE DE PROJET LTC CHARGES DE PROJET SCANLAB OLIVIER GRAVENHORST BENOIT HAY ANAI CABANES REPORT OPTIQUE OPERATEURS NUMERIQUE CINE STEREO PIERRE MADROLLES RUDY SIESS MAKING OF MARIE COGNE SIMON SASTRE ** FRANCHE CONNECTION ANIMATIONS CHEF COMPTABLE DELPHINE PORTHEAULT COMPTABLES LATIFA BERHILI AUDREY MONTIS",
+          "ocr_bbox": [
+            0,
+            4,
+            1766,
+            1011
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_017_scroll_001_num03093_sim0.jpg",
+          "frame_num": 3093,
+          "ocr_text": "CHEF COMPTABLE DELPHINE PORTHEAULT COMPTABLES LATIFA BERHILI AUDREY MONTIS LAETITIA FERREIRA HATIKA VELASCO DIRECTEUR FINANCIER CONTR\u00d6LE DE GESTION ANTONIO VELASCO B\u00c9ATRICE LEUNG ACHATS * SYLVAIN LODOME YOVANAH RUNGASAWMY JE SUIS BIEN CONTENT PRODUCTEUR EX\u00c9CUTIF DE L'ANIMATION MARC JOUSSET PRODUCTEUR ASSOCIE FRANCK EKINCI",
+          "ocr_bbox": [
+            260,
+            0,
+            1527,
+            961
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_017_scroll_002_num03243_sim0.jpg",
+          "frame_num": 3243,
+          "ocr_text": "MARC JOUSSET PRODUCTEUR ASSOCIE FRANCK EKINCI PUMPKIN-3D PRODUCTEUR EX\u00c9CUTIF DE L'ANIMATION PASCAL CHEVE PRODUCTEUR ASSOCIE LOUIS VIAU RESPONSABLE R&D ADMINISTRATEUR SYSTEME LOiC LE PAGE ALEX FOULON SUPPORT UTILISATEURS SUPPORT HARDWARE JEAN-FR\u00c9DERIC GONZALEZ FABRICE BALZARINI TECHNICIENS SYSTEME MICKAEL FERREIRA MICKA\u00c9L MASSOT- PELLET LIONEL CHAUPARD",
+          "ocr_bbox": [
+            390,
+            1,
+            1648,
+            1001
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_017_scroll_003_num03393_sim0.jpg",
+          "frame_num": 3393,
+          "ocr_text": "JEAN-FREDERIC GONZALEZ FABRICE BALZARINI TECHNICIENS SYSTEME MICKAEL FERREIRA MICKAEL MASSOT-PELLET LIONEL CHAUPARD STAGIAIRE SEBASTIEN LONJON CHEF DE PROJET DEVELOPPEMENT CYRIL COSENZA ** INGENIEURS DEVELOPPEMENT SYLVAIN AUDI YAACOV COHEN STAGIAIRE VALENTIN CAPIAU * AVOCAT CHARLES-EDOUARD RENAULT ATTACHES DE PRESSE VENTES INTERNATIONALES JER\u00d6ME JOUNEAUX the directors label CELULO10 ISABELLE DUVOISIN",
+          "ocr_bbox": [
+            14,
+            0,
+            1613,
+            1035
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_017_scroll_004_num03543_sim0.jpg",
+          "frame_num": 3543,
+          "ocr_text": "AVOCA CHARLES-EDOUARD RENAULT ATTACH\u00c9S DE PRESSE VENTES INTERNATIONALES J\u00c9R\u00d6ME JOUNEAUX the directors label CELLULO10 ISABELLE DUVOISIN MATTHIEU REY * AVEC LE SOUTIEN DE LA REGION ILE-DE-FRANCE DOLBY DIGITAL IN SELECTED THEATRES COPYRIGHT 2OO7 : 2.4.7.FILMS FRANCE 3 CIN\u00c9MA VISA D'EXPLOITATION N\u00b0 1A2 904",
+          "ocr_bbox": [
+            43,
+            0,
+            1612,
+            875
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_017_scroll_005_num03693_sim0.jpg",
+          "frame_num": 3693,
+          "ocr_text": "VISA D'EXPLOITATION N\u00b0 112 9O4 Godzilla is a copyrighted character belonging to and a trademark of Toho Co., Ltd.",
+          "ocr_bbox": [
+            230,
+            39,
+            1677,
+            834
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_017_scroll_006_num03843_sim0.jpg",
+          "frame_num": 3843,
+          "ocr_text": "SONY PICTURES CLASSICS",
+          "ocr_bbox": [
+            444,
+            457,
+            1469,
+            536
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_End\\analysis\\frames\\scene_017_scroll_007_num03993_sim0.jpg",
+          "frame_num": 3993,
+          "ocr_text": "SONY PICTURES CLASSICS",
+          "ocr_bbox": [
+            445,
+            457,
+            1468,
+            536
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 8,
+      "median_flow_px_per_frame": -5.267260551452637,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": -5.267260551452637,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 177,
+      "target_scroll_ratio": 0.9
+    }
+  }
+}

@@ -1,0 +1,6412 @@
+[
+  {
+    "role_detail": "Directed by",
+    "name": "Francis Ford Coppola",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_000_static_001_num00135_sim100.jpg"
+    ],
+    "original_frame_number": [
+      135
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Produced by",
+    "name": "Francis Ford Coppola",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_static_001_num00135_sim100.jpg",
+      "scene_000_static_100_num09705_sim85.jpg"
+    ],
+    "original_frame_number": [
+      135,
+      9705
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Written by",
+    "name": "John Milius",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_000_static_002_num00300_sim54.jpg"
+    ],
+    "original_frame_number": [
+      300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Written by",
+    "name": "Francis Ford Coppola",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_000_static_002_num00300_sim54.jpg"
+    ],
+    "original_frame_number": [
+      300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Narration by",
+    "name": "Michael Herr",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_002_num00300_sim54.jpg"
+    ],
+    "original_frame_number": [
+      300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "MARLON BRANDO",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_004_num00540_sim29.jpg"
+    ],
+    "original_frame_number": [
+      540
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "ROBERT DUVALL",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_005_num00660_sim31.jpg"
+    ],
+    "original_frame_number": [
+      660
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "MARTIN SHEEN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_006_num00780_sim24.jpg"
+    ],
+    "original_frame_number": [
+      780
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "A MIRAMAX FILMS RELEASE",
+    "name": "Miramax Films",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_000_static_007_num00885_sim30.jpg"
+    ],
+    "original_frame_number": [
+      885
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CO-PRODUCED BY",
+    "name": "Fred Roos",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_static_008_num01230_sim25.jpg"
+    ],
+    "original_frame_number": [
+      1230
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CO-PRODUCED BY",
+    "name": "Gray Frederickson",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_static_008_num01230_sim25.jpg"
+    ],
+    "original_frame_number": [
+      1230
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CO-PRODUCED BY",
+    "name": "Tom Sternberg",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_static_008_num01230_sim25.jpg"
+    ],
+    "original_frame_number": [
+      1230
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CINEMATOGRAPHY BY",
+    "name": "Vittorio Storaro",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_000_static_009_num01365_sim38.jpg"
+    ],
+    "original_frame_number": [
+      1365
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION DESIGNER",
+    "name": "DEAN TAVOULARIS",
+    "role_group": "Production Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Designers",
+    "source_frame": [
+      "scene_000_static_010_num01470_sim37.jpg"
+    ],
+    "original_frame_number": [
+      1470
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ALSO STARRING",
+    "name": "FREDERIC FORREST",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_011_num01575_sim40.jpg"
+    ],
+    "original_frame_number": [
+      1575
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "ALBERT HALL",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_012_num01680_sim29.jpg"
+    ],
+    "original_frame_number": [
+      1680
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "SAM BOTTOMS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_013_num01785_sim36.jpg"
+    ],
+    "original_frame_number": [
+      1785
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "LARRY FISHBURNE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_014_num01890_sim23.jpg"
+    ],
+    "original_frame_number": [
+      1890
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "AND",
+    "name": "DENNIS HOPPER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_015_num01995_sim31.jpg"
+    ],
+    "original_frame_number": [
+      1995
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CO-STARRING",
+    "name": "G.D. SPRADLIN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_016_num02100_sim38.jpg",
+      "scene_000_static_089_num08730_sim97.jpg"
+    ],
+    "original_frame_number": [
+      2100,
+      8730
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CO-STARRING",
+    "name": "HARRISON FORD",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_016_num02100_sim38.jpg"
+    ],
+    "original_frame_number": [
+      2100
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "COLLEEN CAMP",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_017_num02235_sim30.jpg",
+      "scene_000_static_090_num08760_sim44.jpg"
+    ],
+    "original_frame_number": [
+      2235,
+      8760
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "CYNTHIA WOOD",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_017_num02235_sim30.jpg",
+      "scene_000_static_090_num08760_sim44.jpg"
+    ],
+    "original_frame_number": [
+      2235,
+      8760
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "CHRISTIAN MARQUAND",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_018_num02355_sim38.jpg"
+    ],
+    "original_frame_number": [
+      2355
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "AURORE CLEMENT",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_018_num02355_sim38.jpg"
+    ],
+    "original_frame_number": [
+      2355
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SUPERVISING EDITOR",
+    "name": "RICHARD MARKS",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_019_num02475_sim35.jpg"
+    ],
+    "original_frame_number": [
+      2475
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "EDITORS",
+    "name": "WALTER MURCH",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_000_static_019_num02475_sim35.jpg"
+    ],
+    "original_frame_number": [
+      2475
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "EDITORS",
+    "name": "GERALD D. GREENBERG",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_000_static_019_num02475_sim35.jpg"
+    ],
+    "original_frame_number": [
+      2475
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "EDITORS",
+    "name": "LISA FRUCHTMAN",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_000_static_019_num02475_sim35.jpg"
+    ],
+    "original_frame_number": [
+      2475
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSOCIATE PRODUCER",
+    "name": "MONA SKAGER",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_static_020_num02640_sim43.jpg"
+    ],
+    "original_frame_number": [
+      2640
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CREATIVE CONSULTANT",
+    "name": "DENNIS JAKOB",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_020_num02640_sim43.jpg"
+    ],
+    "original_frame_number": [
+      2640
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Music by",
+    "name": "CARMINE COPPOLA",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_000_static_021_num02775_sim38.jpg"
+    ],
+    "original_frame_number": [
+      2775
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Music by",
+    "name": "FRANCIS FORD COPPOLA",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_000_static_021_num02775_sim38.jpg"
+    ],
+    "original_frame_number": [
+      2775
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SOUND MONTAGE AND DESIGN",
+    "name": "WALTER MURCH",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_022_num02895_sim37.jpg",
+      "scene_000_static_040_num04485_sim91.jpg"
+    ],
+    "original_frame_number": [
+      2895,
+      4485
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "SPECIAL ASSISTANT TO THE PRODUCERS",
+    "name": "DOUG CLAYBOURNE",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_025_num03060_sim91.jpg"
+    ],
+    "original_frame_number": [
+      3060
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "EXECUTIVE ASSISTANTS",
+    "name": "MELISSA MATHISON",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_025_num03060_sim91.jpg"
+    ],
+    "original_frame_number": [
+      3060
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "EXECUTIVE ASSISTANTS",
+    "name": "JACK FRITZ",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_025_num03060_sim91.jpg"
+    ],
+    "original_frame_number": [
+      3060
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Music Produced by",
+    "name": "David Rubinson",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_026_num03135_sim31.jpg"
+    ],
+    "original_frame_number": [
+      3135
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ART DIRECTOR",
+    "name": "ANGELO GRAHAM",
+    "role_group": "Art Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Directors",
+    "source_frame": [
+      "scene_000_static_027_num03255_sim34.jpg"
+    ],
+    "original_frame_number": [
+      3255
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SET DECORATOR",
+    "name": "GEORGE R. NELSON",
+    "role_group": "Set Decorators",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Set Decorators",
+    "source_frame": [
+      "scene_000_static_027_num03255_sim34.jpg"
+    ],
+    "original_frame_number": [
+      3255
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION MANAGERS",
+    "name": "LEON CHOOLLUCK",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_000_static_028_num03375_sim38.jpg"
+    ],
+    "original_frame_number": [
+      3375
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION MANAGERS",
+    "name": "BARRIE OSBORNE",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_000_static_028_num03375_sim38.jpg"
+    ],
+    "original_frame_number": [
+      3375
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT DIRECTOR",
+    "name": "JERRY ZIESMER",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_000_static_029_num03495_sim30.jpg"
+    ],
+    "original_frame_number": [
+      3495
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "2ND ASSISTANT DIRECTOR",
+    "name": "LARRY J. FRANCO",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_000_static_029_num03495_sim30.jpg"
+    ],
+    "original_frame_number": [
+      3495
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ADDITIONAL ASSISTANT DIRECTOR",
+    "name": "TONY BRANDT",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_000_static_029_num03495_sim30.jpg"
+    ],
+    "original_frame_number": [
+      3495
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MASTER SYNTHESIST",
+    "name": "PATRICK GLEESON",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_031_num03660_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3660
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SYNTHESISTS",
+    "name": "RICHARD REEDS",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_031_num03660_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3660
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SYNTHESISTS",
+    "name": "BERNHARD L. KRAUSE",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_031_num03660_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3660
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SYNTHESISTS",
+    "name": "PAUL WESTON",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_031_num03660_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3660
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SYNTHESISTS",
+    "name": "SHIRLEY WALKER",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_031_num03660_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3660
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SYNTHESISTS",
+    "name": "RYLE STENBER",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_031_num03660_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3660
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "E.M.I. SOLOIST GUITARIST",
+    "name": "RANDY HANSEN",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_031_num03660_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3660
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PERCUSSION BASED SCORE",
+    "name": "MICKEY HART",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_031_num03660_sim99.jpg"
+    ],
+    "original_frame_number": [
+      3660
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "MUSIC PRODUCTION ASSISTANCE",
+    "name": "AIRTO MOREIRA",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_033_num04005_sim96.jpg"
+    ],
+    "original_frame_number": [
+      4005
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MUSIC PRODUCTION ASSISTANCE",
+    "name": "MICHAEL HILTON",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_033_num04005_sim96.jpg"
+    ],
+    "original_frame_number": [
+      4005
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PERFORMED WITH",
+    "name": "THE DAYTON DEVILS",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_033_num04005_sim96.jpg"
+    ],
+    "original_frame_number": [
+      4005
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PERFORMED WITH",
+    "name": "JORDANIAN AMARANTINA",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_033_num04005_sim96.jpg"
+    ],
+    "original_frame_number": [
+      4005
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PERFORMED WITH",
+    "name": "CREE ERICO",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_033_num04005_sim96.jpg"
+    ],
+    "original_frame_number": [
+      4005
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PERFORMED WITH",
+    "name": "ZAKIO RUSSAIAN",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_033_num04005_sim96.jpg"
+    ],
+    "original_frame_number": [
+      4005
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PERFORMED WITH",
+    "name": "BILLY KREUZMANN",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_033_num04005_sim96.jpg"
+    ],
+    "original_frame_number": [
+      4005
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PERFORMED WITH",
+    "name": "PHIL LEVIN",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_033_num04005_sim96.jpg"
+    ],
+    "original_frame_number": [
+      4005
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PERFORMED WITH",
+    "name": "JIM LOVLESS",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_033_num04005_sim96.jpg"
+    ],
+    "original_frame_number": [
+      4005
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS TO",
+    "name": "ELDA PURIN",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_static_033_num04005_sim96.jpg"
+    ],
+    "original_frame_number": [
+      4005
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CAMERA OPERATOR",
+    "name": "ENRICO GOMITELLI",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_036_num04215_sim91.jpg"
+    ],
+    "original_frame_number": [
+      4215
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CAMERA ASSISTANTS",
+    "name": "BRUNO SEBBARDINI",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_036_num04215_sim91.jpg"
+    ],
+    "original_frame_number": [
+      4215
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CAMERA ASSISTANTS",
+    "name": "MARIO MARCHETTI",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_036_num04215_sim91.jpg"
+    ],
+    "original_frame_number": [
+      4215
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CAMERA ASSISTANTS",
+    "name": "FRANCO LAZIO",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_036_num04215_sim91.jpg"
+    ],
+    "original_frame_number": [
+      4215
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CAMERA ASSISTANTS",
+    "name": "ROBERTO DE LA RAMA",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_036_num04215_sim91.jpg"
+    ],
+    "original_frame_number": [
+      4215
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CAMERA ASSISTANTS",
+    "name": "GIUSEPPE ALBERTI",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_036_num04215_sim91.jpg"
+    ],
+    "original_frame_number": [
+      4215
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "2ND UNIT DIRECTOR OF PHOTOGRAPHY",
+    "name": "STEPHEN M. BURTON",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_000_static_036_num04215_sim91.jpg"
+    ],
+    "original_frame_number": [
+      4215
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "INSERT DIRECTOR OF PHOTOGRAPHY",
+    "name": "CALEB DESCHANEL",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_000_static_037_num04245_sim53.jpg"
+    ],
+    "original_frame_number": [
+      4245
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "2ND UNIT CAMERAMAN",
+    "name": "PIERO SERVO",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_037_num04245_sim53.jpg"
+    ],
+    "original_frame_number": [
+      4245
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "INSERT CAMERA OPERATOR",
+    "name": "HIRO HARITA",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_037_num04245_sim53.jpg"
+    ],
+    "original_frame_number": [
+      4245
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "STILL PHOTOGRAPHERS",
+    "name": "CHAS GEFFRETSEN",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_037_num04245_sim53.jpg"
+    ],
+    "original_frame_number": [
+      4245
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "STILL PHOTOGRAPHERS",
+    "name": "JOSH WEINER",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_037_num04245_sim53.jpg"
+    ],
+    "original_frame_number": [
+      4245
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "AERIAL COORDINATORS",
+    "name": "DICK WHITE",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_037_num04245_sim53.jpg"
+    ],
+    "original_frame_number": [
+      4245
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "AERIAL COORDINATORS",
+    "name": "DAVID JONES",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_037_num04245_sim53.jpg"
+    ],
+    "original_frame_number": [
+      4245
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "AERIAL CAMERAMAN",
+    "name": "DAVID BUTLER",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_037_num04245_sim53.jpg"
+    ],
+    "original_frame_number": [
+      4245
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT CAMERAMEN",
+    "name": "DAVID NOWELL",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_037_num04245_sim53.jpg"
+    ],
+    "original_frame_number": [
+      4245
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "RE-RECORDISTS",
+    "name": "MARK BERGER",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_040_num04485_sim91.jpg"
+    ],
+    "original_frame_number": [
+      4485
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "RE-RECORDISTS",
+    "name": "RICHARD DEGGES",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_040_num04485_sim91.jpg"
+    ],
+    "original_frame_number": [
+      4485
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "RE-RECORDISTS",
+    "name": "DALE STROMFELL",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_040_num04485_sim91.jpg"
+    ],
+    "original_frame_number": [
+      4485
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "RE-RECORDISTS",
+    "name": "THOMAS SCOTT",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_040_num04485_sim91.jpg"
+    ],
+    "original_frame_number": [
+      4485
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ADDITIONAL EDITORS",
+    "name": "BLACKIE MALKIN",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_043_num04605_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4605
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ADDITIONAL EDITORS",
+    "name": "EVAN LOTTMAN",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_043_num04605_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4605
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSOCIATE EDITOR",
+    "name": "GEORGE BERNOT",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_043_num04605_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4605
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "FIRST ASSISTANT FILM EDITOR",
+    "name": "MICHAEL JACCOI",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_043_num04605_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4605
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT FILM EDITOR",
+    "name": "TRACEY SMITH",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_043_num04605_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4605
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT FILM EDITOR",
+    "name": "STEVE SEMEL",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_043_num04605_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4605
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT FILM EDITOR",
+    "name": "RICHARD CANOID",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_043_num04605_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4605
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT FILM EDITOR",
+    "name": "JERRY ROSS",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_043_num04605_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4605
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "ASSISTANT FILM EDITOR",
+    "name": "MICHAEL KIRCHBERGER",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_043_num04605_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4605
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT FILM EDITOR",
+    "name": "KEN FISHER",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_043_num04605_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4605
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT FILM EDITOR",
+    "name": "JAY BOXDELGIEVE",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_043_num04605_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4605
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT FILM EDITOR",
+    "name": "ARTHUR COBBIN",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_043_num04605_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4605
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "APPRENTICE FILM EDITOR",
+    "name": "SUSAN ARNOLD",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_043_num04605_sim97.jpg"
+    ],
+    "original_frame_number": [
+      4605
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SUPERVISING SOUND EDITOR",
+    "name": "RICHARD DRINCIONE",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_044_num04830_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4830
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SOUND EDITORS",
+    "name": "LESLIE RODORSON",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_044_num04830_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4830
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SOUND EDITORS",
+    "name": "LES WIGGINS",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_044_num04830_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4830
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SOUND EDITORS",
+    "name": "PAT JACKSON",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_044_num04830_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4830
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SOUND EDITORS",
+    "name": "JAY MICHAEL",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_044_num04830_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4830
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MUSIC EDITOR",
+    "name": "STAN WITT",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_044_num04830_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4830
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "DIALOGUE EDITORS",
+    "name": "LESLIE SHATZ",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_044_num04830_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4830
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "DIALOGUE EDITORS",
+    "name": "JOHN NITT",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_044_num04830_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4830
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "DIALOGUE EDITORS",
+    "name": "JAMES A. BORGABERT",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_044_num04830_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4830
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "DIALOGUE EDITORS",
+    "name": "JOANNE DAITONOID",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_044_num04830_sim46.jpg"
+    ],
+    "original_frame_number": [
+      4830
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT SOUND EDITORS",
+    "name": "TIA HOLLAND",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_047_num05280_sim89.jpg"
+    ],
+    "original_frame_number": [
+      5280
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT SOUND EDITORS",
+    "name": "RHIA WAX",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_047_num05280_sim89.jpg"
+    ],
+    "original_frame_number": [
+      5280
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT SOUND EDITORS",
+    "name": "KAREN WYSON",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_047_num05280_sim89.jpg"
+    ],
+    "original_frame_number": [
+      5280
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT SOUND EDITORS",
+    "name": "BARBARA MCALANE",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_047_num05280_sim89.jpg"
+    ],
+    "original_frame_number": [
+      5280
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT SOUND EDITORS",
+    "name": "REBECCA DAVIES",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_047_num05280_sim89.jpg"
+    ],
+    "original_frame_number": [
+      5280
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "APPRENTICE SOUND EDITORS",
+    "name": "J.P. REITZ",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_047_num05280_sim89.jpg"
+    ],
+    "original_frame_number": [
+      5280
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "APPRENTICE SOUND EDITORS",
+    "name": "LOUIS BENHOFF",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_047_num05280_sim89.jpg"
+    ],
+    "original_frame_number": [
+      5280
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "APPRENTICE SOUND EDITORS",
+    "name": "JEFF WATTS",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_047_num05280_sim89.jpg"
+    ],
+    "original_frame_number": [
+      5280
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "APPRENTICE SOUND EDITORS",
+    "name": "BARBARA G. ",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_047_num05280_sim89.jpg"
+    ],
+    "original_frame_number": [
+      5280
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "APPRENTICE SOUND EDITORS",
+    "name": "DENISE THORP",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_047_num05280_sim89.jpg"
+    ],
+    "original_frame_number": [
+      5280
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "APPRENTICE SOUND EDITORS",
+    "name": "ROB FUCILITTEAN",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_047_num05280_sim89.jpg"
+    ],
+    "original_frame_number": [
+      5280
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "FOREIGN POST PRODUCTION COORDINATOR",
+    "name": "RUDI SEHR",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_047_num05280_sim89.jpg"
+    ],
+    "original_frame_number": [
+      5280
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "POST PRODUCTION COORDINATORS",
+    "name": "DOUG CLAYTON",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_047_num05280_sim89.jpg"
+    ],
+    "original_frame_number": [
+      5280
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "POST PRODUCTION COORDINATORS",
+    "name": "BARBARA BARKS",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_047_num05280_sim89.jpg"
+    ],
+    "original_frame_number": [
+      5280
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION EXECUTIVE",
+    "name": "JOHN LASALANDRA",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_000_static_050_num05355_sim90.jpg"
+    ],
+    "original_frame_number": [
+      5355
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "AND CONSTRUCTION COORDINATOR",
+    "name": "JOHN LASALANDRA",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_050_num05355_sim90.jpg"
+    ],
+    "original_frame_number": [
+      5355
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "COSTUME SUPERVISOR",
+    "name": "CHARLES J. JAMES",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_050_num05355_sim90.jpg"
+    ],
+    "original_frame_number": [
+      5355
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "COSTUMERS:",
+    "name": "BEHNIS M. FILE",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_050_num05355_sim90.jpg"
+    ],
+    "original_frame_number": [
+      5355
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "COSTUMERS:",
+    "name": "GEORGE LITTLE",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_050_num05355_sim90.jpg"
+    ],
+    "original_frame_number": [
+      5355
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "COSTUMERS:",
+    "name": "LOSTER BAYLES",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_050_num05355_sim90.jpg"
+    ],
+    "original_frame_number": [
+      5355
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "COSTUMERS:",
+    "name": "NORMAN BUZZA",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_050_num05355_sim90.jpg"
+    ],
+    "original_frame_number": [
+      5355
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MAKEUP",
+    "name": "JACK YOUNG",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_000_static_050_num05355_sim90.jpg"
+    ],
+    "original_frame_number": [
+      5355
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MAKEUP",
+    "name": "FRED C. GLAU JR.",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_000_static_050_num05355_sim90.jpg"
+    ],
+    "original_frame_number": [
+      5355
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PLAYMATE SHOW CHOREOGRAPHER",
+    "name": "JOHN CALVERT",
+    "role_group": "Choreography",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Choreography",
+    "source_frame": [
+      "scene_000_static_050_num05355_sim90.jpg"
+    ],
+    "original_frame_number": [
+      5355
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPECIAL EFFECTS COORDINATORS",
+    "name": "JOSEPH LOMBARDI",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_000_static_054_num05595_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5595
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPECIAL EFFECTS COORDINATORS",
+    "name": "A.L. FLOWER",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_000_static_054_num05595_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5595
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPECIAL EFFECTS MEN",
+    "name": "LABBY CAVANAUGH",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_000_static_054_num05595_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5595
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPECIAL EFFECTS MEN",
+    "name": "JERRY EDLIER",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_000_static_054_num05595_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5595
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPECIAL EFFECTS MEN",
+    "name": "RUDY USZECZAK",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_000_static_054_num05595_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5595
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPECIAL EFFECTS MEN",
+    "name": "JOHN FRASHER",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_000_static_054_num05595_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5595
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPECIAL EFFECTS MEN",
+    "name": "RICHARD HELMER",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_000_static_054_num05595_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5595
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPECIAL EFFECTS MEN",
+    "name": "EDDIE AYAY",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_000_static_054_num05595_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5595
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPECIAL EFFECTS MEN",
+    "name": "DAVID MARTIN",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_000_static_054_num05595_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5595
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPECIAL EFFECTS MEN",
+    "name": "DAVID ST. AMA",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_000_static_054_num05595_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5595
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPECIAL EFFECTS MEN",
+    "name": "MARIO CARMONA",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_000_static_054_num05595_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5595
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPECIAL EFFECTS UNLIMITED",
+    "name": "PETER COOPER",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_000_static_054_num05595_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5595
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPECIAL EFFECTS UNLIMITED",
+    "name": "DENNIS MURPHY",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_000_static_054_num05595_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5595
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPECIAL EFFECTS UNLIMITED",
+    "name": "SHANE EDWARDS",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_000_static_054_num05595_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5595
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MARINE COORDINATORS",
+    "name": "null",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_054_num05595_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5595
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MILITARY ADVISORS",
+    "name": "DICK WHITE",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_056_num05745_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5745
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "MILITARY ADVISORS",
+    "name": "FRED NEXER, JR.",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_056_num05745_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5745
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MILITARY ADVISORS",
+    "name": "LT. COLONEL PETER KAMA",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_056_num05745_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5745
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MILITARY ADVISORS",
+    "name": "PAUL GREGORY",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_056_num05745_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5745
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MILITARY ADVISORS",
+    "name": "PAUL HENSLER",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_056_num05745_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5745
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MILITARY ADVISORS",
+    "name": "PAUL ROG",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_056_num05745_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5745
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MILITARY ADVISORS",
+    "name": "ROD BOUGHAA",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_056_num05745_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5745
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MILITARY ADVISORS",
+    "name": "BRUCE RYAN",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_056_num05745_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5745
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "FIXED WING PILOT",
+    "name": "JOHN ADINGTON",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_056_num05745_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5745
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "TRANSPORTATION COORDINATORS",
+    "name": "JOHN J. READE",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_056_num05745_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5745
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "TRANSPORTATION COORDINATORS",
+    "name": "DENNIS HOLLIS",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_056_num05745_sim100.jpg"
+    ],
+    "original_frame_number": [
+      5745
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT ART DIRECTOR",
+    "name": "JAMES MURAKAMI",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_059_num06075_sim93.jpg"
+    ],
+    "original_frame_number": [
+      6075
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION ILLUSTRATORS",
+    "name": "ALEX TAVULARIS",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_059_num06075_sim93.jpg"
+    ],
+    "original_frame_number": [
+      6075
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION ILLUSTRATORS",
+    "name": "THOMAS A. WIGHT",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_059_num06075_sim93.jpg"
+    ],
+    "original_frame_number": [
+      6075
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "LEADMAN",
+    "name": "GARY FETTES",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_059_num06075_sim93.jpg"
+    ],
+    "original_frame_number": [
+      6075
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SCULPTOR",
+    "name": "JAMES CASEY",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_059_num06075_sim93.jpg"
+    ],
+    "original_frame_number": [
+      6075
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CONSTRUCTION FOREMAN",
+    "name": "MARK SCAIFE",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_059_num06075_sim93.jpg"
+    ],
+    "original_frame_number": [
+      6075
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SET ARTIST",
+    "name": "ROGER DIETZ",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_059_num06075_sim93.jpg"
+    ],
+    "original_frame_number": [
+      6075
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION COORDINATOR",
+    "name": "KARLAN WEISSNER",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_059_num06075_sim93.jpg"
+    ],
+    "original_frame_number": [
+      6075
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION CONTROLLER",
+    "name": "JEAN A. LOFTIER",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_000_static_059_num06075_sim93.jpg"
+    ],
+    "original_frame_number": [
+      6075
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT PRODUCTION CONTROLLER",
+    "name": "EVAN H. LUCAS",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_000_static_059_num06075_sim93.jpg"
+    ],
+    "original_frame_number": [
+      6075
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "KEY GRIP",
+    "name": "ALFREDO MARCHETTI",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_061_num06225_sim82.jpg"
+    ],
+    "original_frame_number": [
+      6225
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "GAFFER",
+    "name": "LUCIANO GALLI",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_061_num06225_sim82.jpg"
+    ],
+    "original_frame_number": [
+      6225
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION RECORDISTS",
+    "name": "NATHAN BOXER",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_061_num06225_sim82.jpg"
+    ],
+    "original_frame_number": [
+      6225
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION RECORDISTS",
+    "name": "JACK JACOBSEN",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_061_num06225_sim82.jpg"
+    ],
+    "original_frame_number": [
+      6225
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "POST PRODUCTION AUDIO MIXERS",
+    "name": "RANDY THOM",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_061_num06225_sim82.jpg"
+    ],
+    "original_frame_number": [
+      6225
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SOUND MIXERS",
+    "name": "REMY-DAVID GURRIZ",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_061_num06225_sim82.jpg"
+    ],
+    "original_frame_number": [
+      6225
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SOUND MIXERS",
+    "name": "DANEY TOHERY",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_061_num06225_sim82.jpg"
+    ],
+    "original_frame_number": [
+      6225
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PROPERTY MASTER",
+    "name": "DOUG MADISON",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_000_static_061_num06225_sim82.jpg"
+    ],
+    "original_frame_number": [
+      6225
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT PROPERTY MASTERS",
+    "name": "TOM SHAW",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_000_static_061_num06225_sim82.jpg"
+    ],
+    "original_frame_number": [
+      6225
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT PROPERTY MASTERS",
+    "name": "ROY ROYSEN",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_000_static_061_num06225_sim82.jpg"
+    ],
+    "original_frame_number": [
+      6225
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT PROPERTY MASTERS",
+    "name": "MATT TOMICH",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_000_static_061_num06225_sim82.jpg"
+    ],
+    "original_frame_number": [
+      6225
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "ASSISTANT PROPERTY MASTERS",
+    "name": "WILLIE E. HUNTER",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_000_static_061_num06225_sim82.jpg"
+    ],
+    "original_frame_number": [
+      6225
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CASTING",
+    "name": "TERRY DIELING",
+    "role_group": "Casting Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Directors",
+    "source_frame": [
+      "scene_000_static_063_num06465_sim97.jpg"
+    ],
+    "original_frame_number": [
+      6465
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CASTING",
+    "name": "VIC RAMOS",
+    "role_group": "Casting Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Directors",
+    "source_frame": [
+      "scene_000_static_063_num06465_sim97.jpg"
+    ],
+    "original_frame_number": [
+      6465
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MONTANDARD TRUISMEN CASTING",
+    "name": "EVA BARDOS",
+    "role_group": "Casting Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Directors",
+    "source_frame": [
+      "scene_000_static_063_num06465_sim97.jpg"
+    ],
+    "original_frame_number": [
+      6465
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PHILIPPINE CASTING",
+    "name": "LDO WITTETHILL",
+    "role_group": "Casting Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Directors",
+    "source_frame": [
+      "scene_000_static_063_num06465_sim97.jpg"
+    ],
+    "original_frame_number": [
+      6465
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PHILIPPINE CASTING",
+    "name": "RANDY CARTER",
+    "role_group": "Casting Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Directors",
+    "source_frame": [
+      "scene_000_static_063_num06465_sim97.jpg"
+    ],
+    "original_frame_number": [
+      6465
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CASTING ASSISTANTS",
+    "name": "HEG BEEK",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_000_static_063_num06465_sim97.jpg"
+    ],
+    "original_frame_number": [
+      6465
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CASTING ASSISTANTS",
+    "name": "KEN METCALFE",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_000_static_063_num06465_sim97.jpg"
+    ],
+    "original_frame_number": [
+      6465
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CASTING ASSISTANTS",
+    "name": "MARC COPPOLA",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_000_static_063_num06465_sim97.jpg"
+    ],
+    "original_frame_number": [
+      6465
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "CASTING ASSISTANTS",
+    "name": "SUE BASTIAN",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_000_static_063_num06465_sim97.jpg"
+    ],
+    "original_frame_number": [
+      6465
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "STUNT COORDINATOR",
+    "name": "TERRY J. LEONARD",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_000_static_063_num06465_sim97.jpg"
+    ],
+    "original_frame_number": [
+      6465
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "STUNTWOMEN",
+    "name": "JOE RIMESAN",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_000_static_063_num06465_sim97.jpg"
+    ],
+    "original_frame_number": [
+      6465
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "STUNTWOMEN",
+    "name": "KERRY ROSSAL",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_000_static_063_num06465_sim97.jpg"
+    ],
+    "original_frame_number": [
+      6465
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "STUNTWOMEN",
+    "name": "CHUCK WATERS",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_000_static_063_num06465_sim97.jpg"
+    ],
+    "original_frame_number": [
+      6465
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "STUNTWOMEN",
+    "name": "STEVE BOYUN",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_000_static_063_num06465_sim97.jpg"
+    ],
+    "original_frame_number": [
+      6465
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CAMPAIGN COORDINATOR",
+    "name": "GAGE SUMMER",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_064_num06720_sim44.jpg"
+    ],
+    "original_frame_number": [
+      6720
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCERS' REPRESENTATIVE",
+    "name": "IRWIN VARLANS",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_064_num06720_sim44.jpg"
+    ],
+    "original_frame_number": [
+      6720
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "FOREIGN PRODUCERS' REPRESENTATIVE",
+    "name": "ERNST GOLDOSCHMIDT",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_064_num06720_sim44.jpg"
+    ],
+    "original_frame_number": [
+      6720
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MARKETING DIRECTOR",
+    "name": "LEE BEAUPRE",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_064_num06720_sim44.jpg"
+    ],
+    "original_frame_number": [
+      6720
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "FOREIGN PUBLICITY COORDINATOR",
+    "name": "BRETT DICKEN",
+    "role_group": "Publicity",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Publicity",
+    "source_frame": [
+      "scene_000_static_064_num06720_sim44.jpg"
+    ],
+    "original_frame_number": [
+      6720
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "U.S. PRODUCTION LIAISON AND RESEARCH",
+    "name": "DEBORAH FINE",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION COORDINATOR",
+    "name": "MARISA ALCAZAR",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION COORDINATOR",
+    "name": "LODEE DE LEON",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "U.S. PRODUCTION SECRETARY",
+    "name": "CLEANOR COPPOLA",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "U.S. PRODUCTION SECRETARY",
+    "name": "FRANCESCA INVIERE",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "LOCATION COORDINATOR",
+    "name": "JACK ENGLISH",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "LOCATION COORDINATOR",
+    "name": "REBECCA CARROLL",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "LOCATION COORDINATOR",
+    "name": "PHIL RADCLIFFE",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION ASSISTANTS",
+    "name": "JOHN CHAPMAN",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION ASSISTANTS",
+    "name": "KEVIN HIGHES",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION ASSISTANTS",
+    "name": "RUSS SCHOEN",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION ASSISTANTS",
+    "name": "LOYD BROWN",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION ASSISTANTS",
+    "name": "TODD DINGMAN",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION ASSISTANTS",
+    "name": "BARBARA PARKER",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PRODUCTION ASSISTANTS",
+    "name": "MATT TOMICH",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "PRODUCTION ASSISTANTS",
+    "name": "PATTI CAYBOURNE",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_067_num06945_sim98.jpg"
+    ],
+    "original_frame_number": [
+      6945
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PHILIPPINE PRODUCTION LIAISON",
+    "name": "ODINIS URBAN",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_068_num07155_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7155
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "HEMISPHERE PRODUCTIONS",
+    "name": "JOHN ASLEY",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_068_num07155_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7155
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "HEMISPHERE PRODUCTIONS",
+    "name": "EDDIE ROMERO",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_068_num07155_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7155
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PHILIPPINE DEPARTMENT OF TOURISM",
+    "name": "LINDA GIMACIO",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_068_num07155_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7155
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "FILMED IN",
+    "name": "TECHNOVISION",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_069_num07275_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7275
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "TITLES",
+    "name": "WAYNE FITZGERALD",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_069_num07275_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7275
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "OPTICALS BY",
+    "name": "MODERN FILM EFFECTS",
+    "role_group": "Special Effects Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Special Effects Companies",
+    "source_frame": [
+      "scene_000_static_069_num07275_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7275
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SKIP WATT",
+    "name": "SKIP WATT",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_069_num07275_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7275
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SKIP WATT",
+    "name": "JOE BERDIT",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_069_num07275_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7275
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SUPERVISING CREW TECHNICIANS",
+    "name": "ENIESTO NOVELLI",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_069_num07275_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7275
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SUPERVISING CREW TECHNICIANS",
+    "name": "LARRY ROVETTI",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_069_num07275_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7275
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "RECORDED ON",
+    "name": "MULTI-TRACK MAGNETICS, INC.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_069_num07275_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7275
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "RECORDED ON",
+    "name": "HIGH SPEED FILM RECORDING SYSTEM",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_069_num07275_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7275
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Performed by",
+    "name": "T.S. Eliot",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_static_074_num07545_sim95.jpg"
+    ],
+    "original_frame_number": [
+      7545
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Courtesy of",
+    "name": "ABC RECORDS, LTD.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_074_num07545_sim95.jpg"
+    ],
+    "original_frame_number": [
+      7545
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Performed by",
+    "name": "The Doors",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_static_074_num07545_sim95.jpg"
+    ],
+    "original_frame_number": [
+      7545
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Courtesy of",
+    "name": "ABC RECORDS, INC.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_074_num07545_sim95.jpg"
+    ],
+    "original_frame_number": [
+      7545
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Performed by",
+    "name": "Robert Duvall",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_static_074_num07545_sim95.jpg"
+    ],
+    "original_frame_number": [
+      7545
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Conducted by",
+    "name": "Sir Georg Solti",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_074_num07545_sim95.jpg"
+    ],
+    "original_frame_number": [
+      7545
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Performed by",
+    "name": "Leonard Lee",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_static_074_num07545_sim95.jpg"
+    ],
+    "original_frame_number": [
+      7545
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "S.J. Lewis",
+    "name": "S.J. Lewis",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_static_075_num07695_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7695
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "E. Broadwater",
+    "name": "E. Broadwater",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_static_075_num07695_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7695
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Performed by",
+    "name": "Flash Cadillac",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_static_075_num07695_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7695
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Courtesy of",
+    "name": "Dennis Stock Records",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_075_num07695_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7695
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Courtesy of",
+    "name": "John Bido",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_075_num07695_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7695
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Courtesy of",
+    "name": "Zoetrope Company",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_075_num07695_sim45.jpg"
+    ],
+    "original_frame_number": [
+      7695
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "\"SUFFIN\" SAFARI",
+    "name": "Brian Wilson and Mike Love",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_static_077_num07845_sim85.jpg"
+    ],
+    "original_frame_number": [
+      7845
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Music Licensing",
+    "name": "Gold Music",
+    "role_group": "Legal Department",
+    "secondary_role_group": "Music Department",
+    "is_person": false,
+    "role_group_normalized": "Legal Department",
+    "source_frame": [
+      "scene_000_static_077_num07845_sim85.jpg"
+    ],
+    "original_frame_number": [
+      7845
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Music Licensing",
+    "name": "City Digital",
+    "role_group": "Legal Department",
+    "secondary_role_group": "Music Department",
+    "is_person": false,
+    "role_group_normalized": "Legal Department",
+    "source_frame": [
+      "scene_000_static_077_num07845_sim85.jpg"
+    ],
+    "original_frame_number": [
+      7845
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Music Licensing",
+    "name": "Sound Entertainment",
+    "role_group": "Legal Department",
+    "secondary_role_group": "Music Department",
+    "is_person": false,
+    "role_group_normalized": "Legal Department",
+    "source_frame": [
+      "scene_000_static_077_num07845_sim85.jpg"
+    ],
+    "original_frame_number": [
+      7845
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Soundtrack available on",
+    "name": "Moonshoosh Records",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_077_num07845_sim85.jpg"
+    ],
+    "original_frame_number": [
+      7845
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "THE DOORS",
+    "name": "Elektra/Asylum Records",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_078_num07995_sim29.jpg"
+    ],
+    "original_frame_number": [
+      7995
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CIVILIAN",
+    "name": "JERRY ZIESMER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_089_num08730_sim97.jpg"
+    ],
+    "original_frame_number": [
+      8730
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "COLBY",
+    "name": "SCOTT BLENN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_089_num08730_sim97.jpg"
+    ],
+    "original_frame_number": [
+      8730
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SERGEANT RP-1",
+    "name": "TY REIS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_089_num08730_sim97.jpg"
+    ],
+    "original_frame_number": [
+      8730
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ROLDENS'S GUNNER",
+    "name": "JAMES KEAN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_089_num08730_sim97.jpg"
+    ],
+    "original_frame_number": [
+      8730
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MUSIC FROM SALUD DIEGO",
+    "name": "JERRY ROSSALL",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_089_num08730_sim97.jpg"
+    ],
+    "original_frame_number": [
+      8730
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MILITARY SOLDIER",
+    "name": "RON MCQUEN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_089_num08730_sim97.jpg"
+    ],
+    "original_frame_number": [
+      8730
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SUPPLY SERGEANT",
+    "name": "TOM MASON",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_090_num08760_sim44.jpg"
+    ],
+    "original_frame_number": [
+      8760
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PLAYMATE",
+    "name": "LINDA CARPENTER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_090_num08760_sim44.jpg"
+    ],
+    "original_frame_number": [
+      8760
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SOLDIER WITH MACHINE GUN",
+    "name": "TYRE THINEAU",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_090_num08760_sim44.jpg"
+    ],
+    "original_frame_number": [
+      8760
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "LT. CARISON",
+    "name": "GLEN WALKER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_090_num08760_sim44.jpg"
+    ],
+    "original_frame_number": [
+      8760
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SOLDIER WITH SUITCASE",
+    "name": "GEORGE CANTIERI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_090_num08760_sim44.jpg"
+    ],
+    "original_frame_number": [
+      8760
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MACHINE GUNNER",
+    "name": "DAMIEN LEAKE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_090_num08760_sim44.jpg"
+    ],
+    "original_frame_number": [
+      8760
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ROACH",
+    "name": "HERB RICE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_092_num09015_sim99.jpg"
+    ],
+    "original_frame_number": [
+      9015
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SPOTTER",
+    "name": "WILLIAM UPTON",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_092_num09015_sim99.jpg"
+    ],
+    "original_frame_number": [
+      9015
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SERGEANT MP #2",
+    "name": "LARRY CODDNEY",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_092_num09015_sim99.jpg"
+    ],
+    "original_frame_number": [
+      9015
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ARMS ANNOUNCER",
+    "name": "MARC COPPOLA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_092_num09015_sim99.jpg"
+    ],
+    "original_frame_number": [
+      9015
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "MAJOR FROM NEW JERSEY",
+    "name": "DANIEL KLEINT",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_092_num09015_sim99.jpg"
+    ],
+    "original_frame_number": [
+      9015
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CATHOLINE QUEST",
+    "name": "ELIAS ELIAS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_092_num09015_sim99.jpg"
+    ],
+    "original_frame_number": [
+      9015
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "AGENT",
+    "name": "BILL GRAHAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_092_num09015_sim99.jpg"
+    ],
+    "original_frame_number": [
+      9015
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CLEAN'S WRITING ROOM",
+    "name": "HATTIE JAMES",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_092_num09015_sim99.jpg"
+    ],
+    "original_frame_number": [
+      9015
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "JOHNNY FROM MALIBU",
+    "name": "JERRY ROSS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_092_num09015_sim99.jpg"
+    ],
+    "original_frame_number": [
+      9015
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "HELICOPTER PILOT",
+    "name": "DICK WHITE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_092_num09015_sim99.jpg"
+    ],
+    "original_frame_number": [
+      9015
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "MONTAGNARD TRIBESMEN PORTRAYED BY",
+    "name": "THE IFUGAO PEOPLE OF BANAUE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_093_num09165_sim31.jpg"
+    ],
+    "original_frame_number": [
+      9165
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PHILIPPINE ISLANDS",
+    "name": "PHILIPPINE ISLANDS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_093_num09165_sim31.jpg"
+    ],
+    "original_frame_number": [
+      9165
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "THE IFUGAO PEOPLE OF BANAUE",
+    "name": "ROBERT L.M. ABAD",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_095_num09405_sim85.jpg"
+    ],
+    "original_frame_number": [
+      9405
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "THE IFUGAO PEOPLE OF BANAUE",
+    "name": "CHRISTIAN NARCISO",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_095_num09405_sim85.jpg"
+    ],
+    "original_frame_number": [
+      9405
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "THE IFUGAO PEOPLE OF BANAUE",
+    "name": "ROXANNE VARAGUI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_095_num09405_sim85.jpg"
+    ],
+    "original_frame_number": [
+      9405
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "THE IFUGAO PEOPLE OF BANAUE",
+    "name": "ANDREEE CLARENT",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_095_num09405_sim85.jpg"
+    ],
+    "original_frame_number": [
+      9405
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "THE IFUGAO PEOPLE OF BANAUE",
+    "name": "PHILIPPE_H. ABAD",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_095_num09405_sim85.jpg"
+    ],
+    "original_frame_number": [
+      9405
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "THE IFUGAO PEOPLE OF BANAUE",
+    "name": "MICHAEL POTTON",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_095_num09405_sim85.jpg"
+    ],
+    "original_frame_number": [
+      9405
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "THE IFUGAO PEOPLE OF BANAUE",
+    "name": "GATLON_L. ABAD",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_095_num09405_sim85.jpg"
+    ],
+    "original_frame_number": [
+      9405
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "THE IFUGAO PEOPLE OF BANAUE",
+    "name": "FRANCK VILLARD",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_095_num09405_sim85.jpg"
+    ],
+    "original_frame_number": [
+      9405
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "CHRISTIAN AGEMARIS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_097_num09450_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "DAVID OLIVIER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_097_num09450_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "CLAUDINE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_097_num09450_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "CHRYSTEL LE PELLETTIER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_097_num09450_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "SERGEANT LEFIEVE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_097_num09450_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "YVON LESEAUX",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_097_num09450_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "FRANÇOIS AGEMARIS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_097_num09450_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "GIAN-CARLO COPPOLA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_097_num09450_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "GILLES AGEMARIS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_097_num09450_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "FRENCH SOLDIER #1",
+    "name": "HENRI SADAROLE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_097_num09450_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "FRENCH SOLDIER #2",
+    "name": "GILBERT RENKERS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_097_num09450_sim100.jpg"
+    ],
+    "original_frame_number": [
+      9450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Produced by",
+    "name": "Kim Aubry",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_static_100_num09705_sim85.jpg"
+    ],
+    "original_frame_number": [
+      9705
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "EDITOR",
+    "name": "Walter Murch",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_000_static_101_num09810_sim25.jpg"
+    ],
+    "original_frame_number": [
+      9810
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CO-PRODUCED BY",
+    "name": "SHANNON LAIL",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_static_103_num09990_sim94.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "AVIO ASSISTANT",
+    "name": "SEAN COLLEN",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_103_num09990_sim94.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ADDITIONAL SOUND EDITOR",
+    "name": "WALTER MURCH JR.",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_103_num09990_sim94.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SUPERVISING SOUND EDITOR",
+    "name": "MICHAEL KINGERBERGER",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_103_num09990_sim94.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SOUND EFFECT COMPOSER",
+    "name": "KYSTEN WATE COMAGLIO",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_103_num09990_sim94.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ADR EDITOR",
+    "name": "GEORGE BENOT",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_103_num09990_sim94.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "FOLEY EDITOR",
+    "name": "JEREMY MOLD",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_103_num09990_sim94.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SOUND EDITOR",
+    "name": "PETE HOBNER",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_103_num09990_sim94.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT SOUND EDITORS",
+    "name": "ERICH STRATTMAN",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_103_num09990_sim94.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ASSISTANT SOUND EDITORS",
+    "name": "ETHAN DERBER",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_103_num09990_sim94.jpg"
+    ],
+    "original_frame_number": [
+      9990
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "APPRETICHE SUONO EDITOR",
+    "name": "EVERETT MOORE",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_105_num10110_sim100.jpg"
+    ],
+    "original_frame_number": [
+      10110
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "SOUND EFFECT",
+    "name": "DAVID BELL",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_105_num10110_sim100.jpg"
+    ],
+    "original_frame_number": [
+      10110
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "MUSIC ARRANGEMENT",
+    "name": "ED GOLDFARB",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_105_num10110_sim100.jpg"
+    ],
+    "original_frame_number": [
+      10110
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "PERCUSSION BASED SCORE",
+    "name": "MICKEY HART",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_000_static_105_num10110_sim100.jpg"
+    ],
+    "original_frame_number": [
+      10110
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "FOR ARTISTS SEEN BY",
+    "name": "DALE GRAINN",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_105_num10110_sim100.jpg"
+    ],
+    "original_frame_number": [
+      10110
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "COLOR TIMER",
+    "name": "CATHERINE CRAIG",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "scene_000_static_105_num10110_sim100.jpg"
+    ],
+    "original_frame_number": [
+      10110
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "CATHERINE CRAIG - AHMAD NAZARIAN",
+    "name": "AHMAD NAZARIAN",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "scene_000_static_105_num10110_sim100.jpg"
+    ],
+    "original_frame_number": [
+      10110
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "NEGATIVE CUTTES",
+    "name": "MO HOBBY",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_105_num10110_sim100.jpg"
+    ],
+    "original_frame_number": [
+      10110
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "NEGATIVE CUTTES",
+    "name": "DONNA L. BASSETT & ASSOCIATES",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_105_num10110_sim100.jpg"
+    ],
+    "original_frame_number": [
+      10110
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "RESTORER",
+    "name": "AMERICAN ZOETROPE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_107_num10335_sim98.jpg"
+    ],
+    "original_frame_number": [
+      10335
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ADDITIONAL SOUND",
+    "name": "ETHAN DENNER",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_107_num10335_sim98.jpg"
+    ],
+    "original_frame_number": [
+      10335
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ADDITIONAL SOUND",
+    "name": "ELGIN KASPERZKO",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_107_num10335_sim98.jpg"
+    ],
+    "original_frame_number": [
+      10335
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ADDITIONAL SOUND",
+    "name": "ROBERT KNOX",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_107_num10335_sim98.jpg"
+    ],
+    "original_frame_number": [
+      10335
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ADDITIONAL SOUND",
+    "name": "JAMES LEVINE",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_107_num10335_sim98.jpg"
+    ],
+    "original_frame_number": [
+      10335
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ADDITIONAL SOUND",
+    "name": "BARRIS LECOVITZ",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_107_num10335_sim98.jpg"
+    ],
+    "original_frame_number": [
+      10335
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ADDITIONAL SOUND",
+    "name": "GIAN SAVIS",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_107_num10335_sim98.jpg"
+    ],
+    "original_frame_number": [
+      10335
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "ADDITIONAL SOUND",
+    "name": "HOWIE STEIN",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_107_num10335_sim98.jpg"
+    ],
+    "original_frame_number": [
+      10335
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "Portions of this motion picture were originally released in 1928 in the United States and Canada by United Artists as \"Apocalypse Now\"",
+    "name": "United Artists",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_000_static_110_num10530_sim85.jpg"
+    ],
+    "original_frame_number": [
+      10530
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  },
+  {
+    "role_detail": "TECHNOLOGION",
+    "name": "TECHNOLOGION",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_110_num10530_sim85.jpg"
+    ],
+    "original_frame_number": [
+      10530
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-21T13:28:50.712649+00:00",
+      "model": "gemma-4-12b-it-qat-q4_0.gguf",
+      "api_version": null
+    }
+  }
+]

@@ -1,0 +1,4255 @@
+[
+  {
+    "role_detail": "FEATURING",
+    "name": "HATIDZE MURATOVA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_001_num00300_sim0.jpg",
+      "scene_000_scroll_003_num00600_sim0.jpg",
+      "scene_000_scroll_005_num00900_sim0.jpg"
+    ],
+    "original_frame_number": [
+      300,
+      600,
+      900
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FEATURING",
+    "name": "NAZIFE MURATOVA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_001_num00300_sim0.jpg",
+      "scene_000_scroll_003_num00600_sim0.jpg",
+      "scene_000_scroll_005_num00900_sim0.jpg"
+    ],
+    "original_frame_number": [
+      300,
+      600,
+      900
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FEATURING",
+    "name": "HUSSEIN SAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_001_num00300_sim0.jpg",
+      "scene_000_scroll_003_num00600_sim0.jpg",
+      "scene_000_scroll_005_num00900_sim0.jpg"
+    ],
+    "original_frame_number": [
+      300,
+      600,
+      900
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FEATURING",
+    "name": "LJUTVIE SAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_001_num00300_sim0.jpg",
+      "scene_000_scroll_005_num00900_sim0.jpg"
+    ],
+    "original_frame_number": [
+      300,
+      900
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FEATURING",
+    "name": "MUSTAFA SAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_001_num00300_sim0.jpg",
+      "scene_000_scroll_003_num00600_sim0.jpg",
+      "scene_000_scroll_005_num00900_sim0.jpg"
+    ],
+    "original_frame_number": [
+      300,
+      600,
+      900
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FEATURING",
+    "name": "MUZAFER SAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_001_num00300_sim0.jpg",
+      "scene_000_scroll_003_num00600_sim0.jpg",
+      "scene_000_scroll_005_num00900_sim0.jpg"
+    ],
+    "original_frame_number": [
+      300,
+      600,
+      900
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FEATURING",
+    "name": "VELI SAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_001_num00300_sim0.jpg",
+      "scene_000_scroll_003_num00600_sim0.jpg",
+      "scene_000_scroll_005_num00900_sim0.jpg"
+    ],
+    "original_frame_number": [
+      300,
+      600,
+      900
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FEATURING",
+    "name": "ALI SAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_001_num00300_sim0.jpg",
+      "scene_000_scroll_003_num00600_sim0.jpg",
+      "scene_000_scroll_005_num00900_sim0.jpg"
+    ],
+    "original_frame_number": [
+      300,
+      600,
+      900
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FEATURING",
+    "name": "ALIT SAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_002_num00450_sim0.jpg",
+      "scene_000_scroll_004_num00750_sim0.jpg",
+      "scene_000_scroll_006_num01050_sim0.jpg"
+    ],
+    "original_frame_number": [
+      450,
+      750,
+      1050
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FEATURING",
+    "name": "GAMZE SAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_002_num00450_sim0.jpg",
+      "scene_000_scroll_004_num00750_sim0.jpg",
+      "scene_000_scroll_006_num01050_sim0.jpg"
+    ],
+    "original_frame_number": [
+      450,
+      750,
+      1050
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FEATURING",
+    "name": "LJUTVICH SAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_002_num00450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FEATURING",
+    "name": "SAFET JAVOROVAC",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_002_num00450_sim0.jpg",
+      "scene_000_scroll_006_num01050_sim0.jpg"
+    ],
+    "original_frame_number": [
+      450,
+      1050
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FEATURING",
+    "name": "LJUTVIJE SAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_003_num00600_sim0.jpg"
+    ],
+    "original_frame_number": [
+      600
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIRECTED BY",
+    "name": "LJUBO STEFANOV",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_000_scroll_003_num00600_sim0.jpg",
+      "scene_000_scroll_005_num00900_sim0.jpg",
+      "scene_000_scroll_007_num01200_sim0.jpg"
+    ],
+    "original_frame_number": [
+      600,
+      900,
+      1200
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "DIRECTED BY",
+    "name": "TAMARA KOTEVSKA",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_000_scroll_003_num00600_sim0.jpg",
+      "scene_000_scroll_005_num00900_sim0.jpg",
+      "scene_000_scroll_007_num01200_sim0.jpg"
+    ],
+    "original_frame_number": [
+      600,
+      900,
+      1200
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FEATURING",
+    "name": "LJUTVISH SAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_004_num00750_sim0.jpg"
+    ],
+    "original_frame_number": [
+      750
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FEATURING",
+    "name": "SAFET JAVUROVAC",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_004_num00750_sim0.jpg"
+    ],
+    "original_frame_number": [
+      750
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUCER",
+    "name": "ATANAS GEORGIEV",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_scroll_004_num00750_sim0.jpg",
+      "scene_000_scroll_006_num01050_sim0.jpg",
+      "scene_000_scroll_008_num01350_sim0.jpg"
+    ],
+    "original_frame_number": [
+      750,
+      1050,
+      1350
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "EDITOR",
+    "name": "ATANAS GEORGIEV",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_000_scroll_004_num00750_sim0.jpg",
+      "scene_000_scroll_006_num01050_sim0.jpg",
+      "scene_000_scroll_008_num01350_sim0.jpg"
+    ],
+    "original_frame_number": [
+      750,
+      1050,
+      1350
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "PRODUCED",
+    "name": "LJUBO STEFANOV",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_scroll_004_num00750_sim0.jpg",
+      "scene_000_scroll_006_num01050_sim0.jpg",
+      "scene_000_scroll_008_num01350_sim0.jpg"
+    ],
+    "original_frame_number": [
+      750,
+      1050,
+      1350
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "CINEMATOGRAPHERS",
+    "name": "FEJMI DAUT",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_000_scroll_005_num00900_sim0.jpg",
+      "scene_000_scroll_007_num01200_sim0.jpg",
+      "scene_000_scroll_009_num01500_sim0.jpg"
+    ],
+    "original_frame_number": [
+      900,
+      1200,
+      1500
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CINEMATOGRAPHERS",
+    "name": "SAMIR LJUMA",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_000_scroll_005_num00900_sim0.jpg",
+      "scene_000_scroll_007_num01200_sim0.jpg",
+      "scene_000_scroll_009_num01500_sim0.jpg"
+    ],
+    "original_frame_number": [
+      900,
+      1200,
+      1500
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FEATURING",
+    "name": "LJUTVIH SAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_scroll_006_num01050_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1050
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SOUND DESIGNER",
+    "name": "RANA EID",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_scroll_006_num01050_sim0.jpg",
+      "scene_000_scroll_008_num01350_sim0.jpg",
+      "scene_000_scroll_010_num01650_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1050,
+      1350,
+      1650
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MUSIC",
+    "name": "FOLTIN",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_007_num01200_sim0.jpg",
+      "scene_000_scroll_011_num01800_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1200,
+      1800
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "ASSOCIATE PRODUCERS",
+    "name": "MARJANA SHUSHLEVSKA",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_scroll_007_num01200_sim0.jpg",
+      "scene_000_scroll_009_num01500_sim0.jpg",
+      "scene_000_scroll_011_num01800_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1200,
+      1500,
+      1800
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSOCIATE PRODUCERS",
+    "name": "KORNELIJA RISTOVSKA",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_scroll_007_num01200_sim0.jpg",
+      "scene_000_scroll_009_num01500_sim0.jpg",
+      "scene_000_scroll_011_num01800_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1200,
+      1500,
+      1800
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ADDITIONAL CINEMATOGRAPHER",
+    "name": "KRISTIJAN KARADZOVSKI",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_scroll_008_num01350_sim0.jpg",
+      "scene_000_scroll_010_num01650_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1350,
+      1650
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "ADDITIONAL EDITOR",
+    "name": "BLAGOJA NEDELKOVSKI",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_scroll_008_num01350_sim0.jpg",
+      "scene_000_scroll_010_num01650_sim0.jpg",
+      "scene_000_scroll_012_num01950_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1350,
+      1650,
+      1950
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "DIALOGUE EDITOR",
+    "name": "VANESSA KANAAN",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_scroll_008_num01350_sim0.jpg",
+      "scene_000_scroll_010_num01650_sim0.jpg",
+      "scene_000_scroll_012_num01950_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1350,
+      1650,
+      1950
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FOLEY ARTIST",
+    "name": "LAMA SAWAYA",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_scroll_008_num01350_sim0.jpg",
+      "scene_000_scroll_010_num01650_sim0.jpg",
+      "scene_000_scroll_012_num01950_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1350,
+      1650,
+      1950
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FOLEY RECORDING",
+    "name": "FRANÇOIS YAZBECK",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_scroll_008_num01350_sim0.jpg",
+      "scene_000_scroll_010_num01650_sim0.jpg",
+      "scene_000_scroll_012_num01950_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1350,
+      1650,
+      1950
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MUSIC",
+    "name": "FOLTIN",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_000_scroll_009_num01500_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1500
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "RE-RECORDING MIXER",
+    "name": "FLORENT LAVALLÉE",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_scroll_009_num01500_sim0.jpg",
+      "scene_000_scroll_011_num01800_sim0.jpg",
+      "scene_000_scroll_013_num02100_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1500,
+      1800,
+      2100
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AUDIO POST-PRODUCTION",
+    "name": "DB-HAL STUDIOS - BEIRUT",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_009_num01500_sim0.jpg",
+      "scene_000_scroll_011_num01800_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1500,
+      1800
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COLOR GRADING",
+    "name": "VLADIMIR IVANOVSKI",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "scene_000_scroll_009_num01500_sim0.jpg",
+      "scene_000_scroll_011_num01800_sim0.jpg",
+      "scene_000_scroll_013_num02100_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1500,
+      1800,
+      2100
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EDITOR ASSISTANTS",
+    "name": "MARTIN IVANOV",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_scroll_009_num01500_sim0.jpg",
+      "scene_000_scroll_011_num01800_sim0.jpg",
+      "scene_000_scroll_013_num02100_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1500,
+      1800,
+      2100
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EDITOR ASSISTANTS",
+    "name": "DEJAN SMILESKI",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_scroll_010_num01650_sim0.jpg",
+      "scene_000_scroll_012_num01950_sim0.jpg",
+      "scene_000_scroll_014_num02250_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1650,
+      1950,
+      2250
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "GRAPHIC DESIGNER",
+    "name": "ANDREJ MARJANOVIĆ",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_scroll_010_num01650_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1650
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MUSIC PRODUCER",
+    "name": "IVICA JANKULOVSKI",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_scroll_010_num01650_sim0.jpg",
+      "scene_000_scroll_012_num01950_sim0.jpg",
+      "scene_000_scroll_014_num02250_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1650,
+      1950,
+      2250
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FOLTIN ARE",
+    "name": "BRANISLAV NIKOLOV",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_scroll_010_num01650_sim0.jpg",
+      "scene_000_scroll_012_num01950_sim0.jpg",
+      "scene_000_scroll_014_num02250_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1650,
+      1950,
+      2250
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FOLTIN ARE",
+    "name": "GOCE JOVANOVSKI",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_scroll_011_num01800_sim0.jpg",
+      "scene_000_scroll_013_num02100_sim0.jpg",
+      "scene_000_scroll_015_num02400_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1800,
+      2100,
+      2400
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FOLTIN ARE",
+    "name": "PECE TRAJKOVSKI",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_scroll_011_num01800_sim0.jpg",
+      "scene_000_scroll_013_num02100_sim0.jpg",
+      "scene_000_scroll_015_num02400_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1800,
+      2100,
+      2400
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "TRANSLATION",
+    "name": "BATUHAN IBRAHIM",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_scroll_011_num01800_sim0.jpg",
+      "scene_000_scroll_013_num02100_sim0.jpg",
+      "scene_000_scroll_015_num02400_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1800,
+      2100,
+      2400
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "TRANSLATION",
+    "name": "EMINE HALIL",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_scroll_011_num01800_sim0.jpg",
+      "scene_000_scroll_013_num02100_sim0.jpg",
+      "scene_000_scroll_015_num02400_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1800,
+      2100,
+      2400
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "TRANSLATION",
+    "name": "SENADA IBRAIMOVA",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_scroll_011_num01800_sim0.jpg",
+      "scene_000_scroll_013_num02100_sim0.jpg",
+      "scene_000_scroll_015_num02400_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1800,
+      2100,
+      2400
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "TRANSLATION",
+    "name": "ALEKSANDAR TASKOVSKI",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_scroll_011_num01800_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1800
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ADDITIONAL CINEMATOGRAPHER",
+    "name": "KRISTIJAN KARADZOVSKI",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_000_scroll_012_num01950_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1950
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "GRAPHIC DESIGNER",
+    "name": "ANDREJ MARJANOVIC",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_scroll_012_num01950_sim0.jpg",
+      "scene_000_scroll_014_num02250_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1950,
+      2250
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "TRANSLATION",
+    "name": "MAGDA ORGIJANSKA",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_scroll_012_num01950_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1950
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "TRANSLATION",
+    "name": "MARIJANA KOTEVSKA",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_scroll_012_num01950_sim0.jpg",
+      "scene_000_scroll_014_num02250_sim0.jpg",
+      "scene_000_scroll_016_num02550_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1950,
+      2250,
+      2550
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "LEGAL ADVISOR",
+    "name": "DIMITAR PANCHEVSKI",
+    "role_group": "Legal Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Legal Department",
+    "source_frame": [
+      "scene_000_scroll_012_num01950_sim0.jpg",
+      "scene_000_scroll_014_num02250_sim0.jpg",
+      "scene_000_scroll_016_num02550_sim0.jpg"
+    ],
+    "original_frame_number": [
+      1950,
+      2250,
+      2550
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AUDIO POST-PRODUCTION",
+    "name": "DB-HAL STUDIOS – BEIRUT",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_013_num02100_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2100
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "TRANSLATION",
+    "name": "ALEKSANDAR TAKOVSKI",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_scroll_013_num02100_sim0.jpg",
+      "scene_000_scroll_015_num02400_sim0.jpg",
+      "scene_000_scroll_017_num02700_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2100,
+      2400,
+      2700
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EDITING FACILITY",
+    "name": "FILMTRICK",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_013_num02100_sim0.jpg",
+      "scene_000_scroll_015_num02400_sim0.jpg",
+      "scene_000_scroll_017_num02700_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2100,
+      2400,
+      2700
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COLOR GRADING",
+    "name": "FX3X",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_013_num02100_sim0.jpg",
+      "scene_000_scroll_015_num02400_sim0.jpg",
+      "scene_000_scroll_017_num02700_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2100,
+      2400,
+      2700
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MUSIC RECORDING",
+    "name": "AL SHAR",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_013_num02100_sim0.jpg",
+      "scene_000_scroll_015_num02400_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2100,
+      2400
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FOLEY RECORDING",
+    "name": "FRANÇOIS YAZBEK",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_scroll_014_num02250_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2250
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "TRANSLATION",
+    "name": "MAGDA ORGJANSKA",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_scroll_014_num02250_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2250
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "db studios",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_015_num02400_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2400
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "HAL",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_015_num02400_sim0.jpg",
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2400,
+      2700,
+      3000
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "YOU'RE SO BEAUTIFUL",
+    "name": "BRUCE CARLETON FISHER",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_scroll_015_num02400_sim0.jpg",
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2400,
+      2700,
+      3000
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "YOU'RE SO BEAUTIFUL",
+    "name": "BILLY PRESTON",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_scroll_015_num02400_sim0.jpg",
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2400,
+      2700,
+      3000
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "YOU'RE SO BEAUTIFUL",
+    "name": "PHOENIX AND THE DREAM",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_scroll_015_num02400_sim0.jpg",
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2400,
+      2700,
+      3000
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "YOU'RE SO BEAUTIFUL",
+    "name": "IRVING MUSIC, INC",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_scroll_015_num02400_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2400
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "YOU'RE SO BEAUTIFUL",
+    "name": "ALMO MUSIC CORP.",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_scroll_015_num02400_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2400,
+      3000
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "YOU'RE SO BEAUTIFUL",
+    "name": "SAN JUAN MUSIC GROUP LTD",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_scroll_015_num02400_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2400
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "YOU'RE SO BEAUTIFUL",
+    "name": "CBN, INC.",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_scroll_015_num02400_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2400
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "TRANSLATION",
+    "name": "MAGDA ORIGJANSKA",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_scroll_016_num02550_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2550
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "BOTTLEDIVING",
+    "name": "FOLTIN",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_scroll_016_num02550_sim0.jpg",
+      "scene_000_scroll_018_num02850_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2550,
+      2850
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "MUSIC RECORDING",
+    "name": "ALSHAR",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "db STUDIOS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "YOU'RE SO BEAUTIFUL",
+    "name": "IRVING MUSIC, INC",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "YOU'RE SO BEAUTIFUL",
+    "name": "ALMO MUSIC CORP.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "COURTESY OF",
+    "name": "SAN JUAN MUSIC GROUP LTD OF CBN, INC.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "VINKA TANEVSKA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "ALI MURATOV",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "SLAVCHO HRISTOVSKI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "RAIM MURAT",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "NAZIM MURATOV",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "FEIM MURATOV",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "DIME MELOVSKI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "DRAGAN ARSOVSKI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "IDA MANTON",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "TUE STEEN MULLER",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "FARUK GÜVEN",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "ALEKSANDRA DEREWIENKO",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "BLAGOJA NEDELKOVSKI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "MILIVOJE GJORGJEVIC",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "ALEKSANDAR GJORGJEVIC",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "3D CINEMA BITOLA",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "IVO TRAJKOV",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "LAUREN KUSHNER",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "CAROLINE VON KÜHN",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "SOFIA ALICASTRO",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "JENNY SLATTERY",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "SOPHIE GUNTHER",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "ALEKSANDAR DOBREVSKI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "TRINA TODOROVSKA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "SENKA MANEVA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "ANITA STOJCHEVSKA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "DIMITAR OROVCHANEC",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "ACO BOZINOV-DZOVI KOMPANI",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "BOGOLJUB STERIJOVSKI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "VANGEL VLASHKI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "HANKA KASTELICOVA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "BORIS MITIC",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "DANIELA JOVANOVSKA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_017_num02700_sim0.jpg",
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2700,
+      3000,
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "FADIL",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "HASLIJE ISMAILI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "JOVAN MARJANOVIC",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "DARKO POPOV",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "VLADIMIR BLAZEVSKI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "VERICA NEDESKA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "DANKA UZUNOVA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "DIMITRIJA SEKOVSKI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "SASKO POTTER MICEVSKI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "MARITA SBEIH",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "BILJANA TUTOROV",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "DARKO RUNDEK",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "SYBILLE SUTER TEJADA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "STEPHANE TOMAGIAN",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "CLIFF HAMMER",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "FRANK WIEDERKEHR",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "STANISLAVA DODEVA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "MARJONKA VELJANOVSKA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "CVETAN NIKOLOVSKI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "KATERINA ATANASOVSKA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "JASMINKA PASHALISKA ANDONOVSKA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "KOSTADIN KITANOV",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "BOVIN WINERY",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "HELVETAS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_018_num02850_sim0.jpg",
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "FILMTRICK EDITING",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_019_num03000_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3000
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "fx3x",
+    "role_group": "Special Effects Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Special Effects Companies",
+    "source_frame": [
+      "scene_000_scroll_019_num03000_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3000
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "DB STUDIOS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_019_num03000_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3000
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "YOU'RE SO BEAUTIFUL",
+    "name": "IRVING MUSIC, INC.",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_scroll_019_num03000_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3000
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "YOU'RE SO BEAUTIFUL",
+    "name": "SAN JUAN MUSIC GROUP LTD OF CBN, INC.",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_scroll_019_num03000_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3000
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "FARUK GUVEN",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_019_num03000_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3000
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "ANITA STOJCEVSKA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_019_num03000_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3000
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRESENTED AT",
+    "name": "WIP CINELINK",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg",
+      "scene_000_scroll_023_num03600_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3000,
+      3300,
+      3600
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRESENTED AT",
+    "name": "DOCU TALENTS FROM THE EAST",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg",
+      "scene_000_scroll_023_num03600_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3000,
+      3300,
+      3600
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRESENTED AT",
+    "name": "SARAJEVO FILM FESTIVAL",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_019_num03000_sim0.jpg",
+      "scene_000_scroll_021_num03300_sim0.jpg",
+      "scene_000_scroll_023_num03600_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3000,
+      3300,
+      3600
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "BOTTLEDVING",
+    "name": "POLTIN",
+    "role_group": "Soundtrack",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Soundtrack",
+    "source_frame": [
+      "scene_000_scroll_020_num03150_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3150
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "HASIJE ISMAILI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "MARITA SREBI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_020_num03150_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3150
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "BILJANA TITOROV",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_020_num03150_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3150
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "STÉPHANE TOMAGIAN",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "W",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_020_num03150_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3150
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "PHARMACHEM - SKOPJE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg",
+      "scene_000_scroll_024_num03750_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3150,
+      3450,
+      3750
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "APOLO MEDIA",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": null,
+    "name": "TRICE FILMS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_020_num03150_sim0.jpg",
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3150,
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "SOFIA ALCAISTRO",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRESENTED BY",
+    "name": "NEON",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_000_scroll_021_num03300_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3300
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "SPECIAL THANKS",
+    "name": "DIMITRIJA SEJKOVSKI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_022_num03450_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3450
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MADE POSSIBLE WITH THE SUPPORT OF",
+    "name": "SWISS AGENCY FOR DEVELOPMENT AND COOPERATION - SDC",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_022_num03450_sim0.jpg",
+      "scene_000_scroll_024_num03750_sim0.jpg",
+      "scene_000_scroll_025_num03900_sim0.jpg",
+      "scene_000_scroll_026_num04050_sim0.jpg",
+      "scene_000_scroll_028_num04350_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3450,
+      3750,
+      3900,
+      4050,
+      4350
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MADE POSSIBLE WITH THE SUPPORT OF",
+    "name": "NATURE CONSERVATION PROGRAMME IN MACEDONIA - NCP",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_022_num03450_sim0.jpg",
+      "scene_000_scroll_024_num03750_sim0.jpg",
+      "scene_000_scroll_026_num04050_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3450,
+      3750,
+      4050
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRESENTED BY",
+    "name": "NEON",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_000_scroll_023_num03600_sim0.jpg",
+      "scene_000_scroll_025_num03900_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3600,
+      3900
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "MADE POSSIBLE WITH THE SUPPORT OF",
+    "name": "MACEDONIAN FILM AGENCY",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_023_num03600_sim0.jpg",
+      "scene_000_scroll_025_num03900_sim0.jpg",
+      "scene_000_scroll_027_num04200_sim0.jpg",
+      "scene_000_scroll_029_num04500_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3600,
+      3900,
+      4200,
+      4500
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MADE POSSIBLE WITH THE SUPPORT OF",
+    "name": "SFFILM DOCUMENTARY FILM FUND",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_023_num03600_sim0.jpg",
+      "scene_000_scroll_025_num03900_sim0.jpg",
+      "scene_000_scroll_027_num04200_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3600,
+      3900,
+      4200
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "APOLO MEDIA",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_000_scroll_024_num03750_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3750
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": null,
+    "name": "TRICE FILMS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_000_scroll_024_num03750_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3750
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "THIS FILM WAS MADE POSSIBLE BY",
+    "name": "SFFILM INVEST",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_024_num03750_sim0.jpg",
+      "scene_000_scroll_026_num04050_sim0.jpg",
+      "scene_000_scroll_028_num04350_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3750,
+      4050,
+      4350
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "A PROGRAM OF",
+    "name": "SFFILM",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_024_num03750_sim0.jpg",
+      "scene_000_scroll_026_num04050_sim0.jpg",
+      "scene_000_scroll_028_num04350_sim0.jpg",
+      "scene_000_scroll_030_num04650_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3750,
+      4050,
+      4350,
+      4650
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "A PROGRAM OF",
+    "name": "CINEREACH",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_024_num03750_sim0.jpg",
+      "scene_000_scroll_026_num04050_sim0.jpg",
+      "scene_000_scroll_028_num04350_sim0.jpg",
+      "scene_000_scroll_030_num04650_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3750,
+      4050,
+      4350,
+      4650
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "JULIE PARKER BENELLO",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_025_num03900_sim0.jpg",
+      "scene_000_scroll_027_num04200_sim0.jpg",
+      "scene_000_scroll_029_num04500_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3900,
+      4200,
+      4500
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "SECRET SAUCE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_025_num03900_sim0.jpg",
+      "scene_000_scroll_027_num04200_sim0.jpg",
+      "scene_000_scroll_029_num04500_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3900,
+      4200,
+      4500
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "LISA KLEINER CHANOFF",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_025_num03900_sim0.jpg",
+      "scene_000_scroll_027_num04200_sim0.jpg",
+      "scene_000_scroll_029_num04500_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3900,
+      4200,
+      4500
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "MAIDA LYNN",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_025_num03900_sim0.jpg",
+      "scene_000_scroll_027_num04200_sim0.jpg",
+      "scene_000_scroll_029_num04500_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3900,
+      4200,
+      4500
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "GENUINE ARTICLE PICTURES",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_025_num03900_sim0.jpg",
+      "scene_000_scroll_027_num04200_sim0.jpg",
+      "scene_000_scroll_029_num04500_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3900,
+      4200,
+      4500
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "NION MCEVOY",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_025_num03900_sim0.jpg",
+      "scene_000_scroll_027_num04200_sim0.jpg",
+      "scene_000_scroll_029_num04500_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3900,
+      4200,
+      4500
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "LESLIE BERRIMAN",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_025_num03900_sim0.jpg",
+      "scene_000_scroll_027_num04200_sim0.jpg",
+      "scene_000_scroll_029_num04500_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3900,
+      4200,
+      4500
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "PATTY QUILLIN",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_025_num03900_sim0.jpg",
+      "scene_000_scroll_027_num04200_sim0.jpg",
+      "scene_000_scroll_029_num04500_sim0.jpg"
+    ],
+    "original_frame_number": [
+      3900,
+      4200,
+      4500
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "TRICE",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_000_scroll_026_num04050_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4050
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "TODD TRAINA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_scroll_026_num04050_sim0.jpg",
+      "scene_000_scroll_028_num04350_sim0.jpg",
+      "scene_000_scroll_030_num04650_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4050,
+      4350,
+      4650
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SALES REPRESENTATION",
+    "name": "SUBMARINE",
+    "role_group": "Sales Representatives / ISA",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Sales Representatives / ISA",
+    "source_frame": [
+      "scene_000_scroll_027_num04200_sim0.jpg",
+      "scene_000_scroll_029_num04500_sim0.jpg",
+      "scene_000_scroll_031_num04800_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4200,
+      4500,
+      4800
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SALES REPRESENTATION",
+    "name": "JOSH BRAUN",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_scroll_027_num04200_sim0.jpg",
+      "scene_000_scroll_029_num04500_sim0.jpg",
+      "scene_000_scroll_031_num04800_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4200,
+      4500,
+      4800
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SALES REPRESENTATION",
+    "name": "DAN BRAUN",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_scroll_027_num04200_sim0.jpg",
+      "scene_000_scroll_029_num04500_sim0.jpg",
+      "scene_000_scroll_031_num04800_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4200,
+      4500,
+      4800
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SALES REPRESENTATION",
+    "name": "BEN BRAUN",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_scroll_027_num04200_sim0.jpg",
+      "scene_000_scroll_029_num04500_sim0.jpg",
+      "scene_000_scroll_031_num04800_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4200,
+      4500,
+      4800
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SALES REPRESENTATION",
+    "name": "MATT BURKE",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_scroll_027_num04200_sim0.jpg",
+      "scene_000_scroll_029_num04500_sim0.jpg",
+      "scene_000_scroll_031_num04800_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4200,
+      4500,
+      4800
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SALES REPRESENTATION",
+    "name": "BEN SCHWARTZ",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_scroll_027_num04200_sim0.jpg",
+      "scene_000_scroll_029_num04500_sim0.jpg",
+      "scene_000_scroll_031_num04800_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4200,
+      4500,
+      4800
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "NATURE CONSERVATION PROGRAMME",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_028_num04350_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4350
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "SFFILM makers",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_scroll_028_num04350_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4350
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "DECKERT DISTRIBUTION",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_000_scroll_028_num04350_sim0.jpg",
+      "scene_000_scroll_032_num04950_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4350,
+      4950
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "DECKERT DISTRIBUTION",
+    "name": "HEINO DECKERT",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_scroll_028_num04350_sim0.jpg",
+      "scene_000_scroll_030_num04650_sim0.jpg",
+      "scene_000_scroll_032_num04950_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4350,
+      4650,
+      4950
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SALES REPRESENTATION",
+    "name": "DECKERT DISTRIBUTION",
+    "role_group": "Sales Representatives / ISA",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Sales Representatives / ISA",
+    "source_frame": [
+      "scene_000_scroll_030_num04650_sim0.jpg"
+    ],
+    "original_frame_number": [
+      4650
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-23T06:09:43.039723+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  }
+]

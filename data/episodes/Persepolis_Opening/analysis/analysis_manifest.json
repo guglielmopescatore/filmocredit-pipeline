@@ -1,0 +1,483 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_000_static_000_num00060_sim0.jpg",
+          "frame_num": 60,
+          "ocr_text": "SONY PICTURES CLASSICS",
+          "ocr_bbox": [
+            445,
+            459,
+            1468,
+            535
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_000_static_001_num00288_sim43.jpg",
+          "frame_num": 288,
+          "ocr_text": "2.4.7.FILMS PRESENTE *",
+          "ocr_bbox": [
+            463,
+            419,
+            1458,
+            526
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_000_static_002_num00408_sim32.jpg",
+          "frame_num": 408,
+          "ocr_text": "PERSEPOLIS",
+          "ocr_bbox": [
+            135,
+            397,
+            1795,
+            631
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_000_static_003_num00413_sim100.jpg",
+          "frame_num": 413,
+          "ocr_text": "PERSEPOLIS",
+          "ocr_bbox": [
+            134,
+            397,
+            1795,
+            631
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 4,
+      "median_flow_px_per_frame": 0.10517893359065056,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.15346604585647583,
+      "roi_percentile_flow": 0.10517893359065056,
+      "scroll_direction": null
+    },
+    "scene_1": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_001_static_000_num00426_sim100.jpg",
+          "frame_num": 426,
+          "ocr_text": "PERSEPOLIS",
+          "ocr_bbox": [
+            135,
+            398,
+            1794,
+            632
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_001_static_001_num00510_sim18.jpg",
+          "frame_num": 510,
+          "ocr_text": "D'APRES L'OEUVRE ORIGINALE DE MARJANE SATRAPi PUBLIEE AUX EDITIONS L'ASSOCIATION",
+          "ocr_bbox": [
+            586,
+            436,
+            1334,
+            591
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_001_static_002_num00558_sim83.jpg",
+          "frame_num": 558,
+          "ocr_text": "D'APRES L'OEUVRE ORIGINALE DE MARJANE SATRAPi PUBLIEE AUX EDITIONS SL'ASSOCIATION",
+          "ocr_bbox": [
+            588,
+            439,
+            1334,
+            591
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.0,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.6326812505722046,
+      "roi_percentile_flow": 0.0,
+      "scroll_direction": null
+    },
+    "scene_2": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_002_static_000_num00614_sim38.jpg",
+          "frame_num": 614,
+          "ocr_text": "EN COPRODUCTION AVEC FRANCE 3 CiNEMA THE KENNEDY/MARSHALL COMPANY",
+          "ocr_bbox": [
+            698,
+            191,
+            1462,
+            333
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_002_static_001_num00638_sim98.jpg",
+          "frame_num": 638,
+          "ocr_text": "EN COPRODUCTION AVEC FRANCE 3 CiNEMA THE KENNEDY/MARSHALL COMPANY X",
+          "ocr_bbox": [
+            698,
+            192,
+            1462,
+            448
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_002_static_002_num00710_sim39.jpg",
+          "frame_num": 710,
+          "ocr_text": "G DDUCTION AVEC HE CONNECTION ANIMATIONS BANA DISTRIBUTION",
+          "ocr_bbox": [
+            242,
+            6,
+            1378,
+            307
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_002_static_003_num00722_sim48.jpg",
+          "frame_num": 722,
+          "ocr_text": "EN COPRODUCTION AVEC FRANCHE CONNECTION ANIMATIONS DIAPHANA DISTRIBUTION EN ASSOCiATION AVEC CELLULOID DREAMS SONY PICTURES CLASSiCS SOFiCA SOFiCINEMA ET SOFiCA EUROPACORP",
+          "ocr_bbox": [
+            713,
+            169,
+            1644,
+            551
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_002_static_004_num00866_sim38.jpg",
+          "frame_num": 866,
+          "ocr_text": "AVEC LA PARTICiPATION DU CENTRE NATIONAL DE LA CINEMATOGRAPHIE DE LA R\u00c9GION ILE-DE-FRANCE DE LA FONDATION GROUPAMA GAN POUR LE CINEMA DE LA PROCIREP ET DE L'ANGOA *",
+          "ocr_bbox": [
+            614,
+            304,
+            1808,
+            547
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_002_static_005_num00878_sim100.jpg",
+          "frame_num": 878,
+          "ocr_text": "AVEC LA PARTiCiPATiON DU CENTRE NATIONAL DE LA CINEMATOGRAPHIE DE LA REGION ILE-DE-FRANCE DE LA FONDATION GROUPAMA GAN POUR LE CINEMA DE LA PROCIREP ET DE L'ANGOA",
+          "ocr_bbox": [
+            621,
+            301,
+            1598,
+            527
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_002_static_006_num00986_sim95.jpg",
+          "frame_num": 986,
+          "ocr_text": "AVEC LA PARTiCiPATION DO CENTRE NATIONAL DE LA CINEMATOGRAPHIE DE LA REGION ILE-DE- FRANCE DE LA FONDATION GROUPAMA GAN POUR LE CINEMA DE LA PROCIREP ET DE L'ANGOA",
+          "ocr_bbox": [
+            620,
+            305,
+            1599,
+            527
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_002_static_007_num01022_sim16.jpg",
+          "frame_num": 1022,
+          "ocr_text": "AVEC LES VOIX DE",
+          "ocr_bbox": [
+            1155,
+            263,
+            1556,
+            314
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_002_static_008_num01032_sim100.jpg",
+          "frame_num": 1032,
+          "ocr_text": "AVEC LES VOIX DE",
+          "ocr_bbox": [
+            1162,
+            264,
+            1554,
+            312
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 9,
+      "median_flow_px_per_frame": 0.12434165924787521,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.24166563153266907,
+      "roi_percentile_flow": 0.12434165924787521,
+      "scroll_direction": null
+    },
+    "scene_3": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_003_scroll_000_num01033_sim0.jpg",
+          "frame_num": 1033,
+          "ocr_text": "AVEC LES VOIX DE",
+          "ocr_bbox": [
+            1162,
+            263,
+            1554,
+            312
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": 0.9797921180725098,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.7203421592712402,
+      "roi_percentile_flow": 0.9797921180725098,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 952,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_4": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_004_static_000_num01149_sim39.jpg",
+          "frame_num": 1149,
+          "ocr_text": "DANIELLE DARRIEUX CATHERINE DENEUVE",
+          "ocr_bbox": [
+            418,
+            237,
+            1504,
+            366
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -0.136495441198349,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -0.13636356592178345,
+      "roi_percentile_flow": -0.136495441198349,
+      "scroll_direction": null
+    },
+    "scene_5": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_005_scroll_000_num01202_sim0.jpg",
+          "frame_num": 1202,
+          "ocr_text": "DANIELLE DARRIEUX SIMON ABKARIAN",
+          "ocr_bbox": [
+            244,
+            241,
+            973,
+            467
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_005_scroll_001_num01352_sim0.jpg",
+          "frame_num": 1352,
+          "ocr_text": "STUDIO DANIMATION PERSEPROD,UNE ASSOCIATION JE SUIS BIEN CONTENT PUMPKiN-3D CHEVE ETL MARC JOUSSET/PASCAU LOUiS ViAU",
+          "ocr_bbox": [
+            705,
+            179,
+            1681,
+            378
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_005_scroll_002_num01502_sim0.jpg",
+          "frame_num": 1502,
+          "ocr_text": "DiRECTEU MARC J",
+          "ocr_bbox": [
+            908,
+            369,
+            1105,
+            458
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.9947906136512756,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.4741476774215698,
+      "roi_percentile_flow": 0.9947906136512756,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 937,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_6": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_006_scroll_000_num01548_sim0.jpg",
+          "frame_num": 1548,
+          "ocr_text": "DiRECTEUR ARTiSTiDUE MARC JOUSSET",
+          "ocr_bbox": [
+            911,
+            374,
+            1395,
+            456
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_006_scroll_001_num01698_sim0.jpg",
+          "frame_num": 1698,
+          "ocr_text": "DIRECTEUR DE L'ANIMATION CHRiSTiAN DESMARES CHEF DECORATRICE MARISA MUSY CZAZA) COMPOSiTING MONTAGE STEPHANE ROCHE ASSISTANT REALISATEUR DENIS WALGENWITZ",
+          "ocr_bbox": [
+            205,
+            101,
+            1406,
+            639
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_006_scroll_002_num01848_sim0.jpg",
+          "frame_num": 1848,
+          "ocr_text": "SON THIERRY LEBON DIRECTION DE PRODUCTION DE L'ANIMATION OLIViER BiZET CHEF LAY OUT JING WANG CHEF TRACEUR FRANK MiYET CHEFS ASSiSTANAT THIERRY PERES ALEXIS VENET",
+          "ocr_bbox": [
+            211,
+            93,
+            1715,
+            627
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": 0.6323623657226562,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 1.4632312059402466,
+      "roi_percentile_flow": 0.6323623657226562,
+      "scroll_direction": "downward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 1474,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_7": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_007_static_000_num01954_sim32.jpg",
+          "frame_num": 1954,
+          "ocr_text": "MUSIQUE COMPOS\u00c9E ET DIRIGEE PAR OLIVIER BERNET *",
+          "ocr_bbox": [
+            318,
+            248,
+            970,
+            499
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_007_static_001_num01966_sim99.jpg",
+          "frame_num": 1966,
+          "ocr_text": "MUSIQUE COMPOSEE ET DIRIGEE PAR OLIVIER BERNET",
+          "ocr_bbox": [
+            319,
+            250,
+            970,
+            334
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_007_static_002_num02014_sim32.jpg",
+          "frame_num": 2014,
+          "ocr_text": "PRODUCTRiCE ASSOCIEE KATHLEEN KENNEDY",
+          "ocr_bbox": [
+            440,
+            399,
+            954,
+            490
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_007_static_003_num02026_sim100.jpg",
+          "frame_num": 2026,
+          "ocr_text": "PRODUCTRICE ASSOCIEE KATHLEEN KENNEDY",
+          "ocr_bbox": [
+            437,
+            397,
+            954,
+            490
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_007_static_004_num02038_sim100.jpg",
+          "frame_num": 2038,
+          "ocr_text": "PRODUCTRICE ASSOCIEE * KATHLEEN KENNEDY",
+          "ocr_bbox": [
+            28,
+            359,
+            954,
+            525
+          ],
+          "scene_position": "second_half"
+        },
+        {
+          "path": "Persepolis_Opening\\analysis\\frames\\scene_007_static_005_num02098_sim38.jpg",
+          "frame_num": 2098,
+          "ocr_text": "PRODUiT PAR MARC-ANTOINE ROBERT ET XAViER RIGAULT",
+          "ocr_bbox": [
+            146,
+            334,
+            1109,
+            439
+          ],
+          "scene_position": "second_half"
+        }
+      ],
+      "frame_count": 6,
+      "median_flow_px_per_frame": 0.23809298872947693,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.3526957631111145,
+      "roi_percentile_flow": 0.23809298872947693,
+      "scroll_direction": null
+    },
+    "scene_8": {
+      "type": "dynamic_scroll",
+      "output_files": [],
+      "frame_count": 0,
+      "median_flow_px_per_frame": -1.1953963041305542,
+      "status": "completed",
+      "position": "second_half",
+      "full_percentile_flow": 0.11252627521753311,
+      "roi_percentile_flow": -1.1953963041305542,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 780,
+      "target_scroll_ratio": 0.9
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Wild_Strawberries_End\\analysis\\frames\\scene_000_scroll_000_num00150_sim0.jpg",
+          "frame_num": 150,
+          "ocr_text": "VICTOR SJ\u00d6STR\u00d6M Professor Isak Borg BIBI ANDERSSON Sara INGRID THULIN Marianne GUNNAR BJ\u00d6RNSTRAND Evald FOLKE SUNDQUIST Anders BJ\u00d6RN BJELVENSTAM Viktor NAIMA WIFSTRAND Isaks mor JULLAN KINDAHL Agda GUNNAR SJ\u00d6BERG Alman GUNNEL BROSTR\u00d6M Fru Alman GERTRUD FRIDH Karin, Isaks hustru AKE FRIDELI Hustruns \u00e4lskare",
+          "ocr_bbox": [
+            194,
+            370,
+            775,
+            719
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 1,
+      "median_flow_px_per_frame": -3.0217552185058594,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -2.1860083639621735,
+      "roi_percentile_flow": -3.0217552185058594,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 214,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_1": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Wild_Strawberries_End\\analysis\\frames\\scene_001_scroll_000_num00151_sim0.jpg",
+          "frame_num": 151,
+          "ocr_text": "VICTOR SJ\u00d6STR\u00d6M Professor Isak Borg BIBI ANDERSSON Sara INGRID THULIN Marianne GUNNAR BJ\u00d6RNSTRAND Evald FOLKE SUNDQUIST Anders BJ\u00d6RN BJELVENSTAM Viktor NAIMA WIFSTRAND Isaks mor JULLAN KINDAHL Agda GUNNAR SJ\u00d6BERG Alman GUNNEL BROSTR\u00d6M Fru Alman GERTRUD FRIDH Karin, Isaks hustru AKE FRIDELL Hustruns \u00e4lskare",
+          "ocr_bbox": [
+            194,
+            367,
+            777,
+            720
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_End\\analysis\\frames\\scene_001_scroll_001_num00301_sim0.jpg",
+          "frame_num": 301,
+          "ocr_text": "GUNNAR BJ\u00d6RNSTRAND Evald FOLKE SUNDQUIST Anders BJ\u00d6RN BJELVENSTAM Viktor NAIMA WIFSTRAND Isaks mor JULLAN KINDAHL Agda GUNNAR SJ\u00d6BERG Alman GUNNEL BROSTR\u00d6M Fru Alman GERTRUD FRIDH Karin, Isaks hustru AKE FRIDELL Hustruns \u00e4lskare MAX VON SYDOW Akerman SIF RUUD Moster Olga YNGVE NORDWALL Farbror Aron PER SJ\u00d6STRAND Sigfrid GIO PETRE Sigbritt GUNNEL LINDBLOM Charlotta MAUD HANSSON Angelica LENA BERGMAN Tvilling Kristina MONICA EHRLING TvillingBirgitta G\u00d6RAN LUNDQUIST Benjamin EVA NOR\u00c9E Anna ULF JOHANSSON Isaks far VENDELA RUDBACK Elisabet PER SKOGSBERG Hagbart GUNNAR OLSSON Biskopen",
+          "ocr_bbox": [
+            194,
+            1,
+            762,
+            716
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_End\\analysis\\frames\\scene_001_scroll_002_num00451_sim0.jpg",
+          "frame_num": 451,
+          "ocr_text": "MAUD HANSSON Angellca LENA BERGMAN Tvilling Kristina MONICA EHRLING TvillingBirgitta G\u00d6RAN LUNDQUIST Benjamin EVA NOR\u00c9E Anna ULF JOHANSSON Isaks far VENDELA RUDBACK Elisabet PER SKOGSBERG Hagbart GUNNAR OLSSON Biskopen JOSEF NORMAN Professor Tiger ANNE-MARIE WIMAN Akermans fru PROFESSOR WULFF Promotor Produktionsledare ALLAN EKELUND Fotograf GUNNAR FISCHER Musik ERIK NORDGREN",
+          "ocr_bbox": [
+            194,
+            0,
+            726,
+            719
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 3,
+      "median_flow_px_per_frame": -3.0169482231140137,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": -3.0163931846618652,
+      "roi_percentile_flow": -3.0169482231140137,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 215,
+      "target_scroll_ratio": 0.9
+    },
+    "scene_2": {
+      "type": "dynamic_scroll",
+      "output_files": [
+        {
+          "path": "Wild_Strawberries_End\\analysis\\frames\\scene_002_scroll_000_num00498_sim0.jpg",
+          "frame_num": 498,
+          "ocr_text": "ULF JOHANSSON Isaks far VENDELA RUDB\u00c4CK Elisabet PER SKOGSBERG Hagbart GUNNAR OLSSON Biskopen JOSEF NORMAN Professor Tiger ANNE-MARIE WIMAN Akermans fru PROFESSOR WULFF Promotor Produktionsledare ALLAN EKELUND Fotograf GUNNAR FISCHER Musik ERIK NORDGREN Orkesterledare ESKIL ECKERT-LUNDIN Otiubild.",
+          "ocr_bbox": [
+            193,
+            0,
+            726,
+            719
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_End\\analysis\\frames\\scene_002_scroll_001_num00648_sim0.jpg",
+          "frame_num": 648,
+          "ocr_text": "GUNNAR FISCHER Musik ERIK NORDGREN Orkesterledare ESKIL ECKERT-LUNDIN Stillbildsfoto LOUIS HUCH Arkitekt GITTAN GUSTAFSSON Klippning OSCAR ROSANDER Ljud AABY WEDIN Regiassistent G\u00d6STA EKMAN",
+          "ocr_bbox": [
+            332,
+            11,
+            624,
+            675
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_End\\analysis\\frames\\scene_002_scroll_002_num00798_sim0.jpg",
+          "frame_num": 798,
+          "ocr_text": "OSCAR ROSANDER Ljud AABY WEDIN Regiassistent G\u00d6STA EKMAN Scripta KATHERINA FARAG\u00d3 InspeIningsledare SVEN SJ\u00d6NELL Perukmakare NILS NITTEL Firma Carl M Lundh Kostym\u00f6r MILLE STR\u00d6M Rekvisit\u00f6r KARL-ARNE BERGMAN",
+          "ocr_bbox": [
+            326,
+            2,
+            628,
+            710
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_End\\analysis\\frames\\scene_002_scroll_003_num00948_sim0.jpg",
+          "frame_num": 948,
+          "ocr_text": "NILS NITTEL Firma Carl M Lundh Kostym\u00f6r MILLE STR\u00d6M Rekvisit\u00f6r KARL-ARNE BERGMAN B-foto BJ\u00d6RN THERMAENIUS B-ljud LENNART WALLIN Mixning SVEN RUDESTEDT Manuskript INGMAR BERGMAN",
+          "ocr_bbox": [
+            327,
+            11,
+            628,
+            686
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_End\\analysis\\frames\\scene_002_scroll_004_num01098_sim0.jpg",
+          "frame_num": 1098,
+          "ocr_text": "Mixning SVEN RUDESTEDT Manuskript INGMAR BERGMAN Regiss\u00f6r INGMAR BERGMAN",
+          "ocr_bbox": [
+            350,
+            15,
+            605,
+            353
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_End\\analysis\\frames\\scene_002_scroll_005_num01398_sim0.jpg",
+          "frame_num": 1398,
+          "ocr_text": "I SAMARBETE MED THE CHIMNEY POT MARSMOTEL AB CINEPOST STUDIOS AB PROJEKTLEDARE: PETER BENGTSSON",
+          "ocr_bbox": [
+            343,
+            230,
+            617,
+            461
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 6,
+      "median_flow_px_per_frame": -3.0024730563163757,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.0,
+      "roi_percentile_flow": -3.0024730563163757,
+      "scroll_direction": "upward",
+      "save_interval_frames": 150,
+      "save_interval_frames_uncapped": 216,
+      "target_scroll_ratio": 0.9
+    }
+  }
+}

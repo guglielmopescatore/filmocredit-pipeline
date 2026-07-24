@@ -1,0 +1,376 @@
+{
+  "scenes": {
+    "scene_0": {
+      "type": "static_or_slow",
+      "output_files": [
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_000_num00036_sim0.jpg",
+          "frame_num": 36,
+          "ocr_text": "SVENSK FILMINDUSTRI VISAR",
+          "ocr_bbox": [
+            184,
+            285,
+            769,
+            401
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_001_num00180_sim35.jpg",
+          "frame_num": 180,
+          "ocr_text": "VICTOR SJOSTROM",
+          "ocr_bbox": [
+            233,
+            309,
+            718,
+            358
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_002_num00312_sim46.jpg",
+          "frame_num": 312,
+          "ocr_text": "S MICTOR SJOSTROM ET",
+          "ocr_bbox": [
+            164,
+            279,
+            802,
+            363
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_003_num00324_sim28.jpg",
+          "frame_num": 324,
+          "ocr_text": "SMAETRQNSTALNLET",
+          "ocr_bbox": [
+            169,
+            290,
+            801,
+            362
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_004_num00336_sim77.jpg",
+          "frame_num": 336,
+          "ocr_text": "SMULTRONSTALLET",
+          "ocr_bbox": [
+            171,
+            290,
+            799,
+            350
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_005_num00408_sim67.jpg",
+          "frame_num": 408,
+          "ocr_text": "SMULTRONSTALLET INGMAR BERGMAN",
+          "ocr_bbox": [
+            171,
+            291,
+            799,
+            404
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_006_num00432_sim51.jpg",
+          "frame_num": 432,
+          "ocr_text": "EN FILM AV INGMAR BERGMAN",
+          "ocr_bbox": [
+            234,
+            289,
+            729,
+            404
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_007_num00504_sim79.jpg",
+          "frame_num": 504,
+          "ocr_text": "BIBI AEN FILMAV INGMAR BERGMANI",
+          "ocr_bbox": [
+            231,
+            271,
+            770,
+            422
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_008_num00516_sim53.jpg",
+          "frame_num": 516,
+          "ocr_text": "MED BIBI ANDERSSAN",
+          "ocr_bbox": [
+            165,
+            232,
+            614,
+            335
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_009_num00528_sim49.jpg",
+          "frame_num": 528,
+          "ocr_text": "MED BIBI ANDERSSON INGRID THULIN GUNNAR BJORNSTRAND",
+          "ocr_bbox": [
+            166,
+            235,
+            781,
+            421
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_010_num00600_sim94.jpg",
+          "frame_num": 600,
+          "ocr_text": "MED BIBI ANDERSSONIL INGRID THULINUISI GUNNAR BJORNSTRAND",
+          "ocr_bbox": [
+            166,
+            235,
+            780,
+            423
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_011_num00612_sim45.jpg",
+          "frame_num": 612,
+          "ocr_text": "BIBLAAND KIRSISIANL IFOIKE SUNDQUIST BLORNABJBIVRNSTAMN",
+          "ocr_bbox": [
+            244,
+            281,
+            759,
+            419
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_012_num00624_sim56.jpg",
+          "frame_num": 624,
+          "ocr_text": "JULLAN KINDAHL FOLKE SUNDQUIST BJORN BJELVENSTAM",
+          "ocr_bbox": [
+            258,
+            282,
+            713,
+            421
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_013_num00720_sim22.jpg",
+          "frame_num": 720,
+          "ocr_text": "ENSTAM",
+          "ocr_bbox": [
+            242,
+            540,
+            423,
+            579
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_014_num00732_sim17.jpg",
+          "frame_num": 732,
+          "ocr_text": "NAIMA WIFSTRAND GUNNEL BROSTROM GERTRUD FRIDH SIF RUUD",
+          "ocr_bbox": [
+            261,
+            249,
+            712,
+            443
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_015_num00744_sim100.jpg",
+          "frame_num": 744,
+          "ocr_text": "NAIMA WIFSTRAND GUNNEL BROSTROM GERTRUD FRIDH SIF RUUD",
+          "ocr_bbox": [
+            262,
+            249,
+            712,
+            443
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_016_num00852_sim34.jpg",
+          "frame_num": 852,
+          "ocr_text": "GUNNAR SJOBERG MAX VON SYDOW YNGVE NORDWALL PER SJOSTRAND",
+          "ocr_bbox": [
+            276,
+            217,
+            707,
+            455
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_017_num00864_sim90.jpg",
+          "frame_num": 864,
+          "ocr_text": "GUNNAR SJOBERG MAX VON SYDOW AKE FRIDELL YNGVE NORDWALL PER SJOSTRAND",
+          "ocr_bbox": [
+            274,
+            218,
+            706,
+            459
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_018_num00876_sim99.jpg",
+          "frame_num": 876,
+          "ocr_text": "GUNNAR SJOBERG MAX VON SYDOW AKE FRIDELL YNGVE NORDWALL PERS SJOSTRAND",
+          "ocr_bbox": [
+            274,
+            218,
+            707,
+            457
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_019_num00972_sim62.jpg",
+          "frame_num": 972,
+          "ocr_text": "GIO PETRE GUNNAR ISJOBERGM MAXIVON SYDOW AKENFRIDELL WIMAN YNGKENORDWALL PERSJOSTRAND MONICA EHRLING",
+          "ocr_bbox": [
+            276,
+            162,
+            714,
+            506
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_020_num00984_sim52.jpg",
+          "frame_num": 984,
+          "ocr_text": "GIO PETRE GUNNELR LINDBLOM MAUD HANSSON ANNEMARIE WIMAN EVA NOREERDWALI LENA BERGMAN MONICA EHRLING",
+          "ocr_bbox": [
+            276,
+            162,
+            716,
+            506
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_021_num00996_sim95.jpg",
+          "frame_num": 996,
+          "ocr_text": "GIO PETRE GUNNEL LINDBLOM MAUD HANSSON ANN-MARIE WIMAN EVA NOR\u00c9E LENA BERGMAN MONICA EHRLING",
+          "ocr_bbox": [
+            276,
+            163,
+            715,
+            506
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_022_num01128_sim81.jpg",
+          "frame_num": 1128,
+          "ocr_text": "GIO PETRE GUNNEL LINDBLOM FCTO: MAUD HANSSONIER ARKITER ANN-MARIE WIMANSC MUSIK: EVARNOREEDGREN LENA BERGMAN MONICA EHRLING",
+          "ocr_bbox": [
+            160,
+            159,
+            805,
+            508
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_023_num01140_sim72.jpg",
+          "frame_num": 1140,
+          "ocr_text": "GIO PETRE GUNNEL LINDBLOM FOTO: MACNNARSSISCHER ARKITEKA:NGITMANNIEWSTANSSON MUSIK: EVARNORORDGREN LENA BERGMAN MONICA EHRLING",
+          "ocr_bbox": [
+            159,
+            161,
+            806,
+            507
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_024_num01152_sim46.jpg",
+          "frame_num": 1152,
+          "ocr_text": "FOTO: GUNNAR FISCHER ARKITEKT: GITTAN GUSTAFSSON MUSIK: ERIK NORDGREN",
+          "ocr_bbox": [
+            160,
+            254,
+            807,
+            398
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_025_num01320_sim54.jpg",
+          "frame_num": 1320,
+          "ocr_text": "KLIPPNING: OSCAR ROSANDER GUNNAR FISCHER FOTO: KARKITEKT: GITTANIGUSTAFSSON MUSIKMAKAERIKN NORDGREN FIRMA CARL M. LUNDH AGA",
+          "ocr_bbox": [
+            151,
+            198,
+            807,
+            495
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_026_num01344_sim52.jpg",
+          "frame_num": 1344,
+          "ocr_text": "KLIPPNING: OSCAR ROSANDER AABY WEDIN LJUD: MILLIE STROM KLADER: NILS NITTEL PERUKMAKARE: FIRMA CARL M. LUNDH AGA",
+          "ocr_bbox": [
+            151,
+            198,
+            807,
+            495
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_027_num01488_sim49.jpg",
+          "frame_num": 1488,
+          "ocr_text": "REKVISITOR KLIPPNING KARDSARANERBERANDAER LRUGIASSISTENTAABY WEDIN GOSTIALEKSIAROM KLADER:",
+          "ocr_bbox": [
+            152,
+            163,
+            805,
+            341
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_028_num01500_sim52.jpg",
+          "frame_num": 1500,
+          "ocr_text": "REKVISITOR: KARL-ARNE BERGMAN REGIASSISTENT: GOSTA EKMAN SCRIPT-GIRL: KATHERINA FARAGO INSPELNINGSLEDARE: SVEN SJONELL",
+          "ocr_bbox": [
+            170,
+            164,
+            799,
+            508
+          ],
+          "scene_position": "first_half"
+        },
+        {
+          "path": "Wild_Strawberries_Opening\\analysis\\frames\\scene_000_static_029_num01512_sim100.jpg",
+          "frame_num": 1512,
+          "ocr_text": "REKVISITOR: KARL-ARNE BERGMAN REGIASSISTENT: GOSTA EKMAN SCRIPT-GIRL: KATHERINA FARAGO INSPELNINGSLEDARE: SVEN SJONELL",
+          "ocr_bbox": [
+            170,
+            164,
+            799,
+            508
+          ],
+          "scene_position": "first_half"
+        }
+      ],
+      "frame_count": 30,
+      "median_flow_px_per_frame": 0.10469091683626175,
+      "status": "completed",
+      "position": "first_half",
+      "full_percentile_flow": 0.10397147573530674,
+      "roi_percentile_flow": 0.10469091683626175,
+      "scroll_direction": null
+    }
+  }
+}

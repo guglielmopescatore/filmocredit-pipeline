@@ -1,0 +1,97 @@
+{
+  "total_frames": 1415,
+  "fps": 23.976023976023978,
+  "timestamp": "2026-07-18T18:55:22.918104",
+  "scenes": [
+    {
+      "start_frame": 0,
+      "end_frame": 101,
+      "start_timecode": "00:00:00.000",
+      "end_timecode": "00:00:04.213"
+    },
+    {
+      "start_frame": 101,
+      "end_frame": 185,
+      "start_timecode": "00:00:04.213",
+      "end_timecode": "00:00:07.716"
+    },
+    {
+      "start_frame": 185,
+      "end_frame": 264,
+      "start_timecode": "00:00:07.716",
+      "end_timecode": "00:00:11.011"
+    },
+    {
+      "start_frame": 264,
+      "end_frame": 333,
+      "start_timecode": "00:00:11.011",
+      "end_timecode": "00:00:13.889"
+    },
+    {
+      "start_frame": 333,
+      "end_frame": 418,
+      "start_timecode": "00:00:13.889",
+      "end_timecode": "00:00:17.434"
+    },
+    {
+      "start_frame": 418,
+      "end_frame": 458,
+      "start_timecode": "00:00:17.434",
+      "end_timecode": "00:00:19.102"
+    },
+    {
+      "start_frame": 458,
+      "end_frame": 510,
+      "start_timecode": "00:00:19.102",
+      "end_timecode": "00:00:21.271"
+    },
+    {
+      "start_frame": 510,
+      "end_frame": 619,
+      "start_timecode": "00:00:21.271",
+      "end_timecode": "00:00:25.817"
+    },
+    {
+      "start_frame": 619,
+      "end_frame": 689,
+      "start_timecode": "00:00:25.817",
+      "end_timecode": "00:00:28.737"
+    },
+    {
+      "start_frame": 689,
+      "end_frame": 735,
+      "start_timecode": "00:00:28.737",
+      "end_timecode": "00:00:30.656"
+    },
+    {
+      "start_frame": 735,
+      "end_frame": 758,
+      "start_timecode": "00:00:30.656",
+      "end_timecode": "00:00:31.615"
+    },
+    {
+      "start_frame": 758,
+      "end_frame": 856,
+      "start_timecode": "00:00:31.615",
+      "end_timecode": "00:00:35.702"
+    },
+    {
+      "start_frame": 856,
+      "end_frame": 1048,
+      "start_timecode": "00:00:35.702",
+      "end_timecode": "00:00:43.710"
+    },
+    {
+      "start_frame": 1048,
+      "end_frame": 1142,
+      "start_timecode": "00:00:43.710",
+      "end_timecode": "00:00:47.631"
+    },
+    {
+      "start_frame": 1142,
+      "end_frame": 1415,
+      "start_timecode": "00:00:47.631",
+      "end_timecode": "00:00:59.017"
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+    "episode_id": "Persepolis_Opening",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 414,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:00:17.267",
+            "duration_frames": 414,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "SONY PICTURES CLASSICS"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 20,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 41,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 62,
+                    "ocr_text": "SONY PICTURES CLASSICS",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_62_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 20: No text found (CLAHE)",
+                "Frame 41: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 1,
+            "original_start_frame": 414,
+            "original_end_frame": 590,
+            "original_start_timecode": "00:00:17.267",
+            "original_end_timecode": "00:00:24.608",
+            "duration_frames": 176,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "PERSEPOLIS"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 422,
+                    "ocr_text": "PERSEPOLIS",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_first_half_frame_422_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 590,
+            "original_end_frame": 1033,
+            "original_start_timecode": "00:00:24.608",
+            "original_end_timecode": "00:00:43.085",
+            "duration_frames": 443,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "EN COPRODUCTION AVEC FRANCE 3 CiNEMA THE KENNEDY/MARSHALL COMPANY"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 612,
+                    "ocr_text": "EN COPRODUCTION AVEC FRANCE 3 CiNEMA THE KENNEDY/MARSHALL COMPANY",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_first_half_frame_612_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 3,
+            "original_start_frame": 1033,
+            "original_end_frame": 1149,
+            "original_start_timecode": "00:00:43.085",
+            "original_end_timecode": "00:00:47.923",
+            "duration_frames": 116,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "AVEC LES VOIX DE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1038,
+                    "ocr_text": "AVEC LES VOIX DE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_003_first_half_frame_1038_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 4,
+            "original_start_frame": 1149,
+            "original_end_frame": 1202,
+            "original_start_timecode": "00:00:47.923",
+            "original_end_timecode": "00:00:50.133",
+            "duration_frames": 53,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "DANIELLE DARRiEUX CATHERINE DENEUVE"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1151,
+                    "ocr_text": "DANIELLE DARRiEUX CATHERINE DENEUVE",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_004_first_half_frame_1151_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 5,
+            "original_start_frame": 1202,
+            "original_end_frame": 1548,
+            "original_start_timecode": "00:00:50.133",
+            "original_end_timecode": "00:01:04.564",
+            "duration_frames": 346,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "SiMON ABKARIAN"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1219,
+                    "ocr_text": "SiMON ABKARIAN",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_005_second_half_frame_1219_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 6,
+            "original_start_frame": 1548,
+            "original_end_frame": 1954,
+            "original_start_timecode": "00:01:04.564",
+            "original_end_timecode": "00:01:21.498",
+            "duration_frames": 406,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "DiRECTEUR ARTiSTIQUE MARC JOUSSET"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1568,
+                    "ocr_text": "DiRECTEUR ARTiSTIQUE MARC JOUSSET",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_006_second_half_frame_1568_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 7,
+            "original_start_frame": 1954,
+            "original_end_frame": 2209,
+            "original_start_timecode": "00:01:21.498",
+            "original_end_timecode": "00:01:32.134",
+            "duration_frames": 255,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "MUSIQUE COMPOSEE ET DIRIGEE PAR OLIVIER BERNET"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 1966,
+                    "ocr_text": "MUSIQUE COMPOSEE ET DIRIGEE PAR OLIVIER BERNET",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_007_second_half_frame_1966_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 8,
+            "original_start_frame": 2209,
+            "original_end_frame": 2350,
+            "original_start_timecode": "00:01:32.134",
+            "original_end_timecode": "00:01:38.015",
+            "duration_frames": 141,
+            "position": "second_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "UN FiLM DE MARJANE SATRAPi ET VINCENT PARONNAUD"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 2216,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 2223,
+                    "ocr_text": "UN FiLM DE MARJANE SATRAPi ET VINCENT PARONNAUD",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_008_second_half_frame_2223_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 2216: No text found (CLAHE)"
+            ],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 414,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:17.267",
+            "duration_frames": 414,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 414,
+            "end_frame": 590,
+            "start_timecode": "00:00:17.267",
+            "end_timecode": "00:00:24.608",
+            "duration_frames": 176,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 590,
+            "end_frame": 1033,
+            "start_timecode": "00:00:24.608",
+            "end_timecode": "00:00:43.085",
+            "duration_frames": 443,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 3,
+            "start_frame": 1033,
+            "end_frame": 1149,
+            "start_timecode": "00:00:43.085",
+            "end_timecode": "00:00:47.923",
+            "duration_frames": 116,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 4,
+            "start_frame": 1149,
+            "end_frame": 1202,
+            "start_timecode": "00:00:47.923",
+            "end_timecode": "00:00:50.133",
+            "duration_frames": 53,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 5,
+            "start_frame": 1202,
+            "end_frame": 1548,
+            "start_timecode": "00:00:50.133",
+            "end_timecode": "00:01:04.564",
+            "duration_frames": 346,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 6,
+            "start_frame": 1548,
+            "end_frame": 1954,
+            "start_timecode": "00:01:04.564",
+            "end_timecode": "00:01:21.498",
+            "duration_frames": 406,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 7,
+            "start_frame": 1954,
+            "end_frame": 2209,
+            "start_timecode": "00:01:21.498",
+            "end_timecode": "00:01:32.134",
+            "duration_frames": 255,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 8,
+            "start_frame": 2209,
+            "end_frame": 2350,
+            "start_timecode": "00:01:32.134",
+            "end_timecode": "00:01:38.015",
+            "duration_frames": 141,
+            "position": "second_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2026-07-22T20:29:05.366753"
+}

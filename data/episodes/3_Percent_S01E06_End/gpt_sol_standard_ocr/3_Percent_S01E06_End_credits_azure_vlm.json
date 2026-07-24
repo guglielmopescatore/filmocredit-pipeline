@@ -1,0 +1,5710 @@
+[
+  {
+    "role_detail": "DIRIGIDO POR",
+    "name": "DAINA GIANNECCHINI",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_000_static_000_num00048_sim0.jpg"
+    ],
+    "original_frame_number": [
+      48
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIRIGIDO POR",
+    "name": "DANI LIBARDI",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_000_static_000_num00048_sim0.jpg"
+    ],
+    "original_frame_number": [
+      48
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ESCRITO POR",
+    "name": "CÁSSIO KOSHIKUMO",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_000_static_001_num00096_sim43.jpg"
+    ],
+    "original_frame_number": [
+      96
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ESCRITO POR",
+    "name": "DENIS NIELSEN",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_000_static_001_num00096_sim43.jpg"
+    ],
+    "original_frame_number": [
+      96
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ESCRITO POR",
+    "name": "IVAN NAKAMURA",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_000_static_001_num00096_sim43.jpg"
+    ],
+    "original_frame_number": [
+      96
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ESCRITO POR",
+    "name": "JOTAGÁ CREMA",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "scene_000_static_001_num00096_sim43.jpg"
+    ],
+    "original_frame_number": [
+      96
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MONTADO POR",
+    "name": "CRISTIAN CHINEN",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_000_static_002_num00156_sim44.jpg"
+    ],
+    "original_frame_number": [
+      156
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "CÉSAR GOUVÊA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "CLAIRISSA KISTE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "DANI NEFUSSI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "DÁRCIO DE OLIVEIRA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "EDIANA SOUZA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "EDUARDO SILVA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "GABRIEL CALAMARI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "GERALDO RODRIGUES",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "JULIA BERGAMIM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "JÚLIO SILVÉRIO",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "LEONARDO GARCEZ",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "LUCIANA PAES",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "LUCIANA SCHWINDEN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "MARIA GAL",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "PAULO GONÇALVES",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "PEDRO GASPAROTTO",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "RITA BATATA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "ROGÉRIO BRITTO",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "THIAGO AMARAL",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_003_num00216_sim15.jpg"
+    ],
+    "original_frame_number": [
+      216
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIRETORA DE PRODUÇÃO",
+    "name": "LIA RAULINO HILLEL",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_000_static_004_num00264_sim50.jpg"
+    ],
+    "original_frame_number": [
+      264
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FIGURINISTA",
+    "name": "CÁSSIO BRASIL",
+    "role_group": "Costume Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume Designers",
+    "source_frame": [
+      "scene_000_static_004_num00264_sim50.jpg"
+    ],
+    "original_frame_number": [
+      264
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "1º ASSISTENTE DE DIREÇÃO",
+    "name": "THIAGO LEÃO",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_000_static_004_num00264_sim50.jpg"
+    ],
+    "original_frame_number": [
+      264
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PREPARADORES DE ELENCO",
+    "name": "CHRISTIAN DUURVOORT",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_004_num00264_sim50.jpg"
+    ],
+    "original_frame_number": [
+      264
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PREPARADORES DE ELENCO",
+    "name": "MARINA MEDEIROS",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_004_num00264_sim50.jpg"
+    ],
+    "original_frame_number": [
+      264
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CARACTERIZAÇÃO",
+    "name": "ROSEMARY PAIVA",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_000_static_004_num00264_sim50.jpg"
+    ],
+    "original_frame_number": [
+      264
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUTORES DE ELENCO",
+    "name": "DIOGO FERREIRA SILVA",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_000_static_004_num00264_sim50.jpg"
+    ],
+    "original_frame_number": [
+      264
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUTORES DE ELENCO",
+    "name": "FELIPE LUZ",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_000_static_004_num00264_sim50.jpg"
+    ],
+    "original_frame_number": [
+      264
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUTORES DE ELENCO",
+    "name": "GUSTAVO TRANQUILIN",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_000_static_004_num00264_sim50.jpg"
+    ],
+    "original_frame_number": [
+      264
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COORDENADORAS DE PRODUÇÃO EXECUTIVA",
+    "name": "CLAUDIA GONÇALVES",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_005_num00324_sim50.jpg"
+    ],
+    "original_frame_number": [
+      324
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COORDENADORAS DE PRODUÇÃO EXECUTIVA",
+    "name": "LARISSA SPADA",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_005_num00324_sim50.jpg"
+    ],
+    "original_frame_number": [
+      324
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COORDENADORAS DE PRODUÇÃO EXECUTIVA",
+    "name": "MARIANE NUNES",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_005_num00324_sim50.jpg"
+    ],
+    "original_frame_number": [
+      324
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUTORES ASSOCIADOS",
+    "name": "LÔ POLITI",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_static_005_num00324_sim50.jpg"
+    ],
+    "original_frame_number": [
+      324
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUTORES ASSOCIADOS",
+    "name": "ROBÉRIO BRAGA",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "scene_000_static_005_num00324_sim50.jpg"
+    ],
+    "original_frame_number": [
+      324
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COORDENADORA DE PRODUÇÃO",
+    "name": "VANESSA MARTINS",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_005_num00324_sim50.jpg"
+    ],
+    "original_frame_number": [
+      324
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COORDENADORES DE CENAS DE AÇÃO",
+    "name": "ANDRÉ FRANCO",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_000_static_005_num00324_sim50.jpg"
+    ],
+    "original_frame_number": [
+      324
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COORDENADORES DE CENAS DE AÇÃO",
+    "name": "ARIELA GOLDMANN",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_000_static_005_num00324_sim50.jpg"
+    ],
+    "original_frame_number": [
+      324
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COORDENADORES DE CENAS DE AÇÃO",
+    "name": "GIULIANO BORTOLUCI",
+    "role_group": "Stunts",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Stunts",
+    "source_frame": [
+      "scene_000_static_005_num00324_sim50.jpg"
+    ],
+    "original_frame_number": [
+      324
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE ELENCO",
+    "name": "GUILHERME FROTA",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_000_static_005_num00324_sim50.jpg"
+    ],
+    "original_frame_number": [
+      324
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE ELENCO",
+    "name": "VICKY JUSTINIANO",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_000_static_005_num00324_sim50.jpg"
+    ],
+    "original_frame_number": [
+      324
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTE DE FIGURAÇÃO",
+    "name": "ROSE BONJARDIM",
+    "role_group": "Casting Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Department",
+    "source_frame": [
+      "scene_000_static_005_num00324_sim50.jpg"
+    ],
+    "original_frame_number": [
+      324
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "2° ASSISTENTES DE DIREÇÃO",
+    "name": "GIOVANNA RUBIM",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_000_static_006_num00384_sim51.jpg"
+    ],
+    "original_frame_number": [
+      384
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "2° ASSISTENTES DE DIREÇÃO",
+    "name": "YARA GUZMAN",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_000_static_006_num00384_sim51.jpg"
+    ],
+    "original_frame_number": [
+      384
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "3° ASSISTENTES DE DIREÇÃO",
+    "name": "BRUNA GRULKE",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_000_static_006_num00384_sim51.jpg"
+    ],
+    "original_frame_number": [
+      384
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "3° ASSISTENTES DE DIREÇÃO",
+    "name": "GUILHERME MOTTA",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_000_static_006_num00384_sim51.jpg"
+    ],
+    "original_frame_number": [
+      384
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "3° ASSISTENTES DE DIREÇÃO",
+    "name": "MARIA CRISTINA POLETTO",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_000_static_006_num00384_sim51.jpg"
+    ],
+    "original_frame_number": [
+      384
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "3° ASSISTENTES DE DIREÇÃO",
+    "name": "PAULA BALIEIRO",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_000_static_006_num00384_sim51.jpg"
+    ],
+    "original_frame_number": [
+      384
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CONTINUÍSTA",
+    "name": "JP TEIXEIRA",
+    "role_group": "Script and Continuity Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Script and Continuity Department",
+    "source_frame": [
+      "scene_000_static_006_num00384_sim51.jpg"
+    ],
+    "original_frame_number": [
+      384
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTE DE CONTINUÍSTA",
+    "name": "PEDRO TEIXEIRA",
+    "role_group": "Script and Continuity Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Script and Continuity Department",
+    "source_frame": [
+      "scene_000_static_006_num00384_sim51.jpg"
+    ],
+    "original_frame_number": [
+      384
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PLATÔ",
+    "name": "PHELIPE MOREIRA (PH)",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_006_num00384_sim51.jpg"
+    ],
+    "original_frame_number": [
+      384
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CONSULTOR TECNOLÓGICO",
+    "name": "LULI RADFAHRER",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "scene_000_static_006_num00384_sim51.jpg"
+    ],
+    "original_frame_number": [
+      384
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTE DE DIREÇÃO DE ARTE",
+    "name": "RENATA RUGAI",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_007_num00444_sim53.jpg"
+    ],
+    "original_frame_number": [
+      444
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUTORA DE ARTE",
+    "name": "CAMILA FERNANDES GALHARDO",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_007_num00444_sim53.jpg"
+    ],
+    "original_frame_number": [
+      444
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUTOR DE OBJETOS",
+    "name": "MARIO SURCAN",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_000_static_007_num00444_sim53.jpg"
+    ],
+    "original_frame_number": [
+      444
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CENOGRAFIA",
+    "name": "CAROLINA MONTOIA",
+    "role_group": "Production Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Designers",
+    "source_frame": [
+      "scene_000_static_007_num00444_sim53.jpg"
+    ],
+    "original_frame_number": [
+      444
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "1° ASSISTENTE DE OBJETOS",
+    "name": "PHELIPE VITTORELLI",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_000_static_007_num00444_sim53.jpg"
+    ],
+    "original_frame_number": [
+      444
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "2° ASSISTENTES DE OBJETOS",
+    "name": "DUANNY LIMA",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_000_static_007_num00444_sim53.jpg"
+    ],
+    "original_frame_number": [
+      444
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "2° ASSISTENTES DE OBJETOS",
+    "name": "RENATA ZBOBIL",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_000_static_007_num00444_sim53.jpg"
+    ],
+    "original_frame_number": [
+      444
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EFEITOS",
+    "name": "SHIYOZI IZUNO FILHO",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "scene_000_static_007_num00444_sim53.jpg"
+    ],
+    "original_frame_number": [
+      444
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PINTURA DE ARTE",
+    "name": "CIDINHO SOUZA (EXTRA)",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_007_num00444_sim53.jpg"
+    ],
+    "original_frame_number": [
+      444
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PINTURA DE ARTE",
+    "name": "CLAUDIO PARRA",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_007_num00444_sim53.jpg"
+    ],
+    "original_frame_number": [
+      444
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PINTURA DE ARTE",
+    "name": "PATRICIA CABRAL",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_007_num00444_sim53.jpg"
+    ],
+    "original_frame_number": [
+      444
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PINTURA DE ARTE",
+    "name": "PAULA SELVA",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_007_num00444_sim53.jpg"
+    ],
+    "original_frame_number": [
+      444
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PINTURA DE ARTE",
+    "name": "WILSON DOS SANTOS CASTRO",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_007_num00444_sim53.jpg"
+    ],
+    "original_frame_number": [
+      444
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "OPERADORES DE CÂMERA",
+    "name": "EDUARDO PIAGGE",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_008_num00504_sim55.jpg"
+    ],
+    "original_frame_number": [
+      504
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "OPERADORES DE CÂMERA",
+    "name": "PEDRO MAFFEI",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_008_num00504_sim55.jpg"
+    ],
+    "original_frame_number": [
+      504
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "OPERADORES DE CÂMERA",
+    "name": "RAFAEL MARTINELLI",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_008_num00504_sim55.jpg"
+    ],
+    "original_frame_number": [
+      504
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "1° ASSISTENTE DE CÂMERA",
+    "name": "RICARDO HESSEL (BRANCO)",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_008_num00504_sim55.jpg"
+    ],
+    "original_frame_number": [
+      504
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "2° ASSISTENTE DE CÂMERA",
+    "name": "MARCIO MELLO",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_008_num00504_sim55.jpg"
+    ],
+    "original_frame_number": [
+      504
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "LOGGER",
+    "name": "GUSTAVO FATTORI",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_008_num00504_sim55.jpg"
+    ],
+    "original_frame_number": [
+      504
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "LOGGER",
+    "name": "NELSON KAO",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_008_num00504_sim55.jpg"
+    ],
+    "original_frame_number": [
+      504
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "VIDEO ASSIST",
+    "name": "LUCAS FILHÃO CARDOSO",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_008_num00504_sim55.jpg"
+    ],
+    "original_frame_number": [
+      504
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "1° ASSISTENTE DE CÂMERA - 2° UNIDADE",
+    "name": "FELIPE RODRIGUES",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_008_num00504_sim55.jpg"
+    ],
+    "original_frame_number": [
+      504
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "2° ASSISTENTES DE CÂMERA - 2° UNIDADE",
+    "name": "DANIEL DOMINGUES",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_008_num00504_sim55.jpg"
+    ],
+    "original_frame_number": [
+      504
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "2° ASSISTENTES DE CÂMERA - 2° UNIDADE",
+    "name": "PAUL BESSA",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_008_num00504_sim55.jpg"
+    ],
+    "original_frame_number": [
+      504
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "VIDEO ASSIST - 2° UNIDADE",
+    "name": "VICTOR HUGO LUZ",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_008_num00504_sim55.jpg"
+    ],
+    "original_frame_number": [
+      504
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CHEFE DE ELÉTRICA",
+    "name": "MARCELO MARUJO (MELÃO)",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_009_num00564_sim53.jpg"
+    ],
+    "original_frame_number": [
+      564
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "1° ASSISTENTE DE ELÉTRICA",
+    "name": "DANILO SONCELA",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_009_num00564_sim53.jpg"
+    ],
+    "original_frame_number": [
+      564
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "2° ASSISTENTE DE ELÉTRICA",
+    "name": "ROBERTO MARUJO",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_009_num00564_sim53.jpg"
+    ],
+    "original_frame_number": [
+      564
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MAQUINISTA",
+    "name": "JULIO GONÇALVES GARCIA (JULINHO)",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_009_num00564_sim53.jpg"
+    ],
+    "original_frame_number": [
+      564
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "1° ASSISTENTE DE MAQUINÁRIA",
+    "name": "ALVES",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_009_num00564_sim53.jpg"
+    ],
+    "original_frame_number": [
+      564
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "2° ASSISTENTES DE MAQUINÁRIA",
+    "name": "ADILSON RODRIGUES DE SOUZA",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_009_num00564_sim53.jpg"
+    ],
+    "original_frame_number": [
+      564
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "2° ASSISTENTES DE MAQUINÁRIA",
+    "name": "ASSIS",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_009_num00564_sim53.jpg"
+    ],
+    "original_frame_number": [
+      564
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AJUDANTE DE ELÉTRICA",
+    "name": "WELLINGTON",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_009_num00564_sim53.jpg"
+    ],
+    "original_frame_number": [
+      564
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AJUDANTE DE MAQUINÁRIA",
+    "name": "WILLIAM VIEIRA",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_009_num00564_sim53.jpg"
+    ],
+    "original_frame_number": [
+      564
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "OPERADOR DE TP",
+    "name": "ROBERTO JR. (JUNINHO)",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_009_num00564_sim53.jpg"
+    ],
+    "original_frame_number": [
+      564
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTE DE PRODUÇÃO",
+    "name": "CÉSAR RAMOS",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_010_num00612_sim47.jpg"
+    ],
+    "original_frame_number": [
+      612
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SECRETÁRIA DE PRODUÇÃO",
+    "name": "MARIA HELENA MORSE",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_010_num00612_sim47.jpg"
+    ],
+    "original_frame_number": [
+      612
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ESTAGIÁRIA DE PRODUÇÃO",
+    "name": "DIANA NUNES",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_010_num00612_sim47.jpg"
+    ],
+    "original_frame_number": [
+      612
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE PRODUÇÃO EXECUTIVA",
+    "name": "MELISSA VIGA RODAS",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_010_num00612_sim47.jpg"
+    ],
+    "original_frame_number": [
+      612
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE PRODUÇÃO EXECUTIVA",
+    "name": "ROBERTA CUNHA",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_010_num00612_sim47.jpg"
+    ],
+    "original_frame_number": [
+      612
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE PRODUÇÃO EXECUTIVA",
+    "name": "RODRIGO MARQUES",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_010_num00612_sim47.jpg"
+    ],
+    "original_frame_number": [
+      612
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUTOR DE LOCAÇÃO",
+    "name": "ZECA PAIXÃO",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_000_static_011_num00672_sim53.jpg"
+    ],
+    "original_frame_number": [
+      672
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTE DE PRODUÇÃO DE LOCAÇÃO",
+    "name": "CESAR RIVITTI",
+    "role_group": "Location Managers",
+    "secondary_role_group": "Production Department",
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "scene_000_static_011_num00672_sim53.jpg"
+    ],
+    "original_frame_number": [
+      672
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUTOR DE FRENTE",
+    "name": "RICARDO AZEVEDO TAU",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_011_num00672_sim53.jpg"
+    ],
+    "original_frame_number": [
+      672
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE PLATÔ",
+    "name": "JEOVANY ALMEIDA",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_011_num00672_sim53.jpg"
+    ],
+    "original_frame_number": [
+      672
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE PLATÔ",
+    "name": "KEVIN SILVA",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_011_num00672_sim53.jpg"
+    ],
+    "original_frame_number": [
+      672
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE PLATÔ",
+    "name": "LEANDRO BUENO",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_011_num00672_sim53.jpg"
+    ],
+    "original_frame_number": [
+      672
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AJUDANTES DE SET",
+    "name": "JEFERSON VIANA (JEFF)",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_011_num00672_sim53.jpg"
+    ],
+    "original_frame_number": [
+      672
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AJUDANTES DE SET",
+    "name": "LAERTE MOACIR",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "scene_000_static_011_num00672_sim53.jpg"
+    ],
+    "original_frame_number": [
+      672
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "ASSISTENTES DE PRODUÇÃO DE ARTE",
+    "name": "GABRIEL OLIVEIRA LOPES GARCIA",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE PRODUÇÃO DE ARTE",
+    "name": "MARÍLIA DOURADO",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE PRODUÇÃO DE ARTE",
+    "name": "PEDRO CARDOSO",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE PRODUÇÃO DE ARTE",
+    "name": "ROBERTO FERREIRA (PEIXINHO)",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DESIGNER GRÁFICO",
+    "name": "RENAN RAMIRO",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AJUDANTES DE ARTE",
+    "name": "ATON PEREIRA",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AJUDANTES DE ARTE",
+    "name": "BOBI MARIANO",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AJUDANTES DE ARTE",
+    "name": "DIOGO ARAUJO",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AJUDANTES DE ARTE",
+    "name": "HIGOR LOPES",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AJUDANTES DE ARTE",
+    "name": "IGOR ISGUI",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AJUDANTES DE ARTE",
+    "name": "JORGE MIRANDA",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AJUDANTES DE ARTE",
+    "name": "LAERTE MOACIR",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "AJUDANTES DE ARTE",
+    "name": "PETTER JEFFERSON",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AJUDANTES DE ARTE",
+    "name": "RENAN CAMPOS",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AJUDANTES DE ARTE",
+    "name": "WELLINGTON BENFATI",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AJUDANTES DE ARTE",
+    "name": "WILLIAM ALVES NASCIMENTO",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_012_num00732_sim53.jpg"
+    ],
+    "original_frame_number": [
+      732
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CONTRARREGRAS",
+    "name": "BOBI MARCOS MARIANO COSTA",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_013_num00792_sim50.jpg"
+    ],
+    "original_frame_number": [
+      792
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CONTRARREGRAS",
+    "name": "KENNEDY MARIANO",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_013_num00792_sim50.jpg"
+    ],
+    "original_frame_number": [
+      792
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CONTRARREGRA DE FRENTE",
+    "name": "MARCÃO ARAUJO",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_013_num00792_sim50.jpg"
+    ],
+    "original_frame_number": [
+      792
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ADERECISTAS",
+    "name": "JESUS WALKIR",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_013_num00792_sim50.jpg"
+    ],
+    "original_frame_number": [
+      792
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ADERECISTAS",
+    "name": "TROY E TRIBO DA ARTE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_013_num00792_sim50.jpg"
+    ],
+    "original_frame_number": [
+      792
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTE DE CONTRARREGRA",
+    "name": "DARIO SANTOS DE MIRANDA",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_013_num00792_sim50.jpg"
+    ],
+    "original_frame_number": [
+      792
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SERRALHEIROS",
+    "name": "GILDO REIS",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_013_num00792_sim50.jpg"
+    ],
+    "original_frame_number": [
+      792
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SERRALHEIROS",
+    "name": "MARCIO PEREZ",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "scene_000_static_013_num00792_sim50.jpg"
+    ],
+    "original_frame_number": [
+      792
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PRODUTORA DE FIGURINO",
+    "name": "PATRÍCIA SAYURI SATO",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE FIGURINO",
+    "name": "ADRIANA RECCHI",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE FIGURINO",
+    "name": "POLLY LYRA COSTA",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CAMAREIRAS",
+    "name": "JACQUELINE VILAR",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CAMAREIRAS",
+    "name": "LILI SANTA ROSA",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CAMAREIRAS",
+    "name": "REJANE MEIRE GOMES SÁ",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COLABORADORES DE FIGURINO",
+    "name": "ALÍPIO GOMES",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COLABORADORES DE FIGURINO",
+    "name": "ANTONIA PAIVA FEITOSA",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COLABORADORES DE FIGURINO",
+    "name": "MARIA ALDA GONÇALVES",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COLABORADORES DE FIGURINO",
+    "name": "PIERRE GARCIA",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COLABORADORES DE FIGURINO",
+    "name": "SILVIA APARECIDA DE CASTRO",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE MAQUIAGEM, CABELO E EFEITOS",
+    "name": "AMANDA MIRAGE",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE MAQUIAGEM, CABELO E EFEITOS",
+    "name": "GABI SCHEMBECK",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE MAQUIAGEM, CABELO E EFEITOS",
+    "name": "JULIANA SANTOS",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE MAQUIAGEM, CABELO E EFEITOS",
+    "name": "LEON GURFEIN",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE MAQUIAGEM, CABELO E EFEITOS",
+    "name": "MARIA LÚCIA GAMA RAMALHO",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE MAQUIAGEM, CABELO E EFEITOS",
+    "name": "RAGNE VANDELLI",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE MAQUIAGEM, CABELO E EFEITOS",
+    "name": "RENATA RODRIGUES",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_000_static_014_num00852_sim44.jpg"
+    ],
+    "original_frame_number": [
+      852
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "TÉCNICOS DE SOM",
+    "name": "JULIANO ZOPPI",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_015_num00912_sim50.jpg"
+    ],
+    "original_frame_number": [
+      912
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "TÉCNICOS DE SOM",
+    "name": "RAGNAR RIBAS",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_015_num00912_sim50.jpg"
+    ],
+    "original_frame_number": [
+      912
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "TÉCNICO DE SOM - 2ª UNIDADE",
+    "name": "RENÉ BRASIL",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_015_num00912_sim50.jpg"
+    ],
+    "original_frame_number": [
+      912
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MICROFONISTA",
+    "name": "UBIRATAN GUIDIO",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_015_num00912_sim50.jpg"
+    ],
+    "original_frame_number": [
+      912
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTE DE SOM",
+    "name": "DANIEL LANDI",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_015_num00912_sim50.jpg"
+    ],
+    "original_frame_number": [
+      912
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COORDENADOR DE PROJEÇÕES",
+    "name": "THIAGO H. STRASSALANO",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": "Production Department",
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_015_num00912_sim50.jpg"
+    ],
+    "original_frame_number": [
+      912
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "TÉCNICO DE PROJEÇÃO",
+    "name": "RAFAEL BOTTER",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_015_num00912_sim50.jpg"
+    ],
+    "original_frame_number": [
+      912
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "VIDEO MAPPER",
+    "name": "FERNANDO ADOED",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_015_num00912_sim50.jpg"
+    ],
+    "original_frame_number": [
+      912
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "VIDEO MAPPER",
+    "name": "RAFAEL BOTTER",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_015_num00912_sim50.jpg"
+    ],
+    "original_frame_number": [
+      912
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "VIDEO MAPPER",
+    "name": "THIAGO H. STRASSALANO",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_015_num00912_sim50.jpg"
+    ],
+    "original_frame_number": [
+      912
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "ASSISTENTE DE PROJEÇÃO",
+    "name": "LEONARDO GUSMÃO",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_015_num00912_sim50.jpg"
+    ],
+    "original_frame_number": [
+      912
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ARTES PARA PROJEÇÃO",
+    "name": "FERNANDO VELÁSQUEZ",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_015_num00912_sim50.jpg"
+    ],
+    "original_frame_number": [
+      912
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ARTES PARA PROJEÇÃO",
+    "name": "NILTON CAVALCANTI",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_015_num00912_sim50.jpg"
+    ],
+    "original_frame_number": [
+      912
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SUPORTE TÉCNICO PARA PROJEÇÃO",
+    "name": "MAXI ÁUDIO, LUZ E IMAGEM",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_015_num00912_sim50.jpg"
+    ],
+    "original_frame_number": [
+      912
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COORDENADORA DE PÓS-PRODUÇÃO",
+    "name": "ANINHA GONÇALVES",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_016_num00960_sim41.jpg"
+    ],
+    "original_frame_number": [
+      960
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FINALIZADOR",
+    "name": "VINICIUS DAL COLLETTO",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_016_num00960_sim41.jpg"
+    ],
+    "original_frame_number": [
+      960
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTE DE FINALIZAÇÃO",
+    "name": "MAYARA NOGUEIRA",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_016_num00960_sim41.jpg"
+    ],
+    "original_frame_number": [
+      960
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE MONTAGEM",
+    "name": "CAMILA CAVALCANTE",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_016_num00960_sim41.jpg"
+    ],
+    "original_frame_number": [
+      960
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE MONTAGEM",
+    "name": "LEKA ROMÃO",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_016_num00960_sim41.jpg"
+    ],
+    "original_frame_number": [
+      960
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE MONTAGEM",
+    "name": "TAMMIRIS TELLES",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_016_num00960_sim41.jpg"
+    ],
+    "original_frame_number": [
+      960
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EDITORES DE AMBIENTE E EFEITOS",
+    "name": "HENRIQUE CHIURCIU",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_017_num01020_sim42.jpg"
+    ],
+    "original_frame_number": [
+      1020
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EDITORES DE AMBIENTE E EFEITOS",
+    "name": "JOÃO VICTOR COURA",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_017_num01020_sim42.jpg"
+    ],
+    "original_frame_number": [
+      1020
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EDITORES DE AMBIENTE E EFEITOS",
+    "name": "SÉRGIO ABDALLA",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_017_num01020_sim42.jpg"
+    ],
+    "original_frame_number": [
+      1020
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EDITORES DE DIÁLOGOS",
+    "name": "CAUÊ SHIMODA",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_017_num01020_sim42.jpg"
+    ],
+    "original_frame_number": [
+      1020
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EDITORES DE DIÁLOGOS",
+    "name": "MARIANA VIEIRA",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_017_num01020_sim42.jpg"
+    ],
+    "original_frame_number": [
+      1020
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "RUÍDO DE SALA",
+    "name": "FELIX BARREIRA",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_017_num01020_sim42.jpg"
+    ],
+    "original_frame_number": [
+      1020
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "RUÍDO DE SALA",
+    "name": "RAUL JOOKEN",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_017_num01020_sim42.jpg"
+    ],
+    "original_frame_number": [
+      1020
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "RUÍDO DE SALA",
+    "name": "WILLIAN LOPES",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_017_num01020_sim42.jpg"
+    ],
+    "original_frame_number": [
+      1020
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MASTERIZAÇÃO",
+    "name": "ARIEL HENRIQUE",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_017_num01020_sim42.jpg"
+    ],
+    "original_frame_number": [
+      1020
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SUPERVISORES DE SOM",
+    "name": "DANIEL TURINI",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_017_num01020_sim42.jpg"
+    ],
+    "original_frame_number": [
+      1020
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SUPERVISORES DE SOM",
+    "name": "FERNANDO HENNA",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_017_num01020_sim42.jpg"
+    ],
+    "original_frame_number": [
+      1020
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ESTÚDIO DE EDIÇÃO DE SOM E MIXAGEM",
+    "name": "CONFRARIA DE SONS & CHARUTOS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_017_num01020_sim42.jpg"
+    ],
+    "original_frame_number": [
+      1020
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIRETORES GERAIS • QUANTA POST",
+    "name": "GUILHERME RAMALHO",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_018_num01080_sim53.jpg"
+    ],
+    "original_frame_number": [
+      1080
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIRETORES GERAIS • QUANTA POST",
+    "name": "HUGO GURGEL",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_018_num01080_sim53.jpg"
+    ],
+    "original_frame_number": [
+      1080
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIRETORES GERAIS • QUANTA POST",
+    "name": "SOFIA FRANCO",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_018_num01080_sim53.jpg"
+    ],
+    "original_frame_number": [
+      1080
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COORDENADORAS • QUANTA POST",
+    "name": "MARIANA HERRADOR",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_018_num01080_sim53.jpg"
+    ],
+    "original_frame_number": [
+      1080
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COORDENADORAS • QUANTA POST",
+    "name": "SOPHIA NERY",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_018_num01080_sim53.jpg"
+    ],
+    "original_frame_number": [
+      1080
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COORDENADORA DE EFEITOS VISUAIS",
+    "name": "TATIANA PINHEIRO",
+    "role_group": "Visual Effects",
+    "secondary_role_group": "Production Department",
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_018_num01080_sim53.jpg"
+    ],
+    "original_frame_number": [
+      1080
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTE DE COORDENAÇÃO • QUANTA POST",
+    "name": "RITA MACHADO",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_018_num01080_sim53.jpg"
+    ],
+    "original_frame_number": [
+      1080
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIRETOR DE ARTE",
+    "name": "RICARDO FERNANDES",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_018_num01080_sim53.jpg"
+    ],
+    "original_frame_number": [
+      1080
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SUPERVISOR DE 3D",
+    "name": "VANDER SOUSA",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_018_num01080_sim53.jpg"
+    ],
+    "original_frame_number": [
+      1080
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "3D",
+    "name": "DIOVANE ROCHA",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_018_num01080_sim53.jpg"
+    ],
+    "original_frame_number": [
+      1080
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "3D",
+    "name": "FÁBIO CALCIOLARI",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_018_num01080_sim53.jpg"
+    ],
+    "original_frame_number": [
+      1080
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "3D",
+    "name": "ORLANDO SOUZA",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_018_num01080_sim53.jpg"
+    ],
+    "original_frame_number": [
+      1080
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COLORISTA",
+    "name": "LUISA CAVANAGH",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "scene_000_static_018_num01080_sim53.jpg"
+    ],
+    "original_frame_number": [
+      1080
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COMPOSIÇÃO",
+    "name": "ARTHUR GALLINDO",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COMPOSIÇÃO",
+    "name": "ISABELA FERRARI",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COMPOSIÇÃO",
+    "name": "IURI TAMPOLSKI",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COMPOSIÇÃO",
+    "name": "LUCAS SOUSA",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COMPOSIÇÃO",
+    "name": "MARCELO JAMIUK COIS",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "INTERMEDIAÇÃO DIGITAL",
+    "name": "ANA LÍGIA CARRARO",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "INTERMEDIAÇÃO DIGITAL",
+    "name": "FERNANDA SGROGLIA",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "INTERMEDIAÇÃO DIGITAL",
+    "name": "LUDMILA FORNES",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTION DESIGN",
+    "name": "BERNARDO VAZ",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTION DESIGN",
+    "name": "DANIELA SEABRA",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTION DESIGN",
+    "name": "JULIANA ARAÚJO",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTION DESIGN",
+    "name": "RAFAEL LONGO",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTION DESIGN",
+    "name": "ROGER BEZERRA",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SUPERVISÃO DO LABORATÓRIO DIGITAL",
+    "name": "ROBSON PEDROSO",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "LABORATÓRIO DIGITAL",
+    "name": "GABRIELLE FERREIRA",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "LABORATÓRIO DIGITAL",
+    "name": "JÚLIO PELIZER",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "scene_000_static_019_num01140_sim44.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CANTO MÚSICA DE ABERTURA",
+    "name": "MARCELO PRETTO",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "scene_000_static_020_num01200_sim25.jpg"
+    ],
+    "original_frame_number": [
+      1200
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "VOZES ADICIONAIS",
+    "name": "MARCELO PRETTO",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_020_num01200_sim25.jpg"
+    ],
+    "original_frame_number": [
+      1200
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "GERENTE ADMINISTRATIVO E FINANCEIRO",
+    "name": "AMANDA NUNES",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_000_static_021_num01248_sim24.jpg"
+    ],
+    "original_frame_number": [
+      1248
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CONTROLLER",
+    "name": "IARA LIAS",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_000_static_021_num01248_sim24.jpg"
+    ],
+    "original_frame_number": [
+      1248
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE CONTROLLER",
+    "name": "GIOVANNA FERNANDES",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_000_static_021_num01248_sim24.jpg"
+    ],
+    "original_frame_number": [
+      1248
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES DE CONTROLLER",
+    "name": "SABRINA TSUCHIYA",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_000_static_021_num01248_sim24.jpg"
+    ],
+    "original_frame_number": [
+      1248
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SUPERVISORA FINANCEIRO",
+    "name": "AMANDA MACEDO",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_000_static_021_num01248_sim24.jpg"
+    ],
+    "original_frame_number": [
+      1248
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES FINANCEIRO",
+    "name": "CAMILA ROQUE",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_000_static_021_num01248_sim24.jpg"
+    ],
+    "original_frame_number": [
+      1248
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES FINANCEIRO",
+    "name": "ELAINE MESQUITA",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_000_static_021_num01248_sim24.jpg"
+    ],
+    "original_frame_number": [
+      1248
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTES FINANCEIRO",
+    "name": "VANESSA AMODIO",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_000_static_021_num01248_sim24.jpg"
+    ],
+    "original_frame_number": [
+      1248
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSISTENTE ADMINISTRATIVO",
+    "name": "RANI CAMARGO",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_000_static_021_num01248_sim24.jpg"
+    ],
+    "original_frame_number": [
+      1248
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ESTAGIÁRIO ADM",
+    "name": "RAFAEL RAMOS",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "scene_000_static_021_num01248_sim24.jpg"
+    ],
+    "original_frame_number": [
+      1248
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSESSORIA JURÍDICA",
+    "name": "CAMARGO SOCIEDADE DE ADVOGADOS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_021_num01248_sim24.jpg"
+    ],
+    "original_frame_number": [
+      1248
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ASSESSORIA JURÍDICA",
+    "name": "LARISSA ARAÚJO",
+    "role_group": "Legal Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Legal Department",
+    "source_frame": [
+      "scene_000_static_021_num01248_sim24.jpg"
+    ],
+    "original_frame_number": [
+      1248
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "ALEXANDRE DA CRUZ SANTOS",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "ANTONIO CARLOS FERREIRA",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "ARLINDO SILVA",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS (CH VANS)",
+    "name": "CARLOS SCALLA",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "CARLOS TEIXEIRA",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "DUDU (EDUARDO OLIVEIRA MEDINA)",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "EDSON COELHO",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "EDUARDO ANDREANI",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "GERADORISTA",
+    "name": "ESGUERDINHA",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "GABRIEL ALEXANDRE",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "ISAAC COELHO",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "JEOVANY PINTO ALMEIDA",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "JOHNATA RUFINO DA SILVA",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "LUCIANO RODRIGUES",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS (TRUCKCINE)",
+    "name": "LUIZÃO",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "MARCELO ARIENTE",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "MARCONDES DE LIMA",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "OTHON PERDIGÃO",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "ROBERVAL SENA",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "SILVEIRA",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "TONY PIAUÍ",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MOTORISTAS",
+    "name": "VICTOR RODRIGUES",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "scene_000_static_022_num01308_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1308
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "APOIO",
+    "name": "ARENA CORINTHIANS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_023_num01368_sim41.jpg"
+    ],
+    "original_frame_number": [
+      1368
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "APOIO",
+    "name": "BNDES",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_023_num01368_sim41.jpg"
+    ],
+    "original_frame_number": [
+      1368
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "APOIO",
+    "name": "SECRETARIA MUNICIPAL DE CULTURA",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_023_num01368_sim41.jpg"
+    ],
+    "original_frame_number": [
+      1368
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "APOIO",
+    "name": "SPCINE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_023_num01368_sim41.jpg"
+    ],
+    "original_frame_number": [
+      1368
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS PRODUÇÃO",
+    "name": "CAIQUE MARTINS FERREIRA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_static_023_num01368_sim41.jpg"
+    ],
+    "original_frame_number": [
+      1368
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS PRODUÇÃO",
+    "name": "CAROL TURNER",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_static_023_num01368_sim41.jpg"
+    ],
+    "original_frame_number": [
+      1368
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS PRODUÇÃO",
+    "name": "CAROLINA VIANNA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_static_023_num01368_sim41.jpg"
+    ],
+    "original_frame_number": [
+      1368
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS PRODUÇÃO",
+    "name": "EPSON",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_023_num01368_sim41.jpg"
+    ],
+    "original_frame_number": [
+      1368
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS PRODUÇÃO",
+    "name": "GUSTAVO MELLO",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_static_023_num01368_sim41.jpg"
+    ],
+    "original_frame_number": [
+      1368
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS PRODUÇÃO",
+    "name": "KRISHNA BRUNONI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_static_023_num01368_sim41.jpg"
+    ],
+    "original_frame_number": [
+      1368
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS PRODUÇÃO",
+    "name": "PAYTRE TOPP",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_static_023_num01368_sim41.jpg"
+    ],
+    "original_frame_number": [
+      1368
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "ALL SIGNS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "ARTESIAN",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "ATÊLIE NAT PETRY",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "BENTO STORE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "CARBONO DESIGN",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "DE LAZZARI - MOBILIÁRIO URBANO",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "FÁBIO BASTOS",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "GUARDE AQUI",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "KARSTEN",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "LUCIA EID",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "OLARIA PAULISTANA",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "LUIS ARANGURI",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "MELLI-MELLO PRESS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "MEZAS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "MU ATELIER",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "MILISE CORREIA",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "MUNDO DO ENXOVAL",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "OBJETOS DE CENA",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "OVO",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "POMPEIA PRINT",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "SÉRGIO FAHRER",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "JACK FAHRER",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "SEU JORGE DAS COIFAS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "SP SIGNS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "TRAMONTINA",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AGRADECIMENTOS ARTE",
+    "name": "TUPPERWARE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_024_num01428_sim45.jpg"
+    ],
+    "original_frame_number": [
+      1428
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "boutique FILMES",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_002_static_000_num01517_sim90.jpg"
+    ],
+    "original_frame_number": [
+      1517
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "NETFLIX",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "scene_004_static_001_num01631_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1631
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Tradotto da",
+    "name": "Bruno Basile",
+    "role_group": "Dubbing",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing",
+    "source_frame": [
+      "scene_004_static_002_num01655_sim39.jpg"
+    ],
+    "original_frame_number": [
+      1655
+    ],
+    "scene_position": "second_half",
+    "metadata": {
+      "timestamp": "2026-07-18T16:44:30.663018+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  }
+]

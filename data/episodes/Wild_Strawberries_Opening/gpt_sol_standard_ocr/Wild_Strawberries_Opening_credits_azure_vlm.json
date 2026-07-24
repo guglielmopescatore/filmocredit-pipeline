@@ -1,0 +1,834 @@
+[
+  {
+    "role_detail": "VISAR",
+    "name": "SVENSK FILMINDUSTRI",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "scene_000_static_000_num00036_sim0.jpg"
+    ],
+    "original_frame_number": [
+      36
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "I",
+    "name": "VICTOR SJÖSTRÖM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_001_num00180_sim35.jpg"
+    ],
+    "original_frame_number": [
+      180
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "INGMAR BERGMAN",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "scene_000_static_005_num00408_sim67.jpg"
+    ],
+    "original_frame_number": [
+      408
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MED",
+    "name": "BIBI ANDERSSON",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_007_num00504_sim79.jpg",
+      "scene_000_static_010_num00600_sim94.jpg"
+    ],
+    "original_frame_number": [
+      504,
+      600
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MED",
+    "name": "INGRID THULIN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_007_num00504_sim79.jpg",
+      "scene_000_static_010_num00600_sim94.jpg"
+    ],
+    "original_frame_number": [
+      504,
+      600
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MED",
+    "name": "GUNNAR BJÖRNSTRAND",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_007_num00504_sim79.jpg",
+      "scene_000_static_010_num00600_sim94.jpg"
+    ],
+    "original_frame_number": [
+      504,
+      600
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "JULIAN KINDAHL",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_012_num00624_sim56.jpg"
+    ],
+    "original_frame_number": [
+      624
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "FOLKE SUNDQUIST",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_012_num00624_sim56.jpg"
+    ],
+    "original_frame_number": [
+      624
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "BJÖRN BELVENSTAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_012_num00624_sim56.jpg"
+    ],
+    "original_frame_number": [
+      624
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "NAIMA WIFSTRAND",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_013_num00720_sim22.jpg"
+    ],
+    "original_frame_number": [
+      720
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "GUNNEL BROSTRÖM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_013_num00720_sim22.jpg"
+    ],
+    "original_frame_number": [
+      720
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "GERTRUD FRIDH",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_013_num00720_sim22.jpg"
+    ],
+    "original_frame_number": [
+      720
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "SIF RUUD",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_013_num00720_sim22.jpg"
+    ],
+    "original_frame_number": [
+      720
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "GIO PETRÉ",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_019_num00972_sim62.jpg"
+    ],
+    "original_frame_number": [
+      972
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "GUNNAR SJÖBERG",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_019_num00972_sim62.jpg"
+    ],
+    "original_frame_number": [
+      972
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "MAX VON SYDOW",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_019_num00972_sim62.jpg"
+    ],
+    "original_frame_number": [
+      972
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "ÅKE FRIDELL",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_019_num00972_sim62.jpg"
+    ],
+    "original_frame_number": [
+      972
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "YNGVE NORDWALL",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_019_num00972_sim62.jpg"
+    ],
+    "original_frame_number": [
+      972
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "PER SJÖSTRAND",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_019_num00972_sim62.jpg"
+    ],
+    "original_frame_number": [
+      972
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "MONICA EHRLING",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_019_num00972_sim62.jpg"
+    ],
+    "original_frame_number": [
+      972
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "GUNNEL LINDBLOM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_023_num01140_sim72.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "MAUD HANSSON",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_023_num01140_sim72.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "ANN-MARIE GYLLENSPETZ",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_023_num01140_sim72.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "EVA NORÉE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_023_num01140_sim72.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "LENA BERGMAN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "scene_000_static_023_num01140_sim72.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "FOTO:",
+    "name": "GUNNAR FISCHER",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "scene_000_static_023_num01140_sim72.jpg",
+      "scene_000_static_025_num01320_sim54.jpg"
+    ],
+    "original_frame_number": [
+      1140,
+      1320
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ARKITEKT:",
+    "name": "GITTAN GUSTAFSSON",
+    "role_group": "Production Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Designers",
+    "source_frame": [
+      "scene_000_static_023_num01140_sim72.jpg"
+    ],
+    "original_frame_number": [
+      1140
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "MUSIK:",
+    "name": "ERIK NORDGREN",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "scene_000_static_023_num01140_sim72.jpg",
+      "scene_000_static_025_num01320_sim54.jpg"
+    ],
+    "original_frame_number": [
+      1140,
+      1320
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "KLIPPNING",
+    "name": "OSCAR ROSANDER",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_000_static_025_num01320_sim54.jpg"
+    ],
+    "original_frame_number": [
+      1320
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ARKITEKT",
+    "name": "GITTAN GUSTAFSSON",
+    "role_group": "Art Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Directors",
+    "source_frame": [
+      "scene_000_static_025_num01320_sim54.jpg"
+    ],
+    "original_frame_number": [
+      1320
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": null,
+    "name": "FIRMA CARL M. LUNDH",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_025_num01320_sim54.jpg"
+    ],
+    "original_frame_number": [
+      1320
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "AGA",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "scene_000_static_025_num01320_sim54.jpg"
+    ],
+    "original_frame_number": [
+      1320
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "LJUD",
+    "name": "AABY WEDIN",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "scene_000_static_026_num01344_sim52.jpg"
+    ],
+    "original_frame_number": [
+      1344
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "KLÄDER",
+    "name": "MILLIE STRÖM",
+    "role_group": "Costume Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume Designers",
+    "source_frame": [
+      "scene_000_static_026_num01344_sim52.jpg"
+    ],
+    "original_frame_number": [
+      1344
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PERUKMAKARE",
+    "name": "NILS NITTEL",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "scene_000_static_026_num01344_sim52.jpg"
+    ],
+    "original_frame_number": [
+      1344
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "KLIPPNING",
+    "name": "KARIN ROSANDER",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "scene_000_static_027_num01488_sim49.jpg"
+    ],
+    "original_frame_number": [
+      1488
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SCRIPT-GIRL",
+    "name": "KATARINA KARA",
+    "role_group": "Script and Continuity Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Script and Continuity Department",
+    "source_frame": [
+      "scene_000_static_027_num01488_sim49.jpg"
+    ],
+    "original_frame_number": [
+      1488
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "INSPELNINGSLEDARE",
+    "name": "SVEN SJÖNELL",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "scene_000_static_027_num01488_sim49.jpg"
+    ],
+    "original_frame_number": [
+      1488
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "REKVISITOR",
+    "name": "KARL-ARNE BERGMAN",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "scene_000_static_029_num01512_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1512
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "REGIASSISTENT",
+    "name": "GÖSTA EKMAN",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "scene_000_static_029_num01512_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1512
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SCRIPT-GIRL",
+    "name": "KATHERINA FARAGÓ",
+    "role_group": "Script and Continuity Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Script and Continuity Department",
+    "source_frame": [
+      "scene_000_static_029_num01512_sim100.jpg"
+    ],
+    "original_frame_number": [
+      1512
+    ],
+    "scene_position": "first_half",
+    "metadata": {
+      "timestamp": "2026-07-18T18:26:55.074964+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  }
+]

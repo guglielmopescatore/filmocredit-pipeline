@@ -1,0 +1,152 @@
+{
+    "episode_id": "Wild_Strawberries_End",
+    "status": "completed_found_candidate_scenes",
+    "error": null,
+    "candidate_scenes": [
+        {
+            "scene_index": 0,
+            "original_start_frame": 0,
+            "original_end_frame": 151,
+            "original_start_timecode": "00:00:00.000",
+            "original_end_timecode": "00:00:06.298",
+            "duration_frames": 151,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "Professor Isak Borg VICTOR SJÖSTROM"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 7,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 15,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 22,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 30,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 37,
+                    "ocr_text": null,
+                    "ocr_error": "No text found (CLAHE)"
+                },
+                {
+                    "frame_number": 45,
+                    "ocr_text": "Professor Isak Borg VICTOR SJÖSTROM",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_000_first_half_frame_45_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [
+                "Frame 7: No text found (CLAHE)",
+                "Frame 15: No text found (CLAHE)",
+                "Frame 22: No text found (CLAHE)",
+                "Frame 30: No text found (CLAHE)",
+                "Frame 37: No text found (CLAHE)"
+            ],
+            "selected": true
+        },
+        {
+            "scene_index": 1,
+            "original_start_frame": 151,
+            "original_end_frame": 498,
+            "original_start_timecode": "00:00:06.298",
+            "original_end_timecode": "00:00:20.771",
+            "duration_frames": 347,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "VICTOR SJÖSTRÖM Professor Isak Borg BIBI ANDERSSON Sara INGRID THULIN Marianne GUNNAR BJÖRNSTRAND Evald FOLKE SUNDQUIST Anders BJÖRN BJELVENSTAM Viktor NAIMA WIFSTRAND Isaks mor JULLAN KINDAHL Agda GUNNAR SJÖBERG Alman GUNNEL BROSTRÖM Fru Alman GERTRUD FRIDH Karin, Isaks hustru AKE FRIDELL Hustruns älskare MAX VON SYDOW Akerman SIE M4ootor"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 168,
+                    "ocr_text": "VICTOR SJÖSTRÖM Professor Isak Borg BIBI ANDERSSON Sara INGRID THULIN Marianne GUNNAR BJÖRNSTRAND Evald FOLKE SUNDQUIST Anders BJÖRN BJELVENSTAM Viktor NAIMA WIFSTRAND Isaks mor JULLAN KINDAHL Agda GUNNAR SJÖBERG Alman GUNNEL BROSTRÖM Fru Alman GERTRUD FRIDH Karin, Isaks hustru AKE FRIDELL Hustruns älskare MAX VON SYDOW Akerman SIE M4ootor",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_001_first_half_frame_168_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        },
+        {
+            "scene_index": 2,
+            "original_start_frame": 498,
+            "original_end_frame": 1559,
+            "original_start_timecode": "00:00:20.771",
+            "original_end_timecode": "00:01:05.023",
+            "duration_frames": 1061,
+            "position": "first_half",
+            "segment_origin_tag": "full_video",
+            "has_potential_text": true,
+            "text_found_in_samples": [
+                "PROFESSOR WULFF Promotor Produktionsledare ALLAN EKELUND Fotograf GUNNAR FISCHER Musik ERIK NORDGREN Orkesterledare ESKIL ECKERT-LUNDIN Stillbildsfoto LOUIS HUCH Arkitekt GITTAN GUSTAFSSON"
+            ],
+            "ocr_attempts": [],
+            "ocr_results_for_samples": [
+                {
+                    "frame_number": 551,
+                    "ocr_text": "PROFESSOR WULFF Promotor Produktionsledare ALLAN EKELUND Fotograf GUNNAR FISCHER Musik ERIK NORDGREN Orkesterledare ESKIL ECKERT-LUNDIN Stillbildsfoto LOUIS HUCH Arkitekt GITTAN GUSTAFSSON",
+                    "ocr_error": null
+                }
+            ],
+            "representative_frames_saved": [
+                "scene_002_first_half_frame_551_ocr.jpg"
+            ],
+            "ocr_errors_in_scene": [],
+            "selected": true
+        }
+    ],
+    "raw_shots_detected": [
+        {
+            "shot_index_in_segment_scan": 0,
+            "start_frame": 0,
+            "end_frame": 151,
+            "start_timecode": "00:00:00.000",
+            "end_timecode": "00:00:06.298",
+            "duration_frames": 151,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 1,
+            "start_frame": 151,
+            "end_frame": 498,
+            "start_timecode": "00:00:06.298",
+            "end_timecode": "00:00:20.771",
+            "duration_frames": 347,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        },
+        {
+            "shot_index_in_segment_scan": 2,
+            "start_frame": 498,
+            "end_frame": 1559,
+            "start_timecode": "00:00:20.771",
+            "end_timecode": "00:01:05.023",
+            "duration_frames": 1061,
+            "position": "first_half",
+            "segment_origin_tag": "full_video"
+        }
+    ],
+    "timestamp": "2026-07-18T20:19:30.230841"
+}
