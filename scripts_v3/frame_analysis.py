@@ -569,16 +569,27 @@ def analyze_candidate_scene_frames(
                 # Compute vertical flows between consecutive frames
                 vertical_flows = [utils.calculate_vertical_flow(g1, g2) for g1, g2 in zip(gray_frames, gray_frames[1:])]
                 
-                # LAYER 1: Use 75th percentile instead of median to filter out slow-moving background
-                # This is more resistant to parallax effects where the background moves slower than the text
-                percentile_v_flow = float(np.percentile(vertical_flows, 75)) if vertical_flows else 0.0
-                
-                # LAYER 2: Extract ROI (center 30%-70% of frame height) to ignore static borders and parallax
-                # Region-of-interest approach: credits typically appear in the center portion of the frame
+                # LAYER 1: Use a percentile (instead of median) to filter out slow-moving
+                # background - resistant to parallax effects where the background moves
+                # slower than the text. Which tail carries that signal depends on scroll
+                # direction: downward scroll has positive flow with the text at the
+                # upper/75th tail; upward scroll has negative flow with the text at the
+                # lower/25th tail. Always taking the 75th (as before) silently zeroed out
+                # every upward-scrolling scene, since the 75th percentile of a
+                # predominantly-negative distribution sits near the noise floor, not the
+                # real (negative) motion.
+                overall_median_flow = float(np.median(vertical_flows)) if vertical_flows else 0.0
+                flow_percentile = 25 if overall_median_flow < 0 else 75
+
+                percentile_v_flow = float(np.percentile(vertical_flows, flow_percentile)) if vertical_flows else 0.0
+
+                # LAYER 2: Use the middle 30%-70% of the scene's frame-pair sequence (i.e.
+                # skip the first/last 30% in time) to ignore transition effects at the
+                # start/end of the scene. NOT a spatial crop of the frame.
                 roi_start_idx = int(len(vertical_flows) * 0.3)
                 roi_end_idx = int(len(vertical_flows) * 0.7)
                 roi_flows = vertical_flows[roi_start_idx:roi_end_idx] if roi_end_idx > roi_start_idx else vertical_flows
-                roi_percentile_v_flow = float(np.percentile(roi_flows, 75)) if roi_flows else percentile_v_flow
+                roi_percentile_v_flow = float(np.percentile(roi_flows, flow_percentile)) if roi_flows else percentile_v_flow
                 
                 # Use ROI-based percentile as primary metric (more accurate for credits with parallax)
                 median_v_flow = roi_percentile_v_flow

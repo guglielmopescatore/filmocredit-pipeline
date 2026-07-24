@@ -8,6 +8,7 @@ Adds a new column 'nome_corretto_imdb' with the canonical IMDB name when found.
 """
 
 import sys
+from datetime import datetime
 from pathlib import Path
 import pandas as pd
 import logging
@@ -23,7 +24,13 @@ from collections import defaultdict
 sys.path.insert(0, str(Path(__file__).parent))
 
 from scripts_v3 import config
-from scripts_v3.utils import normalize_name  # Only need normalize_name
+from scripts_v3.utils import (
+    normalize_name,
+    normalize_name_with_nickname,
+    strip_honorifics,
+    strip_parentheticals,
+    strip_quoted_asides,
+)
 
 # Setup logging
 logging.basicConfig(
@@ -55,6 +62,7 @@ class StandaloneIMDBValidator:
         # Indici per velocizzare le ricerche
         self._exact_index: Dict[str, List[int]] = defaultdict(list)   # normalizedName -> [row_indices]
         self._token_index: Dict[str, set] = defaultdict(set)          # token -> {row_indices}
+        self._exact_index_with_nickname: Dict[str, List[int]] = defaultdict(list)  # normalizedNameWithNickname -> [row_indices]
 
         # Cache per DataFrame filtrati per professione
         self._profession_filter_cache: Dict[Any, pd.DataFrame] = {}
@@ -120,9 +128,24 @@ class StandaloneIMDBValidator:
                 if tok:
                     self._token_index[tok].add(idx)
 
+        if 'normalizedNameWithNickname' in self._name_lookup.columns:
+            for idx, nick_name in self._name_lookup['normalizedNameWithNickname'].items():
+                if pd.isna(nick_name):
+                    continue
+                nick_name = str(nick_name).strip()
+                if not nick_name:
+                    continue
+                self._exact_index_with_nickname[nick_name].append(idx)
+        else:
+            logging.warning(
+                "normalizedNameWithNickname column not found in parquet - "
+                "nickname-first matching disabled (regenerate the parquet to enable it)"
+            )
+
         logging.info(
             f"✅ Indices built: {len(self._exact_index)} unique normalizedName entries, "
-            f"{len(self._token_index)} unique tokens"
+            f"{len(self._token_index)} unique tokens, "
+            f"{len(self._exact_index_with_nickname)} unique normalizedNameWithNickname entries"
         )
 
     def _exact_match_imdb(self, normalized_name: str) -> List[Dict[str, Any]]:
@@ -131,6 +154,21 @@ class StandaloneIMDBValidator:
             return []
 
         indices = self._exact_index.get(normalized_name, [])
+        if not indices:
+            return []
+
+        matches = self._name_lookup.iloc[indices]
+        return matches.to_dict('records')
+
+    def _exact_match_imdb_with_nickname(self, normalized_name_with_nickname: str) -> List[Dict[str, Any]]:
+        """Same as _exact_match_imdb, but against the with-nickname index
+        (nickname aside kept, canonicalized to "..."). Used as a first-pass
+        lookup for names with a nickname aside, since it can be the only
+        thing that disambiguates a common name among many IMDB namesakes."""
+        if self._name_lookup is None or not normalized_name_with_nickname:
+            return []
+
+        indices = self._exact_index_with_nickname.get(normalized_name_with_nickname, [])
         if not indices:
             return []
 
@@ -437,10 +475,17 @@ class StandaloneIMDBValidator:
                 'method': 'unexpected_case'
             }
 
-    def validate_name(self, name: str, role_group: Optional[str] = None, threshold: Optional[int] = None) -> Dict[str, Any]:
+    def validate_name(self, name: str, role_group: Optional[str] = None, threshold: Optional[int] = None,
+                       normalized_name_with_nickname: Optional[str] = None) -> Dict[str, Any]:
         """
         Validate name against IMDB - returns ONLY IMDB matches, NULL if not found.
         NO internal codes generation - just IMDB nconst or None.
+
+        normalized_name_with_nickname: pre-computed with-nickname normalized
+        form (see normalize_name_with_nickname), or None if `name` has no
+        quoted nickname aside. When given, an exact match against it is
+        tried FIRST; only falls through to the regular (nickname-stripped)
+        flow below if that has no hits at all.
         """
         if self._name_lookup is None:
             return {
@@ -454,7 +499,26 @@ class StandaloneIMDBValidator:
         current_threshold = threshold if threshold is not None else self.fuzzy_threshold
 
         original_name = name
-        
+
+        if normalized_name_with_nickname:
+            nickname_matches = self._exact_match_imdb_with_nickname(normalized_name_with_nickname)
+            if nickname_matches:
+                nickname_result = self._apply_assignment_logic(
+                    original_name, normalized_name_with_nickname, role_group, nickname_matches, is_fuzzy=False
+                )
+                if nickname_result['status'] == 'auto_assigned':
+                    logging.info(
+                        f"Found {len(nickname_matches)} exact match(es) via with-nickname key "
+                        f"'{normalized_name_with_nickname}' for '{original_name}' -> "
+                        f"auto-assigned {nickname_result['assigned_code']}"
+                    )
+                    return nickname_result
+                logging.info(
+                    f"With-nickname key '{normalized_name_with_nickname}' matched but didn't resolve "
+                    f"decisively ({nickname_result['status']}) for '{original_name}' - "
+                    f"falling back to the nickname-stripped flow"
+                )
+
         # Extract Jr./Sr. suffix BEFORE normalization (look for ", Jr." or ", Sr." pattern)
         suffix = None
         suffix_match = re.search(r',\s*(Jr\.?|Sr\.?)\s*$', original_name, re.IGNORECASE)
@@ -466,7 +530,9 @@ class StandaloneIMDBValidator:
         else:
             name_for_normalization = original_name
         
-        normalized = normalize_name(name_for_normalization)  # Use EXACT same normalization
+        # is_person=True: this validator only ever runs on person rows (the
+        # caller skips companies before calling validate_name)
+        normalized = normalize_name(name_for_normalization, is_person=True)
 
         # Split into words for permutation testing (EXACT same logic)
         words = normalized.split()
@@ -588,8 +654,8 @@ def imdbize_human_data():
 
     # Input/output paths
     input_dir = Path(__file__).parent / "human_data_to_be_imdbized"
-    input_file = input_dir / "credits_human_corrected_merged_to_be_imdbized_LAST.csv"
-    output_file = input_dir / "credits_human_corrected_merged_imdbized_LAST.csv"
+    input_file = input_dir / "credits_human_corrected_to_be_imdbized_validation_5.csv"
+    output_file = input_dir / "IMDBIZED_credits_human_corrected_validation_5.csv"
 
     print(f"Input file: {input_file}")
     print(f"Output file: {output_file}")
@@ -598,22 +664,26 @@ def imdbize_human_data():
         logging.error(f"❌ Input file not found: {input_file}")
         return
 
-    # Check if output file exists for resume capability
-    resume_mode = False
+    # input_file is ALWAYS the source of the rows to (re)normalize and
+    # (re)match - it never has the HUMAN correction columns at all. Those
+    # only ever live in output_file, added by hand after a previous run.
+    # If output_file already exists: back it up, then load it (no more
+    # interactive yes/no prompt - this now always happens automatically)
+    # purely to pull its HUMAN columns back out and reinsert them into the
+    # freshly-recomputed data below, matched by (nome, numero_episodio).
     existing_df = None
-
     if output_file.exists():
-        print(f"📂 Found existing output file: {output_file}")
-        resume_choice = input("Resume from existing output? (yes/no): ").strip().lower()
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        backup_path = output_file.with_name(f"{output_file.stem}_backup_{timestamp}{output_file.suffix}")
+        backup_path.write_bytes(output_file.read_bytes())
+        print(f"💾 Backed up existing output to: {backup_path}")
 
-        if resume_choice == 'yes':
-            resume_mode = True
-            print(f"📖 Loading existing output for resume...")
-            existing_df = pd.read_csv(output_file, sep=';', encoding='utf-8-sig')
-            existing_df.columns = existing_df.columns.str.strip()
-            if '' in existing_df.columns:
-                existing_df = existing_df.drop(columns=[''])
-            print(f"✅ Loaded existing output with {len(existing_df)} rows")
+        print(f"📖 Loading existing output for HUMAN column reinsertion...")
+        existing_df = pd.read_csv(output_file, sep=';', encoding='utf-8-sig')
+        existing_df.columns = existing_df.columns.str.strip()
+        if '' in existing_df.columns:
+            existing_df = existing_df.drop(columns=[''])
+        print(f"✅ Loaded existing output with {len(existing_df)} rows")
 
     print(f"📖 Loading CSV file...")
     logging.info(f"📖 Loading human-corrected credits from: {input_file}")
@@ -645,6 +715,31 @@ def imdbize_human_data():
     df = df.reset_index(drop=True)  # CRITICAL: Reset indices after sorting!
     print(f"✅ Sorted - same professions will be processed together")
 
+    # Stessa pipeline is_person-aware usata ovunque nel progetto (save_credits,
+    # compare_llm_human_metrics.py, compare_gpt_sol_standard_validation5.py):
+    # per le persone toglie anche virgolette/parentesi, per le aziende le
+    # conserva (es. "RAI" vs "RAI (Roma)" devono restare distinte).
+    print(f"🧹 Computing normalized_name column...")
+    df['normalized_name'] = df.apply(
+        lambda r: normalize_name(str(r['nome']), is_person=(str(r.get('is_person')).upper() == 'TRUE'))
+        if pd.notna(r['nome']) else None,
+        axis=1
+    )
+    print(f"✅ normalized_name column added")
+
+    # Companion column: same source, but KEEPS a quoted nickname aside
+    # (e.g. 'roy "bucky" moore' instead of 'roy moore') - None when there is
+    # no such aside, or for companies. A nickname can be the only thing that
+    # disambiguates a common name among many IMDB namesakes once it's
+    # stripped, so validate_name() below tries this first.
+    print(f"🧹 Computing normalized_name_with_nickname column...")
+    df['normalized_name_with_nickname'] = df.apply(
+        lambda r: normalize_name_with_nickname(str(r['nome']), is_person=(str(r.get('is_person')).upper() == 'TRUE'))
+        if pd.notna(r['nome']) else None,
+        axis=1
+    )
+    print(f"✅ normalized_name_with_nickname column added")
+
     # Initialize validator
     print("🔧 Initializing IMDB validator...")
     logging.info("🔧 Initializing standalone IMDB validator (fuzzy=True, threshold=90%)...")
@@ -666,27 +761,33 @@ def imdbize_human_data():
         df[f'nome_corretto_imdb_{t}'] = None
         df[f'imdb_action_{t}'] = None
 
-    # If resuming, merge existing results
-    if resume_mode and existing_df is not None:
-        print(f"🔄 Merging existing results...")
-        for t in THRESHOLDS:
-            col_nconst = f'imdb_nconst_{t}'
-            col_name = f'nome_corretto_imdb_{t}'
-            col_action = f'imdb_action_{t}'
-            
-            if col_nconst in existing_df.columns:
-                df[col_nconst] = existing_df[col_nconst]
-            if col_name in existing_df.columns:
-                df[col_name] = existing_df[col_name]
-            if col_action in existing_df.columns:
-                df[col_action] = existing_df[col_action]
+    # We never skip already-processed rows or carry forward their old automatic
+    # imdb_nconst_*/nome_corretto_imdb_*/imdb_action_* values: the IMDB lookup
+    # is always redone for every row against the freshly recomputed
+    # normalized_name/normalized_name_with_nickname above, since that can
+    # surface matches the previous (less thorough) normalization missed. Only
+    # the manually-entered HUMAN columns are preserved, pulled back out of the
+    # (already backed-up) existing output file loaded above.
+    if existing_df is not None:
+        human_cols = ['HUMAN nome imdb corretto', 'HUMAN codice imdb corretto']
+        existing_human_cols = [c for c in human_cols if c in existing_df.columns]
+        if existing_human_cols and 'numero_episodio' in existing_df.columns and 'numero_episodio' in df.columns:
+            key_cols = ['nome', 'numero_episodio']
+            human_lookup = existing_df.loc[
+                existing_df[existing_human_cols].notna().any(axis=1), key_cols + existing_human_cols
+            ]
+            dupe_keys = human_lookup.duplicated(subset=key_cols, keep=False)
+            if dupe_keys.any():
+                print(f"⚠️  {dupe_keys.sum()} existing HUMAN-corrected rows share a duplicate "
+                      f"(nome, numero_episodio) key - skipping those to avoid an ambiguous merge")
+                human_lookup = human_lookup[~dupe_keys]
+            df = df.merge(human_lookup, on=key_cols, how='left')
+            print(f"✅ Preserved {len(human_lookup)} existing HUMAN correction(s) by (nome, numero_episodio)")
+            logging.info(f"Preserved {len(human_lookup)} HUMAN corrections from existing output")
 
-        # Check if processed based on first threshold (arbitrary)
-        first_action_col = f'imdb_action_{THRESHOLDS[0]}'
-        if first_action_col in df.columns:
-            already_processed = df[first_action_col].notna().sum()
-            print(f"✅ Found {already_processed} already processed credits - will skip these")
-            logging.info(f"Resume mode: {already_processed} credits already processed")
+    for c in ['HUMAN nome imdb corretto', 'HUMAN codice imdb corretto']:
+        if c not in df.columns:
+            df[c] = None
 
     print(f"🔍 Starting to process {len(df)} credits...")
     logging.info("🔍 Processing credits with IMDB validation...")
@@ -716,14 +817,9 @@ def imdbize_human_data():
             logging.debug(f"Row {idx}: Skipping non-person entity: {name}")
             continue
 
-        # RESUME: se già processata (check first threshold), aggiornare stats e saltare
-        first_action_col = f'imdb_action_{THRESHOLDS[0]}'
-        if resume_mode and pd.notna(row.get(first_action_col)):
-            if (idx + 1) % 100 == 0:
-                print(f"[SKIP] Row {idx+1}: Already processed")
-            logging.debug(f"Row {idx}: Skipping already processed credit: {name}")
-            stats['persons_processed'] += 1
-            continue
+        # NOTA: nessuno skip per riga "già processata" - l'IMDB lookup viene
+        # sempre rifatto su normalized_name per ogni riga, anche in resume mode
+        # (solo le colonne HUMAN vengono preservate, non i risultati automatici).
 
         stats['persons_processed'] += 1
 
@@ -739,20 +835,31 @@ def imdbize_human_data():
                 df.at[idx, f'nome_corretto_imdb_{t}'] = name
             continue
 
-        # Chiave cache base
-        norm_name = normalize_name(name)
+        # Nome ripulito da onorifici/virgolette/parentesi ma non ancora passato
+        # per l'ultimo normalize_name: lo passiamo a validate_name cosi' la sua
+        # estrazione del suffisso Jr./Sr. (che cerca una virgola) funziona
+        # ancora; il normalize_name() interno di validate_name produce lo
+        # stesso valore gia' calcolato in df['normalized_name'].
+        pre_normalized = strip_parentheticals(strip_quoted_asides(strip_honorifics(str(name))))
+        norm_name = row['normalized_name']  # chiave di cache = nome normalizzato finale
+        nickname_name = row.get('normalized_name_with_nickname')
+        if pd.isna(nickname_name):
+            nickname_name = None
         role_key = role_group.lower() if isinstance(role_group, str) else None
-        
+
         # Loop over thresholds
         for t in THRESHOLDS:
-            cache_key = (norm_name, role_key, t)
+            cache_key = (norm_name, nickname_name, role_key, t)
 
             # Validate (con cache)
             try:
                 if cache_key in validation_cache:
                     result = validation_cache[cache_key]
                 else:
-                    result = validator.validate_name(name=name, role_group=role_group, threshold=t)
+                    result = validator.validate_name(
+                        name=pre_normalized, role_group=role_group, threshold=t,
+                        normalized_name_with_nickname=nickname_name
+                    )
                     validation_cache[cache_key] = result
 
                 # Store IMDB results
@@ -765,8 +872,8 @@ def imdbize_human_data():
                     # Found in IMDB - always set the IMDB name
                     df.at[idx, f'nome_corretto_imdb_{t}'] = imdb_name
 
-                    # Check if name was modified
-                    if normalize_name(imdb_name) != normalize_name(name):
+                    # Check if name was modified (person-only loop, so is_person=True)
+                    if normalize_name(imdb_name, is_person=True) != normalize_name(name, is_person=True):
                         df.at[idx, f'imdb_action_{t}'] = 'M'
                         if t == 90: # Log only for standard threshold to avoid spam
                             print(f"[M][{t}] '{name}' → '{imdb_name}' ({imdb_code})")

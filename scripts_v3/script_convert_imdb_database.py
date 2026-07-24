@@ -1,54 +1,47 @@
 #!/usr/bin/env python3
 """
-Standalone script to convert IMDB name.basics.tsv to Parquet format
-with normalized names and name+profession search combinations.
+Script to convert IMDB name.basics.tsv to Parquet format with normalized
+names and name+profession search combinations.
 
-No dependencies on other project files - runs independently.
+Uses the SAME normalization pipeline (scripts_v3.utils) as everything else in
+the project - a previous "standalone, no dependencies" duplicate here drifted
+out of sync (its ASCII-only whitelist silently deleted non-ASCII letters like
+German "ss" or Icelandic "eth", instead of just stripping accents), which
+broke IMDB matching for any name containing them. Importing the real
+functions instead of re-implementing them is what prevents that drift.
 
 Usage:
     python script_convert_imdb_database.py
 """
 
-import pandas as pd
-import re
-import os
+import sys
 from pathlib import Path
-import unicodedata
+
+import pandas as pd
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from scripts_v3.utils import normalize_name as _normalize_name_base
+from scripts_v3.utils import normalize_name_with_nickname as _normalize_name_with_nickname_base
 
 
 def normalize_name(name: str) -> str:
-    """
-    Normalize a name for IMDB matching.
-    Standalone version - no dependencies.
-    
-    Args:
-        name: Name to normalize
-        
-    Returns:
-        Normalized name string
-    """
+    """Normalize a name for IMDB matching - thin wrapper around the shared,
+    is_person-aware utils.normalize_name (name.basics data is always people)
+    that turns empty/missing names into "" instead of "none"."""
     if not name or not isinstance(name, str):
         return ""
-    
-    # Convert to lowercase
-    normalized = name.lower()
-    
-    # Remove accents/diacritics
-    normalized = ''.join(
-        c for c in unicodedata.normalize('NFD', normalized)
-        if unicodedata.category(c) != 'Mn'
-    )
-    
-    # Remove special characters, keep only letters, numbers, and spaces
-    normalized = re.sub(r'[^a-z0-9\s]', ' ', normalized)
-    
-    # Collapse multiple spaces into one
-    normalized = re.sub(r'\s+', ' ', normalized)
-    
-    # Strip leading/trailing whitespace
-    normalized = normalized.strip()
-    
-    return normalized
+    return _normalize_name_base(name, is_person=True)
+
+
+def normalize_name_with_nickname(name: str):
+    """Like normalize_name() above, but for the with-nickname companion
+    column - thin wrapper around utils.normalize_name_with_nickname
+    (name.basics data is always people). Returns None when there's no
+    quoted nickname aside in `name` (e.g. plain "Roy Moore", vs. "Roy
+    'Bucky' Moore" -> 'roy "bucky" moore')."""
+    if not name or not isinstance(name, str):
+        return None
+    return _normalize_name_with_nickname_base(name, is_person=True)
 
 
 def tsv_to_parquet_imdb_normalization():
@@ -106,7 +99,8 @@ def tsv_to_parquet_imdb_normalization():
 
     print("🔄 Normalizing names...")
     df['normalizedName'] = df['primaryName'].apply(normalize_name)
-    
+    df['normalizedNameWithNickname'] = df['primaryName'].apply(normalize_name_with_nickname)
+
     print("🔍 Creating name+profession search combinations...")
     def create_search_combinations(row):
         """Create all possible name+profession combinations for fuzzy matching."""
@@ -141,7 +135,7 @@ def tsv_to_parquet_imdb_normalization():
     print(f"✅ Created search combinations for {len(df):,} records")
 
     # Include all necessary columns for profession matching
-    df_out = df[['nconst', 'normalizedName', 'primaryName', 'primaryProfession', 'birthYear', 'deathYear', 'search_combinations']]
+    df_out = df[['nconst', 'normalizedName', 'normalizedNameWithNickname', 'primaryName', 'primaryProfession', 'birthYear', 'deathYear', 'search_combinations']]
 
     print(f"💾 Saving processed data to {parquet_output_path}...")
     parquet_output_path.parent.mkdir(parents=True, exist_ok=True)
