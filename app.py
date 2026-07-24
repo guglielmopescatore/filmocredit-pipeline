@@ -589,12 +589,12 @@ if st.session_state.current_tab == 0:
         with col_vlm1:
             vlm_provider = st.selectbox(
                 "VLM Provider",
-                options=["auto", "azure_gpt_terra", "azure_gpt_terra_standard", "azure_gpt_sol", "azure_gpt_sol_standard", "claude", "azure_gpt5", "gemma-4-26b", "gemma12b"],
+                options=["auto", "azure_gpt_terra", "azure_gpt_terra_standard", "azure_gpt_sol", "azure_gpt_sol_standard", "claude", "azure_gpt5", "gemma12b"],
                 index=0,
                 key="vlm_provider_selection",
                 # Display-only label: show azure_gpt5 as "GPT 5.2" in the dropdown.
                 format_func=lambda p: "GPT 5.2" if p == "azure_gpt5" else p,
-                help="'auto' will use GPT Terra if available, then GPT Sol, then Claude, then GPT 5.2, then gemma-4-26b (LM Studio)"
+                help="'auto' will use GPT Terra if available, then GPT Sol, then Claude, then GPT 5.2"
             )
 
         with col_vlm2:
@@ -616,9 +616,6 @@ if st.session_state.current_tab == 0:
             elif vlm_provider == "azure_gpt5":
                 st.info("🚀 Using Azure GPT 5.2")
                 st.caption("Set GPT_5_AZURE_OPENAI_* variables in .env")
-            elif vlm_provider == "gemma-4-26b":
-                st.info("🖥️ Using gemma-4-26b (LM Studio, local, OpenAI-compatible)")
-                st.caption("Set LMSTUDIO_VLM_MODEL / LMSTUDIO_BASE_URL in .env (uses the running LM Studio server, default http://localhost:1234)")
             elif vlm_provider == "gemma12b":
                 st.info("🎮 Using gemma12b (local gemma-4-12b GGUF, in-process, GPU)")
                 st.caption("Runs bin/gemma-4-12b-it-qat-q4_0.gguf + mmproj via llama-cpp-python. Override paths with GEMMA12B_MODEL_GGUF / GEMMA12B_MMPROJ_GGUF in .env")

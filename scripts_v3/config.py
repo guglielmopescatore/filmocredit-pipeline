@@ -45,7 +45,6 @@ VLM_OCR_DIR_BY_PROVIDER: Final[dict[str, str]] = {
     "azure_gpt_sol": "gpt_sol_ocr",
     "azure_gpt_sol_standard": "gpt_sol_standard_ocr",
     "azure_gpt5": "gpt_5_2_ocr",
-    "gemma-4-26b": "gemma_4_26b_ocr",
     "gemma12b": "gemma12b_ocr",
 }
 # Fallback subfolder when the provider cannot be resolved (legacy layout).
@@ -990,10 +989,6 @@ class AzureConfig:
     ENDPOINT_ENV: str = 'AZURE_OPENAI_ENDPOINT'
     DEPLOYMENT_NAME_ENV: str = 'AZURE_OPENAI_DEPLOYMENT_NAME'
     API_VERSION_ENV: str = 'AZURE_OPENAI_API_VERSION'
-
-    # LM Studio (local OpenAI-compatible server)
-    LMSTUDIO_BASE_URL_ENV: str = 'LMSTUDIO_BASE_URL'
-    LMSTUDIO_MODEL_ENV: str = 'LMSTUDIO_VLM_MODEL'
 
     # gemma12b (local gemma-4-12b vision GGUF run in-process via llama-cpp-python).
     # Defaults point at the GGUF + mmproj placed in the project's bin/ folder.

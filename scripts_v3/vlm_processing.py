@@ -180,10 +180,9 @@ def resolve_vlm_provider(vlm_provider: str = "auto") -> str:
     """Resolve a requested VLM provider to a concrete provider id.
 
     Returns one of 'claude', 'azure_gpt_terra', 'azure_gpt_terra_standard',
-    'azure_gpt_sol', 'azure_gpt_sol_standard', 'azure_gpt5',
-    'gemma-4-26b'.
+    'azure_gpt_sol', 'azure_gpt_sol_standard', 'azure_gpt5'.
     Accepts the explicit ids plus 'auto' (preference order:
-    GPT Terra -> GPT Sol -> Claude -> GPT 5.2 -> LM Studio; the "_standard"
+    GPT Terra -> GPT Sol -> Claude -> GPT 5.2; the "_standard"
     reasoning variants are explicit-select only, never picked by auto) and the legacy
     'azure' alias (GPT 5.2 only). Raises ValueError if the requested provider (or any
     provider, for 'auto') is not available. This is the single source of truth
@@ -203,16 +202,11 @@ def resolve_vlm_provider(vlm_provider: str = "auto") -> str:
     # GPT Sol shares Terra's key/endpoint; only the deployment name is its own
     gpt_sol_deployment = os.getenv(config.AzureConfig.GPT_SOL_DEPLOYMENT_NAME_ENV)
 
-    # LM Studio (local OpenAI-compatible server)
-    lmstudio_base_url = os.getenv(config.AzureConfig.LMSTUDIO_BASE_URL_ENV) or "http://localhost:1234/v1"
-    lmstudio_model = os.getenv(config.AzureConfig.LMSTUDIO_MODEL_ENV) or "google/gemma-4-26b-a4b-qat"
-
     # Availability
     claude_available = bool(claude_endpoint and claude_api_key and claude_model and AnthropicFoundry)
     gpt5_available = bool(azure_api_key and gpt5_endpoint and gpt5_deployment and OpenAI)
     gpt_terra_available = bool(gpt_terra_api_key and gpt_terra_endpoint and gpt_terra_deployment and AzureOpenAI)
     gpt_sol_available = bool(gpt_terra_api_key and gpt_terra_endpoint and gpt_sol_deployment and AzureOpenAI)
-    lmstudio_available = bool(lmstudio_model and OpenAI)
     gemma12b_model_path, gemma12b_mmproj_path, _, _ = _gemma12b_config()
     gemma12b_available = bool(_LLAMA_CPP_AVAILABLE and os.path.isfile(gemma12b_model_path) and os.path.isfile(gemma12b_mmproj_path))
 
@@ -265,13 +259,6 @@ def resolve_vlm_provider(vlm_provider: str = "auto") -> str:
             if not OpenAI: missing.append("openai library (OpenAI class)")
             raise ValueError(f"Azure GPT_5 provider requested but credentials not available or library not installed. Missing: {', '.join(missing)}")
         return "azure_gpt5"
-    if vlm_provider == "gemma-4-26b":
-        if not lmstudio_available:
-            missing = []
-            if not lmstudio_model: missing.append("LMSTUDIO_VLM_MODEL")
-            if not OpenAI: missing.append("openai library (OpenAI class)")
-            raise ValueError(f"gemma-4-26b (LM Studio) provider requested but model not available or library not installed. Missing: {', '.join(missing)}")
-        return "gemma-4-26b"
     if vlm_provider == "gemma12b":
         if not gemma12b_available:
             missing = []
@@ -293,9 +280,7 @@ def resolve_vlm_provider(vlm_provider: str = "auto") -> str:
         return "claude"
     if gpt5_available:
         return "azure_gpt5"
-    if lmstudio_available:
-        return "gemma-4-26b"
-    raise ValueError("No VLM provider available (neither Claude, Azure nor LM Studio credentials set)")
+    raise ValueError("No VLM provider available (neither Claude nor Azure credentials set)")
 
 
 def get_vlm_ocr_dir(episode_id: str, provider: str) -> Path:
@@ -515,16 +500,11 @@ def run_azure_vlm_ocr_on_frames(
         # GPT Sol (shares Terra's key/endpoint/api_version; dedicated deployment)
         gpt_sol_deployment = os.getenv(config.AzureConfig.GPT_SOL_DEPLOYMENT_NAME_ENV)
 
-        # LM Studio (local OpenAI-compatible server)
-        lmstudio_base_url = os.getenv(config.AzureConfig.LMSTUDIO_BASE_URL_ENV) or "http://localhost:1234/v1"
-        lmstudio_model = os.getenv(config.AzureConfig.LMSTUDIO_MODEL_ENV) or "google/gemma-4-26b-a4b-qat"
-
         # Check availability
         claude_available = bool(claude_endpoint and claude_api_key and claude_model and AnthropicFoundry)
         gpt5_available = bool(azure_api_key and gpt5_endpoint and gpt5_deployment and OpenAI)
         gpt_terra_available = bool(gpt_terra_api_key and gpt_terra_endpoint and gpt_terra_deployment and AzureOpenAI)
         gpt_sol_available = bool(gpt_terra_api_key and gpt_terra_endpoint and gpt_sol_deployment and AzureOpenAI)
-        lmstudio_available = bool(lmstudio_model and OpenAI)
         gemma12b_model_path, gemma12b_mmproj_path, gemma12b_n_gpu_layers, gemma12b_n_ctx = _gemma12b_config()
         gemma12b_available = bool(_LLAMA_CPP_AVAILABLE and os.path.isfile(gemma12b_model_path) and os.path.isfile(gemma12b_mmproj_path))
 
@@ -534,7 +514,6 @@ def run_azure_vlm_ocr_on_frames(
         logging.debug(f"  GPT 5.2: {gpt5_available} (Key: {bool(azure_api_key)}, Endpoint: {bool(gpt5_endpoint)}, Model: {bool(gpt5_deployment)}, Lib: {bool(OpenAI)})")
         logging.debug(f"  GPT Terra: {gpt_terra_available} (Key: {bool(gpt_terra_api_key)}, Endpoint: {bool(gpt_terra_endpoint)}, Model: {bool(gpt_terra_deployment)}, Lib: {bool(AzureOpenAI)})")
         logging.debug(f"  GPT Sol: {gpt_sol_available} (Key: {bool(gpt_terra_api_key)}, Endpoint: {bool(gpt_terra_endpoint)}, Model: {bool(gpt_sol_deployment)}, Lib: {bool(AzureOpenAI)})")
-        logging.debug(f"  LM Studio: {lmstudio_available} (Model: {bool(lmstudio_model)}, Lib: {bool(OpenAI)})")
         logging.debug(f"  gemma12b: {gemma12b_available} (Model: {os.path.isfile(gemma12b_model_path)}, mmproj: {os.path.isfile(gemma12b_mmproj_path)}, Lib: {_LLAMA_CPP_AVAILABLE})")
         
         # Provider was already resolved via resolve_vlm_provider() above;
@@ -588,16 +567,6 @@ def run_azure_vlm_ocr_on_frames(
             client = OpenAI(api_key=azure_api_key, base_url=gpt5_endpoint)
             deployment_name = gpt5_deployment
             vlm_provider = "azure_gpt5"
-
-        elif selected_provider == "gemma-4-26b":
-            logging.info(f"[{episode_id}] Using LM Studio model: {lmstudio_model}")
-            # LM Studio exposes an OpenAI-compatible server; talk to it with the
-            # standard OpenAI client pointed at LMSTUDIO_BASE_URL. The api_key is
-            # required by the client but ignored by LM Studio. The model is
-            # identified by LMSTUDIO_VLM_MODEL on that server.
-            client = OpenAI(base_url=lmstudio_base_url, api_key="lm-studio")
-            deployment_name = lmstudio_model
-            vlm_provider = "gemma-4-26b"
 
         elif selected_provider == "gemma12b":
             logging.info(
