@@ -1,0 +1,78 @@
+[
+  {
+    "role_detail": "Written & Produced by",
+    "name": "PETER BATTY",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00055_num001320.jpg",
+      "naive_00057_num001368.jpg",
+      "naive_00059_num001416.jpg"
+    ],
+    "original_frame_number": [
+      1320,
+      1368,
+      1416
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:18:14.758483+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Written & Produced by",
+    "name": "PETER BATTY",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00055_num001320.jpg",
+      "naive_00057_num001368.jpg",
+      "naive_00059_num001416.jpg"
+    ],
+    "original_frame_number": [
+      1320,
+      1368,
+      1416
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:18:14.758483+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Narrated by",
+    "name": "LAURENCE OLIVIER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00060_num001440.jpg",
+      "naive_00062_num001488.jpg",
+      "naive_00064_num001536.jpg",
+      "naive_00066_num001584.jpg"
+    ],
+    "original_frame_number": [
+      1440,
+      1488,
+      1536,
+      1584
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:18:14.758483+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  }
+]

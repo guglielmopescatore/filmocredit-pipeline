@@ -1,0 +1,824 @@
+[
+  {
+    "role_detail": "presenta",
+    "name": "RAI RADIOTELEVISIONE ITALIANA",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00014_num000280.jpg"
+    ],
+    "original_frame_number": [
+      280
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "presenta",
+    "name": "La RAI RADIOTELEVISIONE ITALIANA",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00016_num000320.jpg",
+      "naive_00018_num000360.jpg"
+    ],
+    "original_frame_number": [
+      320,
+      360
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "soggetto di",
+    "name": "NICOLA BADALUCCO",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00027_num000540.jpg",
+      "naive_00029_num000580.jpg",
+      "naive_00031_num000620.jpg"
+    ],
+    "original_frame_number": [
+      540,
+      580,
+      620
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "elaborato da",
+    "name": "LUCIO BATTISTRADA",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00027_num000540.jpg",
+      "naive_00029_num000580.jpg",
+      "naive_00031_num000620.jpg"
+    ],
+    "original_frame_number": [
+      540,
+      580,
+      620
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "elaborato da",
+    "name": "MASSIMO DE RITA",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00027_num000540.jpg",
+      "naive_00029_num000580.jpg",
+      "naive_00031_num000620.jpg"
+    ],
+    "original_frame_number": [
+      540,
+      580,
+      620
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "sceneggiatura di",
+    "name": "ENNIO DE CONCINI",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00034_num000680.jpg",
+      "naive_00036_num000720.jpg"
+    ],
+    "original_frame_number": [
+      680,
+      720
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Rai",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00037_num000740.jpg"
+    ],
+    "original_frame_number": [
+      740
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "con",
+    "name": "MICHELE PLACIDO",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00039_num000780.jpg",
+      "naive_00041_num000820.jpg"
+    ],
+    "original_frame_number": [
+      780,
+      820
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "BARBARA DE ROSSI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00044_num000880.jpg",
+      "naive_00046_num000920.jpg"
+    ],
+    "original_frame_number": [
+      880,
+      920
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "NICOLE JAMET",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00049_num000980.jpg",
+      "naive_00051_num001020.jpg"
+    ],
+    "original_frame_number": [
+      980,
+      1020
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "ANGELO INFANTI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00054_num001080.jpg",
+      "naive_00056_num001120.jpg"
+    ],
+    "original_frame_number": [
+      1080,
+      1120
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "PINO COLIZZI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00059_num001180.jpg",
+      "naive_00061_num001220.jpg"
+    ],
+    "original_frame_number": [
+      1180,
+      1220
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "RENATO MORI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00064_num001280.jpg",
+      "naive_00066_num001320.jpg"
+    ],
+    "original_frame_number": [
+      1280,
+      1320
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "MASSIMO BONETTI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00068_num001360.jpg",
+      "naive_00070_num001400.jpg"
+    ],
+    "original_frame_number": [
+      1360,
+      1400
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "EURILLA DEL BONO",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00073_num001460.jpg",
+      "naive_00075_num001500.jpg",
+      "naive_00077_num001540.jpg"
+    ],
+    "original_frame_number": [
+      1460,
+      1500,
+      1540
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "CARIDDI NARDULLI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00073_num001460.jpg",
+      "naive_00075_num001500.jpg",
+      "naive_00077_num001540.jpg"
+    ],
+    "original_frame_number": [
+      1460,
+      1500,
+      1540
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "MICHELE ABRUZZO",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00073_num001460.jpg",
+      "naive_00075_num001500.jpg",
+      "naive_00077_num001540.jpg"
+    ],
+    "original_frame_number": [
+      1460,
+      1500,
+      1540
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "GEOFFREY COPLESTON",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00078_num001560.jpg",
+      "naive_00080_num001600.jpg",
+      "naive_00082_num001640.jpg"
+    ],
+    "original_frame_number": [
+      1560,
+      1600,
+      1640
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "JACQUES DACQMINE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00078_num001560.jpg",
+      "naive_00080_num001600.jpg",
+      "naive_00082_num001640.jpg"
+    ],
+    "original_frame_number": [
+      1560,
+      1600,
+      1640
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "PAUL GUIERS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00078_num001560.jpg"
+    ],
+    "original_frame_number": [
+      1560
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "PAUL GUERS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00080_num001600.jpg",
+      "naive_00082_num001640.jpg"
+    ],
+    "original_frame_number": [
+      1600,
+      1640
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "con",
+    "name": "FLAVIO BUCCI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00084_num001680.jpg",
+      "naive_00086_num001720.jpg"
+    ],
+    "original_frame_number": [
+      1680,
+      1720
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Olga Camastra",
+    "name": "FLORINDA BOLKAN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00088_num001760.jpg",
+      "naive_00090_num001800.jpg",
+      "naive_00092_num001840.jpg"
+    ],
+    "original_frame_number": [
+      1760,
+      1800,
+      1840
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "e con; nel ruolo dell’avv. Terrasini",
+    "name": "FRANÇOIS PERIER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00094_num001880.jpg",
+      "naive_00096_num001920.jpg"
+    ],
+    "original_frame_number": [
+      1880,
+      1920
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "direttore della fotografia",
+    "name": "NINO CELESTE",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "naive_00098_num001960.jpg",
+      "naive_00100_num002000.jpg"
+    ],
+    "original_frame_number": [
+      1960,
+      2000
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Rai",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "naive_00099_num001980.jpg",
+      "naive_00111_num002220.jpg",
+      "naive_00140_num002800.jpg",
+      "naive_00146_num002920.jpg",
+      "naive_00151_num003020.jpg"
+    ],
+    "original_frame_number": [
+      1980,
+      2220,
+      2800,
+      2920,
+      3020
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "scenografo",
+    "name": "UMBERTO TURCO",
+    "role_group": "Production Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Designers",
+    "source_frame": [
+      "naive_00103_num002060.jpg",
+      "naive_00105_num002100.jpg"
+    ],
+    "original_frame_number": [
+      2060,
+      2100
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "montaggio",
+    "name": "ENZO MENICONI",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "naive_00107_num002140.jpg",
+      "naive_00109_num002180.jpg"
+    ],
+    "original_frame_number": [
+      2140,
+      2180
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "aiuto regista",
+    "name": "ENRICO BERGIER",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "naive_00111_num002220.jpg",
+      "naive_00113_num002260.jpg"
+    ],
+    "original_frame_number": [
+      2220,
+      2260
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "direttore di produzione",
+    "name": "DIEGO ALCHIMEDE",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "naive_00115_num002300.jpg",
+      "naive_00117_num002340.jpg"
+    ],
+    "original_frame_number": [
+      2300,
+      2340
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "musica composta da",
+    "name": "RIZ ORTOLANI",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "naive_00120_num002400.jpg",
+      "naive_00122_num002440.jpg"
+    ],
+    "original_frame_number": [
+      2400,
+      2440
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "musica diretta da",
+    "name": "RIZ ORTOLANI",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "naive_00120_num002400.jpg",
+      "naive_00122_num002440.jpg"
+    ],
+    "original_frame_number": [
+      2400,
+      2440
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "delegato RAI al programma",
+    "name": "CLAUDIA ALOISI",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00134_num002680.jpg",
+      "naive_00136_num002720.jpg",
+      "naive_00138_num002760.jpg"
+    ],
+    "original_frame_number": [
+      2680,
+      2720,
+      2760
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "una produzione",
+    "name": "ESCORT CINE TV",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00139_num002780.jpg",
+      "naive_00141_num002820.jpg",
+      "naive_00143_num002860.jpg"
+    ],
+    "original_frame_number": [
+      2780,
+      2820,
+      2860
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "organizzata da",
+    "name": "BRUNO TURCHETTO",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "naive_00139_num002780.jpg",
+      "naive_00141_num002820.jpg",
+      "naive_00143_num002860.jpg"
+    ],
+    "original_frame_number": [
+      2780,
+      2820,
+      2860
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "regia",
+    "name": "DAMIANO DAMIANI",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "naive_00145_num002900.jpg",
+      "naive_00147_num002940.jpg",
+      "naive_00149_num002980.jpg"
+    ],
+    "original_frame_number": [
+      2900,
+      2940,
+      2980
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:28:58.804595+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  }
+]

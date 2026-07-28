@@ -1,0 +1,3 @@
+Model,num_products,Method,Mode,TP,FP,FN,Precision,Recall,F1,raw_calls
+GPT Sol Standard,5,Exact Match,No Role,958,46,24,0.95418,0.97556,0.96475,207
+GPT Sol Standard,5,Exact Match,With Role,975,92,67,0.91378,0.93570,0.92461,207

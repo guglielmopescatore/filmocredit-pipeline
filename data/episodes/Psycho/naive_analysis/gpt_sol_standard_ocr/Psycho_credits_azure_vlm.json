@@ -1,0 +1,1334 @@
+[
+  {
+    "role_detail": "A Paramount Release",
+    "name": "Paramount",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "naive_00000_num000000.jpg",
+      "naive_00002_num000048.jpg"
+    ],
+    "original_frame_number": [
+      0,
+      48
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "ALFRED HITCHCOCK",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "naive_00013_num000312.jpg",
+      "naive_00131_num003144.jpg"
+    ],
+    "original_frame_number": [
+      312,
+      3144
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": null,
+    "name": "MERCURY FILM INC",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00027_num000648.jpg"
+    ],
+    "original_frame_number": [
+      648
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "ANTHEM FILMS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00027_num000648.jpg"
+    ],
+    "original_frame_number": [
+      648
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "STARRING",
+    "name": "ANTHONY PERKINS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00028_num000672.jpg"
+    ],
+    "original_frame_number": [
+      672
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "ANNECY CINÉMA ITALIEN",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00030_num000720.jpg"
+    ],
+    "original_frame_number": [
+      720
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "VEGA FILMS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00032_num000768.jpg"
+    ],
+    "original_frame_number": [
+      768
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "ARCHIPEL 35",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00032_num000768.jpg"
+    ],
+    "original_frame_number": [
+      768
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "VERA MILES",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00033_num000792.jpg"
+    ],
+    "original_frame_number": [
+      792
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "JOHN GAVIN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00037_num000888.jpg",
+      "naive_00039_num000936.jpg"
+    ],
+    "original_frame_number": [
+      888,
+      936
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CO-STARRING",
+    "name": "MARTIN BALSAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00042_num001008.jpg",
+      "naive_00044_num001056.jpg"
+    ],
+    "original_frame_number": [
+      1008,
+      1056
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "CO-STARRING",
+    "name": "JOHN McINTIRE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00042_num001008.jpg",
+      "naive_00044_num001056.jpg"
+    ],
+    "original_frame_number": [
+      1008,
+      1056
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "UCHIN TAYLOR",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "naive_00049_num001176.jpg"
+    ],
+    "original_frame_number": [
+      1176
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "RENE TUTTLE",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "naive_00049_num001176.jpg"
+    ],
+    "original_frame_number": [
+      1176
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "HN ANDERSON",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "naive_00049_num001176.jpg"
+    ],
+    "original_frame_number": [
+      1176
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "JRT MILLS",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "naive_00049_num001176.jpg"
+    ],
+    "original_frame_number": [
+      1176
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "SIMON OAKLAND",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg",
+      "naive_00054_num001296.jpg",
+      "naive_00056_num001344.jpg"
+    ],
+    "original_frame_number": [
+      1200,
+      1248,
+      1296,
+      1344
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "VAUGHN TAYLOR",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg",
+      "naive_00054_num001296.jpg",
+      "naive_00056_num001344.jpg"
+    ],
+    "original_frame_number": [
+      1200,
+      1248,
+      1296,
+      1344
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "FRANK ALBERTSON",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg",
+      "naive_00054_num001296.jpg",
+      "naive_00056_num001344.jpg"
+    ],
+    "original_frame_number": [
+      1200,
+      1248,
+      1296,
+      1344
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "LURENE TUTTLE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg",
+      "naive_00054_num001296.jpg",
+      "naive_00056_num001344.jpg"
+    ],
+    "original_frame_number": [
+      1200,
+      1248,
+      1296,
+      1344
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "PAT HITCHCOCK",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg",
+      "naive_00054_num001296.jpg",
+      "naive_00056_num001344.jpg"
+    ],
+    "original_frame_number": [
+      1200,
+      1248,
+      1296,
+      1344
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "JOHN ANDERSON",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg",
+      "naive_00054_num001296.jpg",
+      "naive_00056_num001344.jpg"
+    ],
+    "original_frame_number": [
+      1200,
+      1248,
+      1296,
+      1344
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WITH",
+    "name": "MORT MILLS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg",
+      "naive_00054_num001296.jpg",
+      "naive_00056_num001344.jpg"
+    ],
+    "original_frame_number": [
+      1200,
+      1248,
+      1296,
+      1344
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MARION CRANE",
+    "name": "JANET LEIGH",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00062_num001488.jpg",
+      "naive_00064_num001536.jpg",
+      "naive_00066_num001584.jpg"
+    ],
+    "original_frame_number": [
+      1488,
+      1536,
+      1584
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "SEPH STEFANO",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00070_num001680.jpg"
+    ],
+    "original_frame_number": [
+      1680
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "BASED ON THE NOVEL BY",
+    "name": "ROBERT B",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00070_num001680.jpg"
+    ],
+    "original_frame_number": [
+      1680
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SCREENPLAY BY",
+    "name": "JOSEPH STEFANO",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00071_num001704.jpg",
+      "naive_00073_num001752.jpg",
+      "naive_00075_num001800.jpg"
+    ],
+    "original_frame_number": [
+      1704,
+      1752,
+      1800
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "BASED ON THE NOVEL BY",
+    "name": "ROBERT BLOCH",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00071_num001704.jpg",
+      "naive_00073_num001752.jpg",
+      "naive_00075_num001800.jpg"
+    ],
+    "original_frame_number": [
+      1704,
+      1752,
+      1800
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ECTOR OF PHOTOGRAPHY",
+    "name": "JOHN L. RUSS",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "naive_00080_num001920.jpg"
+    ],
+    "original_frame_number": [
+      1920
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ART DIRECTION",
+    "name": "JOSEPH HURL",
+    "role_group": "Art Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Directors",
+    "source_frame": [
+      "naive_00080_num001920.jpg"
+    ],
+    "original_frame_number": [
+      1920
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SET DECORATOR",
+    "name": "GEORGE MILO",
+    "role_group": "Set Decorators",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Set Decorators",
+    "source_frame": [
+      "naive_00080_num001920.jpg",
+      "naive_00082_num001968.jpg",
+      "naive_00084_num002016.jpg",
+      "naive_00086_num002064.jpg",
+      "naive_00088_num002112.jpg",
+      "naive_00090_num002160.jpg"
+    ],
+    "original_frame_number": [
+      1920,
+      1968,
+      2016,
+      2064,
+      2112,
+      2160
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "UNIT MANAGER",
+    "name": "LEW LEARY",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "naive_00080_num001920.jpg",
+      "naive_00082_num001968.jpg",
+      "naive_00084_num002016.jpg",
+      "naive_00086_num002064.jpg",
+      "naive_00088_num002112.jpg",
+      "naive_00090_num002160.jpg"
+    ],
+    "original_frame_number": [
+      1920,
+      1968,
+      2016,
+      2064,
+      2112,
+      2160
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "TITLES DESIGNED BY",
+    "name": "SAUL BASS",
+    "role_group": "Animation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Animation Department",
+    "source_frame": [
+      "naive_00080_num001920.jpg",
+      "naive_00082_num001968.jpg",
+      "naive_00084_num002016.jpg",
+      "naive_00086_num002064.jpg",
+      "naive_00088_num002112.jpg",
+      "naive_00090_num002160.jpg"
+    ],
+    "original_frame_number": [
+      1920,
+      1968,
+      2016,
+      2064,
+      2112,
+      2160
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "DIRECTOR OF PHOTOGRAPHY",
+    "name": "JOHN L. RUSSELL",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "naive_00081_num001944.jpg",
+      "naive_00083_num001992.jpg",
+      "naive_00085_num002040.jpg",
+      "naive_00087_num002088.jpg",
+      "naive_00089_num002136.jpg"
+    ],
+    "original_frame_number": [
+      1944,
+      1992,
+      2040,
+      2088,
+      2136
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ART DIRECTION",
+    "name": "JOSEPH HURLEY",
+    "role_group": "Art Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Directors",
+    "source_frame": [
+      "naive_00081_num001944.jpg",
+      "naive_00083_num001992.jpg",
+      "naive_00085_num002040.jpg",
+      "naive_00087_num002088.jpg",
+      "naive_00089_num002136.jpg"
+    ],
+    "original_frame_number": [
+      1944,
+      1992,
+      2040,
+      2088,
+      2136
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ART DIRECTION",
+    "name": "ROBERT CLATWORTHY",
+    "role_group": "Art Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Directors",
+    "source_frame": [
+      "naive_00081_num001944.jpg",
+      "naive_00085_num002040.jpg",
+      "naive_00087_num002088.jpg",
+      "naive_00089_num002136.jpg"
+    ],
+    "original_frame_number": [
+      1944,
+      2040,
+      2088,
+      2136
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ART DIRECTION",
+    "name": "ROBERT CLAWORTHY",
+    "role_group": "Art Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Directors",
+    "source_frame": [
+      "naive_00083_num001992.jpg"
+    ],
+    "original_frame_number": [
+      1992
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "RUSSELL",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "naive_00093_num002232.jpg"
+    ],
+    "original_frame_number": [
+      2232
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "EDITED BY",
+    "name": "GEORGE TOMASINI",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "naive_00094_num002256.jpg",
+      "naive_00096_num002304.jpg",
+      "naive_00098_num002352.jpg",
+      "naive_00100_num002400.jpg",
+      "naive_00102_num002448.jpg"
+    ],
+    "original_frame_number": [
+      2256,
+      2304,
+      2352,
+      2400,
+      2448
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COSTUME SUPERVISOR",
+    "name": "HELEN COLVIG",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "naive_00094_num002256.jpg",
+      "naive_00096_num002304.jpg",
+      "naive_00098_num002352.jpg",
+      "naive_00100_num002400.jpg",
+      "naive_00102_num002448.jpg"
+    ],
+    "original_frame_number": [
+      2256,
+      2304,
+      2352,
+      2400,
+      2448
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MAKE-UP SUPERVISION",
+    "name": "JACK BARRON",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "naive_00094_num002256.jpg",
+      "naive_00096_num002304.jpg",
+      "naive_00098_num002352.jpg",
+      "naive_00100_num002400.jpg",
+      "naive_00102_num002448.jpg"
+    ],
+    "original_frame_number": [
+      2256,
+      2304,
+      2352,
+      2400,
+      2448
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MAKE-UP SUPERVISION",
+    "name": "ROBERT DAWN",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "naive_00094_num002256.jpg",
+      "naive_00096_num002304.jpg",
+      "naive_00098_num002352.jpg",
+      "naive_00100_num002400.jpg",
+      "naive_00102_num002448.jpg"
+    ],
+    "original_frame_number": [
+      2256,
+      2304,
+      2352,
+      2400,
+      2448
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "HAIRSTYLIST",
+    "name": "FLORENCE BUSH",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "naive_00094_num002256.jpg",
+      "naive_00096_num002304.jpg",
+      "naive_00098_num002352.jpg",
+      "naive_00100_num002400.jpg",
+      "naive_00102_num002448.jpg"
+    ],
+    "original_frame_number": [
+      2256,
+      2304,
+      2352,
+      2400,
+      2448
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SPECIAL EFFECTS",
+    "name": "CLARENCE CHAMPAGNE",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "naive_00094_num002256.jpg",
+      "naive_00096_num002304.jpg",
+      "naive_00098_num002352.jpg",
+      "naive_00100_num002400.jpg",
+      "naive_00102_num002448.jpg"
+    ],
+    "original_frame_number": [
+      2256,
+      2304,
+      2352,
+      2400,
+      2448
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SOUND RECORDING BY",
+    "name": "WALDON O. WATSON",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00094_num002256.jpg",
+      "naive_00096_num002304.jpg",
+      "naive_00098_num002352.jpg",
+      "naive_00100_num002400.jpg",
+      "naive_00102_num002448.jpg"
+    ],
+    "original_frame_number": [
+      2256,
+      2304,
+      2352,
+      2400,
+      2448
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "SOUND RECORDING BY",
+    "name": "WILLIAM RUSSELL",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00094_num002256.jpg",
+      "naive_00096_num002304.jpg",
+      "naive_00098_num002352.jpg",
+      "naive_00100_num002400.jpg",
+      "naive_00102_num002448.jpg"
+    ],
+    "original_frame_number": [
+      2256,
+      2304,
+      2352,
+      2400,
+      2448
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COPYRIGHT ©1960 BY",
+    "name": "SHAMLEY PRODUCTIONS, INC.",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00096_num002304.jpg",
+      "naive_00098_num002352.jpg"
+    ],
+    "original_frame_number": [
+      2304,
+      2352
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": null,
+    "name": "WESTREX RECORDING SYSTEM",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00096_num002304.jpg",
+      "naive_00102_num002448.jpg"
+    ],
+    "original_frame_number": [
+      2304,
+      2448
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "RECORDING SYSTEM",
+    "name": "WESTREX",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00098_num002352.jpg",
+      "naive_00100_num002400.jpg"
+    ],
+    "original_frame_number": [
+      2352,
+      2400
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COPYRIGHT ©1960 BY",
+    "name": "SHAMLEY PRODUCTIONS, INC.",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00100_num002400.jpg",
+      "naive_00102_num002448.jpg"
+    ],
+    "original_frame_number": [
+      2400,
+      2448
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "ASSISTANT DIRECTOR",
+    "name": "HILTON A. GREEN",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "naive_00108_num002592.jpg",
+      "naive_00110_num002640.jpg",
+      "naive_00112_num002688.jpg",
+      "naive_00114_num002736.jpg"
+    ],
+    "original_frame_number": [
+      2592,
+      2640,
+      2688,
+      2736
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PICTORIAL CONSULTANT",
+    "name": "SAUL BASS",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00109_num002616.jpg",
+      "naive_00111_num002664.jpg",
+      "naive_00113_num002712.jpg",
+      "naive_00115_num002760.jpg"
+    ],
+    "original_frame_number": [
+      2616,
+      2664,
+      2712,
+      2760
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": null,
+    "name": "JERRY A",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "naive_00117_num002808.jpg"
+    ],
+    "original_frame_number": [
+      2808
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "BERNARD HERRMANN",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "naive_00118_num002832.jpg"
+    ],
+    "original_frame_number": [
+      2832
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "MUSIC BY",
+    "name": "BERNARD HERRMANN",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "naive_00120_num002880.jpg",
+      "naive_00122_num002928.jpg"
+    ],
+    "original_frame_number": [
+      2880,
+      2928
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "DIRECTED BY",
+    "name": "ALFRED HITCHCOCK",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "naive_00127_num003048.jpg",
+      "naive_00129_num003096.jpg"
+    ],
+    "original_frame_number": [
+      3048,
+      3096
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:39:22.958691+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  }
+]

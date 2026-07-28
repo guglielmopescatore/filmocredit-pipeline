@@ -1,0 +1,448 @@
+[
+  {
+    "role_detail": "Una Serie Original de",
+    "name": "NETFLIX",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00008_num000192.jpg",
+      "naive_00010_num000240.jpg"
+    ],
+    "original_frame_number": [
+      192,
+      240
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Una producción de",
+    "name": "VACA FILMS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00012_num000288.jpg",
+      "naive_00014_num000336.jpg"
+    ],
+    "original_frame_number": [
+      288,
+      336
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "INMA CUESTA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00259_num006216.jpg",
+      "naive_00261_num006264.jpg"
+    ],
+    "original_frame_number": [
+      6216,
+      6264
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "BÁRBARA LENNIE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00270_num006480.jpg",
+      "naive_00272_num006528.jpg"
+    ],
+    "original_frame_number": [
+      6480,
+      6528
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "TAMAR NOVAS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00275_num006600.jpg",
+      "naive_00277_num006648.jpg"
+    ],
+    "original_frame_number": [
+      6600,
+      6648
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "ARÓN PIPER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00275_num006600.jpg",
+      "naive_00277_num006648.jpg"
+    ],
+    "original_frame_number": [
+      6600,
+      6648
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "ROBERTO ENRÍQUEZ",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00279_num006696.jpg",
+      "naive_00281_num006744.jpg"
+    ],
+    "original_frame_number": [
+      6696,
+      6744
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "ROQUE RUÍZ",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00282_num006768.jpg",
+      "naive_00284_num006816.jpg"
+    ],
+    "original_frame_number": [
+      6768,
+      6816
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "ISABEL GARRIDO",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00282_num006768.jpg",
+      "naive_00284_num006816.jpg"
+    ],
+    "original_frame_number": [
+      6768,
+      6816
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "FEDE PÉREZ",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00286_num006864.jpg",
+      "naive_00288_num006912.jpg"
+    ],
+    "original_frame_number": [
+      6864,
+      6912
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "ALFONSO AGRA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00286_num006864.jpg",
+      "naive_00288_num006912.jpg"
+    ],
+    "original_frame_number": [
+      6864,
+      6912
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "SUSANA DANS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00286_num006864.jpg",
+      "naive_00288_num006912.jpg"
+    ],
+    "original_frame_number": [
+      6864,
+      6912
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Música Original",
+    "name": "LUCIO GODOY",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "naive_00293_num007032.jpg",
+      "naive_00295_num007080.jpg"
+    ],
+    "original_frame_number": [
+      7032,
+      7080
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Música Original",
+    "name": "RICARDO CURTO",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "naive_00293_num007032.jpg",
+      "naive_00295_num007080.jpg"
+    ],
+    "original_frame_number": [
+      7032,
+      7080
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Productores Ejecutivos",
+    "name": "EMMA LUSTRES",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00297_num007128.jpg",
+      "naive_00299_num007176.jpg"
+    ],
+    "original_frame_number": [
+      7128,
+      7176
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Productores Ejecutivos",
+    "name": "CARLOS MONTERO",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00297_num007128.jpg",
+      "naive_00299_num007176.jpg"
+    ],
+    "original_frame_number": [
+      7128,
+      7176
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Productores Ejecutivos",
+    "name": "BORJA PENA",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00297_num007128.jpg",
+      "naive_00299_num007176.jpg"
+    ],
+    "original_frame_number": [
+      7128,
+      7176
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Basada en el libro EL DESORDEN QUE DEJAS de",
+    "name": "CARLOS MONTERO",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00307_num007368.jpg",
+      "naive_00309_num007416.jpg",
+      "naive_00318_num007632.jpg",
+      "naive_00320_num007680.jpg"
+    ],
+    "original_frame_number": [
+      7368,
+      7416,
+      7632,
+      7680
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Escrito por",
+    "name": "JAVIER HOLGADO VICENTE",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00334_num008016.jpg",
+      "naive_00336_num008064.jpg"
+    ],
+    "original_frame_number": [
+      8016,
+      8064
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Dirigido por",
+    "name": "SÍLVIA QUER",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "naive_00340_num008160.jpg",
+      "naive_00342_num008208.jpg"
+    ],
+    "original_frame_number": [
+      8160,
+      8208
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T16:25:18.052628+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  }
+]

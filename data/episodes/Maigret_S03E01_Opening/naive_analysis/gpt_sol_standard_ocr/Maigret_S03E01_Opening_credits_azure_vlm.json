@@ -1,0 +1,883 @@
+[
+  {
+    "role_detail": "présente",
+    "name": "MESA PRODUCTIONS",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00000_num000000.jpg",
+      "naive_00002_num000048.jpg",
+      "naive_00004_num000096.jpg"
+    ],
+    "original_frame_number": [
+      0,
+      48,
+      96
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "une co-production",
+    "name": "DUNE",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00006_num000144.jpg",
+      "naive_00008_num000192.jpg",
+      "naive_00010_num000240.jpg",
+      "naive_00088_num002112.jpg",
+      "naive_00092_num002208.jpg"
+    ],
+    "original_frame_number": [
+      144,
+      192,
+      240,
+      2112,
+      2208
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "une co-production",
+    "name": "TELEVISION SUISSE ROMANDE",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00006_num000144.jpg",
+      "naive_00008_num000192.jpg",
+      "naive_00010_num000240.jpg"
+    ],
+    "original_frame_number": [
+      144,
+      192,
+      240
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "une co-production",
+    "name": "RTBF TELEVISION BELGE",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00006_num000144.jpg",
+      "naive_00008_num000192.jpg",
+      "naive_00010_num000240.jpg"
+    ],
+    "original_frame_number": [
+      144,
+      192,
+      240
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "AVEC LA PARTICIPATION DE",
+    "name": "ANTENNE 2",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00006_num000144.jpg",
+      "naive_00008_num000192.jpg",
+      "naive_00010_num000240.jpg"
+    ],
+    "original_frame_number": [
+      144,
+      192,
+      240
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ET DE",
+    "name": "LA CINQ",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00006_num000144.jpg",
+      "naive_00008_num000192.jpg",
+      "naive_00010_num000240.jpg"
+    ],
+    "original_frame_number": [
+      144,
+      192,
+      240
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "BRUNO CREMER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00035_num000840.jpg",
+      "naive_00037_num000888.jpg",
+      "naive_00039_num000936.jpg",
+      "naive_00041_num000984.jpg",
+      "naive_00043_num001032.jpg"
+    ],
+    "original_frame_number": [
+      840,
+      888,
+      936,
+      984,
+      1032
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Un film de",
+    "name": "Claude GORETTA",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "naive_00074_num001776.jpg",
+      "naive_00076_num001824.jpg",
+      "naive_00078_num001872.jpg"
+    ],
+    "original_frame_number": [
+      1776,
+      1824,
+      1872
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "©",
+    "name": "E.C. Télévision Paris",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00088_num002112.jpg",
+      "naive_00092_num002208.jpg"
+    ],
+    "original_frame_number": [
+      2112,
+      2208
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "©",
+    "name": "FRANCE 2",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00088_num002112.jpg",
+      "naive_00092_num002208.jpg"
+    ],
+    "original_frame_number": [
+      2112,
+      2208
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "©",
+    "name": "RTBF",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00088_num002112.jpg",
+      "naive_00092_num002208.jpg"
+    ],
+    "original_frame_number": [
+      2112,
+      2208
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "©",
+    "name": "Télévision Suisse Romande",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00088_num002112.jpg",
+      "naive_00092_num002208.jpg"
+    ],
+    "original_frame_number": [
+      2112,
+      2208
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Avec",
+    "name": "Jérôme DESCHAMPS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00105_num002520.jpg",
+      "naive_00107_num002568.jpg",
+      "naive_00109_num002616.jpg"
+    ],
+    "original_frame_number": [
+      2520,
+      2568,
+      2616
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Avec",
+    "name": "Michel CACCIA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00110_num002640.jpg",
+      "naive_00112_num002688.jpg",
+      "naive_00114_num002736.jpg"
+    ],
+    "original_frame_number": [
+      2640,
+      2688,
+      2736
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Avec",
+    "name": "Maryvonne SCHILTZ",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00110_num002640.jpg",
+      "naive_00112_num002688.jpg",
+      "naive_00114_num002736.jpg"
+    ],
+    "original_frame_number": [
+      2640,
+      2688,
+      2736
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Marilù MARINI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00118_num002832.jpg",
+      "naive_00120_num002880.jpg"
+    ],
+    "original_frame_number": [
+      2832,
+      2880
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Eric DESMARESTZ",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00118_num002832.jpg",
+      "naive_00120_num002880.jpg"
+    ],
+    "original_frame_number": [
+      2832,
+      2880
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Jean-Claude FRISSUNG",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00125_num003000.jpg",
+      "naive_00127_num003048.jpg"
+    ],
+    "original_frame_number": [
+      3000,
+      3048
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Jean-Pierre GOS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00125_num003000.jpg",
+      "naive_00127_num003048.jpg"
+    ],
+    "original_frame_number": [
+      3000,
+      3048
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Terence FORD",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00131_num003144.jpg",
+      "naive_00133_num003192.jpg"
+    ],
+    "original_frame_number": [
+      3144,
+      3192
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Veronike RYKE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00131_num003144.jpg",
+      "naive_00133_num003192.jpg"
+    ],
+    "original_frame_number": [
+      3144,
+      3192
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Charlotte MAURY",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00145_num003480.jpg",
+      "naive_00147_num003528.jpg"
+    ],
+    "original_frame_number": [
+      3480,
+      3528
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Jacques CIRON",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00145_num003480.jpg",
+      "naive_00147_num003528.jpg"
+    ],
+    "original_frame_number": [
+      3480,
+      3528
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Musique originale",
+    "name": "Arié DZIERLATKA",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "naive_00154_num003696.jpg",
+      "naive_00156_num003744.jpg"
+    ],
+    "original_frame_number": [
+      3696,
+      3744
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Image",
+    "name": "Dominique BRENGUIER",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "naive_00160_num003840.jpg",
+      "naive_00162_num003888.jpg"
+    ],
+    "original_frame_number": [
+      3840,
+      3888
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Son",
+    "name": "Laurent POIRIER",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00165_num003960.jpg",
+      "naive_00167_num004008.jpg"
+    ],
+    "original_frame_number": [
+      3960,
+      4008
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Montage",
+    "name": "Eliane GUIGNET",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "naive_00170_num004080.jpg",
+      "naive_00172_num004128.jpg"
+    ],
+    "original_frame_number": [
+      4080,
+      4128
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Serge ETTER",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "naive_00175_num004200.jpg",
+      "naive_00177_num004248.jpg"
+    ],
+    "original_frame_number": [
+      4200,
+      4248
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Laurence BRENGUIER",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "naive_00175_num004200.jpg",
+      "naive_00177_num004248.jpg"
+    ],
+    "original_frame_number": [
+      4200,
+      4248
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Adaptation et Dialogues",
+    "name": "Santiago AMIGORENA",
+    "role_group": "Dubbing",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing",
+    "source_frame": [
+      "naive_00183_num004392.jpg"
+    ],
+    "original_frame_number": [
+      4392
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Adaptation et Dialogues",
+    "name": "Claude GORETTA",
+    "role_group": "Dubbing",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing",
+    "source_frame": [
+      "naive_00183_num004392.jpg"
+    ],
+    "original_frame_number": [
+      4392
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Adaptation et Dialogues",
+    "name": "Santiago AMIGORENA",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00185_num004440.jpg",
+      "naive_00187_num004488.jpg"
+    ],
+    "original_frame_number": [
+      4440,
+      4488
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Adaptation et Dialogues",
+    "name": "Claude GORETTA",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00185_num004440.jpg",
+      "naive_00187_num004488.jpg"
+    ],
+    "original_frame_number": [
+      4440,
+      4488
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "D’après le roman de",
+    "name": "Georges SIMENON",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00189_num004536.jpg",
+      "naive_00191_num004584.jpg",
+      "naive_00193_num004632.jpg"
+    ],
+    "original_frame_number": [
+      4536,
+      4584,
+      4632
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Producteur Exécutif",
+    "name": "Alain BLOCH",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00210_num005040.jpg",
+      "naive_00212_num005088.jpg"
+    ],
+    "original_frame_number": [
+      5040,
+      5088
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Producteurs délégués",
+    "name": "Eve VERCEL",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00217_num005208.jpg",
+      "naive_00219_num005256.jpg",
+      "naive_00221_num005304.jpg",
+      "naive_00223_num005352.jpg"
+    ],
+    "original_frame_number": [
+      5208,
+      5256,
+      5304,
+      5352
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Producteurs délégués",
+    "name": "Robert NADOR",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00217_num005208.jpg",
+      "naive_00219_num005256.jpg",
+      "naive_00221_num005304.jpg",
+      "naive_00223_num005352.jpg"
+    ],
+    "original_frame_number": [
+      5208,
+      5256,
+      5304,
+      5352
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Producteurs délégués",
+    "name": "Steve HAWES",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00217_num005208.jpg",
+      "naive_00219_num005256.jpg",
+      "naive_00221_num005304.jpg",
+      "naive_00223_num005352.jpg"
+    ],
+    "original_frame_number": [
+      5208,
+      5256,
+      5304,
+      5352
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:56:59.248097+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  }
+]
