@@ -1093,6 +1093,46 @@ def clear_raw_responses_for_model(episode_id: str, model: str) -> None:
             conn.close()
 
 
+def clear_raw_responses_for_frames(episode_id: str, model: str, source_frames: List[str]) -> None:
+    """Delete stored raw VLM calls for specific frames of this (episode, model).
+
+    Used instead of clear_raw_responses_for_model() when a run only re-analyzes
+    part of an episode: a resumed run must not delete the audit rows of the
+    frames an earlier attempt already completed, or the recorded call count ends
+    up smaller than the number of frames actually sent to the VLM.
+
+    Clearing the frames about to be re-analyzed is still required: a crash
+    between save_raw_response_llm_call() and the checkpoint update leaves a row
+    for a frame the checkpoint considers unfinished, which would otherwise be
+    duplicated on resume.
+
+    An empty `source_frames` is a no-op - never a blanket delete.
+    """
+    if not source_frames:
+        return
+    conn = None
+    try:
+        conn = sqlite3.connect(config.DB_PATH)
+        # Chunked so a very long frame list cannot exceed SQLite's variable limit.
+        for start in range(0, len(source_frames), 500):
+            chunk = source_frames[start:start + 500]
+            placeholders = ",".join("?" for _ in chunk)
+            conn.execute(
+                f'DELETE FROM "{config.DB_TABLE_RAW_RESPONSE}" '
+                f'WHERE episode_id = ? AND model = ? AND source_frame IN ({placeholders})',
+                (episode_id, model, *chunk),
+            )
+        conn.commit()
+    except Exception as e:
+        logging.error(
+            f"[RAW_RESPONSE] Failed to clear {len(source_frames)} frame row(s) for {episode_id}/{model}: {e}",
+            exc_info=True,
+        )
+    finally:
+        if conn:
+            conn.close()
+
+
 def save_raw_response_llm_call(episode_id: str, model: str, source_frame: str, raw_response: Any) -> None:
     """Persist a single raw VLM call. Called once per frame, even when the frame
     yields no names (empty frame), so the call itself is never lost.

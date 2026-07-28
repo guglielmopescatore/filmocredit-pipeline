@@ -29,6 +29,7 @@ non e' ancora presente, lo script lo ignora ed esegue l'analisi sui file disponi
 
 import csv
 import re
+import sqlite3
 import sys
 from collections import Counter
 from pathlib import Path
@@ -38,6 +39,8 @@ from scripts_v3.utils import normalize_name, strip_parentheticals
 ROOT = Path(__file__).resolve().parent
 HUMAN_PATH = ROOT / "human_data_to_be_imdbized" / "credits_human_corrected_merged_to_be_imdbized_20_products.csv"
 EXPORTS_DIR = ROOT / "exports"
+# I db da cui nascono gli export: exports/<nome>.csv <-> db/<nome>.db.
+DB_DIR = ROOT / "db"
 
 # Gold umano separato per i 5 prodotti esclusivi di GPT Sol Standard (nessun
 # altro modello li ha ancora processati) - non fanno parte del gold set
@@ -51,8 +54,10 @@ VALIDATION5_EPISODES = {
     "wild strawberries",
 }
 
-# Auto-discovery: tutti i file FUZZY88_*.csv dentro exports/
-FUZZY_GLOB = "FUZZY88_*.csv"
+# Auto-discovery: tutti i file FUZZY88_*.csv dentro exports/, inclusi quelli con
+# un prefisso davanti (es. NAIVE_FUZZY88_*.csv, l'export della modalita' naive:
+# frame a intervallo fisso invece di scene detection + filtro OCR).
+FUZZY_GLOB = "*FUZZY88_*.csv"
 
 # Mappa il token estratto dal nome file al label leggibile del modello.
 MODEL_LABELS = {
@@ -167,7 +172,57 @@ def model_label_from_filename(fname: str) -> str:
     label = MODEL_LABELS.get(key, MODEL_LABELS.get(key.lower(), key))
     if re.search(r"old[_ ]prompt", fname, re.IGNORECASE):
         label = f"{label} OLD PROMPT"
+    # NAIVE_FUZZY88_<model>_... is the same model run over naive-mode frames
+    # (fixed 0.8s interval, no scene detection). Without this suffix it would
+    # collide with the regular run of the same model and the two would be
+    # indistinguishable in the table.
+    if fname.upper().startswith("NAIVE_"):
+        label = f"{label} NAIVE"
     return label
+
+
+def raw_response_count(pred_path: Path, eval_episodes: set) -> int | None:
+    """Numero di chiamate VLM (righe raw_response_llm_call) del db gemello del CSV.
+
+    Ogni export exports/<nome>.csv nasce da db/<nome>.db, quindi il conteggio si
+    ricava da li'. E' ristretto a `eval_episodes` per restare confrontabile con
+    TP/FP/FN della stessa riga: un modello che copre anche prodotti fuori dal
+    gold (es. i 25 di GPT Sol Standard) non deve gonfiare il conto con chiamate
+    fatte su episodi che non vengono valutati.
+
+    Ritorna None se il db manca o non ha la tabella (snapshot piu' vecchi di
+    quando il logging delle raw response e' stato introdotto).
+    """
+    db_path = DB_DIR / f"{pred_path.stem}.db"
+    if not db_path.is_file():
+        return None
+    conn = None
+    try:
+        conn = sqlite3.connect(db_path)
+        has_table = conn.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='raw_response_llm_call'"
+        ).fetchone()
+        if not has_table:
+            return None
+        total = 0
+        for episode_id, n in conn.execute(
+            "SELECT episode_id, COUNT(*) FROM raw_response_llm_call GROUP BY episode_id"
+        ):
+            # Il db conserva gli episode_id con i suffissi _End/_Opening, che
+            # export_db_to_csv.py rimuove scrivendo il CSV. Senza lo stesso
+            # taglio qui, tutti i prodotti spezzati in due parti (Chernobyl,
+            # Maigret, Romanzo criminale, ...) non troverebbero corrispondenza
+            # in eval_episodes e le loro chiamate sparirebbero dal conteggio.
+            ep = re.sub(r"_(End|Opening)$", "", str(episode_id or ""))
+            if canon_episode(ep) in eval_episodes:
+                total += n
+        return total
+    except sqlite3.Error as e:
+        print(f"[AVVISO] Impossibile leggere le raw response da {db_path.name}: {e}", file=sys.stderr)
+        return None
+    finally:
+        if conn:
+            conn.close()
 
 
 def counters_from_triples(triples):
@@ -261,7 +316,7 @@ def compute_metrics(gold: Counter, pred: Counter):
     return tp, fp, fn, precision, recall, f1
 
 
-def evaluate_model(label, pred_triples, pred_episodes, gold_triples, gold_episodes):
+def evaluate_model(label, pred_triples, pred_episodes, gold_triples, gold_episodes, pred_path=None):
     """Valuta un modello contro un gold set, ristretto all'intersezione tra i
     prodotti che il modello copre (pred_episodes) e quelli presenti nel gold
     (gold_episodes). Ritorna le due righe (No Role, With Role) per la tabella.
@@ -287,12 +342,16 @@ def evaluate_model(label, pred_triples, pred_episodes, gold_triples, gold_episod
         f"{sum(gold_wr.values())} voci (With Role)"
     )
 
+    # Chiamate VLM effettivamente fatte sugli stessi prodotti valutati qui.
+    # None quando lo snapshot non le ha registrate (vedi raw_response_count).
+    raw_calls = raw_response_count(pred_path, eval_episodes) if pred_path is not None else None
+
     rows = []
     tp, fp, fn, p, r, f1 = compute_metrics(gold_nr, pred_nr)
-    rows.append((label, num_products, "Exact Match", "No Role", tp, fp, fn, p, r, f1))
+    rows.append((label, num_products, "Exact Match", "No Role", tp, fp, fn, p, r, f1, raw_calls))
 
     tp, fp, fn, p, r, f1 = compute_metrics(gold_wr, pred_wr)
-    rows.append((label, num_products, "Exact Match", "With Role", tp, fp, fn, p, r, f1))
+    rows.append((label, num_products, "Exact Match", "With Role", tp, fp, fn, p, r, f1, raw_calls))
     return rows
 
 
@@ -301,20 +360,26 @@ def print_and_save_table(rows, out_path: Path):
     Il miglior valore di ogni colonna numerica viene evidenziato in grassetto
     (ANSI), confrontando solo righe con lo stesso Mode (No Role / With Role non
     sono confrontabili tra loro: scale diverse). Salva anche in CSV."""
-    header = ["Model", "num_products", "Method", "Mode", "TP", "FP", "FN", "Precision", "Recall", "F1"]
-    numeric_cols = {"num_products", "TP", "FP", "FN", "Precision", "Recall", "F1"}
+    header = ["Model", "num_products", "Method", "Mode", "TP", "FP", "FN", "Precision", "Recall", "F1", "raw_calls"]
+    numeric_cols = {"num_products", "TP", "FP", "FN", "Precision", "Recall", "F1", "raw_calls"}
     lower_is_better = {"FP", "FN"}
+    # raw_calls e' informativo (quante chiamate VLM sono costate quei numeri):
+    # ne' alto ne' basso e' "migliore", quindi non entra nell'evidenziazione.
+    # Puo' anche essere None, che non sarebbe confrontabile con min/max.
+    highlight_cols = numeric_cols - {"raw_calls"}
     BOLD, RESET = "\033[1m", "\033[0m"
 
     raw_values = [
         {"Model": label, "num_products": num_products, "Method": method, "Mode": mode,
-         "TP": tp, "FP": fp, "FN": fn, "Precision": p, "Recall": r, "F1": f1}
-        for label, num_products, method, mode, tp, fp, fn, p, r, f1 in rows
+         "TP": tp, "FP": fp, "FN": fn, "Precision": p, "Recall": r, "F1": f1,
+         "raw_calls": raw_calls}
+        for label, num_products, method, mode, tp, fp, fn, p, r, f1, raw_calls in rows
     ]
     str_rows = [
         [str(v["Model"]), str(v["num_products"]), str(v["Method"]), str(v["Mode"]),
          str(v["TP"]), str(v["FP"]), str(v["FN"]),
-         f"{v['Precision']:.5f}", f"{v['Recall']:.5f}", f"{v['F1']:.5f}"]
+         f"{v['Precision']:.5f}", f"{v['Recall']:.5f}", f"{v['F1']:.5f}",
+         "n/a" if v["raw_calls"] is None else str(v["raw_calls"])]
         for v in raw_values
     ]
     widths = [
@@ -327,7 +392,7 @@ def print_and_save_table(rows, out_path: Path):
     modes = {v["Mode"] for v in raw_values}
     for mode in modes:
         idxs = [i for i, v in enumerate(raw_values) if v["Mode"] == mode]
-        for col in numeric_cols:
+        for col in highlight_cols:
             if not idxs:
                 continue
             pick = min if col in lower_is_better else max
@@ -352,9 +417,10 @@ def print_and_save_table(rows, out_path: Path):
     with out_path.open("w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
         w.writerow(header)
-        for label, num_products, method, mode, tp, fp, fn, p, r, f1 in rows:
+        for label, num_products, method, mode, tp, fp, fn, p, r, f1, raw_calls in rows:
             w.writerow([label, num_products, method, mode, tp, fp, fn,
-                        f"{p:.5f}", f"{r:.5f}", f"{f1:.5f}"])
+                        f"{p:.5f}", f"{r:.5f}", f"{f1:.5f}",
+                        "" if raw_calls is None else raw_calls])
     print(f"\nMetriche salvate in: {out_path}")
 
 
@@ -382,7 +448,8 @@ def main():
         label = model_label_from_filename(path.name)
         pred_triples, pred_episodes = load_pred(path)
         main_pred_episodes = pred_episodes - VALIDATION5_EPISODES
-        rows.extend(evaluate_model(label, pred_triples, main_pred_episodes, gold_triples, gold_episodes))
+        rows.extend(evaluate_model(label, pred_triples, main_pred_episodes, gold_triples, gold_episodes,
+                                   pred_path=path))
 
     print_and_save_table(rows, EXPORTS_DIR / "llm_human_exact_match_metrics.csv")
 
@@ -408,7 +475,8 @@ def main():
         v5_pred_episodes = pred_episodes & VALIDATION5_EPISODES
         if not v5_pred_episodes:
             continue
-        v5_rows.extend(evaluate_model(label, pred_triples, v5_pred_episodes, gold_v5_triples, gold_v5_episodes))
+        v5_rows.extend(evaluate_model(label, pred_triples, v5_pred_episodes, gold_v5_triples, gold_v5_episodes,
+                                      pred_path=path))
 
     if v5_rows:
         print_and_save_table(v5_rows, EXPORTS_DIR / "llm_human_exact_match_metrics_validation5.csv")

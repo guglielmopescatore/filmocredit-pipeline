@@ -50,6 +50,25 @@ VLM_OCR_DIR_BY_PROVIDER: Final[dict[str, str]] = {
 # Fallback subfolder when the provider cannot be resolved (legacy layout).
 VLM_OCR_DIR_DEFAULT: Final[str] = "ocr"
 
+# Naive analysis mode: Steps 1+2 (scene detection + OCR-filtered frame analysis)
+# are replaced by a single fixed-interval extraction pass. Its output lives in
+# its own subfolder so a naive run never mixes with - or overwrites - the
+# regular analysis/frames output, and both can coexist for the same episode.
+NAIVE_ANALYSIS_DIR_NAME: Final[str] = "naive_analysis"
+NAIVE_FRAME_INTERVAL_SECONDS: Final[float] = 0.8
+
+
+def get_frames_dir(episode_id: str, naive_mode: bool = False) -> Path:
+    """Directory holding the frames Step 3 (VLM OCR) reads for an episode.
+
+    Regular pipeline -> data/episodes/<episode>/analysis/frames
+    Naive mode       -> data/episodes/<episode>/naive_analysis/frames
+    """
+    episode_dir = EPISODES_BASE_DIR / episode_id
+    if naive_mode:
+        return episode_dir / NAIVE_ANALYSIS_DIR_NAME / 'frames'
+    return episode_dir / 'analysis' / 'frames'
+
 LOG_FILE_PATH = PROJECT_ROOT / 'filmocredit_pipeline.log'
 
 # Path for user-defined OCR stopwords - always in the same place as other files
