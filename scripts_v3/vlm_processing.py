@@ -2,6 +2,7 @@ import base64
 import json
 import logging
 import os
+import re
 import sqlite3
 import time
 from dataclasses import dataclass
@@ -283,14 +284,126 @@ def resolve_vlm_provider(vlm_provider: str = "auto") -> str:
     raise ValueError("No VLM provider available (neither Claude nor Azure credentials set)")
 
 
-def get_vlm_ocr_dir(episode_id: str, provider: str) -> Path:
-    """Return the provider-specific OCR output directory for an episode."""
+def get_vlm_ocr_dir(episode_id: str, provider: str, naive_mode: bool = False) -> Path:
+    """Return the provider-specific OCR output directory for an episode.
+
+    Naive mode keeps its output under the episode's naive_analysis/ folder: the
+    two modes feed the VLM completely different frames, so their JSONs are not
+    interchangeable. Sharing one path would make a naive run silently reload the
+    regular run's results (Step 3 short-circuits when the JSON already exists).
+    """
     subdir = config.VLM_OCR_DIR_BY_PROVIDER.get(provider, config.VLM_OCR_DIR_DEFAULT)
-    return config.EPISODES_BASE_DIR / episode_id / subdir
+    episode_dir = config.EPISODES_BASE_DIR / episode_id
+    if naive_mode:
+        return episode_dir / config.NAIVE_ANALYSIS_DIR_NAME / subdir
+    return episode_dir / subdir
+
+
+def _naive_frame_number(filename: str) -> Optional[int]:
+    """Source frame index encoded in a naive frame filename.
+
+    naive_frame_extraction writes 'naive_<seq>_num<frame>.jpg', so the real
+    position in the video is recoverable without a manifest.
+    """
+    match = re.search(r"num(\d+)", filename)
+    return int(match.group(1)) if match else None
+
+
+CHECKPOINT_SUFFIX = "_vlm_checkpoint.json"
+
+
+def get_vlm_checkpoint_path(episode_id: str, ocr_dir: Path) -> Path:
+    """Path of the resume checkpoint for an episode's VLM run.
+
+    It lives inside ocr_dir, which is already provider- and mode-specific, so a
+    checkpoint can never be picked up by a different provider or by the other
+    analysis mode.
+    """
+    return ocr_dir / f"{episode_id}{CHECKPOINT_SUFFIX}"
+
+
+def _write_json_atomic(path: Path, payload: Any) -> None:
+    """Write JSON through a temp file + os.replace.
+
+    A crash during a plain write leaves a truncated file, which would then break
+    the very resume this checkpoint exists to enable. os.replace is atomic on
+    both POSIX and Windows, so readers only ever see a complete file.
+    """
+    tmp_path = path.with_suffix(path.suffix + ".tmp")
+    with open(tmp_path, 'w', encoding='utf-8') as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+    os.replace(tmp_path, path)
+
+
+def load_vlm_checkpoint(checkpoint_path: Path) -> Dict[str, Any]:
+    """Load a VLM resume checkpoint. Returns {} when absent or unreadable."""
+    if not checkpoint_path.is_file():
+        return {}
+    try:
+        with open(checkpoint_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except Exception as e:
+        logging.warning(f"Could not read VLM checkpoint {checkpoint_path}: {e}")
+        return {}
+
+
+def vlm_run_is_incomplete(episode_id: str, ocr_dir: Path) -> bool:
+    """True when a previous VLM run for this episode was interrupted.
+
+    Credits are flushed to the output JSON after every analyzed frame, so the
+    mere existence of that file no longer means the run finished. Callers that
+    short-circuit on "JSON already exists" MUST consult this first, otherwise an
+    interrupted episode is loaded from its partial file and silently skipped -
+    losing every frame the crash left unprocessed.
+
+    An absent checkpoint means the episode predates checkpointing (or never
+    ran), in which case an existing JSON is the final result and can be trusted.
+    """
+    checkpoint = load_vlm_checkpoint(get_vlm_checkpoint_path(episode_id, ocr_dir))
+    if not checkpoint:
+        return False
+    return checkpoint.get("status") != "completed"
+
+
+def _save_vlm_checkpoint(
+    checkpoint_path: Path,
+    episode_id: str,
+    provider: str,
+    naive_mode: bool,
+    last_frame: Optional[str],
+    completed_frames: List[str],
+    frames_total: int,
+    elapsed_seconds: float,
+    status: str,
+) -> None:
+    """Persist which frames are done, which one was last, and how long it took.
+
+    `elapsed_seconds` accumulates across resumed runs so the total stays
+    truthful even when a run had to be restarted. Never raises: losing the
+    checkpoint must not abort an otherwise healthy VLM run.
+    """
+    payload = {
+        "episode_id": episode_id,
+        "provider": provider,
+        "naive_mode": naive_mode,
+        "status": status,
+        "last_frame": last_frame,
+        "last_updated": datetime.now(timezone.utc).isoformat(),
+        "frames_done": len(completed_frames),
+        "frames_total": frames_total,
+        "elapsed_seconds": round(float(elapsed_seconds), 2),
+        "completed_frames": completed_frames,
+    }
+    try:
+        _write_json_atomic(checkpoint_path, payload)
+    except Exception as e:
+        logging.warning(f"[{episode_id}] Could not write VLM checkpoint {checkpoint_path}: {e}")
 
 
 def run_azure_vlm_ocr_on_frames(
-    episode_id: str, max_new_tokens: int, vlm_provider: str = "auto", enable_role_correction: bool = True, include_previous_frame: bool = True
+    episode_id: str, max_new_tokens: int, vlm_provider: str = "auto", enable_role_correction: bool = True, include_previous_frame: bool = True,
+    naive_mode: bool = False
 ) -> Tuple[int, str, Optional[str]]:
     """
     Runs VLM OCR on selected frames for an episode, one frame at a time,
@@ -302,6 +415,8 @@ def run_azure_vlm_ocr_on_frames(
         vlm_provider: VLM provider to use ('auto', 'claude', 'azure'). Default: 'auto'
         enable_role_correction: Whether to apply role group corrections. Default: True
         include_previous_frame: Whether to include previous frame as visual context. Default: True
+        naive_mode: Read frames from the naive_analysis folder (fixed-interval
+            extraction) instead of the regular analysis folder. Default: False
 
     Returns:
         A tuple containing:
@@ -327,9 +442,12 @@ def run_azure_vlm_ocr_on_frames(
         return 0, "error_vlm_client_init", msg
     vlm_provider = selected_provider
 
-    ocr_dir = get_vlm_ocr_dir(episode_id, selected_provider)
-    frames_dir = episode_dir / 'analysis' / 'frames'
+    ocr_dir = get_vlm_ocr_dir(episode_id, selected_provider, naive_mode=naive_mode)
+    frames_dir = config.get_frames_dir(episode_id, naive_mode=naive_mode)
+    if naive_mode:
+        logging.info(f"[{episode_id}] Naive analysis mode: reading frames from {frames_dir}")
     output_json_path = ocr_dir / f"{episode_id}_credits_azure_vlm.json"
+    checkpoint_path = get_vlm_checkpoint_path(episode_id, ocr_dir)
 
     try:
         ocr_dir.mkdir(parents=True, exist_ok=True)
@@ -598,84 +716,134 @@ def run_azure_vlm_ocr_on_frames(
         "api_version": active_api_version,
     }
 
-    manifest_path = episode_dir / "analysis" / "analysis_manifest.json"
-    manifest_data = {}
-    if manifest_path.is_file():
-        try:
-            with open(manifest_path, 'r', encoding='utf-8') as manifest_file:
-                manifest_data = json.load(manifest_file)
-            logging.info(f"[{episode_id}] Loaded analysis manifest with {len(manifest_data.get('scenes', {}))} scenes.")
-        except Exception as e:
-            logging.error(f"[{episode_id}] Error loading manifest file {manifest_path}: {e}", exc_info=True)
-    else:
-        logging.warning(f"[{episode_id}] Manifest file not found: {manifest_path}.")
+    # Resume support. The DB-based check above only marks a frame as processed
+    # once its credits reached the database - but the DB save happens in the
+    # caller, AFTER this function returns. So an interrupted run would re-analyze
+    # (and re-bill) every frame it had already done. The checkpoint records
+    # completed frames as soon as they are analyzed, closing that gap.
+    checkpoint = load_vlm_checkpoint(checkpoint_path)
+    resumed_elapsed = float(checkpoint.get("elapsed_seconds") or 0.0)
+    completed_frames = [f for f in (checkpoint.get("completed_frames") or []) if isinstance(f, str)]
+    if completed_frames:
+        logging.info(
+            f"[{episode_id}] Resuming from checkpoint: {len(completed_frames)} frame(s) already analyzed, "
+            f"last was '{checkpoint.get('last_frame')}' at {checkpoint.get('last_updated')} "
+            f"({resumed_elapsed:.1f}s spent so far)"
+        )
+        processed_frames_set.update(completed_frames)
 
-    scenes_data = manifest_data.get("scenes", {})
     frames_to_process = []
 
-    for scene_key, scene_result in scenes_data.items():
-        output_files = scene_result.get("output_files", [])
-
-        scene_position = scene_result.get("position", "unknown")
-        
-        # Extract scroll direction from SCENE metadata (not frame metadata)
-        scene_scroll_direction = scene_result.get("scroll_direction", None)
-
-        for frame_info_manifest in output_files:
-            relative_path_str = frame_info_manifest.get("path")
-
-            frame_num = frame_info_manifest.get("frame_num")
-
-            if not relative_path_str:
-                logging.warning(f"[{episode_id}] Frame info missing path: {frame_info_manifest}. Skipping.")
-                continue
-
-            full_image_path = frames_dir / Path(relative_path_str).name
-            if not full_image_path.is_file():
-                logging.warning(f"[{episode_id}] Frame file does not exist: {full_image_path}. Skipping.")
-                continue
-
-            frame_filename = full_image_path.name
+    if naive_mode:
+        # Naive mode has no analysis_manifest.json: Steps 1+2 are replaced by a
+        # flat fixed-interval extraction, so the frame list comes straight from
+        # the naive frames folder. all_frames_info is already sorted by
+        # filename, which the naive extractor keeps chronological. There is no
+        # scene context either, hence position 'unknown' and no scroll direction
+        # (which means the normal top-to-bottom reading order is assumed).
+        logging.info(f"[{episode_id}] Naive analysis mode: building frame list from {frames_dir} (no manifest).")
+        for frame_info in all_frames_info:
+            frame_filename = frame_info["filename"]
 
             if frame_filename in processed_frames_set:
                 logging.info(
                     f"[{episode_id}] Frame already processed based on existing output, skipping: {frame_filename}"
                 )
                 continue
-            
+
             frames_to_process.append(
                 {
-                    "path": full_image_path,
+                    "path": frame_info["path"],
                     "filename": frame_filename,
-                    "frame_num": frame_num,
-                    "scene_position": scene_position,
-                    "scroll_direction": scene_scroll_direction,  # Use scene-level scroll direction
+                    "frame_num": _naive_frame_number(frame_filename),
+                    "scene_position": "unknown",
+                    "scroll_direction": None,
                 }
             )
+    else:
+        manifest_path = episode_dir / "analysis" / "analysis_manifest.json"
+        manifest_data = {}
+        if manifest_path.is_file():
+            try:
+                with open(manifest_path, 'r', encoding='utf-8') as manifest_file:
+                    manifest_data = json.load(manifest_file)
+                logging.info(f"[{episode_id}] Loaded analysis manifest with {len(manifest_data.get('scenes', {}))} scenes.")
+            except Exception as e:
+                logging.error(f"[{episode_id}] Error loading manifest file {manifest_path}: {e}", exc_info=True)
+        else:
+            logging.warning(f"[{episode_id}] Manifest file not found: {manifest_path}.")
 
-    logging.info(f"[{episode_id}] Total frames to process from manifest: {len(frames_to_process)}.")
+        scenes_data = manifest_data.get("scenes", {})
+
+        for scene_key, scene_result in scenes_data.items():
+            output_files = scene_result.get("output_files", [])
+
+            scene_position = scene_result.get("position", "unknown")
+
+            # Extract scroll direction from SCENE metadata (not frame metadata)
+            scene_scroll_direction = scene_result.get("scroll_direction", None)
+
+            for frame_info_manifest in output_files:
+                relative_path_str = frame_info_manifest.get("path")
+
+                frame_num = frame_info_manifest.get("frame_num")
+
+                if not relative_path_str:
+                    logging.warning(f"[{episode_id}] Frame info missing path: {frame_info_manifest}. Skipping.")
+                    continue
+
+                full_image_path = frames_dir / Path(relative_path_str).name
+                if not full_image_path.is_file():
+                    logging.warning(f"[{episode_id}] Frame file does not exist: {full_image_path}. Skipping.")
+                    continue
+
+                frame_filename = full_image_path.name
+
+                if frame_filename in processed_frames_set:
+                    logging.info(
+                        f"[{episode_id}] Frame already processed based on existing output, skipping: {frame_filename}"
+                    )
+                    continue
+
+                frames_to_process.append(
+                    {
+                        "path": full_image_path,
+                        "filename": frame_filename,
+                        "frame_num": frame_num,
+                        "scene_position": scene_position,
+                        "scroll_direction": scene_scroll_direction,  # Use scene-level scroll direction
+                    }
+                )
+
+    frame_source = "naive frames folder" if naive_mode else "manifest"
+    logging.info(f"[{episode_id}] Total frames to process from {frame_source}: {len(frames_to_process)}.")
 
     if not frames_to_process:
-        msg = f"No new frames to process for episode {episode_id} after checking manifest and existing output."
+        msg = f"No new frames to process for episode {episode_id} after checking {frame_source} and existing output."
         logging.warning(f"[{episode_id}] {msg}")
 
         if not output_json_path.exists() or not processed_frames_set:
             return 0, "skipped_no_frames_to_process", msg
         else:
             logging.info(
-                f"[{episode_id}] No new frames found in manifest to process, and existing output file present. Assuming completed."
+                f"[{episode_id}] No new frames found in {frame_source} to process, and existing output file present. Assuming completed."
             )
             return 0, "completed_no_new_frames", None
 
-    logging.info(f"[{episode_id}] Found {len(frames_to_process)} new frames to process from manifest.")
+    logging.info(f"[{episode_id}] Found {len(frames_to_process)} new frames to process from {frame_source}.")
 
     try:
         all_parsed_credits = []
         name_to_role_groups = {}
 
-        # Drop any previous raw calls for THIS model so a re-run replaces its own
-        # rows (other models' calls for the episode are kept for comparison).
-        utils.clear_raw_responses_for_model(episode_id, vlm_provider)
+        # Drop previous raw calls for THIS model so a re-run replaces its own rows
+        # (other models' calls for the episode are kept for comparison). Scoped to
+        # the frames about to be analyzed rather than the whole episode: on a
+        # resumed run the earlier attempt's rows must survive, otherwise the audit
+        # table ends up recording only the frames of the final attempt.
+        utils.clear_raw_responses_for_frames(
+            episode_id, vlm_provider, [f["filename"] for f in frames_to_process]
+        )
 
         if output_json_path.exists():
             try:
@@ -686,6 +854,11 @@ def run_azure_vlm_ocr_on_frames(
                 logging.warning(
                     f"[{episode_id}] Could not load existing credits from {output_json_path} for appending: {e}"
                 )
+
+        # Total across resumed runs, so the checkpoint's frames_done/frames_total
+        # describes the whole episode rather than just this attempt.
+        checkpoint_frames_total = len(frames_to_process) + len(completed_frames)
+        run_started_at = time.time()
 
         for frame_idx, frame_data in enumerate(tqdm(frames_to_process, desc=f"Processing frames for {episode_id}")):
             frame_path = frame_data["path"]
@@ -1017,6 +1190,28 @@ def run_azure_vlm_ocr_on_frames(
                     f"[{episode_id}] Context for next frame (from {frame_data['filename']}): {previous_llm_output_json_str[:200]}..."
                 )
 
+                # Checkpoint only on success: a frame that raised below was never
+                # analyzed, so a resume must retry it rather than skip it.
+                # The partial credits are flushed alongside, otherwise resuming
+                # would skip these frames while their results were never saved.
+                # Both writes are cheap next to the VLM call that just happened.
+                completed_frames.append(frame_data["filename"])
+                try:
+                    _write_json_atomic(output_json_path, all_parsed_credits)
+                except Exception as flush_err:
+                    logging.warning(f"[{episode_id}] Could not flush partial credits: {flush_err}")
+                _save_vlm_checkpoint(
+                    checkpoint_path,
+                    episode_id=episode_id,
+                    provider=vlm_provider,
+                    naive_mode=naive_mode,
+                    last_frame=frame_data["filename"],
+                    completed_frames=completed_frames,
+                    frames_total=checkpoint_frames_total,
+                    elapsed_seconds=resumed_elapsed + (time.time() - run_started_at),
+                    status="in_progress",
+                )
+
             except APIStatusError as e:
                 logging.error(
                     f"[{episode_id}] Azure API error on frame {frame_idx} ({frame_data['filename']}): {e.status_code} - {e.response}",
@@ -1086,8 +1281,7 @@ def run_azure_vlm_ocr_on_frames(
                 credit_entry["Need revisioning for deduplication"] = True
 
         try:
-            with open(output_json_path, 'w', encoding='utf-8') as f_out:
-                json.dump(final_dedup_credits_list, f_out, ensure_ascii=False, indent=2)
+            _write_json_atomic(output_json_path, final_dedup_credits_list)
             newly_added_credits_count = len(final_dedup_credits_list)
             logging.info(
                 f"[{episode_id}] Saved/Updated {output_json_path.name} with {newly_added_credits_count} total deduplicated credit entries."
@@ -1095,6 +1289,20 @@ def run_azure_vlm_ocr_on_frames(
         except Exception as write_err:
             logging.error(f"[{episode_id}] Failed to write dedup credits JSON: {write_err}", exc_info=True)
             return 0, "error_writing_json", str(write_err)
+
+        total_elapsed = resumed_elapsed + (time.time() - run_started_at)
+        _save_vlm_checkpoint(
+            checkpoint_path,
+            episode_id=episode_id,
+            provider=vlm_provider,
+            naive_mode=naive_mode,
+            last_frame=completed_frames[-1] if completed_frames else None,
+            completed_frames=completed_frames,
+            frames_total=checkpoint_frames_total,
+            elapsed_seconds=total_elapsed,
+            status="completed",
+        )
+        logging.info(f"[{episode_id}] VLM run finished in {total_elapsed:.1f}s across all attempts.")
 
     except Exception as e:
         msg = f"Unexpected error during Azure VLM processing loop: {e}"

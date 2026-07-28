@@ -1,0 +1,3142 @@
+[
+  {
+    "role_detail": "Jules Maigret",
+    "name": "Bruno CREMER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00002_num000048.jpg",
+      "naive_00004_num000096.jpg",
+      "naive_00006_num000144.jpg",
+      "naive_00008_num000192.jpg"
+    ],
+    "original_frame_number": [
+      48,
+      96,
+      144,
+      192
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Prosper",
+    "name": "Jérôme DESCHAMPS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00003_num000072.jpg",
+      "naive_00005_num000120.jpg",
+      "naive_00007_num000168.jpg",
+      "naive_00009_num000216.jpg"
+    ],
+    "original_frame_number": [
+      72,
+      120,
+      168,
+      216
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Ramuel",
+    "name": "Michel CACCIA",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00004_num000096.jpg",
+      "naive_00006_num000144.jpg",
+      "naive_00008_num000192.jpg",
+      "naive_00010_num000240.jpg"
+    ],
+    "original_frame_number": [
+      96,
+      144,
+      192,
+      240
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Charlotte",
+    "name": "Maryvonne SCHILTZ",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00005_num000120.jpg",
+      "naive_00009_num000216.jpg",
+      "naive_00011_num000264.jpg"
+    ],
+    "original_frame_number": [
+      120,
+      216,
+      264
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "VEED",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00005_num000120.jpg",
+      "naive_00082_num001968.jpg",
+      "naive_00097_num002328.jpg",
+      "naive_00124_num002965.jpg"
+    ],
+    "original_frame_number": [
+      120,
+      1968,
+      2328,
+      2965
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Gigi",
+    "name": "Marilù MARINI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00006_num000144.jpg",
+      "naive_00010_num000240.jpg",
+      "naive_00012_num000288.jpg"
+    ],
+    "original_frame_number": [
+      144,
+      240,
+      288
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Charlotte",
+    "name": "Maryvonne SCHULTZ",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00007_num000168.jpg"
+    ],
+    "original_frame_number": [
+      168
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Juge Benneau",
+    "name": "Erick DESMARESTZ",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00007_num000168.jpg",
+      "naive_00009_num000216.jpg",
+      "naive_00011_num000264.jpg",
+      "naive_00013_num000312.jpg",
+      "naive_00015_num000360.jpg"
+    ],
+    "original_frame_number": [
+      168,
+      216,
+      264,
+      312,
+      360
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Gigi",
+    "name": "Marilu MARINI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00008_num000192.jpg",
+      "naive_00014_num000336.jpg"
+    ],
+    "original_frame_number": [
+      192,
+      336
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Janvier",
+    "name": "Jean-Claude FRISSUNG",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00008_num000192.jpg",
+      "naive_00010_num000240.jpg",
+      "naive_00012_num000288.jpg",
+      "naive_00014_num000336.jpg",
+      "naive_00016_num000384.jpg"
+    ],
+    "original_frame_number": [
+      192,
+      240,
+      288,
+      336,
+      384
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Lucas",
+    "name": "Jean-Pierre GOS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00009_num000216.jpg",
+      "naive_00011_num000264.jpg",
+      "naive_00013_num000312.jpg",
+      "naive_00015_num000360.jpg",
+      "naive_00017_num000408.jpg"
+    ],
+    "original_frame_number": [
+      216,
+      264,
+      312,
+      360,
+      408
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Michael Clark",
+    "name": "Terence FORD",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00011_num000264.jpg",
+      "naive_00013_num000312.jpg",
+      "naive_00015_num000360.jpg",
+      "naive_00017_num000408.jpg"
+    ],
+    "original_frame_number": [
+      264,
+      312,
+      360,
+      408
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Ellen Darroman",
+    "name": "Véronike RYKE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00012_num000288.jpg",
+      "naive_00014_num000336.jpg",
+      "naive_00016_num000384.jpg",
+      "naive_00018_num000432.jpg"
+    ],
+    "original_frame_number": [
+      288,
+      336,
+      384,
+      432
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Charlotte",
+    "name": "Maryvonne Schiltz",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00013_num000312.jpg"
+    ],
+    "original_frame_number": [
+      312
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Marie Deliaeard",
+    "name": "Charlotte MAURY",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00013_num000312.jpg",
+      "naive_00015_num000360.jpg",
+      "naive_00017_num000408.jpg",
+      "naive_00019_num000456.jpg"
+    ],
+    "original_frame_number": [
+      312,
+      360,
+      408,
+      456
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Directeur du Majestic",
+    "name": "Jacques CIRON",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00014_num000336.jpg",
+      "naive_00016_num000384.jpg",
+      "naive_00018_num000432.jpg",
+      "naive_00020_num000480.jpg"
+    ],
+    "original_frame_number": [
+      336,
+      384,
+      432,
+      480
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Monsieur Jean",
+    "name": "Pierre JULIEN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00015_num000360.jpg",
+      "naive_00017_num000408.jpg",
+      "naive_00019_num000456.jpg",
+      "naive_00021_num000504.jpg"
+    ],
+    "original_frame_number": [
+      360,
+      408,
+      456,
+      504
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Euzebio",
+    "name": "Pablo VERON",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00016_num000384.jpg",
+      "naive_00018_num000432.jpg",
+      "naive_00020_num000480.jpg",
+      "naive_00022_num000528.jpg",
+      "naive_00024_num000576.jpg"
+    ],
+    "original_frame_number": [
+      384,
+      432,
+      480,
+      528,
+      576
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Jolivet",
+    "name": "Roger BURCKHARDT",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00017_num000408.jpg",
+      "naive_00019_num000456.jpg",
+      "naive_00021_num000504.jpg",
+      "naive_00023_num000552.jpg",
+      "naive_00025_num000600.jpg"
+    ],
+    "original_frame_number": [
+      408,
+      456,
+      504,
+      552,
+      600
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Gardel",
+    "name": "Michel CASSAGNE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00018_num000432.jpg",
+      "naive_00020_num000480.jpg",
+      "naive_00022_num000528.jpg",
+      "naive_00024_num000576.jpg",
+      "naive_00026_num000624.jpg"
+    ],
+    "original_frame_number": [
+      432,
+      480,
+      528,
+      576,
+      624
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Désiré",
+    "name": "Francis COFFINET",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00019_num000456.jpg",
+      "naive_00021_num000504.jpg",
+      "naive_00023_num000552.jpg",
+      "naive_00025_num000600.jpg",
+      "naive_00027_num000648.jpg"
+    ],
+    "original_frame_number": [
+      456,
+      504,
+      552,
+      600,
+      648
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Patron Brasserie de l’horloge",
+    "name": "Pierre BANDERET",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00021_num000504.jpg",
+      "naive_00023_num000552.jpg",
+      "naive_00025_num000600.jpg",
+      "naive_00027_num000648.jpg"
+    ],
+    "original_frame_number": [
+      504,
+      552,
+      600,
+      648
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Médecin du Majestic",
+    "name": "Nicolas BRIDEL",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00022_num000528.jpg",
+      "naive_00024_num000576.jpg",
+      "naive_00026_num000624.jpg",
+      "naive_00028_num000672.jpg"
+    ],
+    "original_frame_number": [
+      528,
+      576,
+      624,
+      672
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Mlle Borms",
+    "name": "Judith BURNETT",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00023_num000552.jpg",
+      "naive_00025_num000600.jpg",
+      "naive_00027_num000648.jpg",
+      "naive_00029_num000696.jpg"
+    ],
+    "original_frame_number": [
+      552,
+      600,
+      648,
+      696
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Avocat de Clark",
+    "name": "Brian RICHARDS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00024_num000576.jpg",
+      "naive_00026_num000624.jpg",
+      "naive_00028_num000672.jpg",
+      "naive_00030_num000720.jpg"
+    ],
+    "original_frame_number": [
+      576,
+      624,
+      672,
+      720
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Monsieur Charles",
+    "name": "Nader FARMAN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00025_num000600.jpg",
+      "naive_00027_num000648.jpg",
+      "naive_00029_num000696.jpg",
+      "naive_00031_num000744.jpg",
+      "naive_00033_num000792.jpg"
+    ],
+    "original_frame_number": [
+      600,
+      648,
+      696,
+      744,
+      792
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "L’interprète",
+    "name": "Patten NIGEL",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00026_num000624.jpg",
+      "naive_00028_num000672.jpg",
+      "naive_00030_num000720.jpg",
+      "naive_00032_num000768.jpg",
+      "naive_00034_num000816.jpg"
+    ],
+    "original_frame_number": [
+      624,
+      672,
+      720,
+      768,
+      816
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Patron du Pelican",
+    "name": "Jean-Marie DAUNAS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00027_num000648.jpg",
+      "naive_00029_num000696.jpg",
+      "naive_00031_num000744.jpg",
+      "naive_00033_num000792.jpg",
+      "naive_00035_num000840.jpg"
+    ],
+    "original_frame_number": [
+      648,
+      696,
+      744,
+      792,
+      840
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Maître d’hôtel du Majestic",
+    "name": "Arnold WALTHER",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00028_num000672.jpg",
+      "naive_00030_num000720.jpg",
+      "naive_00032_num000768.jpg",
+      "naive_00034_num000816.jpg",
+      "naive_00036_num000864.jpg"
+    ],
+    "original_frame_number": [
+      672,
+      720,
+      768,
+      816,
+      864
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Concierge du Majestic",
+    "name": "Gil LAUBERT",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00030_num000720.jpg",
+      "naive_00032_num000768.jpg",
+      "naive_00034_num000816.jpg",
+      "naive_00036_num000864.jpg"
+    ],
+    "original_frame_number": [
+      720,
+      768,
+      816,
+      864
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Concierge rue Réaumur",
+    "name": "Bernard ROBIN",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00031_num000744.jpg",
+      "naive_00033_num000792.jpg",
+      "naive_00035_num000840.jpg",
+      "naive_00037_num000888.jpg"
+    ],
+    "original_frame_number": [
+      744,
+      792,
+      840,
+      888
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Contrôleur du train",
+    "name": "Marco CALAMANDREI",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00032_num000768.jpg",
+      "naive_00034_num000816.jpg",
+      "naive_00036_num000864.jpg",
+      "naive_00038_num000912.jpg"
+    ],
+    "original_frame_number": [
+      768,
+      816,
+      864,
+      912
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Chef de cuisine",
+    "name": "Jack MOHNSAM",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00033_num000792.jpg",
+      "naive_00035_num000840.jpg",
+      "naive_00037_num000888.jpg",
+      "naive_00039_num000936.jpg"
+    ],
+    "original_frame_number": [
+      792,
+      840,
+      888,
+      936
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "L’épicier",
+    "name": "Jacques DISSES",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00034_num000816.jpg",
+      "naive_00036_num000864.jpg",
+      "naive_00038_num000912.jpg",
+      "naive_00040_num000960.jpg"
+    ],
+    "original_frame_number": [
+      816,
+      864,
+      912,
+      960
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Le fils de Prosper",
+    "name": "Arthur DESCHAMPS",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00035_num000840.jpg",
+      "naive_00037_num000888.jpg",
+      "naive_00039_num000936.jpg",
+      "naive_00041_num000984.jpg",
+      "naive_00043_num001032.jpg"
+    ],
+    "original_frame_number": [
+      840,
+      888,
+      936,
+      984,
+      1032
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "La danseuse du cabaret",
+    "name": "Danielle NEGRE",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00036_num000864.jpg",
+      "naive_00038_num000912.jpg",
+      "naive_00040_num000960.jpg",
+      "naive_00042_num001008.jpg",
+      "naive_00044_num001056.jpg"
+    ],
+    "original_frame_number": [
+      864,
+      912,
+      960,
+      1008,
+      1056
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Le voyou",
+    "name": "Philippe MAYMAT",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00037_num000888.jpg",
+      "naive_00039_num000936.jpg",
+      "naive_00041_num000984.jpg",
+      "naive_00043_num001032.jpg",
+      "naive_00045_num001080.jpg"
+    ],
+    "original_frame_number": [
+      888,
+      936,
+      984,
+      1032,
+      1080
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Casting",
+    "name": "Gérard MOULEVRIER",
+    "role_group": "Casting Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Directors",
+    "source_frame": [
+      "naive_00040_num000960.jpg",
+      "naive_00042_num001008.jpg",
+      "naive_00044_num001056.jpg",
+      "naive_00046_num001104.jpg"
+    ],
+    "original_frame_number": [
+      960,
+      1008,
+      1056,
+      1104
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "L'épicier",
+    "name": "Jacques BISSES",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00042_num001008.jpg"
+    ],
+    "original_frame_number": [
+      1008
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Assistantes de réalisation",
+    "name": "Anne-Marie FALLOT",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "naive_00042_num001008.jpg",
+      "naive_00044_num001056.jpg",
+      "naive_00046_num001104.jpg",
+      "naive_00048_num001152.jpg"
+    ],
+    "original_frame_number": [
+      1008,
+      1056,
+      1104,
+      1152
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Assistantes de réalisation",
+    "name": "Anne DELUZ",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "naive_00042_num001008.jpg",
+      "naive_00044_num001056.jpg",
+      "naive_00046_num001104.jpg",
+      "naive_00048_num001152.jpg"
+    ],
+    "original_frame_number": [
+      1008,
+      1056,
+      1104,
+      1152
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Scripte",
+    "name": "Colette PITTIER",
+    "role_group": "Script and Continuity Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Script and Continuity Department",
+    "source_frame": [
+      "naive_00044_num001056.jpg",
+      "naive_00046_num001104.jpg",
+      "naive_00048_num001152.jpg",
+      "naive_00050_num001200.jpg"
+    ],
+    "original_frame_number": [
+      1056,
+      1104,
+      1152,
+      1200
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Cadreur",
+    "name": "Michel SIEBENMANN",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00045_num001080.jpg",
+      "naive_00047_num001128.jpg",
+      "naive_00049_num001176.jpg",
+      "naive_00051_num001224.jpg"
+    ],
+    "original_frame_number": [
+      1080,
+      1128,
+      1176,
+      1224
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Accessoiriste recherche",
+    "name": "Sylvie GOY",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "naive_00046_num001104.jpg",
+      "naive_00048_num001152.jpg",
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg"
+    ],
+    "original_frame_number": [
+      1104,
+      1152,
+      1200,
+      1248
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Accessoiriste Plateau",
+    "name": "Valérie EVANS ZAHND",
+    "role_group": "Property Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Property Department",
+    "source_frame": [
+      "naive_00047_num001128.jpg",
+      "naive_00049_num001176.jpg",
+      "naive_00051_num001224.jpg",
+      "naive_00053_num001272.jpg"
+    ],
+    "original_frame_number": [
+      1128,
+      1176,
+      1224,
+      1272
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Perchiste",
+    "name": "Michel CASANG",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00048_num001152.jpg",
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg",
+      "naive_00054_num001296.jpg"
+    ],
+    "original_frame_number": [
+      1152,
+      1200,
+      1248,
+      1296
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Assistant cadreur",
+    "name": "Michel ISRAELIAN",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00049_num001176.jpg",
+      "naive_00051_num001224.jpg",
+      "naive_00053_num001272.jpg",
+      "naive_00055_num001320.jpg",
+      "naive_00057_num001368.jpg"
+    ],
+    "original_frame_number": [
+      1176,
+      1224,
+      1272,
+      1320,
+      1368
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Anne DELUZ",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "naive_00050_num001200.jpg"
+    ],
+    "original_frame_number": [
+      1200
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Costumière",
+    "name": "Mireille CHAUVEL",
+    "role_group": "Costume Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume Designers",
+    "source_frame": [
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg",
+      "naive_00054_num001296.jpg",
+      "naive_00056_num001344.jpg",
+      "naive_00058_num001392.jpg"
+    ],
+    "original_frame_number": [
+      1200,
+      1248,
+      1296,
+      1344,
+      1392
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Maquilleuse",
+    "name": "Laurence RIEUX",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "naive_00051_num001224.jpg",
+      "naive_00053_num001272.jpg",
+      "naive_00055_num001320.jpg",
+      "naive_00057_num001368.jpg",
+      "naive_00059_num001416.jpg"
+    ],
+    "original_frame_number": [
+      1224,
+      1272,
+      1320,
+      1368,
+      1416
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Coiffeuse",
+    "name": "Catherine RIOTTON",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "naive_00053_num001272.jpg",
+      "naive_00055_num001320.jpg",
+      "naive_00057_num001368.jpg",
+      "naive_00059_num001416.jpg"
+    ],
+    "original_frame_number": [
+      1272,
+      1320,
+      1368,
+      1416
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Habilleuse",
+    "name": "Geneviève MAULINI",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "naive_00054_num001296.jpg",
+      "naive_00057_num001368.jpg",
+      "naive_00059_num001416.jpg",
+      "naive_00061_num001464.jpg"
+    ],
+    "original_frame_number": [
+      1296,
+      1368,
+      1416,
+      1464
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Chef Electricien",
+    "name": "Benoît COLLIARD",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00055_num001320.jpg",
+      "naive_00057_num001368.jpg",
+      "naive_00059_num001416.jpg",
+      "naive_00061_num001464.jpg"
+    ],
+    "original_frame_number": [
+      1320,
+      1368,
+      1416,
+      1464
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Perchiste",
+    "name": "Michel CASANO",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00056_num001344.jpg"
+    ],
+    "original_frame_number": [
+      1344
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Habilleuse",
+    "name": "Geneviève MALUNI",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "naive_00056_num001344.jpg"
+    ],
+    "original_frame_number": [
+      1344
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Electriciens",
+    "name": "Ramon DOUTAZ",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00056_num001344.jpg",
+      "naive_00058_num001392.jpg",
+      "naive_00060_num001440.jpg",
+      "naive_00062_num001488.jpg"
+    ],
+    "original_frame_number": [
+      1344,
+      1392,
+      1440,
+      1488
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Electriciens",
+    "name": "FERNAND TAUXE",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00056_num001344.jpg",
+      "naive_00058_num001392.jpg",
+      "naive_00060_num001440.jpg",
+      "naive_00062_num001488.jpg",
+      "naive_00064_num001536.jpg"
+    ],
+    "original_frame_number": [
+      1344,
+      1392,
+      1440,
+      1488,
+      1536
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Electriciens",
+    "name": "Denis GUEX",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00057_num001368.jpg",
+      "naive_00059_num001416.jpg",
+      "naive_00061_num001464.jpg",
+      "naive_00063_num001512.jpg"
+    ],
+    "original_frame_number": [
+      1368,
+      1416,
+      1464,
+      1512
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Electriciens",
+    "name": "Alain CHEVAILLAZ",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00058_num001392.jpg",
+      "naive_00060_num001440.jpg",
+      "naive_00062_num001488.jpg"
+    ],
+    "original_frame_number": [
+      1392,
+      1440,
+      1488
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Machinistes",
+    "name": "César KLEBER",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00059_num001416.jpg",
+      "naive_00061_num001464.jpg",
+      "naive_00063_num001512.jpg",
+      "naive_00065_num001560.jpg"
+    ],
+    "original_frame_number": [
+      1416,
+      1464,
+      1512,
+      1560
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Machinistes",
+    "name": "Joël FLAKS",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00059_num001416.jpg",
+      "naive_00061_num001464.jpg",
+      "naive_00063_num001512.jpg",
+      "naive_00065_num001560.jpg",
+      "naive_00067_num001608.jpg"
+    ],
+    "original_frame_number": [
+      1416,
+      1464,
+      1512,
+      1560,
+      1608
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Machinistes",
+    "name": "Mathieu MILHAUD",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00060_num001440.jpg",
+      "naive_00062_num001488.jpg",
+      "naive_00064_num001536.jpg",
+      "naive_00066_num001584.jpg"
+    ],
+    "original_frame_number": [
+      1440,
+      1488,
+      1536,
+      1584
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Machinistes",
+    "name": "Ramon FERNANDEZ",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00060_num001440.jpg",
+      "naive_00062_num001488.jpg",
+      "naive_00064_num001536.jpg",
+      "naive_00066_num001584.jpg",
+      "naive_00068_num001632.jpg"
+    ],
+    "original_frame_number": [
+      1440,
+      1488,
+      1536,
+      1584,
+      1632
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "2ème Assistant de réalisation",
+    "name": "Stéphane BRASEY",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "naive_00061_num001464.jpg",
+      "naive_00063_num001512.jpg",
+      "naive_00065_num001560.jpg",
+      "naive_00067_num001608.jpg",
+      "naive_00069_num001656.jpg"
+    ],
+    "original_frame_number": [
+      1464,
+      1512,
+      1560,
+      1608,
+      1656
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "3ème Assistant de réalisation",
+    "name": "Olivier PAUL",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "naive_00063_num001512.jpg",
+      "naive_00065_num001560.jpg",
+      "naive_00067_num001608.jpg",
+      "naive_00069_num001656.jpg"
+    ],
+    "original_frame_number": [
+      1512,
+      1560,
+      1608,
+      1656
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Electriciens",
+    "name": "Alain CHEVALLAZ",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00064_num001536.jpg"
+    ],
+    "original_frame_number": [
+      1536
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Régisseur général",
+    "name": "Francine LUSSER",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "naive_00064_num001536.jpg",
+      "naive_00068_num001632.jpg",
+      "naive_00070_num001680.jpg"
+    ],
+    "original_frame_number": [
+      1536,
+      1632,
+      1680
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Electriciens",
+    "name": "Denis SOZA",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00065_num001560.jpg"
+    ],
+    "original_frame_number": [
+      1560
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Régisseurs Paris",
+    "name": "Thierry MAUVOISIN",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "naive_00065_num001560.jpg",
+      "naive_00067_num001608.jpg",
+      "naive_00069_num001656.jpg",
+      "naive_00071_num001704.jpg"
+    ],
+    "original_frame_number": [
+      1560,
+      1608,
+      1656,
+      1704
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Régisseurs Paris",
+    "name": "Bruno BERNARD",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "naive_00065_num001560.jpg",
+      "naive_00067_num001608.jpg",
+      "naive_00069_num001656.jpg",
+      "naive_00071_num001704.jpg"
+    ],
+    "original_frame_number": [
+      1560,
+      1608,
+      1656,
+      1704
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Régisseur général",
+    "name": "Francine LUSSER",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "naive_00066_num001584.jpg"
+    ],
+    "original_frame_number": [
+      1584
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Secrétaires de production",
+    "name": "Nathalie CRUCHON",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "naive_00067_num001608.jpg",
+      "naive_00069_num001656.jpg",
+      "naive_00071_num001704.jpg",
+      "naive_00073_num001752.jpg"
+    ],
+    "original_frame_number": [
+      1608,
+      1656,
+      1704,
+      1752
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Secrétaires de production",
+    "name": "Agnès CHARRETON",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "naive_00067_num001608.jpg",
+      "naive_00071_num001704.jpg",
+      "naive_00073_num001752.jpg"
+    ],
+    "original_frame_number": [
+      1608,
+      1704,
+      1752
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Secrétaires de production",
+    "name": "Carolien van den BERG",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "naive_00068_num001632.jpg",
+      "naive_00070_num001680.jpg",
+      "naive_00072_num001728.jpg",
+      "naive_00074_num001776.jpg"
+    ],
+    "original_frame_number": [
+      1632,
+      1680,
+      1728,
+      1776
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Secrétaires de production",
+    "name": "Agnes CHARRETON",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "naive_00069_num001656.jpg",
+      "naive_00075_num001800.jpg"
+    ],
+    "original_frame_number": [
+      1656,
+      1800
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Chauffeur de production",
+    "name": "Marc MAEDER",
+    "role_group": "Transportation Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Transportation Department",
+    "source_frame": [
+      "naive_00069_num001656.jpg",
+      "naive_00071_num001704.jpg",
+      "naive_00073_num001752.jpg",
+      "naive_00075_num001800.jpg"
+    ],
+    "original_frame_number": [
+      1656,
+      1704,
+      1752,
+      1800
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Assistants au montage",
+    "name": "Frédéric BERNEY",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "naive_00070_num001680.jpg",
+      "naive_00072_num001728.jpg",
+      "naive_00074_num001776.jpg",
+      "naive_00076_num001824.jpg"
+    ],
+    "original_frame_number": [
+      1680,
+      1728,
+      1776,
+      1824
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Assistants au montage",
+    "name": "Khalarath BLOESCH SEK",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "naive_00071_num001704.jpg",
+      "naive_00073_num001752.jpg",
+      "naive_00075_num001800.jpg",
+      "naive_00077_num001848.jpg"
+    ],
+    "original_frame_number": [
+      1704,
+      1752,
+      1800,
+      1848
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Monteur son",
+    "name": "Claire MEURINE",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00072_num001728.jpg",
+      "naive_00074_num001776.jpg",
+      "naive_00076_num001824.jpg",
+      "naive_00078_num001872.jpg"
+    ],
+    "original_frame_number": [
+      1728,
+      1776,
+      1824,
+      1872
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Monteur son",
+    "name": "Dominique DELGUSTE",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00072_num001728.jpg",
+      "naive_00074_num001776.jpg",
+      "naive_00076_num001824.jpg",
+      "naive_00078_num001872.jpg"
+    ],
+    "original_frame_number": [
+      1728,
+      1776,
+      1824,
+      1872
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": null,
+    "name": "Bruno BERNARD",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "naive_00073_num001752.jpg"
+    ],
+    "original_frame_number": [
+      1752
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Mixeur",
+    "name": "Philippe SIMONET",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00073_num001752.jpg",
+      "naive_00075_num001800.jpg",
+      "naive_00077_num001848.jpg",
+      "naive_00079_num001896.jpg",
+      "naive_00081_num001944.jpg"
+    ],
+    "original_frame_number": [
+      1752,
+      1800,
+      1848,
+      1896,
+      1944
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Bruitage",
+    "name": "Marie Jeanne WYCKMANS",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00074_num001776.jpg",
+      "naive_00076_num001824.jpg",
+      "naive_00078_num001872.jpg",
+      "naive_00080_num001920.jpg",
+      "naive_00082_num001968.jpg"
+    ],
+    "original_frame_number": [
+      1776,
+      1824,
+      1872,
+      1920,
+      1968
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Etalonnage",
+    "name": "Jean-Pierre HECOUET",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "naive_00076_num001824.jpg",
+      "naive_00080_num001920.jpg",
+      "naive_00082_num001968.jpg"
+    ],
+    "original_frame_number": [
+      1824,
+      1920,
+      1968
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Générique",
+    "name": "Edmond LIECHTI",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "naive_00077_num001848.jpg",
+      "naive_00079_num001896.jpg",
+      "naive_00081_num001944.jpg",
+      "naive_00083_num001992.jpg"
+    ],
+    "original_frame_number": [
+      1848,
+      1896,
+      1944,
+      1992
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Etalonnage",
+    "name": "Jean-Pierre HECQUET",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "naive_00078_num001872.jpg"
+    ],
+    "original_frame_number": [
+      1872
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Trucages",
+    "name": "Hermann WETTER",
+    "role_group": "Visual Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Visual Effects",
+    "source_frame": [
+      "naive_00078_num001872.jpg",
+      "naive_00080_num001920.jpg",
+      "naive_00082_num001968.jpg"
+    ],
+    "original_frame_number": [
+      1872,
+      1920,
+      1968
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Administration",
+    "name": "Hoang Le VAN",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "naive_00079_num001896.jpg",
+      "naive_00081_num001944.jpg",
+      "naive_00083_num001992.jpg",
+      "naive_00085_num002040.jpg"
+    ],
+    "original_frame_number": [
+      1896,
+      1944,
+      1992,
+      2040
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Administration",
+    "name": "Valérie MEISSONNIER",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "naive_00079_num001896.jpg",
+      "naive_00081_num001944.jpg",
+      "naive_00083_num001992.jpg",
+      "naive_00085_num002040.jpg",
+      "naive_00087_num002088.jpg"
+    ],
+    "original_frame_number": [
+      1896,
+      1944,
+      1992,
+      2040,
+      2088
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Dominique DELGUSTE",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "naive_00080_num001920.jpg"
+    ],
+    "original_frame_number": [
+      1920
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Administration",
+    "name": "Eliane COUPRIE",
+    "role_group": "Production Finance and Accounting",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Finance and Accounting",
+    "source_frame": [
+      "naive_00080_num001920.jpg",
+      "naive_00082_num001968.jpg",
+      "naive_00084_num002016.jpg",
+      "naive_00086_num002064.jpg"
+    ],
+    "original_frame_number": [
+      1920,
+      1968,
+      2016,
+      2064
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "ographe de plateau",
+    "name": "Sipa Press",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00081_num001944.jpg",
+      "naive_00083_num001992.jpg",
+      "naive_00085_num002040.jpg",
+      "naive_00087_num002088.jpg",
+      "naive_00089_num002136.jpg"
+    ],
+    "original_frame_number": [
+      1944,
+      1992,
+      2040,
+      2088,
+      2136
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Véhicules d’époque",
+    "name": "Germain Location",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00082_num001968.jpg",
+      "naive_00084_num002016.jpg",
+      "naive_00086_num002064.jpg",
+      "naive_00088_num002112.jpg",
+      "naive_00090_num002160.jpg"
+    ],
+    "original_frame_number": [
+      1968,
+      2016,
+      2064,
+      2112,
+      2160
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Auditorium musique",
+    "name": "Studio MAUNOIR",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00083_num001992.jpg",
+      "naive_00085_num002040.jpg",
+      "naive_00087_num002088.jpg",
+      "naive_00091_num002184.jpg"
+    ],
+    "original_frame_number": [
+      1992,
+      2040,
+      2088,
+      2184
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Trucages",
+    "name": "Hermann WETTER",
+    "role_group": "Special Effects",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Special Effects",
+    "source_frame": [
+      "naive_00084_num002016.jpg"
+    ],
+    "original_frame_number": [
+      2016
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Laboratoire",
+    "name": "Laboratoire de Bry sur Marne",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00084_num002016.jpg",
+      "naive_00086_num002064.jpg",
+      "naive_00088_num002112.jpg",
+      "naive_00090_num002160.jpg",
+      "naive_00092_num002208.jpg"
+    ],
+    "original_frame_number": [
+      2016,
+      2064,
+      2112,
+      2160,
+      2208
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Post production numérique",
+    "name": "V.d.m",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00086_num002064.jpg",
+      "naive_00088_num002112.jpg",
+      "naive_00090_num002160.jpg",
+      "naive_00092_num002208.jpg"
+    ],
+    "original_frame_number": [
+      2064,
+      2112,
+      2160,
+      2208
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Montage audio numérique",
+    "name": "Digison",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00087_num002088.jpg",
+      "naive_00089_num002136.jpg",
+      "naive_00091_num002184.jpg",
+      "naive_00093_num002232.jpg"
+    ],
+    "original_frame_number": [
+      2088,
+      2136,
+      2184,
+      2232
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Auditorium",
+    "name": "Auditel",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00088_num002112.jpg",
+      "naive_00090_num002160.jpg",
+      "naive_00092_num002208.jpg",
+      "naive_00094_num002256.jpg"
+    ],
+    "original_frame_number": [
+      2112,
+      2160,
+      2208,
+      2256
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Auditorium",
+    "name": "Gerling",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00088_num002112.jpg",
+      "naive_00090_num002160.jpg",
+      "naive_00092_num002208.jpg",
+      "naive_00094_num002256.jpg",
+      "naive_00096_num002304.jpg"
+    ],
+    "original_frame_number": [
+      2112,
+      2160,
+      2208,
+      2256,
+      2304
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Auditorium musique",
+    "name": "Studio MAJINOIR",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00089_num002136.jpg"
+    ],
+    "original_frame_number": [
+      2136
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Assurances",
+    "name": "Media Assurance France",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00089_num002136.jpg",
+      "naive_00091_num002184.jpg",
+      "naive_00093_num002232.jpg",
+      "naive_00095_num002280.jpg",
+      "naive_00097_num002328.jpg"
+    ],
+    "original_frame_number": [
+      2136,
+      2184,
+      2232,
+      2280,
+      2328
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Musique générique",
+    "name": "Laurent PETITGIRARD",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "naive_00091_num002184.jpg",
+      "naive_00093_num002232.jpg",
+      "naive_00095_num002280.jpg",
+      "naive_00097_num002328.jpg"
+    ],
+    "original_frame_number": [
+      2184,
+      2232,
+      2280,
+      2328
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Interprétée par",
+    "name": "L’orchestre Symphonique Français",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00092_num002208.jpg",
+      "naive_00094_num002256.jpg",
+      "naive_00096_num002304.jpg",
+      "naive_00098_num002352.jpg"
+    ],
+    "original_frame_number": [
+      2208,
+      2256,
+      2304,
+      2352
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Edition",
+    "name": "O.S.F. Euterpe/Jereronimo",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00093_num002232.jpg",
+      "naive_00099_num002376.jpg"
+    ],
+    "original_frame_number": [
+      2232,
+      2376
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Relations publiques",
+    "name": "Alain Hardel",
+    "role_group": "Publicity",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Publicity",
+    "source_frame": [
+      "naive_00094_num002256.jpg",
+      "naive_00096_num002304.jpg",
+      "naive_00098_num002352.jpg",
+      "naive_00100_num002400.jpg",
+      "naive_00102_num002448.jpg"
+    ],
+    "original_frame_number": [
+      2256,
+      2304,
+      2352,
+      2400,
+      2448
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Interprétée par",
+    "name": "Edition O.S.F. Euterpe/Jereronimo",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00095_num002280.jpg",
+      "naive_00097_num002328.jpg"
+    ],
+    "original_frame_number": [
+      2280,
+      2328
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Direction littéraire T.S.R.",
+    "name": "Ariane HEYRAUD",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00097_num002328.jpg",
+      "naive_00099_num002376.jpg"
+    ],
+    "original_frame_number": [
+      2328,
+      2376
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Producteur exécutif de la collection",
+    "name": "Daniel DESCHAMPS",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00099_num002376.jpg",
+      "naive_00101_num002424.jpg",
+      "naive_00103_num002472.jpg",
+      "naive_00105_num002520.jpg"
+    ],
+    "original_frame_number": [
+      2376,
+      2424,
+      2472,
+      2520
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Jereronimo",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00101_num002424.jpg"
+    ],
+    "original_frame_number": [
+      2424
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Direction littéraire T.S.R.",
+    "name": "Ariane HEYRAUD",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00101_num002424.jpg",
+      "naive_00103_num002472.jpg"
+    ],
+    "original_frame_number": [
+      2424,
+      2472
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Producteurs",
+    "name": "Eve VERCEL",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00101_num002424.jpg",
+      "naive_00103_num002472.jpg",
+      "naive_00105_num002520.jpg",
+      "naive_00107_num002568.jpg",
+      "naive_00109_num002616.jpg"
+    ],
+    "original_frame_number": [
+      2424,
+      2472,
+      2520,
+      2568,
+      2616
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Producteurs",
+    "name": "Robert NADOR",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00102_num002448.jpg",
+      "naive_00104_num002496.jpg",
+      "naive_00106_num002544.jpg",
+      "naive_00108_num002592.jpg"
+    ],
+    "original_frame_number": [
+      2448,
+      2496,
+      2544,
+      2592
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Producteurs",
+    "name": "Steve HAWES",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00103_num002472.jpg",
+      "naive_00105_num002520.jpg",
+      "naive_00107_num002568.jpg",
+      "naive_00109_num002616.jpg"
+    ],
+    "original_frame_number": [
+      2472,
+      2520,
+      2568,
+      2616
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Réalisation",
+    "name": "Claude GORETTA",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "naive_00105_num002520.jpg",
+      "naive_00107_num002568.jpg",
+      "naive_00109_num002616.jpg",
+      "naive_00111_num002664.jpg"
+    ],
+    "original_frame_number": [
+      2520,
+      2568,
+      2616,
+      2664
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Une production",
+    "name": "LA TELEVISION SUISSE ROMANDE",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00107_num002568.jpg",
+      "naive_00109_num002616.jpg",
+      "naive_00111_num002664.jpg",
+      "naive_00113_num002712.jpg",
+      "naive_00115_num002760.jpg"
+    ],
+    "original_frame_number": [
+      2568,
+      2616,
+      2664,
+      2712,
+      2760
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Une production",
+    "name": "DUNE",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00108_num002592.jpg",
+      "naive_00110_num002640.jpg",
+      "naive_00112_num002688.jpg",
+      "naive_00114_num002736.jpg"
+    ],
+    "original_frame_number": [
+      2592,
+      2640,
+      2688,
+      2736
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Une production",
+    "name": "E.C. Télévision Paris",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00108_num002592.jpg",
+      "naive_00110_num002640.jpg",
+      "naive_00112_num002688.jpg",
+      "naive_00114_num002736.jpg",
+      "naive_00116_num002784.jpg"
+    ],
+    "original_frame_number": [
+      2592,
+      2640,
+      2688,
+      2736,
+      2784
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Une production",
+    "name": "FRANCE 2",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00110_num002640.jpg",
+      "naive_00112_num002688.jpg",
+      "naive_00114_num002736.jpg",
+      "naive_00116_num002784.jpg",
+      "naive_00118_num002832.jpg"
+    ],
+    "original_frame_number": [
+      2640,
+      2688,
+      2736,
+      2784,
+      2832
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "en co-production avec",
+    "name": "LA RTBF",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00112_num002688.jpg"
+    ],
+    "original_frame_number": [
+      2688
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "en co-production avec",
+    "name": "LA RTBF Télévision Belge",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00114_num002736.jpg",
+      "naive_00116_num002784.jpg",
+      "naive_00118_num002832.jpg",
+      "naive_00120_num002880.jpg"
+    ],
+    "original_frame_number": [
+      2736,
+      2784,
+      2832,
+      2880
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "avec la participation du",
+    "name": "Centre National de la Cinématographie",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00115_num002760.jpg",
+      "naive_00117_num002808.jpg",
+      "naive_00123_num002952.jpg"
+    ],
+    "original_frame_number": [
+      2760,
+      2808,
+      2952
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "avec la participation du",
+    "name": "Centre National de la Cinématographie",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00119_num002856.jpg",
+      "naive_00121_num002904.jpg"
+    ],
+    "original_frame_number": [
+      2856,
+      2904
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T22:40:15.666469+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  }
+]

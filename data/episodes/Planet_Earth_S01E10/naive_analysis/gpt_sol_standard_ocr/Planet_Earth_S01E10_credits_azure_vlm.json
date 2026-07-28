@@ -1,0 +1,2012 @@
+[
+  {
+    "role_detail": "Producer",
+    "name": "Mark Winfield",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00005_num000120.jpg"
+    ],
+    "original_frame_number": [
+      120
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Producer",
+    "name": "Mark Linfield",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00006_num000144.jpg",
+      "naive_00008_num000192.jpg",
+      "naive_00010_num000240.jpg",
+      "naive_00012_num000288.jpg"
+    ],
+    "original_frame_number": [
+      144,
+      192,
+      240,
+      288
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Barrie Britton",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00011_num000264.jpg",
+      "naive_00013_num000312.jpg"
+    ],
+    "original_frame_number": [
+      264,
+      312
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Richard Burton",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00011_num000264.jpg",
+      "naive_00013_num000312.jpg",
+      "naive_00015_num000360.jpg"
+    ],
+    "original_frame_number": [
+      264,
+      312,
+      360
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Rod Clarke",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00011_num000264.jpg",
+      "naive_00013_num000312.jpg",
+      "naive_00015_num000360.jpg"
+    ],
+    "original_frame_number": [
+      264,
+      312,
+      360
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Martyn Colbeck",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00012_num000288.jpg",
+      "naive_00014_num000336.jpg"
+    ],
+    "original_frame_number": [
+      288,
+      336
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Steve Downer",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00012_num000288.jpg",
+      "naive_00014_num000336.jpg",
+      "naive_00016_num000384.jpg"
+    ],
+    "original_frame_number": [
+      288,
+      336,
+      384
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Jeff Hogan",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00012_num000288.jpg",
+      "naive_00014_num000336.jpg",
+      "naive_00016_num000384.jpg"
+    ],
+    "original_frame_number": [
+      288,
+      336,
+      384
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Michael Kelem",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00013_num000312.jpg",
+      "naive_00015_num000360.jpg"
+    ],
+    "original_frame_number": [
+      312,
+      360
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Justin Maguire",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00013_num000312.jpg",
+      "naive_00015_num000360.jpg"
+    ],
+    "original_frame_number": [
+      312,
+      360
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Michael Male",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00013_num000312.jpg",
+      "naive_00015_num000360.jpg",
+      "naive_00017_num000408.jpg"
+    ],
+    "original_frame_number": [
+      312,
+      360,
+      408
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Photography",
+    "name": "David McKay",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00013_num000312.jpg",
+      "naive_00015_num000360.jpg",
+      "naive_00017_num000408.jpg"
+    ],
+    "original_frame_number": [
+      312,
+      360,
+      408
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Andrew Shillabeer",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00014_num000336.jpg",
+      "naive_00016_num000384.jpg"
+    ],
+    "original_frame_number": [
+      336,
+      384
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Tim Shepherd",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00014_num000336.jpg",
+      "naive_00016_num000384.jpg"
+    ],
+    "original_frame_number": [
+      336,
+      384
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Photography",
+    "name": "Warwick Sloss",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00014_num000336.jpg",
+      "naive_00016_num000384.jpg",
+      "naive_00018_num000432.jpg"
+    ],
+    "original_frame_number": [
+      336,
+      384,
+      432
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Photography",
+    "name": "John Waters",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00015_num000360.jpg",
+      "naive_00017_num000408.jpg"
+    ],
+    "original_frame_number": [
+      360,
+      408
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Editor",
+    "name": "Jill Garrett",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "naive_00016_num000384.jpg",
+      "naive_00018_num000432.jpg"
+    ],
+    "original_frame_number": [
+      384,
+      432
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Online Editor",
+    "name": "Chas Francis",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "naive_00017_num000408.jpg",
+      "naive_00019_num000456.jpg"
+    ],
+    "original_frame_number": [
+      408,
+      456
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Sound Editor",
+    "name": "Tim Owens",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00018_num000432.jpg",
+      "naive_00020_num000480.jpg"
+    ],
+    "original_frame_number": [
+      432,
+      480
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Dubbing Mixer",
+    "name": "Andrew Wilson",
+    "role_group": "Dubbing_Sound",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing_Sound",
+    "source_frame": [
+      "naive_00020_num000480.jpg",
+      "naive_00022_num000528.jpg"
+    ],
+    "original_frame_number": [
+      480,
+      528
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Giles Francis",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "naive_00021_num000504.jpg"
+    ],
+    "original_frame_number": [
+      504
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Colourist",
+    "name": "Luke Rainey",
+    "role_group": "Color Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Color Department",
+    "source_frame": [
+      "naive_00021_num000504.jpg",
+      "naive_00023_num000552.jpg"
+    ],
+    "original_frame_number": [
+      504,
+      552
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Tim Owens",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "naive_00022_num000528.jpg"
+    ],
+    "original_frame_number": [
+      528
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Graphic Design",
+    "name": "Burrell Durrant Hifle",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00022_num000528.jpg",
+      "naive_00024_num000576.jpg"
+    ],
+    "original_frame_number": [
+      528,
+      576
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Music Composed by",
+    "name": "George Fenton",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "naive_00023_num000552.jpg",
+      "naive_00025_num000600.jpg",
+      "naive_00027_num000648.jpg"
+    ],
+    "original_frame_number": [
+      552,
+      600,
+      648
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Music Performed by",
+    "name": "BBC Concert Orchestra",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00024_num000576.jpg",
+      "naive_00026_num000624.jpg",
+      "naive_00028_num000672.jpg"
+    ],
+    "original_frame_number": [
+      576,
+      624,
+      672
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Assistant Producer",
+    "name": "Penny Allen",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00026_num000624.jpg",
+      "naive_00028_num000672.jpg"
+    ],
+    "original_frame_number": [
+      624,
+      672
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Researchers",
+    "name": "Tom Clarke",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00027_num000648.jpg",
+      "naive_00029_num000696.jpg"
+    ],
+    "original_frame_number": [
+      648,
+      696
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Researchers",
+    "name": "Conrad Maufe",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00027_num000648.jpg",
+      "naive_00029_num000696.jpg",
+      "naive_00031_num000744.jpg"
+    ],
+    "original_frame_number": [
+      648,
+      696,
+      744
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Researchers",
+    "name": "Emma Peace",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00028_num000672.jpg",
+      "naive_00030_num000720.jpg"
+    ],
+    "original_frame_number": [
+      672,
+      720
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Field Assistants",
+    "name": "Roland Hilgartner",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00029_num000696.jpg",
+      "naive_00031_num000744.jpg"
+    ],
+    "original_frame_number": [
+      696,
+      744
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Field Assistants",
+    "name": "John Pike",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00029_num000696.jpg",
+      "naive_00031_num000744.jpg"
+    ],
+    "original_frame_number": [
+      696,
+      744
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Field Assistants",
+    "name": "Emilio White",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00029_num000696.jpg",
+      "naive_00031_num000744.jpg",
+      "naive_00033_num000792.jpg"
+    ],
+    "original_frame_number": [
+      696,
+      744,
+      792
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Field Assistants",
+    "name": "Jeff Wilson",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00030_num000720.jpg"
+    ],
+    "original_frame_number": [
+      720
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Production Co-ordinators",
+    "name": "Susan Aartse-Tuyn",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "naive_00031_num000744.jpg",
+      "naive_00033_num000792.jpg"
+    ],
+    "original_frame_number": [
+      744,
+      792
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Production Co-ordinators",
+    "name": "Amanda Hutchinson",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "naive_00031_num000744.jpg",
+      "naive_00033_num000792.jpg"
+    ],
+    "original_frame_number": [
+      744,
+      792
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Production Co-ordinators",
+    "name": "Sue Storey",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "naive_00031_num000744.jpg",
+      "naive_00033_num000792.jpg"
+    ],
+    "original_frame_number": [
+      744,
+      792
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Field Assistants",
+    "name": "Jeff Willson",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00032_num000768.jpg"
+    ],
+    "original_frame_number": [
+      768
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Production Team Assistant",
+    "name": "Samantha Davis",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "naive_00033_num000792.jpg",
+      "naive_00035_num000840.jpg"
+    ],
+    "original_frame_number": [
+      792,
+      840
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Production Manager",
+    "name": "Mandy Knight",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "naive_00034_num000816.jpg",
+      "naive_00036_num000864.jpg"
+    ],
+    "original_frame_number": [
+      816,
+      864
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Amanda Hutchinson",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "naive_00035_num000840.jpg"
+    ],
+    "original_frame_number": [
+      840
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": null,
+    "name": "Sue Storey",
+    "role_group": "Unknown",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Unknown",
+    "source_frame": [
+      "naive_00035_num000840.jpg"
+    ],
+    "original_frame_number": [
+      840
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Cameraman",
+    "name": "Matt Norman",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00035_num000840.jpg",
+      "naive_00037_num000888.jpg",
+      "naive_00039_num000936.jpg"
+    ],
+    "original_frame_number": [
+      840,
+      888,
+      936
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Editor",
+    "name": "Andrew Chastney",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "naive_00036_num000864.jpg",
+      "naive_00038_num000912.jpg"
+    ],
+    "original_frame_number": [
+      864,
+      912
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Rob McCall",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00037_num000888.jpg",
+      "naive_00039_num000936.jpg",
+      "naive_00041_num000984.jpg"
+    ],
+    "original_frame_number": [
+      888,
+      936,
+      984
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Zygmunt Gizejewski",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00038_num000912.jpg",
+      "naive_00040_num000960.jpg"
+    ],
+    "original_frame_number": [
+      912,
+      960
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Dany Cleyet-Marrel",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00038_num000912.jpg",
+      "naive_00040_num000960.jpg"
+    ],
+    "original_frame_number": [
+      912,
+      960
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Office National des Forêts",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00038_num000912.jpg",
+      "naive_00040_num000960.jpg",
+      "naive_00042_num001008.jpg"
+    ],
+    "original_frame_number": [
+      912,
+      960,
+      1008
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Peter Rosen",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00038_num000912.jpg"
+    ],
+    "original_frame_number": [
+      912
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "MICET-Madagascar",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00039_num000936.jpg",
+      "naive_00041_num000984.jpg"
+    ],
+    "original_frame_number": [
+      936,
+      984
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "CFPF-Madagascar",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00039_num000936.jpg",
+      "naive_00041_num000984.jpg"
+    ],
+    "original_frame_number": [
+      936,
+      984
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Conservatoire Vivant d’Analabe",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00039_num000936.jpg"
+    ],
+    "original_frame_number": [
+      936
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Deutschen Primatenzentrums (DPZ)",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00039_num000936.jpg",
+      "naive_00041_num000984.jpg",
+      "naive_00043_num001032.jpg"
+    ],
+    "original_frame_number": [
+      936,
+      984,
+      1032
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Cameraman",
+    "name": "Andrew Chastney",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00040_num000960.jpg"
+    ],
+    "original_frame_number": [
+      960
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Peter Rosén",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00040_num000960.jpg",
+      "naive_00042_num001008.jpg"
+    ],
+    "original_frame_number": [
+      960,
+      1008
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Saharah Moon Chapotin",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00040_num000960.jpg",
+      "naive_00042_num001008.jpg"
+    ],
+    "original_frame_number": [
+      960,
+      1008
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Peter Kappeler",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00040_num000960.jpg",
+      "naive_00042_num001008.jpg"
+    ],
+    "original_frame_number": [
+      960,
+      1008
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Kirindy Forest Reserve",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00040_num000960.jpg",
+      "naive_00042_num001008.jpg"
+    ],
+    "original_frame_number": [
+      960,
+      1008
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Bialowieża National Park",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00040_num000960.jpg"
+    ],
+    "original_frame_number": [
+      960
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Conservatoire Vivant d'Analabe",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00041_num000984.jpg"
+    ],
+    "original_frame_number": [
+      984
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Dan Eatherley",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00041_num000984.jpg",
+      "naive_00044_num001056.jpg"
+    ],
+    "original_frame_number": [
+      984,
+      1056
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Brian Stone",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00041_num000984.jpg",
+      "naive_00043_num001032.jpg"
+    ],
+    "original_frame_number": [
+      984,
+      1032
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Jari Peltomaki",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00041_num000984.jpg",
+      "naive_00043_num001032.jpg"
+    ],
+    "original_frame_number": [
+      984,
+      1032
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Craig Benkman",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00041_num000984.jpg",
+      "naive_00043_num001032.jpg"
+    ],
+    "original_frame_number": [
+      984,
+      1032
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Steve Sillett",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00041_num000984.jpg",
+      "naive_00043_num001032.jpg",
+      "naive_00045_num001080.jpg"
+    ],
+    "original_frame_number": [
+      984,
+      1032,
+      1080
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Bialowieza National Park",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00042_num001008.jpg",
+      "naive_00044_num001056.jpg"
+    ],
+    "original_frame_number": [
+      1008,
+      1056
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Jim Spickler",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00042_num001008.jpg",
+      "naive_00044_num001056.jpg"
+    ],
+    "original_frame_number": [
+      1008,
+      1056
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Tim Fogg",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00042_num001008.jpg",
+      "naive_00044_num001056.jpg"
+    ],
+    "original_frame_number": [
+      1008,
+      1056
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Nigel Dunstone",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00042_num001008.jpg",
+      "naive_00044_num001056.jpg",
+      "naive_00046_num001104.jpg"
+    ],
+    "original_frame_number": [
+      1008,
+      1056,
+      1104
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Fernando Vidal",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00042_num001008.jpg",
+      "naive_00044_num001056.jpg",
+      "naive_00046_num001104.jpg"
+    ],
+    "original_frame_number": [
+      1008,
+      1056,
+      1104
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Dan Fatherley",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00043_num001032.jpg"
+    ],
+    "original_frame_number": [
+      1032
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Helena Bylund",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00043_num001032.jpg",
+      "naive_00045_num001080.jpg"
+    ],
+    "original_frame_number": [
+      1032,
+      1080
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Redwood National & State Parks",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00043_num001032.jpg",
+      "naive_00045_num001080.jpg"
+    ],
+    "original_frame_number": [
+      1032,
+      1080
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Anatoly Petrov",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00043_num001032.jpg",
+      "naive_00045_num001080.jpg"
+    ],
+    "original_frame_number": [
+      1032,
+      1080
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Dan Hartman",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00043_num001032.jpg",
+      "naive_00045_num001080.jpg",
+      "naive_00047_num001128.jpg"
+    ],
+    "original_frame_number": [
+      1032,
+      1080,
+      1128
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Chief Wildlife Warden, Madhya Pradesh",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00044_num001056.jpg",
+      "naive_00046_num001104.jpg"
+    ],
+    "original_frame_number": [
+      1056,
+      1104
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Ken Robertson",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00044_num001056.jpg",
+      "naive_00046_num001104.jpg"
+    ],
+    "original_frame_number": [
+      1056,
+      1104
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Keith Clay",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00044_num001056.jpg",
+      "naive_00046_num001104.jpg"
+    ],
+    "original_frame_number": [
+      1056,
+      1104
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "QuickBird©DigitalGlobe/Eurimage",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00044_num001056.jpg",
+      "naive_00046_num001104.jpg"
+    ],
+    "original_frame_number": [
+      1056,
+      1104
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "The BBC wishes to thank",
+    "name": "Craig Bankman",
+    "role_group": "Thanks",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Thanks",
+    "source_frame": [
+      "naive_00045_num001080.jpg"
+    ],
+    "original_frame_number": [
+      1080
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Co-Production",
+    "name": "BBC",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00045_num001080.jpg",
+      "naive_00047_num001128.jpg"
+    ],
+    "original_frame_number": [
+      1080,
+      1128
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Co-Production",
+    "name": "Discovery Channel",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00045_num001080.jpg",
+      "naive_00047_num001128.jpg"
+    ],
+    "original_frame_number": [
+      1080,
+      1128
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Co-Production",
+    "name": "NHK",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00045_num001080.jpg",
+      "naive_00047_num001128.jpg"
+    ],
+    "original_frame_number": [
+      1080,
+      1128
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "QuickBird",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00048_num001152.jpg"
+    ],
+    "original_frame_number": [
+      1152
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "QuickBird ©",
+    "name": "DigitalGlobe",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00048_num001152.jpg"
+    ],
+    "original_frame_number": [
+      1152
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "QuickBird ©",
+    "name": "Eurimage",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00048_num001152.jpg"
+    ],
+    "original_frame_number": [
+      1152
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Series Producer",
+    "name": "Alastair Fothergill",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg",
+      "naive_00054_num001296.jpg",
+      "naive_00056_num001344.jpg",
+      "naive_00058_num001392.jpg",
+      "naive_00060_num001440.jpg"
+    ],
+    "original_frame_number": [
+      1200,
+      1248,
+      1296,
+      1344,
+      1392,
+      1440
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "BBC Bristol",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg",
+      "naive_00054_num001296.jpg",
+      "naive_00056_num001344.jpg",
+      "naive_00060_num001440.jpg"
+    ],
+    "original_frame_number": [
+      1200,
+      1248,
+      1296,
+      1344,
+      1440
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "© MMVI",
+    "name": "BBC",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00056_num001344.jpg"
+    ],
+    "original_frame_number": [
+      1344
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": null,
+    "name": "BBC Bristol",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00058_num001392.jpg"
+    ],
+    "original_frame_number": [
+      1392
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T23:53:53.690077+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  }
+]

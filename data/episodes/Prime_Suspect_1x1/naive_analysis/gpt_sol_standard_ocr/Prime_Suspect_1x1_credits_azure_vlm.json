@@ -1,0 +1,2702 @@
+[
+  {
+    "role_detail": null,
+    "name": "Helen Mirren",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00004_num000076.jpg",
+      "naive_00006_num000114.jpg",
+      "naive_00008_num000152.jpg",
+      "naive_00010_num000190.jpg",
+      "naive_00112_num002128.jpg",
+      "naive_00114_num002166.jpg",
+      "naive_00116_num002204.jpg",
+      "naive_00118_num002242.jpg",
+      "naive_00120_num002280.jpg",
+      "naive_00122_num002318.jpg"
+    ],
+    "original_frame_number": [
+      76,
+      114,
+      152,
+      190,
+      2128,
+      2166,
+      2204,
+      2242,
+      2280,
+      2318
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Tom Bell",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00042_num000798.jpg",
+      "naive_00044_num000836.jpg",
+      "naive_00046_num000874.jpg",
+      "naive_00048_num000912.jpg",
+      "naive_00113_num002147.jpg",
+      "naive_00115_num002185.jpg",
+      "naive_00117_num002223.jpg",
+      "naive_00119_num002261.jpg",
+      "naive_00121_num002299.jpg",
+      "naive_00123_num002337.jpg"
+    ],
+    "original_frame_number": [
+      798,
+      836,
+      874,
+      912,
+      2147,
+      2185,
+      2223,
+      2261,
+      2299,
+      2337
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "John Benfield",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00042_num000798.jpg",
+      "naive_00044_num000836.jpg",
+      "naive_00046_num000874.jpg",
+      "naive_00048_num000912.jpg",
+      "naive_00114_num002166.jpg",
+      "naive_00116_num002204.jpg",
+      "naive_00118_num002242.jpg",
+      "naive_00120_num002280.jpg",
+      "naive_00122_num002318.jpg",
+      "naive_00124_num002356.jpg"
+    ],
+    "original_frame_number": [
+      798,
+      836,
+      874,
+      912,
+      2166,
+      2204,
+      2242,
+      2280,
+      2318,
+      2356
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "John Bowe",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00042_num000798.jpg",
+      "naive_00044_num000836.jpg",
+      "naive_00046_num000874.jpg",
+      "naive_00048_num000912.jpg",
+      "naive_00129_num002451.jpg",
+      "naive_00131_num002489.jpg",
+      "naive_00133_num002527.jpg",
+      "naive_00135_num002565.jpg",
+      "naive_00137_num002603.jpg"
+    ],
+    "original_frame_number": [
+      798,
+      836,
+      874,
+      912,
+      2451,
+      2489,
+      2527,
+      2565,
+      2603
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Bryan Pringle",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00058_num001102.jpg",
+      "naive_00060_num001140.jpg",
+      "naive_00062_num001178.jpg",
+      "naive_00064_num001216.jpg"
+    ],
+    "original_frame_number": [
+      1102,
+      1140,
+      1178,
+      1216
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Zoë Wanamaker",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00058_num001102.jpg",
+      "naive_00060_num001140.jpg",
+      "naive_00062_num001178.jpg",
+      "naive_00064_num001216.jpg",
+      "naive_00130_num002470.jpg",
+      "naive_00132_num002508.jpg",
+      "naive_00134_num002546.jpg",
+      "naive_00136_num002584.jpg",
+      "naive_00138_num002622.jpg"
+    ],
+    "original_frame_number": [
+      1102,
+      1140,
+      1178,
+      1216,
+      2470,
+      2508,
+      2546,
+      2584,
+      2622
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "Tom Wilkinson",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00058_num001102.jpg",
+      "naive_00060_num001140.jpg",
+      "naive_00062_num001178.jpg",
+      "naive_00064_num001216.jpg",
+      "naive_00133_num002527.jpg",
+      "naive_00135_num002565.jpg",
+      "naive_00137_num002603.jpg",
+      "naive_00139_num002641.jpg",
+      "naive_00141_num002679.jpg",
+      "naive_00143_num002717.jpg"
+    ],
+    "original_frame_number": [
+      1102,
+      1140,
+      1178,
+      1216,
+      2527,
+      2565,
+      2603,
+      2641,
+      2679,
+      2717
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Written by",
+    "name": "Lynda La Plante",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00082_num001558.jpg",
+      "naive_00084_num001596.jpg",
+      "naive_00086_num001634.jpg",
+      "naive_00088_num001672.jpg"
+    ],
+    "original_frame_number": [
+      1558,
+      1596,
+      1634,
+      1672
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Directed by",
+    "name": "Christopher Menaul",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "naive_00098_num001862.jpg",
+      "naive_00100_num001900.jpg",
+      "naive_00102_num001938.jpg",
+      "naive_00104_num001976.jpg"
+    ],
+    "original_frame_number": [
+      1862,
+      1900,
+      1938,
+      1976
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DS Terry Amson",
+    "name": "Gary Whelan",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00115_num002185.jpg",
+      "naive_00117_num002223.jpg",
+      "naive_00119_num002261.jpg",
+      "naive_00121_num002299.jpg",
+      "naive_00123_num002337.jpg",
+      "naive_00125_num002375.jpg"
+    ],
+    "original_frame_number": [
+      2185,
+      2223,
+      2261,
+      2299,
+      2337,
+      2375
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DI Tony Muddyman",
+    "name": "Jack Ellis",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00116_num002204.jpg",
+      "naive_00118_num002242.jpg",
+      "naive_00120_num002280.jpg",
+      "naive_00122_num002318.jpg",
+      "naive_00124_num002356.jpg",
+      "naive_00126_num002394.jpg"
+    ],
+    "original_frame_number": [
+      2204,
+      2242,
+      2280,
+      2318,
+      2356,
+      2394
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DI Frank Burkin",
+    "name": "Craig Fairbrass",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00117_num002223.jpg",
+      "naive_00119_num002261.jpg",
+      "naive_00121_num002299.jpg",
+      "naive_00123_num002337.jpg",
+      "naive_00125_num002375.jpg",
+      "naive_00127_num002413.jpg"
+    ],
+    "original_frame_number": [
+      2223,
+      2261,
+      2299,
+      2337,
+      2375,
+      2413
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "WPC Maureen Havers",
+    "name": "Mossie Smith",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00118_num002242.jpg",
+      "naive_00120_num002280.jpg",
+      "naive_00122_num002318.jpg",
+      "naive_00124_num002356.jpg",
+      "naive_00126_num002394.jpg",
+      "naive_00128_num002432.jpg"
+    ],
+    "original_frame_number": [
+      2242,
+      2280,
+      2318,
+      2356,
+      2394,
+      2432
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DC Jones",
+    "name": "Ian Fitzgibbon",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00119_num002261.jpg",
+      "naive_00121_num002299.jpg",
+      "naive_00123_num002337.jpg",
+      "naive_00125_num002375.jpg",
+      "naive_00127_num002413.jpg",
+      "naive_00129_num002451.jpg"
+    ],
+    "original_frame_number": [
+      2261,
+      2299,
+      2337,
+      2375,
+      2413,
+      2451
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DC Lillie",
+    "name": "Philip Wright",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00120_num002280.jpg",
+      "naive_00122_num002318.jpg",
+      "naive_00124_num002356.jpg",
+      "naive_00126_num002394.jpg",
+      "naive_00130_num002470.jpg"
+    ],
+    "original_frame_number": [
+      2280,
+      2318,
+      2356,
+      2394,
+      2470
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DC Rosper",
+    "name": "Andrew Tiernan",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00121_num002299.jpg",
+      "naive_00123_num002337.jpg",
+      "naive_00125_num002375.jpg",
+      "naive_00127_num002413.jpg",
+      "naive_00129_num002451.jpg",
+      "naive_00131_num002489.jpg"
+    ],
+    "original_frame_number": [
+      2299,
+      2337,
+      2375,
+      2413,
+      2451,
+      2489
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DC Haskons",
+    "name": "Richard Hawley",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00122_num002318.jpg",
+      "naive_00124_num002356.jpg",
+      "naive_00126_num002394.jpg",
+      "naive_00128_num002432.jpg",
+      "naive_00130_num002470.jpg",
+      "naive_00132_num002508.jpg"
+    ],
+    "original_frame_number": [
+      2318,
+      2356,
+      2394,
+      2432,
+      2470,
+      2508
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DC Oakhill",
+    "name": "Mark Spalding",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00123_num002337.jpg",
+      "naive_00125_num002375.jpg",
+      "naive_00127_num002413.jpg",
+      "naive_00129_num002451.jpg",
+      "naive_00131_num002489.jpg",
+      "naive_00133_num002527.jpg"
+    ],
+    "original_frame_number": [
+      2337,
+      2375,
+      2413,
+      2451,
+      2489,
+      2527
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DC Avison",
+    "name": "Tom Bowles",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00124_num002356.jpg",
+      "naive_00126_num002394.jpg",
+      "naive_00128_num002432.jpg",
+      "naive_00130_num002470.jpg",
+      "naive_00132_num002508.jpg",
+      "naive_00134_num002546.jpg"
+    ],
+    "original_frame_number": [
+      2356,
+      2394,
+      2432,
+      2470,
+      2508,
+      2546
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DC Caplan",
+    "name": "Seamus O’Neill",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00125_num002375.jpg",
+      "naive_00127_num002413.jpg",
+      "naive_00129_num002451.jpg",
+      "naive_00131_num002489.jpg",
+      "naive_00133_num002527.jpg"
+    ],
+    "original_frame_number": [
+      2375,
+      2413,
+      2451,
+      2489,
+      2527
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DI Caldicott",
+    "name": "Marcus Romer",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00126_num002394.jpg",
+      "naive_00128_num002432.jpg",
+      "naive_00130_num002470.jpg",
+      "naive_00132_num002508.jpg",
+      "naive_00134_num002546.jpg"
+    ],
+    "original_frame_number": [
+      2394,
+      2432,
+      2470,
+      2508,
+      2546
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DC Lillie",
+    "name": "Phillip Wright",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00128_num002432.jpg"
+    ],
+    "original_frame_number": [
+      2432
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Mrs Marlow",
+    "name": "Maxine Audley",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00130_num002470.jpg",
+      "naive_00132_num002508.jpg",
+      "naive_00134_num002546.jpg",
+      "naive_00136_num002584.jpg",
+      "naive_00138_num002622.jpg",
+      "naive_00140_num002660.jpg"
+    ],
+    "original_frame_number": [
+      2470,
+      2508,
+      2546,
+      2584,
+      2622,
+      2660
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Joey",
+    "name": "Jeremy Warder",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00134_num002546.jpg",
+      "naive_00136_num002584.jpg",
+      "naive_00138_num002622.jpg",
+      "naive_00140_num002660.jpg",
+      "naive_00142_num002698.jpg",
+      "naive_00144_num002736.jpg"
+    ],
+    "original_frame_number": [
+      2546,
+      2584,
+      2622,
+      2660,
+      2698,
+      2736
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Pam",
+    "name": "Jessica Turner",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00135_num002565.jpg",
+      "naive_00137_num002603.jpg",
+      "naive_00139_num002641.jpg",
+      "naive_00141_num002679.jpg",
+      "naive_00143_num002717.jpg",
+      "naive_00145_num002755.jpg"
+    ],
+    "original_frame_number": [
+      2565,
+      2603,
+      2641,
+      2679,
+      2717,
+      2755
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Sgt Tomlins",
+    "name": "Rod Arthur",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00138_num002622.jpg",
+      "naive_00140_num002660.jpg",
+      "naive_00142_num002698.jpg",
+      "naive_00144_num002736.jpg",
+      "naive_00146_num002774.jpg",
+      "naive_00148_num002812.jpg"
+    ],
+    "original_frame_number": [
+      2622,
+      2660,
+      2698,
+      2736,
+      2774,
+      2812
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Carol",
+    "name": "Rosy Clayton",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00139_num002641.jpg",
+      "naive_00141_num002679.jpg",
+      "naive_00143_num002717.jpg",
+      "naive_00145_num002755.jpg",
+      "naive_00147_num002793.jpg",
+      "naive_00149_num002831.jpg"
+    ],
+    "original_frame_number": [
+      2641,
+      2679,
+      2717,
+      2755,
+      2793,
+      2831
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Linda",
+    "name": "Susan Brown",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00140_num002660.jpg",
+      "naive_00142_num002698.jpg",
+      "naive_00144_num002736.jpg",
+      "naive_00146_num002774.jpg",
+      "naive_00148_num002812.jpg",
+      "naive_00150_num002850.jpg"
+    ],
+    "original_frame_number": [
+      2660,
+      2698,
+      2736,
+      2774,
+      2812,
+      2850
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Painter",
+    "name": "Phil Hearne",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00141_num002679.jpg",
+      "naive_00143_num002717.jpg",
+      "naive_00145_num002755.jpg",
+      "naive_00147_num002793.jpg",
+      "naive_00149_num002831.jpg"
+    ],
+    "original_frame_number": [
+      2679,
+      2717,
+      2755,
+      2793,
+      2831
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Arnold Upcher",
+    "name": "James Snell",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00144_num002736.jpg",
+      "naive_00146_num002774.jpg",
+      "naive_00148_num002812.jpg",
+      "naive_00150_num002850.jpg",
+      "naive_00152_num002888.jpg"
+    ],
+    "original_frame_number": [
+      2736,
+      2774,
+      2812,
+      2850,
+      2888
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Mr Shrapnel",
+    "name": "Julian Firth",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00145_num002755.jpg",
+      "naive_00147_num002793.jpg",
+      "naive_00149_num002831.jpg",
+      "naive_00151_num002869.jpg",
+      "naive_00153_num002907.jpg"
+    ],
+    "original_frame_number": [
+      2755,
+      2793,
+      2831,
+      2869,
+      2907
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Edward Harvey",
+    "name": "Doug Fisher",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00146_num002774.jpg",
+      "naive_00148_num002812.jpg",
+      "naive_00150_num002850.jpg",
+      "naive_00152_num002888.jpg",
+      "naive_00154_num002926.jpg"
+    ],
+    "original_frame_number": [
+      2774,
+      2812,
+      2850,
+      2888,
+      2926
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Reg McKinney",
+    "name": "Ian Hastings",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00149_num002831.jpg",
+      "naive_00151_num002869.jpg",
+      "naive_00153_num002907.jpg",
+      "naive_00155_num002945.jpg",
+      "naive_00157_num002983.jpg"
+    ],
+    "original_frame_number": [
+      2831,
+      2869,
+      2907,
+      2945,
+      2983
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Annette Frisby",
+    "name": "Moyra Ruskin",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00149_num002831.jpg",
+      "naive_00151_num002869.jpg",
+      "naive_00153_num002907.jpg",
+      "naive_00155_num002945.jpg",
+      "naive_00157_num002983.jpg",
+      "naive_00159_num003021.jpg"
+    ],
+    "original_frame_number": [
+      2831,
+      2869,
+      2907,
+      2945,
+      2983,
+      3021
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Biker",
+    "name": "Malcolm Freeman",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00150_num002850.jpg",
+      "naive_00152_num002888.jpg",
+      "naive_00154_num002926.jpg",
+      "naive_00156_num002964.jpg",
+      "naive_00158_num003002.jpg",
+      "naive_00160_num003040.jpg"
+    ],
+    "original_frame_number": [
+      2850,
+      2888,
+      2926,
+      2964,
+      3002,
+      3040
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Painter",
+    "name": "Phil Headley",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00151_num002869.jpg"
+    ],
+    "original_frame_number": [
+      2869
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Willy Chang",
+    "name": "Gareth Tudor Price",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00153_num002907.jpg",
+      "naive_00155_num002945.jpg",
+      "naive_00157_num002983.jpg",
+      "naive_00159_num003021.jpg",
+      "naive_00161_num003059.jpg",
+      "naive_00163_num003097.jpg"
+    ],
+    "original_frame_number": [
+      2907,
+      2945,
+      2983,
+      3021,
+      3059,
+      3097
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Arnold Spencer",
+    "name": "James Sheil",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00154_num002926.jpg"
+    ],
+    "original_frame_number": [
+      2926
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Tilly",
+    "name": "Andrew Abrahams",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00154_num002926.jpg",
+      "naive_00156_num002964.jpg",
+      "naive_00158_num003002.jpg",
+      "naive_00160_num003040.jpg",
+      "naive_00162_num003078.jpg",
+      "naive_00164_num003116.jpg"
+    ],
+    "original_frame_number": [
+      2926,
+      2964,
+      3002,
+      3040,
+      3078,
+      3116
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Helen Masters",
+    "name": "Angela Bruce",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00157_num002983.jpg",
+      "naive_00159_num003021.jpg",
+      "naive_00161_num003059.jpg",
+      "naive_00163_num003097.jpg",
+      "naive_00165_num003135.jpg",
+      "naive_00167_num003173.jpg"
+    ],
+    "original_frame_number": [
+      2983,
+      3021,
+      3059,
+      3097,
+      3135,
+      3173
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Mother",
+    "name": "Sarah Thurston",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00158_num003002.jpg",
+      "naive_00160_num003040.jpg",
+      "naive_00162_num003078.jpg",
+      "naive_00164_num003116.jpg",
+      "naive_00166_num003154.jpg",
+      "naive_00168_num003192.jpg"
+    ],
+    "original_frame_number": [
+      3002,
+      3040,
+      3078,
+      3116,
+      3154,
+      3192
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Reporter",
+    "name": "Jimmy Hibbert",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00159_num003021.jpg",
+      "naive_00161_num003059.jpg",
+      "naive_00163_num003097.jpg",
+      "naive_00165_num003135.jpg",
+      "naive_00167_num003173.jpg",
+      "naive_00169_num003211.jpg"
+    ],
+    "original_frame_number": [
+      3021,
+      3059,
+      3097,
+      3135,
+      3173,
+      3211
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Clerk of Court",
+    "name": "Renny Krupinkskii",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00162_num003078.jpg"
+    ],
+    "original_frame_number": [
+      3078
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Major Howard",
+    "name": "Michael Fleming",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00163_num003097.jpg",
+      "naive_00165_num003135.jpg",
+      "naive_00167_num003173.jpg",
+      "naive_00169_num003211.jpg",
+      "naive_00171_num003249.jpg",
+      "naive_00173_num003287.jpg"
+    ],
+    "original_frame_number": [
+      3097,
+      3135,
+      3173,
+      3211,
+      3249,
+      3287
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Clerk of Court",
+    "name": "Renny Krupinski",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00164_num003116.jpg"
+    ],
+    "original_frame_number": [
+      3116
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Mrs Howard",
+    "name": "Daphne Neville",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00164_num003116.jpg",
+      "naive_00166_num003154.jpg",
+      "naive_00168_num003192.jpg",
+      "naive_00170_num003230.jpg",
+      "naive_00172_num003268.jpg"
+    ],
+    "original_frame_number": [
+      3116,
+      3154,
+      3192,
+      3230,
+      3268
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Michael",
+    "name": "Ralph Fiennes",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00165_num003135.jpg",
+      "naive_00167_num003173.jpg",
+      "naive_00169_num003211.jpg",
+      "naive_00171_num003249.jpg",
+      "naive_00173_num003287.jpg"
+    ],
+    "original_frame_number": [
+      3135,
+      3173,
+      3211,
+      3249,
+      3287
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Clerk of Court",
+    "name": "Renny Krupinkski",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00166_num003154.jpg",
+      "naive_00168_num003192.jpg",
+      "naive_00170_num003230.jpg"
+    ],
+    "original_frame_number": [
+      3154,
+      3192,
+      3230
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Production Manager",
+    "name": "David Maddi",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "naive_00169_num003211.jpg"
+    ],
+    "original_frame_number": [
+      3211
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Production Manager",
+    "name": "David Meddick",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "naive_00170_num003230.jpg",
+      "naive_00172_num003268.jpg",
+      "naive_00174_num003306.jpg",
+      "naive_00176_num003344.jpg",
+      "naive_00178_num003382.jpg"
+    ],
+    "original_frame_number": [
+      3230,
+      3268,
+      3306,
+      3344,
+      3382
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Location Manager",
+    "name": "Lynne Marriott",
+    "role_group": "Location Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Location Managers",
+    "source_frame": [
+      "naive_00170_num003230.jpg",
+      "naive_00172_num003268.jpg",
+      "naive_00174_num003306.jpg",
+      "naive_00176_num003344.jpg",
+      "naive_00178_num003382.jpg",
+      "naive_00180_num003420.jpg"
+    ],
+    "original_frame_number": [
+      3230,
+      3268,
+      3306,
+      3344,
+      3382,
+      3420
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "PA",
+    "name": "Hilda Miller",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "naive_00171_num003249.jpg",
+      "naive_00173_num003287.jpg",
+      "naive_00175_num003325.jpg",
+      "naive_00177_num003363.jpg",
+      "naive_00179_num003401.jpg",
+      "naive_00181_num003439.jpg"
+    ],
+    "original_frame_number": [
+      3249,
+      3287,
+      3325,
+      3363,
+      3401,
+      3439
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Continuity",
+    "name": "Hilda Miller",
+    "role_group": "Script and Continuity Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Script and Continuity Department",
+    "source_frame": [
+      "naive_00171_num003249.jpg",
+      "naive_00173_num003287.jpg",
+      "naive_00175_num003325.jpg",
+      "naive_00177_num003363.jpg",
+      "naive_00179_num003401.jpg",
+      "naive_00181_num003439.jpg"
+    ],
+    "original_frame_number": [
+      3249,
+      3287,
+      3325,
+      3363,
+      3401,
+      3439
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Clerk of Court",
+    "name": "Kenny Klupinski",
+    "role_group": "Cast",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cast",
+    "source_frame": [
+      "naive_00172_num003268.jpg"
+    ],
+    "original_frame_number": [
+      3268
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "First Assistant",
+    "name": "David Weir",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "naive_00172_num003268.jpg",
+      "naive_00174_num003306.jpg",
+      "naive_00176_num003344.jpg",
+      "naive_00178_num003382.jpg",
+      "naive_00180_num003420.jpg"
+    ],
+    "original_frame_number": [
+      3268,
+      3306,
+      3344,
+      3382,
+      3420
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Second Assistant",
+    "name": "Tania Normand",
+    "role_group": "Second Unit Directors or Assistant Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Second Unit Directors or Assistant Directors",
+    "source_frame": [
+      "naive_00173_num003287.jpg",
+      "naive_00175_num003325.jpg",
+      "naive_00177_num003363.jpg",
+      "naive_00179_num003401.jpg",
+      "naive_00181_num003439.jpg"
+    ],
+    "original_frame_number": [
+      3287,
+      3325,
+      3363,
+      3401,
+      3439
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Co-ordinator",
+    "name": "Sue Whitley",
+    "role_group": "Production Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Department",
+    "source_frame": [
+      "naive_00174_num003306.jpg",
+      "naive_00176_num003344.jpg",
+      "naive_00178_num003382.jpg",
+      "naive_00180_num003420.jpg"
+    ],
+    "original_frame_number": [
+      3306,
+      3344,
+      3382,
+      3420
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Camera Operator",
+    "name": "Howard Somers",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00175_num003325.jpg",
+      "naive_00177_num003363.jpg",
+      "naive_00179_num003401.jpg",
+      "naive_00181_num003439.jpg",
+      "naive_00183_num003477.jpg",
+      "naive_00185_num003515.jpg"
+    ],
+    "original_frame_number": [
+      3325,
+      3363,
+      3401,
+      3439,
+      3477,
+      3515
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Focus",
+    "name": "David Bell",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00176_num003344.jpg",
+      "naive_00178_num003382.jpg",
+      "naive_00180_num003420.jpg",
+      "naive_00182_num003458.jpg",
+      "naive_00184_num003496.jpg",
+      "naive_00186_num003534.jpg"
+    ],
+    "original_frame_number": [
+      3344,
+      3382,
+      3420,
+      3458,
+      3496,
+      3534
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Focus",
+    "name": "Graham Hazard",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00177_num003363.jpg",
+      "naive_00179_num003401.jpg",
+      "naive_00181_num003439.jpg",
+      "naive_00183_num003477.jpg",
+      "naive_00185_num003515.jpg",
+      "naive_00187_num003553.jpg"
+    ],
+    "original_frame_number": [
+      3363,
+      3401,
+      3439,
+      3477,
+      3515,
+      3553
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Steadicam",
+    "name": "Alf Tramontin",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00178_num003382.jpg",
+      "naive_00180_num003420.jpg",
+      "naive_00182_num003458.jpg",
+      "naive_00184_num003496.jpg",
+      "naive_00186_num003534.jpg",
+      "naive_00188_num003572.jpg"
+    ],
+    "original_frame_number": [
+      3382,
+      3420,
+      3458,
+      3496,
+      3534,
+      3572
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Grip",
+    "name": "Bob Gregory",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00179_num003401.jpg",
+      "naive_00181_num003439.jpg",
+      "naive_00183_num003477.jpg",
+      "naive_00185_num003515.jpg",
+      "naive_00187_num003553.jpg",
+      "naive_00189_num003591.jpg"
+    ],
+    "original_frame_number": [
+      3401,
+      3439,
+      3477,
+      3515,
+      3553,
+      3591
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Assistant Film Editor",
+    "name": "Jackie Ophir",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "naive_00180_num003420.jpg",
+      "naive_00182_num003458.jpg",
+      "naive_00184_num003496.jpg",
+      "naive_00186_num003534.jpg",
+      "naive_00188_num003572.jpg",
+      "naive_00190_num003610.jpg"
+    ],
+    "original_frame_number": [
+      3420,
+      3458,
+      3496,
+      3534,
+      3572,
+      3610
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Sound Mixer",
+    "name": "Ray French",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00181_num003439.jpg",
+      "naive_00183_num003477.jpg",
+      "naive_00185_num003515.jpg",
+      "naive_00187_num003553.jpg",
+      "naive_00189_num003591.jpg",
+      "naive_00191_num003629.jpg"
+    ],
+    "original_frame_number": [
+      3439,
+      3477,
+      3515,
+      3553,
+      3591,
+      3629
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "First Assistant",
+    "name": "David Weir",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00182_num003458.jpg"
+    ],
+    "original_frame_number": [
+      3458
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Co-ordinator",
+    "name": "Sue Whitley",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00182_num003458.jpg",
+      "naive_00184_num003496.jpg"
+    ],
+    "original_frame_number": [
+      3458,
+      3496
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Boom Operator",
+    "name": "Ian Hills",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00182_num003458.jpg",
+      "naive_00184_num003496.jpg",
+      "naive_00186_num003534.jpg",
+      "naive_00188_num003572.jpg",
+      "naive_00190_num003610.jpg",
+      "naive_00192_num003648.jpg"
+    ],
+    "original_frame_number": [
+      3458,
+      3496,
+      3534,
+      3572,
+      3610,
+      3648
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Second Assistant",
+    "name": "Tania Normand",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00183_num003477.jpg"
+    ],
+    "original_frame_number": [
+      3477
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Dubbing Editors",
+    "name": "Paul Griffiths-Davies",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00183_num003477.jpg",
+      "naive_00185_num003515.jpg",
+      "naive_00187_num003553.jpg",
+      "naive_00189_num003591.jpg",
+      "naive_00191_num003629.jpg"
+    ],
+    "original_frame_number": [
+      3477,
+      3515,
+      3553,
+      3591,
+      3629
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Dubbing Editors",
+    "name": "John Rutherford",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00184_num003496.jpg",
+      "naive_00186_num003534.jpg",
+      "naive_00188_num003572.jpg",
+      "naive_00190_num003610.jpg"
+    ],
+    "original_frame_number": [
+      3496,
+      3534,
+      3572,
+      3610
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Dubbing Mixers",
+    "name": "Brian Saunders",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00185_num003515.jpg",
+      "naive_00187_num003553.jpg",
+      "naive_00189_num003591.jpg",
+      "naive_00191_num003629.jpg"
+    ],
+    "original_frame_number": [
+      3515,
+      3553,
+      3591,
+      3629
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Lighting Gaffer",
+    "name": "Jim Camp",
+    "role_group": "Camera and Electrical Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Camera and Electrical Department",
+    "source_frame": [
+      "naive_00186_num003534.jpg",
+      "naive_00188_num003572.jpg",
+      "naive_00190_num003610.jpg",
+      "naive_00192_num003648.jpg",
+      "naive_00194_num003686.jpg",
+      "naive_00196_num003724.jpg"
+    ],
+    "original_frame_number": [
+      3534,
+      3572,
+      3610,
+      3648,
+      3686,
+      3724
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Chargehand ASM",
+    "name": "Tony Mills",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00187_num003553.jpg",
+      "naive_00189_num003591.jpg",
+      "naive_00191_num003629.jpg",
+      "naive_00193_num003667.jpg",
+      "naive_00195_num003705.jpg"
+    ],
+    "original_frame_number": [
+      3553,
+      3591,
+      3629,
+      3667,
+      3705
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Graphic Designer",
+    "name": "Peter Terry",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "naive_00187_num003553.jpg",
+      "naive_00189_num003591.jpg",
+      "naive_00191_num003629.jpg",
+      "naive_00193_num003667.jpg",
+      "naive_00195_num003705.jpg",
+      "naive_00197_num003743.jpg"
+    ],
+    "original_frame_number": [
+      3553,
+      3591,
+      3629,
+      3667,
+      3705,
+      3743
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Design Assistant",
+    "name": "Chris Stephenson",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "naive_00188_num003572.jpg",
+      "naive_00190_num003610.jpg",
+      "naive_00192_num003648.jpg",
+      "naive_00194_num003686.jpg",
+      "naive_00196_num003724.jpg",
+      "naive_00198_num003762.jpg"
+    ],
+    "original_frame_number": [
+      3572,
+      3610,
+      3648,
+      3686,
+      3724,
+      3762
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Production Buyer",
+    "name": "Trevor Dovey",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "naive_00189_num003591.jpg"
+    ],
+    "original_frame_number": [
+      3591
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Costume Designer",
+    "name": "Sheelagh Killeen",
+    "role_group": "Costume Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume Designers",
+    "source_frame": [
+      "naive_00190_num003610.jpg",
+      "naive_00192_num003648.jpg",
+      "naive_00194_num003686.jpg",
+      "naive_00196_num003724.jpg",
+      "naive_00198_num003762.jpg",
+      "naive_00200_num003800.jpg"
+    ],
+    "original_frame_number": [
+      3610,
+      3648,
+      3686,
+      3724,
+      3762,
+      3800
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Production Buyer",
+    "name": "Trevor Devoy",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "naive_00191_num003629.jpg",
+      "naive_00193_num003667.jpg",
+      "naive_00195_num003705.jpg",
+      "naive_00197_num003743.jpg",
+      "naive_00199_num003781.jpg"
+    ],
+    "original_frame_number": [
+      3629,
+      3667,
+      3705,
+      3743,
+      3781
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Wardrobe Supervisor",
+    "name": "Anthony Black",
+    "role_group": "Costume and Wardrobe Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Costume and Wardrobe Department",
+    "source_frame": [
+      "naive_00191_num003629.jpg",
+      "naive_00193_num003667.jpg",
+      "naive_00195_num003705.jpg",
+      "naive_00197_num003743.jpg",
+      "naive_00199_num003781.jpg",
+      "naive_00201_num003819.jpg"
+    ],
+    "original_frame_number": [
+      3629,
+      3667,
+      3705,
+      3743,
+      3781,
+      3819
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Dubbing Editors",
+    "name": "John Rutherford",
+    "role_group": "Dubbing_Sound",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing_Sound",
+    "source_frame": [
+      "naive_00192_num003648.jpg",
+      "naive_00194_num003686.jpg"
+    ],
+    "original_frame_number": [
+      3648,
+      3686
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Make Up Supervisor",
+    "name": "Jane Hatch",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "naive_00192_num003648.jpg",
+      "naive_00194_num003686.jpg",
+      "naive_00196_num003724.jpg",
+      "naive_00198_num003762.jpg",
+      "naive_00200_num003800.jpg",
+      "naive_00202_num003838.jpg"
+    ],
+    "original_frame_number": [
+      3648,
+      3686,
+      3724,
+      3762,
+      3800,
+      3838
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Dubbing Editors",
+    "name": "Paul Griffiths Davies",
+    "role_group": "Dubbing_Sound",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing_Sound",
+    "source_frame": [
+      "naive_00193_num003667.jpg"
+    ],
+    "original_frame_number": [
+      3667
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Dubbing Mixers",
+    "name": "Brian Saunders",
+    "role_group": "Dubbing_Sound",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing_Sound",
+    "source_frame": [
+      "naive_00193_num003667.jpg",
+      "naive_00195_num003705.jpg"
+    ],
+    "original_frame_number": [
+      3667,
+      3705
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Make Up Assistant",
+    "name": "Tracey Dilly",
+    "role_group": "Makeup Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Makeup Department",
+    "source_frame": [
+      "naive_00193_num003667.jpg",
+      "naive_00195_num003705.jpg",
+      "naive_00197_num003743.jpg",
+      "naive_00199_num003781.jpg",
+      "naive_00201_num003819.jpg",
+      "naive_00203_num003857.jpg"
+    ],
+    "original_frame_number": [
+      3667,
+      3705,
+      3743,
+      3781,
+      3819,
+      3857
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Casting Director",
+    "name": "Doreen Jones",
+    "role_group": "Casting Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Casting Directors",
+    "source_frame": [
+      "naive_00194_num003686.jpg",
+      "naive_00196_num003724.jpg",
+      "naive_00198_num003762.jpg",
+      "naive_00200_num003800.jpg",
+      "naive_00202_num003838.jpg",
+      "naive_00204_num003876.jpg"
+    ],
+    "original_frame_number": [
+      3686,
+      3724,
+      3762,
+      3800,
+      3838,
+      3876
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Music",
+    "name": "Stephen Warbeck",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "naive_00195_num003705.jpg",
+      "naive_00197_num003743.jpg",
+      "naive_00199_num003781.jpg",
+      "naive_00201_num003819.jpg",
+      "naive_00203_num003857.jpg",
+      "naive_00205_num003895.jpg"
+    ],
+    "original_frame_number": [
+      3705,
+      3743,
+      3781,
+      3819,
+      3857,
+      3895
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Script Associate",
+    "name": "Jenny Sheridan",
+    "role_group": "Script and Continuity Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Script and Continuity Department",
+    "source_frame": [
+      "naive_00207_num003933.jpg",
+      "naive_00209_num003971.jpg",
+      "naive_00211_num004009.jpg"
+    ],
+    "original_frame_number": [
+      3933,
+      3971,
+      4009
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Film Editor",
+    "name": "Edward Mansell",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "naive_00212_num004028.jpg",
+      "naive_00214_num004066.jpg",
+      "naive_00216_num004104.jpg"
+    ],
+    "original_frame_number": [
+      4028,
+      4066,
+      4104
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Director of Photography",
+    "name": "Ken Morgan",
+    "role_group": "Cinematographers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Cinematographers",
+    "source_frame": [
+      "naive_00218_num004142.jpg",
+      "naive_00220_num004180.jpg",
+      "naive_00222_num004218.jpg"
+    ],
+    "original_frame_number": [
+      4142,
+      4180,
+      4218
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Production Designer",
+    "name": "Roy Stonehouse",
+    "role_group": "Production Designers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Designers",
+    "source_frame": [
+      "naive_00224_num004256.jpg",
+      "naive_00226_num004294.jpg",
+      "naive_00228_num004332.jpg"
+    ],
+    "original_frame_number": [
+      4256,
+      4294,
+      4332
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Production Executive",
+    "name": "Craig McNeil",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00229_num004351.jpg",
+      "naive_00233_num004427.jpg"
+    ],
+    "original_frame_number": [
+      4351,
+      4427
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Production Executive",
+    "name": "Craig McNeil",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "naive_00231_num004389.jpg"
+    ],
+    "original_frame_number": [
+      4389
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Executive Producer",
+    "name": "Sally Head",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00235_num004465.jpg",
+      "naive_00237_num004503.jpg",
+      "naive_00239_num004541.jpg"
+    ],
+    "original_frame_number": [
+      4465,
+      4503,
+      4541
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Producer",
+    "name": "Don Leaver",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00241_num004579.jpg",
+      "naive_00243_num004617.jpg",
+      "naive_00245_num004655.jpg"
+    ],
+    "original_frame_number": [
+      4579,
+      4617,
+      4655
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "© MCMXCI",
+    "name": "ITV Studios Limited",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00241_num004579.jpg",
+      "naive_00243_num004617.jpg",
+      "naive_00245_num004655.jpg"
+    ],
+    "original_frame_number": [
+      4579,
+      4617,
+      4655
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "itv STUDIOS Global Entertainment",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00247_num004693.jpg",
+      "naive_00251_num004769.jpg",
+      "naive_00253_num004807.jpg",
+      "naive_00255_num004845.jpg"
+    ],
+    "original_frame_number": [
+      4693,
+      4769,
+      4807,
+      4845
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": null,
+    "name": "itv STUDIOS Global Entertainment",
+    "role_group": "Distributors",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Distributors",
+    "source_frame": [
+      "naive_00249_num004731.jpg"
+    ],
+    "original_frame_number": [
+      4731
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T00:03:47.639920+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  }
+]

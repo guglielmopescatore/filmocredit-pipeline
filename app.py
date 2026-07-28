@@ -17,7 +17,7 @@ from scenedetect import open_video
 # Assuming scripts_v3 is in a location accessible by Python's path
 # This can be achieved by running the app from the project's root directory
 # or by installing the project package (e.g., using 'pip install -e .')
-from scripts_v3 import config, constants, frame_analysis, scene_detection, utils
+from scripts_v3 import config, constants, frame_analysis, naive_frame_extraction, scene_detection, utils
 from scripts_v3.exceptions import ConfigError
 
 
@@ -173,7 +173,7 @@ def _fp_run_step2(video_file, episode_id, ocr_reader, ocr_engine, user_stopwords
     return True, f"{n} scenes analyzed"
 
 
-def _fp_run_step3(episode_id, vlm_provider, effective_provider):
+def _fp_run_step3(episode_id, vlm_provider, effective_provider, naive_mode=False):
     enable_role_correction = st.session_state.get("enable_role_correction", False)
     include_previous_frame = st.session_state.get("include_previous_frame_context", True)
     count, status, err = vlm_processing.run_azure_vlm_ocr_on_frames(
@@ -182,11 +182,12 @@ def _fp_run_step3(episode_id, vlm_provider, effective_provider):
         vlm_provider,
         enable_role_correction,
         include_previous_frame,
+        naive_mode=naive_mode,
     )
     if err:
         return False, err
     # Persist the produced credits to the DB (the OCR function only writes the JSON file).
-    ocr_dir = vlm_processing.get_vlm_ocr_dir(episode_id, effective_provider)
+    ocr_dir = vlm_processing.get_vlm_ocr_dir(episode_id, effective_provider, naive_mode=naive_mode)
     vlm_json_path = ocr_dir / f"{episode_id}_credits_azure_vlm.json"
     if vlm_json_path.exists():
         vlm_credits = utils.load_vlm_results_from_jsonl(vlm_json_path)
@@ -325,6 +326,26 @@ try:
 except FileNotFoundError:
     video_files_paths = []
     st.warning(f"Video directory {config.RAW_VIDEO_DIR} not found. Please create it and add videos.")
+
+st.sidebar.header("Analysis Mode")
+
+naive_analysis_mode = st.sidebar.checkbox(
+    "Naive Analysis mode",
+    key="naive_analysis_mode",
+    help=(
+        f"Replace Steps 1+2 with a single 'Extract Frames' pass: one frame every "
+        f"{config.NAIVE_FRAME_INTERVAL_SECONDS}s (plus the first and last frame of the file), "
+        f"with no scene detection and no OCR filtering. Frames go to "
+        f"data/episodes/<episode>/{config.NAIVE_ANALYSIS_DIR_NAME}/frames, and Step 3 reads "
+        f"from there instead of analysis/frames."
+    ),
+)
+
+if naive_analysis_mode:
+    st.sidebar.info(
+        f"🧪 Naive mode ON - Step 3 will read frames from `{config.NAIVE_ANALYSIS_DIR_NAME}/frames`. "
+        "Scene detection settings below are not used."
+    )
 
 st.sidebar.header("Video Segments for Scene Detection")
 
@@ -569,17 +590,46 @@ if st.session_state.current_tab == 0:
     if 'episode_status' not in st.session_state:
         st.session_state.episode_status = {}
 
-    col1, col2, col3, col4, col5 = st.columns(5)
-    with col1:
-        run_step1_button = st.button("STEP 1: Identify Candidate Scenes", key="run_step1_btn_v3")
-    with col2:
-        run_step2_button = st.button("STEP 2: Analyze Scene Frames", key="run_step2_btn_v3")
-    with col3:
-        run_step3_button = st.button("STEP 3: VLM OCR", key="run_step3_btn_v3")
-    with col4:
-        run_step4_button = st.button("STEP 4: IMDB Validation", key="run_step4_btn_v3")
-    with col5:
-        run_all_steps_button = st.button("RUN ALL STEPS", key="run_all_steps_btn_v3")
+    # In naive mode Steps 1+2 collapse into a single "Extract Frames" pass, so
+    # their buttons are replaced rather than shown alongside: running scene
+    # detection would write to the regular analysis/ folder that naive mode
+    # deliberately bypasses. RUN ALL STEPS stays, but chains the 3 naive phases
+    # (Extract Frames -> VLM -> IMDB) instead of the usual 4.
+    if naive_analysis_mode:
+        run_step1_button = False
+        run_step2_button = False
+
+        col1, col2, col3, col4 = st.columns(4)
+        with col1:
+            run_extract_frames_button = st.button(
+                "Extract Frames",
+                key="run_extract_frames_btn_v3",
+                help=f"Extract one frame every {config.NAIVE_FRAME_INTERVAL_SECONDS}s, plus the first and last frame.",
+            )
+        with col2:
+            run_step3_button = st.button("STEP 3: VLM OCR", key="run_step3_btn_v3")
+        with col3:
+            run_step4_button = st.button("STEP 4: IMDB Validation", key="run_step4_btn_v3")
+        with col4:
+            run_all_steps_button = st.button(
+                "RUN ALL STEPS",
+                key="run_all_steps_btn_v3",
+                help="Naive mode: Extract Frames -> VLM OCR -> IMDB Validation (no scene detection).",
+            )
+    else:
+        run_extract_frames_button = False
+
+        col1, col2, col3, col4, col5 = st.columns(5)
+        with col1:
+            run_step1_button = st.button("STEP 1: Identify Candidate Scenes", key="run_step1_btn_v3")
+        with col2:
+            run_step2_button = st.button("STEP 2: Analyze Scene Frames", key="run_step2_btn_v3")
+        with col3:
+            run_step3_button = st.button("STEP 3: VLM OCR", key="run_step3_btn_v3")
+        with col4:
+            run_step4_button = st.button("STEP 4: IMDB Validation", key="run_step4_btn_v3")
+        with col5:
+            run_all_steps_button = st.button("RUN ALL STEPS", key="run_all_steps_btn_v3")
     
     # Step 3 Settings - VLM Provider Selection
     with st.expander("⚙️ Step 3 Settings - VLM Provider & Role Correction", expanded=False):
@@ -689,8 +739,9 @@ if st.session_state.current_tab == 0:
     if 'step2_running' not in st.session_state:
         st.session_state.step2_running = False
 
-    # Show scene review based on selected videos from Step 1 (but hide when Step 2 is running)
-    if selected_videos_str_paths and not st.session_state.step2_running:
+    # Show scene review based on selected videos from Step 1 (but hide when Step 2 is running).
+    # Naive mode has no candidate scenes at all - there is nothing to review there.
+    if selected_videos_str_paths and not st.session_state.step2_running and not naive_analysis_mode:
         st.subheader("2a. Review Candidate Scenes for Step 2")
         any_review_ui_shown_for_an_episode = False
 
@@ -843,7 +894,7 @@ if st.session_state.current_tab == 0:
         if any_review_ui_shown_for_an_episode:
             st.markdown("---")
             st.success("Scene selections updated. Ready for Step 2 if desired.")
-    elif not st.session_state.step2_running:  # Only show this message when Step 2 is not running
+    elif not st.session_state.step2_running and not naive_analysis_mode:  # Only show this message when Step 2 is not running
         if not selected_videos_str_paths:
             st.info("📝 Select videos in Step 1 above to review their candidate scenes for Step 2.")
         # If videos are selected but Step 2 is running, don't show the scene review section
@@ -853,6 +904,62 @@ if st.session_state.current_tab == 0:
         st.session_state.user_selected_scenes_for_step2 = {}
 
     # Button handling for Setup tab
+    if run_extract_frames_button:
+        if not selected_videos_str_paths:
+            st.warning("Please select at least one video for Extract Frames.")
+        else:
+            st.subheader("Running Extract Frames (Naive Analysis)")
+            st.caption(
+                f"One frame every {config.NAIVE_FRAME_INTERVAL_SECONDS}s, plus the first and last frame - "
+                "no scene detection, no OCR filtering."
+            )
+
+            for video_path_str_proc in selected_videos_str_paths:
+                video_path_obj = Path(video_path_str_proc)
+                episode_id_proc = video_path_obj.stem
+                if episode_id_proc not in st.session_state.episode_status:
+                    st.session_state.episode_status[episode_id_proc] = {}
+
+                st.session_state.episode_status[episode_id_proc]['naive_extract_status'] = "running"
+                _t0_naive = time.perf_counter()
+
+                with st.expander(f"Extract Frames: {episode_id_proc}", expanded=True):
+                    st.write(f"Extracting frames for {episode_id_proc}...")
+                    progress_bar = st.progress(0.0)
+
+                    def _update_progress(frames_read: int, total_frames: int) -> None:
+                        if total_frames > 0:
+                            progress_bar.progress(min(1.0, frames_read / total_frames))
+
+                    with st.spinner(f"Extracting frames for {episode_id_proc}..."):
+                        try:
+                            saved, status, error_msg = naive_frame_extraction.extract_frames_naive(
+                                video_path_obj,
+                                episode_id_proc,
+                                progress_callback=_update_progress,
+                            )
+                            progress_bar.progress(1.0)
+                            st.session_state.episode_status[episode_id_proc]['naive_extract_status'] = status
+
+                            if error_msg:
+                                st.session_state.episode_status[episode_id_proc]['naive_extract_error'] = error_msg
+                                st.error(f"Error extracting frames ({episode_id_proc}): {error_msg}")
+                            else:
+                                frames_dir_naive = config.get_frames_dir(episode_id_proc, naive_mode=True)
+                                st.success(f"Extracted {saved} frame(s) for {episode_id_proc} -> `{frames_dir_naive}`")
+                            logging.info(
+                                f"[{episode_id_proc}] Naive extraction status: {status}. Frames: {saved}. Error: {error_msg}"
+                            )
+                        except Exception as e:
+                            st.session_state.episode_status[episode_id_proc]['naive_extract_status'] = "error"
+                            st.session_state.episode_status[episode_id_proc]['naive_extract_error'] = str(e)
+                            st.error(f"Exception extracting frames ({episode_id_proc}): {e}")
+                            logging.error(f"Exception during naive extraction for {episode_id_proc}: {e}", exc_info=True)
+
+                utils.record_phase_time(episode_id_proc, "naive_extract", time.perf_counter() - _t0_naive)
+
+            st.success("Frame extraction finished for selected videos. Run Step 3 to send them to the VLM.")
+
     if run_step1_button:
         if not selected_videos_str_paths:
             st.warning("Please select at least one video for Step 1.")
@@ -1242,16 +1349,38 @@ if st.session_state.current_tab == 0:
                 effective_provider = vlm_provider_choice
                 try:
                     effective_provider = vlm_processing.resolve_vlm_provider(vlm_provider_choice)
-                    ocr_dir = vlm_processing.get_vlm_ocr_dir(episode_id_proc, effective_provider)
+                    ocr_dir = vlm_processing.get_vlm_ocr_dir(episode_id_proc, effective_provider, naive_mode=naive_analysis_mode)
                 except Exception as prov_err:
                     logging.warning(f"[VLM] Could not resolve provider '{vlm_provider_choice}' for {episode_id_proc}: {prov_err}")
-                    ocr_dir = config.EPISODES_BASE_DIR / episode_id_proc / config.VLM_OCR_DIR_DEFAULT
+                    _fallback_episode_dir = config.EPISODES_BASE_DIR / episode_id_proc
+                    if naive_analysis_mode:
+                        _fallback_episode_dir = _fallback_episode_dir / config.NAIVE_ANALYSIS_DIR_NAME
+                    ocr_dir = _fallback_episode_dir / config.VLM_OCR_DIR_DEFAULT
 
                 # Check if VLM JSON already exists - if so, load directly without LLM calls
                 vlm_json_path = ocr_dir / f"{episode_id_proc}_credits_azure_vlm.json"
-                
-                # If VLM file exists, load from file directly (skip LLM calls)
-                if vlm_json_path.exists():
+
+                # ...but credits are flushed to that JSON after every analyzed
+                # frame, so a crashed run also leaves one behind. Loading it and
+                # moving on would silently abandon the frames the crash never
+                # reached, so an unfinished checkpoint forces the resume path.
+                vlm_run_incomplete = vlm_processing.vlm_run_is_incomplete(episode_id_proc, ocr_dir)
+                if vlm_run_incomplete:
+                    _ckpt = vlm_processing.load_vlm_checkpoint(
+                        vlm_processing.get_vlm_checkpoint_path(episode_id_proc, ocr_dir)
+                    )
+                    st.info(
+                        f"↻ Resuming interrupted run for {episode_id_proc}: "
+                        f"{_ckpt.get('frames_done', '?')}/{_ckpt.get('frames_total', '?')} frames already analyzed "
+                        f"(last: {_ckpt.get('last_frame')}). Only the remaining frames will be sent to the VLM."
+                    )
+                    logging.info(
+                        f"[VLM] Resuming {episode_id_proc}: checkpoint status "
+                        f"'{_ckpt.get('status')}', {_ckpt.get('frames_done')}/{_ckpt.get('frames_total')} done"
+                    )
+
+                # If VLM file exists AND the run finished, load from file directly (skip LLM calls)
+                if vlm_json_path.exists() and not vlm_run_incomplete:
                     with st.expander(f"Step 3: {episode_id_proc} (Loading from existing file)", expanded=True):
                         st.info(f"VLM results file already exists for {episode_id_proc}. Loading credits from file to database...")
                         try:
@@ -1289,11 +1418,12 @@ if st.session_state.current_tab == 0:
                     continue  # Skip to next episode - no LLM calls needed
 
                 # VLM file doesn't exist - proceed with normal LLM processing
-                frames_dir_for_vlm = config.EPISODES_BASE_DIR / episode_id_proc / "analysis" / "frames"
+                frames_dir_for_vlm = config.get_frames_dir(episode_id_proc, naive_mode=naive_analysis_mode)
 
                 if not frames_dir_for_vlm.is_dir() or not any(frames_dir_for_vlm.iterdir()):
+                    source_step = "Extract Frames" if naive_analysis_mode else "Step 2"
                     st.warning(
-                        f"No frames found from Step 2 for {episode_id_proc} in {frames_dir_for_vlm}. VLM step might have no input."
+                        f"No frames found from {source_step} for {episode_id_proc} in {frames_dir_for_vlm}. VLM step might have no input."
                     )
 
                 with st.expander(f"Step 3: {episode_id_proc}", expanded=True):
@@ -1308,7 +1438,8 @@ if st.session_state.current_tab == 0:
                             
                             # Role groups are now defined directly in config.py
                             count, status, err_msg = vlm_processing.run_azure_vlm_ocr_on_frames(
-                                episode_id_proc, constants.DEFAULT_VLM_MAX_NEW_TOKENS, vlm_provider_choice, enable_role_correction, include_previous_frame
+                                episode_id_proc, constants.DEFAULT_VLM_MAX_NEW_TOKENS, vlm_provider_choice, enable_role_correction, include_previous_frame,
+                                naive_mode=naive_analysis_mode
                             )
 
                             if status == "completed" and not err_msg:
@@ -1546,59 +1677,86 @@ if st.session_state.current_tab == 0:
             progress_bar = st.progress(0)
             status_text = st.empty()
             
-            total_steps = len(selected_videos_str_paths) * 4  # 4 steps per video
+            # Naive mode replaces scene detection + frame analysis with a single
+            # extraction pass, so the pipeline is 3 phases instead of 4.
+            steps_per_video = 3 if naive_analysis_mode else 4
+            total_steps = len(selected_videos_str_paths) * steps_per_video
             current_step = 0
-            
+
             all_success = True
-            
+
             for video_path_str in selected_videos_str_paths:
                 video_file = Path(video_path_str)
                 episode_id_base = video_file.stem
                 status_text.text(f"Processing: {episode_id_base}")
-                
+
                 try:
-                    # STEP 1: Scene Detection
-                    status_text.text(f"📹 Step 1/4: Scene detection for {episode_id_base}...")
-                    logging.info(f"[FULL PIPELINE] Starting Step 1 for {episode_id_base}")
-                    
-                    ocr_reader = force_refresh_ocr_reader()
-                    ocr_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
-                    user_stopwords = st.session_state.get('user_stopwords', [])
+                    if naive_analysis_mode:
+                        # PHASE 1/3: Naive frame extraction (replaces Steps 1+2)
+                        status_text.text(f"🎞️ Step 1/3: Extracting frames for {episode_id_base}...")
+                        logging.info(f"[FULL PIPELINE] Starting naive frame extraction for {episode_id_base}")
 
-                    _t0 = time.perf_counter()
-                    success_s1, msg_s1 = _fp_run_step1(video_file, episode_id_base, ocr_reader, ocr_engine, user_stopwords)
-                    utils.record_phase_time(episode_id_base, "step1", time.perf_counter() - _t0)
+                        _t0 = time.perf_counter()
+                        saved_naive, status_naive, err_naive = naive_frame_extraction.extract_frames_naive(
+                            video_file, episode_id_base
+                        )
+                        utils.record_phase_time(episode_id_base, "naive_extract", time.perf_counter() - _t0)
 
-                    current_step += 1
-                    progress_bar.progress(current_step / total_steps)
+                        current_step += 1
+                        progress_bar.progress(current_step / total_steps)
 
-                    if not success_s1:
-                        st.error(f"❌ Step 1 failed for {episode_id_base}: {msg_s1}")
-                        all_success = False
-                        continue
+                        if err_naive:
+                            st.error(f"❌ Frame extraction failed for {episode_id_base}: {err_naive}")
+                            all_success = False
+                            continue
 
-                    logging.info(f"[FULL PIPELINE] Step 1 completed for {episode_id_base}")
+                        logging.info(
+                            f"[FULL PIPELINE] Naive frame extraction completed for {episode_id_base}: {saved_naive} frame(s)"
+                        )
+                    else:
+                        # STEP 1: Scene Detection
+                        status_text.text(f"📹 Step 1/4: Scene detection for {episode_id_base}...")
+                        logging.info(f"[FULL PIPELINE] Starting Step 1 for {episode_id_base}")
 
-                    # STEP 2: Frame Analysis
-                    status_text.text(f"🖼️ Step 2/4: Frame analysis for {episode_id_base}...")
-                    logging.info(f"[FULL PIPELINE] Starting Step 2 for {episode_id_base}")
+                        ocr_reader = force_refresh_ocr_reader()
+                        ocr_engine = st.session_state.get('ocr_engine_type', config.DEFAULT_OCR_ENGINE)
+                        user_stopwords = st.session_state.get('user_stopwords', [])
 
-                    _t0 = time.perf_counter()
-                    success_s2, msg_s2 = _fp_run_step2(video_file, episode_id_base, ocr_reader, ocr_engine, user_stopwords)
-                    utils.record_phase_time(episode_id_base, "step2", time.perf_counter() - _t0)
+                        _t0 = time.perf_counter()
+                        success_s1, msg_s1 = _fp_run_step1(video_file, episode_id_base, ocr_reader, ocr_engine, user_stopwords)
+                        utils.record_phase_time(episode_id_base, "step1", time.perf_counter() - _t0)
 
-                    current_step += 1
-                    progress_bar.progress(current_step / total_steps)
+                        current_step += 1
+                        progress_bar.progress(current_step / total_steps)
 
-                    if not success_s2:
-                        st.error(f"❌ Step 2 failed for {episode_id_base}: {msg_s2}")
-                        all_success = False
-                        continue
+                        if not success_s1:
+                            st.error(f"❌ Step 1 failed for {episode_id_base}: {msg_s1}")
+                            all_success = False
+                            continue
 
-                    logging.info(f"[FULL PIPELINE] Step 2 completed for {episode_id_base}")
+                        logging.info(f"[FULL PIPELINE] Step 1 completed for {episode_id_base}")
 
-                    # STEP 3: VLM Processing
-                    status_text.text(f"🤖 Step 3/4: VLM extraction for {episode_id_base}...")
+                        # STEP 2: Frame Analysis
+                        status_text.text(f"🖼️ Step 2/4: Frame analysis for {episode_id_base}...")
+                        logging.info(f"[FULL PIPELINE] Starting Step 2 for {episode_id_base}")
+
+                        _t0 = time.perf_counter()
+                        success_s2, msg_s2 = _fp_run_step2(video_file, episode_id_base, ocr_reader, ocr_engine, user_stopwords)
+                        utils.record_phase_time(episode_id_base, "step2", time.perf_counter() - _t0)
+
+                        current_step += 1
+                        progress_bar.progress(current_step / total_steps)
+
+                        if not success_s2:
+                            st.error(f"❌ Step 2 failed for {episode_id_base}: {msg_s2}")
+                            all_success = False
+                            continue
+
+                        logging.info(f"[FULL PIPELINE] Step 2 completed for {episode_id_base}")
+
+                    # VLM Processing (Step 3 of 4, or 2 of 3 in naive mode)
+                    vlm_label = "Step 2/3" if naive_analysis_mode else "Step 3/4"
+                    status_text.text(f"🤖 {vlm_label}: VLM extraction for {episode_id_base}...")
                     logging.info(f"[FULL PIPELINE] Starting Step 3 for {episode_id_base}")
 
                     vlm_prov = st.session_state.get('vlm_provider_selection', 'auto')
@@ -1610,7 +1768,9 @@ if st.session_state.current_tab == 0:
                         continue
 
                     _t0 = time.perf_counter()
-                    success_s3, msg_s3 = _fp_run_step3(episode_id_base, vlm_prov, effective_provider)
+                    success_s3, msg_s3 = _fp_run_step3(
+                        episode_id_base, vlm_prov, effective_provider, naive_mode=naive_analysis_mode
+                    )
                     utils.record_phase_time(episode_id_base, "step3", time.perf_counter() - _t0, provider=effective_provider)
 
                     current_step += 1
@@ -1623,8 +1783,9 @@ if st.session_state.current_tab == 0:
 
                     logging.info(f"[FULL PIPELINE] Step 3 completed for {episode_id_base}")
 
-                    # STEP 4: IMDB Validation
-                    status_text.text(f"🔍 Step 4/4: IMDB validation for {episode_id_base}...")
+                    # IMDB Validation (Step 4 of 4, or 3 of 3 in naive mode)
+                    imdb_label = "Step 3/3" if naive_analysis_mode else "Step 4/4"
+                    status_text.text(f"🔍 {imdb_label}: IMDB validation for {episode_id_base}...")
                     logging.info(f"[FULL PIPELINE] Starting Step 4 for {episode_id_base}")
 
                     _t0 = time.perf_counter()
@@ -1639,13 +1800,17 @@ if st.session_state.current_tab == 0:
                     else:
                         logging.info(f"[FULL PIPELINE] Step 4 completed for {episode_id_base}")
                         st.success(f"✅ Full pipeline completed for {episode_id_base}")
-                    
+
                 except Exception as e:
                     st.error(f"❌ Exception during full pipeline for {episode_id_base}: {e}")
                     logging.error(f"[FULL PIPELINE] Exception for {episode_id_base}: {e}", exc_info=True)
                     all_success = False
-                    current_step += (4 - (current_step % 4))  # Skip remaining steps for this video
-                    progress_bar.progress(current_step / total_steps)
+                    # Jump the bar to this video's slot boundary so the remaining
+                    # (skipped) phases don't leave the progress bar stuck short.
+                    # A remainder of 0 means the exception hit before this video's
+                    # first phase counted, so a whole slot still has to be skipped.
+                    current_step += steps_per_video - (current_step % steps_per_video)
+                    progress_bar.progress(min(1.0, current_step / total_steps))
                     continue
             
             progress_bar.progress(1.0)

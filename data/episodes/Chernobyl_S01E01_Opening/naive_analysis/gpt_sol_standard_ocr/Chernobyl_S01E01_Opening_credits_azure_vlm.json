@@ -1,0 +1,112 @@
+[
+  {
+    "role_detail": "presents",
+    "name": "Sky",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00001_num000024.jpg",
+      "naive_00003_num000072.jpg"
+    ],
+    "original_frame_number": [
+      24,
+      72
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T14:12:13.114497+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "in association with",
+    "name": "HBO Miniseries",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00006_num000144.jpg",
+      "naive_00008_num000192.jpg"
+    ],
+    "original_frame_number": [
+      144,
+      192
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T14:12:13.114497+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "A Sister Pictures production",
+    "name": "Sister Pictures",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00010_num000240.jpg",
+      "naive_00012_num000288.jpg"
+    ],
+    "original_frame_number": [
+      240,
+      288
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T14:12:13.114497+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "production",
+    "name": "Mighty Mint",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00015_num000360.jpg",
+      "naive_00017_num000408.jpg"
+    ],
+    "original_frame_number": [
+      360,
+      408
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T14:12:13.114497+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "A Word Games production",
+    "name": "Word Games",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00020_num000480.jpg",
+      "naive_00022_num000528.jpg"
+    ],
+    "original_frame_number": [
+      480,
+      528
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-27T14:12:13.114497+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  }
+]

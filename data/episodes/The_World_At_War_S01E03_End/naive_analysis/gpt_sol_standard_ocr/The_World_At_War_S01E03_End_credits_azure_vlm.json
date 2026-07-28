@@ -1,0 +1,806 @@
+[
+  {
+    "role_detail": null,
+    "name": "TELEMOND PRODUZIONI",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00005_num000120.jpg"
+    ],
+    "original_frame_number": [
+      120
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Film Editor",
+    "name": "ALAN AFRIAT",
+    "role_group": "Editors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editors",
+    "source_frame": [
+      "naive_00006_num000144.jpg",
+      "naive_00008_num000192.jpg"
+    ],
+    "original_frame_number": [
+      144,
+      192
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Film Research",
+    "name": "JOHN ROWE",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00011_num000264.jpg",
+      "naive_00013_num000312.jpg"
+    ],
+    "original_frame_number": [
+      264,
+      312
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Film di",
+    "name": "Cesare Zavattini",
+    "role_group": "Directors",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Directors",
+    "source_frame": [
+      "naive_00015_num000360.jpg"
+    ],
+    "original_frame_number": [
+      360
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "sound editor",
+    "name": "ISOBEL ELGOOD",
+    "role_group": "Sound Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Sound Department",
+    "source_frame": [
+      "naive_00016_num000384.jpg"
+    ],
+    "original_frame_number": [
+      384
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "music",
+    "name": "IAN NESTLE",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "naive_00016_num000384.jpg"
+    ],
+    "original_frame_number": [
+      384
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Stills Research",
+    "name": "ISOBEL HINSHELWOOD",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00017_num000408.jpg",
+      "naive_00019_num000456.jpg"
+    ],
+    "original_frame_number": [
+      408,
+      456
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Graphics",
+    "name": "IAN KESTLE",
+    "role_group": "Art Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Art Department",
+    "source_frame": [
+      "naive_00017_num000408.jpg",
+      "naive_00019_num000456.jpg"
+    ],
+    "original_frame_number": [
+      408,
+      456
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MUSICHE DI",
+    "name": "ENNIO MORRICONE",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "naive_00021_num000504.jpg"
+    ],
+    "original_frame_number": [
+      504
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "DIRETTE DA",
+    "name": "BRUNO NICOLAI",
+    "role_group": "Music Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Music Department",
+    "source_frame": [
+      "naive_00021_num000504.jpg"
+    ],
+    "original_frame_number": [
+      504
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Soggetto di",
+    "name": "FRANCO SOLINAS",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00022_num000528.jpg"
+    ],
+    "original_frame_number": [
+      528
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Dubbing Mixer",
+    "name": "FREDDIE SLADE",
+    "role_group": "Dubbing_Sound",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Dubbing_Sound",
+    "source_frame": [
+      "naive_00023_num000552.jpg",
+      "naive_00025_num000600.jpg"
+    ],
+    "original_frame_number": [
+      552,
+      600
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "MUSIC",
+    "name": "CARL DAVIS",
+    "role_group": "Composers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Composers",
+    "source_frame": [
+      "naive_00028_num000672.jpg",
+      "naive_00030_num000720.jpg"
+    ],
+    "original_frame_number": [
+      672,
+      720
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": null,
+    "name": "GROUP W",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00032_num000768.jpg"
+    ],
+    "original_frame_number": [
+      768
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Lead Story Writer",
+    "name": "ROD SERLING",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00033_num000792.jpg"
+    ],
+    "original_frame_number": [
+      792
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Story Associate",
+    "name": "JERRY SOHL",
+    "role_group": "Writers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Writers",
+    "source_frame": [
+      "naive_00033_num000792.jpg"
+    ],
+    "original_frame_number": [
+      792
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Unit Manager",
+    "name": "AL SUTHERLAND",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "naive_00033_num000792.jpg"
+    ],
+    "original_frame_number": [
+      792
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Laboratory Liaison",
+    "name": "ROGER CHINERY",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00034_num000816.jpg"
+    ],
+    "original_frame_number": [
+      816
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Script Associate",
+    "name": "JEROME KUEHL",
+    "role_group": "Script and Continuity Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Script and Continuity Department",
+    "source_frame": [
+      "naive_00034_num000816.jpg",
+      "naive_00036_num000864.jpg",
+      "naive_00038_num000912.jpg"
+    ],
+    "original_frame_number": [
+      816,
+      864,
+      912
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Unit Manager",
+    "name": "LIZ SUTHERLAND",
+    "role_group": "Production Managers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Production Managers",
+    "source_frame": [
+      "naive_00034_num000816.jpg",
+      "naive_00036_num000864.jpg",
+      "naive_00038_num000912.jpg"
+    ],
+    "original_frame_number": [
+      816,
+      864,
+      912
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Laboratory Liaison",
+    "name": "ROGER CHINERY",
+    "role_group": "Editorial Department",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Editorial Department",
+    "source_frame": [
+      "naive_00036_num000864.jpg",
+      "naive_00038_num000912.jpg"
+    ],
+    "original_frame_number": [
+      864,
+      912
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    },
+    "Need revisioning for deduplication": true
+  },
+  {
+    "role_detail": "Historical adviser",
+    "name": "NOBBY MILAND",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00040_num000960.jpg"
+    ],
+    "original_frame_number": [
+      960
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Historical Adviser",
+    "name": "NOBLE FRANKLAND",
+    "role_group": "Additional Crew",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Additional Crew",
+    "source_frame": [
+      "naive_00041_num000984.jpg",
+      "naive_00043_num001032.jpg"
+    ],
+    "original_frame_number": [
+      984,
+      1032
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Archive Sources",
+    "name": "BUNDESARCHIV-KOBLENZ",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00046_num001104.jpg",
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg"
+    ],
+    "original_frame_number": [
+      1104,
+      1200,
+      1248
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Archive Sources",
+    "name": "E.C.P.A. FRANCE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00046_num001104.jpg",
+      "naive_00048_num001152.jpg",
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg"
+    ],
+    "original_frame_number": [
+      1104,
+      1152,
+      1200,
+      1248
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Archive Sources",
+    "name": "EMI PATHE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00046_num001104.jpg"
+    ],
+    "original_frame_number": [
+      1104
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Archive Sources",
+    "name": "MOVIETONE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00046_num001104.jpg",
+      "naive_00048_num001152.jpg",
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg"
+    ],
+    "original_frame_number": [
+      1104,
+      1152,
+      1200,
+      1248
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Archive Sources",
+    "name": "PATHE CINEMA",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00046_num001104.jpg",
+      "naive_00048_num001152.jpg",
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg",
+      "naive_00054_num001296.jpg"
+    ],
+    "original_frame_number": [
+      1104,
+      1152,
+      1200,
+      1248,
+      1296
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Archive Sources",
+    "name": "VISNEWS",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00046_num001104.jpg",
+      "naive_00048_num001152.jpg",
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg",
+      "naive_00054_num001296.jpg"
+    ],
+    "original_frame_number": [
+      1104,
+      1152,
+      1200,
+      1248,
+      1296
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Processing by",
+    "name": "HUMPHRIES LABORATORIES",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00046_num001104.jpg",
+      "naive_00048_num001152.jpg",
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg",
+      "naive_00054_num001296.jpg"
+    ],
+    "original_frame_number": [
+      1104,
+      1152,
+      1200,
+      1248,
+      1296
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Archive Sources",
+    "name": "BUNDESARCHIV KOBLENZ",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00048_num001152.jpg"
+    ],
+    "original_frame_number": [
+      1152
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Archive Sources",
+    "name": "E.M.I. PATHE",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00048_num001152.jpg",
+      "naive_00050_num001200.jpg",
+      "naive_00052_num001248.jpg"
+    ],
+    "original_frame_number": [
+      1152,
+      1200,
+      1248
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "In co-operation with",
+    "name": "THE IMPERIAL WAR MUSEUM",
+    "role_group": "Miscellaneous Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Miscellaneous Companies",
+    "source_frame": [
+      "naive_00055_num001320.jpg",
+      "naive_00057_num001368.jpg",
+      "naive_00059_num001416.jpg"
+    ],
+    "original_frame_number": [
+      1320,
+      1368,
+      1416
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "Produced by",
+    "name": "JEREMY ISAACS",
+    "role_group": "Producers",
+    "secondary_role_group": null,
+    "is_person": true,
+    "role_group_normalized": "Producers",
+    "source_frame": [
+      "naive_00062_num001488.jpg",
+      "naive_00064_num001536.jpg",
+      "naive_00066_num001584.jpg",
+      "naive_00068_num001632.jpg",
+      "naive_00070_num001680.jpg",
+      "naive_00072_num001728.jpg"
+    ],
+    "original_frame_number": [
+      1488,
+      1536,
+      1584,
+      1632,
+      1680,
+      1728
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  },
+  {
+    "role_detail": "COLOUR PRODUCTION",
+    "name": "THAMES",
+    "role_group": "Production Companies",
+    "secondary_role_group": null,
+    "is_person": false,
+    "role_group_normalized": "Production Companies",
+    "source_frame": [
+      "naive_00074_num001776.jpg",
+      "naive_00076_num001824.jpg",
+      "naive_00078_num001872.jpg",
+      "naive_00080_num001920.jpg",
+      "naive_00082_num001968.jpg",
+      "naive_00084_num002016.jpg",
+      "naive_00086_num002064.jpg",
+      "naive_00088_num002112.jpg",
+      "naive_00090_num002160.jpg",
+      "naive_00092_num002208.jpg",
+      "naive_00094_num002256.jpg"
+    ],
+    "original_frame_number": [
+      1776,
+      1824,
+      1872,
+      1920,
+      1968,
+      2016,
+      2064,
+      2112,
+      2160,
+      2208,
+      2256
+    ],
+    "scene_position": "unknown",
+    "metadata": {
+      "timestamp": "2026-07-28T04:00:21.787452+00:00",
+      "model": "gpt-5.6-sol",
+      "api_version": "2025-04-01-preview"
+    }
+  }
+]
