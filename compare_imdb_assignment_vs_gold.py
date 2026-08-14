@@ -1,39 +1,61 @@
 """
-Valuta la CORRETTEZZA dell'assegnazione IMDB fatta da GPT_SOL_STANDARD, per ogni
-soglia fuzzy disponibile (84/86/88/90/92/94), rispetto all'INTERO gold standard
-(tutte le righe is_person=True), con metriche Precision/Recall/F1 in stile
-compare_llm_human_metrics.py. Due tabelle separate: gold a 20 prodotti e gold
-di validazione a 5 prodotti.
+Valuta la CORRETTEZZA dell'estrazione e dell'assegnazione IMDB (entity linking),
+per ogni soglia fuzzy disponibile nel gold (es. 84/86/88/90/92/94), rispetto
+all'intero gold standard (tutte le righe is_person=True), con metriche
+Precision/Recall/F1 allineate a compare_llm_human_metrics.py.
 
-NOTA sulle soglie 84/86: il gold ha colonne nome_corretto_imdb_{N} solo per
-N in [88, 90, 92, 94, 96, 98, 99] (le uniche soglie con cui e' stato costruito).
-Per le righe FUZZY84/FUZZY86 (create da scripts_v3/create_lower_threshold_dbs.py)
-non esiste quindi una colonna dedicata: si usa come riferimento la soglia
-disponibile piu' bassa (88), la piu' vicina/permissiva a 84 e 86.
+Quattro tabelle separate:
+  1. Gold standard 20 prodotti - No Role (chiave: episodio, nome)
+  2. Gold standard 20 prodotti - With Role (chiave: episodio, nome, role_group)
+  3. Gold standard di validazione a 5 prodotti - No Role
+  4. Gold standard di validazione a 5 prodotti - With Role
 
-Per ogni riga del gold (episodio, nome normalizzato) si definisce:
-  - gold_value: nome_corretto_imdb_{soglia} normalizzato ("" se il gold stesso
-    non ha un match valido a quella soglia).
-  - pred_value: imdb_name normalizzato assegnato dalla pipeline LLM per quella
-    riga (assente/"" se non e' stato trovato un match reale).
+La prima riga di ciascuna tabella riporta il benchmark "Exact Match" calcolato
+tramite compare_llm_human_metrics.py (pura estrazione testuale prima del linking).
 
-E si contano TP/FP/FN cosi':
-  - HUMAN override presente in gold (colonna "HUMAN nome/codice imdb corretto"
-    valorizzata): un umano ha dovuto correggere l'automatismo del gold, quindi
-    nome_corretto_imdb_{soglia} non e' affidabile li' e la riga conta sempre
-    come un errore -> FN (se la pipeline non ha assegnato nulla) oppure FP+FN
-    (se ha assegnato qualcosa, comunque sbagliato per definizione).
-  - gold_value non vuoto (un match corretto e' atteso):
-      pred_value == gold_value          -> TP
-      pred_value non vuoto ma diverso   -> FP + FN (match sbagliato)
-      pred_value vuoto, ma il nome normalizzato del credito == gold_value
-                                         -> TP (match testuale "di fallback",
-                                            corretto anche senza collegamento IMDB)
-      pred_value vuoto e nome diverso   -> FN (mancato)
-  - gold_value vuoto (il gold stesso non ha un match valido a quella soglia):
-      pred_value non vuoto              -> FP (assegnazione spuria)
-      pred_value vuoto                  -> vero negativo, non conteggiato
-                                            (non entra in P/R/F1)
+SOGLIE ASSENTI:
+  Se un export LLM fa riferimento a una soglia non presente nelle colonne del
+  gold standard (nome_corretto_imdb_{N}), la soglia viene saltata (nessun fallback
+  artificiale alla 88).
+
+VALORE CANDIDATO LLM:
+  Per ogni credito estratto dal modello:
+    - se imdb_name e' presente ed ha un valore, si usa imdb_name normalizzato;
+    - altrimenti si ricade su normalized_name del modello (mai su 'name' grezzo).
+
+GERARCHIA DI MATCHING PER LA SOGLIA S:
+  1. Ramo Standard (imdb_nconst_S vuoto nel Gold):
+     L'automatismo non ha trovato codici IMDb nel gold.
+     Target = normalized_name del Gold.
+     - candidate == gold_normalized_name -> TP
+     - candidate != gold_normalized_name -> FP + FN
+     - credito non estratto da LLM       -> FN
+
+  2. Ramo con Match IMDb nel Gold (imdb_nconst_S presente nel Gold):
+     2.1 Sottocaso "Assente" (HUMAN nome imdb corretto == "Assente"):
+         L'umano ha certificato che la persona reale non e' presente su IMDb e che
+         il codice trovato dall'automatismo del gold era errato.
+         - se l'export LLM contiene imdb_name valorizzato -> FP + FN (match errato)
+         - se l'export LLM NON contiene imdb_name (vuoto):
+           - llm.normalized_name == gold.normalized_name -> TP
+           - llm.normalized_name != gold.normalized_name -> FP + FN
+           - credito non estratto da LLM                 -> FN
+     2.2 Sottocaso Correzione Umana con Codice Diverso (HUMAN codice != imdb_nconst_S):
+         Target = HUMAN nome imdb corretto.
+         - candidate == human_target -> TP
+         - candidate != human_target -> FP + FN
+         - credito non estratto       -> FN
+     2.3 Sottocaso Codice Umano Uguale o Campi HUMAN Vuoti (HUMAN codice == imdb_nconst_S o vuoto):
+         Target = nome_corretto_imdb_S.
+         - candidate == nome_corretto_imdb_S -> TP
+         - candidate != nome_corretto_imdb_S -> FP + FN
+         - credito non estratto              -> FN
+
+FALSI POSITIVI PURI:
+  Tutti i crediti estratti dal modello per gli episodi valutati che non trovano
+  alcuna corrispondenza nel Gold Standard (crediti spuri o allucinati) vengono
+  conteggiati come FP puri (FP += 1), garantendo che nessun credito venga contato
+  due volte.
 
 Usage:
     python compare_imdb_assignment_vs_gold.py
@@ -54,9 +76,6 @@ EXPORTS_DIR = ROOT / "exports"
 FUZZY_GLOB = "FUZZY*_GPT_SOL_STANDARD_*.csv"
 FUZZY_PREFIX_RE = re.compile(r"^FUZZY(\d+)_(.+?)_\d+products", re.IGNORECASE)
 
-# Stesso alias noto usato in compare_llm_human_metrics.py: il gold usa
-# "8 1-2"/"3 Percent" (senza suffisso episodio) per due prodotti il cui
-# episode_id lato LLM e' invece "8_e_mezzo"/"3_Percent_S01E06_*".
 EPISODE_ALIASES = {
     "8 1 2": "8 e mezzo",
     "3 percent": "3 percent s01e06",
@@ -80,31 +99,42 @@ def is_truthy(value) -> bool:
 
 
 def norm_imdb_name(value) -> str:
-    """Normalizza un nome IMDB (o un nome grezzo) per il confronto, modalita' persona."""
+    """Normalizza un nome per il confronto usando la pipeline standard del progetto."""
     if not value:
         return ""
-    return normalize_name(str(value), is_person=True)
+    clean = strip_parentheticals(str(value).strip())
+    return normalize_name(clean, is_person=True)
 
 
 def model_label_from_filename(fname: str) -> str:
     m = FUZZY_PREFIX_RE.match(fname)
     if not m:
         return fname
-    label = m.group(2)
+    key = m.group(2)
+    label = cllm.MODEL_LABELS.get(key, cllm.MODEL_LABELS.get(key.lower(), key))
     if re.search(r"old[_ ]prompt", fname, re.IGNORECASE):
         label = f"{label} OLD PROMPT"
+    if fname.upper().startswith("NAIVE_"):
+        label = f"{label} NAIVE"
     return label
 
 
-def load_gold_index(gold_path: Path):
+def load_gold_index(gold_path: Path, with_role: bool = False):
     """Ritorna (index, thresholds):
-    index: dict (episodio_canonico, nome_normalizzato) -> {
-        'has_human_override': bool,
-        <soglia_int>: nome_corretto_imdb_<soglia> normalizzato, per ogni soglia trovata
+    index: dict con chiave (episodio_canonico, nome_normalizzato) se
+    with_role=False, altrimenti (episodio_canonico, nome_normalizzato,
+    role_group_normalizzato) -> {
+        'gold_normalized_name': str,
+        'human_nome': str,
+        'human_code': str,
+        'raw_role_group': str,
+        'nconst_<soglia>': str,
+        'nome_<soglia>': str,
     }
-    Su chiave duplicata tiene la prima riga e conta la collisione."""
+    """
     index = {}
     dupes = 0
+    key_desc = "(episodio, nome, role_group)" if with_role else "(episodio, nome)"
     with gold_path.open(encoding="utf-8-sig", newline="") as f:
         reader = csv.DictReader(f, delimiter=";")
         threshold_cols = sorted(
@@ -115,26 +145,43 @@ def load_gold_index(gold_path: Path):
             if not is_truthy(row.get("is_person")):
                 continue
             ep = canon_episode(row.get("numero_episodio"))
-            name = norm_imdb_name(row.get("nome"))
-            if not name:
+            if not ep or not cllm.episode_allowed(ep):
                 continue
-            key = (ep, name)
+            gold_norm = norm_imdb_name(row.get("normalized_name")) or norm_imdb_name(row.get("nome"))
+            if not gold_norm:
+                continue
+            role_norm = cllm.norm_role_group(row.get("role_group"))
+            key = (ep, gold_norm, role_norm) if with_role else (ep, gold_norm)
             if key in index:
                 dupes += 1
                 continue
-            human_override = bool((row.get("HUMAN nome imdb corretto") or "").strip()) or \
-                bool((row.get("HUMAN codice imdb corretto") or "").strip())
-            entry = {"has_human_override": human_override}
+            entry = {
+                "gold_normalized_name": gold_norm,
+                "human_nome": (row.get("HUMAN nome imdb corretto") or "").strip(),
+                "human_code": (row.get("HUMAN codice imdb corretto") or "").strip(),
+            }
+            if with_role:
+                entry["raw_role_group"] = (row.get("role_group") or "").strip()
             for t in threshold_cols:
-                entry[t] = norm_imdb_name(row.get(f"nome_corretto_imdb_{t}"))
+                entry[f"nconst_{t}"] = (row.get(f"imdb_nconst_{t}") or "").strip()
+                entry[f"nome_{t}"] = norm_imdb_name(row.get(f"nome_corretto_imdb_{t}"))
             index[key] = entry
     if dupes:
-        print(f"[AVVISO] {dupes} righe gold con chiave (episodio, nome) duplicata in {gold_path.name} - tenuta solo la prima")
+        print(f"[AVVISO] {dupes} righe gold con chiave {key_desc} duplicata in {gold_path.name} - tenuta solo la prima")
     return index, threshold_cols
 
 
-def load_llm_index(path: Path) -> dict:
-    """dict (episodio_canonico, nome_normalizzato) -> imdb_name (stringa, puo' essere vuota)."""
+def load_llm_index(path: Path, with_role: bool = False) -> dict:
+    """Carica le predizioni LLM indicizzate per (ep, norm_name) o (ep, norm_name, role_norm).
+    Ritorna dict: key -> {
+        'candidate': str (imdb_name se valorizzato, altrimenti normalized_name),
+        'imdb_name': str (norm_imdb_name del campo imdb_name),
+        'normalized_name': str (norm_imdb_name del campo normalized_name),
+        'raw_imdb_name': str,
+        'role_group': str,
+        'episode': str
+    }
+    """
     index = {}
     with path.open(encoding="utf-8", newline="") as f:
         reader = csv.DictReader(f)
@@ -142,96 +189,162 @@ def load_llm_index(path: Path) -> dict:
             if not is_truthy(row.get("is_person")):
                 continue
             ep = canon_episode(row.get("episode_id"))
-            name = strip_parentheticals((row.get("normalized_name") or "").strip().lower())
-            if not name:
+            if not ep or not cllm.episode_allowed(ep):
                 continue
-            key = (ep, name)
-            if key not in index:
-                index[key] = (row.get("imdb_name") or "").strip()
+            norm_name = norm_imdb_name(row.get("normalized_name")) or norm_imdb_name(row.get("name"))
+            if not norm_name:
+                continue
+            role_norm = cllm.norm_role_group(row.get("role_group_normalized"))
+            key = (ep, norm_name, role_norm) if with_role else (ep, norm_name)
+
+            imdb_raw = (row.get("imdb_name") or "").strip()
+            imdb_norm = norm_imdb_name(imdb_raw) if imdb_raw else ""
+            candidate = imdb_norm if imdb_norm else norm_name
+
+            if key not in index or (not index[key]["imdb_name"] and imdb_norm):
+                index[key] = {
+                    "candidate": candidate,
+                    "imdb_name": imdb_norm,
+                    "normalized_name": norm_name,
+                    "raw_imdb_name": imdb_raw,
+                    "role_group": role_norm,
+                    "episode": ep,
+                }
     return index
 
 
-def closest_gold_threshold(gold_thresholds, threshold: int) -> int:
-    """Soglia del gold da usare come riferimento per `threshold`: quella esatta
-    se esiste, altrimenti la piu' alta disponibile <= threshold, altrimenti
-    (soglie richieste piu' basse di qualunque colonna nel gold, es. 84/86) la
-    piu' bassa disponibile in assoluto."""
-    if threshold in gold_thresholds:
-        return threshold
-    lower_or_equal = [t for t in gold_thresholds if t <= threshold]
-    if lower_or_equal:
-        return max(lower_or_equal)
-    return min(gold_thresholds)
+def evaluate_file(path: Path, threshold: int, gold_path: Path, with_role: bool = False) -> dict | None:
+    """Valuta un file di export LLM alla soglia specificata usando la formulazione insiemistica.
+    Ritorna None se la soglia non e' presente tra le colonne del gold (skip).
+    """
+    gold_targets = set()
+    gold_episodes = set()
+    gold_details = {}  # key -> dict di dettagli per gli esempi
 
+    with gold_path.open(encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f, delimiter=";")
+        threshold_cols = {
+            int(m.group(1)) for c in (reader.fieldnames or [])
+            for m in [re.match(r"nome_corretto_imdb_(\d+)", c)] if m
+        }
+        if threshold not in threshold_cols:
+            return None
 
-def evaluate_file(path: Path, threshold: int, gold_index: dict, gold_lookup_threshold: int = None) -> dict:
-    """`threshold` e' la soglia fuzzy usata per generare `path` (per i log);
-    `gold_lookup_threshold` e' la colonna nome_corretto_imdb_{N} del gold da
-    usare come riferimento (vedi closest_gold_threshold) - di norma coincide
-    con `threshold`, tranne per le soglie assenti dal gold (84/86)."""
-    if gold_lookup_threshold is None:
-        gold_lookup_threshold = threshold
-    tp = fp = fn = 0
-    no_gold_threshold = 0
-    fp_examples = []
-    fn_examples = []
+        for row in reader:
+            if not is_truthy(row.get("is_person")):
+                continue
+            ep = canon_episode(row.get("numero_episodio"))
+            if not ep or not cllm.episode_allowed(ep):
+                continue
+            gold_episodes.add(ep)
 
-    llm_index = load_llm_index(path)
+            gold_norm = norm_imdb_name(row.get("normalized_name")) or norm_imdb_name(row.get("nome"))
+            if not gold_norm:
+                continue
+            role_norm = cllm.norm_role_group(row.get("role_group"))
+            raw_role = (row.get("role_group") or "").strip()
 
-    for (ep, name), gold_entry in gold_index.items():
-        gold_value = gold_entry.get(gold_lookup_threshold)
-        if gold_value is None:
-            no_gold_threshold += 1
-            continue
+            nconst = (row.get(f"imdb_nconst_{threshold}") or "").strip()
+            nome_imdb = norm_imdb_name(row.get(f"nome_corretto_imdb_{threshold}"))
+            human_nome = (row.get("HUMAN nome imdb corretto") or "").strip()
+            human_code = (row.get("HUMAN codice imdb corretto") or "").strip()
 
-        imdb_name = llm_index.get((ep, name), "")
-        pred_value = norm_imdb_name(imdb_name) if imdb_name else ""
-
-        if gold_entry.get("has_human_override"):
-            fn += 1
-            fn_examples.append((name, imdb_name or "(nessuno)", "HUMAN override present in gold"))
-            if pred_value:
-                fp += 1
-                fp_examples.append((name, imdb_name, "HUMAN override present in gold"))
-            continue
-
-        if gold_value:
-            if pred_value == gold_value:
-                tp += 1
-            elif pred_value:
-                fp += 1
-                fn += 1
-                fp_examples.append((name, imdb_name, gold_value))
-                fn_examples.append((name, imdb_name, gold_value))
-            elif name == gold_value:
-                tp += 1
+            # Gerarchia di determinazione del target
+            if not nconst or human_nome.strip().lower() == "assente":
+                target = gold_norm
+            elif human_code and human_code != nconst:
+                target = norm_imdb_name(human_nome)
             else:
-                fn += 1
-                fn_examples.append((name, "(nessun match IMDB assegnato)", gold_value))
-        else:
-            if pred_value:
-                fp += 1
-                fp_examples.append((name, imdb_name, "(gold: nessun match atteso)"))
-            # pred_value vuoto e gold_value vuoto -> vero negativo, non conteggiato
+                target = nome_imdb
+
+            key = (ep, target, role_norm) if with_role else (ep, target)
+            gold_targets.add(key)
+            gold_details[key] = {
+                "gold_norm": gold_norm,
+                "target": target,
+                "role_group": raw_role,
+                "episode": ep,
+            }
+
+    llm_candidates = set()
+    llm_details = {}  # key -> dict di dettagli per gli esempi
+
+    with path.open(encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            if not is_truthy(row.get("is_person")):
+                continue
+            ep = canon_episode(row.get("episode_id"))
+            if not ep or not cllm.episode_allowed(ep) or ep not in gold_episodes:
+                continue
+
+            norm_name = norm_imdb_name(row.get("normalized_name")) or norm_imdb_name(row.get("name"))
+            if not norm_name:
+                continue
+            role_norm = cllm.norm_role_group(row.get("role_group_normalized"))
+            raw_role = (row.get("role_group_normalized") or "").strip()
+
+            imdb_raw = (row.get("imdb_name") or "").strip()
+            imdb_norm = norm_imdb_name(imdb_raw) if imdb_raw else ""
+            candidate = imdb_norm if imdb_norm else norm_name
+
+            key = (ep, candidate, role_norm) if with_role else (ep, candidate)
+            llm_candidates.add(key)
+            llm_details[key] = {
+                "candidate": candidate,
+                "norm_name": norm_name,
+                "imdb_name": imdb_norm,
+                "role_group": raw_role,
+                "episode": ep,
+            }
+
+    tp_set = gold_targets & llm_candidates
+    fp_set = llm_candidates - gold_targets
+    fn_set = gold_targets - llm_candidates
+
+    tp = len(tp_set)
+    fp = len(fp_set)
+    fn = len(fn_set)
+
+    fp_examples = []
+    for key in list(fp_set)[:10]:
+        det = llm_details.get(key, {})
+        name = det.get("norm_name", key[1])
+        rg = det.get("role_group", "")
+        cand = det.get("candidate", key[1])
+        fp_examples.append((name, rg, cand, "(non corrisponde a nessun target del gold)"))
+
+    fn_examples = []
+    for key in list(fn_set)[:10]:
+        det = gold_details.get(key, {})
+        name = det.get("gold_norm", key[1])
+        rg = det.get("role_group", "")
+        target = det.get("target", key[1])
+        fn_examples.append((name, rg, "(non estratto/non collegato)", target))
 
     return {
         "tp": tp,
         "fp": fp,
         "fn": fn,
-        "no_gold_threshold": no_gold_threshold,
         "fp_examples": fp_examples,
         "fn_examples": fn_examples,
     }
 
 
-def exact_match_row_for_model(label: str, fuzzy88_path: Path, gold_path: Path, episode_scope: str):
-    """Riusa compare_llm_human_metrics.py per calcolare l'Exact Match "No Role"
-    (nome normalizzato, senza collegamento IMDB) esattamente come fa quello
-    script: stessa normalizzazione, stesso file FUZZY88 (l'estrazione dei nomi
-    non cambia al variare della soglia fuzzy usata solo per il linking IMDB),
-    stesso gold set "human" grezzo (non imdbizzato).
-    episode_scope: 'main' (esclude i 5 prodotti di validazione) oppure
-    'validation5' (solo i 5 prodotti di validazione)."""
+def print_examples(title: str, examples: list, with_role: bool):
+    if not examples:
+        return
+    print(f"  {title} (fino a 5):")
+    for ex in examples[:5]:
+        name, rg, llm_val, gold_val = ex
+        if with_role:
+            print(f"    '{name}' [{rg}]: LLM='{llm_val}' vs gold='{gold_val}'")
+        else:
+            print(f"    '{name}': LLM='{llm_val}' vs gold='{gold_val}'")
+
+
+def exact_match_row_for_model(label: str, fuzzy88_path: Path, gold_path: Path, episode_scope: str,
+                              with_role: bool = False):
     pred_triples, pred_episodes = cllm.load_pred(fuzzy88_path)
     if episode_scope == "main":
         scoped_pred_episodes = pred_episodes - cllm.VALIDATION5_EPISODES
@@ -242,9 +355,8 @@ def exact_match_row_for_model(label: str, fuzzy88_path: Path, gold_path: Path, e
     gold_episodes = {t[0] for t in gold_triples}
 
     rows = cllm.evaluate_model(label, pred_triples, scoped_pred_episodes, gold_triples, gold_episodes)
-    # rows[0] = "No Role". Slice invece di unpack completo: evaluate_model puo'
-    # aggiungere colonne in coda (es. raw_calls) senza rompere questo chiamante.
-    tp, fp, fn, p, r, f1 = rows[0][4:10]
+    row = rows[1] if with_role else rows[0]
+    tp, fp, fn, p, r, f1 = row[4:10]
     return tp, fp, fn, p, r, f1
 
 
@@ -256,8 +368,6 @@ def compute_prf(tp: int, fp: int, fn: int):
 
 
 def print_and_save_table(rows, out_path: Path):
-    """Stampa tabella con colonne allineate, migliore valore per colonna in
-    grassetto (ANSI). Stesso stile di compare_llm_human_metrics.py. Salva CSV."""
     header = ["Model", "Threshold", "TP", "FP", "FN", "Precision", "Recall", "F1"]
     numeric_cols = {"TP", "FP", "FN", "Precision", "Recall", "F1"}
     lower_is_better = {"FP", "FN"}
@@ -279,12 +389,16 @@ def print_and_save_table(rows, out_path: Path):
     ]
 
     best_idx_per_col = {col: set() for col in numeric_cols}
-    for col in numeric_cols:
-        if not raw_values:
-            continue
-        pick = min if col in lower_is_better else max
-        best_i = pick(range(len(raw_values)), key=lambda i: raw_values[i][col])
-        best_idx_per_col[col].add(best_i)
+    row_modes = ["Exact Match" if v["Threshold"] == "Exact Match" else "Fuzzy" for v in raw_values]
+    modes = set(row_modes)
+    for mode in modes:
+        idxs = [i for i, m in enumerate(row_modes) if m == mode]
+        for col in numeric_cols:
+            if not idxs:
+                continue
+            pick = min if col in lower_is_better else max
+            best_i = pick(idxs, key=lambda i: raw_values[i][col])
+            best_idx_per_col[col].add(best_i)
 
     def fmt_row(cells, row_idx=None):
         parts = []
@@ -310,16 +424,19 @@ def print_and_save_table(rows, out_path: Path):
 
 
 def run_evaluation(gold_path: Path, table_title: str, out_csv_name: str,
-                    exact_match_gold_path: Path, exact_match_scope: str):
+                   exact_match_gold_path: Path, exact_match_scope: str,
+                   with_role: bool = False):
     if not gold_path.exists():
         print(f"[ERRORE] Gold file non trovato: {gold_path}", file=sys.stderr)
         return
 
-    gold_index, gold_thresholds = load_gold_index(gold_path)
+    key_desc = "(episodio, target, role_group)" if with_role else "(episodio, target)"
+    mode_name = "With Role" if with_role else "No Role"
+    gold_index, gold_thresholds = load_gold_index(gold_path, with_role)
     print(f"\n\n{'#' * 90}")
-    print(f"# {table_title}")
+    print(f"# {table_title}  [chiave {key_desc}]")
     print(f"{'#' * 90}")
-    print(f"Gold index: {len(gold_index)} (episodio, nome) unici [is_person], soglie disponibili nel gold: {gold_thresholds}")
+    print(f"Gold standard: {len(gold_index)} voci uniche [is_person], soglie disponibili nel gold: {gold_thresholds}")
 
     fuzzy_files = sorted(EXPORTS_DIR.glob(FUZZY_GLOB))
     if not fuzzy_files:
@@ -328,49 +445,40 @@ def run_evaluation(gold_path: Path, table_title: str, out_csv_name: str,
 
     sortable_rows = []
 
-    # Riga "Exact Match": stesso calcolo No-Role di compare_llm_human_metrics.py
-    # (nome normalizzato senza collegamento IMDB), indipendente dalla soglia
-    # fuzzy - usa il file FUZZY88 come riferimento per l'estrazione dei nomi,
-    # esattamente come fa quello script.
+    # Riga "Exact Match"
     fuzzy88_files = [p for p in fuzzy_files if p.name.startswith("FUZZY88_")]
     if fuzzy88_files:
         path = fuzzy88_files[0]
         label = model_label_from_filename(path.name)
         tp, fp, fn, precision, recall, f1 = exact_match_row_for_model(
-            label, path, exact_match_gold_path, exact_match_scope
+            label, path, exact_match_gold_path, exact_match_scope, with_role
         )
         sortable_rows.append((label, -1, "Exact Match", tp, fp, fn, precision, recall, f1))
-        print(f"\nExact Match (No Role, no IMDB - via compare_llm_human_metrics.py, {path.name})")
+        print(f"\nExact Match ({mode_name}, no IMDB - via compare_llm_human_metrics.py, {path.name})")
         print(f"  TP: {tp}, FP: {fp}, FN: {fn}, P: {precision:.4f}, R: {recall:.4f}, F1: {f1:.4f}")
 
     for path in fuzzy_files:
         m = FUZZY_PREFIX_RE.match(path.name)
         if not m:
-            print(f"[SKIP] {path.name}: nome file non nel formato FUZZY<soglia>_<modello>_<N>products")
+            print(f"[SKIP] {path.name}: formato nome file non riconosciuto")
             continue
         threshold = int(m.group(1))
         label = model_label_from_filename(path.name)
 
-        gold_lookup_threshold = closest_gold_threshold(gold_thresholds, threshold)
-        result = evaluate_file(path, threshold, gold_index, gold_lookup_threshold)
+        result = evaluate_file(path, threshold, gold_path, with_role)
+        if result is None:
+            print(f"\n[SKIP] {path.name}: soglia {threshold} assente nel gold {gold_path.name}")
+            continue
+
         precision, recall, f1 = compute_prf(result["tp"], result["fp"], result["fn"])
         sortable_rows.append((label, threshold, str(threshold), result["tp"], result["fp"], result["fn"],
                                precision, recall, f1))
 
         print(f"\n{path.name}")
-        if gold_lookup_threshold != threshold:
-            print(f"  [NOTA] soglia {threshold} assente nel gold - uso nome_corretto_imdb_{gold_lookup_threshold} come riferimento")
         print(f"  TP: {result['tp']}, FP: {result['fp']}, FN: {result['fn']}, "
-              f"soglia assente nel gold: {result['no_gold_threshold']}, "
               f"P: {precision:.4f}, R: {recall:.4f}, F1: {f1:.4f}")
-        if result["fp_examples"]:
-            print(f"  Esempi FP (fino a 5):")
-            for name, llm_val, gold_val in result["fp_examples"][:5]:
-                print(f"    '{name}': LLM='{llm_val}' vs gold='{gold_val}'")
-        if result["fn_examples"]:
-            print(f"  Esempi FN (fino a 5):")
-            for name, llm_val, gold_val in result["fn_examples"][:5]:
-                print(f"    '{name}': LLM='{llm_val}' vs gold='{gold_val}'")
+        print_examples("Esempi FP", result["fp_examples"], with_role)
+        print_examples("Esempi FN", result["fn_examples"], with_role)
 
     sortable_rows.sort(key=lambda r: (r[0], r[1]))
     rows = [(label, threshold_display, tp, fp, fn, p, r, f1)
@@ -380,11 +488,19 @@ def run_evaluation(gold_path: Path, table_title: str, out_csv_name: str,
 
 def main():
     run_evaluation(GOLD_20_PATH, "GOLD STANDARD 20 PRODOTTI",
-                    "imdb_assignment_prf_vs_gold_20_products.csv",
-                    exact_match_gold_path=cllm.HUMAN_PATH, exact_match_scope="main")
+                   "imdb_assignment_prf_vs_gold_20_products.csv",
+                   exact_match_gold_path=cllm.HUMAN_PATH, exact_match_scope="main")
     run_evaluation(GOLD_5_PATH, "GOLD STANDARD 5 PRODOTTI (validazione)",
-                    "imdb_assignment_prf_vs_gold_validation5.csv",
-                    exact_match_gold_path=cllm.VALIDATION5_GOLD_PATH, exact_match_scope="validation5")
+                   "imdb_assignment_prf_vs_gold_validation5.csv",
+                   exact_match_gold_path=cllm.VALIDATION5_GOLD_PATH, exact_match_scope="validation5")
+    run_evaluation(GOLD_20_PATH, "GOLD STANDARD 20 PRODOTTI",
+                   "imdb_assignment_prf_vs_gold_with_role_20_products.csv",
+                   exact_match_gold_path=cllm.HUMAN_PATH, exact_match_scope="main",
+                   with_role=True)
+    run_evaluation(GOLD_5_PATH, "GOLD STANDARD 5 PRODOTTI (validazione)",
+                   "imdb_assignment_prf_vs_gold_with_role_validation5.csv",
+                   exact_match_gold_path=cllm.VALIDATION5_GOLD_PATH, exact_match_scope="validation5",
+                   with_role=True)
 
 
 if __name__ == "__main__":
