@@ -1,5 +1,12 @@
 # FilmoCredit - Installation Guide
 
+-----------
+
+## Data and code archive for the paper: https://doi.org/10.5281/zenodo.22518893
+
+-----------
+
+
 ## 🚀 Install
 
 1. Download `install.sh` (Linux/macOS) or `install.ps1` (Windows) from https://raw.githubusercontent.com/guglielmopescatore/filmocredit-pipeline/refactoring-monorepo/
