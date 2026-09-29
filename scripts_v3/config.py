@@ -57,6 +57,11 @@ VLM_OCR_DIR_DEFAULT: Final[str] = "ocr"
 NAIVE_ANALYSIS_DIR_NAME: Final[str] = "naive_analysis"
 NAIVE_FRAME_INTERVAL_SECONDS: Final[float] = 0.8
 
+# Scrolling scenes (Step 2): upper bound on the frame interval between two saved
+# frames. Keeps sampling dense for slow scrolls and for parallax backgrounds that
+# lower the measured scroll velocity. 150 frames ~ 6 seconds at 24fps.
+SCROLL_MAX_FRAMES_PER_SAVE: Final[int] = 150
+
 
 def get_frames_dir(episode_id: str, naive_mode: bool = False) -> Path:
     """Directory holding the frames Step 3 (VLM OCR) reads for an episode.

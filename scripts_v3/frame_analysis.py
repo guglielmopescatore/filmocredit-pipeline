@@ -634,10 +634,7 @@ def analyze_candidate_scene_frames(
             frames_per_save_raw = pixels_to_scroll_before_save / scroll_pixels_per_frame if scroll_pixels_per_frame > 0 else 1
             
             # Cap frames_per_save to ensure reasonable sampling density even for slow scrolls
-            # Maximum 150 frames (~6 seconds at 24fps) to ensure we capture credits adequately
-            # This protects against parallax backgrounds that can reduce measured scroll velocity
-            MAX_FRAMES_PER_SAVE = 150
-            frames_per_save = max(1, min(int(round(frames_per_save_raw)), MAX_FRAMES_PER_SAVE))
+            frames_per_save = max(1, min(int(round(frames_per_save_raw)), config.SCROLL_MAX_FRAMES_PER_SAVE))
             
             analysis_info["save_interval_frames"] = int(frames_per_save)
             analysis_info["save_interval_frames_uncapped"] = int(round(frames_per_save_raw))
