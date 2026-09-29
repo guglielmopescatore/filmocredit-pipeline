@@ -318,14 +318,25 @@ if st.sidebar.button("Save Stopwords", key="save_stopwords_button_key_v3"):
     st.sidebar.success("Stopwords saved!")
 
 config.RAW_VIDEO_DIR.mkdir(parents=True, exist_ok=True)
-allowed_extensions = (".mp4", ".mkv", ".avi", ".mov")
+allowed_extensions = (".mp4", ".mkv", ".avi", ".mov", ".webm")
+
+# Each subfolder of data/raw is a corpus; videos directly in data/raw are used
+# only when no corpus folder exists.
+st.sidebar.header("Corpus")
+corpus_names = sorted(d.name for d in config.RAW_VIDEO_DIR.iterdir() if d.is_dir())
+if corpus_names:
+    selected_corpus = st.sidebar.selectbox("Select corpus:", options=corpus_names, key="corpus_selector")
+    video_dir = config.RAW_VIDEO_DIR / selected_corpus
+else:
+    video_dir = config.RAW_VIDEO_DIR
+
 try:
     video_files_paths = sorted(
-        [f for f in config.RAW_VIDEO_DIR.iterdir() if f.is_file() and f.suffix.lower() in allowed_extensions]
+        [f for f in video_dir.iterdir() if f.is_file() and f.suffix.lower() in allowed_extensions]
     )
 except FileNotFoundError:
     video_files_paths = []
-    st.warning(f"Video directory {config.RAW_VIDEO_DIR} not found. Please create it and add videos.")
+    st.warning(f"Video directory {video_dir} not found. Please create it and add videos.")
 
 st.sidebar.header("Analysis Mode")
 
@@ -471,9 +482,9 @@ if show_video_preview and st.session_state.selected_video_for_preview:
         st.sidebar.error(f"Error loading video preview: {e}")
 elif show_video_preview and not st.session_state.selected_video_for_preview:
     if not video_files_paths:
-        st.sidebar.info(f"No videos found in '{config.RAW_VIDEO_DIR}'. Add videos to enable preview.")
+        st.sidebar.info(f"No videos found in '{video_dir}'. Add videos to enable preview.")
     else:
-        st.sidebar.info("Select a video from 'data/raw' to enable preview.")
+        st.sidebar.info(f"Select a video from '{video_dir.name}' to enable preview.")
 elif not show_video_preview:
     st.sidebar.info("💡 Check 'Enable Video Preview' above to load and display the selected video.")
 
@@ -554,7 +565,7 @@ if st.session_state.current_tab == 0:
 
     if not video_files_paths:
         st.warning(
-            f"No video files found in {config.RAW_VIDEO_DIR}. Please add videos with extensions: {', '.join(allowed_extensions)}"
+            f"No video files found in {video_dir}. Please add videos with extensions: {', '.join(allowed_extensions)}"
         )
         selected_videos_str_paths = []
     else:
@@ -563,21 +574,21 @@ if st.session_state.current_tab == 0:
         with col1:
             if st.button("✅ Select All", key="select_all_videos"):
                 for video_file_path_obj in video_files_paths:
-                    st.session_state[f"vid_select_{video_file_path_obj.name}_v3"] = True
+                    st.session_state[f"vid_select_{video_dir.name}_{video_file_path_obj.name}_v3"] = True
                 st.rerun()
 
         with col2:
             if st.button("❌ Deselect All", key="deselect_all_videos"):
                 for video_file_path_obj in video_files_paths:
-                    st.session_state[f"vid_select_{video_file_path_obj.name}_v3"] = False
+                    st.session_state[f"vid_select_{video_dir.name}_{video_file_path_obj.name}_v3"] = False
                 st.rerun()
 
-        st.write("Select videos from `data/raw` to include in the batch:")
+        st.write(f"Select videos from `{video_dir.name}` to include in the batch:")
 
         # Video selection checkboxes
         selected_videos_str_paths = []
         for video_file_path_obj in video_files_paths:
-            if st.checkbox(video_file_path_obj.name, key=f"vid_select_{video_file_path_obj.name}_v3"):
+            if st.checkbox(video_file_path_obj.name, key=f"vid_select_{video_dir.name}_{video_file_path_obj.name}_v3"):
                 selected_videos_str_paths.append(str(video_file_path_obj))
 
     if not selected_videos_str_paths:
@@ -3245,7 +3256,7 @@ elif st.session_state.current_tab == 3:
     
     # File Management Section
     st.subheader("📁 Raw Video Management")
-    st.write(f"Current location: `{config.RAW_VIDEO_DIR}`")
+    st.write(f"Current location: `{video_dir}`")
     
     # Upload new videos
     with st.expander("📤 Upload New Videos", expanded=False):
@@ -3262,7 +3273,7 @@ elif st.session_state.current_tab == 3:
                 for idx, uploaded_file in enumerate(uploaded_files):
                     try:
                         # Save to raw directory
-                        save_path = config.RAW_VIDEO_DIR / uploaded_file.name
+                        save_path = video_dir / uploaded_file.name
                         with open(save_path, 'wb') as f:
                             f.write(uploaded_file.getbuffer())
                         st.success(f"✅ Saved: {uploaded_file.name}")
@@ -3275,7 +3286,7 @@ elif st.session_state.current_tab == 3:
     
     # Delete existing videos
     with st.expander("🗑️ Delete Videos from Raw Folder", expanded=False):
-        raw_videos = list(config.RAW_VIDEO_DIR.glob('*'))
+        raw_videos = list(video_dir.glob('*'))
         raw_videos = [v for v in raw_videos if v.is_file() and v.suffix.lower() in ['.mp4', '.mkv', '.avi', '.mov', '.webm', '.flv', '.wmv']]
         
         if not raw_videos:
@@ -3295,7 +3306,7 @@ elif st.session_state.current_tab == 3:
                     if st.button("❌ Confirm Delete", key="confirm_delete_videos", type="primary"):
                         for video_name in videos_to_delete:
                             try:
-                                video_path = config.RAW_VIDEO_DIR / video_name
+                                video_path = video_dir / video_name
                                 video_path.unlink()
                                 st.success(f"✅ Deleted: {video_name}")
                                 logging.info(f"Deleted video: {video_path}")

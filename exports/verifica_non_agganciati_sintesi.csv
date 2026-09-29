@@ -1,0 +1,2 @@
+﻿campione_n,SI,NO,DUBBIO,quota_presenti_su_imdb_esclusi_dubbi,ic95_basso,ic95_alto,crediti_persona_corpus,agganciati,non_agganciati,quota_non_agganciati,quota_realmente_assenti_da_imdb,recall_entity_linking,recall_ic95_basso,recall_ic95_alto,join_export_riuscito
+100,70,22,8,0.7609,0.6644,0.8364,6026,4044,1982,0.3289,0.0787,0.7284,0.7092,0.7544,84

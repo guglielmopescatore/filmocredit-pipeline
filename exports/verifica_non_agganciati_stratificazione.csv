@@ -1,0 +1,4 @@
+﻿code_assignment_status,n,SI,NO,DUBBIO,quota_esclusi_dubbi,ic95_basso,ic95_alto,quota_su_n
+ambiguous,29,27,1,1,0.9643,0.8229,0.9937,0.931
+manual_required,28,18,4,6,0.8182,0.6148,0.9269,0.6429
+internal_assigned,27,12,15,0,0.4444,0.2759,0.6269,0.4444

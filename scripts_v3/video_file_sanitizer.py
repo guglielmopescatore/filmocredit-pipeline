@@ -21,7 +21,7 @@ def sanitize_video_filenames(data_raw_path: Path) -> Tuple[int, List[str]]:
     
     # Video file extensions supported by the main program
     # Synchronized with app.py allowed_extensions
-    video_extensions = {'.mp4', '.mkv', '.avi', '.mov'}
+    video_extensions = get_supported_extensions_set()
     
     renamed_files = []
     rename_operations = []
@@ -84,8 +84,12 @@ def check_and_sanitize_video_files() -> bool:
             logging.info("   This is normal if no video files have been added yet.")
             return True
         
-        # Perform sanitization
-        renamed_count, rename_operations = sanitize_video_filenames(data_raw_path)
+        # Perform sanitization on data/raw and each corpus subfolder
+        renamed_count, rename_operations = 0, []
+        for folder in [data_raw_path, *(d for d in data_raw_path.iterdir() if d.is_dir())]:
+            count, ops = sanitize_video_filenames(folder)
+            renamed_count += count
+            rename_operations += ops
         
         if renamed_count > 0:
             logging.info(f"✅ Video file sanitization completed!")
@@ -95,8 +99,8 @@ def check_and_sanitize_video_files() -> bool:
         else:
             # Check if there are any video files at all
             # Video file extensions supported by the main program
-            video_extensions = {'.mp4', '.mkv', '.avi', '.mov'}
-            video_files = [f for f in data_raw_path.iterdir() 
+            video_extensions = get_supported_extensions_set()
+            video_files = [f for f in data_raw_path.rglob('*')
                           if f.is_file() and f.suffix.lower() in video_extensions]
             
             if video_files:
@@ -131,7 +135,7 @@ def preview_sanitization_changes(data_raw_path: Path = None) -> List[Tuple[str, 
         return []
     
     # Video file extensions supported by the main program
-    video_extensions = {'.mp4', '.mkv', '.avi', '.mov'}
+    video_extensions = get_supported_extensions_set()
     changes = []
     
     for file_path in data_raw_path.iterdir():

@@ -1,0 +1,101 @@
+﻿id_campione,corpus,numero_episodio,nome,role_group,presente_su_imdb,codice_imdb,code_assignment_status,stati_multipli,note
+1,20 titoli,8 1-2,HAZEL ROGERS,Cast,SI,nm0736901,,,
+2,20 titoli,Amelie,Sophie Mollard,Additional Crew,SI,nm0596997,,,Come Sophie Lelou
+3,20 titoli,Amelie,Ludovic Simeon,Camera and Electrical Department,SI,nm1025272,ambiguous,,
+4,20 titoli,Amelie,Abdel Ali Kassou,Editorial Department,SI,nm1221024,manual_required,,
+5,20 titoli,Amelie,Christian Marguerie,Thanks,NO,,internal_assigned,,
+6,20 titoli,Amelie,François Truffaut,Thanks,SI,nm0000076,manual_required,,
+7,20 titoli,Apocalypse Now,JULIE MORIN,Additional Crew,SI,nm3987553,,,
+8,20 titoli,Apocalypse Now,JOHN LASALANDRA,Art Department,SI,nm0479028,manual_required,,Come John La Salandra
+9,20 titoli,Apocalypse Now,JERRY ROSS,Cast,SI,nm0743512,ambiguous,si,
+10,20 titoli,Apocalypse Now,ROBERT DUVALL,Cast,SI,nm0000380,manual_required,si,
+11,20 titoli,Apocalypse Now,JACK ENGLISH,Location Managers,SI,nm0257629,ambiguous,,
+12,20 titoli,Apocalypse Now,JAY MIRACLE,Sound Department,SI,nm0591969,manual_required,,
+13,20 titoli,Chernobyl S01E01,NAOMI TODD,Additional Crew,SI,nm8488301,manual_required,,Come Naomi Joy Todd
+14,20 titoli,Chernobyl S01E01,PAUL RITTER,Cast,SI,nm0728795,ambiguous,,
+15,20 titoli,Chernobyl S01E01,ELENA EVDOKIMOVA,Makeup Department,DUBBIO,,manual_required,,"L'unico nominativo corrispondente presenta, tra le opere principali, un solo prodotto – un videogioco – ma potrebbe non essere la stessa persona dato il differente ruolo: in Chernobyl è make-up artist, nel videogioco è programmatrice."
+16,20 titoli,Chernobyl S01E01,JANE FEATHERSTONE,Producers,SI,nm0269957,ambiguous,,
+17,20 titoli,Chernobyl S01E01,MAXIM VERKHGRADSKIY,Property Department,NO,,internal_assigned,,
+18,20 titoli,Chernobyl S01E01,NICK PERESTIUK,Second Unit Directors or Assistant Directors,SI,nm8164080,internal_assigned,,Come Mykola Perestiuk 
+19,20 titoli,Chernobyl S01E01,STEVEN GODFREY,Visual Effects,SI,nm2633450,ambiguous,,
+20,20 titoli,Dark S01E09,ANDRE SCHMIDT,Camera and Electrical Department,SI,nm5094834,,,Come André Schmidt
+21,20 titoli,Dark S01E09,MILIAN SYMANEK,Camera and Electrical Department,SI,nm5124419,,,Come Milian-Yannik Symanek
+22,20 titoli,Dark S01E09,FELIX KRAMER,Cast,SI,nm1328726,,,
+23,20 titoli,Dark S01E09,ALEXANDER LEHMANN,Transportation Department,DUBBIO,,,,"Sono presenti 7 profili con questo nominativo, non è chiaro quale sia quello corrispondente."
+24,20 titoli,Dark S01E09,Leonardo Camillo,Voice Actors - Dubbing,SI,nm4785343,,,
+25,20 titoli,El desorden que dejas S01E03,ANTONIO MOURELOS,Additional Crew,DUBBIO,,manual_required,,"È presente un solo nominativo corrispondente, ma non corrisponde il ruolo."
+26,20 titoli,El desorden que dejas S01E03,CRISTINA JUNQUERA MÉNDEZ,Art Department,SI,nm11319360,internal_assigned,,Come Cristina Jonquera
+27,20 titoli,El desorden que dejas S01E03,ALEJANDRO DA SILVA,Cast,SI,nm12138742,ambiguous,,
+28,20 titoli,El desorden que dejas S01E03,MIGUEL MORENO,Cast,SI,nm12138738,ambiguous,,
+29,20 titoli,El desorden que dejas S01E03,EDUARDO ROSA,Cast,SI,nm6944420,ambiguous,,
+30,20 titoli,El desorden que dejas S01E03,Ilse Layer,Dubbing,NO,,internal_assigned,,
+31,20 titoli,El desorden que dejas S01E03,Marco Liguori,Dubbing,NO,,manual_required,,
+32,20 titoli,El desorden que dejas S01E03,MARCOS RODRÍGUEZ LÓPEZ,Second Unit Directors or Assistant Directors,NO,,internal_assigned,,
+33,20 titoli,El desorden que dejas S01E03,Luis Rozalen,Soundtrack,NO,,internal_assigned,,
+34,20 titoli,El desorden que dejas S01E03,Isabel Lira,Voice Actors - Dubbing,NO,,ambiguous,,
+35,20 titoli,El desorden que dejas S01E03,Lina Rossana,Voice Actors - Dubbing,SI,nm0743954,ambiguous,,
+36,20 titoli,Eternal Sunshine of the Spotless Mind,ANDREW ZOPPA,Additional Crew,SI,nm1635455,manual_required,,
+37,20 titoli,Eternal Sunshine of the Spotless Mind,CARLOS GUERRA,Camera and Electrical Department,SI,nm0346001,ambiguous,,Come Carlos Omar Guerra
+38,20 titoli,Eternal Sunshine of the Spotless Mind,DEIRDRE O'CONNELL,Cast,SI,nm0640055,ambiguous,,
+39,20 titoli,Eternal Sunshine of the Spotless Mind,CHRISTOPHER MARSH,Location Managers,SI,nm0550521,manual_required,,Come Chris Marsh
+40,20 titoli,Eternal Sunshine of the Spotless Mind,LEON SILVERMAN,Thanks,SI,nm2237344,internal_assigned,,
+41,20 titoli,Eternal Sunshine of the Spotless Mind,THOMAS CREHANM,Transportation Department,SI,nm0187294,ambiguous,,Come Thomas Crehan
+42,20 titoli,Eternal Sunshine of the Spotless Mind,RICCARDO ROSSI,Voice Actors - Dubbing,SI,nm5774224,ambiguous,,
+43,20 titoli,Fight Club,ANTHONY VAN DYKE,Camera and Electrical Department,SI,nm0886704,ambiguous,,Come Anthony Van Dyk
+44,20 titoli,Fight Club,JAMES NOBLE,Camera and Electrical Department,SI,nm0633597,manual_required,,Come James P. Noble
+45,20 titoli,Fight Club,EDWARD NORTON,Cast,SI,nm0001570,ambiguous,,
+46,20 titoli,Fight Club,JULIE ANN SNOW,Production Finance and Accounting,SI,nm1005005,internal_assigned,,Come Julieann Snow
+47,20 titoli,Fight Club,STEPHEN ROLL,Property Department,SI,nm0990849,manual_required,,Come Steve Roll
+48,20 titoli,Fight Club,JEFF CAMPBELL,Visual Effects,SI,nm0002476,ambiguous,,
+49,20 titoli,Hill Street Blues S01E13,TOM STEVENS,Editors,SI,nm0828817,,,
+50,20 titoli,La grande bellezza,Gabriela Belisario,Cast,SI,nm2321715,manual_required,,Come Gabriella Belisario
+51,20 titoli,La grande bellezza,Roberta Carocci,Cast,NO,,,,
+52,20 titoli,La grande bellezza,Berthling,Soundtrack,SI,nm4887174,internal_assigned,,Come Johan Berthling
+53,20 titoli,La grande bellezza,H. M. Górecki,Soundtrack,SI,nm0330782,,,Come Henkryk Mikolaj Górecki
+54,20 titoli,La grande bellezza,Hallonsten,Soundtrack,SI,nm9702914,internal_assigned,,Come Thomas Hallonsten
+55,20 titoli,La grande bellezza,Steffaro,Soundtrack,SI,nm0825113,internal_assigned,,Pseudonimo di Jan Stoeckart; presente con un altro pseudonimo: Jack Trombey
+56,20 titoli,La grande bellezza,Marisela Federici,Thanks,SI,nm9980605,,,
+57,20 titoli,La grande bellezza,Comandante Giorgia Capozzella,Thanks,NO,,,,
+58,20 titoli,Maigret S03E01,Bernard ROBIN,Cast,SI,nm10978647,ambiguous,,
+59,20 titoli,Planet Earth S01E10,Craig Benkman,Thanks,SI,nm1629706,internal_assigned,,Come Craig Benkma
+60,20 titoli,Planet Earth S01E10,Keith Clay,Thanks,SI,nm3896186,internal_assigned,,
+61,20 titoli,Prime Suspect S01E01,Chris Stephenson,Art Department,SI,nm0827220,,,
+62,20 titoli,Romanzo criminale S01E01,Roberta Peschisolido,Additional Crew,NO,,internal_assigned,,
+63,20 titoli,Romanzo criminale S01E01,GIORGIO CAPUTO,Cast,SI,nm0135775,ambiguous,,
+64,20 titoli,Romanzo criminale S01E01,Felice de Falco,Music Department,NO,,internal_assigned,,
+65,20 titoli,Romanzo criminale S01E01,Valeria Squillante,Music Department,SI,nm17694351,manual_required,,
+66,20 titoli,Se7en,MITCHELL SIMMONS,Art Department,SI,nm0799852,manual_required,,Come Mitch Simmons
+67,20 titoli,Se7en,ROBERT FLORES,Art Department,SI,nm0282930,ambiguous,,
+68,20 titoli,Se7en,JOSEPH GILMORE,Property Department,SI,nm0319548,manual_required,,
+69,20 titoli,Se7en,JOSEPH J. LAGOIA,Property Department,SI,nm0481355,manual_required,,
+70,20 titoli,Se7en,LASZLO VESZPELLER,Property Department,SI,nm0895380,manual_required,,
+71,20 titoli,Se7en,PHILLIP A. HENRY,Property Department,SI,nm0377970,internal_assigned,,Come Philip A. Henry
+72,20 titoli,Se7en,LEONARD M. BRAM,Second Unit Directors or Assistant Directors,SI,nm0104165,,,Come Leonard Bram
+73,20 titoli,Se7en,BUDDY SCOTT,Soundtrack,NO,,manual_required,,
+74,20 titoli,Se7en,J. LEACH,Soundtrack,NO,,manual_required,,
+75,20 titoli,Twin Peaks S01E03,JACK NANCE,Cast,SI,nm0620756,,,
+76,5 nuovi,3 Percent,LULI RADFAHRER,Additional Crew,NO,,manual_required,,
+77,5 nuovi,3 Percent,DANIEL DOMINGUES,Camera and Electrical Department,DUBBIO,,ambiguous,,Sono presenti due nominativi corrispondenti con lo stesso ruolo.
+78,5 nuovi,3 Percent,RAFAEL LOZANO,Cast,SI,nm4111645,ambiguous,,
+79,5 nuovi,3 Percent,DIEGO AVALOS,Producers,SI,nm7533675,ambiguous,,
+80,5 nuovi,3 Percent,CÉSAR RAMOS,Production Department,SI,nm0708594,ambiguous,,
+81,5 nuovi,3 Percent,AMANDA NUNES,Production Finance and Accounting,DUBBIO,,manual_required,,"Il nominativo Amanda Nunes Lima potrebbe corrispondere, ma è presente un solo prodotto tra le sue opere quindi rimane incerta la corrispondenza."
+82,5 nuovi,3 Percent,CARLOS SCALLA,Transportation Department,SI,nm18346919,internal_assigned,,
+83,5 nuovi,Blue Eye Samurai S01E01,Jonathan Rosenthal,Additional Crew,DUBBIO,,manual_required,,"Sono presenti 5 profili con questo nome, non è chiaro quale sia quello corrispondente."
+84,5 nuovi,Blue Eye Samurai S01E01,Maxime Castejon,Animation Department,DUBBIO,,manual_required,,L'unico nominativo corrispondente presenta tra le sue opere un solo prodotto – un videogioco – ma potrebbe non essere la stessa persona dato che qui figura solo tra i ringraziamenti.
+85,5 nuovi,Blue Eye Samurai S01E01,Amelia Arslane,Animation Department,DUBBIO,,manual_required,,"È presente il nominativo Amélia Arslane, forse la stessa persona dato il ruolo in un reparto vicino (effettivi visivi), ma non possiamo esserne certi."
+86,5 nuovi,Blue Eye Samurai S01E01,Qiaofu Duan,Animation Department,NO,,internal_assigned,,
+87,5 nuovi,Blue Eye Samurai S01E01,Marine Breau,Production Department,NO,,internal_assigned,,
+88,5 nuovi,Blue Eye Samurai S01E01,Hélène Menanteau,Production Finance and Accounting,NO,,internal_assigned,,
+89,5 nuovi,Blue Eye Samurai S01E01,Fanette Séverin,Visual Effects,NO,,internal_assigned,,
+90,5 nuovi,Blue Eye Samurai S01E01,Amélie Messiez-Poche,Visual Effects,NO,,internal_assigned,,
+91,5 nuovi,Blue Eye Samurai S01E01,Kcénia Marescq,Visual Effects,NO,,internal_assigned,,
+92,5 nuovi,Honeyland,GAMZE SAM,Cast,SI,nm13416433,manual_required,,
+93,5 nuovi,Honeyland,LAUREN KUSHNER,Thanks,SI,nm8786178,internal_assigned,,
+94,5 nuovi,Honeyland,MILIVOJE GJORGJEVIC,Thanks,NO,,internal_assigned,,
+95,5 nuovi,Honeyland,SYBILLE SUTER TEJADA,Thanks,NO,,internal_assigned,,
+96,5 nuovi,Persepolis,Lionel Chaupard,Animation Department,SI,nm12973953,manual_required,,
+97,5 nuovi,Persepolis,François Girard,Cinematographers,SI,nm0320660,ambiguous,si,
+98,5 nuovi,Persepolis,Thierry Lebon,Sound Department,SI,nm0495814,ambiguous,,
+99,5 nuovi,Persepolis,James Peterik,Soundtrack,SI,nm1221512,ambiguous,,Come Jim Peterik
+100,5 nuovi,Wild Strawberries,Victor Sjöström,Cast,SI,nm0803705,ambiguous,,

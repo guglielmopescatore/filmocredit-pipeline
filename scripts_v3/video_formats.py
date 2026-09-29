@@ -6,7 +6,7 @@ Centralizes the definition of supported video formats
 
 # Supported video file extensions
 # These are the formats that the main program can process
-SUPPORTED_VIDEO_EXTENSIONS = {'.mp4', '.mkv', '.avi', '.mov'}
+SUPPORTED_VIDEO_EXTENSIONS = {'.mp4', '.mkv', '.avi', '.mov', '.webm'}
 
 def is_supported_video_file(file_path) -> bool:
     """
