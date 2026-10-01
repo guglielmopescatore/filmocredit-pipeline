@@ -1,0 +1,15 @@
+# Output of revision_checks/stage2_ocr_language_check.py (2026-09-30), code of commit f9c9bb6, no model call.
+# Frame numbers selected by Stage II, rerun with PaddleOCR lang="en" and lang="it", compared with the
+# reference Stage II (main corpus: 2025-12-04, commit 00f0cbc5; hold-out: 2026-07-18..23).
+# PaddleOCR 3.3.1: lang="en" -> en_PP-OCRv5_mobile_rec (downloaded 2025-12-04),
+#                  lang="it" -> latin_PP-OCRv5_mobile_rec (paddleocr/_pipelines/ocr.py, lines 457-460).
+# The "it" column is the lang="it" Stage II of the first PIPE_cap150 / STAGE2_holdout_cap150 runs (discarded).
+
+episode                          reference  lang=en (common / differing)   lang=it (common / differing)
+El_desorden_que_dejas_S01E03_End        50  50 / 0                         37 / 26
+Psycho                                  33  33 / 1  (roll, 5fec349)        22 / 22
+Blue_Eye_Samurai_S01E01_End (hold-out)  44  44 / 0                         30 / 27
+Wild_Strawberries_Opening (hold-out)    18  18 / 0                         16 / 5
+
+Conclusion: both reference Stage II runs used lang="en". With lang="en" the static-scene selection is
+reproduced exactly; the remaining difference (Psycho, 1 frame) is in a roll, as expected from 5fec349.

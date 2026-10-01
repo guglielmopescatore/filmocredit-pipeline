@@ -1,0 +1,14 @@
+# Output of revision_checks/stage2_determinism.py
+# Run: 2026-10-01 07:45 local, code of runs/PIPE_cap150 (commit f9c9bb6), PaddleOCR lang=en, no model call.
+# Environment: paddleocr 3.3.1, paddlex 3.3.9, paddlepaddle-gpu 3.2.1 (installed 2025-11-11/12),
+#   NVIDIA GeForce RTX 4090 Laptop GPU, driver 595.71 (CUDA driver API 13.2, runtime 12.9),
+#   OCR models PP-OCRv5_server_det + en_PP-OCRv5_mobile_rec.
+# Part 1: non-scroll scenes do not depend on the cap, so PIPE_cap150/100/75 are 3 independent Stage II runs.
+# Part 2: Stage II rerun with the PIPE_cap150 code on 3 episodes, compared with PIPE_cap150.
+
+  static scene differs across caps: Maigret_S03E01_Opening scene_21 [('static_or_slow', [4344, 4404, 4509, 4539, 4809]), ('static_or_slow', [4344, 4404, 4509, 4539, 4809]), ('static_or_slow', [4404, 4509, 4539, 4809])]
+Part 1 - non-scroll scenes across cap150/100/75: {'identical': 274, 'DIFFERENT': 1}
+Part 2 - OCR language of PIPE_cap150: en
+Part 2 - El_desorden_que_dejas_S01E03_End: PIPE_cap150 50 frames, rerun 50 frames, scenes 2, differing scenes 0
+Part 2 - Planet_Earth_S01E10: PIPE_cap150 14 frames, rerun 14 frames, scenes 3, differing scenes 0
+Part 2 - La_piovra_1x2: PIPE_cap150 31 frames, rerun 31 frames, scenes 5, differing scenes 0
