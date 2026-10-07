@@ -1,0 +1,17 @@
+scope,dataset,label,mode,products,TP,FP,FN,precision,recall,F1,calls,cost_usd,cost_usd_uncached
+20 products,ORIG_SOL_20products,Pipeline first revision (cap 150),No Role,20,4563,198,302,0.95841,0.93792,0.94806,1254,29.2267,65.0926
+20 products,ORIG_SOL_20products,Pipeline first revision (cap 150),With Role,20,4437,423,519,0.91296,0.89528,0.90403,1254,29.2267,65.0926
+20 products,B_CAP150,Rerun cap 150,No Role,20,4624,184,241,0.96173,0.95046,0.95606,1262,65.3023,65.3023
+20 products,B_CAP150,Rerun cap 150,With Role,20,4497,420,459,0.91458,0.90738,0.91097,1262,65.3023,65.3023
+20 products,B_CAP100,Rerun cap 100,No Role,20,4649,206,216,0.95757,0.9556,0.95658,1371,71.8078,71.8078
+20 products,B_CAP100,Rerun cap 100,With Role,20,4556,425,400,0.91468,0.91929,0.91698,1371,71.8078,71.8078
+20 products,B_CAP75,Rerun cap 75,No Role,20,4653,242,212,0.95056,0.95642,0.95348,1491,78.642,79.1537
+20 products,B_CAP75,Rerun cap 75,With Role,20,4541,502,415,0.90046,0.91626,0.90829,1491,78.642,79.1537
+15 cap-dependent products,ORIG_SOL_20products,Pipeline first revision (cap 150),No Role,15,3555,159,274,0.95719,0.92844,0.9426,1254,29.2267,65.0926
+15 cap-dependent products,ORIG_SOL_20products,Pipeline first revision (cap 150),With Role,15,3428,349,458,0.9076,0.88214,0.89469,1254,29.2267,65.0926
+15 cap-dependent products,B_CAP150,Rerun cap 150,No Role,15,3615,149,214,0.96041,0.94411,0.95219,1262,65.3023,65.3023
+15 cap-dependent products,B_CAP150,Rerun cap 150,With Role,15,3488,347,398,0.90952,0.89758,0.90351,1262,65.3023,65.3023
+15 cap-dependent products,B_CAP100,Rerun cap 100,No Role,15,3640,171,189,0.95513,0.95064,0.95288,1371,71.8078,71.8078
+15 cap-dependent products,B_CAP100,Rerun cap 100,With Role,15,3547,352,339,0.90972,0.91276,0.91124,1371,71.8078,71.8078
+15 cap-dependent products,B_CAP75,Rerun cap 75,No Role,15,3644,207,185,0.94625,0.95168,0.94896,1491,78.642,79.1537
+15 cap-dependent products,B_CAP75,Rerun cap 75,With Role,15,3532,429,354,0.89169,0.9089,0.90022,1491,78.642,79.1537

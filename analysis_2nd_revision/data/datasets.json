@@ -1,0 +1,1029 @@
+{
+  "ORIG_SOL_20products": {
+    "csv": "ORIG_SOL_20products.csv",
+    "products": [
+      "8_e_mezzo",
+      "Amelie",
+      "Apocalypse_Now",
+      "Chernobyl_S01E01",
+      "Dark_1x9",
+      "El_desorden_que_dejas_S01E03",
+      "Eternal_Sunshine_of_the_Spotless_Mind",
+      "Fight_Club",
+      "Hill_Street_Blues_1x13",
+      "La_grande_bellezza",
+      "La_piovra_1x2",
+      "Maigret_S03E01",
+      "Planet_Earth_S01E10",
+      "Prime_Suspect_1x1",
+      "Psycho",
+      "Romanzo_criminale_S01E01",
+      "Se7en",
+      "The_World_At_War_S01E03",
+      "Twin_Peaks_1x3",
+      "Yes,_Prime_Minister_1x8"
+    ],
+    "rows": 6021,
+    "note": "first revision, GPT Sol Standard, pipeline (Stage II of 2025-12-04)",
+    "parts": [
+      {
+        "run_id": null,
+        "csv": "exports\\FUZZY88_GPT_SOL_STANDARD_25products_tvcredits_v3.csv",
+        "db": "db\\FUZZY88_GPT_SOL_STANDARD_25products_tvcredits_v3.db",
+        "products": [
+          "8_e_mezzo",
+          "Amelie",
+          "Apocalypse_Now",
+          "Chernobyl_S01E01",
+          "Dark_1x9",
+          "El_desorden_que_dejas_S01E03",
+          "Eternal_Sunshine_of_the_Spotless_Mind",
+          "Fight_Club",
+          "Hill_Street_Blues_1x13",
+          "La_grande_bellezza",
+          "La_piovra_1x2",
+          "Maigret_S03E01",
+          "Planet_Earth_S01E10",
+          "Prime_Suspect_1x1",
+          "Psycho",
+          "Romanzo_criminale_S01E01",
+          "Se7en",
+          "The_World_At_War_S01E03",
+          "Twin_Peaks_1x3",
+          "Yes,_Prime_Minister_1x8"
+        ],
+        "calls": 1254,
+        "input_tokens": 13641257,
+        "cache_read_tokens": 9962752,
+        "output_tokens": 526377,
+        "cost_usd": 29.2267,
+        "cost_usd_uncached": 65.0926
+      }
+    ],
+    "calls": 1254,
+    "input_tokens": 13641257,
+    "cache_read_tokens": 9962752,
+    "output_tokens": 526377,
+    "cost_usd": 29.2267,
+    "cost_usd_uncached": 65.0926
+  },
+  "ORIG_SOL_holdout5": {
+    "csv": "ORIG_SOL_holdout5.csv",
+    "products": [
+      "3_Percent_S01E06",
+      "Blue_Eye_Samurai_S01E01",
+      "Honeyland",
+      "Persepolis",
+      "Wild_Strawberries"
+    ],
+    "rows": 1287,
+    "note": "first revision, GPT Sol Standard, hold-out (Stage II of July 2026)",
+    "parts": [
+      {
+        "run_id": null,
+        "csv": "exports\\FUZZY88_GPT_SOL_STANDARD_25products_tvcredits_v3.csv",
+        "db": "db\\FUZZY88_GPT_SOL_STANDARD_25products_tvcredits_v3.db",
+        "products": [
+          "3_Percent_S01E06",
+          "Blue_Eye_Samurai_S01E01",
+          "Honeyland",
+          "Persepolis",
+          "Wild_Strawberries"
+        ],
+        "calls": 207,
+        "input_tokens": 2372841,
+        "cache_read_tokens": 621824,
+        "output_tokens": 140401,
+        "cost_usd": 10.0608,
+        "cost_usd_uncached": 12.2994
+      }
+    ],
+    "calls": 207,
+    "input_tokens": 2372841,
+    "cache_read_tokens": 621824,
+    "output_tokens": 140401,
+    "cost_usd": 10.0608,
+    "cost_usd_uncached": 12.2994
+  },
+  "A_NAIVE_0.8s": {
+    "csv": "A_NAIVE_0.8s.csv",
+    "products": [
+      "8_e_mezzo",
+      "Amelie",
+      "Apocalypse_Now",
+      "Chernobyl_S01E01",
+      "Dark_1x9",
+      "El_desorden_que_dejas_S01E03",
+      "Eternal_Sunshine_of_the_Spotless_Mind",
+      "Fight_Club",
+      "Hill_Street_Blues_1x13",
+      "La_grande_bellezza",
+      "La_piovra_1x2",
+      "Maigret_S03E01",
+      "Planet_Earth_S01E10",
+      "Prime_Suspect_1x1",
+      "Psycho",
+      "Romanzo_criminale_S01E01",
+      "Se7en",
+      "The_World_At_War_S01E03",
+      "Twin_Peaks_1x3",
+      "Yes,_Prime_Minister_1x8"
+    ],
+    "rows": 7410,
+    "note": "first revision naive run (0.8 s)",
+    "parts": [
+      {
+        "run_id": null,
+        "csv": "exports\\NAIVE_FUZZY88_GPT_SOL_STANDARD_20products_tvcredits_v3.csv",
+        "db": "db\\NAIVE_FUZZY88_GPT_SOL_STANDARD_20products_tvcredits_v3.db",
+        "products": [
+          "8_e_mezzo",
+          "Amelie",
+          "Apocalypse_Now",
+          "Chernobyl_S01E01",
+          "Dark_1x9",
+          "El_desorden_que_dejas_S01E03",
+          "Eternal_Sunshine_of_the_Spotless_Mind",
+          "Fight_Club",
+          "Hill_Street_Blues_1x13",
+          "La_grande_bellezza",
+          "La_piovra_1x2",
+          "Maigret_S03E01",
+          "Planet_Earth_S01E10",
+          "Prime_Suspect_1x1",
+          "Psycho",
+          "Romanzo_criminale_S01E01",
+          "Se7en",
+          "The_World_At_War_S01E03",
+          "Twin_Peaks_1x3",
+          "Yes,_Prime_Minister_1x8"
+        ],
+        "calls": 6582,
+        "input_tokens": 70949165,
+        "cache_read_tokens": 48676608,
+        "output_tokens": 2175363,
+        "cost_usd": 152.0681,
+        "cost_usd_uncached": 327.3039
+      }
+    ],
+    "calls": 6582,
+    "input_tokens": 70949165,
+    "cache_read_tokens": 48676608,
+    "output_tokens": 2175363,
+    "cost_usd": 152.0681,
+    "cost_usd_uncached": 327.3039
+  },
+  "A_NAIVE_2.4s": {
+    "csv": "A_NAIVE_2.4s.csv",
+    "products": [
+      "8_e_mezzo",
+      "Amelie",
+      "Apocalypse_Now",
+      "Chernobyl_S01E01",
+      "Dark_1x9",
+      "El_desorden_que_dejas_S01E03",
+      "Eternal_Sunshine_of_the_Spotless_Mind",
+      "Fight_Club",
+      "Hill_Street_Blues_1x13",
+      "La_grande_bellezza",
+      "La_piovra_1x2",
+      "Maigret_S03E01",
+      "Planet_Earth_S01E10",
+      "Prime_Suspect_1x1",
+      "Psycho",
+      "Romanzo_criminale_S01E01",
+      "Se7en",
+      "The_World_At_War_S01E03",
+      "Twin_Peaks_1x3",
+      "Yes,_Prime_Minister_1x8"
+    ],
+    "rows": 6114,
+    "note": "k = 3 subsample of the 0.8 s frames",
+    "parts": [
+      {
+        "run_id": "NAIVE_2.4s",
+        "csv": "runs\\NAIVE_2.4s\\run_output\\NAIVE_2.4s_FUZZY88_GPT_SOL_STANDARD_20products.csv",
+        "db": "runs\\NAIVE_2.4s\\db\\tvcredits_v3.db",
+        "products": [
+          "8_e_mezzo",
+          "Amelie",
+          "Apocalypse_Now",
+          "Chernobyl_S01E01",
+          "Dark_1x9",
+          "El_desorden_que_dejas_S01E03",
+          "Eternal_Sunshine_of_the_Spotless_Mind",
+          "Fight_Club",
+          "Hill_Street_Blues_1x13",
+          "La_grande_bellezza",
+          "La_piovra_1x2",
+          "Maigret_S03E01",
+          "Planet_Earth_S01E10",
+          "Prime_Suspect_1x1",
+          "Psycho",
+          "Romanzo_criminale_S01E01",
+          "Se7en",
+          "The_World_At_War_S01E03",
+          "Twin_Peaks_1x3",
+          "Yes,_Prime_Minister_1x8"
+        ],
+        "calls": 2201,
+        "input_tokens": 23774713,
+        "cache_read_tokens": 393829,
+        "output_tokens": 820284,
+        "cost_usd": 110.0867,
+        "cost_usd_uncached": 111.5045
+      }
+    ],
+    "calls": 2201,
+    "input_tokens": 23774713,
+    "cache_read_tokens": 393829,
+    "output_tokens": 820284,
+    "cost_usd": 110.0867,
+    "cost_usd_uncached": 111.5045
+  },
+  "A_NAIVE_4.8s": {
+    "csv": "A_NAIVE_4.8s.csv",
+    "products": [
+      "8_e_mezzo",
+      "Amelie",
+      "Apocalypse_Now",
+      "Chernobyl_S01E01",
+      "Dark_1x9",
+      "El_desorden_que_dejas_S01E03",
+      "Eternal_Sunshine_of_the_Spotless_Mind",
+      "Fight_Club",
+      "Hill_Street_Blues_1x13",
+      "La_grande_bellezza",
+      "La_piovra_1x2",
+      "Maigret_S03E01",
+      "Planet_Earth_S01E10",
+      "Prime_Suspect_1x1",
+      "Psycho",
+      "Romanzo_criminale_S01E01",
+      "Se7en",
+      "The_World_At_War_S01E03",
+      "Twin_Peaks_1x3",
+      "Yes,_Prime_Minister_1x8"
+    ],
+    "rows": 4883,
+    "note": "k = 6 subsample of the 0.8 s frames",
+    "parts": [
+      {
+        "run_id": "NAIVE_4.8s",
+        "csv": "runs\\NAIVE_4.8s\\run_output\\NAIVE_4.8s_FUZZY88_GPT_SOL_STANDARD_20products.csv",
+        "db": "runs\\NAIVE_4.8s\\db\\tvcredits_v3.db",
+        "products": [
+          "8_e_mezzo",
+          "Amelie",
+          "Apocalypse_Now",
+          "Chernobyl_S01E01",
+          "Dark_1x9",
+          "El_desorden_que_dejas_S01E03",
+          "Eternal_Sunshine_of_the_Spotless_Mind",
+          "Fight_Club",
+          "Hill_Street_Blues_1x13",
+          "La_grande_bellezza",
+          "La_piovra_1x2",
+          "Maigret_S03E01",
+          "Planet_Earth_S01E10",
+          "Prime_Suspect_1x1",
+          "Psycho",
+          "Romanzo_criminale_S01E01",
+          "Se7en",
+          "The_World_At_War_S01E03",
+          "Twin_Peaks_1x3",
+          "Yes,_Prime_Minister_1x8"
+        ],
+        "calls": 1106,
+        "input_tokens": 11960508,
+        "cache_read_tokens": 22502,
+        "output_tokens": 418172,
+        "cost_usd": 56.1245,
+        "cost_usd_uncached": 56.2055
+      }
+    ],
+    "calls": 1106,
+    "input_tokens": 11960508,
+    "cache_read_tokens": 22502,
+    "output_tokens": 418172,
+    "cost_usd": 56.1245,
+    "cost_usd_uncached": 56.2055
+  },
+  "B_CAP150": {
+    "csv": "B_CAP150.csv",
+    "products": [
+      "8_e_mezzo",
+      "Amelie",
+      "Apocalypse_Now",
+      "Chernobyl_S01E01",
+      "Dark_1x9",
+      "El_desorden_que_dejas_S01E03",
+      "Eternal_Sunshine_of_the_Spotless_Mind",
+      "Fight_Club",
+      "Hill_Street_Blues_1x13",
+      "La_grande_bellezza",
+      "La_piovra_1x2",
+      "Maigret_S03E01",
+      "Planet_Earth_S01E10",
+      "Prime_Suspect_1x1",
+      "Psycho",
+      "Romanzo_criminale_S01E01",
+      "Se7en",
+      "The_World_At_War_S01E03",
+      "Twin_Peaks_1x3",
+      "Yes,_Prime_Minister_1x8"
+    ],
+    "rows": 6097,
+    "note": "f9c9bb6, OCR en: 14 roll titles + 6 titles without rolls",
+    "parts": [
+      {
+        "run_id": "PIPE_cap150",
+        "csv": "runs\\PIPE_cap150\\run_output\\PIPE_cap150_FUZZY88_GPT_SOL_STANDARD_14products.csv",
+        "db": "runs\\PIPE_cap150\\db\\tvcredits_v3.db",
+        "products": [
+          "Amelie",
+          "Dark_1x9",
+          "El_desorden_que_dejas_S01E03",
+          "Eternal_Sunshine_of_the_Spotless_Mind",
+          "Fight_Club",
+          "Hill_Street_Blues_1x13",
+          "La_grande_bellezza",
+          "La_piovra_1x2",
+          "Maigret_S03E01",
+          "Planet_Earth_S01E10",
+          "Prime_Suspect_1x1",
+          "Psycho",
+          "Romanzo_criminale_S01E01",
+          "Se7en"
+        ],
+        "calls": 966,
+        "input_tokens": 10483879,
+        "cache_read_tokens": 0,
+        "output_tokens": 417383,
+        "cost_usd": 50.2832,
+        "cost_usd_uncached": 50.2832
+      },
+      {
+        "run_id": "PIPE_noscroll_cap150",
+        "csv": "runs\\PIPE_noscroll_cap150\\run_output\\PIPE_noscroll_cap150_FUZZY88_GPT_SOL_STANDARD_6products.csv",
+        "db": "runs\\PIPE_noscroll_cap150\\db\\tvcredits_v3.db",
+        "products": [
+          "8_e_mezzo",
+          "Apocalypse_Now",
+          "Chernobyl_S01E01",
+          "The_World_At_War_S01E03",
+          "Twin_Peaks_1x3",
+          "Yes,_Prime_Minister_1x8"
+        ],
+        "calls": 296,
+        "input_tokens": 3254790,
+        "cache_read_tokens": 0,
+        "output_tokens": 99996,
+        "cost_usd": 15.0191,
+        "cost_usd_uncached": 15.0191
+      }
+    ],
+    "calls": 1262,
+    "input_tokens": 13738669,
+    "cache_read_tokens": 0,
+    "output_tokens": 517379,
+    "cost_usd": 65.3023,
+    "cost_usd_uncached": 65.3023
+  },
+  "B_CAP100": {
+    "csv": "B_CAP100.csv",
+    "products": [
+      "8_e_mezzo",
+      "Amelie",
+      "Apocalypse_Now",
+      "Chernobyl_S01E01",
+      "Dark_1x9",
+      "El_desorden_que_dejas_S01E03",
+      "Eternal_Sunshine_of_the_Spotless_Mind",
+      "Fight_Club",
+      "Hill_Street_Blues_1x13",
+      "La_grande_bellezza",
+      "La_piovra_1x2",
+      "Maigret_S03E01",
+      "Planet_Earth_S01E10",
+      "Prime_Suspect_1x1",
+      "Psycho",
+      "Romanzo_criminale_S01E01",
+      "Se7en",
+      "The_World_At_War_S01E03",
+      "Twin_Peaks_1x3",
+      "Yes,_Prime_Minister_1x8"
+    ],
+    "rows": 6218,
+    "note": "14 roll titles at cap 100; Yes,_Prime_Minister_1x8 (roll found today) at cap 100; the other 5 titles without rolls from PIPE_noscroll_cap150 (cap-independent)",
+    "parts": [
+      {
+        "run_id": "PIPE_cap100",
+        "csv": "runs\\PIPE_cap100\\run_output\\PIPE_cap100_FUZZY88_GPT_SOL_STANDARD_14products.csv",
+        "db": "runs\\PIPE_cap100\\db\\tvcredits_v3.db",
+        "products": [
+          "Amelie",
+          "Dark_1x9",
+          "El_desorden_que_dejas_S01E03",
+          "Eternal_Sunshine_of_the_Spotless_Mind",
+          "Fight_Club",
+          "Hill_Street_Blues_1x13",
+          "La_grande_bellezza",
+          "La_piovra_1x2",
+          "Maigret_S03E01",
+          "Planet_Earth_S01E10",
+          "Prime_Suspect_1x1",
+          "Psycho",
+          "Romanzo_criminale_S01E01",
+          "Se7en"
+        ],
+        "calls": 1071,
+        "input_tokens": 11629968,
+        "cache_read_tokens": 0,
+        "output_tokens": 504747,
+        "cost_usd": 56.6148,
+        "cost_usd_uncached": 56.6148
+      },
+      {
+        "run_id": "PIPE_noscroll_cap150",
+        "csv": "runs\\PIPE_noscroll_cap150\\run_output\\PIPE_noscroll_cap150_FUZZY88_GPT_SOL_STANDARD_6products.csv",
+        "db": "runs\\PIPE_noscroll_cap150\\db\\tvcredits_v3.db",
+        "products": [
+          "8_e_mezzo",
+          "Apocalypse_Now",
+          "Chernobyl_S01E01",
+          "The_World_At_War_S01E03",
+          "Twin_Peaks_1x3"
+        ],
+        "calls": 275,
+        "input_tokens": 3043919,
+        "cache_read_tokens": 0,
+        "output_tokens": 96779,
+        "cost_usd": 14.1113,
+        "cost_usd_uncached": 14.1113
+      },
+      {
+        "run_id": "PIPE_noscroll_cap100",
+        "csv": "runs\\PIPE_noscroll_cap100\\run_output\\PIPE_noscroll_cap100_FUZZY88_GPT_SOL_STANDARD_1products.csv",
+        "db": "runs\\PIPE_noscroll_cap100\\db\\tvcredits_v3.db",
+        "products": [
+          "Yes,_Prime_Minister_1x8"
+        ],
+        "calls": 25,
+        "input_tokens": 250999,
+        "cache_read_tokens": 0,
+        "output_tokens": 3884,
+        "cost_usd": 1.0817,
+        "cost_usd_uncached": 1.0817
+      }
+    ],
+    "calls": 1371,
+    "input_tokens": 14924886,
+    "cache_read_tokens": 0,
+    "output_tokens": 605410,
+    "cost_usd": 71.8078,
+    "cost_usd_uncached": 71.8078
+  },
+  "B_CAP75": {
+    "csv": "B_CAP75.csv",
+    "products": [
+      "8_e_mezzo",
+      "Amelie",
+      "Apocalypse_Now",
+      "Chernobyl_S01E01",
+      "Dark_1x9",
+      "El_desorden_que_dejas_S01E03",
+      "Eternal_Sunshine_of_the_Spotless_Mind",
+      "Fight_Club",
+      "Hill_Street_Blues_1x13",
+      "La_grande_bellezza",
+      "La_piovra_1x2",
+      "Maigret_S03E01",
+      "Planet_Earth_S01E10",
+      "Prime_Suspect_1x1",
+      "Psycho",
+      "Romanzo_criminale_S01E01",
+      "Se7en",
+      "The_World_At_War_S01E03",
+      "Twin_Peaks_1x3",
+      "Yes,_Prime_Minister_1x8"
+    ],
+    "rows": 6320,
+    "note": "14 roll titles at cap 75; Yes,_Prime_Minister_1x8 (roll found today) at cap 75; the other 5 titles without rolls from PIPE_noscroll_cap150 (cap-independent)",
+    "parts": [
+      {
+        "run_id": "PIPE_cap75",
+        "csv": "runs\\PIPE_cap75\\run_output\\PIPE_cap75_FUZZY88_GPT_SOL_STANDARD_14products.csv",
+        "db": "runs\\PIPE_cap75\\db\\tvcredits_v3.db",
+        "products": [
+          "Amelie",
+          "Dark_1x9",
+          "El_desorden_que_dejas_S01E03",
+          "Eternal_Sunshine_of_the_Spotless_Mind",
+          "Fight_Club",
+          "Hill_Street_Blues_1x13",
+          "La_grande_bellezza",
+          "La_piovra_1x2",
+          "Maigret_S03E01",
+          "Planet_Earth_S01E10",
+          "Prime_Suspect_1x1",
+          "Psycho",
+          "Romanzo_criminale_S01E01",
+          "Se7en"
+        ],
+        "calls": 1188,
+        "input_tokens": 12911112,
+        "cache_read_tokens": 21822,
+        "output_tokens": 608553,
+        "cost_usd": 63.7369,
+        "cost_usd_uncached": 63.8155
+      },
+      {
+        "run_id": "PIPE_noscroll_cap150",
+        "csv": "runs\\PIPE_noscroll_cap150\\run_output\\PIPE_noscroll_cap150_FUZZY88_GPT_SOL_STANDARD_6products.csv",
+        "db": "runs\\PIPE_noscroll_cap150\\db\\tvcredits_v3.db",
+        "products": [
+          "8_e_mezzo",
+          "Apocalypse_Now",
+          "Chernobyl_S01E01",
+          "The_World_At_War_S01E03",
+          "Twin_Peaks_1x3"
+        ],
+        "calls": 275,
+        "input_tokens": 3043919,
+        "cache_read_tokens": 0,
+        "output_tokens": 96779,
+        "cost_usd": 14.1113,
+        "cost_usd_uncached": 14.1113
+      },
+      {
+        "run_id": "PIPE_noscroll_cap75",
+        "csv": "runs\\PIPE_noscroll_cap75\\run_output\\PIPE_noscroll_cap75_FUZZY88_GPT_SOL_STANDARD_1products.csv",
+        "db": "runs\\PIPE_noscroll_cap75\\db\\tvcredits_v3.db",
+        "products": [
+          "Yes,_Prime_Minister_1x8"
+        ],
+        "calls": 28,
+        "input_tokens": 281091,
+        "cache_read_tokens": 120295,
+        "output_tokens": 5127,
+        "cost_usd": 0.7938,
+        "cost_usd_uncached": 1.2269
+      }
+    ],
+    "calls": 1491,
+    "input_tokens": 16236122,
+    "cache_read_tokens": 142117,
+    "output_tokens": 710459,
+    "cost_usd": 78.642,
+    "cost_usd_uncached": 79.1537
+  },
+  "D_FULL": {
+    "csv": "D_FULL.csv",
+    "products": [
+      "8_e_mezzo",
+      "Amelie",
+      "Apocalypse_Now",
+      "Chernobyl_S01E01",
+      "Dark_1x9",
+      "El_desorden_que_dejas_S01E03",
+      "Eternal_Sunshine_of_the_Spotless_Mind",
+      "Fight_Club",
+      "Hill_Street_Blues_1x13",
+      "La_grande_bellezza",
+      "La_piovra_1x2",
+      "Maigret_S03E01",
+      "Planet_Earth_S01E10",
+      "Prime_Suspect_1x1",
+      "Psycho",
+      "Romanzo_criminale_S01E01",
+      "Se7en",
+      "The_World_At_War_S01E03",
+      "Twin_Peaks_1x3",
+      "Yes,_Prime_Minister_1x8"
+    ],
+    "rows": 6160,
+    "note": "full-length films, Stage I (whole episode) + II (cap 150) + III + IV, f9c9bb6, OCR en",
+    "parts": [
+      {
+        "run_id": "FULL_pipeline",
+        "csv": "runs\\FULL_pipeline\\run_output\\FULL_FUZZY88_GPT_SOL_STANDARD_20products.csv",
+        "db": "runs\\FULL_pipeline\\db\\tvcredits_v3.db",
+        "products": [
+          "8_e_mezzo",
+          "Amelie",
+          "Apocalypse_Now",
+          "Chernobyl_S01E01",
+          "Dark_1x9",
+          "El_desorden_que_dejas_S01E03",
+          "Eternal_Sunshine_of_the_Spotless_Mind",
+          "Fight_Club",
+          "Hill_Street_Blues_1x13",
+          "La_grande_bellezza",
+          "La_piovra_1x2",
+          "Maigret_S03E01",
+          "Planet_Earth_S01E10",
+          "Prime_Suspect_1x1",
+          "Psycho",
+          "Romanzo_criminale_S01E01",
+          "Se7en",
+          "The_World_At_War_S01E03",
+          "Twin_Peaks_1x3",
+          "Yes,_Prime_Minister_1x8"
+        ],
+        "calls": 4628,
+        "input_tokens": 50151058,
+        "cache_read_tokens": 151575,
+        "output_tokens": 680970,
+        "cost_usd": 213.678,
+        "cost_usd_uncached": 214.2236
+      }
+    ],
+    "calls": 4628,
+    "input_tokens": 50151058,
+    "cache_read_tokens": 151575,
+    "output_tokens": 680970,
+    "cost_usd": 213.678,
+    "cost_usd_uncached": 214.2236
+  },
+  "C_SOL_r1": {
+    "csv": "C_SOL_r1.csv",
+    "products": [
+      "3_Percent_S01E06",
+      "Blue_Eye_Samurai_S01E01",
+      "Honeyland",
+      "Persepolis",
+      "Wild_Strawberries"
+    ],
+    "rows": 1274,
+    "note": "repetition 1 on the July hold-out frames (207)",
+    "parts": [
+      {
+        "run_id": "REP_SOL_r1",
+        "csv": "runs\\REP_SOL_r1\\run_output\\REP_SOL_r1_FUZZY88_GPT_SOL_STANDARD_5products.csv",
+        "db": "runs\\REP_SOL_r1\\db\\tvcredits_v3.db",
+        "products": [
+          "3_Percent_S01E06",
+          "Blue_Eye_Samurai_S01E01",
+          "Honeyland",
+          "Persepolis",
+          "Wild_Strawberries"
+        ],
+        "calls": 207,
+        "input_tokens": 2373539,
+        "cache_read_tokens": 709101,
+        "output_tokens": 138682,
+        "cost_usd": 9.715,
+        "cost_usd_uncached": 12.2678
+      }
+    ],
+    "calls": 207,
+    "input_tokens": 2373539,
+    "cache_read_tokens": 709101,
+    "output_tokens": 138682,
+    "cost_usd": 9.715,
+    "cost_usd_uncached": 12.2678
+  },
+  "C_SOL_r2": {
+    "csv": "C_SOL_r2.csv",
+    "products": [
+      "3_Percent_S01E06",
+      "Blue_Eye_Samurai_S01E01",
+      "Honeyland",
+      "Persepolis",
+      "Wild_Strawberries"
+    ],
+    "rows": 1273,
+    "note": "repetition 2 on the July hold-out frames (207)",
+    "parts": [
+      {
+        "run_id": "REP_SOL_r2",
+        "csv": "runs\\REP_SOL_r2\\run_output\\REP_SOL_r2_FUZZY88_GPT_SOL_STANDARD_5products.csv",
+        "db": "runs\\REP_SOL_r2\\db\\tvcredits_v3.db",
+        "products": [
+          "3_Percent_S01E06",
+          "Blue_Eye_Samurai_S01E01",
+          "Honeyland",
+          "Persepolis",
+          "Wild_Strawberries"
+        ],
+        "calls": 207,
+        "input_tokens": 2372842,
+        "cache_read_tokens": 1490341,
+        "output_tokens": 134395,
+        "cost_usd": 6.814,
+        "cost_usd_uncached": 12.1793
+      }
+    ],
+    "calls": 207,
+    "input_tokens": 2372842,
+    "cache_read_tokens": 1490341,
+    "output_tokens": 134395,
+    "cost_usd": 6.814,
+    "cost_usd_uncached": 12.1793
+  },
+  "C_SOL_r3": {
+    "csv": "C_SOL_r3.csv",
+    "products": [
+      "3_Percent_S01E06",
+      "Blue_Eye_Samurai_S01E01",
+      "Honeyland",
+      "Persepolis",
+      "Wild_Strawberries"
+    ],
+    "rows": 1266,
+    "note": "repetition 3 on the July hold-out frames (207)",
+    "parts": [
+      {
+        "run_id": "REP_SOL_r3",
+        "csv": "runs\\REP_SOL_r3\\run_output\\REP_SOL_r3_FUZZY88_GPT_SOL_STANDARD_5products.csv",
+        "db": "runs\\REP_SOL_r3\\db\\tvcredits_v3.db",
+        "products": [
+          "3_Percent_S01E06",
+          "Blue_Eye_Samurai_S01E01",
+          "Honeyland",
+          "Persepolis",
+          "Wild_Strawberries"
+        ],
+        "calls": 207,
+        "input_tokens": 2372882,
+        "cache_read_tokens": 507570,
+        "output_tokens": 134282,
+        "cost_usd": 10.3499,
+        "cost_usd_uncached": 12.1772
+      }
+    ],
+    "calls": 207,
+    "input_tokens": 2372882,
+    "cache_read_tokens": 507570,
+    "output_tokens": 134282,
+    "cost_usd": 10.3499,
+    "cost_usd_uncached": 12.1772
+  },
+  "C_SOL_r4": {
+    "csv": "C_SOL_r4.csv",
+    "products": [
+      "3_Percent_S01E06",
+      "Blue_Eye_Samurai_S01E01",
+      "Honeyland",
+      "Persepolis",
+      "Wild_Strawberries"
+    ],
+    "rows": 1278,
+    "note": "repetition 4 on the July hold-out frames (207)",
+    "parts": [
+      {
+        "run_id": "REP_SOL_r4",
+        "csv": "runs\\REP_SOL_r4\\run_output\\REP_SOL_r4_FUZZY88_GPT_SOL_STANDARD_5products.csv",
+        "db": "runs\\REP_SOL_r4\\db\\tvcredits_v3.db",
+        "products": [
+          "3_Percent_S01E06",
+          "Blue_Eye_Samurai_S01E01",
+          "Honeyland",
+          "Persepolis",
+          "Wild_Strawberries"
+        ],
+        "calls": 207,
+        "input_tokens": 2373511,
+        "cache_read_tokens": 1335696,
+        "output_tokens": 139546,
+        "cost_usd": 7.4765,
+        "cost_usd_uncached": 12.285
+      }
+    ],
+    "calls": 207,
+    "input_tokens": 2373511,
+    "cache_read_tokens": 1335696,
+    "output_tokens": 139546,
+    "cost_usd": 7.4765,
+    "cost_usd_uncached": 12.285
+  },
+  "C_SOL_r5": {
+    "csv": "C_SOL_r5.csv",
+    "products": [
+      "3_Percent_S01E06",
+      "Blue_Eye_Samurai_S01E01",
+      "Honeyland",
+      "Persepolis",
+      "Wild_Strawberries"
+    ],
+    "rows": 1269,
+    "note": "repetition 5 on the July hold-out frames (207)",
+    "parts": [
+      {
+        "run_id": "REP_SOL_r5",
+        "csv": "runs\\REP_SOL_r5\\run_output\\REP_SOL_r5_FUZZY88_GPT_SOL_STANDARD_5products.csv",
+        "db": "runs\\REP_SOL_r5\\db\\tvcredits_v3.db",
+        "products": [
+          "3_Percent_S01E06",
+          "Blue_Eye_Samurai_S01E01",
+          "Honeyland",
+          "Persepolis",
+          "Wild_Strawberries"
+        ],
+        "calls": 207,
+        "input_tokens": 2373278,
+        "cache_read_tokens": 1377169,
+        "output_tokens": 136163,
+        "cost_usd": 7.2586,
+        "cost_usd_uncached": 12.2164
+      }
+    ],
+    "calls": 207,
+    "input_tokens": 2373278,
+    "cache_read_tokens": 1377169,
+    "output_tokens": 136163,
+    "cost_usd": 7.2586,
+    "cost_usd_uncached": 12.2164
+  },
+  "C_GEMMA_r1": {
+    "csv": "C_GEMMA_r1.csv",
+    "products": [
+      "3_Percent_S01E06",
+      "Blue_Eye_Samurai_S01E01",
+      "Honeyland",
+      "Persepolis",
+      "Wild_Strawberries"
+    ],
+    "rows": 1388,
+    "note": "repetition 1 on the July hold-out frames (207)",
+    "parts": [
+      {
+        "run_id": "REP_GEMMA_r1",
+        "csv": "runs\\REP_GEMMA_r1\\run_output\\REP_GEMMA_r1_FUZZY88_gemma_4_12B_5products.csv",
+        "db": "runs\\REP_GEMMA_r1\\db\\tvcredits_v3.db",
+        "products": [
+          "3_Percent_S01E06",
+          "Blue_Eye_Samurai_S01E01",
+          "Honeyland",
+          "Persepolis",
+          "Wild_Strawberries"
+        ],
+        "calls": 207,
+        "input_tokens": 2290597,
+        "cache_read_tokens": 0,
+        "output_tokens": 100187,
+        "cost_usd": 0.0,
+        "cost_usd_uncached": 0.0
+      }
+    ],
+    "calls": 207,
+    "input_tokens": 2290597,
+    "cache_read_tokens": 0,
+    "output_tokens": 100187,
+    "cost_usd": 0.0,
+    "cost_usd_uncached": 0.0
+  },
+  "C_GEMMA_r2": {
+    "csv": "C_GEMMA_r2.csv",
+    "products": [
+      "3_Percent_S01E06",
+      "Blue_Eye_Samurai_S01E01",
+      "Honeyland",
+      "Persepolis",
+      "Wild_Strawberries"
+    ],
+    "rows": 1388,
+    "note": "repetition 2 on the July hold-out frames (207)",
+    "parts": [
+      {
+        "run_id": "REP_GEMMA_r2",
+        "csv": "runs\\REP_GEMMA_r2\\run_output\\REP_GEMMA_r2_FUZZY88_gemma_4_12B_5products.csv",
+        "db": "runs\\REP_GEMMA_r2\\db\\tvcredits_v3.db",
+        "products": [
+          "3_Percent_S01E06",
+          "Blue_Eye_Samurai_S01E01",
+          "Honeyland",
+          "Persepolis",
+          "Wild_Strawberries"
+        ],
+        "calls": 207,
+        "input_tokens": 2290597,
+        "cache_read_tokens": 0,
+        "output_tokens": 100187,
+        "cost_usd": 0.0,
+        "cost_usd_uncached": 0.0
+      }
+    ],
+    "calls": 207,
+    "input_tokens": 2290597,
+    "cache_read_tokens": 0,
+    "output_tokens": 100187,
+    "cost_usd": 0.0,
+    "cost_usd_uncached": 0.0
+  },
+  "C_GEMMA_r3": {
+    "csv": "C_GEMMA_r3.csv",
+    "products": [
+      "3_Percent_S01E06",
+      "Blue_Eye_Samurai_S01E01",
+      "Honeyland",
+      "Persepolis",
+      "Wild_Strawberries"
+    ],
+    "rows": 1388,
+    "note": "repetition 3 on the July hold-out frames (207)",
+    "parts": [
+      {
+        "run_id": "REP_GEMMA_r3",
+        "csv": "runs\\REP_GEMMA_r3\\run_output\\REP_GEMMA_r3_FUZZY88_gemma_4_12B_5products.csv",
+        "db": "runs\\REP_GEMMA_r3\\db\\tvcredits_v3.db",
+        "products": [
+          "3_Percent_S01E06",
+          "Blue_Eye_Samurai_S01E01",
+          "Honeyland",
+          "Persepolis",
+          "Wild_Strawberries"
+        ],
+        "calls": 207,
+        "input_tokens": 2290597,
+        "cache_read_tokens": 0,
+        "output_tokens": 100187,
+        "cost_usd": 0.0,
+        "cost_usd_uncached": 0.0
+      }
+    ],
+    "calls": 207,
+    "input_tokens": 2290597,
+    "cache_read_tokens": 0,
+    "output_tokens": 100187,
+    "cost_usd": 0.0,
+    "cost_usd_uncached": 0.0
+  },
+  "C_GEMMA_r4": {
+    "csv": "C_GEMMA_r4.csv",
+    "products": [
+      "3_Percent_S01E06",
+      "Blue_Eye_Samurai_S01E01",
+      "Honeyland",
+      "Persepolis",
+      "Wild_Strawberries"
+    ],
+    "rows": 1388,
+    "note": "repetition 4 on the July hold-out frames (207)",
+    "parts": [
+      {
+        "run_id": "REP_GEMMA_r4",
+        "csv": "runs\\REP_GEMMA_r4\\run_output\\REP_GEMMA_r4_FUZZY88_gemma_4_12B_5products.csv",
+        "db": "runs\\REP_GEMMA_r4\\db\\tvcredits_v3.db",
+        "products": [
+          "3_Percent_S01E06",
+          "Blue_Eye_Samurai_S01E01",
+          "Honeyland",
+          "Persepolis",
+          "Wild_Strawberries"
+        ],
+        "calls": 207,
+        "input_tokens": 2290597,
+        "cache_read_tokens": 0,
+        "output_tokens": 100187,
+        "cost_usd": 0.0,
+        "cost_usd_uncached": 0.0
+      }
+    ],
+    "calls": 207,
+    "input_tokens": 2290597,
+    "cache_read_tokens": 0,
+    "output_tokens": 100187,
+    "cost_usd": 0.0,
+    "cost_usd_uncached": 0.0
+  },
+  "C_GEMMA_r5": {
+    "csv": "C_GEMMA_r5.csv",
+    "products": [
+      "3_Percent_S01E06",
+      "Blue_Eye_Samurai_S01E01",
+      "Honeyland",
+      "Persepolis",
+      "Wild_Strawberries"
+    ],
+    "rows": 1388,
+    "note": "repetition 5 on the July hold-out frames (207)",
+    "parts": [
+      {
+        "run_id": "REP_GEMMA_r5",
+        "csv": "runs\\REP_GEMMA_r5\\run_output\\REP_GEMMA_r5_FUZZY88_gemma_4_12B_5products.csv",
+        "db": "runs\\REP_GEMMA_r5\\db\\tvcredits_v3.db",
+        "products": [
+          "3_Percent_S01E06",
+          "Blue_Eye_Samurai_S01E01",
+          "Honeyland",
+          "Persepolis",
+          "Wild_Strawberries"
+        ],
+        "calls": 207,
+        "input_tokens": 2290597,
+        "cache_read_tokens": 0,
+        "output_tokens": 100187,
+        "cost_usd": 0.0,
+        "cost_usd_uncached": 0.0
+      }
+    ],
+    "calls": 207,
+    "input_tokens": 2290597,
+    "cache_read_tokens": 0,
+    "output_tokens": 100187,
+    "cost_usd": 0.0,
+    "cost_usd_uncached": 0.0
+  }
+}

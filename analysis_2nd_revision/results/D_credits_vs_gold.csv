@@ -1,0 +1,7 @@
+dataset,label,mode,products,TP,FP,FN,precision,recall,F1,calls,cost_usd,cost_usd_uncached
+ORIG_SOL_20products,"Clips, first revision (July)",No Role,20,4563,198,302,0.95841,0.93792,0.94806,1254,29.2267,65.0926
+ORIG_SOL_20products,"Clips, first revision (July)",With Role,20,4437,423,519,0.91296,0.89528,0.90403,1254,29.2267,65.0926
+B_CAP150,"Clips, rerun (f9c9bb6)",No Role,20,4624,184,241,0.96173,0.95046,0.95606,1262,65.3023,65.3023
+B_CAP150,"Clips, rerun (f9c9bb6)",With Role,20,4497,420,459,0.91458,0.90738,0.91097,1262,65.3023,65.3023
+D_FULL,Full films (f9c9bb6),No Role,20,4588,274,277,0.94364,0.94306,0.94335,4628,213.678,214.2236
+D_FULL,Full films (f9c9bb6),With Role,20,4478,502,478,0.8992,0.90355,0.90137,4628,213.678,214.2236
