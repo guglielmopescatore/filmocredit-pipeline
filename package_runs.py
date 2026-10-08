@@ -39,7 +39,8 @@ def verification_files(run: Path) -> list[Path]:
     out = run / "run_output"
     files = [run / "run_info.json", run / "run.log", out / "summary.json", out / "calls.csv"]
     files += sorted(out.glob("*_FUZZY88_*.csv"))
-    files += sorted((out / "logs").glob("*.log")) if (out / "logs").is_dir() else []
+    # Only the logs of the valid attempts: discarded ones are renamed <stage>_<episode>.<reason>.log
+    files += sorted(p for p in (out / "logs").glob("*.log") if "." not in p.stem) if (out / "logs").is_dir() else []
     return [f for f in files if f.is_file()]
 
 
