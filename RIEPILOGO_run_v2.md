@@ -40,6 +40,7 @@ Il modello da usare è sempre gpt sol 5.6 con reasoning effort standard, come a 
 | ID | *k* | Intervallo | Fotogrammi = chiamate | Costo |
 |---|---:|---|---:|---:|
 | `NAIVE_2.4s` | 3 | 2,4 s | 2.201 | ~59 USD |
+| `NAIVE_4.0s` | 5 | 4,0 s | 1.328 | ~36 USD (reale 66,64 USD, aggiunta il 7/10/2026) |
 | `NAIVE_4.8s` | 6 | 4,8 s | 1.106 | ~30 USD |
 
 Controllo: il numero di fotogrammi sottoposti di ogni run deve coincidere con la colonna «Fotogrammi» (conteggio cartella per cartella, partendo da 0). Il punto a 0,8 s è la run di luglio e non si rifà. Le due run possono girare in parallelo: lo Stage III di ciascuna procede in contemporanea, lo Stage IV parte una run alla volta.

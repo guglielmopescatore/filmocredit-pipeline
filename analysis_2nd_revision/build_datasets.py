@@ -13,7 +13,7 @@ the VLM calls it cost, counted from the raw responses of the source DBs:
 Datasets:
   ORIG_SOL_20products / ORIG_SOL_holdout5   first-revision GPT Sol Standard run
                                             (25-products DB) split main / hold-out
-  A_NAIVE_0.8s / 2.4s / 4.8s                naive runs, 20 products
+  A_NAIVE_0.8s / 2.4s / 4.0s / 4.8s              naive runs, 20 products
   B_CAP150 / CAP100 / CAP75                 pipeline with scroll cap, 20 products:
                                             14 roll titles from PIPE_cap<N>, 6 titles
                                             from PIPE_noscroll_cap150, except
@@ -155,6 +155,7 @@ def main() -> None:
                                                          DB / "NAIVE_FUZZY88_GPT_SOL_STANDARD_20products_tvcredits_v3.db")], 20,
                               "first revision naive run (0.8 s)"),
         "A_NAIVE_2.4s": build("A_NAIVE_2.4s", [run_part("NAIVE_2.4s")], 20, "k = 3 subsample of the 0.8 s frames"),
+        "A_NAIVE_4.0s": build("A_NAIVE_4.0s", [run_part("NAIVE_4.0s")], 20, "k = 5 subsample of the 0.8 s frames"),
         "A_NAIVE_4.8s": build("A_NAIVE_4.8s", [run_part("NAIVE_4.8s")], 20, "k = 6 subsample of the 0.8 s frames"),
         "B_CAP150": build("B_CAP150", [run_part("PIPE_cap150"), run_part("PIPE_noscroll_cap150")], 20,
                           "f9c9bb6, OCR en: 14 roll titles + 6 titles without rolls"),

@@ -25,18 +25,18 @@ con i numeri principali, le verifiche fatte lungo la strada e dove si trova ogni
 
 | Blocco | Run | Chiamate | Costo |
 |---|---|---:|---:|
-| A — naive | `NAIVE_2.4s`, `NAIVE_4.8s` | 3.307 | 166,21 USD |
+| A — naive | `NAIVE_2.4s`, `NAIVE_4.0s`, `NAIVE_4.8s` | 4.635 | 232,85 USD |
 | B — cap | `PIPE_cap150/100/75`, `PIPE_noscroll_cap150/100/75` | 3.574 | 187,52 USD |
 | C — ripetizioni Sol | `REP_SOL_r1…r5` | 1.035 | 41,63 USD |
 | C — ripetizioni Gemma | `REP_GEMMA_r1…r5` | 1.035 | 0 (locale) |
-| D — film interi | `FULL_pipeline` | 4.628 | 213,68 USD |
-| **Totale** | | **13.579** | **≈ 609 USD** |
+| D — film interi | `FULL_pipeline` | 4.643 | 214,27 USD |
+| **Totale** | | **14.922** | **≈ 676 USD** |
 
 ---
 
 ## A. Curva degli intervalli (naive)
 
-Naive a 2,4 s e 4,8 s = sottocampionamento esatto (k = 3 e 6) dei frame naive di luglio a 0,8 s, cartella per
+Naive a 2,4 s, 4,0 s e 4,8 s = sottocampionamento esatto (k = 3, 5 e 6) dei frame naive di luglio a 0,8 s, cartella per
 cartella. Confronto sui 20 prodotti con la pipeline della prima revisione e il naive a 0,8 s.
 
 | Run | F1 nomi | Recall | F1 nome+ruolo | Chiamate | Costo a tariffa piena |
@@ -44,9 +44,10 @@ cartella. Confronto sui 20 prodotti con la pipeline della prima revisione e il n
 | Pipeline (prima revisione) | **0,948** | 0,938 | **0,904** | 1.254 | 65 USD |
 | Naive 0,8 s | 0,937 | 0,988 | 0,883 | 6.582 | 327 USD |
 | Naive 2,4 s | 0,915 | 0,889 | 0,853 | 2.201 | 112 USD |
+| Naive 4,0 s | 0,866 | 0,790 | 0,814 | 1.328 | 67 USD |
 | Naive 4,8 s | 0,843 | 0,750 | 0,780 | 1.106 | 56 USD |
 
-Diradando il naive il costo scende al livello della pipeline, ma la recall crolla (a 4,8 s: Chernobyl 0,26,
+Diradando il naive il costo scende al livello della pipeline (a 4,0 s costa come la pipeline, 67 contro 65 USD), ma la recall crolla (a 4,0 s: Chernobyl 0,30, El desorden 0,56, Hill Street 0,54, Twin Peaks 0,57; a 4,8 s: Chernobyl 0,26,
 Hill Street 0,39, Twin Peaks 0,48): la pipeline resta la configurazione con il miglior rapporto qualità/costo.
 
 ## B. Cap sui rulli
@@ -100,17 +101,18 @@ Stage II a cap 150, Stage III e IV completi.
 | | Clip tagliate (riferimento) | Film interi |
 |---|---:|---:|
 | Minuti di video | 87,6 | 1.755 |
-| Inquadrature (scene detection) | 705 | 19.042 |
-| Scene candidate (Stage I) | 516 | 2.930 |
-| Frame selezionati (Stage II = chiamate Stage III) | 1.254 | 4.628 |
-| Tempo macchina Stage I / II | — | 45,3 h / 25,2 h |
+| Inquadrature (scene detection) | 705 | 19.038 |
+| Scene candidate (Stage I) | 516 | 2.932 |
+| Frame selezionati (Stage II = chiamate Stage III) | 1.254 | 4.643 |
+| Tempo macchina Stage I / II | — | 44,3 h / 25,2 h |
 
 **Frame delle clip ritrovati nei film** (pHash dopo ritaglio delle bande nere + copertura delle parole OCR, poi
-revisione manuale dei casi dubbi con le immagini affiancate): **99,0%** dei frame delle clip è presente tra i frame
-dei film. 53 segnalati come probabilmente mancanti: 14 presenti, 26 frame di clip senza crediti (watermark, oggetti
-di scena, transizioni), **13 mancanti davvero** — 8 crediti di persone (*Prime Suspect*: parte del rullo finale,
-Director of Photography, Producer; *Amelie*: montatore; *Fight Club*: cartello iniziale di Edward Norton, il cui nome è
-comunque nel cast dei titoli di coda), 4 loghi (*Fight Club*), 1 titolo (*El desorden que dejas*).
+revisione manuale dei casi dubbi con le immagini affiancate): **99,4%** dei frame delle clip è presente tra i frame
+dei film. 48 segnalati come probabilmente mancanti: 14 presenti, 26 frame di clip senza crediti (watermark, oggetti
+di scena, transizioni), **8 mancanti davvero** — 3 cartelli di persone (*Prime Suspect*: Director of Photography, il
+campione dello scroll finale che lo conteneva cadeva su una dissolvenza ed è stato scartato, e con lui il cartello
+del montatore; *Amelie*: montatore; *Fight Club*: cartello iniziale di Edward Norton, il cui nome è comunque nel cast
+dei titoli di coda), 4 loghi (*Fight Club*), 1 titolo (*El desorden que dejas*).
 
 **Crediti estratti dai film contro il gold** (20 prodotti):
 
@@ -118,17 +120,20 @@ comunque nel cast dei titoli di coda), 4 loghi (*Fight Club*), 1 titolo (*El des
 |---|---:|---:|---:|---:|---:|---:|
 | Clip, prima revisione | 0,948 | 0,958 | 0,938 | 0,904 | 1.254 | 65 USD |
 | Clip rifatte (stesso codice dei film) | 0,956 | 0,962 | 0,951 | 0,911 | 1.262 | 65 USD |
-| **Film interi** | **0,943** | 0,944 | 0,943 | **0,901** | 4.628 | 214 USD |
+| **Film interi** | **0,948** | 0,949 | 0,947 | **0,905** | 4.643 | 215 USD |
 
-La pipeline completa sui film interi resta vicina alle clip tagliate a mano (−1,3 punti sui nomi, −1,0 su nome+ruolo)
-a circa 3,3 volte il costo. Il calo è concentrato: *Prime Suspect* (recall 0,96 → 0,71, rullo finale perso da
-Stage II), falsi positivi da testo dentro le scene in *Dark*, *La grande bellezza*, *The World At War*; su altri
+La pipeline completa sui film interi resta vicina alle clip tagliate a mano (−0,8 punti sui nomi, −0,6 su nome+ruolo)
+a circa 3,3 volte il costo. Il calo viene soprattutto da falsi positivi da testo dentro le scene in *Dark*, *La grande bellezza*, *The World At War*; su altri
 titoli i film vanno meglio (*Fight Club*, *Maigret*, *Romanzo criminale*, *Yes, Prime Minister*).
 
 Note sulla run: lo Stage I di *La grande bellezza* è stato rifatto (la prima volta 3 processi in parallelo sulla GPU
 avevano esaurito la memoria e 31.177 chiamate OCR erano fallite in silenzio, compresi i titoli di coda); i file
 interi di *Eternal Sunshine* e *Yes, Prime Minister* erano sbagliati e sono stati sostituiti, con Stage I–IV rifatti
-da zero. Il confronto dei segmenti di Stage I con i confini annotati (precision, recall, IoU) richiede le annotazioni
+da zero. Anche *Prime Suspect* è stato sostituito con un file nuovo (8/10/2026) e rifatto da zero: il primo export
+(DaVinci Resolve, solo video + traccia timecode) rompeva il salto ai frame nello Stage II, che leggeva frame dalle
+posizioni sbagliate; il file usato è un remux senza perdita in `.mkv` (pacchetti video identici), su cui tutti i 226
+frame selezionati coincidono con quelli veri. Le run scartate di *Prime Suspect* (vecchio file 9,38 USD, export
+DaVinci 3,34 USD) non sono nei totali; i dettagli sono in `run_info.json` (`replaced_inputs`). Il confronto dei segmenti di Stage I con i confini annotati (precision, recall, IoU) richiede le annotazioni
 e non è ancora fatto: i dati sono pronti (vedi sotto).
 
 ---
@@ -165,7 +170,7 @@ e non è ancora fatto: i dati sono pronti (vedi sotto).
 | `section_C_holdout_check.py` | indagine sullo 0,925 → `results/C_holdout_check.md`, `C_holdout_check_credits.csv` (confronto credito per credito) |
 | `section_D_frame_overlap.py` | frame clip vs film → `results/D_frame_overlap.md`, `D_frame_overlap.csv` (per titolo), `D_frame_overlap_frames.csv` (per frame), `D_likely_missing_review.csv` (revisione manuale con verdetti), `D_likely_missing/` (immagini affiancate, solo in locale: non nel repository né negli zip), `D_review_present_in_film.csv`, `D_review_missing_in_film.csv`, `D_review_no_credit_in_clip.csv` |
 | `section_D_full_films.py` | report sezione D → `D_full_films_stage1_stage2.md` (Stage I/II per titolo, frame ritrovati, crediti vs gold), `results/D_full_films.csv`, `D_credits_vs_gold.csv`, `D_credits_per_product.csv` |
-| `data/*.csv` | un CSV dei crediti per dataset: `ORIG_SOL_20products`, `ORIG_SOL_holdout5`, `A_NAIVE_0.8s/2.4s/4.8s`, `B_CAP150/100/75`, `C_SOL_r1…r5`, `C_GEMMA_r1…r5`, `D_FULL` |
+| `data/*.csv` | un CSV dei crediti per dataset: `ORIG_SOL_20products`, `ORIG_SOL_holdout5`, `A_NAIVE_0.8s/2.4s/4.0s/4.8s`, `B_CAP150/100/75`, `C_SOL_r1…r5`, `C_GEMMA_r1…r5`, `D_FULL` |
 | `data/datasets.json` | per ogni dataset: run, CSV e DB di origine, prodotti presi da ciascuno, chiamate, token, costo |
 
 Ordine per rigenerare: `build_datasets.py`, poi le sezioni A, B, C, `section_C_holdout_check.py`,
@@ -182,7 +187,7 @@ Ordine per rigenerare: `build_datasets.py`, poi le sezioni A, B, C, `section_C_h
 
 | Run | Blocco |
 |---|---|
-| `NAIVE_2.4s`, `NAIVE_4.8s` | A |
+| `NAIVE_2.4s`, `NAIVE_4.0s`, `NAIVE_4.8s` | A |
 | `PIPE_cap150`, `PIPE_cap100`, `PIPE_cap75`, `PIPE_noscroll_cap150`, `PIPE_noscroll_cap100`, `PIPE_noscroll_cap75` | B |
 | `STAGE2_holdout_cap150` | verifica dello Stage II sull'hold-out (senza Stage III) |
 | `REP_SOL_r1…r5`, `REP_GEMMA_r1…r5` | C |

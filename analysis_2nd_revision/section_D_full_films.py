@@ -101,9 +101,10 @@ def frame_overlap_section() -> list[str]:
         + "; ".join(f"{len(v)} {KIND_EN.get(k, k)}" for k, v in sorted(kinds.items(), key=lambda kv: -len(kv[1])))
         + (f"; {unchecked} not checked yet." if unchecked else "."), "",
         f"**After the check, {present:,} of {total_clip:,} clip frames ({100 * present / total_clip:.1f}%) are present "
-        "among the full-film frames.** The person credits truly lost on the films are concentrated in *Prime Suspect* "
-        "(part of the end roll, Director of Photography, Producer) plus two single cards (*Amelie*: editor; *Fight Club*: "
-        "the opening *Edward Norton* card, whose name is still in the end-credit cast list).", "",
+        "among the full-film frames.** The person credits truly lost on the films are single cards: *Prime Suspect* "
+        "(Director of Photography: the end-roll scroll sample that would show it fell on a fade frame and was skipped; "
+        "the Film Editor card in the same gap is lost too), *Amelie* (editor) and *Fight Club* (the opening "
+        "*Edward Norton* card, whose name is still in the end-credit cast list).", "",
         "### Missing clip frames", "", "\n".join(miss_table), "",
         "### Per title", "", "\n".join(table), "",
         "Lists: `results/D_review_present_in_film.csv`, `results/D_review_missing_in_film.csv`, "

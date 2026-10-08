@@ -23,7 +23,7 @@ python analysis_2nd_revision/section_D_frame_overlap.py # results/D_frame_overla
 | `ORIG_SOL_20products` | 20 | first-revision run `db/FUZZY88_GPT_SOL_STANDARD_25products_tvcredits_v3.db`, main corpus |
 | `ORIG_SOL_holdout5` | 5 | same run, the 5 hold-out products |
 | `A_NAIVE_0.8s` | 20 | first-revision naive run (`NAIVE_FUZZY88_..._20products`) |
-| `A_NAIVE_2.4s`, `A_NAIVE_4.8s` | 20 | `runs/NAIVE_2.4s`, `runs/NAIVE_4.8s` (k = 3 and 6 subsamples of the 0.8 s frames) |
+| `A_NAIVE_2.4s`, `A_NAIVE_4.0s`, `A_NAIVE_4.8s` | 20 | `runs/NAIVE_2.4s`, `runs/NAIVE_4.0s`, `runs/NAIVE_4.8s` (k = 3, 5 and 6 subsamples of the 0.8 s frames) |
 | `B_CAP150` | 20 | `runs/PIPE_cap150` (14 roll titles) + `runs/PIPE_noscroll_cap150` (6 titles) |
 | `B_CAP100`, `B_CAP75` | 20 | `runs/PIPE_cap<N>` (14 roll titles) + `runs/PIPE_noscroll_cap<N>` (Yes, Prime Minister, whose roll is found since 5fec349) + the other 5 titles from `runs/PIPE_noscroll_cap150` |
 | `C_SOL_r1..r5` | 5 | `runs/REP_SOL_r<n>`, the 207 July hold-out frames |
@@ -58,5 +58,5 @@ functions instead of copying them, so the numbers cannot drift from the paper's 
 | `section_D_full_films.py` | D: Stage I/II on full films vs hand-cut clips | `D_full_films_stage1_stage2.md` (shots, candidate scenes, frames, machine time per title) |
 | `section_D_frame_overlap.py` | D: are the clip frames also selected on the full films? | per title: visual match (pHash after border crop), OCR-word coverage, likely missing frames; per-frame CSV |
 
-Block D ran end to end (4,628 Stage III calls on the films, 213.68 USD); `section_D_full_films.py` also compares
+Block D ran end to end (4,643 Stage III calls on the films, 214.27 USD); `section_D_full_films.py` also compares
 the credits extracted from the films with the gold set, next to the clips (`results/D_credits_vs_gold.csv`).

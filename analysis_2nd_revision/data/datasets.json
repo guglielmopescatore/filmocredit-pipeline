@@ -241,6 +241,74 @@
     "cost_usd": 110.0867,
     "cost_usd_uncached": 111.5045
   },
+  "A_NAIVE_4.0s": {
+    "csv": "A_NAIVE_4.0s.csv",
+    "products": [
+      "8_e_mezzo",
+      "Amelie",
+      "Apocalypse_Now",
+      "Chernobyl_S01E01",
+      "Dark_1x9",
+      "El_desorden_que_dejas_S01E03",
+      "Eternal_Sunshine_of_the_Spotless_Mind",
+      "Fight_Club",
+      "Hill_Street_Blues_1x13",
+      "La_grande_bellezza",
+      "La_piovra_1x2",
+      "Maigret_S03E01",
+      "Planet_Earth_S01E10",
+      "Prime_Suspect_1x1",
+      "Psycho",
+      "Romanzo_criminale_S01E01",
+      "Se7en",
+      "The_World_At_War_S01E03",
+      "Twin_Peaks_1x3",
+      "Yes,_Prime_Minister_1x8"
+    ],
+    "rows": 5153,
+    "note": "k = 5 subsample of the 0.8 s frames",
+    "parts": [
+      {
+        "run_id": "NAIVE_4.0s",
+        "csv": "runs\\NAIVE_4.0s\\run_output\\NAIVE_4.0s_FUZZY88_GPT_SOL_STANDARD_20products.csv",
+        "db": "runs\\NAIVE_4.0s\\db\\tvcredits_v3.db",
+        "products": [
+          "8_e_mezzo",
+          "Amelie",
+          "Apocalypse_Now",
+          "Chernobyl_S01E01",
+          "Dark_1x9",
+          "El_desorden_que_dejas_S01E03",
+          "Eternal_Sunshine_of_the_Spotless_Mind",
+          "Fight_Club",
+          "Hill_Street_Blues_1x13",
+          "La_grande_bellezza",
+          "La_piovra_1x2",
+          "Maigret_S03E01",
+          "Planet_Earth_S01E10",
+          "Prime_Suspect_1x1",
+          "Psycho",
+          "Romanzo_criminale_S01E01",
+          "Se7en",
+          "The_World_At_War_S01E03",
+          "Twin_Peaks_1x3",
+          "Yes,_Prime_Minister_1x8"
+        ],
+        "calls": 1328,
+        "input_tokens": 14348463,
+        "cache_read_tokens": 87243,
+        "output_tokens": 477945,
+        "cost_usd": 66.6387,
+        "cost_usd_uncached": 66.9528
+      }
+    ],
+    "calls": 1328,
+    "input_tokens": 14348463,
+    "cache_read_tokens": 87243,
+    "output_tokens": 477945,
+    "cost_usd": 66.6387,
+    "cost_usd_uncached": 66.9528
+  },
   "A_NAIVE_4.8s": {
     "csv": "A_NAIVE_4.8s.csv",
     "products": [
@@ -602,7 +670,7 @@
       "Twin_Peaks_1x3",
       "Yes,_Prime_Minister_1x8"
     ],
-    "rows": 6160,
+    "rows": 6154,
     "note": "full-length films, Stage I (whole episode) + II (cap 150) + III + IV, f9c9bb6, OCR en",
     "parts": [
       {
@@ -631,20 +699,20 @@
           "Twin_Peaks_1x3",
           "Yes,_Prime_Minister_1x8"
         ],
-        "calls": 4628,
-        "input_tokens": 50151058,
-        "cache_read_tokens": 151575,
-        "output_tokens": 680970,
-        "cost_usd": 213.678,
-        "cost_usd_uncached": 214.2236
+        "calls": 4643,
+        "input_tokens": 50312353,
+        "cache_read_tokens": 162322,
+        "output_tokens": 680166,
+        "cost_usd": 214.2684,
+        "cost_usd_uncached": 214.8527
       }
     ],
-    "calls": 4628,
-    "input_tokens": 50151058,
-    "cache_read_tokens": 151575,
-    "output_tokens": 680970,
-    "cost_usd": 213.678,
-    "cost_usd_uncached": 214.2236
+    "calls": 4643,
+    "input_tokens": 50312353,
+    "cache_read_tokens": 162322,
+    "output_tokens": 680166,
+    "cost_usd": 214.2684,
+    "cost_usd_uncached": 214.8527
   },
   "C_SOL_r1": {
     "csv": "C_SOL_r1.csv",

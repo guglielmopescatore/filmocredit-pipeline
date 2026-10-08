@@ -5,7 +5,7 @@ Section A - naive interval curve (RIEPILOGO_run_v2.md, block A).
 Does a sparser uniform sampling cost less than the pipeline and perform as well?
 Compares, on the 20 main-corpus products against the human gold set:
   the pipeline of the first revision (ORIG_SOL_20products) and the naive runs at
-  0.8 s (first revision), 2.4 s and 4.8 s (k = 3 and 6 subsamples of the 0.8 s frames).
+  0.8 s (first revision), 2.4 s, 4.0 s and 4.8 s (k = 3, 5 and 6 subsamples of the 0.8 s frames).
 
 Outputs results/A_naive.csv, results/A_naive_per_product.csv, results/A_naive.md.
 Usage: python analysis_2nd_revision/section_A_naive.py
@@ -17,6 +17,7 @@ RUNS = [
     ("ORIG_SOL_20products", "Pipeline (first revision)"),
     ("A_NAIVE_0.8s", "Naive 0.8 s"),
     ("A_NAIVE_2.4s", "Naive 2.4 s"),
+    ("A_NAIVE_4.0s", "Naive 4.0 s"),
     ("A_NAIVE_4.8s", "Naive 4.8 s"),
 ]
 
