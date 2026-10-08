@@ -560,6 +560,8 @@ def main() -> None:
                                                           "an episode that fails is recorded and skipped (default: in-process)")
     parser.add_argument("--redo-episodes", nargs="+", metavar="EPISODE",
                         help="redo Stage I and II of these episodes (done markers cleared, old timings kept in run_info.json)")
+    parser.add_argument("--only-episodes", nargs="+", metavar="EPISODE",
+                        help="run Stages I-IV on these episodes only; the others keep their results")
     parser.add_argument("--redo-reason", help="why the episodes are redone (written to run_info.json)")
     parser.add_argument("--worker-stage", choices=["stage1", "stage2"], help=argparse.SUPPRESS)
     parser.add_argument("--worker-episode", help=argparse.SUPPRESS)
@@ -571,6 +573,12 @@ def main() -> None:
     info = load_run(run_dir)
     params = info["parameters"]
     episodes = list(info["submitted_frames"])
+    all_episodes = episodes
+    if args.only_episodes:
+        unknown = [ep for ep in args.only_episodes if ep not in episodes]
+        if unknown:
+            sys.exit(f"Unknown episodes: {unknown}")
+        episodes = args.only_episodes
 
     # Import the worktree's own code, with the worktree as project root.
     os.chdir(run_dir)
@@ -626,7 +634,7 @@ def main() -> None:
             sys.exit("Stage I outputs missing")
     else:
         frames = {ep: sorted(p.name for p in config.get_frames_dir(ep, naive_mode=params["naive_mode"]).glob("*.jpg")) for ep in episodes}
-        frames_ok = frames == {ep: sorted(v) for ep, v in info["submitted_frames"].items()}
+        frames_ok = frames == {ep: sorted(info["submitted_frames"][ep]) for ep in episodes}
         logging.info(
             f"[RUN] {info['run_id']} commit={info['git_commit'][:7]} provider={provider} "
             f"naive={params['naive_mode']} fuzzy={params['fuzzy_threshold']} episodes={len(episodes)} "
@@ -675,7 +683,7 @@ def main() -> None:
             else:
                 stage2(run_dir, episodes, params)
             stage_seconds["stage2"] = round(time.perf_counter() - t0, 1)
-        record_stage2_frames(run_dir, info, episodes)
+        record_stage2_frames(run_dir, info, [ep for ep in all_episodes if ep not in info.get("stage2_failed", {})])
         info["stage_seconds_before_stage3"] = stage_seconds
         (run_dir / "run_info.json").write_text(json.dumps(info, indent=2, ensure_ascii=False), encoding="utf-8")
     if args.until_stage2:
@@ -689,6 +697,11 @@ def main() -> None:
         stage4(episodes, params)
         stage_seconds["stage4"] = round(time.perf_counter() - t0, 1)
 
+    if args.only_episodes:
+        # Keep the stage times of the full run; record those of the partial redo next to them.
+        summary_path = run_dir / "run_output" / "summary.json"
+        previous = json.loads(summary_path.read_text(encoding="utf-8")).get("stage_seconds", {}) if summary_path.exists() else {}
+        stage_seconds = {**previous, f"redo_{'+'.join(episodes)}": stage_seconds}
     summary = finalize(run_dir, info, stage_seconds)
     logging.info(f"[RUN] {summary['frame_check']}: {summary['frames_called']}/{summary['frames_expected']} frames, cost {summary['totals']['cost_usd']} USD")
 

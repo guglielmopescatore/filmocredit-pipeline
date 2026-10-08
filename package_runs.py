@@ -23,7 +23,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 RUNS = ROOT / "runs"
-RUN_IDS = (["NAIVE_2.4s", "NAIVE_4.8s", "PIPE_cap150", "PIPE_cap100", "PIPE_cap75", "PIPE_noscroll_cap150",
+RUN_IDS = (["NAIVE_2.4s", "NAIVE_4.0s", "NAIVE_4.8s", "PIPE_cap150", "PIPE_cap100", "PIPE_cap75", "PIPE_noscroll_cap150",
             "PIPE_noscroll_cap100", "PIPE_noscroll_cap75", "STAGE2_holdout_cap150"]
            + [f"REP_SOL_r{n}" for n in range(1, 6)] + [f"REP_GEMMA_r{n}" for n in range(1, 6)] + ["FULL_pipeline"])
 FORBIDDEN_SUFFIXES = {".jpg", ".jpeg", ".png", ".mp4", ".mkv", ".mov", ".avi", ".webm", ".tsv", ".parquet", ".gguf"}

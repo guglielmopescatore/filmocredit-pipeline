@@ -59,5 +59,6 @@ file_per_analisi/
 /data/raw/
 /runs/
 /runs_verification_light.zip
+/FULL_stage1_localization.zip
 /zenodo_second_revision/
 analysis_2nd_revision/results/D_likely_missing/
